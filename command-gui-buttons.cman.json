@@ -1,0 +1,526 @@
+{
+  "id": "command-gui-buttons",
+  "slug": "command-gui-buttons",
+  "name": "Command GUI Buttons",
+  "description": "A fabric mod can create custom command buttons on players' clients.",
+  "versions": [
+    {
+      "id": "obXJFrnS",
+      "name": "Command GUI Buttons 2.3.0",
+      "version_number": "2.3.0",
+      "game_versions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20.6",
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "99997409d117e2b144dd581e4f3c19c22d1c93ff62af132ffeb11b18db2e10a9b5fdb7a0577d8a1d55d883373cc1b9091471292d514825dac5c5c373987b9ac7",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/obXJFrnS/CommandGUIButtons-all-2.3.0%2Bbuild.235%2Bbb785b5.jar",
+          "filename": "CommandGUIButtons-all-2.3.0+build.235+bb785b5.jar",
+          "primary": true,
+          "size": 332556
+        },
+        {
+          "sha512": "bd54327ec927964d69a92ea78e390be820d5da2a43bc87b3fad80809be677696e716231b10b515ae66339400501dcfa98813df3580907db9550d2aaa859f4827",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/obXJFrnS/CommandGUIButtons-mc1.16.x-2.3.0%2Bbuild.235%2Bbb785b5.jar",
+          "filename": "CommandGUIButtons-mc1.16.x-2.3.0+build.235+bb785b5.jar",
+          "primary": false,
+          "size": 45318
+        },
+        {
+          "sha512": "13bc8c6d423f946f8063c7198b5b5a4267daf17472087176ead8b08e9e48c5e1eb2e8cf3703edef961149ebe8bc4eb40aa9e9c4cc250b680aa360c612bab2db6",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/obXJFrnS/CommandGUIButtons-mc1.17.x-2.3.0%2Bbuild.235%2Bbb785b5.jar",
+          "filename": "CommandGUIButtons-mc1.17.x-2.3.0+build.235+bb785b5.jar",
+          "primary": false,
+          "size": 44921
+        },
+        {
+          "sha512": "dd7a8f85390c39ad5018ec2c7be54cb21e1c2bffed444d1d443232cdbd905349e27b66b1d8e9aada8550754dfbefdd6fa6c3b86f1974e655e221af9dd06cd211",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/obXJFrnS/CommandGUIButtons-mc1.18.x-2.3.0%2Bbuild.235%2Bbb785b5.jar",
+          "filename": "CommandGUIButtons-mc1.18.x-2.3.0+build.235+bb785b5.jar",
+          "primary": false,
+          "size": 44826
+        },
+        {
+          "sha512": "1b58875d6ea54a2c1fb6b77c3e5898b3f7aa8687cdeae3372489675504d7625fc931826f1b705267980817e81e5b1e33bd590d92204e2a61e7c4a67c8f08fd35",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/obXJFrnS/CommandGUIButtons-mc1.19.1-1.19.2-2.3.0%2Bbuild.235%2Bbb785b5.jar",
+          "filename": "CommandGUIButtons-mc1.19.1-1.19.2-2.3.0+build.235+bb785b5.jar",
+          "primary": false,
+          "size": 45244
+        },
+        {
+          "sha512": "1b102df9b2699a796d13914c5d3fba494489dc687e4737e8c3bdbc235a22f5e5b7012815cb84dae4e80a1eb6062e50913fd4169868774d5feca0c187be6ef0bf",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/obXJFrnS/CommandGUIButtons-mc1.19.3-2.3.0%2Bbuild.235%2Bbb785b5.jar",
+          "filename": "CommandGUIButtons-mc1.19.3-2.3.0+build.235+bb785b5.jar",
+          "primary": false,
+          "size": 44953
+        },
+        {
+          "sha512": "869e8015c8033f17b074434ae1eecd148756a59a2a89066e993be8af25399e98509770b5066b19223850ee1b2eca76df70a21b8839abb044cf1691b3055a36cf",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/obXJFrnS/CommandGUIButtons-mc1.19.4-2.3.0%2Bbuild.235%2Bbb785b5.jar",
+          "filename": "CommandGUIButtons-mc1.19.4-2.3.0+build.235+bb785b5.jar",
+          "primary": false,
+          "size": 44928
+        },
+        {
+          "sha512": "241c4ec75e0db6517ec3eb60bccb3baee0dc951886ad61e0b0bca60ce6a77dd0fc377fbc063849056e7a9e4e97989005caf5a6c7d797a262f4961ced33a35792",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/obXJFrnS/CommandGUIButtons-mc1.20.6-2.3.0%2Bbuild.235%2Bbb785b5.jar",
+          "filename": "CommandGUIButtons-mc1.20.6-2.3.0+build.235+bb785b5.jar",
+          "primary": false,
+          "size": 45053
+        },
+        {
+          "sha512": "62ffd978fa63f6676092ebad0a5eed06e67ec962ac9da99d45e26a075941f44f9f30db1936a7cb01a577313c61130b340cb6bf96acd6d0037432a61a50b2fa48",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/obXJFrnS/CommandGUIButtons-mc1.21-2.3.0%2Bbuild.235%2Bbb785b5.jar",
+          "filename": "CommandGUIButtons-mc1.21-2.3.0+build.235+bb785b5.jar",
+          "primary": false,
+          "size": 45040
+        }
+      ]
+    },
+    {
+      "id": "zRk3oiA8",
+      "name": "Command GUI Buttons 2.2.2",
+      "version_number": "2.2.2",
+      "game_versions": [
+        "1.16.5",
+        "1.17.1",
+        "1.18.2",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20.2",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "cb6bdbf4b5d4d12939baf0766fbcc26a9b08ea86ad68caeef7da58aa0dfd16c5e94dce957dd9f6c913f09e9442753acfbd09e6a92d9c3f43a854618d1aa2b219",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/zRk3oiA8/CommandGUIButtons-aio-2.2.2%2Bbuild.202%2B3324f5e.jar",
+          "filename": "CommandGUIButtons-aio-2.2.2+build.202+3324f5e.jar",
+          "primary": true,
+          "size": 330014
+        },
+        {
+          "sha512": "3b61fdd5d3cf9c4889da23c9cbe9e1a6f6cfd5dd5fc161a817667e6a88432846a0e3b6d03dbb5ece55cdfc6ccc235fca22bb8b267ba3637555c47cf929ea0c94",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/zRk3oiA8/CommandGUIButtons-mc1.16.x-2.2.2%2Bbuild.202%2B3324f5e.jar",
+          "filename": "CommandGUIButtons-mc1.16.x-2.2.2+build.202+3324f5e.jar",
+          "primary": false,
+          "size": 45023
+        },
+        {
+          "sha512": "c993b9a0759fe51fc7af520b6f5dc03e3b54d9c48564c0c88f1f09fa455afbc2714ef459846fbd62cf8b5fbce5ebeddaa792782fa85f35d2c809b43b85b0930a",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/zRk3oiA8/CommandGUIButtons-mc1.17.x-2.2.2%2Bbuild.202%2B3324f5e.jar",
+          "filename": "CommandGUIButtons-mc1.17.x-2.2.2+build.202+3324f5e.jar",
+          "primary": false,
+          "size": 44637
+        },
+        {
+          "sha512": "8515482460ba3b9aa3a941ed41d9fa40cfb6ea474ca2f789dbaa4ff26d5514700a1c0b71d838b569c959bcab932a84a62bc0b1fec7ee719f6f68ae1aba20e7ab",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/zRk3oiA8/CommandGUIButtons-mc1.18.x-2.2.2%2Bbuild.202%2B3324f5e.jar",
+          "filename": "CommandGUIButtons-mc1.18.x-2.2.2+build.202+3324f5e.jar",
+          "primary": false,
+          "size": 44540
+        },
+        {
+          "sha512": "be557d70d15446a67d04624ccb18e4560e26f2b0cd02a9122271e1a6e55bff0a9eb02830ae0122565e3807363619e3eaee4e28d1d721a8a3d2d648e4873d7e10",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/zRk3oiA8/CommandGUIButtons-mc1.19.1-1.19.2-2.2.2%2Bbuild.202%2B3324f5e.jar",
+          "filename": "CommandGUIButtons-mc1.19.1-1.19.2-2.2.2+build.202+3324f5e.jar",
+          "primary": false,
+          "size": 44959
+        },
+        {
+          "sha512": "a572f85bc949cace4d76a6d0d847dcab95ec8a229b69a6f97c26b1bac9b0a0728087657931d04701d12835dea445f7535970116e43d1ffaa4ac5e9ea5586c153",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/zRk3oiA8/CommandGUIButtons-mc1.19.3-2.2.2%2Bbuild.202%2B3324f5e.jar",
+          "filename": "CommandGUIButtons-mc1.19.3-2.2.2+build.202+3324f5e.jar",
+          "primary": false,
+          "size": 44668
+        },
+        {
+          "sha512": "de1b5cda4627789ecd1148c47f2449be2db8856070f18524e0cf78dfb1efba76f9ac4dd2b1912f474050e5c950d69e4f8aba21dc5fddaaee817d503a1d46612b",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/zRk3oiA8/CommandGUIButtons-mc1.19.4-2.2.2%2Bbuild.202%2B3324f5e.jar",
+          "filename": "CommandGUIButtons-mc1.19.4-2.2.2+build.202+3324f5e.jar",
+          "primary": false,
+          "size": 44643
+        },
+        {
+          "sha512": "10f8fe226d9d8dbf894238a72c2822b74136982c430d9af7aedda1bbd80ab2b3c9e8f839c8d2379788e5e449e4b8b23177773d2a4fe7bbfb91f8100f2ebb1487",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/zRk3oiA8/CommandGUIButtons-mc1.20.2-2.2.2%2Bbuild.202%2B3324f5e.jar",
+          "filename": "CommandGUIButtons-mc1.20.2-2.2.2+build.202+3324f5e.jar",
+          "primary": false,
+          "size": 44701
+        },
+        {
+          "sha512": "cb69aa1ff54e5c69bb783ae6835518885979c71c0c3556139da4de0fcc6d5f008e87ccd455d22a3d007dff64ba95874e9da48d6d4e1df2544d0100f2f7a67ae4",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/zRk3oiA8/CommandGUIButtons-mc1.20.4-2.2.2%2Bbuild.202%2B3324f5e.jar",
+          "filename": "CommandGUIButtons-mc1.20.4-2.2.2+build.202+3324f5e.jar",
+          "primary": false,
+          "size": 44702
+        }
+      ]
+    },
+    {
+      "id": "PsjYCiA3",
+      "name": "Command GUI Buttons 2.2.1",
+      "version_number": "2.2.1",
+      "game_versions": [
+        "1.16.5",
+        "1.17.1",
+        "1.18.2",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a833db29874f4daceb1d8bb8ed738395a6b079cfd2281365d297d60c62c4d146dcff451dceba785fe76f677f2806eb8a15389775e37f66010c84a61326e95a1d",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/PsjYCiA3/CommandGUIButtons-all-2.2.1%2Bbuild.185%2B3ad23a8.jar",
+          "filename": "CommandGUIButtons-all-2.2.1+build.185+3ad23a8.jar",
+          "primary": true,
+          "size": 329726
+        },
+        {
+          "sha512": "38bcdacab118340e7d420b0db40abc25c38a8b74f9223a562aade30c67da8df5067d6d0d4bc343f0286cefa09145990206a27f6ca2e51589335073bc578ab0ee",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/PsjYCiA3/CommandGUIButtons-mc1.16.x-2.2.1%2Bbuild.185%2B3ad23a8.jar",
+          "filename": "CommandGUIButtons-mc1.16.x-2.2.1+build.185+3ad23a8.jar",
+          "primary": false,
+          "size": 44994
+        },
+        {
+          "sha512": "5255a90dfeaa5f7d321832efd98fd4b096e7825017aa2592f1e6b628bc8f37d45ca30ac222f7d6b30761c96bec2d4ce3688bc32518842d6b48aa72b2ebb7c04e",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/PsjYCiA3/CommandGUIButtons-mc1.17.x-2.2.1%2Bbuild.185%2B3ad23a8.jar",
+          "filename": "CommandGUIButtons-mc1.17.x-2.2.1+build.185+3ad23a8.jar",
+          "primary": false,
+          "size": 44608
+        },
+        {
+          "sha512": "e06e0e50cd861630dbc85c5873b038c5e11c56530d08d1a573d26d3ed7c60c5e142df7e93fd1b8d14ead8a327d2a633a2cd87f5be0dc43183975ffbbf73f5369",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/PsjYCiA3/CommandGUIButtons-mc1.18.x-2.2.1%2Bbuild.185%2B3ad23a8.jar",
+          "filename": "CommandGUIButtons-mc1.18.x-2.2.1+build.185+3ad23a8.jar",
+          "primary": false,
+          "size": 44508
+        },
+        {
+          "sha512": "096d6fd089991a4a6ac902b5375855afc66473ec409c0810d662438a8e0d4205690479315fe57e790b423274c071d77f37df40840d6da8f7f3167f0f53f1f302",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/PsjYCiA3/CommandGUIButtons-mc1.19.1-1.19.2-2.2.1%2Bbuild.185%2B3ad23a8.jar",
+          "filename": "CommandGUIButtons-mc1.19.1-1.19.2-2.2.1+build.185+3ad23a8.jar",
+          "primary": false,
+          "size": 44926
+        },
+        {
+          "sha512": "b803bd9c459871898023130452af60321dae15fb925649363926796816eb5a7c8d35e1998ad7ab63cda747e71e873558e33cf0daf58b6201600b8f2867dd40d6",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/PsjYCiA3/CommandGUIButtons-mc1.19.3-2.2.1%2Bbuild.185%2B3ad23a8.jar",
+          "filename": "CommandGUIButtons-mc1.19.3-2.2.1+build.185+3ad23a8.jar",
+          "primary": false,
+          "size": 44638
+        },
+        {
+          "sha512": "a59324cc1b505132e733b97b1aa85b63f08c7aeff4bf4dfba5519ef65e92f2f5a975db2202e648205ba36e6138b0c639b0a95b9067179884b5998ae2ddf67943",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/PsjYCiA3/CommandGUIButtons-mc1.19.4-2.2.1%2Bbuild.185%2B3ad23a8.jar",
+          "filename": "CommandGUIButtons-mc1.19.4-2.2.1+build.185+3ad23a8.jar",
+          "primary": false,
+          "size": 44609
+        },
+        {
+          "sha512": "127e78b17ab09fe7d18df802b004cffefb2ddfce0a527945960138539c70724af8b182e7c319857e7c0f90c31e0b82c9a5c253dd59994905412ea560ec959596",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/PsjYCiA3/CommandGUIButtons-mc1.20.1-2.2.1%2Bbuild.185%2B3ad23a8.jar",
+          "filename": "CommandGUIButtons-mc1.20.1-2.2.1+build.185+3ad23a8.jar",
+          "primary": false,
+          "size": 44610
+        },
+        {
+          "sha512": "61dc89533b230404c6195d459f53849e01ae348a64d2be3f9e8bfbe8e582397177c06377144854f298d5519f8e232164de7be4b72754db1814e4d0a4e979c034",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/PsjYCiA3/CommandGUIButtons-mc1.20.2-2.2.1%2Bbuild.185%2B3ad23a8.jar",
+          "filename": "CommandGUIButtons-mc1.20.2-2.2.1+build.185+3ad23a8.jar",
+          "primary": false,
+          "size": 44673
+        }
+      ]
+    },
+    {
+      "id": "tIO6oKly",
+      "name": "Command GUI Buttons 2.2.0",
+      "version_number": "2.2.0",
+      "game_versions": [
+        "1.16.5",
+        "1.17.1",
+        "1.18.2",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d0e24b58eb4057ed973bb5afc08524e8de822416f368941a9d28262270bb397daed43490c4fcecc6e0858be89b9b961dde51028d970977ead493b0cba53d05c2",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/tIO6oKly/CommandGUIButtons-aio-2.2.0%2Bbuild.181%2Be2c1926.jar",
+          "filename": "CommandGUIButtons-aio-2.2.0+build.181+e2c1926.jar",
+          "primary": true,
+          "size": 329693
+        }
+      ]
+    },
+    {
+      "id": "KtRryEjp",
+      "name": "Command GUI Buttons 2.1.0",
+      "version_number": "2.1.0",
+      "game_versions": [
+        "1.16.5",
+        "1.17.1",
+        "1.18.2",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8c5ec90ff58b22a1b27040193e7c2c34ebdad49cb1724d88c41183f7e8a61bf031093e837ee8249056a36a5483a33fc2a8adf060b0460d66d1f724bf908b0b41",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/KtRryEjp/CommandGUIButtons-aio-2.1.0%2Bbuild.148%2Bffcad3b.jar",
+          "filename": "CommandGUIButtons-aio-2.1.0+build.148+ffcad3b.jar",
+          "primary": true,
+          "size": 290249
+        }
+      ]
+    },
+    {
+      "id": "HRQ6gauC",
+      "name": "Command GUI Buttons 2.0.0",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.16.5",
+        "1.17.1",
+        "1.18.2",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5f284c40cdcf33842af67dbaf7620b7f94a7042f17c57f1811a975279c119375415a8785a671a46d5c9668e39b2b1f8e6f93c542bc65d8b2483cedbf2f344220",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/HRQ6gauC/CommandGUIButtons-aio-2.0.0.134%2Be677df5.jar",
+          "filename": "CommandGUIButtons-aio-2.0.0.134+e677df5.jar",
+          "primary": false,
+          "size": 250221
+        }
+      ]
+    },
+    {
+      "id": "swB7IXvI",
+      "name": "Command GUI Buttons 1.2.0",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "993d65fc8975c51ba021eb183aced336e080df123d5089c3c6464efa3c441c76ffd0386b99ce33006c6e498db6f1498ad83f4e69eab773bff4612f1a4c46910a",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/swB7IXvI/command-gui-buttons-mc1.19.3-fabric-1.2.0.jar",
+          "filename": "command-gui-buttons-mc1.19.3-fabric-1.2.0.jar",
+          "primary": true,
+          "size": 380304
+        }
+      ]
+    },
+    {
+      "id": "YSrzhMKn",
+      "name": "Command GUI Buttons 1.1.0",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8e85c43dc767fbcbeb4dbae14fe7c725c530de11ee82f5cba19f6c747a56c1d0f401734d1b5bf21a6b7506d4b74a980dc97d07917fa0bb46c6de5bd0f7ff8f8f",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/YSrzhMKn/command-gui-buttons-mc1.19.2-fabric-1.1.0.jar",
+          "filename": "command-gui-buttons-mc1.19.2-fabric-1.1.0.jar",
+          "primary": true,
+          "size": 493218
+        }
+      ]
+    },
+    {
+      "id": "so4eYGD9",
+      "name": "Command GUI Buttons 1.0.7",
+      "version_number": "1.0.7",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c29b695ac892eda5a9a7c0fbe72cee4654ea53a86333ae12d66fd75d126a2fb7b55c1d7f50a0f125a087d35a31a182b40a6b9584388831ad7e3e957703bd8d79",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/1.0.7/command-gui-buttons-mc1.19.2-fabric-1.0.7.jar",
+          "filename": "command-gui-buttons-mc1.19.2-fabric-1.0.7.jar",
+          "primary": true,
+          "size": 491884
+        }
+      ]
+    },
+    {
+      "id": "k98UtAnG",
+      "name": "Command GUI Buttons 1.0.6",
+      "version_number": "1.0.6",
+      "game_versions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "43fdaf7879ba8b5511eeda04ae4d082fbb23ac8191e791c7cb68466aa64e77e0b259995b0938ed95f177aa6e2fc32e291bc39de00416df78599253595b6baaf2",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/1.0.6/command-gui-buttons-mc1.19.1-fabric-1.0.6.jar",
+          "filename": "command-gui-buttons-mc1.19.1-fabric-1.0.6.jar",
+          "primary": true,
+          "size": 491881
+        }
+      ]
+    },
+    {
+      "id": "Q4ugRcoi",
+      "name": "Command GUI Buttons 1.0.5",
+      "version_number": "1.0.5",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c54d504935bf2e9edf8b3f7d88a31d406d89278d33676eba2ab944119ca639658cef8783b1407c748d44b3d950ceca1d95fbb6947ed4f31fcc17697e3b7ae7f1",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/1.0.5/command-gui-buttons-mc1.19-fabric-1.0.5.jar",
+          "filename": "command-gui-buttons-mc1.19-fabric-1.0.5.jar",
+          "primary": true,
+          "size": 491576
+        }
+      ]
+    },
+    {
+      "id": "G8YHkKSy",
+      "name": "Command GUI Buttons 1.0.4",
+      "version_number": "1.0.4",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "20a2662cafb9a747bb6acdfc0fb52952a3c60535c20128bad47e1a14f7b6d6e32bd9528b6c5b9cefbbecb232e472ecb951e2c694d741567f0e425dab00dac2c7",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/1.0.4/command-gui-buttons-mc1.19-fabric-1.0.4.jar",
+          "filename": "command-gui-buttons-mc1.19-fabric-1.0.4.jar",
+          "primary": true,
+          "size": 491630
+        }
+      ]
+    },
+    {
+      "id": "gIT4CGuc",
+      "name": "Command GUI Buttons 1.0.3",
+      "version_number": "1.0.3",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "596da2e4d56bb0857c832c6dfb516af6c9fa8466d1fcaf032f096ce663bfe494b6d2c7f4b7827e7d06866f2887c53c01cb8a9b4833ca7766bb2cb26dc8fef437",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/1.0.3/command-gui-buttons-mc1.19-fabric-1.0.3.jar",
+          "filename": "command-gui-buttons-mc1.19-fabric-1.0.3.jar",
+          "primary": true,
+          "size": 491687
+        }
+      ]
+    },
+    {
+      "id": "BOfhswRQ",
+      "name": "Command GUI Buttons 1.0.2",
+      "version_number": "1.0.2",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e8cd608df733e0162f4bc3ce94aa11ed9f24b2722c9d822ccaeeeaaddfe5e09b4111d45723184edc507bc574509acc78f4da3b8b7967015e91bbc16c122b2526",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/1.0.2/command-gui-buttons-mc1.19-fabric-1.0.2.jar",
+          "filename": "command-gui-buttons-mc1.19-fabric-1.0.2.jar",
+          "primary": true,
+          "size": 490487
+        }
+      ]
+    },
+    {
+      "id": "HQnRjYIm",
+      "name": "Command GUI Buttons 1.0.1",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "19c723286908a9079939e37bba82db0452c1c79b657c261cfb088632412da6b43fcf3759983581f59f118e707619e05b249958c5f6b003a54c272af029d7861c",
+          "url": "https://cdn.modrinth.com/data/1E3oheF7/versions/1.0.1/command-gui-buttons-mc1.18.2-fabric-1.0.1.jar",
+          "filename": "command-gui-buttons-mc1.18.2-fabric-1.0.1.jar",
+          "primary": true,
+          "size": 1124710
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4686 @@
+{
+  "id": "roughly-enough-items-server-component",
+  "slug": "roughly-enough-items-server-component",
+  "name": "Roughly Enough Items Server Component (REI-SC)",
+  "description": "A mod to implement the REI server networking protocol to handle server-specific features.",
+  "versions": [
+    {
+      "id": "Gp7FdNjM",
+      "name": "[NeoForge 1.21] v16.0.729",
+      "version_number": "16.0.729+neoforge",
+      "game_versions": [
+        "1.20.6",
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "9334218db2b56e205c383c5e8f47f9061b04a9d623e8c5f5dd89ca79e1d8758eaf4e0d19dea1c38a6e52a3f8d0349155592aa6228f1570b65d6d7e8969bb6319",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/Gp7FdNjM/RoughlyEnoughItems-16.0.729-server-only.jar",
+          "filename": "RoughlyEnoughItems-16.0.729-server-only.jar",
+          "primary": true,
+          "size": 2322250
+        }
+      ]
+    },
+    {
+      "id": "VvR2jxYh",
+      "name": "[Forge 1.20(.1)] v12.1.725",
+      "version_number": "12.1.725+forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "3cfecccc17f2647dcc28a09ba262a9cae21f5a74405aa0f0207a54985adec5ff7aaf051614358116970c950c4437d383315ab783829ef57086f6454ffd85e656",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/VvR2jxYh/RoughlyEnoughItems-12.1.725-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.1.725-server-only.jar",
+          "primary": true,
+          "size": 2322309
+        }
+      ]
+    },
+    {
+      "id": "Lq6h6RZO",
+      "name": "[Forge 1.18.2] v8.4.723",
+      "version_number": "8.4.723+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "4aff7f4fc9191be61f59d19dd81a69ae70a4c80befb5ff8670a283b32729ce44380243fdc05dfe8aa9381d1657596cfb3f08fe7dc1bf09057396927a1a08add3",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/Lq6h6RZO/RoughlyEnoughItems-8.4.723-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.4.723-server-only.jar",
+          "primary": true,
+          "size": 2295691
+        }
+      ]
+    },
+    {
+      "id": "9CYWEioU",
+      "name": "[NeoForge 1.20.2] v13.1.726",
+      "version_number": "13.1.726+neoforge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "0bd4d1a3049e471149acc182a2478de12c0e21926659ca9d88381689dbd93d517fa3da9f95d90320a934c620df1e90fd30f081a21f34c1aafa19a37c475455b1",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9CYWEioU/RoughlyEnoughItems-13.1.726-server-only.jar",
+          "filename": "RoughlyEnoughItems-13.1.726-server-only.jar",
+          "primary": true,
+          "size": 2316989
+        }
+      ]
+    },
+    {
+      "id": "fJ7Rc4lz",
+      "name": "[NeoForge 1.20.5] v15.0.728",
+      "version_number": "15.0.728+neoforge",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "f9c86b7438c0b7d040bbc22216429ef4e413a05177c73553c560c214ed270509fb782c6f0997c8975e2c7914c3d6ea50f1006c64fde6137725ff906c4d98b528",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/fJ7Rc4lz/RoughlyEnoughItems-15.0.728-server-only.jar",
+          "filename": "RoughlyEnoughItems-15.0.728-server-only.jar",
+          "primary": true,
+          "size": 2321781
+        }
+      ]
+    },
+    {
+      "id": "JzkJsvxL",
+      "name": "[Forge 1.20.2] v13.1.726",
+      "version_number": "13.1.726+forge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "49ebd4e90fba9640c58249ba655eebc17edf029d0deb27f948505320ec47920344bb72705538a423d664298181b33e295d9fc30ec10d113fa403a4e7a526635f",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/JzkJsvxL/RoughlyEnoughItems-13.1.726-server-only.jar",
+          "filename": "RoughlyEnoughItems-13.1.726-server-only.jar",
+          "primary": true,
+          "size": 2324338
+        }
+      ]
+    },
+    {
+      "id": "dNl39uLN",
+      "name": "[Forge 1.19-1.19.2] v9.2.724",
+      "version_number": "9.2.724+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "37823bb0a39038b8807315ce158cc73ec612ce86319ec68c0df6089ef587da82dcabbd39a8870641c3580dec31a3382c9485a33c1e53ebb4a36bf2bc108feff0",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/dNl39uLN/RoughlyEnoughItems-9.2.724-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.2.724-server-only.jar",
+          "primary": true,
+          "size": 2293432
+        }
+      ]
+    },
+    {
+      "id": "VQFy1aej",
+      "name": "[NeoForge 1.20.4] v14.1.727",
+      "version_number": "14.1.727+neoforge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "6e81c76bf6dfaf1b6f2bb8a58479dd86054c8f75407be179d6e290c4ba32095a4c34ed2ab53e48b31c8df3e74a2e08e6143dc93ee3ae944d2e6ddfa66f1f4a72",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/VQFy1aej/RoughlyEnoughItems-14.1.727-server-only.jar",
+          "filename": "RoughlyEnoughItems-14.1.727-server-only.jar",
+          "primary": true,
+          "size": 2314589
+        }
+      ]
+    },
+    {
+      "id": "upFWYcVr",
+      "name": "[Forge 1.20.4] v14.1.727",
+      "version_number": "14.1.727+forge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "efab6467b6d2a75c4918b95ad13eaf5ad7f870b0950c53a9eafd0a69687b3405d65bc98f602d97d972dc5cb7f4af13bc50cd1584077bda48a52faf1c73d28fdd",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/upFWYcVr/RoughlyEnoughItems-14.1.727-server-only.jar",
+          "filename": "RoughlyEnoughItems-14.1.727-server-only.jar",
+          "primary": true,
+          "size": 2321889
+        }
+      ]
+    },
+    {
+      "id": "5umnxHLx",
+      "name": "[NeoForge 1.20.5] v15.0.722",
+      "version_number": "15.0.722+neoforge",
+      "game_versions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "2f884f96c133b3e71059bf2ad92224eca9b4a183867721c9b9917ee550c87a67dbfa499467648f2257530f380cd64c07598e7acf66b26f2ea8815ae3184b5fce",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/5umnxHLx/RoughlyEnoughItems-15.0.722-server-only.jar",
+          "filename": "RoughlyEnoughItems-15.0.722-server-only.jar",
+          "primary": true,
+          "size": 2321421
+        }
+      ]
+    },
+    {
+      "id": "QmDqczJL",
+      "name": "[NeoForge 1.20.2] v13.1.719",
+      "version_number": "13.1.719+neoforge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "5b877ca7a8a06d3c5d67b0210531b4874ee2dac5b438bf8c15a6a8669f56f6e24398497ba9e8cad4531f00218d06338b57c98d9d317e6b72260507f397bb9602",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/QmDqczJL/RoughlyEnoughItems-13.1.719-server-only.jar",
+          "filename": "RoughlyEnoughItems-13.1.719-server-only.jar",
+          "primary": true,
+          "size": 2316630
+        }
+      ]
+    },
+    {
+      "id": "OVBj6Tar",
+      "name": "[Forge 1.20.2] v13.1.719",
+      "version_number": "13.1.719+forge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ade2bc09be359a7097115d026afb2df0cf976eede882b9dc79c5673803349155f70da580a9993ba684800bf2cdf779b72b4eaae4d400d1cfcccb91322c9ce993",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/OVBj6Tar/RoughlyEnoughItems-13.1.719-server-only.jar",
+          "filename": "RoughlyEnoughItems-13.1.719-server-only.jar",
+          "primary": true,
+          "size": 2323974
+        }
+      ]
+    },
+    {
+      "id": "cTlKdV6x",
+      "name": "[NeoForge 1.20.4] v14.1.720",
+      "version_number": "14.1.720+neoforge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "a5b4c501d217ba3aeeec24909a112194efa59a07a480178c6d997faa5f6b8ce4bdc716029ed03458e8a34eb955bc4e39ab7b5c183ff76531d9cff77696daade4",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/cTlKdV6x/RoughlyEnoughItems-14.1.720-server-only.jar",
+          "filename": "RoughlyEnoughItems-14.1.720-server-only.jar",
+          "primary": true,
+          "size": 2314232
+        }
+      ]
+    },
+    {
+      "id": "sN8mzOB4",
+      "name": "[Forge 1.20.4] v14.1.720",
+      "version_number": "14.1.720+forge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b36a951297f196ed6669467c5e1a1dfb422673e9a91826d33a377ecf448abc75225a288f3e20e6284e42893fa291e1ab3b61d8c5a0f9e95976668435cebb1138",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/sN8mzOB4/RoughlyEnoughItems-14.1.720-server-only.jar",
+          "filename": "RoughlyEnoughItems-14.1.720-server-only.jar",
+          "primary": true,
+          "size": 2321526
+        }
+      ]
+    },
+    {
+      "id": "5s7WEIXi",
+      "name": "[Forge 1.18.2] v8.4.715",
+      "version_number": "8.4.715+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "530d295f822b503c076e5caf42998063d6ceb036eda7ca29c6a0083f624b3602b5ea92d0697031036b17dec65f4c2de2498a7d176f86b5e98131d7873be91372",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/5s7WEIXi/RoughlyEnoughItems-8.4.715-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.4.715-server-only.jar",
+          "primary": true,
+          "size": 2295343
+        }
+      ]
+    },
+    {
+      "id": "jH014DhB",
+      "name": "[Forge 1.19.4] v11.1.717",
+      "version_number": "11.1.717+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9d1790995a838aad156cc6586c0bca87a9c8082f5ab336f2b7684223243de4da6e41543a6cf57ce92bd24184e25717295b67dc2b67e361bb205cddb275e8193e",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/jH014DhB/RoughlyEnoughItems-11.1.717-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.1.717-server-only.jar",
+          "primary": true,
+          "size": 2320087
+        }
+      ]
+    },
+    {
+      "id": "vvsmq5vF",
+      "name": "[Forge 1.19-1.19.2] v9.2.716",
+      "version_number": "9.2.716+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "3f6f174cec8ba4e461d88671ee87a4fd572cc9a2cd62d54b6274ccfdc945fa24afbf91916ccc59c892fca667332f286d8ae2e461944e4393599f31bced958698",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/vvsmq5vF/RoughlyEnoughItems-9.2.716-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.2.716-server-only.jar",
+          "primary": true,
+          "size": 2293084
+        }
+      ]
+    },
+    {
+      "id": "2wuTCzEs",
+      "name": "[Forge 1.20(.1)] v12.1.718",
+      "version_number": "12.1.718+forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0c8fd2105085376e611507eba4cf2c949660af2266b72e29dc2c7fdee82fc936aa7bb7e8f3c9967d6c6cc866fe93fd145f3f617cfcb7762b2249cc1ac315b3f5",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/2wuTCzEs/RoughlyEnoughItems-12.1.718-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.1.718-server-only.jar",
+          "primary": true,
+          "size": 2321948
+        }
+      ]
+    },
+    {
+      "id": "7dfgjviP",
+      "name": "[NeoForge 1.20.2] v13.1.713",
+      "version_number": "13.1.713+neoforge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "f20cb8e68186d17e31ad32747a14ba7aec5b973a4716607ee7608a9652d0850341db6c9acb3e4bd0d4cdf964f477a3dfa4f23fc5e75cdccf27241e2093aa83c1",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/7dfgjviP/RoughlyEnoughItems-13.1.713-server-only.jar",
+          "filename": "RoughlyEnoughItems-13.1.713-server-only.jar",
+          "primary": true,
+          "size": 2313759
+        }
+      ]
+    },
+    {
+      "id": "bwwAOdO7",
+      "name": "[Forge 1.20.2] v13.1.713",
+      "version_number": "13.1.713+forge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "805c4819de1e11c7e29a52ea8e585a3180ad1171c992b85dfc95d8a004d2e3bf3909fb6bf01b8f5aecb2af3d2cf534a7ae92fa3c2b580daafbe8fc943dc52b7b",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/bwwAOdO7/RoughlyEnoughItems-13.1.713-server-only.jar",
+          "filename": "RoughlyEnoughItems-13.1.713-server-only.jar",
+          "primary": true,
+          "size": 2321117
+        }
+      ]
+    },
+    {
+      "id": "F2zen9Jn",
+      "name": "[Forge 1.20(.1)] v12.1.712",
+      "version_number": "12.1.712+forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5542ad046e137dea1a72e7fab83c43f5b66bdd15eee73f8e20122f1430ce06565f6c781536986b30dc7cd29f479bfabfed600d87cb14e73ec0c30c25922f55d6",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/F2zen9Jn/RoughlyEnoughItems-12.1.712-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.1.712-server-only.jar",
+          "primary": true,
+          "size": 2319091
+        }
+      ]
+    },
+    {
+      "id": "wVb0gClA",
+      "name": "[NeoForge 1.20.4] v14.1.714",
+      "version_number": "14.1.714+neoforge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "4ea875fbc32522bfb4add394cba4d398390d111fd8901b4efde48835df9fc071e32338e0c0af5b16d37f80c41f7dc6ed47b52534e8b99d0d5307aeaf02f157aa",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/wVb0gClA/RoughlyEnoughItems-14.1.714-server-only.jar",
+          "filename": "RoughlyEnoughItems-14.1.714-server-only.jar",
+          "primary": true,
+          "size": 2311360
+        }
+      ]
+    },
+    {
+      "id": "SktZafiV",
+      "name": "[Forge 1.20.4] v14.1.714",
+      "version_number": "14.1.714+forge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "4e153d69c860b504eed6debd4b239fcb01f6333a15e2ed25e87e4afde0fb612075d5d2e1b8eb21fc6303527cee9e4370bffc2e6f5b1b313451c7132f7707d0d4",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/SktZafiV/RoughlyEnoughItems-14.1.714-server-only.jar",
+          "filename": "RoughlyEnoughItems-14.1.714-server-only.jar",
+          "primary": true,
+          "size": 2318669
+        }
+      ]
+    },
+    {
+      "id": "v10gUdmz",
+      "name": "[Forge 1.19.4] v11.1.711",
+      "version_number": "11.1.711+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ee145a51d4163a0b2ca90506b8564b8c25e1b939db825bd9a32784d3bc5867b5735b4e8d93e004e4c8b55d3acec4d7ecd23d93098d4297178342240154a80309",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/v10gUdmz/RoughlyEnoughItems-11.1.711-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.1.711-server-only.jar",
+          "primary": true,
+          "size": 2317228
+        }
+      ]
+    },
+    {
+      "id": "cBkvwRwc",
+      "name": "[Forge 1.18.2] v8.4.709",
+      "version_number": "8.4.709+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "479968631d2273a766d0d9b6a1251fb49143e0b5183c61d1bef5a45dfdd9a060ae550c7e4ce510e003b91e4686f0f877d0746a56f7f0534acec45f820f8310db",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/cBkvwRwc/RoughlyEnoughItems-8.4.709-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.4.709-server-only.jar",
+          "primary": true,
+          "size": 2292465
+        }
+      ]
+    },
+    {
+      "id": "zlNHTok6",
+      "name": "[Forge 1.19-1.19.2] v9.2.710",
+      "version_number": "9.2.710+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c144426d8e41d4883f13892572cd4b2ed36210cfb876c13b294ef3ffd9724c8ef8555f92dd820fb979b946881fecf24a514b1d2f33574b5649b565297bdea971",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/zlNHTok6/RoughlyEnoughItems-9.2.710-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.2.710-server-only.jar",
+          "primary": true,
+          "size": 2290218
+        }
+      ]
+    },
+    {
+      "id": "v15SBCkR",
+      "name": "[NeoForge 1.20.4] v14.1.708",
+      "version_number": "14.1.708+neoforge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "958b2576d0f240c68c90b3c42d3014aafaab51ad1fc75dca17e885cb933fdb1cc21cfb25e7f3b075bb1bcde8e787d790a08c41ca0b44abe5b6253e6668d0e5e2",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/v15SBCkR/RoughlyEnoughItems-14.1.708-server-only.jar",
+          "filename": "RoughlyEnoughItems-14.1.708-server-only.jar",
+          "primary": true,
+          "size": 2303850
+        }
+      ]
+    },
+    {
+      "id": "5M1ieyCb",
+      "name": "[Forge 1.20.4] v14.1.708",
+      "version_number": "14.1.708+forge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "fb067717b0bc3a0a1a9f80b155eedd9b9d7fc88092d40c2d5a216177b23300369ae4e1d23dd9d635a07cd94d262a28344b4ba79bf8a050e3d41a68029770a56c",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/5M1ieyCb/RoughlyEnoughItems-14.1.708-server-only.jar",
+          "filename": "RoughlyEnoughItems-14.1.708-server-only.jar",
+          "primary": true,
+          "size": 2311123
+        }
+      ]
+    },
+    {
+      "id": "TmCIzrVq",
+      "name": "[NeoForge 1.20.2] v13.1.706",
+      "version_number": "13.1.706+neoforge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "15595dc2afc0530b5a53808ac9fc0c7784d68830b5b4cdf99ab4f136a60b924e19fbb07e14f367b7b07b73e6579aa40fbf939415663483380198447e85395064",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/TmCIzrVq/RoughlyEnoughItems-13.1.706-server-only.jar",
+          "filename": "RoughlyEnoughItems-13.1.706-server-only.jar",
+          "primary": true,
+          "size": 2306250
+        }
+      ]
+    },
+    {
+      "id": "xRufRgKn",
+      "name": "[Forge 1.20.2] v13.1.706",
+      "version_number": "13.1.706+forge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "73e85af234d5cbd8702f61f2b5afa3ee630bc28188864bf0ccdce8d982b8057e943e4425ac5aba535c9b9360fae7d6df21012f848b58a86e478a47eb33b86a69",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/xRufRgKn/RoughlyEnoughItems-13.1.706-server-only.jar",
+          "filename": "RoughlyEnoughItems-13.1.706-server-only.jar",
+          "primary": true,
+          "size": 2313572
+        }
+      ]
+    },
+    {
+      "id": "fmNXNiDk",
+      "name": "[Forge 1.18.2] v8.4.702",
+      "version_number": "8.4.702+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9272dbfb3a615ed9a3b8b040dc62fb620b3f8618d047c8d9036808a6ecc9f45210f9595aad20501e99e9036ac4a274427dc8c3584cfa50445b14ac4ff4692d3d",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/fmNXNiDk/RoughlyEnoughItems-8.4.702-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.4.702-server-only.jar",
+          "primary": true,
+          "size": 2287086
+        }
+      ]
+    },
+    {
+      "id": "H3LCsp0b",
+      "name": "[NeoForge 1.20.4] v14.1.707",
+      "version_number": "14.1.707+neoforge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "8b9142dfe82969b23257cb011cc7937090e273756d5a0debefe96a0c82471cbdbd1bc16326cae0c18d1c76877fb02d8ab9ba7bb6a22527f2d076f96f72ce683d",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/H3LCsp0b/RoughlyEnoughItems-14.1.707-server-only.jar",
+          "filename": "RoughlyEnoughItems-14.1.707-server-only.jar",
+          "primary": true,
+          "size": 2303779
+        }
+      ]
+    },
+    {
+      "id": "VChSOTCL",
+      "name": "[Forge 1.20.4] v14.1.707",
+      "version_number": "14.1.707+forge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8838c7da036192d44686b07fc07565c1710d819831541e5f6e651c7a9919ecc30ce29c35f30a4031667fe34454967f78a019c5856eaae62dccad08d81314c590",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/VChSOTCL/RoughlyEnoughItems-14.1.707-server-only.jar",
+          "filename": "RoughlyEnoughItems-14.1.707-server-only.jar",
+          "primary": true,
+          "size": 2311057
+        }
+      ]
+    },
+    {
+      "id": "yArmXGNt",
+      "name": "[Forge 1.19.4] v11.1.704",
+      "version_number": "11.1.704+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c7bfaeea3b18c85849338c3f3ac6b789a6702ee6dd8ebe9db6ffaadb5b70e3927b613f706fa2cf5cefec2375662762fa5c541df7fed14cc8355e1c2e1c8b3659",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/yArmXGNt/RoughlyEnoughItems-11.1.704-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.1.704-server-only.jar",
+          "primary": true,
+          "size": 2309631
+        }
+      ]
+    },
+    {
+      "id": "Uhi3vbJF",
+      "name": "[Forge 1.20(.1)] v12.1.705",
+      "version_number": "12.1.705+forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5a1e65a40f75d11976df4d6add318696c4bdaa432c825b47a40bbd727aba4bf47152d3a33ffcaeb6be4f734dd3eb1b1b19b976ca6992539cb972ee15746e4c54",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/Uhi3vbJF/RoughlyEnoughItems-12.1.705-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.1.705-server-only.jar",
+          "primary": true,
+          "size": 2311551
+        }
+      ]
+    },
+    {
+      "id": "mgV22cC7",
+      "name": "[Forge 1.19-1.19.2] v9.2.703",
+      "version_number": "9.2.703+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "fe3f683f04348b2170c9472d01c88fd7ab380d0c1bf3c5a684a1cef3c405a431129c441cd2d20374b38f784ea836849857a66cadd4cf5205db3ddd8955319e83",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/mgV22cC7/RoughlyEnoughItems-9.2.703-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.2.703-server-only.jar",
+          "primary": true,
+          "size": 2282606
+        }
+      ]
+    },
+    {
+      "id": "gDJDZsJp",
+      "name": "[Forge 1.20(.1)] v12.0.697",
+      "version_number": "12.0.697+forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c388686ace2e3ed70236cafb1269d058d8a936eac5c962c391f52fa2ea2e4b93c372ed395d05cce1464395c1a2f56bb4e627584c5dd1ffa84528e287ef6022d5",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/gDJDZsJp/RoughlyEnoughItems-12.0.697-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.0.697-server-only.jar",
+          "primary": true,
+          "size": 2196745
+        }
+      ]
+    },
+    {
+      "id": "eDCUKptT",
+      "name": "[NeoForge 1.20.2] v13.0.698",
+      "version_number": "13.0.698+neoforge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "51cb457f79c96e21335bdd8da7d7b02ec85db8712ef1a2839eade3c1a3540c791bdefedc1eeeb82f1f3acfc61a67f76a123cdbde1d62c0ec6ef66227dbccd469",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/eDCUKptT/RoughlyEnoughItems-13.0.698-server-only.jar",
+          "filename": "RoughlyEnoughItems-13.0.698-server-only.jar",
+          "primary": true,
+          "size": 2191481
+        }
+      ]
+    },
+    {
+      "id": "FJkjRnvI",
+      "name": "[Forge 1.20.2] v13.0.698",
+      "version_number": "13.0.698+forge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0cdf6fd3400d49b05fe3991c82d729913d56e6be20261541183e18cbc99180b5bfb2bd49072fd55ec00807527cf18894ada3525af29a24a99073c120f8feb186",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/FJkjRnvI/RoughlyEnoughItems-13.0.698-server-only.jar",
+          "filename": "RoughlyEnoughItems-13.0.698-server-only.jar",
+          "primary": true,
+          "size": 2198198
+        }
+      ]
+    },
+    {
+      "id": "TWsYbrFH",
+      "name": "[Forge 1.19-1.19.2] v9.1.695",
+      "version_number": "9.1.695+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "790caf8d8e14e0a9a016da73e3787d5427bc6574eff3736d5f88f10279573cd6ed3599e54bef5a4142d1a97d24fb506efc2e6ec252bea06c153d48f6dcb1df7d",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/TWsYbrFH/RoughlyEnoughItems-9.1.695-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.695-server-only.jar",
+          "primary": true,
+          "size": 2172491
+        }
+      ]
+    },
+    {
+      "id": "trexoN6H",
+      "name": "[Forge 1.19.4] v11.0.696",
+      "version_number": "11.0.696+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "19e3ce372bb1f2aed26f5eb50228a3f94fddcf04c09ed632f15db461ff41f6d7e5e1b3a7498ba42d1199de2971e970d7323bcc70f67af0eaa688f17635ea91f2",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/trexoN6H/RoughlyEnoughItems-11.0.696-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.696-server-only.jar",
+          "primary": true,
+          "size": 2194961
+        }
+      ]
+    },
+    {
+      "id": "f0Gpv9Lc",
+      "name": "[Forge 1.18.2] v8.3.694",
+      "version_number": "8.3.694+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "a83a19cc58ff273b447828d71fe68888283e4817bfb35c4b59dab0af0acd46ecd44ec039918685612dfface3fa15c2f2a9da0fef3155ddcdb4a7d7aed5f4c54b",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/f0Gpv9Lc/RoughlyEnoughItems-8.3.694-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.694-server-only.jar",
+          "primary": true,
+          "size": 2174984
+        }
+      ]
+    },
+    {
+      "id": "UYCt913y",
+      "name": "[NeoForge 1.20.4] v14.0.699",
+      "version_number": "14.0.699+neoforge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "a70e0de87e1046300da7bac2f87813c37ed1360753d17eff5496e93b754792eefb874cd04f687327caf1c49b8918491e16684178420304732779ce2963a2b2c9",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/UYCt913y/RoughlyEnoughItems-14.0.699-server-only.jar",
+          "filename": "RoughlyEnoughItems-14.0.699-server-only.jar",
+          "primary": true,
+          "size": 2191489
+        }
+      ]
+    },
+    {
+      "id": "naEHb2bm",
+      "name": "[Forge 1.20.4] v14.0.699",
+      "version_number": "14.0.699+forge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "3c6fd727051217e190aebac5fc55bbbf1f47e0f4421aa6115c94d92dd8ee2dcc7ce9adc06b01a5e3253412903a2071ae121433b57131127fd2c3b07e8943bff4",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/naEHb2bm/RoughlyEnoughItems-14.0.699-server-only.jar",
+          "filename": "RoughlyEnoughItems-14.0.699-server-only.jar",
+          "primary": true,
+          "size": 2198184
+        }
+      ]
+    },
+    {
+      "id": "bGvFKsBs",
+      "name": "[NeoForge 1.20.4] v14.0.692",
+      "version_number": "14.0.692+neoforge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "4d503e2f44aeb4a6f1a86b2008e98f35999843108676836eb3abe3ad2c5f7f697907a5b4dc075a9a291d55ded1fe650fd15851c4ccdb80ca4f1cb6e9745d458f",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/bGvFKsBs/RoughlyEnoughItems-14.0.692-server-only.jar",
+          "filename": "RoughlyEnoughItems-14.0.692-server-only.jar",
+          "primary": true,
+          "size": 2189684
+        }
+      ]
+    },
+    {
+      "id": "IcMSSyAj",
+      "name": "[Forge 1.20.4] v14.0.692",
+      "version_number": "14.0.692+forge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "97d4876e8b2dbcc040c35438264dfe9ad4fdcc58f30e81f660b2d6e22a0daefb7bf6a58f7092b13680b8de05da21922196b6fb09366d292552a28ebf6a4db309",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/IcMSSyAj/RoughlyEnoughItems-14.0.692-server-only.jar",
+          "filename": "RoughlyEnoughItems-14.0.692-server-only.jar",
+          "primary": true,
+          "size": 2196380
+        }
+      ]
+    },
+    {
+      "id": "s0rJCPA3",
+      "name": "[NeoForge 1.20.4] v14.0.688",
+      "version_number": "14.0.688+neoforge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "cfafd61bd94210493b49a7db18ad9df02a076b29389c500de377964fc4aafefec751200e0f24d1583688f4f538aac5bd6dedd7bb6a94882db085fffb1089bef1",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/s0rJCPA3/RoughlyEnoughItems-14.0.688-server-only.jar",
+          "filename": "RoughlyEnoughItems-14.0.688-server-only.jar",
+          "primary": true,
+          "size": 2189682
+        }
+      ]
+    },
+    {
+      "id": "UqJEvrFT",
+      "name": "[Forge 1.20.4] v14.0.688",
+      "version_number": "14.0.688+forge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9eba390af4cec148b7bb7de393d153426518a1107260ad09045b5561b634f3a93694e8e652044ea76dddc7f417d5803d5d949397323a09db1ac2dbf861e3c467",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/UqJEvrFT/RoughlyEnoughItems-14.0.688-server-only.jar",
+          "filename": "RoughlyEnoughItems-14.0.688-server-only.jar",
+          "primary": true,
+          "size": 2196385
+        }
+      ]
+    },
+    {
+      "id": "YZixGxtC",
+      "name": "[Forge 1.20.4] v14.0.687",
+      "version_number": "14.0.687+forge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d5081f0028204fc85156d90a8ea8c6634d7206236fd471f53c1c7ffd35d01d99f4744f1e341845833683033dfaeb7021f3b6c235ea8d776f236c4e1c5764275e",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/YZixGxtC/RoughlyEnoughItems-14.0.687-server-only.jar",
+          "filename": "RoughlyEnoughItems-14.0.687-server-only.jar",
+          "primary": true,
+          "size": 2196385
+        }
+      ]
+    },
+    {
+      "id": "rhtkStEK",
+      "name": "[NeoForge 1.20.2] v13.0.685",
+      "version_number": "13.0.685+neoforge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "c23a256e977aa11330f1b2789aed4707c6d609980148d0a1b71b72b66b014ee1618624c7c35a6bf56e43ce3b8d071e4b0e191ce3ca475dd9cd9ab3f4927d472d",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/rhtkStEK/RoughlyEnoughItems-13.0.685-server-only.jar",
+          "filename": "RoughlyEnoughItems-13.0.685-server-only.jar",
+          "primary": true,
+          "size": 2189675
+        }
+      ]
+    },
+    {
+      "id": "LvwR35T5",
+      "name": "[Forge 1.20.2] v13.0.685",
+      "version_number": "13.0.685+forge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "693cd05290fea2ac7e4c7e4a8754a1d314cd8a1b4c8fe8a5d5215b7e92e66fb2b2e2416c989fdcb56ee1f0c679cad1fbc7406fd51142fb04915748720c366adc",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/LvwR35T5/RoughlyEnoughItems-13.0.685-server-only.jar",
+          "filename": "RoughlyEnoughItems-13.0.685-server-only.jar",
+          "primary": true,
+          "size": 2196398
+        }
+      ]
+    },
+    {
+      "id": "grmPXT7i",
+      "name": "[Forge 1.20(.1)] v12.0.684",
+      "version_number": "12.0.684+forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "7d11bec6e938f93b9889e92b5c462bb644d18b92ae01d71134f9b9758789099fb0f52ea494051d6672ffd126fcaa5b5b2b635e1eea0459d2becd55ae6de58074",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/grmPXT7i/RoughlyEnoughItems-12.0.684-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.0.684-server-only.jar",
+          "primary": true,
+          "size": 2194947
+        }
+      ]
+    },
+    {
+      "id": "QCMoLJ2D",
+      "name": "[Forge 1.19.4] v11.0.683",
+      "version_number": "11.0.683+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ccd620f5bcc46a0206079352cf0351fc24560c0612bf25e46ebc1185a20d42041d6fff969f463fdd4421130e743b0c1f90bdfcc3640b52f6f9a64cb317742fdd",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/QCMoLJ2D/RoughlyEnoughItems-11.0.683-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.683-server-only.jar",
+          "primary": true,
+          "size": 2193161
+        }
+      ]
+    },
+    {
+      "id": "LmFYvWjd",
+      "name": "[Forge 1.19-1.19.2] v9.1.682",
+      "version_number": "9.1.682+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9f19bac6247734da97687e9a38c6405e335002854a6c7b8f1357e422abb7d3b1212166c328e26469a9f2e31a371a388d7eeffa8f33ac3828049f195b64ebcfa6",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/LmFYvWjd/RoughlyEnoughItems-9.1.682-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.682-server-only.jar",
+          "primary": true,
+          "size": 2170691
+        }
+      ]
+    },
+    {
+      "id": "hcLYVPyV",
+      "name": "[Forge 1.18.2] v8.3.681",
+      "version_number": "8.3.681+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b48fbbf481a1509eb650d818a4a2f0ae5e654adc7007dbdb75740689a7fc916297367b0981bbde21f9fec741f4012ffe150443d0d8a3bb9240f309352426208e",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/hcLYVPyV/RoughlyEnoughItems-8.3.681-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.681-server-only.jar",
+          "primary": true,
+          "size": 2173184
+        }
+      ]
+    },
+    {
+      "id": "TMOpXjOF",
+      "name": "[NeoForge 1.20.4] v14.0.680",
+      "version_number": "14.0.680+neoforge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "eebc40f8d8d6f0574a32e232956bbccd78093724ed257ea5edf448d5d7de03f71c4e51882bf5f8f175fb94aecdf473b8fb9762fd2f980ab07933efe436cf171b",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/TMOpXjOF/RoughlyEnoughItems-14.0.680-server-only.jar",
+          "filename": "RoughlyEnoughItems-14.0.680-server-only.jar",
+          "primary": true,
+          "size": 2189684
+        }
+      ]
+    },
+    {
+      "id": "xABm6TfJ",
+      "name": "[NeoForge 1.20.2] v13.0.679",
+      "version_number": "13.0.679+neoforge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "c2e1a07a9bcd56298aa2810554e51e57ce5c9ddac3e77fa4ac6993e94972b4b47db970ade39f609480eabd9a4ceba7f52d5977e8e5ebf82bdad429447dfc8f47",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/xABm6TfJ/RoughlyEnoughItems-13.0.679-server-only.jar",
+          "filename": "RoughlyEnoughItems-13.0.679-server-only.jar",
+          "primary": true,
+          "size": 2189675
+        }
+      ]
+    },
+    {
+      "id": "NqwW7BnZ",
+      "name": "[Forge 1.20.2] v13.0.679",
+      "version_number": "13.0.679+forge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "332eb59901b13f66ab67499a96a0ec56bf264b61b3373968f0d22af7563a495e4646ab54e1a3307ceae620ed235cafd12c180670699a9a85e2f9bc3ffd533625",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/NqwW7BnZ/RoughlyEnoughItems-13.0.679-server-only.jar",
+          "filename": "RoughlyEnoughItems-13.0.679-server-only.jar",
+          "primary": true,
+          "size": 2196398
+        }
+      ]
+    },
+    {
+      "id": "6fUgHx0w",
+      "name": "[NeoForge 1.20.2] v13.0.678",
+      "version_number": "13.0.678+neoforge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "d967dc969b43345dd48cbd2492e309e83ca9bb0b78bac40b76c39373d63b2f950dc04025aabd3e49c2a4c3136bc487c7f2d80156f2b71e3f906e32cee403a7f0",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/6fUgHx0w/RoughlyEnoughItems-13.0.678-server-only.jar",
+          "filename": "RoughlyEnoughItems-13.0.678-server-only.jar",
+          "primary": true,
+          "size": 2189751
+        }
+      ]
+    },
+    {
+      "id": "RFHfXyNA",
+      "name": "[Forge 1.20.2] v13.0.678",
+      "version_number": "13.0.678+forge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b08b0ee5110c2924c799f9b46df5813b8a53377d90cf80694a2f4921c5509d03d5fbd9fda4d13887ac652a852ba066debdc81c896e68f19a7fd0b3d68bbf3c2b",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/RFHfXyNA/RoughlyEnoughItems-13.0.678-server-only.jar",
+          "filename": "RoughlyEnoughItems-13.0.678-server-only.jar",
+          "primary": true,
+          "size": 2196393
+        }
+      ]
+    },
+    {
+      "id": "mHpoxik4",
+      "name": "[Forge 1.20.2] v13.0.675",
+      "version_number": "13.0.675+forge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e3bd60b4ba3be1d81915aabe010a4d28c9718e6258c3ad9d87b30fbca5358aacb8c05aaa15db39dfc24a5e19dd2c3c28c41ac7d1c3b1c8e8404eff02287b4e63",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/mHpoxik4/RoughlyEnoughItems-13.0.675-server-only.jar",
+          "filename": "RoughlyEnoughItems-13.0.675-server-only.jar",
+          "primary": true,
+          "size": 2196347
+        }
+      ]
+    },
+    {
+      "id": "cVvBc304",
+      "name": "[Forge 1.20(.1)] v12.0.674",
+      "version_number": "12.0.674+forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "584e52b8423ae58c3d4747d12a49b779705df660d8bd46bb3df5f6925a2cafd6ffec57dc961ce257df3657f77538c210c1b536ef6a87ff7871cde7b3c9dc0bb3",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/cVvBc304/RoughlyEnoughItems-12.0.674-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.0.674-server-only.jar",
+          "primary": true,
+          "size": 2194947
+        }
+      ]
+    },
+    {
+      "id": "F0EOR0oq",
+      "name": "[Forge 1.19.4] v11.0.673",
+      "version_number": "11.0.673+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e76a1bfb1142b8e51319432af9527d62388cc3bcae332ee3d1130a49b6933d3672d6765e4b2272ece6bf1312ea19327b24df5152826a374b15d7a0ec40f7aceb",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/F0EOR0oq/RoughlyEnoughItems-11.0.673-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.673-server-only.jar",
+          "primary": true,
+          "size": 2193161
+        }
+      ]
+    },
+    {
+      "id": "n5B2KCKG",
+      "name": "[Forge 1.20(.1)] v12.0.672",
+      "version_number": "12.0.672+forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "3ae0ff5c298c09eb8106d848a78f14672e8b012e8b84a8581a6479b06bf86c162fa1dc204209bf0b029cb87c58f02e91a32e7a7487e72e15d07a74cf21065298",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/n5B2KCKG/RoughlyEnoughItems-12.0.672-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.0.672-server-only.jar",
+          "primary": true,
+          "size": 2194941
+        }
+      ]
+    },
+    {
+      "id": "OwSxQuCR",
+      "name": "[Forge 1.20(.1)] v12.0.670",
+      "version_number": "12.0.670+forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "a2186c817a133d4ea1d3daee893b434be2bebcf88efe52cc97bdf172c3205d721eea5c25075338a604572a9880c7135c7eb4737d4cd4ca960a4b32a54968b4a7",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/OwSxQuCR/RoughlyEnoughItems-12.0.670-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.0.670-server-only.jar",
+          "primary": true,
+          "size": 2192459
+        }
+      ]
+    },
+    {
+      "id": "QXtjf0P2",
+      "name": "[Forge 1.20.2] v13.0.671",
+      "version_number": "13.0.671+forge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "80a8f7b1bf4d4cd6ae2c2a744c361733e92fdb755a06a2fe02ded01ca5484a63b4b5cad0ac1ef38328590b3b17146f1425f0e6506873a0e33b9c36896bfe6f5a",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/QXtjf0P2/RoughlyEnoughItems-13.0.671-server-only.jar",
+          "filename": "RoughlyEnoughItems-13.0.671-server-only.jar",
+          "primary": true,
+          "size": 2193870
+        }
+      ]
+    },
+    {
+      "id": "vMxflm4f",
+      "name": "[Forge 1.19.4] v11.0.669",
+      "version_number": "11.0.669+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ce8a45cd2043d07bcf3f1fce8684fd2ef735999d1a7a7ca1a29391b18005d1f4e27ba557aa6a5914b95bb80c7f89d2faa16797b90a2bee32f1a3880a2c0715ff",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/vMxflm4f/RoughlyEnoughItems-11.0.669-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.669-server-only.jar",
+          "primary": true,
+          "size": 2193156
+        }
+      ]
+    },
+    {
+      "id": "y9wrACm8",
+      "name": "[Forge 1.19-1.19.2] v9.1.668",
+      "version_number": "9.1.668+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0f94510db7b16fc6a04b03e1087b14a37f6c4408464273fcc46db214ccf3a568c1981e7f0a65221426706f2626a2fc35333646561f36b307893c3547ef3f4a39",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/y9wrACm8/RoughlyEnoughItems-9.1.668-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.668-server-only.jar",
+          "primary": true,
+          "size": 2170687
+        }
+      ]
+    },
+    {
+      "id": "RDCULV7P",
+      "name": "[Forge 1.18.2] v8.3.667",
+      "version_number": "8.3.667+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "20d69cce844a4ec0557cb511798ec55e465568c1d6b2ff92d86acbcbe5cf8e76a28f7febb956068583a1e0678b50d12754c6be0d3c6d164fc644ad465c6fd6b2",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/RDCULV7P/RoughlyEnoughItems-8.3.667-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.667-server-only.jar",
+          "primary": true,
+          "size": 2173180
+        }
+      ]
+    },
+    {
+      "id": "iZRjTztS",
+      "name": "[Forge 1.20(.1)] v12.0.665",
+      "version_number": "12.0.665+forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f373898e12fa34f486a0964370200ad38750c9a97a2486aabd84f785d537138ba352273e63db98f4fabd7017517fe6eddfe175f2188451494b266c9023227380",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/iZRjTztS/RoughlyEnoughItems-12.0.665-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.0.665-server-only.jar",
+          "primary": true,
+          "size": 2191378
+        }
+      ]
+    },
+    {
+      "id": "bkVGHHH9",
+      "name": "[Forge 1.19-1.19.2] v9.1.663",
+      "version_number": "9.1.663+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f8868f20e513bc6c31cb118ee5165ca9db70e1ce9ed3c8094995749c98bc4ddd045cce2000bc25081f4c2f16dd24fabad49bc0854960d6129c0edd6b91cfed94",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/bkVGHHH9/RoughlyEnoughItems-9.1.663-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.663-server-only.jar",
+          "primary": true,
+          "size": 2169669
+        }
+      ]
+    },
+    {
+      "id": "cmfTpPki",
+      "name": "[Forge 1.18.2] v8.3.662",
+      "version_number": "8.3.662+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0882e135633dc4059f6112052afbae7ae549431b948b3e95a709d21b74edc8164afe8f863bb9bb270ff38a5efa32039feb93643f994b25adf514c08374415c90",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/cmfTpPki/RoughlyEnoughItems-8.3.662-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.662-server-only.jar",
+          "primary": true,
+          "size": 2172160
+        }
+      ]
+    },
+    {
+      "id": "1xha7zyw",
+      "name": "[Forge 1.19.4] v11.0.664",
+      "version_number": "11.0.664+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "4bfe8ea3357533665d1968a2eb47d059233c422b563797c3a99282d6348fa1ea9acc64d18943074966b36a7fb83b8935b79450197a0754d2a17abb76303ba910",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/1xha7zyw/RoughlyEnoughItems-11.0.664-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.664-server-only.jar",
+          "primary": true,
+          "size": 2192053
+        }
+      ]
+    },
+    {
+      "id": "yEFaLm9F",
+      "name": "[Forge 1.20(.1)] v12.0.659",
+      "version_number": "12.0.659+forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "2359bf2462069d20275c4ce6af4c4942559591971a3b8c16dc51bcf6a9c5de486820fbb512bbf529aa0f6ee8274f45c13ca20eb1fb1203be9a66f54900c8fbdb",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/yEFaLm9F/RoughlyEnoughItems-12.0.659-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.0.659-server-only.jar",
+          "primary": true,
+          "size": 2191267
+        }
+      ]
+    },
+    {
+      "id": "O3Sz1u4w",
+      "name": "[Forge 1.19.4] v11.0.658",
+      "version_number": "11.0.658+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "96962c0f1c3dddd12bead6c4258071a314ec192bc811c48a9154111be7a0d90d45b9938a7df7bb6e71dc871ea1a12211a27956d2e82d9db7b1605bf31dd652b8",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/O3Sz1u4w/RoughlyEnoughItems-11.0.658-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.658-server-only.jar",
+          "primary": true,
+          "size": 2191942
+        }
+      ]
+    },
+    {
+      "id": "tpLVJu00",
+      "name": "[Forge 1.19-1.19.2] v9.1.657",
+      "version_number": "9.1.657+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "676824ea7d1021405cc44bf424eb0186bca94024a6d14c10d0534a751206f3304d2216fe2eda44505300810388f15ada71bcb4b245b36fb70d833347c8863fff",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/tpLVJu00/RoughlyEnoughItems-9.1.657-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.657-server-only.jar",
+          "primary": true,
+          "size": 2169562
+        }
+      ]
+    },
+    {
+      "id": "QCxSKTiX",
+      "name": "[Forge 1.18.2] v8.3.656",
+      "version_number": "8.3.656+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "87cabf5b8c0594404a3af331867f495d9035b86ad96225c94ff8141d0d3b1de439fa8d1069c5c506d81c0d0c391f2b84b9444d0a160a4f39f44623456c9c23f2",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/QCxSKTiX/RoughlyEnoughItems-8.3.656-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.656-server-only.jar",
+          "primary": true,
+          "size": 2172063
+        }
+      ]
+    },
+    {
+      "id": "5PEhNnj5",
+      "name": "[Forge 1.20(.1)] v12.0.652",
+      "version_number": "12.0.652+forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "02fd3c700a553b53b876de87146b63c75074b47eb6a38a89ea54e54f395a9f37060e84a0a5160b6e7cfa3bb0bd417f1bfe8b3b3076d8fec8e10df28d8427c896",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/5PEhNnj5/RoughlyEnoughItems-12.0.652-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.0.652-server-only.jar",
+          "primary": true,
+          "size": 2189117
+        }
+      ]
+    },
+    {
+      "id": "afC4VMaR",
+      "name": "[Forge 1.19.4] v11.0.651",
+      "version_number": "11.0.651+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "99490deaa08babd9fb8a0e9654b1dc7bfafcf97bc571b93078ad79c27c19ebb00e78774a49e1d2f698601f8273a676efaecc053d53df6d4199c132c300aa4e29",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/afC4VMaR/RoughlyEnoughItems-11.0.651-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.651-server-only.jar",
+          "primary": true,
+          "size": 2189791
+        }
+      ]
+    },
+    {
+      "id": "1Gyx9mbg",
+      "name": "[Forge 1.19-1.19.2] v9.1.650",
+      "version_number": "9.1.650+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d3feaf5a4604eb2c7db7aee97f04a192005ce8f085e674b947fc6878f02b390113146fa81e5dcd435fa7b3226bb7158ba188b4e55e435261f4a92432a4909916",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/1Gyx9mbg/RoughlyEnoughItems-9.1.650-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.650-server-only.jar",
+          "primary": true,
+          "size": 2167420
+        }
+      ]
+    },
+    {
+      "id": "3D9cyakw",
+      "name": "[Forge 1.18.2] v8.3.649",
+      "version_number": "8.3.649+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "6139e1229ff6f84da8f9c1905d6da30b1b95179b6967864bfaabbc3c9102a97350802b4ef95eed469f62fb6d0a51e59f4b05f2cfca492992cdc771f032cb1546",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/3D9cyakw/RoughlyEnoughItems-8.3.649-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.649-server-only.jar",
+          "primary": true,
+          "size": 2169920
+        }
+      ]
+    },
+    {
+      "id": "j18xeRbg",
+      "name": "[Forge 1.19.3] v10.0.646",
+      "version_number": "10.0.646+forge",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "1dcd9edc530df9aec28218d47e0c2da86de7efd83b8e6f67a182ea6574b23db39d0d45fdd1f4dab9844b94a68ee7031f00c4ecfe679615565baf036efd8818b8",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/j18xeRbg/RoughlyEnoughItems-10.0.646-server-only.jar",
+          "filename": "RoughlyEnoughItems-10.0.646-server-only.jar",
+          "primary": true,
+          "size": 2147647
+        }
+      ]
+    },
+    {
+      "id": "F6uvOcdr",
+      "name": "[Forge 1.19.4] v11.0.647",
+      "version_number": "11.0.647+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ddf1499e2351f5eb735b5864af149be5ca39c41201f82d86aaa96d848705029e612de4fb8c02bc9b90bea032d452d841a2724f031eef91460efa0de9c08f1969",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/F6uvOcdr/RoughlyEnoughItems-11.0.647-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.647-server-only.jar",
+          "primary": true,
+          "size": 2152768
+        }
+      ]
+    },
+    {
+      "id": "4gMrt5ay",
+      "name": "[Forge 1.20(.1)] v12.0.648",
+      "version_number": "12.0.648+forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "776b2e61372ea7b3438d6f5159526168417233393d8e3ed7dfa38fa6fae9982170df1e6dae14191961c67ac6fd64fc9dc7ec003ab5acc1993d91898cf9e2e17c",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/4gMrt5ay/RoughlyEnoughItems-12.0.648-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.0.648-server-only.jar",
+          "primary": true,
+          "size": 2152070
+        }
+      ]
+    },
+    {
+      "id": "Hu5oLmx5",
+      "name": "[Forge 1.18.2] v8.3.642",
+      "version_number": "8.3.642+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "edfbe7bb0ceedc54e883f80ba24560e9bc8ee202eaccd3477a009b9868193d9feadcebb940ffed85eeb73a8f918208886d02c865abdbb6cf1811a761e62a351b",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/Hu5oLmx5/RoughlyEnoughItems-8.3.642-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.642-server-only.jar",
+          "primary": true,
+          "size": 2132899
+        }
+      ]
+    },
+    {
+      "id": "iEwpgPps",
+      "name": "[Forge 1.20(.1)] v12.0.645",
+      "version_number": "12.0.645+forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "fa167ff173026f1de600287c155628479c9ab7dc2f59dd2fc7819407762f441b7e3bf2c500583a523e4decf81cbcd41af001ac47dc0547e2f52cad53114dcc6e",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/iEwpgPps/RoughlyEnoughItems-12.0.645-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.0.645-server-only.jar",
+          "primary": true,
+          "size": 2152076
+        }
+      ]
+    },
+    {
+      "id": "rretgV4r",
+      "name": "[Forge 1.19-1.19.2] v9.1.643",
+      "version_number": "9.1.643+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c359631b950087f45c2f6710568f7bd1bf0f8290a44d5e8c6ea30e85a70d40020cbaee3ee7cd1a1b45933ec1d494e7b691375086639af0ae7188ec83a8c61385",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/rretgV4r/RoughlyEnoughItems-9.1.643-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.643-server-only.jar",
+          "primary": true,
+          "size": 2130371
+        }
+      ]
+    },
+    {
+      "id": "La3fF0yd",
+      "name": "[Forge 1.19.4] v11.0.644",
+      "version_number": "11.0.644+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "fc2bccefcf859bd3eb380e7b068cf8f6d15fe0e2ea39d4fda2d75ff7ec6ec0b196dbb474b4109f69fad4cd0831bd55c9833293f275ca9a205f032cc04224e26e",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/La3fF0yd/RoughlyEnoughItems-11.0.644-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.644-server-only.jar",
+          "primary": true,
+          "size": 2152772
+        }
+      ]
+    },
+    {
+      "id": "vBFIFijq",
+      "name": "[Forge 1.19-1.19.2] v9.1.641",
+      "version_number": "9.1.641+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d9a6dfb26e3fbfa0414d0cc8dbfbc363359aabb313c80b3e8927ff211833626613697787aa5f808154536da53d8ab1baff9596ab0fd8a9d16842f08979160909",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/vBFIFijq/RoughlyEnoughItems-9.1.641-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.641-server-only.jar",
+          "primary": true,
+          "size": 2130367
+        }
+      ]
+    },
+    {
+      "id": "TezlFb1H",
+      "name": "[Forge 1.19-1.19.2] v9.1.641",
+      "version_number": "9.1.641+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b822324e03265f04062fc2e7ca54df3eab4fdb361115cdc87b212bc6721ccaecf3bcf2bf7de638c93a4486adbaa1679cd73b04e4da72fc63df03985b3eb95e31",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/TezlFb1H/RoughlyEnoughItems-9.1.641-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.641-server-only.jar",
+          "primary": true,
+          "size": 2130367
+        }
+      ]
+    },
+    {
+      "id": "8Ej9Skf2",
+      "name": "[Forge 1.18.2] v8.3.640",
+      "version_number": "8.3.640+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "a494348ac83996523da0c10746ad030ee4f6c82bf2fa50623a30c6cdea9ab92641fe06391b722830c43e12e550548f9a740a8917553ad9f16af5482f32356dc3",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8Ej9Skf2/RoughlyEnoughItems-8.3.640-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.640-server-only.jar",
+          "primary": true,
+          "size": 2132895
+        }
+      ]
+    },
+    {
+      "id": "cpK4Wp8f",
+      "name": "[Forge 1.18.2] v8.3.639",
+      "version_number": "8.3.639+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "7ae3933624f962b7a1a2d761e477c7e28d11e62284536bdae314caad00da939189351fad764aaa2641d82969d9014cf058b86ba7e54ca1c737d12c2d1509b45e",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/cpK4Wp8f/RoughlyEnoughItems-8.3.639-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.639-server-only.jar",
+          "primary": true,
+          "size": 2132877
+        }
+      ]
+    },
+    {
+      "id": "1FSEClB0",
+      "name": "[Forge 1.20(.1)] v12.0.638",
+      "version_number": "12.0.638+forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "fa481f32eef5a0307ab49a2d77d1e32021fcb95eb024b3ad38d26751de56b9d06b4118482c9716b0a55bcf2e1a575435513d2f14696a5d3eff342dd0386e1818",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/1FSEClB0/RoughlyEnoughItems-12.0.638-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.0.638-server-only.jar",
+          "primary": true,
+          "size": 2151062
+        }
+      ]
+    },
+    {
+      "id": "Tapry0KP",
+      "name": "[Forge 1.19.4] v11.0.637",
+      "version_number": "11.0.637+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0f5bf5b8141507c37383453aff6974e0bc0e293744d73120df236f0c1ed48921ea6260324a7c4175565394f426f8686010f6273219cd29b57c17cd6a146d18e8",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/Tapry0KP/RoughlyEnoughItems-11.0.637-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.637-server-only.jar",
+          "primary": true,
+          "size": 2151762
+        }
+      ]
+    },
+    {
+      "id": "WGnMmECe",
+      "name": "[Forge 1.19-1.19.2] v9.1.636",
+      "version_number": "9.1.636+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "85a6481143d5c2e0ff9cd6295f15f7dbe20d9f9a411c782e161669582ebc9d14971621c71d25cec09a92dce69d56eafa5955ec4d98a8c67b356a7c17f8a0c316",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/WGnMmECe/RoughlyEnoughItems-9.1.636-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.636-server-only.jar",
+          "primary": true,
+          "size": 2129361
+        }
+      ]
+    },
+    {
+      "id": "rPQH4woK",
+      "name": "[Forge 1.18.2] v8.3.635",
+      "version_number": "8.3.635+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e8a345e4b6d9976c9bb3458c19347b4a6e2f3c8b12aa726f9da7155b8c7f0ad74f2985fb4059af1add37418662a0ea993877fba1d31f5644726baaed2c8111d2",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/rPQH4woK/RoughlyEnoughItems-8.3.635-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.635-server-only.jar",
+          "primary": true,
+          "size": 2131893
+        }
+      ]
+    },
+    {
+      "id": "XS5Fh0vG",
+      "name": "[Forge 1.20(.1)] v12.0.634",
+      "version_number": "12.0.634+forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "de2c84ec4b124592f121e23dff82e69eb118a29bd501be7e8f56b0f74cbfbdbca01f34b0dad8b4a0a25aefd5d3d9a9537da15840c150b4d1af64eb5629dfb706",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/XS5Fh0vG/RoughlyEnoughItems-12.0.634-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.0.634-server-only.jar",
+          "primary": true,
+          "size": 2151062
+        }
+      ]
+    },
+    {
+      "id": "Ou38MAdq",
+      "name": "[Forge 1.19.4] v11.0.633",
+      "version_number": "11.0.633+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "12cea51e27def3c99a9047c0ee446700f661222555ed0c10498dbc07d8bf246db6979095d2d09cc955c550b9370f2df8a5d55ac73e675ea37c8cdf8bd6e1469f",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/Ou38MAdq/RoughlyEnoughItems-11.0.633-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.633-server-only.jar",
+          "primary": true,
+          "size": 2151762
+        }
+      ]
+    },
+    {
+      "id": "ECjFhqe7",
+      "name": "[Forge 1.19-1.19.2] v9.1.632",
+      "version_number": "9.1.632+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "a9d8e19962de69f21c65ff792391d4c34e06f52ea83ae436b7aa61bbd9fcb24564ff4657184466d36f3ec96186bb052c6291d6b7e25604dc1c870db2f81f20ea",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/ECjFhqe7/RoughlyEnoughItems-9.1.632-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.632-server-only.jar",
+          "primary": true,
+          "size": 2129361
+        }
+      ]
+    },
+    {
+      "id": "yJ7y9plh",
+      "name": "[Forge 1.18.2] v8.3.631",
+      "version_number": "8.3.631+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "92e44a3df166dcfb5422f2e64631e997d40cb6898bffe62adbabe013f0987a4d49dd0a852d91e548174f99f0703b9f014dca23e4dd12d2bbff2a9c41bcc1beea",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/yJ7y9plh/RoughlyEnoughItems-8.3.631-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.631-server-only.jar",
+          "primary": true,
+          "size": 2131894
+        }
+      ]
+    },
+    {
+      "id": "SSnRl2nn",
+      "name": "[Forge 1.19.4] v11.0.629",
+      "version_number": "11.0.629+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b3ba610799f896716f5ab6e22ab68270326b1676acb0b72ca423b9216beaf23b149e327db05dc7ff835f957f8235473e8f79fdc3128bc1917cd4b4937a19229d",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/SSnRl2nn/RoughlyEnoughItems-11.0.629-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.629-server-only.jar",
+          "primary": true,
+          "size": 2151670
+        }
+      ]
+    },
+    {
+      "id": "g4ywjoiB",
+      "name": "[Forge 1.20(.1)] v12.0.630",
+      "version_number": "12.0.630+forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f8a10d7cf304496df4081349303e6135f43fe03d1c8ffc9ad165ac98b81a865346ae9f9c4053970755c0b70797380804816cda350e5fd6483165521886190f1f",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/g4ywjoiB/RoughlyEnoughItems-12.0.630-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.0.630-server-only.jar",
+          "primary": true,
+          "size": 2150968
+        }
+      ]
+    },
+    {
+      "id": "fIsMNv8T",
+      "name": "[Forge 1.18.2] v8.3.627",
+      "version_number": "8.3.627+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "14cc9da01c1bf55b779f99a171d3d6cdace30d606f3c52d3c7cf11c126cbf0eea401395034397016d6bd5531523a72bfd919089e53bd351fce748efa30ea764b",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/fIsMNv8T/RoughlyEnoughItems-8.3.627-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.627-server-only.jar",
+          "primary": true,
+          "size": 2131801
+        }
+      ]
+    },
+    {
+      "id": "xE1SludQ",
+      "name": "[Forge 1.19-1.19.2] v9.1.628",
+      "version_number": "9.1.628+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "2a742a2ee51048c6edaa924102a37298b7124c8724e4ff988063d7363c754de6e8582664686d290da785fe76f4f9cdf85f78c8d3a84ac34246863639c81106df",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/xE1SludQ/RoughlyEnoughItems-9.1.628-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.628-server-only.jar",
+          "primary": true,
+          "size": 2129264
+        }
+      ]
+    },
+    {
+      "id": "VxeoipEz",
+      "name": "[Forge 1.20(.1)] v12.0.626",
+      "version_number": "12.0.626+forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5840cee70b75f002aa3120384b9466be1da926882cc1ed7b56213e38cb7d2f270048daa6eba48b8b231202dc7593f9c7a20d28884d3338621d932e78214bebbc",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/VxeoipEz/RoughlyEnoughItems-12.0.626-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.0.626-server-only.jar",
+          "primary": true,
+          "size": 2148244
+        }
+      ]
+    },
+    {
+      "id": "texLJ7gz",
+      "name": "[Forge 1.20] v12.0.625",
+      "version_number": "12.0.625+forge",
+      "game_versions": [
+        "1.20"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "af553c71357612ac831afecf98771f8640d9431a1076b868c5676b63d663b0f3627b1b7a6ba15e58af8fbb8af8c8ebd647f44fd31b239f2b9fbd863b8cb072ec",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/texLJ7gz/RoughlyEnoughItems-12.0.625-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.0.625-server-only.jar",
+          "primary": true,
+          "size": 2148305
+        }
+      ]
+    },
+    {
+      "id": "v2x1yNHn",
+      "name": "[Forge 1.20] v12.0.624",
+      "version_number": "12.0.624+forge",
+      "game_versions": [
+        "1.20"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "083210c7d4f078a3258d071e537d62c6a879aa58ff973d6c83c0381f9233c8ef919891c334d02596055bcacc1e01147bc5535978200695c300e31b08243e9c5d",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/v2x1yNHn/RoughlyEnoughItems-12.0.624-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.0.624-server-only.jar",
+          "primary": true,
+          "size": 2148309
+        }
+      ]
+    },
+    {
+      "id": "Iog4LW4V",
+      "name": "[Forge 1.20] v12.0.623",
+      "version_number": "12.0.623+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "29f9c50c7f6290298623f3fe177b69626a49e712629447770c0844dbb0e623845d4a574dfb0613c3a651ea50c10a1d8e2afba891d4c7c8fa6af4827575fc8bcc",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/Iog4LW4V/RoughlyEnoughItems-12.0.623-server-only.jar",
+          "filename": "RoughlyEnoughItems-12.0.623-server-only.jar",
+          "primary": true,
+          "size": 2148278
+        }
+      ]
+    },
+    {
+      "id": "e5Hhxb7r",
+      "name": "[Forge 1.18.2] v8.3.618",
+      "version_number": "8.3.618+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "504ee7a4776298b8ca7d9bce4c83b4c71df070f71c3db9f73a595ecd58c2c8c2c791b910093634afbc70fe20e6e3f67eba84950ea87cd62c1df87d2038ccc070",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/e5Hhxb7r/RoughlyEnoughItems-8.3.618-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.618-server-only.jar",
+          "primary": true,
+          "size": 2129083
+        }
+      ]
+    },
+    {
+      "id": "KPyMbewy",
+      "name": "[Forge 1.19.4] v11.0.621",
+      "version_number": "11.0.621+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "bea6446fe1cb910548e5102c9594443758b0a0bc0b995c470b79a1c45c8275be4e89546a634c0535663409970427eb2f229aa17eb0a28ad803776ca21b3679f7",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/KPyMbewy/RoughlyEnoughItems-11.0.621-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.621-server-only.jar",
+          "primary": true,
+          "size": 2148952
+        }
+      ]
+    },
+    {
+      "id": "kxoyIG9D",
+      "name": "[Forge 1.19-1.19.2] v9.1.619",
+      "version_number": "9.1.619+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "fe62c87f0a703aef238bac6bcb4a82d5a0be3575e1bf341dd9640783b8dcf2aa2442674bfa732b7d11227993065f161e0bda3f26a85153a663a793437bd8bf14",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/kxoyIG9D/RoughlyEnoughItems-9.1.619-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.619-server-only.jar",
+          "primary": true,
+          "size": 2126546
+        }
+      ]
+    },
+    {
+      "id": "QPPP82yQ",
+      "name": "[Forge 1.19.3] v10.0.620",
+      "version_number": "10.0.620+forge",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "473de67962e519c54670511df20d1781da2d9c292455b51343b81f0f0bf42f8b8aa7c4f2d1d11ddf314f74c67ad94fcd5895b546b50e984c600ad24c4c6dc03c",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/QPPP82yQ/RoughlyEnoughItems-10.0.620-server-only.jar",
+          "filename": "RoughlyEnoughItems-10.0.620-server-only.jar",
+          "primary": true,
+          "size": 2147651
+        }
+      ]
+    },
+    {
+      "id": "YfuVBXN1",
+      "name": "[Forge 1.19.4] v11.0.617",
+      "version_number": "11.0.617+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "534f5fa0e1ed44033f1d9c5c3c7a5d9d5afbb7561e6bed050dea4602e57d105b55ed558ecf59db8ae2db12b3cb3c46261540a55da095c7cbc9d2ddc9b1368bd0",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/YfuVBXN1/RoughlyEnoughItems-11.0.617-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.617-server-only.jar",
+          "primary": true,
+          "size": 2148947
+        }
+      ]
+    },
+    {
+      "id": "Zuuv2jTk",
+      "name": "[Forge 1.19-1.19.2] v9.1.615",
+      "version_number": "9.1.615+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5efc0a39c995776749557df5593021d177634e277333638abdaffe5fb69beb33cde395bd405ee485ede43a0d28bea48d0c3904e0f3ee8a0a27c8fb31ed871899",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/Zuuv2jTk/RoughlyEnoughItems-9.1.615-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.615-server-only.jar",
+          "primary": true,
+          "size": 2126542
+        }
+      ]
+    },
+    {
+      "id": "ElJnVZP2",
+      "name": "[Forge 1.19.3] v10.0.616",
+      "version_number": "10.0.616+forge",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e8abadb311fc22f458011e8f759ab39c9bde43adacdcc88d2dc9bce7b825a36181cd6ca616864e69951a604798346d691d36e3ee327e548f2184f0cd853f25e0",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/ElJnVZP2/RoughlyEnoughItems-10.0.616-server-only.jar",
+          "filename": "RoughlyEnoughItems-10.0.616-server-only.jar",
+          "primary": true,
+          "size": 2147646
+        }
+      ]
+    },
+    {
+      "id": "OJ1jrDPP",
+      "name": "[Forge 1.18.2] v8.3.614",
+      "version_number": "8.3.614+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9a66dc6910bb21e421e86804f669deaea2a97fa18238a976270eb5cbfc44454cf15189677467d5c3d633b64cb51e2c1334e986233755f079ff33baed53fb3edd",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/OJ1jrDPP/RoughlyEnoughItems-8.3.614-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.614-server-only.jar",
+          "primary": true,
+          "size": 2129083
+        }
+      ]
+    },
+    {
+      "id": "EWfHxOP2",
+      "name": "[Forge 1.19.4] v11.0.612",
+      "version_number": "11.0.612+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "66e9fe1658bd59b0eb143b452bcd4c404413cfbd233fa98132eb682fd7db0cbc7a06a922680a876489f6fa19a33b87c18adc37f9b4f2da88843bdd960f09e459",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/EWfHxOP2/RoughlyEnoughItems-11.0.612-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.612-server-only.jar",
+          "primary": true,
+          "size": 2131240
+        }
+      ]
+    },
+    {
+      "id": "I8khRkVL",
+      "name": "[Forge 1.18.2] v8.3.608",
+      "version_number": "8.3.608+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "82665930c180eb7e5c81a1ebb2ba0d391bc3bade4f09ea45128b2702d42fecae2238abd412f014fc2e9782686eade5f9b5e9181860add9ef743857e347faf271",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/I8khRkVL/RoughlyEnoughItems-8.3.608-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.608-server-only.jar",
+          "primary": true,
+          "size": 2111355
+        }
+      ]
+    },
+    {
+      "id": "w0uDmKi8",
+      "name": "[Forge 1.19-1.19.2] v9.1.610",
+      "version_number": "9.1.610+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "70c4f217fcc485e2f6afe63dccc80254f24a23016766a500a02f0c3ad644a3517ae39a47ab457728c5e6b416aca762f378ae8dacc1b7cc7f1833e990aa0828fb",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/w0uDmKi8/RoughlyEnoughItems-9.1.610-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.610-server-only.jar",
+          "primary": true,
+          "size": 2108824
+        }
+      ]
+    },
+    {
+      "id": "p6ixD5lo",
+      "name": "[Forge 1.19.3] v10.0.611",
+      "version_number": "10.0.611+forge",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "51f61cdbad1d69772b2dad20811436dd8d389132741d1b9076c35da7f204dfcb2fa0417507803f35a8f08e8567c3a27ecfe6ea0bbc1fb7333333d88bf04dacf0",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/p6ixD5lo/RoughlyEnoughItems-10.0.611-server-only.jar",
+          "filename": "RoughlyEnoughItems-10.0.611-server-only.jar",
+          "primary": true,
+          "size": 2129923
+        }
+      ]
+    },
+    {
+      "id": "lkomhm2d",
+      "name": "[Forge 1.19.4] v11.0.607",
+      "version_number": "11.0.607+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "cbaf1d1225afee57e833781ec1a73a1e14803e3a219450cace8ef36af9bbc0acd14262812905c3fd97ff9b1bae9bb57f818d881f62943a3731abc2907b79e0e0",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/lkomhm2d/RoughlyEnoughItems-11.0.607-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.607-server-only.jar",
+          "primary": true,
+          "size": 2127612
+        }
+      ]
+    },
+    {
+      "id": "6MfDaNSx",
+      "name": "[Forge 1.19-1.19.2] v9.1.605",
+      "version_number": "9.1.605+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "df509e7f40420f678eadc5d00d904bc72d07a1b65922fd9d67a85a4d3f07515bcaa3954ca630aeba35acef6aaf79768e5807efe2104e42d7a5a9e94a57268e88",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/6MfDaNSx/RoughlyEnoughItems-9.1.605-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.605-server-only.jar",
+          "primary": true,
+          "size": 2105210
+        }
+      ]
+    },
+    {
+      "id": "kKFf8yXM",
+      "name": "[Forge 1.18.2] v8.3.604",
+      "version_number": "8.3.604+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0317fcb7f587356838cc5300cee77e3f579f55563ad69a071a4f7b04c00bae1d2ad4f32fbabcb9fb2f192ffb1cf493caf296c57691ac9c5a8aacab0240cd046d",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/kKFf8yXM/RoughlyEnoughItems-8.3.604-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.604-server-only.jar",
+          "primary": true,
+          "size": 2107754
+        }
+      ]
+    },
+    {
+      "id": "iSlTAiab",
+      "name": "[Forge 1.19.3] v10.0.606",
+      "version_number": "10.0.606+forge",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b41c2a785a50201c915f04386e005fd88d909adbcccd478cb6c749a19527b8334b4cd48f3fc3794857c6022e8a8d6470a92051f87e1eb4a9b3e8451ccb9686d9",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/iSlTAiab/RoughlyEnoughItems-10.0.606-server-only.jar",
+          "filename": "RoughlyEnoughItems-10.0.606-server-only.jar",
+          "primary": true,
+          "size": 2126296
+        }
+      ]
+    },
+    {
+      "id": "43PuI6JX",
+      "name": "[Forge 1.19.4] v11.0.603",
+      "version_number": "11.0.603+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f7e4624ed079f48bc9a969f8aa0e90a8682df486c06a670b5da8d9bf45649ebaa9bb18761ae69c90edf7217d25367d267cb7e35d2c9383bf88134bdfc43b37c7",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/43PuI6JX/RoughlyEnoughItems-11.0.603-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.603-server-only.jar",
+          "primary": true,
+          "size": 2127521
+        }
+      ]
+    },
+    {
+      "id": "LGDoT1fV",
+      "name": "[Forge 1.19.3] v10.0.602",
+      "version_number": "10.0.602+forge",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "51bc1d96cf11aefa87dfc5f0afaea98884cb9cece9e29602548be3492ec24a7b34d49b3cd5ddad54741eeb0ccb97923a4f8d47cde933344439f2da56c82005da",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/LGDoT1fV/RoughlyEnoughItems-10.0.602-server-only.jar",
+          "filename": "RoughlyEnoughItems-10.0.602-server-only.jar",
+          "primary": true,
+          "size": 2126205
+        }
+      ]
+    },
+    {
+      "id": "nJo0YBZy",
+      "name": "[Forge 1.18.2] v8.3.600",
+      "version_number": "8.3.600+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9989f0598f5f05d9b5e88fed17991092502ac8bf2ac273bb90be9ccf7b49a64c441bfc0c8b7a1149bd7c2c8df146de0907678f60a47bee0aa92a4c94a49d76f8",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/nJo0YBZy/RoughlyEnoughItems-8.3.600-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.600-server-only.jar",
+          "primary": true,
+          "size": 2107661
+        }
+      ]
+    },
+    {
+      "id": "cPfKEtYv",
+      "name": "[Forge 1.19-1.19.2] v9.1.601",
+      "version_number": "9.1.601+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "08dabf36df3cb1d6cd314c2234e102d6b66e3e9bd99ae1aa7099c36052af81d23c28c9166d5bdc65a5367e5349347cd4f168620bfb0d97c83d61617b424c0e73",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/cPfKEtYv/RoughlyEnoughItems-9.1.601-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.601-server-only.jar",
+          "primary": true,
+          "size": 2105118
+        }
+      ]
+    },
+    {
+      "id": "XRxdXckN",
+      "name": "[Forge 1.19.4] v11.0.597",
+      "version_number": "11.0.597+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8757261287c3625e2b8fb87a3ee26c4eccd2b678b0afb9f7b73c939951a84566fd9b91415183d629f74f9b0b4c1b5a293c97222a18213662ed5854c8b66e9de9",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/XRxdXckN/RoughlyEnoughItems-11.0.597-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.597-server-only.jar",
+          "primary": true,
+          "size": 2118260
+        }
+      ]
+    },
+    {
+      "id": "2Zq6TzYW",
+      "name": "[Forge 1.19.3] v10.0.596",
+      "version_number": "10.0.596+forge",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0432e018a86fcd0877cb361cc7b0e6cf7d0250c201efabec624561dd213fc4623e9d732c0cdf31eca006444eef7ac461c99df6663faa859678ac60d2de6189d6",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/2Zq6TzYW/RoughlyEnoughItems-10.0.596-server-only.jar",
+          "filename": "RoughlyEnoughItems-10.0.596-server-only.jar",
+          "primary": true,
+          "size": 2116949
+        }
+      ]
+    },
+    {
+      "id": "vcYFi7uq",
+      "name": "[Forge 1.19-1.19.2] v9.1.595",
+      "version_number": "9.1.595+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c16b844fbfc6acc5588b344cfc9ac1d46103b4a8cc3a813a054bc14d9b05d8a75008ad6b2f35612206970be24d170c583ef3b8798d1247590b61eea1e4f26a53",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/vcYFi7uq/RoughlyEnoughItems-9.1.595-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.595-server-only.jar",
+          "primary": true,
+          "size": 2095821
+        }
+      ]
+    },
+    {
+      "id": "Z76w5mpI",
+      "name": "[Forge 1.18.2] v8.3.594",
+      "version_number": "8.3.594+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "a1572a94b7576afa89f1fa85dc4e0aabb51cf0f3ef117b3093f4d8bf4f28618f3491b220e82f3cdbb0ac7e1805373baea1a61f5478d7862a8bd096f62f5d52bc",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/Z76w5mpI/RoughlyEnoughItems-8.3.594-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.594-server-only.jar",
+          "primary": true,
+          "size": 2098359
+        }
+      ]
+    },
+    {
+      "id": "QVjDS4Z7",
+      "name": "[Forge 1.19.4] v11.0.593",
+      "version_number": "11.0.593+forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5392639655edbc95d54107aa6008f7aec141aa330b37c1f1b67e4f45a4fee1dd325e48e14a84733697088e880281dcd486c5c26d01115c89b68518333cd705fa",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/QVjDS4Z7/RoughlyEnoughItems-11.0.593-server-only.jar",
+          "filename": "RoughlyEnoughItems-11.0.593-server-only.jar",
+          "primary": true,
+          "size": 2112948
+        }
+      ]
+    },
+    {
+      "id": "QOlslu37",
+      "name": "[Forge 1.19.3] v10.0.592",
+      "version_number": "10.0.592+forge",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5505febb3829da32fbd63df4533cda66f86c90477b0696a2169cf55ac7cf5cee2cbde0743d13e4812d4cb3e52b5de0e3315e848a93befa3228f9f8cdde8affb3",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/QOlslu37/RoughlyEnoughItems-10.0.592-server-only.jar",
+          "filename": "RoughlyEnoughItems-10.0.592-server-only.jar",
+          "primary": true,
+          "size": 2111641
+        }
+      ]
+    },
+    {
+      "id": "KhZLGnWu",
+      "name": "[Forge 1.18.2] v8.3.590",
+      "version_number": "8.3.590+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "dbf77b173626f540ebb91f0369c81a0fad1f8fcf0cbda1219a55e7e2b20b44e6d0685b5a06d88b837edb565bb78d72e736ffd9107770e285cf611742314bf77f",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/KhZLGnWu/RoughlyEnoughItems-8.3.590-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.590-server-only.jar",
+          "primary": true,
+          "size": 2093058
+        }
+      ]
+    },
+    {
+      "id": "1AYRWQXf",
+      "name": "[Forge 1.19-1.19.2] v9.1.591",
+      "version_number": "9.1.591+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e58903ab6d9dada43b2c63b53e71918096b90e878e7a6c09d9cc55f61643e0365e635f3c393df7166cf7a0432d58fa26bf50ca19062aa88db848d070d04d7b91",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/1AYRWQXf/RoughlyEnoughItems-9.1.591-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.591-server-only.jar",
+          "primary": true,
+          "size": 2090518
+        }
+      ]
+    },
+    {
+      "id": "2DpjyK4y",
+      "name": "[Forge 1.19-1.19.2] v9.1.587",
+      "version_number": "9.1.587+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "7fafc942910823baff74b85b010c7570ed8cff2fe2438e60c93be4072ca74f3e19c6cf5ceeb59982c437b1284add4c883560e610a9923ee6a270db0505c06ac8",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/2DpjyK4y/RoughlyEnoughItems-9.1.587-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.587-server-only.jar",
+          "primary": true,
+          "size": 2089767
+        }
+      ]
+    },
+    {
+      "id": "YBecgVD8",
+      "name": "[Forge 1.18.2] v8.3.588",
+      "version_number": "8.3.588+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "907a4ffd5b401ffe453c1aeed2e47a04e58f044a489b74d3772e755f82d87409044c619f1fd94b47358ebd8cd5d8e61ebdb2b4fd876d2678ea59ed7f2d6582ab",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/YBecgVD8/RoughlyEnoughItems-8.3.588-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.588-server-only.jar",
+          "primary": true,
+          "size": 2092303
+        }
+      ]
+    },
+    {
+      "id": "4qdxQWSa",
+      "name": "[Forge 1.19.3] v10.0.586",
+      "version_number": "10.0.586+forge",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "35947e12ee142857b403cafc7a0ec48e067e4fd908729372176175caa9dd3c888e213e162bcb1f4dfbf45d708a1c05201147f338948b1b985ceb80e2c6d49901",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/4qdxQWSa/RoughlyEnoughItems-10.0.586-server-only.jar",
+          "filename": "RoughlyEnoughItems-10.0.586-server-only.jar",
+          "primary": true,
+          "size": 2110266
+        }
+      ]
+    },
+    {
+      "id": "v5HzJdDf",
+      "name": "[Forge 1.19-1.19.2] v9.1.585",
+      "version_number": "9.1.585+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c294ae77cf5620eddc4fd397fdb47681963ec18bb9b1e109cbb7a17ad1c67d07a4e1e7c2b3a4144590b1f8409eaa8dcce9534b2c9f4cb6c340f9f42aa59a7552",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/v5HzJdDf/RoughlyEnoughItems-9.1.585-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.585-server-only.jar",
+          "primary": true,
+          "size": 2089684
+        }
+      ]
+    },
+    {
+      "id": "kFT8Q9dy",
+      "name": "[Forge 1.18.2] v8.3.584",
+      "version_number": "8.3.584+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "7ae60df41e0571e1779a79d8cab2ab5e828fb82bf2de87bb134be4b206a15d985356bc57ce9f45eb4855b19704c6a8a2669cfdcfa835009a8ee00564885929d3",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/kFT8Q9dy/RoughlyEnoughItems-8.3.584-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.584-server-only.jar",
+          "primary": true,
+          "size": 2092220
+        }
+      ]
+    },
+    {
+      "id": "U8ZxFztO",
+      "name": "[Forge 1.18.2] v8.3.583",
+      "version_number": "8.3.583+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "cca7f1b32bb1be398eff871f58cbe8f22aa72579468e55f7f4987277d6efa344ef3e317ed5c7878e0f634a950e7ef122b30f424d4b7595e10107f456945c40fe",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/U8ZxFztO/RoughlyEnoughItems-8.3.583-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.583-server-only.jar",
+          "primary": true,
+          "size": 2084112
+        }
+      ]
+    },
+    {
+      "id": "1uzNk7Ac",
+      "name": "[Forge 1.18.2] v8.3.582",
+      "version_number": "8.3.582+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b62fb1d59d27423051f9d30d7d0f761d76b8866a8bb4f75a38f13fe6df1f7d7089da591e19cbc88262c8b26a9dafb745250b110c0ad3bbf5bacdfe40078e94b3",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/1uzNk7Ac/RoughlyEnoughItems-8.3.582-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.582-server-only.jar",
+          "primary": true,
+          "size": 2084039
+        }
+      ]
+    },
+    {
+      "id": "6KiCXMzQ",
+      "name": "[Forge 1.19.3] v10.0.581",
+      "version_number": "10.0.581+forge",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d5728d934163fe766690bca073380248fc46e08212aa6c8a9787894f133e775105fb5f748ec6a71261f737a82e62ad5253219dc6015e2fd48120ba8483611594",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/6KiCXMzQ/RoughlyEnoughItems-10.0.581-server-only.jar",
+          "filename": "RoughlyEnoughItems-10.0.581-server-only.jar",
+          "primary": true,
+          "size": 2100377
+        }
+      ]
+    },
+    {
+      "id": "s85RCOqJ",
+      "name": "[Forge 1.19-1.19.2] v9.1.580",
+      "version_number": "9.1.580+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e0a45dbe72dcc716d85cfc4e9c25be5a4aa70fe60047a828dd0872bd10cea72c100655c69a6835a139c556b6b2f9c03d47a20050d21bf58731594a3306c8029c",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/s85RCOqJ/RoughlyEnoughItems-9.1.580-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.580-server-only.jar",
+          "primary": true,
+          "size": 2079798
+        }
+      ]
+    },
+    {
+      "id": "JMMKVLVt",
+      "name": "[Forge 1.18.2] v8.3.579",
+      "version_number": "8.3.579+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e6db87c58bc85587c27cb7558584a39e4a3c2c7f9b1328b5c980d62776a9ec8ed4fdc00aae404778a0d91544da0781bfe3de96d05f45e02f1cba6bd069e55f45",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/JMMKVLVt/RoughlyEnoughItems-8.3.579-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.579-server-only.jar",
+          "primary": true,
+          "size": 2082356
+        }
+      ]
+    },
+    {
+      "id": "v9OMzoDv",
+      "name": "[Forge 1.19.3] v10.0.578",
+      "version_number": "10.0.578+forge",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ddce64a3592eb75a1eac250213d3f716957ca7a5e919eec2c1ade08d8d492abc7338f942493d7f478e89b6076468ac3defe515fdf2eef1c0fea19b016869ef27",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/v9OMzoDv/RoughlyEnoughItems-10.0.578-server-only.jar",
+          "filename": "RoughlyEnoughItems-10.0.578-server-only.jar",
+          "primary": true,
+          "size": 2068917
+        }
+      ]
+    },
+    {
+      "id": "T1YWUr1P",
+      "name": "[Forge 1.18.2] v8.3.576",
+      "version_number": "8.3.576+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "962d65014bdcbf57a0c6b5cd6fb60495348cc9677883e06c995832a0861763069ed1ee384ff1511d7d1acee7969f02fb93a20cae95f7fe3ef9241a86bba33db3",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/T1YWUr1P/RoughlyEnoughItems-8.3.576-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.576-server-only.jar",
+          "primary": true,
+          "size": 2050892
+        }
+      ]
+    },
+    {
+      "id": "rGJHj95t",
+      "name": "[Forge 1.19-1.19.2] v9.1.577",
+      "version_number": "9.1.577+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9da189e9a82ff81e8343318f4e4cd54d942f8fa63d42feedcbb601edcad0eeb54484dcd5d7af7b7dfe5eadec0d8fd68a37e4624dd82b2ae6f96f8fc32b5282c5",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/rGJHj95t/RoughlyEnoughItems-9.1.577-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.577-server-only.jar",
+          "primary": true,
+          "size": 2048326
+        }
+      ]
+    },
+    {
+      "id": "tmuKkYD4",
+      "name": "[Forge 1.18.2] v8.3.573",
+      "version_number": "8.3.573+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "29936f54be73375190919fa042eb4a92e76743aa665aeeee1fc7beb7f8da2c06b6bb2e71dfc10cce6904e9d643cf552857f0dcf6d4b203f70637a1dab122a428",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/tmuKkYD4/RoughlyEnoughItems-8.3.573-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.573-server-only.jar",
+          "primary": true,
+          "size": 2050754
+        }
+      ]
+    },
+    {
+      "id": "rDumveEQ",
+      "name": "[Forge 1.19-1.19.2] v9.1.574",
+      "version_number": "9.1.574+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5a8ca3db8ebfc989003c7ad3c6d7ced2de454023b4a7a865ce6baa1bebd31ff0d0f994380ce1bfcd39af15d1a1852110bcea85109ec01cda8ca3776a2c1d7df1",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/rDumveEQ/RoughlyEnoughItems-9.1.574-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.574-server-only.jar",
+          "primary": true,
+          "size": 2048182
+        }
+      ]
+    },
+    {
+      "id": "5KcgFJnl",
+      "name": "[Forge 1.18.2] v8.3.571",
+      "version_number": "8.3.571+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "951253ecd39095260abb7151c16e6f04e2ede71f0ebaf3deba67a22ef6bb36e90af9206e21351f93d6d414bbd2fcff50a1c05e39a2872821d93fb2a366080635",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/5KcgFJnl/RoughlyEnoughItems-8.3.571-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.571-server-only.jar",
+          "primary": true,
+          "size": 2031775
+        }
+      ]
+    },
+    {
+      "id": "UMsaWabA",
+      "name": "[Forge 1.19-1.19.2] v9.1.572",
+      "version_number": "9.1.572+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8c692e8e85ac69ea5f3815a2e893ef6814d153d23213d1538b48be50428e6cb26d398a0c82c1285d3d22433affdab1f7880289f5268991a15365a833ebd966c5",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/UMsaWabA/RoughlyEnoughItems-9.1.572-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.572-server-only.jar",
+          "primary": true,
+          "size": 2029050
+        }
+      ]
+    },
+    {
+      "id": "TCTkLsmd",
+      "name": "[Forge 1.19-1.19.2] v9.1.570",
+      "version_number": "9.1.570+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "1a480fbcfbc30fc00dbaee769e3d161f4caf87c910d31f6b617e48666aadebdb71150fdc96bc505d3453119ab670fb8dd83ec15747caf4ce4893a4701c2a74d0",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/TCTkLsmd/RoughlyEnoughItems-9.1.570-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.570-server-only.jar",
+          "primary": true,
+          "size": 2029160
+        }
+      ]
+    },
+    {
+      "id": "CZP14tW6",
+      "name": "[Forge 1.18.2] v8.3.569",
+      "version_number": "8.3.569+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "35f26d65cb10b28baa71b762e17152967aa7e383504e93b6bdfa34809e39f04e8e7a306b3d227a96d7cc021289ac16f9783a0d87bf0b9f963b197bf7b12ec392",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/CZP14tW6/RoughlyEnoughItems-8.3.569-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.569-server-only.jar",
+          "primary": true,
+          "size": 2031885
+        }
+      ]
+    },
+    {
+      "id": "AFDryqOU",
+      "name": "[Forge 1.19-1.19.2] v9.1.568",
+      "version_number": "9.1.568+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "58c1316351e7e76576394af91ff6e52343c97aaea9ad1944f950101467cbef9e93861705b252d6e2ae193e4a36a8a74cd9cf64a770d2f3bd35230115d5a45278",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/AFDryqOU/RoughlyEnoughItems-9.1.568-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.568-server-only.jar",
+          "primary": true,
+          "size": 2025761
+        }
+      ]
+    },
+    {
+      "id": "kJuSkDPP",
+      "name": "[Forge 1.18.2] v8.3.567",
+      "version_number": "8.3.567+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b77c1487a8c6e4cf2dd6144c19a6c775a25eaa6afde22e328d03e01a1de0b1d96c2f9bc79ed8276efa8588e17d60707a921290067a8e360097e889ddd825ad90",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/kJuSkDPP/RoughlyEnoughItems-8.3.567-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.567-server-only.jar",
+          "primary": true,
+          "size": 2028511
+        }
+      ]
+    },
+    {
+      "id": "rt7uKdGv",
+      "name": "[Forge 1.18.2] v8.3.566",
+      "version_number": "8.3.566+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "2edb2c76ce696af3d3d9acaf6dc62b63ee9cd8453553e23628d835eef4ff35f2a5cfe3f406e00867c4188491673a0e8272446c8302f483b3a79a6903ee2279e0",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/rt7uKdGv/RoughlyEnoughItems-8.3.566-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.566-server-only.jar",
+          "primary": true,
+          "size": 2027428
+        }
+      ]
+    },
+    {
+      "id": "kzZpEvpT",
+      "name": "[Forge 1.19-1.19.2] v9.1.565",
+      "version_number": "9.1.565+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d701b44564c3a27067f269ae39d0d82219a210ae359ec0d29dd5efe5c4ad7e61f005cdffa8335560880f8cb2c25bfada760fba01c19d9f9419a2b5cb6e4eb49d",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/kzZpEvpT/RoughlyEnoughItems-9.1.565-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.565-server-only.jar",
+          "primary": true,
+          "size": 2021980
+        }
+      ]
+    },
+    {
+      "id": "p0Kt9vHy",
+      "name": "[Forge 1.18.2] v8.3.564",
+      "version_number": "8.3.564+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b9df30364989960e75252f011b89025f6d2a52bc760cbf6a12ad24aea522905db31ac18b503fc4a333158998ad1c333c241e71a2cc0b18fd999c4cb3b2de49aa",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/p0Kt9vHy/RoughlyEnoughItems-8.3.564-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.564-server-only.jar",
+          "primary": true,
+          "size": 2024722
+        }
+      ]
+    },
+    {
+      "id": "eEDtye6T",
+      "name": "[Forge 1.18.2] v8.3.563",
+      "version_number": "8.3.563+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "7be7b43ae6351a6e5d0953a9b6c0bd17e0841647bcc082e85cc2859acb39db1b812f36453aa34bb27238c90e2aee8eb57cd002cd9a17c07ac1e3e9d343146252",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/eEDtye6T/RoughlyEnoughItems-8.3.563-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.563-server-only.jar",
+          "primary": true,
+          "size": 2002238
+        }
+      ]
+    },
+    {
+      "id": "7cyEEXjz",
+      "name": "[Forge 1.18.2] v8.3.561",
+      "version_number": "8.3.561+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "775587a700668d3bae530817b24afc31c2321b1d78a1dd43a1f8efa5f69333ab63848f923f785c51067693f5ab4efb0d3e77097806445a82b1ca06f5b9c46266",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/7cyEEXjz/RoughlyEnoughItems-8.3.561-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.561-server-only.jar",
+          "primary": true,
+          "size": 1990486
+        }
+      ]
+    },
+    {
+      "id": "fFyraiv2",
+      "name": "[Forge 1.19-1.19.2] v9.1.562",
+      "version_number": "9.1.562+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "92d9a51c9fe32c2bc3187786bcd96c157d7b9f895d3fd6ae4bb8f70bcb5b212bc8475ede9758a2c60b686390899bf29d5e4d85e6457cf6c885c0f1b1622216ca",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/fFyraiv2/RoughlyEnoughItems-9.1.562-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.562-server-only.jar",
+          "primary": true,
+          "size": 1987726
+        }
+      ]
+    },
+    {
+      "id": "hglKMgm6",
+      "name": "[Forge 1.18.2] v8.3.559",
+      "version_number": "8.3.559+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "1b89d1713f36956edec0d9c86716796b228a45e62217df45798a30e84bec0ed5fb2bde9941be40242cb0680da192cd3a905bb95f88b8380e267e99200e567d58",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/hglKMgm6/RoughlyEnoughItems-8.3.559-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.559-server-only.jar",
+          "primary": true,
+          "size": 1988187
+        }
+      ]
+    },
+    {
+      "id": "BuPJpb4D",
+      "name": "[Forge 1.19-1.19.2] v9.1.560",
+      "version_number": "9.1.560+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8111f3ba30ab37f83263a94b35444e27ba40b6c422084c87f9ecf5c7cd7260d59fc88a405aa8eaec1db863ebc10996a521a3fd5d9383021974b272229c3d0faf",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/BuPJpb4D/RoughlyEnoughItems-9.1.560-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.560-server-only.jar",
+          "primary": true,
+          "size": 1985425
+        }
+      ]
+    },
+    {
+      "id": "jFM0VpnA",
+      "name": "[Forge 1.19-1.19.2] v9.1.558",
+      "version_number": "9.1.558+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ffd13edf1dc24a57381d5ed99e513cc6889796b8ede8e1e9ee5758b2f8c94df4e4444913cbd5b987f4effe6b79f4c93455c84b00edbbe3f9b4035c5108527f1d",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/jFM0VpnA/RoughlyEnoughItems-9.1.558-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.558-server-only.jar",
+          "primary": true,
+          "size": 1985364
+        }
+      ]
+    },
+    {
+      "id": "FpIfVqzU",
+      "name": "[Forge 1.18.2] v8.3.557",
+      "version_number": "8.3.557+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "3c5035c00f38795e7599eba51e5a1231fc0b351324b822ab5e70e10d914ffdd3a65a17f3dacca4f0d38420ed3f22d08767790bce23059643dc8a19c30be01760",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/FpIfVqzU/RoughlyEnoughItems-8.3.557-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.557-server-only.jar",
+          "primary": true,
+          "size": 1988111
+        }
+      ]
+    },
+    {
+      "id": "SFQOXrQJ",
+      "name": "[Forge 1.18.2] v8.3.556",
+      "version_number": "8.3.556+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "7cd2cd13b64fdbc561ece4673e676b10673b526e7c0d739a5e3359a42832d31f928ae9e9640d92dd831d7f75f134f746fa81dc019e89a510c6a7c08605f409f2",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/SFQOXrQJ/RoughlyEnoughItems-8.3.556-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.556-server-only.jar",
+          "primary": true,
+          "size": 1975894
+        }
+      ]
+    },
+    {
+      "id": "2hDNDl10",
+      "name": "[Forge 1.19-1.19.2] v9.1.555",
+      "version_number": "9.1.555+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e5c36be0c3e33addcefc12a47cb5c863e308949c221c7769d1530e8fe29e35f9ac3ccd48a28858414213902b2db798af7bf0a9b5513a4e2e41fd565d72e989ef",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/2hDNDl10/RoughlyEnoughItems-9.1.555-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.555-server-only.jar",
+          "primary": true,
+          "size": 1973175
+        }
+      ]
+    },
+    {
+      "id": "LxpISnor",
+      "name": "[Forge 1.18.2] v8.3.553",
+      "version_number": "8.3.553+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ecb0ac2be7ee2f46a2b38d35e0355d45b881b56c292b5fbe60483d49c1b22a8e1848b56ed8aa54f2f606b388ec3b628c782f5f0ef1c47f53b5951ab3d7df3d80",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/LxpISnor/RoughlyEnoughItems-8.3.553-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.553-server-only.jar",
+          "primary": true,
+          "size": 1975874
+        }
+      ]
+    },
+    {
+      "id": "YBzESlMQ",
+      "name": "[Forge 1.19-1.19.2] v9.1.554",
+      "version_number": "9.1.554+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "816190d1c5a782eb6def1bc5f2bfa9e756e1b206a4d63353bf45ab9ca9d1d241d8ac4c95487b4320627cc636b9cf990da48561af39b41e672e375d5496d84706",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/YBzESlMQ/RoughlyEnoughItems-9.1.554-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.554-server-only.jar",
+          "primary": true,
+          "size": 1973156
+        }
+      ]
+    },
+    {
+      "id": "Ged2MEVg",
+      "name": "[Forge 1.19-1.19.2] v9.1.552",
+      "version_number": "9.1.552+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "39fec8b778852169f6ddf27b0fac1fd5a41dccb4e7c835313ef1cb972cb40a4d942e3404b245fc13983eeb6aa5f525e116a00b6c1297d4f3d071701d0ae223fd",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/Ged2MEVg/RoughlyEnoughItems-9.1.552-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.552-server-only.jar",
+          "primary": true,
+          "size": 1972875
+        }
+      ]
+    },
+    {
+      "id": "d70ksFIH",
+      "name": "[Forge 1.18.2] v8.3.551",
+      "version_number": "8.3.551+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "48ad5b0bf582e678d18011bf01e53f69150ddbc79a11c30c6b58b43ea0608eea1d141225cd8eb12f04ee3d0cd311b26f80b8adf37bd4c10638338aa40dd90423",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/d70ksFIH/RoughlyEnoughItems-8.3.551-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.551-server-only.jar",
+          "primary": true,
+          "size": 1975583
+        }
+      ]
+    },
+    {
+      "id": "Zj0ZK1LK",
+      "name": "[Forge 1.18.2] v8.3.549",
+      "version_number": "8.3.549+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0d3079d6a262533d151b15b5f9874380d87c808c15b6e6aa92460859f53819517beb31ec0014d97c8824c4e2745199af396280843e0c13f59f6a572415ce3021",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/Zj0ZK1LK/RoughlyEnoughItems-8.3.549-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.549-server-only.jar",
+          "primary": true,
+          "size": 1972823
+        }
+      ]
+    },
+    {
+      "id": "9FKqAFYu",
+      "name": "[Forge 1.19-1.19.2] v9.1.550",
+      "version_number": "9.1.550+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ed3a28ad09aa03de5b8cb5faa65a6cfcc114235aa060335db2a027aa6fc0da1b63ddbba8033ec3cb9abadf81c047586c13e92dcaeb2b5cfbf45107c933691223",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9FKqAFYu/RoughlyEnoughItems-9.1.550-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.550-server-only.jar",
+          "primary": true,
+          "size": 1970118
+        }
+      ]
+    },
+    {
+      "id": "RP3fv3G7",
+      "name": "[Forge 1.18.2] v8.3.547",
+      "version_number": "8.3.547+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "47a02a020a5349669b41dd461ae3ec3de52d207ebbc9971a489b08d9fc90f53cc1dc56599242422cb3b02dec84197852575afffdc1821b4f9146d7ef10dab26c",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/RP3fv3G7/RoughlyEnoughItems-8.3.547-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.547-server-only.jar",
+          "primary": true,
+          "size": 1970561
+        }
+      ]
+    },
+    {
+      "id": "O1vdIqxd",
+      "name": "[Forge 1.19-1.19.2] v9.1.548",
+      "version_number": "9.1.548+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b54c259cecc3b349e68386a7521f5bdc7cafd49de1ac0b42d6aac167f5a84b1891a76a876a1ce12fdad5e785ee4e37aee736616e17321ece6373749209da94f4",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/O1vdIqxd/RoughlyEnoughItems-9.1.548-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.548-server-only.jar",
+          "primary": true,
+          "size": 1967857
+        }
+      ]
+    },
+    {
+      "id": "61tL6xdK",
+      "name": "[Forge 1.19-1.19.2] v9.1.546",
+      "version_number": "9.1.546+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "91c5bd3825ccebe7d39356801305045634eda7a511c0c29dd9bba5408c59c67c05ca6bd9616afe7b2799d5155b98e3b99d62a497e692167739f17733229d62db",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/61tL6xdK/RoughlyEnoughItems-9.1.546-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.546-server-only.jar",
+          "primary": true,
+          "size": 1967801
+        }
+      ]
+    },
+    {
+      "id": "VASHFURB",
+      "name": "[Forge 1.18.2] v8.3.545",
+      "version_number": "8.3.545+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "6c40a6d17da9bdf3578f215e8e8695fd1496f199ec181e1a2e6c1600e625f81f1cfafa904a400fefc8b29a60dc3d3dd54f2dee7e956a1e862c5d6e20244f16f7",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/VASHFURB/RoughlyEnoughItems-8.3.545-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.545-server-only.jar",
+          "primary": true,
+          "size": 1970508
+        }
+      ]
+    },
+    {
+      "id": "DceS548O",
+      "name": "[Forge 1.19-1.19.2] v9.1.544",
+      "version_number": "9.1.544+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f67c1b333bb45a77d46dbd3b455da654d27182cf9b3d82ced14543c07062c12efd46b0f125057a5cad7fc5f15ff1b929b5c4ae3e127a8b7b8ecfa1f888b4910c",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/DceS548O/RoughlyEnoughItems-9.1.544-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.544-server-only.jar",
+          "primary": true,
+          "size": 1964587
+        }
+      ]
+    },
+    {
+      "id": "DhLKbzgM",
+      "name": "[Forge 1.18.2] v8.3.543",
+      "version_number": "8.3.543+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "447c85c8c1351deebbe5e3a8ff11f6b7803f3b71a4ecae67379667f06e67002f594c59f957c8ed06be4eac4c50a18d5925f5d90d37d7cc59304083c0def255c0",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/DhLKbzgM/RoughlyEnoughItems-8.3.543-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.543-server-only.jar",
+          "primary": true,
+          "size": 1967288
+        }
+      ]
+    },
+    {
+      "id": "GAO6kcIw",
+      "name": "[Forge 1.18.2] v8.3.542",
+      "version_number": "8.3.542+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "11f7fe5da5741c247a90ced1f6a0c1e8a963b5554994fbb9e41c54cec43dd3be1c89b771d77377954a6f8af5277d9d33120ecbfb7ef83fd33bd20b5f288920e6",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/GAO6kcIw/RoughlyEnoughItems-8.3.542-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.542-server-only.jar",
+          "primary": true,
+          "size": 1967289
+        }
+      ]
+    },
+    {
+      "id": "3QUWCjpT",
+      "name": "[Forge 1.19-1.19.2] v9.1.537",
+      "version_number": "9.1.537+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b1f18d0050f1a22c5f0408ada3786d9ab64de6adb0b0bb9db81476f746eb6da78c2a8119177a0a182162b2a2de6bf94b32b71ca24eee66067626429532990db6",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/3QUWCjpT/RoughlyEnoughItems-9.1.537-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.537-server-only.jar",
+          "primary": true,
+          "size": 1963351
+        }
+      ]
+    },
+    {
+      "id": "9hVVzgbo",
+      "name": "[Forge 1.18.2] v8.3.529",
+      "version_number": "8.3.529+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "55bece143b8fff2d7b7288eed9ff6878e852065885dd2dcc2eba1a79302a57485b0973ca2101711b0da40c2ba9702efa39cd057c74f62d7a1eb285ec635a95a8",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.3.529%2Bforge/RoughlyEnoughItems-8.3.529-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.529-server-only.jar",
+          "primary": true,
+          "size": 2193472
+        }
+      ]
+    },
+    {
+      "id": "uzJBV3sA",
+      "name": "[Forge 1.19-1.19.2] v9.1.530",
+      "version_number": "9.1.530+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "cb2e255a631483f8f01fdc39e776ce01693cc93ce24af4692c982e9dd604aac72ece8d343edadf7cf9be6b0a97809827b1b5e0b37223506cc9f7aa96b2b542a2",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.1.530%2Bforge/RoughlyEnoughItems-9.1.530-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.530-server-only.jar",
+          "primary": true,
+          "size": 1963351
+        }
+      ]
+    },
+    {
+      "id": "KXLZaQQ7",
+      "name": "[Forge 1.18.2] v8.3.527",
+      "version_number": "8.3.527+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8547e9c150f0ce9184502417eb2a5313fb185aeaf89ce50b64d8ae8273c6960778e6d71ee9b0e6956a663cbcc73e675f6f269860643ca1562db2794dff55288b",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.3.527%2Bforge/RoughlyEnoughItems-8.3.527-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.527-server-only.jar",
+          "primary": true,
+          "size": 2193352
+        }
+      ]
+    },
+    {
+      "id": "gGQqbY4H",
+      "name": "[Forge 1.19-1.19.2] v9.1.528",
+      "version_number": "9.1.528+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "3a20a1be0f622056e24026d511c99355a3980d35ac38e3a22fbf13f94af0a71c4968ce8381fd27a032c03498309e95735a80af3675532b7469f2fbcfea728bbb",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.1.528%2Bforge/RoughlyEnoughItems-9.1.528-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.528-server-only.jar",
+          "primary": true,
+          "size": 1963235
+        }
+      ]
+    },
+    {
+      "id": "iGf2nNL5",
+      "name": "[Forge 1.18.2] v8.3.525",
+      "version_number": "8.3.525+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8b61a60af0a03875431905533a97b29b45c18715b31ae494b26c751e96f7e7ca3d4f3b8896ab04b1a4b994039f83c7e983406624396b337007e82a393459253f",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.3.525%2Bforge/RoughlyEnoughItems-8.3.525-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.525-server-only.jar",
+          "primary": true,
+          "size": 2193351
+        }
+      ]
+    },
+    {
+      "id": "wpuwbir8",
+      "name": "[Forge 1.19-1.19.2] v9.1.526",
+      "version_number": "9.1.526+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "a413269eecf46fa83b81e62b267856297510ec2169e1159913dc5144c318faf7b0ce8af8d0c3ba6e69c118481dd3f9dfbfeba57911e0cea283180561ff1e87c7",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.1.526%2Bforge/RoughlyEnoughItems-9.1.526-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.526-server-only.jar",
+          "primary": true,
+          "size": 1963235
+        }
+      ]
+    },
+    {
+      "id": "pPdpWJrE",
+      "name": "[Forge 1.19-1.19.2] v9.1.524",
+      "version_number": "9.1.524+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "483ddca15a82118bfbc98189ae96e8cbf76db3ace14042c2b6b41e4600df948daaedf19c70d83266cbba008bfdf50232be4d2ebbc14d4d77206e3d98da505e19",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.1.524%2Bforge/RoughlyEnoughItems-9.1.524-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.524-server-only.jar",
+          "primary": true,
+          "size": 1963190
+        }
+      ]
+    },
+    {
+      "id": "NLvf5AJ0",
+      "name": "[Forge 1.18.2] v8.3.521",
+      "version_number": "8.3.521+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "85065efbfd95833e9badc4463fe248c893f44a44dd4f35f80163066fe928474f76a97626b06e134a42171b7d6b7a504b0bf7958158001df28b2cbba64d7ae7f1",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.3.521%2Bforge/RoughlyEnoughItems-8.3.521-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.521-server-only.jar",
+          "primary": true,
+          "size": 2193309
+        }
+      ]
+    },
+    {
+      "id": "7tpJRbNX",
+      "name": "[Forge 1.19-1.19.2] v9.1.522",
+      "version_number": "9.1.522+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "bc31188b95a7a9519a7475e546450edd4819c63bb57845c50172f8c43756502934d1f87db1e18785713644b400c777926a72bf77560a4fd55f8b0773be137c07",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.1.522%2Bforge/RoughlyEnoughItems-9.1.522-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.522-server-only.jar",
+          "primary": true,
+          "size": 1963190
+        }
+      ]
+    },
+    {
+      "id": "MS01firm",
+      "name": "[Forge 1.19(.1)] v9.1.520",
+      "version_number": "9.1.520+forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9b36404fa874dcc18ec68e2ee73c1ce802094a4574e1d4018df28b6afa6c32fd7f4ea5d5b83e988b5877ad2b4da1ddbaebb82c8f30b9061b532a781919b5e653",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.1.520%2Bforge/RoughlyEnoughItems-9.1.520-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.520-server-only.jar",
+          "primary": true,
+          "size": 1962739
+        }
+      ]
+    },
+    {
+      "id": "9D1wJYxO",
+      "name": "[Forge 1.18.2] v8.3.519",
+      "version_number": "8.3.519+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5465b911987fd0087af4d9f3803fff62fc1a5d74a3ef0011d3c528944dc9407a6c2457b357ffe87e48cf7286733380acfde89e6de11f4cc6a94ac06e62a5a3b4",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.3.519%2Bforge/RoughlyEnoughItems-8.3.519-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.519-server-only.jar",
+          "primary": true,
+          "size": 2192858
+        }
+      ]
+    },
+    {
+      "id": "a0nhSo1Q",
+      "name": "[Forge 1.19] v9.1.518",
+      "version_number": "9.1.518+forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "fc090e9903c7c2783fa30af899a3d7c7b409456f19dc13b09f7d860cfe5bdee5868b1a98671e734ce0915ccbfd31e684f4185d6016ae7d56ed828e99ab0bb491",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.1.518%2Bforge/RoughlyEnoughItems-9.1.518-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.518-server-only.jar",
+          "primary": true,
+          "size": 1960712
+        }
+      ]
+    },
+    {
+      "id": "JEo0rCFA",
+      "name": "[Forge 1.19] v9.1.517",
+      "version_number": "9.1.517+forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "12ba7782c434aec9822694d72b2a9c0345090854ba34c0427c105cfce71d5813d58c232368f43b33dc7fa7b0adffcbdcb06791508a32f7759eeb2807bcc25ac8",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.1.517%2Bforge/RoughlyEnoughItems-9.1.517-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.517-server-only.jar",
+          "primary": true,
+          "size": 1901311
+        }
+      ]
+    },
+    {
+      "id": "yfEiPboG",
+      "name": "[Forge 1.19] v9.1.514",
+      "version_number": "9.1.514+forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "98627effcee4390df76338f392bcb34307399265a293dce4b20d5c104fcf9033ab726a20e1c66c4eb13c5f56878fa51a5827e8e1adee0e19cab90e6f1d1d389d",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.1.514%2Bforge/RoughlyEnoughItems-9.1.514-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.514-server-only.jar",
+          "primary": true,
+          "size": 1901313
+        }
+      ]
+    },
+    {
+      "id": "puePavXQ",
+      "name": "[Forge 1.19] v9.1.511",
+      "version_number": "9.1.511+forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "743ff92a490492890237998268a4497d8a357b192a434174f9b97cd5b71cd8ffc0e16b9a441ca4eb90e6352d5cb8b5b13b6cc4e1a5eaf3c6721f23e6a01bba98",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.1.511%2Bforge/RoughlyEnoughItems-9.1.511-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.511-server-only.jar",
+          "primary": true,
+          "size": 1901505
+        }
+      ]
+    },
+    {
+      "id": "klE1ECfc",
+      "name": "[Forge 1.18.2] v8.3.510",
+      "version_number": "8.3.510+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "dc2ad8011dc6b256218b4f21d25511ee6cb9d78a9728da2c56d4260fd304cf7fff39c6874c5f876d888f976f9cc855a0a9d4802427a506124448a9bb44f11b73",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.3.510%2Bforge/RoughlyEnoughItems-8.3.510-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.510-server-only.jar",
+          "primary": true,
+          "size": 2133577
+        }
+      ]
+    },
+    {
+      "id": "IpVwN8j8",
+      "name": "[Forge 1.18.2] v8.3.508",
+      "version_number": "8.3.508+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9beab42592dd3ff20f8c574c97c80828e9f9161f0e478f1397905464ab332e0b3e1abecab75b9510c7e3a8d720c36aeed1420483ec5664900b62add27bd1c40a",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.3.508%2Bforge/RoughlyEnoughItems-8.3.508-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.508-server-only.jar",
+          "primary": true,
+          "size": 2133575
+        }
+      ]
+    },
+    {
+      "id": "cBcomVct",
+      "name": "[Forge 1.19] v9.1.509",
+      "version_number": "9.1.509+forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "56926857830461d14f1cf938f76742f65af811911154b66a8f9e33a31ebf08657cfe50ba02bb49d0692dc4be072642bcd6a521e5574470da6bf5d362b31154d3",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.1.509%2Bforge/RoughlyEnoughItems-9.1.509-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.509-server-only.jar",
+          "primary": true,
+          "size": 1901509
+        }
+      ]
+    },
+    {
+      "id": "T1l6tbqT",
+      "name": "[Forge 1.19] v9.1.504",
+      "version_number": "9.1.504+forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "88771d42bdc8c7910cd66725c42975d93f02f70f8a9d04e4f823a3337d5601f8dc86a12e4e0cb539a82d1ed6db3f98b2f148e5e90e496feb5f008e11a70db1b9",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.1.504%2Bforge/RoughlyEnoughItems-9.1.504-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.504-server-only.jar",
+          "primary": true,
+          "size": 1897693
+        }
+      ]
+    },
+    {
+      "id": "ESk0nlyN",
+      "name": "[Forge 1.19] v9.1.503",
+      "version_number": "9.1.503+forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "78bdf6cca07c797c045341717fdeb0c0ecd286bcd24149f3970b4476b9c84b626abeb2f7bdcc4d658e3ea698cdc1fac4cab9692d8e555f2eec927e639d81200f",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.1.503%2Bforge/RoughlyEnoughItems-9.1.503-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.503-server-only.jar",
+          "primary": true,
+          "size": 1897670
+        }
+      ]
+    },
+    {
+      "id": "6CHxlvon",
+      "name": "[Forge 1.18.2] v8.3.502",
+      "version_number": "8.3.502+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "2b2bc8db0847fef7f6080239035d4ed9df749429daee47958ce3fc44745ae165ad2398d38cb78f4fe7e58d58250d10eec8fc548be76348d83a8f11f60ced9e3b",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.3.502%2Bforge/RoughlyEnoughItems-8.3.502-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.502-server-only.jar",
+          "primary": true,
+          "size": 2129367
+        }
+      ]
+    },
+    {
+      "id": "YzI77IDM",
+      "name": "[Forge 1.18.2] v8.3.501",
+      "version_number": "8.3.501+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "2db262ad9906ac7682524da74431c40035f4e6ad42e131e30dfad5c02936c22179e67bd892d898be0b3bf7f25dc8a8d707c69c9f718840c0a30254cb2a2d135f",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.3.501%2Bforge/RoughlyEnoughItems-8.3.501-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.501-server-only.jar",
+          "primary": true,
+          "size": 2127960
+        }
+      ]
+    },
+    {
+      "id": "3uORdWKN",
+      "name": "[Forge 1.19] v9.1.500",
+      "version_number": "9.1.500+forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "22837e5085b0c7bf010cac4e5b820e9727c4f1cb36d6b714e681d4d6bf324566bb5f101bb701dd0c65dcb10eb6cb5fe1d068d9b07fa2b8abb3c4d57509824edf",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.1.500%2Bforge/RoughlyEnoughItems-9.1.500-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.500-server-only.jar",
+          "primary": true,
+          "size": 1896274
+        }
+      ]
+    },
+    {
+      "id": "6bFm7ksE",
+      "name": "[Forge 1.19] v9.1.499",
+      "version_number": "9.1.499+forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "bc1a8a4c1028aaae02fc5f8f8c2f5ea903f4f0f52a2b39ec03df8934925518291c9f3d08562196f17b765ca291303d75c197ac56509b8585b84d093520c8e392",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.1.499%2Bforge/RoughlyEnoughItems-9.1.499-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.1.499-server-only.jar",
+          "primary": true,
+          "size": 1894382
+        }
+      ]
+    },
+    {
+      "id": "DIpTlOGa",
+      "name": "[Forge 1.18.2] v8.3.498",
+      "version_number": "8.3.498+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8ead0b40dc278552e7acca4909a3e7e31896012dfadd40008b61baa9a837b72e73737ff57b1abeadee657ea53ec1da978bc69e299908a0499717afbca328e28b",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.3.498%2Bforge/RoughlyEnoughItems-8.3.498-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.498-server-only.jar",
+          "primary": true,
+          "size": 2125848
+        }
+      ]
+    },
+    {
+      "id": "oVMbrcy0",
+      "name": "[Forge 1.18.2] v8.3.497",
+      "version_number": "8.3.497+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "cc83ab4716b2f9edc52e27b3afc9739f121b41604b20cf1182341a0ecebdb8e8a3ef05f794b3be8e295ed7e074727d5845afe770d88e820ba3062c9977ae13b6",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.3.497%2Bforge/RoughlyEnoughItems-8.3.497-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.497-server-only.jar",
+          "primary": true,
+          "size": 2117091
+        }
+      ]
+    },
+    {
+      "id": "ojxB5t4S",
+      "name": "[Forge 1.18.2] v8.3.495",
+      "version_number": "8.3.495+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ed3b7760d8c4c08170b75ed0118920c65133dbaac39097d23b75ec0856fd4fd5456508a36ecddce4113ab0b63bfe8d2fa7f46fbf2e4ff5a521d902c33164f4c7",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.3.495%2Bforge/RoughlyEnoughItems-8.3.495-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.495-server-only.jar",
+          "primary": true,
+          "size": 2117090
+        }
+      ]
+    },
+    {
+      "id": "QEG0RGzC",
+      "name": "[Forge 1.18.2] v8.3.494",
+      "version_number": "8.3.494+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9ba08fdb5316f1772030b1b3a32ef79ed214fdeb5f042605cf5dc82b51fc94eb6a1df4b87ae84c59179296682bb39edddebf6438d991cf9d2e43cdd438d1667e",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.3.494%2Bforge/RoughlyEnoughItems-8.3.494-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.3.494-server-only.jar",
+          "primary": true,
+          "size": 2117112
+        }
+      ]
+    },
+    {
+      "id": "lOlZuytF",
+      "name": "[Forge 1.19] v9.0.493",
+      "version_number": "9.0.493+forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "aade58588b7290d23aeb8b1bfb4f7a59a7528c52710c295612821a54447c49d9fd317849cf03fc2cec4e9f0fd2864a288c1a1a57ecd31490ba419256fdc2bc49",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.0.493%2Bforge/RoughlyEnoughItems-9.0.493-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.0.493-server-only.jar",
+          "primary": true,
+          "size": 1761190
+        }
+      ]
+    },
+    {
+      "id": "UzSOi07I",
+      "name": "[Forge 1.18.2] v8.2.492",
+      "version_number": "8.2.492+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "753d76d01ab47f486d576a0d4034efd95895702ed138663dd8c08117c5514579c5b9d446f7d5e3fcc6d85f2cb81da49d20cb7efb8add7109d1f6aed775e9e9ae",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.2.492%2Bforge/RoughlyEnoughItems-8.2.492-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.2.492-server-only.jar",
+          "primary": true,
+          "size": 1987928
+        }
+      ]
+    },
+    {
+      "id": "cCH2VRM4",
+      "name": "[Forge 1.19] v9.0.491",
+      "version_number": "9.0.491+forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "454925a1c4f6590e4bc317fa8acfd957fa27b7a2df4706911628064fa5fbb646993ed6f8fb934de36a85785e1d077e2c86c4826570dda3a68747337d5c45fc63",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.0.491%2Bforge/RoughlyEnoughItems-9.0.491-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.0.491-server-only.jar",
+          "primary": true,
+          "size": 1761187
+        }
+      ]
+    },
+    {
+      "id": "vD9fjwoX",
+      "name": "[Forge 1.18.2] v8.2.490",
+      "version_number": "8.2.490+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "13119555861e6b9922766ca5c8b5415db11b9dca5cdba481649d3b840df4885a5b9ae2eb2ee59e9ed75cc296a437292ff47bd6a3d300656bd896b5a7e00cdcf9",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.2.490%2Bforge/RoughlyEnoughItems-8.2.490-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.2.490-server-only.jar",
+          "primary": true,
+          "size": 1987647
+        }
+      ]
+    },
+    {
+      "id": "xMslkKkL",
+      "name": "[Forge 1.19] v9.0.489",
+      "version_number": "9.0.489+forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "7e2e6a20625ec37935258283db36b629b08235273df156367245a5dfb684eed087da65dfbcb77d26e593070292b90512925b583bc2251861b882493dc61590f7",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.0.489%2Bforge/RoughlyEnoughItems-9.0.489-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.0.489-server-only.jar",
+          "primary": true,
+          "size": 1761189
+        }
+      ]
+    },
+    {
+      "id": "ZiKI4UHc",
+      "name": "[Forge 1.18.2] v8.2.487",
+      "version_number": "8.2.487+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0f70f51369007f23bd14f7618f76ef0fbf2f7c4edfe1b96c9a55ee0e0805d341ac9a3352faf2d0f50d2a180aaa4ba449ebac55763dec9ed2f7e75dfa0e7c20e8",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.2.487%2Bforge/RoughlyEnoughItems-8.2.487-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.2.487-server-only.jar",
+          "primary": true,
+          "size": 1987501
+        }
+      ]
+    },
+    {
+      "id": "9ofYPdpt",
+      "name": "[Forge 1.19] v9.0.488",
+      "version_number": "9.0.488+forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "fcbf7525b1ab265656cfe4d495775a83898823900e70e887accc73d849683ef980c4dd9341e06861dccadba90e41933e456937e36ab70e9943ab914690abf50f",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.0.488%2Bforge/RoughlyEnoughItems-9.0.488-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.0.488-server-only.jar",
+          "primary": true,
+          "size": 1761038
+        }
+      ]
+    },
+    {
+      "id": "ltelSW3A",
+      "name": "[Forge 1.19] v9.0.486",
+      "version_number": "9.0.486+forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "cf7c2c3194c3cfc1d3e07ae8c2edc9d2586f15a53f85e615bb976d609a3f10ca4c8cafa3d60d117d9c4eab4d321fde61e9ce770ad68dcc41c5e705a2d614ad5f",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.0.486%2Bforge/RoughlyEnoughItems-9.0.486-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.0.486-server-only.jar",
+          "primary": true,
+          "size": 1760899
+        }
+      ]
+    },
+    {
+      "id": "7vaQjXon",
+      "name": "[Forge 1.18.2] v8.2.485",
+      "version_number": "8.2.485+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "7866b6605424e77ff1092582a62c4f46503a8be7f370c4c0075d1a55f6403d6d2e2973632b753a1d58159a7658014c88a83d9f8a5321edb6bad71cb0e28764ae",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.2.485%2Bforge/RoughlyEnoughItems-8.2.485-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.2.485-server-only.jar",
+          "primary": true,
+          "size": 1983541
+        }
+      ]
+    },
+    {
+      "id": "Ylo1fV0a",
+      "name": "[Forge 1.19] v9.0.484",
+      "version_number": "9.0.484+forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "018a08837ece36759d382ac7192d82ec7ab0f148d9cd9ff4dec73de4b06c6a4308cb025ae7544b3c9bbe0455e23d79dc740b52f11a9f441dba27b0e3a75391d0",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.0.484%2Bforge/RoughlyEnoughItems-9.0.484-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.0.484-server-only.jar",
+          "primary": true,
+          "size": 1760690
+        }
+      ]
+    },
+    {
+      "id": "Pi79wDrk",
+      "name": "[Forge 1.18.2] v8.2.483",
+      "version_number": "8.2.483+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f50d952cf37c052a1523994327e79caf85264fb5e005ed73f7cfc226759fd10a1665f8d5639fbbcb77c1041a0007983a2c5a906bbca66b428fc946316e23d871",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.2.483%2Bforge/RoughlyEnoughItems-8.2.483-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.2.483-server-only.jar",
+          "primary": true,
+          "size": 1983333
+        }
+      ]
+    },
+    {
+      "id": "K06sxswL",
+      "name": "[Forge 1.18.2] v8.2.481",
+      "version_number": "8.2.481+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "99edd93ea1b5a7f7dcfe30ce74f8e8bf477b65171119aea37ed7672c7ccca9179d6e8add0abe95c2f0a16c31447012325df3ebd05e76293f87c4d0320f156065",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.2.481%2Bforge/RoughlyEnoughItems-8.2.481-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.2.481-server-only.jar",
+          "primary": true,
+          "size": 1982456
+        }
+      ]
+    },
+    {
+      "id": "92NctcEy",
+      "name": "[Forge 1.19] v9.0.482",
+      "version_number": "9.0.482+forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "041ec9e288356281080959cc75b051d96661d270cb1a2a3c19b3dc5390ceb386aff2adb21f598b9a899f8c9769bd0b5cd5ce24c189d06da75b26a4c1d9063696",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.0.482%2Bforge/RoughlyEnoughItems-9.0.482-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.0.482-server-only.jar",
+          "primary": true,
+          "size": 1759831
+        }
+      ]
+    },
+    {
+      "id": "vqTYXVGW",
+      "name": "[Forge 1.19] v9.0.480",
+      "version_number": "9.0.480+forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "3b194e2cb2c6bbf78c444c6a24194dbc236835bcf1ddec069f243ebecf5d4ae46b9223d8cc2fc5ef30c152e7d6ca1633e1b13cb92f21cf27187448a2e92601e4",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/9.0.480%2Bforge/RoughlyEnoughItems-9.0.480-server-only.jar",
+          "filename": "RoughlyEnoughItems-9.0.480-server-only.jar",
+          "primary": true,
+          "size": 1759815
+        }
+      ]
+    },
+    {
+      "id": "yRCV483v",
+      "name": "[Forge 1.18.2] v8.2.479",
+      "version_number": "8.2.479+forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "1c44948101dffa868939bfebb4c16af8254fbbb45a8242756594a2a24824540c233ed19ce8e586393ed725971085a2f18361fc5fc30353bee5f388da331c23e8",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/8.2.479%2Bforge/RoughlyEnoughItems-8.2.479-server-only.jar",
+          "filename": "RoughlyEnoughItems-8.2.479-server-only.jar",
+          "primary": true,
+          "size": 1982444
+        }
+      ]
+    },
+    {
+      "id": "LZ05Dm4W",
+      "name": "[Forge 1.17.1] v6.5.433",
+      "version_number": "6.5.433",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "91f6c0882cf13f57e58e3ff96acec819273e283e37a798e555bb003a2a87a028661f6f5ee8b831feec367a38a4496d5728ff25fe8caf7e88b2fb91e853e8f3bb",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/6.5.433/RoughlyEnoughItems-6.5.433-server-only.jar",
+          "filename": "RoughlyEnoughItems-6.5.433-server-only.jar",
+          "primary": true,
+          "size": 1827359
+        }
+      ]
+    },
+    {
+      "id": "7DZ6atDa",
+      "name": "[Forge 1.16.5] v6.5.436",
+      "version_number": "6.5.436",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c794b8411b2d966497c3a4b8ee9ed3ca2a5d87e913ebdb9bd92b67acd7bf4895ceb48803f8750353dc75a79c2cd8241d60db9c67d16322021d736eebeaa99c66",
+          "url": "https://cdn.modrinth.com/data/OM4ZYSws/versions/6.5.436/RoughlyEnoughItems-6.5.436-server-only.jar",
+          "filename": "RoughlyEnoughItems-6.5.436-server-only.jar",
+          "primary": true,
+          "size": 1809747
+        }
+      ]
+    }
+  ]
+}
