@@ -61,6 +61,27 @@
       ]
     },
     {
+      "id": "9oj7o96S",
+      "name": "Added integration with Cloth Config",
+      "version_number": "0.0.7+1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "85fb19ac1b65226932f4bfafd54b632f5c429a9a093c2b9cb335e492ab52f325faefba34face5ca29d22d444fbf3c3573cccfc015c32aca0d878a847174eb9fd",
+          "url": "https://cdn.modrinth.com/data/dYXpr2Hl/versions/9oj7o96S/better_chests-neoforge-0.0.7%2B1.21.jar",
+          "filename": "better_chests-neoforge-0.0.7+1.21.jar",
+          "primary": true,
+          "size": 1947822
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "CfVRg9hc",
       "name": "Fixed barrel configuration",
       "version_number": "0.0.5+1.21",
@@ -79,7 +100,14 @@
           "size": 879844
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "EWyeNG1n",
@@ -184,7 +212,14 @@
           "size": 879361
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "ZLqZb5nc",
@@ -261,7 +296,14 @@
           "size": 932298
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "hclZuoxO",
@@ -283,6 +325,46 @@
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "oAcdrwqb",
+      "name": "Add integration with Cloth Config",
+      "version_number": "0.0.7+1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d53b54c6f1dae1f90ec0f7be12d40916e00d2022307f0a61faa36983e86466d9e5ad9d72d6723634fa0b814684c4ab762629534766970cb1864bb78a6a5dc21b",
+          "url": "https://cdn.modrinth.com/data/dYXpr2Hl/versions/oAcdrwqb/better_chests-fabric-0.0.7%2B1.21.jar",
+          "filename": "better_chests-fabric-0.0.7+1.21.jar",
+          "primary": true,
+          "size": 953043
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
     },
     {
       "id": "qoe1MLce",

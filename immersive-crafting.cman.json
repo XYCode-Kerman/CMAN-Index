@@ -5,6 +5,48 @@
   "description": "Library mod providing data driven in-world crafting with support for data generation.",
   "versions": [
     {
+      "id": "2AleUW59",
+      "name": "0.5.1+1.21 - Neoforge",
+      "version_number": "0.5.1+1.21+neoforge",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "e4fc6a59a4fc96b7704c564b2cdd36bde2572ec3fa9eed90ed97456e8cdbe783d638612ec040b25ee44c132289e6737c73b3666f387a56cf2380b971ee0d76df",
+          "url": "https://cdn.modrinth.com/data/JpfCkjTu/versions/2AleUW59/immersivecrafting-neoforge-0.5.1%2B1.21.jar",
+          "filename": "immersivecrafting-neoforge-0.5.1+1.21.jar",
+          "primary": true,
+          "size": 188835
+        },
+        {
+          "sha512": "9c7cea33396fa7ee1cc27ae40945865d316e7fea16452937ee8cb7087e0418056e426c1eab4491cea49bb25a1b1991bfef3e97dc9ce1b998a34e90455a6a620e",
+          "url": "https://cdn.modrinth.com/data/JpfCkjTu/versions/2AleUW59/immersivecrafting-neoforge-0.5.1%2B1.21-api.jar",
+          "filename": "immersivecrafting-neoforge-0.5.1+1.21-api.jar",
+          "primary": false,
+          "size": 89075
+        },
+        {
+          "sha512": "13333e1b8831376afec3c1b033f3c5b05650cb79dccc3b4113780c4b4f36a82ca541b2ac0f039cba9ab54755a10328d6abdd0cf21e99dd9c3553370e7fb78cf3",
+          "url": "https://cdn.modrinth.com/data/JpfCkjTu/versions/2AleUW59/immersivecrafting-neoforge-0.5.1%2B1.21-sources.jar",
+          "filename": "immersivecrafting-neoforge-0.5.1+1.21-sources.jar",
+          "primary": false,
+          "size": 4855
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "fRiHVvU7",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "6MWM9a9T",
       "name": "0.4.2+1.21 - Neoforge",
       "version_number": "0.4.2+1.21",
@@ -293,6 +335,55 @@
       ]
     },
     {
+      "id": "Qoz9jnfd",
+      "name": "0.5.1+1.21 - Fabric",
+      "version_number": "0.5.1+1.21+fabric",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "40d8cf28aede2931c2f1efc48c7260a9fe1dec0b1d020ccdd67e6287af35aa216bf607e63dee4893f349e5dbd3b01a8a20ee9088907d7c094f7ab47ae3d58c1e",
+          "url": "https://cdn.modrinth.com/data/JpfCkjTu/versions/Qoz9jnfd/immersivecrafting-fabric-0.5.1%2B1.21.jar",
+          "filename": "immersivecrafting-fabric-0.5.1+1.21.jar",
+          "primary": true,
+          "size": 190102
+        },
+        {
+          "sha512": "340e1e575055f9321a47131a1b97f360d97f3102fe704a1d3a675a4fbc9507f99d8edd701f735728f8032ac44b9cfc927de21ca3ecfff90a6f2c67e3ac402b92",
+          "url": "https://cdn.modrinth.com/data/JpfCkjTu/versions/Qoz9jnfd/immersivecrafting-fabric-0.5.1%2B1.21-api.jar",
+          "filename": "immersivecrafting-fabric-0.5.1+1.21-api.jar",
+          "primary": false,
+          "size": 88030
+        },
+        {
+          "sha512": "4acd8d7adfc2fa27dd6838764cc2279bb46fd00eb974a8ab4d02b71886227490807816e4c089c52d255c06fce6d071beb918c5abba3b992e02ca9357aa9c0e16",
+          "url": "https://cdn.modrinth.com/data/JpfCkjTu/versions/Qoz9jnfd/immersivecrafting-fabric-0.5.1%2B1.21-sources.jar",
+          "filename": "immersivecrafting-fabric-0.5.1+1.21-sources.jar",
+          "primary": false,
+          "size": 7233
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "fRiHVvU7",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "TLs9v9f5",
       "name": "0.5.0+1.21 - Fabric",
       "version_number": "0.5.0+1.21+fabric",
@@ -328,16 +419,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "fRiHVvU7",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },

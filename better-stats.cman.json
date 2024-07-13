@@ -67,28 +67,28 @@
       ],
       "dependencies": [
         {
-          "project_id": "Eldc1g37",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
         {
+          "project_id": "Eldc1g37",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "nfn13YXA",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -153,16 +153,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "nfn13YXA",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "mOgUt4GM",
@@ -592,6 +592,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "Eldc1g37",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
@@ -608,12 +614,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "Eldc1g37",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
         }
       ]
     },
@@ -644,16 +644,16 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "Eldc1g37",
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -799,16 +799,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "Eldc1g37",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "nfn13YXA",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         },
         {
           "project_id": "mOgUt4GM",
@@ -817,10 +817,10 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "nfn13YXA",
+          "project_id": "Eldc1g37",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "embedded"
         }
       ]
     },
@@ -1056,6 +1056,53 @@
       ]
     },
     {
+      "id": "931QH0rO",
+      "name": "BSS (fabric-1.21) - v3.12.3",
+      "version_number": "3.12.3+fabric-1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "802515c5df19dadeb3731a22fc3bd96c1a1b7e010a84e1c42e190d526f7effa16e3074b0ebb062dfb867092d5c2a8db8fd5f57000e7f8fb93e6651cbeb7759bc",
+          "url": "https://cdn.modrinth.com/data/n6PXGAoM/versions/931QH0rO/betterstats-3.12.3%2Bfabric-1.21.jar",
+          "filename": "betterstats-3.12.3+fabric-1.21.jar",
+          "primary": true,
+          "size": 371854
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Eldc1g37",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "nfn13YXA",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "94aapoJA",
       "name": "BSS (fabric-1.19.x) - v1.0.1",
       "version_number": "v1.0.1b",
@@ -1205,16 +1252,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "nfn13YXA",
@@ -1246,12 +1293,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "Eldc1g37",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
@@ -1262,6 +1303,12 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "Eldc1g37",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "nfn13YXA",
@@ -1334,12 +1381,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "Eldc1g37",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
@@ -1356,6 +1397,12 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "Eldc1g37",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -1502,25 +1549,25 @@
       ],
       "dependencies": [
         {
-          "project_id": "Eldc1g37",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
+          "project_id": "Eldc1g37",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "nfn13YXA",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
         {
-          "project_id": "nfn13YXA",
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -2062,12 +2109,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "Eldc1g37",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
@@ -2078,6 +2119,12 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "Eldc1g37",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
     },
@@ -2345,10 +2392,10 @@
       ],
       "dependencies": [
         {
-          "project_id": "Eldc1g37",
+          "project_id": "nfn13YXA",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
@@ -2363,10 +2410,10 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "nfn13YXA",
+          "project_id": "Eldc1g37",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "embedded"
         }
       ]
     },
@@ -2561,16 +2608,10 @@
       ],
       "dependencies": [
         {
-          "project_id": "Eldc1g37",
+          "project_id": "nfn13YXA",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         },
         {
           "project_id": "mOgUt4GM",
@@ -2579,10 +2620,16 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "nfn13YXA",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Eldc1g37",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -2653,16 +2700,16 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "Eldc1g37",
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "mOgUt4GM",
@@ -2780,12 +2827,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "nfn13YXA",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
@@ -2796,6 +2837,12 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
+        },
+        {
+          "project_id": "nfn13YXA",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         },
         {
           "project_id": "lhGA9TYQ",
@@ -3030,13 +3077,13 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "nfn13YXA",
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
         {
-          "project_id": "mOgUt4GM",
+          "project_id": "nfn13YXA",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -3064,7 +3111,7 @@
       ],
       "dependencies": [
         {
-          "project_id": "nfn13YXA",
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -3076,7 +3123,7 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
+          "project_id": "nfn13YXA",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -3282,18 +3329,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "nfn13YXA",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "Eldc1g37",
           "version_id": null,
           "file_name": null,
@@ -3304,6 +3339,18 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "nfn13YXA",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -3848,18 +3895,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "Eldc1g37",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
@@ -3870,6 +3905,18 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "Eldc1g37",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -4399,6 +4446,54 @@
       ]
     },
     {
+      "id": "bsaAduNH",
+      "name": "BSS (fabric-1.20.6) - v3.12.3",
+      "version_number": "3.12.3+fabric-1.20.6",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "9cab959e1dc17ccd1c26360c32dd809b66c0b5f417b954911d979136fbec70bbe732d446193044d4c904b074f4be52d2a2d90d9717bf51afc9176bf6f6573aff",
+          "url": "https://cdn.modrinth.com/data/n6PXGAoM/versions/bsaAduNH/betterstats-3.12.3%2Bfabric-1.20.6.jar",
+          "filename": "betterstats-3.12.3+fabric-1.20.6.jar",
+          "primary": true,
+          "size": 371789
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Eldc1g37",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "nfn13YXA",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "c02NBGoz",
       "name": "BSS (fabric-1.19.2) - v2.1",
       "version_number": "v2.1+1.19.2",
@@ -4656,6 +4751,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "nfn13YXA",
           "version_id": null,
           "file_name": null,
@@ -4672,12 +4773,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -4755,13 +4850,13 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "nfn13YXA",
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
         {
-          "project_id": "mOgUt4GM",
+          "project_id": "nfn13YXA",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -4790,10 +4885,10 @@
       ],
       "dependencies": [
         {
-          "project_id": "Eldc1g37",
+          "project_id": "nfn13YXA",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "optional"
         },
         {
           "project_id": "mOgUt4GM",
@@ -4802,10 +4897,10 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "nfn13YXA",
+          "project_id": "Eldc1g37",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "embedded"
         }
       ]
     },
@@ -4987,12 +5082,6 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "nfn13YXA",
           "version_id": null,
           "file_name": null,
@@ -5003,6 +5092,12 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -5027,12 +5122,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "Eldc1g37",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
           "project_id": "nfn13YXA",
           "version_id": null,
           "file_name": null,
@@ -5043,6 +5132,12 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "Eldc1g37",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
     },
@@ -5218,16 +5313,16 @@
           "dependency_type": "embedded"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "nfn13YXA",
@@ -5299,10 +5394,10 @@
       ],
       "dependencies": [
         {
-          "project_id": "nfn13YXA",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         },
         {
           "project_id": "Eldc1g37",
@@ -5311,13 +5406,13 @@
           "dependency_type": "embedded"
         },
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         },
         {
-          "project_id": "mOgUt4GM",
+          "project_id": "nfn13YXA",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -5441,16 +5536,16 @@
           "dependency_type": "embedded"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         },
         {
           "project_id": "nfn13YXA",
@@ -5722,10 +5817,10 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "Eldc1g37",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "embedded"
         },
         {
           "project_id": "nfn13YXA",
@@ -5734,16 +5829,16 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "Eldc1g37",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -5768,12 +5863,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "nfn13YXA",
           "version_id": null,
           "file_name": null,
@@ -5784,6 +5873,12 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -5840,10 +5935,10 @@
       ],
       "dependencies": [
         {
-          "project_id": "Eldc1g37",
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
@@ -5852,10 +5947,10 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
+          "project_id": "Eldc1g37",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         },
         {
           "project_id": "nfn13YXA",
@@ -6134,6 +6229,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "Eldc1g37",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
@@ -6150,12 +6251,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "Eldc1g37",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
         }
       ]
     },
@@ -6180,19 +6275,7 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "nfn13YXA",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -6202,6 +6285,18 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "nfn13YXA",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -6307,6 +6402,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "nfn13YXA",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "Eldc1g37",
           "version_id": null,
           "file_name": null,
@@ -6314,12 +6415,6 @@
         },
         {
           "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "nfn13YXA",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
