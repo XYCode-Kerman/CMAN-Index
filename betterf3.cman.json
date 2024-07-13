@@ -5,714 +5,31 @@
   "description": "BetterF3 is a mod that replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD.",
   "versions": [
     {
-      "id": "TobtOr9W",
-      "name": "BetterF3 NeoForge v11.0.1 (1.21)",
-      "version_number": "11.0.1",
+      "id": "1eRzbEj6",
+      "name": "BetterF3 Fabric 1.1.5 (1.17/1.17.1)",
+      "version_number": "1.1.5",
       "game_versions": [
-        "1.21"
+        "1.17",
+        "1.17.1"
       ],
       "loaders": [
-        "neoforge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "d902792b7b23c9e6b10e88b39ee47970d9dec7f5fd2b60949a47036822eb45da409e69235097a33da550bd42615bd6aa26e81be29a9330be63f3ad37bd00f0fa",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/TobtOr9W/BetterF3-11.0.1-NeoForge-1.21.jar",
-          "filename": "BetterF3-11.0.1-NeoForge-1.21.jar",
-          "primary": true,
-          "size": 478563
+          "sha512": "32d01ad6ff36b5501a1cccc2e5fd86124c83c7a0ec4d47b898694c7cd6ac30d9319762cc1026c3fa106db53bc3c7b58908c72d8339e41fd4acf33af045abe816",
+          "url": "https://cdn.modrinth.com//data/8shC1gFX/versions/1.1.5/betterf3-1.1.5%2B1.17.jar",
+          "filename": "betterf3-1.1.5+1.17.jar",
+          "primary": false,
+          "size": 1248501
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
+      "dependencies": []
     },
     {
-      "id": "sXO3idkS",
-      "name": "BetterF3 Fabric v11.0.1 (1.21)",
-      "version_number": "11.0.1",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "260fabb96308529aa19f4d2c1f440fc821da2ec3b09613db285ecee8589ed454196312b086c87a8d4b05d6762c84901231e6b3cb6ce9dbdf79dc87cf62081034",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/sXO3idkS/BetterF3-11.0.1-Fabric-1.21.jar",
-          "filename": "BetterF3-11.0.1-Fabric-1.21.jar",
-          "primary": true,
-          "size": 1802691
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "NcuBKkeE",
-      "name": "BetterF3 NeoForge v11.0.0 (1.21)",
-      "version_number": "11.0.0",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "93335c6bfb5212a879f7d9747c586ffebb90105e415816df9f3cc7e5ab12785f2c6514ae0193d34bd1e955599770949718fcf8445e151b5f053967324a54afdd",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/NcuBKkeE/BetterF3-11.0.0-NeoForge-1.21.jar",
-          "filename": "BetterF3-11.0.0-NeoForge-1.21.jar",
-          "primary": true,
-          "size": 478519
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "v0mwC68L",
-      "name": "BetterF3 Fabric v11.0.0 (1.21)",
-      "version_number": "11.0.0",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "a46b6732bf68908046d83b8223b0a37168317ab9907ce43b7ea0245c5bf1aebfcb5a1f4e091455f83083db6f1850ca9561462b9146bcff8c6fc97be593f80deb",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/v0mwC68L/BetterF3-11.0.0-Fabric-1.21.jar",
-          "filename": "BetterF3-11.0.0-Fabric-1.21.jar",
-          "primary": true,
-          "size": 1802640
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "VIA6xHkC",
-      "name": "BetterF3 NeoForge v10.0.2 (1.20.5/1.20.6)",
-      "version_number": "10.0.2",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "de62ddabd42feb5428d6782ae802fe0807917ddf126551710604274cf58217c0a771c880e104b7633fd8cfabffdefee0c85275619c242a2101d214cd4a11af28",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/VIA6xHkC/BetterF3-10.0.2-NeoForge-1.20.6.jar",
-          "filename": "BetterF3-10.0.2-NeoForge-1.20.6.jar",
-          "primary": true,
-          "size": 478488
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "pOSEJ8yy",
-      "name": "BetterF3 Fabric v10.0.2 (1.20.5/1.20.6)",
-      "version_number": "10.0.2",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d8c0fa7de09993d99d7257e6c461716e47b53cd787e90cd9b99e6bb042a9a41fd287295ebafe94c5d1c73bc038ccc64b5c72e3cdff27e802f14512dcbca94e89",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/pOSEJ8yy/BetterF3-10.0.2-Fabric-1.20.6.jar",
-          "filename": "BetterF3-10.0.2-Fabric-1.20.6.jar",
-          "primary": true,
-          "size": 1796276
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "al1gndy9",
-      "name": "BetterF3 NeoForge v10.0.1 (1.20.5/1.20.6)",
-      "version_number": "10.0.1",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "b730d7c2dfbb5f420a358290a3be813b2b35eda25c1b7f94b5889522aeeaea67d43cf5d6c913e676ce3e3d3539d573e4d7e5022df30eaee7b2e5b64bf2ff0e00",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/al1gndy9/BetterF3-10.0.1-NeoForge-1.20.6.jar",
-          "filename": "BetterF3-10.0.1-NeoForge-1.20.6.jar",
-          "primary": true,
-          "size": 477856
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "rYpOYv1n",
-      "name": "BetterF3 Fabric v10.0.1 (1.20.5/1.20.6)",
-      "version_number": "10.0.1",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "a888106afe955ce0aef1d851686924d92434f3a78d8534391246ace65afcc78ca84cbece16dcb22aacb2564601841e3d41aed95631fce18a0bbfc4edee787538",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/rYpOYv1n/BetterF3-10.0.1-Fabric-1.20.6.jar",
-          "filename": "BetterF3-10.0.1-Fabric-1.20.6.jar",
-          "primary": true,
-          "size": 1795643
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "zttvITsK",
-      "name": "BetterF3 Fabric v10.0.0 (1.20.5/1.20.6)",
-      "version_number": "10.0.0",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2e6593cd3c2bbfaa53ec456fe50a5d4f9ad8debfe73822e29763825d715648b15d171ff5e623c28b4fd6a7970f3365aadd8af9b1e04b1ef4fdcab004209b1866",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/zttvITsK/BetterF3-10.0.0-Fabric-1.20.6.jar",
-          "filename": "BetterF3-10.0.0-Fabric-1.20.6.jar",
-          "primary": true,
-          "size": 1787767
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "x5zYwUMW",
-      "name": "BetterF3 Fabric v10.0.0-alpha.1 (24w12a)",
-      "version_number": "10.0.0-alpha.1",
-      "game_versions": [
-        "24w12a"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "79a6139493647090617bc660a68673f2e8d4b50a4c55ce59ad0e31dce8d74b1e5c79ee2396f42889d8cdd276f98b98d49bd69066de2559122f777b6091fe1391",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/x5zYwUMW/BetterF3-10.0.0-alpha.1-Fabric-24w12a.jar",
-          "filename": "BetterF3-10.0.0-alpha.1-Fabric-24w12a.jar",
-          "primary": true,
-          "size": 1784758
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "jmwTc5n8",
-      "name": "BetterF3 NeoForge v9.0.2 (1.20.3/1.20.4)",
-      "version_number": "9.0.2",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "0ec6364ce9e6f30846d86488a702b51c844900248f43f04176b4b15780665600468c38cd441c70685f17ea5e8dfdbfaef42f13b93925de4344e4c91b5d73c65a",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/jmwTc5n8/BetterF3-9.0.2-NeoForge-1.20.4.jar",
-          "filename": "BetterF3-9.0.2-NeoForge-1.20.4.jar",
-          "primary": true,
-          "size": 469734
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "CVXMTRPD",
-      "name": "BetterF3 MinecraftForge v9.0.2 (1.20.3/1.20.4)",
-      "version_number": "9.0.2",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "0aece9e83085b14f6fe6bfe62eceabd666ff093dce8834a4239fb96bb1abd9140df3aeb8e742ad6983ee07818273107fcc05b69a4f37f529855cc8463d514d08",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/CVXMTRPD/BetterF3-9.0.2-Forge-1.20.4.jar",
-          "filename": "BetterF3-9.0.2-Forge-1.20.4.jar",
-          "primary": true,
-          "size": 472122
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "AkivIlyi",
-      "name": "BetterF3 Fabric v9.0.2 (1.20.3/1.20.4)",
-      "version_number": "9.0.2",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f45b717acd5a6f1d71c59259dea4a62a3ea85731a0e8736eb050140a3d7fc6a3f3907b299b129d8f8b80da16a84bc9996d291f14e6fcb6034c3734ec855107dd",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/AkivIlyi/BetterF3-9.0.2-Fabric-1.20.4.jar",
-          "filename": "BetterF3-9.0.2-Fabric-1.20.4.jar",
-          "primary": true,
-          "size": 1776259
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "Rbn4lbDN",
-      "name": "BetterF3 Forge v9.0.1 (1.20.3/1.20.4)",
-      "version_number": "9.0.1",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "f172f6988256fc3322533a4f1cb70074ab0b19558fb84dd6ca1c4dea27f3d5818d0e9cc0454aca3ae9b6514435dcca8b1039d0edf78d06274d41a0d280e8350f",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/Rbn4lbDN/BetterF3-9.0.1-Forge-1.20.4.jar",
-          "filename": "BetterF3-9.0.1-Forge-1.20.4.jar",
-          "primary": true,
-          "size": 469855
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "euCaAaXx",
-      "name": "BetterF3 Fabric v9.0.1 (1.20.3/1.20.4)",
-      "version_number": "9.0.1",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "154ea67663412c2226aeee101c44d58cf610a9c802bea8c51c3b92f3939ebc9442945d9f708501cf803ff7281bd1d02da1f11081fd1c9104ccdcf12285b02e8c",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/euCaAaXx/BetterF3-9.0.1-Fabric-1.20.4.jar",
-          "filename": "BetterF3-9.0.1-Fabric-1.20.4.jar",
-          "primary": true,
-          "size": 1773999
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "k1LlRoc9",
-      "name": "BetterF3 NeoForge v8.0.3 (1.20.2)",
-      "version_number": "8.0.3",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "6c597c2494572976cc5f9256be592a916300fa1d4272466285b9470077ed9ccb798587f630e7dba904c516dbaea37873c44ad86ebb58b0022d33e2a6066b9a4c",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/k1LlRoc9/BetterF3-8.0.3-NeoForge-1.20.2.jar",
-          "filename": "BetterF3-8.0.3-NeoForge-1.20.2.jar",
-          "primary": true,
-          "size": 472379
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "bEJZPnba",
-      "name": "BetterF3 MinecraftForge v8.0.3 (1.20.2)",
-      "version_number": "8.0.3",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "eee0939d3f85ea39250b595daa5d46c9d586b53dd5cbeae9bef4f7fefdef512a0aca4fe13e2d8d67331e10ba4c067318a7aea056c1bb7d0fd49941e1d2ed430b",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/bEJZPnba/BetterF3-8.0.3-Forge-1.20.2.jar",
-          "filename": "BetterF3-8.0.3-Forge-1.20.2.jar",
-          "primary": true,
-          "size": 470088
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "cWQJKCXe",
-      "name": "BetterF3 Fabric v8.0.3 (1.20.2)",
-      "version_number": "8.0.3",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4f7cda7e5bd69ee1e5ded54817bca819c3959f7e1fdd32d5a0229d620db29864d4ab53e06cf476fdee918a43194aab5245edf66aa6798f31621275d03e3bc212",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/cWQJKCXe/BetterF3-8.0.3-Fabric-1.20.2.jar",
-          "filename": "BetterF3-8.0.3-Fabric-1.20.2.jar",
-          "primary": true,
-          "size": 1784722
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "jwhdsLMc",
-      "name": "BetterF3 Forge v9.0.0 (1.20.3/1.20.4)",
-      "version_number": "9.0.0",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "84b976f3c04aeec138120d64e74fbf5d3b250ece50a87da2e46150e1b604a27d92662c45338438ecb6a407221ea79ea501edeea02d07be4687da0b3cc5440d9e",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/jwhdsLMc/BetterF3-9.0.0-Forge-1.20.4.jar",
-          "filename": "BetterF3-9.0.0-Forge-1.20.4.jar",
-          "primary": true,
-          "size": 468359
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "zlYOLCve",
-      "name": "BetterF3 Fabric v9.0.0 (1.20.3/1.20.4)",
-      "version_number": "9.0.0",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "9a717ac45863b5406e4a9a8cba068465223d1aa0f0d0b3c2400c62b20145e7bdf57e10cea7ed11086c0754fbb29c6673baa6a984339ee99bfb7440a82b8dd821",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/zlYOLCve/BetterF3-9.0.0-Fabric-1.20.4.jar",
-          "filename": "BetterF3-9.0.0-Fabric-1.20.4.jar",
-          "primary": true,
-          "size": 1772502
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "q61pgYQY",
-      "name": "BetterF3 Forge v8.0.2 (1.20.2)",
-      "version_number": "8.0.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "13f11e82c7625c0fea539de4698af56bbbd836fa8a981a5fe11b87df4709a8ef0d26a7156b30047fd95e498cd412d49e5713986ea12fa784ccd05d2907e972cc",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/q61pgYQY/BetterF3-8.0.2-Forge-1.20.2.jar",
-          "filename": "BetterF3-8.0.2-Forge-1.20.2.jar",
-          "primary": true,
-          "size": 469675
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "sPcACJ3r",
-      "name": "BetterF3 Fabric v8.0.2 (1.20.2)",
-      "version_number": "8.0.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "e623703d1d9c5aeaf1b06ab1a795b08172489892725f63c59aeedd3850e81c3dcc6b9d4908acb4eaf61007f12e819e222ade61496558cee6dd2cc2fb6211deee",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/sPcACJ3r/BetterF3-8.0.2-Fabric-1.20.2.jar",
-          "filename": "BetterF3-8.0.2-Fabric-1.20.2.jar",
-          "primary": true,
-          "size": 1787658
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "xo6HmgWj",
-      "name": "BetterF3 Forge v7.0.2 (1.20/1.20.1)",
-      "version_number": "7.0.2",
+      "id": "3Ed94XFJ",
+      "name": "BetterF3 Forge v7.0.1 (1.20/1.20.1)",
+      "version_number": "7.0.1",
       "game_versions": [
         "1.20",
         "1.20.1"
@@ -722,14 +39,107 @@
       ],
       "files": [
         {
-          "sha512": "e88ce04d601a5953de909edaabb49dad9eea2c3a9ccccb1247fd041554b30794d4d4c315be065c90b1017cbd798199e644fe8d905125f4c431ddb8eaf170dd15",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/xo6HmgWj/BetterF3-7.0.2-Forge-1.20.1.jar",
-          "filename": "BetterF3-7.0.2-Forge-1.20.1.jar",
+          "sha512": "24e9895e8ca9016a48bbb07f2367304fc71321f70cd78f86d090b096a49bf260b442cefb20bfb15bc42d30089a81c46a0121269b325273bc474d035670bb68bb",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/3Ed94XFJ/BetterF3-7.0.1-Forge-1.20.1.jar",
+          "filename": "BetterF3-7.0.1-Forge-1.20.1.jar",
           "primary": true,
-          "size": 468517
+          "size": 456795
         }
       ],
       "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "4SrIvqKy",
+      "name": "BetterF3 Forge v1.3.1 (1.19)",
+      "version_number": "1.3.1.1",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "020ab415827a2f90f0a141d0e5b1aa4db54d18df17116ab6477b0a678e329bc67f22f193528e91a1e4e7fc144d96a7bd439ccb8ee90dc604114bec857caed610",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.3.1.1/BetterF3-1.3.1-Forge-1.19.jar",
+          "filename": "BetterF3-1.3.1-Forge-1.19.jar",
+          "primary": true,
+          "size": 152009
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "EUyHCmUW",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "5G2kahYC",
+      "name": "BetterF3 Forge v1.3.2 (1.19)",
+      "version_number": "1.3.2",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "14249034e1f8f5dbc64657993bd037257accb2fe19d764d1b70f0dc529ca6ad0fbc76d8d0fd9fa53e59d874373e216cfacb4d53f7aa34cb7b920c0819c958952",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.3.2-forge/BetterF3-1.3.2-Forge-1.19.jar",
+          "filename": "BetterF3-1.3.2-Forge-1.19.jar",
+          "primary": true,
+          "size": 152023
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "EUyHCmUW",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "5WYwDGtD",
+      "name": "BetterF3 Fabric v8.0.0 (1.20.2)",
+      "version_number": "8.0.0",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "735477a642792eb31eea8e18f2a5dba73ea0c5f0b6de4335549536a6e58b918884c7191866c4113826511e198edddf117465177aff475f63540ab9cbc3ce8e26",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/5WYwDGtD/BetterF3-8.0.0-Fabric-1.20.2.jar",
+          "filename": "BetterF3-8.0.0-Fabric-1.20.2.jar",
+          "primary": true,
+          "size": 1787115
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
         {
           "project_id": "9s6osm5g",
           "version_id": null,
@@ -775,559 +185,6 @@
       ]
     },
     {
-      "id": "sCyychsc",
-      "name": "BetterF3 Forge v6.0.3 (1.19.4)",
-      "version_number": "6.0.3",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "81de02030bf5fe965040d2798d21f5686baf0a2b0673639b5d43a1f8a834445831999b39dcd0c251c60c01f79860ace01a09b9ef65afcb998be6ce511385c54e",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/sCyychsc/BetterF3-6.0.3-Forge-1.19.4.jar",
-          "filename": "BetterF3-6.0.3-Forge-1.19.4.jar",
-          "primary": true,
-          "size": 468923
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "cPKBdNOO",
-      "name": "BetterF3 Fabric v6.0.3 (1.19.4)",
-      "version_number": "6.0.3",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "a9dcdf690dc91bac00e00ba85b73dd36a72eff6d24e5767f0009a1262968bf953d791dca71784b338e8a1737c633ef7c5d86eb000f3264dcc7725213541f9b81",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/cPKBdNOO/BetterF3-6.0.3-Fabric-1.19.4.jar",
-          "filename": "BetterF3-6.0.3-Fabric-1.19.4.jar",
-          "primary": true,
-          "size": 1770980
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ytBb9iBt",
-      "name": "BetterF3 Forge v5.1.1 (1.19.3)",
-      "version_number": "5.1.1",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "244353de358988c67b1713059a94c3d86cd4cb1280f6ab0fad42f21dd4df11183298fadcf43845b2f0a1a5a163889b4f86fd0e369e584443694a595b1ab2b9cd",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/ytBb9iBt/BetterF3-5.1.1-Forge-1.19.3.jar",
-          "filename": "BetterF3-5.1.1-Forge-1.19.3.jar",
-          "primary": true,
-          "size": 456124
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "xeIGtT2C",
-      "name": "BetterF3 Fabric v5.1.1 (1.19.3)",
-      "version_number": "5.1.1",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f97e8538228b87c14a14eb93190694749cb42e1654085f599f7a37bff00f0ea57edda5e314ce24bc098b297b48d32646536316b3e5cb4b7324e492e8c737d187",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/xeIGtT2C/BetterF3-5.1.1-Fabric-1.19.3.jar",
-          "filename": "BetterF3-5.1.1-Fabric-1.19.3.jar",
-          "primary": true,
-          "size": 1751138
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "mMlLANpz",
-      "name": "BetterF3 Forge v4.0.1 (1.19.1/2)",
-      "version_number": "4.0.1",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "0e459bad92565751912866075b0e3de6af06761c5bacbcffac1892bc6cb22ab345d26c9c52a72b62bed2ca28bc64df0d7d515c00054c13782419285de0157a96",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/mMlLANpz/BetterF3-4.0.1-Forge-1.19.2.jar",
-          "filename": "BetterF3-4.0.1-Forge-1.19.2.jar",
-          "primary": true,
-          "size": 455755
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "h7DgRLng",
-      "name": "BetterF3 Fabric v4.0.1 (1.19.1/2)",
-      "version_number": "4.0.1",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f37927ccea51a160b1bf3f89a5f81bbe2d0cf984586adc4389a29c21ae0ced88a29c21cad1c87fd056accb7b76deb80347b60e1211b53e6ad8198c79968f983e",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/h7DgRLng/BetterF3-4.0.1-Fabric-1.19.2.jar",
-          "filename": "BetterF3-4.0.1-Fabric-1.19.2.jar",
-          "primary": true,
-          "size": 1745495
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "RCyVDnLg",
-      "name": "BetterF3 Forge v8.0.1 (1.20.2)",
-      "version_number": "8.0.1",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "74bc5f992748a69f7ed41cc911e4b92fcfe49af933326e38f75ae7bd8b74302f6d1f37498aff84129840198bb010fc89e398279e5fbdf45d8d4261851a84957f",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/RCyVDnLg/BetterF3-8.0.1-Forge-1.20.2.jar",
-          "filename": "BetterF3-8.0.1-Forge-1.20.2.jar",
-          "primary": true,
-          "size": 469087
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "o935ywNh",
-      "name": "BetterF3 Fabric v8.0.1 (1.20.2)",
-      "version_number": "8.0.1",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f5476818834c01afb16c9f2c0171e431333a2c63c90f8c1375df035b61e4ed2d351f1da257c98c2b2e0b2f8357a8d0f75ae76f6e201196deb753abaf61c3e0cf",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/o935ywNh/BetterF3-8.0.1-Fabric-1.20.2.jar",
-          "filename": "BetterF3-8.0.1-Fabric-1.20.2.jar",
-          "primary": true,
-          "size": 1787061
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "5WYwDGtD",
-      "name": "BetterF3 Fabric v8.0.0 (1.20.2)",
-      "version_number": "8.0.0",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "735477a642792eb31eea8e18f2a5dba73ea0c5f0b6de4335549536a6e58b918884c7191866c4113826511e198edddf117465177aff475f63540ab9cbc3ce8e26",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/5WYwDGtD/BetterF3-8.0.0-Fabric-1.20.2.jar",
-          "filename": "BetterF3-8.0.0-Fabric-1.20.2.jar",
-          "primary": true,
-          "size": 1787115
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "3Ed94XFJ",
-      "name": "BetterF3 Forge v7.0.1 (1.20/1.20.1)",
-      "version_number": "7.0.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "24e9895e8ca9016a48bbb07f2367304fc71321f70cd78f86d090b096a49bf260b442cefb20bfb15bc42d30089a81c46a0121269b325273bc474d035670bb68bb",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/3Ed94XFJ/BetterF3-7.0.1-Forge-1.20.1.jar",
-          "filename": "BetterF3-7.0.1-Forge-1.20.1.jar",
-          "primary": true,
-          "size": 456795
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "FtJ0KSLo",
-      "name": "BetterF3 Fabric v7.0.1 (1.20/1.20.1)",
-      "version_number": "7.0.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "98911ba4f85da41e9d920274f0d165a951fcf3790c35a3bf007d90461ff07638b02c3f82219a4a75856fd435ef3aababf7db302a885f1d1f8461333d7c4c099c",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/FtJ0KSLo/BetterF3-7.0.1-Fabric-1.20.1.jar",
-          "filename": "BetterF3-7.0.1-Fabric-1.20.1.jar",
-          "primary": true,
-          "size": 1770904
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "eTCL1uh8",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "NwdpRyuN",
-      "name": "BetterF3 Fabric v7.0.0 (1.20/1.20.1)",
-      "version_number": "7.0.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "a958196d20a7dc358e6164e0027b77a33ba01592d9ee167954a7cd975fe7de300dfd82b6fb0686ae232c4cdab6b7f6d517c4785125dc053230026efc8e5b2c74",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/NwdpRyuN/BetterF3-7.0.0-Fabric-1.20-pre6.jar",
-          "filename": "BetterF3-7.0.0-Fabric-1.20-pre6.jar",
-          "primary": true,
-          "size": 1759665
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "y0kQixP8",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "RTFDnTKf",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "HX9I690G",
-      "name": "BetterF3 Forge v6.0.2 (1.19.4)",
-      "version_number": "6.0.2",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "5edfe6f6fe62e8d8c417f285874a9e1ba894f9b42bfde8ab6f802b51a0eb562dcd971eb90abe3f66fd082bca6ed068d5861afda6c245aac0722dd115c411f401",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/HX9I690G/BetterF3-6.0.2-Forge-1.19.4.jar",
-          "filename": "BetterF3-6.0.2-Forge-1.19.4.jar",
-          "primary": true,
-          "size": 456874
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "Sqf2NXVd",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "up8zocIz",
-      "name": "BetterF3 Fabric v6.0.2 (1.19.4)",
-      "version_number": "6.0.2",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "e7b3967ec2ca4a1407cd7326723fdece614f287a3b3db702d1f55b46979ab2d4dddfb92ebc412a043a37452205efedd0dca4c90531f3c354222ff677e5ad730c",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/up8zocIz/BetterF3-6.0.2-Fabric-1.19.4.jar",
-          "filename": "BetterF3-6.0.2-Fabric-1.19.4.jar",
-          "primary": true,
-          "size": 1758927
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "mhFzbEwE",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "cEflCp0r",
-      "name": "BetterF3 Forge v6.0.1 (1.19.4)",
-      "version_number": "6.0.1",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "92ac21c57df3f90c07f94cbf7512adec529fca5f308c9d6e987c67cb6a1fa311ce099b015b2c2ea13ab84e2e06eec0e0aee00ba79a9c5ff11c169cee126c2d62",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/cEflCp0r/BetterF3-6.0.1-Forge-1.19.4.jar",
-          "filename": "BetterF3-6.0.1-Forge-1.19.4.jar",
-          "primary": true,
-          "size": 454290
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "Sqf2NXVd",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "vZ9QjDs5",
-      "name": "BetterF3 Fabric v6.0.1 (1.19.4)",
-      "version_number": "6.0.1",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "8da2d8f4d9394d64add30ce655703b07e8a9926df1df5d4dba79b9549c81c6654b753ec0f2af31642673807f0f24d5944d45ece7778a58a4044a35e157400fd9",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/vZ9QjDs5/BetterF3-6.0.1-Fabric-1.19.4.jar",
-          "filename": "BetterF3-6.0.1-Fabric-1.19.4.jar",
-          "primary": true,
-          "size": 1756342
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "mhFzbEwE",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "jFVjbyGK",
-      "name": "BetterF3 Fabric v6.0.0 (1.19.4)",
-      "version_number": "6.0.0",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "c3bc656b6b59e487456e6e4b776ec0cfbd751007911cb8b1894e3563fc4ae1298060ceeb2fa93ffc6a43c7c488f6e6a5df14b4f793ab8799cbacb1fbdfe6c066",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/jFVjbyGK/BetterF3-6.0.0-Fabric-1.19.4-pre3.jar",
-          "filename": "BetterF3-6.0.0-Fabric-1.19.4-pre3.jar",
-          "primary": true,
-          "size": 1747113
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "mhFzbEwE",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "83hxArpY",
       "name": "BetterF3 Forge v5.1.0 (1.19.3)",
       "version_number": "5.1.0",
@@ -1356,11 +213,12 @@
       ]
     },
     {
-      "id": "nuKBXZDI",
-      "name": "BetterF3 Fabric v5.1.0 (1.19.3)",
-      "version_number": "5.1.0",
+      "id": "AkivIlyi",
+      "name": "BetterF3 Fabric v9.0.2 (1.20.3/1.20.4)",
+      "version_number": "9.0.2",
       "game_versions": [
-        "1.19.3"
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
         "fabric",
@@ -1368,25 +226,25 @@
       ],
       "files": [
         {
-          "sha512": "a8eee5ee489e3e8a96a6f6b4adda340d9fecd6c5d8bc75cca760156ac690dae687b75dfe663e2359569e1ce57c17d8ad47e84b0bc9b41ba7ad72ba388f1fddf2",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/nuKBXZDI/BetterF3-5.1.0-Fabric-1.19.3.jar",
-          "filename": "BetterF3-5.1.0-Fabric-1.19.3.jar",
+          "sha512": "f45b717acd5a6f1d71c59259dea4a62a3ea85731a0e8736eb050140a3d7fc6a3f3907b299b129d8f8b80da16a84bc9996d291f14e6fcb6034c3734ec855107dd",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/AkivIlyi/BetterF3-9.0.2-Fabric-1.20.4.jar",
+          "filename": "BetterF3-9.0.2-Fabric-1.20.4.jar",
           "primary": true,
-          "size": 1743279
+          "size": 1776259
         }
       ],
       "dependencies": [
         {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "9s6osm5g",
-          "version_id": "w2VZSLTf",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -1427,239 +285,29 @@
       ]
     },
     {
-      "id": "MTPw9hV7",
-      "name": "BetterF3 Forge v4.0.0 (1.19.1/2)",
-      "version_number": "4.0.0",
+      "id": "CVXMTRPD",
+      "name": "BetterF3 MinecraftForge v9.0.2 (1.20.3/1.20.4)",
+      "version_number": "9.0.2",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "56e2f684a6b5bb483eabcea6f3f3ab893a76b4c0c76b6a5cbe8e63850ce70385edbeb36fd09764660c3a15aaf6e30150397e4f6d777e7ca684bc78d1f3d88465",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/MTPw9hV7/BetterF3-4.0.0-Forge-1.19.2.jar",
-          "filename": "BetterF3-4.0.0-Forge-1.19.2.jar",
+          "sha512": "0aece9e83085b14f6fe6bfe62eceabd666ff093dce8834a4239fb96bb1abd9140df3aeb8e742ad6983ee07818273107fcc05b69a4f37f529855cc8463d514d08",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/CVXMTRPD/BetterF3-9.0.2-Forge-1.20.4.jar",
+          "filename": "BetterF3-9.0.2-Forge-1.20.4.jar",
           "primary": true,
-          "size": 449544
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "EUyHCmUW",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "RbNy07Bx",
-      "name": "BetterF3 Fabric v4.0.0 (1.19.1/2)",
-      "version_number": "4.0.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "22w42a"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6982752e73cd3affebed3d27f81f4bb21e60f0514ac503d0687480edce96fb3056db800ccfa492cbba364e1ae3e73a98948c45b4688c81eea5f03ffb6e7c849f",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/RbNy07Bx/BetterF3-4.0.0-Fabric-1.19.2.jar",
-          "filename": "BetterF3-4.0.0-Fabric-1.19.2.jar",
-          "primary": true,
-          "size": 1739284
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "NAs8eiQa",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "lfbnci9q",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "QIXtqgTu",
-      "name": "BetterF3 Forge v3.0.0 (1.18.1/2)",
-      "version_number": "3.0.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "25b51011a2319faa69db54971c439e087ce591e723eb3a85350f63cfd49abd1a48c3fe109e03b6115ee4295b9be75fde3a6ed69385ac61084e433ef26c8325d2",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/QIXtqgTu/BetterF3-3.0.0-Forge-1.18.2.jar",
-          "filename": "BetterF3-3.0.0-Forge-1.18.2.jar",
-          "primary": true,
-          "size": 448053
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "ZbWG3eJW",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "qUyRV6XT",
-      "name": "BetterF3 Fabric v3.0.0 (1.18.1/2)",
-      "version_number": "3.0.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "091f9c34d6393bca94f57121a95fbf82fa5cfdebe8f01c1cd743a7e1005499245f4b8e4f6802326ebc986b9b642761f08f047c2ccb4eec6b774651db4fb4ec57",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/qUyRV6XT/BetterF3-3.0.0-Fabric-1.18.2.jar",
-          "filename": "BetterF3-3.0.0-Fabric-1.18.2.jar",
-          "primary": true,
-          "size": 1704538
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "nVxObSbX",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "GwlU7rpA",
-      "name": "BetterF3 Forge v2.0.0 (1.17/1.17.1)",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "c2ee40fcdcc460375d289b1e9f60ae2c7ee23e26db47b501e15ff61b7eb27ee3e3ee61bb62f7e6d70781356b257712150564ea01bb8ebf972b365ab4ece94c6a",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/GwlU7rpA/BetterF3-2.0.0-Forge-1.17.1.jar",
-          "filename": "BetterF3-2.0.0-Forge-1.17.1.jar",
-          "primary": true,
-          "size": 447995
+          "size": 472122
         }
       ],
       "dependencies": [
         {
           "project_id": "9s6osm5g",
           "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "KNbHopYR",
-      "name": "BetterF3 Fabric v2.0.0 (1.17/1.17.1)",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3ba5d5313c1c161e40ba6e6e5bb72b63caac35bad7d79e1bcadfc0888683ce45e076bbb27318747b99e63a88d81358f2eec143f0fc6a839fdad975ee5e997915",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/KNbHopYR/BetterF3-2.0.0-Fabric-1.17.1.jar",
-          "filename": "BetterF3-2.0.0-Fabric-1.17.1.jar",
-          "primary": true,
-          "size": 1573679
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "7kh2ofyR",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "k6xmp8cg",
-      "name": "BetterF3 Forge v1.5.0 (1.16-1.16.5)",
-      "version_number": "1.5.0",
-      "game_versions": [
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "8bc55dffd5ed8569a233a884298152515d64a491380bef07254e55be50dad3ed2209152dc013818f9c15bfbd25761abc72390f017c0be8f84bca91d9135d4296",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/k6xmp8cg/BetterF3-1.5.0-Forge-1.16.5.jar",
-          "filename": "BetterF3-1.5.0-Forge-1.16.5.jar",
-          "primary": true,
-          "size": 447347
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "i0ExoqTD",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -1706,43 +354,47 @@
       ]
     },
     {
-      "id": "P6E28y68",
-      "name": "BetterF3 Fabric v1.4.0 (1.19.1/2)",
-      "version_number": "1.4.0",
+      "id": "EWqUNavR",
+      "name": "BetterF3 Fabric v1.2.5 (1.18.2)",
+      "version_number": "1.2.5.1",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
+        "1.18.2"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "cccc5425e97514f1762ec3fab25906772ae23de33f01c74b73ea92a1c5485bff77822fc4fc515e32d3080908b7118aa9ac6e7b9599b1073782a5b291b57ab7ba",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/P6E28y68/BetterF3-1.4.0-Forge-1.19.2.jar",
-          "filename": "BetterF3-1.4.0-Forge-1.19.2.jar",
+          "sha512": "f98ffd002be93c55f8c207858945b77ab7a65f40e9948d8fcee6d74cf32c03348f617b0672b9a34222a5145b4fb97888498a6f60332b41f32f2d2b1a51ad6428",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.2.5.1/BetterF3-1.2.5-Fabric-1.18.2.jar",
+          "filename": "BetterF3-1.2.5-Fabric-1.18.2.jar",
           "primary": true,
-          "size": 216589
+          "size": 1400327
         }
       ],
       "dependencies": [
         {
           "project_id": "9s6osm5g",
-          "version_id": "EUyHCmUW",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "GYRoFp1I",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "YkAPYBjH",
-      "name": " BetterF3 Fabric v1.4.0 (1.19.1/2)",
-      "version_number": "1.4.0",
+      "id": "EZ6qfsTX",
+      "name": "BetterF3 Fabric v1.3.0 (1.19)",
+      "version_number": "1.3.0",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
+        "1.19-rc1",
+        "1.19-rc2",
+        "1.19"
       ],
       "loaders": [
         "fabric",
@@ -1750,17 +402,17 @@
       ],
       "files": [
         {
-          "sha512": "829ee4940ea719fb8f71a0258000294fe0f09872ee4a0d2a682990e9b23da31f7173a8f5d676b66c1bf1a238e4dfb3799e52f0de5cea42f4bb209999c4993c8c",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/YkAPYBjH/BetterF3-1.4.0-Fabric-1.19.2.jar",
-          "filename": "BetterF3-1.4.0-Fabric-1.19.2.jar",
+          "sha512": "99b02b6467045a32f5e5ec5e32c09d01fd1f462c1f2ba0f3c71a1522f7c17b9f15fddaa9272eadab80b2c3b4a7370cd47774c9d7d1d02931e03377c95ea2fa7d",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.3.0/BetterF3-1.3.0-Fabric-1.19.jar",
+          "filename": "BetterF3-1.3.0-Fabric-1.19.jar",
           "primary": true,
-          "size": 1506350
+          "size": 1415865
         }
       ],
       "dependencies": [
         {
           "project_id": "mOgUt4GM",
-          "version_id": "8TOgNwQL",
+          "version_id": "Tk7mCRX1",
           "file_name": null,
           "dependency_type": "optional"
         },
@@ -1773,9 +425,203 @@
       ]
     },
     {
-      "id": "5G2kahYC",
-      "name": "BetterF3 Forge v1.3.2 (1.19)",
-      "version_number": "1.3.2",
+      "id": "FGUXrYM8",
+      "name": "BetterF3 Fabric/Forge v1.2.0 (1.18)",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1-pre1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "eb884104bd9cdccb51dccba6a2b5ca45904aa0207a04cf823468b7b909885c38e8f12af49928eb50539040df668802aa4a7a625752b957727cb997fc34bf09e8",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.2.0/BetterF3-1.2.0-Fabric-1.18.jar",
+          "filename": "BetterF3-1.2.0-Fabric-1.18.jar",
+          "primary": true,
+          "size": 1260822
+        },
+        {
+          "sha512": "c45720a7c2d1e857e953b974d7de9137db4638bcb9549c6f0df3371490631e2f64f9dc00d30f19707225f3aed0231f36b0e6cc70713c8a2044cea8f9fe47899e",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.2.0/BetterF3-1.2.0-Forge-1.18.jar",
+          "filename": "BetterF3-1.2.0-Forge-1.18.jar",
+          "primary": false,
+          "size": 136682
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "FtJ0KSLo",
+      "name": "BetterF3 Fabric v7.0.1 (1.20/1.20.1)",
+      "version_number": "7.0.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "98911ba4f85da41e9d920274f0d165a951fcf3790c35a3bf007d90461ff07638b02c3f82219a4a75856fd435ef3aababf7db302a885f1d1f8461333d7c4c099c",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/FtJ0KSLo/BetterF3-7.0.1-Fabric-1.20.1.jar",
+          "filename": "BetterF3-7.0.1-Fabric-1.20.1.jar",
+          "primary": true,
+          "size": 1770904
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "GwlU7rpA",
+      "name": "BetterF3 Forge v2.0.0 (1.17/1.17.1)",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c2ee40fcdcc460375d289b1e9f60ae2c7ee23e26db47b501e15ff61b7eb27ee3e3ee61bb62f7e6d70781356b257712150564ea01bb8ebf972b365ab4ece94c6a",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/GwlU7rpA/BetterF3-2.0.0-Forge-1.17.1.jar",
+          "filename": "BetterF3-2.0.0-Forge-1.17.1.jar",
+          "primary": true,
+          "size": 447995
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "H4zjxa7k",
+      "name": "BetterF3 Fabric v1.3.1 (1.19)",
+      "version_number": "1.3.1",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2734bb485f9b8cb6b1b527fa31db0860d39c7f15e70545de3940e37460475b589affc2d5e9a45dd27c83328c49d92a472b2ba3e43ce9a6ca7bb791caac315678",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.3.1/BetterF3-1.3.1-Fabric-1.19.jar",
+          "filename": "BetterF3-1.3.1-Fabric-1.19.jar",
+          "primary": true,
+          "size": 1419633
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "oU5qfeR6",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "HX9I690G",
+      "name": "BetterF3 Forge v6.0.2 (1.19.4)",
+      "version_number": "6.0.2",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5edfe6f6fe62e8d8c417f285874a9e1ba894f9b42bfde8ab6f802b51a0eb562dcd971eb90abe3f66fd082bca6ed068d5861afda6c245aac0722dd115c411f401",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/HX9I690G/BetterF3-6.0.2-Forge-1.19.4.jar",
+          "filename": "BetterF3-6.0.2-Forge-1.19.4.jar",
+          "primary": true,
+          "size": 456874
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "Sqf2NXVd",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "KNbHopYR",
+      "name": "BetterF3 Fabric v2.0.0 (1.17/1.17.1)",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3ba5d5313c1c161e40ba6e6e5bb72b63caac35bad7d79e1bcadfc0888683ce45e076bbb27318747b99e63a88d81358f2eec143f0fc6a839fdad975ee5e997915",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/KNbHopYR/BetterF3-2.0.0-Fabric-1.17.1.jar",
+          "filename": "BetterF3-2.0.0-Fabric-1.17.1.jar",
+          "primary": true,
+          "size": 1573679
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "7kh2ofyR",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "MTPw9hV7",
+      "name": "BetterF3 Forge v4.0.0 (1.19.1/2)",
+      "version_number": "4.0.0",
       "game_versions": [
         "1.19",
         "1.19.1",
@@ -1786,11 +632,11 @@
       ],
       "files": [
         {
-          "sha512": "14249034e1f8f5dbc64657993bd037257accb2fe19d764d1b70f0dc529ca6ad0fbc76d8d0fd9fa53e59d874373e216cfacb4d53f7aa34cb7b920c0819c958952",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.3.2-forge/BetterF3-1.3.2-Forge-1.19.jar",
-          "filename": "BetterF3-1.3.2-Forge-1.19.jar",
+          "sha512": "56e2f684a6b5bb483eabcea6f3f3ab893a76b4c0c76b6a5cbe8e63850ce70385edbeb36fd09764660c3a15aaf6e30150397e4f6d777e7ca684bc78d1f3d88465",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/MTPw9hV7/BetterF3-4.0.0-Forge-1.19.2.jar",
+          "filename": "BetterF3-4.0.0-Forge-1.19.2.jar",
           "primary": true,
-          "size": 152023
+          "size": 449544
         }
       ],
       "dependencies": [
@@ -1840,22 +686,88 @@
       ]
     },
     {
-      "id": "4SrIvqKy",
-      "name": "BetterF3 Forge v1.3.1 (1.19)",
-      "version_number": "1.3.1.1",
+      "id": "NcuBKkeE",
+      "name": "BetterF3 NeoForge v11.0.0 (1.21)",
+      "version_number": "11.0.0",
       "game_versions": [
-        "1.19"
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "93335c6bfb5212a879f7d9747c586ffebb90105e415816df9f3cc7e5ab12785f2c6514ae0193d34bd1e955599770949718fcf8445e151b5f053967324a54afdd",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/NcuBKkeE/BetterF3-11.0.0-NeoForge-1.21.jar",
+          "filename": "BetterF3-11.0.0-NeoForge-1.21.jar",
+          "primary": true,
+          "size": 478519
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "NwdpRyuN",
+      "name": "BetterF3 Fabric v7.0.0 (1.20/1.20.1)",
+      "version_number": "7.0.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "a958196d20a7dc358e6164e0027b77a33ba01592d9ee167954a7cd975fe7de300dfd82b6fb0686ae232c4cdab6b7f6d517c4785125dc053230026efc8e5b2c74",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/NwdpRyuN/BetterF3-7.0.0-Fabric-1.20-pre6.jar",
+          "filename": "BetterF3-7.0.0-Fabric-1.20-pre6.jar",
+          "primary": true,
+          "size": 1759665
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "RTFDnTKf",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "y0kQixP8",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "P6E28y68",
+      "name": "BetterF3 Fabric v1.4.0 (1.19.1/2)",
+      "version_number": "1.4.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "020ab415827a2f90f0a141d0e5b1aa4db54d18df17116ab6477b0a678e329bc67f22f193528e91a1e4e7fc144d96a7bd439ccb8ee90dc604114bec857caed610",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.3.1.1/BetterF3-1.3.1-Forge-1.19.jar",
-          "filename": "BetterF3-1.3.1-Forge-1.19.jar",
+          "sha512": "cccc5425e97514f1762ec3fab25906772ae23de33f01c74b73ea92a1c5485bff77822fc4fc515e32d3080908b7118aa9ac6e7b9599b1073782a5b291b57ab7ba",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/P6E28y68/BetterF3-1.4.0-Forge-1.19.2.jar",
+          "filename": "BetterF3-1.4.0-Forge-1.19.2.jar",
           "primary": true,
-          "size": 152009
+          "size": 216589
         }
       ],
       "dependencies": [
@@ -1868,106 +780,159 @@
       ]
     },
     {
-      "id": "H4zjxa7k",
-      "name": "BetterF3 Fabric v1.3.1 (1.19)",
-      "version_number": "1.3.1",
+      "id": "QIXtqgTu",
+      "name": "BetterF3 Forge v3.0.0 (1.18.1/2)",
+      "version_number": "3.0.0",
       "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2734bb485f9b8cb6b1b527fa31db0860d39c7f15e70545de3940e37460475b589affc2d5e9a45dd27c83328c49d92a472b2ba3e43ce9a6ca7bb791caac315678",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.3.1/BetterF3-1.3.1-Fabric-1.19.jar",
-          "filename": "BetterF3-1.3.1-Fabric-1.19.jar",
-          "primary": true,
-          "size": 1419633
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "oU5qfeR6",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "EZ6qfsTX",
-      "name": "BetterF3 Fabric v1.3.0 (1.19)",
-      "version_number": "1.3.0",
-      "game_versions": [
-        "1.19-rc1",
-        "1.19-rc2",
-        "1.19"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "99b02b6467045a32f5e5ec5e32c09d01fd1f462c1f2ba0f3c71a1522f7c17b9f15fddaa9272eadab80b2c3b4a7370cd47774c9d7d1d02931e03377c95ea2fa7d",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.3.0/BetterF3-1.3.0-Fabric-1.19.jar",
-          "filename": "BetterF3-1.3.0-Fabric-1.19.jar",
-          "primary": true,
-          "size": 1415865
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "Tk7mCRX1",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "EWqUNavR",
-      "name": "BetterF3 Fabric v1.2.5 (1.18.2)",
-      "version_number": "1.2.5.1",
-      "game_versions": [
+        "1.18",
+        "1.18.1",
         "1.18.2"
       ],
       "loaders": [
-        "fabric"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "f98ffd002be93c55f8c207858945b77ab7a65f40e9948d8fcee6d74cf32c03348f617b0672b9a34222a5145b4fb97888498a6f60332b41f32f2d2b1a51ad6428",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.2.5.1/BetterF3-1.2.5-Fabric-1.18.2.jar",
-          "filename": "BetterF3-1.2.5-Fabric-1.18.2.jar",
+          "sha512": "25b51011a2319faa69db54971c439e087ce591e723eb3a85350f63cfd49abd1a48c3fe109e03b6115ee4295b9be75fde3a6ed69385ac61084e433ef26c8325d2",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/QIXtqgTu/BetterF3-3.0.0-Forge-1.18.2.jar",
+          "filename": "BetterF3-3.0.0-Forge-1.18.2.jar",
           "primary": true,
-          "size": 1400327
+          "size": 448053
         }
       ],
       "dependencies": [
         {
           "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
+          "version_id": "ZbWG3eJW",
           "file_name": null,
           "dependency_type": "required"
-        },
+        }
+      ]
+    },
+    {
+      "id": "RCyVDnLg",
+      "name": "BetterF3 Forge v8.0.1 (1.20.2)",
+      "version_number": "8.0.1",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "74bc5f992748a69f7ed41cc911e4b92fcfe49af933326e38f75ae7bd8b74302f6d1f37498aff84129840198bb010fc89e398279e5fbdf45d8d4261851a84957f",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/RCyVDnLg/BetterF3-8.0.1-Forge-1.20.2.jar",
+          "filename": "BetterF3-8.0.1-Forge-1.20.2.jar",
+          "primary": true,
+          "size": 469087
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "RbNy07Bx",
+      "name": "BetterF3 Fabric v4.0.0 (1.19.1/2)",
+      "version_number": "4.0.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "22w42a"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "6982752e73cd3affebed3d27f81f4bb21e60f0514ac503d0687480edce96fb3056db800ccfa492cbba364e1ae3e73a98948c45b4688c81eea5f03ffb6e7c849f",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/RbNy07Bx/BetterF3-4.0.0-Fabric-1.19.2.jar",
+          "filename": "BetterF3-4.0.0-Fabric-1.19.2.jar",
+          "primary": true,
+          "size": 1739284
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "mOgUt4GM",
-          "version_id": "GYRoFp1I",
+          "version_id": "NAs8eiQa",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "lfbnci9q",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Rbn4lbDN",
+      "name": "BetterF3 Forge v9.0.1 (1.20.3/1.20.4)",
+      "version_number": "9.0.1",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f172f6988256fc3322533a4f1cb70074ab0b19558fb84dd6ca1c4dea27f3d5818d0e9cc0454aca3ae9b6514435dcca8b1039d0edf78d06274d41a0d280e8350f",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/Rbn4lbDN/BetterF3-9.0.1-Forge-1.20.4.jar",
+          "filename": "BetterF3-9.0.1-Forge-1.20.4.jar",
+          "primary": true,
+          "size": 469855
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "TobtOr9W",
+      "name": "BetterF3 NeoForge v11.0.1 (1.21)",
+      "version_number": "11.0.1",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "d902792b7b23c9e6b10e88b39ee47970d9dec7f5fd2b60949a47036822eb45da409e69235097a33da550bd42615bd6aa26e81be29a9330be63f3ad37bd00f0fa",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/TobtOr9W/BetterF3-11.0.1-NeoForge-1.21.jar",
+          "filename": "BetterF3-11.0.1-NeoForge-1.21.jar",
+          "primary": true,
+          "size": 478563
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -1996,6 +961,129 @@
         {
           "project_id": "9s6osm5g",
           "version_id": "ZbWG3eJW",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "VIA6xHkC",
+      "name": "BetterF3 NeoForge v10.0.2 (1.20.5/1.20.6)",
+      "version_number": "10.0.2",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "de62ddabd42feb5428d6782ae802fe0807917ddf126551710604274cf58217c0a771c880e104b7633fd8cfabffdefee0c85275619c242a2101d214cd4a11af28",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/VIA6xHkC/BetterF3-10.0.2-NeoForge-1.20.6.jar",
+          "filename": "BetterF3-10.0.2-NeoForge-1.20.6.jar",
+          "primary": true,
+          "size": 478488
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "YkAPYBjH",
+      "name": " BetterF3 Fabric v1.4.0 (1.19.1/2)",
+      "version_number": "1.4.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "829ee4940ea719fb8f71a0258000294fe0f09872ee4a0d2a682990e9b23da31f7173a8f5d676b66c1bf1a238e4dfb3799e52f0de5cea42f4bb209999c4993c8c",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/YkAPYBjH/BetterF3-1.4.0-Fabric-1.19.2.jar",
+          "filename": "BetterF3-1.4.0-Fabric-1.19.2.jar",
+          "primary": true,
+          "size": 1506350
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "8TOgNwQL",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "al1gndy9",
+      "name": "BetterF3 NeoForge v10.0.1 (1.20.5/1.20.6)",
+      "version_number": "10.0.1",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "b730d7c2dfbb5f420a358290a3be813b2b35eda25c1b7f94b5889522aeeaea67d43cf5d6c913e676ce3e3d3539d573e4d7e5022df30eaee7b2e5b64bf2ff0e00",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/al1gndy9/BetterF3-10.0.1-NeoForge-1.20.6.jar",
+          "filename": "BetterF3-10.0.1-NeoForge-1.20.6.jar",
+          "primary": true,
+          "size": 477856
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "bEJZPnba",
+      "name": "BetterF3 MinecraftForge v8.0.3 (1.20.2)",
+      "version_number": "8.0.3",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "eee0939d3f85ea39250b595daa5d46c9d586b53dd5cbeae9bef4f7fefdef512a0aca4fe13e2d8d67331e10ba4c067318a7aea056c1bb7d0fd49941e1d2ed430b",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/bEJZPnba/BetterF3-8.0.3-Forge-1.20.2.jar",
+          "filename": "BetterF3-8.0.3-Forge-1.20.2.jar",
+          "primary": true,
+          "size": 470088
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -2044,55 +1132,175 @@
       "dependencies": []
     },
     {
-      "id": "u4bJ71r8",
-      "name": "BetterF3 Fabric 1.2.3 (1.18.2)",
-      "version_number": "1.2.3",
+      "id": "cEflCp0r",
+      "name": "BetterF3 Forge v6.0.1 (1.19.4)",
+      "version_number": "6.0.1",
       "game_versions": [
-        "1.18.2"
+        "1.19.4"
       ],
       "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "56fb743a0899223b7260ae8092a5c15ae95b2b5e1bb74ddc236b4e46dfdf80afc93f0d175fceddca0360153858c87fc9c5264b637399d6dd55223b7729cf3e68",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.2.3/BetterF3-1.2.3-Fabric-1.18.2.jar",
-          "filename": "BetterF3-1.2.3-Fabric-1.18.2.jar",
-          "primary": true,
-          "size": 1264940
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "yHMun8ED",
-      "name": "BetterF3 Fabric/Forge v1.2.2 (1.18/1.18.1)",
-      "version_number": "1.2.2",
-      "game_versions": [
-        "1.18",
-        "1.18.1-pre1"
-      ],
-      "loaders": [
-        "fabric",
         "forge"
       ],
       "files": [
         {
-          "sha512": "005bbf0100b351adf60725282d4d6f1ddf5d64f81fb7af9e961f5c3f0e071dfb0cd46e093cada8034ff7393c57e03154e5b03bb1b84107bf35c8ed75b81eac3c",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.2.2/BetterF3-1.2.2-Fabric-1.18.jar",
-          "filename": "BetterF3-1.2.2-Fabric-1.18.jar",
-          "primary": false,
-          "size": 1260459
-        },
-        {
-          "sha512": "b56674c83643555541fc84a4fe37633cbb609be137552e87ce0198bd3ab3e8b01c107099867cc73e86ee3114498a365d7efe19ca781dfcab888e353c3606b2a4",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.2.2/BetterF3-1.2.2-Forge-1.18.jar",
-          "filename": "BetterF3-1.2.2-Forge-1.18.jar",
-          "primary": false,
-          "size": 136346
+          "sha512": "92ac21c57df3f90c07f94cbf7512adec529fca5f308c9d6e987c67cb6a1fa311ce099b015b2c2ea13ab84e2e06eec0e0aee00ba79a9c5ff11c169cee126c2d62",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/cEflCp0r/BetterF3-6.0.1-Forge-1.19.4.jar",
+          "filename": "BetterF3-6.0.1-Forge-1.19.4.jar",
+          "primary": true,
+          "size": 454290
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "Sqf2NXVd",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "cPKBdNOO",
+      "name": "BetterF3 Fabric v6.0.3 (1.19.4)",
+      "version_number": "6.0.3",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "a9dcdf690dc91bac00e00ba85b73dd36a72eff6d24e5767f0009a1262968bf953d791dca71784b338e8a1737c633ef7c5d86eb000f3264dcc7725213541f9b81",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/cPKBdNOO/BetterF3-6.0.3-Fabric-1.19.4.jar",
+          "filename": "BetterF3-6.0.3-Fabric-1.19.4.jar",
+          "primary": true,
+          "size": 1770980
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "cWQJKCXe",
+      "name": "BetterF3 Fabric v8.0.3 (1.20.2)",
+      "version_number": "8.0.3",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4f7cda7e5bd69ee1e5ded54817bca819c3959f7e1fdd32d5a0229d620db29864d4ab53e06cf476fdee918a43194aab5245edf66aa6798f31621275d03e3bc212",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/cWQJKCXe/BetterF3-8.0.3-Fabric-1.20.2.jar",
+          "filename": "BetterF3-8.0.3-Fabric-1.20.2.jar",
+          "primary": true,
+          "size": 1784722
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "euCaAaXx",
+      "name": "BetterF3 Fabric v9.0.1 (1.20.3/1.20.4)",
+      "version_number": "9.0.1",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "154ea67663412c2226aeee101c44d58cf610a9c802bea8c51c3b92f3939ebc9442945d9f708501cf803ff7281bd1d02da1f11081fd1c9104ccdcf12285b02e8c",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/euCaAaXx/BetterF3-9.0.1-Fabric-1.20.4.jar",
+          "filename": "BetterF3-9.0.1-Fabric-1.20.4.jar",
+          "primary": true,
+          "size": 1773999
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "h7DgRLng",
+      "name": "BetterF3 Fabric v4.0.1 (1.19.1/2)",
+      "version_number": "4.0.1",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f37927ccea51a160b1bf3f89a5f81bbe2d0cf984586adc4389a29c21ae0ced88a29c21cad1c87fd056accb7b76deb80347b60e1211b53e6ad8198c79968f983e",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/h7DgRLng/BetterF3-4.0.1-Fabric-1.19.2.jar",
+          "filename": "BetterF3-4.0.1-Fabric-1.19.2.jar",
+          "primary": true,
+          "size": 1745495
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
     },
     {
       "id": "hfizyzjF",
@@ -2125,56 +1333,619 @@
       "dependencies": []
     },
     {
-      "id": "FGUXrYM8",
-      "name": "BetterF3 Fabric/Forge v1.2.0 (1.18)",
-      "version_number": "1.2.0",
+      "id": "jFVjbyGK",
+      "name": "BetterF3 Fabric v6.0.0 (1.19.4)",
+      "version_number": "6.0.0",
       "game_versions": [
-        "1.18",
-        "1.18.1-pre1"
+        "1.19.4"
       ],
       "loaders": [
         "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c3bc656b6b59e487456e6e4b776ec0cfbd751007911cb8b1894e3563fc4ae1298060ceeb2fa93ffc6a43c7c488f6e6a5df14b4f793ab8799cbacb1fbdfe6c066",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/jFVjbyGK/BetterF3-6.0.0-Fabric-1.19.4-pre3.jar",
+          "filename": "BetterF3-6.0.0-Fabric-1.19.4-pre3.jar",
+          "primary": true,
+          "size": 1747113
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "mhFzbEwE",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jmwTc5n8",
+      "name": "BetterF3 NeoForge v9.0.2 (1.20.3/1.20.4)",
+      "version_number": "9.0.2",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "0ec6364ce9e6f30846d86488a702b51c844900248f43f04176b4b15780665600468c38cd441c70685f17ea5e8dfdbfaef42f13b93925de4344e4c91b5d73c65a",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/jmwTc5n8/BetterF3-9.0.2-NeoForge-1.20.4.jar",
+          "filename": "BetterF3-9.0.2-NeoForge-1.20.4.jar",
+          "primary": true,
+          "size": 469734
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jwhdsLMc",
+      "name": "BetterF3 Forge v9.0.0 (1.20.3/1.20.4)",
+      "version_number": "9.0.0",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "eb884104bd9cdccb51dccba6a2b5ca45904aa0207a04cf823468b7b909885c38e8f12af49928eb50539040df668802aa4a7a625752b957727cb997fc34bf09e8",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.2.0/BetterF3-1.2.0-Fabric-1.18.jar",
-          "filename": "BetterF3-1.2.0-Fabric-1.18.jar",
+          "sha512": "84b976f3c04aeec138120d64e74fbf5d3b250ece50a87da2e46150e1b604a27d92662c45338438ecb6a407221ea79ea501edeea02d07be4687da0b3cc5440d9e",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/jwhdsLMc/BetterF3-9.0.0-Forge-1.20.4.jar",
+          "filename": "BetterF3-9.0.0-Forge-1.20.4.jar",
           "primary": true,
-          "size": 1260822
-        },
-        {
-          "sha512": "c45720a7c2d1e857e953b974d7de9137db4638bcb9549c6f0df3371490631e2f64f9dc00d30f19707225f3aed0231f36b0e6cc70713c8a2044cea8f9fe47899e",
-          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.2.0/BetterF3-1.2.0-Forge-1.18.jar",
-          "filename": "BetterF3-1.2.0-Forge-1.18.jar",
-          "primary": false,
-          "size": 136682
+          "size": 468359
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
-      "id": "1eRzbEj6",
-      "name": "BetterF3 Fabric 1.1.5 (1.17/1.17.1)",
-      "version_number": "1.1.5",
+      "id": "k1LlRoc9",
+      "name": "BetterF3 NeoForge v8.0.3 (1.20.2)",
+      "version_number": "8.0.3",
       "game_versions": [
-        "1.17",
-        "1.17.1"
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "6c597c2494572976cc5f9256be592a916300fa1d4272466285b9470077ed9ccb798587f630e7dba904c516dbaea37873c44ad86ebb58b0022d33e2a6066b9a4c",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/k1LlRoc9/BetterF3-8.0.3-NeoForge-1.20.2.jar",
+          "filename": "BetterF3-8.0.3-NeoForge-1.20.2.jar",
+          "primary": true,
+          "size": 472379
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "k6xmp8cg",
+      "name": "BetterF3 Forge v1.5.0 (1.16-1.16.5)",
+      "version_number": "1.5.0",
+      "game_versions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8bc55dffd5ed8569a233a884298152515d64a491380bef07254e55be50dad3ed2209152dc013818f9c15bfbd25761abc72390f017c0be8f84bca91d9135d4296",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/k6xmp8cg/BetterF3-1.5.0-Forge-1.16.5.jar",
+          "filename": "BetterF3-1.5.0-Forge-1.16.5.jar",
+          "primary": true,
+          "size": 447347
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "i0ExoqTD",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "mMlLANpz",
+      "name": "BetterF3 Forge v4.0.1 (1.19.1/2)",
+      "version_number": "4.0.1",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0e459bad92565751912866075b0e3de6af06761c5bacbcffac1892bc6cb22ab345d26c9c52a72b62bed2ca28bc64df0d7d515c00054c13782419285de0157a96",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/mMlLANpz/BetterF3-4.0.1-Forge-1.19.2.jar",
+          "filename": "BetterF3-4.0.1-Forge-1.19.2.jar",
+          "primary": true,
+          "size": 455755
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "nuKBXZDI",
+      "name": "BetterF3 Fabric v5.1.0 (1.19.3)",
+      "version_number": "5.1.0",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "a8eee5ee489e3e8a96a6f6b4adda340d9fecd6c5d8bc75cca760156ac690dae687b75dfe663e2359569e1ce57c17d8ad47e84b0bc9b41ba7ad72ba388f1fddf2",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/nuKBXZDI/BetterF3-5.1.0-Fabric-1.19.3.jar",
+          "filename": "BetterF3-5.1.0-Fabric-1.19.3.jar",
+          "primary": true,
+          "size": 1743279
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "w2VZSLTf",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "o935ywNh",
+      "name": "BetterF3 Fabric v8.0.1 (1.20.2)",
+      "version_number": "8.0.1",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f5476818834c01afb16c9f2c0171e431333a2c63c90f8c1375df035b61e4ed2d351f1da257c98c2b2e0b2f8357a8d0f75ae76f6e201196deb753abaf61c3e0cf",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/o935ywNh/BetterF3-8.0.1-Fabric-1.20.2.jar",
+          "filename": "BetterF3-8.0.1-Fabric-1.20.2.jar",
+          "primary": true,
+          "size": 1787061
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "pOSEJ8yy",
+      "name": "BetterF3 Fabric v10.0.2 (1.20.5/1.20.6)",
+      "version_number": "10.0.2",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d8c0fa7de09993d99d7257e6c461716e47b53cd787e90cd9b99e6bb042a9a41fd287295ebafe94c5d1c73bc038ccc64b5c72e3cdff27e802f14512dcbca94e89",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/pOSEJ8yy/BetterF3-10.0.2-Fabric-1.20.6.jar",
+          "filename": "BetterF3-10.0.2-Fabric-1.20.6.jar",
+          "primary": true,
+          "size": 1796276
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "q61pgYQY",
+      "name": "BetterF3 Forge v8.0.2 (1.20.2)",
+      "version_number": "8.0.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "13f11e82c7625c0fea539de4698af56bbbd836fa8a981a5fe11b87df4709a8ef0d26a7156b30047fd95e498cd412d49e5713986ea12fa784ccd05d2907e972cc",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/q61pgYQY/BetterF3-8.0.2-Forge-1.20.2.jar",
+          "filename": "BetterF3-8.0.2-Forge-1.20.2.jar",
+          "primary": true,
+          "size": 469675
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "qUyRV6XT",
+      "name": "BetterF3 Fabric v3.0.0 (1.18.1/2)",
+      "version_number": "3.0.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "091f9c34d6393bca94f57121a95fbf82fa5cfdebe8f01c1cd743a7e1005499245f4b8e4f6802326ebc986b9b642761f08f047c2ccb4eec6b774651db4fb4ec57",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/qUyRV6XT/BetterF3-3.0.0-Fabric-1.18.2.jar",
+          "filename": "BetterF3-3.0.0-Fabric-1.18.2.jar",
+          "primary": true,
+          "size": 1704538
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "rYpOYv1n",
+      "name": "BetterF3 Fabric v10.0.1 (1.20.5/1.20.6)",
+      "version_number": "10.0.1",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "a888106afe955ce0aef1d851686924d92434f3a78d8534391246ace65afcc78ca84cbece16dcb22aacb2564601841e3d41aed95631fce18a0bbfc4edee787538",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/rYpOYv1n/BetterF3-10.0.1-Fabric-1.20.6.jar",
+          "filename": "BetterF3-10.0.1-Fabric-1.20.6.jar",
+          "primary": true,
+          "size": 1795643
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "sCyychsc",
+      "name": "BetterF3 Forge v6.0.3 (1.19.4)",
+      "version_number": "6.0.3",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "81de02030bf5fe965040d2798d21f5686baf0a2b0673639b5d43a1f8a834445831999b39dcd0c251c60c01f79860ace01a09b9ef65afcb998be6ce511385c54e",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/sCyychsc/BetterF3-6.0.3-Forge-1.19.4.jar",
+          "filename": "BetterF3-6.0.3-Forge-1.19.4.jar",
+          "primary": true,
+          "size": 468923
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "sPcACJ3r",
+      "name": "BetterF3 Fabric v8.0.2 (1.20.2)",
+      "version_number": "8.0.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "e623703d1d9c5aeaf1b06ab1a795b08172489892725f63c59aeedd3850e81c3dcc6b9d4908acb4eaf61007f12e819e222ade61496558cee6dd2cc2fb6211deee",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/sPcACJ3r/BetterF3-8.0.2-Fabric-1.20.2.jar",
+          "filename": "BetterF3-8.0.2-Fabric-1.20.2.jar",
+          "primary": true,
+          "size": 1787658
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "sXO3idkS",
+      "name": "BetterF3 Fabric v11.0.1 (1.21)",
+      "version_number": "11.0.1",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "260fabb96308529aa19f4d2c1f440fc821da2ec3b09613db285ecee8589ed454196312b086c87a8d4b05d6762c84901231e6b3cb6ce9dbdf79dc87cf62081034",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/sXO3idkS/BetterF3-11.0.1-Fabric-1.21.jar",
+          "filename": "BetterF3-11.0.1-Fabric-1.21.jar",
+          "primary": true,
+          "size": 1802691
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "u4bJ71r8",
+      "name": "BetterF3 Fabric 1.2.3 (1.18.2)",
+      "version_number": "1.2.3",
+      "game_versions": [
+        "1.18.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "32d01ad6ff36b5501a1cccc2e5fd86124c83c7a0ec4d47b898694c7cd6ac30d9319762cc1026c3fa106db53bc3c7b58908c72d8339e41fd4acf33af045abe816",
-          "url": "https://cdn.modrinth.com//data/8shC1gFX/versions/1.1.5/betterf3-1.1.5%2B1.17.jar",
-          "filename": "betterf3-1.1.5+1.17.jar",
-          "primary": false,
-          "size": 1248501
+          "sha512": "56fb743a0899223b7260ae8092a5c15ae95b2b5e1bb74ddc236b4e46dfdf80afc93f0d175fceddca0360153858c87fc9c5264b637399d6dd55223b7729cf3e68",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.2.3/BetterF3-1.2.3-Fabric-1.18.2.jar",
+          "filename": "BetterF3-1.2.3-Fabric-1.18.2.jar",
+          "primary": true,
+          "size": 1264940
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "up8zocIz",
+      "name": "BetterF3 Fabric v6.0.2 (1.19.4)",
+      "version_number": "6.0.2",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "e7b3967ec2ca4a1407cd7326723fdece614f287a3b3db702d1f55b46979ab2d4dddfb92ebc412a043a37452205efedd0dca4c90531f3c354222ff677e5ad730c",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/up8zocIz/BetterF3-6.0.2-Fabric-1.19.4.jar",
+          "filename": "BetterF3-6.0.2-Fabric-1.19.4.jar",
+          "primary": true,
+          "size": 1758927
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "mhFzbEwE",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "v0mwC68L",
+      "name": "BetterF3 Fabric v11.0.0 (1.21)",
+      "version_number": "11.0.0",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "a46b6732bf68908046d83b8223b0a37168317ab9907ce43b7ea0245c5bf1aebfcb5a1f4e091455f83083db6f1850ca9561462b9146bcff8c6fc97be593f80deb",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/v0mwC68L/BetterF3-11.0.0-Fabric-1.21.jar",
+          "filename": "BetterF3-11.0.0-Fabric-1.21.jar",
+          "primary": true,
+          "size": 1802640
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "vZ9QjDs5",
+      "name": "BetterF3 Fabric v6.0.1 (1.19.4)",
+      "version_number": "6.0.1",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "8da2d8f4d9394d64add30ce655703b07e8a9926df1df5d4dba79b9549c81c6654b753ec0f2af31642673807f0f24d5944d45ece7778a58a4044a35e157400fd9",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/vZ9QjDs5/BetterF3-6.0.1-Fabric-1.19.4.jar",
+          "filename": "BetterF3-6.0.1-Fabric-1.19.4.jar",
+          "primary": true,
+          "size": 1756342
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "mhFzbEwE",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "w841lXuC",
@@ -2196,6 +1967,235 @@
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "x5zYwUMW",
+      "name": "BetterF3 Fabric v10.0.0-alpha.1 (24w12a)",
+      "version_number": "10.0.0-alpha.1",
+      "game_versions": [
+        "24w12a"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "79a6139493647090617bc660a68673f2e8d4b50a4c55ce59ad0e31dce8d74b1e5c79ee2396f42889d8cdd276f98b98d49bd69066de2559122f777b6091fe1391",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/x5zYwUMW/BetterF3-10.0.0-alpha.1-Fabric-24w12a.jar",
+          "filename": "BetterF3-10.0.0-alpha.1-Fabric-24w12a.jar",
+          "primary": true,
+          "size": 1784758
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "xeIGtT2C",
+      "name": "BetterF3 Fabric v5.1.1 (1.19.3)",
+      "version_number": "5.1.1",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f97e8538228b87c14a14eb93190694749cb42e1654085f599f7a37bff00f0ea57edda5e314ce24bc098b297b48d32646536316b3e5cb4b7324e492e8c737d187",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/xeIGtT2C/BetterF3-5.1.1-Fabric-1.19.3.jar",
+          "filename": "BetterF3-5.1.1-Fabric-1.19.3.jar",
+          "primary": true,
+          "size": 1751138
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "xo6HmgWj",
+      "name": "BetterF3 Forge v7.0.2 (1.20/1.20.1)",
+      "version_number": "7.0.2",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e88ce04d601a5953de909edaabb49dad9eea2c3a9ccccb1247fd041554b30794d4d4c315be065c90b1017cbd798199e644fe8d905125f4c431ddb8eaf170dd15",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/xo6HmgWj/BetterF3-7.0.2-Forge-1.20.1.jar",
+          "filename": "BetterF3-7.0.2-Forge-1.20.1.jar",
+          "primary": true,
+          "size": 468517
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "yHMun8ED",
+      "name": "BetterF3 Fabric/Forge v1.2.2 (1.18/1.18.1)",
+      "version_number": "1.2.2",
+      "game_versions": [
+        "1.18",
+        "1.18.1-pre1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "005bbf0100b351adf60725282d4d6f1ddf5d64f81fb7af9e961f5c3f0e071dfb0cd46e093cada8034ff7393c57e03154e5b03bb1b84107bf35c8ed75b81eac3c",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.2.2/BetterF3-1.2.2-Fabric-1.18.jar",
+          "filename": "BetterF3-1.2.2-Fabric-1.18.jar",
+          "primary": false,
+          "size": 1260459
+        },
+        {
+          "sha512": "b56674c83643555541fc84a4fe37633cbb609be137552e87ce0198bd3ab3e8b01c107099867cc73e86ee3114498a365d7efe19ca781dfcab888e353c3606b2a4",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/1.2.2/BetterF3-1.2.2-Forge-1.18.jar",
+          "filename": "BetterF3-1.2.2-Forge-1.18.jar",
+          "primary": false,
+          "size": 136346
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ytBb9iBt",
+      "name": "BetterF3 Forge v5.1.1 (1.19.3)",
+      "version_number": "5.1.1",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "244353de358988c67b1713059a94c3d86cd4cb1280f6ab0fad42f21dd4df11183298fadcf43845b2f0a1a5a163889b4f86fd0e369e584443694a595b1ab2b9cd",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/ytBb9iBt/BetterF3-5.1.1-Forge-1.19.3.jar",
+          "filename": "BetterF3-5.1.1-Forge-1.19.3.jar",
+          "primary": true,
+          "size": 456124
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "zlYOLCve",
+      "name": "BetterF3 Fabric v9.0.0 (1.20.3/1.20.4)",
+      "version_number": "9.0.0",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "9a717ac45863b5406e4a9a8cba068465223d1aa0f0d0b3c2400c62b20145e7bdf57e10cea7ed11086c0754fbb29c6673baa6a984339ee99bfb7440a82b8dd821",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/zlYOLCve/BetterF3-9.0.0-Fabric-1.20.4.jar",
+          "filename": "BetterF3-9.0.0-Fabric-1.20.4.jar",
+          "primary": true,
+          "size": 1772502
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "zttvITsK",
+      "name": "BetterF3 Fabric v10.0.0 (1.20.5/1.20.6)",
+      "version_number": "10.0.0",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2e6593cd3c2bbfaa53ec456fe50a5d4f9ad8debfe73822e29763825d715648b15d171ff5e623c28b4fd6a7970f3365aadd8af9b1e04b1ef4fdcab004209b1866",
+          "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/zttvITsK/BetterF3-10.0.0-Fabric-1.20.6.jar",
+          "filename": "BetterF3-10.0.0-Fabric-1.20.6.jar",
+          "primary": true,
+          "size": 1787767
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
     }
   ]
 }

@@ -5,43 +5,33 @@
   "description": "Allows you to bucket up Slime-like enemies, with some small utility",
   "versions": [
     {
-      "id": "bWOHo7Bj",
-      "name": "1.1 for Fabric 1.20.6",
-      "version_number": "1.1",
+      "id": "PmJ9YxFk",
+      "name": "1.0 for Forge 1.20-1.20.4",
+      "version_number": "1.0",
       "game_versions": [
-        "1.20.5",
-        "1.20.6"
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
-        "fabric"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "ef1770f3303a02542807790052b849e8791de39014599bd037fc88b31237d7da8848e8f0da02855141d75763b8c9776d3a9a18aee8974041638f9551c7f233ef",
-          "url": "https://cdn.modrinth.com/data/HIcdAYC9/versions/bWOHo7Bj/SlimeBuckets-1.1-Fabric-1.20.6.jar",
-          "filename": "SlimeBuckets-1.1-Fabric-1.20.6.jar",
+          "sha512": "a21cdb17d9681d02cfdd67b3ee9a397a7c1f4642ea4205e1392defd9b882a432d7071f7db45899d0328a3bdada449117fa850c66266af74a74e0009ef096c0ce",
+          "url": "https://cdn.modrinth.com/data/HIcdAYC9/versions/PmJ9YxFk/SlimeBuckets-forge-1.20.1.jar",
+          "filename": "SlimeBuckets-forge-1.20.1.jar",
           "primary": true,
-          "size": 38878
+          "size": 39410
         }
       ],
       "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         },
         {
           "project_id": "lhGA9TYQ",
@@ -75,6 +65,18 @@
       ],
       "dependencies": [
         {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "lhGA9TYQ",
           "version_id": null,
           "file_name": null,
@@ -85,6 +87,35 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "bWOHo7Bj",
+      "name": "1.1 for Fabric 1.20.6",
+      "version_number": "1.1",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ef1770f3303a02542807790052b849e8791de39014599bd037fc88b31237d7da8848e8f0da02855141d75763b8c9776d3a9a18aee8974041638f9551c7f233ef",
+          "url": "https://cdn.modrinth.com/data/HIcdAYC9/versions/bWOHo7Bj/SlimeBuckets-1.1-Fabric-1.20.6.jar",
+          "filename": "SlimeBuckets-1.1-Fabric-1.20.6.jar",
+          "primary": true,
+          "size": 38878
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "P7dR8mSH",
@@ -93,47 +124,16 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "PmJ9YxFk",
-      "name": "1.0 for Forge 1.20-1.20.4",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "a21cdb17d9681d02cfdd67b3ee9a397a7c1f4642ea4205e1392defd9b882a432d7071f7db45899d0328a3bdada449117fa850c66266af74a74e0009ef096c0ce",
-          "url": "https://cdn.modrinth.com/data/HIcdAYC9/versions/PmJ9YxFk/SlimeBuckets-forge-1.20.1.jar",
-          "filename": "SlimeBuckets-forge-1.20.1.jar",
-          "primary": true,
-          "size": 39410
-        }
-      ],
-      "dependencies": [
-        {
           "project_id": "lhGA9TYQ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "9s6osm5g",
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         }
       ]
     }

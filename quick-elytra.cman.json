@@ -5,6 +5,37 @@
   "description": "Quick Elytra adds a keybind that lets you swap your equipped elytra/chestplate.",
   "versions": [
     {
+      "id": "4zJ5Mpka",
+      "name": "1.18.x-v1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f9ef749b7debcaf19133ef9358a3f2c026550a582f35985cfa98046dfd014971cd02d4990b8a62c2899a4e67e0a045c5d72b7ff6d59bf7aff0baf97cdb10054f",
+          "url": "https://cdn.modrinth.com/data/n25ZPrjA/versions/1.0.0/quick-elytra-1.0.0-mc-1.18.2.jar",
+          "filename": "quick-elytra-1.0.0-mc-1.18.2.jar",
+          "primary": true,
+          "size": 477356
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "4XRtXhtL",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "LuOeOjwg",
       "name": "1.19.x-v3.0.2",
       "version_number": "3.0.2",
@@ -30,6 +61,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "9s6osm5g",
           "version_id": "mhFzbEwE",
           "file_name": null,
@@ -40,12 +77,6 @@
           "version_id": "uIYkhRbX",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -107,37 +138,6 @@
         {
           "project_id": "P7dR8mSH",
           "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4zJ5Mpka",
-      "name": "1.18.x-v1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f9ef749b7debcaf19133ef9358a3f2c026550a582f35985cfa98046dfd014971cd02d4990b8a62c2899a4e67e0a045c5d72b7ff6d59bf7aff0baf97cdb10054f",
-          "url": "https://cdn.modrinth.com/data/n25ZPrjA/versions/1.0.0/quick-elytra-1.0.0-mc-1.18.2.jar",
-          "filename": "quick-elytra-1.0.0-mc-1.18.2.jar",
-          "primary": true,
-          "size": 477356
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "4XRtXhtL",
           "file_name": null,
           "dependency_type": "required"
         }

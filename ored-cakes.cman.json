@@ -1,9 +1,31 @@
 {
-  "id": "ored-cakes",
+  "id": "lPZISwbQ",
   "slug": "ored-cakes",
   "name": "Ored Cakes",
   "description": "Makes Ore Cakes a reality",
   "versions": [
+    {
+      "id": "3SJw3131",
+      "name": "Initial Release",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5f2bfb64e5ae78bc07ca309c36f06d33c4193500340f8db0ced9f56e0e84bc1e6378be6f22701430cf1982f896d7182289bd60071e7c6b6ffaf9881db580a84c",
+          "url": "https://cdn.modrinth.com/data/lPZISwbQ/versions/1.0/NetheriteCakeMod.jar",
+          "filename": "NetheriteCakeMod.jar",
+          "primary": false,
+          "size": 4387866
+        }
+      ],
+      "dependencies": []
+    },
     {
       "id": "MZpQRbAx",
       "name": "Release 1.2 - Fabric 1.18.2",
@@ -26,47 +48,13 @@
           "primary": true,
           "size": 3241431
         }
-      ]
-    },
-    {
-      "id": "roifjtvs",
-      "name": "Release 1.1 - Forge 1.18.x",
-      "version_number": "1.1",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
       ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "45b23e747746ab8c1405128b42e02d7d4ed2db8131376955651ae8715dc4246d2bbbc72a62165bfc10ecb46501995291516ec722507ea6b1a9024e153b0a0eb9",
-          "url": "https://cdn.modrinth.com/data/lPZISwbQ/versions/1.1/ncake-1.1.0-forge-1.18.x.jar",
-          "filename": "ncake-1.1.0-forge-1.18.x.jar",
-          "primary": true,
-          "size": 6441876
-        }
-      ]
-    },
-    {
-      "id": "xjgm6f0O",
-      "name": "Release 1.1 - Fabric 1.18 - 1.18.1",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c9e758e53fb0d36bd86f8d82eba382ac64a22e741f763c7a8682f6e8ac335ed7dfddb6a412ac9128d6488df54f12b3b763371272149670449e9c6f1419909453",
-          "url": "https://cdn.modrinth.com/data/lPZISwbQ/versions/1.1.0/ncake-1.1.0-fabric-1.18.x.jar",
-          "filename": "ncake-1.1.0-fabric-1.18.x.jar",
-          "primary": true,
-          "size": 3241482
+          "project_id": "P7dR8mSH",
+          "version_id": "4XRtXhtL",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -89,7 +77,8 @@
           "primary": false,
           "size": 3243676
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "VlYOrFIS",
@@ -114,7 +103,8 @@
           "primary": false,
           "size": 3214385
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "j0WdpbwC",
@@ -139,7 +129,8 @@
           "primary": false,
           "size": 3231793
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "lUAUBeWi",
@@ -160,28 +151,52 @@
           "primary": true,
           "size": 3240543
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
-      "id": "3SJw3131",
-      "name": "Initial Release",
-      "version_number": "1.0",
+      "id": "roifjtvs",
+      "name": "Release 1.1 - Forge 1.18.x",
+      "version_number": "1.1",
       "game_versions": [
-        "1.16.4",
-        "1.16.5"
+        "1.18",
+        "1.18.1"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "5f2bfb64e5ae78bc07ca309c36f06d33c4193500340f8db0ced9f56e0e84bc1e6378be6f22701430cf1982f896d7182289bd60071e7c6b6ffaf9881db580a84c",
-          "url": "https://cdn.modrinth.com/data/lPZISwbQ/versions/1.0/NetheriteCakeMod.jar",
-          "filename": "NetheriteCakeMod.jar",
-          "primary": false,
-          "size": 4387866
+          "sha512": "45b23e747746ab8c1405128b42e02d7d4ed2db8131376955651ae8715dc4246d2bbbc72a62165bfc10ecb46501995291516ec722507ea6b1a9024e153b0a0eb9",
+          "url": "https://cdn.modrinth.com/data/lPZISwbQ/versions/1.1/ncake-1.1.0-forge-1.18.x.jar",
+          "filename": "ncake-1.1.0-forge-1.18.x.jar",
+          "primary": true,
+          "size": 6441876
         }
-      ]
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "xjgm6f0O",
+      "name": "Release 1.1 - Fabric 1.18 - 1.18.1",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c9e758e53fb0d36bd86f8d82eba382ac64a22e741f763c7a8682f6e8ac335ed7dfddb6a412ac9128d6488df54f12b3b763371272149670449e9c6f1419909453",
+          "url": "https://cdn.modrinth.com/data/lPZISwbQ/versions/1.1.0/ncake-1.1.0-fabric-1.18.x.jar",
+          "filename": "ncake-1.1.0-fabric-1.18.x.jar",
+          "primary": true,
+          "size": 3241482
+        }
+      ],
+      "dependencies": []
     }
   ]
 }

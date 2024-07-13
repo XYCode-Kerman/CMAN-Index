@@ -5,6 +5,41 @@
   "description": "Addon for Create that add compatibility with Thin Air, Ad Astra",
   "versions": [
     {
+      "id": "Bg4z0Ga3",
+      "name": "Create Air Fabric 1.0+1.20.1-11",
+      "version_number": "1.0+1.20.1-11",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "61d57509a6835a815fa5974d0ee407e90803570a7fab9a95cbabd54e3350d5fed8a8c072e07018fd444a2ec5715032d8cbbb227fea91b417df6f7d4b4df32c54",
+          "url": "https://cdn.modrinth.com/data/C90qpzXw/versions/Bg4z0Ga3/createairfabric-1.0%2B1.20.1-11.jar",
+          "filename": "createairfabric-1.0+1.20.1-11.jar",
+          "primary": true,
+          "size": 66042
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ll2RO0er",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Xbc0uyRg",
+          "version_id": "qlA1WuOK",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "G7gYc139",
       "name": "Create Air Fabric 1.0+1.20.1-18",
       "version_number": "1.0+1.20.1-18",
@@ -26,6 +61,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "Xbc0uyRg",
+          "version_id": "A8R3Be5A",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "3ufwT9JF",
           "version_id": null,
           "file_name": null,
@@ -36,10 +77,38 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "ZEII1yRr",
+      "name": "Create Air Fabric 1.0+1.20.1-6",
+      "version_number": "1.0+1.20.1-6",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "22fd09958dfb0d345aa3986d5233f0df998b27b4bfe2bd4216f2e32ed70fc4f41b9c4f4c4ab2ed065396d1603157cdc4c75ebec4a24c71b4c9377e1dbeb7e178",
+          "url": "https://cdn.modrinth.com/data/C90qpzXw/versions/ZEII1yRr/createairfabric-1.0%2B1.20.1-6.jar",
+          "filename": "createairfabric-1.0+1.20.1-6.jar",
+          "primary": true,
+          "size": 59792
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ll2RO0er",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "Xbc0uyRg",
-          "version_id": "A8R3Be5A",
+          "version_id": "qlA1WuOK",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -73,49 +142,14 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "Xbc0uyRg",
-          "version_id": "qlA1WuOK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "ll2RO0er",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "Bg4z0Ga3",
-      "name": "Create Air Fabric 1.0+1.20.1-11",
-      "version_number": "1.0+1.20.1-11",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "61d57509a6835a815fa5974d0ee407e90803570a7fab9a95cbabd54e3350d5fed8a8c072e07018fd444a2ec5715032d8cbbb227fea91b417df6f7d4b4df32c54",
-          "url": "https://cdn.modrinth.com/data/C90qpzXw/versions/Bg4z0Ga3/createairfabric-1.0%2B1.20.1-11.jar",
-          "filename": "createairfabric-1.0+1.20.1-11.jar",
-          "primary": true,
-          "size": 66042
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "Xbc0uyRg",
           "version_id": "qlA1WuOK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ll2RO0er",
-          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -142,48 +176,14 @@
       ],
       "dependencies": [
         {
-          "project_id": "Xbc0uyRg",
-          "version_id": "qlA1WuOK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "ll2RO0er",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ZEII1yRr",
-      "name": "Create Air Fabric 1.0+1.20.1-6",
-      "version_number": "1.0+1.20.1-6",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "22fd09958dfb0d345aa3986d5233f0df998b27b4bfe2bd4216f2e32ed70fc4f41b9c4f4c4ab2ed065396d1603157cdc4c75ebec4a24c71b4c9377e1dbeb7e178",
-          "url": "https://cdn.modrinth.com/data/C90qpzXw/versions/ZEII1yRr/createairfabric-1.0%2B1.20.1-6.jar",
-          "filename": "createairfabric-1.0+1.20.1-6.jar",
-          "primary": true,
-          "size": 59792
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "Xbc0uyRg",
           "version_id": "qlA1WuOK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ll2RO0er",
-          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }

@@ -5,6 +5,38 @@
   "description": "A mod which allows to toggle fullbright in 1.19 & 1.20",
   "versions": [
     {
+      "id": "HTnSF8pV",
+      "name": "1.0.1",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4c1ac593395c58c66ad34682907b0f36820239d88b23455a31f9faa833b042e32d62ba16cbd7989971f0d65a8a0e1b9fbed813477bea7e678083db53c8fb472c",
+          "url": "https://cdn.modrinth.com/data/VyxkIxCd/versions/1.0.1/1.19-fullbright-1.0.1.jar",
+          "filename": "1.19-fullbright-1.0.1.jar",
+          "primary": true,
+          "size": 1181074
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "mhFzbEwE",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "IxqhyaDR",
       "name": "Fullbright 2.0.1 1.21",
       "version_number": "2.0.1",
@@ -38,16 +70,86 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "RLupBIjL",
+      "name": "Fullbright 1.20 1.0.2",
+      "version_number": "1.0.2",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "943e71002bfbbd325bbe60dce367c8ba9300ae16e504fd86a56b97180b98289152097c1c2af0019f31c973e50aabae835aef9f5d5b303a8625a34f81223cd3cf",
+          "url": "https://cdn.modrinth.com/data/VyxkIxCd/versions/RLupBIjL/1.19-fullbright-1.0.2.jar",
+          "filename": "1.19-fullbright-1.0.2.jar",
+          "primary": true,
+          "size": 1181056
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "eZlnXZm0",
+      "name": "1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f5da236e5a80512944434c99edb508eda8558fd720c737a3c7d57110ff187d2e45e659acc6a53ad4cfe5a3d9efae376ec74cc14ae1eb8c556a1f93877fef2853",
+          "url": "https://cdn.modrinth.com/data/VyxkIxCd/versions/1.0.0/1.19-fullbright-1.0.0.jar",
+          "filename": "1.19-fullbright-1.0.0.jar",
+          "primary": true,
+          "size": 1181843
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "oU5qfeR6",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -99,108 +201,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "RLupBIjL",
-      "name": "Fullbright 1.20 1.0.2",
-      "version_number": "1.0.2",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "943e71002bfbbd325bbe60dce367c8ba9300ae16e504fd86a56b97180b98289152097c1c2af0019f31c973e50aabae835aef9f5d5b303a8625a34f81223cd3cf",
-          "url": "https://cdn.modrinth.com/data/VyxkIxCd/versions/RLupBIjL/1.19-fullbright-1.0.2.jar",
-          "filename": "1.19-fullbright-1.0.2.jar",
-          "primary": true,
-          "size": 1181056
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "eTCL1uh8",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "HTnSF8pV",
-      "name": "1.0.1",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4c1ac593395c58c66ad34682907b0f36820239d88b23455a31f9faa833b042e32d62ba16cbd7989971f0d65a8a0e1b9fbed813477bea7e678083db53c8fb472c",
-          "url": "https://cdn.modrinth.com/data/VyxkIxCd/versions/1.0.1/1.19-fullbright-1.0.1.jar",
-          "filename": "1.19-fullbright-1.0.1.jar",
-          "primary": true,
-          "size": 1181074
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "mhFzbEwE",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "eZlnXZm0",
-      "name": "1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f5da236e5a80512944434c99edb508eda8558fd720c737a3c7d57110ff187d2e45e659acc6a53ad4cfe5a3d9efae376ec74cc14ae1eb8c556a1f93877fef2853",
-          "url": "https://cdn.modrinth.com/data/VyxkIxCd/versions/1.0.0/1.19-fullbright-1.0.0.jar",
-          "filename": "1.19-fullbright-1.0.0.jar",
-          "primary": true,
-          "size": 1181843
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "oU5qfeR6",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     }

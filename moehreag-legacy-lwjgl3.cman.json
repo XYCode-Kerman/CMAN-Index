@@ -5,9 +5,81 @@
   "description": "An ornithe mod to run old versions (<1.13) using LWJGL 3 instead of LWJGL 2 and fix/work around wayland bugs",
   "versions": [
     {
-      "id": "mvKB3N4o",
-      "name": "1.1.7+1.0.0",
-      "version_number": "1.1.7+1.0.0",
+      "id": "3e1DL8fp",
+      "name": "1.1.5+1.2.5",
+      "version_number": "1.1.5+1.2.5",
+      "game_versions": [
+        "1.2.5"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "1c90cac7bc714c62d6ccfc8500e40ccb0e22bebc4a772e6b28493feec334409ad320a61ad82e699f3afb7eb67998d5c182129d66178cf7114412909c19bfc1c6",
+          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/3e1DL8fp/legacy-lwjgl3-1.1.5%2B1.2.5-all-remapped.jar",
+          "filename": "legacy-lwjgl3-1.1.5+1.2.5-all-remapped.jar",
+          "primary": true,
+          "size": 7489286
+        },
+        {
+          "sha512": "5b3b4091fbc9547e634fa5db4d4a7156f815a225870f10fc2b59401a84ccb225e85dbf85f2e3ac0ccdf9593848dd14b877f342695d65b544c4f3fd12447fbfbf",
+          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/3e1DL8fp/legacy-lwjgl3-1.1.5%2B1.2.5-sources.jar",
+          "filename": "legacy-lwjgl3-1.1.5+1.2.5-sources.jar",
+          "primary": false,
+          "size": 169625
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "EHGtwpJv",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "5a3jsn9V",
+      "name": "1.1.6+1.2.5",
+      "version_number": "1.1.6+1.2.5",
+      "game_versions": [
+        "1.2.5"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "a3170aa0129b5b1d03f492e878e245c5a6446237540889922121889e809da683fc0b40d3db29cac2d044fe5d8880cac250d6f22222ec60b9b71a7f206dce9e65",
+          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/5a3jsn9V/legacy-lwjgl3-1.1.6%2B1.2.5-all-remapped.jar",
+          "filename": "legacy-lwjgl3-1.1.6+1.2.5-all-remapped.jar",
+          "primary": true,
+          "size": 7489961
+        },
+        {
+          "sha512": "455ff0369941dfea53f5a54819249b1f329161db0afa0e33b73fcad7727e530e10e2ecc8b2e95fdf1b49e70fd34ef7fb2e22059f15f2912cf6aa9ca2d96793d1",
+          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/5a3jsn9V/legacy-lwjgl3-1.1.6%2B1.2.5-sources.jar",
+          "filename": "legacy-lwjgl3-1.1.6+1.2.5-sources.jar",
+          "primary": false,
+          "size": 170114
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "EHGtwpJv",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "DVHjZqzh",
+      "name": "1.1.6+1.0.0",
+      "version_number": "1.1.6+1.0.0",
       "game_versions": [
         "1.0"
       ],
@@ -17,18 +89,95 @@
       ],
       "files": [
         {
-          "sha512": "1b24df9b16bc0849c16f1327edcb50c29e3f878dc4770b79dddbdf554c0b682ee98e25f5eec30a40b511373d73aa2c45abddf2bdc352fb0eab185380b16a5ee0",
-          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/mvKB3N4o/legacy-lwjgl3-1.1.7%2B1.0.0-all-remapped.jar",
-          "filename": "legacy-lwjgl3-1.1.7+1.0.0-all-remapped.jar",
+          "sha512": "6a54c92d3c8f0e59eef5284dbef6dc81c31cbcc13d4317eab13738b1f467870fa16c71e5222d2ed4c49b32598a62d9aaa0c51f2a46f960f2ad1fdef56f6a7dd2",
+          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/DVHjZqzh/legacy-lwjgl3-1.1.6%2B1.0.0-all-remapped.jar",
+          "filename": "legacy-lwjgl3-1.1.6+1.0.0-all-remapped.jar",
           "primary": true,
-          "size": 7473110
+          "size": 7472918
         },
         {
-          "sha512": "c9a424a479bac2b3ad4d00975b97e72281df0bb7f19700c3865e95d4afc831b695e34958a0ad92461acd95f23127a587effd7cbaed3b8377f87a486088e08780",
-          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/mvKB3N4o/legacy-lwjgl3-1.1.7%2B1.0.0-sources.jar",
-          "filename": "legacy-lwjgl3-1.1.7+1.0.0-sources.jar",
+          "sha512": "0039cf4edf98b5f88b40f4053c3113a21c928537e14f1bfdec6adc79f6d3f6ba3351f2f062a1a6d6f65cfc067234c6dff5b1e875c2be487a8220c4f935e4d60f",
+          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/DVHjZqzh/legacy-lwjgl3-1.1.6%2B1.0.0-sources.jar",
+          "filename": "legacy-lwjgl3-1.1.6+1.0.0-sources.jar",
           "primary": false,
-          "size": 170155
+          "size": 170056
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "EHGtwpJv",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "ERlu3F5q",
+      "name": "1.1.5+a1.0.16",
+      "version_number": "1.1.5+a1.0.16",
+      "game_versions": [
+        "a1.0.16",
+        "a1.0.17_02",
+        "a1.0.17_04",
+        "a1.1.0",
+        "a1.1.2",
+        "a1.1.2_01",
+        "a1.2.0",
+        "a1.2.0_01",
+        "a1.2.0_02",
+        "a1.2.1",
+        "a1.2.1_01",
+        "a1.2.2a",
+        "a1.2.2b",
+        "a1.2.3",
+        "a1.2.3_01",
+        "a1.2.3_02",
+        "a1.2.3_04",
+        "a1.2.4_01",
+        "a1.2.5",
+        "a1.2.6",
+        "b1.0",
+        "b1.0_01",
+        "b1.0.2",
+        "b1.1_01",
+        "b1.1_02",
+        "b1.2",
+        "b1.2_01",
+        "b1.2_02",
+        "b1.3b",
+        "b1.3_01",
+        "b1.4",
+        "b1.4_01",
+        "b1.5",
+        "b1.5_01",
+        "b1.6",
+        "b1.6.1",
+        "b1.6.2",
+        "b1.6.3",
+        "b1.6.4",
+        "b1.6.5",
+        "b1.6.6",
+        "b1.7"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3cf49f5d6b7919a93af22b2d65bb75efdf7e6f401020cefdb74d7f4db72b0fd40d1bb5dff6cffe317e38656acb413ef4bd4b195f308a36f720bb60e73a403533",
+          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/ERlu3F5q/legacy-lwjgl3-1.1.5%2Ba1.0.16-all-remapped.jar",
+          "filename": "legacy-lwjgl3-1.1.5+a1.0.16-all-remapped.jar",
+          "primary": true,
+          "size": 7392048
+        },
+        {
+          "sha512": "03d40847971bb9565944d57c09dcd1fcace731e96d6c972eff156951c2e5572706fad23c3c6bd271877adab2b04d5d3183bbd5b863f14075763b37f84af338e5",
+          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/ERlu3F5q/legacy-lwjgl3-1.1.5%2Ba1.0.16-sources.jar",
+          "filename": "legacy-lwjgl3-1.1.5+a1.0.16-sources.jar",
+          "primary": false,
+          "size": 169459
         }
       ],
       "dependencies": [
@@ -136,6 +285,65 @@
       ]
     },
     {
+      "id": "VixCifsy",
+      "name": "1.1.4",
+      "version_number": "1.1.4",
+      "game_versions": [
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0444e43113393f532c94856c9018b66aeadf3785866957b3e02a063960a0616033a02ad8edc23e7732c9aa20218b37b5529a127b3348216590dac7736c5c0bb5",
+          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/VixCifsy/legacy-lwjgl3-1.1.4-all-remapped.jar",
+          "filename": "legacy-lwjgl3-1.1.4-all-remapped.jar",
+          "primary": true,
+          "size": 7625216
+        },
+        {
+          "sha512": "a65a15e25fc167fcf7cd3686568eabfec1baf976700958fb4a40bd0960ff2c7acf68bd6badfd4d7b12aaea76dcbe2947cfe7ec861fe2d4a8764a6c4fb88490a9",
+          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/VixCifsy/legacy-lwjgl3-1.1.4-sources.jar",
+          "filename": "legacy-lwjgl3-1.1.4-sources.jar",
+          "primary": false,
+          "size": 160165
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "EHGtwpJv",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "bTohDNIZ",
       "name": "1.1.7+b1.7.3",
       "version_number": "1.1.7+b1.7.3",
@@ -172,52 +380,11 @@
       ]
     },
     {
-      "id": "s8ZwN5EU",
-      "name": "1.1.7+a1.0.16",
-      "version_number": "1.1.7+a1.0.16",
+      "id": "jLxkKK5s",
+      "name": "1.1.5+b1.7.3",
+      "version_number": "1.1.5+b1.7.3",
       "game_versions": [
-        "a1.0.16",
-        "a1.0.17_02",
-        "a1.0.17_04",
-        "a1.1.0",
-        "a1.1.2",
-        "a1.1.2_01",
-        "a1.2.0",
-        "a1.2.0_01",
-        "a1.2.0_02",
-        "a1.2.1",
-        "a1.2.1_01",
-        "a1.2.2a",
-        "a1.2.2b",
-        "a1.2.3",
-        "a1.2.3_01",
-        "a1.2.3_02",
-        "a1.2.3_04",
-        "a1.2.4_01",
-        "a1.2.5",
-        "a1.2.6",
-        "b1.0",
-        "b1.0_01",
-        "b1.0.2",
-        "b1.1_01",
-        "b1.1_02",
-        "b1.2",
-        "b1.2_01",
-        "b1.2_02",
-        "b1.3b",
-        "b1.3_01",
-        "b1.4",
-        "b1.4_01",
-        "b1.5",
-        "b1.5_01",
-        "b1.6",
-        "b1.6.1",
-        "b1.6.2",
-        "b1.6.3",
-        "b1.6.4",
-        "b1.6.5",
-        "b1.6.6",
-        "b1.7"
+        "b1.7.3"
       ],
       "loaders": [
         "fabric",
@@ -225,18 +392,18 @@
       ],
       "files": [
         {
-          "sha512": "c018cc081960ff1d594f9061a8caaa761d969a7a6c748e6a2e4d878060aac592eaa9a5823b77aac95cd704469bd4121bd23a6cb73467c032851236a078da882f",
-          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/s8ZwN5EU/legacy-lwjgl3-1.1.7%2Ba1.0.16-all-remapped.jar",
-          "filename": "legacy-lwjgl3-1.1.7+a1.0.16-all-remapped.jar",
+          "sha512": "f42691acf3262cefe912f125c3d1bd97414040e2e3659ec822ac089f41103cb1a30b79dfceabc060e9970257e96e835584dc3c4b97668108baa7f53657a563a6",
+          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/jLxkKK5s/legacy-lwjgl3-1.1.5%2Bb1.7.3-all-remapped.jar",
+          "filename": "legacy-lwjgl3-1.1.5+b1.7.3-all-remapped.jar",
           "primary": true,
-          "size": 7392910
+          "size": 7435954
         },
         {
-          "sha512": "f2c338f97868d68dad10cad62bfe7365b255ef2a59c6fc92e64de835afb401e75fb25f4cb2eab0f1ca49057acc03ed7fbc1a6bdce279f81812426ba96dfa7f31",
-          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/s8ZwN5EU/legacy-lwjgl3-1.1.7%2Ba1.0.16-sources.jar",
-          "filename": "legacy-lwjgl3-1.1.7+a1.0.16-sources.jar",
+          "sha512": "ef113f410572a26f597f102425b24f15b0b1f0f0957f1adaaafb2fe0055f062965961fd50a6fe49b981f0c7817983ffb619de88fb175d47916ecf2162e01895b",
+          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/jLxkKK5s/legacy-lwjgl3-1.1.5%2Bb1.7.3-sources.jar",
+          "filename": "legacy-lwjgl3-1.1.5+b1.7.3-sources.jar",
           "primary": false,
-          "size": 170003
+          "size": 169439
         }
       ],
       "dependencies": [
@@ -249,45 +416,9 @@
       ]
     },
     {
-      "id": "5a3jsn9V",
-      "name": "1.1.6+1.2.5",
-      "version_number": "1.1.6+1.2.5",
-      "game_versions": [
-        "1.2.5"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "a3170aa0129b5b1d03f492e878e245c5a6446237540889922121889e809da683fc0b40d3db29cac2d044fe5d8880cac250d6f22222ec60b9b71a7f206dce9e65",
-          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/5a3jsn9V/legacy-lwjgl3-1.1.6%2B1.2.5-all-remapped.jar",
-          "filename": "legacy-lwjgl3-1.1.6+1.2.5-all-remapped.jar",
-          "primary": true,
-          "size": 7489961
-        },
-        {
-          "sha512": "455ff0369941dfea53f5a54819249b1f329161db0afa0e33b73fcad7727e530e10e2ecc8b2e95fdf1b49e70fd34ef7fb2e22059f15f2912cf6aa9ca2d96793d1",
-          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/5a3jsn9V/legacy-lwjgl3-1.1.6%2B1.2.5-sources.jar",
-          "filename": "legacy-lwjgl3-1.1.6+1.2.5-sources.jar",
-          "primary": false,
-          "size": 170114
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "EHGtwpJv",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "DVHjZqzh",
-      "name": "1.1.6+1.0.0",
-      "version_number": "1.1.6+1.0.0",
+      "id": "mvKB3N4o",
+      "name": "1.1.7+1.0.0",
+      "version_number": "1.1.7+1.0.0",
       "game_versions": [
         "1.0"
       ],
@@ -297,18 +428,18 @@
       ],
       "files": [
         {
-          "sha512": "6a54c92d3c8f0e59eef5284dbef6dc81c31cbcc13d4317eab13738b1f467870fa16c71e5222d2ed4c49b32598a62d9aaa0c51f2a46f960f2ad1fdef56f6a7dd2",
-          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/DVHjZqzh/legacy-lwjgl3-1.1.6%2B1.0.0-all-remapped.jar",
-          "filename": "legacy-lwjgl3-1.1.6+1.0.0-all-remapped.jar",
+          "sha512": "1b24df9b16bc0849c16f1327edcb50c29e3f878dc4770b79dddbdf554c0b682ee98e25f5eec30a40b511373d73aa2c45abddf2bdc352fb0eab185380b16a5ee0",
+          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/mvKB3N4o/legacy-lwjgl3-1.1.7%2B1.0.0-all-remapped.jar",
+          "filename": "legacy-lwjgl3-1.1.7+1.0.0-all-remapped.jar",
           "primary": true,
-          "size": 7472918
+          "size": 7473110
         },
         {
-          "sha512": "0039cf4edf98b5f88b40f4053c3113a21c928537e14f1bfdec6adc79f6d3f6ba3351f2f062a1a6d6f65cfc067234c6dff5b1e875c2be487a8220c4f935e4d60f",
-          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/DVHjZqzh/legacy-lwjgl3-1.1.6%2B1.0.0-sources.jar",
-          "filename": "legacy-lwjgl3-1.1.6+1.0.0-sources.jar",
+          "sha512": "c9a424a479bac2b3ad4d00975b97e72281df0bb7f19700c3865e95d4afc831b695e34958a0ad92461acd95f23127a587effd7cbaed3b8377f87a486088e08780",
+          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/mvKB3N4o/legacy-lwjgl3-1.1.7%2B1.0.0-sources.jar",
+          "filename": "legacy-lwjgl3-1.1.7+1.0.0-sources.jar",
           "primary": false,
-          "size": 170056
+          "size": 170155
         }
       ],
       "dependencies": [
@@ -434,42 +565,6 @@
       ]
     },
     {
-      "id": "3e1DL8fp",
-      "name": "1.1.5+1.2.5",
-      "version_number": "1.1.5+1.2.5",
-      "game_versions": [
-        "1.2.5"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "1c90cac7bc714c62d6ccfc8500e40ccb0e22bebc4a772e6b28493feec334409ad320a61ad82e699f3afb7eb67998d5c182129d66178cf7114412909c19bfc1c6",
-          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/3e1DL8fp/legacy-lwjgl3-1.1.5%2B1.2.5-all-remapped.jar",
-          "filename": "legacy-lwjgl3-1.1.5+1.2.5-all-remapped.jar",
-          "primary": true,
-          "size": 7489286
-        },
-        {
-          "sha512": "5b3b4091fbc9547e634fa5db4d4a7156f815a225870f10fc2b59401a84ccb225e85dbf85f2e3ac0ccdf9593848dd14b877f342695d65b544c4f3fd12447fbfbf",
-          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/3e1DL8fp/legacy-lwjgl3-1.1.5%2B1.2.5-sources.jar",
-          "filename": "legacy-lwjgl3-1.1.5+1.2.5-sources.jar",
-          "primary": false,
-          "size": 169625
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "EHGtwpJv",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "quLkCggl",
       "name": "1.1.5+1.0.0",
       "version_number": "1.1.5+1.0.0",
@@ -506,45 +601,9 @@
       ]
     },
     {
-      "id": "jLxkKK5s",
-      "name": "1.1.5+b1.7.3",
-      "version_number": "1.1.5+b1.7.3",
-      "game_versions": [
-        "b1.7.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f42691acf3262cefe912f125c3d1bd97414040e2e3659ec822ac089f41103cb1a30b79dfceabc060e9970257e96e835584dc3c4b97668108baa7f53657a563a6",
-          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/jLxkKK5s/legacy-lwjgl3-1.1.5%2Bb1.7.3-all-remapped.jar",
-          "filename": "legacy-lwjgl3-1.1.5+b1.7.3-all-remapped.jar",
-          "primary": true,
-          "size": 7435954
-        },
-        {
-          "sha512": "ef113f410572a26f597f102425b24f15b0b1f0f0957f1adaaafb2fe0055f062965961fd50a6fe49b981f0c7817983ffb619de88fb175d47916ecf2162e01895b",
-          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/jLxkKK5s/legacy-lwjgl3-1.1.5%2Bb1.7.3-sources.jar",
-          "filename": "legacy-lwjgl3-1.1.5+b1.7.3-sources.jar",
-          "primary": false,
-          "size": 169439
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "EHGtwpJv",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ERlu3F5q",
-      "name": "1.1.5+a1.0.16",
-      "version_number": "1.1.5+a1.0.16",
+      "id": "s8ZwN5EU",
+      "name": "1.1.7+a1.0.16",
+      "version_number": "1.1.7+a1.0.16",
       "game_versions": [
         "a1.0.16",
         "a1.0.17_02",
@@ -595,18 +654,18 @@
       ],
       "files": [
         {
-          "sha512": "3cf49f5d6b7919a93af22b2d65bb75efdf7e6f401020cefdb74d7f4db72b0fd40d1bb5dff6cffe317e38656acb413ef4bd4b195f308a36f720bb60e73a403533",
-          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/ERlu3F5q/legacy-lwjgl3-1.1.5%2Ba1.0.16-all-remapped.jar",
-          "filename": "legacy-lwjgl3-1.1.5+a1.0.16-all-remapped.jar",
+          "sha512": "c018cc081960ff1d594f9061a8caaa761d969a7a6c748e6a2e4d878060aac592eaa9a5823b77aac95cd704469bd4121bd23a6cb73467c032851236a078da882f",
+          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/s8ZwN5EU/legacy-lwjgl3-1.1.7%2Ba1.0.16-all-remapped.jar",
+          "filename": "legacy-lwjgl3-1.1.7+a1.0.16-all-remapped.jar",
           "primary": true,
-          "size": 7392048
+          "size": 7392910
         },
         {
-          "sha512": "03d40847971bb9565944d57c09dcd1fcace731e96d6c972eff156951c2e5572706fad23c3c6bd271877adab2b04d5d3183bbd5b863f14075763b37f84af338e5",
-          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/ERlu3F5q/legacy-lwjgl3-1.1.5%2Ba1.0.16-sources.jar",
-          "filename": "legacy-lwjgl3-1.1.5+a1.0.16-sources.jar",
+          "sha512": "f2c338f97868d68dad10cad62bfe7365b255ef2a59c6fc92e64de835afb401e75fb25f4cb2eab0f1ca49057acc03ed7fbc1a6bdce279f81812426ba96dfa7f31",
+          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/s8ZwN5EU/legacy-lwjgl3-1.1.7%2Ba1.0.16-sources.jar",
+          "filename": "legacy-lwjgl3-1.1.7+a1.0.16-sources.jar",
           "primary": false,
-          "size": 169459
+          "size": 170003
         }
       ],
       "dependencies": [
@@ -666,65 +725,6 @@
           "filename": "legacy-lwjgl3-1.1.5-sources.jar",
           "primary": false,
           "size": 160196
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "EHGtwpJv",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "VixCifsy",
-      "name": "1.1.4",
-      "version_number": "1.1.4",
-      "game_versions": [
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0444e43113393f532c94856c9018b66aeadf3785866957b3e02a063960a0616033a02ad8edc23e7732c9aa20218b37b5529a127b3348216590dac7736c5c0bb5",
-          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/VixCifsy/legacy-lwjgl3-1.1.4-all-remapped.jar",
-          "filename": "legacy-lwjgl3-1.1.4-all-remapped.jar",
-          "primary": true,
-          "size": 7625216
-        },
-        {
-          "sha512": "a65a15e25fc167fcf7cd3686568eabfec1baf976700958fb4a40bd0960ff2c7acf68bd6badfd4d7b12aaea76dcbe2947cfe7ec861fe2d4a8764a6c4fb88490a9",
-          "url": "https://cdn.modrinth.com/data/lpiIRiAZ/versions/VixCifsy/legacy-lwjgl3-1.1.4-sources.jar",
-          "filename": "legacy-lwjgl3-1.1.4-sources.jar",
-          "primary": false,
-          "size": 160165
         }
       ],
       "dependencies": [

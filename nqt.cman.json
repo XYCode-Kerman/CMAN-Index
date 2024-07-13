@@ -5,11 +5,11 @@
   "description": "Adds Quality of life tweaks, bug fixes and performance tweaks, which you can toggle in the config.",
   "versions": [
     {
-      "id": "jcFlSpzd",
-      "name": "Fabric | 1.20.2 [v1.0.1]",
-      "version_number": "1.0.1+1.20.2",
+      "id": "AyiJbnzT",
+      "name": "Fabric | 1.19.4 [v1.0.0]",
+      "version_number": "1.0.0+1.19.4",
       "game_versions": [
-        "1.20.2"
+        "1.19.4"
       ],
       "loaders": [
         "fabric",
@@ -17,30 +17,23 @@
       ],
       "files": [
         {
-          "sha512": "c801f6ce700d8ceb2fd9dc8bb7d146506149174910e4093b8e3dc3996dd64cd844a2e16a5572c39d15f804af4d96db67dc308d5ceec6db3fd15f011277fad66f",
-          "url": "https://cdn.modrinth.com/data/K5SvZZTE/versions/jcFlSpzd/NQT-1.0.1%2B1.20.2.jar",
-          "filename": "NQT-1.0.1+1.20.2.jar",
+          "sha512": "a16feef2f92cf870d7b41dfcbf2964a6779789df226bbeaa4d88cf26c71cb4c7acb791e65714b69819b60a6dfc3c3913472b3a7ee73598a84f1efe6cd75c0b5a",
+          "url": "https://cdn.modrinth.com/data/K5SvZZTE/versions/AyiJbnzT/NQT-1.0.0%2B1.19.4.jar",
+          "filename": "NQT-1.0.0+1.19.4.jar",
           "primary": true,
-          "size": 280897
-        },
-        {
-          "sha512": "8931a31cac6c01189a33330cb33f0d74f95367acc84b1a927ec7a10e4904f33a7fe7370af94f1995bff7c204137ce75a7751fe3f1d8924c274d32dfc011f79c4",
-          "url": "https://cdn.modrinth.com/data/K5SvZZTE/versions/jcFlSpzd/NQT-1.0.1%2B1.20.2-sources.jar",
-          "filename": "NQT-1.0.1+1.20.2-sources.jar",
-          "primary": false,
-          "size": 152515
+          "size": 273949
         }
       ],
       "dependencies": [
         {
           "project_id": "mOgUt4GM",
-          "version_id": null,
+          "version_id": "lMqXEzUw",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
           "project_id": "9s6osm5g",
-          "version_id": null,
+          "version_id": "mhFzbEwE",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -72,6 +65,119 @@
           "filename": "NQT-1.0.1+1.20-1.20.1-sources.jar",
           "primary": false,
           "size": 152527
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "Lhp1PaCQ",
+      "name": "Fabric | 1.18.2 [v1.0.0]",
+      "version_number": "1.0.0+1.18.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "ed197332a7af9bf368441f0974f54f55635411351ed4260028fac109f1685937fe08b1a0221571940ee4e26c680dae7e3c31ec1fb3b0181275a6ef41dc68b170",
+          "url": "https://cdn.modrinth.com/data/K5SvZZTE/versions/Lhp1PaCQ/NQT-1.0.0%2B1.18.jar",
+          "filename": "NQT-1.0.0+1.18.jar",
+          "primary": true,
+          "size": 257056
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "QD4PMrEW",
+      "name": "Fabric | 1.20 - 1.20.1 [v1.0.0]",
+      "version_number": "1.0.0+1.20-1.20.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "9a5d0d04e4f4307c023adb3ad69c9845eb4523f6de19a6e97aaaa67412a2546be049825b56c9e098ce78bdf645b910964243669de89a5002ae772c2db59b1335",
+          "url": "https://cdn.modrinth.com/data/K5SvZZTE/versions/QD4PMrEW/NQT-1.0.0%2B1.20.jar",
+          "filename": "NQT-1.0.0+1.20.jar",
+          "primary": true,
+          "size": 276526
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jcFlSpzd",
+      "name": "Fabric | 1.20.2 [v1.0.1]",
+      "version_number": "1.0.1+1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c801f6ce700d8ceb2fd9dc8bb7d146506149174910e4093b8e3dc3996dd64cd844a2e16a5572c39d15f804af4d96db67dc308d5ceec6db3fd15f011277fad66f",
+          "url": "https://cdn.modrinth.com/data/K5SvZZTE/versions/jcFlSpzd/NQT-1.0.1%2B1.20.2.jar",
+          "filename": "NQT-1.0.1+1.20.2.jar",
+          "primary": true,
+          "size": 280897
+        },
+        {
+          "sha512": "8931a31cac6c01189a33330cb33f0d74f95367acc84b1a927ec7a10e4904f33a7fe7370af94f1995bff7c204137ce75a7751fe3f1d8924c274d32dfc011f79c4",
+          "url": "https://cdn.modrinth.com/data/K5SvZZTE/versions/jcFlSpzd/NQT-1.0.1%2B1.20.2-sources.jar",
+          "filename": "NQT-1.0.1+1.20.2-sources.jar",
+          "primary": false,
+          "size": 152515
         }
       ],
       "dependencies": [
@@ -130,112 +236,6 @@
       ]
     },
     {
-      "id": "QD4PMrEW",
-      "name": "Fabric | 1.20 - 1.20.1 [v1.0.0]",
-      "version_number": "1.0.0+1.20-1.20.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "9a5d0d04e4f4307c023adb3ad69c9845eb4523f6de19a6e97aaaa67412a2546be049825b56c9e098ce78bdf645b910964243669de89a5002ae772c2db59b1335",
-          "url": "https://cdn.modrinth.com/data/K5SvZZTE/versions/QD4PMrEW/NQT-1.0.0%2B1.20.jar",
-          "filename": "NQT-1.0.0+1.20.jar",
-          "primary": true,
-          "size": 276526
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "eTCL1uh8",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "AyiJbnzT",
-      "name": "Fabric | 1.19.4 [v1.0.0]",
-      "version_number": "1.0.0+1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "a16feef2f92cf870d7b41dfcbf2964a6779789df226bbeaa4d88cf26c71cb4c7acb791e65714b69819b60a6dfc3c3913472b3a7ee73598a84f1efe6cd75c0b5a",
-          "url": "https://cdn.modrinth.com/data/K5SvZZTE/versions/AyiJbnzT/NQT-1.0.0%2B1.19.4.jar",
-          "filename": "NQT-1.0.0+1.19.4.jar",
-          "primary": true,
-          "size": 273949
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "mhFzbEwE",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Lhp1PaCQ",
-      "name": "Fabric | 1.18.2 [v1.0.0]",
-      "version_number": "1.0.0+1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ed197332a7af9bf368441f0974f54f55635411351ed4260028fac109f1685937fe08b1a0221571940ee4e26c680dae7e3c31ec1fb3b0181275a6ef41dc68b170",
-          "url": "https://cdn.modrinth.com/data/K5SvZZTE/versions/Lhp1PaCQ/NQT-1.0.0%2B1.18.jar",
-          "filename": "NQT-1.0.0+1.18.jar",
-          "primary": true,
-          "size": 257056
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "nVxObSbX",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "qzq4V9L5",
       "name": "Fabric | 1.17.x [v1.0.0]",
       "version_number": "1.0.0+1.17",
@@ -258,16 +258,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "gb0cZ2Qp",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "7kh2ofyR",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "gb0cZ2Qp",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -298,16 +298,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "xMTUxQCV",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "3gwnUSKz",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "xMTUxQCV",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

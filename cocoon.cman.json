@@ -1,37 +1,13 @@
 {
-  "id": "cocoon",
+  "id": "acJFmoxx",
   "slug": "cocoon",
   "name": "Cocoon",
   "description": "A Plugin & Mod Runtime Library",
   "versions": [
     {
-      "id": "zpmr1W1W",
-      "name": "cocoon-client-2.0.1",
-      "version_number": "2.0.1",
-      "game_versions": [
-        "1.16.5",
-        "1.18.2",
-        "1.19.2",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "f8ae9a8b99897089279ec774bb2a75029db036119959d45f78a9487bbeed2a8c3fed862465892d3e7243ea2bc3cf44be9138f4c56523ca99d95793e4614c67d2",
-          "url": "https://cdn.modrinth.com/data/acJFmoxx/versions/zpmr1W1W/cocoon-rt-2.0.1.jar",
-          "filename": "cocoon-rt-2.0.1.jar",
-          "primary": true,
-          "size": 381379
-        }
-      ]
-    },
-    {
-      "id": "QzIQFJfJ",
-      "name": "cocoon-server-2.0.1",
-      "version_number": "2.0.1",
+      "id": "4DjjtN0w",
+      "name": "cocoon-server-2.0.0-alpha.20",
+      "version_number": "server-2.0.0-alpha.20",
       "game_versions": [
         "1.16.5",
         "1.18.2",
@@ -43,13 +19,14 @@
       ],
       "files": [
         {
-          "sha512": "4f92090f19044259aa677f1833b574dfb6c9ae6bcd3cbf7dbbcc7ffc7ac4908674641b0e96e3d8b7a0f134c74a9ceed7cf4917092f20c9d6041004246b751065",
-          "url": "https://cdn.modrinth.com/data/acJFmoxx/versions/QzIQFJfJ/cocoon-2.0.1.jar",
-          "filename": "cocoon-2.0.1.jar",
+          "sha512": "1ebd78a6eb80bba507b2419296ce82ef21847cf4edcf3f08ca9f282bf76806ef310fa6197bfe651504ee5a4c56c0017b7ca8161547856b3865526de04d1f3766",
+          "url": "https://cdn.modrinth.com/data/acJFmoxx/versions/4DjjtN0w/cocoon-2.0.0-alpha.20.jar",
+          "filename": "cocoon-2.0.0-alpha.20.jar",
           "primary": true,
-          "size": 527828
+          "size": 514775
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "N3aAkFiC",
@@ -72,7 +49,56 @@
           "primary": true,
           "size": 514843
         }
-      ]
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "QzIQFJfJ",
+      "name": "cocoon-server-2.0.1",
+      "version_number": "2.0.1",
+      "game_versions": [
+        "1.16.5",
+        "1.18.2",
+        "1.19.2",
+        "1.20.1"
+      ],
+      "loaders": [
+        "bukkit"
+      ],
+      "files": [
+        {
+          "sha512": "4f92090f19044259aa677f1833b574dfb6c9ae6bcd3cbf7dbbcc7ffc7ac4908674641b0e96e3d8b7a0f134c74a9ceed7cf4917092f20c9d6041004246b751065",
+          "url": "https://cdn.modrinth.com/data/acJFmoxx/versions/QzIQFJfJ/cocoon-2.0.1.jar",
+          "filename": "cocoon-2.0.1.jar",
+          "primary": true,
+          "size": 527828
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "VwEt8j4A",
+      "name": "cocoon-server-2.0.0-alpha.18",
+      "version_number": "server-2.0.0-alpha.18",
+      "game_versions": [
+        "1.16.5",
+        "1.18.2",
+        "1.19.2",
+        "1.20.1"
+      ],
+      "loaders": [
+        "bukkit"
+      ],
+      "files": [
+        {
+          "sha512": "4b4dd2f7e23c31379cad12f549ab08d24ea6d38d6077648aee5ee82fd360dbdd1b8c2ca63f127a2faa13f6dcd2835e2a81786cd00d7557bf0fb510232df8ec8a",
+          "url": "https://cdn.modrinth.com/data/acJFmoxx/versions/VwEt8j4A/cocoon-2.0.0-alpha.18.jar",
+          "filename": "cocoon-2.0.0-alpha.18.jar",
+          "primary": true,
+          "size": 509977
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "XAJixnDR",
@@ -96,30 +122,8 @@
           "primary": true,
           "size": 381402
         }
-      ]
-    },
-    {
-      "id": "4DjjtN0w",
-      "name": "cocoon-server-2.0.0-alpha.20",
-      "version_number": "server-2.0.0-alpha.20",
-      "game_versions": [
-        "1.16.5",
-        "1.18.2",
-        "1.19.2",
-        "1.20.1"
       ],
-      "loaders": [
-        "bukkit"
-      ],
-      "files": [
-        {
-          "sha512": "1ebd78a6eb80bba507b2419296ce82ef21847cf4edcf3f08ca9f282bf76806ef310fa6197bfe651504ee5a4c56c0017b7ca8161547856b3865526de04d1f3766",
-          "url": "https://cdn.modrinth.com/data/acJFmoxx/versions/4DjjtN0w/cocoon-2.0.0-alpha.20.jar",
-          "filename": "cocoon-2.0.0-alpha.20.jar",
-          "primary": true,
-          "size": 514775
-        }
-      ]
+      "dependencies": []
     },
     {
       "id": "YoSByMp4",
@@ -143,12 +147,13 @@
           "primary": true,
           "size": 371879
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
-      "id": "VwEt8j4A",
-      "name": "cocoon-server-2.0.0-alpha.18",
-      "version_number": "server-2.0.0-alpha.18",
+      "id": "zpmr1W1W",
+      "name": "cocoon-client-2.0.1",
+      "version_number": "2.0.1",
       "game_versions": [
         "1.16.5",
         "1.18.2",
@@ -156,17 +161,19 @@
         "1.20.1"
       ],
       "loaders": [
-        "bukkit"
+        "fabric",
+        "forge"
       ],
       "files": [
         {
-          "sha512": "4b4dd2f7e23c31379cad12f549ab08d24ea6d38d6077648aee5ee82fd360dbdd1b8c2ca63f127a2faa13f6dcd2835e2a81786cd00d7557bf0fb510232df8ec8a",
-          "url": "https://cdn.modrinth.com/data/acJFmoxx/versions/VwEt8j4A/cocoon-2.0.0-alpha.18.jar",
-          "filename": "cocoon-2.0.0-alpha.18.jar",
+          "sha512": "f8ae9a8b99897089279ec774bb2a75029db036119959d45f78a9487bbeed2a8c3fed862465892d3e7243ea2bc3cf44be9138f4c56523ca99d95793e4614c67d2",
+          "url": "https://cdn.modrinth.com/data/acJFmoxx/versions/zpmr1W1W/cocoon-rt-2.0.1.jar",
+          "filename": "cocoon-rt-2.0.1.jar",
           "primary": true,
-          "size": 509977
+          "size": 381379
         }
-      ]
+      ],
+      "dependencies": []
     }
   ]
 }

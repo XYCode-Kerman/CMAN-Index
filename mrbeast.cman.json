@@ -5,46 +5,6 @@
   "description": "Adds MrBeast to Minecraft",
   "versions": [
     {
-      "id": "StvyfRE2",
-      "name": "1.0.2 (1.21)",
-      "version_number": "1.0.2-mc1.21",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9086b78e14be4ad872a847b221d55dc3e72ec167d7d40f9af12982b9b54cc663da8111e514f39d0f5101f7e320c38454845e682f67e6a8027bfe1f4491045b90",
-          "url": "https://cdn.modrinth.com/data/OswId8g9/versions/StvyfRE2/MrBeast-1.0.2-Fabric%2B1.21.jar",
-          "filename": "MrBeast-1.0.2-Fabric+1.21.jar",
-          "primary": true,
-          "size": 4386154
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9KawNmQc",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "BHaxVflo",
       "name": "1.0.2 (1.20.6)",
       "version_number": "1.0.2-mc1.20.6",
@@ -65,6 +25,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
@@ -75,12 +41,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -101,6 +61,46 @@
           "filename": "MrBeast-1.0.2-Fabric+1.20.4.jar",
           "primary": true,
           "size": 4377012
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9KawNmQc",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "StvyfRE2",
+      "name": "1.0.2 (1.21)",
+      "version_number": "1.0.2-mc1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9086b78e14be4ad872a847b221d55dc3e72ec167d7d40f9af12982b9b54cc663da8111e514f39d0f5101f7e320c38454845e682f67e6a8027bfe1f4491045b90",
+          "url": "https://cdn.modrinth.com/data/OswId8g9/versions/StvyfRE2/MrBeast-1.0.2-Fabric%2B1.21.jar",
+          "filename": "MrBeast-1.0.2-Fabric+1.21.jar",
+          "primary": true,
+          "size": 4386154
         }
       ],
       "dependencies": [
@@ -145,87 +145,11 @@
       ],
       "dependencies": [
         {
-          "project_id": "9KawNmQc",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
           "project_id": "Ha28R6CL",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "cHhs8iad",
-      "name": "1.0.1 (1.20.2)",
-      "version_number": "1.0.1-mc1.20.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d4d36c0f2077e5b3413da4915e7c12fda5bbc283139a1d71348d5dec03f0d3c0bc00345a58cec1ad40b87d57aed740974c8969d4f842a5b4da2f1fd59bd56fd9",
-          "url": "https://cdn.modrinth.com/data/OswId8g9/versions/cHhs8iad/MrBeast-1.0.1-Fabric%2B1.20.2.jar",
-          "filename": "MrBeast-1.0.1-Fabric+1.20.2.jar",
-          "primary": true,
-          "size": 4001092
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9KawNmQc",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "lkFh4Ut2",
-      "name": "1.0.1 (1.20.1)",
-      "version_number": "1.0.1-mc1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4e3a09cc1ae45772d66f59242fc4b8d2bc3422dcd6a52429139c3aafbd7c223d8e25c38ed1d1ed7e8e23bef13c47b22e0ad15b6e1ca9a014ef7392b143430a1c",
-          "url": "https://cdn.modrinth.com/data/OswId8g9/versions/lkFh4Ut2/MrBeast-1.0.1-Fabric%2B1.20.1.jar",
-          "filename": "MrBeast-1.0.1-Fabric+1.20.1.jar",
-          "primary": true,
-          "size": 4000672
-        }
-      ],
-      "dependencies": [
         {
           "project_id": "9KawNmQc",
           "version_id": null,
@@ -234,12 +158,6 @@
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -282,6 +200,88 @@
         {
           "project_id": "P7dR8mSH",
           "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "cHhs8iad",
+      "name": "1.0.1 (1.20.2)",
+      "version_number": "1.0.1-mc1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d4d36c0f2077e5b3413da4915e7c12fda5bbc283139a1d71348d5dec03f0d3c0bc00345a58cec1ad40b87d57aed740974c8969d4f842a5b4da2f1fd59bd56fd9",
+          "url": "https://cdn.modrinth.com/data/OswId8g9/versions/cHhs8iad/MrBeast-1.0.1-Fabric%2B1.20.2.jar",
+          "filename": "MrBeast-1.0.1-Fabric+1.20.2.jar",
+          "primary": true,
+          "size": 4001092
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9KawNmQc",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "lkFh4Ut2",
+      "name": "1.0.1 (1.20.1)",
+      "version_number": "1.0.1-mc1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4e3a09cc1ae45772d66f59242fc4b8d2bc3422dcd6a52429139c3aafbd7c223d8e25c38ed1d1ed7e8e23bef13c47b22e0ad15b6e1ca9a014ef7392b143430a1c",
+          "url": "https://cdn.modrinth.com/data/OswId8g9/versions/lkFh4Ut2/MrBeast-1.0.1-Fabric%2B1.20.1.jar",
+          "filename": "MrBeast-1.0.1-Fabric+1.20.1.jar",
+          "primary": true,
+          "size": 4000672
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9KawNmQc",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }

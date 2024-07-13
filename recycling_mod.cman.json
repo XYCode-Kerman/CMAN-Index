@@ -5,12 +5,11 @@
   "description": "A Mod That Adds Recipes To Recycle",
   "versions": [
     {
-      "id": "po75mJig",
-      "name": "v0.0.9-alpha",
-      "version_number": "v0.0.9-alpha",
+      "id": "5kC3742S",
+      "name": "v0.0.7-alpha",
+      "version_number": "0.0.7-alpha",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.19.4"
       ],
       "loaders": [
         "fabric",
@@ -19,23 +18,29 @@
       ],
       "files": [
         {
-          "sha512": "455673934efff9b99ebc7e00229cc07569e2d6ded08eb7118849e1e940b2c8501561700261435808a54a5626bf6e14dc160fd141c7fa6a0efe27887cc76e76f3",
-          "url": "https://cdn.modrinth.com/data/9L3Js3A8/versions/po75mJig/recycling_v0.0.9-alpha-mc1.20%2B1.20.1.jar",
-          "filename": "recycling_v0.0.9-alpha-mc1.20+1.20.1.jar",
+          "sha512": "677fdc3ff016eba1d8c6b2548e8bf45d8e477ce8bad744cd74036216df4c2f242cd4aa5d3fc92dd0a09710f1f273331d7dc94a9aef3044afa6d8e60f36559d2f",
+          "url": "https://cdn.modrinth.com/data/9L3Js3A8/versions/5kC3742S/recycling_v0.0.7-alpha-mc1.19.4.jar",
+          "filename": "recycling_v0.0.7-alpha-mc1.19.4.jar",
           "primary": true,
-          "size": 20991
+          "size": 17937
         }
       ],
       "dependencies": [
         {
           "project_id": "qvIfYCYJ",
-          "version_id": "csBGi8FI",
+          "version_id": "QPXihdoB",
           "file_name": null,
           "dependency_type": "required"
         },
         {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "P7dR8mSH",
-          "version_id": "n2c5lxAo",
+          "version_id": "uIYkhRbX",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -101,56 +106,14 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "n2c5lxAo",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "qvIfYCYJ",
           "version_id": "csBGi8FI",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "5kC3742S",
-      "name": "v0.0.7-alpha",
-      "version_number": "0.0.7-alpha",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "677fdc3ff016eba1d8c6b2548e8bf45d8e477ce8bad744cd74036216df4c2f242cd4aa5d3fc92dd0a09710f1f273331d7dc94a9aef3044afa6d8e60f36559d2f",
-          "url": "https://cdn.modrinth.com/data/9L3Js3A8/versions/5kC3742S/recycling_v0.0.7-alpha-mc1.19.4.jar",
-          "filename": "recycling_v0.0.7-alpha-mc1.19.4.jar",
-          "primary": true,
-          "size": 17937
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "QPXihdoB",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
+          "version_id": "n2c5lxAo",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -200,14 +163,51 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
+          "project_id": "qvIfYCYJ",
+          "version_id": "QPXihdoB",
           "file_name": null,
           "dependency_type": "required"
         },
         {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "po75mJig",
+      "name": "v0.0.9-alpha",
+      "version_number": "v0.0.9-alpha",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "455673934efff9b99ebc7e00229cc07569e2d6ded08eb7118849e1e940b2c8501561700261435808a54a5626bf6e14dc160fd141c7fa6a0efe27887cc76e76f3",
+          "url": "https://cdn.modrinth.com/data/9L3Js3A8/versions/po75mJig/recycling_v0.0.9-alpha-mc1.20%2B1.20.1.jar",
+          "filename": "recycling_v0.0.9-alpha-mc1.20+1.20.1.jar",
+          "primary": true,
+          "size": 20991
+        }
+      ],
+      "dependencies": [
+        {
           "project_id": "qvIfYCYJ",
-          "version_id": "QPXihdoB",
+          "version_id": "csBGi8FI",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "n2c5lxAo",
           "file_name": null,
           "dependency_type": "required"
         }

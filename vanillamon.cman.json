@@ -5,6 +5,27 @@
   "description": "A cobblemon addon adding 24 new fakemon based on minecraft mobs, with many more to come!",
   "versions": [
     {
+      "id": "KeaNox0F",
+      "name": "Release",
+      "version_number": "1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "b5780e85e974ff06d2f803a61503c7aeb896633b44da5b97537ff55a22fd1d866aea3dfd7564b3c08eb7e5e9541e39f0f07cd122615eb1141152677ed19a0d26",
+          "url": "https://cdn.modrinth.com/data/KbEAxjGK/versions/KeaNox0F/Vanilla%20Pokemon%20Pack.zip",
+          "filename": "Vanilla Pokemon Pack.zip",
+          "primary": true,
+          "size": 405846
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "LPFIqzs5",
       "name": "Animation TLC",
       "version_number": "1.3",
@@ -21,40 +42,6 @@
           "filename": "Vanillamon_1.3.zip",
           "primary": true,
           "size": 394797
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qUC2Yt8r",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "tXEzJvv9",
-      "name": "Bug Fixes",
-      "version_number": "1.2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "2b9db13371cf71b32ae8f56932b8cd46cb95c37e3ed0dc1a42b1e647470dfb2d4a7a8620b6d6a939c0f662fb9933b9cdd0335564e765ea7713e15b6534a5a41c",
-          "url": "https://cdn.modrinth.com/data/KbEAxjGK/versions/tXEzJvv9/Vanillamon_1.2.zip",
-          "filename": "Vanillamon_1.2.zip",
-          "primary": true,
-          "size": 393741
         }
       ],
       "dependencies": [
@@ -107,9 +94,9 @@
       ]
     },
     {
-      "id": "KeaNox0F",
-      "name": "Release",
-      "version_number": "1",
+      "id": "tXEzJvv9",
+      "name": "Bug Fixes",
+      "version_number": "1.2",
       "game_versions": [
         "1.20.1"
       ],
@@ -118,14 +105,27 @@
       ],
       "files": [
         {
-          "sha512": "b5780e85e974ff06d2f803a61503c7aeb896633b44da5b97537ff55a22fd1d866aea3dfd7564b3c08eb7e5e9541e39f0f07cd122615eb1141152677ed19a0d26",
-          "url": "https://cdn.modrinth.com/data/KbEAxjGK/versions/KeaNox0F/Vanilla%20Pokemon%20Pack.zip",
-          "filename": "Vanilla Pokemon Pack.zip",
+          "sha512": "2b9db13371cf71b32ae8f56932b8cd46cb95c37e3ed0dc1a42b1e647470dfb2d4a7a8620b6d6a939c0f662fb9933b9cdd0335564e765ea7713e15b6534a5a41c",
+          "url": "https://cdn.modrinth.com/data/KbEAxjGK/versions/tXEzJvv9/Vanillamon_1.2.zip",
+          "filename": "Vanillamon_1.2.zip",
           "primary": true,
-          "size": 405846
+          "size": 393741
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qUC2Yt8r",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     }
   ]
 }

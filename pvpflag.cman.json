@@ -5,6 +5,40 @@
   "description": "More immersive PvP toggle, allowing players to show they are peaceful, not other way around (Project Zomboid-esque style)",
   "versions": [
     {
+      "id": "CxcryOWx",
+      "name": "PvP Flag 1.3.0+1.20",
+      "version_number": "1.3.0+1.20",
+      "game_versions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "b65324cda2ab41213e874f5f261722a1c6eab7e5ec078a62135691ea1fc20a6690220b8b2951bf0e36216908f7b8703170aee7837e5a504cbea518818988f4ef",
+          "url": "https://cdn.modrinth.com/data/8VovaWDa/versions/CxcryOWx/pvpflag-1.3.0%2B1.20.jar",
+          "filename": "pvpflag-1.3.0+1.20.jar",
+          "primary": true,
+          "size": 120208
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "n2c5lxAo",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "qW85eawp",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
       "id": "KuQSNxlL",
       "name": "PvP Flag 1.3.0+1.20.4",
       "version_number": "1.3.0+1.20.4",
@@ -35,40 +69,6 @@
           "version_id": "TvatZFJI",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "nvewNaIj",
-      "name": "PvP Flag 1.3.0+1.20.3",
-      "version_number": "1.3.0+1.20.3",
-      "game_versions": [
-        "1.20.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "5a66077376ff933d8fffba33d224cb2f2ad993fa50b4cce0448f1d071e29dae9af19937845dbd00b02f9a4d061179d50dccfc048d068b71d875412fa92e639ac",
-          "url": "https://cdn.modrinth.com/data/8VovaWDa/versions/nvewNaIj/pvpflag-1.3.0%2B1.20.3.jar",
-          "filename": "pvpflag-1.3.0+1.20.3.jar",
-          "primary": true,
-          "size": 125437
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "Yolngp3s",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "DObEjZD4",
-          "file_name": null,
-          "dependency_type": "embedded"
         }
       ]
     },
@@ -107,74 +107,6 @@
       ]
     },
     {
-      "id": "ioVSWBf4",
-      "name": "PvP Flag 1.3.0+1.20.1",
-      "version_number": "1.3.0+1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "13a6b1340ae7d37b96c4408631fc8c210d9894a179a4ade0fd6c6f24e6110de4f0d0cf56f7850643ef9fd0561a5c3f4467fed8fd37fdbcc27cb2e565c48db06b",
-          "url": "https://cdn.modrinth.com/data/8VovaWDa/versions/ioVSWBf4/pvpflag-1.3.0%2B1.20.1.jar",
-          "filename": "pvpflag-1.3.0+1.20.1.jar",
-          "primary": true,
-          "size": 120211
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "K01OU20C",
-          "version_id": "qW85eawp",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "YblXfKtI",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "CxcryOWx",
-      "name": "PvP Flag 1.3.0+1.20",
-      "version_number": "1.3.0+1.20",
-      "game_versions": [
-        "1.20"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b65324cda2ab41213e874f5f261722a1c6eab7e5ec078a62135691ea1fc20a6690220b8b2951bf0e36216908f7b8703170aee7837e5a504cbea518818988f4ef",
-          "url": "https://cdn.modrinth.com/data/8VovaWDa/versions/CxcryOWx/pvpflag-1.3.0%2B1.20.jar",
-          "filename": "pvpflag-1.3.0+1.20.jar",
-          "primary": true,
-          "size": 120208
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "K01OU20C",
-          "version_id": "qW85eawp",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "n2c5lxAo",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "i99LNJjA",
       "name": "PvP Flag 1.3.0-RC.1",
       "version_number": "1.3.0-RC.1",
@@ -209,6 +141,40 @@
       ]
     },
     {
+      "id": "ioVSWBf4",
+      "name": "PvP Flag 1.3.0+1.20.1",
+      "version_number": "1.3.0+1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "13a6b1340ae7d37b96c4408631fc8c210d9894a179a4ade0fd6c6f24e6110de4f0d0cf56f7850643ef9fd0561a5c3f4467fed8fd37fdbcc27cb2e565c48db06b",
+          "url": "https://cdn.modrinth.com/data/8VovaWDa/versions/ioVSWBf4/pvpflag-1.3.0%2B1.20.1.jar",
+          "filename": "pvpflag-1.3.0+1.20.1.jar",
+          "primary": true,
+          "size": 120211
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "YblXfKtI",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "qW85eawp",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
       "id": "jEkbAMHX",
       "name": "PvP Flag 1.2.0",
       "version_number": "1.2.0",
@@ -229,14 +195,48 @@
       ],
       "dependencies": [
         {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "K01OU20C",
           "version_id": "qW85eawp",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "nvewNaIj",
+      "name": "PvP Flag 1.3.0+1.20.3",
+      "version_number": "1.3.0+1.20.3",
+      "game_versions": [
+        "1.20.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5a66077376ff933d8fffba33d224cb2f2ad993fa50b4cce0448f1d071e29dae9af19937845dbd00b02f9a4d061179d50dccfc048d068b71d875412fa92e639ac",
+          "url": "https://cdn.modrinth.com/data/8VovaWDa/versions/nvewNaIj/pvpflag-1.3.0%2B1.20.3.jar",
+          "filename": "pvpflag-1.3.0+1.20.3.jar",
+          "primary": true,
+          "size": 125437
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "K01OU20C",
+          "version_id": "DObEjZD4",
           "file_name": null,
           "dependency_type": "embedded"
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
+          "version_id": "Yolngp3s",
           "file_name": null,
           "dependency_type": "required"
         }

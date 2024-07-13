@@ -5,6 +5,34 @@
   "description": "Find out what potion effects do without checking the wiki.",
   "versions": [
     {
+      "id": "1cLzn1rF",
+      "name": "[FORGE] [1.20.1] EffectDescriptions-v8.0.2",
+      "version_number": "v8.0.2-1.20.1-Forge",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "6b933b54e728dd69e22142e13f498e9b4f9d02bb7bbad6d98e6c99f10c4edb294e145cf673c1f5139164591eb2b6d6e24b51d09ee8eff608f6d6552e78bd397c",
+          "url": "https://cdn.modrinth.com/data/Kw73iLDq/versions/1cLzn1rF/EffectDescriptions-v8.0.2-1.20.1-Forge.jar",
+          "filename": "EffectDescriptions-v8.0.2-1.20.1-Forge.jar",
+          "primary": true,
+          "size": 61214
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "QAGBst4M",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "2jX7yERK",
       "name": "[NEOFORGE] [1.20.4] EffectDescriptions-v20.4.0",
       "version_number": "v20.4.0-1.20.4-NeoForge",
@@ -39,22 +67,62 @@
       ]
     },
     {
-      "id": "UP0xkHtX",
-      "name": "[FORGE] [1.20.4] EffectDescriptions-v20.4.0",
-      "version_number": "v20.4.0-1.20.4-Forge",
+      "id": "H1ZpwWkT",
+      "name": "[FABRIC] [1.20.1] EffectDescriptions-v8.0.0",
+      "version_number": "v8.0.0-1.20.1-Fabric",
       "game_versions": [
-        "1.20.4"
+        "1.20.1"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "95854e3dc165930f377f2597766085e3f08cfaaffdff08baa8c4291294b897b4f44defc08e0b3caa9191fb84f03ae668273691e43b5dd1faa2fb7da7b8ebf8fa",
-          "url": "https://cdn.modrinth.com/data/Kw73iLDq/versions/UP0xkHtX/EffectDescriptions-v20.4.0-1.20.4-Forge.jar",
-          "filename": "EffectDescriptions-v20.4.0-1.20.4-Forge.jar",
+          "sha512": "751dd3a0795343ec59c30e49592bbdd71c0d29343a5f704f43b8aa1799fed213806ddfb2464e0a764c6935624f4c26d1e7b771c5605bc713df3b1a11d401bd90",
+          "url": "https://cdn.modrinth.com/data/Kw73iLDq/versions/H1ZpwWkT/EffectDescriptions-v8.0.0-1.20.1-Fabric.jar",
+          "filename": "EffectDescriptions-v8.0.0-1.20.1-Fabric.jar",
           "primary": true,
-          "size": 58853
+          "size": 48395
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "QAGBst4M",
+          "version_id": "wfZ1WUlB",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "HRC8zXkN",
+      "name": "[FABRIC] [1.18.2] EffectDescriptions-v3.0.1",
+      "version_number": "v3.0.1-1.18.2-Fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "bbaba17880c214437b05397962b808adaccdb7577846cd7f0e62f923b0beda124fe638ffd430819ec578f7b29b381338d26351a7e06d5475ab50f3a9f7f8a303",
+          "url": "https://cdn.modrinth.com/data/Kw73iLDq/versions/HRC8zXkN/EffectDescriptions-v3.0.1-1.18.2-Fabric.jar",
+          "filename": "EffectDescriptions-v3.0.1-1.18.2-Fabric.jar",
+          "primary": true,
+          "size": 54332
         }
       ],
       "dependencies": [
@@ -65,16 +133,16 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "QAGBst4M",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "5WeWGLoJ",
+          "project_id": "QAGBst4M",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
     },
@@ -99,13 +167,13 @@
       ],
       "dependencies": [
         {
-          "project_id": "5WeWGLoJ",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "ohNO6lps",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -117,10 +185,10 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "ohNO6lps",
+          "project_id": "5WeWGLoJ",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         }
       ]
     },
@@ -158,74 +226,6 @@
         },
         {
           "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "1cLzn1rF",
-      "name": "[FORGE] [1.20.1] EffectDescriptions-v8.0.2",
-      "version_number": "v8.0.2-1.20.1-Forge",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "6b933b54e728dd69e22142e13f498e9b4f9d02bb7bbad6d98e6c99f10c4edb294e145cf673c1f5139164591eb2b6d6e24b51d09ee8eff608f6d6552e78bd397c",
-          "url": "https://cdn.modrinth.com/data/Kw73iLDq/versions/1cLzn1rF/EffectDescriptions-v8.0.2-1.20.1-Forge.jar",
-          "filename": "EffectDescriptions-v8.0.2-1.20.1-Forge.jar",
-          "primary": true,
-          "size": 61214
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "QAGBst4M",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "HRC8zXkN",
-      "name": "[FABRIC] [1.18.2] EffectDescriptions-v3.0.1",
-      "version_number": "v3.0.1-1.18.2-Fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "bbaba17880c214437b05397962b808adaccdb7577846cd7f0e62f923b0beda124fe638ffd430819ec578f7b29b381338d26351a7e06d5475ab50f3a9f7f8a303",
-          "url": "https://cdn.modrinth.com/data/Kw73iLDq/versions/HRC8zXkN/EffectDescriptions-v3.0.1-1.18.2-Fabric.jar",
-          "filename": "EffectDescriptions-v3.0.1-1.18.2-Fabric.jar",
-          "primary": true,
-          "size": 54332
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "QAGBst4M",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -281,11 +281,45 @@
       ],
       "dependencies": [
         {
+          "project_id": "QAGBst4M",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "UP0xkHtX",
+      "name": "[FORGE] [1.20.4] EffectDescriptions-v20.4.0",
+      "version_number": "v20.4.0-1.20.4-Forge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "95854e3dc165930f377f2597766085e3f08cfaaffdff08baa8c4291294b897b4f44defc08e0b3caa9191fb84f03ae668273691e43b5dd1faa2fb7da7b8ebf8fa",
+          "url": "https://cdn.modrinth.com/data/Kw73iLDq/versions/UP0xkHtX/EffectDescriptions-v20.4.0-1.20.4-Forge.jar",
+          "filename": "EffectDescriptions-v20.4.0-1.20.4-Forge.jar",
+          "primary": true,
+          "size": 58853
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "QAGBst4M",
           "version_id": null,
@@ -297,6 +331,12 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -329,40 +369,28 @@
       ]
     },
     {
-      "id": "q5oA3CiD",
-      "name": "[FABRIC] [1.20.1] EffectDescriptions-v8.0.1",
-      "version_number": "v8.0.1-1.20.1-Fabric",
+      "id": "jNjbjgWj",
+      "name": "[FORGE] [1.20.1] EffectDescriptions-v8.0.0",
+      "version_number": "v8.0.0-1.20.1-Forge",
       "game_versions": [
         "1.20.1"
       ],
       "loaders": [
-        "fabric"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "9ff3504936ab4bd13ff8712f1b38044194111a9fac714225dd317f4fe3d8903cbe6618033c44b740b1a494d46e4b436680bc0ad0357dc9301abb71b4c19ddbaf",
-          "url": "https://cdn.modrinth.com/data/Kw73iLDq/versions/q5oA3CiD/EffectDescriptions-v8.0.1-1.20.1-Fabric.jar",
-          "filename": "EffectDescriptions-v8.0.1-1.20.1-Fabric.jar",
+          "sha512": "b82e5bd42dfad886620a9e52e0a3d2fae13209848187efaa5d5ce00fb38f6a3d2d5d186de2118e77ef1b65fe2ae0cb1dc6a17490534a3d3e87a52ee8805afe04",
+          "url": "https://cdn.modrinth.com/data/Kw73iLDq/versions/jNjbjgWj/EffectDescriptions-v8.0.0-1.20.1-Forge.jar",
+          "filename": "EffectDescriptions-v8.0.0-1.20.1-Forge.jar",
           "primary": true,
-          "size": 48560
+          "size": 54783
         }
       ],
       "dependencies": [
         {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "QAGBst4M",
-          "version_id": "wfZ1WUlB",
+          "version_id": "V4g0yKzo",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -397,9 +425,9 @@
       ]
     },
     {
-      "id": "H1ZpwWkT",
-      "name": "[FABRIC] [1.20.1] EffectDescriptions-v8.0.0",
-      "version_number": "v8.0.0-1.20.1-Fabric",
+      "id": "q5oA3CiD",
+      "name": "[FABRIC] [1.20.1] EffectDescriptions-v8.0.1",
+      "version_number": "v8.0.1-1.20.1-Fabric",
       "game_versions": [
         "1.20.1"
       ],
@@ -408,23 +436,17 @@
       ],
       "files": [
         {
-          "sha512": "751dd3a0795343ec59c30e49592bbdd71c0d29343a5f704f43b8aa1799fed213806ddfb2464e0a764c6935624f4c26d1e7b771c5605bc713df3b1a11d401bd90",
-          "url": "https://cdn.modrinth.com/data/Kw73iLDq/versions/H1ZpwWkT/EffectDescriptions-v8.0.0-1.20.1-Fabric.jar",
-          "filename": "EffectDescriptions-v8.0.0-1.20.1-Fabric.jar",
+          "sha512": "9ff3504936ab4bd13ff8712f1b38044194111a9fac714225dd317f4fe3d8903cbe6618033c44b740b1a494d46e4b436680bc0ad0357dc9301abb71b4c19ddbaf",
+          "url": "https://cdn.modrinth.com/data/Kw73iLDq/versions/q5oA3CiD/EffectDescriptions-v8.0.1-1.20.1-Fabric.jar",
+          "filename": "EffectDescriptions-v8.0.1-1.20.1-Fabric.jar",
           "primary": true,
-          "size": 48395
+          "size": 48560
         }
       ],
       "dependencies": [
         {
           "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "QAGBst4M",
-          "version_id": "wfZ1WUlB",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
@@ -433,32 +455,10 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "jNjbjgWj",
-      "name": "[FORGE] [1.20.1] EffectDescriptions-v8.0.0",
-      "version_number": "v8.0.0-1.20.1-Forge",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "b82e5bd42dfad886620a9e52e0a3d2fae13209848187efaa5d5ce00fb38f6a3d2d5d186de2118e77ef1b65fe2ae0cb1dc6a17490534a3d3e87a52ee8805afe04",
-          "url": "https://cdn.modrinth.com/data/Kw73iLDq/versions/jNjbjgWj/EffectDescriptions-v8.0.0-1.20.1-Forge.jar",
-          "filename": "EffectDescriptions-v8.0.0-1.20.1-Forge.jar",
-          "primary": true,
-          "size": 54783
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "QAGBst4M",
-          "version_id": "V4g0yKzo",
+          "version_id": "wfZ1WUlB",
           "file_name": null,
           "dependency_type": "required"
         }

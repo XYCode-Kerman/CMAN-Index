@@ -5,6 +5,55 @@
   "description": "A mod that aims to make Minecraft's player movement less infuriating",
   "versions": [
     {
+      "id": "39EebUHm",
+      "name": "1.3.0 (Fabric 1.20.3)",
+      "version_number": "1.3.0",
+      "game_versions": [
+        "1.20.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1820a420973cf299ca5e08d230878d2376dfbdd02792e0a5fee41dd06ad250af46b63f30a59ddef8138a7948acc9c8f234ecd8b9b41c1e74706bb41033b72e33",
+          "url": "https://cdn.modrinth.com/data/gkX0YuZr/versions/39EebUHm/mobility-1.3.0.jar",
+          "filename": "mobility-1.3.0.jar",
+          "primary": true,
+          "size": 21580
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "6wKUNxZo",
+      "name": "1.0.0 (Fabric 1.19.4)",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "bce9b54d4104c901fdae2f064aa4cf8fd9cacf24b13606e7168c2e4d18c9430cd76a42d7ebebeee42bcfdbf362f03dc95a8ae1392d8a7c56abc32ac031763243",
+          "url": "https://cdn.modrinth.com/data/gkX0YuZr/versions/6wKUNxZo/mobility-1.0.0.jar",
+          "filename": "mobility-1.0.0.jar",
+          "primary": true,
+          "size": 16258
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "6wrS9AIv",
       "name": "1.8.0 (Fabric 1.21)",
       "version_number": "1.8.0",
@@ -21,6 +70,41 @@
           "filename": "mobility-1.8.0.jar",
           "primary": true,
           "size": 21764
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "D8xv07CH",
+      "name": "1.7.1 (Fabric 1.20.5+)",
+      "version_number": "1.7.1",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "fff2c10e6150576ffc909b21da029b7fdda44e76dcf9edf849261c5fd2e0209fc31ba6dcbee1cb5b7fedfd168eec8379e05c6cca9fbf6f18f1c01d3fe4837ae6",
+          "url": "https://cdn.modrinth.com/data/gkX0YuZr/versions/D8xv07CH/mobility-1.7.1.jar",
+          "filename": "mobility-1.7.1.jar",
+          "primary": true,
+          "size": 20671
         }
       ],
       "dependencies": [
@@ -74,37 +158,60 @@
       ]
     },
     {
-      "id": "D8xv07CH",
-      "name": "1.7.1 (Fabric 1.20.5+)",
-      "version_number": "1.7.1",
+      "id": "JJ52Xe1N",
+      "name": "1.6.0 (Fabric 1.20.5)",
+      "version_number": "1.6.0",
       "game_versions": [
-        "1.20.5",
-        "1.20.6"
+        "1.20.5"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "fff2c10e6150576ffc909b21da029b7fdda44e76dcf9edf849261c5fd2e0209fc31ba6dcbee1cb5b7fedfd168eec8379e05c6cca9fbf6f18f1c01d3fe4837ae6",
-          "url": "https://cdn.modrinth.com/data/gkX0YuZr/versions/D8xv07CH/mobility-1.7.1.jar",
-          "filename": "mobility-1.7.1.jar",
+          "sha512": "56618bf0a630673c68b34e335679c516b304fcb2488d1d6c500a11e59fd4c2735198c396e8c4e5b64ac41bd40182c9bafd40d359fa39941303dc83167d7d0bf2",
+          "url": "https://cdn.modrinth.com/data/gkX0YuZr/versions/JJ52Xe1N/mobility-1.6.0.jar",
+          "filename": "mobility-1.6.0.jar",
           "primary": true,
-          "size": 20671
+          "size": 28643
         }
       ],
       "dependencies": [
         {
-          "project_id": "1eAoo2KR",
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
-        },
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "VpZko9R9",
+      "name": "1.2.1 (Fabric 1.20.2)",
+      "version_number": "1.2.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d6cb4d58b34a71810e4d5a4b702eff48bbb6ab83501a886b11282b00a908683c19f1bc0b1f05a0c70ed74931d339491db3f084ddc85a262ff2c0d4f7109665a8",
+          "url": "https://cdn.modrinth.com/data/gkX0YuZr/versions/VpZko9R9/mobility-1.2.1.jar",
+          "filename": "mobility-1.2.1.jar",
+          "primary": true,
+          "size": 21581
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "embedded"
         }
       ]
     },
@@ -173,22 +280,50 @@
       ]
     },
     {
-      "id": "JJ52Xe1N",
-      "name": "1.6.0 (Fabric 1.20.5)",
-      "version_number": "1.6.0",
+      "id": "oaL5Qt16",
+      "name": "1.1.1 (Fabric 1.20.1)",
+      "version_number": "1.1.1",
       "game_versions": [
-        "1.20.5"
+        "1.20.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "56618bf0a630673c68b34e335679c516b304fcb2488d1d6c500a11e59fd4c2735198c396e8c4e5b64ac41bd40182c9bafd40d359fa39941303dc83167d7d0bf2",
-          "url": "https://cdn.modrinth.com/data/gkX0YuZr/versions/JJ52Xe1N/mobility-1.6.0.jar",
-          "filename": "mobility-1.6.0.jar",
+          "sha512": "bc1a793c6ff14756478130d985e285a9b03618d3ca85c7c005d6d6f0cb7caff3f00ed273a626fa2a715f4f33b14cc0ecb19512b2dd95428e0442ef6382f67142",
+          "url": "https://cdn.modrinth.com/data/gkX0YuZr/versions/oaL5Qt16/mobility-1.1.1.jar",
+          "filename": "mobility-1.1.1.jar",
           "primary": true,
-          "size": 28643
+          "size": 21600
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "qN6tD9az",
+      "name": "1.2.0 (Fabric 1.20.2)",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "92a64747ff5426056f39398980fb59162e0f8cd4a3846be0ff5c3df4a04ee4e86efe22981a436f9f21d02feb942d1c1f64583238862d8a9293736e3ddcdd9307",
+          "url": "https://cdn.modrinth.com/data/gkX0YuZr/versions/qN6tD9az/mobility-1.2.0.jar",
+          "filename": "mobility-1.2.0.jar",
+          "primary": true,
+          "size": 21585
         }
       ],
       "dependencies": [
@@ -229,6 +364,28 @@
       ]
     },
     {
+      "id": "uIHtKgvU",
+      "name": "1.1.0 (Fabric 1.20.1)",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "3e32205ee41a35094c42da791c993637f7108f924af0968f304d67a82711044c8792c27bedf2fc669f15085c75aba6e489926c36fc720c816a0c1ad1bdc29087",
+          "url": "https://cdn.modrinth.com/data/gkX0YuZr/versions/uIHtKgvU/mobility-1.1.0.jar",
+          "filename": "mobility-1.1.0.jar",
+          "primary": true,
+          "size": 16258
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "wQfWSQ9H",
       "name": "1.4.0 (Fabric 1.20.4)",
       "version_number": "1.4.0",
@@ -245,34 +402,6 @@
           "filename": "mobility-1.4.0.jar",
           "primary": true,
           "size": 21579
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "39EebUHm",
-      "name": "1.3.0 (Fabric 1.20.3)",
-      "version_number": "1.3.0",
-      "game_versions": [
-        "1.20.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "1820a420973cf299ca5e08d230878d2376dfbdd02792e0a5fee41dd06ad250af46b63f30a59ddef8138a7948acc9c8f234ecd8b9b41c1e74706bb41033b72e33",
-          "url": "https://cdn.modrinth.com/data/gkX0YuZr/versions/39EebUHm/mobility-1.3.0.jar",
-          "filename": "mobility-1.3.0.jar",
-          "primary": true,
-          "size": 21580
         }
       ],
       "dependencies": [
@@ -311,135 +440,6 @@
           "dependency_type": "embedded"
         }
       ]
-    },
-    {
-      "id": "VpZko9R9",
-      "name": "1.2.1 (Fabric 1.20.2)",
-      "version_number": "1.2.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d6cb4d58b34a71810e4d5a4b702eff48bbb6ab83501a886b11282b00a908683c19f1bc0b1f05a0c70ed74931d339491db3f084ddc85a262ff2c0d4f7109665a8",
-          "url": "https://cdn.modrinth.com/data/gkX0YuZr/versions/VpZko9R9/mobility-1.2.1.jar",
-          "filename": "mobility-1.2.1.jar",
-          "primary": true,
-          "size": 21581
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "qN6tD9az",
-      "name": "1.2.0 (Fabric 1.20.2)",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "92a64747ff5426056f39398980fb59162e0f8cd4a3846be0ff5c3df4a04ee4e86efe22981a436f9f21d02feb942d1c1f64583238862d8a9293736e3ddcdd9307",
-          "url": "https://cdn.modrinth.com/data/gkX0YuZr/versions/qN6tD9az/mobility-1.2.0.jar",
-          "filename": "mobility-1.2.0.jar",
-          "primary": true,
-          "size": 21585
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "oaL5Qt16",
-      "name": "1.1.1 (Fabric 1.20.1)",
-      "version_number": "1.1.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "bc1a793c6ff14756478130d985e285a9b03618d3ca85c7c005d6d6f0cb7caff3f00ed273a626fa2a715f4f33b14cc0ecb19512b2dd95428e0442ef6382f67142",
-          "url": "https://cdn.modrinth.com/data/gkX0YuZr/versions/oaL5Qt16/mobility-1.1.1.jar",
-          "filename": "mobility-1.1.1.jar",
-          "primary": true,
-          "size": 21600
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "uIHtKgvU",
-      "name": "1.1.0 (Fabric 1.20.1)",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "3e32205ee41a35094c42da791c993637f7108f924af0968f304d67a82711044c8792c27bedf2fc669f15085c75aba6e489926c36fc720c816a0c1ad1bdc29087",
-          "url": "https://cdn.modrinth.com/data/gkX0YuZr/versions/uIHtKgvU/mobility-1.1.0.jar",
-          "filename": "mobility-1.1.0.jar",
-          "primary": true,
-          "size": 16258
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "6wKUNxZo",
-      "name": "1.0.0 (Fabric 1.19.4)",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "bce9b54d4104c901fdae2f064aa4cf8fd9cacf24b13606e7168c2e4d18c9430cd76a42d7ebebeee42bcfdbf362f03dc95a8ae1392d8a7c56abc32ac031763243",
-          "url": "https://cdn.modrinth.com/data/gkX0YuZr/versions/6wKUNxZo/mobility-1.0.0.jar",
-          "filename": "mobility-1.0.0.jar",
-          "primary": true,
-          "size": 16258
-        }
-      ],
-      "dependencies": []
     }
   ]
 }

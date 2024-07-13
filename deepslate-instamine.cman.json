@@ -5,22 +5,594 @@
   "description": "instamine deepslate and other blocks with eff5 haste2 netherite pickaxe, deepslate generator",
   "versions": [
     {
-      "id": "y1h3Jc1y",
-      "name": "Deepslate Instamine 2.5 neoforge mc1.21",
-      "version_number": "2.5",
+      "id": "26urnSic",
+      "name": "v2.4release fabric 1.19.3",
+      "version_number": "2.4_release_fabric_1.19.3",
       "game_versions": [
-        "1.21"
+        "1.19.3"
       ],
       "loaders": [
-        "neoforge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "4dca9a975d2eafc5d073306ce267cf7ef912212e42f97995aeaed706e936a589002f0427f36b229f6930f870ff287d5700b9630ac71bacb225148f1e6e04c536",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/y1h3Jc1y/DeepslateInstamine-neoforge-2.5_release_mc1.21.jar",
-          "filename": "DeepslateInstamine-neoforge-2.5_release_mc1.21.jar",
+          "sha512": "4832acb7035e4b38e334f0a7978518978ffdb7a85887708b6b6af2838db42990c8e28b2f9848e54c0a213aecfe6d4e5cb8c286bdff8b65a24d38fb5c0219abee",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/26urnSic/DeepslateInstamine_mc1.19.3-2.4_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.19.3-2.4_release-fabric.jar",
           "primary": true,
-          "size": 25775
+          "size": 26409
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "OFLHUcGo",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "34a8Qo2e",
+      "name": "Deepslate Instamine",
+      "version_number": "2.2_release_fabric_1.18.1",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "dc7a3a8f8630f64f4cb26e4ef85721070987809e6620bea2ebaeeb4c631865d4547b43854b96d38649fce70f06b1febc31ae0f21901e260be50a26b8b7e88a8a",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/34a8Qo2e/DeepslateInstamine_mc1.18.1-2.2_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.18.1-2.2_release-fabric.jar",
+          "primary": true,
+          "size": 24196
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "3BqC3wDF",
+      "name": "Deepslate Instamine",
+      "version_number": "2.1_release_forge_1.18.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "1988a06247b4014a689696de3604a759d1400e520b9ad3587170faf55b2521bcd3a970d76833f21b3035c1d5bdeaad9185bf9d3b5365436b1a9cbae801132ce9",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_forge_1.18.2/DeepslateInstamine_mc1.18.2-2.1_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.18.2-2.1_release-forge.jar",
+          "primary": true,
+          "size": 23716
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "o069zrDa",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "3tVt62Wy",
+      "name": "Deepslate Instamine",
+      "version_number": "2.1_release_forge_1.19.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "fcdfb69b4b36884b0d606cb345b0da0f3f68237cf6cf648ea30b6578c441c2d7a7fbf1611ea5c92ca91f50446ec0308687875855da55c7ce6741aac15688bc6b",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_forge_1.19.2/DeepslateInstamine_mc1.19.2-2.1_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.19.2-2.1_release-forge.jar",
+          "primary": true,
+          "size": 23719
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "ns7Xs1B6",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "5n6qkbro",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_fabric_1.19",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c298a958fb6e7902481fc4e55b78c4409bfc73687c9e2572192aee11644126cff3491ad5d237861305673b2af23ec63d333f50f58212efae51065724adb04f32",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/5n6qkbro/DeepslateInstamine_mc1.19-2.5_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.19-2.5_release-fabric.jar",
+          "primary": true,
+          "size": 26390
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "68Mo5SWt",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_forge_1.19.1",
+      "game_versions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "294a530054e7e7cc3a40da01bd6e679551c0402dda010279857fa3a33501a1e3258e9515448aca3893956f1ba7d76e67192e65e8407b7433bb8b482bafe6680d",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/68Mo5SWt/DeepslateInstamine_mc1.19.1-2.5_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.19.1-2.5_release-forge.jar",
+          "primary": true,
+          "size": 26140
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "785LKHi2",
+      "name": "Deepslate Instamine",
+      "version_number": "2.1_release_fabric_1.19.1",
+      "game_versions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c8ade9d6a40f5dc34d870b1ac3d2c2aaf4294ceeb9e3190d46538dce0bfd9fe5c093853bd03bd0a41ac2828d7c130c0daf0a1deb05df0c665cc389fc195a15df",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_fabric_1.19.1/DeepslateInstamine_mc1.19.1-2.1_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.19.1-2.1_release-fabric.jar",
+          "primary": true,
+          "size": 24079
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "MGP3b9Aq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "8FcyRmAs",
+      "name": "Deepslate Instamine",
+      "version_number": "2.2_release_fabric_1.18.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "df184a0f8cf0303f08ccf15286c920371015f5f8762e80f5d2a202aeb3c4b6197b31a249cebf43d41eed86dc2609f8d09c89c2ddcc7e7d7e014e9f5eb968247e",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/8FcyRmAs/DeepslateInstamine_mc1.18.2-2.2_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.18.2-2.2_release-fabric.jar",
+          "primary": true,
+          "size": 24104
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "j5zDzQqi",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "8T80xaEr",
+      "name": "v2.4release forge 1.19.2",
+      "version_number": "2.4_release_forge_1.19.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "68345b861e34f4de486036fbb9749a034a6ce2282f1a442987a508a612f1e3972d4a5f274c2916a0fd04e345084208424af7dd6528620ff6c00c7d6365d61bed",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/8T80xaEr/DeepslateInstamine_mc1.19.2-2.4_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.19.2-2.4_release-forge.jar",
+          "primary": true,
+          "size": 26097
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "ns7Xs1B6",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "A9lpudbi",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_fabric_1.20",
+      "game_versions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2c0945acc792c65114255de88be088593691b65ab84dbaaa96038f6105031e9837729db0198cca5ab11223cf1cc47d325c404d71f189ee1a5bea30ffb947b192",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/A9lpudbi/DeepslateInstamine_mc1.20-2.5_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.20-2.5_release-fabric.jar",
+          "primary": true,
+          "size": 26391
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "Sbew3kXe",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "CZr9iv9n",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_forge_1.17.1",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f11b580d7436bb85078784656159fca22d0d3cadcd16809933814505cb893a30995c67a49e88b0ae01133b8de4a838b63ef215fefc4f34da85f52735b97b2fe2",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/CZr9iv9n/DeepslateInstamine_mc1.17.1-2.5_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.17.1-2.5_release-forge.jar",
+          "primary": true,
+          "size": 26255
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "DBQPQqaS",
+      "name": "v2.4release forge 1.17.1",
+      "version_number": "2.4_release_forge_1.17.1",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "2dde0d689c7ca7108554c1a9f8d3b87ee1f2dc6c109b8df2efe56d4ec696f1c3260ba31145a94cd712ddc700c5634345b5d232e8236151ddd3f3707cd64c467a",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/DBQPQqaS/DeepslateInstamine_mc1.17.1-2.4_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.17.1-2.4_release-forge.jar",
+          "primary": true,
+          "size": 26213
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "FbgBo0PL",
+      "name": "Deepslate Instamine",
+      "version_number": "2.2_release_forge_1.19.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0c7c51eb12d3bdcaae974ac2460c177fafadb2821ee989799cb347a77db6a3ae63b14410673b19c1082afe57176cfc464e365a89ad8a05403088cb09a054fa13",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/FbgBo0PL/DeepslateInstamine_mc1.19.2-2.2_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.19.2-2.2_release-forge.jar",
+          "primary": true,
+          "size": 23738
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "ns7Xs1B6",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "HkNpEzqb",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_fabric_1.18.1",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c37efe27a0c9fe518d4cb987628a3ab0b236ace4c7995287c84109365b7c86dae186dfdcb5187b081563a663432fd7e3276f94e24dbe3c2b6dfb99a6e79ebbe5",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/HkNpEzqb/DeepslateInstamine_mc1.18.1-2.5_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.18.1-2.5_release-fabric.jar",
+          "primary": true,
+          "size": 26552
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "IA4ARqqa",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_forge_1.18.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "4181d2572bc77afdfe72766bb65fcabaff7ab73ace1f4b89ab26d702c9150f719e522b0458e18ec1e043b8236720f022d42806d65301a7d48b05b7f57e600c10",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/IA4ARqqa/DeepslateInstamine_mc1.18.2-2.5_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.18.2-2.5_release-forge.jar",
+          "primary": true,
+          "size": 26136
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "IUWQYn0c",
+      "name": "Deepslate Instamine",
+      "version_number": "2.2_release_forge_1.19",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e1a0d1504aa7ca9822303a4b1834112b2da05a11ec9245a0afe76a08d82b1448bdb0593b9272ed917480786e1554cda80cc137b3c079e3a79f22881d3c4f210a",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/IUWQYn0c/DeepslateInstamine_mc1.19-2.2_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.19-2.2_release-forge.jar",
+          "primary": true,
+          "size": 23721
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "NxbWyaxs",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "IichTrhl",
+      "name": "Deepslate Instamine",
+      "version_number": "2.1_release_fabric_1.19",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4ef54d9e441bc172431476f35c90c8672f300025ee5708bd1ee4049721a68ba05815bb88edd057e8a6d4de081d2f54dffbb6aff0fba9305a167c124d85eb9697",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_fabric_1.19/DeepslateInstamine_mc1.19-2.1_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.19-2.1_release-fabric.jar",
+          "primary": true,
+          "size": 24059
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "cysqWrDN",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "IwC0qXUd",
+      "name": "Deepslate Instamine",
+      "version_number": "2.1_release_forge_1.17.1",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c2a29e33b3efa10d77e45d30abefbe5399a0c2a18c788a9972fd2e75cdb1dcba44da000fe40078bc4cdc04d08b9d0b5f79d1895a06959c20e3918120c53b04cb",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_forge_1.17.1/DeepslateInstamine_mc1.17.1-2.1_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.17.1-2.1_release-forge.jar",
+          "primary": true,
+          "size": 23796
         }
       ],
       "dependencies": [
@@ -67,111 +639,118 @@
       ]
     },
     {
-      "id": "bCOF9nE1",
-      "name": "Deepslate Instamine 2.5 neoforge",
-      "version_number": "2.5",
+      "id": "KJSQmLmQ",
+      "name": "Deepslate Instamine",
+      "version_number": "2.1_release_forge_1.19.1",
       "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "3604c2d6f5c50f02b4829cd42bcd5c9dc4400a38097b11a6603ade7789a354353b054b6827bc8cddfa260bf499bceb9f8d3d8cb44c8c8c621802d460cce2cff8",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/bCOF9nE1/DeepslateInstamine-neoforge-2.5_release_mc1.20.6.jar",
-          "filename": "DeepslateInstamine-neoforge-2.5_release_mc1.20.6.jar",
-          "primary": true,
-          "size": 25255
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ou5Qfs8K",
-      "name": "Deepslate Instamine 2.5 fabric",
-      "version_number": "2.5_release_mc1.20.6",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "190b06b697400f09b7bbeba6b4a6a47458c49d29a4d01cb8fe48471e18246bf4ca0ce96c6341d72c188ebf0ae46e34c0f53653c105b8af7750fb63123a1369f8",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/ou5Qfs8K/DeepslateInstamine-fabric-2.5_release_mc1.20.6.jar",
-          "filename": "DeepslateInstamine-fabric-2.5_release_mc1.20.6.jar",
-          "primary": true,
-          "size": 25504
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "XvkUZDyB",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_fabric_1.20.4",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c28e53ff0f61845ec9fe0057533fa681621c25a7ee8d845b26d92e168d2d7f36578499a3df5bf9b91e465b6d5c77d697b0d6305f682c7020ac37c94d7c7ecba7",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/XvkUZDyB/DeepslateInstamine_mc1.20.4-2.5_release.jar",
-          "filename": "DeepslateInstamine_mc1.20.4-2.5_release.jar",
-          "primary": true,
-          "size": 25872
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ZmNDlCDG",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_forge_1.20.4",
-      "game_versions": [
-        "1.20.4"
+        "1.19.1"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "d302ee006d04028f430f65bf27800aed9ac9af093a5f170ead0bd67fcc70621ffaf21926a7a172806ffff5ecc674d34662299e92effbd1d9e9ba5237ed064df1",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/ZmNDlCDG/DeepslateInstamine_mc1.20.4-2.5_release.jar",
-          "filename": "DeepslateInstamine_mc1.20.4-2.5_release.jar",
+          "sha512": "e0a18aa7bf555ac9fab2911029236b72f76e43178b2eee104682f23ccae6d62aff2669eff4e66168f9d5d280caaa8629d059bae5e14a08a9ae7f38d594c991f6",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_forge_1.19.1/DeepslateInstamine_mc1.19.1-2.1_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.19.1-2.1_release-forge.jar",
           "primary": true,
-          "size": 25589
+          "size": 23721
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "d5oFBHkM",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "KbKcobik",
+      "name": "Deepslate Instamine",
+      "version_number": "2.1_release_fabric_1.17.1",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5d4809117001cb521c15fc857e8cda5e1f447578fd51a9b52b0fcfced54a6663f940b78bc4e9530fe6b04300117b5bf0d5c1ea6bb6546e0dee328e68cf309f36",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_fabric_1.17.1/DeepslateInstamine_mc1.17.1-2.1_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.17.1-2.1_release-fabric.jar",
+          "primary": true,
+          "size": 24172
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "7kh2ofyR",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "KdyI5PIi",
+      "name": "Deepslate Instamine",
+      "version_number": "2.2_release_forge_1.18.1",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "3e82672237946c9b61500d04d7aab86e827f5e1c0be6df99eb1294535122ca7b10b477fb1f263f8f8c5f04dfd019775a533469833f13f3576e0b94721c1f2832",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/KdyI5PIi/DeepslateInstamine_mc1.18.1-2.2_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.18.1-2.2_release-forge.jar",
+          "primary": true,
+          "size": 23805
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "MysoRHoj",
+      "name": "Deepslate Instamine",
+      "version_number": "2.2_release_forge_1.17.1",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c7791f55b9910a87560cfbb00b9e3a2e10e2a710c20927df71d23c5938bd015ce4df95218b59d60465a6b15a5ff0e28566fadfe51cc20983136d9595c9daa6f4",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/MysoRHoj/DeepslateInstamine_mc1.17.1-2.2_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.17.1-2.2_release-forge.jar",
+          "primary": true,
+          "size": 23814
         }
       ],
       "dependencies": [
@@ -212,62 +791,50 @@
       ]
     },
     {
-      "id": "UprffG39",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_fabric_1.20.2",
+      "id": "PuMfW6Qc",
+      "name": "Deepslate Instamine",
+      "version_number": "2.1_release_forge_1.19",
       "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2885bcfe75d416b5fa8bd22c4fe18864da27fc17bd74dff583ca05dbc412de9db8f55192cf4d2126178b6bccf30ab6f3c68784a886d6710c7fc2bc9988f1f514",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/UprffG39/DeepslateInstamine_mc1.20.2-2.5_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.20.2-2.5_release-fabric.jar",
-          "primary": true,
-          "size": 26410
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ljMHFEHe",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_forge_1.20.1",
-      "game_versions": [
-        "1.20.1"
+        "1.19"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "2f2c6d1e2563cc2d105dcf90da0e1463d547c340d6dd3432a333cbc88192ae530d8acf205580cd7dc7238fb26d308e862add8dc2e759924719b9d0d4baeb44ed",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/ljMHFEHe/DeepslateInstamine_mc1.20.1-2.5_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.20.1-2.5_release-forge.jar",
+          "sha512": "a89cc9727ac9a236dd84819219c8b323f35a8415251e1266998afd0ce9faa259fe5ba62cc9e8f99fb7f8e93d8d5c8e6e35c3e1fb96f00012a8a515077464ac30",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_forge_1.19/DeepslateInstamine_mc1.19-2.1_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.19-2.1_release-forge.jar",
           "primary": true,
-          "size": 26153
+          "size": 23701
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "NxbWyaxs",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Qb0fjgZC",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_forge_1.19.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "96226ae24c53c3dacccdf05bc05f601641f85c66ac8442c141ddca04c32a043c411e472711f91174fa1569fa600e443bea41897145bac3ce59105e7f7d39e6cf",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/Qb0fjgZC/DeepslateInstamine_mc1.19.2-2.5_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.19.2-2.5_release-forge.jar",
+          "primary": true,
+          "size": 26140
         }
       ],
       "dependencies": [
@@ -280,31 +847,25 @@
       ]
     },
     {
-      "id": "jXBxp5PA",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_fabric_1.20.1",
+      "id": "S8Ciw5lC",
+      "name": "Deepslate Instamine",
+      "version_number": "2.0_release_fabric_1.19",
       "game_versions": [
-        "1.20.1"
+        "1.19"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "532207a00bde156749afc12f350ee556cd1bd52c0bd4030a62d104ffe91bee9143c08245dfb0d6308c355f293c2383bcb2f1428a00cee3a2bed64b8c98074414",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/jXBxp5PA/DeepslateInstamine_mc1.20.1-2.5_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.20.1-2.5_release-fabric.jar",
+          "sha512": "e805fb6e3bf7808400ef9b7a77e5234a22102fa0d6fe42b779cea00db9bc1b16d76274f48dfb9a03df1518f2ce2c05e917fdfab3dbf88e15fce3c8c75a7d604a",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.0_release_fabric_1.19/DeepslateInstamine_mc1.19-2.0_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.19-2.0_release-fabric.jar",
           "primary": true,
-          "size": 26410
+          "size": 22649
         }
       ],
       "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
@@ -316,6 +877,40 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "cysqWrDN",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "SDLMvDPY",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_forge_1.19",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c9d67794fd34320703d77a308cabd42c81ef66ad2e4f8e10a070ca4aac3d2f5e8abf909a858fbe691af11b528bcca4b9ddff203cdc8ffed454691fa6170da132",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/SDLMvDPY/DeepslateInstamine_mc1.19-2.5_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.19-2.5_release-forge.jar",
+          "primary": true,
+          "size": 26122
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -348,130 +943,22 @@
       ]
     },
     {
-      "id": "A9lpudbi",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_fabric_1.20",
+      "id": "TDcrlwKW",
+      "name": "v2.4release forge 1.18.1",
+      "version_number": "2.4_release_forge_1.18.1",
       "game_versions": [
-        "1.20"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2c0945acc792c65114255de88be088593691b65ab84dbaaa96038f6105031e9837729db0198cca5ab11223cf1cc47d325c404d71f189ee1a5bea30ffb947b192",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/A9lpudbi/DeepslateInstamine_mc1.20-2.5_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.20-2.5_release-fabric.jar",
-          "primary": true,
-          "size": 26391
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "Sbew3kXe",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "Y4Q1ozXm",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_forge_1.19.4",
-      "game_versions": [
-        "1.19.4"
+        "1.18.1"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "9a4a4a83961eabe88d46ebde20ea4b53bab2d675498253b888ff083b67589e31807e6ac5b5c3a03e8eaf7426b6ee8000b51cde94f71be0640548a01c122ee498",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/Y4Q1ozXm/DeepslateInstamine_mc1.19.4-2.5_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.19.4-2.5_release-forge.jar",
+          "sha512": "85e97e9b662ba5c311b360f592b990282de994a8b54820f8a273800067d53888b87b9ee07cae498fe4e480ff554b39795bd5de2044577f1c6281159799e7ff2f",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/TDcrlwKW/DeepslateInstamine_mc1.18.1-2.4_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.18.1-2.4_release-forge.jar",
           "primary": true,
-          "size": 26153
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "8y4xVR6z",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "nGxAVxjh",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_fabric_1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "5b001e1836573828bd93788625ec2f833cf62bbe7c3adfc02cfc0bebedc278f19b84c4f78b2d6de3d4eb7a7a044a7d61fc0f4d9f772d24d5d8be0107195d7d8b",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/nGxAVxjh/DeepslateInstamine_mc1.19.4-2.5_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.19.4-2.5_release-fabric.jar",
-          "primary": true,
-          "size": 26408
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "6bcAfgt2",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ldCrupXm",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_forge_1.19.3",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e13430020d0b578ab95a6d76bcc50a3b5a335462b775fdd01c059f70e1f0d3c7682b9b8652461bb5b5f3aefcfea8b438bf2fa8157eb974e176d1469e1ac8bcc7",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/ldCrupXm/DeepslateInstamine_mc1.19.3-2.5_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.19.3-2.5_release-forge.jar",
-          "primary": true,
-          "size": 26152
+          "size": 26209
         }
       ],
       "dependencies": [
@@ -524,59 +1011,65 @@
       ]
     },
     {
-      "id": "Qb0fjgZC",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_forge_1.19.2",
+      "id": "ToubjF3R",
+      "name": "Deepslate Instamine",
+      "version_number": "2.0_release_fabric_1.18.2",
       "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "96226ae24c53c3dacccdf05bc05f601641f85c66ac8442c141ddca04c32a043c411e472711f91174fa1569fa600e443bea41897145bac3ce59105e7f7d39e6cf",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/Qb0fjgZC/DeepslateInstamine_mc1.19.2-2.5_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.19.2-2.5_release-forge.jar",
-          "primary": true,
-          "size": 26140
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "nufK0cLt",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_fabric_1.19.2",
-      "game_versions": [
-        "1.19.2"
+        "1.18.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "ed7daf24daa1398aee083c6cf4a82a6b745515dfefecef5736a41a26e5000a2a18d1a95d575700a388ac577e1bc4ccd33dd3c26b0dce9606652e7052937dbfe7",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/nufK0cLt/DeepslateInstamine_mc1.19.2-2.5_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.19.2-2.5_release-fabric.jar",
+          "sha512": "a6ed8952362c781a571914e0a76f08505b14040e1d72e9552eda5b98df6e6cf74341c3ec9f5cbe62f3eaaa1a28ad98b7b938ae3af97e40e040405f27f3062e5d",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.0_release_fabric_1.18.2/DeepslateInstamine_mc1.18.2-2.0_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.18.2-2.0_release-fabric.jar",
           "primary": true,
-          "size": 26408
+          "size": 22671
         }
       ],
       "dependencies": [
         {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "j5zDzQqi",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "mOgUt4GM",
-          "version_id": null,
+          "version_id": "nVxObSbX",
           "file_name": null,
           "dependency_type": "optional"
-        },
+        }
+      ]
+    },
+    {
+      "id": "UprffG39",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_fabric_1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2885bcfe75d416b5fa8bd22c4fe18864da27fc17bd74dff583ca05dbc412de9db8f55192cf4d2126178b6bccf30ab6f3c68784a886d6710c7fc2bc9988f1f514",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/UprffG39/DeepslateInstamine_mc1.20.2-2.5_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.20.2-2.5_release-fabric.jar",
+          "primary": true,
+          "size": 26410
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "lhGA9TYQ",
           "version_id": null,
@@ -588,13 +1081,387 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "68Mo5SWt",
+      "id": "V4J7GHwu",
+      "name": "Deepslate Instamine",
+      "version_number": "2.0_release_forge_1.18.1",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ee66e8e9bc81f4aa4c8dccda2232ddc374ae0cf0eabda200875c483a7d7fa10b90a4befa22fadca51c955d0090205b59d87af2fcf45d3334d94a1efe1c3fb842",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.0_release_forge_1.18.1/DeepslateInstamine_mc1.18.1-2.0_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.18.1-2.0_release-forge.jar",
+          "primary": true,
+          "size": 22632
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "WlFM46Hk",
+      "name": "Deepslate Instamine",
+      "version_number": "2.1_release_fabric_1.18.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "6b40377357e3fac1f513d3a52e233c243c4b03bcb9f70c7e0c5c5b7893a0629086af9edc8f054c4814d916f72c5754b0923fbab901ad44c44ef3eb3d93eb3d9b",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_fabric_1.18.2/DeepslateInstamine_mc1.18.2-2.1_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.18.2-2.1_release-fabric.jar",
+          "primary": true,
+          "size": 24081
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "j5zDzQqi",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "WpDRa0FL",
+      "name": "Deepslate Instamine",
+      "version_number": "2.2_release_fabric_1.17.1",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e746e0514a44cf3202ed1d52c720dab6de189efd2f5dfe7758d606ae019e186747077dbf08840619d0b4178553c1c3746dc4ec84c0687b6db55de1b38d51a52c",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/WpDRa0FL/DeepslateInstamine_mc1.17.1-2.2_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.17.1-2.2_release-fabric.jar",
+          "primary": true,
+          "size": 24192
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "7kh2ofyR",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "XIM9W3IE",
+      "name": "Deepslate Instamine",
+      "version_number": "2.2_release_forge_1.18.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ae9105f869d0476807b4594df4294d2de32cc0bf5b53ffe78ce76c5b5f9bb655eedf5e0f2389d63dc40a788cdfc6b4e3f9cba4a9adfca40e8b3c1259b767ec88",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/XIM9W3IE/DeepslateInstamine_mc1.18.2-2.2_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.18.2-2.2_release-forge.jar",
+          "primary": true,
+          "size": 23736
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "o069zrDa",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "XvkUZDyB",
       "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_forge_1.19.1",
+      "version_number": "2.5_release_fabric_1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c28e53ff0f61845ec9fe0057533fa681621c25a7ee8d845b26d92e168d2d7f36578499a3df5bf9b91e465b6d5c77d697b0d6305f682c7020ac37c94d7c7ecba7",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/XvkUZDyB/DeepslateInstamine_mc1.20.4-2.5_release.jar",
+          "filename": "DeepslateInstamine_mc1.20.4-2.5_release.jar",
+          "primary": true,
+          "size": 25872
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Y3HKyV0b",
+      "name": "Deepslate Instamine",
+      "version_number": "2.0_release_fabric_1.18.1",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2429f5e9fe9e190536af6f176b3fd0d3d12c8882c7055948927b92f72d08daa8632bed2f127e1b523e234ba3f6bf7103eea61e2b54f0598aab9fea5fb00dbf27",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.0_release_fabric_1.18.1/DeepslateInstamine_mc1.18.1-2.0_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.18.1-2.0_release-fabric.jar",
+          "primary": true,
+          "size": 22773
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Y4Q1ozXm",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_forge_1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9a4a4a83961eabe88d46ebde20ea4b53bab2d675498253b888ff083b67589e31807e6ac5b5c3a03e8eaf7426b6ee8000b51cde94f71be0640548a01c122ee498",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/Y4Q1ozXm/DeepslateInstamine_mc1.19.4-2.5_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.19.4-2.5_release-forge.jar",
+          "primary": true,
+          "size": 26153
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "8y4xVR6z",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ZHCsHHl9",
+      "name": "2.4release fabric 1.19",
+      "version_number": "2.4_release_fabric_1.19",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "fb9eee6425ad838a05c5e73973273b62ef3a671831d27c2a01640e79027b5690a30c9526b4ad59c2de268255b43b653a52c4a69614bae966e7f87f99203e8526",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/ZHCsHHl9/DeepslateInstamine_mc1.19-2.4_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.19-2.4_release-fabric.jar",
+          "primary": true,
+          "size": 26389
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "3KmOcp6b",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "cysqWrDN",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "oU5qfeR6",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "ZmNDlCDG",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_forge_1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d302ee006d04028f430f65bf27800aed9ac9af093a5f170ead0bd67fcc70621ffaf21926a7a172806ffff5ecc674d34662299e92effbd1d9e9ba5237ed064df1",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/ZmNDlCDG/DeepslateInstamine_mc1.20.4-2.5_release.jar",
+          "filename": "DeepslateInstamine_mc1.20.4-2.5_release.jar",
+          "primary": true,
+          "size": 25589
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "abOyjnS9",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_forge_1.18.1",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "207df65ad5d1d7789f1e3c8f4d5033ad2f277f8ec26e34e8a104027ca8d1870138a59cb4772ad24724892f4218fee4c2823e5a0fcede02e0df16e06a9d814407",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/abOyjnS9/DeepslateInstamine_mc1.18.1-2.5_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.18.1-2.5_release-forge.jar",
+          "primary": true,
+          "size": 26250
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "bCOF9nE1",
+      "name": "Deepslate Instamine 2.5 neoforge",
+      "version_number": "2.5",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "3604c2d6f5c50f02b4829cd42bcd5c9dc4400a38097b11a6603ade7789a354353b054b6827bc8cddfa260bf499bceb9f8d3d8cb44c8c8c621802d460cce2cff8",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/bCOF9nE1/DeepslateInstamine-neoforge-2.5_release_mc1.20.6.jar",
+          "filename": "DeepslateInstamine-neoforge-2.5_release_mc1.20.6.jar",
+          "primary": true,
+          "size": 25255
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "boCoYpGx",
+      "name": "Deepslate Instamine",
+      "version_number": "2.2_release_forge_1.19.1",
       "game_versions": [
         "1.19.1"
       ],
@@ -603,17 +1470,17 @@
       ],
       "files": [
         {
-          "sha512": "294a530054e7e7cc3a40da01bd6e679551c0402dda010279857fa3a33501a1e3258e9515448aca3893956f1ba7d76e67192e65e8407b7433bb8b482bafe6680d",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/68Mo5SWt/DeepslateInstamine_mc1.19.1-2.5_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.19.1-2.5_release-forge.jar",
+          "sha512": "487c85341fbb6e31063258899dcff8c21d8015431f9d406742cf1dc05d8f750f453e328f646fc1de1ad1a5f223cb27cd1e07e35fdb1f4e53e6c6caae2266c30a",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/boCoYpGx/DeepslateInstamine_mc1.19.1-2.2_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.19.1-2.2_release-forge.jar",
           "primary": true,
-          "size": 26140
+          "size": 23740
         }
       ],
       "dependencies": [
         {
           "project_id": "lhGA9TYQ",
-          "version_id": null,
+          "version_id": "d5oFBHkM",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -654,1502 +1521,6 @@
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "SDLMvDPY",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_forge_1.19",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "c9d67794fd34320703d77a308cabd42c81ef66ad2e4f8e10a070ca4aac3d2f5e8abf909a858fbe691af11b528bcca4b9ddff203cdc8ffed454691fa6170da132",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/SDLMvDPY/DeepslateInstamine_mc1.19-2.5_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.19-2.5_release-forge.jar",
-          "primary": true,
-          "size": 26122
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "5n6qkbro",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_fabric_1.19",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c298a958fb6e7902481fc4e55b78c4409bfc73687c9e2572192aee11644126cff3491ad5d237861305673b2af23ec63d333f50f58212efae51065724adb04f32",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/5n6qkbro/DeepslateInstamine_mc1.19-2.5_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.19-2.5_release-fabric.jar",
-          "primary": true,
-          "size": 26390
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "IA4ARqqa",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_forge_1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "4181d2572bc77afdfe72766bb65fcabaff7ab73ace1f4b89ab26d702c9150f719e522b0458e18ec1e043b8236720f022d42806d65301a7d48b05b7f57e600c10",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/IA4ARqqa/DeepslateInstamine_mc1.18.2-2.5_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.18.2-2.5_release-forge.jar",
-          "primary": true,
-          "size": 26136
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "f0rv0jOf",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_fabric_1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6faa55cfb1a51aeef1a0b5347f8e7b62f4e86060a14a82eb91817d227ec3b248aad1c53bbf7ec8b11498c00a97a4ea85857e0c480937802abaa2cbc09521f45d",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/f0rv0jOf/DeepslateInstamine_mc1.18.2-2.5_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.18.2-2.5_release-fabric.jar",
-          "primary": true,
-          "size": 26410
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "abOyjnS9",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_forge_1.18.1",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "207df65ad5d1d7789f1e3c8f4d5033ad2f277f8ec26e34e8a104027ca8d1870138a59cb4772ad24724892f4218fee4c2823e5a0fcede02e0df16e06a9d814407",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/abOyjnS9/DeepslateInstamine_mc1.18.1-2.5_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.18.1-2.5_release-forge.jar",
-          "primary": true,
-          "size": 26250
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "HkNpEzqb",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_fabric_1.18.1",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c37efe27a0c9fe518d4cb987628a3ab0b236ace4c7995287c84109365b7c86dae186dfdcb5187b081563a663432fd7e3276f94e24dbe3c2b6dfb99a6e79ebbe5",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/HkNpEzqb/DeepslateInstamine_mc1.18.1-2.5_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.18.1-2.5_release-fabric.jar",
-          "primary": true,
-          "size": 26552
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "CZr9iv9n",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_forge_1.17.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "f11b580d7436bb85078784656159fca22d0d3cadcd16809933814505cb893a30995c67a49e88b0ae01133b8de4a838b63ef215fefc4f34da85f52735b97b2fe2",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/CZr9iv9n/DeepslateInstamine_mc1.17.1-2.5_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.17.1-2.5_release-forge.jar",
-          "primary": true,
-          "size": 26255
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "rjF5IAX7",
-      "name": "Deepslate Instamine v2.5 release",
-      "version_number": "2.5_release_fabric_1.17.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6d2489e13c4df50618908109ad7b1af686883fc6adb8573cccdebd65fda8a5906b6802bb6b3e357269bdbea5efce743addc89e0cb28828a38c22f1858690fe6c",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/rjF5IAX7/DeepslateInstamine_mc1.17.1-2.5_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.17.1-2.5_release-fabric.jar",
-          "primary": true,
-          "size": 26547
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "lIajMsq8",
-      "name": "v2.4release forge 1.19.3",
-      "version_number": "2.4_release_forge_1.19.3",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "0659dde68afe6daced680bcea77a4561d89fb3b8c76a6f80aaee7b46ed85fb3bc757dbd86e1729db621ffe8a568daaa61819b672df4f71a36dd62143ad4937f9",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/lIajMsq8/DeepslateInstamine_mc1.19.3-2.4_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.19.3-2.4_release-forge.jar",
-          "primary": true,
-          "size": 26108
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "lReYANwU",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "26urnSic",
-      "name": "v2.4release fabric 1.19.3",
-      "version_number": "2.4_release_fabric_1.19.3",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4832acb7035e4b38e334f0a7978518978ffdb7a85887708b6b6af2838db42990c8e28b2f9848e54c0a213aecfe6d4e5cb8c286bdff8b65a24d38fb5c0219abee",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/26urnSic/DeepslateInstamine_mc1.19.3-2.4_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.19.3-2.4_release-fabric.jar",
-          "primary": true,
-          "size": 26409
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "OFLHUcGo",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "8T80xaEr",
-      "name": "v2.4release forge 1.19.2",
-      "version_number": "2.4_release_forge_1.19.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "68345b861e34f4de486036fbb9749a034a6ce2282f1a442987a508a612f1e3972d4a5f274c2916a0fd04e345084208424af7dd6528620ff6c00c7d6365d61bed",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/8T80xaEr/DeepslateInstamine_mc1.19.2-2.4_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.19.2-2.4_release-forge.jar",
-          "primary": true,
-          "size": 26097
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "ns7Xs1B6",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "xpcEYStj",
-      "name": "v2.4release fabric 1.19.2",
-      "version_number": "2.4_release_fabric_1.19.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6e5c56ab3c73ffd9ffad71b7ee772329e5eb67672ad09d004126e3bf85af26962289be3ca0e48e34f9de39e614dc4fe50a63fd5edd82e0cb271b80628bbd88db",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/xpcEYStj/DeepslateInstamine_mc1.19.2-2.4_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.19.2-2.4_release-fabric.jar",
-          "primary": true,
-          "size": 26409
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "HoIJp48v",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "gcbf0HdU",
-      "name": "v2.4release forge 1.19.1",
-      "version_number": "2.4_release_forge_1.19.1",
-      "game_versions": [
-        "1.19.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "0cf1edda9d0405bf02d03c58cd1366cb2f7a745bffe48b8b8ac61c36d892d5fb14f996c75a89fa802c7471c035359fbef3a744caea75377478a3f6275a843cdb",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/gcbf0HdU/DeepslateInstamine_mc1.19.1-2.4_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.19.1-2.4_release-forge.jar",
-          "primary": true,
-          "size": 26095
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "qWoDp2uL",
-      "name": "v2.4release fabric 1.19.1",
-      "version_number": "2.4_release_fabric_1.19.1",
-      "game_versions": [
-        "1.19.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "1a7b3319e30d7d5e58619d92f6aeb92e536d9f423a704cd1939e2ceb897ec42b42a44972953caceb8f7e8b3f59f42b5e625dcda310a923561a005bb7310bb960",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/qWoDp2uL/DeepslateInstamine_mc1.19.1-2.4_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.19.1-2.4_release-fabric.jar",
-          "primary": true,
-          "size": 26407
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "3fY6NddT",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "MGP3b9Aq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "2Ys0a7JE",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "j1VMfiKs",
-      "name": "v2.4release forge 1.19",
-      "version_number": "2.4_release_forge_1.19",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "65f7f4ae91ca1cd382a45320ec86b267f9db226c0ea83e274a95ea7529047d3590577ab4611c977228a322f7d5cf573fb8c54ddf54fc9a2b072ff14b44822d26",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/j1VMfiKs/DeepslateInstamine_mc1.19-2.4_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.19-2.4_release-forge.jar",
-          "primary": true,
-          "size": 26078
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "NxbWyaxs",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ZHCsHHl9",
-      "name": "2.4release fabric 1.19",
-      "version_number": "2.4_release_fabric_1.19",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "fb9eee6425ad838a05c5e73973273b62ef3a671831d27c2a01640e79027b5690a30c9526b4ad59c2de268255b43b653a52c4a69614bae966e7f87f99203e8526",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/ZHCsHHl9/DeepslateInstamine_mc1.19-2.4_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.19-2.4_release-fabric.jar",
-          "primary": true,
-          "size": 26389
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "oU5qfeR6",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "cysqWrDN",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "3KmOcp6b",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "hmyBU9D5",
-      "name": "v2.4release forge 1.18.2",
-      "version_number": "2.4_release_forge_1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "51ea519aba055e7677344de7abdc0d240a442493301166eefe4b83b9f37bedeb5401da6b88bc02b331528ae53417ba3b1d3503fae8b65aff090a7f250ed17626",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/hmyBU9D5/DeepslateInstamine_mc1.18.2-2.4_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.18.2-2.4_release-forge.jar",
-          "primary": true,
-          "size": 26090
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "o069zrDa",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "xpBjpIlX",
-      "name": "v2.4release fabric 1.18.2",
-      "version_number": "2.4_release_fabric_1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "826549629f3be50f2626fedb7a759bbc2dd02f923f6b3c01b5c20b530cce321cc46c41fa72a7cca1287975ff4033e1a2302224bd537b817c7964c07ac8466958",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/xpBjpIlX/DeepslateInstamine_mc1.18.2-2.4_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.18.2-2.4_release-fabric.jar",
-          "primary": true,
-          "size": 26412
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "nVxObSbX",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "j5zDzQqi",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "TDcrlwKW",
-      "name": "v2.4release forge 1.18.1",
-      "version_number": "2.4_release_forge_1.18.1",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "85e97e9b662ba5c311b360f592b990282de994a8b54820f8a273800067d53888b87b9ee07cae498fe4e480ff554b39795bd5de2044577f1c6281159799e7ff2f",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/TDcrlwKW/DeepslateInstamine_mc1.18.1-2.4_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.18.1-2.4_release-forge.jar",
-          "primary": true,
-          "size": 26209
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "xTsU8nAJ",
-      "name": "v2.4release fabric 1.18.1",
-      "version_number": "2.4_release_fabric_1.18.1",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e5096895ae930696611415cb2f986ce3c29132cea203c7cdf0c08bb8b9ec8d30212ff258ecb4755c82a9d7418e973549a6cc793f2663d898aac3296f4c56ba4c",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/xTsU8nAJ/DeepslateInstamine_mc1.18.1-2.4_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.18.1-2.4_release-fabric.jar",
-          "primary": true,
-          "size": 26557
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "kbtdliUm",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "468H7PSo",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "eueI9czw",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "DBQPQqaS",
-      "name": "v2.4release forge 1.17.1",
-      "version_number": "2.4_release_forge_1.17.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "2dde0d689c7ca7108554c1a9f8d3b87ee1f2dc6c109b8df2efe56d4ec696f1c3260ba31145a94cd712ddc700c5634345b5d232e8236151ddd3f3707cd64c467a",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/DBQPQqaS/DeepslateInstamine_mc1.17.1-2.4_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.17.1-2.4_release-forge.jar",
-          "primary": true,
-          "size": 26213
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "zb1WwKvm",
-      "name": "v2.4release fabric 1.17.1",
-      "version_number": "2.4_release_fabric_1.17.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2ced740e60ec0bb349ae223e7ff5af67e43bb74e06db37c69348776c56870de4c089fb973e9fcfc90c5ec51f5fb19bb205d8f182561191c24f36e473d24dfd84",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/zb1WwKvm/DeepslateInstamine_mc1.17.1-2.4_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.17.1-2.4_release-fabric.jar",
-          "primary": true,
-          "size": 26552
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "7kh2ofyR",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "yekAuTSi",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "31ES0yWr",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "uZB4SB5n",
-      "name": "Deepslate Instamine",
-      "version_number": "2.3_release_forge_1.19.3",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "8d12c9d8c9fd9edfd7148d01078da51b0ce4864cb48792f30c4333c81cabae899aeed0f8108b62365ba1a46c80ac16f6a093a29877ada4e6dcddd8da4e7016fe",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/uZB4SB5n/DeepslateInstamine_mc1.19.3-2.3_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.19.3-2.3_release-forge.jar",
-          "primary": true,
-          "size": 23785
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "lReYANwU",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "g1SlI5SH",
-      "name": "Deepslate Instamine",
-      "version_number": "2.3_release_fabric_1.19.3",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "660194a17c1ac2ecb8379c87c549489aa92563caf65a26914ce4564e25661adc6088977be9d653beef8f7eb1e31143cb376d150b09ac7cc6e6c1e8f81252a62a",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/g1SlI5SH/DeepslateInstamine_mc1.19.3-2.3_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.19.3-2.3_release-fabric.jar",
-          "primary": true,
-          "size": 24171
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "OFLHUcGo",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "FbgBo0PL",
-      "name": "Deepslate Instamine",
-      "version_number": "2.2_release_forge_1.19.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "0c7c51eb12d3bdcaae974ac2460c177fafadb2821ee989799cb347a77db6a3ae63b14410673b19c1082afe57176cfc464e365a89ad8a05403088cb09a054fa13",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/FbgBo0PL/DeepslateInstamine_mc1.19.2-2.2_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.19.2-2.2_release-forge.jar",
-          "primary": true,
-          "size": 23738
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "ns7Xs1B6",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "t2Qq4v3b",
-      "name": "Deepslate Instamine",
-      "version_number": "2.2_release_fabric_1.19.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "5a2f740bb6a6d995fcf292fda46ea2627e56fda0bb19eac2a27eff9291dd111155365e850e359b8e62e93eabd6343b75bcb80089542ad2b810a7339731eae8f6",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/t2Qq4v3b/DeepslateInstamine_mc1.19.2-2.2_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.19.2-2.2_release-fabric.jar",
-          "primary": true,
-          "size": 24099
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "HoIJp48v",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "boCoYpGx",
-      "name": "Deepslate Instamine",
-      "version_number": "2.2_release_forge_1.19.1",
-      "game_versions": [
-        "1.19.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "487c85341fbb6e31063258899dcff8c21d8015431f9d406742cf1dc05d8f750f453e328f646fc1de1ad1a5f223cb27cd1e07e35fdb1f4e53e6c6caae2266c30a",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/boCoYpGx/DeepslateInstamine_mc1.19.1-2.2_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.19.1-2.2_release-forge.jar",
-          "primary": true,
-          "size": 23740
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "d5oFBHkM",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "hOaT3XWf",
-      "name": "Deepslate Instamine",
-      "version_number": "2.2_release_fabric_1.19.1",
-      "game_versions": [
-        "1.19.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "518e2c8b9e490d5ff8bd154be03044b90a4c0bfb8423d1b15e60a7d02d9ff848abee20e01c4d4ac2d22d096fa718932e9d6715a7fde2699647f2a48c8f2f67f1",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/hOaT3XWf/DeepslateInstamine_mc1.19.1-2.2_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.19.1-2.2_release-fabric.jar",
-          "primary": true,
-          "size": 24101
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "MGP3b9Aq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "IUWQYn0c",
-      "name": "Deepslate Instamine",
-      "version_number": "2.2_release_forge_1.19",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e1a0d1504aa7ca9822303a4b1834112b2da05a11ec9245a0afe76a08d82b1448bdb0593b9272ed917480786e1554cda80cc137b3c079e3a79f22881d3c4f210a",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/IUWQYn0c/DeepslateInstamine_mc1.19-2.2_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.19-2.2_release-forge.jar",
-          "primary": true,
-          "size": 23721
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "NxbWyaxs",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "tXj4zpoH",
-      "name": "Deepslate Instamine",
-      "version_number": "2.2_release_fabric_1.19",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "68a34d3b05037660b5b576d40e99a6b43f2a4cce13f259a85b392582f5ad0e955d07cdfec000d77e00f755cb082a3558cc46db6b2fad8052bea6adc990b4a260",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/tXj4zpoH/DeepslateInstamine_mc1.19-2.2_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.19-2.2_release-fabric.jar",
-          "primary": true,
-          "size": 24082
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "cysqWrDN",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "XIM9W3IE",
-      "name": "Deepslate Instamine",
-      "version_number": "2.2_release_forge_1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "ae9105f869d0476807b4594df4294d2de32cc0bf5b53ffe78ce76c5b5f9bb655eedf5e0f2389d63dc40a788cdfc6b4e3f9cba4a9adfca40e8b3c1259b767ec88",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/XIM9W3IE/DeepslateInstamine_mc1.18.2-2.2_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.18.2-2.2_release-forge.jar",
-          "primary": true,
-          "size": 23736
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "o069zrDa",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "8FcyRmAs",
-      "name": "Deepslate Instamine",
-      "version_number": "2.2_release_fabric_1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "df184a0f8cf0303f08ccf15286c920371015f5f8762e80f5d2a202aeb3c4b6197b31a249cebf43d41eed86dc2609f8d09c89c2ddcc7e7d7e014e9f5eb968247e",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/8FcyRmAs/DeepslateInstamine_mc1.18.2-2.2_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.18.2-2.2_release-fabric.jar",
-          "primary": true,
-          "size": 24104
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "nVxObSbX",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "j5zDzQqi",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "KdyI5PIi",
-      "name": "Deepslate Instamine",
-      "version_number": "2.2_release_forge_1.18.1",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "3e82672237946c9b61500d04d7aab86e827f5e1c0be6df99eb1294535122ca7b10b477fb1f263f8f8c5f04dfd019775a533469833f13f3576e0b94721c1f2832",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/KdyI5PIi/DeepslateInstamine_mc1.18.1-2.2_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.18.1-2.2_release-forge.jar",
-          "primary": true,
-          "size": 23805
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "34a8Qo2e",
-      "name": "Deepslate Instamine",
-      "version_number": "2.2_release_fabric_1.18.1",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "dc7a3a8f8630f64f4cb26e4ef85721070987809e6620bea2ebaeeb4c631865d4547b43854b96d38649fce70f06b1febc31ae0f21901e260be50a26b8b7e88a8a",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/34a8Qo2e/DeepslateInstamine_mc1.18.1-2.2_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.18.1-2.2_release-fabric.jar",
-          "primary": true,
-          "size": 24196
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "MysoRHoj",
-      "name": "Deepslate Instamine",
-      "version_number": "2.2_release_forge_1.17.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "c7791f55b9910a87560cfbb00b9e3a2e10e2a710c20927df71d23c5938bd015ce4df95218b59d60465a6b15a5ff0e28566fadfe51cc20983136d9595c9daa6f4",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/MysoRHoj/DeepslateInstamine_mc1.17.1-2.2_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.17.1-2.2_release-forge.jar",
-          "primary": true,
-          "size": 23814
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "WpDRa0FL",
-      "name": "Deepslate Instamine",
-      "version_number": "2.2_release_fabric_1.17.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e746e0514a44cf3202ed1d52c720dab6de189efd2f5dfe7758d606ae019e186747077dbf08840619d0b4178553c1c3746dc4ec84c0687b6db55de1b38d51a52c",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/WpDRa0FL/DeepslateInstamine_mc1.17.1-2.2_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.17.1-2.2_release-fabric.jar",
-          "primary": true,
-          "size": 24192
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "7kh2ofyR",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "3tVt62Wy",
-      "name": "Deepslate Instamine",
-      "version_number": "2.1_release_forge_1.19.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "fcdfb69b4b36884b0d606cb345b0da0f3f68237cf6cf648ea30b6578c441c2d7a7fbf1611ea5c92ca91f50446ec0308687875855da55c7ce6741aac15688bc6b",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_forge_1.19.2/DeepslateInstamine_mc1.19.2-2.1_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.19.2-2.1_release-forge.jar",
-          "primary": true,
-          "size": 23719
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "ns7Xs1B6",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "p4zTmE7v",
-      "name": "Deepslate Instamine",
-      "version_number": "2.1_release_fabric_1.19.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "fb643a964ac1e11c37ba67146b6567066eb6f6604c0aa7fe33fb0094e15dac386aad0169ad2d257834a3a34aacccc3799bb768dc55c8eb65177cd84f1687a571",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_fabric_1.19.2/DeepslateInstamine_mc1.19.2-2.1_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.19.2-2.1_release-fabric.jar",
-          "primary": true,
-          "size": 24078
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "HoIJp48v",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "KJSQmLmQ",
-      "name": "Deepslate Instamine",
-      "version_number": "2.1_release_forge_1.19.1",
-      "game_versions": [
-        "1.19.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e0a18aa7bf555ac9fab2911029236b72f76e43178b2eee104682f23ccae6d62aff2669eff4e66168f9d5d280caaa8629d059bae5e14a08a9ae7f38d594c991f6",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_forge_1.19.1/DeepslateInstamine_mc1.19.1-2.1_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.19.1-2.1_release-forge.jar",
-          "primary": true,
-          "size": 23721
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "d5oFBHkM",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "785LKHi2",
-      "name": "Deepslate Instamine",
-      "version_number": "2.1_release_fabric_1.19.1",
-      "game_versions": [
-        "1.19.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c8ade9d6a40f5dc34d870b1ac3d2c2aaf4294ceeb9e3190d46538dce0bfd9fe5c093853bd03bd0a41ac2828d7c130c0daf0a1deb05df0c665cc389fc195a15df",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_fabric_1.19.1/DeepslateInstamine_mc1.19.1-2.1_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.19.1-2.1_release-fabric.jar",
-          "primary": true,
-          "size": 24079
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "MGP3b9Aq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "PuMfW6Qc",
-      "name": "Deepslate Instamine",
-      "version_number": "2.1_release_forge_1.19",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "a89cc9727ac9a236dd84819219c8b323f35a8415251e1266998afd0ce9faa259fe5ba62cc9e8f99fb7f8e93d8d5c8e6e35c3e1fb96f00012a8a515077464ac30",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_forge_1.19/DeepslateInstamine_mc1.19-2.1_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.19-2.1_release-forge.jar",
-          "primary": true,
-          "size": 23701
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "NxbWyaxs",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "IichTrhl",
-      "name": "Deepslate Instamine",
-      "version_number": "2.1_release_fabric_1.19",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4ef54d9e441bc172431476f35c90c8672f300025ee5708bd1ee4049721a68ba05815bb88edd057e8a6d4de081d2f54dffbb6aff0fba9305a167c124d85eb9697",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_fabric_1.19/DeepslateInstamine_mc1.19-2.1_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.19-2.1_release-fabric.jar",
-          "primary": true,
-          "size": 24059
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "cysqWrDN",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "3BqC3wDF",
-      "name": "Deepslate Instamine",
-      "version_number": "2.1_release_forge_1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "1988a06247b4014a689696de3604a759d1400e520b9ad3587170faf55b2521bcd3a970d76833f21b3035c1d5bdeaad9185bf9d3b5365436b1a9cbae801132ce9",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_forge_1.18.2/DeepslateInstamine_mc1.18.2-2.1_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.18.2-2.1_release-forge.jar",
-          "primary": true,
-          "size": 23716
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "o069zrDa",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "WlFM46Hk",
-      "name": "Deepslate Instamine",
-      "version_number": "2.1_release_fabric_1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6b40377357e3fac1f513d3a52e233c243c4b03bcb9f70c7e0c5c5b7893a0629086af9edc8f054c4814d916f72c5754b0923fbab901ad44c44ef3eb3d93eb3d9b",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_fabric_1.18.2/DeepslateInstamine_mc1.18.2-2.1_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.18.2-2.1_release-fabric.jar",
-          "primary": true,
-          "size": 24081
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "nVxObSbX",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "j5zDzQqi",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -2204,6 +1575,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "lhGA9TYQ",
           "version_id": null,
           "file_name": null,
@@ -2212,80 +1589,6 @@
         {
           "project_id": "mOgUt4GM",
           "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "IwC0qXUd",
-      "name": "Deepslate Instamine",
-      "version_number": "2.1_release_forge_1.17.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "c2a29e33b3efa10d77e45d30abefbe5399a0c2a18c788a9972fd2e75cdb1dcba44da000fe40078bc4cdc04d08b9d0b5f79d1895a06959c20e3918120c53b04cb",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_forge_1.17.1/DeepslateInstamine_mc1.17.1-2.1_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.17.1-2.1_release-forge.jar",
-          "primary": true,
-          "size": 23796
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "KbKcobik",
-      "name": "Deepslate Instamine",
-      "version_number": "2.1_release_fabric_1.17.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "5d4809117001cb521c15fc857e8cda5e1f447578fd51a9b52b0fcfced54a6663f940b78bc4e9530fe6b04300117b5bf0d5c1ea6bb6546e0dee328e68cf309f36",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_fabric_1.17.1/DeepslateInstamine_mc1.17.1-2.1_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.17.1-2.1_release-fabric.jar",
-          "primary": true,
-          "size": 24172
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "7kh2ofyR",
           "file_name": null,
           "dependency_type": "optional"
         }
@@ -2320,6 +1623,414 @@
       ]
     },
     {
+      "id": "f0rv0jOf",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_fabric_1.18.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "6faa55cfb1a51aeef1a0b5347f8e7b62f4e86060a14a82eb91817d227ec3b248aad1c53bbf7ec8b11498c00a97a4ea85857e0c480937802abaa2cbc09521f45d",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/f0rv0jOf/DeepslateInstamine_mc1.18.2-2.5_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.18.2-2.5_release-fabric.jar",
+          "primary": true,
+          "size": 26410
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "g1SlI5SH",
+      "name": "Deepslate Instamine",
+      "version_number": "2.3_release_fabric_1.19.3",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "660194a17c1ac2ecb8379c87c549489aa92563caf65a26914ce4564e25661adc6088977be9d653beef8f7eb1e31143cb376d150b09ac7cc6e6c1e8f81252a62a",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/g1SlI5SH/DeepslateInstamine_mc1.19.3-2.3_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.19.3-2.3_release-fabric.jar",
+          "primary": true,
+          "size": 24171
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "OFLHUcGo",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "gcbf0HdU",
+      "name": "v2.4release forge 1.19.1",
+      "version_number": "2.4_release_forge_1.19.1",
+      "game_versions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0cf1edda9d0405bf02d03c58cd1366cb2f7a745bffe48b8b8ac61c36d892d5fb14f996c75a89fa802c7471c035359fbef3a744caea75377478a3f6275a843cdb",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/gcbf0HdU/DeepslateInstamine_mc1.19.1-2.4_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.19.1-2.4_release-forge.jar",
+          "primary": true,
+          "size": 26095
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "hOaT3XWf",
+      "name": "Deepslate Instamine",
+      "version_number": "2.2_release_fabric_1.19.1",
+      "game_versions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "518e2c8b9e490d5ff8bd154be03044b90a4c0bfb8423d1b15e60a7d02d9ff848abee20e01c4d4ac2d22d096fa718932e9d6715a7fde2699647f2a48c8f2f67f1",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/hOaT3XWf/DeepslateInstamine_mc1.19.1-2.2_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.19.1-2.2_release-fabric.jar",
+          "primary": true,
+          "size": 24101
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "MGP3b9Aq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "hmyBU9D5",
+      "name": "v2.4release forge 1.18.2",
+      "version_number": "2.4_release_forge_1.18.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "51ea519aba055e7677344de7abdc0d240a442493301166eefe4b83b9f37bedeb5401da6b88bc02b331528ae53417ba3b1d3503fae8b65aff090a7f250ed17626",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/hmyBU9D5/DeepslateInstamine_mc1.18.2-2.4_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.18.2-2.4_release-forge.jar",
+          "primary": true,
+          "size": 26090
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "o069zrDa",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "j1VMfiKs",
+      "name": "v2.4release forge 1.19",
+      "version_number": "2.4_release_forge_1.19",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "65f7f4ae91ca1cd382a45320ec86b267f9db226c0ea83e274a95ea7529047d3590577ab4611c977228a322f7d5cf573fb8c54ddf54fc9a2b072ff14b44822d26",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/j1VMfiKs/DeepslateInstamine_mc1.19-2.4_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.19-2.4_release-forge.jar",
+          "primary": true,
+          "size": 26078
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "NxbWyaxs",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jXBxp5PA",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_fabric_1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "532207a00bde156749afc12f350ee556cd1bd52c0bd4030a62d104ffe91bee9143c08245dfb0d6308c355f293c2383bcb2f1428a00cee3a2bed64b8c98074414",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/jXBxp5PA/DeepslateInstamine_mc1.20.1-2.5_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.20.1-2.5_release-fabric.jar",
+          "primary": true,
+          "size": 26410
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "lIajMsq8",
+      "name": "v2.4release forge 1.19.3",
+      "version_number": "2.4_release_forge_1.19.3",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0659dde68afe6daced680bcea77a4561d89fb3b8c76a6f80aaee7b46ed85fb3bc757dbd86e1729db621ffe8a568daaa61819b672df4f71a36dd62143ad4937f9",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/lIajMsq8/DeepslateInstamine_mc1.19.3-2.4_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.19.3-2.4_release-forge.jar",
+          "primary": true,
+          "size": 26108
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "lReYANwU",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ldCrupXm",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_forge_1.19.3",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e13430020d0b578ab95a6d76bcc50a3b5a335462b775fdd01c059f70e1f0d3c7682b9b8652461bb5b5f3aefcfea8b438bf2fa8157eb974e176d1469e1ac8bcc7",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/ldCrupXm/DeepslateInstamine_mc1.19.3-2.5_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.19.3-2.5_release-forge.jar",
+          "primary": true,
+          "size": 26152
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ljMHFEHe",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_forge_1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "2f2c6d1e2563cc2d105dcf90da0e1463d547c340d6dd3432a333cbc88192ae530d8acf205580cd7dc7238fb26d308e862add8dc2e759924719b9d0d4baeb44ed",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/ljMHFEHe/DeepslateInstamine_mc1.20.1-2.5_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.20.1-2.5_release-forge.jar",
+          "primary": true,
+          "size": 26153
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "nGxAVxjh",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_fabric_1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5b001e1836573828bd93788625ec2f833cf62bbe7c3adfc02cfc0bebedc278f19b84c4f78b2d6de3d4eb7a7a044a7d61fc0f4d9f772d24d5d8be0107195d7d8b",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/nGxAVxjh/DeepslateInstamine_mc1.19.4-2.5_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.19.4-2.5_release-fabric.jar",
+          "primary": true,
+          "size": 26408
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "6bcAfgt2",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "nufK0cLt",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_fabric_1.19.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ed7daf24daa1398aee083c6cf4a82a6b745515dfefecef5736a41a26e5000a2a18d1a95d575700a388ac577e1bc4ccd33dd3c26b0dce9606652e7052937dbfe7",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/nufK0cLt/DeepslateInstamine_mc1.19.2-2.5_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.19.2-2.5_release-fabric.jar",
+          "primary": true,
+          "size": 26408
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "oKX2IDXe",
       "name": "Deepslate Instamine",
       "version_number": "2.0_release_fabric_1.19.1",
@@ -2340,8 +2051,8 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
+          "project_id": "lhGA9TYQ",
+          "version_id": "MGP3b9Aq",
           "file_name": null,
           "dependency_type": "required"
         },
@@ -2352,6 +2063,107 @@
           "dependency_type": "optional"
         },
         {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ou5Qfs8K",
+      "name": "Deepslate Instamine 2.5 fabric",
+      "version_number": "2.5_release_mc1.20.6",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "190b06b697400f09b7bbeba6b4a6a47458c49d29a4d01cb8fe48471e18246bf4ca0ce96c6341d72c188ebf0ae46e34c0f53653c105b8af7750fb63123a1369f8",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/ou5Qfs8K/DeepslateInstamine-fabric-2.5_release_mc1.20.6.jar",
+          "filename": "DeepslateInstamine-fabric-2.5_release_mc1.20.6.jar",
+          "primary": true,
+          "size": 25504
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "p4zTmE7v",
+      "name": "Deepslate Instamine",
+      "version_number": "2.1_release_fabric_1.19.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "fb643a964ac1e11c37ba67146b6567066eb6f6604c0aa7fe33fb0094e15dac386aad0169ad2d257834a3a34aacccc3799bb768dc55c8eb65177cd84f1687a571",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.1_release_fabric_1.19.2/DeepslateInstamine_mc1.19.2-2.1_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.19.2-2.1_release-fabric.jar",
+          "primary": true,
+          "size": 24078
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "HoIJp48v",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "qWoDp2uL",
+      "name": "v2.4release fabric 1.19.1",
+      "version_number": "2.4_release_fabric_1.19.1",
+      "game_versions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1a7b3319e30d7d5e58619d92f6aeb92e536d9f423a704cd1939e2ceb897ec42b42a44972953caceb8f7e8b3f59f42b5e625dcda310a923561a005bb7310bb960",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/qWoDp2uL/DeepslateInstamine_mc1.19.1-2.4_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.19.1-2.4_release-fabric.jar",
+          "primary": true,
+          "size": 26407
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "2Ys0a7JE",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "3fY6NddT",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "lhGA9TYQ",
           "version_id": "MGP3b9Aq",
           "file_name": null,
@@ -2360,37 +2172,89 @@
       ]
     },
     {
-      "id": "yRfoC7zC",
-      "name": "Deepslate Instamine",
-      "version_number": "2.0_release_forge_1.19",
+      "id": "rjF5IAX7",
+      "name": "Deepslate Instamine v2.5 release",
+      "version_number": "2.5_release_fabric_1.17.1",
       "game_versions": [
-        "1.19"
+        "1.17.1"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "67dc76d6556869f60147ecfef28e66de8c725714639f04703d01939faa0ab2bfce2360e7b286b9e62b4d2195c59d421784e1bcd153f67c044001673e629530d2",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.0_release_forge_1.19/DeepslateInstamine_mc1.19-2.0_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.19-2.0_release-forge.jar",
+          "sha512": "6d2489e13c4df50618908109ad7b1af686883fc6adb8573cccdebd65fda8a5906b6802bb6b3e357269bdbea5efce743addc89e0cb28828a38c22f1858690fe6c",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/rjF5IAX7/DeepslateInstamine_mc1.17.1-2.5_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.17.1-2.5_release-fabric.jar",
           "primary": true,
-          "size": 22527
+          "size": 26547
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "t2Qq4v3b",
+      "name": "Deepslate Instamine",
+      "version_number": "2.2_release_fabric_1.19.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5a2f740bb6a6d995fcf292fda46ea2627e56fda0bb19eac2a27eff9291dd111155365e850e359b8e62e93eabd6343b75bcb80089542ad2b810a7339731eae8f6",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/t2Qq4v3b/DeepslateInstamine_mc1.19.2-2.2_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.19.2-2.2_release-fabric.jar",
+          "primary": true,
+          "size": 24099
         }
       ],
       "dependencies": [
         {
           "project_id": "lhGA9TYQ",
-          "version_id": "NxbWyaxs",
+          "version_id": "HoIJp48v",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "S8Ciw5lC",
+      "id": "tXj4zpoH",
       "name": "Deepslate Instamine",
-      "version_number": "2.0_release_fabric_1.19",
+      "version_number": "2.2_release_fabric_1.19",
       "game_versions": [
         "1.19"
       ],
@@ -2399,11 +2263,11 @@
       ],
       "files": [
         {
-          "sha512": "e805fb6e3bf7808400ef9b7a77e5234a22102fa0d6fe42b779cea00db9bc1b16d76274f48dfb9a03df1518f2ce2c05e917fdfab3dbf88e15fce3c8c75a7d604a",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.0_release_fabric_1.19/DeepslateInstamine_mc1.19-2.0_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.19-2.0_release-fabric.jar",
+          "sha512": "68a34d3b05037660b5b576d40e99a6b43f2a4cce13f259a85b392582f5ad0e955d07cdfec000d77e00f755cb082a3558cc46db6b2fad8052bea6adc990b4a260",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/tXj4zpoH/DeepslateInstamine_mc1.19-2.2_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.19-2.2_release-fabric.jar",
           "primary": true,
-          "size": 22649
+          "size": 24082
         }
       ],
       "dependencies": [
@@ -2422,6 +2286,278 @@
         {
           "project_id": "lhGA9TYQ",
           "version_id": "cysqWrDN",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "uZB4SB5n",
+      "name": "Deepslate Instamine",
+      "version_number": "2.3_release_forge_1.19.3",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8d12c9d8c9fd9edfd7148d01078da51b0ce4864cb48792f30c4333c81cabae899aeed0f8108b62365ba1a46c80ac16f6a093a29877ada4e6dcddd8da4e7016fe",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/uZB4SB5n/DeepslateInstamine_mc1.19.3-2.3_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.19.3-2.3_release-forge.jar",
+          "primary": true,
+          "size": 23785
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "lReYANwU",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "vAQw0aTc",
+      "name": "Deepslate Instamine",
+      "version_number": "2.0_release_fabric_1.17.1",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9a90d9ed4f06d765db2f75a7c35cc4090f027b6320dfe9a5e286b96bf2f9fb34203f4dba8fa850d3d991efb92a12913a56bea76be76e9eb438a54913537bf1a5",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.0_release_fabric_1.17.1/DeepslateInstamine_mc1.17.1-2.0_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.17.1-2.0_release-fabric.jar",
+          "primary": true,
+          "size": 22774
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "7kh2ofyR",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "wapUe52R",
+      "name": "Deepslate Instamine",
+      "version_number": "2.0_release_forge_1.17.1",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "3e8dc72165e72f7023345ce13d5fc3d18a39e0638c876b79c488e38d04022c0acca4e2293088f4f6b6513bbc7325022ac6ec4656221f43e734392bf54d5f14ee",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.0_release_forge_1.17.1/DeepslateInstamine_mc1.17.1-2.0_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.17.1-2.0_release-forge.jar",
+          "primary": true,
+          "size": 22640
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "x5zrjRnS",
+      "name": "1.5.1",
+      "version_number": "1.5.1",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5944bbb700a788aedc090c86c7865aa99f43b174698f6d340b1b63398b9b29c2f7aa22ae6777236e3488555d0b68ecc323440ef8fdf63241c9aeeea8c816cf5f",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/1.5.1/deepslateinstamine_forge_mc1.19-1.5.1.jar",
+          "filename": "deepslateinstamine_forge_mc1.19-1.5.1.jar",
+          "primary": true,
+          "size": 10956
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "NxbWyaxs",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "xTsU8nAJ",
+      "name": "v2.4release fabric 1.18.1",
+      "version_number": "2.4_release_fabric_1.18.1",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e5096895ae930696611415cb2f986ce3c29132cea203c7cdf0c08bb8b9ec8d30212ff258ecb4755c82a9d7418e973549a6cc793f2663d898aac3296f4c56ba4c",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/xTsU8nAJ/DeepslateInstamine_mc1.18.1-2.4_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.18.1-2.4_release-fabric.jar",
+          "primary": true,
+          "size": 26557
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "468H7PSo",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eueI9czw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "kbtdliUm",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "xpBjpIlX",
+      "name": "v2.4release fabric 1.18.2",
+      "version_number": "2.4_release_fabric_1.18.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "826549629f3be50f2626fedb7a759bbc2dd02f923f6b3c01b5c20b530cce321cc46c41fa72a7cca1287975ff4033e1a2302224bd537b817c7964c07ac8466958",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/xpBjpIlX/DeepslateInstamine_mc1.18.2-2.4_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.18.2-2.4_release-fabric.jar",
+          "primary": true,
+          "size": 26412
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "j5zDzQqi",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "xpcEYStj",
+      "name": "v2.4release fabric 1.19.2",
+      "version_number": "2.4_release_fabric_1.19.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "6e5c56ab3c73ffd9ffad71b7ee772329e5eb67672ad09d004126e3bf85af26962289be3ca0e48e34f9de39e614dc4fe50a63fd5edd82e0cb271b80628bbd88db",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/xpcEYStj/DeepslateInstamine_mc1.19.2-2.4_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.19.2-2.4_release-fabric.jar",
+          "primary": true,
+          "size": 26409
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "HoIJp48v",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "y1h3Jc1y",
+      "name": "Deepslate Instamine 2.5 neoforge mc1.21",
+      "version_number": "2.5",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "4dca9a975d2eafc5d073306ce267cf7ef912212e42f97995aeaed706e936a589002f0427f36b229f6930f870ff287d5700b9630ac71bacb225148f1e6e04c536",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/y1h3Jc1y/DeepslateInstamine-neoforge-2.5_release_mc1.21.jar",
+          "filename": "DeepslateInstamine-neoforge-2.5_release_mc1.21.jar",
+          "primary": true,
+          "size": 25775
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -2456,185 +2592,9 @@
       ]
     },
     {
-      "id": "ToubjF3R",
+      "id": "yRfoC7zC",
       "name": "Deepslate Instamine",
-      "version_number": "2.0_release_fabric_1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a6ed8952362c781a571914e0a76f08505b14040e1d72e9552eda5b98df6e6cf74341c3ec9f5cbe62f3eaaa1a28ad98b7b938ae3af97e40e040405f27f3062e5d",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.0_release_fabric_1.18.2/DeepslateInstamine_mc1.18.2-2.0_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.18.2-2.0_release-fabric.jar",
-          "primary": true,
-          "size": 22671
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "nVxObSbX",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "j5zDzQqi",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "V4J7GHwu",
-      "name": "Deepslate Instamine",
-      "version_number": "2.0_release_forge_1.18.1",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "ee66e8e9bc81f4aa4c8dccda2232ddc374ae0cf0eabda200875c483a7d7fa10b90a4befa22fadca51c955d0090205b59d87af2fcf45d3334d94a1efe1c3fb842",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.0_release_forge_1.18.1/DeepslateInstamine_mc1.18.1-2.0_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.18.1-2.0_release-forge.jar",
-          "primary": true,
-          "size": 22632
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Y3HKyV0b",
-      "name": "Deepslate Instamine",
-      "version_number": "2.0_release_fabric_1.18.1",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2429f5e9fe9e190536af6f176b3fd0d3d12c8882c7055948927b92f72d08daa8632bed2f127e1b523e234ba3f6bf7103eea61e2b54f0598aab9fea5fb00dbf27",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.0_release_fabric_1.18.1/DeepslateInstamine_mc1.18.1-2.0_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.18.1-2.0_release-fabric.jar",
-          "primary": true,
-          "size": 22773
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "wapUe52R",
-      "name": "Deepslate Instamine",
-      "version_number": "2.0_release_forge_1.17.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "3e8dc72165e72f7023345ce13d5fc3d18a39e0638c876b79c488e38d04022c0acca4e2293088f4f6b6513bbc7325022ac6ec4656221f43e734392bf54d5f14ee",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.0_release_forge_1.17.1/DeepslateInstamine_mc1.17.1-2.0_release-forge.jar",
-          "filename": "DeepslateInstamine_mc1.17.1-2.0_release-forge.jar",
-          "primary": true,
-          "size": 22640
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "vAQw0aTc",
-      "name": "Deepslate Instamine",
-      "version_number": "2.0_release_fabric_1.17.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9a90d9ed4f06d765db2f75a7c35cc4090f027b6320dfe9a5e286b96bf2f9fb34203f4dba8fa850d3d991efb92a12913a56bea76be76e9eb438a54913537bf1a5",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.0_release_fabric_1.17.1/DeepslateInstamine_mc1.17.1-2.0_release-fabric.jar",
-          "filename": "DeepslateInstamine_mc1.17.1-2.0_release-fabric.jar",
-          "primary": true,
-          "size": 22774
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "7kh2ofyR",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "x5zrjRnS",
-      "name": "1.5.1",
-      "version_number": "1.5.1",
+      "version_number": "2.0_release_forge_1.19",
       "game_versions": [
         "1.19"
       ],
@@ -2643,17 +2603,57 @@
       ],
       "files": [
         {
-          "sha512": "5944bbb700a788aedc090c86c7865aa99f43b174698f6d340b1b63398b9b29c2f7aa22ae6777236e3488555d0b68ecc323440ef8fdf63241c9aeeea8c816cf5f",
-          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/1.5.1/deepslateinstamine_forge_mc1.19-1.5.1.jar",
-          "filename": "deepslateinstamine_forge_mc1.19-1.5.1.jar",
+          "sha512": "67dc76d6556869f60147ecfef28e66de8c725714639f04703d01939faa0ab2bfce2360e7b286b9e62b4d2195c59d421784e1bcd153f67c044001673e629530d2",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/2.0_release_forge_1.19/DeepslateInstamine_mc1.19-2.0_release-forge.jar",
+          "filename": "DeepslateInstamine_mc1.19-2.0_release-forge.jar",
           "primary": true,
-          "size": 10956
+          "size": 22527
         }
       ],
       "dependencies": [
         {
           "project_id": "lhGA9TYQ",
           "version_id": "NxbWyaxs",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "zb1WwKvm",
+      "name": "v2.4release fabric 1.17.1",
+      "version_number": "2.4_release_fabric_1.17.1",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2ced740e60ec0bb349ae223e7ff5af67e43bb74e06db37c69348776c56870de4c089fb973e9fcfc90c5ec51f5fb19bb205d8f182561191c24f36e473d24dfd84",
+          "url": "https://cdn.modrinth.com/data/g7kBNY9K/versions/zb1WwKvm/DeepslateInstamine_mc1.17.1-2.4_release-fabric.jar",
+          "filename": "DeepslateInstamine_mc1.17.1-2.4_release-fabric.jar",
+          "primary": true,
+          "size": 26552
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "31ES0yWr",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "7kh2ofyR",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "yekAuTSi",
           "file_name": null,
           "dependency_type": "required"
         }

@@ -5,11 +5,14 @@
   "description": "Particle optimizations: Culling, rendering optimizations, configurable particle-type-specific spawn reduction, and potion particle disabling. Compatible with Sodium, improves performance over Sodium alone.",
   "versions": [
     {
-      "id": "gwTMXpFg",
-      "name": "particle_core-0.2.3+1.21",
-      "version_number": "0.2.3+1.21",
+      "id": "9z36MA5Z",
+      "name": "Particle Core 0.1.0+1.20",
+      "version_number": "0.1.0+1.20",
       "game_versions": [
-        "1.21"
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.4"
       ],
       "loaders": [
         "fabric",
@@ -17,11 +20,11 @@
       ],
       "files": [
         {
-          "sha512": "407566f1e551f8093b87e913d71123a5dfc2a54d75be5513481c2ce84183e19c5616b7f5b6b451651f3614a12259d4d9a2f8add94fd756d604dc563a3d995625",
-          "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/gwTMXpFg/particle_core-0.2.3%2B1.21.jar",
-          "filename": "particle_core-0.2.3+1.21.jar",
+          "sha512": "f798cf254972321ccb7c2160042068e173ebef64738d9dbb061882305157aa3a3a8cb29ae215afb70d1aac8659891e2eb8cc326f48c7c87f78ea004ac645a7cb",
+          "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/9z36MA5Z/particle_core-0.1.0%2B1.20.jar",
+          "filename": "particle_core-0.1.0+1.20.jar",
           "primary": true,
-          "size": 92844
+          "size": 274168
         }
       ],
       "dependencies": [
@@ -33,54 +36,6 @@
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "hYykXjDp",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "t43pierj",
-      "name": "particle_core-0.2.3+1.20.5",
-      "version_number": "0.2.3+1.20.5",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "7a000d0e10b944a007e508ddbaac87d6ea02548cda544ce22d497b26941f7ac6dd3a420b1e1e6083b1bc9d303073a93d877d6c5a747dae52dccd3a8bcbb2ccc3",
-          "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/t43pierj/particle_core-0.2.3%2B1.20.5.jar",
-          "filename": "particle_core-0.2.3+1.20.5.jar",
-          "primary": true,
-          "size": 94548
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "hYykXjDp",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -105,6 +60,166 @@
           "filename": "particle_core-0.2.3+1.20.1.jar",
           "primary": true,
           "size": 94753
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "hYykXjDp",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "UztNGcmd",
+      "name": "Particle Core 0.1.2+1.20",
+      "version_number": "0.1.2+1.20",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "954a68cc61eef097afb04795e0a6588937873e9e057b17d55c78943b4056450c24d80c1c05d5b7e06fb8e569581c4dccd25df9393cb9ac2e3899f71650fb78e1",
+          "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/UztNGcmd/particle_core-0.1.2%2B1.20.jar",
+          "filename": "particle_core-0.1.2+1.20.jar",
+          "primary": true,
+          "size": 278345
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "cOoFD9Pm",
+      "name": "Particle Core 0.2.0+1.20",
+      "version_number": "0.2.0+1.20",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "929fe8460d641cba6f12cd192fb0b15d8cd0ad7595672fc9f6be6ffe077e29135f53ba1a5053da6eff6c28ef8dff2407897120bc3779c17612393539f2d705c4",
+          "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/cOoFD9Pm/particle_core-0.2.0%2B1.20.jar",
+          "filename": "particle_core-0.2.0+1.20.jar",
+          "primary": true,
+          "size": 1175307
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "hYykXjDp",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "efRnEmNA",
+      "name": "Particle Core 0.1.1+1.20",
+      "version_number": "0.1.1+1.20",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "cc02b17787ac8abced346c3fa167b11427883830a6c18083b9b6349705b569baf9388de97c8e26d999e999adb2dba9a2c275be65cc3aad841dea5dc3a033409f",
+          "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/efRnEmNA/particle_core-0.1.1%2B1.20.jar",
+          "filename": "particle_core-0.1.1+1.20.jar",
+          "primary": true,
+          "size": 274646
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "gwTMXpFg",
+      "name": "particle_core-0.2.3+1.21",
+      "version_number": "0.2.3+1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "407566f1e551f8093b87e913d71123a5dfc2a54d75be5513481c2ce84183e19c5616b7f5b6b451651f3614a12259d4d9a2f8add94fd756d604dc563a3d995625",
+          "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/gwTMXpFg/particle_core-0.2.3%2B1.21.jar",
+          "filename": "particle_core-0.2.3+1.21.jar",
+          "primary": true,
+          "size": 92844
         }
       ],
       "dependencies": [
@@ -170,6 +285,47 @@
       ]
     },
     {
+      "id": "pB8sWtic",
+      "name": "Particle Core 0.2.1+1.20.1",
+      "version_number": "0.2.1+1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "ad09461995d0415a75074b2cf7dfbee54e7c3e6f264e3716385822ac27a72febfd9fb428f840a5d59e3385d74dc2757fbf91f8f0e307e82c3b16a4ede0522b9b",
+          "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/pB8sWtic/particle_core-0.2.1%2B1.20.1.jar",
+          "filename": "particle_core-0.2.1+1.20.1.jar",
+          "primary": true,
+          "size": 1174274
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "hYykXjDp",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "pDQVsFHF",
       "name": "Particle Core 0.2.2+1.20.1",
       "version_number": "0.2.2+1.20.1",
@@ -210,11 +366,12 @@
       ]
     },
     {
-      "id": "pB8sWtic",
-      "name": "Particle Core 0.2.1+1.20.1",
-      "version_number": "0.2.1+1.20.1",
+      "id": "t43pierj",
+      "name": "particle_core-0.2.3+1.20.5",
+      "version_number": "0.2.3+1.20.5",
       "game_versions": [
-        "1.20.1"
+        "1.20.5",
+        "1.20.6"
       ],
       "loaders": [
         "fabric",
@@ -222,56 +379,20 @@
       ],
       "files": [
         {
-          "sha512": "ad09461995d0415a75074b2cf7dfbee54e7c3e6f264e3716385822ac27a72febfd9fb428f840a5d59e3385d74dc2757fbf91f8f0e307e82c3b16a4ede0522b9b",
-          "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/pB8sWtic/particle_core-0.2.1%2B1.20.1.jar",
-          "filename": "particle_core-0.2.1+1.20.1.jar",
+          "sha512": "7a000d0e10b944a007e508ddbaac87d6ea02548cda544ce22d497b26941f7ac6dd3a420b1e1e6083b1bc9d303073a93d877d6c5a747dae52dccd3a8bcbb2ccc3",
+          "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/t43pierj/particle_core-0.2.3%2B1.20.5.jar",
+          "filename": "particle_core-0.2.3+1.20.5.jar",
           "primary": true,
-          "size": 1174274
+          "size": 94548
         }
       ],
       "dependencies": [
-        {
-          "project_id": "hYykXjDp",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "Ha28R6CL",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "cOoFD9Pm",
-      "name": "Particle Core 0.2.0+1.20",
-      "version_number": "0.2.0+1.20",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "929fe8460d641cba6f12cd192fb0b15d8cd0ad7595672fc9f6be6ffe077e29135f53ba1a5053da6eff6c28ef8dff2407897120bc3779c17612393539f2d705c4",
-          "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/cOoFD9Pm/particle_core-0.2.0%2B1.20.jar",
-          "filename": "particle_core-0.2.0+1.20.jar",
-          "primary": true,
-          "size": 1175307
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
@@ -280,127 +401,6 @@
         },
         {
           "project_id": "hYykXjDp",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "UztNGcmd",
-      "name": "Particle Core 0.1.2+1.20",
-      "version_number": "0.1.2+1.20",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "954a68cc61eef097afb04795e0a6588937873e9e057b17d55c78943b4056450c24d80c1c05d5b7e06fb8e569581c4dccd25df9393cb9ac2e3899f71650fb78e1",
-          "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/UztNGcmd/particle_core-0.1.2%2B1.20.jar",
-          "filename": "particle_core-0.1.2+1.20.jar",
-          "primary": true,
-          "size": 278345
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "efRnEmNA",
-      "name": "Particle Core 0.1.1+1.20",
-      "version_number": "0.1.1+1.20",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "cc02b17787ac8abced346c3fa167b11427883830a6c18083b9b6349705b569baf9388de97c8e26d999e999adb2dba9a2c275be65cc3aad841dea5dc3a033409f",
-          "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/efRnEmNA/particle_core-0.1.1%2B1.20.jar",
-          "filename": "particle_core-0.1.1+1.20.jar",
-          "primary": true,
-          "size": 274646
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "9z36MA5Z",
-      "name": "Particle Core 0.1.0+1.20",
-      "version_number": "0.1.0+1.20",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f798cf254972321ccb7c2160042068e173ebef64738d9dbb061882305157aa3a3a8cb29ae215afb70d1aac8659891e2eb8cc326f48c7c87f78ea004ac645a7cb",
-          "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/9z36MA5Z/particle_core-0.1.0%2B1.20.jar",
-          "filename": "particle_core-0.1.0+1.20.jar",
-          "primary": true,
-          "size": 274168
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"

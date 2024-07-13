@@ -5,9 +5,55 @@
   "description": "A library mod that exposes KubeJS methods to restrict how players see and interact with blocks.",
   "versions": [
     {
-      "id": "f6Tb9jMt",
-      "name": "[Forge 1.18.2] v1.3.2",
-      "version_number": "1.3.2",
+      "id": "1I6KT8dT",
+      "name": "[Fabric 1.19.2] v1.5.1",
+      "version_number": "1.5.1",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ef59efc2eb2e326065d0826d480d09a6238bc0d372fa9b0e4953902cec41df0d6a7d16a205f5664c29a72a073109ea879f7afce50551cf1a5c792cc940fc27f3",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/1I6KT8dT/block-skills-1.19.2-1.5.1.jar",
+          "filename": "block-skills-1.19.2-1.5.1.jar",
+          "primary": true,
+          "size": 171243
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "5PkPvcW6",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "HoIJp48v",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "vJN7ABRP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "umyGl7zF",
+          "version_id": "yipsDsjO",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "3NhCUQFl",
+      "name": "[Forge 1.18.2] v1.1.0",
+      "version_number": "1.1.0",
       "game_versions": [
         "1.18.2"
       ],
@@ -16,14 +62,20 @@
       ],
       "files": [
         {
-          "sha512": "f8e2d0e5e8f26498bf8b9d0d98ba98f05c1a147b671d9f1367940c27f75928b3be5e6b04c16ae251ddc0b0a580ec4fb079290f4af260a422aca32c5dfeca31a8",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/f6Tb9jMt/block-skills-1.18.2-1.3.2.jar",
-          "filename": "block-skills-1.18.2-1.3.2.jar",
+          "sha512": "8eb6b3af0a85763ba152645defa19ff09a68a6da13d2620e391d7d8467b1d2d4759179e59974fbad97359ee67c34ab6b41263b05a13beba8fb39888bac3c83bd",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/3NhCUQFl/block-skills-1.18.2-1.1.0.jar",
+          "filename": "block-skills-1.18.2-1.1.0.jar",
           "primary": true,
-          "size": 172845
+          "size": 165470
         }
       ],
       "dependencies": [
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "LqJOOLlu",
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "umyGl7zF",
           "version_id": null,
@@ -35,110 +87,6 @@
           "version_id": "o069zrDa",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "LqJOOLlu",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "vJN7ABRP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "kaVDxddH",
-      "name": "[Fabric 1.18.2] v1.3.2",
-      "version_number": "1.3.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "96ae15009806d0738beb885ac3c3257757c29e85e0eb5a2398a6b72b32d1380075000cb1d82cac1916056028eb4cabfe96979f789decd7382f1ff649540dfb33",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/kaVDxddH/block-skills-1.18.2-1.3.2.jar",
-          "filename": "block-skills-1.18.2-1.3.2.jar",
-          "primary": true,
-          "size": 171310
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "sStHmpPo",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "umyGl7zF",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "j5zDzQqi",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "vJN7ABRP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ZGoBmjIT",
-      "name": "[Forge 1.19.2] v1.5.2",
-      "version_number": "1.5.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "c4e117fc97ecfb3fb6995fbdcd9c4e88f81042814f5ad4905acbc5a190f750eba9013acf56424f0a9ece5ab1e633fb07178fd4b9b462760f909457b8ef2fd779",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/ZGoBmjIT/block-skills-1.19.2-1.5.2.jar",
-          "filename": "block-skills-1.19.2-1.5.2.jar",
-          "primary": true,
-          "size": 172743
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vJN7ABRP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "gpts9nnC",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "ns7Xs1B6",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "umyGl7zF",
-          "version_id": "YUEUsB7q",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -163,97 +111,11 @@
       ],
       "dependencies": [
         {
-          "project_id": "umyGl7zF",
-          "version_id": "yipsDsjO",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "rQf7vUve",
           "version_id": "5PkPvcW6",
           "file_name": null,
           "dependency_type": "required"
         },
-        {
-          "project_id": "vJN7ABRP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "HoIJp48v",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "uU6qpxJt",
-      "name": "[Forge 1.19.2] v1.5.1",
-      "version_number": "1.5.1",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "955c60c694c6ddbd27008f1899fcfd1edac61dc2487f62666f91c32cf5b27de6f1dab3c8246610b557eb034ebb6cbf8efccebdf52d271c04781c3dbb4d614361",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/uU6qpxJt/block-skills-1.19.2-1.5.1.jar",
-          "filename": "block-skills-1.19.2-1.5.1.jar",
-          "primary": true,
-          "size": 172741
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "ns7Xs1B6",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "vJN7ABRP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "umyGl7zF",
-          "version_id": "YUEUsB7q",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "gpts9nnC",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "1I6KT8dT",
-      "name": "[Fabric 1.19.2] v1.5.1",
-      "version_number": "1.5.1",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ef59efc2eb2e326065d0826d480d09a6238bc0d372fa9b0e4953902cec41df0d6a7d16a205f5664c29a72a073109ea879f7afce50551cf1a5c792cc940fc27f3",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/1I6KT8dT/block-skills-1.19.2-1.5.1.jar",
-          "filename": "block-skills-1.19.2-1.5.1.jar",
-          "primary": true,
-          "size": 171243
-        }
-      ],
-      "dependencies": [
         {
           "project_id": "lhGA9TYQ",
           "version_id": "HoIJp48v",
@@ -261,252 +123,45 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "rQf7vUve",
-          "version_id": "5PkPvcW6",
+          "project_id": "vJN7ABRP",
+          "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         },
         {
           "project_id": "umyGl7zF",
           "version_id": "yipsDsjO",
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "vJN7ABRP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "JF8h9BJ6",
-      "name": "[Forge 1.18.2] v1.3.1",
-      "version_number": "1.3.1",
+      "id": "7iuyVrRw",
+      "name": "1.1.0",
+      "version_number": "1.1.0",
       "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "080849e1976f809be1bf78b5183ed3add91004634d2254500171c7a174c03f977a952b309e309a4d63b0f5effeac3d668ff1f1a47677a5409bff9c77f12b6085",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/JF8h9BJ6/block-skills-1.18.2-1.3.1.jar",
-          "filename": "block-skills-1.18.2-1.3.1.jar",
-          "primary": true,
-          "size": 172840
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "umyGl7zF",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "vJN7ABRP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "o069zrDa",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "LqJOOLlu",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Jj64zjSW",
-      "name": "[Fabric 1.18.2] v1.3.1",
-      "version_number": "1.3.1",
-      "game_versions": [
-        "1.18.2"
+        "1.19.2",
+        "1.19.3"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "30a7b6f63eaf5bc79cbe83db56f90a00241192926992897a09409ac985e0aca9e30a747e14da7d05e7adbe57171e04020b6dbf8b752f67ef410710561f2b0d68",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/Jj64zjSW/block-skills-1.18.2-1.3.1.jar",
-          "filename": "block-skills-1.18.2-1.3.1.jar",
+          "sha512": "f200ced88d2868743850361992ecb2b0e39882b09729ff1dd3cfa2f833bcbc86b45aac62c378727dad12b5f973a581ae834fc7c77fe1a89e9a0c44e7cc747f33",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/7iuyVrRw/block-skills-1.19.2-1.1.0-fabric.jar",
+          "filename": "block-skills-1.19.2-1.1.0-fabric.jar",
           "primary": true,
-          "size": 171301
+          "size": 163498
         }
       ],
       "dependencies": [
         {
-          "project_id": "umyGl7zF",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "sStHmpPo",
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "vJN7ABRP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "j5zDzQqi",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "yWrtzUN6",
-      "name": "[Forge 1.18.2] v1.3.0",
-      "version_number": "1.3.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "d9153678f0b3dd9666fb249090bb921f99c855243b1f95b460245129f6adecc0ed95f4c83f0a9b92e06bf63824d2282d47eee2ffda54a81211ec9e8cb603d9c9",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/yWrtzUN6/block-skills-1.18.2-1.3.0.jar",
-          "filename": "block-skills-1.18.2-1.3.0.jar",
-          "primary": true,
-          "size": 172838
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "LqJOOLlu",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "umyGl7zF",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "o069zrDa",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "vJN7ABRP",
-          "version_id": "ZGxESWMC",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "f94YVRak",
-      "name": "[Fabric 1.18.2] v1.3.0",
-      "version_number": "1.3.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "706c569db94f91d3ab6f8a942c9c6cde206e8ecf788873c392f13552ecfcb9218affd0736156f0cd723ca48f844b38f81cca6bc1b6d384252fec9b942ae02cc9",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/f94YVRak/block-skills-1.18.2-1.3.0.jar",
-          "filename": "block-skills-1.18.2-1.3.0.jar",
-          "primary": true,
-          "size": 171305
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vJN7ABRP",
-          "version_id": "7PbP9jkm",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "j5zDzQqi",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "umyGl7zF",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "sStHmpPo",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "qqrZgSv9",
-      "name": "[Forge 1.19.2] v1.5.0",
-      "version_number": "1.5.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "df94f1fbbe62bcc38929eaa36999df201e3997488ee789274f6f353837a661d15b57dd9033d33f22b10425acfffbed007eff443e7e3baeb90fdc1a3d161620bd",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/qqrZgSv9/block-skills-1.19.2-1.5.0.jar",
-          "filename": "block-skills-1.19.2-1.5.0.jar",
-          "primary": true,
-          "size": 172743
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "gpts9nnC",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "umyGl7zF",
-          "version_id": "YUEUsB7q",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "ns7Xs1B6",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "vJN7ABRP",
-          "version_id": "S2dgMJbR",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -531,118 +186,26 @@
       ],
       "dependencies": [
         {
-          "project_id": "rQf7vUve",
-          "version_id": "5PkPvcW6",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "vJN7ABRP",
           "version_id": "1GJnLvYc",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
-          "project_id": "umyGl7zF",
-          "version_id": "yipsDsjO",
+          "project_id": "rQf7vUve",
+          "version_id": "5PkPvcW6",
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         },
         {
           "project_id": "lhGA9TYQ",
           "version_id": "HoIJp48v",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "e2h9VlMF",
-      "name": "[Forge 1.18.2] v1.2.0",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "32c3a724a1fc4c5674be28e23d56cc2f0e022bf5508d592ed9eaff637e1f021701e849790b3a1ee37277a2fc6d177c3250f8f50903af850f94ef7513f57170ac",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/e2h9VlMF/block-skills-1.18.2-1.2.0.jar",
-          "filename": "block-skills-1.18.2-1.2.0.jar",
-          "primary": true,
-          "size": 169579
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "umyGl7zF",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "o069zrDa",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "LqJOOLlu",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "vJN7ABRP",
-          "version_id": "ZGxESWMC",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "oqQD8XsT",
-      "name": "[Fabric 1.18.2] v1.2.0",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "151e77160accf504e1d1ceb54aa8e8ffec3be0d2894edf75ccdf67f1988f1b9b8d5beba2e060ab0fced3cb4d82e6613ce7e2f15016ca7f64f1272439167709fb",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/oqQD8XsT/block-skills-1.18.2-1.2.0.jar",
-          "filename": "block-skills-1.18.2-1.2.0.jar",
-          "primary": true,
-          "size": 168128
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "j5zDzQqi",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "sStHmpPo",
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "umyGl7zF",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "vJN7ABRP",
-          "version_id": "7PbP9jkm",
+          "version_id": "yipsDsjO",
           "file_name": null,
           "dependency_type": "optional"
         }
@@ -669,12 +232,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "vJN7ABRP",
           "version_id": "1GJnLvYc",
           "file_name": null,
@@ -687,142 +244,10 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "umyGl7zF",
-          "version_id": "yipsDsjO",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "lhGA9TYQ",
           "version_id": "HoIJp48v",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "EvJhTbYh",
-      "name": "[Forge 1.19.2] v1.4.0",
-      "version_number": "1.4.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "beab98446aeb20fb02d2726a115db6935341d7c99faae0d035fd62387efe5ed61bff1ac67be70e24997531a1c40428118ad2633e402d69314e3fc8088c9c033c",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/EvJhTbYh/block-skills-1.19.2-1.4.0.jar",
-          "filename": "block-skills-1.19.2-1.4.0.jar",
-          "primary": true,
-          "size": 169467
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "gpts9nnC",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "umyGl7zF",
-          "version_id": "YUEUsB7q",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "vJN7ABRP",
-          "version_id": "S2dgMJbR",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "ns7Xs1B6",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "jF1KfD19",
-      "name": "[Forge 1.19.2] v1.3.0",
-      "version_number": "1.3.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "c5fbf38e5e92272fd4da8f682482de8deda8529c7123ee8c277be60fa9b5b145c41365458bc95ac775580c0dd6b937f347a02471fe0054196f7b6879db316cba",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/jF1KfD19/block-skills-1.19.2-1.3.0.jar",
-          "filename": "block-skills-1.19.2-1.3.0.jar",
-          "primary": true,
-          "size": 165529
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "gpts9nnC",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "vJN7ABRP",
-          "version_id": "S2dgMJbR",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "umyGl7zF",
-          "version_id": "YUEUsB7q",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "ns7Xs1B6",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "kTr36BGN",
-      "name": "[Fabric 1.19.2] v1.3.0",
-      "version_number": "1.3.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "46964a98c227a321b62541cc40abd2d070b5006203fb29ee411413af00ba24b7ff6336f1570c19dc38adada53da05500b089216d76c31ad19bf2fca0daff615d",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/kTr36BGN/block-skills-1.19.2-1.3.0.jar",
-          "filename": "block-skills-1.19.2-1.3.0.jar",
-          "primary": true,
-          "size": 164527
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vJN7ABRP",
-          "version_id": "1GJnLvYc",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "umyGl7zF",
-          "version_id": "yipsDsjO",
-          "file_name": null,
-          "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
@@ -831,54 +256,8 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "rQf7vUve",
-          "version_id": "5PkPvcW6",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "HoIJp48v",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "3NhCUQFl",
-      "name": "[Forge 1.18.2] v1.1.0",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "8eb6b3af0a85763ba152645defa19ff09a68a6da13d2620e391d7d8467b1d2d4759179e59974fbad97359ee67c34ab6b41263b05a13beba8fb39888bac3c83bd",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/3NhCUQFl/block-skills-1.18.2-1.1.0.jar",
-          "filename": "block-skills-1.18.2-1.1.0.jar",
-          "primary": true,
-          "size": 165470
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "o069zrDa",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "LqJOOLlu",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "umyGl7zF",
-          "version_id": null,
+          "version_id": "yipsDsjO",
           "file_name": null,
           "dependency_type": "optional"
         }
@@ -905,172 +284,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "lhGA9TYQ",
-          "version_id": "j5zDzQqi",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "umyGl7zF",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "sStHmpPo",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "xFMFlQUC",
-      "name": "[Forge 1.19.2] v1.2.0",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "182c7eda2cac929293533b1b4e03ff0796104e464cb868772bbf522acf637d8dee4a619960c915189f4d9e2858d2b7fa5a99e151fefc75bf114788fcaf261b5d",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/xFMFlQUC/block-skills-1.19.2-1.2.0.jar",
-          "filename": "block-skills-1.19.2-1.2.0.jar",
-          "primary": true,
-          "size": 165756
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "gpts9nnC",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "ns7Xs1B6",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "umyGl7zF",
-          "version_id": "YUEUsB7q",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "s1y0s3Mt",
-      "name": "[Fabric 1.19.2] v1.2.0",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "59f8e27e5933be250ae1b722dd40410c767cae6e9e09bfb6d9fb421bbf3684b702974ea099dbde8410d345510c2780b66c80e046e3c2c0f801ebe091ff071779",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/s1y0s3Mt/block-skills-1.19.2-1.2.0.jar",
-          "filename": "block-skills-1.19.2-1.2.0.jar",
-          "primary": true,
-          "size": 164735
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "5PkPvcW6",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "umyGl7zF",
-          "version_id": "yipsDsjO",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "HoIJp48v",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "jRkzQfDG",
-      "name": "[Forge 1.18.2] v1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "864fb6ffcb4e368ca5f3fe38593ba1c420a37757cbd3579e035016c9867094666949ba3e3ec4501ba50ee3db1beb52449c174455411d74cd527bd79f062ccae2",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/jRkzQfDG/block-skills-1.18.2-1.0.0.jar",
-          "filename": "block-skills-1.18.2-1.0.0.jar",
-          "primary": true,
-          "size": 164022
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "o069zrDa",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "umyGl7zF",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "LqJOOLlu",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "YbCvvV0z",
-      "name": "[Fabric 1.18.2] v1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d46bea51cb059e0db270752e8db53b0003866b3476b08415dc0e7215fafa77f32b2812ca522cbd49918eca0187f21188e6919abc871f895820a1798545f1cab7",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/YbCvvV0z/block-skills-1.18.2-1.0.0.jar",
-          "filename": "block-skills-1.18.2-1.0.0.jar",
-          "primary": true,
-          "size": 163046
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "sStHmpPo",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "umyGl7zF",
           "version_id": null,
           "file_name": null,
@@ -1081,135 +294,10 @@
           "version_id": "j5zDzQqi",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "e3cN4nYN",
-      "name": "[Forge 1.19.2] v1.1.3",
-      "version_number": "1.1.3",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "732cba1d3cd1e7f4d5a494344f6d8858e27412ff6d0a8e1b332508a9197b8a2f8f40976ea5a2318e2c701cec77c7b280899b65dc7923d9cf6bb7a1b0b48f3abb",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/e3cN4nYN/block-skills-1.19.2-1.1.3.jar",
-          "filename": "block-skills-1.19.2-1.1.3.jar",
-          "primary": true,
-          "size": 164483
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "umyGl7zF",
-          "version_id": "YUEUsB7q",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "ns7Xs1B6",
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "rQf7vUve",
-          "version_id": "gpts9nnC",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "TApi3ef0",
-      "name": "[Fabric 1.19.2] v1.1.3",
-      "version_number": "1.1.3",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4854a1dfffb20497bb09d0130f9056fe6092c7adc237216c345e4d721d1e5a21ec81142874f4d9ebf4a7fd4a16262122571b9f309ab75e46d48f59beeee1e059",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/TApi3ef0/block-skills-1.19.2-1.1.3.jar",
-          "filename": "block-skills-1.19.2-1.1.3.jar",
-          "primary": true,
-          "size": 163486
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "rQf7vUve",
-          "version_id": "5PkPvcW6",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "umyGl7zF",
-          "version_id": "yipsDsjO",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "HoIJp48v",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "htFL2fLE",
-      "name": "1.1.2",
-      "version_number": "1.1.2",
-      "game_versions": [
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "617db12cbe47aa3f0b63b6bcc112edda0102d0b0ce37678fa3f2ae941ab709c7137524e5576b3e396a312c8664495222d2cd55a5bca562d256594df9e432bb08",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/htFL2fLE/block-skills-1.19.2-1.1.2-forge.jar",
-          "filename": "block-skills-1.19.2-1.1.2-forge.jar",
-          "primary": true,
-          "size": 165030
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "JVnsyBAi",
-      "name": "1.1.2",
-      "version_number": "1.1.2",
-      "game_versions": [
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0090e99c5d96065d6791f13d746886d16f79ad728a740a8d00fc11af2646846e3cddedaddd4a36bd4ae6da762becf40985c31f7d1638304215db88fb6b2a4818",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/JVnsyBAi/block-skills-1.19.2-1.1.2-fabric.jar",
-          "filename": "block-skills-1.19.2-1.1.2-fabric.jar",
-          "primary": true,
-          "size": 164035
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "V7gqra8F",
+          "version_id": "sStHmpPo",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -1238,35 +326,6 @@
       "dependencies": []
     },
     {
-      "id": "fe4MAeYK",
-      "name": "1.1.1",
-      "version_number": "1.1.1",
-      "game_versions": [
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "85a9754392f3faf4210454d1a99782c5912ab5c19c06ff1769b89e7b9df53cf74f1895dcea345af0e9846c56f7232771abf7c1e7c9bed684d4c32debd954a0a1",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/fe4MAeYK/block-skills-1.19.2-1.1.1-fabric.jar",
-          "filename": "block-skills-1.19.2-1.1.1-fabric.jar",
-          "primary": true,
-          "size": 164035
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "E4cbCFpn",
       "name": "1.1.0",
       "version_number": "1.1.0",
@@ -1289,29 +348,46 @@
       "dependencies": []
     },
     {
-      "id": "7iuyVrRw",
-      "name": "1.1.0",
-      "version_number": "1.1.0",
+      "id": "EvJhTbYh",
+      "name": "[Forge 1.19.2] v1.4.0",
+      "version_number": "1.4.0",
       "game_versions": [
-        "1.19.2",
-        "1.19.3"
+        "1.19.2"
       ],
       "loaders": [
-        "fabric"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "f200ced88d2868743850361992ecb2b0e39882b09729ff1dd3cfa2f833bcbc86b45aac62c378727dad12b5f973a581ae834fc7c77fe1a89e9a0c44e7cc747f33",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/7iuyVrRw/block-skills-1.19.2-1.1.0-fabric.jar",
-          "filename": "block-skills-1.19.2-1.1.0-fabric.jar",
+          "sha512": "beab98446aeb20fb02d2726a115db6935341d7c99faae0d035fd62387efe5ed61bff1ac67be70e24997531a1c40428118ad2633e402d69314e3fc8088c9c033c",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/EvJhTbYh/block-skills-1.19.2-1.4.0.jar",
+          "filename": "block-skills-1.19.2-1.4.0.jar",
           "primary": true,
-          "size": 163498
+          "size": 169467
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
+          "project_id": "vJN7ABRP",
+          "version_id": "S2dgMJbR",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "umyGl7zF",
+          "version_id": "YUEUsB7q",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "gpts9nnC",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "ns7Xs1B6",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -1347,48 +423,125 @@
       ]
     },
     {
-      "id": "RSo7e5Tc",
-      "name": "1.0.1",
-      "version_number": "1.0.1",
+      "id": "JF8h9BJ6",
+      "name": "[Forge 1.18.2] v1.3.1",
+      "version_number": "1.3.1",
       "game_versions": [
-        "1.19.2",
-        "1.19.3"
+        "1.18.2"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "3f2fab67643ffe71a12e2843ed89c0d2af9a4de3544ef54563d8588673e8f2aecf8e182f780a0e2977a226cd7946c71630bf3eaff6f2f4b9a3e3af9ca63828b3",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/RSo7e5Tc/block-skills-1.19.2-1.0.1-forge.jar",
-          "filename": "block-skills-1.19.2-1.0.1-forge.jar",
+          "sha512": "080849e1976f809be1bf78b5183ed3add91004634d2254500171c7a174c03f977a952b309e309a4d63b0f5effeac3d668ff1f1a47677a5409bff9c77f12b6085",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/JF8h9BJ6/block-skills-1.18.2-1.3.1.jar",
+          "filename": "block-skills-1.18.2-1.3.1.jar",
           "primary": true,
-          "size": 163534
+          "size": 172840
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "LqJOOLlu",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "umyGl7zF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "vJN7ABRP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "o069zrDa",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
-      "id": "WE7ZWkaG",
-      "name": "1.0.0",
-      "version_number": "1.0.0",
+      "id": "JVnsyBAi",
+      "name": "1.1.2",
+      "version_number": "1.1.2",
       "game_versions": [
         "1.19.2",
         "1.19.3"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "f9441cc140b65fd3bfb35cc1fd26ca171fc8aa24b41c1d3506fba744890cca709528e79938c3d88c486fabc2d52950f489a63466a70915b9649246f7bd02e20c",
-          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/WE7ZWkaG/block-skills-1.19.2-1.0.0-forge.jar",
-          "filename": "block-skills-1.19.2-1.0.0-forge.jar",
+          "sha512": "0090e99c5d96065d6791f13d746886d16f79ad728a740a8d00fc11af2646846e3cddedaddd4a36bd4ae6da762becf40985c31f7d1638304215db88fb6b2a4818",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/JVnsyBAi/block-skills-1.19.2-1.1.2-fabric.jar",
+          "filename": "block-skills-1.19.2-1.1.2-fabric.jar",
           "primary": true,
-          "size": 164769
+          "size": 164035
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "V7gqra8F",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Jj64zjSW",
+      "name": "[Fabric 1.18.2] v1.3.1",
+      "version_number": "1.3.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "30a7b6f63eaf5bc79cbe83db56f90a00241192926992897a09409ac985e0aca9e30a747e14da7d05e7adbe57171e04020b6dbf8b752f67ef410710561f2b0d68",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/Jj64zjSW/block-skills-1.18.2-1.3.1.jar",
+          "filename": "block-skills-1.18.2-1.3.1.jar",
+          "primary": true,
+          "size": 171301
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "umyGl7zF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "vJN7ABRP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "j5zDzQqi",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "sStHmpPo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "PKrKZJZg",
@@ -1414,6 +567,853 @@
         {
           "project_id": "P7dR8mSH",
           "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "RSo7e5Tc",
+      "name": "1.0.1",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "3f2fab67643ffe71a12e2843ed89c0d2af9a4de3544ef54563d8588673e8f2aecf8e182f780a0e2977a226cd7946c71630bf3eaff6f2f4b9a3e3af9ca63828b3",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/RSo7e5Tc/block-skills-1.19.2-1.0.1-forge.jar",
+          "filename": "block-skills-1.19.2-1.0.1-forge.jar",
+          "primary": true,
+          "size": 163534
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "TApi3ef0",
+      "name": "[Fabric 1.19.2] v1.1.3",
+      "version_number": "1.1.3",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4854a1dfffb20497bb09d0130f9056fe6092c7adc237216c345e4d721d1e5a21ec81142874f4d9ebf4a7fd4a16262122571b9f309ab75e46d48f59beeee1e059",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/TApi3ef0/block-skills-1.19.2-1.1.3.jar",
+          "filename": "block-skills-1.19.2-1.1.3.jar",
+          "primary": true,
+          "size": 163486
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "5PkPvcW6",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "HoIJp48v",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "umyGl7zF",
+          "version_id": "yipsDsjO",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "WE7ZWkaG",
+      "name": "1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f9441cc140b65fd3bfb35cc1fd26ca171fc8aa24b41c1d3506fba744890cca709528e79938c3d88c486fabc2d52950f489a63466a70915b9649246f7bd02e20c",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/WE7ZWkaG/block-skills-1.19.2-1.0.0-forge.jar",
+          "filename": "block-skills-1.19.2-1.0.0-forge.jar",
+          "primary": true,
+          "size": 164769
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "YbCvvV0z",
+      "name": "[Fabric 1.18.2] v1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d46bea51cb059e0db270752e8db53b0003866b3476b08415dc0e7215fafa77f32b2812ca522cbd49918eca0187f21188e6919abc871f895820a1798545f1cab7",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/YbCvvV0z/block-skills-1.18.2-1.0.0.jar",
+          "filename": "block-skills-1.18.2-1.0.0.jar",
+          "primary": true,
+          "size": 163046
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "umyGl7zF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "j5zDzQqi",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "sStHmpPo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ZGoBmjIT",
+      "name": "[Forge 1.19.2] v1.5.2",
+      "version_number": "1.5.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c4e117fc97ecfb3fb6995fbdcd9c4e88f81042814f5ad4905acbc5a190f750eba9013acf56424f0a9ece5ab1e633fb07178fd4b9b462760f909457b8ef2fd779",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/ZGoBmjIT/block-skills-1.19.2-1.5.2.jar",
+          "filename": "block-skills-1.19.2-1.5.2.jar",
+          "primary": true,
+          "size": 172743
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "umyGl7zF",
+          "version_id": "YUEUsB7q",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "vJN7ABRP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "gpts9nnC",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "ns7Xs1B6",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "e2h9VlMF",
+      "name": "[Forge 1.18.2] v1.2.0",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "32c3a724a1fc4c5674be28e23d56cc2f0e022bf5508d592ed9eaff637e1f021701e849790b3a1ee37277a2fc6d177c3250f8f50903af850f94ef7513f57170ac",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/e2h9VlMF/block-skills-1.18.2-1.2.0.jar",
+          "filename": "block-skills-1.18.2-1.2.0.jar",
+          "primary": true,
+          "size": 169579
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "LqJOOLlu",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "vJN7ABRP",
+          "version_id": "ZGxESWMC",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "umyGl7zF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "o069zrDa",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "e3cN4nYN",
+      "name": "[Forge 1.19.2] v1.1.3",
+      "version_number": "1.1.3",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "732cba1d3cd1e7f4d5a494344f6d8858e27412ff6d0a8e1b332508a9197b8a2f8f40976ea5a2318e2c701cec77c7b280899b65dc7923d9cf6bb7a1b0b48f3abb",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/e3cN4nYN/block-skills-1.19.2-1.1.3.jar",
+          "filename": "block-skills-1.19.2-1.1.3.jar",
+          "primary": true,
+          "size": 164483
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "umyGl7zF",
+          "version_id": "YUEUsB7q",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "gpts9nnC",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "ns7Xs1B6",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "f6Tb9jMt",
+      "name": "[Forge 1.18.2] v1.3.2",
+      "version_number": "1.3.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f8e2d0e5e8f26498bf8b9d0d98ba98f05c1a147b671d9f1367940c27f75928b3be5e6b04c16ae251ddc0b0a580ec4fb079290f4af260a422aca32c5dfeca31a8",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/f6Tb9jMt/block-skills-1.18.2-1.3.2.jar",
+          "filename": "block-skills-1.18.2-1.3.2.jar",
+          "primary": true,
+          "size": 172845
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "LqJOOLlu",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "umyGl7zF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "vJN7ABRP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "o069zrDa",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "f94YVRak",
+      "name": "[Fabric 1.18.2] v1.3.0",
+      "version_number": "1.3.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "706c569db94f91d3ab6f8a942c9c6cde206e8ecf788873c392f13552ecfcb9218affd0736156f0cd723ca48f844b38f81cca6bc1b6d384252fec9b942ae02cc9",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/f94YVRak/block-skills-1.18.2-1.3.0.jar",
+          "filename": "block-skills-1.18.2-1.3.0.jar",
+          "primary": true,
+          "size": 171305
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vJN7ABRP",
+          "version_id": "7PbP9jkm",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "umyGl7zF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "j5zDzQqi",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "sStHmpPo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "fe4MAeYK",
+      "name": "1.1.1",
+      "version_number": "1.1.1",
+      "game_versions": [
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "85a9754392f3faf4210454d1a99782c5912ab5c19c06ff1769b89e7b9df53cf74f1895dcea345af0e9846c56f7232771abf7c1e7c9bed684d4c32debd954a0a1",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/fe4MAeYK/block-skills-1.19.2-1.1.1-fabric.jar",
+          "filename": "block-skills-1.19.2-1.1.1-fabric.jar",
+          "primary": true,
+          "size": 164035
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "htFL2fLE",
+      "name": "1.1.2",
+      "version_number": "1.1.2",
+      "game_versions": [
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "617db12cbe47aa3f0b63b6bcc112edda0102d0b0ce37678fa3f2ae941ab709c7137524e5576b3e396a312c8664495222d2cd55a5bca562d256594df9e432bb08",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/htFL2fLE/block-skills-1.19.2-1.1.2-forge.jar",
+          "filename": "block-skills-1.19.2-1.1.2-forge.jar",
+          "primary": true,
+          "size": 165030
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "jF1KfD19",
+      "name": "[Forge 1.19.2] v1.3.0",
+      "version_number": "1.3.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c5fbf38e5e92272fd4da8f682482de8deda8529c7123ee8c277be60fa9b5b145c41365458bc95ac775580c0dd6b937f347a02471fe0054196f7b6879db316cba",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/jF1KfD19/block-skills-1.19.2-1.3.0.jar",
+          "filename": "block-skills-1.19.2-1.3.0.jar",
+          "primary": true,
+          "size": 165529
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vJN7ABRP",
+          "version_id": "S2dgMJbR",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "umyGl7zF",
+          "version_id": "YUEUsB7q",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "gpts9nnC",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "ns7Xs1B6",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jRkzQfDG",
+      "name": "[Forge 1.18.2] v1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "864fb6ffcb4e368ca5f3fe38593ba1c420a37757cbd3579e035016c9867094666949ba3e3ec4501ba50ee3db1beb52449c174455411d74cd527bd79f062ccae2",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/jRkzQfDG/block-skills-1.18.2-1.0.0.jar",
+          "filename": "block-skills-1.18.2-1.0.0.jar",
+          "primary": true,
+          "size": 164022
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "LqJOOLlu",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "umyGl7zF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "o069zrDa",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "kTr36BGN",
+      "name": "[Fabric 1.19.2] v1.3.0",
+      "version_number": "1.3.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "46964a98c227a321b62541cc40abd2d070b5006203fb29ee411413af00ba24b7ff6336f1570c19dc38adada53da05500b089216d76c31ad19bf2fca0daff615d",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/kTr36BGN/block-skills-1.19.2-1.3.0.jar",
+          "filename": "block-skills-1.19.2-1.3.0.jar",
+          "primary": true,
+          "size": 164527
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vJN7ABRP",
+          "version_id": "1GJnLvYc",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "5PkPvcW6",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "HoIJp48v",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "umyGl7zF",
+          "version_id": "yipsDsjO",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "kaVDxddH",
+      "name": "[Fabric 1.18.2] v1.3.2",
+      "version_number": "1.3.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "96ae15009806d0738beb885ac3c3257757c29e85e0eb5a2398a6b72b32d1380075000cb1d82cac1916056028eb4cabfe96979f789decd7382f1ff649540dfb33",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/kaVDxddH/block-skills-1.18.2-1.3.2.jar",
+          "filename": "block-skills-1.18.2-1.3.2.jar",
+          "primary": true,
+          "size": 171310
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "umyGl7zF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "vJN7ABRP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "j5zDzQqi",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "sStHmpPo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "oqQD8XsT",
+      "name": "[Fabric 1.18.2] v1.2.0",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "151e77160accf504e1d1ceb54aa8e8ffec3be0d2894edf75ccdf67f1988f1b9b8d5beba2e060ab0fced3cb4d82e6613ce7e2f15016ca7f64f1272439167709fb",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/oqQD8XsT/block-skills-1.18.2-1.2.0.jar",
+          "filename": "block-skills-1.18.2-1.2.0.jar",
+          "primary": true,
+          "size": 168128
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vJN7ABRP",
+          "version_id": "7PbP9jkm",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "umyGl7zF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "j5zDzQqi",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "sStHmpPo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "qqrZgSv9",
+      "name": "[Forge 1.19.2] v1.5.0",
+      "version_number": "1.5.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "df94f1fbbe62bcc38929eaa36999df201e3997488ee789274f6f353837a661d15b57dd9033d33f22b10425acfffbed007eff443e7e3baeb90fdc1a3d161620bd",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/qqrZgSv9/block-skills-1.19.2-1.5.0.jar",
+          "filename": "block-skills-1.19.2-1.5.0.jar",
+          "primary": true,
+          "size": 172743
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vJN7ABRP",
+          "version_id": "S2dgMJbR",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "umyGl7zF",
+          "version_id": "YUEUsB7q",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "gpts9nnC",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "ns7Xs1B6",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "s1y0s3Mt",
+      "name": "[Fabric 1.19.2] v1.2.0",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "59f8e27e5933be250ae1b722dd40410c767cae6e9e09bfb6d9fb421bbf3684b702974ea099dbde8410d345510c2780b66c80e046e3c2c0f801ebe091ff071779",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/s1y0s3Mt/block-skills-1.19.2-1.2.0.jar",
+          "filename": "block-skills-1.19.2-1.2.0.jar",
+          "primary": true,
+          "size": 164735
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "5PkPvcW6",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "HoIJp48v",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "umyGl7zF",
+          "version_id": "yipsDsjO",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "uU6qpxJt",
+      "name": "[Forge 1.19.2] v1.5.1",
+      "version_number": "1.5.1",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "955c60c694c6ddbd27008f1899fcfd1edac61dc2487f62666f91c32cf5b27de6f1dab3c8246610b557eb034ebb6cbf8efccebdf52d271c04781c3dbb4d614361",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/uU6qpxJt/block-skills-1.19.2-1.5.1.jar",
+          "filename": "block-skills-1.19.2-1.5.1.jar",
+          "primary": true,
+          "size": 172741
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "umyGl7zF",
+          "version_id": "YUEUsB7q",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "vJN7ABRP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "gpts9nnC",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "ns7Xs1B6",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "xFMFlQUC",
+      "name": "[Forge 1.19.2] v1.2.0",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "182c7eda2cac929293533b1b4e03ff0796104e464cb868772bbf522acf637d8dee4a619960c915189f4d9e2858d2b7fa5a99e151fefc75bf114788fcaf261b5d",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/xFMFlQUC/block-skills-1.19.2-1.2.0.jar",
+          "filename": "block-skills-1.19.2-1.2.0.jar",
+          "primary": true,
+          "size": 165756
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "umyGl7zF",
+          "version_id": "YUEUsB7q",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "gpts9nnC",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "ns7Xs1B6",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "yWrtzUN6",
+      "name": "[Forge 1.18.2] v1.3.0",
+      "version_number": "1.3.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d9153678f0b3dd9666fb249090bb921f99c855243b1f95b460245129f6adecc0ed95f4c83f0a9b92e06bf63824d2282d47eee2ffda54a81211ec9e8cb603d9c9",
+          "url": "https://cdn.modrinth.com/data/drBULDJQ/versions/yWrtzUN6/block-skills-1.18.2-1.3.0.jar",
+          "filename": "block-skills-1.18.2-1.3.0.jar",
+          "primary": true,
+          "size": 172838
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "rQf7vUve",
+          "version_id": "LqJOOLlu",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "vJN7ABRP",
+          "version_id": "ZGxESWMC",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "umyGl7zF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "o069zrDa",
           "file_name": null,
           "dependency_type": "required"
         }

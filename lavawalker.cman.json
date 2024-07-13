@@ -46,53 +46,6 @@
       ]
     },
     {
-      "id": "ggyOspKh",
-      "name": "LavaWalker 2.1.0",
-      "version_number": "2.1.0",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "6443b80c6fce24fe4230bb8926363cbcb896311d1304909d14c591c7991d43e29f53c61bfe3dff4e8cb227acd39f119e8eba9c4d718cfbefe34ca1f5b5bad73b",
-          "url": "https://cdn.modrinth.com/data/pWoC2eCi/versions/ggyOspKh/LavaWalker%20Enchantment-2.1.0.jar",
-          "filename": "LavaWalker Enchantment-2.1.0.jar",
-          "primary": true,
-          "size": 20849
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "MetNR4ib",
-      "name": "Lavawalker 2.0.0",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "2447329749cd059759cb9175a2ccd53838f419b3962e89e30b20e1a96498a1336671797bf83f0634da005037f2651de5a8034652f9110df9bfd51181ef0d3c44",
-          "url": "https://cdn.modrinth.com/data/pWoC2eCi/versions/MetNR4ib/forge-lava_walker-2.0.0.jar",
-          "filename": "forge-lava_walker-2.0.0.jar",
-          "primary": false,
-          "size": 19167
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "4RnS1LUz",
       "name": "Lavawalker 2.0.0",
       "version_number": "2.0.0",
@@ -137,31 +90,89 @@
       ]
     },
     {
-      "id": "pFLwdj4W",
-      "name": "Lavawalker 2.0.0",
-      "version_number": "2.0.0",
+      "id": "6MbyTmrV",
+      "name": "LavaWalker Fabric 1.19.2-1.0.0",
+      "version_number": "Fabric-1.19.2-1.0.0",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "15438f979f06506b8de49152db47da3641b28aa340381151b8d22625f9b3bab41933e011e92ea2c449555cd29c9b9506bd6e4332c35c78179544cf90026547d1",
-          "url": "https://cdn.modrinth.com/data/pWoC2eCi/versions/pFLwdj4W/forge-lava_walker-2.0.0.jar",
-          "filename": "forge-lava_walker-2.0.0.jar",
+          "sha512": "e0a185e7279182821043610458c168db2eedc7d36ce8c4672bda17688d190a56c5618f8e5a70eee492c7211cd5bff359764806f5d3e3a7bbb8ba70264471f3bf",
+          "url": "https://cdn.modrinth.com/data/pWoC2eCi/versions/6MbyTmrV/fabric-lava_walker-1.19.2-1.0.0.jar",
+          "filename": "fabric-lava_walker-1.19.2-1.0.0.jar",
           "primary": true,
-          "size": 20189
+          "size": 290109
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
-      "id": "ZcduYffP",
-      "name": "fabric-lava_walker",
-      "version_number": "1.20-1.0.3",
+      "id": "DOeD5V9C",
+      "name": "fabric-lava_walker for 1.19.x",
+      "version_number": "1.19.4-1.0.1",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ba324c6cb25c68cd327cf6439f5bd9b811c74c0bd768188a2e036627bee57dcc59cd7dc369678c5a8a07edc10fd1e0702f84abe1198d6c966e1e2ea299804569",
+          "url": "https://cdn.modrinth.com/data/pWoC2eCi/versions/DOeD5V9C/fabric-lava_walker-1.19.4-1.0.1.jar",
+          "filename": "fabric-lava_walker-1.19.4-1.0.1.jar",
+          "primary": true,
+          "size": 290482
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "mhFzbEwE",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "KmFm41Th",
+      "name": "fabric-lava_walker for 1.20.x",
+      "version_number": "1.20-1.0.1",
       "game_versions": [
         "1.20",
         "1.20.1"
@@ -171,11 +182,77 @@
       ],
       "files": [
         {
-          "sha512": "2777b5230017cea023995d452f4ca5dbbb443f69c1ecbc6032f7d2200ab187a71889fd6ce8f0404eb2fcb01eec94432b2a7e9e4d891bcbe1c044453525e1c46f",
-          "url": "https://cdn.modrinth.com/data/pWoC2eCi/versions/ZcduYffP/LavaWalkerMod.jar",
-          "filename": "LavaWalkerMod.jar",
+          "sha512": "1050e915470c92fa58a7f3e8b3d88cba0351a4d23efdb9e63b33ccf8e7ba167245d9ea65f3035d97cc0a930328469ad2a3fee36b5bb3e7c4374a1f42ab8cad3b",
+          "url": "https://cdn.modrinth.com/data/pWoC2eCi/versions/KmFm41Th/fabric-lava_walker-1.20-1.0.1.jar",
+          "filename": "fabric-lava_walker-1.20-1.0.1.jar",
           "primary": true,
-          "size": 288231
+          "size": 289984
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "MetNR4ib",
+      "name": "Lavawalker 2.0.0",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "2447329749cd059759cb9175a2ccd53838f419b3962e89e30b20e1a96498a1336671797bf83f0634da005037f2651de5a8034652f9110df9bfd51181ef0d3c44",
+          "url": "https://cdn.modrinth.com/data/pWoC2eCi/versions/MetNR4ib/forge-lava_walker-2.0.0.jar",
+          "filename": "forge-lava_walker-2.0.0.jar",
+          "primary": false,
+          "size": 19167
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "S1gmPNDG",
+      "name": "fabric-lava_walker",
+      "version_number": "1.20-1.0.2",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1e26ca3e59b094e48f28c1297b53858f82629152713cac8ce0ab0fdf50566893c251cc96757c2aef4b03c675ec9b589ad52b41a3f2a6651823b0865e173e055d",
+          "url": "https://cdn.modrinth.com/data/pWoC2eCi/versions/S1gmPNDG/fabric-lava_walker-1.20-1.0.2.jar",
+          "filename": "fabric-lava_walker-1.20-1.0.2.jar",
+          "primary": true,
+          "size": 289975
         }
       ],
       "dependencies": [
@@ -222,9 +299,9 @@
       "dependencies": []
     },
     {
-      "id": "S1gmPNDG",
+      "id": "ZcduYffP",
       "name": "fabric-lava_walker",
-      "version_number": "1.20-1.0.2",
+      "version_number": "1.20-1.0.3",
       "game_versions": [
         "1.20",
         "1.20.1"
@@ -234,11 +311,11 @@
       ],
       "files": [
         {
-          "sha512": "1e26ca3e59b094e48f28c1297b53858f82629152713cac8ce0ab0fdf50566893c251cc96757c2aef4b03c675ec9b589ad52b41a3f2a6651823b0865e173e055d",
-          "url": "https://cdn.modrinth.com/data/pWoC2eCi/versions/S1gmPNDG/fabric-lava_walker-1.20-1.0.2.jar",
-          "filename": "fabric-lava_walker-1.20-1.0.2.jar",
+          "sha512": "2777b5230017cea023995d452f4ca5dbbb443f69c1ecbc6032f7d2200ab187a71889fd6ce8f0404eb2fcb01eec94432b2a7e9e4d891bcbe1c044453525e1c46f",
+          "url": "https://cdn.modrinth.com/data/pWoC2eCi/versions/ZcduYffP/LavaWalkerMod.jar",
+          "filename": "LavaWalkerMod.jar",
           "primary": true,
-          "size": 289975
+          "size": 288231
         }
       ],
       "dependencies": [
@@ -249,16 +326,16 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "eTCL1uh8",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -288,107 +365,23 @@
       "dependencies": []
     },
     {
-      "id": "KmFm41Th",
-      "name": "fabric-lava_walker for 1.20.x",
-      "version_number": "1.20-1.0.1",
+      "id": "ggyOspKh",
+      "name": "LavaWalker 2.1.0",
+      "version_number": "2.1.0",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.20.5",
+        "1.20.6"
       ],
       "loaders": [
-        "fabric"
+        "neoforge"
       ],
       "files": [
         {
-          "sha512": "1050e915470c92fa58a7f3e8b3d88cba0351a4d23efdb9e63b33ccf8e7ba167245d9ea65f3035d97cc0a930328469ad2a3fee36b5bb3e7c4374a1f42ab8cad3b",
-          "url": "https://cdn.modrinth.com/data/pWoC2eCi/versions/KmFm41Th/fabric-lava_walker-1.20-1.0.1.jar",
-          "filename": "fabric-lava_walker-1.20-1.0.1.jar",
+          "sha512": "6443b80c6fce24fe4230bb8926363cbcb896311d1304909d14c591c7991d43e29f53c61bfe3dff4e8cb227acd39f119e8eba9c4d718cfbefe34ca1f5b5bad73b",
+          "url": "https://cdn.modrinth.com/data/pWoC2eCi/versions/ggyOspKh/LavaWalker%20Enchantment-2.1.0.jar",
+          "filename": "LavaWalker Enchantment-2.1.0.jar",
           "primary": true,
-          "size": 289984
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "eTCL1uh8",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "DOeD5V9C",
-      "name": "fabric-lava_walker for 1.19.x",
-      "version_number": "1.19.4-1.0.1",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ba324c6cb25c68cd327cf6439f5bd9b811c74c0bd768188a2e036627bee57dcc59cd7dc369678c5a8a07edc10fd1e0702f84abe1198d6c966e1e2ea299804569",
-          "url": "https://cdn.modrinth.com/data/pWoC2eCi/versions/DOeD5V9C/fabric-lava_walker-1.19.4-1.0.1.jar",
-          "filename": "fabric-lava_walker-1.19.4-1.0.1.jar",
-          "primary": true,
-          "size": 290482
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "mhFzbEwE",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "r8yCf95z",
-      "name": "Forge 1.12.2-1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.12.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "62a92ba849c1ca304106f33515d24834338b9f15e3228f4030778916be269743cddb7c439f3518871ba8eac725c786486609501e47000b42f218747b4421c04f",
-          "url": "https://cdn.modrinth.com/data/pWoC2eCi/versions/r8yCf95z/lava_walker-1.12.2-0.5.2.jar",
-          "filename": "lava_walker-1.12.2-0.5.2.jar",
-          "primary": true,
-          "size": 973018
+          "size": 20849
         }
       ],
       "dependencies": []
@@ -415,40 +408,47 @@
       "dependencies": []
     },
     {
-      "id": "6MbyTmrV",
-      "name": "LavaWalker Fabric 1.19.2-1.0.0",
-      "version_number": "Fabric-1.19.2-1.0.0",
+      "id": "pFLwdj4W",
+      "name": "Lavawalker 2.0.0",
+      "version_number": "2.0.0",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
-        "fabric"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "e0a185e7279182821043610458c168db2eedc7d36ce8c4672bda17688d190a56c5618f8e5a70eee492c7211cd5bff359764806f5d3e3a7bbb8ba70264471f3bf",
-          "url": "https://cdn.modrinth.com/data/pWoC2eCi/versions/6MbyTmrV/fabric-lava_walker-1.19.2-1.0.0.jar",
-          "filename": "fabric-lava_walker-1.19.2-1.0.0.jar",
+          "sha512": "15438f979f06506b8de49152db47da3641b28aa340381151b8d22625f9b3bab41933e011e92ea2c449555cd29c9b9506bd6e4332c35c78179544cf90026547d1",
+          "url": "https://cdn.modrinth.com/data/pWoC2eCi/versions/pFLwdj4W/forge-lava_walker-2.0.0.jar",
+          "filename": "forge-lava_walker-2.0.0.jar",
           "primary": true,
-          "size": 290109
+          "size": 20189
         }
       ],
-      "dependencies": [
+      "dependencies": []
+    },
+    {
+      "id": "r8yCf95z",
+      "name": "Forge 1.12.2-1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.12.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
+          "sha512": "62a92ba849c1ca304106f33515d24834338b9f15e3228f4030778916be269743cddb7c439f3518871ba8eac725c786486609501e47000b42f218747b4421c04f",
+          "url": "https://cdn.modrinth.com/data/pWoC2eCi/versions/r8yCf95z/lava_walker-1.12.2-0.5.2.jar",
+          "filename": "lava_walker-1.12.2-0.5.2.jar",
+          "primary": true,
+          "size": 973018
         }
-      ]
+      ],
+      "dependencies": []
     }
   ]
 }

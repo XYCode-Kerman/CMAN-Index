@@ -5,6 +5,84 @@
   "description": "Yet another controller mod! Or is it? Focuses on the best working experience.",
   "versions": [
     {
+      "id": "D7r95EBd",
+      "name": "[Fabric] 20.1.2",
+      "version_number": "20.1.2-fabric",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d49c1fa57721eb17cdc80e0d8abb1105dbaa3b997cd8f0784103f5f74c0dca86c56b178274f7108dc1c5e1d1249ccefb5845b3fda6b808036c41b277cdd171ed",
+          "url": "https://cdn.modrinth.com/data/gUv10ywC/versions/D7r95EBd/ControllerX-20.1.2.jar",
+          "filename": "ControllerX-20.1.2.jar",
+          "primary": true,
+          "size": 16394514
+        },
+        {
+          "sha512": "a221b29ed68c728e3f36a2dd3046d9887aa4c4e21c8e41bb695173d2bded100d384c1a2288df5bd9a5babd666c77b258bf6aa80a048d00cf49a4cae7775f2104",
+          "url": "https://cdn.modrinth.com/data/gUv10ywC/versions/D7r95EBd/ControllerX-20.1.2-sources.jar",
+          "filename": "ControllerX-20.1.2-sources.jar",
+          "primary": false,
+          "size": 161700
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "74g7isNi",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Jwh3mVaV",
+      "name": "[Fabric] 20.1.0",
+      "version_number": "20.1.0-fabric",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "736b5bdd97b223bc7ea03aecdb4f33ee40d7f979eeaec19a66e265713c31d116e029982611acb838318be21d77eeb326909edcd8de5b5f52cc55f6e926d13529",
+          "url": "https://cdn.modrinth.com/data/gUv10ywC/versions/Jwh3mVaV/ControllerX-fabric-20.1.0.jar",
+          "filename": "ControllerX-fabric-20.1.0.jar",
+          "primary": true,
+          "size": 16378358
+        },
+        {
+          "sha512": "1be831f81d7715d7cb37ecbd61237d6c5db8dd705a483eb1eda45c7e96553b8733754f912900abe3f3e2ea6e254611df1009d9440c92ca3851635743ccbd4c40",
+          "url": "https://cdn.modrinth.com/data/gUv10ywC/versions/Jwh3mVaV/ControllerX-fabric-20.1.0-sources.jar",
+          "filename": "ControllerX-fabric-20.1.0-sources.jar",
+          "primary": false,
+          "size": 157884
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "74g7isNi",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "PfKPn53Y",
       "name": "[Forge] 20.1.3",
       "version_number": "20.1.3-forge",
@@ -70,6 +148,48 @@
       ]
     },
     {
+      "id": "huJDDYra",
+      "name": "[Forge] 20.1.0",
+      "version_number": "20.1.0-forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ae9eda9e75364be35b9e470b99386053398a41d4054561610e482d55aae08c1a65d1f5d130d803d5fbe7cb7378e8841779b7e16bfab7c8ec16b080025fd98f67",
+          "url": "https://cdn.modrinth.com/data/gUv10ywC/versions/huJDDYra/ControllerX-forge-20.1.0.jar",
+          "filename": "ControllerX-forge-20.1.0.jar",
+          "primary": true,
+          "size": 16380744
+        },
+        {
+          "sha512": "e28787149bd801a2897ddc6935b3f5a26ed38a5c9ab04900c5a71b72ba5f50a6d4a9117945c42c793d594a3c07a7b5368077a2b416ec08fc1aab184b8791551f",
+          "url": "https://cdn.modrinth.com/data/gUv10ywC/versions/huJDDYra/ControllerX-forge-20.1.0-sources.jar",
+          "filename": "ControllerX-forge-20.1.0-sources.jar",
+          "primary": false,
+          "size": 160264
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "74g7isNi",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "p0ggJqmx",
       "name": "[Forge] 20.1.2",
       "version_number": "20.1.2-forge",
@@ -99,84 +219,6 @@
       "dependencies": [
         {
           "project_id": "74g7isNi",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "D7r95EBd",
-      "name": "[Fabric] 20.1.2",
-      "version_number": "20.1.2-fabric",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d49c1fa57721eb17cdc80e0d8abb1105dbaa3b997cd8f0784103f5f74c0dca86c56b178274f7108dc1c5e1d1249ccefb5845b3fda6b808036c41b277cdd171ed",
-          "url": "https://cdn.modrinth.com/data/gUv10ywC/versions/D7r95EBd/ControllerX-20.1.2.jar",
-          "filename": "ControllerX-20.1.2.jar",
-          "primary": true,
-          "size": 16394514
-        },
-        {
-          "sha512": "a221b29ed68c728e3f36a2dd3046d9887aa4c4e21c8e41bb695173d2bded100d384c1a2288df5bd9a5babd666c77b258bf6aa80a048d00cf49a4cae7775f2104",
-          "url": "https://cdn.modrinth.com/data/gUv10ywC/versions/D7r95EBd/ControllerX-20.1.2-sources.jar",
-          "filename": "ControllerX-20.1.2-sources.jar",
-          "primary": false,
-          "size": 161700
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "74g7isNi",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "tKEoI3Pd",
-      "name": "[Forge] 20.1.1",
-      "version_number": "20.1.1-forge",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "dc245d11bd8be8cedebf8082212c7e63cab044516065222bd44478051095d04c035f5cc1d8ab6ad7db9d9970898ea3f9ef5c87acc425c215f488b81af2d50597",
-          "url": "https://cdn.modrinth.com/data/gUv10ywC/versions/tKEoI3Pd/ControllerX-forge-20.1.1.jar",
-          "filename": "ControllerX-forge-20.1.1.jar",
-          "primary": true,
-          "size": 16380748
-        },
-        {
-          "sha512": "45c1b93410b7017198790e37a2a9056073111bf8d6f141d9fcaefd25de31ce1ad7736265e47ce21ba57a59a2976b86b29b1f9c7df32d47c299166012884e34c3",
-          "url": "https://cdn.modrinth.com/data/gUv10ywC/versions/tKEoI3Pd/ControllerX-forge-20.1.1-sources.jar",
-          "filename": "ControllerX-forge-20.1.1-sources.jar",
-          "primary": false,
-          "size": 160263
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "74g7isNi",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -226,9 +268,9 @@
       ]
     },
     {
-      "id": "huJDDYra",
-      "name": "[Forge] 20.1.0",
-      "version_number": "20.1.0-forge",
+      "id": "tKEoI3Pd",
+      "name": "[Forge] 20.1.1",
+      "version_number": "20.1.1-forge",
       "game_versions": [
         "1.20",
         "1.20.1"
@@ -238,60 +280,18 @@
       ],
       "files": [
         {
-          "sha512": "ae9eda9e75364be35b9e470b99386053398a41d4054561610e482d55aae08c1a65d1f5d130d803d5fbe7cb7378e8841779b7e16bfab7c8ec16b080025fd98f67",
-          "url": "https://cdn.modrinth.com/data/gUv10ywC/versions/huJDDYra/ControllerX-forge-20.1.0.jar",
-          "filename": "ControllerX-forge-20.1.0.jar",
+          "sha512": "dc245d11bd8be8cedebf8082212c7e63cab044516065222bd44478051095d04c035f5cc1d8ab6ad7db9d9970898ea3f9ef5c87acc425c215f488b81af2d50597",
+          "url": "https://cdn.modrinth.com/data/gUv10ywC/versions/tKEoI3Pd/ControllerX-forge-20.1.1.jar",
+          "filename": "ControllerX-forge-20.1.1.jar",
           "primary": true,
-          "size": 16380744
+          "size": 16380748
         },
         {
-          "sha512": "e28787149bd801a2897ddc6935b3f5a26ed38a5c9ab04900c5a71b72ba5f50a6d4a9117945c42c793d594a3c07a7b5368077a2b416ec08fc1aab184b8791551f",
-          "url": "https://cdn.modrinth.com/data/gUv10ywC/versions/huJDDYra/ControllerX-forge-20.1.0-sources.jar",
-          "filename": "ControllerX-forge-20.1.0-sources.jar",
+          "sha512": "45c1b93410b7017198790e37a2a9056073111bf8d6f141d9fcaefd25de31ce1ad7736265e47ce21ba57a59a2976b86b29b1f9c7df32d47c299166012884e34c3",
+          "url": "https://cdn.modrinth.com/data/gUv10ywC/versions/tKEoI3Pd/ControllerX-forge-20.1.1-sources.jar",
+          "filename": "ControllerX-forge-20.1.1-sources.jar",
           "primary": false,
-          "size": 160264
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "74g7isNi",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Jwh3mVaV",
-      "name": "[Fabric] 20.1.0",
-      "version_number": "20.1.0-fabric",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "736b5bdd97b223bc7ea03aecdb4f33ee40d7f979eeaec19a66e265713c31d116e029982611acb838318be21d77eeb326909edcd8de5b5f52cc55f6e926d13529",
-          "url": "https://cdn.modrinth.com/data/gUv10ywC/versions/Jwh3mVaV/ControllerX-fabric-20.1.0.jar",
-          "filename": "ControllerX-fabric-20.1.0.jar",
-          "primary": true,
-          "size": 16378358
-        },
-        {
-          "sha512": "1be831f81d7715d7cb37ecbd61237d6c5db8dd705a483eb1eda45c7e96553b8733754f912900abe3f3e2ea6e254611df1009d9440c92ca3851635743ccbd4c40",
-          "url": "https://cdn.modrinth.com/data/gUv10ywC/versions/Jwh3mVaV/ControllerX-fabric-20.1.0-sources.jar",
-          "filename": "ControllerX-fabric-20.1.0-sources.jar",
-          "primary": false,
-          "size": 157884
+          "size": 160263
         }
       ],
       "dependencies": [

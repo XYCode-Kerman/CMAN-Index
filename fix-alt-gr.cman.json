@@ -5,6 +5,58 @@
   "description": "A simple Minecraft mod that (mostly) fixes the MC-127862 bug, which sometimes makes pressing the Alt Gr key lock your left control key in a pressed state.",
   "versions": [
     {
+      "id": "90UQXrVr",
+      "name": "Fix Alt Gr 2.0.3 [1.19.3]",
+      "version_number": "2.0.3+1.19.3",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5a6a72db06c831aa49d3ba5b7e3c54f45a69378babcb13a7ea1d24d79c8b17786b54f07d7ef356fb8efb99609b069ff36d1e95f4df61a7b2f4b6da1e1e13b8f4",
+          "url": "https://cdn.modrinth.com/data/36kLTHWB/versions/90UQXrVr/fix-alt-gr-2.0.3%2B1.19.3.jar",
+          "filename": "fix-alt-gr-2.0.3+1.19.3.jar",
+          "primary": true,
+          "size": 670451
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Bal3c8bZ",
+      "name": "Fix Alt Gr 1.0.1 [1.18.x]",
+      "version_number": "1.0.1+1.18",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "54afbb21132c3f1c693424761ce238b4ab61fa5878237e4198eaab16fcafde8d39fc816ca9b3689a9b97e6ad2550832a29fe919bb5e918905c3a5b94d598fd80",
+          "url": "https://cdn.modrinth.com/data/36kLTHWB/versions/1.0.1-1.18/fix-alt-gr-1.0.1-1.18.jar",
+          "filename": "fix-alt-gr-1.0.1-1.18.jar",
+          "primary": true,
+          "size": 695273
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "U2sut1z2",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "GNlkhihg",
       "name": "Fix Alt Gr 3.0.0 [1.19.x]",
       "version_number": "3.0.0+1.19",
@@ -31,17 +83,11 @@
       "dependencies": []
     },
     {
-      "id": "wAv9C5Nf",
-      "name": "Fix Alt Gr 3.0.0 [1.20.x]",
-      "version_number": "3.0.0+1.20",
+      "id": "KzBYFA4t",
+      "name": "Fix Alt Gr 1.0.0 [1.18.x]",
+      "version_number": "1.0.0+1.18",
       "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4",
-        "1.20.5",
-        "1.20.6"
+        "1.18.2"
       ],
       "loaders": [
         "fabric",
@@ -49,103 +95,21 @@
       ],
       "files": [
         {
-          "sha512": "3c33d984f94911e1fead5e98cca164d4b69099a85ee1f45f79f59c5f0fe3690bb903ae5798558890e8d6c2dddbac88d11228288d9108cde78f60b77a1b79adb6",
-          "url": "https://cdn.modrinth.com/data/36kLTHWB/versions/wAv9C5Nf/fix-alt-gr-3.0.0%2B1.20.jar",
-          "filename": "fix-alt-gr-3.0.0+1.20.jar",
+          "sha512": "bc4104dc3148daef48c954d4d02d8f69dd9d59d0c9b45e2d41e037885fd30028139cd34c1292804cd72ff16eb7578604a64b5ecc96edcd502baa2188ef556c21",
+          "url": "https://cdn.modrinth.com/data/36kLTHWB/versions/1.0.0-1.18/fix-alt-gr-1.0.0-1.18.jar",
+          "filename": "fix-alt-gr-1.0.0-1.18.jar",
           "primary": true,
-          "size": 669074
+          "size": 696040
         }
       ],
-      "dependencies": []
-    },
-    {
-      "id": "YtATqWFv",
-      "name": "Fix Alt Gr 3.0.0 [1.21]",
-      "version_number": "3.0.0+1.21",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "5ab121a3ae80855f6064d34f159d15bb6ca1bd8ab2abda7f1f7568b745d4fb5aeaf3b4fa632d17bb65333d628de8ebba19077ff7b9073ae36ec46809eb0ae03d",
-          "url": "https://cdn.modrinth.com/data/36kLTHWB/versions/YtATqWFv/fix-alt-gr-3.0.0%2B1.21.jar",
-          "filename": "fix-alt-gr-3.0.0+1.21.jar",
-          "primary": true,
-          "size": 669068
+          "project_id": "P7dR8mSH",
+          "version_id": "U2sut1z2",
+          "file_name": null,
+          "dependency_type": "required"
         }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "zrOEgaiW",
-      "name": "Fix Alt Gr 2.0.3 [1.20]",
-      "version_number": "2.0.3+1.20",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "a4b1ba142ed4c05e6d0c5daf8fbabd2fae07bbae047287af7323d5a3291804d0acee541e1fd4483ad51fba07574c9f04420b777e8d0075a9f0d4796f2f510381",
-          "url": "https://cdn.modrinth.com/data/36kLTHWB/versions/zrOEgaiW/fix-alt-gr-2.0.3%2B1.20.jar",
-          "filename": "fix-alt-gr-2.0.3+1.20.jar",
-          "primary": true,
-          "size": 669539
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "90UQXrVr",
-      "name": "Fix Alt Gr 2.0.3 [1.19.3]",
-      "version_number": "2.0.3+1.19.3",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "5a6a72db06c831aa49d3ba5b7e3c54f45a69378babcb13a7ea1d24d79c8b17786b54f07d7ef356fb8efb99609b069ff36d1e95f4df61a7b2f4b6da1e1e13b8f4",
-          "url": "https://cdn.modrinth.com/data/36kLTHWB/versions/90UQXrVr/fix-alt-gr-2.0.3%2B1.19.3.jar",
-          "filename": "fix-alt-gr-2.0.3+1.19.3.jar",
-          "primary": true,
-          "size": 670451
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "lR4gxQSY",
-      "name": "Fix Alt Gr 2.0.2 [1.19.3]",
-      "version_number": "2.0.2+1.19.3",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "59d5209d3ad8e2132d6299eb4a1049628fcceb7de4f00c2348628193eacbfb1a680a7e59baa4aa46b3c8acd3da459e26c597762f41850f7fe1d9814bd5585894",
-          "url": "https://cdn.modrinth.com/data/36kLTHWB/versions/lR4gxQSY/fix-alt-gr-2.0.2%2B1.19.3.jar",
-          "filename": "fix-alt-gr-2.0.2+1.19.3.jar",
-          "primary": true,
-          "size": 670326
-        }
-      ],
-      "dependencies": []
+      ]
     },
     {
       "id": "QEu9FALm",
@@ -189,6 +153,27 @@
       ]
     },
     {
+      "id": "UtVdVZgu",
+      "name": "Fix Alt Gr 2.0.0 [1.19]",
+      "version_number": "2.0.0+1.19",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "143b172def22c2fb0bd6347d61f7ad1d141a55d9d98f2e5bc2444c791393168698690cc0df642ee3ad5c7e92760d664df3ce04efd57a832ba96b976ffeb8c976",
+          "url": "https://cdn.modrinth.com/data/36kLTHWB/versions/2.0.0-1.19/fix-alt-gr-2.0.0-1.19.jar",
+          "filename": "fix-alt-gr-2.0.0-1.19.jar",
+          "primary": true,
+          "size": 669136
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "XllLD9oy",
       "name": "Fix Alt Gr 1.0.1 [1.17.x]",
       "version_number": "1.0.1+1.17",
@@ -218,6 +203,49 @@
       ]
     },
     {
+      "id": "YtATqWFv",
+      "name": "Fix Alt Gr 3.0.0 [1.21]",
+      "version_number": "3.0.0+1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5ab121a3ae80855f6064d34f159d15bb6ca1bd8ab2abda7f1f7568b745d4fb5aeaf3b4fa632d17bb65333d628de8ebba19077ff7b9073ae36ec46809eb0ae03d",
+          "url": "https://cdn.modrinth.com/data/36kLTHWB/versions/YtATqWFv/fix-alt-gr-3.0.0%2B1.21.jar",
+          "filename": "fix-alt-gr-3.0.0+1.21.jar",
+          "primary": true,
+          "size": 669068
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "lR4gxQSY",
+      "name": "Fix Alt Gr 2.0.2 [1.19.3]",
+      "version_number": "2.0.2+1.19.3",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "59d5209d3ad8e2132d6299eb4a1049628fcceb7de4f00c2348628193eacbfb1a680a7e59baa4aa46b3c8acd3da459e26c597762f41850f7fe1d9814bd5585894",
+          "url": "https://cdn.modrinth.com/data/36kLTHWB/versions/lR4gxQSY/fix-alt-gr-2.0.2%2B1.19.3.jar",
+          "filename": "fix-alt-gr-2.0.2+1.19.3.jar",
+          "primary": true,
+          "size": 670326
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "uQaJVkFD",
       "name": "Fix Alt Gr 2.0.1 [1.19.x]",
       "version_number": "2.0.1+1.19",
@@ -241,85 +269,57 @@
       "dependencies": []
     },
     {
-      "id": "UtVdVZgu",
-      "name": "Fix Alt Gr 2.0.0 [1.19]",
-      "version_number": "2.0.0+1.19",
+      "id": "wAv9C5Nf",
+      "name": "Fix Alt Gr 3.0.0 [1.20.x]",
+      "version_number": "3.0.0+1.20",
       "game_versions": [
-        "1.19"
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
       ],
       "loaders": [
+        "fabric",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "143b172def22c2fb0bd6347d61f7ad1d141a55d9d98f2e5bc2444c791393168698690cc0df642ee3ad5c7e92760d664df3ce04efd57a832ba96b976ffeb8c976",
-          "url": "https://cdn.modrinth.com/data/36kLTHWB/versions/2.0.0-1.19/fix-alt-gr-2.0.0-1.19.jar",
-          "filename": "fix-alt-gr-2.0.0-1.19.jar",
+          "sha512": "3c33d984f94911e1fead5e98cca164d4b69099a85ee1f45f79f59c5f0fe3690bb903ae5798558890e8d6c2dddbac88d11228288d9108cde78f60b77a1b79adb6",
+          "url": "https://cdn.modrinth.com/data/36kLTHWB/versions/wAv9C5Nf/fix-alt-gr-3.0.0%2B1.20.jar",
+          "filename": "fix-alt-gr-3.0.0+1.20.jar",
           "primary": true,
-          "size": 669136
+          "size": 669074
         }
       ],
       "dependencies": []
     },
     {
-      "id": "Bal3c8bZ",
-      "name": "Fix Alt Gr 1.0.1 [1.18.x]",
-      "version_number": "1.0.1+1.18",
+      "id": "zrOEgaiW",
+      "name": "Fix Alt Gr 2.0.3 [1.20]",
+      "version_number": "2.0.3+1.20",
       "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
-        "fabric",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "54afbb21132c3f1c693424761ce238b4ab61fa5878237e4198eaab16fcafde8d39fc816ca9b3689a9b97e6ad2550832a29fe919bb5e918905c3a5b94d598fd80",
-          "url": "https://cdn.modrinth.com/data/36kLTHWB/versions/1.0.1-1.18/fix-alt-gr-1.0.1-1.18.jar",
-          "filename": "fix-alt-gr-1.0.1-1.18.jar",
+          "sha512": "a4b1ba142ed4c05e6d0c5daf8fbabd2fae07bbae047287af7323d5a3291804d0acee541e1fd4483ad51fba07574c9f04420b777e8d0075a9f0d4796f2f510381",
+          "url": "https://cdn.modrinth.com/data/36kLTHWB/versions/zrOEgaiW/fix-alt-gr-2.0.3%2B1.20.jar",
+          "filename": "fix-alt-gr-2.0.3+1.20.jar",
           "primary": true,
-          "size": 695273
+          "size": 669539
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "U2sut1z2",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "KzBYFA4t",
-      "name": "Fix Alt Gr 1.0.0 [1.18.x]",
-      "version_number": "1.0.0+1.18",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "bc4104dc3148daef48c954d4d02d8f69dd9d59d0c9b45e2d41e037885fd30028139cd34c1292804cd72ff16eb7578604a64b5ecc96edcd502baa2188ef556c21",
-          "url": "https://cdn.modrinth.com/data/36kLTHWB/versions/1.0.0-1.18/fix-alt-gr-1.0.0-1.18.jar",
-          "filename": "fix-alt-gr-1.0.0-1.18.jar",
-          "primary": true,
-          "size": 696040
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "U2sut1z2",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
+      "dependencies": []
     }
   ]
 }

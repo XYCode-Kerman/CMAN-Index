@@ -5,11 +5,32 @@
   "description": "A teleportation mod that brings a nerfed experience! Perfect for survival servers",
   "versions": [
     {
-      "id": "aK4A3GAj",
+      "id": "3pXHtpk4",
+      "name": "Telepost 1.1.a",
+      "version_number": "1.1.a",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a94af0bf0afc648e5daf7669fd994717b2148785d14a529b76196c9ced34484b23de4215a999b51d7140256804831a6e1c69c59adf076867f4a38ea5644f8644",
+          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/3pXHtpk4/Telepost-1.1.a.jar",
+          "filename": "Telepost-1.1.a.jar",
+          "primary": true,
+          "size": 125485
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "F1jVO1XQ",
       "name": "Telepost 1.16",
       "version_number": "1.16",
       "game_versions": [
-        "1.21"
+        "1.20.1"
       ],
       "loaders": [
         "fabric",
@@ -17,11 +38,269 @@
       ],
       "files": [
         {
-          "sha512": "982c9369b015a6530b27465ede3395134b0c51c161af592659eaa5da90732491c25a7231a5ba3ec043c518b28d8be43d96337374227558851ab733e84ec289e8",
-          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/aK4A3GAj/Telepost-1.16.jar",
+          "sha512": "debe500e1f4eea5d10a4db16da61b79b0a8afd8edcabbec7ea6c0588ef282a711e665bc3385d5ec7680e42b487a044233b41f989762a4156161889c26faf4280",
+          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/F1jVO1XQ/Telepost-1.16.jar",
           "filename": "Telepost-1.16.jar",
           "primary": true,
-          "size": 1862591
+          "size": 1865567
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "swbUV1cr",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "1u6JkXh5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "G1Jsxaxr",
+      "name": "Telepost 1.1.d",
+      "version_number": "1.1.d",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "77dc67622bf2efef72e9f96749a0b94e3a8aa938aeacadd37bbc09b21cfb23eee3b59cd8cd922596b18b47cb21701afc8e6c0858529e2efc0b36562f429f7ee8",
+          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/G1Jsxaxr/Telepost-1.1.d.jar",
+          "filename": "Telepost-1.1.d.jar",
+          "primary": true,
+          "size": 274952
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Gx4gDXlr",
+      "name": "Telepost 1.1.c",
+      "version_number": "1.1.c",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f2b0a782e27f9529ad14c274d72b2304a34398d85d5e6f71c53f12709b59696b77d28f523f2e250f46d4ed27a72aebe0b495441a3bc2c0411330297329d39e0a",
+          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/Gx4gDXlr/Telepost-1.1.c.jar",
+          "filename": "Telepost-1.1.c.jar",
+          "primary": true,
+          "size": 273763
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Igv06vHx",
+      "name": "Telepost 1.11",
+      "version_number": "1.11",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c9d023609ad025afb3aacb6c3e02650fc8f6f4c11576ed5bb7bfab7ff386699b4e1bda0b53d0138079653388c9c51d631895c5dc801fc95b73b914df09667bfa",
+          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/Igv06vHx/Telepost-1.11.jar",
+          "filename": "Telepost-1.11.jar",
+          "primary": true,
+          "size": 1853309
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1u6JkXh5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "swbUV1cr",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "O4bptQ73",
+      "name": "Telepost 1.1.f",
+      "version_number": "1.1.f",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "b73e710860a85a8bcb28f8c4ecc48139aa41e31ec371ff2630d22c5d646d5eef32a8d53dd14786211828f1045530a4e7fdc6292c10b5be2b8aac3dc94109868f",
+          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/O4bptQ73/Telepost-1.1.f.jar",
+          "filename": "Telepost-1.1.f.jar",
+          "primary": true,
+          "size": 277897
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "swbUV1cr",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "R5y9qvuz",
+      "name": "Telepost 1.8",
+      "version_number": "1.8",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c63ffbf58b837d1fe37b0f0256535df493956fc1d8ee8ee97f5f08579ee9935b43c86246e365167d44b601e45ff91a27ca27ce5bdbf0c77dbc366954f047f37c",
+          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/R5y9qvuz/Telepost-1.8.jar",
+          "filename": "Telepost-1.8.jar",
+          "primary": true,
+          "size": 1839689
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1u6JkXh5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "RerBRDHC",
+      "name": "Telepost 1.4",
+      "version_number": "1.4",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "779f4ebe0d741dd7af8b5b8007bf19d2b1e39b1cd6bb4b384ab83ea3c5bed8a0f9931bf082b1b05483a1c43826ea01f99df3e10d243e370a48936448eebbf80d",
+          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/RerBRDHC/Telepost-1.4.jar",
+          "filename": "Telepost-1.4.jar",
+          "primary": true,
+          "size": 3164040
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "swbUV1cr",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "1u6JkXh5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "Revy9hGL",
+      "name": "Telepost 1.10",
+      "version_number": "1.10",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "895b9e2a2d47a9219133a46e9b1cb1a11710cfb0918dadeddae6caea28f04c6941126cf62940cb5e59f3cf446de51844f140d93743b161b941e8ebba17c153f9",
+          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/Revy9hGL/Telepost-1.10.jar",
+          "filename": "Telepost-1.10.jar",
+          "primary": true,
+          "size": 1846801
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "swbUV1cr",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "1u6JkXh5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "T30aPzze",
+      "name": "Telepost 1.9",
+      "version_number": "1.9",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "9cc7f855310189e5eea0a97e22c40572491dcfbde7783df8c981191e006adf482eccb4d314be206f35cac14f48677d847541c9b9d8a64350a53bee92c11b4541",
+          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/T30aPzze/Telepost-1.9.jar",
+          "filename": "Telepost-1.9.jar",
+          "primary": true,
+          "size": 1844010
         }
       ],
       "dependencies": [
@@ -46,11 +325,11 @@
       ]
     },
     {
-      "id": "zPR2ItCw",
-      "name": "Telepost 1.16",
-      "version_number": "1.16",
+      "id": "V7QwC0Io",
+      "name": "Telepost 1.13",
+      "version_number": "1.13",
       "game_versions": [
-        "1.20.6"
+        "1.20.1"
       ],
       "loaders": [
         "fabric",
@@ -58,25 +337,130 @@
       ],
       "files": [
         {
-          "sha512": "490b88a29eec9b4afd64f4fec23574bdac926ebbd6617c4e1559fe0a00e8b8bf7ec09d3f9b8ba4ecd7e67a19362f5a2dd9d60a12642866ac8ebdea280e62854c",
-          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/zPR2ItCw/Telepost-1.16.jar",
-          "filename": "Telepost-1.16.jar",
+          "sha512": "e0db55b4028c40a77fd1c9d977bee6e4b93a0a00549aee8177b79cc19969dbb40c03d0835ac60d5d67c2cbc9c0a89fedc8dc88d8096a3c51f3b7b8a4c7b8150d",
+          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/V7QwC0Io/Telepost-1.13.jar",
+          "filename": "Telepost-1.13.jar",
           "primary": true,
-          "size": 1862583
+          "size": 1856881
         }
       ],
       "dependencies": [
         {
-          "project_id": "swbUV1cr",
+          "project_id": "1u6JkXh5",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "XsOxoTNb",
+      "name": "Telepost 1.6",
+      "version_number": "1.6",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "8f2052a38947b1592e83d1d9d7c5d5df0305aa6bfdada675be3c8df4165b26e77f76ead3f4bbfd24b546b2159f5c36acac38f396fd3a65c54ac4b605f8c6af96",
+          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/XsOxoTNb/Telepost-1.6.jar",
+          "filename": "Telepost-1.6.jar",
+          "primary": true,
+          "size": 1839563
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1u6JkXh5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "aK4A3GAj",
+      "name": "Telepost 1.16",
+      "version_number": "1.16",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "982c9369b015a6530b27465ede3395134b0c51c161af592659eaa5da90732491c25a7231a5ba3ec043c518b28d8be43d96337374227558851ab733e84ec289e8",
+          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/aK4A3GAj/Telepost-1.16.jar",
+          "filename": "Telepost-1.16.jar",
+          "primary": true,
+          "size": 1862591
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "1u6JkXh5",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "swbUV1cr",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "fvmGYdni",
+      "name": "Telepost 1.12",
+      "version_number": "1.12",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f51b6f6bdd0f88ac16c72d25db27adda715275bf1b96e6f6e3eb6f7480fbb0ece723e95d6a8e3941a9640b89fcdb06b5f45f89a551f82ea890b470148b9b4b14",
+          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/fvmGYdni/Telepost-1.12.jar",
+          "filename": "Telepost-1.12.jar",
+          "primary": true,
+          "size": 1858173
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1u6JkXh5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -116,41 +500,6 @@
       ]
     },
     {
-      "id": "F1jVO1XQ",
-      "name": "Telepost 1.16",
-      "version_number": "1.16",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "debe500e1f4eea5d10a4db16da61b79b0a8afd8edcabbec7ea6c0588ef282a711e665bc3385d5ec7680e42b487a044233b41f989762a4156161889c26faf4280",
-          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/F1jVO1XQ/Telepost-1.16.jar",
-          "filename": "Telepost-1.16.jar",
-          "primary": true,
-          "size": 1865567
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "swbUV1cr",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "1u6JkXh5",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "j27tsqjf",
       "name": "Telepost 1.15",
       "version_number": "1.15",
@@ -172,46 +521,11 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "swbUV1cr",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
-        {
-          "project_id": "1u6JkXh5",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "mC3CZF2l",
-      "name": "Telepost 1.14",
-      "version_number": "1.14",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "14b7e0ea63f0960c2c481bbc392d8e6f1016e7d1734728f79926081579819e4faa557685dc68d93667313987f213df25e1af709da052e6ebef42f34858e92595",
-          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/mC3CZF2l/Telepost-1.14.jar",
-          "filename": "Telepost-1.14.jar",
-          "primary": true,
-          "size": 1864490
-        }
-      ],
-      "dependencies": [
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
@@ -262,120 +576,9 @@
       ]
     },
     {
-      "id": "V7QwC0Io",
-      "name": "Telepost 1.13",
-      "version_number": "1.13",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "e0db55b4028c40a77fd1c9d977bee6e4b93a0a00549aee8177b79cc19969dbb40c03d0835ac60d5d67c2cbc9c0a89fedc8dc88d8096a3c51f3b7b8a4c7b8150d",
-          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/V7QwC0Io/Telepost-1.13.jar",
-          "filename": "Telepost-1.13.jar",
-          "primary": true,
-          "size": 1856881
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1u6JkXh5",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "fvmGYdni",
-      "name": "Telepost 1.12",
-      "version_number": "1.12",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f51b6f6bdd0f88ac16c72d25db27adda715275bf1b96e6f6e3eb6f7480fbb0ece723e95d6a8e3941a9640b89fcdb06b5f45f89a551f82ea890b470148b9b4b14",
-          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/fvmGYdni/Telepost-1.12.jar",
-          "filename": "Telepost-1.12.jar",
-          "primary": true,
-          "size": 1858173
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1u6JkXh5",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Igv06vHx",
-      "name": "Telepost 1.11",
-      "version_number": "1.11",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "c9d023609ad025afb3aacb6c3e02650fc8f6f4c11576ed5bb7bfab7ff386699b4e1bda0b53d0138079653388c9c51d631895c5dc801fc95b73b914df09667bfa",
-          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/Igv06vHx/Telepost-1.11.jar",
-          "filename": "Telepost-1.11.jar",
-          "primary": true,
-          "size": 1853309
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1u6JkXh5",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "swbUV1cr",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "Revy9hGL",
-      "name": "Telepost 1.10",
-      "version_number": "1.10",
+      "id": "mC3CZF2l",
+      "name": "Telepost 1.14",
+      "version_number": "1.14",
       "game_versions": [
         "1.20.4"
       ],
@@ -385,20 +588,14 @@
       ],
       "files": [
         {
-          "sha512": "895b9e2a2d47a9219133a46e9b1cb1a11710cfb0918dadeddae6caea28f04c6941126cf62940cb5e59f3cf446de51844f140d93743b161b941e8ebba17c153f9",
-          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/Revy9hGL/Telepost-1.10.jar",
-          "filename": "Telepost-1.10.jar",
+          "sha512": "14b7e0ea63f0960c2c481bbc392d8e6f1016e7d1734728f79926081579819e4faa557685dc68d93667313987f213df25e1af709da052e6ebef42f34858e92595",
+          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/mC3CZF2l/Telepost-1.14.jar",
+          "filename": "Telepost-1.14.jar",
           "primary": true,
-          "size": 1846801
+          "size": 1864490
         }
       ],
       "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "1u6JkXh5",
           "version_id": null,
@@ -406,12 +603,35 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "swbUV1cr",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
+    },
+    {
+      "id": "owoiZ0RE",
+      "name": "Telepost 1.1.e",
+      "version_number": "1.1.e",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "3106b9e277e480058b909f2f3b1a3a3fb9565f6626476677c62aa0fd8f350fa46739cae54c47c2b6cfd7bd3fff2cfa9aa1119e09adb5b6ca02472d1f64f4e2a2",
+          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/owoiZ0RE/Telepost-1.1.e.jar",
+          "filename": "Telepost-1.1.e.jar",
+          "primary": true,
+          "size": 274937
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "pmp2OXpQ",
@@ -455,76 +675,6 @@
       ]
     },
     {
-      "id": "T30aPzze",
-      "name": "Telepost 1.9",
-      "version_number": "1.9",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "9cc7f855310189e5eea0a97e22c40572491dcfbde7783df8c981191e006adf482eccb4d314be206f35cac14f48677d847541c9b9d8a64350a53bee92c11b4541",
-          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/T30aPzze/Telepost-1.9.jar",
-          "filename": "Telepost-1.9.jar",
-          "primary": true,
-          "size": 1844010
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "swbUV1cr",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "1u6JkXh5",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "R5y9qvuz",
-      "name": "Telepost 1.8",
-      "version_number": "1.8",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "c63ffbf58b837d1fe37b0f0256535df493956fc1d8ee8ee97f5f08579ee9935b43c86246e365167d44b601e45ff91a27ca27ce5bdbf0c77dbc366954f047f37c",
-          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/R5y9qvuz/Telepost-1.8.jar",
-          "filename": "Telepost-1.8.jar",
-          "primary": true,
-          "size": 1839689
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1u6JkXh5",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "qSxijE6f",
       "name": "Telepost 1.7",
       "version_number": "1.7",
@@ -560,170 +710,6 @@
       ]
     },
     {
-      "id": "XsOxoTNb",
-      "name": "Telepost 1.6",
-      "version_number": "1.6",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "8f2052a38947b1592e83d1d9d7c5d5df0305aa6bfdada675be3c8df4165b26e77f76ead3f4bbfd24b546b2159f5c36acac38f396fd3a65c54ac4b605f8c6af96",
-          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/XsOxoTNb/Telepost-1.6.jar",
-          "filename": "Telepost-1.6.jar",
-          "primary": true,
-          "size": 1839563
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1u6JkXh5",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "RerBRDHC",
-      "name": "Telepost 1.4",
-      "version_number": "1.4",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "779f4ebe0d741dd7af8b5b8007bf19d2b1e39b1cd6bb4b384ab83ea3c5bed8a0f9931bf082b1b05483a1c43826ea01f99df3e10d243e370a48936448eebbf80d",
-          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/RerBRDHC/Telepost-1.4.jar",
-          "filename": "Telepost-1.4.jar",
-          "primary": true,
-          "size": 3164040
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "swbUV1cr",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "1u6JkXh5",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "O4bptQ73",
-      "name": "Telepost 1.1.f",
-      "version_number": "1.1.f",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "b73e710860a85a8bcb28f8c4ecc48139aa41e31ec371ff2630d22c5d646d5eef32a8d53dd14786211828f1045530a4e7fdc6292c10b5be2b8aac3dc94109868f",
-          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/O4bptQ73/Telepost-1.1.f.jar",
-          "filename": "Telepost-1.1.f.jar",
-          "primary": true,
-          "size": 277897
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "swbUV1cr",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "owoiZ0RE",
-      "name": "Telepost 1.1.e",
-      "version_number": "1.1.e",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "3106b9e277e480058b909f2f3b1a3a3fb9565f6626476677c62aa0fd8f350fa46739cae54c47c2b6cfd7bd3fff2cfa9aa1119e09adb5b6ca02472d1f64f4e2a2",
-          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/owoiZ0RE/Telepost-1.1.e.jar",
-          "filename": "Telepost-1.1.e.jar",
-          "primary": true,
-          "size": 274937
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "G1Jsxaxr",
-      "name": "Telepost 1.1.d",
-      "version_number": "1.1.d",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "77dc67622bf2efef72e9f96749a0b94e3a8aa938aeacadd37bbc09b21cfb23eee3b59cd8cd922596b18b47cb21701afc8e6c0858529e2efc0b36562f429f7ee8",
-          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/G1Jsxaxr/Telepost-1.1.d.jar",
-          "filename": "Telepost-1.1.d.jar",
-          "primary": true,
-          "size": 274952
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Gx4gDXlr",
-      "name": "Telepost 1.1.c",
-      "version_number": "1.1.c",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f2b0a782e27f9529ad14c274d72b2304a34398d85d5e6f71c53f12709b59696b77d28f523f2e250f46d4ed27a72aebe0b495441a3bc2c0411330297329d39e0a",
-          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/Gx4gDXlr/Telepost-1.1.c.jar",
-          "filename": "Telepost-1.1.c.jar",
-          "primary": true,
-          "size": 273763
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "seZI7tA8",
       "name": "Telepost 1.1.b",
       "version_number": "1.1.b",
@@ -742,27 +728,6 @@
           "filename": "Telepost-1.1.b.jar",
           "primary": true,
           "size": 272417
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "3pXHtpk4",
-      "name": "Telepost 1.1.a",
-      "version_number": "1.1.a",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a94af0bf0afc648e5daf7669fd994717b2148785d14a529b76196c9ced34484b23de4215a999b51d7140256804831a6e1c69c59adf076867f4a38ea5644f8644",
-          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/3pXHtpk4/Telepost-1.1.a.jar",
-          "filename": "Telepost-1.1.a.jar",
-          "primary": true,
-          "size": 125485
         }
       ],
       "dependencies": []
@@ -787,6 +752,41 @@
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "zPR2ItCw",
+      "name": "Telepost 1.16",
+      "version_number": "1.16",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "490b88a29eec9b4afd64f4fec23574bdac926ebbd6617c4e1559fe0a00e8b8bf7ec09d3f9b8ba4ecd7e67a19362f5a2dd9d60a12642866ac8ebdea280e62854c",
+          "url": "https://cdn.modrinth.com/data/w8avchdW/versions/zPR2ItCw/Telepost-1.16.jar",
+          "filename": "Telepost-1.16.jar",
+          "primary": true,
+          "size": 1862583
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1u6JkXh5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "swbUV1cr",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
     }
   ]
 }

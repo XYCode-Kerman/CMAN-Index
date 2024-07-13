@@ -5,9 +5,9 @@
   "description": "A plugin Mod for Expanded Combat adding compatibility with Gilded Netherite CJ Edition",
   "versions": [
     {
-      "id": "nQGUiNoc",
-      "name": "EC plugin for CJ's Gilded Netherite 1.1.2",
-      "version_number": "1.1.2",
+      "id": "RRcDzZEI",
+      "name": "EC plugin for CJ's Gilded Netherite 1.0.1",
+      "version_number": "1.0.1",
       "game_versions": [
         "1.20.1"
       ],
@@ -16,14 +16,20 @@
       ],
       "files": [
         {
-          "sha512": "6310da553b4f0a2b6ffad51ab71ab52520cbb362e3ed2ad13e572d5f2bc088b4dce9d60a3a69b02c4e1b29fbcdccbcdfa5fc4f8fa826c7268b19ae9fa1419dc8",
-          "url": "https://cdn.modrinth.com/data/uPP5bLwz/versions/nQGUiNoc/ec_cjgn_plugin-1.20.1-1.1.2-all.jar",
-          "filename": "ec_cjgn_plugin-1.20.1-1.1.2-all.jar",
+          "sha512": "103cc5240209fa5d02a1fd0ef4a5b9b4739bf66948ff50a5f2b78800547e310839d85b9c3f5e337d9bfb07e8a62f0eddc3cd47e0019d4bed1cf8c91dd5aba70f",
+          "url": "https://cdn.modrinth.com/data/uPP5bLwz/versions/RRcDzZEI/ec_cjgn_plugin-1.20.1-1.0.1-all.jar",
+          "filename": "ec_cjgn_plugin-1.20.1-1.0.1-all.jar",
           "primary": true,
-          "size": 446907
+          "size": 446363
         }
       ],
       "dependencies": [
+        {
+          "project_id": "vvuO3ImH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "5sy6g3kz",
           "version_id": null,
@@ -38,12 +44,6 @@
         },
         {
           "project_id": "sElBpAJt",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "vvuO3ImH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -91,9 +91,9 @@
       ]
     },
     {
-      "id": "tLobSpIR",
-      "name": "EC plugin for CJ's Gilded Netherite 1.1.0",
-      "version_number": "1.1.0",
+      "id": "nQGUiNoc",
+      "name": "EC plugin for CJ's Gilded Netherite 1.1.2",
+      "version_number": "1.1.2",
       "game_versions": [
         "1.20.1"
       ],
@@ -102,11 +102,11 @@
       ],
       "files": [
         {
-          "sha512": "6a783732d36882ad5f8a8392ff3398b8fefe38daf41b3bb702d4e1174eebe7b6f7e2603961754b52cd074a0c4a47757f18d7e59530669f74e855544cec0a6522",
-          "url": "https://cdn.modrinth.com/data/uPP5bLwz/versions/tLobSpIR/ec_cjgn_plugin-1.20.1-1.1.0-all.jar",
-          "filename": "ec_cjgn_plugin-1.20.1-1.1.0-all.jar",
+          "sha512": "6310da553b4f0a2b6ffad51ab71ab52520cbb362e3ed2ad13e572d5f2bc088b4dce9d60a3a69b02c4e1b29fbcdccbcdfa5fc4f8fa826c7268b19ae9fa1419dc8",
+          "url": "https://cdn.modrinth.com/data/uPP5bLwz/versions/nQGUiNoc/ec_cjgn_plugin-1.20.1-1.1.2-all.jar",
+          "filename": "ec_cjgn_plugin-1.20.1-1.1.2-all.jar",
           "primary": true,
-          "size": 458473
+          "size": 446907
         }
       ],
       "dependencies": [
@@ -122,51 +122,11 @@
           "file_name": null,
           "dependency_type": "required"
         },
-        {
-          "project_id": "vvuO3ImH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "RRcDzZEI",
-      "name": "EC plugin for CJ's Gilded Netherite 1.0.1",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "103cc5240209fa5d02a1fd0ef4a5b9b4739bf66948ff50a5f2b78800547e310839d85b9c3f5e337d9bfb07e8a62f0eddc3cd47e0019d4bed1cf8c91dd5aba70f",
-          "url": "https://cdn.modrinth.com/data/uPP5bLwz/versions/RRcDzZEI/ec_cjgn_plugin-1.20.1-1.0.1-all.jar",
-          "filename": "ec_cjgn_plugin-1.20.1-1.0.1-all.jar",
-          "primary": true,
-          "size": 446363
-        }
-      ],
-      "dependencies": [
         {
           "project_id": "5sy6g3kz",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "sElBpAJt",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "vvuO3ImH",
@@ -210,6 +170,46 @@
         },
         {
           "project_id": "sElBpAJt",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "tLobSpIR",
+      "name": "EC plugin for CJ's Gilded Netherite 1.1.0",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "6a783732d36882ad5f8a8392ff3398b8fefe38daf41b3bb702d4e1174eebe7b6f7e2603961754b52cd074a0c4a47757f18d7e59530669f74e855544cec0a6522",
+          "url": "https://cdn.modrinth.com/data/uPP5bLwz/versions/tLobSpIR/ec_cjgn_plugin-1.20.1-1.1.0-all.jar",
+          "filename": "ec_cjgn_plugin-1.20.1-1.1.0-all.jar",
+          "primary": true,
+          "size": 458473
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "sElBpAJt",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "vvuO3ImH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"

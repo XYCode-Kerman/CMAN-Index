@@ -5,6 +5,112 @@
   "description": "Make items blink when they're about to despawn",
   "versions": [
     {
+      "id": "1NzboPGj",
+      "name": "cleardespawn",
+      "version_number": "21w10a-fabric0.32.1-1.1.1",
+      "game_versions": [
+        "21w10a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ee39aa7b72d16d8d8aef203b7545068e5020854a6feec617cf386539a3df94707fa961e64b6868c819cc087f2843738d2d1034ecd8daeeeb1e432875c2995d1d",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/21w10a-fabric0.32.1-1.1.1/cleardespawn-21w10a-fabric0.32.1-1.1.1.jar",
+          "filename": "cleardespawn-21w10a-fabric0.32.1-1.1.1.jar",
+          "primary": false,
+          "size": 89291
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "7AjdGDji",
+      "name": "ClearDespawn-fabric-1.20.1-1.1.11.jar",
+      "version_number": "1.1.11",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "7df51e85dd39c2a94fcbd216c7323bc8d311c96a36b86d6d2ef2906fae56059fe7517f3e799245e692d4f2a984ae780a9282c49bdc9e3b16a2afdfdafd70c213",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/7AjdGDji/ClearDespawn-fabric-1.20.1-1.1.11.jar",
+          "filename": "ClearDespawn-fabric-1.20.1-1.1.11.jar",
+          "primary": true,
+          "size": 19637
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "8THfUG9X",
+      "name": "cleardespawn",
+      "version_number": "21w03a-fabric0.29.5-1.1.1",
+      "game_versions": [
+        "21w03a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "cdaf4ef3f06c3b19f2ccfeff32a779f0a01f8a20dc9a092f9247ff95507fd8fdd02afdccfc6e7422cbda63539aa221079a7debf4a1a3852ed3408c99b1d0bf8e",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/21w03a-fabric0.29.5-1.1.1/cleardespawn-21w03a-fabric0.29.5-1.1.1.jar",
+          "filename": "cleardespawn-21w03a-fabric0.29.5-1.1.1.jar",
+          "primary": false,
+          "size": 89309
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "9Xke6c1g",
+      "name": "cleardespawn",
+      "version_number": "21w40a-1.1.3",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "501a555a40f55bffcc42c5cfee4b40fca4a4d1f6b39000052c39b78211f0262622fa27bc133e38861b99a3865f8ba819d17fceb576b72a7d48eb99bc014deeac",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/21w40a-1.1.3/cleardespawn-21w40a-1.1.3.jar",
+          "filename": "cleardespawn-21w40a-1.1.3.jar",
+          "primary": true,
+          "size": 93165
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "BVhaU9kb",
       "name": "ClearDespawn-neoforge-1.20.2-1.1.15.jar",
       "version_number": "1.1.15",
@@ -21,6 +127,353 @@
           "filename": "ClearDespawn-neoforge-1.20.2-1.1.15.jar",
           "primary": true,
           "size": 19619
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Bhdfg6mI",
+      "name": "ClearDespawn-forge-1.19.2-1.1.11.jar",
+      "version_number": "1.1.11",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "1201d42e3e7a9e1be2bf1c523fbbd30fef8f35ec8750289b85c83e1b441f10dc79528c7c2144f861cbcf66dd78aaa319b1086d2bc075a6223f47a447b9e88fca",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/Bhdfg6mI/ClearDespawn-forge-1.19.2-1.1.11.jar",
+          "filename": "ClearDespawn-forge-1.19.2-1.1.11.jar",
+          "primary": true,
+          "size": 19207
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Elndy0uX",
+      "name": "cleardespawn",
+      "version_number": "21w13a-fabric0.32.6-1.1.1",
+      "game_versions": [
+        "21w13a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "cfe6edb9dd45ef58c02db25b02b1ebaec7657292a8979a500a56f904db3b63e8abd61f9ea7a1965d6364c17253f236f9ce3b2890c74579591909566c84b298f7",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/21w13a-fabric0.32.6-1.1.1/cleardespawn-21w13a-fabric0.32.6-1.1.1.jar",
+          "filename": "cleardespawn-21w13a-fabric0.32.6-1.1.1.jar",
+          "primary": false,
+          "size": 88121
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "FOOOtHid",
+      "name": "cleardespawn",
+      "version_number": "1.16.5-fabric0.30.0-1.1.1",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "755761a756ee54bf8b7ea8f26c0a335b630f02fd05d94fc5d6d8c55d4348c83fa116ebd6f244a34655d29eeee169bd92bffeb56b6e636ee566e46211be65df8e",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/1.16.5-fabric0.30.0-1.1.1/cleardespawn-1.16.5-fabric0.30.0-1.1.1.jar",
+          "filename": "cleardespawn-1.16.5-fabric0.30.0-1.1.1.jar",
+          "primary": false,
+          "size": 88193
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "FT5H4qM6",
+      "name": "cleardespawn",
+      "version_number": "20w49a-fabric0.27.2-1.1.1",
+      "game_versions": [
+        "20w49a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "323d4120cccb2ba6b77dcc3184e6df3693c8738e52f4ad036528e2b826999987410eef2c16af1d28221e25802e3ec4a87a6ae0e0977141864ffc7fa4a40395e2",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/20w49a-fabric0.27.2-1.1.1/cleardespawn-20w49a-fabric0.27.2-1.1.1.jar",
+          "filename": "cleardespawn-20w49a-fabric0.27.2-1.1.1.jar",
+          "primary": false,
+          "size": 88392
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "HxBfnXkF",
+      "name": "cleardespawn",
+      "version_number": "1.17.1-1.1.2",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "360ad756b04e74bea156a5ea2e255704830a008c0567b850e08912e5d9a3f97c1f4e2304eda1da86bf48f243030d688567779484a8e59063cd8a805bb5ca96df",
+          "url": "https://cdn.modrinth.com//data/yoJJjRRE/versions/1.17.1-1.1.2/cleardespawn-1.17.1-1.1.2.jar",
+          "filename": "cleardespawn-1.17.1-1.1.2.jar",
+          "primary": false,
+          "size": 93277
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "I7sJems5",
+      "name": "cleardespawn",
+      "version_number": "21w08b-fabric0.31.1-1.1.1",
+      "game_versions": [
+        "21w08b"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "91d79c2f00e7ec2acf7200a59444c51406a9eb9181cc12b6f1dcabb99a57571667b9d3169ef0ad839f6b987e29e714d6638269b8c3b720c40c83a2ae5ec79950",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/21w08b-fabric0.31.1-1.1.1/cleardespawn-21w08b-fabric0.31.1-1.1.1.jar",
+          "filename": "cleardespawn-21w08b-fabric0.31.1-1.1.1.jar",
+          "primary": false,
+          "size": 89360
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "QiT3CrFQ",
+      "name": "cleardespawn",
+      "version_number": "1.17-pre5-fabric0.34.8-1.1.1",
+      "game_versions": [
+        "1.17-pre5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a90ad1ed4a6341c286d1cec2fd8182cc60a8b93ed3b06135569cb97cd0c9d314e71a9b79a0a46fe8540d1064cded209b922a450c3cb28463f906ceb1f8661a84",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/1.17-pre5-fabric0.34.8-1.1.1/cleardespawn-1.17-pre5-fabric0.34.8-1.1.1.jar",
+          "filename": "cleardespawn-1.17-pre5-fabric0.34.8-1.1.1.jar",
+          "primary": false,
+          "size": 89328
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "RynPxbsG",
+      "name": "ClearDespawn-fabric-1.19.2-1.1.11.jar",
+      "version_number": "1.1.11",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "998b9ecca391469a6abc77764e2680d174cfda23807de8bfff37bfa618275729c2ec4954fd26ecafda140ecc9d5dfc3d24d7074294a7154360c648e66f791810",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/RynPxbsG/ClearDespawn-fabric-1.19.2-1.1.11.jar",
+          "filename": "ClearDespawn-fabric-1.19.2-1.1.11.jar",
+          "primary": true,
+          "size": 18804
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "TwEFlZkY",
+      "name": "ClearDespawn 1.1.7",
+      "version_number": "1.1.7",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "379f4f31a0c4aa85f8ad9b037943ee062f8e40cd5d0587aa5e5d51bf6b1e6029375218123fa0019dd5f4735586bd9da8188c379bb43fc851a3b616aa1890ef60",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/TwEFlZkY/ClearDespawn-fabric-1.18.2-1.1.7.jar",
+          "filename": "ClearDespawn-fabric-1.18.2-1.1.7.jar",
+          "primary": true,
+          "size": 18184
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "WhsNgBbg",
+      "name": "cleardespawn",
+      "version_number": "1.17.1-fabric0.36.1-1.1.1",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "215494598f6ca36380d69c580acab85a9537983c003783b847d7a18b717f2b6286493ec94e1a513879990921ba408f7c69f428fb5b8493a5aa78b98ce31237d8",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/1.17.1-fabric0.36.1-1.1.1/cleardespawn-1.17.1-fabric0.36.1-1.1.1.jar",
+          "filename": "cleardespawn-1.17.1-fabric0.36.1-1.1.1.jar",
+          "primary": false,
+          "size": 89434
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "e2hTsibL",
+      "name": "ClearDespawn-forge-1.20.1-1.1.12.jar",
+      "version_number": "1.1.12",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "4fa1e3fe9da938959c98e4b1254d75171c5cd121a1f48a936999d6557542389dabacdf02473239db2bd448f6e14c91aebe23aebcc4adc4b01e59df83d0fd23fc",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/e2hTsibL/ClearDespawn-forge-1.20.1-1.1.12.jar",
+          "filename": "ClearDespawn-forge-1.20.1-1.1.12.jar",
+          "primary": true,
+          "size": 20022
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "eGVMpSg0",
+      "name": "cleardespawn",
+      "version_number": "1.16.4-fabric0.25.1-1.1.1",
+      "game_versions": [
+        "1.16.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a9d06cc47dc48743c0bd15ba0fe9b7b7128c6c00fc8021d88414618f117d9d417355d28bf5cbcfe97a60f5b43a16c0b13791464c805c022581b8ace4917a4a90",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/1.16.4-fabric0.25.1-1.1.1/cleardespawn-1.16.4-fabric0.25.1-1.1.1.jar",
+          "filename": "cleardespawn-1.16.4-fabric0.25.1-1.1.1.jar",
+          "primary": false,
+          "size": 80469
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "eR8d5blO",
+      "name": "ClearDespawn-forge-1.20.1-1.1.11.jar",
+      "version_number": "1.1.11",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "efa445d9381bad56d2aaea9f95ff354f1eb2cf2b1abf9ad7f7af22b757a8045adcdbcf6e03bc3bbe373c54e878ade5239dffb0f269d4a594188fbe5401f82269",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/eR8d5blO/ClearDespawn-forge-1.20.1-1.1.11.jar",
+          "filename": "ClearDespawn-forge-1.20.1-1.1.11.jar",
+          "primary": true,
+          "size": 20097
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "gFc6mJW2",
+      "name": "ClearDespawn-forge-1.20.2-1.1.15.jar",
+      "version_number": "1.1.15",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "34ee20ec482d3969e6fa80d423213d63da7d95cfd450cf79a55f7ddf7ca0657a59700fdb3faf9f8016774dbc678b6ee090aa12a77abd6f00a9ed12520a41c199",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/gFc6mJW2/ClearDespawn-forge-1.20.2-1.1.15.jar",
+          "filename": "ClearDespawn-forge-1.20.2-1.1.15.jar",
+          "primary": true,
+          "size": 20023
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "gRX2zGA0",
+      "name": "cleardespawn",
+      "version_number": "21w14a-fabric0.32.7-1.1.1",
+      "game_versions": [
+        "21w14a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9dccff5876ec4aecd5e706d6fc3f07f90c19023912be607b4f4e347ee80721b4840a51951ceaa286ddf597a2c1d6b15be4a8eba48908f970943595b6e2a7a122",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/21w14a-fabric0.32.7-1.1.1/cleardespawn-21w14a-fabric0.32.7-1.1.1.jar",
+          "filename": "cleardespawn-21w14a-fabric0.32.7-1.1.1.jar",
+          "primary": false,
+          "size": 88148
         }
       ],
       "dependencies": []
@@ -68,9 +521,55 @@
       ]
     },
     {
-      "id": "gFc6mJW2",
-      "name": "ClearDespawn-forge-1.20.2-1.1.15.jar",
-      "version_number": "1.1.15",
+      "id": "lmiMNRZw",
+      "name": "cleardespawn",
+      "version_number": "21w07a-fabric0.30.5-1.1.1",
+      "game_versions": [
+        "21w07a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c3acd4a1c38a492e30d7f4c035e322d6cc75e0d964bdffd6b2655a1d48195b537cd311cdd2c96e5896874e6046f84ecef519c1acaede4c4d926e7b473dd515dc",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/21w07a-fabric0.30.5-1.1.1/cleardespawn-21w07a-fabric0.30.5-1.1.1.jar",
+          "filename": "cleardespawn-21w07a-fabric0.30.5-1.1.1.jar",
+          "primary": false,
+          "size": 89360
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "mwaoKd7a",
+      "name": "ClearDespawn-forge-1.19.2-1.1.10.jar",
+      "version_number": "1.1.10",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ecc387e84e9f0d917732593b3306461cf74f87fd20b52fcbb4eed98234ef9ef41d472aae797b36a1ed2197a589667fdff2b247bb499d126b84351546f150a1b5",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/mwaoKd7a/ClearDespawn-forge-1.19.2-1.1.10.jar",
+          "filename": "ClearDespawn-forge-1.19.2-1.1.10.jar",
+          "primary": true,
+          "size": 19206
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "nWNA9YNY",
+      "name": "ClearDespawn-forge-1.20.1-1.1.13.jar",
+      "version_number": "1.1.13",
       "game_versions": [
         "1.20",
         "1.20.1",
@@ -81,11 +580,166 @@
       ],
       "files": [
         {
-          "sha512": "34ee20ec482d3969e6fa80d423213d63da7d95cfd450cf79a55f7ddf7ca0657a59700fdb3faf9f8016774dbc678b6ee090aa12a77abd6f00a9ed12520a41c199",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/gFc6mJW2/ClearDespawn-forge-1.20.2-1.1.15.jar",
-          "filename": "ClearDespawn-forge-1.20.2-1.1.15.jar",
+          "sha512": "23971eeb6da892373452c028172e9ad042e405183ded2621c35152e2821842ddabb5baa0ec622fc68ed9234c890a5143eb7c4d09e1bdf06172871b6030729977",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/nWNA9YNY/ClearDespawn-forge-1.20.1-1.1.13.jar",
+          "filename": "ClearDespawn-forge-1.20.1-1.1.13.jar",
           "primary": true,
-          "size": 20023
+          "size": 20022
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "q7dtjvae",
+      "name": "cleardespawn",
+      "version_number": "1.17-fabric0.34.9-1.1.1",
+      "game_versions": [
+        "1.17"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a9ca5a5457d86054dc34c9017f83e7ef9f6a66de071e7e7b2ac46d2bbc9109005f4b431f8c4f08bd2d159dd8b9ae79aff441ae4715aba1296dbeb6d02f8f2fbd",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/1.17-fabric0.34.9-1.1.1/cleardespawn-1.17-fabric0.34.9-1.1.1.jar",
+          "filename": "cleardespawn-1.17-fabric0.34.9-1.1.1.jar",
+          "primary": false,
+          "size": 89413
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rpuYs1Va",
+      "name": "ClearDespawn-fabric-1.19-1.1.8",
+      "version_number": "1.1.8",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c8df8a1e5d191c3f3fd2d8bb420db27788b73875fae41e9f8a008ecf594835906b25be7393724abb6670e84775fdaa556ffb11ed6ff548eb9964918059cc1582",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/1.1.8/ClearDespawn-fabric-1.19-1.1.8.jar",
+          "filename": "ClearDespawn-fabric-1.19-1.1.8.jar",
+          "primary": true,
+          "size": 18174
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "s9m05wT4",
+      "name": "ClearDespawn-fabric-1.20.1-1.1.12.jar",
+      "version_number": "1.1.12",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "bcd17fe9ea071a6022b5b75624a6008ff25891929a2fad019921fb10318fec0f2628193cbbfbbe28440cbf6d7a62b1f646aacc57f1b76f6066b9d73401332290",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/s9m05wT4/ClearDespawn-fabric-1.20.1-1.1.12.jar",
+          "filename": "ClearDespawn-fabric-1.20.1-1.1.12.jar",
+          "primary": true,
+          "size": 19636
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "tol35oV4",
+      "name": "ClearDespawn-fabric-1.19.2-1.1.10.jar",
+      "version_number": "1.1.10",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1e5e28d324b988c4748343c1bea77c18f96119ac398bde573f0feb734fbe18be3f888d8934d43e19178a95e4feb9495f415358091ce4523df44a8198f8f975d5",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/tol35oV4/ClearDespawn-fabric-1.19.2-1.1.10.jar",
+          "filename": "ClearDespawn-fabric-1.19.2-1.1.10.jar",
+          "primary": true,
+          "size": 18826
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "8rIblgME",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "EXrxCjl6",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "V4hnfgRO",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "vYxRLWQ6",
+      "name": "cleardespawn",
+      "version_number": "21w11a-fabric0.32.4-1.1.1",
+      "game_versions": [
+        "21w11a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "b38a5132154ffea064bb45756e143b25121a17a0b7c5ce1ff7570ca01151eb949e726279cbce5f15fc54c1f6478ea885120b755946651ace776732a8718355f0",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/21w11a-fabric0.32.4-1.1.1/cleardespawn-21w11a-fabric0.32.4-1.1.1.jar",
+          "filename": "cleardespawn-21w11a-fabric0.32.4-1.1.1.jar",
+          "primary": false,
+          "size": 88120
         }
       ],
       "dependencies": []
@@ -133,116 +787,22 @@
       ]
     },
     {
-      "id": "zFuvnWsj",
-      "name": "ClearDespawn-forge-1.20.1-1.1.14.jar",
-      "version_number": "1.1.14",
+      "id": "x9m9nKN7",
+      "name": "cleardespawn",
+      "version_number": "21w05a-fabric0.30.1-1.1.1",
       "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "6c390bf6a660e7b07b5ab7a562f9eeda514f14052665df893548aa19aa58359d975e4b548a086389dfdf091c94e0dec812bd4cf4a5d948b0dd73d7847b4d4945",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/zFuvnWsj/ClearDespawn-forge-1.20.1-1.1.14.jar",
-          "filename": "ClearDespawn-forge-1.20.1-1.1.14.jar",
-          "primary": true,
-          "size": 20034
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "TwEFlZkY",
-      "name": "ClearDespawn 1.1.7",
-      "version_number": "1.1.7",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
+        "21w05a"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "379f4f31a0c4aa85f8ad9b037943ee062f8e40cd5d0587aa5e5d51bf6b1e6029375218123fa0019dd5f4735586bd9da8188c379bb43fc851a3b616aa1890ef60",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/TwEFlZkY/ClearDespawn-fabric-1.18.2-1.1.7.jar",
-          "filename": "ClearDespawn-fabric-1.18.2-1.1.7.jar",
-          "primary": true,
-          "size": 18184
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "RynPxbsG",
-      "name": "ClearDespawn-fabric-1.19.2-1.1.11.jar",
-      "version_number": "1.1.11",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "998b9ecca391469a6abc77764e2680d174cfda23807de8bfff37bfa618275729c2ec4954fd26ecafda140ecc9d5dfc3d24d7074294a7154360c648e66f791810",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/RynPxbsG/ClearDespawn-fabric-1.19.2-1.1.11.jar",
-          "filename": "ClearDespawn-fabric-1.19.2-1.1.11.jar",
-          "primary": true,
-          "size": 18804
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "Bhdfg6mI",
-      "name": "ClearDespawn-forge-1.19.2-1.1.11.jar",
-      "version_number": "1.1.11",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "1201d42e3e7a9e1be2bf1c523fbbd30fef8f35ec8750289b85c83e1b441f10dc79528c7c2144f861cbcf66dd78aaa319b1086d2bc075a6223f47a447b9e88fca",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/Bhdfg6mI/ClearDespawn-forge-1.19.2-1.1.11.jar",
-          "filename": "ClearDespawn-forge-1.19.2-1.1.11.jar",
-          "primary": true,
-          "size": 19207
+          "sha512": "62371cb660e11918aa7bc877d1d30531bec6de9eb198dc08cd7158c68640d361df220fb851c15ebaba7d603fbb1fa5fd1ec315cd291058d8e6e864e329acd2ef",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/21w05a-fabric0.30.1-1.1.1/cleardespawn-21w05a-fabric0.30.1-1.1.1.jar",
+          "filename": "cleardespawn-21w05a-fabric0.30.1-1.1.1.jar",
+          "primary": false,
+          "size": 89360
         }
       ],
       "dependencies": []
@@ -276,23 +836,23 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": "eTCL1uh8",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "nWNA9YNY",
-      "name": "ClearDespawn-forge-1.20.1-1.1.13.jar",
-      "version_number": "1.1.13",
+      "id": "zFuvnWsj",
+      "name": "ClearDespawn-forge-1.20.1-1.1.14.jar",
+      "version_number": "1.1.14",
       "game_versions": [
         "1.20",
         "1.20.1",
@@ -303,529 +863,11 @@
       ],
       "files": [
         {
-          "sha512": "23971eeb6da892373452c028172e9ad042e405183ded2621c35152e2821842ddabb5baa0ec622fc68ed9234c890a5143eb7c4d09e1bdf06172871b6030729977",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/nWNA9YNY/ClearDespawn-forge-1.20.1-1.1.13.jar",
-          "filename": "ClearDespawn-forge-1.20.1-1.1.13.jar",
+          "sha512": "6c390bf6a660e7b07b5ab7a562f9eeda514f14052665df893548aa19aa58359d975e4b548a086389dfdf091c94e0dec812bd4cf4a5d948b0dd73d7847b4d4945",
+          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/zFuvnWsj/ClearDespawn-forge-1.20.1-1.1.14.jar",
+          "filename": "ClearDespawn-forge-1.20.1-1.1.14.jar",
           "primary": true,
-          "size": 20022
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "s9m05wT4",
-      "name": "ClearDespawn-fabric-1.20.1-1.1.12.jar",
-      "version_number": "1.1.12",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "bcd17fe9ea071a6022b5b75624a6008ff25891929a2fad019921fb10318fec0f2628193cbbfbbe28440cbf6d7a62b1f646aacc57f1b76f6066b9d73401332290",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/s9m05wT4/ClearDespawn-fabric-1.20.1-1.1.12.jar",
-          "filename": "ClearDespawn-fabric-1.20.1-1.1.12.jar",
-          "primary": true,
-          "size": 19636
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "eTCL1uh8",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "e2hTsibL",
-      "name": "ClearDespawn-forge-1.20.1-1.1.12.jar",
-      "version_number": "1.1.12",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "4fa1e3fe9da938959c98e4b1254d75171c5cd121a1f48a936999d6557542389dabacdf02473239db2bd448f6e14c91aebe23aebcc4adc4b01e59df83d0fd23fc",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/e2hTsibL/ClearDespawn-forge-1.20.1-1.1.12.jar",
-          "filename": "ClearDespawn-forge-1.20.1-1.1.12.jar",
-          "primary": true,
-          "size": 20022
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "7AjdGDji",
-      "name": "ClearDespawn-fabric-1.20.1-1.1.11.jar",
-      "version_number": "1.1.11",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "7df51e85dd39c2a94fcbd216c7323bc8d311c96a36b86d6d2ef2906fae56059fe7517f3e799245e692d4f2a984ae780a9282c49bdc9e3b16a2afdfdafd70c213",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/7AjdGDji/ClearDespawn-fabric-1.20.1-1.1.11.jar",
-          "filename": "ClearDespawn-fabric-1.20.1-1.1.11.jar",
-          "primary": true,
-          "size": 19637
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "eTCL1uh8",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "eR8d5blO",
-      "name": "ClearDespawn-forge-1.20.1-1.1.11.jar",
-      "version_number": "1.1.11",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "efa445d9381bad56d2aaea9f95ff354f1eb2cf2b1abf9ad7f7af22b757a8045adcdbcf6e03bc3bbe373c54e878ade5239dffb0f269d4a594188fbe5401f82269",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/eR8d5blO/ClearDespawn-forge-1.20.1-1.1.11.jar",
-          "filename": "ClearDespawn-forge-1.20.1-1.1.11.jar",
-          "primary": true,
-          "size": 20097
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "tol35oV4",
-      "name": "ClearDespawn-fabric-1.19.2-1.1.10.jar",
-      "version_number": "1.1.10",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "1e5e28d324b988c4748343c1bea77c18f96119ac398bde573f0feb734fbe18be3f888d8934d43e19178a95e4feb9495f415358091ce4523df44a8198f8f975d5",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/tol35oV4/ClearDespawn-fabric-1.19.2-1.1.10.jar",
-          "filename": "ClearDespawn-fabric-1.19.2-1.1.10.jar",
-          "primary": true,
-          "size": 18826
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "EXrxCjl6",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "8rIblgME",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "V4hnfgRO",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "mwaoKd7a",
-      "name": "ClearDespawn-forge-1.19.2-1.1.10.jar",
-      "version_number": "1.1.10",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "ecc387e84e9f0d917732593b3306461cf74f87fd20b52fcbb4eed98234ef9ef41d472aae797b36a1ed2197a589667fdff2b247bb499d126b84351546f150a1b5",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/mwaoKd7a/ClearDespawn-forge-1.19.2-1.1.10.jar",
-          "filename": "ClearDespawn-forge-1.19.2-1.1.10.jar",
-          "primary": true,
-          "size": 19206
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "rpuYs1Va",
-      "name": "ClearDespawn-fabric-1.19-1.1.8",
-      "version_number": "1.1.8",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c8df8a1e5d191c3f3fd2d8bb420db27788b73875fae41e9f8a008ecf594835906b25be7393724abb6670e84775fdaa556ffb11ed6ff548eb9964918059cc1582",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/1.1.8/ClearDespawn-fabric-1.19-1.1.8.jar",
-          "filename": "ClearDespawn-fabric-1.19-1.1.8.jar",
-          "primary": true,
-          "size": 18174
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "9Xke6c1g",
-      "name": "cleardespawn",
-      "version_number": "21w40a-1.1.3",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "501a555a40f55bffcc42c5cfee4b40fca4a4d1f6b39000052c39b78211f0262622fa27bc133e38861b99a3865f8ba819d17fceb576b72a7d48eb99bc014deeac",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/21w40a-1.1.3/cleardespawn-21w40a-1.1.3.jar",
-          "filename": "cleardespawn-21w40a-1.1.3.jar",
-          "primary": true,
-          "size": 93165
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "HxBfnXkF",
-      "name": "cleardespawn",
-      "version_number": "1.17.1-1.1.2",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "360ad756b04e74bea156a5ea2e255704830a008c0567b850e08912e5d9a3f97c1f4e2304eda1da86bf48f243030d688567779484a8e59063cd8a805bb5ca96df",
-          "url": "https://cdn.modrinth.com//data/yoJJjRRE/versions/1.17.1-1.1.2/cleardespawn-1.17.1-1.1.2.jar",
-          "filename": "cleardespawn-1.17.1-1.1.2.jar",
-          "primary": false,
-          "size": 93277
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "WhsNgBbg",
-      "name": "cleardespawn",
-      "version_number": "1.17.1-fabric0.36.1-1.1.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "215494598f6ca36380d69c580acab85a9537983c003783b847d7a18b717f2b6286493ec94e1a513879990921ba408f7c69f428fb5b8493a5aa78b98ce31237d8",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/1.17.1-fabric0.36.1-1.1.1/cleardespawn-1.17.1-fabric0.36.1-1.1.1.jar",
-          "filename": "cleardespawn-1.17.1-fabric0.36.1-1.1.1.jar",
-          "primary": false,
-          "size": 89434
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "q7dtjvae",
-      "name": "cleardespawn",
-      "version_number": "1.17-fabric0.34.9-1.1.1",
-      "game_versions": [
-        "1.17"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a9ca5a5457d86054dc34c9017f83e7ef9f6a66de071e7e7b2ac46d2bbc9109005f4b431f8c4f08bd2d159dd8b9ae79aff441ae4715aba1296dbeb6d02f8f2fbd",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/1.17-fabric0.34.9-1.1.1/cleardespawn-1.17-fabric0.34.9-1.1.1.jar",
-          "filename": "cleardespawn-1.17-fabric0.34.9-1.1.1.jar",
-          "primary": false,
-          "size": 89413
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "QiT3CrFQ",
-      "name": "cleardespawn",
-      "version_number": "1.17-pre5-fabric0.34.8-1.1.1",
-      "game_versions": [
-        "1.17-pre5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a90ad1ed4a6341c286d1cec2fd8182cc60a8b93ed3b06135569cb97cd0c9d314e71a9b79a0a46fe8540d1064cded209b922a450c3cb28463f906ceb1f8661a84",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/1.17-pre5-fabric0.34.8-1.1.1/cleardespawn-1.17-pre5-fabric0.34.8-1.1.1.jar",
-          "filename": "cleardespawn-1.17-pre5-fabric0.34.8-1.1.1.jar",
-          "primary": false,
-          "size": 89328
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "gRX2zGA0",
-      "name": "cleardespawn",
-      "version_number": "21w14a-fabric0.32.7-1.1.1",
-      "game_versions": [
-        "21w14a"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9dccff5876ec4aecd5e706d6fc3f07f90c19023912be607b4f4e347ee80721b4840a51951ceaa286ddf597a2c1d6b15be4a8eba48908f970943595b6e2a7a122",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/21w14a-fabric0.32.7-1.1.1/cleardespawn-21w14a-fabric0.32.7-1.1.1.jar",
-          "filename": "cleardespawn-21w14a-fabric0.32.7-1.1.1.jar",
-          "primary": false,
-          "size": 88148
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Elndy0uX",
-      "name": "cleardespawn",
-      "version_number": "21w13a-fabric0.32.6-1.1.1",
-      "game_versions": [
-        "21w13a"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "cfe6edb9dd45ef58c02db25b02b1ebaec7657292a8979a500a56f904db3b63e8abd61f9ea7a1965d6364c17253f236f9ce3b2890c74579591909566c84b298f7",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/21w13a-fabric0.32.6-1.1.1/cleardespawn-21w13a-fabric0.32.6-1.1.1.jar",
-          "filename": "cleardespawn-21w13a-fabric0.32.6-1.1.1.jar",
-          "primary": false,
-          "size": 88121
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "vYxRLWQ6",
-      "name": "cleardespawn",
-      "version_number": "21w11a-fabric0.32.4-1.1.1",
-      "game_versions": [
-        "21w11a"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b38a5132154ffea064bb45756e143b25121a17a0b7c5ce1ff7570ca01151eb949e726279cbce5f15fc54c1f6478ea885120b755946651ace776732a8718355f0",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/21w11a-fabric0.32.4-1.1.1/cleardespawn-21w11a-fabric0.32.4-1.1.1.jar",
-          "filename": "cleardespawn-21w11a-fabric0.32.4-1.1.1.jar",
-          "primary": false,
-          "size": 88120
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "1NzboPGj",
-      "name": "cleardespawn",
-      "version_number": "21w10a-fabric0.32.1-1.1.1",
-      "game_versions": [
-        "21w10a"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ee39aa7b72d16d8d8aef203b7545068e5020854a6feec617cf386539a3df94707fa961e64b6868c819cc087f2843738d2d1034ecd8daeeeb1e432875c2995d1d",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/21w10a-fabric0.32.1-1.1.1/cleardespawn-21w10a-fabric0.32.1-1.1.1.jar",
-          "filename": "cleardespawn-21w10a-fabric0.32.1-1.1.1.jar",
-          "primary": false,
-          "size": 89291
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "I7sJems5",
-      "name": "cleardespawn",
-      "version_number": "21w08b-fabric0.31.1-1.1.1",
-      "game_versions": [
-        "21w08b"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "91d79c2f00e7ec2acf7200a59444c51406a9eb9181cc12b6f1dcabb99a57571667b9d3169ef0ad839f6b987e29e714d6638269b8c3b720c40c83a2ae5ec79950",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/21w08b-fabric0.31.1-1.1.1/cleardespawn-21w08b-fabric0.31.1-1.1.1.jar",
-          "filename": "cleardespawn-21w08b-fabric0.31.1-1.1.1.jar",
-          "primary": false,
-          "size": 89360
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "lmiMNRZw",
-      "name": "cleardespawn",
-      "version_number": "21w07a-fabric0.30.5-1.1.1",
-      "game_versions": [
-        "21w07a"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c3acd4a1c38a492e30d7f4c035e322d6cc75e0d964bdffd6b2655a1d48195b537cd311cdd2c96e5896874e6046f84ecef519c1acaede4c4d926e7b473dd515dc",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/21w07a-fabric0.30.5-1.1.1/cleardespawn-21w07a-fabric0.30.5-1.1.1.jar",
-          "filename": "cleardespawn-21w07a-fabric0.30.5-1.1.1.jar",
-          "primary": false,
-          "size": 89360
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "FOOOtHid",
-      "name": "cleardespawn",
-      "version_number": "1.16.5-fabric0.30.0-1.1.1",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "755761a756ee54bf8b7ea8f26c0a335b630f02fd05d94fc5d6d8c55d4348c83fa116ebd6f244a34655d29eeee169bd92bffeb56b6e636ee566e46211be65df8e",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/1.16.5-fabric0.30.0-1.1.1/cleardespawn-1.16.5-fabric0.30.0-1.1.1.jar",
-          "filename": "cleardespawn-1.16.5-fabric0.30.0-1.1.1.jar",
-          "primary": false,
-          "size": 88193
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "x9m9nKN7",
-      "name": "cleardespawn",
-      "version_number": "21w05a-fabric0.30.1-1.1.1",
-      "game_versions": [
-        "21w05a"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "62371cb660e11918aa7bc877d1d30531bec6de9eb198dc08cd7158c68640d361df220fb851c15ebaba7d603fbb1fa5fd1ec315cd291058d8e6e864e329acd2ef",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/21w05a-fabric0.30.1-1.1.1/cleardespawn-21w05a-fabric0.30.1-1.1.1.jar",
-          "filename": "cleardespawn-21w05a-fabric0.30.1-1.1.1.jar",
-          "primary": false,
-          "size": 89360
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "8THfUG9X",
-      "name": "cleardespawn",
-      "version_number": "21w03a-fabric0.29.5-1.1.1",
-      "game_versions": [
-        "21w03a"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "cdaf4ef3f06c3b19f2ccfeff32a779f0a01f8a20dc9a092f9247ff95507fd8fdd02afdccfc6e7422cbda63539aa221079a7debf4a1a3852ed3408c99b1d0bf8e",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/21w03a-fabric0.29.5-1.1.1/cleardespawn-21w03a-fabric0.29.5-1.1.1.jar",
-          "filename": "cleardespawn-21w03a-fabric0.29.5-1.1.1.jar",
-          "primary": false,
-          "size": 89309
+          "size": 20034
         }
       ],
       "dependencies": []
@@ -847,48 +889,6 @@
           "filename": "cleardespawn-20w51a-fabric0.28.3-1.1.1.jar",
           "primary": false,
           "size": 89010
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "FT5H4qM6",
-      "name": "cleardespawn",
-      "version_number": "20w49a-fabric0.27.2-1.1.1",
-      "game_versions": [
-        "20w49a"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "323d4120cccb2ba6b77dcc3184e6df3693c8738e52f4ad036528e2b826999987410eef2c16af1d28221e25802e3ec4a87a6ae0e0977141864ffc7fa4a40395e2",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/20w49a-fabric0.27.2-1.1.1/cleardespawn-20w49a-fabric0.27.2-1.1.1.jar",
-          "filename": "cleardespawn-20w49a-fabric0.27.2-1.1.1.jar",
-          "primary": false,
-          "size": 88392
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "eGVMpSg0",
-      "name": "cleardespawn",
-      "version_number": "1.16.4-fabric0.25.1-1.1.1",
-      "game_versions": [
-        "1.16.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a9d06cc47dc48743c0bd15ba0fe9b7b7128c6c00fc8021d88414618f117d9d417355d28bf5cbcfe97a60f5b43a16c0b13791464c805c022581b8ace4917a4a90",
-          "url": "https://cdn.modrinth.com/data/yoJJjRRE/versions/1.16.4-fabric0.25.1-1.1.1/cleardespawn-1.16.4-fabric0.25.1-1.1.1.jar",
-          "filename": "cleardespawn-1.16.4-fabric0.25.1-1.1.1.jar",
-          "primary": false,
-          "size": 80469
         }
       ],
       "dependencies": []

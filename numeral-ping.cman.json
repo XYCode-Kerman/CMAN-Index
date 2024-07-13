@@ -5,6 +5,47 @@
   "description": "Display the ping for each player.",
   "versions": [
     {
+      "id": "5qPiJBza",
+      "name": "Numeral Ping v1.1.1",
+      "version_number": "1.1.1",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "a62865ed61dd4c1b3448ec7fb43fcc92d6fbd5ecd9b4d4b1cf9840c6c70e8ccad46f0e094b12d2bf3167acec751806517c778d9fe1737fde1163eb4d17fd0480",
+          "url": "https://cdn.modrinth.com/data/XLd8Sh64/versions/5qPiJBza/numeralping-1.1.1.jar",
+          "filename": "numeralping-1.1.1.jar",
+          "primary": true,
+          "size": 222578
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": "NZpUvhBc",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "V7gqra8F",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "AIaLVesd",
       "name": "Numeral Ping 1.2.4",
       "version_number": "1.2.4",
@@ -26,10 +67,10 @@
       ],
       "dependencies": [
         {
-          "project_id": "1eAoo2KR",
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
@@ -38,10 +79,10 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
+          "project_id": "1eAoo2KR",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
     },
@@ -87,12 +128,11 @@
       ]
     },
     {
-      "id": "bodOtPPx",
-      "name": "Numeral Ping 1.2.2",
-      "version_number": "1.2.2",
+      "id": "G57flILg",
+      "name": "Numeral Ping v1.2.0",
+      "version_number": "1.2.0",
       "game_versions": [
-        "1.20.3",
-        "1.20.4"
+        "1.19.4"
       ],
       "loaders": [
         "fabric",
@@ -100,29 +140,29 @@
       ],
       "files": [
         {
-          "sha512": "3d89eb9ac2a180f34df452e2fc89413f3230c67b8adf03ec327904de71f903e12bcd8fd8e255ff4fa900260cc398c54a7f5f014cdf83a2b3ea4f6c8e23674a44",
-          "url": "https://cdn.modrinth.com/data/XLd8Sh64/versions/bodOtPPx/numeralping-1.2.2.jar",
-          "filename": "numeralping-1.2.2.jar",
+          "sha512": "95f85b5548ca576f78d0cf3ab47ed13f44cb9fd02783cc3370fe170bb629ef30d6f38634d407488baf19f83b915d8ccce50b33051b7cbbf5c48b03f65e5eb3ed",
+          "url": "https://cdn.modrinth.com/data/XLd8Sh64/versions/G57flILg/numeralping-1.2.0.jar",
+          "filename": "numeralping-1.2.0.jar",
           "primary": true,
-          "size": 49383
+          "size": 237340
         }
       ],
       "dependencies": [
         {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "version_id": "5U5Y73uW",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
+          "project_id": "1eAoo2KR",
+          "version_id": "Vc0cNGqC",
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "embedded"
         },
         {
           "project_id": "mOgUt4GM",
-          "version_id": null,
+          "version_id": "iZRiOnnj",
           "file_name": null,
           "dependency_type": "optional"
         }
@@ -152,6 +192,54 @@
       ],
       "dependencies": [
         {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "bodOtPPx",
+      "name": "Numeral Ping 1.2.2",
+      "version_number": "1.2.2",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3d89eb9ac2a180f34df452e2fc89413f3230c67b8adf03ec327904de71f903e12bcd8fd8e255ff4fa900260cc398c54a7f5f014cdf83a2b3ea4f6c8e23674a44",
+          "url": "https://cdn.modrinth.com/data/XLd8Sh64/versions/bodOtPPx/numeralping-1.2.2.jar",
+          "filename": "numeralping-1.2.2.jar",
+          "primary": true,
+          "size": 49383
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "1eAoo2KR",
           "version_id": null,
           "file_name": null,
@@ -162,137 +250,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "G57flILg",
-      "name": "Numeral Ping v1.2.0",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "95f85b5548ca576f78d0cf3ab47ed13f44cb9fd02783cc3370fe170bb629ef30d6f38634d407488baf19f83b915d8ccce50b33051b7cbbf5c48b03f65e5eb3ed",
-          "url": "https://cdn.modrinth.com/data/XLd8Sh64/versions/G57flILg/numeralping-1.2.0.jar",
-          "filename": "numeralping-1.2.0.jar",
-          "primary": true,
-          "size": 237340
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": "Vc0cNGqC",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "5U5Y73uW",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "iZRiOnnj",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "5qPiJBza",
-      "name": "Numeral Ping v1.1.1",
-      "version_number": "1.1.1",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "a62865ed61dd4c1b3448ec7fb43fcc92d6fbd5ecd9b4d4b1cf9840c6c70e8ccad46f0e094b12d2bf3167acec751806517c778d9fe1737fde1163eb4d17fd0480",
-          "url": "https://cdn.modrinth.com/data/XLd8Sh64/versions/5qPiJBza/numeralping-1.1.1.jar",
-          "filename": "numeralping-1.1.1.jar",
-          "primary": true,
-          "size": 222578
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": "NZpUvhBc",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "V7gqra8F",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "zYo4Az2p",
-      "name": "Numeral Ping v1.1.0",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "25b2649576e6431c3c35ded3908ca4af256dbfe0409d3b95782eea384afa9e488d4db3c33bd01c0e40ca18615ffd718e54037e5a52de7b4124d570fd4c72492b",
-          "url": "https://cdn.modrinth.com/data/XLd8Sh64/versions/zYo4Az2p/numeralping-1.1.0.jar",
-          "filename": "numeralping-1.1.0.jar",
-          "primary": true,
-          "size": 194998
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "BXfHW8Ww",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": "UIAaWmvd",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "4dReZoTJ",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -320,20 +277,63 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "gSoPJyVn",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "9s6osm5g",
           "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "zYo4Az2p",
+      "name": "Numeral Ping v1.1.0",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "25b2649576e6431c3c35ded3908ca4af256dbfe0409d3b95782eea384afa9e488d4db3c33bd01c0e40ca18615ffd718e54037e5a52de7b4124d570fd4c72492b",
+          "url": "https://cdn.modrinth.com/data/XLd8Sh64/versions/zYo4Az2p/numeralping-1.1.0.jar",
+          "filename": "numeralping-1.1.0.jar",
+          "primary": true,
+          "size": 194998
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "4dReZoTJ",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "BXfHW8Ww",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": "UIAaWmvd",
           "file_name": null,
           "dependency_type": "embedded"
         }

@@ -5,6 +5,59 @@
   "description": "A simple mod for Quilt and Fabric to automatically reconfigure Log4j to improve the formatting of log messages.",
   "versions": [
     {
+      "id": "RuRPGUlW",
+      "name": "Better Log4j Config 1.0.0 (Quilt)",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5b3815c041a4c51cfff421a263d8287e56a8142e87e6bd49fe56502616e1d026befd08dd5ec201c17066a66b5a90ebca313b409192c265d125d91013accf3ec9",
+          "url": "https://cdn.modrinth.com/data/6gLXkYZq/versions/RuRPGUlW/better_log4j_config-quilt-1.0.0.jar",
+          "filename": "better_log4j_config-quilt-1.0.0.jar",
+          "primary": true,
+          "size": 48262
+        },
+        {
+          "sha512": "b6bcba0d15acadf85f3c32ff8cf3e38d1cf702444de92ca894935e6821c7f18b1d42100026adfd349383c8ddf385b9727303e8365364588a8d3c095cf956f209",
+          "url": "https://cdn.modrinth.com/data/6gLXkYZq/versions/RuRPGUlW/better_log4j_config-quilt-1.0.0-sources.jar",
+          "filename": "better_log4j_config-quilt-1.0.0-sources.jar",
+          "primary": false,
+          "size": 41330
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "XdsEPYxN",
       "name": "Better Log4j Config 1.2.0 (Fabric)",
       "version_number": "1.2.0",
@@ -164,59 +217,6 @@
       "dependencies": []
     },
     {
-      "id": "yGzMnbzS",
-      "name": "Better Log4j Config 1.1.0 (Fabric)",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "41c3e00856027f63bdc29ec096a3166cdf362ecda34d9296f90a6737ba4c7b21c57a191bede3c681230268d430a755d1d78e4f4117e48975346dd8ea1609fd75",
-          "url": "https://cdn.modrinth.com/data/6gLXkYZq/versions/yGzMnbzS/better_log4j_config-1.1.0-fabric.jar",
-          "filename": "better_log4j_config-1.1.0-fabric.jar",
-          "primary": true,
-          "size": 48232
-        },
-        {
-          "sha512": "9887349bde7e705f9e2805a77d8bf0fdd6f9a588766d1db216ca1f70c3026618a7876aa8a61211dee8ab5b587c59907254e1463b5da4209a208dffd8272a8706",
-          "url": "https://cdn.modrinth.com/data/6gLXkYZq/versions/yGzMnbzS/better_log4j_config-1.1.0-fabric-sources.jar",
-          "filename": "better_log4j_config-1.1.0-fabric-sources.jar",
-          "primary": false,
-          "size": 41316
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "vPJzEZ72",
       "name": "Better Log4j Config 1.0.0 (Fabric)",
       "version_number": "1.0.0",
@@ -270,9 +270,9 @@
       "dependencies": []
     },
     {
-      "id": "RuRPGUlW",
-      "name": "Better Log4j Config 1.0.0 (Quilt)",
-      "version_number": "1.0.0",
+      "id": "yGzMnbzS",
+      "name": "Better Log4j Config 1.1.0 (Fabric)",
+      "version_number": "1.1.0",
       "game_versions": [
         "1.14",
         "1.14.1",
@@ -302,22 +302,22 @@
         "1.20.1"
       ],
       "loaders": [
-        "quilt"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "5b3815c041a4c51cfff421a263d8287e56a8142e87e6bd49fe56502616e1d026befd08dd5ec201c17066a66b5a90ebca313b409192c265d125d91013accf3ec9",
-          "url": "https://cdn.modrinth.com/data/6gLXkYZq/versions/RuRPGUlW/better_log4j_config-quilt-1.0.0.jar",
-          "filename": "better_log4j_config-quilt-1.0.0.jar",
+          "sha512": "41c3e00856027f63bdc29ec096a3166cdf362ecda34d9296f90a6737ba4c7b21c57a191bede3c681230268d430a755d1d78e4f4117e48975346dd8ea1609fd75",
+          "url": "https://cdn.modrinth.com/data/6gLXkYZq/versions/yGzMnbzS/better_log4j_config-1.1.0-fabric.jar",
+          "filename": "better_log4j_config-1.1.0-fabric.jar",
           "primary": true,
-          "size": 48262
+          "size": 48232
         },
         {
-          "sha512": "b6bcba0d15acadf85f3c32ff8cf3e38d1cf702444de92ca894935e6821c7f18b1d42100026adfd349383c8ddf385b9727303e8365364588a8d3c095cf956f209",
-          "url": "https://cdn.modrinth.com/data/6gLXkYZq/versions/RuRPGUlW/better_log4j_config-quilt-1.0.0-sources.jar",
-          "filename": "better_log4j_config-quilt-1.0.0-sources.jar",
+          "sha512": "9887349bde7e705f9e2805a77d8bf0fdd6f9a588766d1db216ca1f70c3026618a7876aa8a61211dee8ab5b587c59907254e1463b5da4209a208dffd8272a8706",
+          "url": "https://cdn.modrinth.com/data/6gLXkYZq/versions/yGzMnbzS/better_log4j_config-1.1.0-fabric-sources.jar",
+          "filename": "better_log4j_config-1.1.0-fabric-sources.jar",
           "primary": false,
-          "size": 41330
+          "size": 41316
         }
       ],
       "dependencies": []

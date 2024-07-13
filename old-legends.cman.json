@@ -5,9 +5,9 @@
   "description": "The remains of old legends wait to be discovered",
   "versions": [
     {
-      "id": "ma17PyU1",
-      "name": "Old Legends 4.0.0 [Fabric-1.20.4]",
-      "version_number": "4.0.0-Fabric-1.20.4",
+      "id": "BfcXUcQk",
+      "name": "Old Legends 2.0.1 [Fabric 1.20.4]",
+      "version_number": "2.0.1",
       "game_versions": [
         "1.20.4"
       ],
@@ -16,14 +16,26 @@
       ],
       "files": [
         {
-          "sha512": "b025bbce4c0c752cef95b08e8b4d45e637f1ac906cecbbe04f3c184360883ee425c145f2d0be60eabc91100fec97ab920c1cbe5ae8cc46e3f6d110f917178777",
-          "url": "https://cdn.modrinth.com/data/87C0BIRK/versions/ma17PyU1/oldlegends-4.0.0-Fabric-1.20.4.jar",
-          "filename": "oldlegends-4.0.0-Fabric-1.20.4.jar",
+          "sha512": "2a026255e8c410929224fcf2ed1dc0cbaf3657e4f1e9ad05d06eb08831a7725d17e7b5851fe06cc9352c3af974cd8b082a74f14737d15634f0e013ea42345182",
+          "url": "https://cdn.modrinth.com/data/87C0BIRK/versions/BfcXUcQk/oldlegends-2.0.1-Fabric-1.20.4.jar",
+          "filename": "oldlegends-2.0.1-Fabric-1.20.4.jar",
           "primary": true,
-          "size": 2503185
+          "size": 638748
         }
       ],
       "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "7SDalH12",
           "version_id": null,
@@ -35,18 +47,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -71,19 +71,13 @@
       ],
       "dependencies": [
         {
-          "project_id": "7SDalH12",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "7SDalH12",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -93,52 +87,12 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "BfcXUcQk",
-      "name": "Old Legends 2.0.1 [Fabric 1.20.4]",
-      "version_number": "2.0.1",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2a026255e8c410929224fcf2ed1dc0cbaf3657e4f1e9ad05d06eb08831a7725d17e7b5851fe06cc9352c3af974cd8b082a74f14737d15634f0e013ea42345182",
-          "url": "https://cdn.modrinth.com/data/87C0BIRK/versions/BfcXUcQk/oldlegends-2.0.1-Fabric-1.20.4.jar",
-          "filename": "oldlegends-2.0.1-Fabric-1.20.4.jar",
-          "primary": true,
-          "size": 638748
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "7SDalH12",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -163,13 +117,47 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ma17PyU1",
+      "name": "Old Legends 4.0.0 [Fabric-1.20.4]",
+      "version_number": "4.0.0-Fabric-1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "b025bbce4c0c752cef95b08e8b4d45e637f1ac906cecbbe04f3c184360883ee425c145f2d0be60eabc91100fec97ab920c1cbe5ae8cc46e3f6d110f917178777",
+          "url": "https://cdn.modrinth.com/data/87C0BIRK/versions/ma17PyU1/oldlegends-4.0.0-Fabric-1.20.4.jar",
+          "filename": "oldlegends-4.0.0-Fabric-1.20.4.jar",
+          "primary": true,
+          "size": 2503185
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -179,6 +167,18 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "7SDalH12",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

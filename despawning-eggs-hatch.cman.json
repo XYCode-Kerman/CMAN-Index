@@ -5,11 +5,11 @@
   "description": "🥚 Chicken eggs on hay blocks hatch safely into chicks just before they despawn.",
   "versions": [
     {
-      "id": "aaHXooE6",
-      "name": "[Fabric/Forge/Neo] 1.21.0-4.3",
-      "version_number": "1.21.0-4.3-fabric+forge+neo",
+      "id": "20UNJ9MI",
+      "name": "[Fabric/Forge/Neo] 1.20.1-4.3",
+      "version_number": "1.20.1-4.3-fabric+forge+neo",
       "game_versions": [
-        "1.21"
+        "1.20.1"
       ],
       "loaders": [
         "fabric",
@@ -19,17 +19,172 @@
       ],
       "files": [
         {
-          "sha512": "eb3eb7c60411914cb1d5d43dc1b7bda4cb083d5ab87935f21db7a0691842168a635dab472c2b79a0d70bacc0ef490ad002e40fd6c0465c4736a00e441f9e0137",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/aaHXooE6/despawningeggshatch-1.21.0-4.3.jar",
-          "filename": "despawningeggshatch-1.21.0-4.3.jar",
+          "sha512": "7f37e31deca80f152233a031d56ff0b72923197c7901cbf71ccbf5d6947b3c8132c919ce03901cdd9a568bfb9665c8505f09475610d7a2c31297ca7d9272e61f",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/20UNJ9MI/despawningeggshatch-1.20.1-4.3.jar",
+          "filename": "despawningeggshatch-1.20.1-4.3.jar",
           "primary": true,
-          "size": 42368
+          "size": 32107
         }
       ],
       "dependencies": [
         {
           "project_id": "e0M1UDsY",
           "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "2tx9Qw8B",
+      "name": "[Forge & Fabric] 1.20.2-4.1",
+      "version_number": "1.20.2-4.1-forge+fabric",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "bbb558834d1defc95f07b45db1788be8b94cb942c688af7b8a036a1dbba5407b745be65871b57ca26807b4ab9587c5409f88a03ff9f7452b96864bfc6e85ef37",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/2tx9Qw8B/despawningeggshatch-1.20.2-4.1.jar",
+          "filename": "despawningeggshatch-1.20.2-4.1.jar",
+          "primary": true,
+          "size": 50447
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "2yn3XKf1",
+      "name": "[Forge & Fabric] 1.19.2-4.1",
+      "version_number": "1.19.2-4.1-forge+fabric",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "adc995fe65f3f44957217879c10c24c647e2f815390c5fde17f5de280be3ebe6485d91242229ed1b4107eeaee6c127e7af16133e40602aac3cd039a77cf3b681",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/2yn3XKf1/despawningeggshatch-1.19.2-4.1.jar",
+          "filename": "despawningeggshatch-1.19.2-4.1.jar",
+          "primary": true,
+          "size": 50556
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "MTb34BGn",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "3G1UKFNE",
+      "name": "[Fabric] 1.16.5-2.7",
+      "version_number": "1.16.5-2.7-fabric",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4f41e186e5b5a1371f77a12e3ae511a3f014f908eab7f39838c90ed030ef6d1c4ac284f115f9cac3799ba11de584b66b205d199de51a6a7843d889b33b482c1e",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/3G1UKFNE/despawningeggshatch-fabric_1.16.5-2.7.jar",
+          "filename": "despawningeggshatch-fabric_1.16.5-2.7.jar",
+          "primary": true,
+          "size": 9307
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "diqQmTlH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "BoMq1mvq",
+      "name": "[Forge & Fabric] 1.18.2-4.0",
+      "version_number": "1.18.2-4.0-forge+fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0a22ed260477a24914d458dfea956cad5c17e304c607186692b9f6690c48af778efb75b4ac60883b9aa423e6be44241d948ff11b04fff636adee990062a9a96b",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/BoMq1mvq/despawningeggshatch-1.18.2-4.0.jar",
+          "filename": "despawningeggshatch-1.18.2-4.0.jar",
+          "primary": true,
+          "size": 50609
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "Xz9KMXXo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "CHIGXzXz",
+      "name": "[Forge & Fabric] 1.19.3-4.1",
+      "version_number": "1.19.3-4.1-forge+fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "62aa90a941130a2ad46e46d8c6b81192f475cc49fe53454c0093af2c689421e01f02a669be184ad840772f4df8ae404bf6d428d9bc2e0ff31271ab346f09fca7",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/CHIGXzXz/despawningeggshatch-1.19.3-4.1.jar",
+          "filename": "despawningeggshatch-1.19.3-4.1.jar",
+          "primary": true,
+          "size": 50557
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "w1vSb4TN",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -55,67 +210,6 @@
           "filename": "despawningeggshatch-1.20.6-4.3.jar",
           "primary": true,
           "size": 42383
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "eo4cNZF2",
-      "name": "[Fabric/Neo] 1.20.5-4.3",
-      "version_number": "1.20.5-4.3-fabric+neo",
-      "game_versions": [
-        "1.20.5"
-      ],
-      "loaders": [
-        "fabric",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "28a6d5072a4a623aaff1eb3461a2632a5a107683ed402b29c58247925cce665aabd535a1a585651ed2e237312ba340dfd13c2c88f4ee1f64dcefb18ca81929fb",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/eo4cNZF2/despawningeggshatch-1.20.5-4.3.jar",
-          "filename": "despawningeggshatch-1.20.5-4.3.jar",
-          "primary": true,
-          "size": 33041
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "PRnfNOIx",
-      "name": "[Fabric/Forge/Neo] 1.20.4-4.3",
-      "version_number": "1.20.4-4.3-fabric+forge+neo",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0f269955cd7d246ff61b11b71f09d707e1af33ae8bb95ea76d7ca409e96f24714f090d1590d61dda1fe9a3ec992ad40e72566c5d689a6c9d044419b0a94d259a",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/PRnfNOIx/despawningeggshatch-1.20.4-4.3.jar",
-          "filename": "despawningeggshatch-1.20.4-4.3.jar",
-          "primary": true,
-          "size": 41552
         }
       ],
       "dependencies": [
@@ -159,9 +253,37 @@
       ]
     },
     {
-      "id": "20UNJ9MI",
-      "name": "[Fabric/Forge/Neo] 1.20.1-4.3",
-      "version_number": "1.20.1-4.3-fabric+forge+neo",
+      "id": "DEvPnwQq",
+      "name": "[Forge] 1.18.2-2.4",
+      "version_number": "1.18.2-2.4-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d50a982b4f82c91ff299a120e35526432360145c3af4fa38691a7f31e52d289ffd918bde48f40599afc249b2f9e6dc222f2a0f380bbb0104adf697fdc4dfb09d",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/DEvPnwQq/despawningeggshatch_1.18.2-2.4.jar",
+          "filename": "despawningeggshatch_1.18.2-2.4.jar",
+          "primary": true,
+          "size": 9281
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "Xz9KMXXo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "DOXf9r7Y",
+      "name": "[Fabric/Forge/Neo] 1.20.1-4.2",
+      "version_number": "1.20.1-4.2-forge+fabric",
       "game_versions": [
         "1.20.1"
       ],
@@ -173,17 +295,115 @@
       ],
       "files": [
         {
-          "sha512": "7f37e31deca80f152233a031d56ff0b72923197c7901cbf71ccbf5d6947b3c8132c919ce03901cdd9a568bfb9665c8505f09475610d7a2c31297ca7d9272e61f",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/20UNJ9MI/despawningeggshatch-1.20.1-4.3.jar",
-          "filename": "despawningeggshatch-1.20.1-4.3.jar",
+          "sha512": "31cab3bf44c81bba09e937e3c30c6b509bbd139bf8303d60e0e1ea756601337dfc5f8b34048909dc52d476e51b1ce138845f6c485295fa9c78ffb6e42bfba572",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/DOXf9r7Y/despawningeggshatch-1.20.1-4.2.jar",
+          "filename": "despawningeggshatch-1.20.1-4.2.jar",
           "primary": true,
-          "size": 32107
+          "size": 50440
         }
       ],
       "dependencies": [
         {
           "project_id": "e0M1UDsY",
           "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "JI1dwnJo",
+      "name": "[Fabric] 1.19.2-2.9",
+      "version_number": "1.19.2-2.9-fabric",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e0665cb7f652b359bfe2962096626ce5b292bb6fc4836ad1af4942990f5ffd68f29fa7730eedf71c60249af4f7fb01db5544002f36d59ba3c0c83a2ec8cc0911",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/JI1dwnJo/despawningeggshatch-fabric_1.19.2-2.9.jar",
+          "filename": "despawningeggshatch-fabric_1.19.2-2.9.jar",
+          "primary": true,
+          "size": 40426
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "MTb34BGn",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "L7qKaSRo",
+      "name": "[Fabric/Forge] 1.18.2-4.2",
+      "version_number": "1.18.2-4.2-forge+fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "aab9deb0b4628bae361446ad4c1b48fbc9fbf6d30bf8b45f948aa79aa706fd1ce8f407507f55e0a4d155f40eaf0b0f6f24f717d354549dcc225a8000807082dc",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/L7qKaSRo/despawningeggshatch-1.18.2-4.2.jar",
+          "filename": "despawningeggshatch-1.18.2-4.2.jar",
+          "primary": true,
+          "size": 50509
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "MgdksrZZ",
+      "name": "[Fabric] 1.18.2-2.7",
+      "version_number": "1.18.2-2.7-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ab5a3c292f6f3320756c6506d296112ec7807d61f609e30b08333958780b305152624bca28fdb80e842346a7a29eb8b70e34f051073c2d221e28709517217be0",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/MgdksrZZ/despawningeggshatch-fabric_1.18.2-2.7.jar",
+          "filename": "despawningeggshatch-fabric_1.18.2-2.7.jar",
+          "primary": true,
+          "size": 9544
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "Xz9KMXXo",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -214,6 +434,528 @@
         {
           "project_id": "e0M1UDsY",
           "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "PRnfNOIx",
+      "name": "[Fabric/Forge/Neo] 1.20.4-4.3",
+      "version_number": "1.20.4-4.3-fabric+forge+neo",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0f269955cd7d246ff61b11b71f09d707e1af33ae8bb95ea76d7ca409e96f24714f090d1590d61dda1fe9a3ec992ad40e72566c5d689a6c9d044419b0a94d259a",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/PRnfNOIx/despawningeggshatch-1.20.4-4.3.jar",
+          "filename": "despawningeggshatch-1.20.4-4.3.jar",
+          "primary": true,
+          "size": 41552
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Pldukmz2",
+      "name": "[Forge] 1.19.2-2.6",
+      "version_number": "1.19.2-2.6-forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "53e04ad3da6944fa4db8c1f9c7c8a9eb98291be21d7fb541b8b38585f6907519c664c44237363fcafbfc007558c1b70bc55d0ce28590823478bf6043acbf1d24",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/Pldukmz2/despawningeggshatch_1.19.2-2.6.jar",
+          "filename": "despawningeggshatch_1.19.2-2.6.jar",
+          "primary": true,
+          "size": 9220
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "MTb34BGn",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "QTlGf4Jm",
+      "name": "[Forge & Fabric] 1.19.2-4.0",
+      "version_number": "1.19.2-4.0-forge+fabric",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "35c4d7f39041ca1c5d3aa3bfe0e9811579fd810e924927300628b05bff80eed3b4566502a97a0563d5244bc424e97f4c2de69584d26fc9d6e972ffa49eec8ac2",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/QTlGf4Jm/despawningeggshatch-1.19.2-4.0.jar",
+          "filename": "despawningeggshatch-1.19.2-4.0.jar",
+          "primary": true,
+          "size": 50550
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "MTb34BGn",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "QoV9dimO",
+      "name": "[Fabric/Forge] 1.19.2-4.2",
+      "version_number": "1.19.2-4.2-forge+fabric",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d3cb9ef2ac5c6b4a30671e8be4178e433326121961d51b63d4c149eab210e56d031fdba13890d97cc44e8cfe3d8bf3a6d58d14c1b597bdd2b2776da606aebd4c",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/QoV9dimO/despawningeggshatch-1.19.2-4.2.jar",
+          "filename": "despawningeggshatch-1.19.2-4.2.jar",
+          "primary": true,
+          "size": 50456
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "T6gHzQVg",
+      "name": "[Forge & Fabric] 1.18.2-4.1",
+      "version_number": "1.18.2-4.1-forge+fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "cef372b4a189973c9679e0a5082262bb2169f02f1440b6eaaa36d3e5f8634da027dd0fd50297f3985e14dbbbcc302f7340a27566afc70c5067c4b0152a24fe4e",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/T6gHzQVg/despawningeggshatch-1.18.2-4.1.jar",
+          "filename": "despawningeggshatch-1.18.2-4.1.jar",
+          "primary": true,
+          "size": 50611
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "Xz9KMXXo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "UXY0WQrH",
+      "name": "[Forge & Fabric] 1.20.1-4.1",
+      "version_number": "1.20.1-4.1-forge+fabric",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0bdc7fcd8b085d91d1c1dcf26cbc8e6623eb768c1afc268f014b057af5334b94102126bcae7011a1f056fa809ef2e6a2a1f412b43cfd53bf27e559782ab45f26",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/UXY0WQrH/despawningeggshatch-1.20.1-4.1.jar",
+          "filename": "despawningeggshatch-1.20.1-4.1.jar",
+          "primary": true,
+          "size": 50449
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "W1CQ9UCz",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "VYZFsIFL",
+      "name": "[Fabric] 1.19.3-3.0",
+      "version_number": "1.19.3-3.0-fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f8440094518349abed53c0332c1187e1036035ffc08ac561cec7a8191ebbc529f699a442a65d554aac6794d31c2b7edf0518d9968212757f1b5ed76527d6f6bd",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/VYZFsIFL/despawningeggshatch-fabric_1.19.3-3.0.jar",
+          "filename": "despawningeggshatch-fabric_1.19.3-3.0.jar",
+          "primary": true,
+          "size": 40454
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "w1vSb4TN",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ZhH1M91c",
+      "name": "[Fabric] 1.16.5-2.9",
+      "version_number": "1.16.5-2.9-fabric",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ace370580fcf75e98c6c9a974436fa211906483b40df46fb34ae0189bcbce10b1f3922e154a2a435c0cb15df88a511955651c7c0fe2a9252c59e21e463b5afb9",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/ZhH1M91c/despawningeggshatch-fabric_1.16.5-2.9.jar",
+          "filename": "despawningeggshatch-fabric_1.16.5-2.9.jar",
+          "primary": true,
+          "size": 40077
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "diqQmTlH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "aaHXooE6",
+      "name": "[Fabric/Forge/Neo] 1.21.0-4.3",
+      "version_number": "1.21.0-4.3-fabric+forge+neo",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "eb3eb7c60411914cb1d5d43dc1b7bda4cb083d5ab87935f21db7a0691842168a635dab472c2b79a0d70bacc0ef490ad002e40fd6c0465c4736a00e441f9e0137",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/aaHXooE6/despawningeggshatch-1.21.0-4.3.jar",
+          "filename": "despawningeggshatch-1.21.0-4.3.jar",
+          "primary": true,
+          "size": 42368
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "cO9hPouf",
+      "name": "[Forge & Fabric] 1.19.3-4.0",
+      "version_number": "1.19.3-4.0-forge+fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "6c97a7ab2dc60280d55fcbe8252051072ac5797a40dff841801461de964a2f5b2b481f079b2c7de90c9bac747b5dcbee30844c0cab0e8cd4362a22d18eae65e5",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/cO9hPouf/despawningeggshatch-1.19.3-4.0.jar",
+          "filename": "despawningeggshatch-1.19.3-4.0.jar",
+          "primary": true,
+          "size": 50550
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "w1vSb4TN",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "clgC7ADH",
+      "name": "[Forge & Fabric] 1.19.4-4.1",
+      "version_number": "1.19.4-4.1-forge+fabric",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "397110d58099401ec7ec0d8d5409a7022c0d428239c5b0cfcd8826175c4ffa260c117476d07f376c025d1b2a5046c04f1ac960989e5b9c06eae9c6ab444512a7",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/clgC7ADH/despawningeggshatch-1.19.4-4.1.jar",
+          "filename": "despawningeggshatch-1.19.4-4.1.jar",
+          "primary": true,
+          "size": 50498
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "YZdu9B77",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "eo4cNZF2",
+      "name": "[Fabric/Neo] 1.20.5-4.3",
+      "version_number": "1.20.5-4.3-fabric+neo",
+      "game_versions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "28a6d5072a4a623aaff1eb3461a2632a5a107683ed402b29c58247925cce665aabd535a1a585651ed2e237312ba340dfd13c2c88f4ee1f64dcefb18ca81929fb",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/eo4cNZF2/despawningeggshatch-1.20.5-4.3.jar",
+          "filename": "despawningeggshatch-1.20.5-4.3.jar",
+          "primary": true,
+          "size": 33041
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "hBfvlQD9",
+      "name": "[Fabric] 1.19.2-2.8",
+      "version_number": "1.19.2-2.8-fabric",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d1d67b33d8dfdd1091ba487e0d2f2fa942c57d7ad24a5941e8eb3a4923565fbdf1d7f35ca1e537e68855097d7ff1393951ee6e1b22faf9adc1958ac5511a1852",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/hBfvlQD9/despawningeggshatch-fabric_1.19.2-2.8.jar",
+          "filename": "despawningeggshatch-fabric_1.19.2-2.8.jar",
+          "primary": true,
+          "size": 9543
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "MTb34BGn",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ihJNgqbe",
+      "name": "[Forge] 1.19.3-2.6",
+      "version_number": "1.19.3-2.6-forge",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "af2663dbe728cd47c63ba46f1f1d8b868bac5768981203355327f557b61be40e2fffa90fe6e8044d9258d54baf868f80c6a88fa964cb79a42c4b84db3a774b1c",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/ihJNgqbe/despawningeggshatch_1.19.3-2.6.jar",
+          "filename": "despawningeggshatch_1.19.3-2.6.jar",
+          "primary": true,
+          "size": 9285
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "w1vSb4TN",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "kYafNGvd",
+      "name": "[Forge & Fabric] 1.20-4.1",
+      "version_number": "1.20-4.1-forge+fabric",
+      "game_versions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "e1c7af9ebcf73542bf8e96931fcd5ee65c9632e8f354379575372d2cd61b9d90fbeba7ee382c2814266ee49d51ec33cc677ac12bdff77ec0f35b59b53a69f081",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/kYafNGvd/despawningeggshatch-1.20.0-4.1.jar",
+          "filename": "despawningeggshatch-1.20.0-4.1.jar",
+          "primary": true,
+          "size": 50442
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "RNhYJa64",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "mR1uZLPa",
+      "name": "[Fabric] 1.18.2-2.9",
+      "version_number": "1.18.2-2.9-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "057b449e28c5a138a645ac30c10a100f39225c06c32d92f2c8c67ee81aa7d9cb1bf31401aca7b5249c36280b9ce71a51618f96d097ec62f4b633630293548ff2",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/mR1uZLPa/despawningeggshatch-fabric_1.18.2-2.9.jar",
+          "filename": "despawningeggshatch-fabric_1.18.2-2.9.jar",
+          "primary": true,
+          "size": 40435
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "Xz9KMXXo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "reovHRWf",
+      "name": "[Forge] 1.16.5-2.3",
+      "version_number": "1.16.5-2.3-forge",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d96bc11076ef14596b5331b6efa15b4ac70b92d90a77dd05fba8a77e1fedd772257fd343735ea3e62f4fab6a5c24c82de2740f265a7ffcbf6a987e182ccd2baa",
+          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/reovHRWf/despawningeggshatch_1.16.5-2.3.jar",
+          "filename": "despawningeggshatch_1.16.5-2.3.jar",
+          "primary": true,
+          "size": 8713
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "HMuqiDvH",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -307,748 +1049,6 @@
         {
           "project_id": "e0M1UDsY",
           "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "DOXf9r7Y",
-      "name": "[Fabric/Forge/Neo] 1.20.1-4.2",
-      "version_number": "1.20.1-4.2-forge+fabric",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "31cab3bf44c81bba09e937e3c30c6b509bbd139bf8303d60e0e1ea756601337dfc5f8b34048909dc52d476e51b1ce138845f6c485295fa9c78ffb6e42bfba572",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/DOXf9r7Y/despawningeggshatch-1.20.1-4.2.jar",
-          "filename": "despawningeggshatch-1.20.1-4.2.jar",
-          "primary": true,
-          "size": 50440
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "QoV9dimO",
-      "name": "[Fabric/Forge] 1.19.2-4.2",
-      "version_number": "1.19.2-4.2-forge+fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d3cb9ef2ac5c6b4a30671e8be4178e433326121961d51b63d4c149eab210e56d031fdba13890d97cc44e8cfe3d8bf3a6d58d14c1b597bdd2b2776da606aebd4c",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/QoV9dimO/despawningeggshatch-1.19.2-4.2.jar",
-          "filename": "despawningeggshatch-1.19.2-4.2.jar",
-          "primary": true,
-          "size": 50456
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "L7qKaSRo",
-      "name": "[Fabric/Forge] 1.18.2-4.2",
-      "version_number": "1.18.2-4.2-forge+fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "aab9deb0b4628bae361446ad4c1b48fbc9fbf6d30bf8b45f948aa79aa706fd1ce8f407507f55e0a4d155f40eaf0b0f6f24f717d354549dcc225a8000807082dc",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/L7qKaSRo/despawningeggshatch-1.18.2-4.2.jar",
-          "filename": "despawningeggshatch-1.18.2-4.2.jar",
-          "primary": true,
-          "size": 50509
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "2tx9Qw8B",
-      "name": "[Forge & Fabric] 1.20.2-4.1",
-      "version_number": "1.20.2-4.1-forge+fabric",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "bbb558834d1defc95f07b45db1788be8b94cb942c688af7b8a036a1dbba5407b745be65871b57ca26807b4ab9587c5409f88a03ff9f7452b96864bfc6e85ef37",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/2tx9Qw8B/despawningeggshatch-1.20.2-4.1.jar",
-          "filename": "despawningeggshatch-1.20.2-4.1.jar",
-          "primary": true,
-          "size": 50447
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "UXY0WQrH",
-      "name": "[Forge & Fabric] 1.20.1-4.1",
-      "version_number": "1.20.1-4.1-forge+fabric",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0bdc7fcd8b085d91d1c1dcf26cbc8e6623eb768c1afc268f014b057af5334b94102126bcae7011a1f056fa809ef2e6a2a1f412b43cfd53bf27e559782ab45f26",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/UXY0WQrH/despawningeggshatch-1.20.1-4.1.jar",
-          "filename": "despawningeggshatch-1.20.1-4.1.jar",
-          "primary": true,
-          "size": 50449
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "W1CQ9UCz",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "kYafNGvd",
-      "name": "[Forge & Fabric] 1.20-4.1",
-      "version_number": "1.20-4.1-forge+fabric",
-      "game_versions": [
-        "1.20"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "e1c7af9ebcf73542bf8e96931fcd5ee65c9632e8f354379575372d2cd61b9d90fbeba7ee382c2814266ee49d51ec33cc677ac12bdff77ec0f35b59b53a69f081",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/kYafNGvd/despawningeggshatch-1.20.0-4.1.jar",
-          "filename": "despawningeggshatch-1.20.0-4.1.jar",
-          "primary": true,
-          "size": 50442
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "RNhYJa64",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "clgC7ADH",
-      "name": "[Forge & Fabric] 1.19.4-4.1",
-      "version_number": "1.19.4-4.1-forge+fabric",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "397110d58099401ec7ec0d8d5409a7022c0d428239c5b0cfcd8826175c4ffa260c117476d07f376c025d1b2a5046c04f1ac960989e5b9c06eae9c6ab444512a7",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/clgC7ADH/despawningeggshatch-1.19.4-4.1.jar",
-          "filename": "despawningeggshatch-1.19.4-4.1.jar",
-          "primary": true,
-          "size": 50498
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "YZdu9B77",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "CHIGXzXz",
-      "name": "[Forge & Fabric] 1.19.3-4.1",
-      "version_number": "1.19.3-4.1-forge+fabric",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "62aa90a941130a2ad46e46d8c6b81192f475cc49fe53454c0093af2c689421e01f02a669be184ad840772f4df8ae404bf6d428d9bc2e0ff31271ab346f09fca7",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/CHIGXzXz/despawningeggshatch-1.19.3-4.1.jar",
-          "filename": "despawningeggshatch-1.19.3-4.1.jar",
-          "primary": true,
-          "size": 50557
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "w1vSb4TN",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "2yn3XKf1",
-      "name": "[Forge & Fabric] 1.19.2-4.1",
-      "version_number": "1.19.2-4.1-forge+fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "adc995fe65f3f44957217879c10c24c647e2f815390c5fde17f5de280be3ebe6485d91242229ed1b4107eeaee6c127e7af16133e40602aac3cd039a77cf3b681",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/2yn3XKf1/despawningeggshatch-1.19.2-4.1.jar",
-          "filename": "despawningeggshatch-1.19.2-4.1.jar",
-          "primary": true,
-          "size": 50556
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "MTb34BGn",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "T6gHzQVg",
-      "name": "[Forge & Fabric] 1.18.2-4.1",
-      "version_number": "1.18.2-4.1-forge+fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "cef372b4a189973c9679e0a5082262bb2169f02f1440b6eaaa36d3e5f8634da027dd0fd50297f3985e14dbbbcc302f7340a27566afc70c5067c4b0152a24fe4e",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/T6gHzQVg/despawningeggshatch-1.18.2-4.1.jar",
-          "filename": "despawningeggshatch-1.18.2-4.1.jar",
-          "primary": true,
-          "size": 50611
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "Xz9KMXXo",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "cO9hPouf",
-      "name": "[Forge & Fabric] 1.19.3-4.0",
-      "version_number": "1.19.3-4.0-forge+fabric",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6c97a7ab2dc60280d55fcbe8252051072ac5797a40dff841801461de964a2f5b2b481f079b2c7de90c9bac747b5dcbee30844c0cab0e8cd4362a22d18eae65e5",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/cO9hPouf/despawningeggshatch-1.19.3-4.0.jar",
-          "filename": "despawningeggshatch-1.19.3-4.0.jar",
-          "primary": true,
-          "size": 50550
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "w1vSb4TN",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "QTlGf4Jm",
-      "name": "[Forge & Fabric] 1.19.2-4.0",
-      "version_number": "1.19.2-4.0-forge+fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "35c4d7f39041ca1c5d3aa3bfe0e9811579fd810e924927300628b05bff80eed3b4566502a97a0563d5244bc424e97f4c2de69584d26fc9d6e972ffa49eec8ac2",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/QTlGf4Jm/despawningeggshatch-1.19.2-4.0.jar",
-          "filename": "despawningeggshatch-1.19.2-4.0.jar",
-          "primary": true,
-          "size": 50550
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "MTb34BGn",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "BoMq1mvq",
-      "name": "[Forge & Fabric] 1.18.2-4.0",
-      "version_number": "1.18.2-4.0-forge+fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0a22ed260477a24914d458dfea956cad5c17e304c607186692b9f6690c48af778efb75b4ac60883b9aa423e6be44241d948ff11b04fff636adee990062a9a96b",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/BoMq1mvq/despawningeggshatch-1.18.2-4.0.jar",
-          "filename": "despawningeggshatch-1.18.2-4.0.jar",
-          "primary": true,
-          "size": 50609
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "Xz9KMXXo",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ihJNgqbe",
-      "name": "[Forge] 1.19.3-2.6",
-      "version_number": "1.19.3-2.6-forge",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "af2663dbe728cd47c63ba46f1f1d8b868bac5768981203355327f557b61be40e2fffa90fe6e8044d9258d54baf868f80c6a88fa964cb79a42c4b84db3a774b1c",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/ihJNgqbe/despawningeggshatch_1.19.3-2.6.jar",
-          "filename": "despawningeggshatch_1.19.3-2.6.jar",
-          "primary": true,
-          "size": 9285
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "w1vSb4TN",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "VYZFsIFL",
-      "name": "[Fabric] 1.19.3-3.0",
-      "version_number": "1.19.3-3.0-fabric",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f8440094518349abed53c0332c1187e1036035ffc08ac561cec7a8191ebbc529f699a442a65d554aac6794d31c2b7edf0518d9968212757f1b5ed76527d6f6bd",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/VYZFsIFL/despawningeggshatch-fabric_1.19.3-3.0.jar",
-          "filename": "despawningeggshatch-fabric_1.19.3-3.0.jar",
-          "primary": true,
-          "size": 40454
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "w1vSb4TN",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "JI1dwnJo",
-      "name": "[Fabric] 1.19.2-2.9",
-      "version_number": "1.19.2-2.9-fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e0665cb7f652b359bfe2962096626ce5b292bb6fc4836ad1af4942990f5ffd68f29fa7730eedf71c60249af4f7fb01db5544002f36d59ba3c0c83a2ec8cc0911",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/JI1dwnJo/despawningeggshatch-fabric_1.19.2-2.9.jar",
-          "filename": "despawningeggshatch-fabric_1.19.2-2.9.jar",
-          "primary": true,
-          "size": 40426
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "MTb34BGn",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "mR1uZLPa",
-      "name": "[Fabric] 1.18.2-2.9",
-      "version_number": "1.18.2-2.9-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "057b449e28c5a138a645ac30c10a100f39225c06c32d92f2c8c67ee81aa7d9cb1bf31401aca7b5249c36280b9ce71a51618f96d097ec62f4b633630293548ff2",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/mR1uZLPa/despawningeggshatch-fabric_1.18.2-2.9.jar",
-          "filename": "despawningeggshatch-fabric_1.18.2-2.9.jar",
-          "primary": true,
-          "size": 40435
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "Xz9KMXXo",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ZhH1M91c",
-      "name": "[Fabric] 1.16.5-2.9",
-      "version_number": "1.16.5-2.9-fabric",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ace370580fcf75e98c6c9a974436fa211906483b40df46fb34ae0189bcbce10b1f3922e154a2a435c0cb15df88a511955651c7c0fe2a9252c59e21e463b5afb9",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/ZhH1M91c/despawningeggshatch-fabric_1.16.5-2.9.jar",
-          "filename": "despawningeggshatch-fabric_1.16.5-2.9.jar",
-          "primary": true,
-          "size": 40077
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "diqQmTlH",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Pldukmz2",
-      "name": "[Forge] 1.19.2-2.6",
-      "version_number": "1.19.2-2.6-forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "53e04ad3da6944fa4db8c1f9c7c8a9eb98291be21d7fb541b8b38585f6907519c664c44237363fcafbfc007558c1b70bc55d0ce28590823478bf6043acbf1d24",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/Pldukmz2/despawningeggshatch_1.19.2-2.6.jar",
-          "filename": "despawningeggshatch_1.19.2-2.6.jar",
-          "primary": true,
-          "size": 9220
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "MTb34BGn",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "DEvPnwQq",
-      "name": "[Forge] 1.18.2-2.4",
-      "version_number": "1.18.2-2.4-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "d50a982b4f82c91ff299a120e35526432360145c3af4fa38691a7f31e52d289ffd918bde48f40599afc249b2f9e6dc222f2a0f380bbb0104adf697fdc4dfb09d",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/DEvPnwQq/despawningeggshatch_1.18.2-2.4.jar",
-          "filename": "despawningeggshatch_1.18.2-2.4.jar",
-          "primary": true,
-          "size": 9281
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "Xz9KMXXo",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "reovHRWf",
-      "name": "[Forge] 1.16.5-2.3",
-      "version_number": "1.16.5-2.3-forge",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "d96bc11076ef14596b5331b6efa15b4ac70b92d90a77dd05fba8a77e1fedd772257fd343735ea3e62f4fab6a5c24c82de2740f265a7ffcbf6a987e182ccd2baa",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/reovHRWf/despawningeggshatch_1.16.5-2.3.jar",
-          "filename": "despawningeggshatch_1.16.5-2.3.jar",
-          "primary": true,
-          "size": 8713
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "HMuqiDvH",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "hBfvlQD9",
-      "name": "[Fabric] 1.19.2-2.8",
-      "version_number": "1.19.2-2.8-fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d1d67b33d8dfdd1091ba487e0d2f2fa942c57d7ad24a5941e8eb3a4923565fbdf1d7f35ca1e537e68855097d7ff1393951ee6e1b22faf9adc1958ac5511a1852",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/hBfvlQD9/despawningeggshatch-fabric_1.19.2-2.8.jar",
-          "filename": "despawningeggshatch-fabric_1.19.2-2.8.jar",
-          "primary": true,
-          "size": 9543
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "MTb34BGn",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "MgdksrZZ",
-      "name": "[Fabric] 1.18.2-2.7",
-      "version_number": "1.18.2-2.7-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ab5a3c292f6f3320756c6506d296112ec7807d61f609e30b08333958780b305152624bca28fdb80e842346a7a29eb8b70e34f051073c2d221e28709517217be0",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/MgdksrZZ/despawningeggshatch-fabric_1.18.2-2.7.jar",
-          "filename": "despawningeggshatch-fabric_1.18.2-2.7.jar",
-          "primary": true,
-          "size": 9544
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "Xz9KMXXo",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "3G1UKFNE",
-      "name": "[Fabric] 1.16.5-2.7",
-      "version_number": "1.16.5-2.7-fabric",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4f41e186e5b5a1371f77a12e3ae511a3f014f908eab7f39838c90ed030ef6d1c4ac284f115f9cac3799ba11de584b66b205d199de51a6a7843d889b33b482c1e",
-          "url": "https://cdn.modrinth.com/data/iKRtwScn/versions/3G1UKFNE/despawningeggshatch-fabric_1.16.5-2.7.jar",
-          "filename": "despawningeggshatch-fabric_1.16.5-2.7.jar",
-          "primary": true,
-          "size": 9307
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "diqQmTlH",
           "file_name": null,
           "dependency_type": "required"
         }

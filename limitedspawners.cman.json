@@ -5,22 +5,25 @@
   "description": "Adds a limit for no of mobs a mob spawners can spawn.",
   "versions": [
     {
-      "id": "P4K3wjCg",
-      "name": "LimitedSpawners-neoforge-1.20.2-1.0.9.jar",
-      "version_number": "1.0.9",
+      "id": "58QIhLjN",
+      "name": "LimitedSpawners-forge-1.19.2-1.0.7.jar",
+      "version_number": "1.0.7",
       "game_versions": [
-        "1.20.2"
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
       ],
       "loaders": [
-        "neoforge"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "b7906b4d0128c9268b0aa1340d6d1ecaddc8eb5e59ae983ea16e9d31e8f02b9765cd0088559bf93d9a7384019102793c7efb2d00811ffd0d63b81e037fab8606",
-          "url": "https://cdn.modrinth.com/data/NeO7lLvU/versions/P4K3wjCg/LimitedSpawners-neoforge-1.20.2-1.0.9.jar",
-          "filename": "LimitedSpawners-neoforge-1.20.2-1.0.9.jar",
+          "sha512": "ec30bfea76b591dd85c704c9d7cca5d8b4257bc949c860c3076718fe212a6dd90a268dd24171343728c02956fadc06581af25a2594c21f40780382563d42ce0f",
+          "url": "https://cdn.modrinth.com/data/NeO7lLvU/versions/58QIhLjN/LimitedSpawners-forge-1.19.2-1.0.7.jar",
+          "filename": "LimitedSpawners-forge-1.19.2-1.0.7.jar",
           "primary": true,
-          "size": 9064
+          "size": 8420
         }
       ],
       "dependencies": []
@@ -48,16 +51,67 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "eTCL1uh8",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "P4K3wjCg",
+      "name": "LimitedSpawners-neoforge-1.20.2-1.0.9.jar",
+      "version_number": "1.0.9",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "b7906b4d0128c9268b0aa1340d6d1ecaddc8eb5e59ae983ea16e9d31e8f02b9765cd0088559bf93d9a7384019102793c7efb2d00811ffd0d63b81e037fab8606",
+          "url": "https://cdn.modrinth.com/data/NeO7lLvU/versions/P4K3wjCg/LimitedSpawners-neoforge-1.20.2-1.0.9.jar",
+          "filename": "LimitedSpawners-neoforge-1.20.2-1.0.9.jar",
+          "primary": true,
+          "size": 9064
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "UICiud5t",
+      "name": "LimitedSpawners-1.19-1.0.5.jar",
+      "version_number": "1.0.5",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "dd8f8829d45c25340ceea6a8fdc8c7720d75465ead37a346edd52fe28c147f37711805b4fc55e4b7a6d935742f3f889662a2f3093870c08521b9d540f5137a20",
+          "url": "https://cdn.modrinth.com/data/NeO7lLvU/versions/UICiud5t/LimitedSpawners-1.19-1.0.5.jar",
+          "filename": "LimitedSpawners-1.19-1.0.5.jar",
+          "primary": true,
+          "size": 7817
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -80,30 +134,6 @@
           "filename": "LimitedSpawners-forge-1.20.1-1.0.8.jar",
           "primary": true,
           "size": 9353
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "58QIhLjN",
-      "name": "LimitedSpawners-forge-1.19.2-1.0.7.jar",
-      "version_number": "1.0.7",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "ec30bfea76b591dd85c704c9d7cca5d8b4257bc949c860c3076718fe212a6dd90a268dd24171343728c02956fadc06581af25a2594c21f40780382563d42ce0f",
-          "url": "https://cdn.modrinth.com/data/NeO7lLvU/versions/58QIhLjN/LimitedSpawners-forge-1.19.2-1.0.7.jar",
-          "filename": "LimitedSpawners-forge-1.19.2-1.0.7.jar",
-          "primary": true,
-          "size": 8420
         }
       ],
       "dependencies": []
@@ -132,41 +162,11 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "id0aLmxO",
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "UICiud5t",
-      "name": "LimitedSpawners-1.19-1.0.5.jar",
-      "version_number": "1.0.5",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "dd8f8829d45c25340ceea6a8fdc8c7720d75465ead37a346edd52fe28c147f37711805b4fc55e4b7a6d935742f3f889662a2f3093870c08521b9d540f5137a20",
-          "url": "https://cdn.modrinth.com/data/NeO7lLvU/versions/UICiud5t/LimitedSpawners-1.19-1.0.5.jar",
-          "filename": "LimitedSpawners-1.19-1.0.5.jar",
-          "primary": true,
-          "size": 7817
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "9s6osm5g",
           "version_id": "o9dFD9SO",

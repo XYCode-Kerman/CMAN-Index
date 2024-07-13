@@ -5,40 +5,6 @@
   "description": "Compatibility datapack between ChoiceTheorem's overhauled village and Wizards mod",
   "versions": [
     {
-      "id": "uztM9mhM",
-      "name": "2.1",
-      "version_number": "2.1",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "cde184b6a210a77d0489268701e4774306818f5395d1edf9cab3bde663d4b6345f4fde7f6b100255fb9483f7e6ef4b13acea08fbe88d6a356618b5ea7738d4db",
-          "url": "https://cdn.modrinth.com/data/uZAJ8Zy7/versions/uztM9mhM/ctov-wizards-add-on-v2-1.zip",
-          "filename": "ctov-wizards-add-on-v2-1.zip",
-          "primary": true,
-          "size": 110999
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "fgmhI8kH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "6iPApO0X",
       "name": "1.0.b",
       "version_number": "1.0.b",
@@ -64,6 +30,43 @@
       "dependencies": []
     },
     {
+      "id": "Dl12gdy7",
+      "name": "1.0",
+      "version_number": "1.0+mod",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "67fb58877a16a586e3f959b534ade512791f48e581c4c1171fdfa65bbaa39c75b1132ff0df39cd6ce347872cf8607fe1ae32530e74ed92fd3d0feca36bb34d0b",
+          "url": "https://cdn.modrinth.com/data/uZAJ8Zy7/versions/Dl12gdy7/ctov-wizards-add-on-1.0.jar",
+          "filename": "ctov-wizards-add-on-1.0.jar",
+          "primary": true,
+          "size": 133866
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "NkGaQMDA",
+          "version_id": "Dln1uX6N",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "fgmhI8kH",
+          "version_id": "tnyL873R",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "OH89Yynl",
       "name": "2.0a",
       "version_number": "2.0a+mod",
@@ -81,28 +84,6 @@
           "filename": "ctov-wizards-compat-2.0a.jar",
           "primary": true,
           "size": 132302
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "U2iaN2QX",
-      "name": "2.0a",
-      "version_number": "2.0a",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "7854f6eca54dac2492984530ee5b65e8f3868189984b1e6d383ac3bb84fa4cacd33bbb58c614861ff9b4e04297fabffa47962d1b7569249b3f53a1aacc7617f3",
-          "url": "https://cdn.modrinth.com/data/uZAJ8Zy7/versions/U2iaN2QX/ctov-wizards-add-on-v2-0a.zip",
-          "filename": "ctov-wizards-add-on-v2-0a.zip",
-          "primary": true,
-          "size": 110982
         }
       ],
       "dependencies": []
@@ -137,6 +118,66 @@
         {
           "project_id": "fgmhI8kH",
           "version_id": "f51MDpat",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "U2iaN2QX",
+      "name": "2.0a",
+      "version_number": "2.0a",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "7854f6eca54dac2492984530ee5b65e8f3868189984b1e6d383ac3bb84fa4cacd33bbb58c614861ff9b4e04297fabffa47962d1b7569249b3f53a1aacc7617f3",
+          "url": "https://cdn.modrinth.com/data/uZAJ8Zy7/versions/U2iaN2QX/ctov-wizards-add-on-v2-0a.zip",
+          "filename": "ctov-wizards-add-on-v2-0a.zip",
+          "primary": true,
+          "size": 110982
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Xt39Edn5",
+      "name": "1.0.a",
+      "version_number": "1.0.0a",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "705c44c4da0199084484ff0db6e08cdd800a2b9c950256e3be703e189b0e4e570059b924aa53043c29805de0b4454bc41c2597b418de52eae5cdb8b6142abb53",
+          "url": "https://cdn.modrinth.com/data/uZAJ8Zy7/versions/Xt39Edn5/ctov-wizards-add-on-v1-0a.zip",
+          "filename": "ctov-wizards-add-on-v1-0a.zip",
+          "primary": true,
+          "size": 110981
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "fgmhI8kH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "NkGaQMDA",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -217,81 +258,6 @@
       ]
     },
     {
-      "id": "Xt39Edn5",
-      "name": "1.0.a",
-      "version_number": "1.0.0a",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "705c44c4da0199084484ff0db6e08cdd800a2b9c950256e3be703e189b0e4e570059b924aa53043c29805de0b4454bc41c2597b418de52eae5cdb8b6142abb53",
-          "url": "https://cdn.modrinth.com/data/uZAJ8Zy7/versions/Xt39Edn5/ctov-wizards-add-on-v1-0a.zip",
-          "filename": "ctov-wizards-add-on-v1-0a.zip",
-          "primary": true,
-          "size": 110981
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "fgmhI8kH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "NkGaQMDA",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Dl12gdy7",
-      "name": "1.0",
-      "version_number": "1.0+mod",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "67fb58877a16a586e3f959b534ade512791f48e581c4c1171fdfa65bbaa39c75b1132ff0df39cd6ce347872cf8607fe1ae32530e74ed92fd3d0feca36bb34d0b",
-          "url": "https://cdn.modrinth.com/data/uZAJ8Zy7/versions/Dl12gdy7/ctov-wizards-add-on-1.0.jar",
-          "filename": "ctov-wizards-add-on-1.0.jar",
-          "primary": true,
-          "size": 133866
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "fgmhI8kH",
-          "version_id": "tnyL873R",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "NkGaQMDA",
-          "version_id": "Dln1uX6N",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "qYE8xM3S",
       "name": "1.0",
       "version_number": "1.0",
@@ -314,6 +280,40 @@
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "uztM9mhM",
+      "name": "2.1",
+      "version_number": "2.1",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "cde184b6a210a77d0489268701e4774306818f5395d1edf9cab3bde663d4b6345f4fde7f6b100255fb9483f7e6ef4b13acea08fbe88d6a356618b5ea7738d4db",
+          "url": "https://cdn.modrinth.com/data/uZAJ8Zy7/versions/uztM9mhM/ctov-wizards-add-on-v2-1.zip",
+          "filename": "ctov-wizards-add-on-v2-1.zip",
+          "primary": true,
+          "size": 110999
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "fgmhI8kH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     }
   ]
 }

@@ -5,6 +5,73 @@
   "description": "Disables sprinting and, optionally, swimming",
   "versions": [
     {
+      "id": "7l1lXLp9",
+      "name": "v1.0.1 (Forge 1.18.x)",
+      "version_number": "1.0.1+forge",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "edfcc97bde74684114c4cc4455b78d489b79862042745d421fd7a38d1021aef6b367d0a2ee37426f3f66e85b181ad54153fd3ca305f8be73b728739c47f41be8",
+          "url": "https://cdn.modrinth.com/data/MoNRLzw3/versions/1.0.1%2Bforge/take-it-slow-v1.0.1-forge-1.18.x.jar",
+          "filename": "take-it-slow-v1.0.1-forge-1.18.x.jar",
+          "primary": true,
+          "size": 16002
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "ZbWG3eJW",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "CgbDSteL",
+      "name": "v1.0.1 (Fabric/Quilt 1.18.x)",
+      "version_number": "1.0.1+fabric-quilt",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "378542ea91012736dbd22d9c86492f49e019623cc1b83f8405469018e80581837e2844b09d8ebaf8583fe219eac528b6c96d1d78bbe7f63327f639899f222cf5",
+          "url": "https://cdn.modrinth.com/data/MoNRLzw3/versions/1.0.1%2Bfabric-quilt/take-it-slow-v1.0.1-fabric-quilt-1.18.x.jar",
+          "filename": "take-it-slow-v1.0.1-fabric-quilt-1.18.x.jar",
+          "primary": true,
+          "size": 16293
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "cx9D94fU",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "MoBnLDnS",
       "name": "v1.2.0 (Forge 1.19.4-1.20.1)",
       "version_number": "1.2.0+1.19.4+forge",
@@ -29,110 +96,6 @@
         {
           "project_id": "9s6osm5g",
           "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "c2xp7VJq",
-      "name": "v1.2.0 (Fabric/Quilt 1.19.4-1.20.1)",
-      "version_number": "1.2.0+1.19.4+fabric-quilt",
-      "game_versions": [
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "eb9da4a01f295bbcc5b1046750070a7871f7e734d061ff718069114bcaa891cbf7a14840a135dbc11a30b6f5d6a54a9b4709faa0b19eb8ad3dd4452cf833a568",
-          "url": "https://cdn.modrinth.com/data/MoNRLzw3/versions/c2xp7VJq/take-it-slow-v1.2.0-fabric-quilt-1.19.4.jar",
-          "filename": "take-it-slow-v1.2.0-fabric-quilt-1.19.4.jar",
-          "primary": true,
-          "size": 19232
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "hvEWuuub",
-      "name": "v1.1.0 (Forge 1.19.4-1.20.1)",
-      "version_number": "1.1.0+1.19.4+forge",
-      "game_versions": [
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "b9e2932e149ed8bb588958cc62fb45eda75654ac99479f1a0824bbb93c1057716d14d5b901fc8566490940ef0a7a8141ae11191f896a7bedde5078bb237cc071",
-          "url": "https://cdn.modrinth.com/data/MoNRLzw3/versions/hvEWuuub/take-it-slow-v1.1.0-forge-1.19.4.jar",
-          "filename": "take-it-slow-v1.1.0-forge-1.19.4.jar",
-          "primary": true,
-          "size": 18824
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "X8YuGurB",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "f3sbbSOm",
-      "name": "v1.1.0 (Fabric/Quilt 1.19.4-1.20.1)",
-      "version_number": "1.1.0+1.19.4+fabric-quilt",
-      "game_versions": [
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3bbeb15352593c6718b56640bb20b3e9da486179c69ee8f4f2b4906a391aa0d8e02f817da19309e1c2f43fe4ca0c79243e89837619d813ef5d52d92e75e87462",
-          "url": "https://cdn.modrinth.com/data/MoNRLzw3/versions/f3sbbSOm/take-it-slow-v1.1.0-fabric-quilt-1.19.4.jar",
-          "filename": "take-it-slow-v1.1.0-fabric-quilt-1.19.4.jar",
-          "primary": true,
-          "size": 18997
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "iZRiOnnj",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "6XGTNEII",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -164,74 +127,6 @@
         {
           "project_id": "9s6osm5g",
           "version_id": "EUyHCmUW",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "zklxRPJL",
-      "name": "v1.0.3 (Fabric/Quilt 1.19.x)",
-      "version_number": "1.0.3+1.19.x+fabric-quilt",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "50966ba4cfd4e3d90914b4c4f6d85d5bdeae32fcb1cf0406b7ef3ed2a665610f640b833b81814a5a799398c8513b6cb9da0badfbb7599a82fd4afd15b635c84d",
-          "url": "https://cdn.modrinth.com/data/MoNRLzw3/versions/1.0.3%2B1.19.x%2Bfabric-quilt/take-it-slow-v1.0.3-fabric-quilt-1.19.x.jar",
-          "filename": "take-it-slow-v1.0.3-fabric-quilt-1.19.x.jar",
-          "primary": true,
-          "size": 17421
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "fxocdG2T",
-      "name": "v1.0.3 (Forge 1.18.x)",
-      "version_number": "1.0.3+1.18.x+forge",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e8b5ccffb6e5e4e7d53c4e6b62a244bb60c2c7bd2ee9b44315e55c89023d7c9a85d3571d3bb08f2e6049f91cca7575c525bb8dc1cbca189d85e6afdc76ae8669",
-          "url": "https://cdn.modrinth.com/data/MoNRLzw3/versions/1.0.3%2B1.18.x%2Bforge/take-it-slow-v1.0.3-forge-1.18.x.jar",
-          "filename": "take-it-slow-v1.0.3-forge-1.18.x.jar",
-          "primary": true,
-          "size": 17176
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "ZbWG3eJW",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -303,6 +198,41 @@
       ]
     },
     {
+      "id": "bQiDJdJz",
+      "name": "v1.0.0 (Fabric/Quilt 1.18.2)",
+      "version_number": "1.0.0+fabric-quilt",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "7bb5d45d4abf0926bd5d3dbe684da8732a07b58b6fa0b2b7d9fec8d359b5c2a1a10ac35543804761ab7376a94fa30d4f83073b33232042dd9af6f56f6e44646e",
+          "url": "https://cdn.modrinth.com/data/MoNRLzw3/versions/1.0.0/take-it-slow-v1.0.0-fabric-quilt-1.18.2.jar",
+          "filename": "take-it-slow-v1.0.0-fabric-quilt-1.18.2.jar",
+          "primary": true,
+          "size": 17428
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "y8cYdaYa",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "bccIHlHo",
       "name": "v1.0.2 (Fabric/Quilt 1.19.x)",
       "version_number": "1.0.2+fabric-quilt",
@@ -338,43 +268,13 @@
       ]
     },
     {
-      "id": "7l1lXLp9",
-      "name": "v1.0.1 (Forge 1.18.x)",
-      "version_number": "1.0.1+forge",
+      "id": "c2xp7VJq",
+      "name": "v1.2.0 (Fabric/Quilt 1.19.4-1.20.1)",
+      "version_number": "1.2.0+1.19.4+fabric-quilt",
       "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "edfcc97bde74684114c4cc4455b78d489b79862042745d421fd7a38d1021aef6b367d0a2ee37426f3f66e85b181ad54153fd3ca305f8be73b728739c47f41be8",
-          "url": "https://cdn.modrinth.com/data/MoNRLzw3/versions/1.0.1%2Bforge/take-it-slow-v1.0.1-forge-1.18.x.jar",
-          "filename": "take-it-slow-v1.0.1-forge-1.18.x.jar",
-          "primary": true,
-          "size": 16002
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "ZbWG3eJW",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "CgbDSteL",
-      "name": "v1.0.1 (Fabric/Quilt 1.18.x)",
-      "version_number": "1.0.1+fabric-quilt",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
+        "1.19.4",
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "fabric",
@@ -382,25 +282,62 @@
       ],
       "files": [
         {
-          "sha512": "378542ea91012736dbd22d9c86492f49e019623cc1b83f8405469018e80581837e2844b09d8ebaf8583fe219eac528b6c96d1d78bbe7f63327f639899f222cf5",
-          "url": "https://cdn.modrinth.com/data/MoNRLzw3/versions/1.0.1%2Bfabric-quilt/take-it-slow-v1.0.1-fabric-quilt-1.18.x.jar",
-          "filename": "take-it-slow-v1.0.1-fabric-quilt-1.18.x.jar",
+          "sha512": "eb9da4a01f295bbcc5b1046750070a7871f7e734d061ff718069114bcaa891cbf7a14840a135dbc11a30b6f5d6a54a9b4709faa0b19eb8ad3dd4452cf833a568",
+          "url": "https://cdn.modrinth.com/data/MoNRLzw3/versions/c2xp7VJq/take-it-slow-v1.2.0-fabric-quilt-1.19.4.jar",
+          "filename": "take-it-slow-v1.2.0-fabric-quilt-1.19.4.jar",
           "primary": true,
-          "size": 16293
+          "size": 19232
         }
       ],
       "dependencies": [
         {
           "project_id": "mOgUt4GM",
-          "version_id": "cx9D94fU",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
         {
           "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "f3sbbSOm",
+      "name": "v1.1.0 (Fabric/Quilt 1.19.4-1.20.1)",
+      "version_number": "1.1.0+1.19.4+fabric-quilt",
+      "game_versions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3bbeb15352593c6718b56640bb20b3e9da486179c69ee8f4f2b4906a391aa0d8e02f817da19309e1c2f43fe4ca0c79243e89837619d813ef5d52d92e75e87462",
+          "url": "https://cdn.modrinth.com/data/MoNRLzw3/versions/f3sbbSOm/take-it-slow-v1.1.0-fabric-quilt-1.19.4.jar",
+          "filename": "take-it-slow-v1.1.0-fabric-quilt-1.19.4.jar",
+          "primary": true,
+          "size": 18997
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "6XGTNEII",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "iZRiOnnj",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -433,11 +370,74 @@
       ]
     },
     {
-      "id": "bQiDJdJz",
-      "name": "v1.0.0 (Fabric/Quilt 1.18.2)",
-      "version_number": "1.0.0+fabric-quilt",
+      "id": "fxocdG2T",
+      "name": "v1.0.3 (Forge 1.18.x)",
+      "version_number": "1.0.3+1.18.x+forge",
       "game_versions": [
+        "1.18",
+        "1.18.1",
         "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e8b5ccffb6e5e4e7d53c4e6b62a244bb60c2c7bd2ee9b44315e55c89023d7c9a85d3571d3bb08f2e6049f91cca7575c525bb8dc1cbca189d85e6afdc76ae8669",
+          "url": "https://cdn.modrinth.com/data/MoNRLzw3/versions/1.0.3%2B1.18.x%2Bforge/take-it-slow-v1.0.3-forge-1.18.x.jar",
+          "filename": "take-it-slow-v1.0.3-forge-1.18.x.jar",
+          "primary": true,
+          "size": 17176
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "ZbWG3eJW",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "hvEWuuub",
+      "name": "v1.1.0 (Forge 1.19.4-1.20.1)",
+      "version_number": "1.1.0+1.19.4+forge",
+      "game_versions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b9e2932e149ed8bb588958cc62fb45eda75654ac99479f1a0824bbb93c1057716d14d5b901fc8566490940ef0a7a8141ae11191f896a7bedde5078bb237cc071",
+          "url": "https://cdn.modrinth.com/data/MoNRLzw3/versions/hvEWuuub/take-it-slow-v1.1.0-forge-1.19.4.jar",
+          "filename": "take-it-slow-v1.1.0-forge-1.19.4.jar",
+          "primary": true,
+          "size": 18824
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "X8YuGurB",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "zklxRPJL",
+      "name": "v1.0.3 (Fabric/Quilt 1.19.x)",
+      "version_number": "1.0.3+1.19.x+fabric-quilt",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
       ],
       "loaders": [
         "fabric",
@@ -445,23 +445,23 @@
       ],
       "files": [
         {
-          "sha512": "7bb5d45d4abf0926bd5d3dbe684da8732a07b58b6fa0b2b7d9fec8d359b5c2a1a10ac35543804761ab7376a94fa30d4f83073b33232042dd9af6f56f6e44646e",
-          "url": "https://cdn.modrinth.com/data/MoNRLzw3/versions/1.0.0/take-it-slow-v1.0.0-fabric-quilt-1.18.2.jar",
-          "filename": "take-it-slow-v1.0.0-fabric-quilt-1.18.2.jar",
+          "sha512": "50966ba4cfd4e3d90914b4c4f6d85d5bdeae32fcb1cf0406b7ef3ed2a665610f640b833b81814a5a799398c8513b6cb9da0badfbb7599a82fd4afd15b635c84d",
+          "url": "https://cdn.modrinth.com/data/MoNRLzw3/versions/1.0.3%2B1.19.x%2Bfabric-quilt/take-it-slow-v1.0.3-fabric-quilt-1.19.x.jar",
+          "filename": "take-it-slow-v1.0.3-fabric-quilt-1.19.x.jar",
           "primary": true,
-          "size": 17428
+          "size": 17421
         }
       ],
       "dependencies": [
         {
           "project_id": "mOgUt4GM",
-          "version_id": "y8cYdaYa",
+          "version_id": "id0aLmxO",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
           "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
+          "version_id": "o9dFD9SO",
           "file_name": null,
           "dependency_type": "required"
         }

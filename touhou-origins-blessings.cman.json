@@ -5,59 +5,6 @@
   "description": "An add-on for the Origins mod which adds blessings inspired by the Touhou Project series",
   "versions": [
     {
-      "id": "vsPILgsN",
-      "name": "Touhou Origins: Blessings 1.1.0",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "20fad8a8efc17cf6db43f624dd0c0df5561b6900585879b4ff5290b2d6fe6cf784a304c214e8ab294a190b23da29973bf5a1826c502fbac9234bd990616ef12e",
-          "url": "https://cdn.modrinth.com/data/REGoShH1/versions/vsPILgsN/touhoublessings-1.1.0%2B1.20.2.jar",
-          "filename": "touhoublessings-1.1.0+1.20.2.jar",
-          "primary": true,
-          "size": 696367
-        },
-        {
-          "sha512": "c254a0a302a47c372fe6ba5b2c1c00e07b3e98e8ed415a3c584e2f4280476a58e53d68cc10df4789aadfaece17538dae5073596bf6e1b0c6a4160a38bde9ab21",
-          "url": "https://cdn.modrinth.com/data/REGoShH1/versions/vsPILgsN/touhoublessings-1.1.0%2B1.20.2-sources.jar",
-          "filename": "touhoublessings-1.1.0+1.20.2-sources.jar",
-          "primary": false,
-          "size": 28082
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "3BeIrqZR",
-          "version_id": "rx79pal8",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "MVFzVisL",
-          "version_id": "C6m1OxdM",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "3cLfTqiM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "BRtlsQEw",
       "name": "Touhou Origins: Blessings 1.0.4",
       "version_number": "1.0.4",
@@ -85,8 +32,8 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
+          "project_id": "3BeIrqZR",
+          "version_id": "OdNHB7Bh",
           "file_name": null,
           "dependency_type": "required"
         },
@@ -97,8 +44,8 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "3BeIrqZR",
-          "version_id": "OdNHB7Bh",
+          "project_id": "P7dR8mSH",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -133,12 +80,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "3BeIrqZR",
           "version_id": "5njhNHNC",
           "file_name": null,
@@ -149,41 +90,6 @@
           "version_id": "KkGuLchd",
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "bXrsM1IJ",
-      "name": "Touhou Origins: Blessings 1.0.2",
-      "version_number": "1.0.2",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0aae0af5169b4b86a59bebf297648f6265a5c505cca06b7ac8fa474a77f0227ff476ff6eb6ea759aa0d96c30f2188dce05e2a9cc46bddb8ed81ead75d956a4d1",
-          "url": "https://cdn.modrinth.com/data/REGoShH1/versions/bXrsM1IJ/touhoublessings-1.0.2-1.19.3.jar",
-          "filename": "touhoublessings-1.0.2-1.19.3.jar",
-          "primary": true,
-          "size": 58199
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "3cLfTqiM",
-          "version_id": "KkGuLchd",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "3BeIrqZR",
-          "version_id": "5njhNHNC",
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "P7dR8mSH",
@@ -214,12 +120,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "3BeIrqZR",
-          "version_id": "lvs8NAJ2",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": "6XyLcjn4",
           "file_name": null,
@@ -230,6 +130,53 @@
           "version_id": "I0wOteoY",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "3BeIrqZR",
+          "version_id": "lvs8NAJ2",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "bXrsM1IJ",
+      "name": "Touhou Origins: Blessings 1.0.2",
+      "version_number": "1.0.2",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0aae0af5169b4b86a59bebf297648f6265a5c505cca06b7ac8fa474a77f0227ff476ff6eb6ea759aa0d96c30f2188dce05e2a9cc46bddb8ed81ead75d956a4d1",
+          "url": "https://cdn.modrinth.com/data/REGoShH1/versions/bXrsM1IJ/touhoublessings-1.0.2-1.19.3.jar",
+          "filename": "touhoublessings-1.0.2-1.19.3.jar",
+          "primary": true,
+          "size": 58199
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "3BeIrqZR",
+          "version_id": "5njhNHNC",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "3cLfTqiM",
+          "version_id": "KkGuLchd",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -254,12 +201,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "3BeIrqZR",
-          "version_id": "lvs8NAJ2",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "3cLfTqiM",
           "version_id": "I0wOteoY",
           "file_name": null,
@@ -268,6 +209,65 @@
         {
           "project_id": "P7dR8mSH",
           "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "3BeIrqZR",
+          "version_id": "lvs8NAJ2",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "vsPILgsN",
+      "name": "Touhou Origins: Blessings 1.1.0",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "20fad8a8efc17cf6db43f624dd0c0df5561b6900585879b4ff5290b2d6fe6cf784a304c214e8ab294a190b23da29973bf5a1826c502fbac9234bd990616ef12e",
+          "url": "https://cdn.modrinth.com/data/REGoShH1/versions/vsPILgsN/touhoublessings-1.1.0%2B1.20.2.jar",
+          "filename": "touhoublessings-1.1.0+1.20.2.jar",
+          "primary": true,
+          "size": 696367
+        },
+        {
+          "sha512": "c254a0a302a47c372fe6ba5b2c1c00e07b3e98e8ed415a3c584e2f4280476a58e53d68cc10df4789aadfaece17538dae5073596bf6e1b0c6a4160a38bde9ab21",
+          "url": "https://cdn.modrinth.com/data/REGoShH1/versions/vsPILgsN/touhoublessings-1.1.0%2B1.20.2-sources.jar",
+          "filename": "touhoublessings-1.1.0+1.20.2-sources.jar",
+          "primary": false,
+          "size": 28082
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "MVFzVisL",
+          "version_id": "C6m1OxdM",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "3cLfTqiM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "3BeIrqZR",
+          "version_id": "rx79pal8",
           "file_name": null,
           "dependency_type": "required"
         }

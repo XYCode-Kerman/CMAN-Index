@@ -5,6 +5,55 @@
   "description": "This is a recopilation of Addons made for TE+ datapack/mod. They were made with some ideas from the community!",
   "versions": [
     {
+      "id": "1oQWihfB",
+      "name": "Frostbite Addon - 1.20.2",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "7cbcd7db8535cd9023fb68df8bec944324d5d16509fe7ccd425b65b54df0a2a1d2ac0df37a8bc96088ec4562fcb957cc0afa280d93db89255254b4ab7dd38294",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/1oQWihfB/teplus_frostbite_addon.zip",
+          "filename": "teplus_frostbite_addon.zip",
+          "primary": true,
+          "size": 39830
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "4t7fGrYh",
+      "name": "Compact Addon - 1.20.2",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "4797dfbde2330b6cf0e6d2f427d6e3c7e68e2b8197b1a51c59d08a2ec671ef53ef82024bec9b0a799e43c574c8471c9266386ca5635a2ebdc1d8837cbdcfe779",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/4t7fGrYh/teplus_compact_addon.zip",
+          "filename": "teplus_compact_addon.zip",
+          "primary": true,
+          "size": 39181
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Wtv4kWE9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "5iP2FHT7",
       "name": "Typhoon Addon -1.20.4",
       "version_number": "2.0.1",
@@ -34,8 +83,8 @@
       ]
     },
     {
-      "id": "j2ISfDad",
-      "name": "Typhoon Addon - 1.20.2",
+      "id": "5zmRwyAf",
+      "name": "Spawner Touch Addon - 1.20.2",
       "version_number": "2.0.0",
       "game_versions": [
         "1.20.2"
@@ -45,125 +94,33 @@
       ],
       "files": [
         {
-          "sha512": "20c653f45efe2066efe1e58cbf742cb7f6d4bbacaac8f67baefa90befa208d95346d4e5df3ead0238ce36d6cd249c0e3a31872d064b5fefe925b8ead76847594",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/j2ISfDad/teplus_typhoon_addon.zip",
-          "filename": "teplus_typhoon_addon.zip",
+          "sha512": "d768adff533c3d9849f048a1261cdd078b7c25301d7702901bd284b0f27e8c73829b98878306c10e37a98fffebd6a0e488b8187d29bdd6c8e1383d8b00cc889a",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/5zmRwyAf/teplus_spawner_touch_addon.zip",
+          "filename": "teplus_spawner_touch_addon.zip",
           "primary": true,
-          "size": 40581
+          "size": 39430
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "Wtv4kWE9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
+      "dependencies": []
     },
     {
-      "id": "IECMxmr5",
-      "name": "Bleeding Addon - 1.20.2",
-      "version_number": "2.0.0",
+      "id": "99qXEJae",
+      "name": "Spawner Touch Addon - 1.20",
+      "version_number": "1.0.0",
       "game_versions": [
-        "1.20.2"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "datapack"
       ],
       "files": [
         {
-          "sha512": "c5c6e1390ed87bfc19052af77e89405ca898f1be2379ade93cb0f238453895dc1f4b2d6cbd8fbab07e22ea42667c9eee00c07f9c7bb0cf3a3d0c07fe9f338a49",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/IECMxmr5/teplus_bleeding_addon.zip",
-          "filename": "teplus_bleeding_addon.zip",
-          "primary": false,
-          "size": 44097
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Wtv4kWE9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "sRSQ7i1D",
-      "name": "Addons Wave 1 - 1.20.2",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "13f44cde447feb8b9975ef1e65538d4cb576a1391a66161cd001ad9e172dacf7a450a186c7eb3787f1fc1d862d215a3f6106d94173142819219c15ccfac712d8",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/sRSQ7i1D/teplus_addons_wave1.zip",
-          "filename": "teplus_addons_wave1.zip",
+          "sha512": "eef0077a4c40e587ff6e9773ec4480c67af968c469c312748d8b3af6326de0be3e2dd35a8810aac3a89f1ac418c3f1f306d9bd5eab028e38caa3ad653b9e9529",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/99qXEJae/teplus_spawner_touch_addon_v2.1.zip",
+          "filename": "teplus_spawner_touch_addon_v2.1.zip",
           "primary": true,
-          "size": 282605
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Wtv4kWE9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "h09kgNEI",
-      "name": "Withering Addon - 1.20.2",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "e046387e799554aec984b33d0f8e8da1fce654ad92fcb1519c3aae2bcdb21565647ec0c2b66e0928c5cfc3a8c3b7d28779c814e5f41e5951a7558721fb7959a5",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/h09kgNEI/teplus_withering_addon.zip",
-          "filename": "teplus_withering_addon.zip",
-          "primary": true,
-          "size": 43619
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Wtv4kWE9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "qLpwu7ym",
-      "name": "Voidless Addon - 1.20.2",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "e397a45698cf7d38e3347d7fe7db8eff18b9a634a7f6cca98e272e24e8e5931d82f1067827bb04454c4c978c4346bc4205abe86fabba8ea087ada15ffc26872d",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/qLpwu7ym/teplus_voidless_addon.zip",
-          "filename": "teplus_voidless_addon.zip",
-          "primary": true,
-          "size": 37832
+          "size": 39023
         }
       ],
       "dependencies": [
@@ -204,118 +161,6 @@
       ]
     },
     {
-      "id": "5zmRwyAf",
-      "name": "Spawner Touch Addon - 1.20.2",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "d768adff533c3d9849f048a1261cdd078b7c25301d7702901bd284b0f27e8c73829b98878306c10e37a98fffebd6a0e488b8187d29bdd6c8e1383d8b00cc889a",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/5zmRwyAf/teplus_spawner_touch_addon.zip",
-          "filename": "teplus_spawner_touch_addon.zip",
-          "primary": true,
-          "size": 39430
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ZZ8MCkXB",
-      "name": "Relocation Addon - 1.20.2",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "4fcedd12b7692d17df803d9a53af05adfa3690c2df9b236aa030d0fe917c4e8463efa743288ba35c0e7b66ad976b760d04c9a4e4dd71e8c76fc454fb4e84ceea",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/ZZ8MCkXB/teplus_relocation_addon.zip",
-          "filename": "teplus_relocation_addon.zip",
-          "primary": true,
-          "size": 46074
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "MyZnhKdb",
-      "name": "Pull Addon - 1.20.2",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "fb4d20439932ee3e25efd3f718e9d3e12cc07ce027f8b9880ed6beb6258a0d87d53d8ca1171a76a89f13501a4df802fb430f37f00fd9fe93768d8c7cb0c85288",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/MyZnhKdb/teplus_pull_addon.zip",
-          "filename": "teplus_pull_addon.zip",
-          "primary": true,
-          "size": 47800
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "SxzWpr5W",
-      "name": "Heat Vision Addon - 1.20.2",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "24aedb1e19680c2bc1eb49a9273e6abd68729a8bb6b2b636ae650ebfe14a0f0afdf4bff0d85ce65d96a3fbdffd1e99988c2a1e3a996a2e7d19d99fe5a9195e18",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/SxzWpr5W/teplus_heat_vision_addon.zip",
-          "filename": "teplus_heat_vision_addon.zip",
-          "primary": true,
-          "size": 48292
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Wtv4kWE9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "1oQWihfB",
-      "name": "Frostbite Addon - 1.20.2",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "7cbcd7db8535cd9023fb68df8bec944324d5d16509fe7ccd425b65b54df0a2a1d2ac0df37a8bc96088ec4562fcb957cc0afa280d93db89255254b4ab7dd38294",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/1oQWihfB/teplus_frostbite_addon.zip",
-          "filename": "teplus_frostbite_addon.zip",
-          "primary": true,
-          "size": 39830
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "CdH9uGnU",
       "name": "Expertise Addon - 1.20.2",
       "version_number": "2.0.0",
@@ -344,8 +189,8 @@
       ]
     },
     {
-      "id": "4t7fGrYh",
-      "name": "Compact Addon - 1.20.2",
+      "id": "IECMxmr5",
+      "name": "Bleeding Addon - 1.20.2",
       "version_number": "2.0.0",
       "game_versions": [
         "1.20.2"
@@ -355,11 +200,11 @@
       ],
       "files": [
         {
-          "sha512": "4797dfbde2330b6cf0e6d2f427d6e3c7e68e2b8197b1a51c59d08a2ec671ef53ef82024bec9b0a799e43c574c8471c9266386ca5635a2ebdc1d8837cbdcfe779",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/4t7fGrYh/teplus_compact_addon.zip",
-          "filename": "teplus_compact_addon.zip",
-          "primary": true,
-          "size": 39181
+          "sha512": "c5c6e1390ed87bfc19052af77e89405ca898f1be2379ade93cb0f238453895dc1f4b2d6cbd8fbab07e22ea42667c9eee00c07f9c7bb0cf3a3d0c07fe9f338a49",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/IECMxmr5/teplus_bleeding_addon.zip",
+          "filename": "teplus_bleeding_addon.zip",
+          "primary": false,
+          "size": 44097
         }
       ],
       "dependencies": [
@@ -372,33 +217,59 @@
       ]
     },
     {
-      "id": "tS1hPdkR",
-      "name": "Addons Wave 1 - 1.20",
+      "id": "JcNI9AKD",
+      "name": "Addons Wave I - 1.19.3",
       "version_number": "1.0.0",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.19.3"
       ],
       "loaders": [
         "datapack"
       ],
       "files": [
         {
-          "sha512": "684f7032836c7d1f858cbebbcfeedd7a45ef7b37e7cf8dd1662d705024f4f12a625543e28b35af94bc2b87b5377d5259f426588b4c257edb6174ee84f47f19c8",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/tS1hPdkR/teplus_addons_wave1_v2.1.zip",
-          "filename": "teplus_addons_wave1_v2.1.zip",
+          "sha512": "2459a2be9070a5449b60f2ac9c1ca749af22e46c527b18e14a22a174d5ff72941bf6634499cbbf6837173e3f1cb2f2618660262c21949004397bcb0fa20df014",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/JcNI9AKD/teplus_addons_wave1.zip",
+          "filename": "teplus_addons_wave1.zip",
           "primary": true,
-          "size": 279638
+          "size": 280217
         }
       ],
       "dependencies": [
         {
           "project_id": "Wtv4kWE9",
+          "version_id": "DF8OOgyO",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "L3pjGUrg",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
       ]
+    },
+    {
+      "id": "MyZnhKdb",
+      "name": "Pull Addon - 1.20.2",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "fb4d20439932ee3e25efd3f718e9d3e12cc07ce027f8b9880ed6beb6258a0d87d53d8ca1171a76a89f13501a4df802fb430f37f00fd9fe93768d8c7cb0c85288",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/MyZnhKdb/teplus_pull_addon.zip",
+          "filename": "teplus_pull_addon.zip",
+          "primary": true,
+          "size": 47800
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "S8udoBTC",
@@ -430,23 +301,22 @@
       ]
     },
     {
-      "id": "99qXEJae",
-      "name": "Spawner Touch Addon - 1.20",
-      "version_number": "1.0.0",
+      "id": "SxzWpr5W",
+      "name": "Heat Vision Addon - 1.20.2",
+      "version_number": "2.0.0",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.20.2"
       ],
       "loaders": [
         "datapack"
       ],
       "files": [
         {
-          "sha512": "eef0077a4c40e587ff6e9773ec4480c67af968c469c312748d8b3af6326de0be3e2dd35a8810aac3a89f1ac418c3f1f306d9bd5eab028e38caa3ad653b9e9529",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/99qXEJae/teplus_spawner_touch_addon_v2.1.zip",
-          "filename": "teplus_spawner_touch_addon_v2.1.zip",
+          "sha512": "24aedb1e19680c2bc1eb49a9273e6abd68729a8bb6b2b636ae650ebfe14a0f0afdf4bff0d85ce65d96a3fbdffd1e99988c2a1e3a996a2e7d19d99fe5a9195e18",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/SxzWpr5W/teplus_heat_vision_addon.zip",
+          "filename": "teplus_heat_vision_addon.zip",
           "primary": true,
-          "size": 39023
+          "size": 48292
         }
       ],
       "dependencies": [
@@ -459,66 +329,8 @@
       ]
     },
     {
-      "id": "sRpI80IF",
-      "name": "Bleeding Addon - 1.20.1",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "3917a8bae824acb48f7deded87f9c3553e7e34ade6118aacd8352c8084556c62f36da0f55d849f96908463666e1d25b2d9e92486a81d382d5bb9bfd1d89a0d3c",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/sRpI80IF/teplus_bleeding_addon.zip",
-          "filename": "teplus_bleeding_addon.zip",
-          "primary": true,
-          "size": 43616
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Wtv4kWE9",
-          "version_id": "4yTGyBki",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "rnm0p6vC",
-      "name": "Addons Wave I - 1.19.4",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "bf6c9c8a619947f9ff453b0765908447048f7a778ab94b5872eb3c4801d9555b74077dd722cb304e88ebbca944fd2fabd141677abe2ac8a830014fab8056b4e9",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/rnm0p6vC/teplus_addons_wave1_v2.zip",
-          "filename": "teplus_addons_wave1_v2.zip",
-          "primary": true,
-          "size": 281415
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Wtv4kWE9",
-          "version_id": "BIvksqYY",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "rswrvAan",
-      "name": "Withering Addon - 1.19.4",
+      "id": "TYgUfsKN",
+      "name": "Relocation Addon - 1.19.4",
       "version_number": "1.0.0",
       "game_versions": [
         "1.19.4"
@@ -528,39 +340,11 @@
       ],
       "files": [
         {
-          "sha512": "ffeb46e5745645311bddfea39bd3f684e7941ca17a3fcd009c3d24fe7592fc51e98012c417607027bb6724935e2c92934e9e1f4b878424ab4e6df0fd44dbb820",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/rswrvAan/teplus_withering_addon_v2.zip",
-          "filename": "teplus_withering_addon_v2.zip",
+          "sha512": "aa927ae33582cfbd6191a10aec4208488539b3b1a29dcfd715968521b2e5d2cca70e95b4215ef38f8b39064fc5cadb626d3d4ba53684242865df481eae61c70f",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/TYgUfsKN/teplus_relocation_addon_v2.zip",
+          "filename": "teplus_relocation_addon_v2.zip",
           "primary": true,
-          "size": 43267
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Wtv4kWE9",
-          "version_id": "BIvksqYY",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "qOTBmgiK",
-      "name": "Voidless Addon - 1.19.4",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "3c9e6ca0e210286ad48bbd56d1907224489272fd5bfcdca62ab7428a6712c6fc88151e64578da0a72e0b42fbf49fb5fbc38490311ebb439dd8abf120656a82a0",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/qOTBmgiK/teplus_voidless_addon_v2.zip",
-          "filename": "teplus_voidless_addon_v2.zip",
-          "primary": true,
-          "size": 37437
+          "size": 45721
         }
       ],
       "dependencies": [
@@ -629,8 +413,29 @@
       ]
     },
     {
-      "id": "TYgUfsKN",
-      "name": "Relocation Addon - 1.19.4",
+      "id": "ZZ8MCkXB",
+      "name": "Relocation Addon - 1.20.2",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "4fcedd12b7692d17df803d9a53af05adfa3690c2df9b236aa030d0fe917c4e8463efa743288ba35c0e7b66ad976b760d04c9a4e4dd71e8c76fc454fb4e84ceea",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/ZZ8MCkXB/teplus_relocation_addon.zip",
+          "filename": "teplus_relocation_addon.zip",
+          "primary": true,
+          "size": 46074
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ZoYnJf7M",
+      "name": "Frostbite Addon - 1.19.4",
       "version_number": "1.0.0",
       "game_versions": [
         "1.19.4"
@@ -640,11 +445,39 @@
       ],
       "files": [
         {
-          "sha512": "aa927ae33582cfbd6191a10aec4208488539b3b1a29dcfd715968521b2e5d2cca70e95b4215ef38f8b39064fc5cadb626d3d4ba53684242865df481eae61c70f",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/TYgUfsKN/teplus_relocation_addon_v2.zip",
-          "filename": "teplus_relocation_addon_v2.zip",
+          "sha512": "b0fb1d6f5f8692fa028521190254a8bda9eaabca210741ec6728d23f82edbc6e1647122ba4ad0e78a0d26b63145c5de911f78c802238e1f0c4b0320a69c8a8ab",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/ZoYnJf7M/teplus_frostbite_addon_v2.zip",
+          "filename": "teplus_frostbite_addon_v2.zip",
           "primary": true,
-          "size": 45721
+          "size": 39468
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Wtv4kWE9",
+          "version_id": "BIvksqYY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "h09kgNEI",
+      "name": "Withering Addon - 1.20.2",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "e046387e799554aec984b33d0f8e8da1fce654ad92fcb1519c3aae2bcdb21565647ec0c2b66e0928c5cfc3a8c3b7d28779c814e5f41e5951a7558721fb7959a5",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/h09kgNEI/teplus_withering_addon.zip",
+          "filename": "teplus_withering_addon.zip",
+          "primary": true,
+          "size": 43619
         }
       ],
       "dependencies": [
@@ -685,8 +518,8 @@
       ]
     },
     {
-      "id": "zCWxHsz7",
-      "name": "Heat Vision Addon - 1.19.4",
+      "id": "hbJK5n3O",
+      "name": "Compact Addon - 1.19.4",
       "version_number": "1.0.0",
       "game_versions": [
         "1.19.4"
@@ -696,45 +529,45 @@
       ],
       "files": [
         {
-          "sha512": "b97e01f1e338407f2805b0a1432fc156321112512f2e67683db829fa0721635a7827ed1e62395df09990025ebfaf6bf43932473930966262522b56439720e9bf",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/zCWxHsz7/teplus_heat_vision_addon_v2.zip",
-          "filename": "teplus_heat_vision_addon_v2.zip",
+          "sha512": "5d9ae752aa116101def058c5fed086fd26f882df15becfe47a9ba534a7b3e2bdb60968c1d6c63787da95e9de0295836757ce6bd93935dca3baada92f0a67f4a3",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/hbJK5n3O/teplus_compact_addon_v2.zip",
+          "filename": "teplus_compact_addon_v2.zip",
           "primary": true,
-          "size": 47945
+          "size": 38829
         }
       ],
       "dependencies": [
         {
           "project_id": "Wtv4kWE9",
-          "version_id": "BIvksqYY",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "ZoYnJf7M",
-      "name": "Frostbite Addon - 1.19.4",
-      "version_number": "1.0.0",
+      "id": "j2ISfDad",
+      "name": "Typhoon Addon - 1.20.2",
+      "version_number": "2.0.0",
       "game_versions": [
-        "1.19.4"
+        "1.20.2"
       ],
       "loaders": [
         "datapack"
       ],
       "files": [
         {
-          "sha512": "b0fb1d6f5f8692fa028521190254a8bda9eaabca210741ec6728d23f82edbc6e1647122ba4ad0e78a0d26b63145c5de911f78c802238e1f0c4b0320a69c8a8ab",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/ZoYnJf7M/teplus_frostbite_addon_v2.zip",
-          "filename": "teplus_frostbite_addon_v2.zip",
+          "sha512": "20c653f45efe2066efe1e58cbf742cb7f6d4bbacaac8f67baefa90befa208d95346d4e5df3ead0238ce36d6cd249c0e3a31872d064b5fefe925b8ead76847594",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/j2ISfDad/teplus_typhoon_addon.zip",
+          "filename": "teplus_typhoon_addon.zip",
           "primary": true,
-          "size": 39468
+          "size": 40581
         }
       ],
       "dependencies": [
         {
           "project_id": "Wtv4kWE9",
-          "version_id": "BIvksqYY",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -769,22 +602,22 @@
       ]
     },
     {
-      "id": "hbJK5n3O",
-      "name": "Compact Addon - 1.19.4",
-      "version_number": "1.0.0",
+      "id": "qLpwu7ym",
+      "name": "Voidless Addon - 1.20.2",
+      "version_number": "2.0.0",
       "game_versions": [
-        "1.19.4"
+        "1.20.2"
       ],
       "loaders": [
         "datapack"
       ],
       "files": [
         {
-          "sha512": "5d9ae752aa116101def058c5fed086fd26f882df15becfe47a9ba534a7b3e2bdb60968c1d6c63787da95e9de0295836757ce6bd93935dca3baada92f0a67f4a3",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/hbJK5n3O/teplus_compact_addon_v2.zip",
-          "filename": "teplus_compact_addon_v2.zip",
+          "sha512": "e397a45698cf7d38e3347d7fe7db8eff18b9a634a7f6cca98e272e24e8e5931d82f1067827bb04454c4c978c4346bc4205abe86fabba8ea087ada15ffc26872d",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/qLpwu7ym/teplus_voidless_addon.zip",
+          "filename": "teplus_voidless_addon.zip",
           "primary": true,
-          "size": 38829
+          "size": 37832
         }
       ],
       "dependencies": [
@@ -797,34 +630,201 @@
       ]
     },
     {
-      "id": "JcNI9AKD",
-      "name": "Addons Wave I - 1.19.3",
+      "id": "qOTBmgiK",
+      "name": "Voidless Addon - 1.19.4",
       "version_number": "1.0.0",
       "game_versions": [
-        "1.19.3"
+        "1.19.4"
       ],
       "loaders": [
         "datapack"
       ],
       "files": [
         {
-          "sha512": "2459a2be9070a5449b60f2ac9c1ca749af22e46c527b18e14a22a174d5ff72941bf6634499cbbf6837173e3f1cb2f2618660262c21949004397bcb0fa20df014",
-          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/JcNI9AKD/teplus_addons_wave1.zip",
-          "filename": "teplus_addons_wave1.zip",
+          "sha512": "3c9e6ca0e210286ad48bbd56d1907224489272fd5bfcdca62ab7428a6712c6fc88151e64578da0a72e0b42fbf49fb5fbc38490311ebb439dd8abf120656a82a0",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/qOTBmgiK/teplus_voidless_addon_v2.zip",
+          "filename": "teplus_voidless_addon_v2.zip",
           "primary": true,
-          "size": 280217
+          "size": 37437
         }
       ],
       "dependencies": [
         {
           "project_id": "Wtv4kWE9",
-          "version_id": "DF8OOgyO",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
+        }
+      ]
+    },
+    {
+      "id": "rnm0p6vC",
+      "name": "Addons Wave I - 1.19.4",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
         {
-          "project_id": "L3pjGUrg",
+          "sha512": "bf6c9c8a619947f9ff453b0765908447048f7a778ab94b5872eb3c4801d9555b74077dd722cb304e88ebbca944fd2fabd141677abe2ac8a830014fab8056b4e9",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/rnm0p6vC/teplus_addons_wave1_v2.zip",
+          "filename": "teplus_addons_wave1_v2.zip",
+          "primary": true,
+          "size": 281415
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Wtv4kWE9",
+          "version_id": "BIvksqYY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "rswrvAan",
+      "name": "Withering Addon - 1.19.4",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "ffeb46e5745645311bddfea39bd3f684e7941ca17a3fcd009c3d24fe7592fc51e98012c417607027bb6724935e2c92934e9e1f4b878424ab4e6df0fd44dbb820",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/rswrvAan/teplus_withering_addon_v2.zip",
+          "filename": "teplus_withering_addon_v2.zip",
+          "primary": true,
+          "size": 43267
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Wtv4kWE9",
+          "version_id": "BIvksqYY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "sRSQ7i1D",
+      "name": "Addons Wave 1 - 1.20.2",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "13f44cde447feb8b9975ef1e65538d4cb576a1391a66161cd001ad9e172dacf7a450a186c7eb3787f1fc1d862d215a3f6106d94173142819219c15ccfac712d8",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/sRSQ7i1D/teplus_addons_wave1.zip",
+          "filename": "teplus_addons_wave1.zip",
+          "primary": true,
+          "size": 282605
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Wtv4kWE9",
           "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "sRpI80IF",
+      "name": "Bleeding Addon - 1.20.1",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "3917a8bae824acb48f7deded87f9c3553e7e34ade6118aacd8352c8084556c62f36da0f55d849f96908463666e1d25b2d9e92486a81d382d5bb9bfd1d89a0d3c",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/sRpI80IF/teplus_bleeding_addon.zip",
+          "filename": "teplus_bleeding_addon.zip",
+          "primary": true,
+          "size": 43616
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Wtv4kWE9",
+          "version_id": "4yTGyBki",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "tS1hPdkR",
+      "name": "Addons Wave 1 - 1.20",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "684f7032836c7d1f858cbebbcfeedd7a45ef7b37e7cf8dd1662d705024f4f12a625543e28b35af94bc2b87b5377d5259f426588b4c257edb6174ee84f47f19c8",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/tS1hPdkR/teplus_addons_wave1_v2.1.zip",
+          "filename": "teplus_addons_wave1_v2.1.zip",
+          "primary": true,
+          "size": 279638
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Wtv4kWE9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "zCWxHsz7",
+      "name": "Heat Vision Addon - 1.19.4",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "b97e01f1e338407f2805b0a1432fc156321112512f2e67683db829fa0721635a7827ed1e62395df09990025ebfaf6bf43932473930966262522b56439720e9bf",
+          "url": "https://cdn.modrinth.com/data/ELStFZPQ/versions/zCWxHsz7/teplus_heat_vision_addon_v2.zip",
+          "filename": "teplus_heat_vision_addon_v2.zip",
+          "primary": true,
+          "size": 47945
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Wtv4kWE9",
+          "version_id": "BIvksqYY",
           "file_name": null,
           "dependency_type": "required"
         }

@@ -46,49 +46,6 @@
       ]
     },
     {
-      "id": "dJoSzOB8",
-      "name": "1.0.3+mc1.19.2",
-      "version_number": "1.0.3+mc1.19.2",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3ee51593e1d665402c10924d544c268750b0b02f81c626750c24ef9c08d69e76ee5a91740b06233bee1930e090ef40d26e650e685ff9b9516e6c2c31631241ff",
-          "url": "https://cdn.modrinth.com/data/VP0RHYaP/versions/1.0.3%2Bmc1.19.2/layercontrol-fabric-1.0.3%2Bmc1.19.2.jar",
-          "filename": "layercontrol-fabric-1.0.3+mc1.19.2.jar",
-          "primary": true,
-          "size": 169388
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": "s10JMAtS",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "Q1FHzyde",
       "name": "1.0.2+mc1.19",
       "version_number": "1.0.2+mc1.19",
@@ -112,6 +69,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "mOgUt4GM",
           "version_id": "oU5qfeR6",
           "file_name": null,
@@ -120,12 +83,6 @@
         {
           "project_id": "Ha28R6CL",
           "version_id": "s10JMAtS",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -153,8 +110,51 @@
       ],
       "dependencies": [
         {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "mOgUt4GM",
           "version_id": "oU5qfeR6",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": "s10JMAtS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "dJoSzOB8",
+      "name": "1.0.3+mc1.19.2",
+      "version_number": "1.0.3+mc1.19.2",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3ee51593e1d665402c10924d544c268750b0b02f81c626750c24ef9c08d69e76ee5a91740b06233bee1930e090ef40d26e650e685ff9b9516e6c2c31631241ff",
+          "url": "https://cdn.modrinth.com/data/VP0RHYaP/versions/1.0.3%2Bmc1.19.2/layercontrol-fabric-1.0.3%2Bmc1.19.2.jar",
+          "filename": "layercontrol-fabric-1.0.3+mc1.19.2.jar",
+          "primary": true,
+          "size": 169388
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
           "file_name": null,
           "dependency_type": "optional"
         },
@@ -193,16 +193,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "Ha28R6CL",
-          "version_id": "s10JMAtS",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "oU5qfeR6",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": "s10JMAtS",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

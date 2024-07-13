@@ -5,29 +5,6 @@
   "description": "Improved shield mechanics like bashing, parrying and more.",
   "versions": [
     {
-      "id": "nsev5Vih",
-      "name": "Shield Overhaul 1.0.4",
-      "version_number": "1.0.3",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "c75c6de72c62fea3543117f8b8aad898a47a34beef1f5d9dc4e21bb5145496a3f47a98907c54842d7066529057f2adf9e558533d68b011c6ab34144b3a8eda12",
-          "url": "https://cdn.modrinth.com/data/XGoaJBjR/versions/nsev5Vih/Shield_Overhaul-FABRIC-MC1.20.1-1.0.4.jar",
-          "filename": "Shield_Overhaul-FABRIC-MC1.20.1-1.0.4.jar",
-          "primary": true,
-          "size": 194611
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "EheIDoD5",
       "name": "Shield Overhaul 1.0.3",
       "version_number": "1.0.3",
@@ -48,6 +25,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "u58R1TMW",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "FYpiwiBR",
           "version_id": null,
           "file_name": null,
@@ -61,12 +44,6 @@
         },
         {
           "project_id": "P1Kv5EAO",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "u58R1TMW",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -100,6 +77,29 @@
           "dependency_type": "required"
         }
       ]
+    },
+    {
+      "id": "nsev5Vih",
+      "name": "Shield Overhaul 1.0.4",
+      "version_number": "1.0.3",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "c75c6de72c62fea3543117f8b8aad898a47a34beef1f5d9dc4e21bb5145496a3f47a98907c54842d7066529057f2adf9e558533d68b011c6ab34144b3a8eda12",
+          "url": "https://cdn.modrinth.com/data/XGoaJBjR/versions/nsev5Vih/Shield_Overhaul-FABRIC-MC1.20.1-1.0.4.jar",
+          "filename": "Shield_Overhaul-FABRIC-MC1.20.1-1.0.4.jar",
+          "primary": true,
+          "size": 194611
+        }
+      ],
+      "dependencies": []
     }
   ]
 }

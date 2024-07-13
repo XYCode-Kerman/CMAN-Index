@@ -1,33 +1,13 @@
 {
-  "id": "void-ascension",
+  "id": "uXC0aGVe",
   "slug": "void-ascension",
   "name": "Void Ascension",
   "description": "The void's ascension.",
   "versions": [
     {
-      "id": "ySCqrzPm",
-      "name": "Void Ascension 1.20.1-v0.4",
-      "version_number": "0.4",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "1fc2b2099d83a46622f7ec7cef791e3d0803ba7f8333aff64ec76296b2f5ef31ddb319d68b37cc46e319cb2c60d3215ca93cc37d36fed7f5db523b112fdea228",
-          "url": "https://cdn.modrinth.com/data/uXC0aGVe/versions/ySCqrzPm/voidascension-0.4.jar",
-          "filename": "voidascension-0.4.jar",
-          "primary": true,
-          "size": 356618
-        }
-      ]
-    },
-    {
-      "id": "jd6hgMEL",
-      "name": "Void Ascension 0.3.1",
-      "version_number": "0.3.1",
+      "id": "4pZiTFbE",
+      "name": "Void Ascension 0.2",
+      "version_number": "0.2",
       "game_versions": [
         "1.16.5"
       ],
@@ -36,13 +16,14 @@
       ],
       "files": [
         {
-          "sha512": "c14ce7ebf9b35d313a99e3952b2ce9c9bc5f1be960499602c72d24456d8dd4f138d8572bc348ce17d1e3494e31ec0e741480ae5462304165906e6276da2bc835",
-          "url": "https://cdn.modrinth.com/data/uXC0aGVe/versions/jd6hgMEL/voidascension-0.3.1.jar",
-          "filename": "voidascension-0.3.1.jar",
+          "sha512": "30d4aefaaac75b831f7d49fe95ddbc00a1dd64309f667dd55f4e54a427f0b53ad25c28d45a980ddeb0d1d0cd48e2b5aa70a22c3d8f5dbc04d07eb1ff421b2e53",
+          "url": "https://cdn.modrinth.com/data/uXC0aGVe/versions/4pZiTFbE/voidascension-0.2.jar",
+          "filename": "voidascension-0.2.jar",
           "primary": true,
-          "size": 420275
+          "size": 410265
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "bLZEyMEP",
@@ -62,12 +43,13 @@
           "primary": false,
           "size": 410311
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
-      "id": "4pZiTFbE",
-      "name": "Void Ascension 0.2",
-      "version_number": "0.2",
+      "id": "jd6hgMEL",
+      "name": "Void Ascension 0.3.1",
+      "version_number": "0.3.1",
       "game_versions": [
         "1.16.5"
       ],
@@ -76,11 +58,46 @@
       ],
       "files": [
         {
-          "sha512": "30d4aefaaac75b831f7d49fe95ddbc00a1dd64309f667dd55f4e54a427f0b53ad25c28d45a980ddeb0d1d0cd48e2b5aa70a22c3d8f5dbc04d07eb1ff421b2e53",
-          "url": "https://cdn.modrinth.com/data/uXC0aGVe/versions/4pZiTFbE/voidascension-0.2.jar",
-          "filename": "voidascension-0.2.jar",
+          "sha512": "c14ce7ebf9b35d313a99e3952b2ce9c9bc5f1be960499602c72d24456d8dd4f138d8572bc348ce17d1e3494e31ec0e741480ae5462304165906e6276da2bc835",
+          "url": "https://cdn.modrinth.com/data/uXC0aGVe/versions/jd6hgMEL/voidascension-0.3.1.jar",
+          "filename": "voidascension-0.3.1.jar",
           "primary": true,
-          "size": 410265
+          "size": 420275
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ySCqrzPm",
+      "name": "Void Ascension 1.20.1-v0.4",
+      "version_number": "0.4",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "1fc2b2099d83a46622f7ec7cef791e3d0803ba7f8333aff64ec76296b2f5ef31ddb319d68b37cc46e319cb2c60d3215ca93cc37d36fed7f5db523b112fdea228",
+          "url": "https://cdn.modrinth.com/data/uXC0aGVe/versions/ySCqrzPm/voidascension-0.4.jar",
+          "filename": "voidascension-0.4.jar",
+          "primary": true,
+          "size": 356618
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "kkmrDlKT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

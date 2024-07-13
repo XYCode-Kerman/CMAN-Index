@@ -5,33 +5,40 @@
   "description": "Explore the corners of the universe, where no man was meant to.",
   "versions": [
     {
-      "id": "XKfPe9Nd",
-      "name": "The Corners 1.2.8",
-      "version_number": "1.2.8",
+      "id": "3S7xMYDi",
+      "name": "The Corners 1.2.0",
+      "version_number": "1.2.0",
       "game_versions": [
-        "1.20.1"
+        "1.18.2"
       ],
       "loaders": [
+        "fabric",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "335d14a0637fb347e8a71f95ece66eb17764753425cb9e9f7b5b36dc02e4053adbebbacd63349b656d8a585598e7b4e6b75b30a76b2e48e50455d3968b2e3c03",
-          "url": "https://cdn.modrinth.com/data/ixqEiFdp/versions/XKfPe9Nd/the_corners-1.2.8.jar",
-          "filename": "the_corners-1.2.8.jar",
+          "sha512": "ba274727dbcb9d95450b45a6c14479519c7dc59d657c93311bfc960c26cc10f659a459e31a77ac3bf14cda7598173d76d193f3382116014410fb9bdb3067534f",
+          "url": "https://cdn.modrinth.com/data/ixqEiFdp/versions/1.2.0/the-corners-1.2.0.jar",
+          "filename": "the-corners-1.2.0.jar",
           "primary": true,
-          "size": 79810092
+          "size": 65048933
         }
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
           "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "required"
         },
         {
-          "project_id": "qvIfYCYJ",
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "fRbqPLg4",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -69,6 +76,87 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "7AOIlko1",
+      "name": "The Corners 1.2.4",
+      "version_number": "1.2.4",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "90a0167ef8225e7e79fc6013072b64bb3d008c686a57e5dab44c45c1731292d1cc6ab492f019cb61934f5029b10b3d81d3b18893d64aa34469e7650b6a34bb1f",
+          "url": "https://cdn.modrinth.com/data/ixqEiFdp/versions/7AOIlko1/the_corners-1.2.4.jar",
+          "filename": "the_corners-1.2.4.jar",
+          "primary": true,
+          "size": 65165133
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "fRbqPLg4",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "bRcRsE72",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "codAaoxh",
+          "version_id": "hxPiYWhh",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "D6DtXSXo",
+      "name": "The Corners 1.2.2",
+      "version_number": "1.2.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "616c9370a6b27fe4b60837af013680e27f098d15823d21a4fd7d8d820dbea219eb4a3793bb3590b2db7ef5ded790d45f4338eadf7b05a6f86d181cc5c18ce128",
+          "url": "https://cdn.modrinth.com/data/ixqEiFdp/versions/1.2.2/the-corners-1.2.2.jar",
+          "filename": "the-corners-1.2.2.jar",
+          "primary": true,
+          "size": 65048821
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "fRbqPLg4",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -127,12 +215,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "qvIfYCYJ",
-          "version_id": "eaoB99I6",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "codAaoxh",
           "version_id": null,
           "file_name": null,
@@ -143,44 +225,85 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "eaoB99I6",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "7AOIlko1",
-      "name": "The Corners 1.2.4",
-      "version_number": "1.2.4",
+      "id": "PQTgmGof",
+      "name": "The Corners 1.1.7",
+      "version_number": "1.1.7",
       "game_versions": [
-        "1.19.2"
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f6ae8a15d5de67ad9ac76d6c0a3808fad6d6408478787e5e2098cc27813433c132db0463c011681e35a4c8ae2e71e93a7dc3f0bed29e91b17945725dcac0dba5",
+          "url": "https://cdn.modrinth.com/data/ixqEiFdp/versions/1.1.7/the-corners-1.1.7.jar",
+          "filename": "the-corners-1.1.7.jar",
+          "primary": true,
+          "size": 45989724
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "YDlOLdpm",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "gPqHXnrg",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "fRbqPLg4",
+          "version_id": "mc3GtrtK",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "XKfPe9Nd",
+      "name": "The Corners 1.2.8",
+      "version_number": "1.2.8",
+      "game_versions": [
+        "1.20.1"
       ],
       "loaders": [
         "quilt"
       ],
       "files": [
         {
-          "sha512": "90a0167ef8225e7e79fc6013072b64bb3d008c686a57e5dab44c45c1731292d1cc6ab492f019cb61934f5029b10b3d81d3b18893d64aa34469e7650b6a34bb1f",
-          "url": "https://cdn.modrinth.com/data/ixqEiFdp/versions/7AOIlko1/the_corners-1.2.4.jar",
-          "filename": "the_corners-1.2.4.jar",
+          "sha512": "335d14a0637fb347e8a71f95ece66eb17764753425cb9e9f7b5b36dc02e4053adbebbacd63349b656d8a585598e7b4e6b75b30a76b2e48e50455d3968b2e3c03",
+          "url": "https://cdn.modrinth.com/data/ixqEiFdp/versions/XKfPe9Nd/the_corners-1.2.8.jar",
+          "filename": "the_corners-1.2.8.jar",
           "primary": true,
-          "size": 65165133
+          "size": 79810092
         }
       ],
       "dependencies": [
         {
-          "project_id": "codAaoxh",
-          "version_id": "hxPiYWhh",
+          "project_id": "9s6osm5g",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
         },
         {
-          "project_id": "fRbqPLg4",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "qvIfYCYJ",
-          "version_id": "bRcRsE72",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -208,8 +331,8 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "EXrxCjl6",
+          "project_id": "P7dR8mSH",
+          "version_id": "3KmOcp6b",
           "file_name": null,
           "dependency_type": "required"
         },
@@ -220,49 +343,8 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "3KmOcp6b",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "D6DtXSXo",
-      "name": "The Corners 1.2.2",
-      "version_number": "1.2.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "616c9370a6b27fe4b60837af013680e27f098d15823d21a4fd7d8d820dbea219eb4a3793bb3590b2db7ef5ded790d45f4338eadf7b05a6f86d181cc5c18ce128",
-          "url": "https://cdn.modrinth.com/data/ixqEiFdp/versions/1.2.2/the-corners-1.2.2.jar",
-          "filename": "the-corners-1.2.2.jar",
-          "primary": true,
-          "size": 65048821
-        }
-      ],
-      "dependencies": [
-        {
           "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "fRbqPLg4",
-          "version_id": null,
+          "version_id": "EXrxCjl6",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -304,88 +386,6 @@
         {
           "project_id": "fRbqPLg4",
           "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "3S7xMYDi",
-      "name": "The Corners 1.2.0",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ba274727dbcb9d95450b45a6c14479519c7dc59d657c93311bfc960c26cc10f659a459e31a77ac3bf14cda7598173d76d193f3382116014410fb9bdb3067534f",
-          "url": "https://cdn.modrinth.com/data/ixqEiFdp/versions/1.2.0/the-corners-1.2.0.jar",
-          "filename": "the-corners-1.2.0.jar",
-          "primary": true,
-          "size": 65048933
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "fRbqPLg4",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "PQTgmGof",
-      "name": "The Corners 1.1.7",
-      "version_number": "1.1.7",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f6ae8a15d5de67ad9ac76d6c0a3808fad6d6408478787e5e2098cc27813433c132db0463c011681e35a4c8ae2e71e93a7dc3f0bed29e91b17945725dcac0dba5",
-          "url": "https://cdn.modrinth.com/data/ixqEiFdp/versions/1.1.7/the-corners-1.1.7.jar",
-          "filename": "the-corners-1.1.7.jar",
-          "primary": true,
-          "size": 45989724
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "gPqHXnrg",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "YDlOLdpm",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "fRbqPLg4",
-          "version_id": "mc3GtrtK",
           "file_name": null,
           "dependency_type": "required"
         }

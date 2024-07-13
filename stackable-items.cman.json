@@ -5,6 +5,51 @@
   "description": "Stack various items up to 64 per slot, such as totems, boats, signs, buckets, and more.",
   "versions": [
     {
+      "id": "GciCoPbQ",
+      "name": "Datapack v1.0.2",
+      "version_number": "1.0.2",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "a35eee3fcb514aca977037813dd4b50545886e1d5fd83c37e780dde7bd267ae75b2ce8202aae75c5412ad4d72746bf250514ba709c6f5e70ecb91574303e37b1",
+          "url": "https://cdn.modrinth.com/data/zEo3XaUX/versions/GciCoPbQ/Stackable%20Items%20v1.0.2.zip",
+          "filename": "Stackable Items v1.0.2.zip",
+          "primary": true,
+          "size": 53691
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Ki6DXHzq",
+      "name": "Datapack v1.1.1",
+      "version_number": "1.1.1",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "5037d6c15d80b860628783f8923644d94f582b1b52e0c574e427f8bb4fed086c62d4827cfe589e9d5c9c2566f8a8e63d8bb9ed40754e1af1eaa95c10bb136f0d",
+          "url": "https://cdn.modrinth.com/data/zEo3XaUX/versions/Ki6DXHzq/Stackable%20Items%20v1.1.1.zip",
+          "filename": "Stackable Items v1.1.1.zip",
+          "primary": true,
+          "size": 103216
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "P65I6X2j",
       "name": "Mod v1.1.1",
       "version_number": "1.1.1+mod",
@@ -35,29 +80,6 @@
           "dependency_type": "required"
         }
       ]
-    },
-    {
-      "id": "Ki6DXHzq",
-      "name": "Datapack v1.1.1",
-      "version_number": "1.1.1",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6",
-        "1.21"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "5037d6c15d80b860628783f8923644d94f582b1b52e0c574e427f8bb4fed086c62d4827cfe589e9d5c9c2566f8a8e63d8bb9ed40754e1af1eaa95c10bb136f0d",
-          "url": "https://cdn.modrinth.com/data/zEo3XaUX/versions/Ki6DXHzq/Stackable%20Items%20v1.1.1.zip",
-          "filename": "Stackable Items v1.1.1.zip",
-          "primary": true,
-          "size": 103216
-        }
-      ],
-      "dependencies": []
     },
     {
       "id": "QAy16fBU",
@@ -92,27 +114,47 @@
       ]
     },
     {
-      "id": "b5wHgMQW",
-      "name": "Datapack v1.1.0",
-      "version_number": "1.1.0",
+      "id": "QzodiSz9",
+      "name": "Mod v1.0.0",
+      "version_number": "1.0.0+mod",
       "game_versions": [
-        "1.20.5",
-        "1.20.6",
-        "1.21"
+        "24w10a",
+        "24w11a",
+        "24w12a",
+        "24w13a",
+        "24w14potato",
+        "24w14a",
+        "1.20.5-pre1",
+        "1.20.5-pre2",
+        "1.20.5-pre3",
+        "1.20.5-pre4",
+        "1.20.5-rc1",
+        "1.20.5-rc2",
+        "1.20.5-rc3",
+        "1.20.5"
       ],
       "loaders": [
-        "datapack"
+        "fabric",
+        "forge",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "fa6010b7d93342e60befd269caf08efecba57ab84abeb9a5722d78127b3034d82b8671fd8163e5a928cd4e9325cff5689e1a218ed76e742db7dde44acbb3651b",
-          "url": "https://cdn.modrinth.com/data/zEo3XaUX/versions/b5wHgMQW/Stackable%20Items%20v1.1.0.zip",
-          "filename": "Stackable Items v1.1.0.zip",
+          "sha512": "9ffa81a829c08ad9b4de2d14cf96e68e3226f001a9bfad35a3393515b0a72baec59202f5f7a6a4324b4f376ba7cfb30219d560e1ffb601290b114de6e602d807",
+          "url": "https://cdn.modrinth.com/data/zEo3XaUX/versions/QzodiSz9/stackable-items-1.0.0.jar",
+          "filename": "stackable-items-1.0.0.jar",
           "primary": true,
-          "size": 103082
+          "size": 95082
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "Xp9g9uzK",
@@ -146,23 +188,24 @@
       ]
     },
     {
-      "id": "GciCoPbQ",
-      "name": "Datapack v1.0.2",
-      "version_number": "1.0.2",
+      "id": "b5wHgMQW",
+      "name": "Datapack v1.1.0",
+      "version_number": "1.1.0",
       "game_versions": [
         "1.20.5",
-        "1.20.6"
+        "1.20.6",
+        "1.21"
       ],
       "loaders": [
         "datapack"
       ],
       "files": [
         {
-          "sha512": "a35eee3fcb514aca977037813dd4b50545886e1d5fd83c37e780dde7bd267ae75b2ce8202aae75c5412ad4d72746bf250514ba709c6f5e70ecb91574303e37b1",
-          "url": "https://cdn.modrinth.com/data/zEo3XaUX/versions/GciCoPbQ/Stackable%20Items%20v1.0.2.zip",
-          "filename": "Stackable Items v1.0.2.zip",
+          "sha512": "fa6010b7d93342e60befd269caf08efecba57ab84abeb9a5722d78127b3034d82b8671fd8163e5a928cd4e9325cff5689e1a218ed76e742db7dde44acbb3651b",
+          "url": "https://cdn.modrinth.com/data/zEo3XaUX/versions/b5wHgMQW/Stackable%20Items%20v1.1.0.zip",
+          "filename": "Stackable Items v1.1.0.zip",
           "primary": true,
-          "size": 53691
+          "size": 103082
         }
       ],
       "dependencies": []
@@ -245,49 +288,6 @@
         }
       ],
       "dependencies": []
-    },
-    {
-      "id": "QzodiSz9",
-      "name": "Mod v1.0.0",
-      "version_number": "1.0.0+mod",
-      "game_versions": [
-        "24w10a",
-        "24w11a",
-        "24w12a",
-        "24w13a",
-        "24w14potato",
-        "24w14a",
-        "1.20.5-pre1",
-        "1.20.5-pre2",
-        "1.20.5-pre3",
-        "1.20.5-pre4",
-        "1.20.5-rc1",
-        "1.20.5-rc2",
-        "1.20.5-rc3",
-        "1.20.5"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "9ffa81a829c08ad9b4de2d14cf96e68e3226f001a9bfad35a3393515b0a72baec59202f5f7a6a4324b4f376ba7cfb30219d560e1ffb601290b114de6e602d807",
-          "url": "https://cdn.modrinth.com/data/zEo3XaUX/versions/QzodiSz9/stackable-items-1.0.0.jar",
-          "filename": "stackable-items-1.0.0.jar",
-          "primary": true,
-          "size": 95082
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
     },
     {
       "id": "tUsDJ4fm",

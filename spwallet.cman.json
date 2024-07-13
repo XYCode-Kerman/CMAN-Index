@@ -5,49 +5,42 @@
   "description": "A mod for counting your diamond ores.",
   "versions": [
     {
-      "id": "ro41n8r4",
-      "name": "[1.21] #SP Wallet 2.1.4",
-      "version_number": "1.21-2.1.5",
+      "id": "1NFk2AoF",
+      "name": "[1.19.2] #SP Wallet 2.1.0",
+      "version_number": "1.19.2-2.1.0",
       "game_versions": [
-        "1.21"
+        "1.19.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "7f0ecb467d167d913f1de62211240213d49aab23c9c7958e8dcbd5ba086659dc2564e86f11c799277e7a3b5209f6efa9e7ac8bf0c6d8538109da4e17c3210fe8",
-          "url": "https://cdn.modrinth.com/data/KMOm6R86/versions/ro41n8r4/SPwallet-1.21-2.1.5.jar",
-          "filename": "SPwallet-1.21-2.1.5.jar",
+          "sha512": "d26a5a1a0bd7ee46b83e442194137e4153d37b319d8064b525bc82bc66c90934500686ead5a07d404108cdf4810ccc6ca225aaa0c0a3a3215aed2adb1627a83b",
+          "url": "https://cdn.modrinth.com/data/KMOm6R86/versions/1NFk2AoF/spwallet-1.19.2-2.1.0.jar",
+          "filename": "spwallet-1.19.2-2.1.0.jar",
           "primary": true,
-          "size": 1156036
-        },
-        {
-          "sha512": "e65bb922315a8f9359884c664142fdf11a7ad127a8e4d823bf47b0f906ab791412de386a8a5720873d9887a1969ace15b6b3459189439e83fc9231ff367acae7",
-          "url": "https://cdn.modrinth.com/data/KMOm6R86/versions/ro41n8r4/SPwallet-1.21-2.1.5-sources.jar",
-          "filename": "SPwallet-1.21-2.1.5-sources.jar",
-          "primary": false,
-          "size": 37801
+          "size": 1151667
         }
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
     },
@@ -99,25 +92,32 @@
       ]
     },
     {
-      "id": "obzf3Bik",
-      "name": "[1.20.2] #SP Wallet 2.1.4",
-      "version_number": "1.20.2-2.1.4",
+      "id": "7fNuuodQ",
+      "name": "[1.20 - 1.20.1] #SP Wallet 2.1.1",
+      "version_number": "1.20-2.1.1",
       "game_versions": [
-        "1.20.2"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "739f60af1f6181a267184a3baa345fbe1071bd606f3271b07053417813fabb11d3a8bc39a2374274003c03cdc7b43918eccb44eca7853019aa6a702e84065b8d",
-          "url": "https://cdn.modrinth.com/data/KMOm6R86/versions/obzf3Bik/spwallet-1.20.2-2.1.4.jar",
-          "filename": "spwallet-1.20.2-2.1.4.jar",
+          "sha512": "1dea511197c92ab004c1753be101a35f38391ec34042da4e4a2a787987b4b23456b292455af09ce1f2686b553c36afc00f08518752a07681021ea3af5edd49c9",
+          "url": "https://cdn.modrinth.com/data/KMOm6R86/versions/7fNuuodQ/spwallet-1.20-2.1.1.jar",
+          "filename": "spwallet-1.20-2.1.1.jar",
           "primary": true,
-          "size": 1169081
+          "size": 1167371
         }
       ],
       "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "mOgUt4GM",
           "version_id": null,
@@ -129,9 +129,43 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
+        }
+      ]
+    },
+    {
+      "id": "H5xijqUO",
+      "name": "[1.20.2] #SP Wallet 2.1.3",
+      "version_number": "1.20.2-2.1.3",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "13a1e45e7125cc350693eb7bce51c04686ca84934dee3d8e1f769718cddd853d88c8ebd7ab475332e37364555d3015333508bf9940fbbab7eadaa7bab093a9ba",
+          "url": "https://cdn.modrinth.com/data/KMOm6R86/versions/H5xijqUO/spwallet-1.20.2-2.1.3.jar",
+          "filename": "spwallet-1.20.2-2.1.3.jar",
+          "primary": true,
+          "size": 1168972
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -180,40 +214,40 @@
       ]
     },
     {
-      "id": "H5xijqUO",
-      "name": "[1.20.2] #SP Wallet 2.1.3",
-      "version_number": "1.20.2-2.1.3",
+      "id": "TtQ15IvH",
+      "name": "[1.19.4] #SP Wallet 2.1.1",
+      "version_number": "1.19.4-2.1.1",
       "game_versions": [
-        "1.20.2"
+        "1.19.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "13a1e45e7125cc350693eb7bce51c04686ca84934dee3d8e1f769718cddd853d88c8ebd7ab475332e37364555d3015333508bf9940fbbab7eadaa7bab093a9ba",
-          "url": "https://cdn.modrinth.com/data/KMOm6R86/versions/H5xijqUO/spwallet-1.20.2-2.1.3.jar",
-          "filename": "spwallet-1.20.2-2.1.3.jar",
+          "sha512": "6d94992150f9483fb910e2dadcddd807600ca84f6dc20905653feb988fcb6aa43eeb89f84cba8137c90308938376c8a909f0583187ece08f4d6a48932c2e751a",
+          "url": "https://cdn.modrinth.com/data/KMOm6R86/versions/TtQ15IvH/spwallet-1.19.4-2.1.1.jar",
+          "filename": "spwallet-1.19.4-2.1.1.jar",
           "primary": true,
-          "size": 1168972
+          "size": 1155517
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
-          "version_id": null,
+          "version_id": "lMqXEzUw",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
           "project_id": "9s6osm5g",
-          "version_id": null,
+          "version_id": "mhFzbEwE",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -261,23 +295,22 @@
       ]
     },
     {
-      "id": "7fNuuodQ",
-      "name": "[1.20 - 1.20.1] #SP Wallet 2.1.1",
-      "version_number": "1.20-2.1.1",
+      "id": "obzf3Bik",
+      "name": "[1.20.2] #SP Wallet 2.1.4",
+      "version_number": "1.20.2-2.1.4",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.20.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "1dea511197c92ab004c1753be101a35f38391ec34042da4e4a2a787987b4b23456b292455af09ce1f2686b553c36afc00f08518752a07681021ea3af5edd49c9",
-          "url": "https://cdn.modrinth.com/data/KMOm6R86/versions/7fNuuodQ/spwallet-1.20-2.1.1.jar",
-          "filename": "spwallet-1.20-2.1.1.jar",
+          "sha512": "739f60af1f6181a267184a3baa345fbe1071bd606f3271b07053417813fabb11d3a8bc39a2374274003c03cdc7b43918eccb44eca7853019aa6a702e84065b8d",
+          "url": "https://cdn.modrinth.com/data/KMOm6R86/versions/obzf3Bik/spwallet-1.20.2-2.1.4.jar",
+          "filename": "spwallet-1.20.2-2.1.4.jar",
           "primary": true,
-          "size": 1167371
+          "size": 1169081
         }
       ],
       "dependencies": [
@@ -302,42 +335,49 @@
       ]
     },
     {
-      "id": "TtQ15IvH",
-      "name": "[1.19.4] #SP Wallet 2.1.1",
-      "version_number": "1.19.4-2.1.1",
+      "id": "ro41n8r4",
+      "name": "[1.21] #SP Wallet 2.1.4",
+      "version_number": "1.21-2.1.5",
       "game_versions": [
-        "1.19.4"
+        "1.21"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "6d94992150f9483fb910e2dadcddd807600ca84f6dc20905653feb988fcb6aa43eeb89f84cba8137c90308938376c8a909f0583187ece08f4d6a48932c2e751a",
-          "url": "https://cdn.modrinth.com/data/KMOm6R86/versions/TtQ15IvH/spwallet-1.19.4-2.1.1.jar",
-          "filename": "spwallet-1.19.4-2.1.1.jar",
+          "sha512": "7f0ecb467d167d913f1de62211240213d49aab23c9c7958e8dcbd5ba086659dc2564e86f11c799277e7a3b5209f6efa9e7ac8bf0c6d8538109da4e17c3210fe8",
+          "url": "https://cdn.modrinth.com/data/KMOm6R86/versions/ro41n8r4/SPwallet-1.21-2.1.5.jar",
+          "filename": "SPwallet-1.21-2.1.5.jar",
           "primary": true,
-          "size": 1155517
+          "size": 1156036
+        },
+        {
+          "sha512": "e65bb922315a8f9359884c664142fdf11a7ad127a8e4d823bf47b0f906ab791412de386a8a5720873d9887a1969ace15b6b3459189439e83fc9231ff367acae7",
+          "url": "https://cdn.modrinth.com/data/KMOm6R86/versions/ro41n8r4/SPwallet-1.21-2.1.5-sources.jar",
+          "filename": "SPwallet-1.21-2.1.5-sources.jar",
+          "primary": false,
+          "size": 37801
         }
       ],
       "dependencies": [
         {
           "project_id": "9s6osm5g",
-          "version_id": "mhFzbEwE",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -362,6 +402,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
@@ -372,52 +418,6 @@
           "version_id": "o9dFD9SO",
           "file_name": null,
           "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "1NFk2AoF",
-      "name": "[1.19.2] #SP Wallet 2.1.0",
-      "version_number": "1.19.2-2.1.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d26a5a1a0bd7ee46b83e442194137e4153d37b319d8064b525bc82bc66c90934500686ead5a07d404108cdf4810ccc6ca225aaa0c0a3a3215aed2adb1627a83b",
-          "url": "https://cdn.modrinth.com/data/KMOm6R86/versions/1NFk2AoF/spwallet-1.19.2-2.1.0.jar",
-          "filename": "spwallet-1.19.2-2.1.0.jar",
-          "primary": true,
-          "size": 1151667
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },

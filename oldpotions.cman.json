@@ -5,27 +5,60 @@
   "description": "Bring back old potion colors and enchantment glint.",
   "versions": [
     {
-      "id": "zx38qUAx",
-      "name": "[NeoForge] Old Potions 2.5",
-      "version_number": "2.5+neoforge",
+      "id": "6YZpufJZ",
+      "name": "[Fabric] Old Potions 2.0",
+      "version_number": "2.0",
       "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.19.4"
       ],
       "loaders": [
-        "neoforge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "8346d4d2d3e815a71d8c98c44731b706c03ecd69f3c2b4e0b94384cdbbb4fdbcd6eba70a61ece2c6a20743916e85b1f8373dd314bc19b072d05c2ec4e36f0f61",
-          "url": "https://cdn.modrinth.com/data/sGezPIC1/versions/zx38qUAx/Old%20Potions-neoforge-1.20.2-2.5.jar",
-          "filename": "Old Potions-neoforge-1.20.2-2.5.jar",
+          "sha512": "ee52f98d7161d109279b8c94ab4473ea76cfb889307c1938c7696d4ea62c854440adf3295e3df83b05847f2ef344e0db2bb6e555c62c804f144e330eda14510c",
+          "url": "https://cdn.modrinth.com/data/sGezPIC1/versions/6YZpufJZ/Old%20Potions-fabric-1.19.4-2.0.jar",
+          "filename": "Old Potions-fabric-1.19.4-2.0.jar",
           "primary": true,
-          "size": 30179
+          "size": 25925
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "mhFzbEwE",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "BL4AsLGJ",
+      "name": "[Forge] Old Potions 2.1",
+      "version_number": "2.1",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b7ca2bb4124404e50616cb82516eeb24fd7b4f412d03170d2da2ce54323fca6b3fdd412d6ca6fd5ae0dbc1191e1728f92d8e3dd522f7732f9613cfd43b4532e1",
+          "url": "https://cdn.modrinth.com/data/sGezPIC1/versions/BL4AsLGJ/Old%20Potions-forge-1.19.4-2.1.jar",
+          "filename": "Old Potions-forge-1.19.4-2.1.jar",
+          "primary": true,
+          "size": 26310
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "Sqf2NXVd",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "CJqck1Ix",
@@ -74,6 +107,27 @@
       "dependencies": []
     },
     {
+      "id": "cgv9vVPH",
+      "name": "Old Potions 1.0+1.19.4-pre3",
+      "version_number": "1.0+1.19.4-pre3",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "42b9193d4cacab5f78712ae39be9867921c60e594996f3b6ccc3e29257af1cfa389e6b3b1f77a3679ee5c2dd9ec1e2beb484d495a733418fa34a3622c18323f1",
+          "url": "https://cdn.modrinth.com/data/sGezPIC1/versions/cgv9vVPH/oldpotions-1.0%2B1.19.4-pre3.jar",
+          "filename": "oldpotions-1.0+1.19.4-pre3.jar",
+          "primary": true,
+          "size": 22463
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "euYycf20",
       "name": "[Forge+Fabric] Old Potions 2.4",
       "version_number": "2.4",
@@ -91,29 +145,6 @@
           "filename": "oldpotions-2.4+1.20.1.jar",
           "primary": true,
           "size": 245040
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ujz9iOxa",
-      "name": "[Forge+Fabric] Old Potions 2.3",
-      "version_number": "2.3",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "9692ed61ac66aa9e9ae3faa5ac1eaa0b8b1bb27c77272ad35b0a002455195340223db82d31185668448d770a4a2119552f4364cd2e75804274cfc029b76d6e32",
-          "url": "https://cdn.modrinth.com/data/sGezPIC1/versions/ujz9iOxa/oldpotions-2.3%2B1.20.jar",
-          "filename": "oldpotions-2.3+1.20.jar",
-          "primary": true,
-          "size": 244881
         }
       ],
       "dependencies": []
@@ -141,9 +172,9 @@
       "dependencies": []
     },
     {
-      "id": "BL4AsLGJ",
-      "name": "[Forge] Old Potions 2.1",
-      "version_number": "2.1",
+      "id": "o3Bw5Gt2",
+      "name": "[Forge] Old Potions 2.0",
+      "version_number": "2.0",
       "game_versions": [
         "1.19.4"
       ],
@@ -152,11 +183,11 @@
       ],
       "files": [
         {
-          "sha512": "b7ca2bb4124404e50616cb82516eeb24fd7b4f412d03170d2da2ce54323fca6b3fdd412d6ca6fd5ae0dbc1191e1728f92d8e3dd522f7732f9613cfd43b4532e1",
-          "url": "https://cdn.modrinth.com/data/sGezPIC1/versions/BL4AsLGJ/Old%20Potions-forge-1.19.4-2.1.jar",
-          "filename": "Old Potions-forge-1.19.4-2.1.jar",
+          "sha512": "fc3fa49b21112a6613c764c9326b1c8fd8b50b9a2ec614da6d39291767c7f185ff74c93f2442b95fe6cf66d0071747fa5b694333db3af7c110d7705d7e9d3fe8",
+          "url": "https://cdn.modrinth.com/data/sGezPIC1/versions/o3Bw5Gt2/Old%20Potions-forge-1.19.4-2.0.jar",
+          "filename": "Old Potions-forge-1.19.4-2.0.jar",
           "primary": true,
-          "size": 26310
+          "size": 25671
         }
       ],
       "dependencies": [
@@ -197,78 +228,47 @@
       ]
     },
     {
-      "id": "o3Bw5Gt2",
-      "name": "[Forge] Old Potions 2.0",
-      "version_number": "2.0",
+      "id": "ujz9iOxa",
+      "name": "[Forge+Fabric] Old Potions 2.3",
+      "version_number": "2.3",
       "game_versions": [
-        "1.19.4"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
+        "fabric",
         "forge"
       ],
       "files": [
         {
-          "sha512": "fc3fa49b21112a6613c764c9326b1c8fd8b50b9a2ec614da6d39291767c7f185ff74c93f2442b95fe6cf66d0071747fa5b694333db3af7c110d7705d7e9d3fe8",
-          "url": "https://cdn.modrinth.com/data/sGezPIC1/versions/o3Bw5Gt2/Old%20Potions-forge-1.19.4-2.0.jar",
-          "filename": "Old Potions-forge-1.19.4-2.0.jar",
+          "sha512": "9692ed61ac66aa9e9ae3faa5ac1eaa0b8b1bb27c77272ad35b0a002455195340223db82d31185668448d770a4a2119552f4364cd2e75804274cfc029b76d6e32",
+          "url": "https://cdn.modrinth.com/data/sGezPIC1/versions/ujz9iOxa/oldpotions-2.3%2B1.20.jar",
+          "filename": "oldpotions-2.3+1.20.jar",
           "primary": true,
-          "size": 25671
+          "size": 244881
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "Sqf2NXVd",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
+      "dependencies": []
     },
     {
-      "id": "6YZpufJZ",
-      "name": "[Fabric] Old Potions 2.0",
-      "version_number": "2.0",
+      "id": "zx38qUAx",
+      "name": "[NeoForge] Old Potions 2.5",
+      "version_number": "2.5+neoforge",
       "game_versions": [
-        "1.19.4"
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
-        "fabric"
+        "neoforge"
       ],
       "files": [
         {
-          "sha512": "ee52f98d7161d109279b8c94ab4473ea76cfb889307c1938c7696d4ea62c854440adf3295e3df83b05847f2ef344e0db2bb6e555c62c804f144e330eda14510c",
-          "url": "https://cdn.modrinth.com/data/sGezPIC1/versions/6YZpufJZ/Old%20Potions-fabric-1.19.4-2.0.jar",
-          "filename": "Old Potions-fabric-1.19.4-2.0.jar",
+          "sha512": "8346d4d2d3e815a71d8c98c44731b706c03ecd69f3c2b4e0b94384cdbbb4fdbcd6eba70a61ece2c6a20743916e85b1f8373dd314bc19b072d05c2ec4e36f0f61",
+          "url": "https://cdn.modrinth.com/data/sGezPIC1/versions/zx38qUAx/Old%20Potions-neoforge-1.20.2-2.5.jar",
+          "filename": "Old Potions-neoforge-1.20.2-2.5.jar",
           "primary": true,
-          "size": 25925
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "mhFzbEwE",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "cgv9vVPH",
-      "name": "Old Potions 1.0+1.19.4-pre3",
-      "version_number": "1.0+1.19.4-pre3",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "42b9193d4cacab5f78712ae39be9867921c60e594996f3b6ccc3e29257af1cfa389e6b3b1f77a3679ee5c2dd9ec1e2beb484d495a733418fa34a3622c18323f1",
-          "url": "https://cdn.modrinth.com/data/sGezPIC1/versions/cgv9vVPH/oldpotions-1.0%2B1.19.4-pre3.jar",
-          "filename": "oldpotions-1.0+1.19.4-pre3.jar",
-          "primary": true,
-          "size": 22463
+          "size": 30179
         }
       ],
       "dependencies": []

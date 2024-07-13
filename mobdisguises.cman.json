@@ -5,27 +5,6 @@
   "description": "Showcasing the possibilities of DisguiseLib library.",
   "versions": [
     {
-      "id": "peU6O1uA",
-      "name": "[1.19] MobDisguises 1.1.0 [Forge]",
-      "version_number": "1.1.0-forge",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "0cf3c0b75c9d6623f6542fcb39f49f0f16e428e09c1dfbb454e25a6d28a650bd13130e4c978057c84ef882c76d87b467f8fa02cbfeb456d55e3a16a4f45338f4",
-          "url": "https://cdn.modrinth.com/data/AnnyO6Mp/versions/1.1.0-forge/mobdisguises-1.1.0-forge.jar",
-          "filename": "mobdisguises-1.1.0-forge.jar",
-          "primary": true,
-          "size": 23629
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "C8eH4OLM",
       "name": "[1.19] MobDisguises 1.1.0 [Fabric]",
       "version_number": "1.1.0-fabric",
@@ -42,6 +21,27 @@
           "filename": "mobdisguises-1.1.0-fabric.jar",
           "primary": true,
           "size": 55087
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "hcJ2IHP3",
+      "name": "MobDisguises",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f75a71c4b007ab440c5ce4bb358c1a142f337449f7e513728c10fc4e3ba7d07b09f7c580be898f66fc37ee7649ac92ccad23ee4d011092c0b611cc9ca680a6cc",
+          "url": "https://cdn.modrinth.com/data/AnnyO6Mp/versions/1.0.0/mobdisguises-1.0.0-fabric.jar",
+          "filename": "mobdisguises-1.0.0-fabric.jar",
+          "primary": false,
+          "size": 54617
         }
       ],
       "dependencies": []
@@ -76,35 +76,6 @@
       "dependencies": []
     },
     {
-      "id": "zFPHPMZi",
-      "name": "[1.17.1] MobDisguises 1.0.4",
-      "version_number": "1.0.4",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "72f5b0d708418fd77b6a0c9a2e006c44153473686708e601de415a948a8306d44ca8bb9da7f002ed027c09985a3d0efd55a64185c1e0614601c78966127a69b5",
-          "url": "https://cdn.modrinth.com/data/AnnyO6Mp/versions/1.0.4/mobdisguises-1.0.4-fabric.jar",
-          "filename": "mobdisguises-1.0.4-fabric.jar",
-          "primary": false,
-          "size": 54580
-        },
-        {
-          "sha512": "97ba3af7377a9e233ebef5422ba87313f69bfd66207396f68055c49b36d7a7e97e020f0d7dd85abf6d5ae091f08d993a551f92954f12df28802307cd61559105",
-          "url": "https://cdn.modrinth.com/data/AnnyO6Mp/versions/1.0.4/mobdisguises-1.0.4-forge.jar",
-          "filename": "mobdisguises-1.0.4-forge.jar",
-          "primary": false,
-          "size": 23460
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "nckQmCLN",
       "name": "MobDisguises",
       "version_number": "1.0.1",
@@ -134,22 +105,51 @@
       "dependencies": []
     },
     {
-      "id": "hcJ2IHP3",
-      "name": "MobDisguises",
-      "version_number": "1.0.0",
+      "id": "peU6O1uA",
+      "name": "[1.19] MobDisguises 1.1.0 [Forge]",
+      "version_number": "1.1.0-forge",
       "game_versions": [
-        "1.16.5"
+        "1.19"
       ],
       "loaders": [
-        "fabric"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "f75a71c4b007ab440c5ce4bb358c1a142f337449f7e513728c10fc4e3ba7d07b09f7c580be898f66fc37ee7649ac92ccad23ee4d011092c0b611cc9ca680a6cc",
-          "url": "https://cdn.modrinth.com/data/AnnyO6Mp/versions/1.0.0/mobdisguises-1.0.0-fabric.jar",
-          "filename": "mobdisguises-1.0.0-fabric.jar",
+          "sha512": "0cf3c0b75c9d6623f6542fcb39f49f0f16e428e09c1dfbb454e25a6d28a650bd13130e4c978057c84ef882c76d87b467f8fa02cbfeb456d55e3a16a4f45338f4",
+          "url": "https://cdn.modrinth.com/data/AnnyO6Mp/versions/1.1.0-forge/mobdisguises-1.1.0-forge.jar",
+          "filename": "mobdisguises-1.1.0-forge.jar",
+          "primary": true,
+          "size": 23629
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "zFPHPMZi",
+      "name": "[1.17.1] MobDisguises 1.0.4",
+      "version_number": "1.0.4",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "72f5b0d708418fd77b6a0c9a2e006c44153473686708e601de415a948a8306d44ca8bb9da7f002ed027c09985a3d0efd55a64185c1e0614601c78966127a69b5",
+          "url": "https://cdn.modrinth.com/data/AnnyO6Mp/versions/1.0.4/mobdisguises-1.0.4-fabric.jar",
+          "filename": "mobdisguises-1.0.4-fabric.jar",
           "primary": false,
-          "size": 54617
+          "size": 54580
+        },
+        {
+          "sha512": "97ba3af7377a9e233ebef5422ba87313f69bfd66207396f68055c49b36d7a7e97e020f0d7dd85abf6d5ae091f08d993a551f92954f12df28802307cd61559105",
+          "url": "https://cdn.modrinth.com/data/AnnyO6Mp/versions/1.0.4/mobdisguises-1.0.4-forge.jar",
+          "filename": "mobdisguises-1.0.4-forge.jar",
+          "primary": false,
+          "size": 23460
         }
       ],
       "dependencies": []

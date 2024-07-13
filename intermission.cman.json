@@ -5,6 +5,40 @@
   "description": "A small mod that lets you adjust the time between songs being played ingame.",
   "versions": [
     {
+      "id": "5xXuZG86",
+      "name": "Intermission 1.0.0 for 1.16.5 on Java 8",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2d859f216fa77eda821ffb5aae3e650c7f5cb196dce94bbb5457feebca6ac81af16362c03d0d180b7d4847bca11c9a2cc799bf7be71d005e443936bc5ff63e39",
+          "url": "https://cdn.modrinth.com/data/Mbv7I7e8/versions/5xXuZG86/intermission-java8-1.16.5-1.0.0.jar",
+          "filename": "intermission-java8-1.16.5-1.0.0.jar",
+          "primary": true,
+          "size": 13568
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "aShj7736",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "xMTUxQCV",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "92XigFJc",
       "name": "Intermission for 1.18",
       "version_number": "1.0.0",
@@ -80,50 +114,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "xMTUxQCV",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "5xXuZG86",
-      "name": "Intermission 1.0.0 for 1.16.5 on Java 8",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2d859f216fa77eda821ffb5aae3e650c7f5cb196dce94bbb5457feebca6ac81af16362c03d0d180b7d4847bca11c9a2cc799bf7be71d005e443936bc5ff63e39",
-          "url": "https://cdn.modrinth.com/data/Mbv7I7e8/versions/5xXuZG86/intermission-java8-1.16.5-1.0.0.jar",
-          "filename": "intermission-java8-1.16.5-1.0.0.jar",
-          "primary": true,
-          "size": 13568
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "9s6osm5g",
           "version_id": "xMTUxQCV",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "aShj7736",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     }

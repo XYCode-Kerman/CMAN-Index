@@ -5,11 +5,16 @@
   "description": "Lets modpack creators print information about their modpack into the logs & crash logs.",
   "versions": [
     {
-      "id": "BCcOEDqI",
-      "name": "Branded Logs v2.0.2 for 1.21",
-      "version_number": "2.0.2+mc1.21",
+      "id": "1uUT3qNb",
+      "name": "Branded Logs v1.1.0 for 1.20.x",
+      "version_number": "1.1.0+1.20.x",
       "game_versions": [
-        "1.21"
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
       ],
       "loaders": [
         "fabric",
@@ -17,18 +22,18 @@
       ],
       "files": [
         {
-          "sha512": "dd03a32ff1d65a129df1a8aa5b5e42052ad243705faada003acdc642fc52231daddb695a8e12d37b027697b822f4ca681ae0b9f6ecc2c466415d3b6973159205",
-          "url": "https://cdn.modrinth.com/data/tbktcZz2/versions/BCcOEDqI/brandedlogs-fabric-2.0.2%2Bmc1.21.jar",
-          "filename": "brandedlogs-fabric-2.0.2+mc1.21.jar",
+          "sha512": "1f17fd098aed913f0d2aeadf277e898182810165b35ce4a554a36260c9ef1cba1caaa0c9d57aa36707ae898a3afce7d84db739b210c761979a827d934cf2ffa1",
+          "url": "https://cdn.modrinth.com/data/tbktcZz2/versions/1uUT3qNb/brandedlogs-1.1.0.jar",
+          "filename": "brandedlogs-1.1.0.jar",
           "primary": true,
-          "size": 132744
+          "size": 128874
         },
         {
-          "sha512": "0e90201e89b78c55ec8270f3d8cf78e61cb75ba5fbaf971f4f213fa6702ff32dea3bceca9e6918f3e8d09b812ea0ef97edd2cddbedf12b2fc051f20f76d836b0",
-          "url": "https://cdn.modrinth.com/data/tbktcZz2/versions/BCcOEDqI/brandedlogs-fabric-2.0.2%2Bmc1.21-sources.jar",
-          "filename": "brandedlogs-fabric-2.0.2+mc1.21-sources.jar",
+          "sha512": "f7301eefa35f903507c276a3a1c36912bf1c352849f47bfb920895a801e7760d7612a0484e2efd06ec6953f1d42a0dcd4b35d99c7b9a9126dfbdfb1913c649ed",
+          "url": "https://cdn.modrinth.com/data/tbktcZz2/versions/1uUT3qNb/brandedlogs-1.1.0-sources.jar",
+          "filename": "brandedlogs-1.1.0-sources.jar",
           "primary": false,
-          "size": 127449
+          "size": 125211
         }
       ],
       "dependencies": [
@@ -82,6 +87,68 @@
       ]
     },
     {
+      "id": "BCcOEDqI",
+      "name": "Branded Logs v2.0.2 for 1.21",
+      "version_number": "2.0.2+mc1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "dd03a32ff1d65a129df1a8aa5b5e42052ad243705faada003acdc642fc52231daddb695a8e12d37b027697b822f4ca681ae0b9f6ecc2c466415d3b6973159205",
+          "url": "https://cdn.modrinth.com/data/tbktcZz2/versions/BCcOEDqI/brandedlogs-fabric-2.0.2%2Bmc1.21.jar",
+          "filename": "brandedlogs-fabric-2.0.2+mc1.21.jar",
+          "primary": true,
+          "size": 132744
+        },
+        {
+          "sha512": "0e90201e89b78c55ec8270f3d8cf78e61cb75ba5fbaf971f4f213fa6702ff32dea3bceca9e6918f3e8d09b812ea0ef97edd2cddbedf12b2fc051f20f76d836b0",
+          "url": "https://cdn.modrinth.com/data/tbktcZz2/versions/BCcOEDqI/brandedlogs-fabric-2.0.2%2Bmc1.21-sources.jar",
+          "filename": "brandedlogs-fabric-2.0.2+mc1.21-sources.jar",
+          "primary": false,
+          "size": 127449
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "UJ92OhP6",
+      "name": "v1.0.1 for 1.20.x",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "da8e3b3d8c18ac34dade80fd402c906cf31d620de1f80ea308977d16d28d37d03569eaf30c45c3c4a64e0d46446427555261756fbeca0957b582f895da8308cd",
+          "url": "https://cdn.modrinth.com/data/tbktcZz2/versions/UJ92OhP6/brandedlogs-1.0.1.jar",
+          "filename": "brandedlogs-1.0.1.jar",
+          "primary": true,
+          "size": 127643
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "rSxFf3pk",
       "name": "Branded Logs v2.0.0 for 1.20.x",
       "version_number": "2.0.0+1.20.x",
@@ -121,73 +188,6 @@
           "dependency_type": "required"
         }
       ]
-    },
-    {
-      "id": "1uUT3qNb",
-      "name": "Branded Logs v1.1.0 for 1.20.x",
-      "version_number": "1.1.0+1.20.x",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4",
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "1f17fd098aed913f0d2aeadf277e898182810165b35ce4a554a36260c9ef1cba1caaa0c9d57aa36707ae898a3afce7d84db739b210c761979a827d934cf2ffa1",
-          "url": "https://cdn.modrinth.com/data/tbktcZz2/versions/1uUT3qNb/brandedlogs-1.1.0.jar",
-          "filename": "brandedlogs-1.1.0.jar",
-          "primary": true,
-          "size": 128874
-        },
-        {
-          "sha512": "f7301eefa35f903507c276a3a1c36912bf1c352849f47bfb920895a801e7760d7612a0484e2efd06ec6953f1d42a0dcd4b35d99c7b9a9126dfbdfb1913c649ed",
-          "url": "https://cdn.modrinth.com/data/tbktcZz2/versions/1uUT3qNb/brandedlogs-1.1.0-sources.jar",
-          "filename": "brandedlogs-1.1.0-sources.jar",
-          "primary": false,
-          "size": 125211
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "UJ92OhP6",
-      "name": "v1.0.1 for 1.20.x",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4",
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "da8e3b3d8c18ac34dade80fd402c906cf31d620de1f80ea308977d16d28d37d03569eaf30c45c3c4a64e0d46446427555261756fbeca0957b582f895da8308cd",
-          "url": "https://cdn.modrinth.com/data/tbktcZz2/versions/UJ92OhP6/brandedlogs-1.0.1.jar",
-          "filename": "brandedlogs-1.0.1.jar",
-          "primary": true,
-          "size": 127643
-        }
-      ],
-      "dependencies": []
     }
   ]
 }

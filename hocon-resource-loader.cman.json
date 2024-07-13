@@ -5,39 +5,170 @@
   "description": "Loading packs' files ending with `.hocon` as hocon format",
   "versions": [
     {
-      "id": "unGtrr7f",
-      "name": "0.5.0",
-      "version_number": "0.5.0",
+      "id": "2bxjIiPO",
+      "name": "0.2.1",
+      "version_number": "0.2.1",
       "game_versions": [
-        "1.21"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "77ddf81cb44c006e996cfcd87861e6c858eb79b946698448d37e997e3ce374cff0db62bf199db5881714367be94084f30100a1ccebf0a61edd118fadd33786a3",
-          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/unGtrr7f/HoconResourceLoader-0.5.0.jar",
-          "filename": "HoconResourceLoader-0.5.0.jar",
+          "sha512": "700932735ee0f0286a10b863a0fa0b3fe1c709dfa089e765207c36ef103a23378ec35922659c1a31ae62b963d0a19d599bb696db351b566b7faa1a1062c2b19b",
+          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/2bxjIiPO/HoconResourceLoader-0.2.1%2Bsha.63d74f3.jar",
+          "filename": "HoconResourceLoader-0.2.1+sha.63d74f3.jar",
           "primary": true,
-          "size": 301873
+          "size": 572346
         },
         {
-          "sha512": "af4ca1c207cf4778e9b90fed566411e648249639db2ba547c9b431584a02db18f0dae232d38de79e9d956d1ea02fd118a2b32044ef411790e0bfa8f61cf41ebe",
-          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/unGtrr7f/HoconResourceLoader-0.5.0-javadoc.jar",
-          "filename": "HoconResourceLoader-0.5.0-javadoc.jar",
+          "sha512": "ef3b404cbc8128d2dd2b8ba936d797d30645abf8fcc116489d3720a89b50a4c06c163327435a8f815115c99c76a165cb935e882fd810e85c07297e263ffcd1a8",
+          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/2bxjIiPO/HoconResourceLoader-0.2.1%2Bsha.63d74f3-sources.jar",
+          "filename": "HoconResourceLoader-0.2.1+sha.63d74f3-sources.jar",
           "primary": false,
-          "size": 103980
-        },
-        {
-          "sha512": "aa9eeada0048b6dcfd41efd880bd843d0aab5235a1e93ef1cd71a589bf09c52484f3279db7515109abd1be261c2c0e10929b4fe065971049bf48749738d1487f",
-          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/unGtrr7f/HoconResourceLoader-0.5.0-sources.jar",
-          "filename": "HoconResourceLoader-0.5.0-sources.jar",
-          "primary": false,
-          "size": 15127
+          "size": 13479
         }
       ],
       "dependencies": [
+        {
+          "project_id": "u58R1TMW",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "6BhBqLHT",
+      "name": "0.3.0",
+      "version_number": "0.3.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "402883cdfb128cd4457d088f0ef1abe31dda3a7d10952b5889194243849c01e6a64578b21bd54709940d4588a50abda24424d64de40e108e94ad3b3e082bbbfb",
+          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/6BhBqLHT/HoconResourceLoader-0.3.0%2Bsha.f310962.jar",
+          "filename": "HoconResourceLoader-0.3.0+sha.f310962.jar",
+          "primary": true,
+          "size": 576785
+        },
+        {
+          "sha512": "1f53032b5f55586b74376821a96b22c97722b2c040174c9f529b5b2b2625c8a1086162a1871fee1073ad6785e50b3859be852ea3111f81b39ffda7a947cd23dd",
+          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/6BhBqLHT/HoconResourceLoader-0.3.0%2Bsha.f310962-sources.jar",
+          "filename": "HoconResourceLoader-0.3.0+sha.f310962-sources.jar",
+          "primary": false,
+          "size": 15530
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "u58R1TMW",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "A8bG84cD",
+      "name": "0.1.1",
+      "version_number": "0.1.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0a4adedcf4262a3f465e3e8ab504e48138db3fc43639a56e6589a68411f87a532b10b5f7341be0c439f1d13ba8aa6337731eb6fb311047db93726c2b8ac7378c",
+          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/A8bG84cD/HoconResourceLoader-0.1.1%2Bsha.7a1674b.jar",
+          "filename": "HoconResourceLoader-0.1.1+sha.7a1674b.jar",
+          "primary": true,
+          "size": 571339
+        },
+        {
+          "sha512": "916e169386d05ac5b30538540fcfcbfed07e586131f137c8da787ebd9935ddf1c23b29bce1d1b466409e293cbdd90d2854f7695b610016de911c0935b8f848c5",
+          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/A8bG84cD/HoconResourceLoader-0.1.1%2Bsha.7a1674b-sources.jar",
+          "filename": "HoconResourceLoader-0.1.1+sha.7a1674b-sources.jar",
+          "primary": false,
+          "size": 13340
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "u58R1TMW",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "NEAkWojk",
+      "name": "0.2.5",
+      "version_number": "0.2.5",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "07f95a779a75eecc88dace4d75f579e14ecbab7696d88d5aebb63508a8ca15499baa0f5d7f97635a1f09f88f9dd89ae70c3144c8ee09998ad371d552417e43ff",
+          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/NEAkWojk/HoconResourceLoader-0.2.5%2Bsha.fea9e07.jar",
+          "filename": "HoconResourceLoader-0.2.5+sha.fea9e07.jar",
+          "primary": true,
+          "size": 575413
+        },
+        {
+          "sha512": "3735011df3adcba54a4de0ff7d9caa174e2c82c95009baeefc760432cb0d3998899cb9c6fecc3d9a4e4a2b0cc6621bc979a64e1632893a1e3ee48870ed322094",
+          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/NEAkWojk/HoconResourceLoader-0.2.5%2Bsha.fea9e07-sources.jar",
+          "filename": "HoconResourceLoader-0.2.5+sha.fea9e07-sources.jar",
+          "primary": false,
+          "size": 13585
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "u58R1TMW",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "Ha28R6CL",
           "version_id": null,
@@ -91,50 +222,6 @@
       ]
     },
     {
-      "id": "6BhBqLHT",
-      "name": "0.3.0",
-      "version_number": "0.3.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "402883cdfb128cd4457d088f0ef1abe31dda3a7d10952b5889194243849c01e6a64578b21bd54709940d4588a50abda24424d64de40e108e94ad3b3e082bbbfb",
-          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/6BhBqLHT/HoconResourceLoader-0.3.0%2Bsha.f310962.jar",
-          "filename": "HoconResourceLoader-0.3.0+sha.f310962.jar",
-          "primary": true,
-          "size": 576785
-        },
-        {
-          "sha512": "1f53032b5f55586b74376821a96b22c97722b2c040174c9f529b5b2b2625c8a1086162a1871fee1073ad6785e50b3859be852ea3111f81b39ffda7a947cd23dd",
-          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/6BhBqLHT/HoconResourceLoader-0.3.0%2Bsha.f310962-sources.jar",
-          "filename": "HoconResourceLoader-0.3.0+sha.f310962-sources.jar",
-          "primary": false,
-          "size": 15530
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "u58R1TMW",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "NTqQtJ7h",
       "name": "0.2.7",
       "version_number": "0.2.7",
@@ -161,6 +248,135 @@
           "filename": "HoconResourceLoader-0.2.7+sha.6d9dadf-sources.jar",
           "primary": false,
           "size": 15536
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "u58R1TMW",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "PHVPRsUq",
+      "name": "0.2.0",
+      "version_number": "0.2.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "7e3b24227e7866e6e6884cb16e2adbd1ccd995b391aaa1d7e61ef63fc654ca56e78c058921cdcb20c8ae570be2d0075057b812b410e49f9800eb95307bddebc5",
+          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/PHVPRsUq/HoconResourceLoader-0.2.0%2Bsha.204f1c0.jar",
+          "filename": "HoconResourceLoader-0.2.0+sha.204f1c0.jar",
+          "primary": true,
+          "size": 572342
+        },
+        {
+          "sha512": "be7cb65fe831d2d9fbd5ad11674504e74ee323159dffdb6c3727daf1918ff740ec47922d9d7bc495df5503ea9657cc1a0cbf336e749e0cb88303d3320953eb89",
+          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/PHVPRsUq/HoconResourceLoader-0.2.0%2Bsha.204f1c0-sources.jar",
+          "filename": "HoconResourceLoader-0.2.0+sha.204f1c0-sources.jar",
+          "primary": false,
+          "size": 13472
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "u58R1TMW",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "SAVif4c5",
+      "name": "0.2.2",
+      "version_number": "0.2.2",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "fdc8adebe6d91175bd65aaa39a590558c46ae6e1c12926d4db3a9366d58d1f37da4d219a4b3748f3cb8e5981312812c5f9c54589956a2b0650a96ca4d2a6e685",
+          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/SAVif4c5/HoconResourceLoader-0.2.2%2Bsha.dcf1819.jar",
+          "filename": "HoconResourceLoader-0.2.2+sha.dcf1819.jar",
+          "primary": true,
+          "size": 572543
+        },
+        {
+          "sha512": "8b45c349386931916baae2dcd73ea56eafb7d55c91e18821abe9ce8bbe5f2b6bf69992957f2a1e917638ef6c61acd62baa25de84635f45c51c2db2c06013334f",
+          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/SAVif4c5/HoconResourceLoader-0.2.2%2Bsha.dcf1819-sources.jar",
+          "filename": "HoconResourceLoader-0.2.2+sha.dcf1819-sources.jar",
+          "primary": false,
+          "size": 13501
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "u58R1TMW",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "UL9HO1zo",
+      "name": "0.1.0",
+      "version_number": "0.1.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0e9521d0b78229c0785a56f2e72c2d2a3d465cbcaa3e8e8ca4931276145438cd7b89dea8532a6cee03443f5c6830f5317099a24ac2031a85d1adf9818b15f651",
+          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/UL9HO1zo/HoconResourceLoader-0.1.0%2Bsha.2fdae41.jar",
+          "filename": "HoconResourceLoader-0.1.0+sha.2fdae41.jar",
+          "primary": true,
+          "size": 571701
+        },
+        {
+          "sha512": "e8e8ff596caaf45eb54d7c7237862430d027d3898be5b9632dc90427f6c1bc342241e4be6588b7444af32934eaa2ff3b4012acd09906722e1d10e862e7d5c0de",
+          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/UL9HO1zo/HoconResourceLoader-0.1.0%2Bsha.2fdae41-sources.jar",
+          "filename": "HoconResourceLoader-0.1.0+sha.2fdae41-sources.jar",
+          "primary": false,
+          "size": 13417
         }
       ],
       "dependencies": [
@@ -215,49 +431,6 @@
         },
         {
           "project_id": "u58R1TMW",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "NEAkWojk",
-      "name": "0.2.5",
-      "version_number": "0.2.5",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "07f95a779a75eecc88dace4d75f579e14ecbab7696d88d5aebb63508a8ca15499baa0f5d7f97635a1f09f88f9dd89ae70c3144c8ee09998ad371d552417e43ff",
-          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/NEAkWojk/HoconResourceLoader-0.2.5%2Bsha.fea9e07.jar",
-          "filename": "HoconResourceLoader-0.2.5+sha.fea9e07.jar",
-          "primary": true,
-          "size": 575413
-        },
-        {
-          "sha512": "3735011df3adcba54a4de0ff7d9caa174e2c82c95009baeefc760432cb0d3998899cb9c6fecc3d9a4e4a2b0cc6621bc979a64e1632893a1e3ee48870ed322094",
-          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/NEAkWojk/HoconResourceLoader-0.2.5%2Bsha.fea9e07-sources.jar",
-          "filename": "HoconResourceLoader-0.2.5+sha.fea9e07-sources.jar",
-          "primary": false,
-          "size": 13585
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "u58R1TMW",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -351,212 +524,39 @@
       ]
     },
     {
-      "id": "SAVif4c5",
-      "name": "0.2.2",
-      "version_number": "0.2.2",
+      "id": "unGtrr7f",
+      "name": "0.5.0",
+      "version_number": "0.5.0",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.21"
       ],
       "loaders": [
-        "fabric",
-        "quilt"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "fdc8adebe6d91175bd65aaa39a590558c46ae6e1c12926d4db3a9366d58d1f37da4d219a4b3748f3cb8e5981312812c5f9c54589956a2b0650a96ca4d2a6e685",
-          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/SAVif4c5/HoconResourceLoader-0.2.2%2Bsha.dcf1819.jar",
-          "filename": "HoconResourceLoader-0.2.2+sha.dcf1819.jar",
+          "sha512": "77ddf81cb44c006e996cfcd87861e6c858eb79b946698448d37e997e3ce374cff0db62bf199db5881714367be94084f30100a1ccebf0a61edd118fadd33786a3",
+          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/unGtrr7f/HoconResourceLoader-0.5.0.jar",
+          "filename": "HoconResourceLoader-0.5.0.jar",
           "primary": true,
-          "size": 572543
+          "size": 301873
         },
         {
-          "sha512": "8b45c349386931916baae2dcd73ea56eafb7d55c91e18821abe9ce8bbe5f2b6bf69992957f2a1e917638ef6c61acd62baa25de84635f45c51c2db2c06013334f",
-          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/SAVif4c5/HoconResourceLoader-0.2.2%2Bsha.dcf1819-sources.jar",
-          "filename": "HoconResourceLoader-0.2.2+sha.dcf1819-sources.jar",
+          "sha512": "af4ca1c207cf4778e9b90fed566411e648249639db2ba547c9b431584a02db18f0dae232d38de79e9d956d1ea02fd118a2b32044ef411790e0bfa8f61cf41ebe",
+          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/unGtrr7f/HoconResourceLoader-0.5.0-javadoc.jar",
+          "filename": "HoconResourceLoader-0.5.0-javadoc.jar",
           "primary": false,
-          "size": 13501
+          "size": 103980
+        },
+        {
+          "sha512": "aa9eeada0048b6dcfd41efd880bd843d0aab5235a1e93ef1cd71a589bf09c52484f3279db7515109abd1be261c2c0e10929b4fe065971049bf48749738d1487f",
+          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/unGtrr7f/HoconResourceLoader-0.5.0-sources.jar",
+          "filename": "HoconResourceLoader-0.5.0-sources.jar",
+          "primary": false,
+          "size": 15127
         }
       ],
       "dependencies": [
-        {
-          "project_id": "u58R1TMW",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "2bxjIiPO",
-      "name": "0.2.1",
-      "version_number": "0.2.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "700932735ee0f0286a10b863a0fa0b3fe1c709dfa089e765207c36ef103a23378ec35922659c1a31ae62b963d0a19d599bb696db351b566b7faa1a1062c2b19b",
-          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/2bxjIiPO/HoconResourceLoader-0.2.1%2Bsha.63d74f3.jar",
-          "filename": "HoconResourceLoader-0.2.1+sha.63d74f3.jar",
-          "primary": true,
-          "size": 572346
-        },
-        {
-          "sha512": "ef3b404cbc8128d2dd2b8ba936d797d30645abf8fcc116489d3720a89b50a4c06c163327435a8f815115c99c76a165cb935e882fd810e85c07297e263ffcd1a8",
-          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/2bxjIiPO/HoconResourceLoader-0.2.1%2Bsha.63d74f3-sources.jar",
-          "filename": "HoconResourceLoader-0.2.1+sha.63d74f3-sources.jar",
-          "primary": false,
-          "size": 13479
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "u58R1TMW",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "PHVPRsUq",
-      "name": "0.2.0",
-      "version_number": "0.2.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "7e3b24227e7866e6e6884cb16e2adbd1ccd995b391aaa1d7e61ef63fc654ca56e78c058921cdcb20c8ae570be2d0075057b812b410e49f9800eb95307bddebc5",
-          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/PHVPRsUq/HoconResourceLoader-0.2.0%2Bsha.204f1c0.jar",
-          "filename": "HoconResourceLoader-0.2.0+sha.204f1c0.jar",
-          "primary": true,
-          "size": 572342
-        },
-        {
-          "sha512": "be7cb65fe831d2d9fbd5ad11674504e74ee323159dffdb6c3727daf1918ff740ec47922d9d7bc495df5503ea9657cc1a0cbf336e749e0cb88303d3320953eb89",
-          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/PHVPRsUq/HoconResourceLoader-0.2.0%2Bsha.204f1c0-sources.jar",
-          "filename": "HoconResourceLoader-0.2.0+sha.204f1c0-sources.jar",
-          "primary": false,
-          "size": 13472
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "u58R1TMW",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "A8bG84cD",
-      "name": "0.1.1",
-      "version_number": "0.1.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0a4adedcf4262a3f465e3e8ab504e48138db3fc43639a56e6589a68411f87a532b10b5f7341be0c439f1d13ba8aa6337731eb6fb311047db93726c2b8ac7378c",
-          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/A8bG84cD/HoconResourceLoader-0.1.1%2Bsha.7a1674b.jar",
-          "filename": "HoconResourceLoader-0.1.1+sha.7a1674b.jar",
-          "primary": true,
-          "size": 571339
-        },
-        {
-          "sha512": "916e169386d05ac5b30538540fcfcbfed07e586131f137c8da787ebd9935ddf1c23b29bce1d1b466409e293cbdd90d2854f7695b610016de911c0935b8f848c5",
-          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/A8bG84cD/HoconResourceLoader-0.1.1%2Bsha.7a1674b-sources.jar",
-          "filename": "HoconResourceLoader-0.1.1+sha.7a1674b-sources.jar",
-          "primary": false,
-          "size": 13340
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "u58R1TMW",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "UL9HO1zo",
-      "name": "0.1.0",
-      "version_number": "0.1.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0e9521d0b78229c0785a56f2e72c2d2a3d465cbcaa3e8e8ca4931276145438cd7b89dea8532a6cee03443f5c6830f5317099a24ac2031a85d1adf9818b15f651",
-          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/UL9HO1zo/HoconResourceLoader-0.1.0%2Bsha.2fdae41.jar",
-          "filename": "HoconResourceLoader-0.1.0+sha.2fdae41.jar",
-          "primary": true,
-          "size": 571701
-        },
-        {
-          "sha512": "e8e8ff596caaf45eb54d7c7237862430d027d3898be5b9632dc90427f6c1bc342241e4be6588b7444af32934eaa2ff3b4012acd09906722e1d10e862e7d5c0de",
-          "url": "https://cdn.modrinth.com/data/r569qlAV/versions/UL9HO1zo/HoconResourceLoader-0.1.0%2Bsha.2fdae41-sources.jar",
-          "filename": "HoconResourceLoader-0.1.0+sha.2fdae41-sources.jar",
-          "primary": false,
-          "size": 13417
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "u58R1TMW",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "Ha28R6CL",
           "version_id": null,

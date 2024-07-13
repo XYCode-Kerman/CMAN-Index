@@ -5,34 +5,29 @@
   "description": "Tired of waiting for a stats viewer? This mod tracks your progress and stats in the various games on the MCC Island Server. Supports all games (apart from the Dojo)",
   "versions": [
     {
-      "id": "vU5vyxja",
-      "name": "MCCI Stats Tracker 0.2.3",
-      "version_number": "0.2.3",
+      "id": "AYAAU0as",
+      "name": "MCCI Stats Tracker 0.1.1",
+      "version_number": "0.1.1",
       "game_versions": [
-        "1.20.4"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "d67e198a73ffac2898988ae518698fc1a65e338356c42784ecd0cfe85c48837cfb8687104c0b250ab86777f02792d01c9a8302f13d2d33d0ea838658cdf9e04f",
-          "url": "https://cdn.modrinth.com/data/Kj414Khn/versions/vU5vyxja/mcci-stats-tracker-0.2.3.jar",
-          "filename": "mcci-stats-tracker-0.2.3.jar",
+          "sha512": "d116b51380954da5a52c8f379dbf64d6e07b84d88f860e4863a9cbee4f0f922cfe28e4fd1d1769f53435904f2b550b7b21506ac51b13a24c30d206fd07e1ff0e",
+          "url": "https://cdn.modrinth.com/data/Kj414Khn/versions/AYAAU0as/mcci-stats-tracker-0.1.1-1.20.1.jar",
+          "filename": "mcci-stats-tracker-0.1.1-1.20.1.jar",
           "primary": true,
-          "size": 83369
+          "size": 50422
         }
       ],
       "dependencies": [
         {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -59,13 +54,13 @@
       ],
       "dependencies": [
         {
-          "project_id": "mOgUt4GM",
+          "project_id": "1eAoo2KR",
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
         },
         {
-          "project_id": "1eAoo2KR",
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
@@ -73,10 +68,14 @@
       ]
     },
     {
-      "id": "nEi4QfYA",
-      "name": "MCCI Stats Tracker 0.2.2",
-      "version_number": "0.2.2",
+      "id": "D26qf18d",
+      "name": "MCCI Stats Tracker 0.1",
+      "version_number": "0.1",
       "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
         "1.19.4"
       ],
       "loaders": [
@@ -84,25 +83,80 @@
       ],
       "files": [
         {
-          "sha512": "059bd8ea470e5c154d72f953f421097ce893fd5ffb12b55f6c1feb7c135c80ea863f029c45b8d3ea3f7179dcc30cf7675846445d0f78ea411536ddafbcc96014",
-          "url": "https://cdn.modrinth.com/data/Kj414Khn/versions/nEi4QfYA/mcci-stats-tracker-0.2.2-1.19.4.jar",
-          "filename": "mcci-stats-tracker-0.2.2-1.19.4.jar",
+          "sha512": "21b695f2c9d8c90298d587215cf0f0af6b950c0cc23264f7b29ded8b91e58854cae07ad963b79a239d5016d626230c106b52a721b55280627aee406572f42c67",
+          "url": "https://cdn.modrinth.com/data/Kj414Khn/versions/D26qf18d/mcci-stats-tracker-0.1.jar",
+          "filename": "mcci-stats-tracker-0.1.jar",
           "primary": true,
-          "size": 1540303
+          "size": 49544
         }
       ],
       "dependencies": [
         {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
           "file_name": null,
-          "dependency_type": "embedded"
-        },
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "HGl7NkxM",
+      "name": "MCCI Stats Tracker 0.1",
+      "version_number": "0.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
         {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
+          "sha512": "47fd4aea22655802f979fc9a3f725594d563de591939f36e5ef36136500e53d02ee6b16a8b81beb9acb9b5665850bb999a3bb72aa4d9ae36d31f1325f5ee3edd",
+          "url": "https://cdn.modrinth.com/data/Kj414Khn/versions/HGl7NkxM/mcci-stats-tracker-0.1-1.20.1.jar",
+          "filename": "mcci-stats-tracker-0.1-1.20.1.jar",
+          "primary": true,
+          "size": 50274
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
           "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "JYUtwjL2",
+      "name": "MCCI Stats Tracker 0.1.1",
+      "version_number": "0.1.1",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f31a26b9f5f6f1c87154fe5e16b34dd46d3b8bdb7e0ce7e1a09bed37413f8e3a31a0de12e5f8ac46a77bbb9993f5c76b08ca8a8eb9c46eebbbb171e07ce2ef31",
+          "url": "https://cdn.modrinth.com/data/Kj414Khn/versions/JYUtwjL2/mcci-stats-tracker-0.1.1-1.19.4.jar",
+          "filename": "mcci-stats-tracker-0.1.1-1.19.4.jar",
+          "primary": true,
+          "size": 50497
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -140,6 +194,72 @@
         },
         {
           "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "iiEUS44c",
+      "name": "MCCI Stats Tracker 0.1.2",
+      "version_number": "0.1.2",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "80c7f60d38638bc12cfb6ef8635ecf155192e9259f354c004e2374faeffc1485f97166be7e1eaf1fce6660501db7709f67b40f8d90ad1f25c2a1234be77186af",
+          "url": "https://cdn.modrinth.com/data/Kj414Khn/versions/iiEUS44c/mcci-stats-tracker-0.1.2-1.19.4.jar",
+          "filename": "mcci-stats-tracker-0.1.2-1.19.4.jar",
+          "primary": true,
+          "size": 51430
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "nEi4QfYA",
+      "name": "MCCI Stats Tracker 0.2.2",
+      "version_number": "0.2.2",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "059bd8ea470e5c154d72f953f421097ce893fd5ffb12b55f6c1feb7c135c80ea863f029c45b8d3ea3f7179dcc30cf7675846445d0f78ea411536ddafbcc96014",
+          "url": "https://cdn.modrinth.com/data/Kj414Khn/versions/nEi4QfYA/mcci-stats-tracker-0.2.2-1.19.4.jar",
+          "filename": "mcci-stats-tracker-0.2.2-1.19.4.jar",
+          "primary": true,
+          "size": 1540303
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
@@ -216,154 +336,34 @@
       ]
     },
     {
-      "id": "iiEUS44c",
-      "name": "MCCI Stats Tracker 0.1.2",
-      "version_number": "0.1.2",
+      "id": "vU5vyxja",
+      "name": "MCCI Stats Tracker 0.2.3",
+      "version_number": "0.2.3",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
+        "1.20.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "80c7f60d38638bc12cfb6ef8635ecf155192e9259f354c004e2374faeffc1485f97166be7e1eaf1fce6660501db7709f67b40f8d90ad1f25c2a1234be77186af",
-          "url": "https://cdn.modrinth.com/data/Kj414Khn/versions/iiEUS44c/mcci-stats-tracker-0.1.2-1.19.4.jar",
-          "filename": "mcci-stats-tracker-0.1.2-1.19.4.jar",
+          "sha512": "d67e198a73ffac2898988ae518698fc1a65e338356c42784ecd0cfe85c48837cfb8687104c0b250ab86777f02792d01c9a8302f13d2d33d0ea838658cdf9e04f",
+          "url": "https://cdn.modrinth.com/data/Kj414Khn/versions/vU5vyxja/mcci-stats-tracker-0.2.3.jar",
+          "filename": "mcci-stats-tracker-0.2.3.jar",
           "primary": true,
-          "size": 51430
+          "size": 83369
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
+          "project_id": "mOgUt4GM",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "AYAAU0as",
-      "name": "MCCI Stats Tracker 0.1.1",
-      "version_number": "0.1.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+        },
         {
-          "sha512": "d116b51380954da5a52c8f379dbf64d6e07b84d88f860e4863a9cbee4f0f922cfe28e4fd1d1769f53435904f2b550b7b21506ac51b13a24c30d206fd07e1ff0e",
-          "url": "https://cdn.modrinth.com/data/Kj414Khn/versions/AYAAU0as/mcci-stats-tracker-0.1.1-1.20.1.jar",
-          "filename": "mcci-stats-tracker-0.1.1-1.20.1.jar",
-          "primary": true,
-          "size": 50422
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "JYUtwjL2",
-      "name": "MCCI Stats Tracker 0.1.1",
-      "version_number": "0.1.1",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f31a26b9f5f6f1c87154fe5e16b34dd46d3b8bdb7e0ce7e1a09bed37413f8e3a31a0de12e5f8ac46a77bbb9993f5c76b08ca8a8eb9c46eebbbb171e07ce2ef31",
-          "url": "https://cdn.modrinth.com/data/Kj414Khn/versions/JYUtwjL2/mcci-stats-tracker-0.1.1-1.19.4.jar",
-          "filename": "mcci-stats-tracker-0.1.1-1.19.4.jar",
-          "primary": true,
-          "size": 50497
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "HGl7NkxM",
-      "name": "MCCI Stats Tracker 0.1",
-      "version_number": "0.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "47fd4aea22655802f979fc9a3f725594d563de591939f36e5ef36136500e53d02ee6b16a8b81beb9acb9b5665850bb999a3bb72aa4d9ae36d31f1325f5ee3edd",
-          "url": "https://cdn.modrinth.com/data/Kj414Khn/versions/HGl7NkxM/mcci-stats-tracker-0.1-1.20.1.jar",
-          "filename": "mcci-stats-tracker-0.1-1.20.1.jar",
-          "primary": true,
-          "size": 50274
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "D26qf18d",
-      "name": "MCCI Stats Tracker 0.1",
-      "version_number": "0.1",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "21b695f2c9d8c90298d587215cf0f0af6b950c0cc23264f7b29ded8b91e58854cae07ad963b79a239d5016d626230c106b52a721b55280627aee406572f42c67",
-          "url": "https://cdn.modrinth.com/data/Kj414Khn/versions/D26qf18d/mcci-stats-tracker-0.1.jar",
-          "filename": "mcci-stats-tracker-0.1.jar",
-          "primary": true,
-          "size": 49544
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
+          "project_id": "1eAoo2KR",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }

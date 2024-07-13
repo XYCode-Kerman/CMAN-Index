@@ -5,6 +5,57 @@
   "description": "Addon that generates KawaMood's Waystones in villages. This allows players to access fast travel points within villages.",
   "versions": [
     {
+      "id": "35Y3KYQk",
+      "name": "KawaMood's Waystones in Villages v2.6.3",
+      "version_number": "2.6.3",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "4436a49840d7d63452ab1a60b0b5a26c262b1b8ddb9958e8b5f8d19c4df76356e4bf9717179b55e2f48c025c444021601d87358187e2164a1828e519e8938735",
+          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/35Y3KYQk/KawaMood%27s%20Waystones%20in%20Villages.zip",
+          "filename": "KawaMood's Waystones in Villages.zip",
+          "primary": true,
+          "size": 377349
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "tpehi7ww",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "bZgeDzN8",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "UKUcgltR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "m9UqKPU2",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "3B2CyNUp",
       "name": "KawaMood's Waystones in Villages v2.7",
       "version_number": "2.7",
@@ -62,30 +113,34 @@
       ]
     },
     {
-      "id": "35Y3KYQk",
-      "name": "KawaMood's Waystones in Villages v2.6.3",
-      "version_number": "2.6.3",
+      "id": "4mk3uLqZ",
+      "name": "KawaMood's Waystones in Villages v2.5",
+      "version_number": "2.5+mod",
       "game_versions": [
         "1.20.2",
         "1.20.3",
-        "1.20.4",
-        "1.20.5",
-        "1.20.6",
-        "1.21"
+        "1.20.4"
       ],
       "loaders": [
-        "datapack"
+        "fabric",
+        "forge"
       ],
       "files": [
         {
-          "sha512": "4436a49840d7d63452ab1a60b0b5a26c262b1b8ddb9958e8b5f8d19c4df76356e4bf9717179b55e2f48c025c444021601d87358187e2164a1828e519e8938735",
-          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/35Y3KYQk/KawaMood%27s%20Waystones%20in%20Villages.zip",
-          "filename": "KawaMood's Waystones in Villages.zip",
+          "sha512": "bcce3f445edb8dc4b917ad32e2b612c9252b41a62a8fd0c0fbef2ab9175ee80193bb3fa5cc291d6b6b7747a8c1829217acf8d2fc17da9ad4394b18ab8f13e0d6",
+          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/4mk3uLqZ/waystones-in-villages-2.5.jar",
+          "filename": "waystones-in-villages-2.5.jar",
           "primary": true,
-          "size": 377349
+          "size": 289248
         }
       ],
       "dependencies": [
+        {
+          "project_id": "XaDC71GB",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "UKUcgltR",
           "version_id": null,
@@ -99,93 +154,10 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "m9UqKPU2",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "tpehi7ww",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "HfyQ3Czw",
-      "name": "KawaMood's Waystones in Villages v2.6.2",
-      "version_number": "2.6.2+mod",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "fe4b6c324e9462ccf4640b6f39fafa41aa2cf6609052976627350c23af42d1a5319e050d7775340fecb389a7b88cd2f243b2b5e1aff92a7f1fd2f3c9b21ca284",
-          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/HfyQ3Czw/waystones-in-villages-2.6.2.jar",
-          "filename": "waystones-in-villages-2.6.2.jar",
-          "primary": true,
-          "size": 273965
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "XaDC71GB",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "UKUcgltR",
-          "version_id": "DScLpj2V",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "tpehi7ww",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "LGKZMDl7",
-      "name": "KawaMood's Waystones in Villages v2.6.2",
-      "version_number": "2.6.2",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "698e699e3a399d3a6ccb7fd34ecaa22cc2ba74fd313d608bd3d4782bc843c1e5a875620ad004704dac35c8899ab339308202900d8d865ee09c223ebbcf99b822",
-          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/LGKZMDl7/Addon-Waystones.zip",
-          "filename": "Addon-Waystones.zip",
-          "primary": true,
-          "size": 118273
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "tpehi7ww",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "UKUcgltR",
-          "version_id": "DScLpj2V",
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -245,44 +217,38 @@
       ]
     },
     {
-      "id": "oQb7lrYE",
-      "name": "KawaMood's Waystones in Villages v2.6.1",
-      "version_number": "2.6.1",
+      "id": "HfyQ3Czw",
+      "name": "KawaMood's Waystones in Villages v2.6.2",
+      "version_number": "2.6.2+mod",
       "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.20.5",
+        "1.20.6"
       ],
       "loaders": [
-        "datapack"
+        "fabric",
+        "forge"
       ],
       "files": [
         {
-          "sha512": "96b66096f161abb2e94f78385a562d7726fdc3064cf4480c38d021ff8559b8c618ff91cedb7d45f86b1468eab009331a6a080dee1ba67e19fccc8ec7b184d7ab",
-          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/oQb7lrYE/Addon-Waystones.zip",
-          "filename": "Addon-Waystones.zip",
+          "sha512": "fe4b6c324e9462ccf4640b6f39fafa41aa2cf6609052976627350c23af42d1a5319e050d7775340fecb389a7b88cd2f243b2b5e1aff92a7f1fd2f3c9b21ca284",
+          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/HfyQ3Czw/waystones-in-villages-2.6.2.jar",
+          "filename": "waystones-in-villages-2.6.2.jar",
           "primary": true,
-          "size": 157727
+          "size": 273965
         }
       ],
       "dependencies": [
         {
           "project_id": "UKUcgltR",
-          "version_id": null,
+          "version_id": "DScLpj2V",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "bZgeDzN8",
+          "project_id": "XaDC71GB",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "m9UqKPU2",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         },
         {
           "project_id": "tpehi7ww",
@@ -293,54 +259,34 @@
       ]
     },
     {
-      "id": "uQeBwkgA",
-      "name": "KawaMood's Waystones in Villages v2.6",
-      "version_number": "2.6+mod",
+      "id": "LGKZMDl7",
+      "name": "KawaMood's Waystones in Villages v2.6.2",
+      "version_number": "2.6.2",
       "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.20.5",
+        "1.20.6"
       ],
       "loaders": [
-        "fabric",
-        "forge"
+        "datapack"
       ],
       "files": [
         {
-          "sha512": "cf1e51e99fdf00dd23ffd37e35d2aad02ee1f725462a4602165210a48048072af7bf92374cf5be4dff8d67e2779ed2b21c82f8a5c56b375eb8efa81c4ca50118",
-          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/uQeBwkgA/waystones-in-villages-2.7.jar",
-          "filename": "waystones-in-villages-2.7.jar",
+          "sha512": "698e699e3a399d3a6ccb7fd34ecaa22cc2ba74fd313d608bd3d4782bc843c1e5a875620ad004704dac35c8899ab339308202900d8d865ee09c223ebbcf99b822",
+          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/LGKZMDl7/Addon-Waystones.zip",
+          "filename": "Addon-Waystones.zip",
           "primary": true,
-          "size": 390572
+          "size": 118273
         }
       ],
       "dependencies": [
         {
-          "project_id": "XaDC71GB",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "UKUcgltR",
-          "version_id": null,
+          "version_id": "DScLpj2V",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "bZgeDzN8",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         },
         {
           "project_id": "tpehi7ww",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "m9UqKPU2",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -383,6 +329,255 @@
         },
         {
           "project_id": "m9UqKPU2",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "tpehi7ww",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "YJLhF0kE",
+      "name": "KawaMood's Waystones in Villages v2.2",
+      "version_number": "2.2+mod",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "a15c0d9ab55ef77d368a89fe678ddf3bd8875c1c2317139b59ce840ddab981fab0d60538a8be1d688cf90afeb69f1b2e2feb4776a59bf949f979dec775fc6f1d",
+          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/YJLhF0kE/waystones-in-villages-3.0.jar",
+          "filename": "waystones-in-villages-3.0.jar",
+          "primary": true,
+          "size": 164750
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "UKUcgltR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "XaDC71GB",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ZtGk1xxc",
+      "name": "KawaMood's Waystones in Villages v2.4",
+      "version_number": "2.4+mod",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "2796ca4e0a4ef910c0dd2065134200cad98d50f47a2e33dffc51ff53d53c3f530b22968374ececf51bea4602ee08c97c5dadbea3c97fed1d526e870943cb9019",
+          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/ZtGk1xxc/waystones-in-villages-2.4.jar",
+          "filename": "waystones-in-villages-2.4.jar",
+          "primary": true,
+          "size": 203804
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "bZgeDzN8",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "XaDC71GB",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "UKUcgltR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "tpehi7ww",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "aabotKkP",
+      "name": "KawaMood's Waystones in Villages v2.3",
+      "version_number": "2.3",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "ba47d6a4e704761f40e9d04f6225029df03c6b765f5d1e1723eb476dc24695b89f59661e7bd111fa905e3285da3ac2e1369d22ec83c75b2afe9d1bda538dada5",
+          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/aabotKkP/Addon-Waystones.zip",
+          "filename": "Addon-Waystones.zip",
+          "primary": true,
+          "size": 99687
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "bZgeDzN8",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "UKUcgltR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ax5nEpCJ",
+      "name": "KawaMood's Waystones in Villages v2.3",
+      "version_number": "2.3+mod",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d66239c1597c74fd65ed0d46480d657b99228b84aff351f620b68631540b0e34febaebaa4c25715b30acdf87171dac4b801af70320619491a2018a3f560827c1",
+          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/ax5nEpCJ/waystones-in-villages-4.0.jar",
+          "filename": "waystones-in-villages-4.0.jar",
+          "primary": true,
+          "size": 179826
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "UKUcgltR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "bZgeDzN8",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "XaDC71GB",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ihZIHpVb",
+      "name": "KawaMood's Waystones in Villages v2.5",
+      "version_number": "2.5",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "0d09971ca9bcdd116d95fe305d1e228a47e4edf2e40d6e337f60ec1a7bd74062a46d24b1bc9816fec7185c6d56df95fc423762d354be926b612279947dda2cf7",
+          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/ihZIHpVb/Addon-Waystones.zip",
+          "filename": "Addon-Waystones.zip",
+          "primary": true,
+          "size": 125355
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "tpehi7ww",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "UKUcgltR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "bZgeDzN8",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "jtnLSjbD",
+      "name": "KawaMood's Waystones in Villages v2.4",
+      "version_number": "2.4",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "baa6800c63b2426c9aa3541d324cbd112abc205b7c6bdc0224423374a907972361f7736c83c70e569704420376909b46bbb1a10e872a26d64fe3748765aca98a",
+          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/jtnLSjbD/Addon-Waystones.zip",
+          "filename": "Addon-Waystones.zip",
+          "primary": true,
+          "size": 71725
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "UKUcgltR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "bZgeDzN8",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -487,58 +682,9 @@
       ]
     },
     {
-      "id": "4mk3uLqZ",
-      "name": "KawaMood's Waystones in Villages v2.5",
-      "version_number": "2.5+mod",
-      "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "bcce3f445edb8dc4b917ad32e2b612c9252b41a62a8fd0c0fbef2ab9175ee80193bb3fa5cc291d6b6b7747a8c1829217acf8d2fc17da9ad4394b18ab8f13e0d6",
-          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/4mk3uLqZ/waystones-in-villages-2.5.jar",
-          "filename": "waystones-in-villages-2.5.jar",
-          "primary": true,
-          "size": 289248
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "XaDC71GB",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "UKUcgltR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "bZgeDzN8",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "tpehi7ww",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ihZIHpVb",
-      "name": "KawaMood's Waystones in Villages v2.5",
-      "version_number": "2.5",
+      "id": "oQb7lrYE",
+      "name": "KawaMood's Waystones in Villages v2.6.1",
+      "version_number": "2.6.1",
       "game_versions": [
         "1.20.2",
         "1.20.3",
@@ -549,20 +695,14 @@
       ],
       "files": [
         {
-          "sha512": "0d09971ca9bcdd116d95fe305d1e228a47e4edf2e40d6e337f60ec1a7bd74062a46d24b1bc9816fec7185c6d56df95fc423762d354be926b612279947dda2cf7",
-          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/ihZIHpVb/Addon-Waystones.zip",
+          "sha512": "96b66096f161abb2e94f78385a562d7726fdc3064cf4480c38d021ff8559b8c618ff91cedb7d45f86b1468eab009331a6a080dee1ba67e19fccc8ec7b184d7ab",
+          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/oQb7lrYE/Addon-Waystones.zip",
           "filename": "Addon-Waystones.zip",
           "primary": true,
-          "size": 125355
+          "size": 157727
         }
       ],
       "dependencies": [
-        {
-          "project_id": "tpehi7ww",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "UKUcgltR",
           "version_id": null,
@@ -574,49 +714,12 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ZtGk1xxc",
-      "name": "KawaMood's Waystones in Villages v2.4",
-      "version_number": "2.4+mod",
-      "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge"
-      ],
-      "files": [
+        },
         {
-          "sha512": "2796ca4e0a4ef910c0dd2065134200cad98d50f47a2e33dffc51ff53d53c3f530b22968374ececf51bea4602ee08c97c5dadbea3c97fed1d526e870943cb9019",
-          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/ZtGk1xxc/waystones-in-villages-2.4.jar",
-          "filename": "waystones-in-villages-2.4.jar",
-          "primary": true,
-          "size": 203804
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "bZgeDzN8",
+          "project_id": "m9UqKPU2",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "XaDC71GB",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "UKUcgltR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "tpehi7ww",
@@ -627,9 +730,9 @@
       ]
     },
     {
-      "id": "jtnLSjbD",
-      "name": "KawaMood's Waystones in Villages v2.4",
-      "version_number": "2.4",
+      "id": "pa4O7wc3",
+      "name": "KawaMood's Waystones in Villages v2.0.1",
+      "version_number": "2.0.1",
       "game_versions": [
         "1.20.2",
         "1.20.3",
@@ -640,144 +743,16 @@
       ],
       "files": [
         {
-          "sha512": "baa6800c63b2426c9aa3541d324cbd112abc205b7c6bdc0224423374a907972361f7736c83c70e569704420376909b46bbb1a10e872a26d64fe3748765aca98a",
-          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/jtnLSjbD/Addon-Waystones.zip",
+          "sha512": "e671ba4d23d0c872ea2e8e5cbfa5793d980f406cb74e71a81b1897e99defe92e39574e0a68bf4085cb109237542c0fd06ced30d5315cfba40633490717622155",
+          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/pa4O7wc3/Addon-Waystones.zip",
           "filename": "Addon-Waystones.zip",
           "primary": true,
-          "size": 71725
+          "size": 56635
         }
       ],
       "dependencies": [
         {
           "project_id": "UKUcgltR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "bZgeDzN8",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "tpehi7ww",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ax5nEpCJ",
-      "name": "KawaMood's Waystones in Villages v2.3",
-      "version_number": "2.3+mod",
-      "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "d66239c1597c74fd65ed0d46480d657b99228b84aff351f620b68631540b0e34febaebaa4c25715b30acdf87171dac4b801af70320619491a2018a3f560827c1",
-          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/ax5nEpCJ/waystones-in-villages-4.0.jar",
-          "filename": "waystones-in-villages-4.0.jar",
-          "primary": true,
-          "size": 179826
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "UKUcgltR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "bZgeDzN8",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "XaDC71GB",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "aabotKkP",
-      "name": "KawaMood's Waystones in Villages v2.3",
-      "version_number": "2.3",
-      "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "ba47d6a4e704761f40e9d04f6225029df03c6b765f5d1e1723eb476dc24695b89f59661e7bd111fa905e3285da3ac2e1369d22ec83c75b2afe9d1bda538dada5",
-          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/aabotKkP/Addon-Waystones.zip",
-          "filename": "Addon-Waystones.zip",
-          "primary": true,
-          "size": 99687
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "bZgeDzN8",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "UKUcgltR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "YJLhF0kE",
-      "name": "KawaMood's Waystones in Villages v2.2",
-      "version_number": "2.2+mod",
-      "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "a15c0d9ab55ef77d368a89fe678ddf3bd8875c1c2317139b59ce840ddab981fab0d60538a8be1d688cf90afeb69f1b2e2feb4776a59bf949f979dec775fc6f1d",
-          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/YJLhF0kE/waystones-in-villages-3.0.jar",
-          "filename": "waystones-in-villages-3.0.jar",
-          "primary": true,
-          "size": 164750
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "UKUcgltR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "XaDC71GB",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -815,9 +790,9 @@
       ]
     },
     {
-      "id": "pa4O7wc3",
-      "name": "KawaMood's Waystones in Villages v2.0.1",
-      "version_number": "2.0.1",
+      "id": "stny5m9X",
+      "name": "KawaMood's Waystones in Villages v1.0",
+      "version_number": "1.0",
       "game_versions": [
         "1.20.2",
         "1.20.3",
@@ -828,11 +803,11 @@
       ],
       "files": [
         {
-          "sha512": "e671ba4d23d0c872ea2e8e5cbfa5793d980f406cb74e71a81b1897e99defe92e39574e0a68bf4085cb109237542c0fd06ced30d5315cfba40633490717622155",
-          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/pa4O7wc3/Addon-Waystones.zip",
+          "sha512": "7f8eb5b73ea5aee3284fb7c7c109c021f54896a1af861b330eb6da21b8b562bb03becbb8c42a32a2d2b3422ba040a196cec94efc780e8e783fd17e612af02f7f",
+          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/stny5m9X/Addon-Waystones.zip",
           "filename": "Addon-Waystones.zip",
           "primary": true,
-          "size": 56635
+          "size": 54232
         }
       ],
       "dependencies": [
@@ -841,6 +816,61 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "uQeBwkgA",
+      "name": "KawaMood's Waystones in Villages v2.6",
+      "version_number": "2.6+mod",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "cf1e51e99fdf00dd23ffd37e35d2aad02ee1f725462a4602165210a48048072af7bf92374cf5be4dff8d67e2779ed2b21c82f8a5c56b375eb8efa81c4ca50118",
+          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/uQeBwkgA/waystones-in-villages-2.7.jar",
+          "filename": "waystones-in-villages-2.7.jar",
+          "primary": true,
+          "size": 390572
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XaDC71GB",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "UKUcgltR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "bZgeDzN8",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "tpehi7ww",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "m9UqKPU2",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -863,36 +893,6 @@
           "filename": "Addon-Waystones.zip",
           "primary": true,
           "size": 56654
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "UKUcgltR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "stny5m9X",
-      "name": "KawaMood's Waystones in Villages v1.0",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "7f8eb5b73ea5aee3284fb7c7c109c021f54896a1af861b330eb6da21b8b562bb03becbb8c42a32a2d2b3422ba040a196cec94efc780e8e783fd17e612af02f7f",
-          "url": "https://cdn.modrinth.com/data/qddMzOS3/versions/stny5m9X/Addon-Waystones.zip",
-          "filename": "Addon-Waystones.zip",
-          "primary": true,
-          "size": 54232
         }
       ],
       "dependencies": [

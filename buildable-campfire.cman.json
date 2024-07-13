@@ -1,50 +1,9 @@
 {
-  "id": "buildable-campfire",
+  "id": "McixCHqK",
   "slug": "buildable-campfire",
   "name": "Buildable Campfire",
   "description": "Instead of crafting, you need to build Campfires, piece by piece.",
   "versions": [
-    {
-      "id": "5yoW7JoZ",
-      "name": "1.0.3",
-      "version_number": "1.0.3",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4d77163a3f29b1f7ecb8564883d1731323306d55bf6d80030b9c433b3ec86acadf35fd547d48c6e1e78b7b05ef20f49f42bc15796902a5e065272d0a3396a049",
-          "url": "https://cdn.modrinth.com/data/McixCHqK/versions/1.0.3/BuildableCampfire-1.0.3.jar",
-          "filename": "BuildableCampfire-1.0.3.jar",
-          "primary": true,
-          "size": 191836
-        }
-      ]
-    },
-    {
-      "id": "zmwd4PrY",
-      "name": "1.0.2",
-      "version_number": "1.0.2",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d3d480b0a43e0b9d3d1d730a49b835694004226a1e75051abb267afe161e0b4bb7054dcfae3fdddf2e1d022e85e633cc002c2e81a365948c9b533c57a2b1be79",
-          "url": "https://cdn.modrinth.com/data/McixCHqK/versions/1.0.2/BuildableCampfire-1.0.2.jar",
-          "filename": "BuildableCampfire-1.0.2.jar",
-          "primary": true,
-          "size": 191689
-        }
-      ]
-    },
     {
       "id": "4tfpJhzn",
       "name": "1.0.1",
@@ -64,7 +23,65 @@
           "primary": true,
           "size": 184181
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "kbtdliUm",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
+    },
+    {
+      "id": "5yoW7JoZ",
+      "name": "1.0.3",
+      "version_number": "1.0.3",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4d77163a3f29b1f7ecb8564883d1731323306d55bf6d80030b9c433b3ec86acadf35fd547d48c6e1e78b7b05ef20f49f42bc15796902a5e065272d0a3396a049",
+          "url": "https://cdn.modrinth.com/data/McixCHqK/versions/1.0.3/BuildableCampfire-1.0.3.jar",
+          "filename": "BuildableCampfire-1.0.3.jar",
+          "primary": true,
+          "size": 191836
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "fFnKiw3B",
+      "name": "1.0",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "6641cae7c44ce675fdeb653bf5ddd70a9c08b1d4f6621325cf4f34280dbfec7747d81896018b1159ae70c6ede1bcd29017c780ef6d37a61f1fda23f46e8d1e0d",
+          "url": "https://cdn.modrinth.com/data/McixCHqK/versions/1.0/BuildableCampfire-Alpha[1.0].jar",
+          "filename": "BuildableCampfire-Alpha[1.0].jar",
+          "primary": true,
+          "size": 117789
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "h5e66Gtt",
@@ -84,6 +101,14 @@
           "filename": "BuildableCampfire-1.0.jar",
           "primary": true,
           "size": 176977
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "mGIxWbTy",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -106,12 +131,13 @@
           "primary": true,
           "size": 170438
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
-      "id": "fFnKiw3B",
-      "name": "1.0",
-      "version_number": "1.0",
+      "id": "zmwd4PrY",
+      "name": "1.0.2",
+      "version_number": "1.0.2",
       "game_versions": [
         "1.18",
         "1.18.1"
@@ -121,11 +147,19 @@
       ],
       "files": [
         {
-          "sha512": "6641cae7c44ce675fdeb653bf5ddd70a9c08b1d4f6621325cf4f34280dbfec7747d81896018b1159ae70c6ede1bcd29017c780ef6d37a61f1fda23f46e8d1e0d",
-          "url": "https://cdn.modrinth.com/data/McixCHqK/versions/1.0/BuildableCampfire-Alpha[1.0].jar",
-          "filename": "BuildableCampfire-Alpha[1.0].jar",
+          "sha512": "d3d480b0a43e0b9d3d1d730a49b835694004226a1e75051abb267afe161e0b4bb7054dcfae3fdddf2e1d022e85e633cc002c2e81a365948c9b533c57a2b1be79",
+          "url": "https://cdn.modrinth.com/data/McixCHqK/versions/1.0.2/BuildableCampfire-1.0.2.jar",
+          "filename": "BuildableCampfire-1.0.2.jar",
           "primary": true,
-          "size": 117789
+          "size": 191689
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "RS6s817x",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

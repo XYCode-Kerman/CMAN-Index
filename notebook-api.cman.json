@@ -5,9 +5,30 @@
   "description": "API designed for the \"Common\" module",
   "versions": [
     {
-      "id": "BDxM9eJ4",
-      "name": "[1.20.4] Notebook API Fabric 1.2.0",
-      "version_number": "fabric-1.2.0+1.20.4",
+      "id": "3OJL92Yq",
+      "name": "Notebook API Forge 1.0.0.4",
+      "version_number": "1.0.0.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "2aa2d24d17f4f6e67b0bd02619a2b5ed8fd17c9cfd09c7c5ae439805bb8d0aefeead5923c4c5e68bd1002795640b537bc84aa9590964b62127e6c44bb37bb33c",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/3OJL92Yq/Notebook-api-forge-1.20.4-1.0.0.4.jar",
+          "filename": "Notebook-api-forge-1.20.4-1.0.0.4.jar",
+          "primary": true,
+          "size": 48576
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "43CfBp4C",
+      "name": "Notebook API Fabric 1.0.0.1",
+      "version_number": "1.0.0.1",
       "game_versions": [
         "1.20.4"
       ],
@@ -16,11 +37,110 @@
       ],
       "files": [
         {
-          "sha512": "84abf2a42fe260bf93412c4b3c066ba1fcea12488d6e3e2d507c166290892a47b996dd0c5c32fbc9d3c28b9b79bdb18b9b39b03f564b5c701cce00c54de441da",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/BDxM9eJ4/Notebook-api-fabric-1.20.4-1.2.0%2B1.20.4.jar",
-          "filename": "Notebook-api-fabric-1.20.4-1.2.0+1.20.4.jar",
+          "sha512": "d9d4d9c667326299bd71e3dfb8996da0fcc2bda2240a9e0f7237362d9d75f4605665e5cfdaa44538818682b0c2a52537e15e89b8844c2a9a1fd0bcd21739dddf",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/43CfBp4C/Notebook-api-fabric-1.20.4-1.0.0.1.jar",
+          "filename": "Notebook-api-fabric-1.20.4-1.0.0.1.jar",
           "primary": true,
-          "size": 257749
+          "size": 6564
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "50XIdsvu",
+      "name": "[1.20.4] Notebook API Forge 1.1.10",
+      "version_number": "forge-1.1.10+1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "7e731df1fed3502412b79fb58c401cb0c86e7790632e8d5e8a8dc2239bdaaefa9f7e2aa156a4ece11fea1cadf8074b80993fa493a8a3b638436cf0d385932189",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/50XIdsvu/Notebook-api-forge-1.20.4-1.1.10%2B1.20.4.jar",
+          "filename": "Notebook-api-forge-1.20.4-1.1.10+1.20.4.jar",
+          "primary": true,
+          "size": 108860
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "5PgxIDlg",
+      "name": "Notebook API NeoForge 1.0.0.3",
+      "version_number": "1.0.0.3",
+      "game_versions": [
+        "1.20.4",
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "bf9aa9e240e364f2c75b234d95e346d7a17448341879510fec1a362927dc04bb2a55694708cda128e5eb44f4190ebb7211cc4a4828856836e560ca711276a58f",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/5PgxIDlg/Notebook-api-neoforge-1.20.4-1.0.0.3.jar",
+          "filename": "Notebook-api-neoforge-1.20.4-1.0.0.3.jar",
+          "primary": true,
+          "size": 34264
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "71vMdgHy",
+      "name": "[1.20.4] Notebook API Fabric 1.1.10",
+      "version_number": "fabric-1.1.10+1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "907802b2223ee12a9c27b897f2ca18c49afc0f44df918732e47c25bd0acade811eb86418dfb8c1fe4ae2ec6b060907b8cdafbd7035748d82264d4c41a76d6464",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/71vMdgHy/Notebook-api-fabric-1.20.4-1.1.10%2B1.20.4.jar",
+          "filename": "Notebook-api-fabric-1.20.4-1.1.10+1.20.4.jar",
+          "primary": true,
+          "size": 107309
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "7KGl9hrP",
+      "name": "Notebook API Fabric 1.0.0.3",
+      "version_number": "1.0.0.3",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9743423f877245f1fa70079558a03ae020b541d450054b7ca489b7ce587d7fe8db76c446e1be92b2139c0087b8493dddbbeea10a99618f5c8a748328a0f2cfc3",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/7KGl9hrP/Notebook-api-fabric-1.20.4-1.0.0.3.jar",
+          "filename": "Notebook-api-fabric-1.20.4-1.0.0.3.jar",
+          "primary": true,
+          "size": 34953
         }
       ],
       "dependencies": [
@@ -54,6 +174,260 @@
       "dependencies": []
     },
     {
+      "id": "83moN45C",
+      "name": "Notebook API NeoForge 1.1.0.1",
+      "version_number": "1.1.0.1",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "bfe881659f5d7ef2a22b81b47df6b5454c5a9cbb6d10b2c89050feecfafeb9189bbc32989a0a9955f92349b72364a8a7d02bf7068ac5d241bd2d661473ff82b5",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/83moN45C/Notebook-api-neoforge-1.20.4-1.1.0.1.jar",
+          "filename": "Notebook-api-neoforge-1.20.4-1.1.0.1.jar",
+          "primary": true,
+          "size": 105677
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "91XEWQhm",
+      "name": "[1.20.5] Notebook API Fabric 1.1.12",
+      "version_number": "fabric-1.1.12+1.20.5",
+      "game_versions": [
+        "24w13a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "eebf7d9565d4ba17cb0f38260a167980f7d13be17519b90a4f6e34249caa5cafe9525477de4efbd04faf5b558795ba4d4c0ceba3fd88ae367bfa15b4a9e56cb6",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/91XEWQhm/Notebook-api-fabric-24w14a-1.1.12%2B1.20.5.jar",
+          "filename": "Notebook-api-fabric-24w14a-1.1.12+1.20.5.jar",
+          "primary": true,
+          "size": 112222
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "BDxM9eJ4",
+      "name": "[1.20.4] Notebook API Fabric 1.2.0",
+      "version_number": "fabric-1.2.0+1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "84abf2a42fe260bf93412c4b3c066ba1fcea12488d6e3e2d507c166290892a47b996dd0c5c32fbc9d3c28b9b79bdb18b9b39b03f564b5c701cce00c54de441da",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/BDxM9eJ4/Notebook-api-fabric-1.20.4-1.2.0%2B1.20.4.jar",
+          "filename": "Notebook-api-fabric-1.20.4-1.2.0+1.20.4.jar",
+          "primary": true,
+          "size": 257749
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "BL33mwuf",
+      "name": "Notebook API Forge 1.1.0.4",
+      "version_number": "1.1.0.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "cf5e502a4ba3a7259ae5eba5f61043adc698adc4300261f3ddc6c5b411e4458cb00304bf071472abb4c9ebec6e6a3f26fbc128f8df24c404481a58826608576a",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/BL33mwuf/Notebook-api-forge-1.20.4-1.1.0.4.jar",
+          "filename": "Notebook-api-forge-1.20.4-1.1.0.4.jar",
+          "primary": true,
+          "size": 115383
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ConlVpDt",
+      "name": "Notebook API Forge 1.0.0.3",
+      "version_number": "1.0.0.3",
+      "game_versions": [
+        "1.20.4",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "024e94c212905c78567df4c329da6f7bbd042169e089692230cd83cbb7f611333d402169ec78c7aa18ee81988fd385aaa999190e3e832d8e4728cb0c0be5e7c7",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/ConlVpDt/Notebook-api-forge-1.20.4-1.0.0.3.jar",
+          "filename": "Notebook-api-forge-1.20.4-1.0.0.3.jar",
+          "primary": true,
+          "size": 35758
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "DrwZWHCc",
+      "name": "[1.20.4] Notebook API NeoForge 1.1.10+1.20.4",
+      "version_number": "neoforge-1.1.10+1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "a8d2a2c005d5a9bef312c5125ca4c8dd48cfa62b1847b40f802545ce54c0b7107a78d2526e30be3297522706b071c0ff1710b1efdb6c9086aae18e01118e0996",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/DrwZWHCc/Notebook-api-neoforge-1.20.4-1.1.10%2B1.20.4.jar",
+          "filename": "Notebook-api-neoforge-1.20.4-1.1.10+1.20.4.jar",
+          "primary": true,
+          "size": 106392
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ENtpXFTz",
+      "name": "Notebook API Fabric 1.1.0.4",
+      "version_number": "1.1.0.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "293aa3991b2c213c84d29e5cd931e7509c0ca3cf5cf49c1e48be2dc01c8d6d6a4b707aa9fd2585dd34bc8cb44f0ef6c5305df9031b3941806e0450f317215f3f",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/ENtpXFTz/Notebook-api-fabric-1.20.4-1.1.0.4.jar",
+          "filename": "Notebook-api-fabric-1.20.4-1.1.0.4.jar",
+          "primary": true,
+          "size": 109380
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "HNHcASZG",
+      "name": "Notebook API Fabric 1.0.0.0",
+      "version_number": "1.0.0.0",
+      "game_versions": [
+        "1.20.4",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "41e706e9bc440ec9ba11c5bf468fa06841804c983227060a1c7ddf9614d72e1ed84ebc266be988d3d9977ddb7ee8b9e2a0630eeb4d1616a97e371f37f01cd42e",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/HNHcASZG/Notebook-api-fabric-1.20.4-1.0.0.0.jar",
+          "filename": "Notebook-api-fabric-1.20.4-1.0.0.0.jar",
+          "primary": true,
+          "size": 5097
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "I6ZefiZJ",
+      "name": "Notebook API Fabric 1.0.0.2",
+      "version_number": "1.0.0.2",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "3d66a678a129b1c6339cc6ea55af941a99010d2c5cccfaaf01456ed868f601ea0a82b27a033f8b0a4286521650ad8832e86c4bbb79391e828c28659b1597a71f",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/I6ZefiZJ/Notebook-api-fabric-1.20.4-1.0.0.2.jar",
+          "filename": "Notebook-api-fabric-1.20.4-1.0.0.2.jar",
+          "primary": true,
+          "size": 35031
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "JWh7nHDL",
+      "name": "Notebook API Fabric 1.1.0.1",
+      "version_number": "1.1.0.1",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "194c3f98592bca8915c1a3b9ee05481ecabbe4bd92640785e9a402a9bd09276263fa669be247660df218103e37286c79919bb30aa62d4c9885a1fec17ee5226e",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/JWh7nHDL/Notebook-api-fabric-1.20.4-1.1.0.1.jar",
+          "filename": "Notebook-api-fabric-1.20.4-1.1.0.1.jar",
+          "primary": true,
+          "size": 106768
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "JZHMn9D8",
       "name": "[1.20.5-pre2] Notebook API Fabric 1.1.17",
       "version_number": "fabric-1.1.17+1.20.5",
@@ -70,6 +444,56 @@
           "filename": "Notebook-api-fabric-1.1.17+1.20.5.jar",
           "primary": true,
           "size": 265685
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "MidF2wwa",
+      "name": "Notebook API NeoForge 1.0.0.2",
+      "version_number": "1.0.0.2",
+      "game_versions": [
+        "1.20.4",
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "24eca80684935e7f5fdc371d43596db7e12518659bbde94ce9037fb4801fd1c645989b7708db1a6b710502346c2e41f8fba2fa59c00b0dab268419da2e7f744d",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/MidF2wwa/Notebook-api-neoforge-1.20.4-1.0.0.2.jar",
+          "filename": "Notebook-api-neoforge-1.20.4-1.0.0.2.jar",
+          "primary": true,
+          "size": 33769
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Mlp88XXq",
+      "name": "Notebook API Fabric 1.1.0.6",
+      "version_number": "1.1.0.6",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f87b7071c7b05d2a602c867cf4be118672532a38038d49079352ba428c7071de0bc5633ec6e92a9cb64a7eb9ff37573ad3ba671f414028f2b54d22ba89c05853",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/Mlp88XXq/Notebook-api-fabric-1.20.4-1.1.0.6.jar",
+          "filename": "Notebook-api-fabric-1.20.4-1.1.0.6.jar",
+          "primary": true,
+          "size": 108292
         }
       ],
       "dependencies": [
@@ -110,115 +534,11 @@
       ]
     },
     {
-      "id": "xcPSSlqn",
-      "name": "[1.20.5] Notebook API Fabric 1.1.14",
-      "version_number": "fabric-1.1.14+1.20.5",
+      "id": "OBurTnr7",
+      "name": "Notebook API NeoForge 1.0.0.1",
+      "version_number": "1.0.0.1",
       "game_versions": [
-        "24w14a"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "25e0d4f03abff2a838f5ae4112f8200a523706bb8e5facc94da08361badc4bd5dfaf29b016b9d96c1692b49a6d07b4f5ec30937a6218956f53ea4efd89b37bea",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/xcPSSlqn/Notebook-api-fabric-24w14a-1.1.14%2B1.20.5.jar",
-          "filename": "Notebook-api-fabric-24w14a-1.1.14+1.20.5.jar",
-          "primary": true,
-          "size": 214732
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "q2kz0CsD",
-      "name": "[1.20.5] Notebook API Fabric 1.1.13",
-      "version_number": "fabric-1.1.13+1.20.5",
-      "game_versions": [
-        "24w14a"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "eeb8beb6e8fd923b331433febe0911b59a35b12eeb9ec805b4f6be9bd3786e618e343d27444bfaed8876ea9a162bb347ba573090f18231e1b39df2a36e6d2de1",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/q2kz0CsD/Notebook-api-fabric-24w14a-1.1.13%2B1.20.5.jar",
-          "filename": "Notebook-api-fabric-24w14a-1.1.13+1.20.5.jar",
-          "primary": true,
-          "size": 157102
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "91XEWQhm",
-      "name": "[1.20.5] Notebook API Fabric 1.1.12",
-      "version_number": "fabric-1.1.12+1.20.5",
-      "game_versions": [
-        "24w13a"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "eebf7d9565d4ba17cb0f38260a167980f7d13be17519b90a4f6e34249caa5cafe9525477de4efbd04faf5b558795ba4d4c0ceba3fd88ae367bfa15b4a9e56cb6",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/91XEWQhm/Notebook-api-fabric-24w14a-1.1.12%2B1.20.5.jar",
-          "filename": "Notebook-api-fabric-24w14a-1.1.12+1.20.5.jar",
-          "primary": true,
-          "size": 112222
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "SvrzP0Cg",
-      "name": "[1.20.5] Notebook API Fabric 1.1.11",
-      "version_number": "fabric-1.1.11+1.20.5",
-      "game_versions": [
-        "24w13a"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "39660d57a5c48d7298033218f4628dd4388a43527a33237e7e9e05b7e9c5b42030d3e999d93aed9c81520ba4f3a764965fc4b8875825c69b8cf7044b9cb9fd8f",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/SvrzP0Cg/Notebook-api-fabric-24w13a-1.1.11%2B1.20.5.jar",
-          "filename": "Notebook-api-fabric-24w13a-1.1.11+1.20.5.jar",
-          "primary": true,
-          "size": 107347
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "DrwZWHCc",
-      "name": "[1.20.4] Notebook API NeoForge 1.1.10+1.20.4",
-      "version_number": "neoforge-1.1.10+1.20.4",
-      "game_versions": [
+        "1.20.4",
         "1.20.4"
       ],
       "loaders": [
@@ -226,19 +546,19 @@
       ],
       "files": [
         {
-          "sha512": "a8d2a2c005d5a9bef312c5125ca4c8dd48cfa62b1847b40f802545ce54c0b7107a78d2526e30be3297522706b071c0ff1710b1efdb6c9086aae18e01118e0996",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/DrwZWHCc/Notebook-api-neoforge-1.20.4-1.1.10%2B1.20.4.jar",
-          "filename": "Notebook-api-neoforge-1.20.4-1.1.10+1.20.4.jar",
+          "sha512": "0093f43ad8700dadc66cea34975c96b53e2b7a52475f6ea879a406e6804b1c83c550631614ccd9d75e9aec484f500cf19a3327ed643bcbe844a14eaadc43dd86",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/OBurTnr7/Notebook-api-neoforge-1.20.4-1.0.0.1.jar",
+          "filename": "Notebook-api-neoforge-1.20.4-1.0.0.1.jar",
           "primary": true,
-          "size": 106392
+          "size": 6092
         }
       ],
       "dependencies": []
     },
     {
-      "id": "50XIdsvu",
-      "name": "[1.20.4] Notebook API Forge 1.1.10",
-      "version_number": "forge-1.1.10+1.20.4",
+      "id": "PNSlK2Kg",
+      "name": "Notebook API Forge 1.1.0.1",
+      "version_number": "1.1.0.1",
       "game_versions": [
         "1.20.4"
       ],
@@ -247,47 +567,19 @@
       ],
       "files": [
         {
-          "sha512": "7e731df1fed3502412b79fb58c401cb0c86e7790632e8d5e8a8dc2239bdaaefa9f7e2aa156a4ece11fea1cadf8074b80993fa493a8a3b638436cf0d385932189",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/50XIdsvu/Notebook-api-forge-1.20.4-1.1.10%2B1.20.4.jar",
-          "filename": "Notebook-api-forge-1.20.4-1.1.10+1.20.4.jar",
+          "sha512": "ac1456d389d6b991d3a53da932adc3f18845433ad96907ae2995a6cd17b6a3049215d1f7bf45abfc1aefd383cbbe6409339eac94a91f3e012fbc8549cc5e5391",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/PNSlK2Kg/Notebook-api-forge-1.20.4-1.1.0.1.jar",
+          "filename": "Notebook-api-forge-1.20.4-1.1.0.1.jar",
           "primary": true,
-          "size": 108860
+          "size": 108365
         }
       ],
       "dependencies": []
     },
     {
-      "id": "71vMdgHy",
-      "name": "[1.20.4] Notebook API Fabric 1.1.10",
-      "version_number": "fabric-1.1.10+1.20.4",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "907802b2223ee12a9c27b897f2ca18c49afc0f44df918732e47c25bd0acade811eb86418dfb8c1fe4ae2ec6b060907b8cdafbd7035748d82264d4c41a76d6464",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/71vMdgHy/Notebook-api-fabric-1.20.4-1.1.10%2B1.20.4.jar",
-          "filename": "Notebook-api-fabric-1.20.4-1.1.10+1.20.4.jar",
-          "primary": true,
-          "size": 107309
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ss2bixAl",
-      "name": "[1.20.4] Notebook API NeoForge 1.1.9+1.20.4",
-      "version_number": "neoforge-1.1.9+1.20.4",
+      "id": "QCybrHhR",
+      "name": "[1.20.4] Notebook API NeoForge 1.1.8+1.20.4",
+      "version_number": "1.1.8+1.20.4",
       "game_versions": [
         "1.20.4"
       ],
@@ -296,32 +588,11 @@
       ],
       "files": [
         {
-          "sha512": "4a2fda534671d1ce00ab1176696c0a78b4b50650b69dc5b46e9233005af1de3353cb4665e82c040747fab662e421b1a8c032cdc12c3b252dec0c00ec97424e80",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/ss2bixAl/Notebook-api-neoforge-1.20.4-1.1.9%2B1.20.4.jar",
-          "filename": "Notebook-api-neoforge-1.20.4-1.1.9+1.20.4.jar",
+          "sha512": "1eb892ea1dacd2744863311145b7f21cbcfbfc03172a6a57a95bf80b0bc358c9a25749fe03d4c535ee3b276ed29b4671c6426a7cf2a8907bfd4c5916b83f0190",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/QCybrHhR/Notebook-api-neoforge-1.20.4-1.1.8%2B1.20.4.jar",
+          "filename": "Notebook-api-neoforge-1.20.4-1.1.8+1.20.4.jar",
           "primary": true,
-          "size": 108043
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "hlDa72Cf",
-      "name": "[1.20.4] Notebook API Forge 1.1.9",
-      "version_number": "forge-1.1.9+1.20.4",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "8eb1a96449ce998b967511004f0f6b8f322b168ede04e63d5c6e52089e3b6de9def70273c7e4ccc6dd908683fa4ba54920a3aeb5bcf3b9ae69e5040e13113be7",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/hlDa72Cf/Notebook-api-forge-1.20.4-1.1.9%2B1.20.4.jar",
-          "filename": "Notebook-api-forge-1.20.4-1.1.9+1.20.4.jar",
-          "primary": true,
-          "size": 110556
+          "size": 106360
         }
       ],
       "dependencies": []
@@ -355,25 +626,53 @@
       ]
     },
     {
-      "id": "QCybrHhR",
-      "name": "[1.20.4] Notebook API NeoForge 1.1.8+1.20.4",
-      "version_number": "1.1.8+1.20.4",
+      "id": "RvB5XP6F",
+      "name": "Notebook API Forge 1.1.0.3",
+      "version_number": "1.1.0.3",
       "game_versions": [
         "1.20.4"
       ],
       "loaders": [
-        "neoforge"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "1eb892ea1dacd2744863311145b7f21cbcfbfc03172a6a57a95bf80b0bc358c9a25749fe03d4c535ee3b276ed29b4671c6426a7cf2a8907bfd4c5916b83f0190",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/QCybrHhR/Notebook-api-neoforge-1.20.4-1.1.8%2B1.20.4.jar",
-          "filename": "Notebook-api-neoforge-1.20.4-1.1.8+1.20.4.jar",
+          "sha512": "843534a83921dc304c64e67f44912241c563932d39cc14e6f8e81d6e4f890fe900ccb157c8dbc848d25a10f79b401164c38d751d74cf04211c319bd4145f71b6",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/RvB5XP6F/Notebook-api-forge-1.20.4-1.1.0.3.jar",
+          "filename": "Notebook-api-forge-1.20.4-1.1.0.3.jar",
           "primary": true,
-          "size": 106360
+          "size": 111040
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "SvrzP0Cg",
+      "name": "[1.20.5] Notebook API Fabric 1.1.11",
+      "version_number": "fabric-1.1.11+1.20.5",
+      "game_versions": [
+        "24w13a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "39660d57a5c48d7298033218f4628dd4388a43527a33237e7e9e05b7e9c5b42030d3e999d93aed9c81520ba4f3a764965fc4b8875825c69b8cf7044b9cb9fd8f",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/SvrzP0Cg/Notebook-api-fabric-24w13a-1.1.11%2B1.20.5.jar",
+          "filename": "Notebook-api-fabric-24w13a-1.1.11+1.20.5.jar",
+          "primary": true,
+          "size": 107347
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "XI0WliKg",
@@ -392,6 +691,441 @@
           "filename": "Notebook-api-forge-1.20.4-1.1.8+1.20.4.jar",
           "primary": true,
           "size": 108817
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "YQR2I6xS",
+      "name": "Notebook API NeoForge 1.0.0.0",
+      "version_number": "1.0.0.0",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "7f556b56eda660bfddde787e2a50ca10079637c8def0588268748c49c08e1cd202a83051f1b9dda1d34914ef9ddcd674b67ad2088125c88c6ea3e608820785e4",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/YQR2I6xS/Notebook-api-neoforge-1.20.4-1.0.0.0.jar",
+          "filename": "Notebook-api-neoforge-1.20.4-1.0.0.0.jar",
+          "primary": true,
+          "size": 4697
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "YT67v3W4",
+      "name": "Notebook API Fabric 1.1.0.3",
+      "version_number": "1.1.0.3",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e8ca2fc773d64cc76c13db82bfadd1932281854e28b270c62ec1fb7232aeca7f9332af8adabc04864b55a0fb8d3600ccb8eb3ca3278399ce4adffd810e08c29f",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/YT67v3W4/Notebook-api-fabric-1.20.4-1.1.0.3.jar",
+          "filename": "Notebook-api-fabric-1.20.4-1.1.0.3.jar",
+          "primary": true,
+          "size": 109382
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ZEyYq46Q",
+      "name": "Notebook API Fabric 1.0.0.4",
+      "version_number": "1.0.0.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c4bfcd1fc48a333d01a48a9f4140bc0f90945c45f2df463ccef7071ab31e0f4cb7f6627b023bdc5e3fe6278ebea8daac8abfee580adaa65397dd4b9c3fb03478",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/ZEyYq46Q/Notebook-api-fabric-1.20.4-1.0.0.4.jar",
+          "filename": "Notebook-api-fabric-1.20.4-1.0.0.4.jar",
+          "primary": true,
+          "size": 47637
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ZUrATiHs",
+      "name": "Notebook API Fabric 1.1.0.5",
+      "version_number": "1.1.0.5",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "75a746889b6bad90365643b3ae2ae7db151926190eb82c46177660356f65beef70323db7b88113f8ee8fd7a20aa6fb194fa1c16fffbd53c3e4834575a181abfc",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/ZUrATiHs/Notebook-api-fabric-1.20.4-1.1.0.5.jar",
+          "filename": "Notebook-api-fabric-1.20.4-1.1.0.5.jar",
+          "primary": true,
+          "size": 109451
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "bAoGyI0b",
+      "name": "Notebook API Forge 1.1.0.2",
+      "version_number": "1.1.0.2",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8a2504455d6f9e14c8bfce2aacfe08315fe66fa09a8e64dd07bef91cb2cc25e2b40a0b13a9f6cf76e9043546b37b10aa24b6361af69c04e54b1143642d277d46",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/bAoGyI0b/Notebook-api-forge-1.20.4-1.1.0.2.jar",
+          "filename": "Notebook-api-forge-1.20.4-1.1.0.2.jar",
+          "primary": true,
+          "size": 108365
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "fJb8RdYt",
+      "name": "Notebook API NeoForge 1.1.0.6",
+      "version_number": "1.1.0.6",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "5921682437f90a426f3b3a6590b95f9b310798071ae70cfead66e27b1ce552b072580b6c58c56270aa79f73ed880ae0a1e1ca43ef03775ad373b8703b7a1c5ce",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/fJb8RdYt/Notebook-api-neoforge-1.20.4-1.1.0.6.jar",
+          "filename": "Notebook-api-neoforge-1.20.4-1.1.0.6.jar",
+          "primary": true,
+          "size": 111458
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "hlDa72Cf",
+      "name": "[1.20.4] Notebook API Forge 1.1.9",
+      "version_number": "forge-1.1.9+1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8eb1a96449ce998b967511004f0f6b8f322b168ede04e63d5c6e52089e3b6de9def70273c7e4ccc6dd908683fa4ba54920a3aeb5bcf3b9ae69e5040e13113be7",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/hlDa72Cf/Notebook-api-forge-1.20.4-1.1.9%2B1.20.4.jar",
+          "filename": "Notebook-api-forge-1.20.4-1.1.9+1.20.4.jar",
+          "primary": true,
+          "size": 110556
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ii9S1JWE",
+      "name": "Notebook API NeoForge 1.1.0.4",
+      "version_number": "1.1.0.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "06fbd025c95b314baba4dd2df3eb51a73851d241d582e60351a6d00fc9205b510ea9a1ae3db3422e7064259101688bb7bbe6e67d0ae9e37a8e29975d3eef6b5f",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/ii9S1JWE/Notebook-api-neoforge-1.20.4-1.1.0.4.jar",
+          "filename": "Notebook-api-neoforge-1.20.4-1.1.0.4.jar",
+          "primary": true,
+          "size": 112525
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "jOiryYC6",
+      "name": "Notebook API Forge 1.0.0.1",
+      "version_number": "1.0.0.1",
+      "game_versions": [
+        "1.20.4",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8fec755ecb51bdd7bdba93bd8504c723c0676c444e815ff199fcf056959a01c608929e993f74e4712c1a80a4e40ee5ba08107004c502fd4d8b2259fb6129f2d4",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/jOiryYC6/Notebook-api-forge-1.20.4-1.0.0.1.jar",
+          "filename": "Notebook-api-forge-1.20.4-1.0.0.1.jar",
+          "primary": true,
+          "size": 6433
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "jluhxFqJ",
+      "name": "[1.20.4] Notebook API Forge 1.1.7",
+      "version_number": "forge-1.1.7+1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "fc3dc7673a66432c711988438a072c42063c73c3dcb98bf4a3443452a441559430502fd2f7a6a476996b597af786ee9be00f6c46c31644ee5ceef3fa7e8ec624",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/jluhxFqJ/Notebook-api-forge-1.20.4.jar",
+          "filename": "Notebook-api-forge-1.20.4.jar",
+          "primary": true,
+          "size": 109081
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "kyazSUFh",
+      "name": "Notebook API NeoForge 1.1.0.5",
+      "version_number": "1.1.0.5",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "b599aec5e8cc8ad2384ae1f025d89a1ac9fd435f5d6c7341efa237b8c429ee6433a415530442fcdc3f1d0fef784c640bcd0dc14a45e63298dea7f3a609d1493e",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/kyazSUFh/Notebook-api-neoforge-1.20.4-1.1.0.5.jar",
+          "filename": "Notebook-api-neoforge-1.20.4-1.1.0.5.jar",
+          "primary": true,
+          "size": 112593
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "nf9Ovb7p",
+      "name": "[1.20.4] Notebook API Fabric 1.1.7",
+      "version_number": "fabric-1.1.7+1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "36b9164c2352de06daa0cae152a5bbcb65cc311f481daeada2bf3832d07e4005cd67c7c771ec18dd39b013325eebd2a55cdcc119ef17975b5e44f74a8e2bc8c0",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/nf9Ovb7p/Notebook-api-fabric-1.20.4.jar",
+          "filename": "Notebook-api-fabric-1.20.4.jar",
+          "primary": true,
+          "size": 107254
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "oEWrAuPl",
+      "name": "Notebook API Fabric 1.1.0.2",
+      "version_number": "1.1.0.2",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "44357367e53cbc95e2f5f5a0c0275979d8cf624efd1833b283eaedbe0b5b1b580473f2c8f254416148fd89c317ebed7963d74d239bfc9ac0f390edec3a014d5e",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/oEWrAuPl/Notebook-api-fabric-1.20.4-1.1.0.2.jar",
+          "filename": "Notebook-api-fabric-1.20.4-1.1.0.2.jar",
+          "primary": true,
+          "size": 106767
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "orJgYHL6",
+      "name": "Notebook API NeoForge 1.1.0.3",
+      "version_number": "1.1.0.3",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "c8a21bd259130eae42516846ad521a4bbc9bf27a4ca58f44c75c624d9a2582350c07e8fecf79aec01677c1a86e5e865994e6133a6e04011c5311d33b89e42e65",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/orJgYHL6/Notebook-api-neoforge-1.20.4-1.1.0.3.jar",
+          "filename": "Notebook-api-neoforge-1.20.4-1.1.0.3.jar",
+          "primary": true,
+          "size": 108226
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "q2kz0CsD",
+      "name": "[1.20.5] Notebook API Fabric 1.1.13",
+      "version_number": "fabric-1.1.13+1.20.5",
+      "game_versions": [
+        "24w14a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "eeb8beb6e8fd923b331433febe0911b59a35b12eeb9ec805b4f6be9bd3786e618e343d27444bfaed8876ea9a162bb347ba573090f18231e1b39df2a36e6d2de1",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/q2kz0CsD/Notebook-api-fabric-24w14a-1.1.13%2B1.20.5.jar",
+          "filename": "Notebook-api-fabric-24w14a-1.1.13+1.20.5.jar",
+          "primary": true,
+          "size": 157102
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "q8YKImY0",
+      "name": "Notebook API Forge 1.1.0.5",
+      "version_number": "1.1.0.5",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "3b69ffe727df810387862bf53c2182946e177f2cd5092a4c222619eea32086f60ba84e7a771a6dc50b22a36e517cc5246859f6696365e9e68de9390e0c1a8233",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/q8YKImY0/Notebook-api-forge-1.20.4-1.1.0.5.jar",
+          "filename": "Notebook-api-forge-1.20.4-1.1.0.5.jar",
+          "primary": true,
+          "size": 111294
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "qdIDGayd",
+      "name": "Notebook API NeoForge 1.1.0.2",
+      "version_number": "1.1.0.2",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "ba4c356a4d18c057c1e177aecf9eeea3abd81536c5949040247d779f1a31dd0ea489e406fa03dd5fb7981a702b409d48949ca084be75a542ea3b64f5f6082af3",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/qdIDGayd/Notebook-api-neoforge-1.20.4-1.1.0.2.jar",
+          "filename": "Notebook-api-neoforge-1.20.4-1.1.0.2.jar",
+          "primary": true,
+          "size": 105680
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rHDKS4L5",
+      "name": "Notebook API Forge 1.0.0.0",
+      "version_number": "1.0.0.0",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5104e04187b94229aeb471c52487de7a6bb61e9e9a193fda5074e65fa59522f6bfea6a2e43d6ef47b62a7d82b995de10abca617e38120cfff69772fd17b29bef",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/rHDKS4L5/Notebook-api-forge-1.20.4-1.0.0.0.jar",
+          "filename": "Notebook-api-forge-1.20.4-1.0.0.0.jar",
+          "primary": true,
+          "size": 5000
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ss2bixAl",
+      "name": "[1.20.4] Notebook API NeoForge 1.1.9+1.20.4",
+      "version_number": "neoforge-1.1.9+1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "4a2fda534671d1ce00ab1176696c0a78b4b50650b69dc5b46e9233005af1de3353cb4665e82c040747fab662e421b1a8c032cdc12c3b252dec0c00ec97424e80",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/ss2bixAl/Notebook-api-neoforge-1.20.4-1.1.9%2B1.20.4.jar",
+          "filename": "Notebook-api-neoforge-1.20.4-1.1.9+1.20.4.jar",
+          "primary": true,
+          "size": 108043
         }
       ],
       "dependencies": []
@@ -446,43 +1180,22 @@
       "dependencies": []
     },
     {
-      "id": "jluhxFqJ",
-      "name": "[1.20.4] Notebook API Forge 1.1.7",
-      "version_number": "forge-1.1.7+1.20.4",
+      "id": "xcPSSlqn",
+      "name": "[1.20.5] Notebook API Fabric 1.1.14",
+      "version_number": "fabric-1.1.14+1.20.5",
       "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "fc3dc7673a66432c711988438a072c42063c73c3dcb98bf4a3443452a441559430502fd2f7a6a476996b597af786ee9be00f6c46c31644ee5ceef3fa7e8ec624",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/jluhxFqJ/Notebook-api-forge-1.20.4.jar",
-          "filename": "Notebook-api-forge-1.20.4.jar",
-          "primary": true,
-          "size": 109081
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "nf9Ovb7p",
-      "name": "[1.20.4] Notebook API Fabric 1.1.7",
-      "version_number": "fabric-1.1.7+1.20.4",
-      "game_versions": [
-        "1.20.4"
+        "24w14a"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "36b9164c2352de06daa0cae152a5bbcb65cc311f481daeada2bf3832d07e4005cd67c7c771ec18dd39b013325eebd2a55cdcc119ef17975b5e44f74a8e2bc8c0",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/nf9Ovb7p/Notebook-api-fabric-1.20.4.jar",
-          "filename": "Notebook-api-fabric-1.20.4.jar",
+          "sha512": "25e0d4f03abff2a838f5ae4112f8200a523706bb8e5facc94da08361badc4bd5dfaf29b016b9d96c1692b49a6d07b4f5ec30937a6218956f53ea4efd89b37bea",
+          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/xcPSSlqn/Notebook-api-fabric-24w14a-1.1.14%2B1.20.5.jar",
+          "filename": "Notebook-api-fabric-24w14a-1.1.14+1.20.5.jar",
           "primary": true,
-          "size": 107254
+          "size": 214732
         }
       ],
       "dependencies": [
@@ -493,27 +1206,6 @@
           "dependency_type": "required"
         }
       ]
-    },
-    {
-      "id": "fJb8RdYt",
-      "name": "Notebook API NeoForge 1.1.0.6",
-      "version_number": "1.1.0.6",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "5921682437f90a426f3b3a6590b95f9b310798071ae70cfead66e27b1ce552b072580b6c58c56270aa79f73ed880ae0a1e1ca43ef03775ad373b8703b7a1c5ce",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/fJb8RdYt/Notebook-api-neoforge-1.20.4-1.1.0.6.jar",
-          "filename": "Notebook-api-neoforge-1.20.4-1.1.0.6.jar",
-          "primary": true,
-          "size": 111458
-        }
-      ],
-      "dependencies": []
     },
     {
       "id": "xsjUG6QI",
@@ -537,412 +1229,6 @@
       "dependencies": []
     },
     {
-      "id": "Mlp88XXq",
-      "name": "Notebook API Fabric 1.1.0.6",
-      "version_number": "1.1.0.6",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f87b7071c7b05d2a602c867cf4be118672532a38038d49079352ba428c7071de0bc5633ec6e92a9cb64a7eb9ff37573ad3ba671f414028f2b54d22ba89c05853",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/Mlp88XXq/Notebook-api-fabric-1.20.4-1.1.0.6.jar",
-          "filename": "Notebook-api-fabric-1.20.4-1.1.0.6.jar",
-          "primary": true,
-          "size": 108292
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "kyazSUFh",
-      "name": "Notebook API NeoForge 1.1.0.5",
-      "version_number": "1.1.0.5",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "b599aec5e8cc8ad2384ae1f025d89a1ac9fd435f5d6c7341efa237b8c429ee6433a415530442fcdc3f1d0fef784c640bcd0dc14a45e63298dea7f3a609d1493e",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/kyazSUFh/Notebook-api-neoforge-1.20.4-1.1.0.5.jar",
-          "filename": "Notebook-api-neoforge-1.20.4-1.1.0.5.jar",
-          "primary": true,
-          "size": 112593
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "q8YKImY0",
-      "name": "Notebook API Forge 1.1.0.5",
-      "version_number": "1.1.0.5",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "3b69ffe727df810387862bf53c2182946e177f2cd5092a4c222619eea32086f60ba84e7a771a6dc50b22a36e517cc5246859f6696365e9e68de9390e0c1a8233",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/q8YKImY0/Notebook-api-forge-1.20.4-1.1.0.5.jar",
-          "filename": "Notebook-api-forge-1.20.4-1.1.0.5.jar",
-          "primary": true,
-          "size": 111294
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ZUrATiHs",
-      "name": "Notebook API Fabric 1.1.0.5",
-      "version_number": "1.1.0.5",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "75a746889b6bad90365643b3ae2ae7db151926190eb82c46177660356f65beef70323db7b88113f8ee8fd7a20aa6fb194fa1c16fffbd53c3e4834575a181abfc",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/ZUrATiHs/Notebook-api-fabric-1.20.4-1.1.0.5.jar",
-          "filename": "Notebook-api-fabric-1.20.4-1.1.0.5.jar",
-          "primary": true,
-          "size": 109451
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ii9S1JWE",
-      "name": "Notebook API NeoForge 1.1.0.4",
-      "version_number": "1.1.0.4",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "06fbd025c95b314baba4dd2df3eb51a73851d241d582e60351a6d00fc9205b510ea9a1ae3db3422e7064259101688bb7bbe6e67d0ae9e37a8e29975d3eef6b5f",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/ii9S1JWE/Notebook-api-neoforge-1.20.4-1.1.0.4.jar",
-          "filename": "Notebook-api-neoforge-1.20.4-1.1.0.4.jar",
-          "primary": true,
-          "size": 112525
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "BL33mwuf",
-      "name": "Notebook API Forge 1.1.0.4",
-      "version_number": "1.1.0.4",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "cf5e502a4ba3a7259ae5eba5f61043adc698adc4300261f3ddc6c5b411e4458cb00304bf071472abb4c9ebec6e6a3f26fbc128f8df24c404481a58826608576a",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/BL33mwuf/Notebook-api-forge-1.20.4-1.1.0.4.jar",
-          "filename": "Notebook-api-forge-1.20.4-1.1.0.4.jar",
-          "primary": true,
-          "size": 115383
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ENtpXFTz",
-      "name": "Notebook API Fabric 1.1.0.4",
-      "version_number": "1.1.0.4",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "293aa3991b2c213c84d29e5cd931e7509c0ca3cf5cf49c1e48be2dc01c8d6d6a4b707aa9fd2585dd34bc8cb44f0ef6c5305df9031b3941806e0450f317215f3f",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/ENtpXFTz/Notebook-api-fabric-1.20.4-1.1.0.4.jar",
-          "filename": "Notebook-api-fabric-1.20.4-1.1.0.4.jar",
-          "primary": true,
-          "size": 109380
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "orJgYHL6",
-      "name": "Notebook API NeoForge 1.1.0.3",
-      "version_number": "1.1.0.3",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "c8a21bd259130eae42516846ad521a4bbc9bf27a4ca58f44c75c624d9a2582350c07e8fecf79aec01677c1a86e5e865994e6133a6e04011c5311d33b89e42e65",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/orJgYHL6/Notebook-api-neoforge-1.20.4-1.1.0.3.jar",
-          "filename": "Notebook-api-neoforge-1.20.4-1.1.0.3.jar",
-          "primary": true,
-          "size": 108226
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "RvB5XP6F",
-      "name": "Notebook API Forge 1.1.0.3",
-      "version_number": "1.1.0.3",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "843534a83921dc304c64e67f44912241c563932d39cc14e6f8e81d6e4f890fe900ccb157c8dbc848d25a10f79b401164c38d751d74cf04211c319bd4145f71b6",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/RvB5XP6F/Notebook-api-forge-1.20.4-1.1.0.3.jar",
-          "filename": "Notebook-api-forge-1.20.4-1.1.0.3.jar",
-          "primary": true,
-          "size": 111040
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "YT67v3W4",
-      "name": "Notebook API Fabric 1.1.0.3",
-      "version_number": "1.1.0.3",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e8ca2fc773d64cc76c13db82bfadd1932281854e28b270c62ec1fb7232aeca7f9332af8adabc04864b55a0fb8d3600ccb8eb3ca3278399ce4adffd810e08c29f",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/YT67v3W4/Notebook-api-fabric-1.20.4-1.1.0.3.jar",
-          "filename": "Notebook-api-fabric-1.20.4-1.1.0.3.jar",
-          "primary": true,
-          "size": 109382
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "oEWrAuPl",
-      "name": "Notebook API Fabric 1.1.0.2",
-      "version_number": "1.1.0.2",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "44357367e53cbc95e2f5f5a0c0275979d8cf624efd1833b283eaedbe0b5b1b580473f2c8f254416148fd89c317ebed7963d74d239bfc9ac0f390edec3a014d5e",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/oEWrAuPl/Notebook-api-fabric-1.20.4-1.1.0.2.jar",
-          "filename": "Notebook-api-fabric-1.20.4-1.1.0.2.jar",
-          "primary": true,
-          "size": 106767
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "qdIDGayd",
-      "name": "Notebook API NeoForge 1.1.0.2",
-      "version_number": "1.1.0.2",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "ba4c356a4d18c057c1e177aecf9eeea3abd81536c5949040247d779f1a31dd0ea489e406fa03dd5fb7981a702b409d48949ca084be75a542ea3b64f5f6082af3",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/qdIDGayd/Notebook-api-neoforge-1.20.4-1.1.0.2.jar",
-          "filename": "Notebook-api-neoforge-1.20.4-1.1.0.2.jar",
-          "primary": true,
-          "size": 105680
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "bAoGyI0b",
-      "name": "Notebook API Forge 1.1.0.2",
-      "version_number": "1.1.0.2",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "8a2504455d6f9e14c8bfce2aacfe08315fe66fa09a8e64dd07bef91cb2cc25e2b40a0b13a9f6cf76e9043546b37b10aa24b6361af69c04e54b1143642d277d46",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/bAoGyI0b/Notebook-api-forge-1.20.4-1.1.0.2.jar",
-          "filename": "Notebook-api-forge-1.20.4-1.1.0.2.jar",
-          "primary": true,
-          "size": 108365
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "83moN45C",
-      "name": "Notebook API NeoForge 1.1.0.1",
-      "version_number": "1.1.0.1",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "bfe881659f5d7ef2a22b81b47df6b5454c5a9cbb6d10b2c89050feecfafeb9189bbc32989a0a9955f92349b72364a8a7d02bf7068ac5d241bd2d661473ff82b5",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/83moN45C/Notebook-api-neoforge-1.20.4-1.1.0.1.jar",
-          "filename": "Notebook-api-neoforge-1.20.4-1.1.0.1.jar",
-          "primary": true,
-          "size": 105677
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "PNSlK2Kg",
-      "name": "Notebook API Forge 1.1.0.1",
-      "version_number": "1.1.0.1",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "ac1456d389d6b991d3a53da932adc3f18845433ad96907ae2995a6cd17b6a3049215d1f7bf45abfc1aefd383cbbe6409339eac94a91f3e012fbc8549cc5e5391",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/PNSlK2Kg/Notebook-api-forge-1.20.4-1.1.0.1.jar",
-          "filename": "Notebook-api-forge-1.20.4-1.1.0.1.jar",
-          "primary": true,
-          "size": 108365
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "JWh7nHDL",
-      "name": "Notebook API Fabric 1.1.0.1",
-      "version_number": "1.1.0.1",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "194c3f98592bca8915c1a3b9ee05481ecabbe4bd92640785e9a402a9bd09276263fa669be247660df218103e37286c79919bb30aa62d4c9885a1fec17ee5226e",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/JWh7nHDL/Notebook-api-fabric-1.20.4-1.1.0.1.jar",
-          "filename": "Notebook-api-fabric-1.20.4-1.1.0.1.jar",
-          "primary": true,
-          "size": 106768
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ZEyYq46Q",
-      "name": "Notebook API Fabric 1.0.0.4",
-      "version_number": "1.0.0.4",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c4bfcd1fc48a333d01a48a9f4140bc0f90945c45f2df463ccef7071ab31e0f4cb7f6627b023bdc5e3fe6278ebea8daac8abfee580adaa65397dd4b9c3fb03478",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/ZEyYq46Q/Notebook-api-fabric-1.20.4-1.0.0.4.jar",
-          "filename": "Notebook-api-fabric-1.20.4-1.0.0.4.jar",
-          "primary": true,
-          "size": 47637
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "z62xCEYn",
       "name": "Notebook API NeoForge 1.0.0.4",
       "version_number": "1.0.0.4",
@@ -959,121 +1245,6 @@
           "filename": "Notebook-api-neoforge-1.20.4-1.0.0.4.jar",
           "primary": true,
           "size": 46772
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "3OJL92Yq",
-      "name": "Notebook API Forge 1.0.0.4",
-      "version_number": "1.0.0.4",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "2aa2d24d17f4f6e67b0bd02619a2b5ed8fd17c9cfd09c7c5ae439805bb8d0aefeead5923c4c5e68bd1002795640b537bc84aa9590964b62127e6c44bb37bb33c",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/3OJL92Yq/Notebook-api-forge-1.20.4-1.0.0.4.jar",
-          "filename": "Notebook-api-forge-1.20.4-1.0.0.4.jar",
-          "primary": true,
-          "size": 48576
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "5PgxIDlg",
-      "name": "Notebook API NeoForge 1.0.0.3",
-      "version_number": "1.0.0.3",
-      "game_versions": [
-        "1.20.4",
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "bf9aa9e240e364f2c75b234d95e346d7a17448341879510fec1a362927dc04bb2a55694708cda128e5eb44f4190ebb7211cc4a4828856836e560ca711276a58f",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/5PgxIDlg/Notebook-api-neoforge-1.20.4-1.0.0.3.jar",
-          "filename": "Notebook-api-neoforge-1.20.4-1.0.0.3.jar",
-          "primary": true,
-          "size": 34264
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "7KGl9hrP",
-      "name": "Notebook API Fabric 1.0.0.3",
-      "version_number": "1.0.0.3",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9743423f877245f1fa70079558a03ae020b541d450054b7ca489b7ce587d7fe8db76c446e1be92b2139c0087b8493dddbbeea10a99618f5c8a748328a0f2cfc3",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/7KGl9hrP/Notebook-api-fabric-1.20.4-1.0.0.3.jar",
-          "filename": "Notebook-api-fabric-1.20.4-1.0.0.3.jar",
-          "primary": true,
-          "size": 34953
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ConlVpDt",
-      "name": "Notebook API Forge 1.0.0.3",
-      "version_number": "1.0.0.3",
-      "game_versions": [
-        "1.20.4",
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "024e94c212905c78567df4c329da6f7bbd042169e089692230cd83cbb7f611333d402169ec78c7aa18ee81988fd385aaa999190e3e832d8e4728cb0c0be5e7c7",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/ConlVpDt/Notebook-api-forge-1.20.4-1.0.0.3.jar",
-          "filename": "Notebook-api-forge-1.20.4-1.0.0.3.jar",
-          "primary": true,
-          "size": 35758
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "MidF2wwa",
-      "name": "Notebook API NeoForge 1.0.0.2",
-      "version_number": "1.0.0.2",
-      "game_versions": [
-        "1.20.4",
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "24eca80684935e7f5fdc371d43596db7e12518659bbde94ce9037fb4801fd1c645989b7708db1a6b710502346c2e41f8fba2fa59c00b0dab268419da2e7f744d",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/MidF2wwa/Notebook-api-neoforge-1.20.4-1.0.0.2.jar",
-          "filename": "Notebook-api-neoforge-1.20.4-1.0.0.2.jar",
-          "primary": true,
-          "size": 33769
         }
       ],
       "dependencies": []
@@ -1096,177 +1267,6 @@
           "filename": "Notebook-api-forge-1.20.4-1.0.0.2.jar",
           "primary": true,
           "size": 34920
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "I6ZefiZJ",
-      "name": "Notebook API Fabric 1.0.0.2",
-      "version_number": "1.0.0.2",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "3d66a678a129b1c6339cc6ea55af941a99010d2c5cccfaaf01456ed868f601ea0a82b27a033f8b0a4286521650ad8832e86c4bbb79391e828c28659b1597a71f",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/I6ZefiZJ/Notebook-api-fabric-1.20.4-1.0.0.2.jar",
-          "filename": "Notebook-api-fabric-1.20.4-1.0.0.2.jar",
-          "primary": true,
-          "size": 35031
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "OBurTnr7",
-      "name": "Notebook API NeoForge 1.0.0.1",
-      "version_number": "1.0.0.1",
-      "game_versions": [
-        "1.20.4",
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "0093f43ad8700dadc66cea34975c96b53e2b7a52475f6ea879a406e6804b1c83c550631614ccd9d75e9aec484f500cf19a3327ed643bcbe844a14eaadc43dd86",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/OBurTnr7/Notebook-api-neoforge-1.20.4-1.0.0.1.jar",
-          "filename": "Notebook-api-neoforge-1.20.4-1.0.0.1.jar",
-          "primary": true,
-          "size": 6092
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "jOiryYC6",
-      "name": "Notebook API Forge 1.0.0.1",
-      "version_number": "1.0.0.1",
-      "game_versions": [
-        "1.20.4",
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "8fec755ecb51bdd7bdba93bd8504c723c0676c444e815ff199fcf056959a01c608929e993f74e4712c1a80a4e40ee5ba08107004c502fd4d8b2259fb6129f2d4",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/jOiryYC6/Notebook-api-forge-1.20.4-1.0.0.1.jar",
-          "filename": "Notebook-api-forge-1.20.4-1.0.0.1.jar",
-          "primary": true,
-          "size": 6433
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "43CfBp4C",
-      "name": "Notebook API Fabric 1.0.0.1",
-      "version_number": "1.0.0.1",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d9d4d9c667326299bd71e3dfb8996da0fcc2bda2240a9e0f7237362d9d75f4605665e5cfdaa44538818682b0c2a52537e15e89b8844c2a9a1fd0bcd21739dddf",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/43CfBp4C/Notebook-api-fabric-1.20.4-1.0.0.1.jar",
-          "filename": "Notebook-api-fabric-1.20.4-1.0.0.1.jar",
-          "primary": true,
-          "size": 6564
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "HNHcASZG",
-      "name": "Notebook API Fabric 1.0.0.0",
-      "version_number": "1.0.0.0",
-      "game_versions": [
-        "1.20.4",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "41e706e9bc440ec9ba11c5bf468fa06841804c983227060a1c7ddf9614d72e1ed84ebc266be988d3d9977ddb7ee8b9e2a0630eeb4d1616a97e371f37f01cd42e",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/HNHcASZG/Notebook-api-fabric-1.20.4-1.0.0.0.jar",
-          "filename": "Notebook-api-fabric-1.20.4-1.0.0.0.jar",
-          "primary": true,
-          "size": 5097
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "YQR2I6xS",
-      "name": "Notebook API NeoForge 1.0.0.0",
-      "version_number": "1.0.0.0",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "7f556b56eda660bfddde787e2a50ca10079637c8def0588268748c49c08e1cd202a83051f1b9dda1d34914ef9ddcd674b67ad2088125c88c6ea3e608820785e4",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/YQR2I6xS/Notebook-api-neoforge-1.20.4-1.0.0.0.jar",
-          "filename": "Notebook-api-neoforge-1.20.4-1.0.0.0.jar",
-          "primary": true,
-          "size": 4697
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "rHDKS4L5",
-      "name": "Notebook API Forge 1.0.0.0",
-      "version_number": "1.0.0.0",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "5104e04187b94229aeb471c52487de7a6bb61e9e9a193fda5074e65fa59522f6bfea6a2e43d6ef47b62a7d82b995de10abca617e38120cfff69772fd17b29bef",
-          "url": "https://cdn.modrinth.com/data/WeQP0y4j/versions/rHDKS4L5/Notebook-api-forge-1.20.4-1.0.0.0.jar",
-          "filename": "Notebook-api-forge-1.20.4-1.0.0.0.jar",
-          "primary": true,
-          "size": 5000
         }
       ],
       "dependencies": []

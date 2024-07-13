@@ -5,68 +5,6 @@
   "description": "Balances the mods from Valley!",
   "versions": [
     {
-      "id": "F8AnCAh8",
-      "name": "2.0i",
-      "version_number": "2.0i",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "94aafec470f1048f4e8fb6dcf707f76060b0bccbe04b0d2e136e565a9d1e6d744e632545bf90e272fdb736091dd7640bfea4a8f20cbd93bf057aa1a70faf2da2",
-          "url": "https://cdn.modrinth.com/data/OVzZbbGd/versions/F8AnCAh8/Valley%20Balance%202.0i.zip",
-          "filename": "Valley Balance 2.0i.zip",
-          "primary": true,
-          "size": 31369
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "wxykJBSf",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "bk6FRdxU",
-      "name": "1.7",
-      "version_number": "1.7",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "e95d72753dca1f7513dc6201aea0660095e531d3d3b34950992c9ffa81a6a25b98512b8316d76b0a556bc629bc561d20b9b849ba37aa414304d13e97a4916f4c",
-          "url": "https://cdn.modrinth.com/data/OVzZbbGd/versions/bk6FRdxU/Valley%20Balance%201.7.zip",
-          "filename": "Valley Balance 1.7.zip",
-          "primary": true,
-          "size": 32974
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "cX8J5FQT",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "wxykJBSf",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "F1GoAIZq",
       "name": "1.6",
       "version_number": "1.6",
@@ -83,6 +21,34 @@
           "filename": "Rot Balans 1.6.zip",
           "primary": true,
           "size": 166536
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "wxykJBSf",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "F8AnCAh8",
+      "name": "2.0i",
+      "version_number": "2.0i",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "94aafec470f1048f4e8fb6dcf707f76060b0bccbe04b0d2e136e565a9d1e6d744e632545bf90e272fdb736091dd7640bfea4a8f20cbd93bf057aa1a70faf2da2",
+          "url": "https://cdn.modrinth.com/data/OVzZbbGd/versions/F8AnCAh8/Valley%20Balance%202.0i.zip",
+          "filename": "Valley Balance 2.0i.zip",
+          "primary": true,
+          "size": 31369
         }
       ],
       "dependencies": [
@@ -116,6 +82,40 @@
       "dependencies": []
     },
     {
+      "id": "bk6FRdxU",
+      "name": "1.7",
+      "version_number": "1.7",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "e95d72753dca1f7513dc6201aea0660095e531d3d3b34950992c9ffa81a6a25b98512b8316d76b0a556bc629bc561d20b9b849ba37aa414304d13e97a4916f4c",
+          "url": "https://cdn.modrinth.com/data/OVzZbbGd/versions/bk6FRdxU/Valley%20Balance%201.7.zip",
+          "filename": "Valley Balance 1.7.zip",
+          "primary": true,
+          "size": 32974
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "wxykJBSf",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "cX8J5FQT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "wU1IgOjh",
       "name": "1.1",
       "version_number": "1.1",
@@ -136,12 +136,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "ZXOYCX2A",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "fFEIiSDQ",
           "version_id": null,
           "file_name": null,
@@ -149,6 +143,12 @@
         },
         {
           "project_id": "LOpKHB2A",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ZXOYCX2A",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"

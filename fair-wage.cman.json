@@ -5,35 +5,25 @@
   "description": "Add's Numismatic Overhaul compatibility to Bountiful",
   "versions": [
     {
-      "id": "uzBocY7p",
-      "name": "Fair wage clutter",
+      "id": "BzLU0wCs",
+      "name": "Fair wage",
       "version_number": "0.0.1",
       "game_versions": [
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
         "1.19",
         "1.19.1",
         "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.19.3"
       ],
       "loaders": [
         "datapack"
       ],
       "files": [
         {
-          "sha512": "63a9693d944a0e91740e220303bc7bc854f09699d6ef3c11d2a65c4723ea1e66bfbf7d29358e698d5003ebde5c8fe940f99aa0c2701c1b491df1798f1f63befb",
-          "url": "https://cdn.modrinth.com/data/6YOmm63e/versions/uzBocY7p/Fair-wage-clutter.zip",
-          "filename": "Fair-wage-clutter.zip",
+          "sha512": "0ce127c2c024c150c8aa5f89c2c42d647027fcaf92be277544daf0bea1e62c492198d0517f0a46f4f1161e7c67226c9dfb1ffe86976db84cc94ceb11fac60673",
+          "url": "https://cdn.modrinth.com/data/6YOmm63e/versions/BzLU0wCs/Fair-wage.zip",
+          "filename": "Fair-wage.zip",
           "primary": true,
-          "size": 151234
+          "size": 116745
         }
       ],
       "dependencies": [
@@ -44,7 +34,82 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "KZAmykow",
+          "project_id": "ZXm8hVxN",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Gnw9ZZBZ",
+      "name": "Fair wage",
+      "version_number": "0.0.1+mod",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "06261497e62653fb3b2c81d12d00c0fa8c7463112b3b929df7d4bfd2ad60ab3d6c2f375f61dbf116f03dc61c65f755d1ac5a893df6f4d79bdb3fbcc87864c745",
+          "url": "https://cdn.modrinth.com/data/6YOmm63e/versions/Gnw9ZZBZ/fair-wage-0.0.1.jar",
+          "filename": "fair-wage-0.0.1.jar",
+          "primary": true,
+          "size": 278950
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "BpwWFOVM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ZXm8hVxN",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "HFyuhx6C",
+      "name": "Fair-wage",
+      "version_number": "0.0.1+mod",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "7de75afd9bfb435535c5168a2e3edce9ffdaa2ecf9df819e10c06812b0c3b68c9e2df640b12a2e72b6a6e41cd6714c5b565fc888e7b82cab0dbf9aebd775fdfe",
+          "url": "https://cdn.modrinth.com/data/6YOmm63e/versions/HFyuhx6C/fair-wage-0.0.1.jar",
+          "filename": "fair-wage-0.0.1.jar",
+          "primary": true,
+          "size": 279849
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ZXm8hVxN",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "BpwWFOVM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -85,6 +150,40 @@
         },
         {
           "project_id": "ZXm8hVxN",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ThiJmMuz",
+      "name": "Fair-wage",
+      "version_number": "0.0.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "cce0f0c2b3b68ce13470e23dd6b92af6f4a75c7886a599e6ad06d30d8919db9f5c44e18badce1474ff9b744fae13ac7feab0af4635b866c8913bab2949785afe",
+          "url": "https://cdn.modrinth.com/data/6YOmm63e/versions/ThiJmMuz/Fair-wage.zip",
+          "filename": "Fair-wage.zip",
+          "primary": true,
+          "size": 116744
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ZXm8hVxN",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "BpwWFOVM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -144,97 +243,35 @@
       ]
     },
     {
-      "id": "HFyuhx6C",
-      "name": "Fair-wage",
-      "version_number": "0.0.1+mod",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "7de75afd9bfb435535c5168a2e3edce9ffdaa2ecf9df819e10c06812b0c3b68c9e2df640b12a2e72b6a6e41cd6714c5b565fc888e7b82cab0dbf9aebd775fdfe",
-          "url": "https://cdn.modrinth.com/data/6YOmm63e/versions/HFyuhx6C/fair-wage-0.0.1.jar",
-          "filename": "fair-wage-0.0.1.jar",
-          "primary": true,
-          "size": 279849
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ZXm8hVxN",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "BpwWFOVM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ThiJmMuz",
-      "name": "Fair-wage",
+      "id": "uzBocY7p",
+      "name": "Fair wage clutter",
       "version_number": "0.0.1",
       "game_versions": [
-        "1.18.2"
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
         "datapack"
       ],
       "files": [
         {
-          "sha512": "cce0f0c2b3b68ce13470e23dd6b92af6f4a75c7886a599e6ad06d30d8919db9f5c44e18badce1474ff9b744fae13ac7feab0af4635b866c8913bab2949785afe",
-          "url": "https://cdn.modrinth.com/data/6YOmm63e/versions/ThiJmMuz/Fair-wage.zip",
-          "filename": "Fair-wage.zip",
+          "sha512": "63a9693d944a0e91740e220303bc7bc854f09699d6ef3c11d2a65c4723ea1e66bfbf7d29358e698d5003ebde5c8fe940f99aa0c2701c1b491df1798f1f63befb",
+          "url": "https://cdn.modrinth.com/data/6YOmm63e/versions/uzBocY7p/Fair-wage-clutter.zip",
+          "filename": "Fair-wage-clutter.zip",
           "primary": true,
-          "size": 116744
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ZXm8hVxN",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "BpwWFOVM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Gnw9ZZBZ",
-      "name": "Fair wage",
-      "version_number": "0.0.1+mod",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "06261497e62653fb3b2c81d12d00c0fa8c7463112b3b929df7d4bfd2ad60ab3d6c2f375f61dbf116f03dc61c65f755d1ac5a893df6f4d79bdb3fbcc87864c745",
-          "url": "https://cdn.modrinth.com/data/6YOmm63e/versions/Gnw9ZZBZ/fair-wage-0.0.1.jar",
-          "filename": "fair-wage-0.0.1.jar",
-          "primary": true,
-          "size": 278950
+          "size": 151234
         }
       ],
       "dependencies": [
@@ -245,44 +282,7 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "ZXm8hVxN",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "BzLU0wCs",
-      "name": "Fair wage",
-      "version_number": "0.0.1",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "0ce127c2c024c150c8aa5f89c2c42d647027fcaf92be277544daf0bea1e62c492198d0517f0a46f4f1161e7c67226c9dfb1ffe86976db84cc94ceb11fac60673",
-          "url": "https://cdn.modrinth.com/data/6YOmm63e/versions/BzLU0wCs/Fair-wage.zip",
-          "filename": "Fair-wage.zip",
-          "primary": true,
-          "size": 116745
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "BpwWFOVM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ZXm8hVxN",
+          "project_id": "KZAmykow",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"

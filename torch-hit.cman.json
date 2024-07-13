@@ -5,42 +5,30 @@
   "description": "Attack with torches!",
   "versions": [
     {
-      "id": "hnvy9d3r",
-      "name": "[Fabric - 1.21] Torch hit! v7.0.0",
-      "version_number": "7.0.0",
+      "id": "2MlUgxyF",
+      "name": "[Forge - 1.18.2] Torch hit! v6.0.2.0",
+      "version_number": "6.0.2.0",
       "game_versions": [
-        "1.21"
+        "1.18.2"
       ],
       "loaders": [
-        "fabric"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "2e1d20ad09d3c2c85dd88e290035d6cc7e50373d9dc310e72c4ea3b5744212b14436508187f87d67f2c079c064c366f4d89efb0c2d249f8739ab20f69c24fa80",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/hnvy9d3r/torch-hit-fabric-1.21-7.0.0.jar",
-          "filename": "torch-hit-fabric-1.21-7.0.0.jar",
+          "sha512": "a1fd18b78bed5223dd45f3c630c7c8e14862410ad1ae13ea35ab50e81a83efba509fd68d8d40c9243c75c7dd1fad54e775435dd6c33ff501ffc30f048fe73e28",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/2MlUgxyF/torchhit-1.18.2-6.0.2.0-forge.jar",
+          "filename": "torchhit-1.18.2-6.0.2.0-forge.jar",
           "primary": true,
-          "size": 1235771
+          "size": 2430997
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "d6MhxwRo",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "dQcfqGbl",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         }
       ]
     },
@@ -73,9 +61,49 @@
       ]
     },
     {
-      "id": "xAKkovOZ",
-      "name": "[NeoForge - 1.20.4] Torch hit! v7.0.0",
-      "version_number": "7.0.0",
+      "id": "87sY21YA",
+      "name": "[Fabric - 1.19.2] Torch hit! v6.0.2.0",
+      "version_number": "6.0.2.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "32bf5ca9939a8b59efc586d4bc786e897b049f5a40c6e5c9157c5b79c1b89826de1c1528300476a15866ab7d5a5c166c8b8a119c89b0db459cb150cc11f33307",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/87sY21YA/torchhit-1.19.2-6.0.2.0-fabric.jar",
+          "filename": "torchhit-1.19.2-6.0.2.0-fabric.jar",
+          "primary": true,
+          "size": 1109232
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "9JLU3ATF",
+      "name": "[NeoForge - 1.20.4] Torch hit! v6.0.2.0",
+      "version_number": "6.0.2.0",
       "game_versions": [
         "1.20.4"
       ],
@@ -84,11 +112,11 @@
       ],
       "files": [
         {
-          "sha512": "f3659d15262272e48755c385e1b31fa3ddc7b09e9e015ea7d2f4a7a562889d9dc74ae5a1a9e2a4ac6b598f1ba85b677b4e202863f97750d2f7d3b020aac02566",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/xAKkovOZ/torch-hit-neoforge-1.20.4-7.0.0.jar",
-          "filename": "torch-hit-neoforge-1.20.4-7.0.0.jar",
+          "sha512": "fee7187a43a7752b4dc9179b8c2c2116cae858f1de830f61227712111f9e7f0295fb4c4ad15d349ee694787687f9d94f4de1a60e400fff76f8d63236e3cbf970",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/9JLU3ATF/torchhit-1.20.4-6.0.2.0-neoforge.jar",
+          "filename": "torchhit-1.20.4-6.0.2.0-neoforge.jar",
           "primary": true,
-          "size": 1235743
+          "size": 2430774
         }
       ],
       "dependencies": [
@@ -97,9 +125,83 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "Akth3hkI",
+      "name": "[Fabric - 1.19.4] Torch hit! v6.0.1.2",
+      "version_number": "6.0.1.2",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "36dd844f01a15f8454434a304c6ac0743cf3280505ddd54ea8414a904ddfb74a8b36be74063a1fee2dd38cc095a4e75c3ddcccc87a6442896ef3fa7d38f5574b",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/Akth3hkI/torchhit-1.19.4-6.0.1.2-fabric.jar",
+          "filename": "torchhit-1.19.4-6.0.1.2-fabric.jar",
+          "primary": true,
+          "size": 2430761
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ohNO6lps",
+          "version_id": "2TybfFU8",
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
-          "project_id": "dQcfqGbl",
+          "project_id": "d6MhxwRo",
+          "version_id": "qGxjBmCH",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "BEfXIIiF",
+      "name": "[Fabric - 1.18.2] Torch hit! v6.0.1.2",
+      "version_number": "6.0.1.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "53e6b0dc1e8114d627f612c2462352d4983d2016d3aa538f5836699f5c257006bb5248a24166c5a91ffe1f87b6f342f69844340c41ff86961bd2eb6ce897ab9f",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/BEfXIIiF/torchhit-1.18.2-6.0.1.2-fabric.jar",
+          "filename": "torchhit-1.18.2-6.0.1.2-fabric.jar",
+          "primary": true,
+          "size": 2430720
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": "MmOHKjVd",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -107,22 +209,22 @@
       ]
     },
     {
-      "id": "X6Aii34A",
-      "name": "[Fabric - 1.20.4] Torch hit! v7.0.0",
+      "id": "DDwBhdba",
+      "name": "[Fabric - 1.19.2] Torch hit! v7.0.0",
       "version_number": "7.0.0",
       "game_versions": [
-        "1.20.4"
+        "1.19.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "2b8fc71e5217b9478d82cbdaaa22da84f9277a4cd5f58f5072b70e17f7c8d64947bceabdeffd029440cb8058fb2b4a1aa3a9ba717ed55de807339fff18eb4f01",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/X6Aii34A/torch-hit-fabric-1.20.4-7.0.0.jar",
-          "filename": "torch-hit-fabric-1.20.4-7.0.0.jar",
+          "sha512": "a954dcf73d510caa50484a1236caaaa715efb4a20c3282fec035593636caad8f852f8471dbb8bd56556e5bd4abe3c95ffb479a00434d4e309e8978072bc33335",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/DDwBhdba/torch-hit-fabric-1.19.2-7.0.0.jar",
+          "filename": "torch-hit-fabric-1.19.2-7.0.0.jar",
           "primary": true,
-          "size": 1236038
+          "size": 1236077
         }
       ],
       "dependencies": [
@@ -143,166 +245,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "WsoPxtGF",
-      "name": "[Forge - 1.20.4] Torch hit! v7.0.0",
-      "version_number": "7.0.0",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "72ae5e23438877d45a120aeb0a440d2b3f5b6afcd76f5b912499159ab5999f69acbed27e369a215d218fe8c2df56e9e8385937e55f62a247af7edb1835e65f1c",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/WsoPxtGF/torch-hit-forge-1.20.4-7.0.0.jar",
-          "filename": "torch-hit-forge-1.20.4-7.0.0.jar",
-          "primary": true,
-          "size": 1236147
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "dQcfqGbl",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ObV7zHjz",
-      "name": "[NeoForge - 1.20.2] Torch hit! v7.0.0",
-      "version_number": "7.0.0",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "14f4cebc391b5c2462842bebaf15ba170a08d8368842faf3d40117db37efcf25f6d74956dd641b5a726986bba68b7d73b39d0813e5806b2eb414996f5a6b0f8b",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/ObV7zHjz/torch-hit-neoforge-1.20.2-7.0.0.jar",
-          "filename": "torch-hit-neoforge-1.20.2-7.0.0.jar",
-          "primary": true,
-          "size": 1235698
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "dQcfqGbl",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "nuDXEbmG",
-      "name": "[Fabric - 1.20.2] Torch hit! v7.0.0",
-      "version_number": "7.0.0",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "070067740efc2f84145f569213065d2d6d6d43d6448830b276659f9e7abb6eb9209b13edae853a32a83acbc2a94010a54e1026b8c288e7ae7739765d528b4d2d",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/nuDXEbmG/torch-hit-fabric-1.20.2-7.0.0.jar",
-          "filename": "torch-hit-fabric-1.20.2-7.0.0.jar",
-          "primary": true,
-          "size": 1236038
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "dQcfqGbl",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "VglIxtIa",
-      "name": "[Forge - 1.20.2] Torch hit! v7.0.0",
-      "version_number": "7.0.0",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "61effc616a35c1130e6b43e092b8a2f2c4da58b555b7f0686d884e62e30eab90b74b4eec366e3ed05c242e13883e702292e19b0aa25b94f35fdf84181171c71e",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/VglIxtIa/torch-hit-forge-1.20.2-7.0.0.jar",
-          "filename": "torch-hit-forge-1.20.2-7.0.0.jar",
-          "primary": true,
-          "size": 1236147
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "dQcfqGbl",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         },
         {
           "project_id": "ohNO6lps",
@@ -359,6 +301,92 @@
       ]
     },
     {
+      "id": "DeUmwpex",
+      "name": "[Fabric - 1.19.2] Torch hit! v6.0.1.1",
+      "version_number": "6.0.1.1",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "69cbac6b9c1384cf380f595938d6cf9a5892fb11664a02a675f32225dd0bd6a4ba4918cfa9498826cd88209d6097b53e3a34f8912c34ef3cc88b00773dc49325",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/DeUmwpex/torchhit-1.19.2-6.0.1.1-fabric.jar",
+          "filename": "torchhit-1.19.2-6.0.1.1-fabric.jar",
+          "primary": true,
+          "size": 6206906
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": "uDeFJPmi",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "HIYAr9M5",
+      "name": "[Fabric - 1.18.2] Torch hit! v7.0.0",
+      "version_number": "7.0.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d922a44c6a366bee2a899ea0d997eeec37b510c7bb284c4d76274ad9253c4e316da812ffc5979b2b5f99bac75422966b206037ab3e26ae7ac97d01ee8bf32640",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/HIYAr9M5/torch-hit-fabric-1.18.2-7.0.0.jar",
+          "filename": "torch-hit-fabric-1.18.2-7.0.0.jar",
+          "primary": true,
+          "size": 1236079
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "dQcfqGbl",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "I1OwKKUo",
       "name": "[Forge - 1.20.1] Torch hit! v7.0.0",
       "version_number": "7.0.0",
@@ -399,95 +427,37 @@
       ]
     },
     {
-      "id": "S1qCa3hX",
-      "name": "[Fabric - 1.19.4] Torch hit! v7.0.0",
-      "version_number": "7.0.0",
+      "id": "K1bV9Q7T",
+      "name": "[Forge - 1.19.3] Torch hit! v6.0.1.1",
+      "version_number": "6.0.1.1",
       "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "1a68762671e6ce72bbae20af9c0e01547fb54641a1fb368cff0fe618db000c79729ceceab314d0a90bd613a7e17669ae5741af34853c80e88c1457f5728bc7d3",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/S1qCa3hX/torch-hit-fabric-1.19.4-7.0.0.jar",
-          "filename": "torch-hit-fabric-1.19.4-7.0.0.jar",
-          "primary": true,
-          "size": 1236074
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "dQcfqGbl",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "cQjpv2ru",
-      "name": "[Forge - 1.19.4] Torch hit! v7.0.0",
-      "version_number": "7.0.0",
-      "game_versions": [
-        "1.19.4"
+        "1.19.3"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "d4cf700bb0b9a265ed526a76d76f9d9ecc9ca88bdec3599f41e8b7164a5337c1dd6b6cccf50c4033cced6af34c747d834dadcec50226fca1d3a10b249b474015",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/cQjpv2ru/torch-hit-forge-1.19.4-7.0.0.jar",
-          "filename": "torch-hit-forge-1.19.4-7.0.0.jar",
+          "sha512": "f0533223a926a69afca10b629b440d59bd54272ed418fa2ead1b853272d778953ad0ce9c174e5aa7fc8815461412dea0367202bb3b0e53bd61d87ca0889ce7a6",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/K1bV9Q7T/torchhit-1.19.3-6.0.1.1-forge.jar",
+          "filename": "torchhit-1.19.3-6.0.1.1-forge.jar",
           "primary": true,
-          "size": 1236157
+          "size": 6206590
         }
       ],
       "dependencies": [
         {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "dQcfqGbl",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "d6MhxwRo",
-          "version_id": null,
+          "version_id": "cDMeUh4K",
           "file_name": null,
           "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "DDwBhdba",
-      "name": "[Fabric - 1.19.2] Torch hit! v7.0.0",
-      "version_number": "7.0.0",
+      "id": "KjIuSiXj",
+      "name": "[Fabric - 1.19.2] Torch hit! v6.0.1.2-final",
+      "version_number": "6.0.1.2-final",
       "game_versions": [
         "1.19.2"
       ],
@@ -496,26 +466,14 @@
       ],
       "files": [
         {
-          "sha512": "a954dcf73d510caa50484a1236caaaa715efb4a20c3282fec035593636caad8f852f8471dbb8bd56556e5bd4abe3c95ffb479a00434d4e309e8978072bc33335",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/DDwBhdba/torch-hit-fabric-1.19.2-7.0.0.jar",
-          "filename": "torch-hit-fabric-1.19.2-7.0.0.jar",
+          "sha512": "5d1c5957d21d5e506ca4c0078a00bea5105a951caee7ff01701f441e89e31c42aef264eaa905961e167344a941f131ecd3aad8f00d2bca5818d6b287da6f34eb",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/KjIuSiXj/torchhit-1.19.2-6.0.1.2-final-fabric.jar",
+          "filename": "torchhit-1.19.2-6.0.1.2-final-fabric.jar",
           "primary": true,
-          "size": 1236077
+          "size": 2430731
         }
       ],
       "dependencies": [
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "dQcfqGbl",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
@@ -527,81 +485,92 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": "uDeFJPmi",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "jxnpwWtW",
-      "name": "[Forge - 1.19.2] Torch hit! v7.0.0",
-      "version_number": "7.0.0",
+      "id": "NAJUvFOi",
+      "name": "[Forge - 1.16.5] Torch hit! v6.0.1.2",
+      "version_number": "6.0.1.2",
       "game_versions": [
-        "1.19.2"
+        "1.16.5"
       ],
       "loaders": [
-        "forge"
+        "forge",
+        "neoforge"
       ],
       "files": [
         {
-          "sha512": "86412c4b0d2c535609da01a974121d413e22f947c71e8691e919449a27f5e2ca119bd55d0f234e8a8a2ce2140f6966d0f38e48286cc6d0a5256fa0548636cc72",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/jxnpwWtW/torch-hit-forge-1.19.2-7.0.0.jar",
-          "filename": "torch-hit-forge-1.19.2-7.0.0.jar",
+          "sha512": "907e2794754604e7dcad6dd377c7dcd0b178b34df6dd99366c0e1c1f3e7f7a823c6e8d19244d9bd00979be71af28196f6be93e9598a76a5726385e022ee681e9",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/NAJUvFOi/torchhit-1.16.5-6.0.1.2-forge.jar",
+          "filename": "torchhit-1.16.5-6.0.1.2-forge.jar",
           "primary": true,
-          "size": 1236155
+          "size": 2430183
         }
       ],
       "dependencies": [
         {
           "project_id": "d6MhxwRo",
-          "version_id": null,
+          "version_id": "hL166XNb",
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "dQcfqGbl",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "HIYAr9M5",
-      "name": "[Fabric - 1.18.2] Torch hit! v7.0.0",
-      "version_number": "7.0.0",
+      "id": "OJRQskXo",
+      "name": "[Forge - 1.18.2] Torch hit! v6.0.1.1",
+      "version_number": "6.0.1.1",
       "game_versions": [
         "1.18.2"
       ],
       "loaders": [
-        "fabric"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "d922a44c6a366bee2a899ea0d997eeec37b510c7bb284c4d76274ad9253c4e316da812ffc5979b2b5f99bac75422966b206037ab3e26ae7ac97d01ee8bf32640",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/HIYAr9M5/torch-hit-fabric-1.18.2-7.0.0.jar",
-          "filename": "torch-hit-fabric-1.18.2-7.0.0.jar",
+          "sha512": "9ad74853ceec53fb45e43f747ba124e84a0e71955d29e3a62e5015fb40c092c511e8a7d9c6fcce06fc8525e8bd4616130ad089bd04bf765c383e197a8c4db160",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/OJRQskXo/torchhit-1.18.2-6.0.1.1-forge.jar",
+          "filename": "torchhit-1.18.2-6.0.1.1-forge.jar",
           "primary": true,
-          "size": 1236079
+          "size": 6206578
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
+          "project_id": "d6MhxwRo",
+          "version_id": "xi0dAzqe",
           "file_name": null,
-          "dependency_type": "required"
-        },
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "ObV7zHjz",
+      "name": "[NeoForge - 1.20.2] Torch hit! v7.0.0",
+      "version_number": "7.0.0",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
         {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
+          "sha512": "14f4cebc391b5c2462842bebaf15ba170a08d8368842faf3d40117db37efcf25f6d74956dd641b5a726986bba68b7d73b39d0813e5806b2eb414996f5a6b0f8b",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/ObV7zHjz/torch-hit-neoforge-1.20.2-7.0.0.jar",
+          "filename": "torch-hit-neoforge-1.20.2-7.0.0.jar",
+          "primary": true,
+          "size": 1235698
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "d6MhxwRo",
           "version_id": null,
@@ -657,28 +626,549 @@
       ]
     },
     {
-      "id": "9JLU3ATF",
-      "name": "[NeoForge - 1.20.4] Torch hit! v6.0.2.0",
+      "id": "Pl2cIjed",
+      "name": "[Forge - 1.19.4] Torch hit! v6.0.1.2",
+      "version_number": "6.0.1.2",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "c85b43023b6c4965f424a3f35a0853777e418fc5e8fa6646e78cf99d580619e3f8a75345989473e767f5d72fea5957eb4c44b0dc16d5c387524494136a3b8427",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/Pl2cIjed/torchhit-1.19.4-6.0.1.2-forge.jar",
+          "filename": "torchhit-1.19.4-6.0.1.2-forge.jar",
+          "primary": true,
+          "size": 2430419
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": "2ry0WOkF",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "S1qCa3hX",
+      "name": "[Fabric - 1.19.4] Torch hit! v7.0.0",
+      "version_number": "7.0.0",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1a68762671e6ce72bbae20af9c0e01547fb54641a1fb368cff0fe618db000c79729ceceab314d0a90bd613a7e17669ae5741af34853c80e88c1457f5728bc7d3",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/S1qCa3hX/torch-hit-fabric-1.19.4-7.0.0.jar",
+          "filename": "torch-hit-fabric-1.19.4-7.0.0.jar",
+          "primary": true,
+          "size": 1236074
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "dQcfqGbl",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "U4fuJMPT",
+      "name": "[NeoForge - 1.20.2] Torch hit! v6.0.2.0",
       "version_number": "6.0.2.0",
       "game_versions": [
-        "1.20.4"
+        "1.20.2"
       ],
       "loaders": [
         "neoforge"
       ],
       "files": [
         {
-          "sha512": "fee7187a43a7752b4dc9179b8c2c2116cae858f1de830f61227712111f9e7f0295fb4c4ad15d349ee694787687f9d94f4de1a60e400fff76f8d63236e3cbf970",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/9JLU3ATF/torchhit-1.20.4-6.0.2.0-neoforge.jar",
-          "filename": "torchhit-1.20.4-6.0.2.0-neoforge.jar",
+          "sha512": "908fa6fd2dadb9332a8beb387fd02e752e7769895d11a9428fdba3c573eaed7a0ce6405b6a5d7745e6fc46fd08999592fc442238df7bf931dfc85fa2d821971d",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/U4fuJMPT/torchhit-1.20.2-6.0.2.0-neoforge.jar",
+          "filename": "torchhit-1.20.2-6.0.2.0-neoforge.jar",
           "primary": true,
-          "size": 2430774
+          "size": 2430842
         }
       ],
       "dependencies": [
         {
           "project_id": "d6MhxwRo",
           "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "UF8LgDbE",
+      "name": "[Forge - 1.20.1] Torch hit! v6.0.2.0",
+      "version_number": "6.0.2.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "70c6dd26de4bf28833ebdc245f7390344d87eee5084fc3a341daa081d785d21f2317103950519db2668cc402b1a294526ae1a2a6824b2517f2a50dabdf0eba4d",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/UF8LgDbE/torchhit-1.20.1-6.0.2.0-forge.jar",
+          "filename": "torchhit-1.20.1-6.0.2.0-forge.jar",
+          "primary": true,
+          "size": 2431121
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "VglIxtIa",
+      "name": "[Forge - 1.20.2] Torch hit! v7.0.0",
+      "version_number": "7.0.0",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "61effc616a35c1130e6b43e092b8a2f2c4da58b555b7f0686d884e62e30eab90b74b4eec366e3ed05c242e13883e702292e19b0aa25b94f35fdf84181171c71e",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/VglIxtIa/torch-hit-forge-1.20.2-7.0.0.jar",
+          "filename": "torch-hit-forge-1.20.2-7.0.0.jar",
+          "primary": true,
+          "size": 1236147
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "dQcfqGbl",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "WsoPxtGF",
+      "name": "[Forge - 1.20.4] Torch hit! v7.0.0",
+      "version_number": "7.0.0",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "72ae5e23438877d45a120aeb0a440d2b3f5b6afcd76f5b912499159ab5999f69acbed27e369a215d218fe8c2df56e9e8385937e55f62a247af7edb1835e65f1c",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/WsoPxtGF/torch-hit-forge-1.20.4-7.0.0.jar",
+          "filename": "torch-hit-forge-1.20.4-7.0.0.jar",
+          "primary": true,
+          "size": 1236147
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "dQcfqGbl",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "X6Aii34A",
+      "name": "[Fabric - 1.20.4] Torch hit! v7.0.0",
+      "version_number": "7.0.0",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2b8fc71e5217b9478d82cbdaaa22da84f9277a4cd5f58f5072b70e17f7c8d64947bceabdeffd029440cb8058fb2b4a1aa3a9ba717ed55de807339fff18eb4f01",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/X6Aii34A/torch-hit-fabric-1.20.4-7.0.0.jar",
+          "filename": "torch-hit-fabric-1.20.4-7.0.0.jar",
+          "primary": true,
+          "size": 1236038
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "dQcfqGbl",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "XVarJX3C",
+      "name": "[Fabric - 1.16.5] Torch hit! v6.0.1.1",
+      "version_number": "6.0.1.1",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "faf0467aab1d35d6748625fe2173e14eed2ab1b608542e0cf7549546e749035e9bc67f22d5c533e8abe227f44bd7718a736f89cd5c3c128c2abbb2ebf6cedead",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/XVarJX3C/torchhit-1.16.5-6.0.1.1-fabric.jar",
+          "filename": "torchhit-1.16.5-6.0.1.1-fabric.jar",
+          "primary": true,
+          "size": 6206692
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": "84T67Pru",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Xp1Xgbsj",
+      "name": "[Forge - 1.19.2] Torch hit! v6.0.1.2-final",
+      "version_number": "6.0.1.2-final",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "11054ee729c230ebad9f5db9e1274484a4f96cab763bfa8b389fa503b7a9f022b504c8fe0c15a164b6a73d972cf3d16e0d481155b07acc82be27495ae1a00a98",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/Xp1Xgbsj/torchhit-1.19.2-6.0.1.2-final-forge.jar",
+          "filename": "torchhit-1.19.2-6.0.1.2-final-forge.jar",
+          "primary": true,
+          "size": 2430428
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": "OZrsQiRI",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "bNtctpBq",
+      "name": "[Fabric - 1.20.2] Torch hit! v6.0.1.2",
+      "version_number": "6.0.1.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ab32843c40929e54766fc2a769616636c351bd8a3dbd85d0d159a1eae045353994cad94fc92a2f0b5f7ef461274c321e602173ff3795fa5cc27564353d693e4e",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/bNtctpBq/torchhit-1.20.2-6.0.1.2-fabric.jar",
+          "filename": "torchhit-1.20.2-6.0.1.2-fabric.jar",
+          "primary": true,
+          "size": 464674
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "bRFEdjTk",
+      "name": "[Fabric - 1.16.5] Torch hit! v6.0.1.2",
+      "version_number": "6.0.1.2",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4bd62ef2499d7525854191be80e61c68fb8863a7b7a386f940516eb095f3c6541d6bc2a8cf617216eeba4a69dc1da1181eec35eab2aa393db4a53fc710950d03",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/bRFEdjTk/torchhit-1.16.5-6.0.1.2-fabric.jar",
+          "filename": "torchhit-1.16.5-6.0.1.2-fabric.jar",
+          "primary": true,
+          "size": 2430506
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": "84T67Pru",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "c2BbT5p1",
+      "name": "[Forge - 1.20.2] Torch hit! v6.0.1.2",
+      "version_number": "6.0.1.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "18558ebeeae39fef8dda0fa819b68be6c964ad67e1b49a8d530cebc8e0492dbbb6b13193619bddc25baf8f19ac158587fc7eea4cedbe5d5c840b5c78f6aa1d2c",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/c2BbT5p1/torchhit-1.20.2-6.0.1.2-forge.jar",
+          "filename": "torchhit-1.20.2-6.0.1.2-forge.jar",
+          "primary": true,
+          "size": 2430620
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "cQjpv2ru",
+      "name": "[Forge - 1.19.4] Torch hit! v7.0.0",
+      "version_number": "7.0.0",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d4cf700bb0b9a265ed526a76d76f9d9ecc9ca88bdec3599f41e8b7164a5337c1dd6b6cccf50c4033cced6af34c747d834dadcec50226fca1d3a10b249b474015",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/cQjpv2ru/torch-hit-forge-1.19.4-7.0.0.jar",
+          "filename": "torch-hit-forge-1.19.4-7.0.0.jar",
+          "primary": true,
+          "size": 1236157
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "dQcfqGbl",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "cnCb0ccn",
+      "name": "[Fabric - 1.16.5] Torch hit! v6.0.2.0",
+      "version_number": "6.0.2.0",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "15e26af682683eee958875eee1e8eebd3cb2facf9877da044a08480e067500b6e38a606dfbd6118c9123ee254ee75577244018cd6732ed5264f44d33ff5c87c1",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/cnCb0ccn/torchhit-1.16.5-6.0.2.0-fabric.jar",
+          "filename": "torchhit-1.16.5-6.0.2.0-fabric.jar",
+          "primary": true,
+          "size": 1124297
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "7DYWqM5F",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "d1SdFy07",
+      "name": "[Forge - 1.19.3] Torch hit! v6.0.1.2",
+      "version_number": "6.0.1.2",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "3981b66d3470409138bdbfb0a8848b575f5f94889b1e605a89d21d5b1b1fee460a5681b39fe2894b3e53cd7250680b3abceb5b0dbadd35133ff1fdcd06e17cba",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/d1SdFy07/torchhit-1.19.3-6.0.1.2-forge.jar",
+          "filename": "torchhit-1.19.3-6.0.1.2-forge.jar",
+          "primary": true,
+          "size": 2430420
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": "cDMeUh4K",
           "file_name": null,
           "dependency_type": "optional"
         }
@@ -713,6 +1203,188 @@
       ]
     },
     {
+      "id": "dqzUq8aw",
+      "name": "[Forge - 1.19.2] Torch hit! v6.0.2.0",
+      "version_number": "6.0.2.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "28514c4fa786213383a61650de75f9e250110a3b14129fddd3769a463eb83d2de1cf8dc199e069456cbeec772428c5b04f768ac6e30775a4e07f322956014516",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/dqzUq8aw/torchhit-1.19.2-6.0.2.0-forge.jar",
+          "filename": "torchhit-1.19.2-6.0.2.0-forge.jar",
+          "primary": true,
+          "size": 2431015
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "ePRukbYJ",
+      "name": "[Fabric - 1.19.3] Torch hit! v6.0.1.1",
+      "version_number": "6.0.1.1",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "b4882936415488480aa526f251dfad3e7dac257ef5e039d4f40e58ac5e0186826b9177a945a8958a234e4c75f315ce2fa3992ca6a78f3520a3d74cb5785de15a",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/ePRukbYJ/torchhit-1.19.3-6.0.1.1-fabric.jar",
+          "filename": "torchhit-1.19.3-6.0.1.1-fabric.jar",
+          "primary": true,
+          "size": 6206944
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ohNO6lps",
+          "version_id": "MkqOn4Yc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": "sVm8Ndbi",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "gsYeOvSN",
+      "name": "[Fabric - 1.18.2] Torch hit! v6.0.2.0",
+      "version_number": "6.0.2.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "aea13ede2e53a87172d1b0d649066a86ad89a4b1669934be0a78bab5e98f7c0c70d5ac782c25e681ea72a44945e3472041085d3015ca315ff25d148e8d38c94a",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/gsYeOvSN/torchhit-1.18.2-6.0.2.0-fabric.jar",
+          "filename": "torchhit-1.18.2-6.0.2.0-fabric.jar",
+          "primary": true,
+          "size": 1124497
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "7DYWqM5F",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "hnvy9d3r",
+      "name": "[Fabric - 1.21] Torch hit! v7.0.0",
+      "version_number": "7.0.0",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2e1d20ad09d3c2c85dd88e290035d6cc7e50373d9dc310e72c4ea3b5744212b14436508187f87d67f2c079c064c366f4d89efb0c2d249f8739ab20f69c24fa80",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/hnvy9d3r/torch-hit-fabric-1.21-7.0.0.jar",
+          "filename": "torch-hit-fabric-1.21-7.0.0.jar",
+          "primary": true,
+          "size": 1235771
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "dQcfqGbl",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ilmWejvo",
+      "name": "[Forge - 1.19.2] Torch hit! v6.0.1.1",
+      "version_number": "6.0.1.1",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0dd787c23f548b34359f5a97199286ec76b7eba3700442485d58e58a98c8ddec8bdb2e35640016f7346581c8ae91706763acd81302f0b701e436121cdeac0c0e",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/ilmWejvo/torchhit-1.19.2-6.0.1.1-forge.jar",
+          "filename": "torchhit-1.19.2-6.0.1.1-forge.jar",
+          "primary": true,
+          "size": 6206591
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": "OZrsQiRI",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "jaDvxNCB",
       "name": "[Fabric - 1.20.4] Torch hit! v6.0.2.0",
       "version_number": "6.0.2.0",
@@ -733,7 +1405,162 @@
       ],
       "dependencies": [
         {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jxnpwWtW",
+      "name": "[Forge - 1.19.2] Torch hit! v7.0.0",
+      "version_number": "7.0.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "86412c4b0d2c535609da01a974121d413e22f947c71e8691e919449a27f5e2ca119bd55d0f234e8a8a2ce2140f6966d0f38e48286cc6d0a5256fa0548636cc72",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/jxnpwWtW/torch-hit-forge-1.19.2-7.0.0.jar",
+          "filename": "torch-hit-forge-1.19.2-7.0.0.jar",
+          "primary": true,
+          "size": 1236155
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "dQcfqGbl",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "lOOg75FA",
+      "name": "[Forge - 1.18.2] Torch hit! v6.0.1.2",
+      "version_number": "6.0.1.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "45119c31bfa1291f2ad20d7cf3883a1d4e333589321d6bd65a8ed25946ef1fa8b91e43fdf584b5d0b3391fe79b68ca87fa90428e4e814aef4eb6022034cf5837",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/lOOg75FA/torchhit-1.18.2-6.0.1.2-forge.jar",
+          "filename": "torchhit-1.18.2-6.0.1.2-forge.jar",
+          "primary": true,
+          "size": 2430406
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": "xi0dAzqe",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "lxbG6YZ8",
+      "name": "[Fabric - 1.19.4] Torch hit! v6.0.2.0",
+      "version_number": "6.0.2.0",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a49fe6779155758e7a8f2443e639d8305ac4a3dea85507e61b8c7efe7d10f895a837f4a2eb62bd830b52530d8fdf92eecd471a2f92d2c66e41d4b7779486b850",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/lxbG6YZ8/torchhit-1.19.4-6.0.2.0-fabric.jar",
+          "filename": "torchhit-1.19.4-6.0.2.0-fabric.jar",
+          "primary": true,
+          "size": 1109258
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "nuDXEbmG",
+      "name": "[Fabric - 1.20.2] Torch hit! v7.0.0",
+      "version_number": "7.0.0",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "070067740efc2f84145f569213065d2d6d6d43d6448830b276659f9e7abb6eb9209b13edae853a32a83acbc2a94010a54e1026b8c288e7ae7739765d528b4d2d",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/nuDXEbmG/torch-hit-fabric-1.20.2-7.0.0.jar",
+          "filename": "torch-hit-fabric-1.20.2-7.0.0.jar",
+          "primary": true,
+          "size": 1236038
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "dQcfqGbl",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -753,28 +1580,68 @@
       ]
     },
     {
-      "id": "U4fuJMPT",
-      "name": "[NeoForge - 1.20.2] Torch hit! v6.0.2.0",
+      "id": "pPt8eglq",
+      "name": "[Forge - 1.19.4] Torch hit! v6.0.2.0",
       "version_number": "6.0.2.0",
       "game_versions": [
-        "1.20.2"
+        "1.19.4"
       ],
       "loaders": [
-        "neoforge"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "908fa6fd2dadb9332a8beb387fd02e752e7769895d11a9428fdba3c573eaed7a0ce6405b6a5d7745e6fc46fd08999592fc442238df7bf931dfc85fa2d821971d",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/U4fuJMPT/torchhit-1.20.2-6.0.2.0-neoforge.jar",
-          "filename": "torchhit-1.20.2-6.0.2.0-neoforge.jar",
+          "sha512": "bede5912c859e1504da787235331d69a86be3b2e5190f5e5cb3b724c6f907b0191126151eb34ecb7c4142d908ad7878b8642ab6904e4142264d2e67eb0a31642",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/pPt8eglq/torchhit-1.19.4-6.0.2.0-forge.jar",
+          "filename": "torchhit-1.19.4-6.0.2.0-forge.jar",
           "primary": true,
-          "size": 2430842
+          "size": 2431016
         }
       ],
       "dependencies": [
         {
           "project_id": "d6MhxwRo",
           "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "pdFNiaxF",
+      "name": "[Fabric - 1.19.3] Torch hit! v6.0.1.2",
+      "version_number": "6.0.1.2",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "73627925b938843f277df8701a07780d5eaa03f333e4b88b16569a35e06cafdb42e275b65dc1c0703c2b0c284cf959386c49853b68a0a31563b210da19baa98c",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/pdFNiaxF/torchhit-1.19.3-6.0.1.2-fabric.jar",
+          "filename": "torchhit-1.19.3-6.0.1.2-fabric.jar",
+          "primary": true,
+          "size": 2430761
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ohNO6lps",
+          "version_id": "MkqOn4Yc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "d6MhxwRo",
+          "version_id": "sVm8Ndbi",
           "file_name": null,
           "dependency_type": "optional"
         }
@@ -849,58 +1716,42 @@
       ]
     },
     {
-      "id": "UF8LgDbE",
-      "name": "[Forge - 1.20.1] Torch hit! v6.0.2.0",
-      "version_number": "6.0.2.0",
+      "id": "rSEsbWsU",
+      "name": "[Fabric - 1.20.1] Torch hit! v6.0.1.2",
+      "version_number": "6.0.1.2",
       "game_versions": [
         "1.20.1"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "70c6dd26de4bf28833ebdc245f7390344d87eee5084fc3a341daa081d785d21f2317103950519db2668cc402b1a294526ae1a2a6824b2517f2a50dabdf0eba4d",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/UF8LgDbE/torchhit-1.20.1-6.0.2.0-forge.jar",
-          "filename": "torchhit-1.20.1-6.0.2.0-forge.jar",
+          "sha512": "8beca5d8d09b4ba21e10699bcba45b0abacf3e4c349063e51276f19e2b0151beafda4fbc6e1525a93e90ff5e17832bea72dcb7a044c36348f2141dbf2503c134",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/rSEsbWsU/torchhit-1.20.1-6.0.1.2-fabric.jar",
+          "filename": "torchhit-1.20.1-6.0.1.2-fabric.jar",
           "primary": true,
-          "size": 2431121
+          "size": 465632
         }
       ],
       "dependencies": [
         {
           "project_id": "d6MhxwRo",
-          "version_id": null,
+          "version_id": "Cl3O6rvB",
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "pPt8eglq",
-      "name": "[Forge - 1.19.4] Torch hit! v6.0.2.0",
-      "version_number": "6.0.2.0",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
+        },
         {
-          "sha512": "bede5912c859e1504da787235331d69a86be3b2e5190f5e5cb3b724c6f907b0191126151eb34ecb7c4142d908ad7878b8642ab6904e4142264d2e67eb0a31642",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/pPt8eglq/torchhit-1.19.4-6.0.2.0-forge.jar",
-          "filename": "torchhit-1.19.4-6.0.2.0-forge.jar",
-          "primary": true,
-          "size": 2431016
-        }
-      ],
-      "dependencies": [
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
-          "project_id": "d6MhxwRo",
+          "project_id": "ohNO6lps",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
     },
@@ -925,73 +1776,11 @@
       ],
       "dependencies": [
         {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "dqzUq8aw",
-      "name": "[Forge - 1.19.2] Torch hit! v6.0.2.0",
-      "version_number": "6.0.2.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "28514c4fa786213383a61650de75f9e250110a3b14129fddd3769a463eb83d2de1cf8dc199e069456cbeec772428c5b04f768ac6e30775a4e07f322956014516",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/dqzUq8aw/torchhit-1.19.2-6.0.2.0-forge.jar",
-          "filename": "torchhit-1.19.2-6.0.2.0-forge.jar",
-          "primary": true,
-          "size": 2431015
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "lxbG6YZ8",
-      "name": "[Fabric - 1.19.4] Torch hit! v6.0.2.0",
-      "version_number": "6.0.2.0",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a49fe6779155758e7a8f2443e639d8305ac4a3dea85507e61b8c7efe7d10f895a837f4a2eb62bd830b52530d8fdf92eecd471a2f92d2c66e41d4b7779486b850",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/lxbG6YZ8/torchhit-1.19.4-6.0.2.0-fabric.jar",
-          "filename": "torchhit-1.19.4-6.0.2.0-fabric.jar",
-          "primary": true,
-          "size": 1109258
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "d6MhxwRo",
           "version_id": null,
@@ -1003,87 +1792,13 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "2MlUgxyF",
-      "name": "[Forge - 1.18.2] Torch hit! v6.0.2.0",
-      "version_number": "6.0.2.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "a1fd18b78bed5223dd45f3c630c7c8e14862410ad1ae13ea35ab50e81a83efba509fd68d8d40c9243c75c7dd1fad54e775435dd6c33ff501ffc30f048fe73e28",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/2MlUgxyF/torchhit-1.18.2-6.0.2.0-forge.jar",
-          "filename": "torchhit-1.18.2-6.0.2.0-forge.jar",
-          "primary": true,
-          "size": 2430997
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "87sY21YA",
-      "name": "[Fabric - 1.19.2] Torch hit! v6.0.2.0",
-      "version_number": "6.0.2.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "32bf5ca9939a8b59efc586d4bc786e897b049f5a40c6e5c9157c5b79c1b89826de1c1528300476a15866ab7d5a5c166c8b8a119c89b0db459cb150cc11f33307",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/87sY21YA/torchhit-1.19.2-6.0.2.0-fabric.jar",
-          "filename": "torchhit-1.19.2-6.0.2.0-fabric.jar",
-          "primary": true,
-          "size": 1109232
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "gsYeOvSN",
-      "name": "[Fabric - 1.18.2] Torch hit! v6.0.2.0",
-      "version_number": "6.0.2.0",
+      "id": "v051eg9P",
+      "name": "[Fabric - 1.18.2] Torch hit! v6.0.1.1",
+      "version_number": "6.0.1.1",
       "game_versions": [
         "1.18.2"
       ],
@@ -1092,34 +1807,28 @@
       ],
       "files": [
         {
-          "sha512": "aea13ede2e53a87172d1b0d649066a86ad89a4b1669934be0a78bab5e98f7c0c70d5ac782c25e681ea72a44945e3472041085d3015ca315ff25d148e8d38c94a",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/gsYeOvSN/torchhit-1.18.2-6.0.2.0-fabric.jar",
-          "filename": "torchhit-1.18.2-6.0.2.0-fabric.jar",
+          "sha512": "b2ad48cede8a2663e2a8dc7c295f2bd8347c88735a1530a57fca6248da704f988320388f3bf185a80e78899ce95f5322754bf06d0570f7aba7ea972227ed9d12",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/v051eg9P/torchhit-1.18.2-6.0.1.1-fabric.jar",
+          "filename": "torchhit-1.18.2-6.0.1.1-fabric.jar",
           "primary": true,
-          "size": 1124497
+          "size": 6206904
         }
       ],
       "dependencies": [
         {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "P7dR8mSH",
-          "version_id": null,
+          "version_id": "95QMsRyb",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "d6MhxwRo",
-          "version_id": null,
+          "version_id": "MmOHKjVd",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
-          "project_id": "7DYWqM5F",
+          "project_id": "ohNO6lps",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -1146,120 +1855,6 @@
         }
       ],
       "dependencies": [
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "cnCb0ccn",
-      "name": "[Fabric - 1.16.5] Torch hit! v6.0.2.0",
-      "version_number": "6.0.2.0",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "15e26af682683eee958875eee1e8eebd3cb2facf9877da044a08480e067500b6e38a606dfbd6118c9123ee254ee75577244018cd6732ed5264f44d33ff5c87c1",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/cnCb0ccn/torchhit-1.16.5-6.0.2.0-fabric.jar",
-          "filename": "torchhit-1.16.5-6.0.2.0-fabric.jar",
-          "primary": true,
-          "size": 1124297
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "7DYWqM5F",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "c2BbT5p1",
-      "name": "[Forge - 1.20.2] Torch hit! v6.0.1.2",
-      "version_number": "6.0.1.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "18558ebeeae39fef8dda0fa819b68be6c964ad67e1b49a8d530cebc8e0492dbbb6b13193619bddc25baf8f19ac158587fc7eea4cedbe5d5c840b5c78f6aa1d2c",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/c2BbT5p1/torchhit-1.20.2-6.0.1.2-forge.jar",
-          "filename": "torchhit-1.20.2-6.0.1.2-forge.jar",
-          "primary": true,
-          "size": 2430620
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "bNtctpBq",
-      "name": "[Fabric - 1.20.2] Torch hit! v6.0.1.2",
-      "version_number": "6.0.1.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ab32843c40929e54766fc2a769616636c351bd8a3dbd85d0d159a1eae045353994cad94fc92a2f0b5f7ef461274c321e602173ff3795fa5cc27564353d693e4e",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/bNtctpBq/torchhit-1.20.2-6.0.1.2-fabric.jar",
-          "filename": "torchhit-1.20.2-6.0.1.2-fabric.jar",
-          "primary": true,
-          "size": 464674
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "d6MhxwRo",
           "version_id": null,
@@ -1298,591 +1893,36 @@
       ]
     },
     {
-      "id": "rSEsbWsU",
-      "name": "[Fabric - 1.20.1] Torch hit! v6.0.1.2",
-      "version_number": "6.0.1.2",
+      "id": "xAKkovOZ",
+      "name": "[NeoForge - 1.20.4] Torch hit! v7.0.0",
+      "version_number": "7.0.0",
       "game_versions": [
-        "1.20.1"
+        "1.20.4"
       ],
       "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8beca5d8d09b4ba21e10699bcba45b0abacf3e4c349063e51276f19e2b0151beafda4fbc6e1525a93e90ff5e17832bea72dcb7a044c36348f2141dbf2503c134",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/rSEsbWsU/torchhit-1.20.1-6.0.1.2-fabric.jar",
-          "filename": "torchhit-1.20.1-6.0.1.2-fabric.jar",
-          "primary": true,
-          "size": 465632
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": "Cl3O6rvB",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Pl2cIjed",
-      "name": "[Forge - 1.19.4] Torch hit! v6.0.1.2",
-      "version_number": "6.0.1.2",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge",
         "neoforge"
       ],
       "files": [
         {
-          "sha512": "c85b43023b6c4965f424a3f35a0853777e418fc5e8fa6646e78cf99d580619e3f8a75345989473e767f5d72fea5957eb4c44b0dc16d5c387524494136a3b8427",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/Pl2cIjed/torchhit-1.19.4-6.0.1.2-forge.jar",
-          "filename": "torchhit-1.19.4-6.0.1.2-forge.jar",
+          "sha512": "f3659d15262272e48755c385e1b31fa3ddc7b09e9e015ea7d2f4a7a562889d9dc74ae5a1a9e2a4ac6b598f1ba85b677b4e202863f97750d2f7d3b020aac02566",
+          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/xAKkovOZ/torch-hit-neoforge-1.20.4-7.0.0.jar",
+          "filename": "torch-hit-neoforge-1.20.4-7.0.0.jar",
           "primary": true,
-          "size": 2430419
+          "size": 1235743
         }
       ],
       "dependencies": [
         {
           "project_id": "d6MhxwRo",
-          "version_id": "2ry0WOkF",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "Akth3hkI",
-      "name": "[Fabric - 1.19.4] Torch hit! v6.0.1.2",
-      "version_number": "6.0.1.2",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "36dd844f01a15f8454434a304c6ac0743cf3280505ddd54ea8414a904ddfb74a8b36be74063a1fee2dd38cc095a4e75c3ddcccc87a6442896ef3fa7d38f5574b",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/Akth3hkI/torchhit-1.19.4-6.0.1.2-fabric.jar",
-          "filename": "torchhit-1.19.4-6.0.1.2-fabric.jar",
-          "primary": true,
-          "size": 2430761
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ohNO6lps",
-          "version_id": "2TybfFU8",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": "qGxjBmCH",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "d1SdFy07",
-      "name": "[Forge - 1.19.3] Torch hit! v6.0.1.2",
-      "version_number": "6.0.1.2",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge",
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "3981b66d3470409138bdbfb0a8848b575f5f94889b1e605a89d21d5b1b1fee460a5681b39fe2894b3e53cd7250680b3abceb5b0dbadd35133ff1fdcd06e17cba",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/d1SdFy07/torchhit-1.19.3-6.0.1.2-forge.jar",
-          "filename": "torchhit-1.19.3-6.0.1.2-forge.jar",
-          "primary": true,
-          "size": 2430420
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": "cDMeUh4K",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "pdFNiaxF",
-      "name": "[Fabric - 1.19.3] Torch hit! v6.0.1.2",
-      "version_number": "6.0.1.2",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "73627925b938843f277df8701a07780d5eaa03f333e4b88b16569a35e06cafdb42e275b65dc1c0703c2b0c284cf959386c49853b68a0a31563b210da19baa98c",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/pdFNiaxF/torchhit-1.19.3-6.0.1.2-fabric.jar",
-          "filename": "torchhit-1.19.3-6.0.1.2-fabric.jar",
-          "primary": true,
-          "size": 2430761
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": "sVm8Ndbi",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
         {
-          "project_id": "ohNO6lps",
-          "version_id": "MkqOn4Yc",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Xp1Xgbsj",
-      "name": "[Forge - 1.19.2] Torch hit! v6.0.1.2-final",
-      "version_number": "6.0.1.2-final",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge",
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "11054ee729c230ebad9f5db9e1274484a4f96cab763bfa8b389fa503b7a9f022b504c8fe0c15a164b6a73d972cf3d16e0d481155b07acc82be27495ae1a00a98",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/Xp1Xgbsj/torchhit-1.19.2-6.0.1.2-final-forge.jar",
-          "filename": "torchhit-1.19.2-6.0.1.2-final-forge.jar",
-          "primary": true,
-          "size": 2430428
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": "OZrsQiRI",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "KjIuSiXj",
-      "name": "[Fabric - 1.19.2] Torch hit! v6.0.1.2-final",
-      "version_number": "6.0.1.2-final",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "5d1c5957d21d5e506ca4c0078a00bea5105a951caee7ff01701f441e89e31c42aef264eaa905961e167344a941f131ecd3aad8f00d2bca5818d6b287da6f34eb",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/KjIuSiXj/torchhit-1.19.2-6.0.1.2-final-fabric.jar",
-          "filename": "torchhit-1.19.2-6.0.1.2-final-fabric.jar",
-          "primary": true,
-          "size": 2430731
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ohNO6lps",
+          "project_id": "dQcfqGbl",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": "uDeFJPmi",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "lOOg75FA",
-      "name": "[Forge - 1.18.2] Torch hit! v6.0.1.2",
-      "version_number": "6.0.1.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge",
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "45119c31bfa1291f2ad20d7cf3883a1d4e333589321d6bd65a8ed25946ef1fa8b91e43fdf584b5d0b3391fe79b68ca87fa90428e4e814aef4eb6022034cf5837",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/lOOg75FA/torchhit-1.18.2-6.0.1.2-forge.jar",
-          "filename": "torchhit-1.18.2-6.0.1.2-forge.jar",
-          "primary": true,
-          "size": 2430406
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": "xi0dAzqe",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "BEfXIIiF",
-      "name": "[Fabric - 1.18.2] Torch hit! v6.0.1.2",
-      "version_number": "6.0.1.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "53e6b0dc1e8114d627f612c2462352d4983d2016d3aa538f5836699f5c257006bb5248a24166c5a91ffe1f87b6f342f69844340c41ff86961bd2eb6ce897ab9f",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/BEfXIIiF/torchhit-1.18.2-6.0.1.2-fabric.jar",
-          "filename": "torchhit-1.18.2-6.0.1.2-fabric.jar",
-          "primary": true,
-          "size": 2430720
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": "MmOHKjVd",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "NAJUvFOi",
-      "name": "[Forge - 1.16.5] Torch hit! v6.0.1.2",
-      "version_number": "6.0.1.2",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge",
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "907e2794754604e7dcad6dd377c7dcd0b178b34df6dd99366c0e1c1f3e7f7a823c6e8d19244d9bd00979be71af28196f6be93e9598a76a5726385e022ee681e9",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/NAJUvFOi/torchhit-1.16.5-6.0.1.2-forge.jar",
-          "filename": "torchhit-1.16.5-6.0.1.2-forge.jar",
-          "primary": true,
-          "size": 2430183
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": "hL166XNb",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "bRFEdjTk",
-      "name": "[Fabric - 1.16.5] Torch hit! v6.0.1.2",
-      "version_number": "6.0.1.2",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4bd62ef2499d7525854191be80e61c68fb8863a7b7a386f940516eb095f3c6541d6bc2a8cf617216eeba4a69dc1da1181eec35eab2aa393db4a53fc710950d03",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/bRFEdjTk/torchhit-1.16.5-6.0.1.2-fabric.jar",
-          "filename": "torchhit-1.16.5-6.0.1.2-fabric.jar",
-          "primary": true,
-          "size": 2430506
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": "84T67Pru",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "K1bV9Q7T",
-      "name": "[Forge - 1.19.3] Torch hit! v6.0.1.1",
-      "version_number": "6.0.1.1",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "f0533223a926a69afca10b629b440d59bd54272ed418fa2ead1b853272d778953ad0ce9c174e5aa7fc8815461412dea0367202bb3b0e53bd61d87ca0889ce7a6",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/K1bV9Q7T/torchhit-1.19.3-6.0.1.1-forge.jar",
-          "filename": "torchhit-1.19.3-6.0.1.1-forge.jar",
-          "primary": true,
-          "size": 6206590
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": "cDMeUh4K",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ePRukbYJ",
-      "name": "[Fabric - 1.19.3] Torch hit! v6.0.1.1",
-      "version_number": "6.0.1.1",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b4882936415488480aa526f251dfad3e7dac257ef5e039d4f40e58ac5e0186826b9177a945a8958a234e4c75f315ce2fa3992ca6a78f3520a3d74cb5785de15a",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/ePRukbYJ/torchhit-1.19.3-6.0.1.1-fabric.jar",
-          "filename": "torchhit-1.19.3-6.0.1.1-fabric.jar",
-          "primary": true,
-          "size": 6206944
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": "sVm8Ndbi",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": "MkqOn4Yc",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ilmWejvo",
-      "name": "[Forge - 1.19.2] Torch hit! v6.0.1.1",
-      "version_number": "6.0.1.1",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "0dd787c23f548b34359f5a97199286ec76b7eba3700442485d58e58a98c8ddec8bdb2e35640016f7346581c8ae91706763acd81302f0b701e436121cdeac0c0e",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/ilmWejvo/torchhit-1.19.2-6.0.1.1-forge.jar",
-          "filename": "torchhit-1.19.2-6.0.1.1-forge.jar",
-          "primary": true,
-          "size": 6206591
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": "OZrsQiRI",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "DeUmwpex",
-      "name": "[Fabric - 1.19.2] Torch hit! v6.0.1.1",
-      "version_number": "6.0.1.1",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "69cbac6b9c1384cf380f595938d6cf9a5892fb11664a02a675f32225dd0bd6a4ba4918cfa9498826cd88209d6097b53e3a34f8912c34ef3cc88b00773dc49325",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/DeUmwpex/torchhit-1.19.2-6.0.1.1-fabric.jar",
-          "filename": "torchhit-1.19.2-6.0.1.1-fabric.jar",
-          "primary": true,
-          "size": 6206906
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": "uDeFJPmi",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "v051eg9P",
-      "name": "[Fabric - 1.18.2] Torch hit! v6.0.1.1",
-      "version_number": "6.0.1.1",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b2ad48cede8a2663e2a8dc7c295f2bd8347c88735a1530a57fca6248da704f988320388f3bf185a80e78899ce95f5322754bf06d0570f7aba7ea972227ed9d12",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/v051eg9P/torchhit-1.18.2-6.0.1.1-fabric.jar",
-          "filename": "torchhit-1.18.2-6.0.1.1-fabric.jar",
-          "primary": true,
-          "size": 6206904
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": "MmOHKjVd",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "OJRQskXo",
-      "name": "[Forge - 1.18.2] Torch hit! v6.0.1.1",
-      "version_number": "6.0.1.1",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "9ad74853ceec53fb45e43f747ba124e84a0e71955d29e3a62e5015fb40c092c511e8a7d9c6fcce06fc8525e8bd4616130ad089bd04bf765c383e197a8c4db160",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/OJRQskXo/torchhit-1.18.2-6.0.1.1-forge.jar",
-          "filename": "torchhit-1.18.2-6.0.1.1-forge.jar",
-          "primary": true,
-          "size": 6206578
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": "xi0dAzqe",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -1911,46 +1951,6 @@
           "version_id": "hL166XNb",
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "XVarJX3C",
-      "name": "[Fabric - 1.16.5] Torch hit! v6.0.1.1",
-      "version_number": "6.0.1.1",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "faf0467aab1d35d6748625fe2173e14eed2ab1b608542e0cf7549546e749035e9bc67f22d5c533e8abe227f44bd7718a736f89cd5c3c128c2abbb2ebf6cedead",
-          "url": "https://cdn.modrinth.com/data/zTOq9jEI/versions/XVarJX3C/torchhit-1.16.5-6.0.1.1-fabric.jar",
-          "filename": "torchhit-1.16.5-6.0.1.1-fabric.jar",
-          "primary": true,
-          "size": 6206692
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "d6MhxwRo",
-          "version_id": "84T67Pru",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     }

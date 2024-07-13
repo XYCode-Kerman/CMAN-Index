@@ -5,22 +5,54 @@
   "description": "A Patchouli Resource Patch fork.\nMake Patchouli load book json from assets.",
   "versions": [
     {
-      "id": "TLymuy0Y",
-      "name": "PRP-Arch-Forge-1.0.1-Hotfix-1.19.3",
-      "version_number": "1.0.1-Hotfix-1.19.3",
+      "id": "4Eo7T7l8",
+      "name": "PRP-Arch-Forge 1.0.1-Hotfix-1.15.x",
+      "version_number": "1.0.1-Hotfix-1.15.x-forge",
       "game_versions": [
-        "1.19.3"
+        "1.15",
+        "1.15.1",
+        "1.15.2"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "ae59175bf46d97880b00beb64bd3a68c5a438cafc33413859df356465115baefc648247ad231f20487a239c565667fda3828ac9bb9a1c6cc7af62d9f289fc5e7",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/TLymuy0Y/PRP-Arch-Forge-1.0.1-Hotfix-1.19.3.jar",
-          "filename": "PRP-Arch-Forge-1.0.1-Hotfix-1.19.3.jar",
+          "sha512": "6aae4959b4c58230db61633f2c6b2b7d8c359a66cbd647e39de2659a5597e99685d8f48a36c180e5b8d72b176533910f7b12128d4c26e13ac7e4013fb44ddafc",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/4Eo7T7l8/PRP-Arch-Forge-1.0.1-Hotfix-1.15.x.jar",
+          "filename": "PRP-Arch-Forge-1.0.1-Hotfix-1.15.x.jar",
           "primary": true,
-          "size": 29314
+          "size": 29838
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": "oFXdEP6M",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "4MDnE9Gv",
+      "name": "PRP-Arch-Fabric 1.0.1-Hotfix-1.18.x",
+      "version_number": "1.0.1-Hotfix-1.18.x-fabric",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2b75ea363ad30e651ae277bdb24701ed0291096b8529d2bcb3c6a44e730003fb9b40073bd9f7e2c0edd8b97ed6dc4c2e8113f63dbc3870c30857f91f53077898",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/4MDnE9Gv/PRP-Arch-Fabric-1.0.1-Hotfix-1.18.x.jar",
+          "filename": "PRP-Arch-Fabric-1.0.1-Hotfix-1.18.x.jar",
+          "primary": true,
+          "size": 29091
         }
       ],
       "dependencies": [
@@ -33,22 +65,24 @@
       ]
     },
     {
-      "id": "v7O0bDGv",
-      "name": "PRP-Arch-Fabric-1.0.1-Hotfix-1.19.3",
-      "version_number": "1.0.1-Hotfix-1.19.3",
+      "id": "4RSOfZgl",
+      "name": "PRP-Arch-Fabric 1.0.1-1.18.x",
+      "version_number": "1.0.1-1.18.x-fabric",
       "game_versions": [
-        "1.19.3"
+        "1.18",
+        "1.18.1",
+        "1.18.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "74c44a0081a99f5415af59b0a9d70fca47aa3d8323b54b6925693c696e1b2ef5510b9ac97caeeed54199087788d818b88c2667cd25c45b746c00bec049c32e74",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/v7O0bDGv/PRP-Arch-Fabric-1.0.1-Hotfix-1.19.3.jar",
-          "filename": "PRP-Arch-Fabric-1.0.1-Hotfix-1.19.3.jar",
+          "sha512": "46e1404f60927aa2b769af366109cac09dc674c4774f2e0c3509d700f7613b84a3f2c31490b2b13451c86f28f51b7997b90944fba9b5ae07caf44c7ceae50577",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/4RSOfZgl/PRP-Arch-Fabric-1.0.1-1.18.x.jar",
+          "filename": "PRP-Arch-Fabric-1.0.1-1.18.x.jar",
           "primary": true,
-          "size": 29194
+          "size": 29063
         }
       ],
       "dependencies": [
@@ -91,121 +125,9 @@
       ]
     },
     {
-      "id": "VzBRYoha",
-      "name": "PRP-Arch-Forge 1.0.1-Hotfix-1.19.x",
-      "version_number": "1.0.1-Hotfix-1.19.x-forge",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "61358c21a671787243684918c292ad09ccb7e48fcf76b0a312d90b052a7b87648247c5e9881851309019f6d3cae9b5c465c0550703e92e21a8fe21e43e0a8601",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/VzBRYoha/PRP-Arch-Forge-1.0.1-Hotfix-1.19.x.jar",
-          "filename": "PRP-Arch-Forge-1.0.1-Hotfix-1.19.x.jar",
-          "primary": true,
-          "size": 29317
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "4MDnE9Gv",
-      "name": "PRP-Arch-Fabric 1.0.1-Hotfix-1.18.x",
-      "version_number": "1.0.1-Hotfix-1.18.x-fabric",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2b75ea363ad30e651ae277bdb24701ed0291096b8529d2bcb3c6a44e730003fb9b40073bd9f7e2c0edd8b97ed6dc4c2e8113f63dbc3870c30857f91f53077898",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/4MDnE9Gv/PRP-Arch-Fabric-1.0.1-Hotfix-1.18.x.jar",
-          "filename": "PRP-Arch-Fabric-1.0.1-Hotfix-1.18.x.jar",
-          "primary": true,
-          "size": 29091
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "nU0bVIaL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "msizLmQ2",
-      "name": "PRP-Arch-Forge 1.0.1-Hotfix-1.18.x",
-      "version_number": "1.0.1-Hotfix-1.18.x-forge",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "ebc7688bf603b757bb26df9b70abe96a1f324b36616a80cee249ff97c38a67fc10b2d7e44e51506d96ba9a5a8708fb095f2670d48941204b6d999c84820089c0",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/msizLmQ2/PRP-Arch-Forge-1.0.1-Hotfix-1.18.x.jar",
-          "filename": "PRP-Arch-Forge-1.0.1-Hotfix-1.18.x.jar",
-          "primary": true,
-          "size": 29225
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "nU0bVIaL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "iaKb1IQa",
-      "name": "PRP-Arch-Fabric 1.0.1-Hotfix-1.17.x",
-      "version_number": "1.0.1-Hotfix-1.17.x-fabric",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "42a1cde92213afec6f5ec8304b64fc9854ac110256e80c0ecce123bc6abf66dbf1d93e50cfb06d0d654c8ecb55b10e23371439d15005d829d824828538c1865e",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/iaKb1IQa/PRP-Arch-Fabric-1.0.1-Hotfix-1.17.x.jar",
-          "filename": "PRP-Arch-Fabric-1.0.1-Hotfix-1.17.x.jar",
-          "primary": true,
-          "size": 29076
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "nU0bVIaL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "LsTqKtz6",
-      "name": "PRP-Arch-Forge 1.0.1-Hotfix-1.17.x",
-      "version_number": "1.0.1-Hotfix-1.17.x-forge",
+      "id": "5aepC7Rs",
+      "name": "PRP-Arch-Forge 1.0.0-1.17.x",
+      "version_number": "1.0.0-1.17.x-forge",
       "game_versions": [
         "1.17",
         "1.17.1"
@@ -215,360 +137,11 @@
       ],
       "files": [
         {
-          "sha512": "48f638128d0ff173ae983a58ce8ec082886d8884d3f056e1ab5ad630f9d2bbfbd03fa82f5ae8b93c9a58fb4257667c39b7e0936bd22bc1097e64f56824165790",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/LsTqKtz6/PRP-Arch-Forge-1.0.1-Hotfix-1.17.x.jar",
-          "filename": "PRP-Arch-Forge-1.0.1-Hotfix-1.17.x.jar",
+          "sha512": "ccce1566557a268a5d58050db1e2faab9a9dd3dbef59e26d1b093398a0830bd0a9bb544cf477cb9294022a78b2046f0c1933f0e02803182bd53bfdef9b7b1b8f",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/5aepC7Rs/PRP-Arch-Forge-1.0.0-1.17.x.jar",
+          "filename": "PRP-Arch-Forge-1.0.0-1.17.x.jar",
           "primary": true,
-          "size": 29203
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "nU0bVIaL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "XbFsyKaB",
-      "name": "PRP-Arch-Fabric 1.0.1-Hotfix-1.16.5",
-      "version_number": "1.0.1-Hotfix-1.16.5-fabric",
-      "game_versions": [
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "605a09ef4deb22cef6e6176727ccfb4457df7c2fe969c12d958b7c5b0bfd22b196e25c65294eb25086bcb9810f2cc8e93f269dba086891f6ff1b5fdd695308d6",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/XbFsyKaB/PRP-Arch-Fabric-1.0.1-Hotfix-1.16.5.jar",
-          "filename": "PRP-Arch-Fabric-1.0.1-Hotfix-1.16.5.jar",
-          "primary": true,
-          "size": 29009
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "8XytztMq",
-      "name": "PRP-Arch-Forge 1.0.1-Hotfix-1.16.5",
-      "version_number": "1.0.1-Hotfix-1.16.5-forge",
-      "game_versions": [
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "1679ccf3fed8e414a0737d0ee9595c41232ec794ae52162adf29f2ada8862ed06a956263a4091a2f5859698fe2f060b963c1011843d1ce3acea253fdef2cb573",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/8XytztMq/PRP-Arch-Forge-1.0.1-Hotfix-1.16.5.jar",
-          "filename": "PRP-Arch-Forge-1.0.1-Hotfix-1.16.5.jar",
-          "primary": true,
-          "size": 29844
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "nU0bVIaL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "LObXf0ky",
-      "name": "PRP-Arch-Fabric 1.0.1-Hotfix-1.15.x",
-      "version_number": "1.0.1-Hotfix-1.15.x-fabric",
-      "game_versions": [
-        "1.15",
-        "1.15.1",
-        "1.15.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d13bc6aad3605af5101646e00f28a3f996c98951ce3d4d722d946448eb9fffcb7a358107ff66f7e210c7eb831c793587705edd533acf729dbe1bc681390fe1e9",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/LObXf0ky/PRP-Arch-Fabric-1.0.1-Hotfix-1.15.x.jar",
-          "filename": "PRP-Arch-Fabric-1.0.1-Hotfix-1.15.x.jar",
-          "primary": true,
-          "size": 28991
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "nU0bVIaL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4Eo7T7l8",
-      "name": "PRP-Arch-Forge 1.0.1-Hotfix-1.15.x",
-      "version_number": "1.0.1-Hotfix-1.15.x-forge",
-      "game_versions": [
-        "1.15",
-        "1.15.1",
-        "1.15.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "6aae4959b4c58230db61633f2c6b2b7d8c359a66cbd647e39de2659a5597e99685d8f48a36c180e5b8d72b176533910f7b12128d4c26e13ac7e4013fb44ddafc",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/4Eo7T7l8/PRP-Arch-Forge-1.0.1-Hotfix-1.15.x.jar",
-          "filename": "PRP-Arch-Forge-1.0.1-Hotfix-1.15.x.jar",
-          "primary": true,
-          "size": 29838
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "nU0bVIaL",
-          "version_id": "oFXdEP6M",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "w16YfLNR",
-      "name": "PRP-Arch-Forge 1.0.1-1.18.x",
-      "version_number": "1.0.1-1.18.x-forge",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "77529baef5c97b9671d37e53123ec78c6e59cc32fd6d0f7a3758d8f62957b7ae8d157350ee8f166ab838048253b986f7739d22c4b67eafcda85267fefc9344a6",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/w16YfLNR/PRP-Arch-Forge-1.0.1-1.18.x.jar",
-          "filename": "PRP-Arch-Forge-1.0.1-1.18.x.jar",
-          "primary": true,
-          "size": 29164
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "nU0bVIaL",
-          "version_id": "62ztr7HA",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4RSOfZgl",
-      "name": "PRP-Arch-Fabric 1.0.1-1.18.x",
-      "version_number": "1.0.1-1.18.x-fabric",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "46e1404f60927aa2b769af366109cac09dc674c4774f2e0c3509d700f7613b84a3f2c31490b2b13451c86f28f51b7997b90944fba9b5ae07caf44c7ceae50577",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/4RSOfZgl/PRP-Arch-Fabric-1.0.1-1.18.x.jar",
-          "filename": "PRP-Arch-Fabric-1.0.1-1.18.x.jar",
-          "primary": true,
-          "size": 29063
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "nU0bVIaL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "6TWpFOsr",
-      "name": "PRP-Arch-Forge 1.0.1-1.19.x",
-      "version_number": "1.0.1-1.19.x-forge",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "a6f386af9def25fda9e7399769c2b02d70176af19ea9dcd525af4d10daf1616ab6cfd279b22ccdb7f72b62dccfd25e5a20d09af1fe0b60b69c1888e8c22f6f9b",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/6TWpFOsr/PRP-Arch-Forge-1.0.1-1.19.x.jar",
-          "filename": "PRP-Arch-Forge-1.0.1-1.19.x.jar",
-          "primary": true,
-          "size": 29259
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "nU0bVIaL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "NPAODQPZ",
-      "name": "PRP-Arch-Fabric 1.0.1-1.19.x",
-      "version_number": "1.0.1-1.19.x-fabric",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d3d7d79d946db838904de767f503f9afeeba04e0da2bab50802fed34176e40468aa67f3297168da8ee046294a1f6c8656c25b1154effecda2dd3071fa79d9ad7",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/NPAODQPZ/PRP-Arch-Fabric-1.0.1-1.19.x.jar",
-          "filename": "PRP-Arch-Fabric-1.0.1-1.19.x.jar",
-          "primary": true,
-          "size": 29164
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "nU0bVIaL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "noLtTeEY",
-      "name": "PRP-Arch-Forge 1.0.0-1.15.x",
-      "version_number": "1.0.0-1.15.x-forge",
-      "game_versions": [
-        "1.15",
-        "1.15.1",
-        "1.15.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "9a7384a434875dacde56847361da3d062cc21775df0edcb5ac86e34d322983d5be35fc8ad88925dd7565879234908ee79581d7f1ed144ae612d93cae6ecc96d3",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/noLtTeEY/PRP-Arch-Forge-1.0.0-1.15.x.jar",
-          "filename": "PRP-Arch-Forge-1.0.0-1.15.x.jar",
-          "primary": true,
-          "size": 29781
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "nU0bVIaL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "CANum4IE",
-      "name": "PRP-Arch-Fabric 1.0.0-1.15.x",
-      "version_number": "1.0.0-1.15.x-fabric",
-      "game_versions": [
-        "1.15",
-        "1.15.1",
-        "1.15.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "7ff2f0240023ba074bdbde4b6900778e4c12f7c42a1648496aefa38c30ea22d2e7ae34d2a326a446be91667953d12bd99d46daa45d75d6aa30768a2dc0c688b7",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/CANum4IE/PRP-Arch-Fabric-1.0.0-1.15.x.jar",
-          "filename": "PRP-Arch-Fabric-1.0.0-1.15.x.jar",
-          "primary": true,
-          "size": 28964
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "nU0bVIaL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "rUTFuXbj",
-      "name": "PRP-Arch-Forge 1.0.0-1.16.5",
-      "version_number": "1.0.0-1.16.5-forge",
-      "game_versions": [
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e99e784318108e1f1d67d31d0470d1afa82ea98aaa6f48ea7c338a86658ee3fd5f8f3ead6e1d3cce9e3f5ef0e4e27996fddc2306417f22aef68770d587c2b686",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/rUTFuXbj/PRP-Arch-Forge-1.0.0-1.16.5.jar",
-          "filename": "PRP-Arch-Forge-1.0.0-1.16.5.jar",
-          "primary": true,
-          "size": 29781
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "nU0bVIaL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "gbveYOGH",
-      "name": "PRP-Arch-Fabric 1.0.0-1.16.5",
-      "version_number": "1.0.0-1.16.5-fabric",
-      "game_versions": [
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "dffb9efe4189839337b8cecad9bb6f4139f4a69b088e324ee11b7a050255788e8593535abd50ba2a9e6d3873e76f49084efedfa5ed38fca51f4e26351000243f",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/gbveYOGH/PRP-Arch-Fabric-1.0.0-1.16.5.jar",
-          "filename": "PRP-Arch-Fabric-1.0.0-1.16.5.jar",
-          "primary": true,
-          "size": 28976
+          "size": 29140
         }
       ],
       "dependencies": [
@@ -611,6 +184,65 @@
       ]
     },
     {
+      "id": "6TWpFOsr",
+      "name": "PRP-Arch-Forge 1.0.1-1.19.x",
+      "version_number": "1.0.1-1.19.x-forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "a6f386af9def25fda9e7399769c2b02d70176af19ea9dcd525af4d10daf1616ab6cfd279b22ccdb7f72b62dccfd25e5a20d09af1fe0b60b69c1888e8c22f6f9b",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/6TWpFOsr/PRP-Arch-Forge-1.0.1-1.19.x.jar",
+          "filename": "PRP-Arch-Forge-1.0.1-1.19.x.jar",
+          "primary": true,
+          "size": 29259
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "8XytztMq",
+      "name": "PRP-Arch-Forge 1.0.1-Hotfix-1.16.5",
+      "version_number": "1.0.1-Hotfix-1.16.5-forge",
+      "game_versions": [
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "1679ccf3fed8e414a0737d0ee9595c41232ec794ae52162adf29f2ada8862ed06a956263a4091a2f5859698fe2f060b963c1011843d1ce3acea253fdef2cb573",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/8XytztMq/PRP-Arch-Forge-1.0.1-Hotfix-1.16.5.jar",
+          "filename": "PRP-Arch-Forge-1.0.1-Hotfix-1.16.5.jar",
+          "primary": true,
+          "size": 29844
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "94GoG8a9",
       "name": "PRP-Arch-Fabric 1.0.0-1.19.x",
       "version_number": "1.0.0-1.19.x-fabric",
@@ -641,23 +273,24 @@
       ]
     },
     {
-      "id": "5aepC7Rs",
-      "name": "PRP-Arch-Forge 1.0.0-1.17.x",
-      "version_number": "1.0.0-1.17.x-forge",
+      "id": "CANum4IE",
+      "name": "PRP-Arch-Fabric 1.0.0-1.15.x",
+      "version_number": "1.0.0-1.15.x-fabric",
       "game_versions": [
-        "1.17",
-        "1.17.1"
+        "1.15",
+        "1.15.1",
+        "1.15.2"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "ccce1566557a268a5d58050db1e2faab9a9dd3dbef59e26d1b093398a0830bd0a9bb544cf477cb9294022a78b2046f0c1933f0e02803182bd53bfdef9b7b1b8f",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/5aepC7Rs/PRP-Arch-Forge-1.0.0-1.17.x.jar",
-          "filename": "PRP-Arch-Forge-1.0.0-1.17.x.jar",
+          "sha512": "7ff2f0240023ba074bdbde4b6900778e4c12f7c42a1648496aefa38c30ea22d2e7ae34d2a326a446be91667953d12bd99d46daa45d75d6aa30768a2dc0c688b7",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/CANum4IE/PRP-Arch-Fabric-1.0.0-1.15.x.jar",
+          "filename": "PRP-Arch-Fabric-1.0.0-1.15.x.jar",
           "primary": true,
-          "size": 29140
+          "size": 28964
         }
       ],
       "dependencies": [
@@ -668,6 +301,168 @@
           "dependency_type": "required"
         }
       ]
+    },
+    {
+      "id": "LObXf0ky",
+      "name": "PRP-Arch-Fabric 1.0.1-Hotfix-1.15.x",
+      "version_number": "1.0.1-Hotfix-1.15.x-fabric",
+      "game_versions": [
+        "1.15",
+        "1.15.1",
+        "1.15.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d13bc6aad3605af5101646e00f28a3f996c98951ce3d4d722d946448eb9fffcb7a358107ff66f7e210c7eb831c793587705edd533acf729dbe1bc681390fe1e9",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/LObXf0ky/PRP-Arch-Fabric-1.0.1-Hotfix-1.15.x.jar",
+          "filename": "PRP-Arch-Fabric-1.0.1-Hotfix-1.15.x.jar",
+          "primary": true,
+          "size": 28991
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "LsTqKtz6",
+      "name": "PRP-Arch-Forge 1.0.1-Hotfix-1.17.x",
+      "version_number": "1.0.1-Hotfix-1.17.x-forge",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "48f638128d0ff173ae983a58ce8ec082886d8884d3f056e1ab5ad630f9d2bbfbd03fa82f5ae8b93c9a58fb4257667c39b7e0936bd22bc1097e64f56824165790",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/LsTqKtz6/PRP-Arch-Forge-1.0.1-Hotfix-1.17.x.jar",
+          "filename": "PRP-Arch-Forge-1.0.1-Hotfix-1.17.x.jar",
+          "primary": true,
+          "size": 29203
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "NPAODQPZ",
+      "name": "PRP-Arch-Fabric 1.0.1-1.19.x",
+      "version_number": "1.0.1-1.19.x-fabric",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d3d7d79d946db838904de767f503f9afeeba04e0da2bab50802fed34176e40468aa67f3297168da8ee046294a1f6c8656c25b1154effecda2dd3071fa79d9ad7",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/NPAODQPZ/PRP-Arch-Fabric-1.0.1-1.19.x.jar",
+          "filename": "PRP-Arch-Fabric-1.0.1-1.19.x.jar",
+          "primary": true,
+          "size": 29164
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "TLymuy0Y",
+      "name": "PRP-Arch-Forge-1.0.1-Hotfix-1.19.3",
+      "version_number": "1.0.1-Hotfix-1.19.3",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ae59175bf46d97880b00beb64bd3a68c5a438cafc33413859df356465115baefc648247ad231f20487a239c565667fda3828ac9bb9a1c6cc7af62d9f289fc5e7",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/TLymuy0Y/PRP-Arch-Forge-1.0.1-Hotfix-1.19.3.jar",
+          "filename": "PRP-Arch-Forge-1.0.1-Hotfix-1.19.3.jar",
+          "primary": true,
+          "size": 29314
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "VzBRYoha",
+      "name": "PRP-Arch-Forge 1.0.1-Hotfix-1.19.x",
+      "version_number": "1.0.1-Hotfix-1.19.x-forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "61358c21a671787243684918c292ad09ccb7e48fcf76b0a312d90b052a7b87648247c5e9881851309019f6d3cae9b5c465c0550703e92e21a8fe21e43e0a8601",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/VzBRYoha/PRP-Arch-Forge-1.0.1-Hotfix-1.19.x.jar",
+          "filename": "PRP-Arch-Forge-1.0.1-Hotfix-1.19.x.jar",
+          "primary": true,
+          "size": 29317
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "XbFsyKaB",
+      "name": "PRP-Arch-Fabric 1.0.1-Hotfix-1.16.5",
+      "version_number": "1.0.1-Hotfix-1.16.5-fabric",
+      "game_versions": [
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "605a09ef4deb22cef6e6176727ccfb4457df7c2fe969c12d958b7c5b0bfd22b196e25c65294eb25086bcb9810f2cc8e93f269dba086891f6ff1b5fdd695308d6",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/XbFsyKaB/PRP-Arch-Fabric-1.0.1-Hotfix-1.16.5.jar",
+          "filename": "PRP-Arch-Fabric-1.0.1-Hotfix-1.16.5.jar",
+          "primary": true,
+          "size": 29009
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "a401Ouf2",
@@ -699,9 +494,67 @@
       ]
     },
     {
-      "id": "zpDIrd62",
-      "name": "PRP-Arch-Forge 1.0.0-1.18.x",
-      "version_number": "1.0.0-1.18.x-forge",
+      "id": "gbveYOGH",
+      "name": "PRP-Arch-Fabric 1.0.0-1.16.5",
+      "version_number": "1.0.0-1.16.5-fabric",
+      "game_versions": [
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "dffb9efe4189839337b8cecad9bb6f4139f4a69b088e324ee11b7a050255788e8593535abd50ba2a9e6d3873e76f49084efedfa5ed38fca51f4e26351000243f",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/gbveYOGH/PRP-Arch-Fabric-1.0.0-1.16.5.jar",
+          "filename": "PRP-Arch-Fabric-1.0.0-1.16.5.jar",
+          "primary": true,
+          "size": 28976
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "iaKb1IQa",
+      "name": "PRP-Arch-Fabric 1.0.1-Hotfix-1.17.x",
+      "version_number": "1.0.1-Hotfix-1.17.x-fabric",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "42a1cde92213afec6f5ec8304b64fc9854ac110256e80c0ecce123bc6abf66dbf1d93e50cfb06d0d654c8ecb55b10e23371439d15005d829d824828538c1865e",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/iaKb1IQa/PRP-Arch-Fabric-1.0.1-Hotfix-1.17.x.jar",
+          "filename": "PRP-Arch-Fabric-1.0.1-Hotfix-1.17.x.jar",
+          "primary": true,
+          "size": 29076
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "msizLmQ2",
+      "name": "PRP-Arch-Forge 1.0.1-Hotfix-1.18.x",
+      "version_number": "1.0.1-Hotfix-1.18.x-forge",
       "game_versions": [
         "1.18",
         "1.18.1",
@@ -712,17 +565,104 @@
       ],
       "files": [
         {
-          "sha512": "642a881a84b7973ba50ccff1a02020d3adc1ddff404735c34793bbacbd241a30e05158731c94c5920e770018052375a4104f45b2aba3f172bcad00cd9e3bdf32",
-          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/zpDIrd62/PRP-Arch-Forge-1.0.0-1.18.x.jar",
-          "filename": "PRP-Arch-Forge-1.0.0-1.18.x.jar",
+          "sha512": "ebc7688bf603b757bb26df9b70abe96a1f324b36616a80cee249ff97c38a67fc10b2d7e44e51506d96ba9a5a8708fb095f2670d48941204b6d999c84820089c0",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/msizLmQ2/PRP-Arch-Forge-1.0.1-Hotfix-1.18.x.jar",
+          "filename": "PRP-Arch-Forge-1.0.1-Hotfix-1.18.x.jar",
           "primary": true,
-          "size": 29178
+          "size": 29225
         }
       ],
       "dependencies": [
         {
           "project_id": "nU0bVIaL",
-          "version_id": "VReLlKMv",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "noLtTeEY",
+      "name": "PRP-Arch-Forge 1.0.0-1.15.x",
+      "version_number": "1.0.0-1.15.x-forge",
+      "game_versions": [
+        "1.15",
+        "1.15.1",
+        "1.15.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9a7384a434875dacde56847361da3d062cc21775df0edcb5ac86e34d322983d5be35fc8ad88925dd7565879234908ee79581d7f1ed144ae612d93cae6ecc96d3",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/noLtTeEY/PRP-Arch-Forge-1.0.0-1.15.x.jar",
+          "filename": "PRP-Arch-Forge-1.0.0-1.15.x.jar",
+          "primary": true,
+          "size": 29781
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "rUTFuXbj",
+      "name": "PRP-Arch-Forge 1.0.0-1.16.5",
+      "version_number": "1.0.0-1.16.5-forge",
+      "game_versions": [
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e99e784318108e1f1d67d31d0470d1afa82ea98aaa6f48ea7c338a86658ee3fd5f8f3ead6e1d3cce9e3f5ef0e4e27996fddc2306417f22aef68770d587c2b686",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/rUTFuXbj/PRP-Arch-Forge-1.0.0-1.16.5.jar",
+          "filename": "PRP-Arch-Forge-1.0.0-1.16.5.jar",
+          "primary": true,
+          "size": 29781
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "v7O0bDGv",
+      "name": "PRP-Arch-Fabric-1.0.1-Hotfix-1.19.3",
+      "version_number": "1.0.1-Hotfix-1.19.3",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "74c44a0081a99f5415af59b0a9d70fca47aa3d8323b54b6925693c696e1b2ef5510b9ac97caeeed54199087788d818b88c2667cd25c45b746c00bec049c32e74",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/v7O0bDGv/PRP-Arch-Fabric-1.0.1-Hotfix-1.19.3.jar",
+          "filename": "PRP-Arch-Fabric-1.0.1-Hotfix-1.19.3.jar",
+          "primary": true,
+          "size": 29194
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -753,6 +693,66 @@
         {
           "project_id": "nU0bVIaL",
           "version_id": "yLlzynQ5",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "w16YfLNR",
+      "name": "PRP-Arch-Forge 1.0.1-1.18.x",
+      "version_number": "1.0.1-1.18.x-forge",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "77529baef5c97b9671d37e53123ec78c6e59cc32fd6d0f7a3758d8f62957b7ae8d157350ee8f166ab838048253b986f7739d22c4b67eafcda85267fefc9344a6",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/w16YfLNR/PRP-Arch-Forge-1.0.1-1.18.x.jar",
+          "filename": "PRP-Arch-Forge-1.0.1-1.18.x.jar",
+          "primary": true,
+          "size": 29164
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": "62ztr7HA",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "zpDIrd62",
+      "name": "PRP-Arch-Forge 1.0.0-1.18.x",
+      "version_number": "1.0.0-1.18.x-forge",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "642a881a84b7973ba50ccff1a02020d3adc1ddff404735c34793bbacbd241a30e05158731c94c5920e770018052375a4104f45b2aba3f172bcad00cd9e3bdf32",
+          "url": "https://cdn.modrinth.com/data/AqeDdB2c/versions/zpDIrd62/PRP-Arch-Forge-1.0.0-1.18.x.jar",
+          "filename": "PRP-Arch-Forge-1.0.0-1.18.x.jar",
+          "primary": true,
+          "size": 29178
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": "VReLlKMv",
           "file_name": null,
           "dependency_type": "required"
         }

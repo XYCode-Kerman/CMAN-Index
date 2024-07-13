@@ -1,29 +1,9 @@
 {
-  "id": "format",
+  "id": "m5jDoXaM",
   "slug": "format",
   "name": "Format",
   "description": "A plugin (and now MOD) that will help you with data pack creation.\nIt can generate NBT and JSON advancement areas with a world edit-like tool.",
   "versions": [
-    {
-      "id": "fWqZ4p41",
-      "name": "Format 1.0",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ffe664a6829875737c0b3a660fe252f8945198625a4ecaf36649fbbf57d76b2c742d9b0a0d274069de34afebbb642d8c9968c0f428a7e265621f6959457f2e2d",
-          "url": "https://cdn.modrinth.com/data/m5jDoXaM/versions/fWqZ4p41/FormatFabric-1.0.jar",
-          "filename": "FormatFabric-1.0.jar",
-          "primary": true,
-          "size": 6407
-        }
-      ]
-    },
     {
       "id": "3r2InZM1",
       "name": "Format 1.0",
@@ -42,25 +22,68 @@
           "primary": true,
           "size": 6406
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
-      "id": "oFHnZh3R",
+      "id": "a0vC3mut",
+      "name": "Format 1.1",
+      "version_number": "1.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "bukkit",
+        "paper",
+        "spigot"
+      ],
+      "files": [
+        {
+          "sha512": "2037cf14a0e274805751bb7256eaf7ce885565933b1433f24b4130a9cd19404f360f1120152786e5fbbe96152a2250b702bfd57460fd04f811a0450755deb21f",
+          "url": "https://cdn.modrinth.com/data/m5jDoXaM/versions/a0vC3mut/Format-1.0.jar",
+          "filename": "Format-1.0.jar",
+          "primary": true,
+          "size": 7993
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "fWqZ4p41",
       "name": "Format 1.0",
       "version_number": "1.0",
       "game_versions": [
-        "1.21"
+        "1.20.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "0c383468353a3655ee9bd4cd8c42d700bc1c90787492200b770f673144d0c348b55421513113b96304c7a0ce55ae41530c2be4a1a53365866ebba73ba45337a8",
-          "url": "https://cdn.modrinth.com/data/m5jDoXaM/versions/oFHnZh3R/FormatFabric-1.0.jar",
+          "sha512": "ffe664a6829875737c0b3a660fe252f8945198625a4ecaf36649fbbf57d76b2c742d9b0a0d274069de34afebbb642d8c9968c0f428a7e265621f6959457f2e2d",
+          "url": "https://cdn.modrinth.com/data/m5jDoXaM/versions/fWqZ4p41/FormatFabric-1.0.jar",
           "filename": "FormatFabric-1.0.jar",
           "primary": true,
-          "size": 6404
+          "size": 6407
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -91,7 +114,29 @@
           "primary": true,
           "size": 7999
         }
-      ]
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "oFHnZh3R",
+      "name": "Format 1.0",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0c383468353a3655ee9bd4cd8c42d700bc1c90787492200b770f673144d0c348b55421513113b96304c7a0ce55ae41530c2be4a1a53365866ebba73ba45337a8",
+          "url": "https://cdn.modrinth.com/data/m5jDoXaM/versions/oFHnZh3R/FormatFabric-1.0.jar",
+          "filename": "FormatFabric-1.0.jar",
+          "primary": true,
+          "size": 6404
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "uPOW7UxB",
@@ -118,33 +163,8 @@
           "primary": true,
           "size": 7993
         }
-      ]
-    },
-    {
-      "id": "a0vC3mut",
-      "name": "Format 1.1",
-      "version_number": "1.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
       ],
-      "loaders": [
-        "bukkit",
-        "paper",
-        "spigot"
-      ],
-      "files": [
-        {
-          "sha512": "2037cf14a0e274805751bb7256eaf7ce885565933b1433f24b4130a9cd19404f360f1120152786e5fbbe96152a2250b702bfd57460fd04f811a0450755deb21f",
-          "url": "https://cdn.modrinth.com/data/m5jDoXaM/versions/a0vC3mut/Format-1.0.jar",
-          "filename": "Format-1.0.jar",
-          "primary": true,
-          "size": 7993
-        }
-      ]
+      "dependencies": []
     },
     {
       "id": "yHG0gCv6",
@@ -170,7 +190,8 @@
           "primary": true,
           "size": 7982
         }
-      ]
+      ],
+      "dependencies": []
     }
   ]
 }

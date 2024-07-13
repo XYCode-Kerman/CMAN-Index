@@ -5,12 +5,12 @@
   "description": "Perspective allows you to zoom, hold/set perspectives, and use super secret settings.",
   "versions": [
     {
-      "id": "rLd5vU4p",
-      "name": "[1.20.5/6] Perspective 1.2.3-release.1",
-      "version_number": "1.2.3-release.1-1.20.5-6",
+      "id": "2TQcIgk1",
+      "name": "[1.20.x] Perspective 1.1.0-beta.2",
+      "version_number": "1.1.0-beta.2+1.20.x",
       "game_versions": [
-        "1.20.5",
-        "1.20.6"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "fabric",
@@ -18,18 +18,40 @@
       ],
       "files": [
         {
-          "sha512": "ddca450a64e5fc978cae89fa01a337f69518ad82d5ed496cccb46e7829a7b17edb2e08fe0716ff0d9596151a2f074539143285f32717b8a29f8e7b359fe914a5",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/rLd5vU4p/6.jar",
-          "filename": "6.jar",
+          "sha512": "74e775e75d185ef9468ef2881854705aad218cc762682ed5470a0214297836354d6cb50652816ef73503ac158a3ad5b40fc87a87241febb30734fa580b77a39c",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/2TQcIgk1/perspective-1.1.0-beta.2%2B1.20.x.jar",
+          "filename": "perspective-1.1.0-beta.2+1.20.x.jar",
           "primary": true,
-          "size": 944565
-        },
+          "size": 402716
+        }
+      ],
+      "dependencies": [
         {
-          "sha512": "97ca05c503f6bfe1f1e6cda0276b4baf66c92ffe01b2ce509fda14dca3ab77186d80efccc3b278a8a920d27389beb3a252b05fd3af44c2226d203ba9c774d645",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/rLd5vU4p/perspective-1.3.0-alpha.6%2B1.20.5-6.jar",
-          "filename": "perspective-1.3.0-alpha.6+1.20.5-6.jar",
-          "primary": false,
-          "size": 961555
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "3RPOQRXw",
+      "name": "[1.20.2] Perspective 1.2.0-alpha.4",
+      "version_number": "1.2.0-alpha.4+1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "148a4c460f0bf60f7ec6d4338cf55397e6072244e321d9c9bfd5038ce4b3d61b3b7e783e88bdc610243b0c2923e5fb6439448b06ad8e2c48ae6f880d8f866416",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/3RPOQRXw/perspective-1.2.0-alpha.4%2B1.20.2.jar",
+          "filename": "perspective-1.2.0-alpha.4+1.20.2.jar",
+          "primary": true,
+          "size": 785802
         }
       ],
       "dependencies": [
@@ -48,9 +70,413 @@
       ]
     },
     {
-      "id": "oX2giunP",
-      "name": "[1.20.3/4] Perspective 1.2.2",
-      "version_number": "1.2.2-release.1+1.20.3-4",
+      "id": "4P3Lyurp",
+      "name": "[1.20.x] Perspective 1.1.3",
+      "version_number": "1.1.3-release.1+1.20.x",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "aa36f96520f017b6c6902ea1e90996f2906f139008a461bd938fe965d462d6e99bae64392cdcb8aaa680493bd324d25be41c16c6a641da2d75400b16bac1fd6b",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/4P3Lyurp/perspective-1.1.3%2B1.20.x.jar",
+          "filename": "perspective-1.1.3+1.20.x.jar",
+          "primary": true,
+          "size": 735469
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "4vHs0ui1",
+      "name": "[1.20] Perspective 1.0.1",
+      "version_number": "1.0.1-release.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f29fb91eacc0ca335705029448b5a61bd04c29aa407eadb2b2a071c2793155da707f6e40fa819c4042d1b0a84e93bf2df0fba7ae0eabe624e2e06e000c0912b0",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/4vHs0ui1/perspective-1.0.1-release.1.jar",
+          "filename": "perspective-1.0.1-release.1.jar",
+          "primary": true,
+          "size": 96274
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "8JRIpGI4",
+      "name": "[1.20.2] Perspective 1.2.0",
+      "version_number": "1.2.0+1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "371bbc44db45381d5e664d61f0df49bb1aeafc12811b0239e593355122799944a2ac2f453c72faa4ca661fcb3e408811cda49d2367358b257d32c99d41d3d534",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/8JRIpGI4/perspective-1.2.0%2B1.20.2.jar",
+          "filename": "perspective-1.2.0+1.20.2.jar",
+          "primary": true,
+          "size": 1207427
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "AbDNfsEc",
+      "name": "[1.20.2-1.20.3] Perspective 1.2.0-alpha.5",
+      "version_number": "1.2.0-alpha.5+1.20.2",
+      "game_versions": [
+        "1.20.2",
+        "23w40a",
+        "23w41a",
+        "23w42a",
+        "23w43a",
+        "23w43b",
+        "23w44a",
+        "23w45a"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5629d7f135a41863892f8ba71958ddba9429cf7177971d76714074a06566a59add5736d004e34dbf2e0d46b43a8658992681660ffffb349345f40494c579dd82",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/AbDNfsEc/perspective-1.2.0-alpha.5%2B1.20.2.jar",
+          "filename": "perspective-1.2.0-alpha.5+1.20.2.jar",
+          "primary": true,
+          "size": 832646
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "B3VfkN3P",
+      "name": "[1.20.x] Perspective 1.1.0-rc.4",
+      "version_number": "1.1.0-rc.4+1.20.x",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "24793334fdc73dbadd9d34e1ca742539c14a19f04cc1c9eba73b0b03bf742b35bab69b3b7a700c8de724df8af21843f57775942f9e8c0c5e288781a53751ce5a",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/B3VfkN3P/perspective-1.1.0-rc.4%2B1.20.x.jar",
+          "filename": "perspective-1.1.0-rc.4+1.20.x.jar",
+          "primary": true,
+          "size": 628823
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Cez9Vdfs",
+      "name": "[1.20.x] Perspective 1.1.0-beta.1",
+      "version_number": "1.1.0-beta.1+1.20.x",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "efc96818f0dd02c1894c20799e19f927459734bf5562cf46619e03223cb1292378dc68c57dbb633437a9973b90ebc6570138b074b9618a529f02968c55a538e9",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/Cez9Vdfs/perspective-1.1.0-beta.1%2B1.20.x.jar",
+          "filename": "perspective-1.1.0-beta.1+1.20.x.jar",
+          "primary": true,
+          "size": 402697
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "P7fEfdSc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "F7DNZWuN",
+      "name": "[1.20.2] Perspective 1.1.4",
+      "version_number": "1.1.4-release.1+1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5ea68d7f55f027619c25ca6159b108ad4ae20bc98da6853f578c430ef0a5e5d12e6ee4051d5c2caf08b7702c15a71e703f4cd95685615df48df37ab23e9f68b2",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/F7DNZWuN/perspective-1.1.4%2B1.20.2.jar",
+          "filename": "perspective-1.1.4+1.20.2.jar",
+          "primary": true,
+          "size": 721550
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "GYolnxmR",
+      "name": "[1.20.x] Perspective 1.1.0-beta.7",
+      "version_number": "1.1.0-beta.7+1.20.x",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "588898ff05f45b2b3b032b5a034709ad678f8800331802883296f993f6938162b0166b847e3cd7d87d23d9a92a0c7d14dbfd8551fdc6e3266b0b36fc5dd29d81",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/GYolnxmR/perspective-1.1.0-beta.7%2B1.20.x.jar",
+          "filename": "perspective-1.1.0-beta.7+1.20.x.jar",
+          "primary": true,
+          "size": 623211
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "GbsKnncB",
+      "name": "[1.20.x] Perspective 1.1.0-rc.1",
+      "version_number": "1.1.0-rc.1+1.20.x",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "90ab531abe336277231a063de948ed295897f9b5c598bf85215f4ad83d4152496f50405308ffd06720da6711c7c4bb3479c77701ef22a96b629dcb7d153cabb9",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/GbsKnncB/perspective-1.1.0-rc.1%2B1.20.x.jar",
+          "filename": "perspective-1.1.0-rc.1+1.20.x.jar",
+          "primary": true,
+          "size": 623291
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Gx59jJSx",
+      "name": "[23w51a/b] Perspective 1.3.0-alpha.1",
+      "version_number": "1.3.0-alpha.1+23w51a-b",
+      "game_versions": [
+        "23w51a",
+        "23w51b"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "dda7b919d8eab79e3a0941bd2776a2be27da797827e6f7e2ff5b89ed31b3b6b5456ff234c3712a66dcd445a3f646c6a5d0b6a8da4e6fd7d6538ea61769f334ae",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/Gx59jJSx/perspective-1.3.0-alpha.1%2B1.20.5.jar",
+          "filename": "perspective-1.3.0-alpha.1+1.20.5.jar",
+          "primary": true,
+          "size": 1222006
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "HUsyJ8ep",
+      "name": "[1.20.x] Perspective 1.1.0",
+      "version_number": "1.1.0-release.1+1.20.x",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "aab7df4f49988821480b3bd27297c1738adac6442eabbecd00bf09eaefb8c4a21e8bab2e369a1874ea41c024eb766e9a389ae93164f3e843821ee72d0858d106",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/HUsyJ8ep/perspective-1.1.0%2B1.20.x.jar",
+          "filename": "perspective-1.1.0+1.20.x.jar",
+          "primary": true,
+          "size": 628856
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "IK86rZ72",
+      "name": "[23w51a/b] Perspective 1.3.0-alpha.2",
+      "version_number": "1.3.0-alpha.2+23w51a-b",
+      "game_versions": [
+        "23w51a",
+        "23w51b"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f38f047811bdf7549213a984c2960ce5647fe3a2bfeac0d23ad0bbaa9a2cd77b606928dac8210d765999271658656032328b8d5f1f2a82f62455119dc7bc10ef",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/IK86rZ72/perspective-1.3.0-alpha.2%2B23w51a-b.jar",
+          "filename": "perspective-1.3.0-alpha.2+23w51a-b.jar",
+          "primary": true,
+          "size": 1287789
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "KsdK8gQV",
+      "name": "[1.20.3/4] Perspective 1.2.0",
+      "version_number": "1.2.0+1.20.3-4",
       "game_versions": [
         "1.20.3",
         "1.20.4"
@@ -61,107 +487,16 @@
       ],
       "files": [
         {
-          "sha512": "685e2ae4a737e871b73410efc13b4c1825adbc1272c9a370db2e09e6361bc30bf595c25a2bade665e35a9a623a8e026e3ede7856dab7f3637bd2ae6485caa76d",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/oX2giunP/perspective-1.2.2-release.1%2B1.20.3-4.jar",
-          "filename": "perspective-1.2.2-release.1+1.20.3-4.jar",
+          "sha512": "c8815ab6a36178f2a357db7f35ddbf186b60f60b18a0ce148a6af84ad0157af439b3590592b8a594ff466e213a93f26cbfd9679a2a3f0d7c5131fc733c067581",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/KsdK8gQV/perspective-1.2.0%2B1.20.3-4.jar",
+          "filename": "perspective-1.2.0+1.20.3-4.jar",
           "primary": true,
-          "size": 764276
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "EBTw0O1c",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "qKLt1JhR",
-      "name": "[1.20.5/6] Perspective 1.3.0-alpha.6",
-      "version_number": "1.3.0-alpha.6+1.20.5-6",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "97ca05c503f6bfe1f1e6cda0276b4baf66c92ffe01b2ce509fda14dca3ab77186d80efccc3b278a8a920d27389beb3a252b05fd3af44c2226d203ba9c774d645",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/qKLt1JhR/perspective-1.3.0-alpha.6%2B1.20.5-6.jar",
-          "filename": "perspective-1.3.0-alpha.6+1.20.5-6.jar",
-          "primary": true,
-          "size": 961555
+          "size": 1215026
         }
       ],
       "dependencies": [
         {
           "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "EBTw0O1c",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "uK36Xyro",
-      "name": "[1.20.5-rc3] Perspective 1.3.0-alpha.5",
-      "version_number": "1.3.0-alpha.5+1.20.5",
-      "game_versions": [
-        "1.20.5-rc3",
-        "1.20.5",
-        "1.20.6-rc1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2c728fa125ebd15a6d0fa10908557e42c90eebd4b100d3a0789abeaaf5b2fa749ef7c7b43651ad76135e570f976b1def4c779f07393ac8ecce42e279ba3dcacc",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/uK36Xyro/perspective-1.3.0-alpha.5%2B1.20.5.jar",
-          "filename": "perspective-1.3.0-alpha.5+1.20.5.jar",
-          "primary": true,
-          "size": 796916
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "EBTw0O1c",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -175,11 +510,12 @@
       ]
     },
     {
-      "id": "m1scu6Nj",
-      "name": "[1.20.5-rc1] Perspective 1.3.0-alpha.4",
-      "version_number": "1.3.0-alpha.4+1.20.5",
+      "id": "NJUdjCwz",
+      "name": "[1.20] Perspective 1.0.2",
+      "version_number": "1.0.2-release.1+1.20.x",
       "game_versions": [
-        "1.20.5-rc1"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "fabric",
@@ -187,11 +523,34 @@
       ],
       "files": [
         {
-          "sha512": "92a118eb5b4b5202fb0bc2cd572a20cb5efe986a6bc3a0905d8307ebf974a77afa56857e1a6c63beb5c5d6241ee2b20755800cc96b14c98bae41e077fcf8a6f7",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/m1scu6Nj/perspective-1.3.0-alpha.4%2B1.20.5.jar",
-          "filename": "perspective-1.3.0-alpha.4+1.20.5.jar",
+          "sha512": "c85c9183ccd02fc0866fef336885c4ac6f117df05e5d6e3f102acc390d5f3ccd13140cdcf691eed7bbf09dfc67210c0df676b8777b8eaf93ff6f87e23b3801d0",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/NJUdjCwz/perspective-1.0.2-release.1%2B1.20.x.jar",
+          "filename": "perspective-1.0.2-release.1+1.20.x.jar",
           "primary": true,
-          "size": 877753
+          "size": 100672
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "NfQSIOxE",
+      "name": "[1.20.x] Perspective 1.1.3-rc.2",
+      "version_number": "1.1.3-rc.2+1.20.x",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "fe83db62eb76b77987947ccd9c5986a4f0d350c161650a6b53f6cd627d1c371d9401d696038d0af5c003b0aed017365fd5a0175e46320176d3de47678d593902",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/NfQSIOxE/perspective-1.1.3-rc.2%2B1.20.x.jar",
+          "filename": "perspective-1.1.3-rc.2+1.20.x.jar",
+          "primary": true,
+          "size": 735485
         }
       ],
       "dependencies": [
@@ -246,12 +605,36 @@
       ]
     },
     {
-      "id": "IK86rZ72",
-      "name": "[23w51a/b] Perspective 1.3.0-alpha.2",
-      "version_number": "1.3.0-alpha.2+23w51a-b",
+      "id": "Q2UF4MLL",
+      "name": "[1.20] Perspective 1.0.0",
+      "version_number": "1.0.0-release.1",
       "game_versions": [
-        "23w51a",
-        "23w51b"
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a5a782ee8299cae510c1a289c67af9c864b12b335e6fba947731b9e7a23cb51abcc42d1b574241ad98da869929f5e2817046851d65701854dc5ab17c1c010d09",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/Q2UF4MLL/perspective-1.0.0-release.1.jar",
+          "filename": "perspective-1.0.0-release.1.jar",
+          "primary": true,
+          "size": 92615
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "QBSBnI7K",
+      "name": "[1.20.2-beta] Perspective 1.2.0-alpha.2",
+      "version_number": "1.2.0-alpha.2+1.20.2-beta",
+      "game_versions": [
+        "1.20.2-pre1",
+        "1.20.2-pre2",
+        "1.20.2-pre3",
+        "1.20.2-pre4"
       ],
       "loaders": [
         "fabric",
@@ -259,22 +642,22 @@
       ],
       "files": [
         {
-          "sha512": "f38f047811bdf7549213a984c2960ce5647fe3a2bfeac0d23ad0bbaa9a2cd77b606928dac8210d765999271658656032328b8d5f1f2a82f62455119dc7bc10ef",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/IK86rZ72/perspective-1.3.0-alpha.2%2B23w51a-b.jar",
-          "filename": "perspective-1.3.0-alpha.2+23w51a-b.jar",
+          "sha512": "9381f50cee9dc00686309f0d5d5c2adface247cfc5065da3cf5101d24c04666c4d3e83486d055af068ccc27ea7c95ba5106d77e8b8b2f23a3306356cf896c026",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/QBSBnI7K/perspective-1.2.0-alpha.2%2B1.20.2-beta.jar",
+          "filename": "perspective-1.2.0-alpha.2+1.20.2-beta.jar",
           "primary": true,
-          "size": 1287789
+          "size": 780520
         }
       ],
       "dependencies": [
         {
-          "project_id": "qvIfYCYJ",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "qvIfYCYJ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -282,40 +665,28 @@
       ]
     },
     {
-      "id": "Gx59jJSx",
-      "name": "[23w51a/b] Perspective 1.3.0-alpha.1",
-      "version_number": "1.3.0-alpha.1+23w51a-b",
+      "id": "S09CTVM2",
+      "name": "[1.20] Perspective 1.0.0-rc.2",
+      "version_number": "1.0.0-rc.2",
       "game_versions": [
-        "23w51a",
-        "23w51b"
+        "1.20-rc1",
+        "1.20",
+        "1.20.1-rc1",
+        "1.20.1"
       ],
       "loaders": [
-        "fabric",
-        "quilt"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "dda7b919d8eab79e3a0941bd2776a2be27da797827e6f7e2ff5b89ed31b3b6b5456ff234c3712a66dcd445a3f646c6a5d0b6a8da4e6fd7d6538ea61769f334ae",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/Gx59jJSx/perspective-1.3.0-alpha.1%2B1.20.5.jar",
-          "filename": "perspective-1.3.0-alpha.1+1.20.5.jar",
+          "sha512": "e9960d8fae83ba710d1577fefaf39165dbb39de89fef88cdd4d10612ef3d161f55726536192d69dc59f1daca9769af125c3852dabb489d1ad824330ff745e315",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/S09CTVM2/perspective-1.0.0-rc.2.jar",
+          "filename": "perspective-1.0.0-rc.2.jar",
           "primary": true,
-          "size": 1222006
+          "size": 78510
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
+      "dependencies": []
     },
     {
       "id": "TZHFriz8",
@@ -354,12 +725,12 @@
       ]
     },
     {
-      "id": "KsdK8gQV",
-      "name": "[1.20.3/4] Perspective 1.2.0",
-      "version_number": "1.2.0+1.20.3-4",
+      "id": "Teia7L98",
+      "name": "[1.20.x] Perspective 1.1.0-beta.6",
+      "version_number": "1.1.0-beta.6+1.20.x",
       "game_versions": [
-        "1.20.3",
-        "1.20.4"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "fabric",
@@ -367,11 +738,165 @@
       ],
       "files": [
         {
-          "sha512": "c8815ab6a36178f2a357db7f35ddbf186b60f60b18a0ce148a6af84ad0157af439b3590592b8a594ff466e213a93f26cbfd9679a2a3f0d7c5131fc733c067581",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/KsdK8gQV/perspective-1.2.0%2B1.20.3-4.jar",
-          "filename": "perspective-1.2.0+1.20.3-4.jar",
+          "sha512": "cc6480f2b328caf942054d52944aff59fb8d28204948a89cb249e427e03f0c54b6ad13af1ff167fc5fcb07667098e590576fbfc463d976bf74fe01073ec5f0d9",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/Teia7L98/perspective-1.1.0-beta.6%2B1.20.x.jar",
+          "filename": "perspective-1.1.0-beta.6+1.20.x.jar",
           "primary": true,
-          "size": 1215026
+          "size": 631927
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "XT0n34xk",
+      "name": "[1.20] Perspective 1.0.0-rc.4",
+      "version_number": "1.0.0-rc.4",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "455482b9c1f8177af950d22ef48aae65eabafd2e736ee5affe4be6e3fbd63ebe4b8e7c496d772dd414d86974f0ec1bb1e1bb21e28f1253a26a1d7b814cd5f939",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/XT0n34xk/perspective-1.0.0-rc.4.jar",
+          "filename": "perspective-1.0.0-rc.4.jar",
+          "primary": true,
+          "size": 86311
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "YLrV7ykR",
+      "name": "[1.20.x] Perspective 1.1.0-beta.5",
+      "version_number": "1.1.0-beta.5+1.20.x",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5bd63913e058b93464b848ba6068a7f11d8d174e78048d3b3e13e235847d24328cdab18c4c2ed2fb19d3e9559215b666c42d8d5ea856d726271e977f16648085",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/YLrV7ykR/perspective-1.1.0-beta.5%2B1.20.x.jar",
+          "filename": "perspective-1.1.0-beta.5+1.20.x.jar",
+          "primary": true,
+          "size": 623903
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Z4tQk4x9",
+      "name": "[1.20.x] Perspective 1.1.0-rc.2",
+      "version_number": "1.1.0-rc.2+1.20.x",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "9e7c744611dd2eceac2d67f8ffa86bf8433d98a51c8782d51f67372aea5c18126b9aef5cba771ebfcb6a05411cac72436d34275a81d24cda055d674ca1ccdeeb",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/Z4tQk4x9/perspective-1.1.0-rc.2%2B1.20.x.jar",
+          "filename": "perspective-1.1.0-rc.2+1.20.x.jar",
+          "primary": true,
+          "size": 627293
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "aeNfNaTE",
+      "name": "[1.19.4] Perspective 1.0.1",
+      "version_number": "1.0.1-release.1+1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "6b3b33746f661b3dccf3a60036bd1836d24d0654d898cafd72787123c87abfcb6f0a61a8a3ce41414de344cd4bcf2168efe37fe56071b2938013578f08c61454",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/aeNfNaTE/perspective-1.0.1-release.1%2B1.19.4.jar",
+          "filename": "perspective-1.0.1-release.1+1.19.4.jar",
+          "primary": true,
+          "size": 96316
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "b2lIRpcd",
+      "name": "[1.19.4] Perspective 1.0.2",
+      "version_number": "1.0.2-release.1+1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "385c6abc59d41664c6555826e968ab225281a4f2c6866e2601fd4c21e960c353b2ced25c798e4ffef5ef249aef5fb84001467e2b4a168b1e538b714fa2f7a34c",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/b2lIRpcd/perspective-1.0.2-release.1%2B1.19.4.jar",
+          "filename": "perspective-1.0.2-release.1+1.19.4.jar",
+          "primary": true,
+          "size": 100573
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "bsgzdEWa",
+      "name": "[1.20.2] Perspective 1.2.0-alpha.3",
+      "version_number": "1.2.0-alpha.3+1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0be3fa9772a16ab7f9f60ba43a04ec9cf510a83baf0496e128020edc519d3be9333a46851f0e233f3daa124c614230112a4bc475316d1da821dbe8959e76057d",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/bsgzdEWa/perspective-1.2.0-alpha.3%2B1.20.2.jar",
+          "filename": "perspective-1.2.0-alpha.3+1.20.2.jar",
+          "primary": true,
+          "size": 774572
         }
       ],
       "dependencies": [
@@ -390,11 +915,12 @@
       ]
     },
     {
-      "id": "8JRIpGI4",
-      "name": "[1.20.2] Perspective 1.2.0",
-      "version_number": "1.2.0+1.20.2",
+      "id": "cTcB7QrV",
+      "name": "[1.20.x] Perspective 1.1.1-rc.2",
+      "version_number": "1.1.1-rc.2+1.20.x",
       "game_versions": [
-        "1.20.2"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "fabric",
@@ -402,11 +928,82 @@
       ],
       "files": [
         {
-          "sha512": "371bbc44db45381d5e664d61f0df49bb1aeafc12811b0239e593355122799944a2ac2f453c72faa4ca661fcb3e408811cda49d2367358b257d32c99d41d3d534",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/8JRIpGI4/perspective-1.2.0%2B1.20.2.jar",
-          "filename": "perspective-1.2.0+1.20.2.jar",
+          "sha512": "4da9c2e1dac1ff67dbc194781b7c516f4aac6d53d07ea488639cf1308a26f13d9211831c5fd2d9310eaf6a8a1c081881e1f0bfdeb6e427458b72c930f49d13f4",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/cTcB7QrV/perspective-1.1.1-rc.2%2B1.20.x.jar",
+          "filename": "perspective-1.1.1-rc.2+1.20.x.jar",
           "primary": true,
-          "size": 1207427
+          "size": 629500
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "e4lNa0dc",
+      "name": "[1.20.2-beta] Perspective 1.2.0-alpha.1",
+      "version_number": "1.2.0-alpha.1+1.20.2-beta",
+      "game_versions": [
+        "1.20.2-pre1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "db65d1c51d76c0bc19e11acc0bef412186848ba92e08d9c379b567a326ebe507cfbc19d2d94c02397e06f381c3a939f1b4454531b6119e86623e2d143162d1df",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/e4lNa0dc/perspective-1.2.0-alpha.1%2B1.20.2-beta.jar",
+          "filename": "perspective-1.2.0-alpha.1+1.20.2-beta.jar",
+          "primary": true,
+          "size": 781452
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "fCjIrvYF",
+      "name": "[1.20.x] Perspective 1.1.1",
+      "version_number": "1.1.1-release.1+1.20.x",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "eb9af50a3eeb32813e0537538988bca46b38a99ef3dbd313890ad399ddf4b2a85ff221d60de5db8c1ff430e722068bd4ae66c2ca7eeabd0a83bb72c4ddcafc3f",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/fCjIrvYF/perspective-1.1.1%2B1.20.x.jar",
+          "filename": "perspective-1.1.1+1.20.x.jar",
+          "primary": true,
+          "size": 629481
         }
       ],
       "dependencies": [
@@ -425,39 +1022,27 @@
       ]
     },
     {
-      "id": "xcUV7cqr",
-      "name": "[1.20.2] Perspective 1.2.0-rc.1",
-      "version_number": "1.2.0-rc.1+1.20.2",
+      "id": "gQEbf1Xp",
+      "name": "[1.20] Perspective 1.0.0-rc.1",
+      "version_number": "1.0.0-rc.1",
       "game_versions": [
-        "1.20.2"
+        "1.20-rc1",
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
-        "fabric",
-        "quilt"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "0de307198b9c4d006bf18f222172453e06a5a36a0c74a1a5546af9f397f8dd9284dc49071426a7936009935a16d1a7b79bc0fcb6c573230f34e7eb445b95b0af",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/xcUV7cqr/perspective-1.2.0-rc.1%2B1.20.2.jar",
-          "filename": "perspective-1.2.0-rc.1+1.20.2.jar",
+          "sha512": "670099ba905405df4d28847f28b45932f9266db009adee5709de983bd24002220fdf46fce6a29dcf01b137c4da7608029e3a9987f551ce9e5d09f00ba7165a92",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/gQEbf1Xp/perspective-1.0.0-rc.1.jar",
+          "filename": "perspective-1.0.0-rc.1.jar",
           "primary": true,
-          "size": 1209990
+          "size": 52343
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
+      "dependencies": []
     },
     {
       "id": "kofK716q",
@@ -486,6 +1071,137 @@
           "file_name": null,
           "dependency_type": "required"
         },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "lbFKDsxK",
+      "name": "[1.20.x] Perspective 1.1.1-rc.1",
+      "version_number": "1.1.1-rc.1+1.20.x",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "bd7f68756a2760a169dc62bd4f73c52fd7f2de1d2270224b3b59c02faf3edbd6d6518ffd829350cb0390fc9b66a9a810a2bf413042662c65bce99565bcfd99b1",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/lbFKDsxK/perspective-1.1.1-rc.1%2B1.20.x.jar",
+          "filename": "perspective-1.1.1-rc.1+1.20.x.jar",
+          "primary": true,
+          "size": 629394
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "m1scu6Nj",
+      "name": "[1.20.5-rc1] Perspective 1.3.0-alpha.4",
+      "version_number": "1.3.0-alpha.4+1.20.5",
+      "game_versions": [
+        "1.20.5-rc1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "92a118eb5b4b5202fb0bc2cd572a20cb5efe986a6bc3a0905d8307ebf974a77afa56857e1a6c63beb5c5d6241ee2b20755800cc96b14c98bae41e077fcf8a6f7",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/m1scu6Nj/perspective-1.3.0-alpha.4%2B1.20.5.jar",
+          "filename": "perspective-1.3.0-alpha.4+1.20.5.jar",
+          "primary": true,
+          "size": 877753
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "mA3nIMCj",
+      "name": "[1.20.x] Perspective 1.1.0-rc.3",
+      "version_number": "1.1.0-rc.3+1.20.x",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "020b3d51eebf5ee634d666eddcff7b2506bbfe676124ba690dbf7de4a47ef42f08996813f4b5587ed340447e16fd5d3322127c2a06352ffef7cd34f5b28c67a7",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/mA3nIMCj/perspective-1.1.0-rc.3%2B1.20.x.jar",
+          "filename": "perspective-1.1.0-rc.3+1.20.x.jar",
+          "primary": true,
+          "size": 626832
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "mDPESNSk",
+      "name": "[1.20.x] Perspective 1.1.0-beta.4",
+      "version_number": "1.1.0-beta.4+1.20.x",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "7cad43ba6055d7e250e0d9475f6f33afddee30ed9e85b1f4786809d4631f199ad81e73673335d2d4bba3c94dd1ab0abcc9293f6967d758f80fd5dbf0cea82797",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/mDPESNSk/perspective-1.1.0-beta.4%2B1.20.x.jar",
+          "filename": "perspective-1.1.0-beta.4+1.20.x.jar",
+          "primary": true,
+          "size": 684490
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
@@ -530,22 +1246,12 @@
       ]
     },
     {
-      "id": "zvWOkIqP",
-      "name": "[1.20.3] Perspective 1.2.0-beta.1",
-      "version_number": "1.2.0-beta.1",
+      "id": "oA85EQme",
+      "name": "[1.20.x] Perspective 1.1.2",
+      "version_number": "1.1.2-release.1+1.20.x",
       "game_versions": [
-        "23w40a",
-        "23w41a",
-        "23w42a",
-        "23w43a",
-        "23w43b",
-        "23w44a",
-        "23w45a",
-        "23w46a",
-        "1.20.3-pre1",
-        "1.20.3-pre2",
-        "1.20.3-pre3",
-        "1.20.3-pre4"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "fabric",
@@ -553,11 +1259,296 @@
       ],
       "files": [
         {
-          "sha512": "29bad7bfbb68aaf3007a943263c5dd3e9befb398e7d34c77732e2e1478e41b4dd78058c2f7f627d10aac283427d3d3cb394a9526730c641827f82cf5c4ad7aed",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/zvWOkIqP/perspective-1.2.0-beta.1%2B1.20.3.jar",
-          "filename": "perspective-1.2.0-beta.1+1.20.3.jar",
+          "sha512": "5e007ddf1821b00b151ef6c6c93e59d88d846c8d23743302831e2a15094ad698dd0b9981bbc0240a77e3067a3ae318ae44f6519440f71bb33f3032035ad74f63",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/oA85EQme/perspective-1.1.2%2B1.20.x.jar",
+          "filename": "perspective-1.1.2+1.20.x.jar",
           "primary": true,
-          "size": 826503
+          "size": 629595
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "oX2giunP",
+      "name": "[1.20.3/4] Perspective 1.2.2",
+      "version_number": "1.2.2-release.1+1.20.3-4",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "685e2ae4a737e871b73410efc13b4c1825adbc1272c9a370db2e09e6361bc30bf595c25a2bade665e35a9a623a8e026e3ede7856dab7f3637bd2ae6485caa76d",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/oX2giunP/perspective-1.2.2-release.1%2B1.20.3-4.jar",
+          "filename": "perspective-1.2.2-release.1+1.20.3-4.jar",
+          "primary": true,
+          "size": 764276
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "EBTw0O1c",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "qKLt1JhR",
+      "name": "[1.20.5/6] Perspective 1.3.0-alpha.6",
+      "version_number": "1.3.0-alpha.6+1.20.5-6",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "97ca05c503f6bfe1f1e6cda0276b4baf66c92ffe01b2ce509fda14dca3ab77186d80efccc3b278a8a920d27389beb3a252b05fd3af44c2226d203ba9c774d645",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/qKLt1JhR/perspective-1.3.0-alpha.6%2B1.20.5-6.jar",
+          "filename": "perspective-1.3.0-alpha.6+1.20.5-6.jar",
+          "primary": true,
+          "size": 961555
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "EBTw0O1c",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "rLd5vU4p",
+      "name": "[1.20.5/6] Perspective 1.2.3-release.1",
+      "version_number": "1.2.3-release.1-1.20.5-6",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "ddca450a64e5fc978cae89fa01a337f69518ad82d5ed496cccb46e7829a7b17edb2e08fe0716ff0d9596151a2f074539143285f32717b8a29f8e7b359fe914a5",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/rLd5vU4p/6.jar",
+          "filename": "6.jar",
+          "primary": true,
+          "size": 944565
+        },
+        {
+          "sha512": "97ca05c503f6bfe1f1e6cda0276b4baf66c92ffe01b2ce509fda14dca3ab77186d80efccc3b278a8a920d27389beb3a252b05fd3af44c2226d203ba9c774d645",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/rLd5vU4p/perspective-1.3.0-alpha.6%2B1.20.5-6.jar",
+          "filename": "perspective-1.3.0-alpha.6+1.20.5-6.jar",
+          "primary": false,
+          "size": 961555
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "tvHkB00R",
+      "name": "[1.20.x] Perspective 1.1.3-rc.1",
+      "version_number": "1.1.3-rc.1+1.20.x",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "affd0113915b81e8604176278111c770e76d6614fa8a797bda753ae30687fa4b5a02fe18d0d343acbc70a4348f692bf1c12a24295b9f30c9d2941a2fc54214aa",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/tvHkB00R/perspective-1.1.3-rc.1%2B1.20.x.jar",
+          "filename": "perspective-1.1.3-rc.1+1.20.x.jar",
+          "primary": true,
+          "size": 734224
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "uK36Xyro",
+      "name": "[1.20.5-rc3] Perspective 1.3.0-alpha.5",
+      "version_number": "1.3.0-alpha.5+1.20.5",
+      "game_versions": [
+        "1.20.5-rc3",
+        "1.20.5",
+        "1.20.6-rc1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2c728fa125ebd15a6d0fa10908557e42c90eebd4b100d3a0789abeaaf5b2fa749ef7c7b43651ad76135e570f976b1def4c779f07393ac8ecce42e279ba3dcacc",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/uK36Xyro/perspective-1.3.0-alpha.5%2B1.20.5.jar",
+          "filename": "perspective-1.3.0-alpha.5+1.20.5.jar",
+          "primary": true,
+          "size": 796916
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "EBTw0O1c",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "wlTSs1mE",
+      "name": "[1.20] Perspective 1.0.0-rc.5",
+      "version_number": "1.0.0-rc.5",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "db8a64a88d9ba94ae4f7b1e37d6d0852d7f6f20ce59c34f2d2c0379792620dcd45ca5d53490925bf126bd8dd9295e2229657a85024f42565775e819efbdfee79",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/wlTSs1mE/perspective-1.0.0-rc.5.jar",
+          "filename": "perspective-1.0.0-rc.5.jar",
+          "primary": true,
+          "size": 87455
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "x2ZTC5h1",
+      "name": "[1.20] Perspective 1.0.0-rc.3",
+      "version_number": "1.0.0-rc.3",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9a091b25aee58d86e2d1515997c6b862482716b131ded7f7fa29c3df082ae15ca41eb6c5cecd4f735caa4c23bb00ef1cfa1cfe0e619227b761ae6a28aa09c126",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/x2ZTC5h1/perspective-1.0.0-rc.3.jar",
+          "filename": "perspective-1.0.0-rc.3.jar",
+          "primary": true,
+          "size": 86846
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "xcUV7cqr",
+      "name": "[1.20.2] Perspective 1.2.0-rc.1",
+      "version_number": "1.2.0-rc.1+1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0de307198b9c4d006bf18f222172453e06a5a36a0c74a1a5546af9f397f8dd9284dc49071426a7936009935a16d1a7b79bc0fcb6c573230f34e7eb445b95b0af",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/xcUV7cqr/perspective-1.2.0-rc.1%2B1.20.2.jar",
+          "filename": "perspective-1.2.0-rc.1+1.20.2.jar",
+          "primary": true,
+          "size": 1209990
         }
       ],
       "dependencies": [
@@ -621,191 +1612,6 @@
       ]
     },
     {
-      "id": "AbDNfsEc",
-      "name": "[1.20.2-1.20.3] Perspective 1.2.0-alpha.5",
-      "version_number": "1.2.0-alpha.5+1.20.2",
-      "game_versions": [
-        "1.20.2",
-        "23w40a",
-        "23w41a",
-        "23w42a",
-        "23w43a",
-        "23w43b",
-        "23w44a",
-        "23w45a"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "5629d7f135a41863892f8ba71958ddba9429cf7177971d76714074a06566a59add5736d004e34dbf2e0d46b43a8658992681660ffffb349345f40494c579dd82",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/AbDNfsEc/perspective-1.2.0-alpha.5%2B1.20.2.jar",
-          "filename": "perspective-1.2.0-alpha.5+1.20.2.jar",
-          "primary": true,
-          "size": 832646
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "3RPOQRXw",
-      "name": "[1.20.2] Perspective 1.2.0-alpha.4",
-      "version_number": "1.2.0-alpha.4+1.20.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "148a4c460f0bf60f7ec6d4338cf55397e6072244e321d9c9bfd5038ce4b3d61b3b7e783e88bdc610243b0c2923e5fb6439448b06ad8e2c48ae6f880d8f866416",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/3RPOQRXw/perspective-1.2.0-alpha.4%2B1.20.2.jar",
-          "filename": "perspective-1.2.0-alpha.4+1.20.2.jar",
-          "primary": true,
-          "size": 785802
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "bsgzdEWa",
-      "name": "[1.20.2] Perspective 1.2.0-alpha.3",
-      "version_number": "1.2.0-alpha.3+1.20.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0be3fa9772a16ab7f9f60ba43a04ec9cf510a83baf0496e128020edc519d3be9333a46851f0e233f3daa124c614230112a4bc475316d1da821dbe8959e76057d",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/bsgzdEWa/perspective-1.2.0-alpha.3%2B1.20.2.jar",
-          "filename": "perspective-1.2.0-alpha.3+1.20.2.jar",
-          "primary": true,
-          "size": 774572
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "F7DNZWuN",
-      "name": "[1.20.2] Perspective 1.1.4",
-      "version_number": "1.1.4-release.1+1.20.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "5ea68d7f55f027619c25ca6159b108ad4ae20bc98da6853f578c430ef0a5e5d12e6ee4051d5c2caf08b7702c15a71e703f4cd95685615df48df37ab23e9f68b2",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/F7DNZWuN/perspective-1.1.4%2B1.20.2.jar",
-          "filename": "perspective-1.1.4+1.20.2.jar",
-          "primary": true,
-          "size": 721550
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "QBSBnI7K",
-      "name": "[1.20.2-beta] Perspective 1.2.0-alpha.2",
-      "version_number": "1.2.0-alpha.2+1.20.2-beta",
-      "game_versions": [
-        "1.20.2-pre1",
-        "1.20.2-pre2",
-        "1.20.2-pre3",
-        "1.20.2-pre4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "9381f50cee9dc00686309f0d5d5c2adface247cfc5065da3cf5101d24c04666c4d3e83486d055af068ccc27ea7c95ba5106d77e8b8b2f23a3306356cf896c026",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/QBSBnI7K/perspective-1.2.0-alpha.2%2B1.20.2-beta.jar",
-          "filename": "perspective-1.2.0-alpha.2+1.20.2-beta.jar",
-          "primary": true,
-          "size": 780520
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "ytY7WgnL",
       "name": "[1.20.0-1] Perspective 1.2.0-alpha.2",
       "version_number": "1.2.0-alpha.2+1.20.0-1",
@@ -835,575 +1641,6 @@
         },
         {
           "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "e4lNa0dc",
-      "name": "[1.20.2-beta] Perspective 1.2.0-alpha.1",
-      "version_number": "1.2.0-alpha.1+1.20.2-beta",
-      "game_versions": [
-        "1.20.2-pre1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "db65d1c51d76c0bc19e11acc0bef412186848ba92e08d9c379b567a326ebe507cfbc19d2d94c02397e06f381c3a939f1b4454531b6119e86623e2d143162d1df",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/e4lNa0dc/perspective-1.2.0-alpha.1%2B1.20.2-beta.jar",
-          "filename": "perspective-1.2.0-alpha.1+1.20.2-beta.jar",
-          "primary": true,
-          "size": 781452
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4P3Lyurp",
-      "name": "[1.20.x] Perspective 1.1.3",
-      "version_number": "1.1.3-release.1+1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "aa36f96520f017b6c6902ea1e90996f2906f139008a461bd938fe965d462d6e99bae64392cdcb8aaa680493bd324d25be41c16c6a641da2d75400b16bac1fd6b",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/4P3Lyurp/perspective-1.1.3%2B1.20.x.jar",
-          "filename": "perspective-1.1.3+1.20.x.jar",
-          "primary": true,
-          "size": 735469
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "NfQSIOxE",
-      "name": "[1.20.x] Perspective 1.1.3-rc.2",
-      "version_number": "1.1.3-rc.2+1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "fe83db62eb76b77987947ccd9c5986a4f0d350c161650a6b53f6cd627d1c371d9401d696038d0af5c003b0aed017365fd5a0175e46320176d3de47678d593902",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/NfQSIOxE/perspective-1.1.3-rc.2%2B1.20.x.jar",
-          "filename": "perspective-1.1.3-rc.2+1.20.x.jar",
-          "primary": true,
-          "size": 735485
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "tvHkB00R",
-      "name": "[1.20.x] Perspective 1.1.3-rc.1",
-      "version_number": "1.1.3-rc.1+1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "affd0113915b81e8604176278111c770e76d6614fa8a797bda753ae30687fa4b5a02fe18d0d343acbc70a4348f692bf1c12a24295b9f30c9d2941a2fc54214aa",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/tvHkB00R/perspective-1.1.3-rc.1%2B1.20.x.jar",
-          "filename": "perspective-1.1.3-rc.1+1.20.x.jar",
-          "primary": true,
-          "size": 734224
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "oA85EQme",
-      "name": "[1.20.x] Perspective 1.1.2",
-      "version_number": "1.1.2-release.1+1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "5e007ddf1821b00b151ef6c6c93e59d88d846c8d23743302831e2a15094ad698dd0b9981bbc0240a77e3067a3ae318ae44f6519440f71bb33f3032035ad74f63",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/oA85EQme/perspective-1.1.2%2B1.20.x.jar",
-          "filename": "perspective-1.1.2+1.20.x.jar",
-          "primary": true,
-          "size": 629595
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "fCjIrvYF",
-      "name": "[1.20.x] Perspective 1.1.1",
-      "version_number": "1.1.1-release.1+1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "eb9af50a3eeb32813e0537538988bca46b38a99ef3dbd313890ad399ddf4b2a85ff221d60de5db8c1ff430e722068bd4ae66c2ca7eeabd0a83bb72c4ddcafc3f",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/fCjIrvYF/perspective-1.1.1%2B1.20.x.jar",
-          "filename": "perspective-1.1.1+1.20.x.jar",
-          "primary": true,
-          "size": 629481
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "cTcB7QrV",
-      "name": "[1.20.x] Perspective 1.1.1-rc.2",
-      "version_number": "1.1.1-rc.2+1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4da9c2e1dac1ff67dbc194781b7c516f4aac6d53d07ea488639cf1308a26f13d9211831c5fd2d9310eaf6a8a1c081881e1f0bfdeb6e427458b72c930f49d13f4",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/cTcB7QrV/perspective-1.1.1-rc.2%2B1.20.x.jar",
-          "filename": "perspective-1.1.1-rc.2+1.20.x.jar",
-          "primary": true,
-          "size": 629500
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "lbFKDsxK",
-      "name": "[1.20.x] Perspective 1.1.1-rc.1",
-      "version_number": "1.1.1-rc.1+1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "bd7f68756a2760a169dc62bd4f73c52fd7f2de1d2270224b3b59c02faf3edbd6d6518ffd829350cb0390fc9b66a9a810a2bf413042662c65bce99565bcfd99b1",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/lbFKDsxK/perspective-1.1.1-rc.1%2B1.20.x.jar",
-          "filename": "perspective-1.1.1-rc.1+1.20.x.jar",
-          "primary": true,
-          "size": 629394
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "HUsyJ8ep",
-      "name": "[1.20.x] Perspective 1.1.0",
-      "version_number": "1.1.0-release.1+1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "aab7df4f49988821480b3bd27297c1738adac6442eabbecd00bf09eaefb8c4a21e8bab2e369a1874ea41c024eb766e9a389ae93164f3e843821ee72d0858d106",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/HUsyJ8ep/perspective-1.1.0%2B1.20.x.jar",
-          "filename": "perspective-1.1.0+1.20.x.jar",
-          "primary": true,
-          "size": 628856
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "B3VfkN3P",
-      "name": "[1.20.x] Perspective 1.1.0-rc.4",
-      "version_number": "1.1.0-rc.4+1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "24793334fdc73dbadd9d34e1ca742539c14a19f04cc1c9eba73b0b03bf742b35bab69b3b7a700c8de724df8af21843f57775942f9e8c0c5e288781a53751ce5a",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/B3VfkN3P/perspective-1.1.0-rc.4%2B1.20.x.jar",
-          "filename": "perspective-1.1.0-rc.4+1.20.x.jar",
-          "primary": true,
-          "size": 628823
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "mA3nIMCj",
-      "name": "[1.20.x] Perspective 1.1.0-rc.3",
-      "version_number": "1.1.0-rc.3+1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "020b3d51eebf5ee634d666eddcff7b2506bbfe676124ba690dbf7de4a47ef42f08996813f4b5587ed340447e16fd5d3322127c2a06352ffef7cd34f5b28c67a7",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/mA3nIMCj/perspective-1.1.0-rc.3%2B1.20.x.jar",
-          "filename": "perspective-1.1.0-rc.3+1.20.x.jar",
-          "primary": true,
-          "size": 626832
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Z4tQk4x9",
-      "name": "[1.20.x] Perspective 1.1.0-rc.2",
-      "version_number": "1.1.0-rc.2+1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "9e7c744611dd2eceac2d67f8ffa86bf8433d98a51c8782d51f67372aea5c18126b9aef5cba771ebfcb6a05411cac72436d34275a81d24cda055d674ca1ccdeeb",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/Z4tQk4x9/perspective-1.1.0-rc.2%2B1.20.x.jar",
-          "filename": "perspective-1.1.0-rc.2+1.20.x.jar",
-          "primary": true,
-          "size": 627293
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "GbsKnncB",
-      "name": "[1.20.x] Perspective 1.1.0-rc.1",
-      "version_number": "1.1.0-rc.1+1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "90ab531abe336277231a063de948ed295897f9b5c598bf85215f4ad83d4152496f50405308ffd06720da6711c7c4bb3479c77701ef22a96b629dcb7d153cabb9",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/GbsKnncB/perspective-1.1.0-rc.1%2B1.20.x.jar",
-          "filename": "perspective-1.1.0-rc.1+1.20.x.jar",
-          "primary": true,
-          "size": 623291
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "GYolnxmR",
-      "name": "[1.20.x] Perspective 1.1.0-beta.7",
-      "version_number": "1.1.0-beta.7+1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "588898ff05f45b2b3b032b5a034709ad678f8800331802883296f993f6938162b0166b847e3cd7d87d23d9a92a0c7d14dbfd8551fdc6e3266b0b36fc5dd29d81",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/GYolnxmR/perspective-1.1.0-beta.7%2B1.20.x.jar",
-          "filename": "perspective-1.1.0-beta.7+1.20.x.jar",
-          "primary": true,
-          "size": 623211
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Teia7L98",
-      "name": "[1.20.x] Perspective 1.1.0-beta.6",
-      "version_number": "1.1.0-beta.6+1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "cc6480f2b328caf942054d52944aff59fb8d28204948a89cb249e427e03f0c54b6ad13af1ff167fc5fcb07667098e590576fbfc463d976bf74fe01073ec5f0d9",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/Teia7L98/perspective-1.1.0-beta.6%2B1.20.x.jar",
-          "filename": "perspective-1.1.0-beta.6+1.20.x.jar",
-          "primary": true,
-          "size": 631927
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "YLrV7ykR",
-      "name": "[1.20.x] Perspective 1.1.0-beta.5",
-      "version_number": "1.1.0-beta.5+1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "5bd63913e058b93464b848ba6068a7f11d8d174e78048d3b3e13e235847d24328cdab18c4c2ed2fb19d3e9559215b666c42d8d5ea856d726271e977f16648085",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/YLrV7ykR/perspective-1.1.0-beta.5%2B1.20.x.jar",
-          "filename": "perspective-1.1.0-beta.5+1.20.x.jar",
-          "primary": true,
-          "size": 623903
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "mDPESNSk",
-      "name": "[1.20.x] Perspective 1.1.0-beta.4",
-      "version_number": "1.1.0-beta.4+1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "7cad43ba6055d7e250e0d9475f6f33afddee30ed9e85b1f4786809d4631f199ad81e73673335d2d4bba3c94dd1ab0abcc9293f6967d758f80fd5dbf0cea82797",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/mDPESNSk/perspective-1.1.0-beta.4%2B1.20.x.jar",
-          "filename": "perspective-1.1.0-beta.4+1.20.x.jar",
-          "primary": true,
-          "size": 684490
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -1441,12 +1678,22 @@
       ]
     },
     {
-      "id": "2TQcIgk1",
-      "name": "[1.20.x] Perspective 1.1.0-beta.2",
-      "version_number": "1.1.0-beta.2+1.20.x",
+      "id": "zvWOkIqP",
+      "name": "[1.20.3] Perspective 1.2.0-beta.1",
+      "version_number": "1.2.0-beta.1",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "23w40a",
+        "23w41a",
+        "23w42a",
+        "23w43a",
+        "23w43b",
+        "23w44a",
+        "23w45a",
+        "23w46a",
+        "1.20.3-pre1",
+        "1.20.3-pre2",
+        "1.20.3-pre3",
+        "1.20.3-pre4"
       ],
       "loaders": [
         "fabric",
@@ -1454,274 +1701,27 @@
       ],
       "files": [
         {
-          "sha512": "74e775e75d185ef9468ef2881854705aad218cc762682ed5470a0214297836354d6cb50652816ef73503ac158a3ad5b40fc87a87241febb30734fa580b77a39c",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/2TQcIgk1/perspective-1.1.0-beta.2%2B1.20.x.jar",
-          "filename": "perspective-1.1.0-beta.2+1.20.x.jar",
+          "sha512": "29bad7bfbb68aaf3007a943263c5dd3e9befb398e7d34c77732e2e1478e41b4dd78058c2f7f627d10aac283427d3d3cb394a9526730c641827f82cf5c4ad7aed",
+          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/zvWOkIqP/perspective-1.2.0-beta.1%2B1.20.3.jar",
+          "filename": "perspective-1.2.0-beta.1+1.20.3.jar",
           "primary": true,
-          "size": 402716
+          "size": 826503
         }
       ],
       "dependencies": [
         {
           "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
       ]
-    },
-    {
-      "id": "Cez9Vdfs",
-      "name": "[1.20.x] Perspective 1.1.0-beta.1",
-      "version_number": "1.1.0-beta.1+1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "efc96818f0dd02c1894c20799e19f927459734bf5562cf46619e03223cb1292378dc68c57dbb633437a9973b90ebc6570138b074b9618a529f02968c55a538e9",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/Cez9Vdfs/perspective-1.1.0-beta.1%2B1.20.x.jar",
-          "filename": "perspective-1.1.0-beta.1+1.20.x.jar",
-          "primary": true,
-          "size": 402697
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "P7fEfdSc",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "b2lIRpcd",
-      "name": "[1.19.4] Perspective 1.0.2",
-      "version_number": "1.0.2-release.1+1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "385c6abc59d41664c6555826e968ab225281a4f2c6866e2601fd4c21e960c353b2ced25c798e4ffef5ef249aef5fb84001467e2b4a168b1e538b714fa2f7a34c",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/b2lIRpcd/perspective-1.0.2-release.1%2B1.19.4.jar",
-          "filename": "perspective-1.0.2-release.1+1.19.4.jar",
-          "primary": true,
-          "size": 100573
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "NJUdjCwz",
-      "name": "[1.20] Perspective 1.0.2",
-      "version_number": "1.0.2-release.1+1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "c85c9183ccd02fc0866fef336885c4ac6f117df05e5d6e3f102acc390d5f3ccd13140cdcf691eed7bbf09dfc67210c0df676b8777b8eaf93ff6f87e23b3801d0",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/NJUdjCwz/perspective-1.0.2-release.1%2B1.20.x.jar",
-          "filename": "perspective-1.0.2-release.1+1.20.x.jar",
-          "primary": true,
-          "size": 100672
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "aeNfNaTE",
-      "name": "[1.19.4] Perspective 1.0.1",
-      "version_number": "1.0.1-release.1+1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6b3b33746f661b3dccf3a60036bd1836d24d0654d898cafd72787123c87abfcb6f0a61a8a3ce41414de344cd4bcf2168efe37fe56071b2938013578f08c61454",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/aeNfNaTE/perspective-1.0.1-release.1%2B1.19.4.jar",
-          "filename": "perspective-1.0.1-release.1+1.19.4.jar",
-          "primary": true,
-          "size": 96316
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "4vHs0ui1",
-      "name": "[1.20] Perspective 1.0.1",
-      "version_number": "1.0.1-release.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f29fb91eacc0ca335705029448b5a61bd04c29aa407eadb2b2a071c2793155da707f6e40fa819c4042d1b0a84e93bf2df0fba7ae0eabe624e2e06e000c0912b0",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/4vHs0ui1/perspective-1.0.1-release.1.jar",
-          "filename": "perspective-1.0.1-release.1.jar",
-          "primary": true,
-          "size": 96274
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Q2UF4MLL",
-      "name": "[1.20] Perspective 1.0.0",
-      "version_number": "1.0.0-release.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a5a782ee8299cae510c1a289c67af9c864b12b335e6fba947731b9e7a23cb51abcc42d1b574241ad98da869929f5e2817046851d65701854dc5ab17c1c010d09",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/Q2UF4MLL/perspective-1.0.0-release.1.jar",
-          "filename": "perspective-1.0.0-release.1.jar",
-          "primary": true,
-          "size": 92615
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "wlTSs1mE",
-      "name": "[1.20] Perspective 1.0.0-rc.5",
-      "version_number": "1.0.0-rc.5",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "db8a64a88d9ba94ae4f7b1e37d6d0852d7f6f20ce59c34f2d2c0379792620dcd45ca5d53490925bf126bd8dd9295e2229657a85024f42565775e819efbdfee79",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/wlTSs1mE/perspective-1.0.0-rc.5.jar",
-          "filename": "perspective-1.0.0-rc.5.jar",
-          "primary": true,
-          "size": 87455
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "XT0n34xk",
-      "name": "[1.20] Perspective 1.0.0-rc.4",
-      "version_number": "1.0.0-rc.4",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "455482b9c1f8177af950d22ef48aae65eabafd2e736ee5affe4be6e3fbd63ebe4b8e7c496d772dd414d86974f0ec1bb1e1bb21e28f1253a26a1d7b814cd5f939",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/XT0n34xk/perspective-1.0.0-rc.4.jar",
-          "filename": "perspective-1.0.0-rc.4.jar",
-          "primary": true,
-          "size": 86311
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "x2ZTC5h1",
-      "name": "[1.20] Perspective 1.0.0-rc.3",
-      "version_number": "1.0.0-rc.3",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9a091b25aee58d86e2d1515997c6b862482716b131ded7f7fa29c3df082ae15ca41eb6c5cecd4f735caa4c23bb00ef1cfa1cfe0e619227b761ae6a28aa09c126",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/x2ZTC5h1/perspective-1.0.0-rc.3.jar",
-          "filename": "perspective-1.0.0-rc.3.jar",
-          "primary": true,
-          "size": 86846
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "S09CTVM2",
-      "name": "[1.20] Perspective 1.0.0-rc.2",
-      "version_number": "1.0.0-rc.2",
-      "game_versions": [
-        "1.20-rc1",
-        "1.20",
-        "1.20.1-rc1",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e9960d8fae83ba710d1577fefaf39165dbb39de89fef88cdd4d10612ef3d161f55726536192d69dc59f1daca9769af125c3852dabb489d1ad824330ff745e315",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/S09CTVM2/perspective-1.0.0-rc.2.jar",
-          "filename": "perspective-1.0.0-rc.2.jar",
-          "primary": true,
-          "size": 78510
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "gQEbf1Xp",
-      "name": "[1.20] Perspective 1.0.0-rc.1",
-      "version_number": "1.0.0-rc.1",
-      "game_versions": [
-        "1.20-rc1",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "670099ba905405df4d28847f28b45932f9266db009adee5709de983bd24002220fdf46fce6a29dcf01b137c4da7608029e3a9987f551ce9e5d09f00ba7165a92",
-          "url": "https://cdn.modrinth.com/data/6CTGnrNg/versions/gQEbf1Xp/perspective-1.0.0-rc.1.jar",
-          "filename": "perspective-1.0.0-rc.1.jar",
-          "primary": true,
-          "size": 52343
-        }
-      ],
-      "dependencies": []
     }
   ]
 }

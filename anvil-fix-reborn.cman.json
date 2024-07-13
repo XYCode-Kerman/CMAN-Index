@@ -1,5 +1,5 @@
 {
-  "id": "anvil-fix-reborn",
+  "id": "oIoAucDh",
   "slug": "anvil-fix-reborn",
   "name": "Anvil Fix Reborn",
   "description": "Anvil Fix Reborn is a forked version of OnyxStudio's Anvil Fix mod, updated for versions later than 1.18.  It removes the \"Too Expensive\" mechanic from minecraft.",
@@ -24,26 +24,19 @@
           "primary": true,
           "size": 143816
         }
-      ]
-    },
-    {
-      "id": "zlveZ6Ye",
-      "name": "19.0.2",
-      "version_number": "19.0.2",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4"
       ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "6f1c072562528a2cb84993cd15fdea252dddc430311c9af8977af7a0f86f7e29a953ef97cd460409245fd816f1134a2e8312374b71d6f7d32564d20adb55dc65",
-          "url": "https://cdn.modrinth.com/data/oIoAucDh/versions/zlveZ6Ye/AnvilFix-19.0.2.jar",
-          "filename": "AnvilFix-19.0.2.jar",
-          "primary": true,
-          "size": 151644
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -69,6 +62,20 @@
           "primary": true,
           "size": 152150
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -91,6 +98,26 @@
           "primary": true,
           "size": 143834
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "mhFzbEwE",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -111,6 +138,61 @@
           "filename": "AnvilFix-development+20230626064221-1.20.1.jar",
           "primary": true,
           "size": 153781
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "zlveZ6Ye",
+      "name": "19.0.2",
+      "version_number": "19.0.2",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "6f1c072562528a2cb84993cd15fdea252dddc430311c9af8977af7a0f86f7e29a953ef97cd460409245fd816f1134a2e8312374b71d6f7d32564d20adb55dc65",
+          "url": "https://cdn.modrinth.com/data/oIoAucDh/versions/zlveZ6Ye/AnvilFix-19.0.2.jar",
+          "filename": "AnvilFix-19.0.2.jar",
+          "primary": true,
+          "size": 151644
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

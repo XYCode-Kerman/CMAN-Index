@@ -5,40 +5,6 @@
   "description": "OptiFine + Vivecraft = OptiVive!",
   "versions": [
     {
-      "id": "KNhdGmJw",
-      "name": "OptiVive 1.2.0",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a500588fab001e374fce9f7273dd819122c1dae58b3a50e6df35e9b8829f3d30fa2e085f05f5a9a59c7d246531391ba1016f0cb59fef2c2de4897ab5f4eb65b2",
-          "url": "https://cdn.modrinth.com/data/Ng8Buoel/versions/KNhdGmJw/OptiVive%201.20.4%201.2.0.mrpack",
-          "filename": "OptiVive 1.20.4 1.2.0.mrpack",
-          "primary": true,
-          "size": 577461
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "wGoQDPN5",
-          "version_id": "tc3tHRSS",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": null,
-          "version_id": null,
-          "file_name": "optifabric-1.14.3.jar",
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
       "id": "K3CVSHkV",
       "name": "OptiVive 1.0.1",
       "version_number": "1.0.1",
@@ -59,8 +25,20 @@
       ],
       "dependencies": [
         {
-          "project_id": "kYq5qkSL",
-          "version_id": "lhrW53q7",
+          "project_id": "xAGJ6rQS",
+          "version_id": "BWSHJY2J",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": null,
+          "version_id": null,
+          "file_name": "optifabric-1.13.25.jar",
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "wGoQDPN5",
+          "version_id": "ea1xoeZb",
           "file_name": null,
           "dependency_type": "embedded"
         },
@@ -71,21 +49,43 @@
           "dependency_type": "embedded"
         },
         {
-          "project_id": "wGoQDPN5",
-          "version_id": "ea1xoeZb",
+          "project_id": "kYq5qkSL",
+          "version_id": "lhrW53q7",
           "file_name": null,
           "dependency_type": "embedded"
-        },
+        }
+      ]
+    },
+    {
+      "id": "KNhdGmJw",
+      "name": "OptiVive 1.2.0",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
         {
-          "project_id": "xAGJ6rQS",
-          "version_id": "BWSHJY2J",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
+          "sha512": "a500588fab001e374fce9f7273dd819122c1dae58b3a50e6df35e9b8829f3d30fa2e085f05f5a9a59c7d246531391ba1016f0cb59fef2c2de4897ab5f4eb65b2",
+          "url": "https://cdn.modrinth.com/data/Ng8Buoel/versions/KNhdGmJw/OptiVive%201.20.4%201.2.0.mrpack",
+          "filename": "OptiVive 1.20.4 1.2.0.mrpack",
+          "primary": true,
+          "size": 577461
+        }
+      ],
+      "dependencies": [
         {
           "project_id": null,
           "version_id": null,
-          "file_name": "optifabric-1.13.25.jar",
+          "file_name": "optifabric-1.14.3.jar",
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "wGoQDPN5",
+          "version_id": "tc3tHRSS",
+          "file_name": null,
           "dependency_type": "embedded"
         }
       ]

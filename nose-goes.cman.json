@@ -5,41 +5,6 @@
   "description": "Removes nose pieces from the armor models.",
   "versions": [
     {
-      "id": "cUWy78Ty",
-      "name": "Nose Goes",
-      "version_number": "0.1.0",
-      "game_versions": [
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "161675bac91218255e9ba3cd507b4b63a11e96ead61b553c35f0a4d56298a35ca785a52684f138f29988dfdddab64bcc090cc55a7825f7e68cf5a610a2ad151b",
-          "url": "https://cdn.modrinth.com/data/mZPF287E/versions/cUWy78Ty/nose_goes.zip",
-          "filename": "nose_goes.zip",
-          "primary": false,
-          "size": 7899
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "688fOShD",
       "name": "Nose Goes: No Netherite",
       "version_number": "0.1.0-no-netherite",
@@ -73,6 +38,48 @@
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "H6TshUVy",
+      "name": "Nose Goes: No Netherite + Ult Armor Patch",
+      "version_number": "0.1.0-netherite-ult-armor",
+      "game_versions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "cefcbdd64a783306483a9189e5aa3536f442337736f8638ae128becd89680fd0c2905d408dc926658b66e50c5075f743739c80f77f01c620a857601c987ca50e",
+          "url": "https://cdn.modrinth.com/data/mZPF287E/versions/H6TshUVy/nose_goes_no_nether_ult_armor.zip",
+          "filename": "nose_goes_no_nether_ult_armor.zip",
+          "primary": false,
+          "size": 7180
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "m8QRkMlS",
+          "version_id": "H5LoJdDU",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "VZendK9I",
@@ -117,9 +124,9 @@
       ]
     },
     {
-      "id": "H6TshUVy",
-      "name": "Nose Goes: No Netherite + Ult Armor Patch",
-      "version_number": "0.1.0-netherite-ult-armor",
+      "id": "cUWy78Ty",
+      "name": "Nose Goes",
+      "version_number": "0.1.0",
       "game_versions": [
         "1.16",
         "1.16.1",
@@ -142,21 +149,14 @@
       ],
       "files": [
         {
-          "sha512": "cefcbdd64a783306483a9189e5aa3536f442337736f8638ae128becd89680fd0c2905d408dc926658b66e50c5075f743739c80f77f01c620a857601c987ca50e",
-          "url": "https://cdn.modrinth.com/data/mZPF287E/versions/H6TshUVy/nose_goes_no_nether_ult_armor.zip",
-          "filename": "nose_goes_no_nether_ult_armor.zip",
+          "sha512": "161675bac91218255e9ba3cd507b4b63a11e96ead61b553c35f0a4d56298a35ca785a52684f138f29988dfdddab64bcc090cc55a7825f7e68cf5a610a2ad151b",
+          "url": "https://cdn.modrinth.com/data/mZPF287E/versions/cUWy78Ty/nose_goes.zip",
+          "filename": "nose_goes.zip",
           "primary": false,
-          "size": 7180
+          "size": 7899
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "m8QRkMlS",
-          "version_id": "H5LoJdDU",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
+      "dependencies": []
     }
   ]
 }

@@ -5,10 +5,11 @@
   "description": "This mod adds 12 new butterflies, 50+ new items, and a handful of blocks that lighten up your world with new butterfly related content to play with.",
   "versions": [
     {
-      "id": "zeI4LGDF",
-      "name": "1.2.3",
-      "version_number": "1.2.3",
+      "id": "2JUVemqH",
+      "name": "Lil' Wings 1.2.2 [FORGE 1.19.1]",
+      "version_number": "1.2.2",
       "game_versions": [
+        "1.19.1",
         "1.19.2"
       ],
       "loaders": [
@@ -16,14 +17,27 @@
       ],
       "files": [
         {
-          "sha512": "d9f2d1922eff1f252b9d4d3626ae87b9ba523fe6cb9759b298212dde3c14fe480a794379060a031c0267d8eb4946da15758cbe38360ebef59976ff6bc9ac9481",
-          "url": "https://cdn.modrinth.com/data/FrkP72va/versions/zeI4LGDF/lilwings-forge-1.19.2-1.2.3.jar",
-          "filename": "lilwings-forge-1.19.2-1.2.3.jar",
+          "sha512": "e0d81cac0ecbccf6fdfe698a28757bef3428a75b32db220564fd24af43496f471fd69004a99fd0cd9a5b403ef3e3a68e94907a77936e7b4f3da458e0b08b9b92",
+          "url": "https://cdn.modrinth.com/data/FrkP72va/versions/2JUVemqH/lilwings-forge-1.19.1-1.2.2.jar",
+          "filename": "lilwings-forge-1.19.1-1.2.2.jar",
           "primary": true,
-          "size": 374298
+          "size": 375687
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": "lxzmD9V4",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "QWXIQJ1X",
@@ -60,40 +74,6 @@
       ]
     },
     {
-      "id": "q2iEU5Vn",
-      "name": "1.2.4",
-      "version_number": "1.2.4",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "5a3f27e22d289c268d7296d129e6f79b94beeb3e1a228b87c625e5ff901a2883d64546c231cbd579059316771b3bc6e7af7eefb780496453461dc267cb4d4afd",
-          "url": "https://cdn.modrinth.com/data/FrkP72va/versions/q2iEU5Vn/lilwings-fabric-1.18.2-1.2.4.jar",
-          "filename": "lilwings-fabric-1.18.2-1.2.4.jar",
-          "primary": true,
-          "size": 539304
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "8BmcQJ2H",
-          "version_id": "Z7uH6V77",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "nU0bVIaL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "ayLCjAdE",
       "name": "1.2.4",
       "version_number": "1.2.4",
@@ -114,48 +94,14 @@
       ],
       "dependencies": [
         {
-          "project_id": "8BmcQJ2H",
-          "version_id": "wwh0ZFLu",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "nU0bVIaL",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "pBZxgCFQ",
-      "name": "Lil' Wings 1.2.3 [FORGE 1.18.2]",
-      "version_number": "1.2.3",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "4524e525b8f99a561ecefb390409bf16e0843791c962201db380384aa14819e93d9e931d6a00e8c6de07d4df4836fce8d5c37d6560b9d3c89200d2d609607b9d",
-          "url": "https://cdn.modrinth.com/data/FrkP72va/versions/pBZxgCFQ/lilwings-forge-1.18.2-1.2.3.jar",
-          "filename": "lilwings-forge-1.18.2-1.2.3.jar",
-          "primary": true,
-          "size": 404598
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "8BmcQJ2H",
           "version_id": "wwh0ZFLu",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "nU0bVIaL",
-          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -196,6 +142,74 @@
       ]
     },
     {
+      "id": "pBZxgCFQ",
+      "name": "Lil' Wings 1.2.3 [FORGE 1.18.2]",
+      "version_number": "1.2.3",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "4524e525b8f99a561ecefb390409bf16e0843791c962201db380384aa14819e93d9e931d6a00e8c6de07d4df4836fce8d5c37d6560b9d3c89200d2d609607b9d",
+          "url": "https://cdn.modrinth.com/data/FrkP72va/versions/pBZxgCFQ/lilwings-forge-1.18.2-1.2.3.jar",
+          "filename": "lilwings-forge-1.18.2-1.2.3.jar",
+          "primary": true,
+          "size": 404598
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": "wwh0ZFLu",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "q2iEU5Vn",
+      "name": "1.2.4",
+      "version_number": "1.2.4",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5a3f27e22d289c268d7296d129e6f79b94beeb3e1a228b87c625e5ff901a2883d64546c231cbd579059316771b3bc6e7af7eefb780496453461dc267cb4d4afd",
+          "url": "https://cdn.modrinth.com/data/FrkP72va/versions/q2iEU5Vn/lilwings-fabric-1.18.2-1.2.4.jar",
+          "filename": "lilwings-fabric-1.18.2-1.2.4.jar",
+          "primary": true,
+          "size": 539304
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": "Z7uH6V77",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "sifXx6G9",
       "name": "Lil' Wings 1.2.2 [FABRIC 1.19.1]",
       "version_number": "1.2.2",
@@ -231,11 +245,10 @@
       ]
     },
     {
-      "id": "2JUVemqH",
-      "name": "Lil' Wings 1.2.2 [FORGE 1.19.1]",
-      "version_number": "1.2.2",
+      "id": "zeI4LGDF",
+      "name": "1.2.3",
+      "version_number": "1.2.3",
       "game_versions": [
-        "1.19.1",
         "1.19.2"
       ],
       "loaders": [
@@ -243,27 +256,14 @@
       ],
       "files": [
         {
-          "sha512": "e0d81cac0ecbccf6fdfe698a28757bef3428a75b32db220564fd24af43496f471fd69004a99fd0cd9a5b403ef3e3a68e94907a77936e7b4f3da458e0b08b9b92",
-          "url": "https://cdn.modrinth.com/data/FrkP72va/versions/2JUVemqH/lilwings-forge-1.19.1-1.2.2.jar",
-          "filename": "lilwings-forge-1.19.1-1.2.2.jar",
+          "sha512": "d9f2d1922eff1f252b9d4d3626ae87b9ba523fe6cb9759b298212dde3c14fe480a794379060a031c0267d8eb4946da15758cbe38360ebef59976ff6bc9ac9481",
+          "url": "https://cdn.modrinth.com/data/FrkP72va/versions/zeI4LGDF/lilwings-forge-1.19.2-1.2.3.jar",
+          "filename": "lilwings-forge-1.19.2-1.2.3.jar",
           "primary": true,
-          "size": 375687
+          "size": 374298
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "8BmcQJ2H",
-          "version_id": "lxzmD9V4",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "nU0bVIaL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
+      "dependencies": []
     }
   ]
 }

@@ -1,33 +1,9 @@
 {
-  "id": "biome-replacer",
+  "id": "DAXbR0Wj",
   "slug": "biome-replacer",
   "name": "Biome Replacer",
   "description": "A quick way to get rid of a biome. Useful for tweaking datapack-based generators (like Terralith) that don't have a convenient configuration",
   "versions": [
-    {
-      "id": "H32DrUcD",
-      "name": "Biome Replacer - 1.2 Forge",
-      "version_number": "1.2",
-      "game_versions": [
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "forge",
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "734e7b67af11169d6f148143e052c14291ca09d4d66ddc7bbbc66d2f775fc4722b558835bf705a0c04fa4d5c2eb1ed482c92d797a4f9bf0c9f9f4b68aa3bcaa2",
-          "url": "https://cdn.modrinth.com/data/DAXbR0Wj/versions/H32DrUcD/biome_replacer-1.2-forge.jar",
-          "filename": "biome_replacer-1.2-forge.jar",
-          "primary": true,
-          "size": 43778
-        }
-      ]
-    },
     {
       "id": "AWPxi9Uu",
       "name": "Biome Replacer - 1.2",
@@ -54,6 +30,14 @@
           "primary": true,
           "size": 46362
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -77,7 +61,40 @@
           "primary": true,
           "size": 11343
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
+    },
+    {
+      "id": "H32DrUcD",
+      "name": "Biome Replacer - 1.2 Forge",
+      "version_number": "1.2",
+      "game_versions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "734e7b67af11169d6f148143e052c14291ca09d4d66ddc7bbbc66d2f775fc4722b558835bf705a0c04fa4d5c2eb1ed482c92d797a4f9bf0c9f9f4b68aa3bcaa2",
+          "url": "https://cdn.modrinth.com/data/DAXbR0Wj/versions/H32DrUcD/biome_replacer-1.2-forge.jar",
+          "filename": "biome_replacer-1.2-forge.jar",
+          "primary": true,
+          "size": 43778
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "sOV5bR1g",
@@ -99,6 +116,14 @@
           "filename": "biome_replacer-1.0.jar",
           "primary": true,
           "size": 11138
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

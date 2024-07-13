@@ -5,274 +5,34 @@
   "description": "Simple server-side mod to fix moss generation.",
   "versions": [
     {
-      "id": "r9pHBUxh",
-      "name": "Moss Fix 1.6.1 for Forge",
-      "version_number": "1.6.1",
+      "id": "4rDMcG3g",
+      "name": "Moss Fix 1.4 for Fabric",
+      "version_number": "1.4-1.19.2",
       "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "74d7e92dcfc3228abf88667521b70a8d9f19e3782fa5027de463108b2dd2b00c48c3fdfcc74e28d79b7dc8e164785dd40cff27ef93f9562a63699b0b70b5b0ac",
-          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/r9pHBUxh/mossfix-1.6.1-forge.jar",
-          "filename": "mossfix-1.6.1-forge.jar",
-          "primary": true,
-          "size": 14428
-        },
-        {
-          "sha512": "0735ba5188ba0d5b204469e60c70206202d4947fbb51bc75b5a0cd5e70318de8da4f72f1b2ae8e6fe58e06011abdeee40af2864821fa794b15c9093a558ed83a",
-          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/r9pHBUxh/mossfix-1.6.1-sources-forge.jar",
-          "filename": "mossfix-1.6.1-sources-forge.jar",
-          "primary": false,
-          "size": 8670
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "iWxtWxjG",
-      "name": "Moss Fix 1.6.1 for Fabric",
-      "version_number": "1.6.1",
-      "game_versions": [
-        "1.20.2"
+        "1.19.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "16225caae06e3f498f26fcc5d0da5bfdd71f4000f9cc678a2d65868da9c1bad38465c53f3df5cf28d3f7ec1b618129649d5b817ef489873f95ca456f87a75287",
-          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/iWxtWxjG/mossfix-1.6.1-fabric.jar",
-          "filename": "mossfix-1.6.1-fabric.jar",
+          "sha512": "51f7caed1f0f49be32e215737b787e8c49bea4bf1f17422043ecc3fa4edb686d21dd65228cdff657874b0e9fb4568430584822f754798c71fc8c53b80e458133",
+          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/4rDMcG3g/mossfix-1.4-1.19.2.jar",
+          "filename": "mossfix-1.4-1.19.2.jar",
           "primary": true,
-          "size": 15555
-        },
-        {
-          "sha512": "0812dce04fea3766b15e78f499805975aacafa4b80431c9954d9562b9699e2a5963c882cba60056804994482af1ac65c7666f29690a5527ca917d7eb4b11c38b",
-          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/iWxtWxjG/mossfix-1.6.1-sources-fabric.jar",
-          "filename": "mossfix-1.6.1-sources-fabric.jar",
-          "primary": false,
-          "size": 8137
+          "size": 12636
         }
       ],
       "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "HoIJp48v",
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "O5vFi1Zc",
-      "name": "Moss Fix 1.6.1 for Forge 1.20.1",
-      "version_number": "1.6.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "024d19a88a971f3ab1d89607def79dc8afe3d32408f861e429ae72c732b46b90939fa08265947b73f88b83224cc578fcae6e74872a9ad8934983f42319337057",
-          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/O5vFi1Zc/mossfix-1.6.1.jar",
-          "filename": "mossfix-1.6.1.jar",
-          "primary": true,
-          "size": 15869
-        },
-        {
-          "sha512": "b5992113030ad6938ae71743c6dda36a5573dffba6edab6e64fe686dc522673da0c724743b38833c2e4d7b7cbfe51b2f63ac6cf1e3ce8dcb8e364ca27b749dbb",
-          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/O5vFi1Zc/mossfix-1.6.1-dev-shadow.jar",
-          "filename": "mossfix-1.6.1-dev-shadow.jar",
-          "primary": false,
-          "size": 13644
-        },
-        {
-          "sha512": "b70c93a119a4f942dd0b716d466f1affa84fe563a6f6cd37701b5dc7ec2662ed92c00415f4a93f960d45f331d49a2ee932c22fb124160c6324826142b6d4db17",
-          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/O5vFi1Zc/mossfix-1.6.1-sources.jar",
-          "filename": "mossfix-1.6.1-sources.jar",
-          "primary": false,
-          "size": 9935
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "nOnQSYoh",
-      "name": "Moss Fix 1.6.1 for 1.20.1 Fabric",
-      "version_number": "1.6.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "7efcc564eef20b849f19978a096f742a426fe44d7bf678a600580886e35eea99a69c2c59d1718ce933723c0af7a0560bbd718a141a82ba2c7bd97a8674cb449f",
-          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/nOnQSYoh/mossfix-1.6.1.jar",
-          "filename": "mossfix-1.6.1.jar",
-          "primary": true,
-          "size": 17134
-        },
-        {
-          "sha512": "e7df8366a692c3c756ba16dd80e9a85dd0dfb8e1b8c6a10ce4b0b90373c067432cd4a76fb7015d9025e4a0ca2d9196470c306f062bdc986492094109a93a2218",
-          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/nOnQSYoh/mossfix-1.6.1-dev-shadow.jar",
-          "filename": "mossfix-1.6.1-dev-shadow.jar",
-          "primary": false,
-          "size": 14977
-        },
-        {
-          "sha512": "b50bb889f8ceb97f2ae05a9f94042c862b8d4c80ea927789b50285ab6c889c49919ab811a533faf3258ffe115d10b163418114c02fcdbcbae3c033c880ac4301",
-          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/nOnQSYoh/mossfix-1.6.1-sources.jar",
-          "filename": "mossfix-1.6.1-sources.jar",
-          "primary": false,
-          "size": 9278
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "OkxMgZpr",
-      "name": "Moss Fix 1.6.1 Forge",
-      "version_number": "1.6.1",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "a06a8d3352e1301542b6e7889d3f785c122cc05726b6f03c0f78d4e3dd95282a32fd672056d91334f979295658f10d6a3071c18aa95300861866bc2942a57524",
-          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/OkxMgZpr/mossfix-1.6.1-forge.jar",
-          "filename": "mossfix-1.6.1-forge.jar",
-          "primary": true,
-          "size": 17398
-        },
-        {
-          "sha512": "0cd1aebc6ba32dc1f7b45b821e1cd919cf167f49741d912b32b90ed24cb91ff8e8b110a41e715ad4edf4ba87eabcbb83341daafdde84b696b195c033f5844953",
-          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/OkxMgZpr/mossfix-1.6.1-sources-forge.jar",
-          "filename": "mossfix-1.6.1-sources-forge.jar",
-          "primary": false,
-          "size": 11297
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "8y4xVR6z",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "vODLHQcB",
-      "name": "Moss Fix 1.6.1 Fabric",
-      "version_number": "1.6.1",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4fa427ea1c11010c24b226eb1ae5a2067e203c288e331bc9889284670562cacfeff5e885f58c051fc753387039f32e6b6360b485c4e0e257cba09a387f4e64e5",
-          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/vODLHQcB/mossfix-1.6.1.jar",
-          "filename": "mossfix-1.6.1.jar",
-          "primary": true,
-          "size": 18648
-        },
-        {
-          "sha512": "80867dea16d21c44c284fb41f33f31e97d53e21e76daecdb50cc7f5fac37ce0ff8671b25b3eddf36fb8e10702c0e688ff5362feabbb3b95400306b77a4d67b74",
-          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/vODLHQcB/mossfix-1.6.1-sources-fabric.jar",
-          "filename": "mossfix-1.6.1-sources-fabric.jar",
-          "primary": false,
-          "size": 10612
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "6bcAfgt2",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "TFR8FtwD",
-      "name": "Moss Fix 1.6.0 for Forge",
-      "version_number": "1.6.0",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "13bbc7a9c4703ba3c7410458364653457708ba8e6794ef042792e825381eb6a4edb40d9c7093db4c0562cd1d75839b35bfa83af440c4620f9a9d0d4ec85e5b9f",
-          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/TFR8FtwD/mossfix-1.6.0-forge.jar",
-          "filename": "mossfix-1.6.0-forge.jar",
-          "primary": true,
-          "size": 16125
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "lReYANwU",
+          "version_id": "hfsU4hXq",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -341,34 +101,274 @@
       ]
     },
     {
-      "id": "4rDMcG3g",
-      "name": "Moss Fix 1.4 for Fabric",
-      "version_number": "1.4-1.19.2",
+      "id": "O5vFi1Zc",
+      "name": "Moss Fix 1.6.1 for Forge 1.20.1",
+      "version_number": "1.6.1",
       "game_versions": [
-        "1.19.2"
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "024d19a88a971f3ab1d89607def79dc8afe3d32408f861e429ae72c732b46b90939fa08265947b73f88b83224cc578fcae6e74872a9ad8934983f42319337057",
+          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/O5vFi1Zc/mossfix-1.6.1.jar",
+          "filename": "mossfix-1.6.1.jar",
+          "primary": true,
+          "size": 15869
+        },
+        {
+          "sha512": "b5992113030ad6938ae71743c6dda36a5573dffba6edab6e64fe686dc522673da0c724743b38833c2e4d7b7cbfe51b2f63ac6cf1e3ce8dcb8e364ca27b749dbb",
+          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/O5vFi1Zc/mossfix-1.6.1-dev-shadow.jar",
+          "filename": "mossfix-1.6.1-dev-shadow.jar",
+          "primary": false,
+          "size": 13644
+        },
+        {
+          "sha512": "b70c93a119a4f942dd0b716d466f1affa84fe563a6f6cd37701b5dc7ec2662ed92c00415f4a93f960d45f331d49a2ee932c22fb124160c6324826142b6d4db17",
+          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/O5vFi1Zc/mossfix-1.6.1-sources.jar",
+          "filename": "mossfix-1.6.1-sources.jar",
+          "primary": false,
+          "size": 9935
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "OkxMgZpr",
+      "name": "Moss Fix 1.6.1 Forge",
+      "version_number": "1.6.1",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "a06a8d3352e1301542b6e7889d3f785c122cc05726b6f03c0f78d4e3dd95282a32fd672056d91334f979295658f10d6a3071c18aa95300861866bc2942a57524",
+          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/OkxMgZpr/mossfix-1.6.1-forge.jar",
+          "filename": "mossfix-1.6.1-forge.jar",
+          "primary": true,
+          "size": 17398
+        },
+        {
+          "sha512": "0cd1aebc6ba32dc1f7b45b821e1cd919cf167f49741d912b32b90ed24cb91ff8e8b110a41e715ad4edf4ba87eabcbb83341daafdde84b696b195c033f5844953",
+          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/OkxMgZpr/mossfix-1.6.1-sources-forge.jar",
+          "filename": "mossfix-1.6.1-sources-forge.jar",
+          "primary": false,
+          "size": 11297
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "8y4xVR6z",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "TFR8FtwD",
+      "name": "Moss Fix 1.6.0 for Forge",
+      "version_number": "1.6.0",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "13bbc7a9c4703ba3c7410458364653457708ba8e6794ef042792e825381eb6a4edb40d9c7093db4c0562cd1d75839b35bfa83af440c4620f9a9d0d4ec85e5b9f",
+          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/TFR8FtwD/mossfix-1.6.0-forge.jar",
+          "filename": "mossfix-1.6.0-forge.jar",
+          "primary": true,
+          "size": 16125
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "lReYANwU",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "iWxtWxjG",
+      "name": "Moss Fix 1.6.1 for Fabric",
+      "version_number": "1.6.1",
+      "game_versions": [
+        "1.20.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "51f7caed1f0f49be32e215737b787e8c49bea4bf1f17422043ecc3fa4edb686d21dd65228cdff657874b0e9fb4568430584822f754798c71fc8c53b80e458133",
-          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/4rDMcG3g/mossfix-1.4-1.19.2.jar",
-          "filename": "mossfix-1.4-1.19.2.jar",
+          "sha512": "16225caae06e3f498f26fcc5d0da5bfdd71f4000f9cc678a2d65868da9c1bad38465c53f3df5cf28d3f7ec1b618129649d5b817ef489873f95ca456f87a75287",
+          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/iWxtWxjG/mossfix-1.6.1-fabric.jar",
+          "filename": "mossfix-1.6.1-fabric.jar",
           "primary": true,
-          "size": 12636
+          "size": 15555
+        },
+        {
+          "sha512": "0812dce04fea3766b15e78f499805975aacafa4b80431c9954d9562b9699e2a5963c882cba60056804994482af1ac65c7666f29690a5527ca917d7eb4b11c38b",
+          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/iWxtWxjG/mossfix-1.6.1-sources-fabric.jar",
+          "filename": "mossfix-1.6.1-sources-fabric.jar",
+          "primary": false,
+          "size": 8137
         }
       ],
       "dependencies": [
         {
           "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "lhGA9TYQ",
-          "version_id": "HoIJp48v",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "nOnQSYoh",
+      "name": "Moss Fix 1.6.1 for 1.20.1 Fabric",
+      "version_number": "1.6.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "7efcc564eef20b849f19978a096f742a426fe44d7bf678a600580886e35eea99a69c2c59d1718ce933723c0af7a0560bbd718a141a82ba2c7bd97a8674cb449f",
+          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/nOnQSYoh/mossfix-1.6.1.jar",
+          "filename": "mossfix-1.6.1.jar",
+          "primary": true,
+          "size": 17134
+        },
+        {
+          "sha512": "e7df8366a692c3c756ba16dd80e9a85dd0dfb8e1b8c6a10ce4b0b90373c067432cd4a76fb7015d9025e4a0ca2d9196470c306f062bdc986492094109a93a2218",
+          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/nOnQSYoh/mossfix-1.6.1-dev-shadow.jar",
+          "filename": "mossfix-1.6.1-dev-shadow.jar",
+          "primary": false,
+          "size": 14977
+        },
+        {
+          "sha512": "b50bb889f8ceb97f2ae05a9f94042c862b8d4c80ea927789b50285ab6c889c49919ab811a533faf3258ffe115d10b163418114c02fcdbcbae3c033c880ac4301",
+          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/nOnQSYoh/mossfix-1.6.1-sources.jar",
+          "filename": "mossfix-1.6.1-sources.jar",
+          "primary": false,
+          "size": 9278
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "r9pHBUxh",
+      "name": "Moss Fix 1.6.1 for Forge",
+      "version_number": "1.6.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "74d7e92dcfc3228abf88667521b70a8d9f19e3782fa5027de463108b2dd2b00c48c3fdfcc74e28d79b7dc8e164785dd40cff27ef93f9562a63699b0b70b5b0ac",
+          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/r9pHBUxh/mossfix-1.6.1-forge.jar",
+          "filename": "mossfix-1.6.1-forge.jar",
+          "primary": true,
+          "size": 14428
+        },
+        {
+          "sha512": "0735ba5188ba0d5b204469e60c70206202d4947fbb51bc75b5a0cd5e70318de8da4f72f1b2ae8e6fe58e06011abdeee40af2864821fa794b15c9093a558ed83a",
+          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/r9pHBUxh/mossfix-1.6.1-sources-forge.jar",
+          "filename": "mossfix-1.6.1-sources-forge.jar",
+          "primary": false,
+          "size": 8670
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "vODLHQcB",
+      "name": "Moss Fix 1.6.1 Fabric",
+      "version_number": "1.6.1",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4fa427ea1c11010c24b226eb1ae5a2067e203c288e331bc9889284670562cacfeff5e885f58c051fc753387039f32e6b6360b485c4e0e257cba09a387f4e64e5",
+          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/vODLHQcB/mossfix-1.6.1.jar",
+          "filename": "mossfix-1.6.1.jar",
+          "primary": true,
+          "size": 18648
+        },
+        {
+          "sha512": "80867dea16d21c44c284fb41f33f31e97d53e21e76daecdb50cc7f5fac37ce0ff8671b25b3eddf36fb8e10702c0e688ff5362feabbb3b95400306b77a4d67b74",
+          "url": "https://cdn.modrinth.com/data/2xPm31lF/versions/vODLHQcB/mossfix-1.6.1-sources-fabric.jar",
+          "filename": "mossfix-1.6.1-sources-fabric.jar",
+          "primary": false,
+          "size": 10612
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "6bcAfgt2",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
           "file_name": null,
           "dependency_type": "required"
         }

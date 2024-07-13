@@ -5,55 +5,39 @@
   "description": "Yet another Discord bridge for Minecraft",
   "versions": [
     {
-      "id": "vHtnDOAw",
-      "name": "2.3.3+1.20.4+neoforge",
-      "version_number": "2.3.3+1.20.4+neoforge",
+      "id": "49wkHxGu",
+      "name": "2.1.0+1.20.1+fabric",
+      "version_number": "2.1.0+1.20.1+fabric",
       "game_versions": [
-        "1.20.3",
-        "1.20.4"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
-        "neoforge"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "1139f8899468c4cd996452bb5a8c6c36b80684b11e4c733b1e41c2939d4179e84f8ef7ab853e4ef0c33e3d9ac208611a70f8b63e297d7260857889ce53dcf58b",
-          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/vHtnDOAw/nilcord-2.3.3%2B1.20.4%2Bneoforge.jar",
-          "filename": "nilcord-2.3.3+1.20.4+neoforge.jar",
+          "sha512": "2cf5e8e34c5d6f61bb60b9962cb032194d36441b4720c739030ab875dede5ba0de2d4121de5017d1e53b9b91ce95a92822e1be55bb99fe672447143db66cedb7",
+          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/49wkHxGu/nilcord-2.1.0%2B1.20.1%2Bfabric.jar",
+          "filename": "nilcord-2.1.0+1.20.1+fabric.jar",
           "primary": true,
-          "size": 8058372
+          "size": 10216610
         }
       ],
       "dependencies": [
         {
-          "project_id": "eXts2L7r",
+          "project_id": "qvIfYCYJ",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "w4Tt290S",
-      "name": "2.3.2+1.20.4+neoforge",
-      "version_number": "2.3.2+1.20.4+neoforge",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
+          "dependency_type": "required"
+        },
         {
-          "sha512": "13bab4f5aca6c7885539560153e8f23498c830e605661858d91e727eb11ad211068201eec88103f8d68accbc70fc82ee46d55c4e0768d9be6a268f52fb16929b",
-          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/w4Tt290S/nilcord-2.3.2%2B1.20.4%2Bneoforge.jar",
-          "filename": "nilcord-2.3.2+1.20.4+neoforge.jar",
-          "primary": true,
-          "size": 8058339
-        }
-      ],
-      "dependencies": [
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "eXts2L7r",
           "version_id": null,
@@ -80,35 +64,6 @@
           "filename": "nilcord-2.3.1+1.20.4+neoforge.jar",
           "primary": true,
           "size": 8058339
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "eXts2L7r",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "NbkFnCXE",
-      "name": "2.3.0+1.20.4+neoforge",
-      "version_number": "2.3.0+1.20.4+neoforge",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "53a6038289d3592b9f281f22d1d8c1af61461caac5d62ea05a6f8cd93863e2c9d22f67f836157213c85376f8790cc5bcd7a5ead62f8c013a596e686398fcdfb9",
-          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/NbkFnCXE/nilcord-2.3.0%2B1.20.4%2Bneoforge-all.jar",
-          "filename": "nilcord-2.3.0+1.20.4+neoforge-all.jar",
-          "primary": true,
-          "size": 10368561
         }
       ],
       "dependencies": [
@@ -149,86 +104,31 @@
       ]
     },
     {
-      "id": "ZWL682md",
-      "name": "2.3.2+1.19.2+fabric",
-      "version_number": "2.3.2+1.19.2+fabric",
+      "id": "NbkFnCXE",
+      "name": "2.3.0+1.20.4+neoforge",
+      "version_number": "2.3.0+1.20.4+neoforge",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
-        "fabric"
+        "neoforge"
       ],
       "files": [
         {
-          "sha512": "9e25d11b8875be88b1a7db0ae5335a0b359679f89290d2b9d2ad8e7bf7ef9b84a2aa00308ac68a410cd846971f415ccec838fd80e6708caa5efce85dbe1693be",
-          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/ZWL682md/nilcord-2.3.2%2B1.19.2%2Bfabric.jar",
-          "filename": "nilcord-2.3.2+1.19.2+fabric.jar",
+          "sha512": "53a6038289d3592b9f281f22d1d8c1af61461caac5d62ea05a6f8cd93863e2c9d22f67f836157213c85376f8790cc5bcd7a5ead62f8c013a596e686398fcdfb9",
+          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/NbkFnCXE/nilcord-2.3.0%2B1.20.4%2Bneoforge-all.jar",
+          "filename": "nilcord-2.3.0+1.20.4+neoforge-all.jar",
           "primary": true,
-          "size": 10271588
+          "size": 10368561
         }
       ],
       "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "eXts2L7r",
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "n3ODevrn",
-      "name": "2.3.1+1.19.2+fabric",
-      "version_number": "2.3.1+1.19.2+fabric",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "095e5c6788084b780eb9b002685b40fbad5d9a23acebbf19f701d507e61839c1adba7ae10627a1a84febc99f549cb6e2dfdd8742653ee7358a82dbf2053962b0",
-          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/n3ODevrn/nilcord-2.3.1%2B1.19.2%2Bfabric.jar",
-          "filename": "nilcord-2.3.1+1.19.2+fabric.jar",
-          "primary": true,
-          "size": 10269394
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "eXts2L7r",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -251,6 +151,132 @@
           "filename": "nilcord-2.3.1+1.20.4+fabric.jar",
           "primary": true,
           "size": 10306514
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "eXts2L7r",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "WlO9vdP4",
+      "name": "2.1.0+1.20.4+fabric",
+      "version_number": "2.1.0+1.20.4+fabric",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "22c0ea6d7aaa4c23b9255da7918b4f74fad7278e2a88147d3781c7f7ee9a2d3163eced05d5bb181094074669476012fc3af529abe27e378ca3c9e0d30d5cf6d6",
+          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/WlO9vdP4/nilcord-2.1.0%2B1.20.4%2Bfabric.jar",
+          "filename": "nilcord-2.1.0+1.20.4+fabric.jar",
+          "primary": true,
+          "size": 10217846
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "eXts2L7r",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "XA0vlpsR",
+      "name": "2.2.0+1.20.1+fabric",
+      "version_number": "2.2.0+1.20.1+fabric",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "846ebbb4d5999ea7ef760cd3a64b0bceef07e10f8fd1e58ead40fb1c40a97f67eac4f8d688a76c3a7a90f12e75cd8bf053a7beafe07d36a9524ad400b9efd7e5",
+          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/XA0vlpsR/nilcord-2.2.0%2B1.20.1%2Bfabric.jar",
+          "filename": "nilcord-2.2.0+1.20.1+fabric.jar",
+          "primary": true,
+          "size": 10216716
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "eXts2L7r",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ZWL682md",
+      "name": "2.3.2+1.19.2+fabric",
+      "version_number": "2.3.2+1.19.2+fabric",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9e25d11b8875be88b1a7db0ae5335a0b359679f89290d2b9d2ad8e7bf7ef9b84a2aa00308ac68a410cd846971f415ccec838fd80e6708caa5efce85dbe1693be",
+          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/ZWL682md/nilcord-2.3.2%2B1.19.2%2Bfabric.jar",
+          "filename": "nilcord-2.3.2+1.19.2+fabric.jar",
+          "primary": true,
+          "size": 10271588
         }
       ],
       "dependencies": [
@@ -345,6 +371,69 @@
       ]
     },
     {
+      "id": "g84ZLvmX",
+      "name": "2.1.0+1.4.7+nilloader",
+      "version_number": "2.1.0+1.4.7+nilloader",
+      "game_versions": [
+        "1.4.7"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ffb94b8ded837b1f0a8823fee76b865a41422b5a186d8b8d4519e0ca952179dc466dbee65cf87c6157175b485a2dc5726961ce68a9fe131c80ef913a28b2ae44",
+          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/g84ZLvmX/nilcord-2.1.0%2B1.4.7%2Bnilloader.jar",
+          "filename": "nilcord-2.1.0+1.4.7+nilloader.jar",
+          "primary": true,
+          "size": 7713501
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "n3ODevrn",
+      "name": "2.3.1+1.19.2+fabric",
+      "version_number": "2.3.1+1.19.2+fabric",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "095e5c6788084b780eb9b002685b40fbad5d9a23acebbf19f701d507e61839c1adba7ae10627a1a84febc99f549cb6e2dfdd8742653ee7358a82dbf2053962b0",
+          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/n3ODevrn/nilcord-2.3.1%2B1.19.2%2Bfabric.jar",
+          "filename": "nilcord-2.3.1+1.19.2+fabric.jar",
+          "primary": true,
+          "size": 10269394
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "eXts2L7r",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "oINH1GjT",
       "name": "2.3.0+1.12.2+forge",
       "version_number": "2.3.0+1.12.2+forge",
@@ -364,6 +453,176 @@
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "rAvXjy6V",
+      "name": "2.2.0+1.20.4+fabric",
+      "version_number": "2.2.0+1.20.4+fabric",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "9246fc17afca39ff149923dcc5a1f3ae60829734225d71b33c0d6fcaa0863c755d23baf9c2dd2fc9ab81c9c95a3bbe9f6d04f76b5d8c015f422452f5d1b0bdcb",
+          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/rAvXjy6V/nilcord-2.2.0%2B1.20.4%2Bfabric.jar",
+          "filename": "nilcord-2.2.0+1.20.4+fabric.jar",
+          "primary": true,
+          "size": 10217951
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "eXts2L7r",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "v3nDei0T",
+      "name": "2.1.4+1.7.10+forge",
+      "version_number": "2.1.4+1.7.10+forge",
+      "game_versions": [
+        "1.7.10"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ec1042985b4295f4619cf11151093f524ec35e11f0168c93ba4d55480d522dfd19a74a30a511fc1f9c25d6ea3cb3a5e1359fff36059d03a87dfd007e28be1769",
+          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/v3nDei0T/nilcord-2.1.4%2B1.7.10%2Bforge.jar",
+          "filename": "nilcord-2.1.4+1.7.10+forge.jar",
+          "primary": true,
+          "size": 8194806
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ghjoiQAl",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "vHtnDOAw",
+      "name": "2.3.3+1.20.4+neoforge",
+      "version_number": "2.3.3+1.20.4+neoforge",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "1139f8899468c4cd996452bb5a8c6c36b80684b11e4c733b1e41c2939d4179e84f8ef7ab853e4ef0c33e3d9ac208611a70f8b63e297d7260857889ce53dcf58b",
+          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/vHtnDOAw/nilcord-2.3.3%2B1.20.4%2Bneoforge.jar",
+          "filename": "nilcord-2.3.3+1.20.4+neoforge.jar",
+          "primary": true,
+          "size": 8058372
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "eXts2L7r",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "w4Tt290S",
+      "name": "2.3.2+1.20.4+neoforge",
+      "version_number": "2.3.2+1.20.4+neoforge",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "13bab4f5aca6c7885539560153e8f23498c830e605661858d91e727eb11ad211068201eec88103f8d68accbc70fc82ee46d55c4e0768d9be6a268f52fb16929b",
+          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/w4Tt290S/nilcord-2.3.2%2B1.20.4%2Bneoforge.jar",
+          "filename": "nilcord-2.3.2+1.20.4+neoforge.jar",
+          "primary": true,
+          "size": 8058339
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "eXts2L7r",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "zIQheOjw",
+      "name": "2.3.0+1.20.1+fabric",
+      "version_number": "2.3.0+1.20.1+fabric",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "091423967f656174c99b1c4dfe3b84270ea013e48ef6025e336aba0731fd22c5b879fb6a38f704a3beed0f5fb3134d168cca33c666a6f0e8b86e97802f0a315c",
+          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/zIQheOjw/nilcord-2.3.0%2B1.20.1%2Bfabric.jar",
+          "filename": "nilcord-2.3.0+1.20.1+fabric.jar",
+          "primary": true,
+          "size": 10253672
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "eXts2L7r",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "zy67jb3G",
@@ -405,265 +664,6 @@
           "dependency_type": "required"
         }
       ]
-    },
-    {
-      "id": "zIQheOjw",
-      "name": "2.3.0+1.20.1+fabric",
-      "version_number": "2.3.0+1.20.1+fabric",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "091423967f656174c99b1c4dfe3b84270ea013e48ef6025e336aba0731fd22c5b879fb6a38f704a3beed0f5fb3134d168cca33c666a6f0e8b86e97802f0a315c",
-          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/zIQheOjw/nilcord-2.3.0%2B1.20.1%2Bfabric.jar",
-          "filename": "nilcord-2.3.0+1.20.1+fabric.jar",
-          "primary": true,
-          "size": 10253672
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "eXts2L7r",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "rAvXjy6V",
-      "name": "2.2.0+1.20.4+fabric",
-      "version_number": "2.2.0+1.20.4+fabric",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "9246fc17afca39ff149923dcc5a1f3ae60829734225d71b33c0d6fcaa0863c755d23baf9c2dd2fc9ab81c9c95a3bbe9f6d04f76b5d8c015f422452f5d1b0bdcb",
-          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/rAvXjy6V/nilcord-2.2.0%2B1.20.4%2Bfabric.jar",
-          "filename": "nilcord-2.2.0+1.20.4+fabric.jar",
-          "primary": true,
-          "size": 10217951
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "eXts2L7r",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "XA0vlpsR",
-      "name": "2.2.0+1.20.1+fabric",
-      "version_number": "2.2.0+1.20.1+fabric",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "846ebbb4d5999ea7ef760cd3a64b0bceef07e10f8fd1e58ead40fb1c40a97f67eac4f8d688a76c3a7a90f12e75cd8bf053a7beafe07d36a9524ad400b9efd7e5",
-          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/XA0vlpsR/nilcord-2.2.0%2B1.20.1%2Bfabric.jar",
-          "filename": "nilcord-2.2.0+1.20.1+fabric.jar",
-          "primary": true,
-          "size": 10216716
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "eXts2L7r",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "WlO9vdP4",
-      "name": "2.1.0+1.20.4+fabric",
-      "version_number": "2.1.0+1.20.4+fabric",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "22c0ea6d7aaa4c23b9255da7918b4f74fad7278e2a88147d3781c7f7ee9a2d3163eced05d5bb181094074669476012fc3af529abe27e378ca3c9e0d30d5cf6d6",
-          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/WlO9vdP4/nilcord-2.1.0%2B1.20.4%2Bfabric.jar",
-          "filename": "nilcord-2.1.0+1.20.4+fabric.jar",
-          "primary": true,
-          "size": 10217846
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "eXts2L7r",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "49wkHxGu",
-      "name": "2.1.0+1.20.1+fabric",
-      "version_number": "2.1.0+1.20.1+fabric",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2cf5e8e34c5d6f61bb60b9962cb032194d36441b4720c739030ab875dede5ba0de2d4121de5017d1e53b9b91ce95a92822e1be55bb99fe672447143db66cedb7",
-          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/49wkHxGu/nilcord-2.1.0%2B1.20.1%2Bfabric.jar",
-          "filename": "nilcord-2.1.0+1.20.1+fabric.jar",
-          "primary": true,
-          "size": 10216610
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "eXts2L7r",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "v3nDei0T",
-      "name": "2.1.4+1.7.10+forge",
-      "version_number": "2.1.4+1.7.10+forge",
-      "game_versions": [
-        "1.7.10"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "ec1042985b4295f4619cf11151093f524ec35e11f0168c93ba4d55480d522dfd19a74a30a511fc1f9c25d6ea3cb3a5e1359fff36059d03a87dfd007e28be1769",
-          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/v3nDei0T/nilcord-2.1.4%2B1.7.10%2Bforge.jar",
-          "filename": "nilcord-2.1.4+1.7.10+forge.jar",
-          "primary": true,
-          "size": 8194806
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ghjoiQAl",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "g84ZLvmX",
-      "name": "2.1.0+1.4.7+nilloader",
-      "version_number": "2.1.0+1.4.7+nilloader",
-      "game_versions": [
-        "1.4.7"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "ffb94b8ded837b1f0a8823fee76b865a41422b5a186d8b8d4519e0ca952179dc466dbee65cf87c6157175b485a2dc5726961ce68a9fe131c80ef913a28b2ae44",
-          "url": "https://cdn.modrinth.com/data/W4HQBVeF/versions/g84ZLvmX/nilcord-2.1.0%2B1.4.7%2Bnilloader.jar",
-          "filename": "nilcord-2.1.0+1.4.7+nilloader.jar",
-          "primary": true,
-          "size": 7713501
-        }
-      ],
-      "dependencies": []
     }
   ]
 }

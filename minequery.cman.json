@@ -5,6 +5,124 @@
   "description": "A helping mod at client side",
   "versions": [
     {
+      "id": "K7kRKkfu",
+      "name": "Feed'em Update",
+      "version_number": "1.4.0",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "b69f78e15bc596d0a42e3b21e4fb4c381b502f1d198fde97e5dd5121f519f3adcf36b48a86bab966ac3c94fedef9ca1a6da8807011707a9171b13233e111b02e",
+          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/1.4.0/minequery-1.4.0.jar",
+          "filename": "minequery-1.4.0.jar",
+          "primary": false,
+          "size": 89645
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Ok0nbqqA",
+      "name": "Upwards to Minecraft 1.18-pre2",
+      "version_number": "1.5.0",
+      "game_versions": [
+        "1.18.1-rc2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1643dd60ef10b8805cbe19c6a01187488dafb3d481fd804e4e4da22f5ab5b87f4e578253b352345c80edc0a7d381035444c9bb1d39b5bfeb2fae5db324c0591d",
+          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/1.5.0/minequery-1.5.0.jar",
+          "filename": "minequery-1.5.0.jar",
+          "primary": true,
+          "size": 91116
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "VB2mGpki",
+      "name": "[don't use] 1.8.0-beta",
+      "version_number": "1.8.0-beta",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "77eafceaf1a4bed119765fefd29f83b5d572f4ccb8d03b39d15d13818b555932a49b39eb3ba1aae877a8fd8872100259037014ff306c8db0615a4fb7695668f5",
+          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/VB2mGpki/minequery-1.8.0.jar",
+          "filename": "minequery-1.8.0.jar",
+          "primary": true,
+          "size": 93635
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "K1pOTt6K",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "XcJSUIs0",
+      "name": "Upwards to Minecraft 1.18.2",
+      "version_number": "1.6.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d3786ec8ce390eb3eaeb6fdd58a4eeafe1558024d594d83e7a174f3c2063b1ce8a8f435081fa954c89e392f99403de361b520d0bae91a64dde00b8e9344b213a",
+          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/1.6.1/minequery-1.6.1.jar",
+          "filename": "minequery-1.6.1.jar",
+          "primary": true,
+          "size": 89096
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "Y01BIMhQ",
       "name": "1.8.4",
       "version_number": "1.8.4",
@@ -36,18 +154,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
@@ -58,6 +164,267 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "YeF0W4sE",
+      "name": "Not Hit Iron Golem Config Desc Fix",
+      "version_number": "1.6.3",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9e77ee3f563fdbea794a15f1883c087b9a76b8d311606e4c6e127baaaedf0d374c66ec49918f6750f0c0ad8f141a00c524dbfe962335e80a3062dcb57f32bd8f",
+          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/1.6.3/minequery-1.6.3.jar",
+          "filename": "minequery-1.6.3.jar",
+          "primary": true,
+          "size": 89114
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "ZFVFnVpA",
+      "name": "Upwards to Minecraft 1.19",
+      "version_number": "1.7.0",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c1d6d602b754add9c6f518b313edc408aec9474ebeece34f35afb64a6c5546ada29e7341ae89a551c906d70211dc8a69adcb9aa55c453238c23687d43148b725",
+          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/1.7.0/minequery-1.7.0.jar",
+          "filename": "minequery-1.7.0.jar",
+          "primary": true,
+          "size": 91509
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "3KmOcp6b",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "oU5qfeR6",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "ZfvXnds2",
+      "name": "1.8.1",
+      "version_number": "1.8.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "96feaeaeb936b379446f1d0a28775ccc89f37e3cad38657478db8b9e0e47e5e31110974b7fe564d1cbaf1c5553be283809b7f99d61d7299cbba9381229ed77ef",
+          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/ZfvXnds2/minequery-1.8.1.jar",
+          "filename": "minequery-1.8.1.jar",
+          "primary": true,
+          "size": 92853
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "dsHbJzUl",
+      "name": "New Harvest Strategy & Minecraft 1.19.3",
+      "version_number": "1.7.2",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "cf092b67573221a868571835ff067065ac2375e9b78c23c3a4d567f96d7645f6582a70e61ca939d6e59f7054ad05d581d6b048176ab7ba586e18c6a168249738",
+          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/dsHbJzUl/minequery-1.7.2.jar",
+          "filename": "minequery-1.7.2.jar",
+          "primary": true,
+          "size": 92532
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "w2VZSLTf",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "hMyCnobS",
+      "name": "Key2Cmd Update!",
+      "version_number": "1.8.2",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c9bc23f17cbdc5b0528145641cdfd3608cda03076ed03755c82d7487cd49cfdc72641512de28941b015e691ba1626430524b13ed27e09f00d75b23d5136c8708",
+          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/hMyCnobS/minequery-1.8.2.jar",
+          "filename": "minequery-1.8.2.jar",
+          "primary": true,
+          "size": 100220
+        },
+        {
+          "sha512": "352612b15ace97e894bfcefbd328c15822255e5634f40ccbd40799ea3b35ff492f86ef268a32d5f3ed5796fbb7c3feaac16eb65ac90406fd8dd2f6c2b720ae3c",
+          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/hMyCnobS/minequery-1.8.2-sources.jar",
+          "filename": "minequery-1.8.2-sources.jar",
+          "primary": false,
+          "size": 25330
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "pemMuP3X",
+      "name": "1.7.4",
+      "version_number": "1.7.4",
+      "game_versions": [
+        "1.19",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1518cf4c71ae070f32f8d984b2fdb4a9b7ee91f3e29793329295e9a28fd163a312d900d1da8fce6afafc1faeb040d7818f13bc6b1642cd03e920449a789f2625",
+          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/pemMuP3X/minequery-1.7.4.jar",
+          "filename": "minequery-1.7.4.jar",
+          "primary": true,
+          "size": 93626
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "5U5Y73uW",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "6XGTNEII",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "iZRiOnnj",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -112,170 +479,40 @@
       ]
     },
     {
-      "id": "hMyCnobS",
-      "name": "Key2Cmd Update!",
-      "version_number": "1.8.2",
+      "id": "xNBFc5fm",
+      "name": "Keybinding Localization Fix",
+      "version_number": "1.7.1",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.19.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "c9bc23f17cbdc5b0528145641cdfd3608cda03076ed03755c82d7487cd49cfdc72641512de28941b015e691ba1626430524b13ed27e09f00d75b23d5136c8708",
-          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/hMyCnobS/minequery-1.8.2.jar",
-          "filename": "minequery-1.8.2.jar",
+          "sha512": "87143766f680cfec866dc2e87c334ca95d4b6af7a9d19b7a45171a2d3c18f4743372b214ebe28cab51d0ee565c89d4f08e254fc21410d9c5c2b6b644a5ca8869",
+          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/xNBFc5fm/minequery-1.7.0.jar",
+          "filename": "minequery-1.7.0.jar",
           "primary": true,
-          "size": 100220
-        },
-        {
-          "sha512": "352612b15ace97e894bfcefbd328c15822255e5634f40ccbd40799ea3b35ff492f86ef268a32d5f3ed5796fbb7c3feaac16eb65ac90406fd8dd2f6c2b720ae3c",
-          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/hMyCnobS/minequery-1.8.2-sources.jar",
-          "filename": "minequery-1.8.2-sources.jar",
-          "primary": false,
-          "size": 25330
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "eTCL1uh8",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ZfvXnds2",
-      "name": "1.8.1",
-      "version_number": "1.8.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "96feaeaeb936b379446f1d0a28775ccc89f37e3cad38657478db8b9e0e47e5e31110974b7fe564d1cbaf1c5553be283809b7f99d61d7299cbba9381229ed77ef",
-          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/ZfvXnds2/minequery-1.8.1.jar",
-          "filename": "minequery-1.8.1.jar",
-          "primary": true,
-          "size": 92853
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "eTCL1uh8",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "VB2mGpki",
-      "name": "[don't use] 1.8.0-beta",
-      "version_number": "1.8.0-beta",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "77eafceaf1a4bed119765fefd29f83b5d572f4ccb8d03b39d15d13818b555932a49b39eb3ba1aae877a8fd8872100259037014ff306c8db0615a4fb7695668f5",
-          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/VB2mGpki/minequery-1.8.0.jar",
-          "filename": "minequery-1.8.0.jar",
-          "primary": true,
-          "size": 93635
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "eTCL1uh8",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "K1pOTt6K",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "pemMuP3X",
-      "name": "1.7.4",
-      "version_number": "1.7.4",
-      "game_versions": [
-        "1.19",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "1518cf4c71ae070f32f8d984b2fdb4a9b7ee91f3e29793329295e9a28fd163a312d900d1da8fce6afafc1faeb040d7818f13bc6b1642cd03e920449a789f2625",
-          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/pemMuP3X/minequery-1.7.4.jar",
-          "filename": "minequery-1.7.4.jar",
-          "primary": true,
-          "size": 93626
+          "size": 89311
         }
       ],
       "dependencies": [
         {
           "project_id": "mOgUt4GM",
-          "version_id": "iZRiOnnj",
+          "version_id": "gSoPJyVn",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": "5U5Y73uW",
+          "version_id": "hfsU4hXq",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "9s6osm5g",
-          "version_id": "6XGTNEII",
+          "version_id": "o9dFD9SO",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -309,255 +546,18 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "dsHbJzUl",
-      "name": "New Harvest Strategy & Minecraft 1.19.3",
-      "version_number": "1.7.2",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "cf092b67573221a868571835ff067065ac2375e9b78c23c3a4d567f96d7645f6582a70e61ca939d6e59f7054ad05d581d6b048176ab7ba586e18c6a168249738",
-          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/dsHbJzUl/minequery-1.7.2.jar",
-          "filename": "minequery-1.7.2.jar",
-          "primary": true,
-          "size": 92532
-        }
-      ],
-      "dependencies": [
-        {
           "project_id": "P7dR8mSH",
           "version_id": "jyKnHEDY",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "w2VZSLTf",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "xNBFc5fm",
-      "name": "Keybinding Localization Fix",
-      "version_number": "1.7.1",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "87143766f680cfec866dc2e87c334ca95d4b6af7a9d19b7a45171a2d3c18f4743372b214ebe28cab51d0ee565c89d4f08e254fc21410d9c5c2b6b644a5ca8869",
-          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/xNBFc5fm/minequery-1.7.0.jar",
-          "filename": "minequery-1.7.0.jar",
-          "primary": true,
-          "size": 89311
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ZFVFnVpA",
-      "name": "Upwards to Minecraft 1.19",
-      "version_number": "1.7.0",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c1d6d602b754add9c6f518b313edc408aec9474ebeece34f35afb64a6c5546ada29e7341ae89a551c906d70211dc8a69adcb9aa55c453238c23687d43148b725",
-          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/1.7.0/minequery-1.7.0.jar",
-          "filename": "minequery-1.7.0.jar",
-          "primary": true,
-          "size": 91509
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "oU5qfeR6",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "3KmOcp6b",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "9s6osm5g",
           "version_id": "o9dFD9SO",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
-    },
-    {
-      "id": "YeF0W4sE",
-      "name": "Not Hit Iron Golem Config Desc Fix",
-      "version_number": "1.6.3",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9e77ee3f563fdbea794a15f1883c087b9a76b8d311606e4c6e127baaaedf0d374c66ec49918f6750f0c0ad8f141a00c524dbfe962335e80a3062dcb57f32bd8f",
-          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/1.6.3/minequery-1.6.3.jar",
-          "filename": "minequery-1.6.3.jar",
-          "primary": true,
-          "size": 89114
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "nVxObSbX",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "XcJSUIs0",
-      "name": "Upwards to Minecraft 1.18.2",
-      "version_number": "1.6.1",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d3786ec8ce390eb3eaeb6fdd58a4eeafe1558024d594d83e7a174f3c2063b1ce8a8f435081fa954c89e392f99403de361b520d0bae91a64dde00b8e9344b213a",
-          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/1.6.1/minequery-1.6.1.jar",
-          "filename": "minequery-1.6.1.jar",
-          "primary": true,
-          "size": 89096
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "nVxObSbX",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Ok0nbqqA",
-      "name": "Upwards to Minecraft 1.18-pre2",
-      "version_number": "1.5.0",
-      "game_versions": [
-        "1.18.1-rc2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "1643dd60ef10b8805cbe19c6a01187488dafb3d481fd804e4e4da22f5ab5b87f4e578253b352345c80edc0a7d381035444c9bb1d39b5bfeb2fae5db324c0591d",
-          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/1.5.0/minequery-1.5.0.jar",
-          "filename": "minequery-1.5.0.jar",
-          "primary": true,
-          "size": 91116
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "K7kRKkfu",
-      "name": "Feed'em Update",
-      "version_number": "1.4.0",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b69f78e15bc596d0a42e3b21e4fb4c381b502f1d198fde97e5dd5121f519f3adcf36b48a86bab966ac3c94fedef9ca1a6da8807011707a9171b13233e111b02e",
-          "url": "https://cdn.modrinth.com/data/x77y6Uh8/versions/1.4.0/minequery-1.4.0.jar",
-          "filename": "minequery-1.4.0.jar",
-          "primary": false,
-          "size": 89645
-        }
-      ],
-      "dependencies": []
     }
   ]
 }

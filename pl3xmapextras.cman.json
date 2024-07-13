@@ -5,42 +5,6 @@
   "description": "A plugin adding extra features to Pl3xMap",
   "versions": [
     {
-      "id": "TBNtknVt",
-      "name": "Pl3xMapExtras 1.21-4",
-      "version_number": "1.21-4",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "folia",
-        "paper",
-        "purpur"
-      ],
-      "files": [
-        {
-          "sha512": "e39526851866e65f9b40d9952d263b14b082f9e613291195485c9e76994a4a7bc28f81041c261f92a3fef8c9b1e1497aab015ec3875fd55b2d7df0cb822ffea2",
-          "url": "https://cdn.modrinth.com/data/q9XiqcY2/versions/TBNtknVt/Pl3xMapExtras-1.21-4.jar",
-          "filename": "Pl3xMapExtras-1.21-4.jar",
-          "primary": true,
-          "size": 339067
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "34T8oVNY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "O4o4mKaq",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "8SGbYJ2M",
       "name": "Pl3xMapExtras 1.21-3",
       "version_number": "1.21-3",
@@ -59,6 +23,42 @@
           "filename": "Pl3xMapExtras-1.21-3.jar",
           "primary": true,
           "size": 339043
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "34T8oVNY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "O4o4mKaq",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "TBNtknVt",
+      "name": "Pl3xMapExtras 1.21-4",
+      "version_number": "1.21-4",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "folia",
+        "paper",
+        "purpur"
+      ],
+      "files": [
+        {
+          "sha512": "e39526851866e65f9b40d9952d263b14b082f9e613291195485c9e76994a4a7bc28f81041c261f92a3fef8c9b1e1497aab015ec3875fd55b2d7df0cb822ffea2",
+          "url": "https://cdn.modrinth.com/data/q9XiqcY2/versions/TBNtknVt/Pl3xMapExtras-1.21-4.jar",
+          "filename": "Pl3xMapExtras-1.21-4.jar",
+          "primary": true,
+          "size": 339067
         }
       ],
       "dependencies": [
@@ -135,16 +135,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "34T8oVNY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "O4o4mKaq",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "34T8oVNY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

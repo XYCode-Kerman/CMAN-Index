@@ -5,30 +5,178 @@
   "description": "Adds various harvesting features, enables right click harvest, fast leaf decay, and more.",
   "versions": [
     {
-      "id": "rXt3HXpA",
-      "name": "Fabric 0.0.5",
-      "version_number": "0.0.5",
+      "id": "B0IRjpJJ",
+      "name": "Fabric 0.0.1",
+      "version_number": "0.0.1",
       "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2"
+        "1.19.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "30d65fd281a4a3fe8ef3c37f84be7a791f5abafb6b960c379039d2d1b2a595521cb0542bf6a6cb001ab190c2c1055ef984847654c32f1e51359ee0ba0bb10c67",
-          "url": "https://cdn.modrinth.com/data/4ljTCTYt/versions/rXt3HXpA/betterharvesting-1.20-fabric-0.0.5.jar",
-          "filename": "betterharvesting-1.20-fabric-0.0.5.jar",
+          "sha512": "cb9fa8d1005521bc8a267b7fdbc21c7373526147d37d7515f361fb513e4711419b8c5c178a8e3f5c300b8dd2095a84d1725f96281947a23d58a109796111bffb",
+          "url": "https://cdn.modrinth.com/data/4ljTCTYt/versions/B0IRjpJJ/betterharvesting-1.19.4-fabric-0.0.1.jar",
+          "filename": "betterharvesting-1.19.4-fabric-0.0.1.jar",
           "primary": true,
-          "size": 1174110
+          "size": 61604
         }
       ],
       "dependencies": [
         {
-          "project_id": "xtPYrzCS",
+          "project_id": "lhGA9TYQ",
+          "version_id": "6bcAfgt2",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ftdbN0KK",
           "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "EOqX9MOV",
+      "name": "Forge 0.0.1",
+      "version_number": "0.0.1",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "30b33fd7f81a9eec7cb5ec232c5a7f04de65b782b31e4a1aff2b96c1f2185c11c6b6d1710a541fbcc9f409e3c6d8c0eb7dd906c06fd412d0b9bbf1322c5d10d5",
+          "url": "https://cdn.modrinth.com/data/4ljTCTYt/versions/EOqX9MOV/betterharvesting-1.19.4-forge-0.0.1.jar",
+          "filename": "betterharvesting-1.19.4-forge-0.0.1.jar",
+          "primary": true,
+          "size": 64276
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "8y4xVR6z",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ftdbN0KK",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "InTXZJMT",
+      "name": "Forge 0.0.2",
+      "version_number": "0.0.2",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "21d45d0bcab393e68c2c01d2d15837355c6f31e8272b47cae3e0a0fa8597c67c67a094ad6df1d673625d84a7b069bc8504080ac1906856bd23c10e2b4a53e34a",
+          "url": "https://cdn.modrinth.com/data/4ljTCTYt/versions/InTXZJMT/betterharvesting-1.20-forge-0.0.2.jar",
+          "filename": "betterharvesting-1.20-forge-0.0.2.jar",
+          "primary": true,
+          "size": 64198
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ftdbN0KK",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "gyJ7kDpb",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Lj3rP3Ms",
+      "name": "Fabric 0.0.3",
+      "version_number": "0.0.3",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "00b39fb1811b354f35dfa91475862b92308aa9d9eb4ab825e5d7b72a665039eb79bfdec22d18f59aec5191bb31c21b3e794f2b553262ac22f26a3be330ce6e37",
+          "url": "https://cdn.modrinth.com/data/4ljTCTYt/versions/Lj3rP3Ms/betterharvesting-1.19-fabric-0.0.3.jar",
+          "filename": "betterharvesting-1.19-fabric-0.0.3.jar",
+          "primary": true,
+          "size": 61772
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ftdbN0KK",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "PR22J5Qt",
+      "name": "Fabric 0.0.2",
+      "version_number": "0.0.2",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8a88112e1ebf43944b6018efde9a4409e8d08a008e0e43581633147ac5e0c399b58d0ed1ebaabf64bc4c5e1433e067c8407ec5cac4bad71cc0e9bcf42d8324c2",
+          "url": "https://cdn.modrinth.com/data/4ljTCTYt/versions/PR22J5Qt/betterharvesting-1.20-fabric-0.0.2.jar",
+          "filename": "betterharvesting-1.20-fabric-0.0.2.jar",
+          "primary": true,
+          "size": 61586
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "Sbew3kXe",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
           "file_name": null,
           "dependency_type": "required"
         },
@@ -77,43 +225,6 @@
       ]
     },
     {
-      "id": "bs3KXptV",
-      "name": "Forge 0.0.4",
-      "version_number": "0.0.4",
-      "game_versions": [
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "ebca35abcb6d5ecf9c520a6b81eca9ca064c755760304b0bedbb657af2e21fb298c6700ce8f68907c89561a407dcca2efad634e58ab1098580bd383d0859bb9c",
-          "url": "https://cdn.modrinth.com/data/4ljTCTYt/versions/bs3KXptV/betterharvesting-1.19.1-forge-0.0.4.jar",
-          "filename": "betterharvesting-1.19.1-forge-0.0.4.jar",
-          "primary": true,
-          "size": 64415
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ftdbN0KK",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "8y4xVR6z",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "QW4C9avv",
       "name": "Fabric 0.0.4",
       "version_number": "0.0.4",
@@ -137,20 +248,93 @@
       ],
       "dependencies": [
         {
-          "project_id": "ftdbN0KK",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "lhGA9TYQ",
           "version_id": "6bcAfgt2",
           "file_name": null,
           "dependency_type": "required"
         },
         {
+          "project_id": "ftdbN0KK",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "P7dR8mSH",
           "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "bs3KXptV",
+      "name": "Forge 0.0.4",
+      "version_number": "0.0.4",
+      "game_versions": [
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ebca35abcb6d5ecf9c520a6b81eca9ca064c755760304b0bedbb657af2e21fb298c6700ce8f68907c89561a407dcca2efad634e58ab1098580bd383d0859bb9c",
+          "url": "https://cdn.modrinth.com/data/4ljTCTYt/versions/bs3KXptV/betterharvesting-1.19.1-forge-0.0.4.jar",
+          "filename": "betterharvesting-1.19.1-forge-0.0.4.jar",
+          "primary": true,
+          "size": 64415
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "8y4xVR6z",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ftdbN0KK",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "rXt3HXpA",
+      "name": "Fabric 0.0.5",
+      "version_number": "0.0.5",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "30d65fd281a4a3fe8ef3c37f84be7a791f5abafb6b960c379039d2d1b2a595521cb0542bf6a6cb001ab190c2c1055ef984847654c32f1e51359ee0ba0bb10c67",
+          "url": "https://cdn.modrinth.com/data/4ljTCTYt/versions/rXt3HXpA/betterharvesting-1.20-fabric-0.0.5.jar",
+          "filename": "betterharvesting-1.20-fabric-0.0.5.jar",
+          "primary": true,
+          "size": 1174110
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ftdbN0KK",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "xtPYrzCS",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -185,190 +369,6 @@
         {
           "project_id": "lhGA9TYQ",
           "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Lj3rP3Ms",
-      "name": "Fabric 0.0.3",
-      "version_number": "0.0.3",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "00b39fb1811b354f35dfa91475862b92308aa9d9eb4ab825e5d7b72a665039eb79bfdec22d18f59aec5191bb31c21b3e794f2b553262ac22f26a3be330ce6e37",
-          "url": "https://cdn.modrinth.com/data/4ljTCTYt/versions/Lj3rP3Ms/betterharvesting-1.19-fabric-0.0.3.jar",
-          "filename": "betterharvesting-1.19-fabric-0.0.3.jar",
-          "primary": true,
-          "size": 61772
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ftdbN0KK",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "InTXZJMT",
-      "name": "Forge 0.0.2",
-      "version_number": "0.0.2",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "21d45d0bcab393e68c2c01d2d15837355c6f31e8272b47cae3e0a0fa8597c67c67a094ad6df1d673625d84a7b069bc8504080ac1906856bd23c10e2b4a53e34a",
-          "url": "https://cdn.modrinth.com/data/4ljTCTYt/versions/InTXZJMT/betterharvesting-1.20-forge-0.0.2.jar",
-          "filename": "betterharvesting-1.20-forge-0.0.2.jar",
-          "primary": true,
-          "size": 64198
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ftdbN0KK",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "gyJ7kDpb",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "PR22J5Qt",
-      "name": "Fabric 0.0.2",
-      "version_number": "0.0.2",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8a88112e1ebf43944b6018efde9a4409e8d08a008e0e43581633147ac5e0c399b58d0ed1ebaabf64bc4c5e1433e067c8407ec5cac4bad71cc0e9bcf42d8324c2",
-          "url": "https://cdn.modrinth.com/data/4ljTCTYt/versions/PR22J5Qt/betterharvesting-1.20-fabric-0.0.2.jar",
-          "filename": "betterharvesting-1.20-fabric-0.0.2.jar",
-          "primary": true,
-          "size": 61586
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ftdbN0KK",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "Sbew3kXe",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "EOqX9MOV",
-      "name": "Forge 0.0.1",
-      "version_number": "0.0.1",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "30b33fd7f81a9eec7cb5ec232c5a7f04de65b782b31e4a1aff2b96c1f2185c11c6b6d1710a541fbcc9f409e3c6d8c0eb7dd906c06fd412d0b9bbf1322c5d10d5",
-          "url": "https://cdn.modrinth.com/data/4ljTCTYt/versions/EOqX9MOV/betterharvesting-1.19.4-forge-0.0.1.jar",
-          "filename": "betterharvesting-1.19.4-forge-0.0.1.jar",
-          "primary": true,
-          "size": 64276
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ftdbN0KK",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "8y4xVR6z",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "B0IRjpJJ",
-      "name": "Fabric 0.0.1",
-      "version_number": "0.0.1",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "cb9fa8d1005521bc8a267b7fdbc21c7373526147d37d7515f361fb513e4711419b8c5c178a8e3f5c300b8dd2095a84d1725f96281947a23d58a109796111bffb",
-          "url": "https://cdn.modrinth.com/data/4ljTCTYt/versions/B0IRjpJJ/betterharvesting-1.19.4-fabric-0.0.1.jar",
-          "filename": "betterharvesting-1.19.4-fabric-0.0.1.jar",
-          "primary": true,
-          "size": 61604
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ftdbN0KK",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "6bcAfgt2",
           "file_name": null,
           "dependency_type": "required"
         }

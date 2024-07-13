@@ -5,6 +5,40 @@
   "description": "Battle watcher HUD for Cobblemon! Get live battle insights in multiplayer!",
   "versions": [
     {
+      "id": "2iDiBpxt",
+      "name": "Cobbled Battle Watcher 2.0.0",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "cb2c6a85eb4847cd59d071c3143ee8024513e7f04121fcee41d2305741766c5d3bab07d5977e733b4077e2f2925caeca1ba7561a8dc97ff5b73b35cd8ecf2086",
+          "url": "https://cdn.modrinth.com/data/TLAQgl7d/versions/2iDiBpxt/cobbledbattlehp-fabric-2.0.0-1.20.1.jar",
+          "filename": "cobbledbattlehp-fabric-2.0.0-1.20.1.jar",
+          "primary": true,
+          "size": 663857
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "MKaHUU9s",
       "name": "Cobbled Battle Watcher 2.0.0 (Forge fixed)",
       "version_number": "2.0.0",
@@ -38,40 +72,6 @@
         },
         {
           "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "2iDiBpxt",
-      "name": "Cobbled Battle Watcher 2.0.0",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "cb2c6a85eb4847cd59d071c3143ee8024513e7f04121fcee41d2305741766c5d3bab07d5977e733b4077e2f2925caeca1ba7561a8dc97ff5b73b35cd8ecf2086",
-          "url": "https://cdn.modrinth.com/data/TLAQgl7d/versions/2iDiBpxt/cobbledbattlehp-fabric-2.0.0-1.20.1.jar",
-          "filename": "cobbledbattlehp-fabric-2.0.0-1.20.1.jar",
-          "primary": true,
-          "size": 663857
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "MdwFAVRL",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -139,8 +139,8 @@
       ],
       "dependencies": [
         {
-          "project_id": "Ha28R6CL",
-          "version_id": "s10JMAtS",
+          "project_id": "lhGA9TYQ",
+          "version_id": "OFLHUcGo",
           "file_name": null,
           "dependency_type": "required"
         },
@@ -151,8 +151,8 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "lhGA9TYQ",
-          "version_id": "OFLHUcGo",
+          "project_id": "Ha28R6CL",
+          "version_id": "s10JMAtS",
           "file_name": null,
           "dependency_type": "required"
         }

@@ -5,53 +5,6 @@
   "description": "Easily add GriefPrevention claim coordinates as Xaero's Minimap waypoints.",
   "versions": [
     {
-      "id": "EpLfHVxf",
-      "name": "v2.0.0-Fabric-1.21",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6dd0db9400678b5b110b43e2896e74015dcee026c8d1fba72f32aaf5bb5f34de224a12bcbceae2fdde9cb2e96f724ecdadcb2f892953b21d92412845c5d21fbf",
-          "url": "https://cdn.modrinth.com/data/dyuTci89/versions/EpLfHVxf/ClaimPoints-Fabric-1.21-2.0.0.jar",
-          "filename": "ClaimPoints-Fabric-1.21-2.0.0.jar",
-          "primary": true,
-          "size": 140045
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1bokaNcj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "2mTHMcRb",
       "name": "v2.0.0-NeoForge-1.21",
       "version_number": "2.0.0",
@@ -86,22 +39,26 @@
       ]
     },
     {
-      "id": "XCZNF4ep",
-      "name": "v0.1.0-NeoForge-1.20.6",
-      "version_number": "0.1.0",
+      "id": "8kXVsesa",
+      "name": "[Fabric] Claim Points 0.0.2 for XM 23.9.7 and MC 1.20-1.20.4",
+      "version_number": "0.0.2",
       "game_versions": [
-        "1.20.6"
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
-        "neoforge"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "6541bab9ab6706051cdb58d7b3c354b4b5ed1a12292abbc018d5bf4825c66b1e27b45897246bfe48563203047a6eac16546180d4a4bcfe922277c68df2f80e31",
-          "url": "https://cdn.modrinth.com/data/dyuTci89/versions/XCZNF4ep/ClaimPoints-NeoForge-1.20.6-0.1.0.jar",
-          "filename": "ClaimPoints-NeoForge-1.20.6-0.1.0.jar",
+          "sha512": "e4f3dc01a7274ee2550c60a43e27545503350eaf691227faacb80ec7506a833deae718d501f0a5854ecd76ac6a581655ce2e86fe0c68472ecd33a3ad99652ca9",
+          "url": "https://cdn.modrinth.com/data/dyuTci89/versions/8kXVsesa/ClaimPoints-Fabric-1.20.1-23.9.7-0.0.2.jar",
+          "filename": "ClaimPoints-Fabric-1.20.1-23.9.7-0.0.2.jar",
           "primary": true,
-          "size": 138461
+          "size": 136146
         }
       ],
       "dependencies": [
@@ -109,7 +66,13 @@
           "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         },
         {
           "project_id": "1bokaNcj",
@@ -161,14 +124,11 @@
       ]
     },
     {
-      "id": "LErBJ3SX",
-      "name": "[Fabric] Claim Points 0.0.2 for XM 24.0.2 and MC 1.20-1.20.4",
-      "version_number": "0.0.2",
+      "id": "EpLfHVxf",
+      "name": "v2.0.0-Fabric-1.21",
+      "version_number": "2.0.0",
       "game_versions": [
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.21"
       ],
       "loaders": [
         "fabric",
@@ -176,20 +136,14 @@
       ],
       "files": [
         {
-          "sha512": "5cf2bf3d0f1bc60251968abec4c4155086ba4f728b2e4acb12fc8ea7df021b2fd87ef86e46605950b50f6139e88edbeef187d6fd553a3db86bda4ce3d4fa553e",
-          "url": "https://cdn.modrinth.com/data/dyuTci89/versions/LErBJ3SX/ClaimPoints-Fabric-1.20.1-24.0.2-0.0.2.jar",
-          "filename": "ClaimPoints-Fabric-1.20.1-24.0.2-0.0.2.jar",
+          "sha512": "6dd0db9400678b5b110b43e2896e74015dcee026c8d1fba72f32aaf5bb5f34de224a12bcbceae2fdde9cb2e96f724ecdadcb2f892953b21d92412845c5d21fbf",
+          "url": "https://cdn.modrinth.com/data/dyuTci89/versions/EpLfHVxf/ClaimPoints-Fabric-1.21-2.0.0.jar",
+          "filename": "ClaimPoints-Fabric-1.21-2.0.0.jar",
           "primary": true,
-          "size": 136148
+          "size": 140045
         }
       ],
       "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "1bokaNcj",
           "version_id": null,
@@ -197,51 +151,19 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "8kXVsesa",
-      "name": "[Fabric] Claim Points 0.0.2 for XM 23.9.7 and MC 1.20-1.20.4",
-      "version_number": "0.0.2",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "e4f3dc01a7274ee2550c60a43e27545503350eaf691227faacb80ec7506a833deae718d501f0a5854ecd76ac6a581655ce2e86fe0c68472ecd33a3ad99652ca9",
-          "url": "https://cdn.modrinth.com/data/dyuTci89/versions/8kXVsesa/ClaimPoints-Fabric-1.20.1-23.9.7-0.0.2.jar",
-          "filename": "ClaimPoints-Fabric-1.20.1-23.9.7-0.0.2.jar",
-          "primary": true,
-          "size": 136146
-        }
-      ],
-      "dependencies": [
-        {
           "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "1bokaNcj",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -293,6 +215,50 @@
       ]
     },
     {
+      "id": "LErBJ3SX",
+      "name": "[Fabric] Claim Points 0.0.2 for XM 24.0.2 and MC 1.20-1.20.4",
+      "version_number": "0.0.2",
+      "game_versions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5cf2bf3d0f1bc60251968abec4c4155086ba4f728b2e4acb12fc8ea7df021b2fd87ef86e46605950b50f6139e88edbeef187d6fd553a3db86bda4ce3d4fa553e",
+          "url": "https://cdn.modrinth.com/data/dyuTci89/versions/LErBJ3SX/ClaimPoints-Fabric-1.20.1-24.0.2-0.0.2.jar",
+          "filename": "ClaimPoints-Fabric-1.20.1-24.0.2-0.0.2.jar",
+          "primary": true,
+          "size": 136148
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "1bokaNcj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "Wukm1mEi",
       "name": "[Fabric] Claim Points 0.0.1 for XM 23.9.7 and MC 1.20-1.20.4",
       "version_number": "0.0.1",
@@ -333,6 +299,40 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "XCZNF4ep",
+      "name": "v0.1.0-NeoForge-1.20.6",
+      "version_number": "0.1.0",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "6541bab9ab6706051cdb58d7b3c354b4b5ed1a12292abbc018d5bf4825c66b1e27b45897246bfe48563203047a6eac16546180d4a4bcfe922277c68df2f80e31",
+          "url": "https://cdn.modrinth.com/data/dyuTci89/versions/XCZNF4ep/ClaimPoints-NeoForge-1.20.6-0.1.0.jar",
+          "filename": "ClaimPoints-NeoForge-1.20.6-0.1.0.jar",
+          "primary": true,
+          "size": 138461
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "1bokaNcj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

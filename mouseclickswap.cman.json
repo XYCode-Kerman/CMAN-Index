@@ -1,9 +1,36 @@
 {
-  "id": "mouseclickswap",
+  "id": "Yq7HkYbA",
   "slug": "mouseclickswap",
   "name": "MouseClickSwap",
   "description": "A mod that inverts the mouse left and right click keybindings by pressing a button.",
   "versions": [
+    {
+      "id": "5R8dIcEi",
+      "name": "1.1",
+      "version_number": "1.1",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "431cb2081290041b50ba55d96704bcbf01231aeb4ac67e2e1f0316cc85b4baab3552b02d3059c79b642be89b54a90a1a490c5ee1559a928e0d66eab5408e0aa0",
+          "url": "https://cdn.modrinth.com/data/Yq7HkYbA/versions/1.1/MouseClickSwap-1.1.jar",
+          "filename": "MouseClickSwap-1.1.jar",
+          "primary": true,
+          "size": 13069
+        }
+      ],
+      "dependencies": []
+    },
     {
       "id": "o1iD5Whd",
       "name": "1.2.0",
@@ -34,31 +61,19 @@
           "primary": true,
           "size": 15911
         }
-      ]
-    },
-    {
-      "id": "5R8dIcEi",
-      "name": "1.1",
-      "version_number": "1.1",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2"
       ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "431cb2081290041b50ba55d96704bcbf01231aeb4ac67e2e1f0316cc85b4baab3552b02d3059c79b642be89b54a90a1a490c5ee1559a928e0d66eab5408e0aa0",
-          "url": "https://cdn.modrinth.com/data/Yq7HkYbA/versions/1.1/MouseClickSwap-1.1.jar",
-          "filename": "MouseClickSwap-1.1.jar",
-          "primary": true,
-          "size": 13069
+          "project_id": "P7dR8mSH",
+          "version_id": "5U5Y73uW",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "codAaoxh",
+          "version_id": "kJmuqGbh",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -80,7 +95,8 @@
           "primary": true,
           "size": 13064
         }
-      ]
+      ],
+      "dependencies": []
     }
   ]
 }

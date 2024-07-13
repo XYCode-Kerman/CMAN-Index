@@ -107,47 +107,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "DObEjZD4",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "h75aFmv3",
-      "name": "WeatherSync 0.3",
-      "version_number": "0.3",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "592f206f51be67b4975afe9868e6cc815ead0ce09d048c980c2833a335033125ee70fba1ebd2d601468852aa3fe045fb8d6482aa30d5e8a3438a3b18c59ef9e5",
-          "url": "https://cdn.modrinth.com/data/cRmOY2t0/versions/h75aFmv3/weathersync-0.3.jar",
-          "filename": "weathersync-0.3.jar",
-          "primary": true,
-          "size": 45637620
-        },
-        {
-          "sha512": "a7073fa3c3bdba860357750879d83d83030d9a6b6c315c72ead355b4f1ab6c278fc5b30b422b0eef641aef194b02b372e505e745626d24f6f8f5be24d21a348b",
-          "url": "https://cdn.modrinth.com/data/cRmOY2t0/versions/h75aFmv3/weathersync-0.3-sources.jar",
-          "filename": "weathersync-0.3-sources.jar",
-          "primary": false,
-          "size": 45405703
-        }
-      ],
-      "dependencies": [
-        {
           "project_id": "K01OU20C",
           "version_id": "DObEjZD4",
           "file_name": null,
@@ -185,6 +144,47 @@
           "filename": "weathersync-0.2.1-sources.jar",
           "primary": false,
           "size": 45406454
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "K01OU20C",
+          "version_id": "DObEjZD4",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "h75aFmv3",
+      "name": "WeatherSync 0.3",
+      "version_number": "0.3",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "592f206f51be67b4975afe9868e6cc815ead0ce09d048c980c2833a335033125ee70fba1ebd2d601468852aa3fe045fb8d6482aa30d5e8a3438a3b18c59ef9e5",
+          "url": "https://cdn.modrinth.com/data/cRmOY2t0/versions/h75aFmv3/weathersync-0.3.jar",
+          "filename": "weathersync-0.3.jar",
+          "primary": true,
+          "size": 45637620
+        },
+        {
+          "sha512": "a7073fa3c3bdba860357750879d83d83030d9a6b6c315c72ead355b4f1ab6c278fc5b30b422b0eef641aef194b02b372e505e745626d24f6f8f5be24d21a348b",
+          "url": "https://cdn.modrinth.com/data/cRmOY2t0/versions/h75aFmv3/weathersync-0.3-sources.jar",
+          "filename": "weathersync-0.3-sources.jar",
+          "primary": false,
+          "size": 45405703
         }
       ],
       "dependencies": [
@@ -271,16 +271,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "K01OU20C",
           "version_id": "DObEjZD4",
           "file_name": null,
           "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

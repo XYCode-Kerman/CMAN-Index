@@ -5,9 +5,9 @@
   "description": "An API for easily creating and syncing configs in b1.7.3, with optional ModMenu support.",
   "versions": [
     {
-      "id": "x3ncbEgM",
-      "name": "Glass Config API 2.0.2",
-      "version_number": "2.0.2",
+      "id": "3AACvE0Q",
+      "name": "Glass Config API 1.3.1",
+      "version_number": "1.3.1",
       "game_versions": [
         "b1.7.3"
       ],
@@ -16,32 +16,73 @@
       ],
       "files": [
         {
-          "sha512": "1b1981b830729edf9b48c71ae2d8e33f38a76926cc0234eb008add76a5e99b34cb3ae55cf7c29f26d41828e9805778ec1df69ad1941ffa099afed5a4050a19f0",
-          "url": "https://cdn.modrinth.com/data/rFeWTq4G/versions/x3ncbEgM/GlassConfigAPI-2.0.2.jar",
-          "filename": "GlassConfigAPI-2.0.2.jar",
+          "sha512": "53e486d77055ea712fe8d47c054cb643769b4c7de2b44e8b45ba777f8406ac079ade9ca44d978115191d305d939e5196b2d80c6c9fb917a075e6c15da35bb064",
+          "url": "https://cdn.modrinth.com/data/rFeWTq4G/versions/3AACvE0Q/GlassConfigAPI-1.3.1.jar",
+          "filename": "GlassConfigAPI-1.3.1.jar",
           "primary": true,
-          "size": 2866873
+          "size": 203771
         },
         {
-          "sha512": "58218339ca0e341a90ea80bafe60d971fde6d9c84d561d3386a6832cb7660244a4da75a761c9abb5ed3ca2aec0d1fdfa7bd3045c726039c4f829250d930fe9dc",
-          "url": "https://cdn.modrinth.com/data/rFeWTq4G/versions/x3ncbEgM/GlassConfigAPI-2.0.2-javadoc.jar",
-          "filename": "GlassConfigAPI-2.0.2-javadoc.jar",
+          "sha512": "24815c90d8e1b301c0e08fd3d0e616bcd37bbe934299b10f06106453d0d766b540563b3111cfc9bc7638e4fd1a0aacefdcf812e56c7108f687da3e9a6ed6cfa9",
+          "url": "https://cdn.modrinth.com/data/rFeWTq4G/versions/3AACvE0Q/GlassConfigAPI-1.3.1-javadoc.jar",
+          "filename": "GlassConfigAPI-1.3.1-javadoc.jar",
           "primary": false,
-          "size": 362290
+          "size": 318427
         }
       ],
       "dependencies": [
-        {
-          "project_id": "6v8kVRE3",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "472oW63Q",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "6v8kVRE3",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "744bVSYO",
+      "name": "Glass Config API 1.3.0",
+      "version_number": "1.3.0",
+      "game_versions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "944294dae0e3e03e66f7dd0d009c9efcdf2172d2dbc302f7c0974ae06cfbb832e4857c0c43f9b35e17547b27a0de57227c69a222d7fb1eeeee4f3a4cb57c1c25",
+          "url": "https://cdn.modrinth.com/data/rFeWTq4G/versions/744bVSYO/GlassConfigAPI-1.3.0.jar",
+          "filename": "GlassConfigAPI-1.3.0.jar",
+          "primary": true,
+          "size": 202835
+        },
+        {
+          "sha512": "87028b25a83d203b2bbdc028c0e666ca12e53b3405b3243132015da294122b5223e01dace333ce320508f854c0eddb6518fef665e3498b85e45815e932129f44",
+          "url": "https://cdn.modrinth.com/data/rFeWTq4G/versions/744bVSYO/GlassConfigAPI-1.3.0-javadoc.jar",
+          "filename": "GlassConfigAPI-1.3.0-javadoc.jar",
+          "primary": false,
+          "size": 314896
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "472oW63Q",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "6v8kVRE3",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -128,9 +169,9 @@
       ]
     },
     {
-      "id": "3AACvE0Q",
-      "name": "Glass Config API 1.3.1",
-      "version_number": "1.3.1",
+      "id": "x3ncbEgM",
+      "name": "Glass Config API 2.0.2",
+      "version_number": "2.0.2",
       "game_versions": [
         "b1.7.3"
       ],
@@ -139,73 +180,32 @@
       ],
       "files": [
         {
-          "sha512": "53e486d77055ea712fe8d47c054cb643769b4c7de2b44e8b45ba777f8406ac079ade9ca44d978115191d305d939e5196b2d80c6c9fb917a075e6c15da35bb064",
-          "url": "https://cdn.modrinth.com/data/rFeWTq4G/versions/3AACvE0Q/GlassConfigAPI-1.3.1.jar",
-          "filename": "GlassConfigAPI-1.3.1.jar",
+          "sha512": "1b1981b830729edf9b48c71ae2d8e33f38a76926cc0234eb008add76a5e99b34cb3ae55cf7c29f26d41828e9805778ec1df69ad1941ffa099afed5a4050a19f0",
+          "url": "https://cdn.modrinth.com/data/rFeWTq4G/versions/x3ncbEgM/GlassConfigAPI-2.0.2.jar",
+          "filename": "GlassConfigAPI-2.0.2.jar",
           "primary": true,
-          "size": 203771
+          "size": 2866873
         },
         {
-          "sha512": "24815c90d8e1b301c0e08fd3d0e616bcd37bbe934299b10f06106453d0d766b540563b3111cfc9bc7638e4fd1a0aacefdcf812e56c7108f687da3e9a6ed6cfa9",
-          "url": "https://cdn.modrinth.com/data/rFeWTq4G/versions/3AACvE0Q/GlassConfigAPI-1.3.1-javadoc.jar",
-          "filename": "GlassConfigAPI-1.3.1-javadoc.jar",
+          "sha512": "58218339ca0e341a90ea80bafe60d971fde6d9c84d561d3386a6832cb7660244a4da75a761c9abb5ed3ca2aec0d1fdfa7bd3045c726039c4f829250d930fe9dc",
+          "url": "https://cdn.modrinth.com/data/rFeWTq4G/versions/x3ncbEgM/GlassConfigAPI-2.0.2-javadoc.jar",
+          "filename": "GlassConfigAPI-2.0.2-javadoc.jar",
           "primary": false,
-          "size": 318427
+          "size": 362290
         }
       ],
       "dependencies": [
-        {
-          "project_id": "472oW63Q",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "6v8kVRE3",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "744bVSYO",
-      "name": "Glass Config API 1.3.0",
-      "version_number": "1.3.0",
-      "game_versions": [
-        "b1.7.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "944294dae0e3e03e66f7dd0d009c9efcdf2172d2dbc302f7c0974ae06cfbb832e4857c0c43f9b35e17547b27a0de57227c69a222d7fb1eeeee4f3a4cb57c1c25",
-          "url": "https://cdn.modrinth.com/data/rFeWTq4G/versions/744bVSYO/GlassConfigAPI-1.3.0.jar",
-          "filename": "GlassConfigAPI-1.3.0.jar",
-          "primary": true,
-          "size": 202835
         },
-        {
-          "sha512": "87028b25a83d203b2bbdc028c0e666ca12e53b3405b3243132015da294122b5223e01dace333ce320508f854c0eddb6518fef665e3498b85e45815e932129f44",
-          "url": "https://cdn.modrinth.com/data/rFeWTq4G/versions/744bVSYO/GlassConfigAPI-1.3.0-javadoc.jar",
-          "filename": "GlassConfigAPI-1.3.0-javadoc.jar",
-          "primary": false,
-          "size": 314896
-        }
-      ],
-      "dependencies": [
         {
           "project_id": "472oW63Q",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "6v8kVRE3",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     }

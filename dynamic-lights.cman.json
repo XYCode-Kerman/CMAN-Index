@@ -5,9 +5,104 @@
   "description": "Supported entities and items such as torches or lanterns emit light! Server-side only!",
   "versions": [
     {
-      "id": "eU6PA0pr",
-      "name": "[Mod] Release v1.8.3",
-      "version_number": "1.8.3+mod",
+      "id": "3ZL3x0U9",
+      "name": "[DP] Release v1.8",
+      "version_number": "1.8",
+      "game_versions": [
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "188b7a6cedb3f4e4724191639104838cce1d0b1e6e2bc03fb79023eaf370649c9dac4ececf0d269a5aa66ce0afd8b9d7cf7377631c667f68b4d67e88b0eb7e4b",
+          "url": "https://cdn.modrinth.com/data/7YjclEGc/versions/3ZL3x0U9/dynamiclights-v1.8-mc1.17x-1.20x-datapack.zip",
+          "filename": "dynamiclights-v1.8-mc1.17x-1.20x-datapack.zip",
+          "primary": true,
+          "size": 134404
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "7cT5xqe9",
+      "name": "[Mod] Release v1.7",
+      "version_number": "1.7+mod",
+      "game_versions": [
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "fe47f2faf4bc2125ce5fd2cde8c2cf166b8e9646f7a7f93772477ffa56e29dd7d0179a896d66f60a2d057051e31eca0c1b619b12650760248ce6e41c1924018c",
+          "url": "https://cdn.modrinth.com/data/7YjclEGc/versions/7cT5xqe9/dynamiclights-v1.7-mc1.17x-1.20x-mod.jar",
+          "filename": "dynamiclights-v1.7-mc1.17x-1.20x-mod.jar",
+          "primary": true,
+          "size": 101220
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "codAaoxh",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "eUw8l2Vi",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "Ely3MqGM",
+      "name": "[Mod] Release v1.8.2",
+      "version_number": "1.8.2+mod",
       "game_versions": [
         "1.17",
         "1.17.1",
@@ -25,8 +120,7 @@
         "1.20.3",
         "1.20.4",
         "1.20.5",
-        "1.20.6",
-        "1.21"
+        "1.20.6"
       ],
       "loaders": [
         "fabric",
@@ -35,11 +129,140 @@
       ],
       "files": [
         {
-          "sha512": "7f36f55e6d77407d42bf1d6c426db8ba83f7a0bbdb134f7928b4c426533b5a81a33c9dd7266e1d60e5c263ea8406eac6b03db13cdbdb8091eab48c752de06280",
-          "url": "https://cdn.modrinth.com/data/7YjclEGc/versions/eU6PA0pr/dynamiclights-v1.8.3-mc1.17x-1.21x-mod.jar",
-          "filename": "dynamiclights-v1.8.3-mc1.17x-1.21x-mod.jar",
+          "sha512": "ef209fde031f8489e07486e4efc2bf6134c03ec3059138d3d00022b1704362c3a29ba7d6ba6790fab10dfb242146303496217ad68fc75e11729759faefff4495",
+          "url": "https://cdn.modrinth.com/data/7YjclEGc/versions/Ely3MqGM/dynamiclights-v1.8.2-mc1.17x-1.20x-mod.jar",
+          "filename": "dynamiclights-v1.8.2-mc1.17x-1.20x-mod.jar",
           "primary": true,
-          "size": 341992
+          "size": 212493
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "eUw8l2Vi",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "Hgo9cclp",
+      "name": "[DP] Release v1.8.2",
+      "version_number": "1.8.2",
+      "game_versions": [
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "d0667d291b2c67d3ec0d145090c1b3f6fee775a972952526f8ef895e156ab0ff0d61535af2520b0b6bb8b37cef54c0f29eed69130e3bbfb57664b12f6674f522",
+          "url": "https://cdn.modrinth.com/data/7YjclEGc/versions/Hgo9cclp/dynamiclights-v1.8.2-mc1.17x-1.20x-datapack.zip",
+          "filename": "dynamiclights-v1.8.2-mc1.17x-1.20x-datapack.zip",
+          "primary": true,
+          "size": 194741
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "XAwQ16nH",
+      "name": "Release v1.5",
+      "version_number": "1.5",
+      "game_versions": [
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "8e8acccf3b71b2005b5c015d2c5ca1a00b10102f05b4d88b17efde67041cc83b693b217f3e8818e9b9d25840a5fc341745c4fa4085c69e2bd047ec6f74cb113e",
+          "url": "https://cdn.modrinth.com/data/7YjclEGc/versions/XAwQ16nH/dynamiclights-v1.5-mc1.19-datapack.zip",
+          "filename": "dynamiclights-v1.5-mc1.19-datapack.zip",
+          "primary": true,
+          "size": 29128
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Y1UP7YoY",
+      "name": "[Mod] Release v1.7.1",
+      "version_number": "1.7.1+mod",
+      "game_versions": [
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "89c400f11290f645345a8896f3ffbfcfcc08fc90295a6ac583fe3de6a503b93029a932859e1665bc282786fcfcc77c6920050dd96df1ab1b204631af4c97ba0d",
+          "url": "https://cdn.modrinth.com/data/7YjclEGc/versions/Y1UP7YoY/dynamiclights-v1.7.1-mc1.17x-1.20x-mod.jar",
+          "filename": "dynamiclights-v1.7.1-mc1.17x-1.20x-mod.jar",
+          "primary": true,
+          "size": 103814
         }
       ],
       "dependencies": [
@@ -108,107 +331,6 @@
       "dependencies": []
     },
     {
-      "id": "Ely3MqGM",
-      "name": "[Mod] Release v1.8.2",
-      "version_number": "1.8.2+mod",
-      "game_versions": [
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4",
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ef209fde031f8489e07486e4efc2bf6134c03ec3059138d3d00022b1704362c3a29ba7d6ba6790fab10dfb242146303496217ad68fc75e11729759faefff4495",
-          "url": "https://cdn.modrinth.com/data/7YjclEGc/versions/Ely3MqGM/dynamiclights-v1.8.2-mc1.17x-1.20x-mod.jar",
-          "filename": "dynamiclights-v1.8.2-mc1.17x-1.20x-mod.jar",
-          "primary": true,
-          "size": 212493
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "codAaoxh",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "eUw8l2Vi",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "Hgo9cclp",
-      "name": "[DP] Release v1.8.2",
-      "version_number": "1.8.2",
-      "game_versions": [
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4",
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "d0667d291b2c67d3ec0d145090c1b3f6fee775a972952526f8ef895e156ab0ff0d61535af2520b0b6bb8b37cef54c0f29eed69130e3bbfb57664b12f6674f522",
-          "url": "https://cdn.modrinth.com/data/7YjclEGc/versions/Hgo9cclp/dynamiclights-v1.8.2-mc1.17x-1.20x-datapack.zip",
-          "filename": "dynamiclights-v1.8.2-mc1.17x-1.20x-datapack.zip",
-          "primary": true,
-          "size": 194741
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "bYYMl4xu",
       "name": "[Mod] Release v1.8",
       "version_number": "1.8+mod",
@@ -271,9 +393,9 @@
       ]
     },
     {
-      "id": "3ZL3x0U9",
-      "name": "[DP] Release v1.8",
-      "version_number": "1.8",
+      "id": "bs4XEbDA",
+      "name": "Release v1.4",
+      "version_number": "1.4",
       "game_versions": [
         "1.17",
         "1.17.1",
@@ -283,32 +405,26 @@
         "1.19",
         "1.19.1",
         "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.19.3"
       ],
       "loaders": [
         "datapack"
       ],
       "files": [
         {
-          "sha512": "188b7a6cedb3f4e4724191639104838cce1d0b1e6e2bc03fb79023eaf370649c9dac4ececf0d269a5aa66ce0afd8b9d7cf7377631c667f68b4d67e88b0eb7e4b",
-          "url": "https://cdn.modrinth.com/data/7YjclEGc/versions/3ZL3x0U9/dynamiclights-v1.8-mc1.17x-1.20x-datapack.zip",
-          "filename": "dynamiclights-v1.8-mc1.17x-1.20x-datapack.zip",
+          "sha512": "0306f70cc375721e387ef06e751ac011fb88583e1b15bc0aab9ca6ca5c1ca984a31f78edea975182d344c89e2267e6bf52d1fe697268e5fe7dd28159d0bdb8a6",
+          "url": "https://cdn.modrinth.com/data/7YjclEGc/versions/bs4XEbDA/dynamiclights-v1.4-mc1.19-datapack.zip",
+          "filename": "dynamiclights-v1.4-mc1.19-datapack.zip",
           "primary": true,
-          "size": 134404
+          "size": 23688
         }
       ],
       "dependencies": []
     },
     {
-      "id": "Y1UP7YoY",
-      "name": "[Mod] Release v1.7.1",
-      "version_number": "1.7.1+mod",
+      "id": "eU6PA0pr",
+      "name": "[Mod] Release v1.8.3",
+      "version_number": "1.8.3+mod",
       "game_versions": [
         "1.17",
         "1.17.1",
@@ -324,7 +440,10 @@
         "1.20.1",
         "1.20.2",
         "1.20.3",
-        "1.20.4"
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21"
       ],
       "loaders": [
         "fabric",
@@ -333,106 +452,11 @@
       ],
       "files": [
         {
-          "sha512": "89c400f11290f645345a8896f3ffbfcfcc08fc90295a6ac583fe3de6a503b93029a932859e1665bc282786fcfcc77c6920050dd96df1ab1b204631af4c97ba0d",
-          "url": "https://cdn.modrinth.com/data/7YjclEGc/versions/Y1UP7YoY/dynamiclights-v1.7.1-mc1.17x-1.20x-mod.jar",
-          "filename": "dynamiclights-v1.7.1-mc1.17x-1.20x-mod.jar",
+          "sha512": "7f36f55e6d77407d42bf1d6c426db8ba83f7a0bbdb134f7928b4c426533b5a81a33c9dd7266e1d60e5c263ea8406eac6b03db13cdbdb8091eab48c752de06280",
+          "url": "https://cdn.modrinth.com/data/7YjclEGc/versions/eU6PA0pr/dynamiclights-v1.8.3-mc1.17x-1.21x-mod.jar",
+          "filename": "dynamiclights-v1.8.3-mc1.17x-1.21x-mod.jar",
           "primary": true,
-          "size": 103814
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "codAaoxh",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "eUw8l2Vi",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "s9Y3IyM9",
-      "name": "[DP] Release v1.7.1",
-      "version_number": "1.7.1",
-      "game_versions": [
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "b1659a1506af9aa544c498cce6ae0ddc35763e84c8807d9db27544dca6a0d1d4c21312734ca295140a8392a10d418f5358a840ae8ec182618c414d6b9f066ef3",
-          "url": "https://cdn.modrinth.com/data/7YjclEGc/versions/s9Y3IyM9/dynamiclights-v1.7.1-mc1.17x-1.20x-datapack.zip",
-          "filename": "dynamiclights-v1.7.1-mc1.17x-1.20x-datapack.zip",
-          "primary": true,
-          "size": 86188
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "7cT5xqe9",
-      "name": "[Mod] Release v1.7",
-      "version_number": "1.7+mod",
-      "game_versions": [
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "fe47f2faf4bc2125ce5fd2cde8c2cf166b8e9646f7a7f93772477ffa56e29dd7d0179a896d66f60a2d057051e31eca0c1b619b12650760248ce6e41c1924018c",
-          "url": "https://cdn.modrinth.com/data/7YjclEGc/versions/7cT5xqe9/dynamiclights-v1.7-mc1.17x-1.20x-mod.jar",
-          "filename": "dynamiclights-v1.7-mc1.17x-1.20x-mod.jar",
-          "primary": true,
-          "size": 101220
+          "size": 341992
         }
       ],
       "dependencies": [
@@ -496,6 +520,41 @@
       "dependencies": []
     },
     {
+      "id": "s9Y3IyM9",
+      "name": "[DP] Release v1.7.1",
+      "version_number": "1.7.1",
+      "game_versions": [
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "b1659a1506af9aa544c498cce6ae0ddc35763e84c8807d9db27544dca6a0d1d4c21312734ca295140a8392a10d418f5358a840ae8ec182618c414d6b9f066ef3",
+          "url": "https://cdn.modrinth.com/data/7YjclEGc/versions/s9Y3IyM9/dynamiclights-v1.7.1-mc1.17x-1.20x-datapack.zip",
+          "filename": "dynamiclights-v1.7.1-mc1.17x-1.20x-datapack.zip",
+          "primary": true,
+          "size": 86188
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "y03u5y3S",
       "name": "Release v1.6",
       "version_number": "1.6",
@@ -523,65 +582,6 @@
           "filename": "dynamiclights-v1.6-mc1.17x-1.20x-datapack.zip",
           "primary": true,
           "size": 81664
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "XAwQ16nH",
-      "name": "Release v1.5",
-      "version_number": "1.5",
-      "game_versions": [
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "8e8acccf3b71b2005b5c015d2c5ca1a00b10102f05b4d88b17efde67041cc83b693b217f3e8818e9b9d25840a5fc341745c4fa4085c69e2bd047ec6f74cb113e",
-          "url": "https://cdn.modrinth.com/data/7YjclEGc/versions/XAwQ16nH/dynamiclights-v1.5-mc1.19-datapack.zip",
-          "filename": "dynamiclights-v1.5-mc1.19-datapack.zip",
-          "primary": true,
-          "size": 29128
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "bs4XEbDA",
-      "name": "Release v1.4",
-      "version_number": "1.4",
-      "game_versions": [
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "0306f70cc375721e387ef06e751ac011fb88583e1b15bc0aab9ca6ca5c1ca984a31f78edea975182d344c89e2267e6bf52d1fe697268e5fe7dd28159d0bdb8a6",
-          "url": "https://cdn.modrinth.com/data/7YjclEGc/versions/bs4XEbDA/dynamiclights-v1.4-mc1.19-datapack.zip",
-          "filename": "dynamiclights-v1.4-mc1.19-datapack.zip",
-          "primary": true,
-          "size": 23688
         }
       ],
       "dependencies": []

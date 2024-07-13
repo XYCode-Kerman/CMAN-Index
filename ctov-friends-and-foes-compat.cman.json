@@ -5,6 +5,45 @@
   "description": "Compatibility add-on for Friends and Foes mod and CTOV",
   "versions": [
     {
+      "id": "AzkfLDLD",
+      "name": "1.1",
+      "version_number": "1.1+mod",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "9ee635bc773ab351a3cf43ee9a01b39bcdf31f6efe5c1583ec9563a620567593a741cecfe6025641d9cacf8c65b0c5ef8dbf784330d0d7e1fb2aed061216e5aa",
+          "url": "https://cdn.modrinth.com/data/kawJN2LZ/versions/AzkfLDLD/choicetheorems-overhauled-village-friends-and-foes-add-on-1.1.jar",
+          "filename": "choicetheorems-overhauled-village-friends-and-foes-add-on-1.1.jar",
+          "primary": true,
+          "size": 65113
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "POQ2i9zu",
+          "version_id": "tNDGSs7W",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "fgmhI8kH",
+          "version_id": "tnyL873R",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "BbKorFuj",
       "name": "2.0",
       "version_number": "2.0+mod",
@@ -63,13 +102,13 @@
       ],
       "dependencies": [
         {
-          "project_id": "POQ2i9zu",
+          "project_id": "fgmhI8kH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "fgmhI8kH",
+          "project_id": "POQ2i9zu",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -77,48 +116,9 @@
       ]
     },
     {
-      "id": "AzkfLDLD",
-      "name": "1.1",
-      "version_number": "1.1+mod",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "9ee635bc773ab351a3cf43ee9a01b39bcdf31f6efe5c1583ec9563a620567593a741cecfe6025641d9cacf8c65b0c5ef8dbf784330d0d7e1fb2aed061216e5aa",
-          "url": "https://cdn.modrinth.com/data/kawJN2LZ/versions/AzkfLDLD/choicetheorems-overhauled-village-friends-and-foes-add-on-1.1.jar",
-          "filename": "choicetheorems-overhauled-village-friends-and-foes-add-on-1.1.jar",
-          "primary": true,
-          "size": 65113
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "fgmhI8kH",
-          "version_id": "tnyL873R",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "POQ2i9zu",
-          "version_id": "tNDGSs7W",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ioEvc8sn",
-      "name": "1.1",
-      "version_number": "1.1",
+      "id": "fz47u32S",
+      "name": "1.0",
+      "version_number": "1.0",
       "game_versions": [
         "1.19",
         "1.19.1",
@@ -130,11 +130,11 @@
       ],
       "files": [
         {
-          "sha512": "b3e4164955df343f54932a5c4ae79e2eb085a1fc6843a41fa977b7a1656dcad663cc75b009281c0858ef44d6b177e9fa93da9ade63c5c3a3ab6927d536811f05",
-          "url": "https://cdn.modrinth.com/data/kawJN2LZ/versions/ioEvc8sn/ctov-friends-and-foes-add-on.zip",
-          "filename": "ctov-friends-and-foes-add-on.zip",
+          "sha512": "d00a65226f9a172f088e9747ed81c2e93aa8b3d05ee45c965d9e2f23002b763b8153a4b3f83314eef39703113a1616a0c68c91b89aa4921ceef0dfe70c866ab8",
+          "url": "https://cdn.modrinth.com/data/kawJN2LZ/versions/fz47u32S/ctov-friends-and-foes-add-on-v1-0.zip",
+          "filename": "ctov-friends-and-foes-add-on-v1-0.zip",
           "primary": true,
-          "size": 60583
+          "size": 60577
         }
       ],
       "dependencies": [
@@ -192,9 +192,9 @@
       ]
     },
     {
-      "id": "fz47u32S",
-      "name": "1.0",
-      "version_number": "1.0",
+      "id": "ioEvc8sn",
+      "name": "1.1",
+      "version_number": "1.1",
       "game_versions": [
         "1.19",
         "1.19.1",
@@ -206,23 +206,23 @@
       ],
       "files": [
         {
-          "sha512": "d00a65226f9a172f088e9747ed81c2e93aa8b3d05ee45c965d9e2f23002b763b8153a4b3f83314eef39703113a1616a0c68c91b89aa4921ceef0dfe70c866ab8",
-          "url": "https://cdn.modrinth.com/data/kawJN2LZ/versions/fz47u32S/ctov-friends-and-foes-add-on-v1-0.zip",
-          "filename": "ctov-friends-and-foes-add-on-v1-0.zip",
+          "sha512": "b3e4164955df343f54932a5c4ae79e2eb085a1fc6843a41fa977b7a1656dcad663cc75b009281c0858ef44d6b177e9fa93da9ade63c5c3a3ab6927d536811f05",
+          "url": "https://cdn.modrinth.com/data/kawJN2LZ/versions/ioEvc8sn/ctov-friends-and-foes-add-on.zip",
+          "filename": "ctov-friends-and-foes-add-on.zip",
           "primary": true,
-          "size": 60577
+          "size": 60583
         }
       ],
       "dependencies": [
         {
-          "project_id": "fgmhI8kH",
-          "version_id": "qC5GfpM0",
+          "project_id": "POQ2i9zu",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "POQ2i9zu",
-          "version_id": null,
+          "project_id": "fgmhI8kH",
+          "version_id": "qC5GfpM0",
           "file_name": null,
           "dependency_type": "required"
         }

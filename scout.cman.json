@@ -5,41 +5,6 @@
   "description": "Extending the inventory \"physically\" (adding slots) through various bags.",
   "versions": [
     {
-      "id": "JqrnY7yM",
-      "name": "[1.20.1] 2.0.4",
-      "version_number": "2.0.4+1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d15341807e35b5c09f70e443b1d0a3e7b68b4e9e26227aacd31ce1e215142569f0c7d6c6cd5adf72b24960976d786a330643d878312f71a5ff7daf514744be03",
-          "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/JqrnY7yM/Scout-2.0.4%2B1.20.1.jar",
-          "filename": "Scout-2.0.4+1.20.1.jar",
-          "primary": true,
-          "size": 169248
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5aaWibi9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "fRiHVvU7",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "1E4pZSDE",
       "name": "[1.20.1] 2.0.3",
       "version_number": "2.0.3+1.20.1",
@@ -110,11 +75,13 @@
       ]
     },
     {
-      "id": "G7Cdj0aw",
-      "name": "[1.20.1] 2.0.1",
-      "version_number": "2.0.1+1.20.1",
+      "id": "4Wdm98Cw",
+      "name": "[1.19] 1.1.1",
+      "version_number": "1.19-1.1.1",
       "game_versions": [
-        "1.20.1"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
         "fabric",
@@ -122,25 +89,53 @@
       ],
       "files": [
         {
-          "sha512": "20d06577451387be8621dac5a678ef618c61522bc47b606ba08402b076026371f223291d075077d9fc387d30807b469ac119ab3c372debc4268a1908b083b31e",
-          "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/G7Cdj0aw/Scout-2.0.1%2B1.20.1.jar",
-          "filename": "Scout-2.0.1+1.20.1.jar",
+          "sha512": "2686ffe76c245ce6ed3b805facc19ac2bbe715623bcadd0ac92c89046e328fd50ba9fb21cec52178d4b5be8e8e9803bc3973c028b0d38f60f0fc7eb5a3cf7c1d",
+          "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/4Wdm98Cw/scout-1.19-1.1.1.jar",
+          "filename": "scout-1.19-1.1.1.jar",
           "primary": true,
-          "size": 161265
+          "size": 263867
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "8PYq4fln",
+      "name": "[1.18.2] 1.0.0",
+      "version_number": "1.18.2-1.0.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "9bee4746c4df9c89d83e48cc0a0c583a494d56d9f05279e604ce0114868d66e0eabb76c98cd191951c008e7c23511d3576b3990f057eb6397beea4d324bfcbda",
+          "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/1.18.2-1.0.0/scout-1.18.2-1.0.0.jar",
+          "filename": "scout-1.18.2-1.0.0.jar",
+          "primary": true,
+          "size": 259564
         }
       ],
       "dependencies": [
         {
-          "project_id": "fRiHVvU7",
-          "version_id": null,
+          "project_id": "nfn13YXA",
+          "version_id": "EE3mVtfF",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
           "project_id": "5aaWibi9",
-          "version_id": null,
+          "version_id": "XqLNMi9J",
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "fRiHVvU7",
+          "version_id": "YXPSJa6e",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -180,6 +175,139 @@
       ]
     },
     {
+      "id": "G7Cdj0aw",
+      "name": "[1.20.1] 2.0.1",
+      "version_number": "2.0.1+1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "20d06577451387be8621dac5a678ef618c61522bc47b606ba08402b076026371f223291d075077d9fc387d30807b469ac119ab3c372debc4268a1908b083b31e",
+          "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/G7Cdj0aw/Scout-2.0.1%2B1.20.1.jar",
+          "filename": "Scout-2.0.1+1.20.1.jar",
+          "primary": true,
+          "size": 161265
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "fRiHVvU7",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "5aaWibi9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "J4SCtXMe",
+      "name": "[1.18.2] 1.1.0",
+      "version_number": "1.18.2-1.1.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c577f99596b16d10a84f457c96626ab19f85e569e7af12bf43ca1cd46dfb4e6cd63043a39a324ecf9d3a9e0281127477b81ebdedc3a7c1269b6edc3f19ce3f9e",
+          "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/1.18.2-1.1.0/scout-1.18.2-1.1.0.jar",
+          "filename": "scout-1.18.2-1.1.0.jar",
+          "primary": true,
+          "size": 266476
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "JqrnY7yM",
+      "name": "[1.20.1] 2.0.4",
+      "version_number": "2.0.4+1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d15341807e35b5c09f70e443b1d0a3e7b68b4e9e26227aacd31ce1e215142569f0c7d6c6cd5adf72b24960976d786a330643d878312f71a5ff7daf514744be03",
+          "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/JqrnY7yM/Scout-2.0.4%2B1.20.1.jar",
+          "filename": "Scout-2.0.4+1.20.1.jar",
+          "primary": true,
+          "size": 169248
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5aaWibi9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "fRiHVvU7",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "Q9nDdW6O",
+      "name": "[1.18.2] 1.0.1",
+      "version_number": "1.18.2-1.0.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4e74b0c462db52015e447d86b03f397845c4b4f2a9cdec3ed678b5630a143eeb6a8daf003a4283d37edaa06748ba852fa91afed40ae3557f4a7a733bcb59000a",
+          "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/1.18.2-1.0.1/scout-1.18.2-1.0.1.jar",
+          "filename": "scout-1.18.2-1.0.1.jar",
+          "primary": true,
+          "size": 264611
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "nfn13YXA",
+          "version_id": "EE3mVtfF",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "fRiHVvU7",
+          "version_id": "Selw0HYX",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "5aaWibi9",
+          "version_id": "XqLNMi9J",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "R5hx8Wux",
       "name": "[1.19.3] 1.1.2",
       "version_number": "1.19.3-1.1.2",
@@ -207,25 +335,25 @@
           "dependency_type": "embedded"
         },
         {
-          "project_id": "nfn13YXA",
-          "version_id": "yIiTbsbw",
+          "project_id": "fRiHVvU7",
+          "version_id": "DoKtwgI7",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
-          "project_id": "fRiHVvU7",
-          "version_id": "DoKtwgI7",
+          "project_id": "nfn13YXA",
+          "version_id": "yIiTbsbw",
           "file_name": null,
           "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "pU8oyH0U",
-      "name": "[1.19.2] 1.1.2",
-      "version_number": "1.1.2",
+      "id": "TxcWXMKa",
+      "name": "[1.19] 1.0.1",
+      "version_number": "1.19-1.0.1",
       "game_versions": [
-        "1.19.2"
+        "1.19"
       ],
       "loaders": [
         "fabric",
@@ -233,42 +361,40 @@
       ],
       "files": [
         {
-          "sha512": "097d64559b84421a7f9da333c3b2b77c62f5bbe9a85b1e7fe76d1d05ece01a7d2565407d6fd15f814e8813facf8662e6135a72d7657c433055faf2e44f3318b3",
-          "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/pU8oyH0U/scout-1.19.2-1.1.2.jar",
-          "filename": "scout-1.19.2-1.1.2.jar",
+          "sha512": "1433d5eace7f8c1127052f247735a7710ce3f2a35506d5d57b437e394649134ba45ffbdb7d0a6a6c7a4bcea99fba440e8e77e340ebe5babcc1c4fbfea1a4a9d8",
+          "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/1.19-1.0.1/scout-1.19-1.0.1.jar",
+          "filename": "scout-1.19-1.0.1.jar",
           "primary": true,
-          "size": 265206
+          "size": 261658
         }
       ],
       "dependencies": [
-        {
-          "project_id": "5aaWibi9",
-          "version_id": "OLwsMJv4",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "fRiHVvU7",
-          "version_id": "ciMqRO3M",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "nfn13YXA",
           "version_id": "9XLruNzC",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "fRiHVvU7",
+          "version_id": "A8yQEzfW",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "5aaWibi9",
+          "version_id": "oLUBJhyv",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "4Wdm98Cw",
-      "name": "[1.19] 1.1.1",
-      "version_number": "1.19-1.1.1",
+      "id": "VMTSV6dV",
+      "name": "[1.19] 1.0.0",
+      "version_number": "1.19-1.0.0",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
+        "1.19"
       ],
       "loaders": [
         "fabric",
@@ -276,14 +402,33 @@
       ],
       "files": [
         {
-          "sha512": "2686ffe76c245ce6ed3b805facc19ac2bbe715623bcadd0ac92c89046e328fd50ba9fb21cec52178d4b5be8e8e9803bc3973c028b0d38f60f0fc7eb5a3cf7c1d",
-          "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/4Wdm98Cw/scout-1.19-1.1.1.jar",
-          "filename": "scout-1.19-1.1.1.jar",
+          "sha512": "d53fc85c575a362897823bf98c32c825c025283e0552be9abde035ff53f8cb1dd8c321c76e603f8598cb941006c3e03e01a70c24ab9ee883ac1e0c4de1d19863",
+          "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/1.19-1.0.0/scout-1.19-1.0.0.jar",
+          "filename": "scout-1.19-1.0.0.jar",
           "primary": true,
-          "size": 263867
+          "size": 256920
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "nfn13YXA",
+          "version_id": "9XLruNzC",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "fRiHVvU7",
+          "version_id": "QMDzRsgo",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "5aaWibi9",
+          "version_id": "oLUBJhyv",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "VQlQpDEE",
@@ -332,11 +477,11 @@
       "dependencies": []
     },
     {
-      "id": "J4SCtXMe",
-      "name": "[1.18.2] 1.1.0",
-      "version_number": "1.18.2-1.1.0",
+      "id": "pU8oyH0U",
+      "name": "[1.19.2] 1.1.2",
+      "version_number": "1.1.2",
       "game_versions": [
-        "1.18.2"
+        "1.19.2"
       ],
       "loaders": [
         "fabric",
@@ -344,124 +489,14 @@
       ],
       "files": [
         {
-          "sha512": "c577f99596b16d10a84f457c96626ab19f85e569e7af12bf43ca1cd46dfb4e6cd63043a39a324ecf9d3a9e0281127477b81ebdedc3a7c1269b6edc3f19ce3f9e",
-          "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/1.18.2-1.1.0/scout-1.18.2-1.1.0.jar",
-          "filename": "scout-1.18.2-1.1.0.jar",
+          "sha512": "097d64559b84421a7f9da333c3b2b77c62f5bbe9a85b1e7fe76d1d05ece01a7d2565407d6fd15f814e8813facf8662e6135a72d7657c433055faf2e44f3318b3",
+          "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/pU8oyH0U/scout-1.19.2-1.1.2.jar",
+          "filename": "scout-1.19.2-1.1.2.jar",
           "primary": true,
-          "size": 266476
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Q9nDdW6O",
-      "name": "[1.18.2] 1.0.1",
-      "version_number": "1.18.2-1.0.1",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4e74b0c462db52015e447d86b03f397845c4b4f2a9cdec3ed678b5630a143eeb6a8daf003a4283d37edaa06748ba852fa91afed40ae3557f4a7a733bcb59000a",
-          "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/1.18.2-1.0.1/scout-1.18.2-1.0.1.jar",
-          "filename": "scout-1.18.2-1.0.1.jar",
-          "primary": true,
-          "size": 264611
+          "size": 265206
         }
       ],
       "dependencies": [
-        {
-          "project_id": "5aaWibi9",
-          "version_id": "XqLNMi9J",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "nfn13YXA",
-          "version_id": "EE3mVtfF",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "fRiHVvU7",
-          "version_id": "Selw0HYX",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "TxcWXMKa",
-      "name": "[1.19] 1.0.1",
-      "version_number": "1.19-1.0.1",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "1433d5eace7f8c1127052f247735a7710ce3f2a35506d5d57b437e394649134ba45ffbdb7d0a6a6c7a4bcea99fba440e8e77e340ebe5babcc1c4fbfea1a4a9d8",
-          "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/1.19-1.0.1/scout-1.19-1.0.1.jar",
-          "filename": "scout-1.19-1.0.1.jar",
-          "primary": true,
-          "size": 261658
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5aaWibi9",
-          "version_id": "oLUBJhyv",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "nfn13YXA",
-          "version_id": "9XLruNzC",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "fRiHVvU7",
-          "version_id": "A8yQEzfW",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "VMTSV6dV",
-      "name": "[1.19] 1.0.0",
-      "version_number": "1.19-1.0.0",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d53fc85c575a362897823bf98c32c825c025283e0552be9abde035ff53f8cb1dd8c321c76e603f8598cb941006c3e03e01a70c24ab9ee883ac1e0c4de1d19863",
-          "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/1.19-1.0.0/scout-1.19-1.0.0.jar",
-          "filename": "scout-1.19-1.0.0.jar",
-          "primary": true,
-          "size": 256920
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "fRiHVvU7",
-          "version_id": "QMDzRsgo",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "nfn13YXA",
           "version_id": "9XLruNzC",
@@ -470,48 +505,13 @@
         },
         {
           "project_id": "5aaWibi9",
-          "version_id": "oLUBJhyv",
+          "version_id": "OLwsMJv4",
           "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "8PYq4fln",
-      "name": "[1.18.2] 1.0.0",
-      "version_number": "1.18.2-1.0.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "9bee4746c4df9c89d83e48cc0a0c583a494d56d9f05279e604ce0114868d66e0eabb76c98cd191951c008e7c23511d3576b3990f057eb6397beea4d324bfcbda",
-          "url": "https://cdn.modrinth.com/data/QRYqnI15/versions/1.18.2-1.0.0/scout-1.18.2-1.0.0.jar",
-          "filename": "scout-1.18.2-1.0.0.jar",
-          "primary": true,
-          "size": 259564
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5aaWibi9",
-          "version_id": "XqLNMi9J",
-          "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "embedded"
         },
         {
           "project_id": "fRiHVvU7",
-          "version_id": "YXPSJa6e",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "nfn13YXA",
-          "version_id": "EE3mVtfF",
+          "version_id": "ciMqRO3M",
           "file_name": null,
           "dependency_type": "optional"
         }

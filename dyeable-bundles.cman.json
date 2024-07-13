@@ -5,39 +5,32 @@
   "description": "Colorcode your bundles like shulkerboxes!",
   "versions": [
     {
-      "id": "XD0ILX5M",
-      "name": "Mod 1.21 (v.48.1)",
-      "version_number": "48.1.34.1+mod",
+      "id": "2T4PIQ2X",
+      "name": "Datapack 1.20.5 (v.41.1) + RP 1.20.5 (v32.1)",
+      "version_number": "41.1.32.1",
       "game_versions": [
-        "1.21"
+        "1.20.5"
       ],
       "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
+        "datapack"
       ],
       "files": [
         {
-          "sha512": "95aab938066a14579a558503244ba894e62bfea50ad8f48e4ac614dc5618b1f33a3a4c54d720c35dd5b99968aec76ac0f4003868153ce1f8751f49e73361ef12",
-          "url": "https://cdn.modrinth.com/data/X2LKuIq6/versions/XD0ILX5M/dyeable-bundles-48.1.34.1.jar",
-          "filename": "dyeable-bundles-48.1.34.1.jar",
-          "primary": true,
-          "size": 81567
+          "sha512": "a55bcbdaf9fe77f7a6b5c05aca1ab80c718718e7fde6f8e620156d6894874e19a5fcc03f72350f875e71b89457d83c99fc5e8b79599c3c661b0e506d96b29d43",
+          "url": "https://cdn.modrinth.com/data/X2LKuIq6/versions/2T4PIQ2X/%5BDP%5D%20Colored%20Bundles%201.20.5%20%28v.41.1%29.zip",
+          "filename": "[DP] Colored Bundles 1.20.5 (v.41.1).zip",
+          "primary": false,
+          "size": 18194
+        },
+        {
+          "sha512": "51fd3dc8d6552fea7975532f1ae0c6883473ad13858ff91d066c7117dadf77fc1fb5a20086eb473e389f2a0bf7049b33ed422f6c79c6121be72feb790e572638",
+          "url": "https://cdn.modrinth.com/data/X2LKuIq6/versions/2T4PIQ2X/%5BRP%5D%20Colored%20Bundles%201.20.5%20%28v.32.1%29.zip",
+          "filename": "[RP] Colored Bundles 1.20.5 (v.32.1).zip",
+          "primary": false,
+          "size": 42386
         }
       ],
       "dependencies": [
-        {
-          "project_id": "6BricqUj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "rGdirrbP",
           "version_id": null,
@@ -74,16 +67,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "rGdirrbP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "6BricqUj",
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
+        },
+        {
+          "project_id": "rGdirrbP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -131,48 +124,6 @@
       ]
     },
     {
-      "id": "v6LolkLV",
-      "name": "Datapack 1.20.5+6 (v.41.1) + RP 1.20.5+6 (v32.2)",
-      "version_number": "41.1.32.2",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "a55bcbdaf9fe77f7a6b5c05aca1ab80c718718e7fde6f8e620156d6894874e19a5fcc03f72350f875e71b89457d83c99fc5e8b79599c3c661b0e506d96b29d43",
-          "url": "https://cdn.modrinth.com/data/X2LKuIq6/versions/v6LolkLV/%5BDP%5D%20Colored%20Bundles%201.20.5%20%28v.41.1%29.zip",
-          "filename": "[DP] Colored Bundles 1.20.5 (v.41.1).zip",
-          "primary": true,
-          "size": 18194
-        },
-        {
-          "sha512": "2dc62393f524fb9ade913273b922312fe8dc8cd416cdd24bc3c541b7446a51918a73aaa5ca0e5706dfdce1aca790c46d0db8b6317fdceafeb406377bbf5b6de1",
-          "url": "https://cdn.modrinth.com/data/X2LKuIq6/versions/v6LolkLV/%5BRP%5D%20Colored%20Bundles%201.20.5%20%28v.32.2%29.zip",
-          "filename": "[RP] Colored Bundles 1.20.5 (v.32.2).zip",
-          "primary": false,
-          "size": 44741
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "rGdirrbP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "6BricqUj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
       "id": "LzrSqEPN",
       "name": "Mod 1.20.5 (v.41.1)",
       "version_number": "41.1.32.1+mod",
@@ -209,37 +160,44 @@
       ]
     },
     {
-      "id": "2T4PIQ2X",
-      "name": "Datapack 1.20.5 (v.41.1) + RP 1.20.5 (v32.1)",
-      "version_number": "41.1.32.1",
+      "id": "XD0ILX5M",
+      "name": "Mod 1.21 (v.48.1)",
+      "version_number": "48.1.34.1+mod",
       "game_versions": [
-        "1.20.5"
+        "1.21"
       ],
       "loaders": [
-        "datapack"
+        "fabric",
+        "forge",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "a55bcbdaf9fe77f7a6b5c05aca1ab80c718718e7fde6f8e620156d6894874e19a5fcc03f72350f875e71b89457d83c99fc5e8b79599c3c661b0e506d96b29d43",
-          "url": "https://cdn.modrinth.com/data/X2LKuIq6/versions/2T4PIQ2X/%5BDP%5D%20Colored%20Bundles%201.20.5%20%28v.41.1%29.zip",
-          "filename": "[DP] Colored Bundles 1.20.5 (v.41.1).zip",
-          "primary": false,
-          "size": 18194
-        },
-        {
-          "sha512": "51fd3dc8d6552fea7975532f1ae0c6883473ad13858ff91d066c7117dadf77fc1fb5a20086eb473e389f2a0bf7049b33ed422f6c79c6121be72feb790e572638",
-          "url": "https://cdn.modrinth.com/data/X2LKuIq6/versions/2T4PIQ2X/%5BRP%5D%20Colored%20Bundles%201.20.5%20%28v.32.1%29.zip",
-          "filename": "[RP] Colored Bundles 1.20.5 (v.32.1).zip",
-          "primary": false,
-          "size": 42386
+          "sha512": "95aab938066a14579a558503244ba894e62bfea50ad8f48e4ac614dc5618b1f33a3a4c54d720c35dd5b99968aec76ac0f4003868153ce1f8751f49e73361ef12",
+          "url": "https://cdn.modrinth.com/data/X2LKuIq6/versions/XD0ILX5M/dyeable-bundles-48.1.34.1.jar",
+          "filename": "dyeable-bundles-48.1.34.1.jar",
+          "primary": true,
+          "size": 81567
         }
       ],
       "dependencies": [
+        {
+          "project_id": "6BricqUj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
         {
           "project_id": "rGdirrbP",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -298,6 +256,48 @@
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "v6LolkLV",
+      "name": "Datapack 1.20.5+6 (v.41.1) + RP 1.20.5+6 (v32.2)",
+      "version_number": "41.1.32.2",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "a55bcbdaf9fe77f7a6b5c05aca1ab80c718718e7fde6f8e620156d6894874e19a5fcc03f72350f875e71b89457d83c99fc5e8b79599c3c661b0e506d96b29d43",
+          "url": "https://cdn.modrinth.com/data/X2LKuIq6/versions/v6LolkLV/%5BDP%5D%20Colored%20Bundles%201.20.5%20%28v.41.1%29.zip",
+          "filename": "[DP] Colored Bundles 1.20.5 (v.41.1).zip",
+          "primary": true,
+          "size": 18194
+        },
+        {
+          "sha512": "2dc62393f524fb9ade913273b922312fe8dc8cd416cdd24bc3c541b7446a51918a73aaa5ca0e5706dfdce1aca790c46d0db8b6317fdceafeb406377bbf5b6de1",
+          "url": "https://cdn.modrinth.com/data/X2LKuIq6/versions/v6LolkLV/%5BRP%5D%20Colored%20Bundles%201.20.5%20%28v.32.2%29.zip",
+          "filename": "[RP] Colored Bundles 1.20.5 (v.32.2).zip",
+          "primary": false,
+          "size": 44741
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "rGdirrbP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "6BricqUj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
     }
   ]
 }

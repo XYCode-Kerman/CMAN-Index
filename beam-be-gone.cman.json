@@ -5,25 +5,35 @@
   "description": "Turns the beacon beam invisible when passing through tinted glass",
   "versions": [
     {
-      "id": "zPeNiXoJ",
-      "name": "0.0.2+1.21",
+      "id": "Qmq8vxU3",
+      "name": "0.0.2+1.18.2-19.2",
       "version_number": "0.0.2",
       "game_versions": [
-        "1.21"
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "c46428957e4ff3580164aef9284fd34e5bd814236f498b22a3ed5b224a3fb2d938e519fd47abf38360f28d9552de4002bb0ff8b69fa269a403724b2ea1669d2d",
-          "url": "https://cdn.modrinth.com/data/6B5InQA5/versions/zPeNiXoJ/BeamBeGone-0.0.2%2B1.21.jar",
-          "filename": "BeamBeGone-0.0.2+1.21.jar",
+          "sha512": "a33583e47b4a21eb6463efb5f4efe8c0ce813c5d03246a8ff04d170d1b5f1ff41e5c71945b0ae7f0db4e5f5ae43974d7438e101b68641a72968881f1f1fc5fe4",
+          "url": "https://cdn.modrinth.com/data/6B5InQA5/versions/Qmq8vxU3/BeamBeGone-0.0.2.jar",
+          "filename": "BeamBeGone-0.0.2.jar",
           "primary": true,
-          "size": 9115
+          "size": 9100
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "a1Xxa3EM",
@@ -89,37 +99,6 @@
       ]
     },
     {
-      "id": "Qmq8vxU3",
-      "name": "0.0.2+1.18.2-19.2",
-      "version_number": "0.0.2",
-      "game_versions": [
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a33583e47b4a21eb6463efb5f4efe8c0ce813c5d03246a8ff04d170d1b5f1ff41e5c71945b0ae7f0db4e5f5ae43974d7438e101b68641a72968881f1f1fc5fe4",
-          "url": "https://cdn.modrinth.com/data/6B5InQA5/versions/Qmq8vxU3/BeamBeGone-0.0.2.jar",
-          "filename": "BeamBeGone-0.0.2.jar",
-          "primary": true,
-          "size": 9100
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "wpt1uSUv",
       "name": "0.0.1+1.17.0-1.20.4",
       "version_number": "0.0.1",
@@ -150,6 +129,27 @@
           "filename": "BeamBeGone-0.0.1.jar",
           "primary": true,
           "size": 7721
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "zPeNiXoJ",
+      "name": "0.0.2+1.21",
+      "version_number": "0.0.2",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c46428957e4ff3580164aef9284fd34e5bd814236f498b22a3ed5b224a3fb2d938e519fd47abf38360f28d9552de4002bb0ff8b69fa269a403724b2ea1669d2d",
+          "url": "https://cdn.modrinth.com/data/6B5InQA5/versions/zPeNiXoJ/BeamBeGone-0.0.2%2B1.21.jar",
+          "filename": "BeamBeGone-0.0.2+1.21.jar",
+          "primary": true,
+          "size": 9115
         }
       ],
       "dependencies": []

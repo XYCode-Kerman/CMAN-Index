@@ -5,11 +5,11 @@
   "description": "A tool for patching minecrafts json files, without overrding them, using a custom DSL",
   "versions": [
     {
-      "id": "9TNIVrDG",
-      "name": "v1.1.0 [1.21]",
-      "version_number": "1.1.0+mc.1.21",
+      "id": "1iBLSkVg",
+      "name": "v1.0.0-beta.1 [1.20.1]",
+      "version_number": "1.0.0-beta.1+mc.1.20.1",
       "game_versions": [
-        "1.21"
+        "1.20.1"
       ],
       "loaders": [
         "fabric",
@@ -17,18 +17,18 @@
       ],
       "files": [
         {
-          "sha512": "5fd6ced0a64eefe3da1441da913e42942797c98258024b14713ebb74beb96e26592de0a75d1195fb7e0014be9afce87f5cf3ebe584b147f7f4964b20276d0445",
-          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/9TNIVrDG/JsonPatcher-1.1.0%2Bmc.1.21.jar",
-          "filename": "JsonPatcher-1.1.0+mc.1.21.jar",
+          "sha512": "e08e07505e0e01b6bd595f8f1665003c9389afa06d4f9deea25573635ea7b9841c4e013ee5ea5651eb98039092d387e88645a1e47a94d77887a0d3198fd9e20c",
+          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/1iBLSkVg/JsonPatch-1.0.0-beta.1%2Bmc.1.20.1.jar",
+          "filename": "JsonPatch-1.0.0-beta.1+mc.1.20.1.jar",
           "primary": true,
-          "size": 771158
+          "size": 1509281
         },
         {
-          "sha512": "5126f8b07e7d10f872895cf7d9d0f9e5783f14075b62735236e8b1994a99a53aa1d59c5acc39adb879bfb8a8a5aaad5459b072c4412971918eb8fd40679ef6c5",
-          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/9TNIVrDG/JsonPatcher-1.1.0%2Bmc.1.21-sources.jar",
-          "filename": "JsonPatcher-1.1.0+mc.1.21-sources.jar",
+          "sha512": "9048e9e8f788dcedf29fb5f4b4a39600bfb8369d652c73087c688075c5e8b9cdae3cc44dd9945094b09c9ae861e49f84191ff7a4f861aa41612c82f0860973b0",
+          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/1iBLSkVg/JsonPatch-1.0.0-beta.1%2Bmc.1.20.1-sources.jar",
+          "filename": "JsonPatch-1.0.0-beta.1+mc.1.20.1-sources.jar",
           "primary": false,
-          "size": 96216
+          "size": 83764
         }
       ],
       "dependencies": [
@@ -65,6 +65,151 @@
           "filename": "JsonPatcher-1.0.0+mc.1.20.6-sources.jar",
           "primary": false,
           "size": 96205
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "4Df13B8a",
+      "name": "v1.0.0-beta.3 [1.20.2]",
+      "version_number": "1.0.0-beta.3+mc.1.20.2",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3-pre2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "fcea2d87822122dfd929e0759d8e3e4743bd753ec7832a29865b6f9f12a08199fdf93a719c9975684d6e52f3483b8d3a2526f381e9bfe8a6e08c80002ee6860f",
+          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/4Df13B8a/JsonPatcher-1.0.0-beta.3%2Bmc.1.20.2.jar",
+          "filename": "JsonPatcher-1.0.0-beta.3+mc.1.20.2.jar",
+          "primary": true,
+          "size": 777629
+        },
+        {
+          "sha512": "86093905b31273676bd73a55d31fcd2286f9767e12846098f15ae7048fb75b9c2e976db5bea4528c3adbe9349d82cf216127a9c3607c5ed8f00226af25eeaeeb",
+          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/4Df13B8a/JsonPatcher-1.0.0-beta.3%2Bmc.1.20.2-sources.jar",
+          "filename": "JsonPatcher-1.0.0-beta.3+mc.1.20.2-sources.jar",
+          "primary": false,
+          "size": 92092
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "9TNIVrDG",
+      "name": "v1.1.0 [1.21]",
+      "version_number": "1.1.0+mc.1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5fd6ced0a64eefe3da1441da913e42942797c98258024b14713ebb74beb96e26592de0a75d1195fb7e0014be9afce87f5cf3ebe584b147f7f4964b20276d0445",
+          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/9TNIVrDG/JsonPatcher-1.1.0%2Bmc.1.21.jar",
+          "filename": "JsonPatcher-1.1.0+mc.1.21.jar",
+          "primary": true,
+          "size": 771158
+        },
+        {
+          "sha512": "5126f8b07e7d10f872895cf7d9d0f9e5783f14075b62735236e8b1994a99a53aa1d59c5acc39adb879bfb8a8a5aaad5459b072c4412971918eb8fd40679ef6c5",
+          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/9TNIVrDG/JsonPatcher-1.1.0%2Bmc.1.21-sources.jar",
+          "filename": "JsonPatcher-1.1.0+mc.1.21-sources.jar",
+          "primary": false,
+          "size": 96216
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "MVLXOTf4",
+      "name": "v1.0.0-beta.3 [1.20.1]",
+      "version_number": "1.0.0-beta.3+mc.1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "dd293896dbb3b40b2cd828736824224ba8f2e323f8ed2cb75b344aa9622ba2fe31f73a3cf99ba12f4a06fb6cfc9c76eb1f94d9ffd116e9ebfacd805114a93b2e",
+          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/MVLXOTf4/JsonPatcher-1.0.0-beta.3%2Bmc.1.20.1.jar",
+          "filename": "JsonPatcher-1.0.0-beta.3+mc.1.20.1.jar",
+          "primary": true,
+          "size": 1533035
+        },
+        {
+          "sha512": "a8bcdf8dfd2eb8948c80165b92e7093200e021368731aa52294e1a230da30bf2d7dfc512cb05b0f56e6c22ef8605250859fb5a1da92578d0a2c6a1acdd23cef3",
+          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/MVLXOTf4/JsonPatcher-1.0.0-beta.3%2Bmc.1.20.1-sources.jar",
+          "filename": "JsonPatcher-1.0.0-beta.3+mc.1.20.1-sources.jar",
+          "primary": false,
+          "size": 92050
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "N2mkpgsD",
+      "name": "v1.0.0-beta.4 [1.20.4]",
+      "version_number": "1.0.0-beta.4+mc.1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0722e2ee6159d57ac623e5752496a4b5b83f90b34c9eb659431fb3b98802ad0bb83ad618690144798687d95bf38ccc93d638c9982708235c9a5998af1d7372a4",
+          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/N2mkpgsD/JsonPatcher-1.0.0-beta.4%2Bmc.1.20.4.jar",
+          "filename": "JsonPatcher-1.0.0-beta.4+mc.1.20.4.jar",
+          "primary": true,
+          "size": 651834
+        },
+        {
+          "sha512": "a1b7271f172732d97165d7f82f6d662aaf5ebf16cceaa67b52c18771806c929fee33ee4bbca77f073f387fac2a898fc2f2f56208f8236bfece999201ff632e29",
+          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/N2mkpgsD/JsonPatcher-1.0.0-beta.4%2Bmc.1.20.4-sources.jar",
+          "filename": "JsonPatcher-1.0.0-beta.4+mc.1.20.4-sources.jar",
+          "primary": false,
+          "size": 92117
         }
       ],
       "dependencies": [
@@ -149,115 +294,6 @@
       ]
     },
     {
-      "id": "N2mkpgsD",
-      "name": "v1.0.0-beta.4 [1.20.4]",
-      "version_number": "1.0.0-beta.4+mc.1.20.4",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0722e2ee6159d57ac623e5752496a4b5b83f90b34c9eb659431fb3b98802ad0bb83ad618690144798687d95bf38ccc93d638c9982708235c9a5998af1d7372a4",
-          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/N2mkpgsD/JsonPatcher-1.0.0-beta.4%2Bmc.1.20.4.jar",
-          "filename": "JsonPatcher-1.0.0-beta.4+mc.1.20.4.jar",
-          "primary": true,
-          "size": 651834
-        },
-        {
-          "sha512": "a1b7271f172732d97165d7f82f6d662aaf5ebf16cceaa67b52c18771806c929fee33ee4bbca77f073f387fac2a898fc2f2f56208f8236bfece999201ff632e29",
-          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/N2mkpgsD/JsonPatcher-1.0.0-beta.4%2Bmc.1.20.4-sources.jar",
-          "filename": "JsonPatcher-1.0.0-beta.4+mc.1.20.4-sources.jar",
-          "primary": false,
-          "size": 92117
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4Df13B8a",
-      "name": "v1.0.0-beta.3 [1.20.2]",
-      "version_number": "1.0.0-beta.3+mc.1.20.2",
-      "game_versions": [
-        "1.20.2",
-        "1.20.3-pre2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "fcea2d87822122dfd929e0759d8e3e4743bd753ec7832a29865b6f9f12a08199fdf93a719c9975684d6e52f3483b8d3a2526f381e9bfe8a6e08c80002ee6860f",
-          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/4Df13B8a/JsonPatcher-1.0.0-beta.3%2Bmc.1.20.2.jar",
-          "filename": "JsonPatcher-1.0.0-beta.3+mc.1.20.2.jar",
-          "primary": true,
-          "size": 777629
-        },
-        {
-          "sha512": "86093905b31273676bd73a55d31fcd2286f9767e12846098f15ae7048fb75b9c2e976db5bea4528c3adbe9349d82cf216127a9c3607c5ed8f00226af25eeaeeb",
-          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/4Df13B8a/JsonPatcher-1.0.0-beta.3%2Bmc.1.20.2-sources.jar",
-          "filename": "JsonPatcher-1.0.0-beta.3+mc.1.20.2-sources.jar",
-          "primary": false,
-          "size": 92092
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "MVLXOTf4",
-      "name": "v1.0.0-beta.3 [1.20.1]",
-      "version_number": "1.0.0-beta.3+mc.1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "dd293896dbb3b40b2cd828736824224ba8f2e323f8ed2cb75b344aa9622ba2fe31f73a3cf99ba12f4a06fb6cfc9c76eb1f94d9ffd116e9ebfacd805114a93b2e",
-          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/MVLXOTf4/JsonPatcher-1.0.0-beta.3%2Bmc.1.20.1.jar",
-          "filename": "JsonPatcher-1.0.0-beta.3+mc.1.20.1.jar",
-          "primary": true,
-          "size": 1533035
-        },
-        {
-          "sha512": "a8bcdf8dfd2eb8948c80165b92e7093200e021368731aa52294e1a230da30bf2d7dfc512cb05b0f56e6c22ef8605250859fb5a1da92578d0a2c6a1acdd23cef3",
-          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/MVLXOTf4/JsonPatcher-1.0.0-beta.3%2Bmc.1.20.1-sources.jar",
-          "filename": "JsonPatcher-1.0.0-beta.3+mc.1.20.1-sources.jar",
-          "primary": false,
-          "size": 92050
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "oQiLL8oW",
       "name": "v1.0.0-beta.2 [1.20.1]",
       "version_number": "1.0.0-beta.2+mc.1.20.1",
@@ -282,42 +318,6 @@
           "filename": "JsonPatcher-1.0.0-beta.2+mc.1.20.1-sources.jar",
           "primary": false,
           "size": 92049
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "1iBLSkVg",
-      "name": "v1.0.0-beta.1 [1.20.1]",
-      "version_number": "1.0.0-beta.1+mc.1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "e08e07505e0e01b6bd595f8f1665003c9389afa06d4f9deea25573635ea7b9841c4e013ee5ea5651eb98039092d387e88645a1e47a94d77887a0d3198fd9e20c",
-          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/1iBLSkVg/JsonPatch-1.0.0-beta.1%2Bmc.1.20.1.jar",
-          "filename": "JsonPatch-1.0.0-beta.1+mc.1.20.1.jar",
-          "primary": true,
-          "size": 1509281
-        },
-        {
-          "sha512": "9048e9e8f788dcedf29fb5f4b4a39600bfb8369d652c73087c688075c5e8b9cdae3cc44dd9945094b09c9ae861e49f84191ff7a4f861aa41612c82f0860973b0",
-          "url": "https://cdn.modrinth.com/data/qlXnlZLG/versions/1iBLSkVg/JsonPatch-1.0.0-beta.1%2Bmc.1.20.1-sources.jar",
-          "filename": "JsonPatch-1.0.0-beta.1+mc.1.20.1-sources.jar",
-          "primary": false,
-          "size": 83764
         }
       ],
       "dependencies": [

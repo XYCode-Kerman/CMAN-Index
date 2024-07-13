@@ -5,9 +5,9 @@
   "description": "Synchronize players data between BungeeCord / Velocity proxies",
   "versions": [
     {
-      "id": "vpgJjWzS",
-      "name": "0.12.1",
-      "version_number": "0.12.1",
+      "id": "80wgmRHA",
+      "name": "Acl usernames support",
+      "version_number": "0.11.0",
       "game_versions": [
         "1.8",
         "1.8.1",
@@ -59,13 +59,7 @@
         "1.19.1",
         "1.19.2",
         "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4",
-        "1.20.5"
+        "1.19.4"
       ],
       "loaders": [
         "bungeecord",
@@ -73,11 +67,82 @@
       ],
       "files": [
         {
-          "sha512": "d701f682084feb8591472078cf824c20d9dffb59d997868e10e525ba629bf40192cfb9bf5ff8e43ca60a4d6be12a7e3c6562fa89e0c9c1f25f6d96d8fbb28e1e",
-          "url": "https://cdn.modrinth.com/data/kKTy7co7/versions/vpgJjWzS/RedisBungee-Bungee-0.12.1-all.jar",
-          "filename": "RedisBungee-Bungee-0.12.1-all.jar",
+          "sha512": "0e1a07d63413325d7403652f4733bedc0334d0e1ffca4cf847991797a2c32283c1e3c47e1377d614c24c06fa65338a98a605a35c9bfd196723509dc039e91fe5",
+          "url": "https://cdn.modrinth.com/data/kKTy7co7/versions/80wgmRHA/RedisBungee-Bungee-0.11.0-SNAPSHOT-all.jar",
+          "filename": "RedisBungee-Bungee-0.11.0-SNAPSHOT-all.jar",
           "primary": true,
-          "size": 9174227
+          "size": 3316139
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "M94ygI4V",
+      "name": "ACL usernames support",
+      "version_number": "0.11.0",
+      "game_versions": [
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "9d1b6972c35166e27522b73c6b16f618fc68d8373c8b16a4694280695da220eecddde14e570b9bb4a6f414bb83104347cb0ae9e0accab064fc8398bfbcfde20e",
+          "url": "https://cdn.modrinth.com/data/kKTy7co7/versions/M94ygI4V/RedisBungee-Velocity-0.11.0-SNAPSHOT-all.jar",
+          "filename": "RedisBungee-Velocity-0.11.0-SNAPSHOT-all.jar",
+          "primary": true,
+          "size": 1674737
         }
       ],
       "dependencies": []
@@ -155,6 +220,155 @@
           "filename": "RedisBungee-Velocity-0.12.1-all.jar",
           "primary": true,
           "size": 8561492
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "PKAdqyA8",
+      "name": "0.11.4",
+      "version_number": "0.11.4",
+      "game_versions": [
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "bungeecord",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "0a7dc84da03f54ee113bb31559e6acbe814225074aece5b6bb3e4a2662d313d9eb2958e72f91e115e2ced12a72d397af0f7dd3479b4c0ce2f3f039329dddfd3b",
+          "url": "https://cdn.modrinth.com/data/kKTy7co7/versions/PKAdqyA8/RedisBungee-Bungee-0.11.4-SNAPSHOT-all.jar",
+          "filename": "RedisBungee-Bungee-0.11.4-SNAPSHOT-all.jar",
+          "primary": true,
+          "size": 7050283
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "UZWxqqmX",
+      "name": "0.11.2",
+      "version_number": "0.11.2",
+      "game_versions": [
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "bungeecord",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "49a6e26d0fc38980c252db0b8176fc3343c2e74bf6c4b9131994b60db8c2c33d20a47e1b058a3097e4f45ac32bfd2774af7e162de493507ebc687a9c7f89da43",
+          "url": "https://cdn.modrinth.com/data/kKTy7co7/versions/UZWxqqmX/RedisBungee-Bungee-0.11.2-SNAPSHOT-all.jar",
+          "filename": "RedisBungee-Bungee-0.11.2-SNAPSHOT-all.jar",
+          "primary": true,
+          "size": 6897845
         }
       ],
       "dependencies": []
@@ -315,162 +529,9 @@
       "dependencies": []
     },
     {
-      "id": "zTJVBnhf",
-      "name": "0.11.4",
-      "version_number": "0.11.4",
-      "game_versions": [
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "5fa685037a21a595b961177ce504ee7693061d24d264d8a58d75457c5b5c98019c6dcb173ff6de91f6006d8dd22931c8796c652d5e1fa8f67e012c9eda8a83b2",
-          "url": "https://cdn.modrinth.com/data/kKTy7co7/versions/zTJVBnhf/RedisBungee-Velocity-0.11.4-SNAPSHOT-all.jar",
-          "filename": "RedisBungee-Velocity-0.11.4-SNAPSHOT-all.jar",
-          "primary": true,
-          "size": 1802725
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "PKAdqyA8",
-      "name": "0.11.4",
-      "version_number": "0.11.4",
-      "game_versions": [
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "bungeecord",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "0a7dc84da03f54ee113bb31559e6acbe814225074aece5b6bb3e4a2662d313d9eb2958e72f91e115e2ced12a72d397af0f7dd3479b4c0ce2f3f039329dddfd3b",
-          "url": "https://cdn.modrinth.com/data/kKTy7co7/versions/PKAdqyA8/RedisBungee-Bungee-0.11.4-SNAPSHOT-all.jar",
-          "filename": "RedisBungee-Bungee-0.11.4-SNAPSHOT-all.jar",
-          "primary": true,
-          "size": 7050283
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "UZWxqqmX",
-      "name": "0.11.2",
-      "version_number": "0.11.2",
+      "id": "qG8rMJJi",
+      "name": "RedisBungee 0.11.1 for Velocity ",
+      "version_number": "0.11.1",
       "game_versions": [
         "1.8",
         "1.8.1",
@@ -525,16 +586,15 @@
         "1.19.4"
       ],
       "loaders": [
-        "bungeecord",
-        "waterfall"
+        "velocity"
       ],
       "files": [
         {
-          "sha512": "49a6e26d0fc38980c252db0b8176fc3343c2e74bf6c4b9131994b60db8c2c33d20a47e1b058a3097e4f45ac32bfd2774af7e162de493507ebc687a9c7f89da43",
-          "url": "https://cdn.modrinth.com/data/kKTy7co7/versions/UZWxqqmX/RedisBungee-Bungee-0.11.2-SNAPSHOT-all.jar",
-          "filename": "RedisBungee-Bungee-0.11.2-SNAPSHOT-all.jar",
+          "sha512": "fe067f81a6b72f5cf498b5a74f913c317dd131e15ed83e82930b49518780f5d9cf49316b8296a6db7b9bcee5d91c649125b906bd9e8ccb1f1e34c483f34e55b5",
+          "url": "https://cdn.modrinth.com/data/kKTy7co7/versions/qG8rMJJi/RedisBungee-Velocity-0.11.1-SNAPSHOT-all.jar",
+          "filename": "RedisBungee-Velocity-0.11.1-SNAPSHOT-all.jar",
           "primary": true,
-          "size": 6897845
+          "size": 1674971
         }
       ],
       "dependencies": []
@@ -606,77 +666,6 @@
           "filename": "RedisBungee-Velocity-0.11.2-SNAPSHOT-all.jar",
           "primary": true,
           "size": 1679295
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "qG8rMJJi",
-      "name": "RedisBungee 0.11.1 for Velocity ",
-      "version_number": "0.11.1",
-      "game_versions": [
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "fe067f81a6b72f5cf498b5a74f913c317dd131e15ed83e82930b49518780f5d9cf49316b8296a6db7b9bcee5d91c649125b906bd9e8ccb1f1e34c483f34e55b5",
-          "url": "https://cdn.modrinth.com/data/kKTy7co7/versions/qG8rMJJi/RedisBungee-Velocity-0.11.1-SNAPSHOT-all.jar",
-          "filename": "RedisBungee-Velocity-0.11.1-SNAPSHOT-all.jar",
-          "primary": true,
-          "size": 1674971
         }
       ],
       "dependencies": []
@@ -754,9 +743,9 @@
       "dependencies": []
     },
     {
-      "id": "80wgmRHA",
-      "name": "Acl usernames support",
-      "version_number": "0.11.0",
+      "id": "vpgJjWzS",
+      "name": "0.12.1",
+      "version_number": "0.12.1",
       "game_versions": [
         "1.8",
         "1.8.1",
@@ -808,7 +797,13 @@
         "1.19.1",
         "1.19.2",
         "1.19.3",
-        "1.19.4"
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5"
       ],
       "loaders": [
         "bungeecord",
@@ -816,19 +811,19 @@
       ],
       "files": [
         {
-          "sha512": "0e1a07d63413325d7403652f4733bedc0334d0e1ffca4cf847991797a2c32283c1e3c47e1377d614c24c06fa65338a98a605a35c9bfd196723509dc039e91fe5",
-          "url": "https://cdn.modrinth.com/data/kKTy7co7/versions/80wgmRHA/RedisBungee-Bungee-0.11.0-SNAPSHOT-all.jar",
-          "filename": "RedisBungee-Bungee-0.11.0-SNAPSHOT-all.jar",
+          "sha512": "d701f682084feb8591472078cf824c20d9dffb59d997868e10e525ba629bf40192cfb9bf5ff8e43ca60a4d6be12a7e3c6562fa89e0c9c1f25f6d96d8fbb28e1e",
+          "url": "https://cdn.modrinth.com/data/kKTy7co7/versions/vpgJjWzS/RedisBungee-Bungee-0.12.1-all.jar",
+          "filename": "RedisBungee-Bungee-0.12.1-all.jar",
           "primary": true,
-          "size": 3316139
+          "size": 9174227
         }
       ],
       "dependencies": []
     },
     {
-      "id": "M94ygI4V",
-      "name": "ACL usernames support",
-      "version_number": "0.11.0",
+      "id": "zTJVBnhf",
+      "name": "0.11.4",
+      "version_number": "0.11.4",
       "game_versions": [
         "1.8",
         "1.8.1",
@@ -880,18 +875,23 @@
         "1.19.1",
         "1.19.2",
         "1.19.3",
-        "1.19.4"
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
         "velocity"
       ],
       "files": [
         {
-          "sha512": "9d1b6972c35166e27522b73c6b16f618fc68d8373c8b16a4694280695da220eecddde14e570b9bb4a6f414bb83104347cb0ae9e0accab064fc8398bfbcfde20e",
-          "url": "https://cdn.modrinth.com/data/kKTy7co7/versions/M94ygI4V/RedisBungee-Velocity-0.11.0-SNAPSHOT-all.jar",
-          "filename": "RedisBungee-Velocity-0.11.0-SNAPSHOT-all.jar",
+          "sha512": "5fa685037a21a595b961177ce504ee7693061d24d264d8a58d75457c5b5c98019c6dcb173ff6de91f6006d8dd22931c8796c652d5e1fa8f67e012c9eda8a83b2",
+          "url": "https://cdn.modrinth.com/data/kKTy7co7/versions/zTJVBnhf/RedisBungee-Velocity-0.11.4-SNAPSHOT-all.jar",
+          "filename": "RedisBungee-Velocity-0.11.4-SNAPSHOT-all.jar",
           "primary": true,
-          "size": 1674737
+          "size": 1802725
         }
       ],
       "dependencies": []

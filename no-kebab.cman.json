@@ -5,22 +5,80 @@
   "description": "Prevents unknown painting ids from being erased from the world, and offers a way to manually fix them up.",
   "versions": [
     {
-      "id": "UUKw9FE9",
-      "name": "v1.3.1+1.21",
-      "version_number": "1.3.1+1.21",
+      "id": "2apJiFAc",
+      "name": "[1.20~] 1.0.0",
+      "version_number": "1.0.0+1.20.1",
       "game_versions": [
-        "1.21"
+        "1.20",
+        "1.20.1",
+        "1.20.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "a72283e79433cfdce145100359a96c5bd4d988d06c772b8313c666ae85956ed60dd38d00b7a7079607e81a52fa6b3a6ebea3446fcfcf6fd35814af813c282de8",
-          "url": "https://cdn.modrinth.com/data/y82xHklI/versions/UUKw9FE9/no-kebab-1.3.1%2B1.21.jar",
-          "filename": "no-kebab-1.3.1+1.21.jar",
+          "sha512": "70f30529b75cb6092b592e1820d185fb42d1756798715fea945caccd0e2595d42752ea1c97218609ebd16db63377228102bbbd457048a044907d944e1961ac5d",
+          "url": "https://cdn.modrinth.com/data/y82xHklI/versions/2apJiFAc/no-kebab-1.0.0%2B1.20.1.jar",
+          "filename": "no-kebab-1.0.0+1.20.1.jar",
           "primary": true,
-          "size": 60180
+          "size": 35289
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "5YKKvndC",
+      "name": "v1.2.0+1.19.4",
+      "version_number": "1.2.0+1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e860169cebe38117fa7f7f6c6b224b3a0bfe4610fe5ec90201dac1629410d13383dbc9c612a19686f99e22146e81aacf79145c7acac15cdfcf851357eab002ac",
+          "url": "https://cdn.modrinth.com/data/y82xHklI/versions/5YKKvndC/no-kebab-1.2.0%2B1.19.4.jar",
+          "filename": "no-kebab-1.2.0+1.19.4.jar",
+          "primary": true,
+          "size": 48097
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "7nlRsISL",
+      "name": "[1.19.4] 1.1.1",
+      "version_number": "1.1.1+1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0e6c925f4503ca057c2a0d56b6211540e830a5dc2bb6d0ec77cae11e4e4c88b9a9203c27ad8b28de8a0b59fded950e946d3b8956bc4df89953679a2e2fbd6e9c",
+          "url": "https://cdn.modrinth.com/data/y82xHklI/versions/7nlRsISL/no-kebab-1.1.1%2B1.19.4.jar",
+          "filename": "no-kebab-1.1.1+1.19.4.jar",
+          "primary": true,
+          "size": 38619
         }
       ],
       "dependencies": [
@@ -62,55 +120,23 @@
       ]
     },
     {
-      "id": "t1haYknB",
-      "name": "v1.3.0+1.20.6",
-      "version_number": "1.3.0+1.20.6",
+      "id": "MpRY1sz5",
+      "name": "[1.20~] 1.1.0",
+      "version_number": "1.1.0+1.20.1",
       "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9f8a4a1865ec5ad49f39ec875d76aece8b1dabd03a0db082b7e08efa749d3c501a8447f49db0b2fd5b6de9ea41b29da97733a64bd75b18cea0992b7221c80b22",
-          "url": "https://cdn.modrinth.com/data/y82xHklI/versions/t1haYknB/no-kebab-1.3.0%2B1.20.6.jar",
-          "filename": "no-kebab-1.3.0+1.20.6.jar",
-          "primary": true,
-          "size": 58265
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "V5roepgj",
-      "name": "v1.2.1+1.20.1",
-      "version_number": "1.2.1+1.20.1",
-      "game_versions": [
-        "1.20",
         "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.20.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "2726f9db5b147071bb6aa2b15baac3b195ea7c15789efe8043daa5ff145d6f2528a0b00a0ddc90a6eeb0f5094843ed9f7d5f2b36020f381cda55956c5150db5f",
-          "url": "https://cdn.modrinth.com/data/y82xHklI/versions/V5roepgj/no-kebab-1.2.1%2B1.20.1.jar",
-          "filename": "no-kebab-1.2.1+1.20.1.jar",
+          "sha512": "deb8734d8b69fa6d2d10c90ade34e5d2f61d1e9ff426203ea411183f254e66dcec856f7c407c19ec99873588ee16c5215f1fe7093a8a7d472dbb5d8c0076fac0",
+          "url": "https://cdn.modrinth.com/data/y82xHklI/versions/MpRY1sz5/no-kebab-1.1.0%2B1.20.1.jar",
+          "filename": "no-kebab-1.1.0+1.20.1.jar",
           "primary": true,
-          "size": 48194
+          "size": 38623
         }
       ],
       "dependencies": [
@@ -155,9 +181,69 @@
       ]
     },
     {
-      "id": "5YKKvndC",
-      "name": "v1.2.0+1.19.4",
-      "version_number": "1.2.0+1.19.4",
+      "id": "UUKw9FE9",
+      "name": "v1.3.1+1.21",
+      "version_number": "1.3.1+1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a72283e79433cfdce145100359a96c5bd4d988d06c772b8313c666ae85956ed60dd38d00b7a7079607e81a52fa6b3a6ebea3446fcfcf6fd35814af813c282de8",
+          "url": "https://cdn.modrinth.com/data/y82xHklI/versions/UUKw9FE9/no-kebab-1.3.1%2B1.21.jar",
+          "filename": "no-kebab-1.3.1+1.21.jar",
+          "primary": true,
+          "size": 60180
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "V5roepgj",
+      "name": "v1.2.1+1.20.1",
+      "version_number": "1.2.1+1.20.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2726f9db5b147071bb6aa2b15baac3b195ea7c15789efe8043daa5ff145d6f2528a0b00a0ddc90a6eeb0f5094843ed9f7d5f2b36020f381cda55956c5150db5f",
+          "url": "https://cdn.modrinth.com/data/y82xHklI/versions/V5roepgj/no-kebab-1.2.1%2B1.20.1.jar",
+          "filename": "no-kebab-1.2.1+1.20.1.jar",
+          "primary": true,
+          "size": 48194
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "diqaVvHg",
+      "name": "[1.19.4] 1.1.0",
+      "version_number": "1.1.0+1.19.4",
       "game_versions": [
         "1.19.4"
       ],
@@ -166,11 +252,39 @@
       ],
       "files": [
         {
-          "sha512": "e860169cebe38117fa7f7f6c6b224b3a0bfe4610fe5ec90201dac1629410d13383dbc9c612a19686f99e22146e81aacf79145c7acac15cdfcf851357eab002ac",
-          "url": "https://cdn.modrinth.com/data/y82xHklI/versions/5YKKvndC/no-kebab-1.2.0%2B1.19.4.jar",
-          "filename": "no-kebab-1.2.0+1.19.4.jar",
+          "sha512": "a888a46be43a844fb22d786222e3b4a923c2cc7b85e9020448eec90f3018fa18dc99541b015cc5bbded6d9d4808306d9dd0ee0205f08b97b708e69290499302c",
+          "url": "https://cdn.modrinth.com/data/y82xHklI/versions/diqaVvHg/no-kebab-1.1.0%2B1.19.4.jar",
+          "filename": "no-kebab-1.1.0+1.19.4.jar",
           "primary": true,
-          "size": 48097
+          "size": 38625
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "l7cjAMwI",
+      "name": "[1.19.4] 1.0.0",
+      "version_number": "1.0.0+1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "519f1b851093ba92bcd1022706b6ebd50aa4464a0e5c54bdead28f9d0ca00380b93f0459a5ade1cd9114f42e4c786f8ac47307450ac16d6eed62af6ea4a16f05",
+          "url": "https://cdn.modrinth.com/data/y82xHklI/versions/l7cjAMwI/no-kebab-1.0.0%2B1.19.4.jar",
+          "filename": "no-kebab-1.0.0+1.19.4.jar",
+          "primary": true,
+          "size": 35291
         }
       ],
       "dependencies": [
@@ -215,137 +329,23 @@
       ]
     },
     {
-      "id": "7nlRsISL",
-      "name": "[1.19.4] 1.1.1",
-      "version_number": "1.1.1+1.19.4",
+      "id": "t1haYknB",
+      "name": "v1.3.0+1.20.6",
+      "version_number": "1.3.0+1.20.6",
       "game_versions": [
-        "1.19.4"
+        "1.20.5",
+        "1.20.6"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "0e6c925f4503ca057c2a0d56b6211540e830a5dc2bb6d0ec77cae11e4e4c88b9a9203c27ad8b28de8a0b59fded950e946d3b8956bc4df89953679a2e2fbd6e9c",
-          "url": "https://cdn.modrinth.com/data/y82xHklI/versions/7nlRsISL/no-kebab-1.1.1%2B1.19.4.jar",
-          "filename": "no-kebab-1.1.1+1.19.4.jar",
+          "sha512": "9f8a4a1865ec5ad49f39ec875d76aece8b1dabd03a0db082b7e08efa749d3c501a8447f49db0b2fd5b6de9ea41b29da97733a64bd75b18cea0992b7221c80b22",
+          "url": "https://cdn.modrinth.com/data/y82xHklI/versions/t1haYknB/no-kebab-1.3.0%2B1.20.6.jar",
+          "filename": "no-kebab-1.3.0+1.20.6.jar",
           "primary": true,
-          "size": 38619
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "MpRY1sz5",
-      "name": "[1.20~] 1.1.0",
-      "version_number": "1.1.0+1.20.1",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "deb8734d8b69fa6d2d10c90ade34e5d2f61d1e9ff426203ea411183f254e66dcec856f7c407c19ec99873588ee16c5215f1fe7093a8a7d472dbb5d8c0076fac0",
-          "url": "https://cdn.modrinth.com/data/y82xHklI/versions/MpRY1sz5/no-kebab-1.1.0%2B1.20.1.jar",
-          "filename": "no-kebab-1.1.0+1.20.1.jar",
-          "primary": true,
-          "size": 38623
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "diqaVvHg",
-      "name": "[1.19.4] 1.1.0",
-      "version_number": "1.1.0+1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a888a46be43a844fb22d786222e3b4a923c2cc7b85e9020448eec90f3018fa18dc99541b015cc5bbded6d9d4808306d9dd0ee0205f08b97b708e69290499302c",
-          "url": "https://cdn.modrinth.com/data/y82xHklI/versions/diqaVvHg/no-kebab-1.1.0%2B1.19.4.jar",
-          "filename": "no-kebab-1.1.0+1.19.4.jar",
-          "primary": true,
-          "size": 38625
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "2apJiFAc",
-      "name": "[1.20~] 1.0.0",
-      "version_number": "1.0.0+1.20.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "70f30529b75cb6092b592e1820d185fb42d1756798715fea945caccd0e2595d42752ea1c97218609ebd16db63377228102bbbd457048a044907d944e1961ac5d",
-          "url": "https://cdn.modrinth.com/data/y82xHklI/versions/2apJiFAc/no-kebab-1.0.0%2B1.20.1.jar",
-          "filename": "no-kebab-1.0.0+1.20.1.jar",
-          "primary": true,
-          "size": 35289
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "l7cjAMwI",
-      "name": "[1.19.4] 1.0.0",
-      "version_number": "1.0.0+1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "519f1b851093ba92bcd1022706b6ebd50aa4464a0e5c54bdead28f9d0ca00380b93f0459a5ade1cd9114f42e4c786f8ac47307450ac16d6eed62af6ea4a16f05",
-          "url": "https://cdn.modrinth.com/data/y82xHklI/versions/l7cjAMwI/no-kebab-1.0.0%2B1.19.4.jar",
-          "filename": "no-kebab-1.0.0+1.19.4.jar",
-          "primary": true,
-          "size": 35291
+          "size": 58265
         }
       ],
       "dependencies": [

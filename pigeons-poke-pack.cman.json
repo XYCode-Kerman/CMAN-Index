@@ -1,26 +1,34 @@
 {
-  "id": "pigeons-poke-pack",
+  "id": "EhFoAML2",
   "slug": "pigeons-poke-pack",
   "name": "Pigeon's Poke Pack [1.5.1]",
   "description": "Models for Pokémon that may or may not have them.\nCurrently includes the Blipbug line, Petilil line, Fomantis line, Snorunt line and Volcanion",
   "versions": [
     {
-      "id": "LVkhUmxD",
-      "name": "v1.5.1 - Cobblemon 1.5 Compatibility",
-      "version_number": "1.5.1",
+      "id": "670sKCBD",
+      "name": "Version 1.3 - Hisuian Lilligant and fixes",
+      "version_number": "1.3",
       "game_versions": [
-        "1.20.1"
+        "1.19.2"
       ],
       "loaders": [
         "datapack"
       ],
       "files": [
         {
-          "sha512": "2e026fe500cd216235838a4d3c1514c2cd962d812ef8d7198800a0e526ad8a26813914a5088e103e36dd3a5e1cf9a7cfe8f72110047554a0bac6193ce0a494b0",
-          "url": "https://cdn.modrinth.com/data/EhFoAML2/versions/LVkhUmxD/PigeonPack.zip",
+          "sha512": "e099ad503491c7c61b6e55452ee9d5aa49733eb0b780d32b49f22a45d95314604effade4327397c09e16da010e6e3f723f3d7867d9db0934fc2f7416b1f8802f",
+          "url": "https://cdn.modrinth.com/data/EhFoAML2/versions/670sKCBD/PigeonPack.zip",
           "filename": "PigeonPack.zip",
           "primary": true,
-          "size": 288920
+          "size": 219814
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -42,25 +50,13 @@
           "primary": true,
           "size": 308223
         }
-      ]
-    },
-    {
-      "id": "wQ9jswmz",
-      "name": "v1.4.1 - hisuian lilligant fix",
-      "version_number": "1.4.1",
-      "game_versions": [
-        "1.20.1"
       ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "4ffdebe198a9bf04a814a4bf88c2f5ac5b6c0740d417d82eeefe958d7a345066ec4ac58d3a729ad24994570590efb6841279fe93854a374bd36df7bf7f068c4f",
-          "url": "https://cdn.modrinth.com/data/EhFoAML2/versions/wQ9jswmz/PigeonPack.zip",
-          "filename": "PigeonPack.zip",
-          "primary": true,
-          "size": 263737
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -82,25 +78,13 @@
           "primary": false,
           "size": 263132
         }
-      ]
-    },
-    {
-      "id": "670sKCBD",
-      "name": "Version 1.3 - Hisuian Lilligant and fixes",
-      "version_number": "1.3",
-      "game_versions": [
-        "1.19.2"
       ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "e099ad503491c7c61b6e55452ee9d5aa49733eb0b780d32b49f22a45d95314604effade4327397c09e16da010e6e3f723f3d7867d9db0934fc2f7416b1f8802f",
-          "url": "https://cdn.modrinth.com/data/EhFoAML2/versions/670sKCBD/PigeonPack.zip",
-          "filename": "PigeonPack.zip",
-          "primary": true,
-          "size": 219814
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -122,6 +106,42 @@
           "primary": true,
           "size": 184200
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "LVkhUmxD",
+      "name": "v1.5.1 - Cobblemon 1.5 Compatibility",
+      "version_number": "1.5.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "2e026fe500cd216235838a4d3c1514c2cd962d812ef8d7198800a0e526ad8a26813914a5088e103e36dd3a5e1cf9a7cfe8f72110047554a0bac6193ce0a494b0",
+          "url": "https://cdn.modrinth.com/data/EhFoAML2/versions/LVkhUmxD/PigeonPack.zip",
+          "filename": "PigeonPack.zip",
+          "primary": true,
+          "size": 288920
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -142,6 +162,14 @@
           "primary": true,
           "size": 159124
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -161,6 +189,42 @@
           "filename": "PigeonPack.zip",
           "primary": true,
           "size": 156623
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "wQ9jswmz",
+      "name": "v1.4.1 - hisuian lilligant fix",
+      "version_number": "1.4.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "4ffdebe198a9bf04a814a4bf88c2f5ac5b6c0740d417d82eeefe958d7a345066ec4ac58d3a729ad24994570590efb6841279fe93854a374bd36df7bf7f068c4f",
+          "url": "https://cdn.modrinth.com/data/EhFoAML2/versions/wQ9jswmz/PigeonPack.zip",
+          "filename": "PigeonPack.zip",
+          "primary": true,
+          "size": 263737
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

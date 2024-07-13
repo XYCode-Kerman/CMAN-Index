@@ -5,40 +5,87 @@
   "description": "Data driven item restriction library based on Arc Lib.",
   "versions": [
     {
-      "id": "riLAO9ZF",
-      "name": "Item Restrictions NeoForge 1.21 - 1.2.1-1.21",
-      "version_number": "1.2.1-1.21",
+      "id": "5iRFfXuN",
+      "name": "Item Restrictions Fabric 1.20.1 - 1.2",
+      "version_number": "1.2",
       "game_versions": [
-        "1.21"
+        "1.20.1"
       ],
       "loaders": [
-        "neoforge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "4934697eb3c22fa0f17e3d4a0f789e6793d5a9c62227fae5e98a384f3f36692e43f2f3559f5d5b5e1f2a978b7cbf0641ac6346ab6ed3f90c605c6a665317a2c9",
-          "url": "https://cdn.modrinth.com/data/rU60qFq2/versions/riLAO9ZF/itemrestrictions-1.2.1-1.21-neoforge.jar",
-          "filename": "itemrestrictions-1.2.1-1.21-neoforge.jar",
+          "sha512": "28fc2f2351dfb0801dcf2df93a82bfea6181129f7d6999bc5a41829ad479b36fefab109db90617144edbf43fcc200a1b45348d1697d6a4691194f07e9c302c77",
+          "url": "https://cdn.modrinth.com/data/rU60qFq2/versions/5iRFfXuN/itemrestrictions-1.2-fabric.jar",
+          "filename": "itemrestrictions-1.2-fabric.jar",
           "primary": true,
-          "size": 65981
+          "size": 61145
         },
         {
-          "sha512": "2e9dd686884e080def3a2df20f73aa7615b1bfb6b792d5cd6942baca37c73a570814abca15b93f128c4506986e1ef3ab71e18e89750ba4ec3bc3870791f8cef0",
-          "url": "https://cdn.modrinth.com/data/rU60qFq2/versions/riLAO9ZF/itemrestrictions-1.2.1-1.21-neoforge-sources.jar",
-          "filename": "itemrestrictions-1.2.1-1.21-neoforge-sources.jar",
+          "sha512": "96cc45a21d2b322bb1282c70908fd49c4c315522fafde06c75a546b130bb9af01269f432f3e43ba947d8b1c913f77a4ff2a1d89635737c49fd358cc96af1ea73",
+          "url": "https://cdn.modrinth.com/data/rU60qFq2/versions/5iRFfXuN/itemrestrictions-1.2-fabric-sources.jar",
+          "filename": "itemrestrictions-1.2-fabric-sources.jar",
           "primary": false,
-          "size": 8726
+          "size": 38035
         }
       ],
       "dependencies": [
         {
-          "project_id": "AOEDs9Al",
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LN9BxssP",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "H3eKhxi7",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "5zK1ByVT",
+      "name": "Item Restrictions Fabric 1.20.1 - 1.1.2",
+      "version_number": "1.1.2",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e10f56c8519ee117029c6d816fd193e152e62e8e5015461e181ba2062a53d62e08bca803cab658c35e02f7b89928b2931c51f5b12b22157000064a36b629c41b",
+          "url": "https://cdn.modrinth.com/data/rU60qFq2/versions/5zK1ByVT/itemrestrictions-1.1.2.jar",
+          "filename": "itemrestrictions-1.1.2.jar",
+          "primary": true,
+          "size": 60914
+        },
+        {
+          "sha512": "86cd2ad9e69c719d53ef0b18a83224b6907d21faea3a46184fb26a38609dd572ceb2c83d28421d2d330d797523a2d334d099927caed7e0b51c74f0b6555ff390",
+          "url": "https://cdn.modrinth.com/data/rU60qFq2/versions/5zK1ByVT/itemrestrictions-1.1.2-fabric-sources.jar",
+          "filename": "itemrestrictions-1.1.2-fabric-sources.jar",
+          "primary": false,
+          "size": 36734
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "H3eKhxi7",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LN9BxssP",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -80,6 +127,53 @@
       "dependencies": [
         {
           "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "H3eKhxi7",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "StIiDQS9",
+      "name": "Item Restrictions Forge 1.20.1 - 1.1.2",
+      "version_number": "1.1.2",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0f6c161dcac8bd9c5c271498eb462b7e032c9b9e98e46fd80653a31df3b95d705670f9a775b777dbc50911eb78410693e19404db223bfacae46fcfcfc2ced6e8",
+          "url": "https://cdn.modrinth.com/data/rU60qFq2/versions/StIiDQS9/itemrestrictions-1.1.2.jar",
+          "filename": "itemrestrictions-1.1.2.jar",
+          "primary": true,
+          "size": 63822
+        },
+        {
+          "sha512": "dcd193c5833480b984a1ba651ab5c19be2720b0b951d5e0cfad28ae9075362cc0255b5ce5b6a194ee12a958e4ecc0ad19deebb0dc9847df2f6a524075e219a8a",
+          "url": "https://cdn.modrinth.com/data/rU60qFq2/versions/StIiDQS9/itemrestrictions-1.1.2-forge-sources.jar",
+          "filename": "itemrestrictions-1.1.2-forge-sources.jar",
+          "primary": false,
+          "size": 37174
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "LN9BxssP",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -146,87 +240,34 @@
       ]
     },
     {
-      "id": "5iRFfXuN",
-      "name": "Item Restrictions Fabric 1.20.1 - 1.2",
-      "version_number": "1.2",
+      "id": "riLAO9ZF",
+      "name": "Item Restrictions NeoForge 1.21 - 1.2.1-1.21",
+      "version_number": "1.2.1-1.21",
       "game_versions": [
-        "1.20.1"
+        "1.21"
       ],
       "loaders": [
-        "fabric"
+        "neoforge"
       ],
       "files": [
         {
-          "sha512": "28fc2f2351dfb0801dcf2df93a82bfea6181129f7d6999bc5a41829ad479b36fefab109db90617144edbf43fcc200a1b45348d1697d6a4691194f07e9c302c77",
-          "url": "https://cdn.modrinth.com/data/rU60qFq2/versions/5iRFfXuN/itemrestrictions-1.2-fabric.jar",
-          "filename": "itemrestrictions-1.2-fabric.jar",
+          "sha512": "4934697eb3c22fa0f17e3d4a0f789e6793d5a9c62227fae5e98a384f3f36692e43f2f3559f5d5b5e1f2a978b7cbf0641ac6346ab6ed3f90c605c6a665317a2c9",
+          "url": "https://cdn.modrinth.com/data/rU60qFq2/versions/riLAO9ZF/itemrestrictions-1.2.1-1.21-neoforge.jar",
+          "filename": "itemrestrictions-1.2.1-1.21-neoforge.jar",
           "primary": true,
-          "size": 61145
+          "size": 65981
         },
         {
-          "sha512": "96cc45a21d2b322bb1282c70908fd49c4c315522fafde06c75a546b130bb9af01269f432f3e43ba947d8b1c913f77a4ff2a1d89635737c49fd358cc96af1ea73",
-          "url": "https://cdn.modrinth.com/data/rU60qFq2/versions/5iRFfXuN/itemrestrictions-1.2-fabric-sources.jar",
-          "filename": "itemrestrictions-1.2-fabric-sources.jar",
+          "sha512": "2e9dd686884e080def3a2df20f73aa7615b1bfb6b792d5cd6942baca37c73a570814abca15b93f128c4506986e1ef3ab71e18e89750ba4ec3bc3870791f8cef0",
+          "url": "https://cdn.modrinth.com/data/rU60qFq2/versions/riLAO9ZF/itemrestrictions-1.2.1-1.21-neoforge-sources.jar",
+          "filename": "itemrestrictions-1.2.1-1.21-neoforge-sources.jar",
           "primary": false,
-          "size": 38035
+          "size": 8726
         }
       ],
       "dependencies": [
         {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "H3eKhxi7",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "StIiDQS9",
-      "name": "Item Restrictions Forge 1.20.1 - 1.1.2",
-      "version_number": "1.1.2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "0f6c161dcac8bd9c5c271498eb462b7e032c9b9e98e46fd80653a31df3b95d705670f9a775b777dbc50911eb78410693e19404db223bfacae46fcfcfc2ced6e8",
-          "url": "https://cdn.modrinth.com/data/rU60qFq2/versions/StIiDQS9/itemrestrictions-1.1.2.jar",
-          "filename": "itemrestrictions-1.1.2.jar",
-          "primary": true,
-          "size": 63822
-        },
-        {
-          "sha512": "dcd193c5833480b984a1ba651ab5c19be2720b0b951d5e0cfad28ae9075362cc0255b5ce5b6a194ee12a958e4ecc0ad19deebb0dc9847df2f6a524075e219a8a",
-          "url": "https://cdn.modrinth.com/data/rU60qFq2/versions/StIiDQS9/itemrestrictions-1.1.2-forge-sources.jar",
-          "filename": "itemrestrictions-1.1.2-forge-sources.jar",
-          "primary": false,
-          "size": 37174
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "H3eKhxi7",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LN9BxssP",
+          "project_id": "AOEDs9Al",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -236,50 +277,9 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "5zK1ByVT",
-      "name": "Item Restrictions Fabric 1.20.1 - 1.1.2",
-      "version_number": "1.1.2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e10f56c8519ee117029c6d816fd193e152e62e8e5015461e181ba2062a53d62e08bca803cab658c35e02f7b89928b2931c51f5b12b22157000064a36b629c41b",
-          "url": "https://cdn.modrinth.com/data/rU60qFq2/versions/5zK1ByVT/itemrestrictions-1.1.2.jar",
-          "filename": "itemrestrictions-1.1.2.jar",
-          "primary": true,
-          "size": 60914
-        },
-        {
-          "sha512": "86cd2ad9e69c719d53ef0b18a83224b6907d21faea3a46184fb26a38609dd572ceb2c83d28421d2d330d797523a2d334d099927caed7e0b51c74f0b6555ff390",
-          "url": "https://cdn.modrinth.com/data/rU60qFq2/versions/5zK1ByVT/itemrestrictions-1.1.2-fabric-sources.jar",
-          "filename": "itemrestrictions-1.1.2-fabric-sources.jar",
-          "primary": false,
-          "size": 36734
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "H3eKhxi7",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"

@@ -5,6 +5,67 @@
   "description": "A maintained fork of the 1.16.5 version of Jade.",
   "versions": [
     {
+      "id": "I8CUSbiM",
+      "name": "Amber 1.0",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "02caa68f530c85b1726dd8fd441c2343b04d4616cb132b09f8c8c321d139ac060f15d545bc68656bcefa4f09d22d817bfb9899dbe3f569c3c4309b79db2504eb",
+          "url": "https://cdn.modrinth.com/data/FYs9YRPs/versions/I8CUSbiM/amber-18-04-2023-17-00-25.jar",
+          "filename": "amber-18-04-2023-17-00-25.jar",
+          "primary": true,
+          "size": 293521
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "KoKX7cN9",
+      "name": "Amber 1.1",
+      "version_number": "1.1",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "56bb2c1d185f19f0f9aa2da67eef33cca11a4e1ebb6ab5245d93cc0103197ac934f397e67adf11aebbca363755b82fba7cce0d9bc2e9e43cefb1e6da3002ac18",
+          "url": "https://cdn.modrinth.com/data/FYs9YRPs/versions/KoKX7cN9/amber-1.1.jar",
+          "filename": "amber-1.1.jar",
+          "primary": true,
+          "size": 303403
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1Zu0uTEE",
+          "version_id": "YZKmio6M",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "R2OftAxM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "nvQzSEkH",
+          "version_id": "z8VJxqga",
+          "file_name": null,
+          "dependency_type": "incompatible"
+        }
+      ]
+    },
+    {
       "id": "LyyNRC7c",
       "name": "Amber 1.2.1",
       "version_number": "1.2.1",
@@ -25,19 +86,7 @@
       ],
       "dependencies": [
         {
-          "project_id": "nvQzSEkH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "incompatible"
-        },
-        {
           "project_id": "1Zu0uTEE",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "R2OftAxM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -49,41 +98,13 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "XxWD5pD3",
+          "project_id": "R2OftAxM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
         {
-          "project_id": "u6dRKJwZ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "itOockFC",
-      "name": "Amber 1.2",
-      "version_number": "1.2",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "1013a286df8cb3202d646d91215251703ea553511e0655140326b777f17f6c380a7ca49b0a9e37a3122ac9b15e216f3dcdf0304ac51a7e065d215b5ecb283c11",
-          "url": "https://cdn.modrinth.com/data/FYs9YRPs/versions/itOockFC/amber-1.2.jar",
-          "filename": "amber-1.2.jar",
-          "primary": true,
-          "size": 315475
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "u6dRKJwZ",
+          "project_id": "XxWD5pD3",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -95,25 +116,7 @@
           "dependency_type": "incompatible"
         },
         {
-          "project_id": "R2OftAxM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "LNytGWDc",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "XxWD5pD3",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "1Zu0uTEE",
+          "project_id": "u6dRKJwZ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -155,9 +158,9 @@
       ]
     },
     {
-      "id": "KoKX7cN9",
-      "name": "Amber 1.1",
-      "version_number": "1.1",
+      "id": "itOockFC",
+      "name": "Amber 1.2",
+      "version_number": "1.2",
       "game_versions": [
         "1.16.5"
       ],
@@ -166,54 +169,51 @@
       ],
       "files": [
         {
-          "sha512": "56bb2c1d185f19f0f9aa2da67eef33cca11a4e1ebb6ab5245d93cc0103197ac934f397e67adf11aebbca363755b82fba7cce0d9bc2e9e43cefb1e6da3002ac18",
-          "url": "https://cdn.modrinth.com/data/FYs9YRPs/versions/KoKX7cN9/amber-1.1.jar",
-          "filename": "amber-1.1.jar",
+          "sha512": "1013a286df8cb3202d646d91215251703ea553511e0655140326b777f17f6c380a7ca49b0a9e37a3122ac9b15e216f3dcdf0304ac51a7e065d215b5ecb283c11",
+          "url": "https://cdn.modrinth.com/data/FYs9YRPs/versions/itOockFC/amber-1.2.jar",
+          "filename": "amber-1.2.jar",
           "primary": true,
-          "size": 303403
+          "size": 315475
         }
       ],
       "dependencies": [
         {
           "project_id": "1Zu0uTEE",
-          "version_id": "YZKmio6M",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
         {
-          "project_id": "nvQzSEkH",
-          "version_id": "z8VJxqga",
+          "project_id": "LNytGWDc",
+          "version_id": null,
           "file_name": null,
-          "dependency_type": "incompatible"
+          "dependency_type": "optional"
         },
         {
           "project_id": "R2OftAxM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "XxWD5pD3",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "nvQzSEkH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
-    },
-    {
-      "id": "I8CUSbiM",
-      "name": "Amber 1.0",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "02caa68f530c85b1726dd8fd441c2343b04d4616cb132b09f8c8c321d139ac060f15d545bc68656bcefa4f09d22d817bfb9899dbe3f569c3c4309b79db2504eb",
-          "url": "https://cdn.modrinth.com/data/FYs9YRPs/versions/I8CUSbiM/amber-18-04-2023-17-00-25.jar",
-          "filename": "amber-18-04-2023-17-00-25.jar",
-          "primary": true,
-          "size": 293521
-        }
-      ],
-      "dependencies": []
     }
   ]
 }

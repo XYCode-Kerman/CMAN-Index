@@ -5,11 +5,11 @@
   "description": "Dune-inspired, Vanilla+ mod focused on Heat-based temperature survival and combat - sister mod of Frostiful!",
   "versions": [
     {
-      "id": "uQ7IZ1zW",
-      "name": "Scorchful 0.9-beta.1",
-      "version_number": "0.9-beta.1",
+      "id": "1a6BujcR",
+      "name": "Scorchful 0.5",
+      "version_number": "0.5",
       "game_versions": [
-        "1.21"
+        "1.20.1"
       ],
       "loaders": [
         "fabric",
@@ -17,14 +17,97 @@
       ],
       "files": [
         {
-          "sha512": "579a7ba885dbc28e5d2b04b0d2c08a357195ee1cfcf249391f392455198f63ae784f6baaafd3219cba55527640a25a179440350517e09f3ddb5b4e1f3e15bca8",
-          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/uQ7IZ1zW/scorchful-0.9-beta.1.jar",
-          "filename": "scorchful-0.9-beta.1.jar",
+          "sha512": "279daba66052fa7ac12380cfcb6c3c99cae96e6ef8a0c10f21187cf19c13cdb18343dad204e176fbd968cb1edbc085febc141306577aa1ae298a07d6647cacdc",
+          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/1a6BujcR/scorchful-0.5.jar",
+          "filename": "scorchful-0.5.jar",
           "primary": true,
-          "size": 922253
+          "size": 794534
         }
       ],
       "dependencies": [
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qWDh3G0p",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ae6qoBj3",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9TbXlAut",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "2NVHuO8s",
+      "name": "Scorchful 0.4",
+      "version_number": "0.4",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "bb7801fb8ea0b8af712e713af94f3c140da116f1e21157e152d977b78c3d55a7f7edbabfaff404edd20ecfbfff6c9ad5687179d4a4ab98f61178261971dc364a",
+          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/2NVHuO8s/scorchful-0.4.jar",
+          "filename": "scorchful-0.4.jar",
+          "primary": true,
+          "size": 796350
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
         {
           "project_id": "9TbXlAut",
           "version_id": null,
@@ -44,10 +127,39 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "K01OU20C",
+          "project_id": "qWDh3G0p",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "42RVjviY",
+      "name": "Scorchful 0.7",
+      "version_number": "0.7",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "7e9b491950e1009356451d214591be3b815460ee9e8a473fb68d6479f3a00deca1d080c13ff626b34fabf481b250eccda02c3d5e3ce4e34aab7f2a2b2bdcc1c9",
+          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/42RVjviY/scorchful-0.7.jar",
+          "filename": "scorchful-0.7.jar",
+          "primary": true,
+          "size": 827871
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Ae6qoBj3",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
@@ -56,7 +168,7 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "fRbqPLg4",
+          "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -68,10 +180,22 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "qWDh3G0p",
+          "project_id": "K01OU20C",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "9TbXlAut",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qWDh3G0p",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "incompatible"
         }
       ]
     },
@@ -134,6 +258,136 @@
         },
         {
           "project_id": "fRbqPLg4",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "G8z2X9be",
+      "name": "Scorchful 0.6.2",
+      "version_number": "0.6.2",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "45703732d2b93caffb2cfe86522c68adbb89e53a227a39689fe0fc45fd3ff27ad053f01d87adca4869dbc25697c4b65f032de530c619921644cbc2ff3500dba5",
+          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/G8z2X9be/scorchful-0.6.2.jar",
+          "filename": "scorchful-0.6.2.jar",
+          "primary": true,
+          "size": 821932
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9TbXlAut",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qWDh3G0p",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "Ae6qoBj3",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "GmD9YYjP",
+      "name": "Scorchful 0.6",
+      "version_number": "0.6",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "7d594755b61d8cd45410eb24e088b5903cb658d98f5c4e87cf953fe7b31afaad4666abb7d350e421fdb14a4f40c3a73e854debd5323fbbb9168aea4aa5a40d1a",
+          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/GmD9YYjP/scorchful-0.6.jar",
+          "filename": "scorchful-0.6.jar",
+          "primary": true,
+          "size": 821756
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ae6qoBj3",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9TbXlAut",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qWDh3G0p",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "K01OU20C",
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
@@ -208,6 +462,130 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "SxrkjuiU",
+      "name": "Scorchful 0.1.0",
+      "version_number": "0.1.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "df7a02241c0ad404ea5e158bbc1083dad14e8d2d33eeeb2da82819739bb11f7679fdcfee98765c23a9d18a2d4b6d5eb343d0df04bfea48a8e4046985f3900356",
+          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/SxrkjuiU/scorchful-0.1.0.jar",
+          "filename": "scorchful-0.1.0.jar",
+          "primary": true,
+          "size": 772964
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qWDh3G0p",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ae6qoBj3",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9TbXlAut",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "WMrnZSIf",
+      "name": "Scorchful 0.6.1",
+      "version_number": "0.6.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "bcf7848e26079a89dcf1ba9e9d3a8612342513e8ede134b160823e2ddb5ff21c2feaa55e007d08cb918e9e62bccbbf5f8dccfd77dd0d626abf47a498598ed99f",
+          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/WMrnZSIf/scorchful-0.6.1.jar",
+          "filename": "scorchful-0.6.1.jar",
+          "primary": true,
+          "size": 821936
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9TbXlAut",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ae6qoBj3",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qWDh3G0p",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -342,74 +720,9 @@
       ]
     },
     {
-      "id": "42RVjviY",
-      "name": "Scorchful 0.7",
-      "version_number": "0.7",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "7e9b491950e1009356451d214591be3b815460ee9e8a473fb68d6479f3a00deca1d080c13ff626b34fabf481b250eccda02c3d5e3ce4e34aab7f2a2b2bdcc1c9",
-          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/42RVjviY/scorchful-0.7.jar",
-          "filename": "scorchful-0.7.jar",
-          "primary": true,
-          "size": 827871
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ae6qoBj3",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9TbXlAut",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qWDh3G0p",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "incompatible"
-        }
-      ]
-    },
-    {
-      "id": "G8z2X9be",
-      "name": "Scorchful 0.6.2",
-      "version_number": "0.6.2",
+      "id": "i8pNKmNu",
+      "name": "Scorchful 0.2",
+      "version_number": "0.2",
       "game_versions": [
         "1.20.1"
       ],
@@ -419,103 +732,14 @@
       ],
       "files": [
         {
-          "sha512": "45703732d2b93caffb2cfe86522c68adbb89e53a227a39689fe0fc45fd3ff27ad053f01d87adca4869dbc25697c4b65f032de530c619921644cbc2ff3500dba5",
-          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/G8z2X9be/scorchful-0.6.2.jar",
-          "filename": "scorchful-0.6.2.jar",
+          "sha512": "505f6c1b8b5dfe299b317503ce2f7e0c69d68363795bc0f44e6583e70f67581c6b796ead08916dbde0d1841b8d4a2e9054977fbbb009a16bc0d3b69a4e198b86",
+          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/i8pNKmNu/scorchful-0.2.jar",
+          "filename": "scorchful-0.2.jar",
           "primary": true,
-          "size": 821932
+          "size": 784942
         }
       ],
       "dependencies": [
-        {
-          "project_id": "9TbXlAut",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ae6qoBj3",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "qWDh3G0p",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "WMrnZSIf",
-      "name": "Scorchful 0.6.1",
-      "version_number": "0.6.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "bcf7848e26079a89dcf1ba9e9d3a8612342513e8ede134b160823e2ddb5ff21c2feaa55e007d08cb918e9e62bccbbf5f8dccfd77dd0d626abf47a498598ed99f",
-          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/WMrnZSIf/scorchful-0.6.1.jar",
-          "filename": "scorchful-0.6.1.jar",
-          "primary": true,
-          "size": 821936
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qWDh3G0p",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9TbXlAut",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "K01OU20C",
           "version_id": null,
@@ -527,121 +751,15 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "GmD9YYjP",
-      "name": "Scorchful 0.6",
-      "version_number": "0.6",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "7d594755b61d8cd45410eb24e088b5903cb658d98f5c4e87cf953fe7b31afaad4666abb7d350e421fdb14a4f40c3a73e854debd5323fbbb9168aea4aa5a40d1a",
-          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/GmD9YYjP/scorchful-0.6.jar",
-          "filename": "scorchful-0.6.jar",
-          "primary": true,
-          "size": 821756
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ae6qoBj3",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9TbXlAut",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qWDh3G0p",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "1a6BujcR",
-      "name": "Scorchful 0.5",
-      "version_number": "0.5",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "279daba66052fa7ac12380cfcb6c3c99cae96e6ef8a0c10f21187cf19c13cdb18343dad204e176fbd968cb1edbc085febc141306577aa1ae298a07d6647cacdc",
-          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/1a6BujcR/scorchful-0.5.jar",
-          "filename": "scorchful-0.5.jar",
-          "primary": true,
-          "size": 794534
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9TbXlAut",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ae6qoBj3",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
         },
         {
           "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9TbXlAut",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -653,75 +771,10 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "qWDh3G0p",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "2NVHuO8s",
-      "name": "Scorchful 0.4",
-      "version_number": "0.4",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "bb7801fb8ea0b8af712e713af94f3c140da116f1e21157e152d977b78c3d55a7f7edbabfaff404edd20ecfbfff6c9ad5687179d4a4ab98f61178261971dc364a",
-          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/2NVHuO8s/scorchful-0.4.jar",
-          "filename": "scorchful-0.4.jar",
-          "primary": true,
-          "size": 796350
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9TbXlAut",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "Ae6qoBj3",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "qWDh3G0p",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -785,11 +838,11 @@
       ]
     },
     {
-      "id": "i8pNKmNu",
-      "name": "Scorchful 0.2",
-      "version_number": "0.2",
+      "id": "uQ7IZ1zW",
+      "name": "Scorchful 0.9-beta.1",
+      "version_number": "0.9-beta.1",
       "game_versions": [
-        "1.20.1"
+        "1.21"
       ],
       "loaders": [
         "fabric",
@@ -797,19 +850,96 @@
       ],
       "files": [
         {
-          "sha512": "505f6c1b8b5dfe299b317503ce2f7e0c69d68363795bc0f44e6583e70f67581c6b796ead08916dbde0d1841b8d4a2e9054977fbbb009a16bc0d3b69a4e198b86",
-          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/i8pNKmNu/scorchful-0.2.jar",
-          "filename": "scorchful-0.2.jar",
+          "sha512": "579a7ba885dbc28e5d2b04b0d2c08a357195ee1cfcf249391f392455198f63ae784f6baaafd3219cba55527640a25a179440350517e09f3ddb5b4e1f3e15bca8",
+          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/uQ7IZ1zW/scorchful-0.9-beta.1.jar",
+          "filename": "scorchful-0.9-beta.1.jar",
           "primary": true,
-          "size": 784942
+          "size": 922253
         }
       ],
       "dependencies": [
         {
+          "project_id": "9TbXlAut",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ae6qoBj3",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "K01OU20C",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "fRbqPLg4",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "qWDh3G0p",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "xe9r6roa",
+      "name": "Scorchful 0.9",
+      "version_number": "0.9",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3f6428979ad70dca7628df051d694e081a73baa512300d70f3f62a92ec1106136ee04e7d0e72d4e8c2aa42fd7e19cbedae7d05c9d08e6a46b845f7ab61761446",
+          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/xe9r6roa/scorchful-0.9.jar",
+          "filename": "scorchful-0.9.jar",
+          "primary": true,
+          "size": 922498
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "Ae6qoBj3",
@@ -830,16 +960,22 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
+          "project_id": "fRbqPLg4",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "embedded"
         },
         {
           "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "qWDh3G0p",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -899,71 +1035,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "SxrkjuiU",
-      "name": "Scorchful 0.1.0",
-      "version_number": "0.1.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "df7a02241c0ad404ea5e158bbc1083dad14e8d2d33eeeb2da82819739bb11f7679fdcfee98765c23a9d18a2d4b6d5eb343d0df04bfea48a8e4046985f3900356",
-          "url": "https://cdn.modrinth.com/data/SZQ5qcdn/versions/SxrkjuiU/scorchful-0.1.0.jar",
-          "filename": "scorchful-0.1.0.jar",
-          "primary": true,
-          "size": 772964
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qWDh3G0p",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9TbXlAut",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ae6qoBj3",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
         }
       ]
     }

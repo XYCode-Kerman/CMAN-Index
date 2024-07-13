@@ -5,22 +5,23 @@
   "description": "A (absolutely not) useless mod for Minecraft",
   "versions": [
     {
-      "id": "GBxGD7Pe",
-      "name": "[1.21] v11.0.0",
-      "version_number": "11.0.0",
+      "id": "9xNCV5sJ",
+      "name": "[1.20.1] v7.3.0",
+      "version_number": "7.3.0",
       "game_versions": [
-        "1.21"
+        "1.20.1"
       ],
       "loaders": [
+        "forge",
         "neoforge"
       ],
       "files": [
         {
-          "sha512": "d97be5802fc0d429916a1a94e92f0ba88c67a779a3b2974b19421ad69f14e8f46685b03ca3b47200f783f15eed7b59833929cc297a4b40d863589c35dbb7cd18",
-          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/GBxGD7Pe/uselessmod-1.21-11.0.0.jar",
-          "filename": "uselessmod-1.21-11.0.0.jar",
+          "sha512": "1de1c0f3f990a2b5e98a027e0ca36694a3643dbb81a2809fb7bcf9c49d408b7e735257f9b9d9dd523455bcfa1b1c49a305c602c9c8a9483433b2ed7b1e5087a4",
+          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/9xNCV5sJ/uselessmod-1.20.1-7.3.0.jar",
+          "filename": "uselessmod-1.20.1-7.3.0.jar",
           "primary": true,
-          "size": 816405
+          "size": 786678
         }
       ],
       "dependencies": [
@@ -29,12 +30,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -73,9 +68,30 @@
       ]
     },
     {
-      "id": "9xNCV5sJ",
-      "name": "[1.20.1] v7.3.0",
-      "version_number": "7.3.0",
+      "id": "CQ5PWKCz",
+      "name": "4.2.2",
+      "version_number": "4.2.2",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "322d355f33e59ffb2cbf74d678b500e1be64e3d83a9dae48854e20f276ab92fefa8309f4210ae432cc28e9ab4e5466d89f938d92dc03372184dc61de5355e72a",
+          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/4.2.2/UselessMod-1.16.5-4.2.2.jar",
+          "filename": "UselessMod-1.16.5-4.2.2.jar",
+          "primary": false,
+          "size": 2797562
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "E2yZWI8Q",
+      "name": "[1.20.1] 7.2.0",
+      "version_number": "7.2.0",
       "game_versions": [
         "1.20.1"
       ],
@@ -85,11 +101,45 @@
       ],
       "files": [
         {
-          "sha512": "1de1c0f3f990a2b5e98a027e0ca36694a3643dbb81a2809fb7bcf9c49d408b7e735257f9b9d9dd523455bcfa1b1c49a305c602c9c8a9483433b2ed7b1e5087a4",
-          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/9xNCV5sJ/uselessmod-1.20.1-7.3.0.jar",
-          "filename": "uselessmod-1.20.1-7.3.0.jar",
+          "sha512": "4f269f3f6e3af42e7dd0132e8bf56fb43f81c865bbd0ea72dc24fbfcdb0868ba38ab3f3ad0a13d793dc45c2402e45c8cc42dd6133727bba866440beafca09364",
+          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/E2yZWI8Q/UselessMod-1.20.1-7.2.0.jar",
+          "filename": "UselessMod-1.20.1-7.2.0.jar",
           "primary": true,
-          "size": 786678
+          "size": 782060
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "eIDsiLbx",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "GBxGD7Pe",
+      "name": "[1.21] v11.0.0",
+      "version_number": "11.0.0",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "d97be5802fc0d429916a1a94e92f0ba88c67a779a3b2974b19421ad69f14e8f46685b03ca3b47200f783f15eed7b59833929cc297a4b40d863589c35dbb7cd18",
+          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/GBxGD7Pe/uselessmod-1.21-11.0.0.jar",
+          "filename": "uselessmod-1.21-11.0.0.jar",
+          "primary": true,
+          "size": 816405
         }
       ],
       "dependencies": [
@@ -98,6 +148,12 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -127,6 +183,68 @@
           "file_name": null,
           "dependency_type": "optional"
         },
+        {
+          "project_id": "eIDsiLbx",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Offho6OP",
+      "name": "5.0.1",
+      "version_number": "5.0.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "507ead0c1746fe12780fa661ee001ffb0606016536c31b4e40cbbdff144fe4840df5347498f9d4b7f3254d5b3e57d46fcd53f1a94347dcd59f57fa9601a7e7b4",
+          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/Offho6OP/UselessMod-1.18.2-5.0.1.jar",
+          "filename": "UselessMod-1.18.2-5.0.1.jar",
+          "primary": true,
+          "size": 664343
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "eIDsiLbx",
+          "version_id": "V1lznUa8",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": "k3W3h9cO",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "RqYqcdTz",
+      "name": "[1.20.2] v8.0.1",
+      "version_number": "8.0.1",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "593d85603ff277d2366591983b8e420bddcd7aeca091b4e7676be8e248d79900ea64f514998eb9030d19d9275e097a8497afd49f1f1e5842110257ca6df11d5f",
+          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/RqYqcdTz/uselessmod-1.20.2-8.0.1.jar",
+          "filename": "uselessmod-1.20.2-8.0.1.jar",
+          "primary": true,
+          "size": 742899
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "eIDsiLbx",
           "version_id": null,
@@ -170,34 +288,6 @@
       ]
     },
     {
-      "id": "kjsDT9Br",
-      "name": "[1.20.4] v9.0.1",
-      "version_number": "9.0.1",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "51b101615098f72379b63c4680d4e83ab01e74ccda36099f3ad30c87b8a29096426c757b26830276d1f3a54117d18525b6a72c5d6f15ef7130edfa79b5996ebf",
-          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/kjsDT9Br/uselessmod-1.20.4-9.0.1.jar",
-          "filename": "uselessmod-1.20.4-9.0.1.jar",
-          "primary": true,
-          "size": 746575
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "eIDsiLbx",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "Xe3epnrg",
       "name": "[1.20.4] v9.0.0",
       "version_number": "9.0.0",
@@ -226,6 +316,97 @@
       ]
     },
     {
+      "id": "YDvo3Mq2",
+      "name": "7.1.0",
+      "version_number": "7.1.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "a7d6168f83212933110eb2cb52ec59383a6a6548df86d284c9a1ddb60abeeef51675bb2ee503b3546f27f76d9b1e6053d82761e50fa05487765e5fdddd25ab01",
+          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/YDvo3Mq2/UselessMod-1.20.1-7.1.0.jar",
+          "filename": "UselessMod-1.20.1-7.1.0.jar",
+          "primary": true,
+          "size": 775585
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "eIDsiLbx",
+          "version_id": "CexrNAYa",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": "fGcPFvGp",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "asV9s5GD",
+      "name": "4.2.1",
+      "version_number": "4.2.1",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "856466297110c379592ab6396d1ccd918b6a7b1e8bcfbe3fae0f0219f5dd1edd3c68487098d94c9ef34e12bc791c4e354a3ea2f98f36fcc6f43417f0d34fd480",
+          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/4.2.1/UselessMod-1.16.5-4.2.1.jar",
+          "filename": "UselessMod-1.16.5-4.2.1.jar",
+          "primary": true,
+          "size": 2797385
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "cZE1Qrhi",
+      "name": "7.0.0",
+      "version_number": "7.0.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "5d6c07c474704d4124a2ff9b90c522c1c5e3e9a9a9c8f10327fe7a72b2609e9feeed7e4bdc35ce8bdbe384a246041ce002ec308dd57fd33becf82c22ea53adbc",
+          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/cZE1Qrhi/UselessMod-1.20.1-7.0.0.jar",
+          "filename": "UselessMod-1.20.1-7.0.0.jar",
+          "primary": true,
+          "size": 763638
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "eIDsiLbx",
+          "version_id": "CexrNAYa",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": "fGcPFvGp",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "grghmO4r",
       "name": "[1.20.2] v8.1.0",
       "version_number": "8.1.0",
@@ -242,34 +423,6 @@
           "filename": "uselessmod-1.20.2-8.1.0.jar",
           "primary": true,
           "size": 747199
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "eIDsiLbx",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "RqYqcdTz",
-      "name": "[1.20.2] v8.0.1",
-      "version_number": "8.0.1",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "593d85603ff277d2366591983b8e420bddcd7aeca091b4e7676be8e248d79900ea64f514998eb9030d19d9275e097a8497afd49f1f1e5842110257ca6df11d5f",
-          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/RqYqcdTz/uselessmod-1.20.2-8.0.1.jar",
-          "filename": "uselessmod-1.20.2-8.0.1.jar",
-          "primary": true,
-          "size": 742899
         }
       ],
       "dependencies": [
@@ -311,60 +464,25 @@
       ]
     },
     {
-      "id": "yEbcwmj5",
-      "name": "[1.20.2] v8.0.0",
-      "version_number": "8.0.0",
+      "id": "kjsDT9Br",
+      "name": "[1.20.4] v9.0.1",
+      "version_number": "9.0.1",
       "game_versions": [
-        "1.20.2"
+        "1.20.4"
       ],
       "loaders": [
         "neoforge"
       ],
       "files": [
         {
-          "sha512": "e2674b4184e2877acac7c0f9bf0bdd6094cbd0e4adec91e9fd7274178ba5ac5d0fcab750f4c0a72d37e318f4dcfcc275400e53da7687734c68553e3c6736d386",
-          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/yEbcwmj5/uselessmod-1.20.2-8.0.0.jar",
-          "filename": "uselessmod-1.20.2-8.0.0.jar",
+          "sha512": "51b101615098f72379b63c4680d4e83ab01e74ccda36099f3ad30c87b8a29096426c757b26830276d1f3a54117d18525b6a72c5d6f15ef7130edfa79b5996ebf",
+          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/kjsDT9Br/uselessmod-1.20.4-9.0.1.jar",
+          "filename": "uselessmod-1.20.4-9.0.1.jar",
           "primary": true,
-          "size": 742660
+          "size": 746575
         }
       ],
       "dependencies": [
-        {
-          "project_id": "eIDsiLbx",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "E2yZWI8Q",
-      "name": "[1.20.1] 7.2.0",
-      "version_number": "7.2.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge",
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "4f269f3f6e3af42e7dd0132e8bf56fb43f81c865bbd0ea72dc24fbfcdb0868ba38ab3f3ad0a13d793dc45c2402e45c8cc42dd6133727bba866440beafca09364",
-          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/E2yZWI8Q/UselessMod-1.20.1-7.2.0.jar",
-          "filename": "UselessMod-1.20.1-7.2.0.jar",
-          "primary": true,
-          "size": 782060
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "eIDsiLbx",
           "version_id": null,
@@ -408,110 +526,6 @@
       ]
     },
     {
-      "id": "YDvo3Mq2",
-      "name": "7.1.0",
-      "version_number": "7.1.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge",
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "a7d6168f83212933110eb2cb52ec59383a6a6548df86d284c9a1ddb60abeeef51675bb2ee503b3546f27f76d9b1e6053d82761e50fa05487765e5fdddd25ab01",
-          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/YDvo3Mq2/UselessMod-1.20.1-7.1.0.jar",
-          "filename": "UselessMod-1.20.1-7.1.0.jar",
-          "primary": true,
-          "size": 775585
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "eIDsiLbx",
-          "version_id": "CexrNAYa",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": "fGcPFvGp",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "cZE1Qrhi",
-      "name": "7.0.0",
-      "version_number": "7.0.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge",
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "5d6c07c474704d4124a2ff9b90c522c1c5e3e9a9a9c8f10327fe7a72b2609e9feeed7e4bdc35ce8bdbe384a246041ce002ec308dd57fd33becf82c22ea53adbc",
-          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/cZE1Qrhi/UselessMod-1.20.1-7.0.0.jar",
-          "filename": "UselessMod-1.20.1-7.0.0.jar",
-          "primary": true,
-          "size": 763638
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "eIDsiLbx",
-          "version_id": "CexrNAYa",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": "fGcPFvGp",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "Offho6OP",
-      "name": "5.0.1",
-      "version_number": "5.0.1",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "507ead0c1746fe12780fa661ee001ffb0606016536c31b4e40cbbdff144fe4840df5347498f9d4b7f3254d5b3e57d46fcd53f1a94347dcd59f57fa9601a7e7b4",
-          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/Offho6OP/UselessMod-1.18.2-5.0.1.jar",
-          "filename": "UselessMod-1.18.2-5.0.1.jar",
-          "primary": true,
-          "size": 664343
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "eIDsiLbx",
-          "version_id": "V1lznUa8",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": "k3W3h9cO",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "vDAmisQR",
       "name": "6.0.0",
       "version_number": "6.0.0",
@@ -532,60 +546,46 @@
       ],
       "dependencies": [
         {
-          "project_id": "eIDsiLbx",
-          "version_id": "uNlodPiY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "u6dRKJwZ",
           "version_id": "dGZUi2bk",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "eIDsiLbx",
+          "version_id": "uNlodPiY",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "CQ5PWKCz",
-      "name": "4.2.2",
-      "version_number": "4.2.2",
+      "id": "yEbcwmj5",
+      "name": "[1.20.2] v8.0.0",
+      "version_number": "8.0.0",
       "game_versions": [
-        "1.16.5"
+        "1.20.2"
       ],
       "loaders": [
-        "forge"
+        "neoforge"
       ],
       "files": [
         {
-          "sha512": "322d355f33e59ffb2cbf74d678b500e1be64e3d83a9dae48854e20f276ab92fefa8309f4210ae432cc28e9ab4e5466d89f938d92dc03372184dc61de5355e72a",
-          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/4.2.2/UselessMod-1.16.5-4.2.2.jar",
-          "filename": "UselessMod-1.16.5-4.2.2.jar",
-          "primary": false,
-          "size": 2797562
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "asV9s5GD",
-      "name": "4.2.1",
-      "version_number": "4.2.1",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "856466297110c379592ab6396d1ccd918b6a7b1e8bcfbe3fae0f0219f5dd1edd3c68487098d94c9ef34e12bc791c4e354a3ea2f98f36fcc6f43417f0d34fd480",
-          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/4.2.1/UselessMod-1.16.5-4.2.1.jar",
-          "filename": "UselessMod-1.16.5-4.2.1.jar",
+          "sha512": "e2674b4184e2877acac7c0f9bf0bdd6094cbd0e4adec91e9fd7274178ba5ac5d0fcab750f4c0a72d37e318f4dcfcc275400e53da7687734c68553e3c6736d386",
+          "url": "https://cdn.modrinth.com/data/yDQBgtWH/versions/yEbcwmj5/uselessmod-1.20.2-8.0.0.jar",
+          "filename": "uselessmod-1.20.2-8.0.0.jar",
           "primary": true,
-          "size": 2797385
+          "size": 742660
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "eIDsiLbx",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     }
   ]
 }

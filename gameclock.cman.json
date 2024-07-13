@@ -101,40 +101,6 @@
       ]
     },
     {
-      "id": "jWQNYstN",
-      "name": "GameClock 1.1.1",
-      "version_number": "1.1.1",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ee08e42873dabfcae2e0e712715fc2214be981eb8dba4b3cbdc5ec0e2418b1dbdd6c23abe0c4915b72db782a27d83b85f63d0700192491d8a97942b5a221c333",
-          "url": "https://cdn.modrinth.com/data/vnpgS9i8/versions/jWQNYstN/GameClock-1.1.1.jar",
-          "filename": "GameClock-1.1.1.jar",
-          "primary": true,
-          "size": 70371
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "O0Obe09I",
       "name": "GameClock 1.1",
       "version_number": "1.1",
@@ -189,16 +155,50 @@
       ],
       "dependencies": [
         {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
+        }
+      ]
+    },
+    {
+      "id": "jWQNYstN",
+      "name": "GameClock 1.1.1",
+      "version_number": "1.1.1",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ee08e42873dabfcae2e0e712715fc2214be981eb8dba4b3cbdc5ec0e2418b1dbdd6c23abe0c4915b72db782a27d83b85f63d0700192491d8a97942b5a221c333",
+          "url": "https://cdn.modrinth.com/data/vnpgS9i8/versions/jWQNYstN/GameClock-1.1.1.jar",
+          "filename": "GameClock-1.1.1.jar",
+          "primary": true,
+          "size": 70371
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "1eAoo2KR",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }

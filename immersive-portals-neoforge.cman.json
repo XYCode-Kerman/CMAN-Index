@@ -5,46 +5,6 @@
   "description": "See through portals and go through them seamlessly without a loading screen.",
   "versions": [
     {
-      "id": "qaG3axMj",
-      "name": "Immersive Portals for NeoForge 5.1.7-alpha2",
-      "version_number": "5.1.7-alpha2",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "ba83b0de75a7d1eed628039d543e5de8e1bf9ce2ce803d335d42fbc143a73216cac64320c4a3f2d1b554970feead07b307190d21804ce9f655f400b89cfc2fa2",
-          "url": "https://cdn.modrinth.com/data/zf4Szzx2/versions/qaG3axMj/immersive_portals-5.1.7.jar",
-          "filename": "immersive_portals-5.1.7.jar",
-          "primary": true,
-          "size": 1861841
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "sk9rgfiA",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "t5W7Jfwy",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "1OXgRTqI",
       "name": "Immersive Portals for NeoForge 5.1.7-alpha",
       "version_number": "5.1.7-alpha",
@@ -65,6 +25,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "sk9rgfiA",
           "version_id": null,
           "file_name": null,
@@ -75,12 +41,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -141,48 +101,6 @@
       ]
     },
     {
-      "id": "xclsOB6G",
-      "name": "Immersive Portals for Forge 1.4.20",
-      "version_number": "1.4.20",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "09f8e02b84c40a7dad19b85b932c70503ad5fc77249ae59f40606505ec7488444e5dc65ff3392ecb0eb23f95e97e3a99ff78cdb500643d8abe5557c79f2991d4",
-          "url": "https://cdn.modrinth.com/data/zf4Szzx2/versions/xclsOB6G/immersive-portals-1.4.20-mc1.18.2-forge.jar",
-          "filename": "immersive-portals-1.4.20-mc1.18.2-forge.jar",
-          "primary": true,
-          "size": 1583209
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "jXZWAaOl",
-      "name": "Immersive Portals for Forge",
-      "version_number": "0.1.17",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "ff691202479ac82751cc23049d57c126b892c41238b2c9182be4424da67c7b6147b4829f3be3c68fc6611b05ccdc29a787ac7462ec8862329b560f5e57da2f85",
-          "url": "https://cdn.modrinth.com/data/zf4Szzx2/versions/jXZWAaOl/immersive-portals-0.17-mc1.16.5-forge.jar",
-          "filename": "immersive-portals-0.17-mc1.16.5-forge.jar",
-          "primary": true,
-          "size": 5081679
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "bHQ2vnhu",
       "name": "Immersive Portals for Forge 0.24",
       "version_number": "0.0.24",
@@ -211,6 +129,27 @@
       ]
     },
     {
+      "id": "jXZWAaOl",
+      "name": "Immersive Portals for Forge",
+      "version_number": "0.1.17",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ff691202479ac82751cc23049d57c126b892c41238b2c9182be4424da67c7b6147b4829f3be3c68fc6611b05ccdc29a787ac7462ec8862329b560f5e57da2f85",
+          "url": "https://cdn.modrinth.com/data/zf4Szzx2/versions/jXZWAaOl/immersive-portals-0.17-mc1.16.5-forge.jar",
+          "filename": "immersive-portals-0.17-mc1.16.5-forge.jar",
+          "primary": true,
+          "size": 5081679
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "kL4iYKux",
       "name": "Immersive Portals for Forge 0.15",
       "version_number": "0.0.15",
@@ -237,6 +176,67 @@
           "dependency_type": "required"
         }
       ]
+    },
+    {
+      "id": "qaG3axMj",
+      "name": "Immersive Portals for NeoForge 5.1.7-alpha2",
+      "version_number": "5.1.7-alpha2",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "ba83b0de75a7d1eed628039d543e5de8e1bf9ce2ce803d335d42fbc143a73216cac64320c4a3f2d1b554970feead07b307190d21804ce9f655f400b89cfc2fa2",
+          "url": "https://cdn.modrinth.com/data/zf4Szzx2/versions/qaG3axMj/immersive_portals-5.1.7.jar",
+          "filename": "immersive_portals-5.1.7.jar",
+          "primary": true,
+          "size": 1861841
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "sk9rgfiA",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "t5W7Jfwy",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "xclsOB6G",
+      "name": "Immersive Portals for Forge 1.4.20",
+      "version_number": "1.4.20",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "09f8e02b84c40a7dad19b85b932c70503ad5fc77249ae59f40606505ec7488444e5dc65ff3392ecb0eb23f95e97e3a99ff78cdb500643d8abe5557c79f2991d4",
+          "url": "https://cdn.modrinth.com/data/zf4Szzx2/versions/xclsOB6G/immersive-portals-1.4.20-mc1.18.2-forge.jar",
+          "filename": "immersive-portals-1.4.20-mc1.18.2-forge.jar",
+          "primary": true,
+          "size": 1583209
+        }
+      ],
+      "dependencies": []
     }
   ]
 }

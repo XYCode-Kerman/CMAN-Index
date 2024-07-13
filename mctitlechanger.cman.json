@@ -5,6 +5,156 @@
   "description": "A title changer changes the window title of Minecraft.",
   "versions": [
     {
+      "id": "1rJPBfBI",
+      "name": "[Fabric/Quilt] 1.10.2",
+      "version_number": "1.10.2",
+      "game_versions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "aa940b191595a22151fc7c5a9011bdcd1990990d7515b4a49e92434d736e3d3fb25e8fc0e8f46f80a06e74775c5493808fbfdf591c9c28fe2092445cd65100b1",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/1rJPBfBI/TitleChanger-1.10.2.jar",
+          "filename": "TitleChanger-1.10.2.jar",
+          "primary": true,
+          "size": 35200
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Xg35A4rS",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "1x0upJwK",
+      "name": "[Fabric/Quilt] 1.9",
+      "version_number": "1.9",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "b16c3c459b524d67abdc5650ede1edfc1b6c3118e7b96ca69d7ee3e3b8b0b4a48d1ed706c55859240112201d5da4d2678892fc91989033cedaded32fb0bc6871",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/1x0upJwK/TitleChanger-1.9-dev.jar",
+          "filename": "TitleChanger-1.9-dev.jar",
+          "primary": true,
+          "size": 22576
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": "FQ8igcH8",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "2u6llnj9",
+      "name": "[Fabric/Qulit ] 1.8",
+      "version_number": "1.8",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "569b7a6532cd6a6f9cf2a1c13631b6d854233c169d30c9906bbb2637196ae657424542727d50b4e7e6844347ff46a56391082bb0202afceb5cc90db17f7fcbe1",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/2u6llnj9/TitleChanger-1.8-dev.jar",
+          "filename": "TitleChanger-1.8-dev.jar",
+          "primary": true,
+          "size": 22459
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": "YR0CuU2t",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "3l5rGto7",
+      "name": "[Fabric/Quilt] 1.10",
+      "version_number": "1.10",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "9610cea83ee9372e32092125077bbbc1d8253526b6e5e16f2b8796b71c07143680877706c73e75fd27a4d7e5f12963b69dcc9ab072750b55c58348fb8dd4a0ea",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/3l5rGto7/TitleChanger-1.10.jar",
+          "filename": "TitleChanger-1.10.jar",
+          "primary": true,
+          "size": 35255
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Xg35A4rS",
+          "version_id": "p3AKqWqZ",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "4K6TfDnl",
+      "name": "[Forge] 1.9.1",
+      "version_number": "1.9.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d705ed2fc36feeb93a0618cb181d0db267bd9df1f9c0f4d6b272999f058440ed8b05e584c204dcbb4ad04eaa5e65a92a3a034f753b60a291a7ed7534f9bb8679",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/4K6TfDnl/titlechanger-1.9.1-all.jar",
+          "filename": "titlechanger-1.9.1-all.jar",
+          "primary": true,
+          "size": 29539
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "5Cf26Ll0",
       "name": "[Fabric/Quilt]1.11.1",
       "version_number": "1.11.1",
@@ -42,23 +192,45 @@
       ]
     },
     {
-      "id": "jZ1ZFiaF",
-      "name": "[Fabric/Quilt] 1.11.0",
-      "version_number": "1.11.0",
+      "id": "6fHQRM6N",
+      "name": "[Forge]1.6.3",
+      "version_number": "1.6.3",
       "game_versions": [
-        "1.20.3",
-        "1.20.4"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
-        "fabric"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "249ab383bf6a44d564df3744d6b90a2efbd6713df0cfe4fc00cabe9ae537e377e145fa46f6723826474d2f0dc652cd8380caa109e52cd9c5c93bd2b5fc4497f2",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/jZ1ZFiaF/TitleChanger-1.11.0.jar",
-          "filename": "TitleChanger-1.11.0.jar",
+          "sha512": "b3d044e06d0a28d00755cc2940f9e6872c773a251d54f849423f30a205d424af6d6f1e52f87d6ffe15c0f2798b928ec6a4faa083b171262436d429600c8af012",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/6fHQRM6N/TitleChanger-1.6.3.jar",
+          "filename": "TitleChanger-1.6.3.jar",
           "primary": true,
-          "size": 34936
+          "size": 19067
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "AxHyHn16",
+      "name": "[Forge] 1.10.1",
+      "version_number": "1.10.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "90d0ea15959dbc4c0844fee48f59a93b0124e70223339a64527f367720ef97eda30a0065ad6c826aade3be0fa41a562cf148191d91ea8ab95c431223a13c0c77",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/AxHyHn16/titlechanger-1.10.1-all.jar",
+          "filename": "titlechanger-1.10.1-all.jar",
+          "primary": true,
+          "size": 36243
         }
       ],
       "dependencies": [
@@ -67,12 +239,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "YgnbXPMn",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -101,42 +267,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "1rJPBfBI",
-      "name": "[Fabric/Quilt] 1.10.2",
-      "version_number": "1.10.2",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "aa940b191595a22151fc7c5a9011bdcd1990990d7515b4a49e92434d736e3d3fb25e8fc0e8f46f80a06e74775c5493808fbfdf591c9c28fe2092445cd65100b1",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/1rJPBfBI/TitleChanger-1.10.2.jar",
-          "filename": "TitleChanger-1.10.2.jar",
-          "primary": true,
-          "size": 35200
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Xg35A4rS",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "YgnbXPMn",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -177,720 +307,6 @@
       ]
     },
     {
-      "id": "AxHyHn16",
-      "name": "[Forge] 1.10.1",
-      "version_number": "1.10.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "90d0ea15959dbc4c0844fee48f59a93b0124e70223339a64527f367720ef97eda30a0065ad6c826aade3be0fa41a562cf148191d91ea8ab95c431223a13c0c77",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/AxHyHn16/titlechanger-1.10.1-all.jar",
-          "filename": "titlechanger-1.10.1-all.jar",
-          "primary": true,
-          "size": 36243
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Xg35A4rS",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "3l5rGto7",
-      "name": "[Fabric/Quilt] 1.10",
-      "version_number": "1.10",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "9610cea83ee9372e32092125077bbbc1d8253526b6e5e16f2b8796b71c07143680877706c73e75fd27a4d7e5f12963b69dcc9ab072750b55c58348fb8dd4a0ea",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/3l5rGto7/TitleChanger-1.10.jar",
-          "filename": "TitleChanger-1.10.jar",
-          "primary": true,
-          "size": 35255
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "YgnbXPMn",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Xg35A4rS",
-          "version_id": "p3AKqWqZ",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ngA0E5Uq",
-      "name": "[Forge] 1.10",
-      "version_number": "1.10",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "07bd5843908d5e61c734f3f91c6741ceef471d233868b5ebe717cfa6d07eb41d20fa3fde70067a48553d75f64ed1489a60fcac41981cc07a946876ed623229f9",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/ngA0E5Uq/titlechanger-1.10-all.jar",
-          "filename": "titlechanger-1.10-all.jar",
-          "primary": true,
-          "size": 35752
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Xg35A4rS",
-          "version_id": "y6sJQReg",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "xKOUpDwk",
-      "name": "[Fabric/Quilt] 1.9.2p2",
-      "version_number": "1.9.2p2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "9416a0dd9c4aad099521c5d6a8fefcba7fc2c0ed1bf043b8209c420127fb0a92c208668391c49ee75da11cc12bf11cf52d58c420e342ef77340db3ffc27cca1c",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/xKOUpDwk/TitleChanger-1.9.2p2.jar",
-          "filename": "TitleChanger-1.9.2p2.jar",
-          "primary": true,
-          "size": 30841
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Xg35A4rS",
-          "version_id": "p3AKqWqZ",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "YgnbXPMn",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Q2UaDWmd",
-      "name": "[Forge] 1.9.1p2",
-      "version_number": "1.9.1p2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "0946bb56708c5124232d99629998fe2cc33dd997891a10affae29777fdac25dc4addb3dd0a736006f464d7bc423c7d34c9fe5b3bd1f6156d1474ba7697c9f03d",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/Q2UaDWmd/titlechanger-1.9.1p2-all.jar",
-          "filename": "titlechanger-1.9.1p2-all.jar",
-          "primary": true,
-          "size": 30805
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Xg35A4rS",
-          "version_id": "y6sJQReg",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "tGYdE6gn",
-      "name": "[Forge] 1.9.1p1",
-      "version_number": "1.9.1p1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "1dce9e7e1ab344315afc4008c1bc17b2474d29bdcedfc4969318c9e1a15bbfebc4283132afe8c20417785092b1b75e78d11eea3aa5ddf8df3eca71f579937f33",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/tGYdE6gn/titlechanger-1.9.1p1-all.jar",
-          "filename": "titlechanger-1.9.1p1-all.jar",
-          "primary": true,
-          "size": 29665
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Xg35A4rS",
-          "version_id": "y6sJQReg",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "PVm879Xc",
-      "name": "[Fabric/Quilt] 1.9.2p1",
-      "version_number": "1.9.2p1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "fc5905a581f9d342232a9e9b9d2fdfef65a1672c1c7687684a62082eae6511298186527dc7bd37934f69de2dea6e5a17cab684d51389d735d33a425f5cdb3c19",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/PVm879Xc/TitleChanger-1.9.2p1.jar",
-          "filename": "TitleChanger-1.9.2p1.jar",
-          "primary": true,
-          "size": 30744
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "YgnbXPMn",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Xg35A4rS",
-          "version_id": "p3AKqWqZ",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "i9d4ecbG",
-      "name": "[Fabric/Quilt] 1.9.2",
-      "version_number": "1.9.2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "5acc8eae4f8f6678d34b9fb471ab58a51f8e0b09bf262ecf8152f11e72946c35363ade1f275ffd31947d6d71f8cb98b28b2de184b24dc52c075d6ec62252a033",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/i9d4ecbG/TitleChanger-1.9.2.jar",
-          "filename": "TitleChanger-1.9.2.jar",
-          "primary": true,
-          "size": 30743
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "YgnbXPMn",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4K6TfDnl",
-      "name": "[Forge] 1.9.1",
-      "version_number": "1.9.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "d705ed2fc36feeb93a0618cb181d0db267bd9df1f9c0f4d6b272999f058440ed8b05e584c204dcbb4ad04eaa5e65a92a3a034f753b60a291a7ed7534f9bb8679",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/4K6TfDnl/titlechanger-1.9.1-all.jar",
-          "filename": "titlechanger-1.9.1-all.jar",
-          "primary": true,
-          "size": 29539
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "IP1PvCn6",
-      "name": "[Forge] 1.9",
-      "version_number": "1.9",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "9cb9684b83181666d18209d4d7397db1740335c8c8f9d523b8499bfe0fe09da02e3bdad1a83995054093cd704405a5e5f841b4760c250de92b7cd5845919ec73",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/IP1PvCn6/titlechanger-1.9-all.jar",
-          "filename": "titlechanger-1.9-all.jar",
-          "primary": true,
-          "size": 26685
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "JMEkkFJh",
-      "name": "[Fabric/Quilt] 1.9p1",
-      "version_number": "1.9p1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "39df336536526268ee09fe1155892b0617e810ac14a0d661b8f7d4eccf374f12b3afc76ce7d56725010464091544a4ea7babc1cbe6eb53f3fb99cbb62b448904",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/JMEkkFJh/TitleChanger-1.9p1.jar",
-          "filename": "TitleChanger-1.9p1.jar",
-          "primary": true,
-          "size": 28862
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "YgnbXPMn",
-          "version_id": "FQ8igcH8",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "1x0upJwK",
-      "name": "[Fabric/Quilt] 1.9",
-      "version_number": "1.9",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "b16c3c459b524d67abdc5650ede1edfc1b6c3118e7b96ca69d7ee3e3b8b0b4a48d1ed706c55859240112201d5da4d2678892fc91989033cedaded32fb0bc6871",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/1x0upJwK/TitleChanger-1.9-dev.jar",
-          "filename": "TitleChanger-1.9-dev.jar",
-          "primary": true,
-          "size": 22576
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "YgnbXPMn",
-          "version_id": "FQ8igcH8",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "FLgMhHWy",
-      "name": "[Fabric/Quilt] 1.8.3",
-      "version_number": "1.8.3",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "9612dbaefedd88499b90d2097b3307bf7b9cf131e63db133c472d46682753963b1899d9c86ed4043b6532bed22090f08689d3a20e10541a53b137faf46a29fac",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/FLgMhHWy/TitleChanger-1.8.3-dev.jar",
-          "filename": "TitleChanger-1.8.3-dev.jar",
-          "primary": true,
-          "size": 23752
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "YgnbXPMn",
-          "version_id": "mKfaRJSK",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "QHTptFAD",
-      "name": "[Forge] 1.8.1",
-      "version_number": "1.8.1",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "a440d764d7fe89e5d4ae25b7f089333cbaa190b24410b98b78a132d724b86bf76792773cfd55432f566817113f145dd3796bf41b021fb716cf7cb468b8c24d32",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/QHTptFAD/TitleChanger-1.8.1.jar",
-          "filename": "TitleChanger-1.8.1.jar",
-          "primary": true,
-          "size": 23227
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "xSyegtMQ",
-      "name": "[Fabric/Quilt] 1.8.2",
-      "version_number": "1.8.2",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ec0d60465cd62efb8ae4dcfe1d1c33de53a14931888f129d6e6015c490c74c16d9f8b0439dd74b76ae4b07e405d1f6ff157816d3c8d0983abc5ff80435c25d05",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/xSyegtMQ/TitleChanger-1.8.2-dev.jar",
-          "filename": "TitleChanger-1.8.2-dev.jar",
-          "primary": true,
-          "size": 25243
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "YgnbXPMn",
-          "version_id": "YR0CuU2t",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "q1SxIvUd",
-      "name": "[Fabric/Quilt] 1.8.1",
-      "version_number": "1.8.1",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2bc662d1ad5dbbde0524572110302919df21b6442de06b36a523b4e3842defb7b9118cdea44afd55eac0c7850f645b9fe13cd0b47333ad84d2505239673d88e2",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/q1SxIvUd/TitleChanger-1.8.1-dev.jar",
-          "filename": "TitleChanger-1.8.1-dev.jar",
-          "primary": true,
-          "size": 25316
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "YgnbXPMn",
-          "version_id": "YR0CuU2t",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ynBvwLx9",
-      "name": "[Forge] 1.8",
-      "version_number": "1.8",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "ac33988654e928b97345f95a4f31897be0e982aeafb8aae1a1e51c95200b45d11cca09e7776fdfe1887131fc967c764a3c1f4b0b27b8aadfed21864ecbb7b24b",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/ynBvwLx9/TitleChanger-1.8.jar",
-          "filename": "TitleChanger-1.8.jar",
-          "primary": true,
-          "size": 23264
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "2u6llnj9",
-      "name": "[Fabric/Qulit ] 1.8",
-      "version_number": "1.8",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "569b7a6532cd6a6f9cf2a1c13631b6d854233c169d30c9906bbb2637196ae657424542727d50b4e7e6844347ff46a56391082bb0202afceb5cc90db17f7fcbe1",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/2u6llnj9/TitleChanger-1.8-dev.jar",
-          "filename": "TitleChanger-1.8-dev.jar",
-          "primary": true,
-          "size": 22459
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "YgnbXPMn",
-          "version_id": "YR0CuU2t",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "HhhV3Wfu",
-      "name": "[Fabric/Qulit] 1.7.2",
-      "version_number": "1.7.2",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2e575e6ae56d599bd3e5b0b57806c36029d9b38590403fd7551fdd4acb79fb35731ae958300660b770cf538d5027f63fef3874ccbda884da94f469beb20c34cf",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/HhhV3Wfu/TitleChanger-1.7.2.jar",
-          "filename": "TitleChanger-1.7.2.jar",
-          "primary": true,
-          "size": 19801
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "YgnbXPMn",
-          "version_id": "YR0CuU2t",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "WxH4DV2C",
-      "name": "[Forge] 1.7.2",
-      "version_number": "1.7.2",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e2f36a29465a11d2c8a5280fd1e16e1a88d459b5cf5a6e7f07ea57f73f8226d95d4a54ae346569b488339461acaa6847a05134a93f3798ea8689cc0f5aa90d0a",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/WxH4DV2C/TitleChanger-1.7.2.jar",
-          "filename": "TitleChanger-1.7.2.jar",
-          "primary": true,
-          "size": 20161
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "hDE08tel",
-      "name": "[Fabric/Qulit] 1.7.1",
-      "version_number": "1.7.1",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3015b8b3c7ddaa14d1a3e3cf67baabcb5c5bf92bce46fad2961185da71c45d6cbd003176734a6ab225b1eb2e8e496378e9032fb2905f34b124425f24eb0c83d6",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/hDE08tel/TitleChanger-1.7.1.jar",
-          "filename": "TitleChanger-1.7.1.jar",
-          "primary": true,
-          "size": 19179
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "YgnbXPMn",
-          "version_id": "YR0CuU2t",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "g7wt0TN5",
-      "name": "[Forge] 1.7.1",
-      "version_number": "1.7.1",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "f7fdc77dfba2b4b3544ddde89eabdee3db5344f72add89b4efcdda7ebbb60bb5a594672ce479695506d764a8e09fb3a336422d211396f86cda496ebf24fb8e00",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/g7wt0TN5/TitleChanger-1.7.1.jar",
-          "filename": "TitleChanger-1.7.1.jar",
-          "primary": true,
-          "size": 19575
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "jUeeP8iI",
-      "name": "[Forge] 1.7",
-      "version_number": "1.7",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "561a6d0ddc43e2432a6955f97fb4abce95323ceabd034d9000c2beaa31a3fde63a9d1c8f83e36a35d4e300aa987e51f25a8b2ede9077b3df637f50380d4ab2df",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/jUeeP8iI/TitleChanger-1.7.jar",
-          "filename": "TitleChanger-1.7.jar",
-          "primary": true,
-          "size": 19540
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "o1lC8Hmg",
-      "name": "[Fabric/Qulit] 1.7",
-      "version_number": "1.7",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "1729dccacbce250ae6e22d943545b6bfc2d3274d707c7ab916182f40c3cb3295b877c8cb69e3d48cffd310ef2a09a8b661af0170b3f5a4c3536d4a8d01a15221",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/o1lC8Hmg/TitleChanger-1.7.jar",
-          "filename": "TitleChanger-1.7.jar",
-          "primary": true,
-          "size": 19161
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "YgnbXPMn",
-          "version_id": "vFExHmAO",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "6fHQRM6N",
-      "name": "[Forge]1.6.3",
-      "version_number": "1.6.3",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "b3d044e06d0a28d00755cc2940f9e6872c773a251d54f849423f30a205d424af6d6f1e52f87d6ffe15c0f2798b928ec6a4faa083b171262436d429600c8af012",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/6fHQRM6N/TitleChanger-1.6.3.jar",
-          "filename": "TitleChanger-1.6.3.jar",
-          "primary": true,
-          "size": 19067
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "VnLf7prI",
-      "name": "[Fabric]1.6.3",
-      "version_number": "1.6.3",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "160e07269e4160136c69deacb27be5e81f8358bd40efdbe34da09a68bd995c7bb9bd51e5a768bb4e8403de10c05eea00f9397816d5c32e5460af71b708aa8b5b",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/VnLf7prI/TitleChanger.jar",
-          "filename": "TitleChanger.jar",
-          "primary": true,
-          "size": 22615
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "YgnbXPMn",
-          "version_id": "vFExHmAO",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "CmyWsTFd",
       "name": "1.6.2",
       "version_number": "1.6.2",
@@ -909,37 +325,6 @@
           "filename": "TitleChanger.jar",
           "primary": true,
           "size": 22644
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "YgnbXPMn",
-          "version_id": "vFExHmAO",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "syuo2LPW",
-      "name": "1.6.1",
-      "version_number": "1.6.1",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "22d4d0d3c99b440f4f80aba8392ef6ef97fa985445f3a3f51ae768e7831074ef627399147ed48a524a632f09e4337d9af5a18af828527eeccbf2c671e0b73624",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/syuo2LPW/TitleChanger.jar",
-          "filename": "TitleChanger.jar",
-          "primary": true,
-          "size": 22465
         }
       ],
       "dependencies": [
@@ -983,13 +368,11 @@
       ]
     },
     {
-      "id": "fMy7DFxc",
-      "name": "1.5.2",
-      "version_number": "1.5.2",
+      "id": "EQRwmXRJ",
+      "name": "1.4",
+      "version_number": "1.4",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
+        "1.19"
       ],
       "loaders": [
         "fabric",
@@ -997,17 +380,280 @@
       ],
       "files": [
         {
-          "sha512": "6cc888cd6a7c5311cbc04a5daf7b13f985b2658869d68958a56fdd3774542ab069451a8c06e38ba45e81b5f4fe358409dffa1981ec116103cb2830b81e91c97d",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/1.5.2/TitleChanger.jar",
+          "sha512": "9917d902b7badfd0a79925551170bb2374b4e7a9e993ebda98bc0e807ce86d73c8140ab9af32041445f89d3555e4a19184941288686143b6acbd2c804720e855",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/1.4/TitleChanger.jar",
           "filename": "TitleChanger.jar",
           "primary": true,
-          "size": 22265
+          "size": 14804
         }
       ],
       "dependencies": [
         {
           "project_id": "YgnbXPMn",
-          "version_id": "MwqpuveH",
+          "version_id": "vFExHmAO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "FLgMhHWy",
+      "name": "[Fabric/Quilt] 1.8.3",
+      "version_number": "1.8.3",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "9612dbaefedd88499b90d2097b3307bf7b9cf131e63db133c472d46682753963b1899d9c86ed4043b6532bed22090f08689d3a20e10541a53b137faf46a29fac",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/FLgMhHWy/TitleChanger-1.8.3-dev.jar",
+          "filename": "TitleChanger-1.8.3-dev.jar",
+          "primary": true,
+          "size": 23752
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": "mKfaRJSK",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "HhhV3Wfu",
+      "name": "[Fabric/Qulit] 1.7.2",
+      "version_number": "1.7.2",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2e575e6ae56d599bd3e5b0b57806c36029d9b38590403fd7551fdd4acb79fb35731ae958300660b770cf538d5027f63fef3874ccbda884da94f469beb20c34cf",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/HhhV3Wfu/TitleChanger-1.7.2.jar",
+          "filename": "TitleChanger-1.7.2.jar",
+          "primary": true,
+          "size": 19801
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": "YR0CuU2t",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "I980fsiA",
+      "name": "1.2",
+      "version_number": "1.2",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f93bf2917b2142e1778b7fe345a5f102455728297e72e3d8cd7105dc2c7e4fc6db1bcf8b6f74d85a13848f75cf223a0320a19fe9dc7c506c6c26ddf8582e1a3c",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/1.2/TitleChanger.jar",
+          "filename": "TitleChanger.jar",
+          "primary": true,
+          "size": 13405
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "IP1PvCn6",
+      "name": "[Forge] 1.9",
+      "version_number": "1.9",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9cb9684b83181666d18209d4d7397db1740335c8c8f9d523b8499bfe0fe09da02e3bdad1a83995054093cd704405a5e5f841b4760c250de92b7cd5845919ec73",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/IP1PvCn6/titlechanger-1.9-all.jar",
+          "filename": "titlechanger-1.9-all.jar",
+          "primary": true,
+          "size": 26685
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "JKxoBIZh",
+      "name": "1.1",
+      "version_number": "1.1",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a6a6a850d89c4d62371a1a64162e3acc2098593fe3b9f86e3679892d010b27c09d88ef38f1df1eacdbb01a6eddad9ee1fd88fa2a2ae348af67a93632f535112d",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/1.1/TitleChanger.jar",
+          "filename": "TitleChanger.jar",
+          "primary": true,
+          "size": 11775
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "JMEkkFJh",
+      "name": "[Fabric/Quilt] 1.9p1",
+      "version_number": "1.9p1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "39df336536526268ee09fe1155892b0617e810ac14a0d661b8f7d4eccf374f12b3afc76ce7d56725010464091544a4ea7babc1cbe6eb53f3fb99cbb62b448904",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/JMEkkFJh/TitleChanger-1.9p1.jar",
+          "filename": "TitleChanger-1.9p1.jar",
+          "primary": true,
+          "size": 28862
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": "FQ8igcH8",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "PVm879Xc",
+      "name": "[Fabric/Quilt] 1.9.2p1",
+      "version_number": "1.9.2p1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "fc5905a581f9d342232a9e9b9d2fdfef65a1672c1c7687684a62082eae6511298186527dc7bd37934f69de2dea6e5a17cab684d51389d735d33a425f5cdb3c19",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/PVm879Xc/TitleChanger-1.9.2p1.jar",
+          "filename": "TitleChanger-1.9.2p1.jar",
+          "primary": true,
+          "size": 30744
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Xg35A4rS",
+          "version_id": "p3AKqWqZ",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "Q2UaDWmd",
+      "name": "[Forge] 1.9.1p2",
+      "version_number": "1.9.1p2",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0946bb56708c5124232d99629998fe2cc33dd997891a10affae29777fdac25dc4addb3dd0a736006f464d7bc423c7d34c9fe5b3bd1f6156d1474ba7697c9f03d",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/Q2UaDWmd/titlechanger-1.9.1p2-all.jar",
+          "filename": "titlechanger-1.9.1p2-all.jar",
+          "primary": true,
+          "size": 30805
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Xg35A4rS",
+          "version_id": "y6sJQReg",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "QHTptFAD",
+      "name": "[Forge] 1.8.1",
+      "version_number": "1.8.1",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "a440d764d7fe89e5d4ae25b7f089333cbaa190b24410b98b78a132d724b86bf76792773cfd55432f566817113f145dd3796bf41b021fb716cf7cb468b8c24d32",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/QHTptFAD/TitleChanger-1.8.1.jar",
+          "filename": "TitleChanger-1.8.1.jar",
+          "primary": true,
+          "size": 23227
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "QOhK2kN2",
+      "name": "1.5",
+      "version_number": "1.5",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "6c0f04e33014eaddd46e718311900afced76f828315ffc421fc94164e041de9c47278488befe2fae5ffffc1dd9910152ed23b8d9a3ce26aa297626741611cbe9",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/1.5/TitleChanger.jar",
+          "filename": "TitleChanger.jar",
+          "primary": true,
+          "size": 19783
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": "vFExHmAO",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -1043,11 +689,34 @@
       ]
     },
     {
-      "id": "QOhK2kN2",
-      "name": "1.5",
-      "version_number": "1.5",
+      "id": "TSq5D6JF",
+      "name": "1.2.1",
+      "version_number": "1.2.1",
       "game_versions": [
         "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "79541ad83924328e57493007b2316969064d6bd5ff022a5a447176a940dba0d0c7cea12cf3ebe06a7ca9604a0c5268d58aaa73a22b96e15327ed75993fc6bcd2",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/1.2.1/TitleChanger.jar",
+          "filename": "TitleChanger.jar",
+          "primary": true,
+          "size": 13740
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "VnLf7prI",
+      "name": "[Fabric]1.6.3",
+      "version_number": "1.6.3",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
         "fabric",
@@ -1055,11 +724,11 @@
       ],
       "files": [
         {
-          "sha512": "6c0f04e33014eaddd46e718311900afced76f828315ffc421fc94164e041de9c47278488befe2fae5ffffc1dd9910152ed23b8d9a3ce26aa297626741611cbe9",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/1.5/TitleChanger.jar",
+          "sha512": "160e07269e4160136c69deacb27be5e81f8358bd40efdbe34da09a68bd995c7bb9bd51e5a768bb4e8403de10c05eea00f9397816d5c32e5460af71b708aa8b5b",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/VnLf7prI/TitleChanger.jar",
           "filename": "TitleChanger.jar",
           "primary": true,
-          "size": 19783
+          "size": 22615
         }
       ],
       "dependencies": [
@@ -1072,11 +741,34 @@
       ]
     },
     {
-      "id": "EQRwmXRJ",
-      "name": "1.4",
-      "version_number": "1.4",
+      "id": "WxH4DV2C",
+      "name": "[Forge] 1.7.2",
+      "version_number": "1.7.2",
       "game_versions": [
-        "1.19"
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e2f36a29465a11d2c8a5280fd1e16e1a88d459b5cf5a6e7f07ea57f73f8226d95d4a54ae346569b488339461acaa6847a05134a93f3798ea8689cc0f5aa90d0a",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/WxH4DV2C/TitleChanger-1.7.2.jar",
+          "filename": "TitleChanger-1.7.2.jar",
+          "primary": true,
+          "size": 20161
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "fMy7DFxc",
+      "name": "1.5.2",
+      "version_number": "1.5.2",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
         "fabric",
@@ -1084,17 +776,367 @@
       ],
       "files": [
         {
-          "sha512": "9917d902b7badfd0a79925551170bb2374b4e7a9e993ebda98bc0e807ce86d73c8140ab9af32041445f89d3555e4a19184941288686143b6acbd2c804720e855",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/1.4/TitleChanger.jar",
+          "sha512": "6cc888cd6a7c5311cbc04a5daf7b13f985b2658869d68958a56fdd3774542ab069451a8c06e38ba45e81b5f4fe358409dffa1981ec116103cb2830b81e91c97d",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/1.5.2/TitleChanger.jar",
           "filename": "TitleChanger.jar",
           "primary": true,
-          "size": 14804
+          "size": 22265
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": "MwqpuveH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "g7wt0TN5",
+      "name": "[Forge] 1.7.1",
+      "version_number": "1.7.1",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f7fdc77dfba2b4b3544ddde89eabdee3db5344f72add89b4efcdda7ebbb60bb5a594672ce479695506d764a8e09fb3a336422d211396f86cda496ebf24fb8e00",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/g7wt0TN5/TitleChanger-1.7.1.jar",
+          "filename": "TitleChanger-1.7.1.jar",
+          "primary": true,
+          "size": 19575
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "hDE08tel",
+      "name": "[Fabric/Qulit] 1.7.1",
+      "version_number": "1.7.1",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3015b8b3c7ddaa14d1a3e3cf67baabcb5c5bf92bce46fad2961185da71c45d6cbd003176734a6ab225b1eb2e8e496378e9032fb2905f34b124425f24eb0c83d6",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/hDE08tel/TitleChanger-1.7.1.jar",
+          "filename": "TitleChanger-1.7.1.jar",
+          "primary": true,
+          "size": 19179
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": "YR0CuU2t",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "i9d4ecbG",
+      "name": "[Fabric/Quilt] 1.9.2",
+      "version_number": "1.9.2",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5acc8eae4f8f6678d34b9fb471ab58a51f8e0b09bf262ecf8152f11e72946c35363ade1f275ffd31947d6d71f8cb98b28b2de184b24dc52c075d6ec62252a033",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/i9d4ecbG/TitleChanger-1.9.2.jar",
+          "filename": "TitleChanger-1.9.2.jar",
+          "primary": true,
+          "size": 30743
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jUeeP8iI",
+      "name": "[Forge] 1.7",
+      "version_number": "1.7",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "561a6d0ddc43e2432a6955f97fb4abce95323ceabd034d9000c2beaa31a3fde63a9d1c8f83e36a35d4e300aa987e51f25a8b2ede9077b3df637f50380d4ab2df",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/jUeeP8iI/TitleChanger-1.7.jar",
+          "filename": "TitleChanger-1.7.jar",
+          "primary": true,
+          "size": 19540
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "jZ1ZFiaF",
+      "name": "[Fabric/Quilt] 1.11.0",
+      "version_number": "1.11.0",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "249ab383bf6a44d564df3744d6b90a2efbd6713df0cfe4fc00cabe9ae537e377e145fa46f6723826474d2f0dc652cd8380caa109e52cd9c5c93bd2b5fc4497f2",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/jZ1ZFiaF/TitleChanger-1.11.0.jar",
+          "filename": "TitleChanger-1.11.0.jar",
+          "primary": true,
+          "size": 34936
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Xg35A4rS",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "ngA0E5Uq",
+      "name": "[Forge] 1.10",
+      "version_number": "1.10",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "07bd5843908d5e61c734f3f91c6741ceef471d233868b5ebe717cfa6d07eb41d20fa3fde70067a48553d75f64ed1489a60fcac41981cc07a946876ed623229f9",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/ngA0E5Uq/titlechanger-1.10-all.jar",
+          "filename": "titlechanger-1.10-all.jar",
+          "primary": true,
+          "size": 35752
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Xg35A4rS",
+          "version_id": "y6sJQReg",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "o1lC8Hmg",
+      "name": "[Fabric/Qulit] 1.7",
+      "version_number": "1.7",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "1729dccacbce250ae6e22d943545b6bfc2d3274d707c7ab916182f40c3cb3295b877c8cb69e3d48cffd310ef2a09a8b661af0170b3f5a4c3536d4a8d01a15221",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/o1lC8Hmg/TitleChanger-1.7.jar",
+          "filename": "TitleChanger-1.7.jar",
+          "primary": true,
+          "size": 19161
         }
       ],
       "dependencies": [
         {
           "project_id": "YgnbXPMn",
           "version_id": "vFExHmAO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "q1SxIvUd",
+      "name": "[Fabric/Quilt] 1.8.1",
+      "version_number": "1.8.1",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2bc662d1ad5dbbde0524572110302919df21b6442de06b36a523b4e3842defb7b9118cdea44afd55eac0c7850f645b9fe13cd0b47333ad84d2505239673d88e2",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/q1SxIvUd/TitleChanger-1.8.1-dev.jar",
+          "filename": "TitleChanger-1.8.1-dev.jar",
+          "primary": true,
+          "size": 25316
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": "YR0CuU2t",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "syuo2LPW",
+      "name": "1.6.1",
+      "version_number": "1.6.1",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "22d4d0d3c99b440f4f80aba8392ef6ef97fa985445f3a3f51ae768e7831074ef627399147ed48a524a632f09e4337d9af5a18af828527eeccbf2c671e0b73624",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/syuo2LPW/TitleChanger.jar",
+          "filename": "TitleChanger.jar",
+          "primary": true,
+          "size": 22465
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": "vFExHmAO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "tGYdE6gn",
+      "name": "[Forge] 1.9.1p1",
+      "version_number": "1.9.1p1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "1dce9e7e1ab344315afc4008c1bc17b2474d29bdcedfc4969318c9e1a15bbfebc4283132afe8c20417785092b1b75e78d11eea3aa5ddf8df3eca71f579937f33",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/tGYdE6gn/titlechanger-1.9.1p1-all.jar",
+          "filename": "titlechanger-1.9.1p1-all.jar",
+          "primary": true,
+          "size": 29665
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Xg35A4rS",
+          "version_id": "y6sJQReg",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "xKOUpDwk",
+      "name": "[Fabric/Quilt] 1.9.2p2",
+      "version_number": "1.9.2p2",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "9416a0dd9c4aad099521c5d6a8fefcba7fc2c0ed1bf043b8209c420127fb0a92c208668391c49ee75da11cc12bf11cf52d58c420e342ef77340db3ffc27cca1c",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/xKOUpDwk/TitleChanger-1.9.2p2.jar",
+          "filename": "TitleChanger-1.9.2p2.jar",
+          "primary": true,
+          "size": 30841
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Xg35A4rS",
+          "version_id": "p3AKqWqZ",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "xSyegtMQ",
+      "name": "[Fabric/Quilt] 1.8.2",
+      "version_number": "1.8.2",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "ec0d60465cd62efb8ae4dcfe1d1c33de53a14931888f129d6e6015c490c74c16d9f8b0439dd74b76ae4b07e405d1f6ff157816d3c8d0983abc5ff80435c25d05",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/xSyegtMQ/TitleChanger-1.8.2-dev.jar",
+          "filename": "TitleChanger-1.8.2-dev.jar",
+          "primary": true,
+          "size": 25243
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": "YR0CuU2t",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -1122,64 +1164,22 @@
       "dependencies": []
     },
     {
-      "id": "TSq5D6JF",
-      "name": "1.2.1",
-      "version_number": "1.2.1",
+      "id": "ynBvwLx9",
+      "name": "[Forge] 1.8",
+      "version_number": "1.8",
       "game_versions": [
-        "1.19"
+        "1.19.3"
       ],
       "loaders": [
-        "fabric"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "79541ad83924328e57493007b2316969064d6bd5ff022a5a447176a940dba0d0c7cea12cf3ebe06a7ca9604a0c5268d58aaa73a22b96e15327ed75993fc6bcd2",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/1.2.1/TitleChanger.jar",
-          "filename": "TitleChanger.jar",
+          "sha512": "ac33988654e928b97345f95a4f31897be0e982aeafb8aae1a1e51c95200b45d11cca09e7776fdfe1887131fc967c764a3c1f4b0b27b8aadfed21864ecbb7b24b",
+          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/ynBvwLx9/TitleChanger-1.8.jar",
+          "filename": "TitleChanger-1.8.jar",
           "primary": true,
-          "size": 13740
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "I980fsiA",
-      "name": "1.2",
-      "version_number": "1.2",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f93bf2917b2142e1778b7fe345a5f102455728297e72e3d8cd7105dc2c7e4fc6db1bcf8b6f74d85a13848f75cf223a0320a19fe9dc7c506c6c26ddf8582e1a3c",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/1.2/TitleChanger.jar",
-          "filename": "TitleChanger.jar",
-          "primary": true,
-          "size": 13405
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "JKxoBIZh",
-      "name": "1.1",
-      "version_number": "1.1",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a6a6a850d89c4d62371a1a64162e3acc2098593fe3b9f86e3679892d010b27c09d88ef38f1df1eacdbb01a6eddad9ee1fd88fa2a2ae348af67a93632f535112d",
-          "url": "https://cdn.modrinth.com/data/rk1yyL71/versions/1.1/TitleChanger.jar",
-          "filename": "TitleChanger.jar",
-          "primary": true,
-          "size": 11775
+          "size": 23264
         }
       ],
       "dependencies": []

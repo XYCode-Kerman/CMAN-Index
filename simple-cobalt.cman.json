@@ -5,6 +5,46 @@
   "description": "SimpleOres add-on that adds cobalt ore, cobalt metal, and 3 alloys of cobalt.",
   "versions": [
     {
+      "id": "2kBB19x0",
+      "name": "1.18.2-3.1.0.0",
+      "version_number": "1.18.2-3.1.0.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c51977859b9c897e6d09569a6fab412b672a992fd091a2658d105d2ea800b87f31d1e1c1a79c7b8b1fd84ebc52fb274e517e45fbb5986de3abbe01fc7c57a292",
+          "url": "https://cdn.modrinth.com/data/QBZIhLKb/versions/2kBB19x0/SimpleCobalt-1.18.2-3.1.0.0.jar",
+          "filename": "SimpleCobalt-1.18.2-3.1.0.0.jar",
+          "primary": true,
+          "size": 264839
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8K8WPv8S",
+          "version_id": "EFoglR8S",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mA7yWMPS",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "51dAkghQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "3zfoyjgO",
       "name": "akkamaddi's Simple Cobalt 1.20.1-5.0.0.0",
       "version_number": "1.20.1-5.0.0.0",
@@ -72,56 +112,16 @@
           "dependency_type": "required"
         },
         {
+          "project_id": "mA7yWMPS",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "51dAkghQ",
           "version_id": "z5orn996",
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "mA7yWMPS",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "fUkSnWGt",
-      "name": "1.19-4.0.0.0",
-      "version_number": "1.19-4.0.0.0",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "6cc3063361d99901844a3d249acf95a38e973459c49a6e97ca192a48e50a396103361ca76d39d80a1db68c049549ac88f39235a0315da9ae96245e9ced9bc7fa",
-          "url": "https://cdn.modrinth.com/data/QBZIhLKb/versions/fUkSnWGt/SimpleCobalt-1.19-4.0.0.0.jar",
-          "filename": "SimpleCobalt-1.19-4.0.0.0.jar",
-          "primary": true,
-          "size": 263071
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "51dAkghQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mA7yWMPS",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "8K8WPv8S",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -166,31 +166,25 @@
       ]
     },
     {
-      "id": "2kBB19x0",
-      "name": "1.18.2-3.1.0.0",
-      "version_number": "1.18.2-3.1.0.0",
+      "id": "fUkSnWGt",
+      "name": "1.19-4.0.0.0",
+      "version_number": "1.19-4.0.0.0",
       "game_versions": [
-        "1.18.2"
+        "1.19"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "c51977859b9c897e6d09569a6fab412b672a992fd091a2658d105d2ea800b87f31d1e1c1a79c7b8b1fd84ebc52fb274e517e45fbb5986de3abbe01fc7c57a292",
-          "url": "https://cdn.modrinth.com/data/QBZIhLKb/versions/2kBB19x0/SimpleCobalt-1.18.2-3.1.0.0.jar",
-          "filename": "SimpleCobalt-1.18.2-3.1.0.0.jar",
+          "sha512": "6cc3063361d99901844a3d249acf95a38e973459c49a6e97ca192a48e50a396103361ca76d39d80a1db68c049549ac88f39235a0315da9ae96245e9ced9bc7fa",
+          "url": "https://cdn.modrinth.com/data/QBZIhLKb/versions/fUkSnWGt/SimpleCobalt-1.19-4.0.0.0.jar",
+          "filename": "SimpleCobalt-1.19-4.0.0.0.jar",
           "primary": true,
-          "size": 264839
+          "size": 263071
         }
       ],
       "dependencies": [
-        {
-          "project_id": "mA7yWMPS",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "51dAkghQ",
           "version_id": null,
@@ -198,8 +192,14 @@
           "dependency_type": "required"
         },
         {
+          "project_id": "mA7yWMPS",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "8K8WPv8S",
-          "version_id": "EFoglR8S",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }

@@ -5,6 +5,138 @@
   "description": "Adds a restart command to dedicated servers.",
   "versions": [
     {
+      "id": "PWnbUd75",
+      "name": "1.1.1",
+      "version_number": "1.1.1+mc1.18.x",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "73fca5872880d80cef15dcfe48bda2453b6ec2fb4ed5717889155387c4d386622d9952aae29edf92d0dffed2e45242c1c375dbee81a4e9e1c756b17691f06336",
+          "url": "https://cdn.modrinth.com/data/zG0Bb7gw/versions/PWnbUd75/restart-server-1.1.1%2Bmc1.18.x.jar",
+          "filename": "restart-server-1.1.1+mc1.18.x.jar",
+          "primary": true,
+          "size": 36060
+        },
+        {
+          "sha512": "c2582b50fb6bbdca7855bfd68620a7b4ce1ca4bd4219c24ad843ef400832f119164910a413893c9a869771ed2a5e19d1b3b67fe6d336e60ab5fd252c9f544180",
+          "url": "https://cdn.modrinth.com/data/zG0Bb7gw/versions/PWnbUd75/restart-server-1.1.1%2Bmc1.18.x-sources.jar",
+          "filename": "restart-server-1.1.1+mc1.18.x-sources.jar",
+          "primary": false,
+          "size": 23146
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "PbSBlDLS",
+      "name": "1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4c1c8aaf78d1893ee28da3be72885b7298893119c6eb59fc66a983559a3836a88681a46d739ee9bf9887d3c2bd7c86d97fcbd8d6fa72b50c63c248de88e38dfb",
+          "url": "https://cdn.modrinth.com/data/zG0Bb7gw/versions/PbSBlDLS/restart-server-1.0.0.jar",
+          "filename": "restart-server-1.0.0.jar",
+          "primary": true,
+          "size": 35332
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "QfZYXGW1",
+      "name": "1.1.1",
+      "version_number": "1.1.1+mc1.19.x-1.20.x",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "7b81d5ef04a66ed2e044d24aa76c467b8ae79d365f41a991f88557d03c85278102bc1817da55daabcf8f446579f30670350d8718815cd087e458c64ff9015d62",
+          "url": "https://cdn.modrinth.com/data/zG0Bb7gw/versions/QfZYXGW1/restart-server-1.1.1%2Bmc1.19.x-1.20.x.jar",
+          "filename": "restart-server-1.1.1+mc1.19.x-1.20.x.jar",
+          "primary": true,
+          "size": 35954
+        },
+        {
+          "sha512": "974142596cb4f93c1cc136fe4dae69710bc2e824ec5b54f4deb86d5462959bd3ece187d1de2ac80e002c9c11afbd242fc8d30823e8f8bd83743a658da118ea8f",
+          "url": "https://cdn.modrinth.com/data/zG0Bb7gw/versions/QfZYXGW1/restart-server-1.1.1%2Bmc1.19.x-1.20.x-sources.jar",
+          "filename": "restart-server-1.1.1+mc1.19.x-1.20.x-sources.jar",
+          "primary": false,
+          "size": 23094
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "U1VITZwK",
       "name": "1.2.0 (1.18.x)",
       "version_number": "1.2.0+mc1.18.x",
@@ -35,14 +167,53 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
           "file_name": null,
           "dependency_type": "required"
         },
         {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Us7BPpB6",
+      "name": "1.1.0 (1.19.x)",
+      "version_number": "1.1.0+mc1.19.x",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "6efd75d1f978f0cb717c3392925ada33e857a234509407721491085b8fb91535755dc9a1fc7ed7317eb27608ccde53ac9a6b8711ae03d17aacb74e8865625b8b",
+          "url": "https://cdn.modrinth.com/data/zG0Bb7gw/versions/Us7BPpB6/restart-server-1.1.0%2Bmc1.19.x.jar",
+          "filename": "restart-server-1.1.0+mc1.19.x.jar",
+          "primary": true,
+          "size": 35929
+        }
+      ],
+      "dependencies": [
+        {
           "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
+          "version_id": "6XGTNEII",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "unERf4ZJ",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -97,98 +268,6 @@
       ]
     },
     {
-      "id": "QfZYXGW1",
-      "name": "1.1.1",
-      "version_number": "1.1.1+mc1.19.x-1.20.x",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "7b81d5ef04a66ed2e044d24aa76c467b8ae79d365f41a991f88557d03c85278102bc1817da55daabcf8f446579f30670350d8718815cd087e458c64ff9015d62",
-          "url": "https://cdn.modrinth.com/data/zG0Bb7gw/versions/QfZYXGW1/restart-server-1.1.1%2Bmc1.19.x-1.20.x.jar",
-          "filename": "restart-server-1.1.1+mc1.19.x-1.20.x.jar",
-          "primary": true,
-          "size": 35954
-        },
-        {
-          "sha512": "974142596cb4f93c1cc136fe4dae69710bc2e824ec5b54f4deb86d5462959bd3ece187d1de2ac80e002c9c11afbd242fc8d30823e8f8bd83743a658da118ea8f",
-          "url": "https://cdn.modrinth.com/data/zG0Bb7gw/versions/QfZYXGW1/restart-server-1.1.1%2Bmc1.19.x-1.20.x-sources.jar",
-          "filename": "restart-server-1.1.1+mc1.19.x-1.20.x-sources.jar",
-          "primary": false,
-          "size": 23094
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "PWnbUd75",
-      "name": "1.1.1",
-      "version_number": "1.1.1+mc1.18.x",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "73fca5872880d80cef15dcfe48bda2453b6ec2fb4ed5717889155387c4d386622d9952aae29edf92d0dffed2e45242c1c375dbee81a4e9e1c756b17691f06336",
-          "url": "https://cdn.modrinth.com/data/zG0Bb7gw/versions/PWnbUd75/restart-server-1.1.1%2Bmc1.18.x.jar",
-          "filename": "restart-server-1.1.1+mc1.18.x.jar",
-          "primary": true,
-          "size": 36060
-        },
-        {
-          "sha512": "c2582b50fb6bbdca7855bfd68620a7b4ce1ca4bd4219c24ad843ef400832f119164910a413893c9a869771ed2a5e19d1b3b67fe6d336e60ab5fd252c9f544180",
-          "url": "https://cdn.modrinth.com/data/zG0Bb7gw/versions/PWnbUd75/restart-server-1.1.1%2Bmc1.18.x-sources.jar",
-          "filename": "restart-server-1.1.1+mc1.18.x-sources.jar",
-          "primary": false,
-          "size": 23146
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "wRxByZhE",
       "name": "1.1.0 (1.18.x)",
       "version_number": "1.1.0+mc1.18.x",
@@ -227,85 +306,6 @@
         {
           "project_id": "9s6osm5g",
           "version_id": "gPqHXnrg",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Us7BPpB6",
-      "name": "1.1.0 (1.19.x)",
-      "version_number": "1.1.0+mc1.19.x",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6efd75d1f978f0cb717c3392925ada33e857a234509407721491085b8fb91535755dc9a1fc7ed7317eb27608ccde53ac9a6b8711ae03d17aacb74e8865625b8b",
-          "url": "https://cdn.modrinth.com/data/zG0Bb7gw/versions/Us7BPpB6/restart-server-1.1.0%2Bmc1.19.x.jar",
-          "filename": "restart-server-1.1.0+mc1.19.x.jar",
-          "primary": true,
-          "size": 35929
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "unERf4ZJ",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "6XGTNEII",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "PbSBlDLS",
-      "name": "1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4c1c8aaf78d1893ee28da3be72885b7298893119c6eb59fc66a983559a3836a88681a46d739ee9bf9887d3c2bd7c86d97fcbd8d6fa72b50c63c248de88e38dfb",
-          "url": "https://cdn.modrinth.com/data/zG0Bb7gw/versions/PbSBlDLS/restart-server-1.0.0.jar",
-          "filename": "restart-server-1.0.0.jar",
-          "primary": true,
-          "size": 35332
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
           "file_name": null,
           "dependency_type": "required"
         }

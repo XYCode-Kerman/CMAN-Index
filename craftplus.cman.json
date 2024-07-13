@@ -5,28 +5,6 @@
   "description": "Inspired by Spigot CraftPlus plugins, this datapack will adds several useful recipes to your Minecraft worlds.",
   "versions": [
     {
-      "id": "ZlGXgd6j",
-      "name": "Version 1.1",
-      "version_number": "1.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "e6380ec2485f7b8409d84adf3e126f68591c8f30f36ba6bb0569b2d811dd52fb43f0d2cfabbef12e570708b636a858177573a32608c1bce83e5a8d630449af80",
-          "url": "https://cdn.modrinth.com/data/nztRmoPz/versions/ZlGXgd6j/CraftPlus_v1.1.zip",
-          "filename": "CraftPlus_v1.1.zip",
-          "primary": true,
-          "size": 105461
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "7Gg5f7TQ",
       "name": "Initial Release",
       "version_number": "1.0.0",
@@ -50,6 +28,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "fRiHVvU7",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "u6dRKJwZ",
           "version_id": null,
           "file_name": null,
@@ -60,14 +44,30 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "fRiHVvU7",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
+    },
+    {
+      "id": "ZlGXgd6j",
+      "name": "Version 1.1",
+      "version_number": "1.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "e6380ec2485f7b8409d84adf3e126f68591c8f30f36ba6bb0569b2d811dd52fb43f0d2cfabbef12e570708b636a858177573a32608c1bce83e5a8d630449af80",
+          "url": "https://cdn.modrinth.com/data/nztRmoPz/versions/ZlGXgd6j/CraftPlus_v1.1.zip",
+          "filename": "CraftPlus_v1.1.zip",
+          "primary": true,
+          "size": 105461
+        }
+      ],
+      "dependencies": []
     }
   ]
 }

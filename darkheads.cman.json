@@ -5,25 +5,33 @@
   "description": "Drops a player head every time a player dies in Singleplayer and Multiplayer",
   "versions": [
     {
-      "id": "J6TkOGFC",
-      "name": "DarkHeads 1.0.9",
-      "version_number": "1.0.9",
+      "id": "49uxZwDJ",
+      "name": "DarkHeads 1.0.7",
+      "version_number": "1.0.7",
       "game_versions": [
-        "1.20.4"
+        "1.20.1"
       ],
       "loaders": [
-        "forge"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "5cff3c32e849b176ebb0cf41a7cf867930ec67baf8957dac8698177a72d2edbce60590f7c7fd97cc2b150b00757766624f9371f791b138d4a5e9c63c405d53f3",
-          "url": "https://cdn.modrinth.com/data/NKZRF93K/versions/J6TkOGFC/darkheads-forge-1.20.4-1.0.9.jar",
-          "filename": "darkheads-forge-1.20.4-1.0.9.jar",
+          "sha512": "57512dfa6eceab6110573d5677c6f9ba36c9e0c7baad444c2bfc262113b5f323c8910bc5a135f42c2e2d0cba858a2dee355e4281fb2b11635a4fb526643f7e6e",
+          "url": "https://cdn.modrinth.com/data/NKZRF93K/versions/49uxZwDJ/darkheads-fabric-1.20.1-1.0.7.jar",
+          "filename": "darkheads-fabric-1.20.1-1.0.7.jar",
           "primary": true,
-          "size": 6209
+          "size": 6072
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "7MNZORhD",
@@ -56,33 +64,25 @@
       ]
     },
     {
-      "id": "49uxZwDJ",
-      "name": "DarkHeads 1.0.7",
-      "version_number": "1.0.7",
+      "id": "J6TkOGFC",
+      "name": "DarkHeads 1.0.9",
+      "version_number": "1.0.9",
       "game_versions": [
-        "1.20.1"
+        "1.20.4"
       ],
       "loaders": [
-        "fabric",
-        "quilt"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "57512dfa6eceab6110573d5677c6f9ba36c9e0c7baad444c2bfc262113b5f323c8910bc5a135f42c2e2d0cba858a2dee355e4281fb2b11635a4fb526643f7e6e",
-          "url": "https://cdn.modrinth.com/data/NKZRF93K/versions/49uxZwDJ/darkheads-fabric-1.20.1-1.0.7.jar",
-          "filename": "darkheads-fabric-1.20.1-1.0.7.jar",
+          "sha512": "5cff3c32e849b176ebb0cf41a7cf867930ec67baf8957dac8698177a72d2edbce60590f7c7fd97cc2b150b00757766624f9371f791b138d4a5e9c63c405d53f3",
+          "url": "https://cdn.modrinth.com/data/NKZRF93K/versions/J6TkOGFC/darkheads-forge-1.20.4-1.0.9.jar",
+          "filename": "darkheads-forge-1.20.4-1.0.9.jar",
           "primary": true,
-          "size": 6072
+          "size": 6209
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
+      "dependencies": []
     },
     {
       "id": "ZNHLxyET",

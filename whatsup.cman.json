@@ -1,29 +1,9 @@
 {
-  "id": "whatsup",
+  "id": "7t2kydgp",
   "slug": "whatsup",
   "name": "WhatsUp",
   "description": "Allows datapacks to query external APIs and run functions based on the result",
   "versions": [
-    {
-      "id": "w2FeYYLo",
-      "name": "1.2.0",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "1894e991b534b5ee01ed8ea41b023b6012719f806326ef2a9208acfe7250144a07ed46990f1d6facdf488d9194ed6cf2d7135aab70b364547fed5549f4e3053a",
-          "url": "https://cdn.modrinth.com/data/7t2kydgp/versions/w2FeYYLo/whatsup-forge-1.20.1-1.2.0.jar",
-          "filename": "whatsup-forge-1.20.1-1.2.0.jar",
-          "primary": true,
-          "size": 128338
-        }
-      ]
-    },
     {
       "id": "6YhUcEHF",
       "name": "1.2.0",
@@ -42,25 +22,19 @@
           "primary": true,
           "size": 129746
         }
-      ]
-    },
-    {
-      "id": "f9012md7",
-      "name": "1.1.0",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.20.1"
       ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "fc9240adfd23a2a479ed0c8d1be9775e0b9ca566ef2c0be8e91ac5ffcaf56966984278b1317b5bce5a667f6826a837ae8b654e0969d48fa0e416d2e9bfba706f",
-          "url": "https://cdn.modrinth.com/data/7t2kydgp/versions/f9012md7/whatsup-forge-1.20.1-1.1.0.jar",
-          "filename": "whatsup-forge-1.20.1-1.1.0.jar",
-          "primary": true,
-          "size": 115067
+          "project_id": "8tpeB2g5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -82,6 +56,20 @@
           "primary": true,
           "size": 116208
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8tpeB2g5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "fFx48erS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -102,45 +90,19 @@
           "primary": true,
           "size": 116184
         }
-      ]
-    },
-    {
-      "id": "lE0eleLP",
-      "name": "1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.19.4"
       ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "34e4269f7165320ecf7ce77ef9e87314bcbd65b695377011c74c277a7c5ab7f3f726e78fc7466d0545ec313d562698cb2e597117bc25f8d698e29996a4291808",
-          "url": "https://cdn.modrinth.com/data/7t2kydgp/versions/lE0eleLP/whatsup-forge-1.19.4-1.0.0.jar",
-          "filename": "whatsup-forge-1.19.4-1.0.0.jar",
-          "primary": true,
-          "size": 114861
-        }
-      ]
-    },
-    {
-      "id": "ePHdw6zM",
-      "name": "0.1.2",
-      "version_number": "0.1.2",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
-          "sha512": "fcef14b77ca661bb2f754db984d3ab8ccb1d3388e5320bc076694c65d41120aa6133ff81cd90620c4a4fdbb8599508c285f540c6fe225671ff0810e854d031ac",
-          "url": "https://cdn.modrinth.com/data/7t2kydgp/versions/ePHdw6zM/whatsup-quilt-1.19.4-0.1.2.jar",
-          "filename": "whatsup-quilt-1.19.4-0.1.2.jar",
-          "primary": true,
-          "size": 111738
+          "project_id": "8tpeB2g5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -162,45 +124,13 @@
           "primary": true,
           "size": 110537
         }
-      ]
-    },
-    {
-      "id": "fMhP26Xh",
-      "name": "0.1.1",
-      "version_number": "0.1.1",
-      "game_versions": [
-        "1.19.4"
       ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "97b9a47f8aa542097e441b6711ff1024606c1549903594a44b3a733bb4195c17bb87c1fc108bd285cacd1590ab9f0b36f77964042cfec6c1ab9d165b0f12a7b9",
-          "url": "https://cdn.modrinth.com/data/7t2kydgp/versions/fMhP26Xh/whatsup-quilt-1.19.4-0.1.1.jar",
-          "filename": "whatsup-quilt-1.19.4-0.1.1.jar",
-          "primary": true,
-          "size": 111726
-        }
-      ]
-    },
-    {
-      "id": "jTsMCUIA",
-      "name": "0.1.1",
-      "version_number": "0.1.1",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e97a0b2ae4b95767eaef7c03736663382473757a48e5bee467fe3929abb359cd2a63dfa3a98b295041c7e799c526c95e865782b921cc1f215e4235ba6a33a661",
-          "url": "https://cdn.modrinth.com/data/7t2kydgp/versions/jTsMCUIA/whatsup-forge-1.19.4-0.1.1.jar",
-          "filename": "whatsup-forge-1.19.4-0.1.1.jar",
-          "primary": true,
-          "size": 110520
+          "project_id": "zg2tT2Vu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -222,6 +152,20 @@
           "primary": true,
           "size": 111725
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8tpeB2g5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -241,6 +185,194 @@
           "filename": "whatsup-forge-1.19.4-0.1.0.jar",
           "primary": true,
           "size": 79529
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "zg2tT2Vu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ePHdw6zM",
+      "name": "0.1.2",
+      "version_number": "0.1.2",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "fcef14b77ca661bb2f754db984d3ab8ccb1d3388e5320bc076694c65d41120aa6133ff81cd90620c4a4fdbb8599508c285f540c6fe225671ff0810e854d031ac",
+          "url": "https://cdn.modrinth.com/data/7t2kydgp/versions/ePHdw6zM/whatsup-quilt-1.19.4-0.1.2.jar",
+          "filename": "whatsup-quilt-1.19.4-0.1.2.jar",
+          "primary": true,
+          "size": 111738
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8tpeB2g5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "f9012md7",
+      "name": "1.1.0",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "fc9240adfd23a2a479ed0c8d1be9775e0b9ca566ef2c0be8e91ac5ffcaf56966984278b1317b5bce5a667f6826a837ae8b654e0969d48fa0e416d2e9bfba706f",
+          "url": "https://cdn.modrinth.com/data/7t2kydgp/versions/f9012md7/whatsup-forge-1.20.1-1.1.0.jar",
+          "filename": "whatsup-forge-1.20.1-1.1.0.jar",
+          "primary": true,
+          "size": 115067
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "zg2tT2Vu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "fMhP26Xh",
+      "name": "0.1.1",
+      "version_number": "0.1.1",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "97b9a47f8aa542097e441b6711ff1024606c1549903594a44b3a733bb4195c17bb87c1fc108bd285cacd1590ab9f0b36f77964042cfec6c1ab9d165b0f12a7b9",
+          "url": "https://cdn.modrinth.com/data/7t2kydgp/versions/fMhP26Xh/whatsup-quilt-1.19.4-0.1.1.jar",
+          "filename": "whatsup-quilt-1.19.4-0.1.1.jar",
+          "primary": true,
+          "size": 111726
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8tpeB2g5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jTsMCUIA",
+      "name": "0.1.1",
+      "version_number": "0.1.1",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e97a0b2ae4b95767eaef7c03736663382473757a48e5bee467fe3929abb359cd2a63dfa3a98b295041c7e799c526c95e865782b921cc1f215e4235ba6a33a661",
+          "url": "https://cdn.modrinth.com/data/7t2kydgp/versions/jTsMCUIA/whatsup-forge-1.19.4-0.1.1.jar",
+          "filename": "whatsup-forge-1.19.4-0.1.1.jar",
+          "primary": true,
+          "size": 110520
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "zg2tT2Vu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "lE0eleLP",
+      "name": "1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "34e4269f7165320ecf7ce77ef9e87314bcbd65b695377011c74c277a7c5ab7f3f726e78fc7466d0545ec313d562698cb2e597117bc25f8d698e29996a4291808",
+          "url": "https://cdn.modrinth.com/data/7t2kydgp/versions/lE0eleLP/whatsup-forge-1.19.4-1.0.0.jar",
+          "filename": "whatsup-forge-1.19.4-1.0.0.jar",
+          "primary": true,
+          "size": 114861
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "zg2tT2Vu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "w2FeYYLo",
+      "name": "1.2.0",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "1894e991b534b5ee01ed8ea41b023b6012719f806326ef2a9208acfe7250144a07ed46990f1d6facdf488d9194ed6cf2d7135aab70b364547fed5549f4e3053a",
+          "url": "https://cdn.modrinth.com/data/7t2kydgp/versions/w2FeYYLo/whatsup-forge-1.20.1-1.2.0.jar",
+          "filename": "whatsup-forge-1.20.1-1.2.0.jar",
+          "primary": true,
+          "size": 128338
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "zg2tT2Vu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

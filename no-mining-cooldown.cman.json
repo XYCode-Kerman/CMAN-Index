@@ -1,9 +1,55 @@
 {
-  "id": "no-mining-cooldown",
+  "id": "azfbyO6s",
   "slug": "no-mining-cooldown",
   "name": "No Mining Cooldown",
   "description": "Fixes the client-side block breaking delay; this feature is toggleable with the key bound to \"Toggle Mining Cooldown\" under miscellaneous.",
   "versions": [
+    {
+      "id": "AJiEEGNf",
+      "name": "No Mining Cooldown v1.0",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "3feb4af015c332b68d2f3635597c4b8827c51f270bc0206611b7da80b4aef6881a663ebb7c54444dcbdb7e66086c84e2cc30c3acdcf96abf00ea45cdad594938",
+          "url": "https://cdn.modrinth.com/data/azfbyO6s/versions/AJiEEGNf/nmc-1.0.jar",
+          "filename": "nmc-1.0.jar",
+          "primary": true,
+          "size": 18915
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "W4iWN1Cv",
+      "name": "No Mining Cooldown v1.1",
+      "version_number": "1.1",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "68e7c8ef73920ea827ba975d40fe76493653cb1a9941528c5f310292291ca8475b53c573a39faa5ece922b07f85ae64cdbb9480fdd3b4d558ae806d0cadfb8d9",
+          "url": "https://cdn.modrinth.com/data/azfbyO6s/versions/W4iWN1Cv/nmc-1.1.jar",
+          "filename": "nmc-1.1.jar",
+          "primary": true,
+          "size": 18916
+        }
+      ],
+      "dependencies": []
+    },
     {
       "id": "unLfkFcC",
       "name": "No Mining Cooldown v2.3",
@@ -21,6 +67,14 @@
           "filename": "nmc-2.3.jar",
           "primary": true,
           "size": 18838
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -48,49 +102,13 @@
           "primary": true,
           "size": 18914
         }
-      ]
-    },
-    {
-      "id": "W4iWN1Cv",
-      "name": "No Mining Cooldown v1.1",
-      "version_number": "1.1",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
       ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "68e7c8ef73920ea827ba975d40fe76493653cb1a9941528c5f310292291ca8475b53c573a39faa5ece922b07f85ae64cdbb9480fdd3b4d558ae806d0cadfb8d9",
-          "url": "https://cdn.modrinth.com/data/azfbyO6s/versions/W4iWN1Cv/nmc-1.1.jar",
-          "filename": "nmc-1.1.jar",
-          "primary": true,
-          "size": 18916
-        }
-      ]
-    },
-    {
-      "id": "AJiEEGNf",
-      "name": "No Mining Cooldown v1.0",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "3feb4af015c332b68d2f3635597c4b8827c51f270bc0206611b7da80b4aef6881a663ebb7c54444dcbdb7e66086c84e2cc30c3acdcf96abf00ea45cdad594938",
-          "url": "https://cdn.modrinth.com/data/azfbyO6s/versions/AJiEEGNf/nmc-1.0.jar",
-          "filename": "nmc-1.0.jar",
-          "primary": true,
-          "size": 18915
+          "project_id": "P7dR8mSH",
+          "version_id": "hFdJG9fY",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

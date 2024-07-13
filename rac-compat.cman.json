@@ -5,6 +5,41 @@
   "description": "Compatibility addon between Relics and Alex's Caves",
   "versions": [
     {
+      "id": "B7rqTMBv",
+      "name": "Relics: Alex's Caves Compat 0.1",
+      "version_number": "0.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "0a40b13a00f02f6e17946bba86b5fec3ebc632656d7abf3d8ea394b66fac0b5005750e0bc848e0eb2bce0c7c9490d9f02699f190660746376488640ccbf15c30",
+          "url": "https://cdn.modrinth.com/data/hkanUwBv/versions/B7rqTMBv/raccompat-1.20.1-0.1.jar",
+          "filename": "raccompat-1.20.1-0.1.jar",
+          "primary": true,
+          "size": 100126
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "OCJRPujW",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "U6GY0xp0",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "WI4ABhkP",
       "name": "Relics: Alex's Caves Compat 0.1.2.1",
       "version_number": "0.1.2.1",
@@ -57,41 +92,6 @@
           "filename": "raccompat-1.20.1-0.1.2.jar",
           "primary": true,
           "size": 100745
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "OCJRPujW",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "U6GY0xp0",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "B7rqTMBv",
-      "name": "Relics: Alex's Caves Compat 0.1",
-      "version_number": "0.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge",
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "0a40b13a00f02f6e17946bba86b5fec3ebc632656d7abf3d8ea394b66fac0b5005750e0bc848e0eb2bce0c7c9490d9f02699f190660746376488640ccbf15c30",
-          "url": "https://cdn.modrinth.com/data/hkanUwBv/versions/B7rqTMBv/raccompat-1.20.1-0.1.jar",
-          "filename": "raccompat-1.20.1-0.1.jar",
-          "primary": true,
-          "size": 100126
         }
       ],
       "dependencies": [

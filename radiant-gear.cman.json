@@ -5,76 +5,80 @@
   "description": "A compatibility bridge between Curios API or Trinkets API and dynamic light mods such as Lucent or LambDynamicLights. Formerly known as Curious Lights.",
   "versions": [
     {
-      "id": "nBM1JM3z",
-      "name": "radiantgear-neoforge-4.0.0+1.20.6",
-      "version_number": "4.0.0+1.20.6",
+      "id": "2Y3F5ZvK",
+      "name": "radiantgear-fabric-2.1.0+1.19.4",
+      "version_number": "2.1.0+1.19.4",
       "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "7fe6f810091a3eedba0bda30347789fb905fbfe20e60911cc1cd52ad15aa40d127b180bdeea61af27fb0b5dda5fd5a5af7859fef053a42d71526cacaec7799cc",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/nBM1JM3z/radiantgear-neoforge-4.0.0%2B1.20.6.jar",
-          "filename": "radiantgear-neoforge-4.0.0+1.20.6.jar",
-          "primary": true,
-          "size": 41262
-        },
-        {
-          "sha512": "89c8a2b3304692258e1b656c397e53af9e3bdceeaf920df6af8c258dac83a041e8ed43be58ae43f9c55de9037c945ffe2d6d7e5db4ce281ab161eb248cec4f71",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/nBM1JM3z/radiantgear-neoforge-4.0.0%2B1.20.6-sources.jar",
-          "filename": "radiantgear-neoforge-4.0.0+1.20.6-sources.jar",
-          "primary": false,
-          "size": 33321
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vvuO3ImH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "JE0fgMUp",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "reCfnRvJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "Rq7QJiDY",
-      "name": "radiantgear-fabric-4.0.0+1.20.6",
-      "version_number": "4.0.0+1.20.6",
-      "game_versions": [
-        "1.20.6"
+        "1.19.3",
+        "1.19.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "76fe7692fd0da8aec435c3b638132cd7cac86f1b6af00938cfbf85253aaa4a12c3453e1bf494bf478044d3c905bac35aeffc418d862e9926347290a306c7c9ed",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/Rq7QJiDY/radiantgear-fabric-4.0.0%2B1.20.6.jar",
-          "filename": "radiantgear-fabric-4.0.0+1.20.6.jar",
+          "sha512": "e3749d302a04bd860d198e787772448a0ada0c7a6d15d71dfdabfcd7c6eaed80097dc491368828d57436386773a86e6193d409460cbcf1a8d4d87f2c68400db3",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/2Y3F5ZvK/radiantgear-fabric-2.1.0%2B1.19.4.jar",
+          "filename": "radiantgear-fabric-2.1.0+1.19.4.jar",
           "primary": true,
-          "size": 31134
+          "size": 31074
         },
         {
-          "sha512": "1749cfe1f709c63e11bfec52fd9c71e72f802ba4da009231163fc46b1549a4c535fc8d7c97a1991c1f27f9e697a45d96daa8af235364c161aa54c4da136dfc3e",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/Rq7QJiDY/radiantgear-fabric-4.0.0%2B1.20.6-sources.jar",
-          "filename": "radiantgear-fabric-4.0.0+1.20.6-sources.jar",
+          "sha512": "aa80d9bb92577ae280335a32fae9dabe9883fe338ef7e636f973dff8c422831e78f1760aa436471f2515e9afd9c7f182ceadb951d3fa7390ca149844af067bf5",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/2Y3F5ZvK/radiantgear-fabric-2.1.0%2B1.19.4-sources.jar",
+          "filename": "radiantgear-fabric-2.1.0+1.19.4-sources.jar",
           "primary": false,
-          "size": 27919
+          "size": 22100
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "yBW8D80W",
+          "version_id": "85Jaf9ic",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "5aaWibi9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "2u5N40JW",
+      "name": "radiantgear-fabric-2.1.6+1.20.1",
+      "version_number": "2.1.6+1.20.1",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "051a26d883f7d713037e34003c6b9cb4a63da3517074df0352b77c52b5b20e37270f295ca1a7a2051703007229c7169420f32c571d6b1b6d46992f2352b441c2",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/2u5N40JW/radiantgear-fabric-2.1.6%2B1.20.1.jar",
+          "filename": "radiantgear-fabric-2.1.6+1.20.1.jar",
+          "primary": true,
+          "size": 33078
+        },
+        {
+          "sha512": "288e15071caf63de14721b6b10db4d4979f8753ae1a59683bea54fa8d54cf916f690d3e5f8a26a676b17380d565a13d9f794e32ee4812c7d48501d37e3f65377",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/2u5N40JW/radiantgear-fabric-2.1.6%2B1.20.1-sources.jar",
+          "filename": "radiantgear-fabric-2.1.6+1.20.1-sources.jar",
+          "primary": false,
+          "size": 23595
         }
       ],
       "dependencies": [
@@ -83,12 +87,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "reCfnRvJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
@@ -101,6 +99,316 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "4iL5CqFL",
+      "name": "radiantgear-forge-2.1.3+1.20.1",
+      "version_number": "2.1.3+1.20.1",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "fee8b98fe9cc58cb3cf987ccd7a0fcd8229607f0eb199a02b61572ab443ea7e21414bca255ba628c95e7d52c7dc47232b006c856dd257d08d9a4233431be5b43",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/4iL5CqFL/radiantgear-forge-2.1.3%2B1.20.1.jar",
+          "filename": "radiantgear-forge-2.1.3+1.20.1.jar",
+          "primary": true,
+          "size": 42771
+        },
+        {
+          "sha512": "413ae670afc6a4d619c1d23f6b60b35d19c6e616ba66683e5c05176980555d76376767068cf4cf6ceb4cb5b9b9e3a2b339553e8700a4fdebdebcb1515303910e",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/4iL5CqFL/radiantgear-forge-2.1.3%2B1.20.1-sources.jar",
+          "filename": "radiantgear-forge-2.1.3+1.20.1-sources.jar",
+          "primary": false,
+          "size": 29362
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vvuO3ImH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "522fj12b",
+      "name": "radiantgear-quilt-2.1.0+1.19.3",
+      "version_number": "2.1.0+1.19.3",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "81ab6f344bec47ee66f3270978d3c70317a1f70d3f1bedfccf675f301761ef7ed758e92dcebb9e14af11ce4076b6db32cf8a574ae827dd19b32cc95dea9f6b6d",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/522fj12b/radiantgear-quilt-2.1.0%2B1.19.3.jar",
+          "filename": "radiantgear-quilt-2.1.0+1.19.3.jar",
+          "primary": true,
+          "size": 31162
+        },
+        {
+          "sha512": "bbf6b75ca3eb2f9f5909710c8e7aefc0d3815875d1b74e0dcd82a9ae9405f90cfba89c31fb8369537904a595ec73f22e2d53a01fab3349f009fb37f1cb2eebe6",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/522fj12b/radiantgear-quilt-2.1.0%2B1.19.3-sources.jar",
+          "filename": "radiantgear-quilt-2.1.0+1.19.3-sources.jar",
+          "primary": false,
+          "size": 22175
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "eaoB99I6",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "6O6DlyI7",
+      "name": "radiantgear-fabric-2.0.1+1.19.2",
+      "version_number": "2.0.1+1.19.2",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8e57abce2bd77950e60cba6da4f21786642a206bd9926b0959886ab5c588eb93915675e239620f34b65386bead16eb5df35062879b8fd248ac57c71a305cae74",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/6O6DlyI7/radiantgear-fabric-2.0.1%2B1.19.2.jar",
+          "filename": "radiantgear-fabric-2.0.1+1.19.2.jar",
+          "primary": true,
+          "size": 24672
+        },
+        {
+          "sha512": "29385874a89acb44b99a0fdc6ca117141d1e6a5f1910d54373878c2ff776184efef198dd37ef548ee5c461be608b56768c696985f27962e8a85bddb0169c497b",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/6O6DlyI7/radiantgear-fabric-2.0.1%2B1.19.2-sources.jar",
+          "filename": "radiantgear-fabric-2.0.1+1.19.2-sources.jar",
+          "primary": false,
+          "size": 21146
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "8W30WnGE",
+      "name": "radiantgear-quilt-2.1.0+1.20.1",
+      "version_number": "2.1.0+1.20.1",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "222371fc19041cc8990dbadb3beb6283a287a3182706c21fd8e14f998c862362a4cabb1504236e280ff596a6d67d7cc5ddd825a895448c721f733cb76f4d481a",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/8W30WnGE/radiantgear-quilt-2.1.0%2B1.20.1.jar",
+          "filename": "radiantgear-quilt-2.1.0+1.20.1.jar",
+          "primary": true,
+          "size": 31242
+        },
+        {
+          "sha512": "feec5577cb1255661fd1e48c738099e527cf675b63c0fe962b9bb3e8e741c7def168a693d572aa8099e4f54b4bb0391b072fb29923848c7acae97f9eeae94f64",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/8W30WnGE/radiantgear-quilt-2.1.0%2B1.20.1-sources.jar",
+          "filename": "radiantgear-quilt-2.1.0+1.20.1-sources.jar",
+          "primary": false,
+          "size": 22237
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "yBW8D80W",
+          "version_id": "Vsx4I8Np",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "5aaWibi9",
+          "version_id": "e563ycts",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "fFx48erS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "97i06Z6R",
+      "name": "radiantgear-forge-2.1.5+1.20.1",
+      "version_number": "2.1.5+1.20.1",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8134680efa6eceeeada2d0cda7881fd48b7dabce1792c41ad32088ec9ad0a0eb8f5331b009f7dabbffa9a8a2ad4ff35f8f35b902a3149f79da4e992eacd15b62",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/97i06Z6R/radiantgear-forge-2.1.5%2B1.20.1.jar",
+          "filename": "radiantgear-forge-2.1.5+1.20.1.jar",
+          "primary": true,
+          "size": 44824
+        },
+        {
+          "sha512": "ec71021b0fb8acfdadc740f82876232fdd399b1cf021744e5c6c3811974c0facee326f15e75d608d959a017b7bbfc8799470e233a05506a3ad1d6d5733aec608",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/97i06Z6R/radiantgear-forge-2.1.5%2B1.20.1-sources.jar",
+          "filename": "radiantgear-forge-2.1.5+1.20.1-sources.jar",
+          "primary": false,
+          "size": 30558
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vvuO3ImH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Bwm2wz3A",
+      "name": "radiantgear-forge-2.1.4+1.20.1",
+      "version_number": "2.1.4+1.20.1",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5a7c01cce93757656a0e96d527fa7373dc61800f4d3dee6fedde79a6e2d731b3768e04b82df853494bb8d90cf9edae5f06c43d5e41a3598d37b909dfe5446a93",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/Bwm2wz3A/radiantgear-forge-2.1.4%2B1.20.1.jar",
+          "filename": "radiantgear-forge-2.1.4+1.20.1.jar",
+          "primary": true,
+          "size": 44707
+        },
+        {
+          "sha512": "a3fbbeb6c96cefd883a28c7058db983a1cb65f6c7fbb3aaf6c005a1a77a2261998fd9b9267fab850539d252f6f0cdb104c0f4045747ee036f481e73a1747e33e",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/Bwm2wz3A/radiantgear-forge-2.1.4%2B1.20.1-sources.jar",
+          "filename": "radiantgear-forge-2.1.4+1.20.1-sources.jar",
+          "primary": false,
+          "size": 30478
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vvuO3ImH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "DGSTdDqn",
+      "name": "radiantgear-forge-2.1.2+1.20.1",
+      "version_number": "2.1.2+1.20.1",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "eef306ad5945df77208174101128113e17d5058512dd4d4c0726db004ab3989ecc4fc5263dfc05e0715072533ae37154cf92878f4cd778852feb5b6df867c78c",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/DGSTdDqn/radiantgear-forge-2.1.2%2B1.20.1.jar",
+          "filename": "radiantgear-forge-2.1.2+1.20.1.jar",
+          "primary": true,
+          "size": 40890
+        },
+        {
+          "sha512": "be749a2c9c98faa27e67a36cda8fca52d9badbf0f5716989ff079ccebafff79430225b2de9bf651c7ed005f3ce8e744d66a5a9bde1ddef5770f1632638a54c74",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/DGSTdDqn/radiantgear-forge-2.1.2%2B1.20.1-sources.jar",
+          "filename": "radiantgear-forge-2.1.2+1.20.1-sources.jar",
+          "primary": false,
+          "size": 27972
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vvuO3ImH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "EnaXss7E",
+      "name": "radiantgear-forge-2.1.0+1.19.4",
+      "version_number": "2.1.0+1.19.4",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9ac3dda14eb32ade69c154b7ded57cb73a99e08b252bd9a8b6278929ee04b4684d4afe1507d95a9fb8cf9fa06e2ccd2de5cf09cebe0008beb09b726688a2dc2d",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/EnaXss7E/radiantgear-forge-2.1.0%2B1.19.4.jar",
+          "filename": "radiantgear-forge-2.1.0+1.19.4.jar",
+          "primary": true,
+          "size": 40575
+        },
+        {
+          "sha512": "cd0e1f6fac68bdda476df9b4402806e5e939ef25af260f9316afa2f6436acb5770a6b0287eaac5f035f7d43e143810450ecbb308dffbfab9b98b4014d8e56fe1",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/EnaXss7E/radiantgear-forge-2.1.0%2B1.19.4-sources.jar",
+          "filename": "radiantgear-forge-2.1.0+1.19.4-sources.jar",
+          "primary": false,
+          "size": 27862
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vvuO3ImH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -187,29 +495,117 @@
       ]
     },
     {
-      "id": "yDtblpsL",
-      "name": "radiantgear-fabric-3.0.0+1.20.4",
-      "version_number": "3.0.0+1.20.4",
+      "id": "MsZb9cgd",
+      "name": "radiantgear-fabric-2.1.0+1.20.1",
+      "version_number": "2.1.0+1.20.1",
       "game_versions": [
-        "1.20.4"
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "0c908e90ffc63599422a3cb0281cff60903fa4e9059fa8773d0bfbf0df73fd8f2888e17a4504aa80445db9397eec459ae84f93c2e953e563320ac5a09aca9c5f",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/yDtblpsL/radiantgear-fabric-3.0.0%2B1.20.4.jar",
-          "filename": "radiantgear-fabric-3.0.0+1.20.4.jar",
+          "sha512": "38357d4522501094886b4fc7a180e1bbbe9217b9e1226c788006fa80fb878eb635245c15d232062750a01ce2c030693cc1b902488401e83289d777f611d0e63c",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/MsZb9cgd/radiantgear-fabric-2.1.0%2B1.20.1.jar",
+          "filename": "radiantgear-fabric-2.1.0+1.20.1.jar",
           "primary": true,
-          "size": 31271
+          "size": 31087
         },
         {
-          "sha512": "adec556cf35e1e9217cbf67d664ea8b326c02bd3059562df4bba516b02997f0a3d9a862376135499e4cc8dfd3eeb20ec31763f3264cdab4ef58c346731d1631e",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/yDtblpsL/radiantgear-fabric-3.0.0%2B1.20.4-sources.jar",
-          "filename": "radiantgear-fabric-3.0.0+1.20.4-sources.jar",
+          "sha512": "69041421d450e46d58866db266d3a3db21d44709f01d77c236f31eaa3a5b975e76196862b4edc59f00d0af944a895f5e1049fe31e86bcdd8a8582c1353ea4fbc",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/MsZb9cgd/radiantgear-fabric-2.1.0%2B1.20.1-sources.jar",
+          "filename": "radiantgear-fabric-2.1.0+1.20.1-sources.jar",
           "primary": false,
-          "size": 27912
+          "size": 22115
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "yBW8D80W",
+          "version_id": "Vsx4I8Np",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5aaWibi9",
+          "version_id": "e563ycts",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "NoCSAOZU",
+      "name": "radiantgear-forge-2.1.0+1.20.1",
+      "version_number": "2.1.0+1.20.1",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "1b2cc6cd278f4be2c5435f2283e95fbb78c6c02bf999d5257139965a787187dec02251bbbf3fffb873b1483943007e20d79f666cdf39dfe73b7d24ba8b3d1a9f",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/NoCSAOZU/radiantgear-forge-2.1.0%2B1.20.1.jar",
+          "filename": "radiantgear-forge-2.1.0+1.20.1.jar",
+          "primary": true,
+          "size": 40804
+        },
+        {
+          "sha512": "c31841be5d9350f19e2025be5c56207ef62a8a5fad14c462e776c1f19923421c8b15e6b08b32466e2f57e4a676887dfc2bf31f8ce8e72504b35721c8082fc3bb",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/NoCSAOZU/radiantgear-forge-2.1.0%2B1.20.1-sources.jar",
+          "filename": "radiantgear-forge-2.1.0+1.20.1-sources.jar",
+          "primary": false,
+          "size": 27880
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vvuO3ImH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Rq7QJiDY",
+      "name": "radiantgear-fabric-4.0.0+1.20.6",
+      "version_number": "4.0.0+1.20.6",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "76fe7692fd0da8aec435c3b638132cd7cac86f1b6af00938cfbf85253aaa4a12c3453e1bf494bf478044d3c905bac35aeffc418d862e9926347290a306c7c9ed",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/Rq7QJiDY/radiantgear-fabric-4.0.0%2B1.20.6.jar",
+          "filename": "radiantgear-fabric-4.0.0+1.20.6.jar",
+          "primary": true,
+          "size": 31134
+        },
+        {
+          "sha512": "1749cfe1f709c63e11bfec52fd9c71e72f802ba4da009231163fc46b1549a4c535fc8d7c97a1991c1f27f9e697a45d96daa8af235364c161aa54c4da136dfc3e",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/Rq7QJiDY/radiantgear-fabric-4.0.0%2B1.20.6-sources.jar",
+          "filename": "radiantgear-fabric-4.0.0+1.20.6-sources.jar",
+          "primary": false,
+          "size": 27919
         }
       ],
       "dependencies": [
@@ -220,10 +616,10 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "yBW8D80W",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         },
         {
           "project_id": "reCfnRvJ",
@@ -232,10 +628,10 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "yBW8D80W",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
     },
@@ -275,52 +671,111 @@
       ]
     },
     {
-      "id": "2u5N40JW",
-      "name": "radiantgear-fabric-2.1.6+1.20.1",
-      "version_number": "2.1.6+1.20.1",
+      "id": "YoPsDoxS",
+      "name": "radiantgear-forge-2.0.2+1.19.2",
+      "version_number": "2.0.2+1.19.2",
       "game_versions": [
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
-        "fabric"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "051a26d883f7d713037e34003c6b9cb4a63da3517074df0352b77c52b5b20e37270f295ca1a7a2051703007229c7169420f32c571d6b1b6d46992f2352b441c2",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/2u5N40JW/radiantgear-fabric-2.1.6%2B1.20.1.jar",
-          "filename": "radiantgear-fabric-2.1.6+1.20.1.jar",
+          "sha512": "d97befef6cb434bf461ac4fe839d6ab2e207a1f463463171553b03178ba9e5c05472a46f0871da83cbf524c7e5f5033c9ea7319532f259bb83c04d81760914f2",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/YoPsDoxS/radiantgear-forge-2.0.2%2B1.19.2.jar",
+          "filename": "radiantgear-forge-2.0.2+1.19.2.jar",
           "primary": true,
-          "size": 33078
+          "size": 35687
         },
         {
-          "sha512": "288e15071caf63de14721b6b10db4d4979f8753ae1a59683bea54fa8d54cf916f690d3e5f8a26a676b17380d565a13d9f794e32ee4812c7d48501d37e3f65377",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/2u5N40JW/radiantgear-fabric-2.1.6%2B1.20.1-sources.jar",
-          "filename": "radiantgear-fabric-2.1.6+1.20.1-sources.jar",
+          "sha512": "5736d872ba6b5aaf7226cb94b125bdc88108386a67f4815d2c3744df25ffe9869ea612c2497996bb073a06d31f5e8b2c05a97d6a14a3649b9ade9eaac4ab5c19",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/YoPsDoxS/radiantgear-forge-2.0.2%2B1.19.2-sources.jar",
+          "filename": "radiantgear-forge-2.0.2+1.19.2-sources.jar",
           "primary": false,
-          "size": 23595
+          "size": 27163
         }
       ],
       "dependencies": [
         {
-          "project_id": "5aaWibi9",
+          "project_id": "vvuO3ImH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "bsg0eo9Q",
+      "name": "curiouslights-forge-1.3.0+1.18.2",
+      "version_number": "1.3.0+1.18.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "135eac629686549bb8a7f643d66b951b7787e4d44abea2a1146f1974d47981fcdce0847430a48f2d49075882183c90fa72d3294ac05e5e6151d18c5e2357221c",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/bsg0eo9Q/curiouslights-forge-1.3.0%2B1.18.2.jar",
+          "filename": "curiouslights-forge-1.3.0+1.18.2.jar",
+          "primary": true,
+          "size": 34523
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
+          "sha512": "c60b46c3f8ac042dbb9ff7b3d60dba692861f8233d974a365bff4f89cb3b309774e5f21b0c32876108bf37dd131c7dc03c92530adb87e92070f858cb40e1b5ec",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/bsg0eo9Q/curiouslights-forge-1.3.0%2B1.18.2-sources.jar",
+          "filename": "curiouslights-forge-1.3.0+1.18.2-sources.jar",
+          "primary": false,
+          "size": 9538
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vvuO3ImH",
+          "version_id": "dlv1r8No",
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "c3x2bv4G",
+      "name": "radiantgear-forge-2.0.1+1.19.2",
+      "version_number": "2.0.1+1.19.2",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d34fb9b4b9a24989771617ffc458748bd478f4ca73baefd280345e4533d938834feb6b1487f49be9fcb78085735594f89241629427626f2c27af05b66c3883ec",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/c3x2bv4G/radiantgear-forge-2.0.1%2B1.19.2.jar",
+          "filename": "radiantgear-forge-2.0.1+1.19.2.jar",
+          "primary": true,
+          "size": 35598
         },
         {
-          "project_id": "yBW8D80W",
-          "version_id": null,
+          "sha512": "2cec4ceadbaa09f07d0cf2268b86d176464f29bb2846c508506b8a710ea96946d79c559bcf05349040a784dc05c99d77320fbf45a14195cc3dd8da83b20cc5a7",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/c3x2bv4G/radiantgear-forge-2.0.1%2B1.19.2-sources.jar",
+          "filename": "radiantgear-forge-2.0.1+1.19.2-sources.jar",
+          "primary": false,
+          "size": 27098
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vvuO3ImH",
+          "version_id": "uvQEq1xO",
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
     },
@@ -375,75 +830,35 @@
       ]
     },
     {
-      "id": "wkRh0MZp",
-      "name": "radiantgear-2.0.4+1.19.2",
-      "version_number": "2.0.4+1.19.2",
+      "id": "hCqTBelE",
+      "name": "radiantgear-fabric-2.1.0+1.19.3",
+      "version_number": "2.1.0+1.19.3",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
+        "1.19.3"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "1530f594e74c6659e71b167a7bbed5656b47162abc46ac027c05df43ece495f57f2a9be660411a4059530eed751ad2ebba306f681a199e3740f57bd2a961ee1e",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/wkRh0MZp/radiantgear-forge-2.0.4%2B1.19.2.jar",
-          "filename": "radiantgear-forge-2.0.4+1.19.2.jar",
+          "sha512": "cecf29cf970b86fbd8f70a2dc09878f65e037637a96dd5ad35d4f6fe52a0929a246e26a0844e08097a121ba169fe8b284685c92ea065dfe58bd6e1912169692b",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/hCqTBelE/radiantgear-fabric-2.1.0%2B1.19.3.jar",
+          "filename": "radiantgear-fabric-2.1.0+1.19.3.jar",
           "primary": true,
-          "size": 41393
+          "size": 31063
         },
         {
-          "sha512": "d31568552688ae75f2c085fae931af8b430520a764a209612d88e667c083766198ab831ab81ad32476ef81a267ee59748784bd9ec827d8f3d56f98d89d5ab702",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/wkRh0MZp/radiantgear-forge-2.0.4%2B1.19.2-sources.jar",
-          "filename": "radiantgear-forge-2.0.4+1.19.2-sources.jar",
+          "sha512": "ca85349ea1f7a210fd3b2701faa5550d41d581a48f2973f29af66e2de6f7d0927b6a406a8d022df71274e4ed9d039b11716321b53cb109146b4e92f6c833919c",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/hCqTBelE/radiantgear-fabric-2.1.0%2B1.19.3-sources.jar",
+          "filename": "radiantgear-fabric-2.1.0+1.19.3-sources.jar",
           "primary": false,
-          "size": 30236
+          "size": 22096
         }
       ],
       "dependencies": [
         {
-          "project_id": "vvuO3ImH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "97i06Z6R",
-      "name": "radiantgear-forge-2.1.5+1.20.1",
-      "version_number": "2.1.5+1.20.1",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "8134680efa6eceeeada2d0cda7881fd48b7dabce1792c41ad32088ec9ad0a0eb8f5331b009f7dabbffa9a8a2ad4ff35f8f35b902a3149f79da4e992eacd15b62",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/97i06Z6R/radiantgear-forge-2.1.5%2B1.20.1.jar",
-          "filename": "radiantgear-forge-2.1.5+1.20.1.jar",
-          "primary": true,
-          "size": 44824
-        },
-        {
-          "sha512": "ec71021b0fb8acfdadc740f82876232fdd399b1cf021744e5c6c3811974c0facee326f15e75d608d959a017b7bbfc8799470e233a05506a3ad1d6d5733aec608",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/97i06Z6R/radiantgear-forge-2.1.5%2B1.20.1-sources.jar",
-          "filename": "radiantgear-forge-2.1.5+1.20.1-sources.jar",
-          "primary": false,
-          "size": 30558
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vvuO3ImH",
-          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -487,32 +902,29 @@
       ]
     },
     {
-      "id": "Bwm2wz3A",
-      "name": "radiantgear-forge-2.1.4+1.20.1",
-      "version_number": "2.1.4+1.20.1",
+      "id": "nBM1JM3z",
+      "name": "radiantgear-neoforge-4.0.0+1.20.6",
+      "version_number": "4.0.0+1.20.6",
       "game_versions": [
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
+        "1.20.6"
       ],
       "loaders": [
-        "forge"
+        "neoforge"
       ],
       "files": [
         {
-          "sha512": "5a7c01cce93757656a0e96d527fa7373dc61800f4d3dee6fedde79a6e2d731b3768e04b82df853494bb8d90cf9edae5f06c43d5e41a3598d37b909dfe5446a93",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/Bwm2wz3A/radiantgear-forge-2.1.4%2B1.20.1.jar",
-          "filename": "radiantgear-forge-2.1.4+1.20.1.jar",
+          "sha512": "7fe6f810091a3eedba0bda30347789fb905fbfe20e60911cc1cd52ad15aa40d127b180bdeea61af27fb0b5dda5fd5a5af7859fef053a42d71526cacaec7799cc",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/nBM1JM3z/radiantgear-neoforge-4.0.0%2B1.20.6.jar",
+          "filename": "radiantgear-neoforge-4.0.0+1.20.6.jar",
           "primary": true,
-          "size": 44707
+          "size": 41262
         },
         {
-          "sha512": "a3fbbeb6c96cefd883a28c7058db983a1cb65f6c7fbb3aaf6c005a1a77a2261998fd9b9267fab850539d252f6f0cdb104c0f4045747ee036f481e73a1747e33e",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/Bwm2wz3A/radiantgear-forge-2.1.4%2B1.20.1-sources.jar",
-          "filename": "radiantgear-forge-2.1.4+1.20.1-sources.jar",
+          "sha512": "89c8a2b3304692258e1b656c397e53af9e3bdceeaf920df6af8c258dac83a041e8ed43be58ae43f9c55de9037c945ffe2d6d7e5db4ce281ab161eb248cec4f71",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/nBM1JM3z/radiantgear-neoforge-4.0.0%2B1.20.6-sources.jar",
+          "filename": "radiantgear-neoforge-4.0.0+1.20.6-sources.jar",
           "primary": false,
-          "size": 30478
+          "size": 33321
         }
       ],
       "dependencies": [
@@ -521,119 +933,18 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4iL5CqFL",
-      "name": "radiantgear-forge-2.1.3+1.20.1",
-      "version_number": "2.1.3+1.20.1",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "fee8b98fe9cc58cb3cf987ccd7a0fcd8229607f0eb199a02b61572ab443ea7e21414bca255ba628c95e7d52c7dc47232b006c856dd257d08d9a4233431be5b43",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/4iL5CqFL/radiantgear-forge-2.1.3%2B1.20.1.jar",
-          "filename": "radiantgear-forge-2.1.3+1.20.1.jar",
-          "primary": true,
-          "size": 42771
         },
         {
-          "sha512": "413ae670afc6a4d619c1d23f6b60b35d19c6e616ba66683e5c05176980555d76376767068cf4cf6ceb4cb5b9b9e3a2b339553e8700a4fdebdebcb1515303910e",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/4iL5CqFL/radiantgear-forge-2.1.3%2B1.20.1-sources.jar",
-          "filename": "radiantgear-forge-2.1.3+1.20.1-sources.jar",
-          "primary": false,
-          "size": 29362
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vvuO3ImH",
+          "project_id": "JE0fgMUp",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "DGSTdDqn",
-      "name": "radiantgear-forge-2.1.2+1.20.1",
-      "version_number": "2.1.2+1.20.1",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "eef306ad5945df77208174101128113e17d5058512dd4d4c0726db004ab3989ecc4fc5263dfc05e0715072533ae37154cf92878f4cd778852feb5b6df867c78c",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/DGSTdDqn/radiantgear-forge-2.1.2%2B1.20.1.jar",
-          "filename": "radiantgear-forge-2.1.2+1.20.1.jar",
-          "primary": true,
-          "size": 40890
+          "dependency_type": "optional"
         },
         {
-          "sha512": "be749a2c9c98faa27e67a36cda8fca52d9badbf0f5716989ff079ccebafff79430225b2de9bf651c7ed005f3ce8e744d66a5a9bde1ddef5770f1632638a54c74",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/DGSTdDqn/radiantgear-forge-2.1.2%2B1.20.1-sources.jar",
-          "filename": "radiantgear-forge-2.1.2+1.20.1-sources.jar",
-          "primary": false,
-          "size": 27972
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vvuO3ImH",
+          "project_id": "reCfnRvJ",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "YoPsDoxS",
-      "name": "radiantgear-forge-2.0.2+1.19.2",
-      "version_number": "2.0.2+1.19.2",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "d97befef6cb434bf461ac4fe839d6ab2e207a1f463463171553b03178ba9e5c05472a46f0871da83cbf524c7e5f5033c9ea7319532f259bb83c04d81760914f2",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/YoPsDoxS/radiantgear-forge-2.0.2%2B1.19.2.jar",
-          "filename": "radiantgear-forge-2.0.2+1.19.2.jar",
-          "primary": true,
-          "size": 35687
-        },
-        {
-          "sha512": "5736d872ba6b5aaf7226cb94b125bdc88108386a67f4815d2c3744df25ffe9869ea612c2497996bb073a06d31f5e8b2c05a97d6a14a3649b9ade9eaac4ab5c19",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/YoPsDoxS/radiantgear-forge-2.0.2%2B1.19.2-sources.jar",
-          "filename": "radiantgear-forge-2.0.2+1.19.2-sources.jar",
-          "primary": false,
-          "size": 27163
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vvuO3ImH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         }
       ]
     },
@@ -664,144 +975,6 @@
           "filename": "radiantgear-forge-2.1.1+1.20.1-sources.jar",
           "primary": false,
           "size": 27923
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vvuO3ImH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "8W30WnGE",
-      "name": "radiantgear-quilt-2.1.0+1.20.1",
-      "version_number": "2.1.0+1.20.1",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "222371fc19041cc8990dbadb3beb6283a287a3182706c21fd8e14f998c862362a4cabb1504236e280ff596a6d67d7cc5ddd825a895448c721f733cb76f4d481a",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/8W30WnGE/radiantgear-quilt-2.1.0%2B1.20.1.jar",
-          "filename": "radiantgear-quilt-2.1.0+1.20.1.jar",
-          "primary": true,
-          "size": 31242
-        },
-        {
-          "sha512": "feec5577cb1255661fd1e48c738099e527cf675b63c0fe962b9bb3e8e741c7def168a693d572aa8099e4f54b4bb0391b072fb29923848c7acae97f9eeae94f64",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/8W30WnGE/radiantgear-quilt-2.1.0%2B1.20.1-sources.jar",
-          "filename": "radiantgear-quilt-2.1.0+1.20.1-sources.jar",
-          "primary": false,
-          "size": 22237
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "fFx48erS",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "5aaWibi9",
-          "version_id": "e563ycts",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "yBW8D80W",
-          "version_id": "Vsx4I8Np",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "MsZb9cgd",
-      "name": "radiantgear-fabric-2.1.0+1.20.1",
-      "version_number": "2.1.0+1.20.1",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "38357d4522501094886b4fc7a180e1bbbe9217b9e1226c788006fa80fb878eb635245c15d232062750a01ce2c030693cc1b902488401e83289d777f611d0e63c",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/MsZb9cgd/radiantgear-fabric-2.1.0%2B1.20.1.jar",
-          "filename": "radiantgear-fabric-2.1.0+1.20.1.jar",
-          "primary": true,
-          "size": 31087
-        },
-        {
-          "sha512": "69041421d450e46d58866db266d3a3db21d44709f01d77c236f31eaa3a5b975e76196862b4edc59f00d0af944a895f5e1049fe31e86bcdd8a8582c1353ea4fbc",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/MsZb9cgd/radiantgear-fabric-2.1.0%2B1.20.1-sources.jar",
-          "filename": "radiantgear-fabric-2.1.0+1.20.1-sources.jar",
-          "primary": false,
-          "size": 22115
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5aaWibi9",
-          "version_id": "e563ycts",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "yBW8D80W",
-          "version_id": "Vsx4I8Np",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "NoCSAOZU",
-      "name": "radiantgear-forge-2.1.0+1.20.1",
-      "version_number": "2.1.0+1.20.1",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "1b2cc6cd278f4be2c5435f2283e95fbb78c6c02bf999d5257139965a787187dec02251bbbf3fffb873b1483943007e20d79f666cdf39dfe73b7d24ba8b3d1a9f",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/NoCSAOZU/radiantgear-forge-2.1.0%2B1.20.1.jar",
-          "filename": "radiantgear-forge-2.1.0+1.20.1.jar",
-          "primary": true,
-          "size": 40804
-        },
-        {
-          "sha512": "c31841be5d9350f19e2025be5c56207ef62a8a5fad14c462e776c1f19923421c8b15e6b08b32466e2f57e4a676887dfc2bf31f8ce8e72504b35721c8082fc3bb",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/NoCSAOZU/radiantgear-forge-2.1.0%2B1.20.1-sources.jar",
-          "filename": "radiantgear-forge-2.1.0+1.20.1-sources.jar",
-          "primary": false,
-          "size": 27880
         }
       ],
       "dependencies": [
@@ -862,30 +1035,31 @@
       ]
     },
     {
-      "id": "EnaXss7E",
-      "name": "radiantgear-forge-2.1.0+1.19.4",
-      "version_number": "2.1.0+1.19.4",
+      "id": "wkRh0MZp",
+      "name": "radiantgear-2.0.4+1.19.2",
+      "version_number": "2.0.4+1.19.2",
       "game_versions": [
-        "1.19.3",
-        "1.19.4"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "9ac3dda14eb32ade69c154b7ded57cb73a99e08b252bd9a8b6278929ee04b4684d4afe1507d95a9fb8cf9fa06e2ccd2de5cf09cebe0008beb09b726688a2dc2d",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/EnaXss7E/radiantgear-forge-2.1.0%2B1.19.4.jar",
-          "filename": "radiantgear-forge-2.1.0+1.19.4.jar",
+          "sha512": "1530f594e74c6659e71b167a7bbed5656b47162abc46ac027c05df43ece495f57f2a9be660411a4059530eed751ad2ebba306f681a199e3740f57bd2a961ee1e",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/wkRh0MZp/radiantgear-forge-2.0.4%2B1.19.2.jar",
+          "filename": "radiantgear-forge-2.0.4+1.19.2.jar",
           "primary": true,
-          "size": 40575
+          "size": 41393
         },
         {
-          "sha512": "cd0e1f6fac68bdda476df9b4402806e5e939ef25af260f9316afa2f6436acb5770a6b0287eaac5f035f7d43e143810450ecbb308dffbfab9b98b4014d8e56fe1",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/EnaXss7E/radiantgear-forge-2.1.0%2B1.19.4-sources.jar",
-          "filename": "radiantgear-forge-2.1.0+1.19.4-sources.jar",
+          "sha512": "d31568552688ae75f2c085fae931af8b430520a764a209612d88e667c083766198ab831ab81ad32476ef81a267ee59748784bd9ec827d8f3d56f98d89d5ab702",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/wkRh0MZp/radiantgear-forge-2.0.4%2B1.19.2-sources.jar",
+          "filename": "radiantgear-forge-2.0.4+1.19.2-sources.jar",
           "primary": false,
-          "size": 27862
+          "size": 30236
         }
       ],
       "dependencies": [
@@ -898,33 +1072,38 @@
       ]
     },
     {
-      "id": "2Y3F5ZvK",
-      "name": "radiantgear-fabric-2.1.0+1.19.4",
-      "version_number": "2.1.0+1.19.4",
+      "id": "yDtblpsL",
+      "name": "radiantgear-fabric-3.0.0+1.20.4",
+      "version_number": "3.0.0+1.20.4",
       "game_versions": [
-        "1.19.3",
-        "1.19.4"
+        "1.20.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "e3749d302a04bd860d198e787772448a0ada0c7a6d15d71dfdabfcd7c6eaed80097dc491368828d57436386773a86e6193d409460cbcf1a8d4d87f2c68400db3",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/2Y3F5ZvK/radiantgear-fabric-2.1.0%2B1.19.4.jar",
-          "filename": "radiantgear-fabric-2.1.0+1.19.4.jar",
+          "sha512": "0c908e90ffc63599422a3cb0281cff60903fa4e9059fa8773d0bfbf0df73fd8f2888e17a4504aa80445db9397eec459ae84f93c2e953e563320ac5a09aca9c5f",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/yDtblpsL/radiantgear-fabric-3.0.0%2B1.20.4.jar",
+          "filename": "radiantgear-fabric-3.0.0+1.20.4.jar",
           "primary": true,
-          "size": 31074
+          "size": 31271
         },
         {
-          "sha512": "aa80d9bb92577ae280335a32fae9dabe9883fe338ef7e636f973dff8c422831e78f1760aa436471f2515e9afd9c7f182ceadb951d3fa7390ca149844af067bf5",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/2Y3F5ZvK/radiantgear-fabric-2.1.0%2B1.19.4-sources.jar",
-          "filename": "radiantgear-fabric-2.1.0+1.19.4-sources.jar",
+          "sha512": "adec556cf35e1e9217cbf67d664ea8b326c02bd3059562df4bba516b02997f0a3d9a862376135499e4cc8dfd3eeb20ec31763f3264cdab4ef58c346731d1631e",
+          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/yDtblpsL/radiantgear-fabric-3.0.0%2B1.20.4-sources.jar",
+          "filename": "radiantgear-fabric-3.0.0+1.20.4-sources.jar",
           "primary": false,
-          "size": 22100
+          "size": 27912
         }
       ],
       "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "5aaWibi9",
           "version_id": null,
@@ -932,86 +1111,16 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
+          "project_id": "reCfnRvJ",
+          "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         },
         {
           "project_id": "yBW8D80W",
-          "version_id": "85Jaf9ic",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "522fj12b",
-      "name": "radiantgear-quilt-2.1.0+1.19.3",
-      "version_number": "2.1.0+1.19.3",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "81ab6f344bec47ee66f3270978d3c70317a1f70d3f1bedfccf675f301761ef7ed758e92dcebb9e14af11ce4076b6db32cf8a574ae827dd19b32cc95dea9f6b6d",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/522fj12b/radiantgear-quilt-2.1.0%2B1.19.3.jar",
-          "filename": "radiantgear-quilt-2.1.0+1.19.3.jar",
-          "primary": true,
-          "size": 31162
-        },
-        {
-          "sha512": "bbf6b75ca3eb2f9f5909710c8e7aefc0d3815875d1b74e0dcd82a9ae9405f90cfba89c31fb8369537904a595ec73f22e2d53a01fab3349f009fb37f1cb2eebe6",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/522fj12b/radiantgear-quilt-2.1.0%2B1.19.3-sources.jar",
-          "filename": "radiantgear-quilt-2.1.0+1.19.3-sources.jar",
-          "primary": false,
-          "size": 22175
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "eaoB99I6",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "hCqTBelE",
-      "name": "radiantgear-fabric-2.1.0+1.19.3",
-      "version_number": "2.1.0+1.19.3",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "cecf29cf970b86fbd8f70a2dc09878f65e037637a96dd5ad35d4f6fe52a0929a246e26a0844e08097a121ba169fe8b284685c92ea065dfe58bd6e1912169692b",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/hCqTBelE/radiantgear-fabric-2.1.0%2B1.19.3.jar",
-          "filename": "radiantgear-fabric-2.1.0+1.19.3.jar",
-          "primary": true,
-          "size": 31063
-        },
-        {
-          "sha512": "ca85349ea1f7a210fd3b2701faa5550d41d581a48f2973f29af66e2de6f7d0927b6a406a8d022df71274e4ed9d039b11716321b53cb109146b4e92f6c833919c",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/hCqTBelE/radiantgear-fabric-2.1.0%2B1.19.3-sources.jar",
-          "filename": "radiantgear-fabric-2.1.0+1.19.3-sources.jar",
-          "primary": false,
-          "size": 22096
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -1045,115 +1154,6 @@
         {
           "project_id": "vvuO3ImH",
           "version_id": "zkj9iD0D",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "6O6DlyI7",
-      "name": "radiantgear-fabric-2.0.1+1.19.2",
-      "version_number": "2.0.1+1.19.2",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8e57abce2bd77950e60cba6da4f21786642a206bd9926b0959886ab5c588eb93915675e239620f34b65386bead16eb5df35062879b8fd248ac57c71a305cae74",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/6O6DlyI7/radiantgear-fabric-2.0.1%2B1.19.2.jar",
-          "filename": "radiantgear-fabric-2.0.1+1.19.2.jar",
-          "primary": true,
-          "size": 24672
-        },
-        {
-          "sha512": "29385874a89acb44b99a0fdc6ca117141d1e6a5f1910d54373878c2ff776184efef198dd37ef548ee5c461be608b56768c696985f27962e8a85bddb0169c497b",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/6O6DlyI7/radiantgear-fabric-2.0.1%2B1.19.2-sources.jar",
-          "filename": "radiantgear-fabric-2.0.1+1.19.2-sources.jar",
-          "primary": false,
-          "size": 21146
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "c3x2bv4G",
-      "name": "radiantgear-forge-2.0.1+1.19.2",
-      "version_number": "2.0.1+1.19.2",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "d34fb9b4b9a24989771617ffc458748bd478f4ca73baefd280345e4533d938834feb6b1487f49be9fcb78085735594f89241629427626f2c27af05b66c3883ec",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/c3x2bv4G/radiantgear-forge-2.0.1%2B1.19.2.jar",
-          "filename": "radiantgear-forge-2.0.1+1.19.2.jar",
-          "primary": true,
-          "size": 35598
-        },
-        {
-          "sha512": "2cec4ceadbaa09f07d0cf2268b86d176464f29bb2846c508506b8a710ea96946d79c559bcf05349040a784dc05c99d77320fbf45a14195cc3dd8da83b20cc5a7",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/c3x2bv4G/radiantgear-forge-2.0.1%2B1.19.2-sources.jar",
-          "filename": "radiantgear-forge-2.0.1+1.19.2-sources.jar",
-          "primary": false,
-          "size": 27098
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vvuO3ImH",
-          "version_id": "uvQEq1xO",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "bsg0eo9Q",
-      "name": "curiouslights-forge-1.3.0+1.18.2",
-      "version_number": "1.3.0+1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "135eac629686549bb8a7f643d66b951b7787e4d44abea2a1146f1974d47981fcdce0847430a48f2d49075882183c90fa72d3294ac05e5e6151d18c5e2357221c",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/bsg0eo9Q/curiouslights-forge-1.3.0%2B1.18.2.jar",
-          "filename": "curiouslights-forge-1.3.0+1.18.2.jar",
-          "primary": true,
-          "size": 34523
-        },
-        {
-          "sha512": "c60b46c3f8ac042dbb9ff7b3d60dba692861f8233d974a365bff4f89cb3b309774e5f21b0c32876108bf37dd131c7dc03c92530adb87e92070f858cb40e1b5ec",
-          "url": "https://cdn.modrinth.com/data/AtT9wm5O/versions/bsg0eo9Q/curiouslights-forge-1.3.0%2B1.18.2-sources.jar",
-          "filename": "curiouslights-forge-1.3.0+1.18.2-sources.jar",
-          "primary": false,
-          "size": 9538
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vvuO3ImH",
-          "version_id": "dlv1r8No",
           "file_name": null,
           "dependency_type": "required"
         }

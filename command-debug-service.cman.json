@@ -5,82 +5,22 @@
   "description": "This is a mod that provides a method to execute and debug Minecraft commands by external programs. It is used to be a command debug connect kit between Minecraft and external programs.",
   "versions": [
     {
-      "id": "71NpV57Y",
-      "name": "Command Debug Service 3.1.2",
-      "version_number": "3.1.2",
+      "id": "2GPRKVM4",
+      "name": "Command Debug Service 2.0.2-1.20.2-fabric",
+      "version_number": "2.0.2",
       "game_versions": [
-        "1.20.5",
-        "1.20.6",
-        "1.21"
+        "1.20.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "8283df23228905decfbd39e6df7c86dd42aeda48c00ccbe5d3636854eb10257bcab06669f06a072d6932c766d3b249aeabfd245c40d0f9d11f2b4b38e2941a5a",
-          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/71NpV57Y/cmdkit-3.1.2-1.20.5~1.21.jar",
-          "filename": "cmdkit-3.1.2-1.20.5~1.21.jar",
+          "sha512": "7cd5344ba842831e1b5b47cb07a8f94edd531dd29cc4928468a2529cc1a9efb3e29c7d8d7f4b79bbe9d0f66f33b055e7216419e757ece0e143b3a4285a150ca7",
+          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/2GPRKVM4/cmdkit-2.0.2-1.20.2-fabric.jar",
+          "filename": "cmdkit-2.0.2-1.20.2-fabric.jar",
           "primary": true,
-          "size": 26472
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "pr6OtOSh",
-      "name": "Command Debug Service 3.1.1",
-      "version_number": "3.1.1",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6",
-        "1.21"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b7af27bc88165508195b555b26dff69183b6dc1852b2566743a219e5b0509ad4e1268a6354f2c6289cb288a94e5b0a051cc43d41f85b0303d2ea7214511ae729",
-          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/pr6OtOSh/cmdkit-3.1.1-1.20.5~1.21.jar",
-          "filename": "cmdkit-3.1.1-1.20.5~1.21.jar",
-          "primary": true,
-          "size": 24305
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Z77MYRbc",
-      "name": "Command Debug Service 3.1.0",
-      "version_number": "3.1.0",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ddb892b26b0a6e896ebbdd6c8f74ace3ff1389b04e8c166aeca260d4bb9d2b915df9662ebe2952b67b6621c34674c20be7ba30d931b27d7e9fbb149209359b77",
-          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/Z77MYRbc/cmdkit-3.1.0-1.21.jar",
-          "filename": "cmdkit-3.1.0-1.21.jar",
-          "primary": true,
-          "size": 24046
+          "size": 19049
         }
       ],
       "dependencies": [
@@ -121,6 +61,71 @@
       ]
     },
     {
+      "id": "3DV07S6Q",
+      "name": "Command Debug Service 3.0.1",
+      "version_number": "3.0.1",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c190552dccff50440682ee8c06d8192ecdf3cfc194699df3556406fc84a25107516d705280da3f32889ba279c854a802a2e2aba20dd2db68d339c6455efb093a",
+          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/3DV07S6Q/cmdkit-3.0.1-1.20.2.jar",
+          "filename": "cmdkit-3.0.1-1.20.2.jar",
+          "primary": true,
+          "size": 25426
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "71NpV57Y",
+      "name": "Command Debug Service 3.1.2",
+      "version_number": "3.1.2",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8283df23228905decfbd39e6df7c86dd42aeda48c00ccbe5d3636854eb10257bcab06669f06a072d6932c766d3b249aeabfd245c40d0f9d11f2b4b38e2941a5a",
+          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/71NpV57Y/cmdkit-3.1.2-1.20.5~1.21.jar",
+          "filename": "cmdkit-3.1.2-1.20.5~1.21.jar",
+          "primary": true,
+          "size": 26472
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "87coxgnR",
       "name": "Command Debug Service 3.0.4",
       "version_number": "3.0.4",
@@ -140,44 +145,6 @@
         }
       ],
       "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "bfZW17hx",
-      "name": "Command Debug Service 3.0.2",
-      "version_number": "3.0.2",
-      "game_versions": [
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "8c123cd52f09aa800def518b1d4e31bb598c9c28200c3703f6a9a421b3fa99fcbabf8d813d2d438e00b8525ffd34a0400160bfe485e3505409b3c6d73d1abe8f",
-          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/bfZW17hx/cmdkit-3.0.2-1.19.4~1.20.2.jar",
-          "filename": "cmdkit-3.0.2-1.19.4~1.20.2.jar",
-          "primary": true,
-          "size": 25475
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
@@ -257,6 +224,90 @@
       ]
     },
     {
+      "id": "Ca3jFUfs",
+      "name": "Command Debug Service 2.0.1-1.20.1-quilt",
+      "version_number": "2.0.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "8bb2ab0e01e6253ca656bc35a2d292ec98d84c93a6ab0e433b6fcf719a26c86060a9d3d588a65407acf7bfb6bcf2d21460e8667403d38447753905b26737f005",
+          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/Ca3jFUfs/cmdkit-2.0.1-1.20.1-quilt.jar",
+          "filename": "cmdkit-2.0.1-1.20.1-quilt.jar",
+          "primary": true,
+          "size": 18557
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Cbh8aSAD",
+      "name": "Command Debug Service 2.0.0-1.19.4",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "bfe36a4a2ae5cadbd36e13f679905820d2f58f0f0d99d024f0170bf36188b4ba73f590bcd954ddb687e94e7e2234e30025aa01620d591da364bcd0196b36fce7",
+          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/Cbh8aSAD/cmdkit-2.0.0-1.19.4.jar",
+          "filename": "cmdkit-2.0.0-1.19.4.jar",
+          "primary": true,
+          "size": 19041
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "H92StahW",
+      "name": "Command Debug Service 2.0.1-1.20.1-fabric",
+      "version_number": "2.0.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "3f5d0f305020dfa6113d6742902c0f8815470636f268556053ca947fc52b9d97736ad5ea7ed144b91f74fd0bbe3bf0a8c617109c2027b409b104202ac6ff1c10",
+          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/H92StahW/cmdkit-2.0.1-1.20.1-fabric.jar",
+          "filename": "cmdkit-2.0.1-1.20.1-fabric.jar",
+          "primary": true,
+          "size": 19049
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "JgokEuaT",
       "name": "Command Debug Service 3.0.1",
       "version_number": "3.0.1",
@@ -292,9 +343,9 @@
       ]
     },
     {
-      "id": "3DV07S6Q",
-      "name": "Command Debug Service 3.0.1",
-      "version_number": "3.0.1",
+      "id": "KIAUJkVH",
+      "name": "Command Debug Service 2.0.3-1.20.2-fabric",
+      "version_number": "2.0.3",
       "game_versions": [
         "1.20.2"
       ],
@@ -304,11 +355,11 @@
       ],
       "files": [
         {
-          "sha512": "c190552dccff50440682ee8c06d8192ecdf3cfc194699df3556406fc84a25107516d705280da3f32889ba279c854a802a2e2aba20dd2db68d339c6455efb093a",
-          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/3DV07S6Q/cmdkit-3.0.1-1.20.2.jar",
-          "filename": "cmdkit-3.0.1-1.20.2.jar",
+          "sha512": "559b8a270b6541062b28b25b3664fcc4bff54d518c2fcb764eb52af60373914ecc7a6faacd435442fb41af642effe79fee879fccd32021a089fc8a4fd349bf02",
+          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/KIAUJkVH/cmdkit-2.0.3-1.20.2-fabric.jar",
+          "filename": "cmdkit-2.0.3-1.20.2-fabric.jar",
           "primary": true,
-          "size": 25426
+          "size": 19073
         }
       ],
       "dependencies": [
@@ -317,12 +368,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -344,6 +389,100 @@
           "filename": "cmdkit-3.0.0-1.20.2.jar",
           "primary": true,
           "size": 25417
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "XTFITF6x",
+      "name": "Command Debug Service 2.0.2-1.20.1-quilt",
+      "version_number": "2.0.2",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "665364e4d4338f8d54d506f8645b8755ef2f41d5f17870ec9c4a31b5f4f6271bbede258a5ff71e54aa2eca15e25cbd38dd2a292d15b293c27cbbe002ed338ab8",
+          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/XTFITF6x/cmdkit-2.0.2-1.20.1-quilt.jar",
+          "filename": "cmdkit-2.0.2-1.20.1-quilt.jar",
+          "primary": true,
+          "size": 18591
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Z77MYRbc",
+      "name": "Command Debug Service 3.1.0",
+      "version_number": "3.1.0",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ddb892b26b0a6e896ebbdd6c8f74ace3ff1389b04e8c166aeca260d4bb9d2b915df9662ebe2952b67b6621c34674c20be7ba30d931b27d7e9fbb149209359b77",
+          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/Z77MYRbc/cmdkit-3.1.0-1.21.jar",
+          "filename": "cmdkit-3.1.0-1.21.jar",
+          "primary": true,
+          "size": 24046
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "bfZW17hx",
+      "name": "Command Debug Service 3.0.2",
+      "version_number": "3.0.2",
+      "game_versions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "8c123cd52f09aa800def518b1d4e31bb598c9c28200c3703f6a9a421b3fa99fcbabf8d813d2d438e00b8525ffd34a0400160bfe485e3505409b3c6d73d1abe8f",
+          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/bfZW17hx/cmdkit-3.0.2-1.19.4~1.20.2.jar",
+          "filename": "cmdkit-3.0.2-1.19.4~1.20.2.jar",
+          "primary": true,
+          "size": 25475
         }
       ],
       "dependencies": [
@@ -397,163 +536,24 @@
       ]
     },
     {
-      "id": "KIAUJkVH",
-      "name": "Command Debug Service 2.0.3-1.20.2-fabric",
-      "version_number": "2.0.3",
+      "id": "pr6OtOSh",
+      "name": "Command Debug Service 3.1.1",
+      "version_number": "3.1.1",
       "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "559b8a270b6541062b28b25b3664fcc4bff54d518c2fcb764eb52af60373914ecc7a6faacd435442fb41af642effe79fee879fccd32021a089fc8a4fd349bf02",
-          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/KIAUJkVH/cmdkit-2.0.3-1.20.2-fabric.jar",
-          "filename": "cmdkit-2.0.3-1.20.2-fabric.jar",
-          "primary": true,
-          "size": 19073
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "XTFITF6x",
-      "name": "Command Debug Service 2.0.2-1.20.1-quilt",
-      "version_number": "2.0.2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "665364e4d4338f8d54d506f8645b8755ef2f41d5f17870ec9c4a31b5f4f6271bbede258a5ff71e54aa2eca15e25cbd38dd2a292d15b293c27cbbe002ed338ab8",
-          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/XTFITF6x/cmdkit-2.0.2-1.20.1-quilt.jar",
-          "filename": "cmdkit-2.0.2-1.20.1-quilt.jar",
-          "primary": true,
-          "size": 18591
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "2GPRKVM4",
-      "name": "Command Debug Service 2.0.2-1.20.2-fabric",
-      "version_number": "2.0.2",
-      "game_versions": [
-        "1.20.2"
+        "1.20.5",
+        "1.20.6",
+        "1.21"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "7cd5344ba842831e1b5b47cb07a8f94edd531dd29cc4928468a2529cc1a9efb3e29c7d8d7f4b79bbe9d0f66f33b055e7216419e757ece0e143b3a4285a150ca7",
-          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/2GPRKVM4/cmdkit-2.0.2-1.20.2-fabric.jar",
-          "filename": "cmdkit-2.0.2-1.20.2-fabric.jar",
+          "sha512": "b7af27bc88165508195b555b26dff69183b6dc1852b2566743a219e5b0509ad4e1268a6354f2c6289cb288a94e5b0a051cc43d41f85b0303d2ea7214511ae729",
+          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/pr6OtOSh/cmdkit-3.1.1-1.20.5~1.21.jar",
+          "filename": "cmdkit-3.1.1-1.20.5~1.21.jar",
           "primary": true,
-          "size": 19049
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Ca3jFUfs",
-      "name": "Command Debug Service 2.0.1-1.20.1-quilt",
-      "version_number": "2.0.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "8bb2ab0e01e6253ca656bc35a2d292ec98d84c93a6ab0e433b6fcf719a26c86060a9d3d588a65407acf7bfb6bcf2d21460e8667403d38447753905b26737f005",
-          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/Ca3jFUfs/cmdkit-2.0.1-1.20.1-quilt.jar",
-          "filename": "cmdkit-2.0.1-1.20.1-quilt.jar",
-          "primary": true,
-          "size": 18557
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "H92StahW",
-      "name": "Command Debug Service 2.0.1-1.20.1-fabric",
-      "version_number": "2.0.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "3f5d0f305020dfa6113d6742902c0f8815470636f268556053ca947fc52b9d97736ad5ea7ed144b91f74fd0bbe3bf0a8c617109c2027b409b104202ac6ff1c10",
-          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/H92StahW/cmdkit-2.0.1-1.20.1-fabric.jar",
-          "filename": "cmdkit-2.0.1-1.20.1-fabric.jar",
-          "primary": true,
-          "size": 19049
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "wAl3t86o",
-      "name": "Command Debug Service 2.0.0-1.20.1",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "7bdd7e413c18f568e5cbf9c0bb5c32f0b5e7d0030526dff97f8496adb39991b707c4424e76c85e72e3c87e0b660ba99424507ae551966aa3dcb532267f91f830",
-          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/wAl3t86o/cmdkit-2.0.0-1.20.1.jar",
-          "filename": "cmdkit-2.0.0-1.20.1.jar",
-          "primary": true,
-          "size": 19094
+          "size": 24305
         }
       ],
       "dependencies": [
@@ -594,22 +594,22 @@
       ]
     },
     {
-      "id": "Cbh8aSAD",
-      "name": "Command Debug Service 2.0.0-1.19.4",
+      "id": "wAl3t86o",
+      "name": "Command Debug Service 2.0.0-1.20.1",
       "version_number": "2.0.0",
       "game_versions": [
-        "1.19.4"
+        "1.20.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "bfe36a4a2ae5cadbd36e13f679905820d2f58f0f0d99d024f0170bf36188b4ba73f590bcd954ddb687e94e7e2234e30025aa01620d591da364bcd0196b36fce7",
-          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/Cbh8aSAD/cmdkit-2.0.0-1.19.4.jar",
-          "filename": "cmdkit-2.0.0-1.19.4.jar",
+          "sha512": "7bdd7e413c18f568e5cbf9c0bb5c32f0b5e7d0030526dff97f8496adb39991b707c4424e76c85e72e3c87e0b660ba99424507ae551966aa3dcb532267f91f830",
+          "url": "https://cdn.modrinth.com/data/9WacxUtO/versions/wAl3t86o/cmdkit-2.0.0-1.20.1.jar",
+          "filename": "cmdkit-2.0.0-1.20.1.jar",
           "primary": true,
-          "size": 19041
+          "size": 19094
         }
       ],
       "dependencies": [

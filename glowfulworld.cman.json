@@ -5,48 +5,6 @@
   "description": "This mod adds a unique glow color to (almost) every type of entity on Minecraft! And also shows how to use ColoredGlowLib ",
   "versions": [
     {
-      "id": "tmco3cQS",
-      "name": "Glowful World 1.1.0",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "35421d6ac4195afc4271a68d48373b095bf2b0655fc705ce81315b406db560aafe75b72cfc9cda89255e4a232c984f514c4212926be27045d96273703ab6dd9f",
-          "url": "https://cdn.modrinth.com/data/U76yBXKT/versions/1.1.0/glowful_world-1.1.0.jar",
-          "filename": "glowful_world-1.1.0.jar",
-          "primary": true,
-          "size": 70380
-        },
-        {
-          "sha512": "4ba998a17ddfd7b27fee8c756f98afb98cdad6c58f772f0ea4798d18b2128260544472e53acfefa5702132bc06f4765ef89347a18ace883f2f6f5a8f83ff3d19",
-          "url": "https://cdn.modrinth.com/data/U76yBXKT/versions/1.1.0/glowful_world-1.1.0%20CGL%20included.jar",
-          "filename": "glowful_world-1.1.0 CGL included.jar",
-          "primary": false,
-          "size": 123974
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "tLyToK0S",
-          "version_id": "JhVhRKtJ",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "3KmOcp6b",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "BTaciYiu",
       "name": "Glowful World 1.0.0",
       "version_number": "1.0.0",
@@ -87,11 +45,50 @@
       ],
       "dependencies": [
         {
+          "project_id": "tLyToK0S",
+          "version_id": "5MtBkUCg",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "P7dR8mSH",
           "version_id": "95QMsRyb",
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "IkxKJ08P",
+      "name": "GlowfulWorld 0.1.0",
+      "version_number": "0.1.0",
+      "game_versions": [
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "51b139be32d6d67b470c8271c1a70b68ccaa98439040e06f835c69bdfaa20e9d26aa0bde9ab258a1c1465c3cab56b773809568c5778c84174502fe2d76f11b6c",
+          "url": "https://cdn.modrinth.com/data/U76yBXKT/versions/0.1.0/glowful_world-0.1.0.jar",
+          "filename": "glowful_world-0.1.0.jar",
+          "primary": true,
+          "size": 5842
         },
+        {
+          "sha512": "e69966d15f855a2fb3044d2def3a198cecc1e55caa7c44f8d760b5edb0c4491a8694e988de97aa276ff7b7ba3c441a5cd2d1db649fc7b4dcd7998abcfa641925",
+          "url": "https://cdn.modrinth.com/data/U76yBXKT/versions/0.1.0/glowful_world-0.1.0-%28CGL%20included%29.jar",
+          "filename": "glowful_world-0.1.0-(CGL included).jar",
+          "primary": false,
+          "size": 56461
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "tLyToK0S",
           "version_id": "5MtBkUCg",
@@ -141,14 +138,14 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
+          "project_id": "tLyToK0S",
+          "version_id": "5MtBkUCg",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "tLyToK0S",
-          "version_id": "5MtBkUCg",
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -200,39 +197,42 @@
       ]
     },
     {
-      "id": "IkxKJ08P",
-      "name": "GlowfulWorld 0.1.0",
-      "version_number": "0.1.0",
+      "id": "tmco3cQS",
+      "name": "Glowful World 1.1.0",
+      "version_number": "1.1.0",
       "game_versions": [
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2"
+        "1.19"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "51b139be32d6d67b470c8271c1a70b68ccaa98439040e06f835c69bdfaa20e9d26aa0bde9ab258a1c1465c3cab56b773809568c5778c84174502fe2d76f11b6c",
-          "url": "https://cdn.modrinth.com/data/U76yBXKT/versions/0.1.0/glowful_world-0.1.0.jar",
-          "filename": "glowful_world-0.1.0.jar",
+          "sha512": "35421d6ac4195afc4271a68d48373b095bf2b0655fc705ce81315b406db560aafe75b72cfc9cda89255e4a232c984f514c4212926be27045d96273703ab6dd9f",
+          "url": "https://cdn.modrinth.com/data/U76yBXKT/versions/1.1.0/glowful_world-1.1.0.jar",
+          "filename": "glowful_world-1.1.0.jar",
           "primary": true,
-          "size": 5842
+          "size": 70380
         },
         {
-          "sha512": "e69966d15f855a2fb3044d2def3a198cecc1e55caa7c44f8d760b5edb0c4491a8694e988de97aa276ff7b7ba3c441a5cd2d1db649fc7b4dcd7998abcfa641925",
-          "url": "https://cdn.modrinth.com/data/U76yBXKT/versions/0.1.0/glowful_world-0.1.0-%28CGL%20included%29.jar",
-          "filename": "glowful_world-0.1.0-(CGL included).jar",
+          "sha512": "4ba998a17ddfd7b27fee8c756f98afb98cdad6c58f772f0ea4798d18b2128260544472e53acfefa5702132bc06f4765ef89347a18ace883f2f6f5a8f83ff3d19",
+          "url": "https://cdn.modrinth.com/data/U76yBXKT/versions/1.1.0/glowful_world-1.1.0%20CGL%20included.jar",
+          "filename": "glowful_world-1.1.0 CGL included.jar",
           "primary": false,
-          "size": 56461
+          "size": 123974
         }
       ],
       "dependencies": [
         {
+          "project_id": "P7dR8mSH",
+          "version_id": "3KmOcp6b",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "tLyToK0S",
-          "version_id": "5MtBkUCg",
+          "version_id": "JhVhRKtJ",
           "file_name": null,
           "dependency_type": "required"
         }

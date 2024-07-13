@@ -5,87 +5,6 @@
   "description": "An apoli addon that adds some features I deemed useful",
   "versions": [
     {
-      "id": "qtZcPrCP",
-      "name": "Robin's Apoli Additions 1.2.0 - 1.20.X",
-      "version_number": "1.2.0-1.20",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "7c609af94820d0939db69fc463f5dde4b534e00e24148e9788cdaffb26f3ee64bdf592d28167885472ddae57cb69cf6fca7f94941c9bb1828e628b9f0678bc35",
-          "url": "https://cdn.modrinth.com/data/eytDZegT/versions/qtZcPrCP/ra_additions-1.20.1-1.2.0.jar",
-          "filename": "ra_additions-1.20.1-1.2.0.jar",
-          "primary": true,
-          "size": 9804847
-        },
-        {
-          "sha512": "c259c7bccbc63111cfa5f5b46d848018c49c52a3f8ab84363257bf74b9f08fad9d789c0669b83dde124ba4c4fbc5edfd5df04077201c429f658123ea6400e9d7",
-          "url": "https://cdn.modrinth.com/data/eytDZegT/versions/qtZcPrCP/ra_additions_choices-1.20.1-0.1.0.jar",
-          "filename": "ra_additions_choices-1.20.1-0.1.0.jar",
-          "primary": false,
-          "size": 2325348
-        },
-        {
-          "sha512": "be9f249494d415debdc30711917636cf251526a7b18bcc69b27dd9c168ed77e701636b480977314e4a1607d1ce625faa188db59ff15785c1b9f9f101455e63e2",
-          "url": "https://cdn.modrinth.com/data/eytDZegT/versions/qtZcPrCP/ra_additions_experimental-1.20.1-0.1.0.jar",
-          "filename": "ra_additions_experimental-1.20.1-0.1.0.jar",
-          "primary": false,
-          "size": 2325273
-        },
-        {
-          "sha512": "88407d024160fd2110df20799017b9b0dade860fe89a5a26592d5836394f1863fedfdae09dd3af15a9cfe8c5a1e03337f1cf2d45cc76fefecd58dbf6a7ec5e24",
-          "url": "https://cdn.modrinth.com/data/eytDZegT/versions/qtZcPrCP/ra_additions_goals-1.20.1-0.1.0.jar",
-          "filename": "ra_additions_goals-1.20.1-0.1.0.jar",
-          "primary": false,
-          "size": 2325042
-        },
-        {
-          "sha512": "87062baa43cbb53626455c0753c700d7984a4d6510e6f6050bc06cae119f8c5a9a922d0a7977422dd9289728e20e14a3abf7857c607b9725ead51406e51d7b41",
-          "url": "https://cdn.modrinth.com/data/eytDZegT/versions/qtZcPrCP/ra_additions_tags-1.20.1-0.1.0.jar",
-          "filename": "ra_additions_tags-1.20.1-0.1.0.jar",
-          "primary": false,
-          "size": 2325227
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "3BeIrqZR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "5aaWibi9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "8BmcQJ2H",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "LFCr2BBo",
       "name": "Robin's Apoli Additions 1.2.0 - 1.19.4",
       "version_number": "1.2.0-1.19.4",
@@ -146,6 +65,12 @@
           "dependency_type": "optional"
         },
         {
+          "project_id": "8BmcQJ2H",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "K01OU20C",
           "version_id": null,
           "file_name": null,
@@ -156,12 +81,36 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
+        }
+      ]
+    },
+    {
+      "id": "NOyqGvh3",
+      "name": "Initial Release",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
         {
-          "project_id": "8BmcQJ2H",
-          "version_id": null,
+          "sha512": "a8bb93417884190deb8af94e4ea89a3ec1575fb04762038333b66ddfccd4b65e30567445a617dbc554c615f8a9a108a012e249562146640c68541c12d125ec18",
+          "url": "https://cdn.modrinth.com/data/eytDZegT/versions/NOyqGvh3/ra_additions-1.0.0.jar",
+          "filename": "ra_additions-1.0.0.jar",
+          "primary": true,
+          "size": 2199384
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "3BeIrqZR",
+          "version_id": "FxSutbg1",
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
     },
@@ -196,32 +145,83 @@
       ]
     },
     {
-      "id": "NOyqGvh3",
-      "name": "Initial Release",
-      "version_number": "1.0.0",
+      "id": "qtZcPrCP",
+      "name": "Robin's Apoli Additions 1.2.0 - 1.20.X",
+      "version_number": "1.2.0-1.20",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "a8bb93417884190deb8af94e4ea89a3ec1575fb04762038333b66ddfccd4b65e30567445a617dbc554c615f8a9a108a012e249562146640c68541c12d125ec18",
-          "url": "https://cdn.modrinth.com/data/eytDZegT/versions/NOyqGvh3/ra_additions-1.0.0.jar",
-          "filename": "ra_additions-1.0.0.jar",
+          "sha512": "7c609af94820d0939db69fc463f5dde4b534e00e24148e9788cdaffb26f3ee64bdf592d28167885472ddae57cb69cf6fca7f94941c9bb1828e628b9f0678bc35",
+          "url": "https://cdn.modrinth.com/data/eytDZegT/versions/qtZcPrCP/ra_additions-1.20.1-1.2.0.jar",
+          "filename": "ra_additions-1.20.1-1.2.0.jar",
           "primary": true,
-          "size": 2199384
+          "size": 9804847
+        },
+        {
+          "sha512": "c259c7bccbc63111cfa5f5b46d848018c49c52a3f8ab84363257bf74b9f08fad9d789c0669b83dde124ba4c4fbc5edfd5df04077201c429f658123ea6400e9d7",
+          "url": "https://cdn.modrinth.com/data/eytDZegT/versions/qtZcPrCP/ra_additions_choices-1.20.1-0.1.0.jar",
+          "filename": "ra_additions_choices-1.20.1-0.1.0.jar",
+          "primary": false,
+          "size": 2325348
+        },
+        {
+          "sha512": "be9f249494d415debdc30711917636cf251526a7b18bcc69b27dd9c168ed77e701636b480977314e4a1607d1ce625faa188db59ff15785c1b9f9f101455e63e2",
+          "url": "https://cdn.modrinth.com/data/eytDZegT/versions/qtZcPrCP/ra_additions_experimental-1.20.1-0.1.0.jar",
+          "filename": "ra_additions_experimental-1.20.1-0.1.0.jar",
+          "primary": false,
+          "size": 2325273
+        },
+        {
+          "sha512": "88407d024160fd2110df20799017b9b0dade860fe89a5a26592d5836394f1863fedfdae09dd3af15a9cfe8c5a1e03337f1cf2d45cc76fefecd58dbf6a7ec5e24",
+          "url": "https://cdn.modrinth.com/data/eytDZegT/versions/qtZcPrCP/ra_additions_goals-1.20.1-0.1.0.jar",
+          "filename": "ra_additions_goals-1.20.1-0.1.0.jar",
+          "primary": false,
+          "size": 2325042
+        },
+        {
+          "sha512": "87062baa43cbb53626455c0753c700d7984a4d6510e6f6050bc06cae119f8c5a9a922d0a7977422dd9289728e20e14a3abf7857c607b9725ead51406e51d7b41",
+          "url": "https://cdn.modrinth.com/data/eytDZegT/versions/qtZcPrCP/ra_additions_tags-1.20.1-0.1.0.jar",
+          "filename": "ra_additions_tags-1.20.1-0.1.0.jar",
+          "primary": false,
+          "size": 2325227
         }
       ],
       "dependencies": [
         {
           "project_id": "3BeIrqZR",
-          "version_id": "FxSutbg1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "5aaWibi9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
     }

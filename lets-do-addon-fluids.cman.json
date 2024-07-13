@@ -5,9 +5,68 @@
   "description": "Add fluids to the Let's Do series for even more modded usage !",
   "versions": [
     {
-      "id": "vMxN7Dgr",
-      "name": "[Let's Do Addon] Fluids 1.3.0 Forge",
-      "version_number": "1.3.0-forge",
+      "id": "ENzyKMal",
+      "name": "[Let's Do Addon] Fluids 1.1.0 FABRIC",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5e8ddd32574957532f28175473b7ec5180c64ea026af4338bd051cf13b399b0da2d49efbda08fc658b741760ee06b9ab66a398863c288aac231752b8e2605945",
+          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/ENzyKMal/doaddonfluids-fabric-1.1.0.jar",
+          "filename": "doaddonfluids-fabric-1.1.0.jar",
+          "primary": true,
+          "size": 52590
+        },
+        {
+          "sha512": "5a9dcec9510f6be74127c859e582d959f236e240f1c5aa318c0614bc3ba86aed02b8ded874b9255e674c8fa0e761f13b5a78412a6197ff7e7c3d0068f8238592",
+          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/ENzyKMal/doaddonfluids-fabric-1.1.0-sources.jar",
+          "filename": "doaddonfluids-fabric-1.1.0-sources.jar",
+          "primary": false,
+          "size": 26696
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "G1hIVOrD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "2u6LRnMa",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Eh11TaTm",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "1DWmBJVA",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "4TTDxtOx",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "G1Nagla2",
+      "name": "[Let's Do Addon] Fluids 1.0.0 FORGE",
+      "version_number": "1.0.0",
       "game_versions": [
         "1.20.1"
       ],
@@ -17,82 +76,18 @@
       ],
       "files": [
         {
-          "sha512": "7204c5019fae6f3fc09511bb954e7693fc59481e669b2631fa68a1042303afc79edcdfc2977216dd1e84c12724fd16a77431152f69bf6115a29cf51de77a6c42",
-          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/vMxN7Dgr/doaddonfluids-forge-1.3.0.jar",
-          "filename": "doaddonfluids-forge-1.3.0.jar",
+          "sha512": "6167f03044111dbabf478bd2992eebf0d08ddcabd569fb8e9a1e4a605e595df10757ed43917c05d6b672accc89030ff916107fb857dcd92973df33f250f8d359",
+          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/G1Nagla2/doaddonfluids-forge-1.0.0.jar",
+          "filename": "doaddonfluids-forge-1.0.0.jar",
           "primary": true,
-          "size": 87076
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "4TTDxtOx",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
+          "size": 42214
         },
         {
-          "project_id": "G1hIVOrD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "WFwYiVoG",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "2u6LRnMa",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LNytGWDc",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "Eh11TaTm",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ra7o6Sl7",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "1DWmBJVA",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "VyBqXrqd",
-      "name": "[Let's Do Addon] Fluids 1.3.0 Fabric",
-      "version_number": "1.3.0-fabric",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "00a63acdf1905add28b3314277fdfbbac8315cf7783e3bebf015ba659ae3749d9852c687accb6ef0fc85d024ac473e104a5485c3c68f2adda83da55bae335f90",
-          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/VyBqXrqd/doaddonfluids-fabric-1.3.0.jar",
-          "filename": "doaddonfluids-fabric-1.3.0.jar",
-          "primary": true,
-          "size": 88212
+          "sha512": "4ecb8be6ad9b319d90869fa062778f67b826a974daa219ba6a27ad766785473419a31c568ed0bbd29ce18049798c76bac488fa29ad6b8d43c8d8c3a170d6603d",
+          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/G1Nagla2/doaddonfluids-forge-1.0.0-sources.jar",
+          "filename": "doaddonfluids-forge-1.0.0-sources.jar",
+          "primary": false,
+          "size": 16821
         }
       ],
       "dependencies": [
@@ -115,28 +110,10 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "Eh11TaTm",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "G1hIVOrD",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "WFwYiVoG",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "Xbc0uyRg",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         },
         {
           "project_id": "ra7o6Sl7",
@@ -212,51 +189,26 @@
       ]
     },
     {
-      "id": "q3p5XYLu",
-      "name": "[Let's Do Addon] Fluids 1.2.0 FORGE",
-      "version_number": "1.2.0",
+      "id": "VyBqXrqd",
+      "name": "[Let's Do Addon] Fluids 1.3.0 Fabric",
+      "version_number": "1.3.0-fabric",
       "game_versions": [
         "1.20.1"
       ],
       "loaders": [
-        "forge",
-        "neoforge"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "23caa0ec1be7c4d9f0a9922848a7270c17a79119958306063c2d58287fd8abcd9c94a937011709f4cd1fbd9266ce9dc0b40fc4b86bec3c9237a5248ce39398bd",
-          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/q3p5XYLu/doaddonfluids-forge-1.2.0.jar",
-          "filename": "doaddonfluids-forge-1.2.0.jar",
+          "sha512": "00a63acdf1905add28b3314277fdfbbac8315cf7783e3bebf015ba659ae3749d9852c687accb6ef0fc85d024ac473e104a5485c3c68f2adda83da55bae335f90",
+          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/VyBqXrqd/doaddonfluids-fabric-1.3.0.jar",
+          "filename": "doaddonfluids-fabric-1.3.0.jar",
           "primary": true,
-          "size": 71309
-        },
-        {
-          "sha512": "ad6d9f16477f3d9be1e3679f3c6ac52caf9a2ed13c7d924347ec196f0e546bedb5f3f58cc4681ef218535a52cee7ad7fc72a4e7e7628e08e23e85139a06ecfd9",
-          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/q3p5XYLu/doaddonfluids-forge-1.2.0-sources.jar",
-          "filename": "doaddonfluids-forge-1.2.0-sources.jar",
-          "primary": false,
-          "size": 33280
+          "size": 88212
         }
       ],
       "dependencies": [
-        {
-          "project_id": "4TTDxtOx",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "Eh11TaTm",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "1DWmBJVA",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "G1hIVOrD",
           "version_id": null,
@@ -264,48 +216,25 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "2u6LRnMa",
+          "project_id": "Xbc0uyRg",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         },
         {
           "project_id": "WFwYiVoG",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "xAl2G13L",
-      "name": "[Let's Do Addon] Fluids 1.1.1 FABRIC",
-      "version_number": "1.1.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9aec4ada33a98e3db73bed9a97cd0e2a6084c95335447cbe49f842f534b5db7b00bcbf4506e3b178d5f5b2d600f19bd3368ef9e8fc3abcea3eff9694060c4461",
-          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/xAl2G13L/doaddonfluids-fabric-1.1.1.jar",
-          "filename": "doaddonfluids-fabric-1.1.1.jar",
-          "primary": true,
-          "size": 55535
         },
         {
-          "sha512": "89189567ff07aa7c71a3fadb8d756ce3f83070ead2e93edea79f737a628d114749dfbbf9d2336cd501f38b068e2978e4cd4c9ef373191096a074a062946218be",
-          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/xAl2G13L/doaddonfluids-fabric-1.1.1-sources.jar",
-          "filename": "doaddonfluids-fabric-1.1.1-sources.jar",
-          "primary": false,
-          "size": 29218
-        }
-      ],
-      "dependencies": [
+          "project_id": "4TTDxtOx",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
         {
-          "project_id": "G1hIVOrD",
+          "project_id": "2u6LRnMa",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -323,190 +252,7 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "4TTDxtOx",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "2u6LRnMa",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ufUKaCXo",
-      "name": "[Let's Do Addon] Fluids 1.1.1 FORGE",
-      "version_number": "1.1.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "a537b5a5add05517901027ff8db66e382d7f08bf8f655e261a19c705e0d47aff168187c0f13eb85a0f43ce8c5b3a902dbf9ba3688e6853b724a508f773d13c6c",
-          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/ufUKaCXo/doaddonfluids-forge-1.1.1.jar",
-          "filename": "doaddonfluids-forge-1.1.1.jar",
-          "primary": true,
-          "size": 54988
-        },
-        {
-          "sha512": "241971c76bc77e1a27594af43018ff13915c6472f5cf05227e274b5c67176602e956bac3d119c7acf9e75a685a427d94afb24497e573f810cddc65a0e6db2591",
-          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/ufUKaCXo/doaddonfluids-forge-1.1.1-sources.jar",
-          "filename": "doaddonfluids-forge-1.1.1-sources.jar",
-          "primary": false,
-          "size": 28003
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "4TTDxtOx",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "2u6LRnMa",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Eh11TaTm",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "1DWmBJVA",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "G1hIVOrD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ENzyKMal",
-      "name": "[Let's Do Addon] Fluids 1.1.0 FABRIC",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "5e8ddd32574957532f28175473b7ec5180c64ea026af4338bd051cf13b399b0da2d49efbda08fc658b741760ee06b9ab66a398863c288aac231752b8e2605945",
-          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/ENzyKMal/doaddonfluids-fabric-1.1.0.jar",
-          "filename": "doaddonfluids-fabric-1.1.0.jar",
-          "primary": true,
-          "size": 52590
-        },
-        {
-          "sha512": "5a9dcec9510f6be74127c859e582d959f236e240f1c5aa318c0614bc3ba86aed02b8ded874b9255e674c8fa0e761f13b5a78412a6197ff7e7c3d0068f8238592",
-          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/ENzyKMal/doaddonfluids-fabric-1.1.0-sources.jar",
-          "filename": "doaddonfluids-fabric-1.1.0-sources.jar",
-          "primary": false,
-          "size": 26696
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "G1hIVOrD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "2u6LRnMa",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Eh11TaTm",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "1DWmBJVA",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "4TTDxtOx",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "fVlQWSFT",
-      "name": "[Let's Do Addon] Fluids 1.1.0 FORGE",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "8c88ac7704635ccce596f096ab19d938a1ddd4d9350bcdf88106c53a7e10e8f7f78e16f977345938c1c8a8edb76172926e5a74e5b7b1c380000e04197c31a8a6",
-          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/fVlQWSFT/doaddonfluids-forge-1.1.0.jar",
-          "filename": "doaddonfluids-forge-1.1.0.jar",
-          "primary": true,
-          "size": 52176
-        },
-        {
-          "sha512": "f1222fccf8953e9a29cf0f7991afd6f4fd7ad96b32ba5ee46441ff00e6c042d997c2560148ca6aa71a3facae5d471a4f309e8466aab578f0562d7d0e7c2c46b3",
-          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/fVlQWSFT/doaddonfluids-forge-1.0.0-sources.jar",
-          "filename": "doaddonfluids-forge-1.0.0-sources.jar",
-          "primary": false,
-          "size": 25608
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Eh11TaTm",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "G1hIVOrD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1DWmBJVA",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "2u6LRnMa",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "4TTDxtOx",
+          "project_id": "ra7o6Sl7",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -573,33 +319,44 @@
       ]
     },
     {
-      "id": "G1Nagla2",
-      "name": "[Let's Do Addon] Fluids 1.0.0 FORGE",
-      "version_number": "1.0.0",
+      "id": "fVlQWSFT",
+      "name": "[Let's Do Addon] Fluids 1.1.0 FORGE",
+      "version_number": "1.1.0",
       "game_versions": [
         "1.20.1"
       ],
       "loaders": [
-        "forge",
-        "neoforge"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "6167f03044111dbabf478bd2992eebf0d08ddcabd569fb8e9a1e4a605e595df10757ed43917c05d6b672accc89030ff916107fb857dcd92973df33f250f8d359",
-          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/G1Nagla2/doaddonfluids-forge-1.0.0.jar",
-          "filename": "doaddonfluids-forge-1.0.0.jar",
+          "sha512": "8c88ac7704635ccce596f096ab19d938a1ddd4d9350bcdf88106c53a7e10e8f7f78e16f977345938c1c8a8edb76172926e5a74e5b7b1c380000e04197c31a8a6",
+          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/fVlQWSFT/doaddonfluids-forge-1.1.0.jar",
+          "filename": "doaddonfluids-forge-1.1.0.jar",
           "primary": true,
-          "size": 42214
+          "size": 52176
         },
         {
-          "sha512": "4ecb8be6ad9b319d90869fa062778f67b826a974daa219ba6a27ad766785473419a31c568ed0bbd29ce18049798c76bac488fa29ad6b8d43c8d8c3a170d6603d",
-          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/G1Nagla2/doaddonfluids-forge-1.0.0-sources.jar",
+          "sha512": "f1222fccf8953e9a29cf0f7991afd6f4fd7ad96b32ba5ee46441ff00e6c042d997c2560148ca6aa71a3facae5d471a4f309e8466aab578f0562d7d0e7c2c46b3",
+          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/fVlQWSFT/doaddonfluids-forge-1.0.0-sources.jar",
           "filename": "doaddonfluids-forge-1.0.0-sources.jar",
           "primary": false,
-          "size": 16821
+          "size": 25608
         }
       ],
       "dependencies": [
+        {
+          "project_id": "Eh11TaTm",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "G1hIVOrD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "1DWmBJVA",
           "version_id": null,
@@ -617,6 +374,54 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "q3p5XYLu",
+      "name": "[Let's Do Addon] Fluids 1.2.0 FORGE",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "23caa0ec1be7c4d9f0a9922848a7270c17a79119958306063c2d58287fd8abcd9c94a937011709f4cd1fbd9266ce9dc0b40fc4b86bec3c9237a5248ce39398bd",
+          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/q3p5XYLu/doaddonfluids-forge-1.2.0.jar",
+          "filename": "doaddonfluids-forge-1.2.0.jar",
+          "primary": true,
+          "size": 71309
+        },
+        {
+          "sha512": "ad6d9f16477f3d9be1e3679f3c6ac52caf9a2ed13c7d924347ec196f0e546bedb5f3f58cc4681ef218535a52cee7ad7fc72a4e7e7628e08e23e85139a06ecfd9",
+          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/q3p5XYLu/doaddonfluids-forge-1.2.0-sources.jar",
+          "filename": "doaddonfluids-forge-1.2.0-sources.jar",
+          "primary": false,
+          "size": 33280
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "4TTDxtOx",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "Eh11TaTm",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "1DWmBJVA",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         },
         {
           "project_id": "G1hIVOrD",
@@ -625,10 +430,205 @@
           "dependency_type": "required"
         },
         {
+          "project_id": "2u6LRnMa",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "WFwYiVoG",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "ufUKaCXo",
+      "name": "[Let's Do Addon] Fluids 1.1.1 FORGE",
+      "version_number": "1.1.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "a537b5a5add05517901027ff8db66e382d7f08bf8f655e261a19c705e0d47aff168187c0f13eb85a0f43ce8c5b3a902dbf9ba3688e6853b724a508f773d13c6c",
+          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/ufUKaCXo/doaddonfluids-forge-1.1.1.jar",
+          "filename": "doaddonfluids-forge-1.1.1.jar",
+          "primary": true,
+          "size": 54988
+        },
+        {
+          "sha512": "241971c76bc77e1a27594af43018ff13915c6472f5cf05227e274b5c67176602e956bac3d119c7acf9e75a685a427d94afb24497e573f810cddc65a0e6db2591",
+          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/ufUKaCXo/doaddonfluids-forge-1.1.1-sources.jar",
+          "filename": "doaddonfluids-forge-1.1.1-sources.jar",
+          "primary": false,
+          "size": 28003
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "4TTDxtOx",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "2u6LRnMa",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Eh11TaTm",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "1DWmBJVA",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "G1hIVOrD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "vMxN7Dgr",
+      "name": "[Let's Do Addon] Fluids 1.3.0 Forge",
+      "version_number": "1.3.0-forge",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "7204c5019fae6f3fc09511bb954e7693fc59481e669b2631fa68a1042303afc79edcdfc2977216dd1e84c12724fd16a77431152f69bf6115a29cf51de77a6c42",
+          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/vMxN7Dgr/doaddonfluids-forge-1.3.0.jar",
+          "filename": "doaddonfluids-forge-1.3.0.jar",
+          "primary": true,
+          "size": 87076
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "4TTDxtOx",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "G1hIVOrD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "WFwYiVoG",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "2u6LRnMa",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LNytGWDc",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "Eh11TaTm",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "ra7o6Sl7",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "1DWmBJVA",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "xAl2G13L",
+      "name": "[Let's Do Addon] Fluids 1.1.1 FABRIC",
+      "version_number": "1.1.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9aec4ada33a98e3db73bed9a97cd0e2a6084c95335447cbe49f842f534b5db7b00bcbf4506e3b178d5f5b2d600f19bd3368ef9e8fc3abcea3eff9694060c4461",
+          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/xAl2G13L/doaddonfluids-fabric-1.1.1.jar",
+          "filename": "doaddonfluids-fabric-1.1.1.jar",
+          "primary": true,
+          "size": 55535
+        },
+        {
+          "sha512": "89189567ff07aa7c71a3fadb8d756ce3f83070ead2e93edea79f737a628d114749dfbbf9d2336cd501f38b068e2978e4cd4c9ef373191096a074a062946218be",
+          "url": "https://cdn.modrinth.com/data/PGVF51co/versions/xAl2G13L/doaddonfluids-fabric-1.1.1-sources.jar",
+          "filename": "doaddonfluids-fabric-1.1.1-sources.jar",
+          "primary": false,
+          "size": 29218
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "G1hIVOrD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "1DWmBJVA",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "Eh11TaTm",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "4TTDxtOx",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "2u6LRnMa",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

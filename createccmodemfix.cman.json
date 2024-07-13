@@ -5,6 +5,42 @@
   "description": "Fixes blocks on contraptions",
   "versions": [
     {
+      "id": "7iqxd1zW",
+      "name": "CreateCCModemFix-1.0-1.18+",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.18.2",
+        "1.19.2",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "a6bfbc41399a65959f442f4ff8575950009bb2f890f52eeba463c3761b109e37dbee0aa44fb367cf97d694e1fb38aaa70d2b287f8dacb75499cae9a7303aa846",
+          "url": "https://cdn.modrinth.com/data/izssR7oN/versions/7iqxd1zW/createccmodemfix-1.0.jar",
+          "filename": "createccmodemfix-1.0.jar",
+          "primary": true,
+          "size": 2708
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "LNytGWDc",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "gu7yAYhd",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "L65Mv5OC",
       "name": "CreateTagsFix3.0-1.18+",
       "version_number": "3.0",
@@ -35,7 +71,7 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "Xbc0uyRg",
+          "project_id": "fFEIiSDQ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -47,7 +83,7 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "fFEIiSDQ",
+          "project_id": "Xbc0uyRg",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -61,9 +97,9 @@
       ]
     },
     {
-      "id": "yT4UAIR5",
-      "name": "CreateTagsFix3.0-1.18+",
-      "version_number": "3.0",
+      "id": "Y73wq8jR",
+      "name": "CreateTagsFix-2.0-1.18+",
+      "version_number": "2.0",
       "game_versions": [
         "1.18.2",
         "1.19.2",
@@ -74,43 +110,48 @@
       ],
       "files": [
         {
-          "sha512": "a9b3718c3bd9b1a96677332ce965a5ee8a22ead45ae732dd32e2febda12571deefadfb86129ff56004bdfafd90f6a96e6f6231573d22a73e020874007cb9ec59",
-          "url": "https://cdn.modrinth.com/data/izssR7oN/versions/yT4UAIR5/createtagsfix3.0.zip",
-          "filename": "createtagsfix3.0.zip",
+          "sha512": "a84e3c4fd3f5b82841132a22850ff2901275aa7f299734b8938c30ac262088c1631b7ed40e41dd77e4464611e25c2e9840f6b0ac64d48fb439393f094a965816",
+          "url": "https://cdn.modrinth.com/data/izssR7oN/versions/Y73wq8jR/createtagsfix.zip",
+          "filename": "createtagsfix.zip",
           "primary": true,
-          "size": 1678
+          "size": 1648
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "pZGSGPFK",
+      "name": "CreateCCModemFix-1.0-1.18+",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.18.2",
+        "1.19.2",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "d3d8b2ab9496a48c9e204db143b01b163585c6b4ca2127e4ae42f56f4490159cabf045f4f85c9a6549b8a24d8514c8917c5743eed4cfbd22325b42a32e87821b",
+          "url": "https://cdn.modrinth.com/data/izssR7oN/versions/pZGSGPFK/createccfix.zip",
+          "filename": "createccfix.zip",
+          "primary": true,
+          "size": 1241
         }
       ],
       "dependencies": [
         {
-          "project_id": "gu7yAYhd",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "LNytGWDc",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         },
         {
-          "project_id": "Xbc0uyRg",
+          "project_id": "gu7yAYhd",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "eldBwa5V",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "fFEIiSDQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
     },
@@ -171,29 +212,6 @@
       ]
     },
     {
-      "id": "Y73wq8jR",
-      "name": "CreateTagsFix-2.0-1.18+",
-      "version_number": "2.0",
-      "game_versions": [
-        "1.18.2",
-        "1.19.2",
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "a84e3c4fd3f5b82841132a22850ff2901275aa7f299734b8938c30ac262088c1631b7ed40e41dd77e4464611e25c2e9840f6b0ac64d48fb439393f094a965816",
-          "url": "https://cdn.modrinth.com/data/izssR7oN/versions/Y73wq8jR/createtagsfix.zip",
-          "filename": "createtagsfix.zip",
-          "primary": true,
-          "size": 1648
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "tqRzYUtK",
       "name": "CreateCCModemFix-1.0-1.18+",
       "version_number": "1.0",
@@ -230,45 +248,9 @@
       ]
     },
     {
-      "id": "7iqxd1zW",
-      "name": "CreateCCModemFix-1.0-1.18+",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.18.2",
-        "1.19.2",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "a6bfbc41399a65959f442f4ff8575950009bb2f890f52eeba463c3761b109e37dbee0aa44fb367cf97d694e1fb38aaa70d2b287f8dacb75499cae9a7303aa846",
-          "url": "https://cdn.modrinth.com/data/izssR7oN/versions/7iqxd1zW/createccmodemfix-1.0.jar",
-          "filename": "createccmodemfix-1.0.jar",
-          "primary": true,
-          "size": 2708
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "LNytGWDc",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "gu7yAYhd",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "pZGSGPFK",
-      "name": "CreateCCModemFix-1.0-1.18+",
-      "version_number": "1.0",
+      "id": "yT4UAIR5",
+      "name": "CreateTagsFix3.0-1.18+",
+      "version_number": "3.0",
       "game_versions": [
         "1.18.2",
         "1.19.2",
@@ -279,25 +261,43 @@
       ],
       "files": [
         {
-          "sha512": "d3d8b2ab9496a48c9e204db143b01b163585c6b4ca2127e4ae42f56f4490159cabf045f4f85c9a6549b8a24d8514c8917c5743eed4cfbd22325b42a32e87821b",
-          "url": "https://cdn.modrinth.com/data/izssR7oN/versions/pZGSGPFK/createccfix.zip",
-          "filename": "createccfix.zip",
+          "sha512": "a9b3718c3bd9b1a96677332ce965a5ee8a22ead45ae732dd32e2febda12571deefadfb86129ff56004bdfafd90f6a96e6f6231573d22a73e020874007cb9ec59",
+          "url": "https://cdn.modrinth.com/data/izssR7oN/versions/yT4UAIR5/createtagsfix3.0.zip",
+          "filename": "createtagsfix3.0.zip",
           "primary": true,
-          "size": 1241
+          "size": 1678
         }
       ],
       "dependencies": [
         {
-          "project_id": "LNytGWDc",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "gu7yAYhd",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "LNytGWDc",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "Xbc0uyRg",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "eldBwa5V",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "fFEIiSDQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }

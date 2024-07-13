@@ -5,40 +5,42 @@
   "description": "Server-side addon for marker management",
   "versions": [
     {
-      "id": "TxjPGqsI",
-      "name": "BAM 2022.11.1",
-      "version_number": "2022.11.1",
+      "id": "7mXP5Aj0",
+      "name": "BAM 2022.9.3",
+      "version_number": "2022.9.3",
       "game_versions": [
-        "1.18.2"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "238415e00a6409532d35f9d20bd7d6128e99dbf0bfddfbda9c2cc5cda4d0a51b472ef1584278790b3ff09c87c6dbeed96774b292051d5e1f1265721fe5deaca9",
-          "url": "https://cdn.modrinth.com/data/PHGaPnmJ/versions/TxjPGqsI/bluemap-advanced-marker-2022.11.1.jar",
-          "filename": "bluemap-advanced-marker-2022.11.1.jar",
+          "sha512": "8c20beba8987b2f4b6de66698376e16c2e2e50a10def9c35c3c0717d82c5b59deba12de8b964abdbdc7a86e988666850ba1acb87a1e35bd8fb3ed2aa448eb0cc",
+          "url": "https://cdn.modrinth.com/data/PHGaPnmJ/versions/7mXP5Aj0/bluemap-advanced-marker-2022.9.3.jar",
+          "filename": "bluemap-advanced-marker-2022.9.3.jar",
           "primary": true,
-          "size": 81092
+          "size": 75990
         }
       ],
       "dependencies": [
         {
-          "project_id": "Ha28R6CL",
-          "version_id": "s10JMAtS",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "swbUV1cr",
-          "version_id": "YQrZZlza",
+          "version_id": "51epxpKG",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": "s10JMAtS",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -68,6 +70,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "swbUV1cr",
+          "version_id": "oXkBkUui",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "Ha28R6CL",
           "version_id": "s10JMAtS",
           "file_name": null,
@@ -76,96 +84,6 @@
         {
           "project_id": "P7dR8mSH",
           "version_id": "wRYBRKfJ",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "swbUV1cr",
-          "version_id": "oXkBkUui",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "XEiq8tZ5",
-      "name": "BAM 2022.9.4",
-      "version_number": "2202.9.4",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "5e5d8193daeacdf9b9c53afc7c8007c3851e0c08aebe8a992a5faac6e592611f0e3626cbfc1b8ee1884fb38e033b717b23bb099bdcaae727022cc845fb97b248",
-          "url": "https://cdn.modrinth.com/data/PHGaPnmJ/versions/XEiq8tZ5/bluemap-advanced-marker-2022.9.4.jar",
-          "filename": "bluemap-advanced-marker-2022.9.4.jar",
-          "primary": true,
-          "size": 78202
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "swbUV1cr",
-          "version_id": "v1Swvpou",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "9nx74dYD",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": "s10JMAtS",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "7mXP5Aj0",
-      "name": "BAM 2022.9.3",
-      "version_number": "2022.9.3",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8c20beba8987b2f4b6de66698376e16c2e2e50a10def9c35c3c0717d82c5b59deba12de8b964abdbdc7a86e988666850ba1acb87a1e35bd8fb3ed2aa448eb0cc",
-          "url": "https://cdn.modrinth.com/data/PHGaPnmJ/versions/7mXP5Aj0/bluemap-advanced-marker-2022.9.3.jar",
-          "filename": "bluemap-advanced-marker-2022.9.3.jar",
-          "primary": true,
-          "size": 75990
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": "s10JMAtS",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "swbUV1cr",
-          "version_id": "51epxpKG",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -200,14 +118,96 @@
           "dependency_type": "required"
         },
         {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": "s10JMAtS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "TxjPGqsI",
+      "name": "BAM 2022.11.1",
+      "version_number": "2022.11.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "238415e00a6409532d35f9d20bd7d6128e99dbf0bfddfbda9c2cc5cda4d0a51b472ef1584278790b3ff09c87c6dbeed96774b292051d5e1f1265721fe5deaca9",
+          "url": "https://cdn.modrinth.com/data/PHGaPnmJ/versions/TxjPGqsI/bluemap-advanced-marker-2022.11.1.jar",
+          "filename": "bluemap-advanced-marker-2022.11.1.jar",
+          "primary": true,
+          "size": 81092
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "swbUV1cr",
+          "version_id": "YQrZZlza",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": "s10JMAtS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "XEiq8tZ5",
+      "name": "BAM 2022.9.4",
+      "version_number": "2202.9.4",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5e5d8193daeacdf9b9c53afc7c8007c3851e0c08aebe8a992a5faac6e592611f0e3626cbfc1b8ee1884fb38e033b717b23bb099bdcaae727022cc845fb97b248",
+          "url": "https://cdn.modrinth.com/data/PHGaPnmJ/versions/XEiq8tZ5/bluemap-advanced-marker-2022.9.4.jar",
+          "filename": "bluemap-advanced-marker-2022.9.4.jar",
+          "primary": true,
+          "size": 78202
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "9nx74dYD",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "Ha28R6CL",
           "version_id": "s10JMAtS",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
+          "project_id": "swbUV1cr",
+          "version_id": "v1Swvpou",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -235,8 +235,8 @@
       ],
       "dependencies": [
         {
-          "project_id": "Ha28R6CL",
-          "version_id": "s10JMAtS",
+          "project_id": "swbUV1cr",
+          "version_id": "51epxpKG",
           "file_name": null,
           "dependency_type": "required"
         },
@@ -247,8 +247,8 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "swbUV1cr",
-          "version_id": "51epxpKG",
+          "project_id": "Ha28R6CL",
+          "version_id": "s10JMAtS",
           "file_name": null,
           "dependency_type": "required"
         }

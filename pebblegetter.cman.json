@@ -1,9 +1,30 @@
 {
-  "id": "pebblegetter",
+  "id": "QDkDqRLP",
   "slug": "pebblegetter",
   "name": "PebbleGetter",
   "description": "You can get something by right-click some blocks",
   "versions": [
+    {
+      "id": "9nilui2a",
+      "name": "[Forge] 1.0",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "7a04948cdde479fe5a0880621e1cdcaa80fad2ab0fb889ac6ca6ef6eeacb747b6b27541ea0de7a683252d3f8e53ac6ca208c6c2b0e3da3bbc2b85be558a5018d",
+          "url": "https://cdn.modrinth.com/data/QDkDqRLP/versions/9nilui2a/PebbleGetter-1.0.jar",
+          "filename": "PebbleGetter-1.0.jar",
+          "primary": true,
+          "size": 37053
+        }
+      ],
+      "dependencies": []
+    },
     {
       "id": "BKcO6IAJ",
       "name": "[Forge] 1.2",
@@ -22,7 +43,8 @@
           "primary": true,
           "size": 39329
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "FQd7Tc1z",
@@ -42,6 +64,14 @@
           "filename": "PebbleGetter-1.2.jar",
           "primary": true,
           "size": 45397
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": "S0G3lioZ",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -64,45 +94,13 @@
           "primary": true,
           "size": 38372
         }
-      ]
-    },
-    {
-      "id": "iLiT3avu",
-      "name": "[Forge] 1.1",
-      "version_number": "1.1",
-      "game_versions": [
-        "1.19.3"
       ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "8a0643f9e1845720084bfc5c526d246ac6a8782084b0608a13e084a0bd351b6b195d8d620383f5c57c0bc47281afa92e5ac9c821efd4a3d6e17beffc49282790",
-          "url": "https://cdn.modrinth.com/data/QDkDqRLP/versions/iLiT3avu/PebbleGetter-1.1.jar",
-          "filename": "PebbleGetter-1.1.jar",
-          "primary": true,
-          "size": 39375
-        }
-      ]
-    },
-    {
-      "id": "9nilui2a",
-      "name": "[Forge] 1.0",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "7a04948cdde479fe5a0880621e1cdcaa80fad2ab0fb889ac6ca6ef6eeacb747b6b27541ea0de7a683252d3f8e53ac6ca208c6c2b0e3da3bbc2b85be558a5018d",
-          "url": "https://cdn.modrinth.com/data/QDkDqRLP/versions/9nilui2a/PebbleGetter-1.0.jar",
-          "filename": "PebbleGetter-1.0.jar",
-          "primary": true,
-          "size": 37053
+          "project_id": "YgnbXPMn",
+          "version_id": "YR0CuU2t",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -125,7 +123,36 @@
           "primary": true,
           "size": 35631
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YgnbXPMn",
+          "version_id": "YR0CuU2t",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
+    },
+    {
+      "id": "iLiT3avu",
+      "name": "[Forge] 1.1",
+      "version_number": "1.1",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8a0643f9e1845720084bfc5c526d246ac6a8782084b0608a13e084a0bd351b6b195d8d620383f5c57c0bc47281afa92e5ac9c821efd4a3d6e17beffc49282790",
+          "url": "https://cdn.modrinth.com/data/QDkDqRLP/versions/iLiT3avu/PebbleGetter-1.1.jar",
+          "filename": "PebbleGetter-1.1.jar",
+          "primary": true,
+          "size": 39375
+        }
+      ],
+      "dependencies": []
     }
   ]
 }

@@ -5,38 +5,6 @@
   "description": "Adds a new material stronger than netherite named Witherite!",
   "versions": [
     {
-      "id": "M26R4QLm",
-      "name": "Witherite 1.0.1 1.20.x",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4fd302cb748be4ca51e2d40c4cc85e0639e4fecf536d87966a40ad611c14dbefd7367855fd0517129b5fbf774374d719a65439389ba546688af44ccfd298ea81",
-          "url": "https://cdn.modrinth.com/data/CqxGbwxt/versions/M26R4QLm/witherite-1.0.1-1.20.x.jar",
-          "filename": "witherite-1.0.1-1.20.x.jar",
-          "primary": true,
-          "size": 73146
-        },
-        {
-          "sha512": "76c31dd59c7dfc3726df756396e3723706921b10fa1fc6fac7181865135a67c45ac9d9c8e47ef387e75286bef668b0ebad2cc96bafd14d4991fbc738bf8bafa0",
-          "url": "https://cdn.modrinth.com/data/CqxGbwxt/versions/M26R4QLm/witherite-1.0.1-1.20.x-sources.jar",
-          "filename": "witherite-1.0.1-1.20.x-sources.jar",
-          "primary": false,
-          "size": 79451
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "KkQyHZzD",
       "name": "Witherite 1.0.0 1.20.x",
       "version_number": "1.0.0",
@@ -68,6 +36,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "AANobbMI",
           "version_id": null,
           "file_name": null,
@@ -78,14 +52,40 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "incompatible"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
+    },
+    {
+      "id": "M26R4QLm",
+      "name": "Witherite 1.0.1 1.20.x",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4fd302cb748be4ca51e2d40c4cc85e0639e4fecf536d87966a40ad611c14dbefd7367855fd0517129b5fbf774374d719a65439389ba546688af44ccfd298ea81",
+          "url": "https://cdn.modrinth.com/data/CqxGbwxt/versions/M26R4QLm/witherite-1.0.1-1.20.x.jar",
+          "filename": "witherite-1.0.1-1.20.x.jar",
+          "primary": true,
+          "size": 73146
+        },
+        {
+          "sha512": "76c31dd59c7dfc3726df756396e3723706921b10fa1fc6fac7181865135a67c45ac9d9c8e47ef387e75286bef668b0ebad2cc96bafd14d4991fbc738bf8bafa0",
+          "url": "https://cdn.modrinth.com/data/CqxGbwxt/versions/M26R4QLm/witherite-1.0.1-1.20.x-sources.jar",
+          "filename": "witherite-1.0.1-1.20.x-sources.jar",
+          "primary": false,
+          "size": 79451
+        }
+      ],
+      "dependencies": []
     }
   ]
 }

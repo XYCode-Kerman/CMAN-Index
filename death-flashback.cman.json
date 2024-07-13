@@ -5,6 +5,77 @@
   "description": "Allowing teleporting to your death point when you have a recovery compass in your main hand and an ender pearl in your off hand.",
   "versions": [
     {
+      "id": "8YIfvnBi",
+      "name": "Death Flashback v1.0.0 for Minecraft 22w17a",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "22w17a"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f6e4d37115f757b13ffc2ab8b203c6e3860bb2057401f3061ef38f771d04271f90d87a4b17d9c395d3f48e4ac5983160c4441273194c57c0b99dec32df84cdf0",
+          "url": "https://cdn.modrinth.com/data/F3FpS9qN/versions/1.0.0/DeathFlashback-fabric-1.0.0-mc22w17a.jar",
+          "filename": "DeathFlashback-fabric-1.0.0-mc22w17a.jar",
+          "primary": true,
+          "size": 10295
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "OiNYht7a",
+      "name": "Death Flashback v1.0.2 for Minecraft 22w17a",
+      "version_number": "1.0.2",
+      "game_versions": [
+        "22w17a"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "cdfc004128b0208c8321e5eeb5e2c60b3101c6567d8f290417fc6206cc5706db24c8c65acd1baebb646cd193662bc7bbfe22f8fabf01214bc3131566b260708f",
+          "url": "https://cdn.modrinth.com/data/F3FpS9qN/versions/1.0.2/DeathFlashback-fabric-1.0.2-mc22w17a.jar",
+          "filename": "DeathFlashback-fabric-1.0.2-mc22w17a.jar",
+          "primary": true,
+          "size": 9159
+        },
+        {
+          "sha512": "d20de5d6ce43499c769380f910112717e57e9b68c2ced3ffb8ed767b7923b35c3abf57f69423d47c996debb0ae770190a44ce6ba9ca3f1e7f9ad55b406e3676a",
+          "url": "https://cdn.modrinth.com/data/F3FpS9qN/versions/1.0.2/DeathFlashback-fabric-1.0.2-mc22w17a-dev.jar",
+          "filename": "DeathFlashback-fabric-1.0.2-mc22w17a-dev.jar",
+          "primary": false,
+          "size": 8195
+        },
+        {
+          "sha512": "0d981436377f9bb5df638c603153869d1f57b9302d875fd9ab9c0367426d618ceb5909880337d1c9744b4f1df78b7f3e1c94a429b60b42bd0723fa7f15da6e93",
+          "url": "https://cdn.modrinth.com/data/F3FpS9qN/versions/1.0.2/DeathFlashback-fabric-1.0.2-mc22w17a-sources.jar",
+          "filename": "DeathFlashback-fabric-1.0.2-mc22w17a-sources.jar",
+          "primary": false,
+          "size": 6447
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8abHI823",
+          "version_id": "5WouP9aA",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "e2jFn9b5",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "YZypson4",
       "name": "Death Flashback v1.1.0 for Minecraft 22w17a",
       "version_number": "1.1.0",
@@ -54,55 +125,6 @@
       ]
     },
     {
-      "id": "OiNYht7a",
-      "name": "Death Flashback v1.0.2 for Minecraft 22w17a",
-      "version_number": "1.0.2",
-      "game_versions": [
-        "22w17a"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "cdfc004128b0208c8321e5eeb5e2c60b3101c6567d8f290417fc6206cc5706db24c8c65acd1baebb646cd193662bc7bbfe22f8fabf01214bc3131566b260708f",
-          "url": "https://cdn.modrinth.com/data/F3FpS9qN/versions/1.0.2/DeathFlashback-fabric-1.0.2-mc22w17a.jar",
-          "filename": "DeathFlashback-fabric-1.0.2-mc22w17a.jar",
-          "primary": true,
-          "size": 9159
-        },
-        {
-          "sha512": "d20de5d6ce43499c769380f910112717e57e9b68c2ced3ffb8ed767b7923b35c3abf57f69423d47c996debb0ae770190a44ce6ba9ca3f1e7f9ad55b406e3676a",
-          "url": "https://cdn.modrinth.com/data/F3FpS9qN/versions/1.0.2/DeathFlashback-fabric-1.0.2-mc22w17a-dev.jar",
-          "filename": "DeathFlashback-fabric-1.0.2-mc22w17a-dev.jar",
-          "primary": false,
-          "size": 8195
-        },
-        {
-          "sha512": "0d981436377f9bb5df638c603153869d1f57b9302d875fd9ab9c0367426d618ceb5909880337d1c9744b4f1df78b7f3e1c94a429b60b42bd0723fa7f15da6e93",
-          "url": "https://cdn.modrinth.com/data/F3FpS9qN/versions/1.0.2/DeathFlashback-fabric-1.0.2-mc22w17a-sources.jar",
-          "filename": "DeathFlashback-fabric-1.0.2-mc22w17a-sources.jar",
-          "primary": false,
-          "size": 6447
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "e2jFn9b5",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "8abHI823",
-          "version_id": "5WouP9aA",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "buEF4HFe",
       "name": "Death Flashback v1.0.1 for Minecraft 22w17a",
       "version_number": "1.0.1",
@@ -144,28 +166,6 @@
           "dependency_type": "required"
         }
       ]
-    },
-    {
-      "id": "8YIfvnBi",
-      "name": "Death Flashback v1.0.0 for Minecraft 22w17a",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "22w17a"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f6e4d37115f757b13ffc2ab8b203c6e3860bb2057401f3061ef38f771d04271f90d87a4b17d9c395d3f48e4ac5983160c4441273194c57c0b99dec32df84cdf0",
-          "url": "https://cdn.modrinth.com/data/F3FpS9qN/versions/1.0.0/DeathFlashback-fabric-1.0.0-mc22w17a.jar",
-          "filename": "DeathFlashback-fabric-1.0.0-mc22w17a.jar",
-          "primary": true,
-          "size": 10295
-        }
-      ],
-      "dependencies": []
     }
   ]
 }

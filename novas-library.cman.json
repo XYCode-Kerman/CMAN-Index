@@ -1,5 +1,5 @@
 {
-  "id": "novas-library",
+  "id": "jCbLiWqb",
   "slug": "novas-library",
   "name": "Nova's Library",
   "description": "A small Kotlin library with all the things I kept on rewriting",
@@ -22,25 +22,13 @@
           "primary": true,
           "size": 25340
         }
-      ]
-    },
-    {
-      "id": "o4eY8XFA",
-      "name": "Forge 1.18.2 1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.18.2"
       ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "bb6e6e867d89fa13325f01e9c85d846faefe901dc1f37c1b6033cc4560777810656e5c0cedf611c6b23acdde26108f6608413e83905d835513fe16bb05609dc9",
-          "url": "https://cdn.modrinth.com/data/jCbLiWqb/versions/o4eY8XFA/novaslibrary-forge-1.18.2-1.0.0.jar",
-          "filename": "novaslibrary-forge-1.18.2-1.0.0.jar",
-          "primary": true,
-          "size": 26852
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -62,6 +50,20 @@
           "primary": true,
           "size": 25366
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -81,6 +83,48 @@
           "filename": "novaslibrary-fabric-1.20.1-1.0.0.jar",
           "primary": true,
           "size": 261
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "o4eY8XFA",
+      "name": "Forge 1.18.2 1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "bb6e6e867d89fa13325f01e9c85d846faefe901dc1f37c1b6033cc4560777810656e5c0cedf611c6b23acdde26108f6608413e83905d835513fe16bb05609dc9",
+          "url": "https://cdn.modrinth.com/data/jCbLiWqb/versions/o4eY8XFA/novaslibrary-forge-1.18.2-1.0.0.jar",
+          "filename": "novaslibrary-forge-1.18.2-1.0.0.jar",
+          "primary": true,
+          "size": 26852
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

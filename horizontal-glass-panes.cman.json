@@ -1,26 +1,40 @@
 {
-  "id": "horizontal-glass-panes",
+  "id": "jdwaIe52",
   "slug": "horizontal-glass-panes",
   "name": "Horizontal Glass Panes",
   "description": "Making glass panes, horizontal!",
   "versions": [
     {
-      "id": "q3uGlgeU",
-      "name": "3.0 for NeoForge 1.21",
-      "version_number": "3.0.0",
+      "id": "6WpR4ECs",
+      "name": "2.0 for Fabric 1.20.6",
+      "version_number": "2.0.0",
       "game_versions": [
-        "1.21"
+        "1.20.6"
       ],
       "loaders": [
-        "neoforge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "5a5b47d7f1622065ed86e34215d24da3d2155d909db456dcceb15aec3c533b2b65ddf2cb986986f75ae1f0a5071817674270b7295203e2c032a4ca15ce675c8d",
-          "url": "https://cdn.modrinth.com/data/jdwaIe52/versions/q3uGlgeU/horizontal_glass_panes-1.21-neoforge-3.0.0.jar",
-          "filename": "horizontal_glass_panes-1.21-neoforge-3.0.0.jar",
+          "sha512": "d78fcf5eeceba8b419189f66bee80a45048e409569654a22f30244259f7701f7b420e07f876dac81fdca969d87c14f52765bc14bb1b1553bb19d5d725f37fdd5",
+          "url": "https://cdn.modrinth.com/data/jdwaIe52/versions/6WpR4ECs/horizontal_glass_panes-1.20.6-fabric-2.0.0.jar",
+          "filename": "horizontal_glass_panes-1.20.6-fabric-2.0.0.jar",
           "primary": true,
-          "size": 42453
+          "size": 43380
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -42,25 +56,75 @@
           "primary": true,
           "size": 42957
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
-      "id": "tPY0Bg9L",
-      "name": "2.0 for Fabric 1.20.4",
+      "id": "O8dmaktp",
+      "name": "2.0 for Forge 1.20.1",
       "version_number": "2.0.0",
       "game_versions": [
-        "1.20.4"
+        "1.20.1"
       ],
       "loaders": [
-        "fabric"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "a0459fed5fb739d66e507411a2230976cbfa3253a91d2ec1896af3bc04697c3602fcabb164d94cf24afa9a4b264e16a94f72241f17494b7edd04ec2e9c83cb5c",
-          "url": "https://cdn.modrinth.com/data/jdwaIe52/versions/tPY0Bg9L/horizontal_glass_panes-1.20.4-fabric-2.0.0.jar",
-          "filename": "horizontal_glass_panes-1.20.4-fabric-2.0.0.jar",
+          "sha512": "ea50fbff520ea06a80721f161dc1a807bb0af912d82506ee2cd6c29c18804be74df89126c4189057270e34537452f9c7c6a2913ca3d85d3fb0f1f9f0390fbce4",
+          "url": "https://cdn.modrinth.com/data/jdwaIe52/versions/O8dmaktp/horizontal_glass_panes-1.20.1-forge-2.0.0.jar",
+          "filename": "horizontal_glass_panes-1.20.1-forge-2.0.0.jar",
           "primary": true,
-          "size": 43364
+          "size": 42896
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "q3uGlgeU",
+      "name": "3.0 for NeoForge 1.21",
+      "version_number": "3.0.0",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "5a5b47d7f1622065ed86e34215d24da3d2155d909db456dcceb15aec3c533b2b65ddf2cb986986f75ae1f0a5071817674270b7295203e2c032a4ca15ce675c8d",
+          "url": "https://cdn.modrinth.com/data/jdwaIe52/versions/q3uGlgeU/horizontal_glass_panes-1.21-neoforge-3.0.0.jar",
+          "filename": "horizontal_glass_panes-1.21-neoforge-3.0.0.jar",
+          "primary": true,
+          "size": 42453
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -82,25 +146,53 @@
           "primary": true,
           "size": 42769
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
-      "id": "6WpR4ECs",
-      "name": "2.0 for Fabric 1.20.6",
+      "id": "tPY0Bg9L",
+      "name": "2.0 for Fabric 1.20.4",
       "version_number": "2.0.0",
       "game_versions": [
-        "1.20.6"
+        "1.20.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "d78fcf5eeceba8b419189f66bee80a45048e409569654a22f30244259f7701f7b420e07f876dac81fdca969d87c14f52765bc14bb1b1553bb19d5d725f37fdd5",
-          "url": "https://cdn.modrinth.com/data/jdwaIe52/versions/6WpR4ECs/horizontal_glass_panes-1.20.6-fabric-2.0.0.jar",
-          "filename": "horizontal_glass_panes-1.20.6-fabric-2.0.0.jar",
+          "sha512": "a0459fed5fb739d66e507411a2230976cbfa3253a91d2ec1896af3bc04697c3602fcabb164d94cf24afa9a4b264e16a94f72241f17494b7edd04ec2e9c83cb5c",
+          "url": "https://cdn.modrinth.com/data/jdwaIe52/versions/tPY0Bg9L/horizontal_glass_panes-1.20.4-fabric-2.0.0.jar",
+          "filename": "horizontal_glass_panes-1.20.4-fabric-2.0.0.jar",
           "primary": true,
-          "size": 43380
+          "size": 43364
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -122,25 +214,19 @@
           "primary": true,
           "size": 43386
         }
-      ]
-    },
-    {
-      "id": "O8dmaktp",
-      "name": "2.0 for Forge 1.20.1",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.20.1"
       ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "ea50fbff520ea06a80721f161dc1a807bb0af912d82506ee2cd6c29c18804be74df89126c4189057270e34537452f9c7c6a2913ca3d85d3fb0f1f9f0390fbce4",
-          "url": "https://cdn.modrinth.com/data/jdwaIe52/versions/O8dmaktp/horizontal_glass_panes-1.20.1-forge-2.0.0.jar",
-          "filename": "horizontal_glass_panes-1.20.1-forge-2.0.0.jar",
-          "primary": true,
-          "size": 42896
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

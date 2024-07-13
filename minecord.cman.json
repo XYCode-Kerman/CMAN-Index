@@ -5,1289 +5,6 @@
   "description": "Bring your Minecraft world into your Discord guild",
   "versions": [
     {
-      "id": "N6CxCnCT",
-      "name": "Minecord v2.1.0+1.21",
-      "version_number": "2.1.0+1.21",
-      "game_versions": [
-        "1.20.5",
-        "1.21"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e71509592aad3c2e6b458e95802c6c9e3936bb1654aafe275ef35c8685c11a92364e85301874fea3f2000aefb906bc0983310642c141d0ad9ba6c37f08cc3ceb",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-2.1.0%2B1.21.jar",
-          "filename": "minecord-2.1.0+1.21.jar",
-          "primary": true,
-          "size": 12303978
-        },
-        {
-          "sha512": "8c171057f23c9a865052296a92fafe477aa75599dfd183f0af748322aef360ce7e15c67cd4ecc692700f597c21406b48a18d8bb3da5071ed8c0ca5b585116844",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-2.1.0%2B1.21-sources.jar",
-          "filename": "minecord-2.1.0+1.21-sources.jar",
-          "primary": false,
-          "size": 6511
-        },
-        {
-          "sha512": "b23305a3c4a1f990718622758f6c4c226aa89d1c91153850fed487f0d02e76ae317799a3b57a54ca489a4d15060b4121cb17531919b1e7649680d1f27eabfb75",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-api-2.0.1%2B1.21-sources.jar",
-          "filename": "minecord-api-2.0.1+1.21-sources.jar",
-          "primary": false,
-          "size": 31902
-        },
-        {
-          "sha512": "97c2aa02bba4032669815089b36dacfc3a51f4590a9e82089fe6f20dbcd181f0b5f6bd1a34dccb23c2bb488d5914860beadc2bc9af06d4ca70d2be736bae152b",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-api-2.0.1%2B1.21.jar",
-          "filename": "minecord-api-2.0.1+1.21.jar",
-          "primary": false,
-          "size": 12951008
-        },
-        {
-          "sha512": "684fb6911c0cb9d562841ddf033b583769c8bf047f701f04d5d938f997a45ad09b333fb088c9506489a76bfe0d12e7a381589cd59a35cc42506e723bc5123f61",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-chat-2.1.0%2B1.21-sources.jar",
-          "filename": "minecord-chat-2.1.0+1.21-sources.jar",
-          "primary": false,
-          "size": 46063
-        },
-        {
-          "sha512": "2e6cf1dc318e0930425d75e740bbba4fb0f808405fc2a5e8e3bf2178d37b8026c5caae49b8d87f1ec5841068a541697d44e48ea712bb254035c19e7bc0707368",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-chat-2.1.0%2B1.21.jar",
-          "filename": "minecord-chat-2.1.0+1.21.jar",
-          "primary": false,
-          "size": 430384
-        },
-        {
-          "sha512": "724ee74dc38a730c1b1b8af6625f9449c5b9325a8a93b19f3ecb5138eee5d1e077483330ef8c2694e4b359a6d0e8948287656210015a6f8a0f3893860951f7dd",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-cmds-2.0.1%2B1.21-sources.jar",
-          "filename": "minecord-cmds-2.0.1+1.21-sources.jar",
-          "primary": false,
-          "size": 34815
-        },
-        {
-          "sha512": "1541005cc5b41e4292799ca1581a3b45d5fb20c2b33f79b7b9350fa3d1edd1bda91737e75c1824d905b03ebfd5ac699ef6c7fc0fcf8704cacb8b649a091cb66c",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-cmds-2.0.1%2B1.21.jar",
-          "filename": "minecord-cmds-2.0.1+1.21.jar",
-          "primary": false,
-          "size": 66710
-        },
-        {
-          "sha512": "8b0274db2677891d46be8639d68c230dcc30273cd4a8195c80dd6024872a9d657830c1a140285fc224667c7f7e4cb7adccb225dda051ad5b1f345cdb10b038f6",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-presence-2.0.0%2B1.21-sources.jar",
-          "filename": "minecord-presence-2.0.0+1.21-sources.jar",
-          "primary": false,
-          "size": 22552
-        },
-        {
-          "sha512": "ba60337b00555313b74a02d7405b88aa26931201305f422e1034365dae2c6d4db8032d158d2d6776e8853ba8c00748689f415958c9a22d3fe6f3d0cbb14c43a1",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-presence-2.0.0%2B1.21.jar",
-          "filename": "minecord-presence-2.0.0+1.21.jar",
-          "primary": false,
-          "size": 32429
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "esQY0gSe",
-      "name": "Minecord v2.1.0+1.20.6",
-      "version_number": "2.1.0+1.20.6",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9ed851fe70a0c94f11d58b54b1c96dcb762f4fa1ad6529c94da4f4fa095d754821c0142965b13b9fea602e1d24c721fd266a96b5c771a39e89b3b852b3658972",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-2.1.0%2B1.20.6.jar",
-          "filename": "minecord-2.1.0+1.20.6.jar",
-          "primary": true,
-          "size": 12303228
-        },
-        {
-          "sha512": "fe930f33e18df7114f1d9b8959c87adf36367c099b8c33b320720c7ffc3497cdbf7a7478c87ceb2a0236f2d715167d544981ba463d68a3d3beef0cdc3831239d",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-2.1.0%2B1.20.6-sources.jar",
-          "filename": "minecord-2.1.0+1.20.6-sources.jar",
-          "primary": false,
-          "size": 6515
-        },
-        {
-          "sha512": "e4e9666006438c4e62369e6d84e22a1c371548485ec8827a92e2bfba7448af13aae3e2c99e4fdc42e8d758981ccc0b75f0bf1b6bdc3d62d48ebd3e634545274e",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-api-2.0.1%2B1.20.6-sources.jar",
-          "filename": "minecord-api-2.0.1+1.20.6-sources.jar",
-          "primary": false,
-          "size": 31903
-        },
-        {
-          "sha512": "204c54955b93a8d67c7f7c02266f72fd75ce2386790ccdae65b9217d0f21d7b1a2516061753fe906d46f6043bf23faa5175b89e3f17e8fdd546686bbb44eb0d9",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-api-2.0.1%2B1.20.6.jar",
-          "filename": "minecord-api-2.0.1+1.20.6.jar",
-          "primary": false,
-          "size": 12950528
-        },
-        {
-          "sha512": "e1e605cbc164ca6eb47fbb39a1fcdd9f008f5c34eeb861ab859d1c793f0472106bfc2f86b3a3f62fd64f2e553e9fad45f489c6fc274a9a9fade8f9a8fc10c932",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-chat-2.1.0%2B1.20.6-sources.jar",
-          "filename": "minecord-chat-2.1.0+1.20.6-sources.jar",
-          "primary": false,
-          "size": 46042
-        },
-        {
-          "sha512": "442a01143ecc3450e0b98f61e48b81eaab9e4f8ec46fa5abfbd317c83b54fb049b5dece7538592c6e5a90058dd80044305a0ae4f95e62451dc03878e03b29251",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-chat-2.1.0%2B1.20.6.jar",
-          "filename": "minecord-chat-2.1.0+1.20.6.jar",
-          "primary": false,
-          "size": 430055
-        },
-        {
-          "sha512": "caff925cb2d931cb842393a1a846cd8051cf87858ab50b335e2176ae3d5c7a1e43331df583e84ac6bcecb5ba2eb3ad7808de80cdac0bc03db7608af98af4bac2",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-cmds-2.0.1%2B1.20.6-sources.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.6-sources.jar",
-          "primary": false,
-          "size": 34819
-        },
-        {
-          "sha512": "984b263d5ae45e12929f5d6faa804848cc0f445fdf9442726aa6c6c66169e24c5a1bbbfeb0b60776b392ba568f4e67ac9f8425e4313cd80e9975bc74db683f0d",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-cmds-2.0.1%2B1.20.6.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.6.jar",
-          "primary": false,
-          "size": 66713
-        },
-        {
-          "sha512": "a163ef31d65adc223af1d58effed04ba80d55219415fb2369ea1717d7e3595cb28902a53c5176b404a0518d912cea0d6d2e8332a68b66d7848a1b5947eb13855",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-presence-2.0.0%2B1.20.6-sources.jar",
-          "filename": "minecord-presence-2.0.0+1.20.6-sources.jar",
-          "primary": false,
-          "size": 22556
-        },
-        {
-          "sha512": "a8081077e614e0ea01828b48fe832614f79fd6f3a1934a30d383787e6b69af91fe3364265d2dd098d9e62e9ec8254e98626c5e214e702ebcd78ee1a041ced7f8",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-presence-2.0.0%2B1.20.6.jar",
-          "filename": "minecord-presence-2.0.0+1.20.6.jar",
-          "primary": false,
-          "size": 32432
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ts2g3zjk",
-      "name": "Minecord v2.1.0+1.20.4",
-      "version_number": "2.1.0+1.20.4",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f82fc553bea81e989e3d7ec2bcb15c7b915b4b1172f23dd7b2aeb1c0c263b422a31de0b5dea5ae8038b6dca90fecf5d6fd8fc72e063e99c1595d7a502fed83be",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-2.1.0%2B1.20.4.jar",
-          "filename": "minecord-2.1.0+1.20.4.jar",
-          "primary": true,
-          "size": 12151075
-        },
-        {
-          "sha512": "1f2fd28b88a6e08a1860e46ebb6503ee1f18163b4c7a7d0796af38a37e57790aca48c9362f6e8268caaaed65db0276d5a084fc4cf84203a977d1d1afd675bf51",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-2.1.0%2B1.20.4-sources.jar",
-          "filename": "minecord-2.1.0+1.20.4-sources.jar",
-          "primary": false,
-          "size": 6516
-        },
-        {
-          "sha512": "79bfb0edcfa39e245e225da9f35f6a502660d706988385ef21478103690dba211a9bf96e4139bc5102fed6da91276ef1276ba323df0e03689fe7fd284bc15ba7",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-api-2.0.1%2B1.20.4-sources.jar",
-          "filename": "minecord-api-2.0.1+1.20.4-sources.jar",
-          "primary": false,
-          "size": 31902
-        },
-        {
-          "sha512": "60494640f0351ec3b4f94a71ca867aa900afe1b70a041f858619cefe230f7a92a4a961bdd653b519f07ee4ace1bf35bc79dae756500ce422ce16e7bb9c2d41db",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-api-2.0.1%2B1.20.4.jar",
-          "filename": "minecord-api-2.0.1+1.20.4.jar",
-          "primary": false,
-          "size": 12797265
-        },
-        {
-          "sha512": "675653c388524be2b6c2808d6ad76cc2d46324ac8da3968f5a6f7c6d4b264d836b99ba012bde668755aaedee1acd81a921fc789d194960c3b59349ef44217e08",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-chat-2.1.0%2B1.20.4-sources.jar",
-          "filename": "minecord-chat-2.1.0+1.20.4-sources.jar",
-          "primary": false,
-          "size": 46259
-        },
-        {
-          "sha512": "039f9a8f1e048b54e4f90745dae9de8b7a43b0d2e2cca8c4ea7bd9622f23d7c7a0ca540ef3fdce6a87337fb9a927fc70c8af3a41c637065c75a48a3d3aa25383",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-chat-2.1.0%2B1.20.4.jar",
-          "filename": "minecord-chat-2.1.0+1.20.4.jar",
-          "primary": false,
-          "size": 433913
-        },
-        {
-          "sha512": "b15ae6943069ecbdf2a04045a75f119f24ea646de9411cf18ddf88d82c25e3eb87479726d10e4475758d27cf697c67c382ed2a1ceaad076255976099ae486874",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-cmds-2.0.1%2B1.20.4-sources.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.4-sources.jar",
-          "primary": false,
-          "size": 34819
-        },
-        {
-          "sha512": "3b8473a3da6782d85fc3172b7c8fd6ad603fcd5deed72bf29e1a2f385c0890f32fc67cfb5fd42ddde26b94e85d1b2753ae881135482f389d67f9e21e7accb957",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-cmds-2.0.1%2B1.20.4.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.4.jar",
-          "primary": false,
-          "size": 66689
-        },
-        {
-          "sha512": "1c99cf5a84ea4ae18297b8ee9efe0baf631d331c50ffc8e87b4a5317b14a1042371578dee74d789f632b3ec42e19f20ae01f90754d2ea8f395840948e7d12fac",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-presence-2.0.0%2B1.20.4-sources.jar",
-          "filename": "minecord-presence-2.0.0+1.20.4-sources.jar",
-          "primary": false,
-          "size": 22556
-        },
-        {
-          "sha512": "be4b17a21a5465c165901bb56e2e2c38d4c6ffc2740e38f92928f564de1e71d7356b84dbe0b77bf76b10ad77208cad56a055d2478698f91a744f32310f81966b",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-presence-2.0.0%2B1.20.4.jar",
-          "filename": "minecord-presence-2.0.0+1.20.4.jar",
-          "primary": false,
-          "size": 32423
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "YjfExZ5D",
-      "name": "Minecord v2.1.0+1.20.2",
-      "version_number": "2.1.0+1.20.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2447f27c155f591d0b88d0ff8d5eaae9d1fe086af29efa018eed4058d4e94fd049050764a8a36794d6a145f6b47fd40b477841cda9136c4931755a94ea759067",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-2.1.0%2B1.20.2.jar",
-          "filename": "minecord-2.1.0+1.20.2.jar",
-          "primary": true,
-          "size": 11776365
-        },
-        {
-          "sha512": "464c8882433acc3bf97c5a490267bbdd9a3dbaec667100431edf3c0fab72a1efb17c3a1f3dd0df6223e3d7de2990d1140b96ec310e86ffaec1258e8609093890",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-2.1.0%2B1.20.2-sources.jar",
-          "filename": "minecord-2.1.0+1.20.2-sources.jar",
-          "primary": false,
-          "size": 6517
-        },
-        {
-          "sha512": "2c3ed2e878e3d218672a3770302b4063226b6d8f0e6daaef2f88237d60d7b6686de6468e596bdf5ce264ec9015404cef89c13a717ce3d96d33685198ada17503",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-api-2.0.1%2B1.20.2-sources.jar",
-          "filename": "minecord-api-2.0.1+1.20.2-sources.jar",
-          "primary": false,
-          "size": 31905
-        },
-        {
-          "sha512": "5ef80326cff060508080a1b37dce1acaa3ed1ecc3c2ab15dfd4e56d4364a5587145574f3bec296bf5676a89b1afc15f4cdbc86f26adf480a18a4afaed939d3bc",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-api-2.0.1%2B1.20.2.jar",
-          "filename": "minecord-api-2.0.1+1.20.2.jar",
-          "primary": false,
-          "size": 12382789
-        },
-        {
-          "sha512": "bf33c54c6f02851404fe24da57b49c77cfd58786e4d591965efbc70416480a5f577e87d5c701dbc21e64a3a1e0155d26ec791bafd3e47347fe43b67f8b17ee3a",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-chat-2.1.0%2B1.20.2-sources.jar",
-          "filename": "minecord-chat-2.1.0+1.20.2-sources.jar",
-          "primary": false,
-          "size": 46094
-        },
-        {
-          "sha512": "8edf2f644bf39a17910a68a02641dcc1aec5311cb523a1adbd7cd464662daaa83907fd1d92352e9502691e6334185e19f13b833449682d0fc70483e047d79b8e",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-chat-2.1.0%2B1.20.2.jar",
-          "filename": "minecord-chat-2.1.0+1.20.2.jar",
-          "primary": false,
-          "size": 427230
-        },
-        {
-          "sha512": "f953c5228a750bda2724872748feda2b367fa69c7b564ba343201cbdbbb982e60b3d618b57ebf3ce6d154c6c2bbcc7ac134020dfc02265c287980e017379ca3b",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-cmds-2.0.1%2B1.20.2-sources.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.2-sources.jar",
-          "primary": false,
-          "size": 34832
-        },
-        {
-          "sha512": "514e1b6720d1b7cd55e1f7d8c1251571e3ce8b64aa81a1356cb1f268cb490e80900159e9d4d6fe608beee9b0f954227f3fb824ca52929f59c07af99caed3aa23",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-cmds-2.0.1%2B1.20.2.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.2.jar",
-          "primary": false,
-          "size": 66728
-        },
-        {
-          "sha512": "c6b05e3cc428f2c7213433ae65b3aaaea863a97a0a5d5cda2a90fe45e07cf539a2e9a76721a0ea425475d2e97fb027cc803b7bf9a1988087558d2bd089ec2d38",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-presence-2.0.0%2B1.20.2-sources.jar",
-          "filename": "minecord-presence-2.0.0+1.20.2-sources.jar",
-          "primary": false,
-          "size": 22558
-        },
-        {
-          "sha512": "4455646b73f4ea6f048d67066df47e2fbe3909ea59a054fe54f64bb83b46a91b4c184ff17a3779ee9a1d7fc514597ab7757269430128119e79918317120ad5be",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-presence-2.0.0%2B1.20.2.jar",
-          "filename": "minecord-presence-2.0.0+1.20.2.jar",
-          "primary": false,
-          "size": 32414
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "sK4V96Ro",
-      "name": "Minecord v2.1.0+1.20.1",
-      "version_number": "2.1.0+1.20.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d7e7df391cfc9d03bdf5f2e3c28ffebd197cc817b61d1d457026b29877721d08939da306a17f564aaa45aafcf9b69dc24327602312f00cf23f5b4995f3cb087b",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-2.1.0%2B1.20.1.jar",
-          "filename": "minecord-2.1.0+1.20.1.jar",
-          "primary": true,
-          "size": 11714593
-        },
-        {
-          "sha512": "b1dcc1219aba6e0cdce955390dbe4bcaf885b6ab51275cdadf7983a313b4ced6b8999dbbb69d65e7fc3a94f5c3c953fa11f4af5e38e99853cff5510d0bef5c52",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-2.1.0%2B1.20.1-sources.jar",
-          "filename": "minecord-2.1.0+1.20.1-sources.jar",
-          "primary": false,
-          "size": 6515
-        },
-        {
-          "sha512": "876e708a5fddead6a0e58d03eb2419c876c029056d36a42a02c36c6fd6386b4d327b38e7e64e8af001d66bc5fced5188bd160a141c0d9bf466dafc58c3526ea7",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-api-2.0.1%2B1.20.1-sources.jar",
-          "filename": "minecord-api-2.0.1+1.20.1-sources.jar",
-          "primary": false,
-          "size": 31899
-        },
-        {
-          "sha512": "15b4e8e0c6a50b30914f5365b4082fed1cbd34ed558f06a01091bb1f9cdc6fd3052ac90b97a8329db1a459a9a632e7bc60199c53c02f4b8ed2354dd9163789cf",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-api-2.0.1%2B1.20.1.jar",
-          "filename": "minecord-api-2.0.1+1.20.1.jar",
-          "primary": false,
-          "size": 12382074
-        },
-        {
-          "sha512": "27c9a45ec19e5b69f5884fff154ba01b91b98ad5e9329a3c18d44c6f2d3ae738bbd046c07fc6864528d3a4f1fdfd5a1a71d5995b951f3f6724e1895c6c986dff",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-chat-2.1.0%2B1.20.1-sources.jar",
-          "filename": "minecord-chat-2.1.0+1.20.1-sources.jar",
-          "primary": false,
-          "size": 46070
-        },
-        {
-          "sha512": "52aa3f6360ed705286ffd1177639aa2ee8f5d8ff11e780b005c16b39ce525eba5576209c48c12773bb6514eee52a1ed7908bc302b9769cce6b10487f29e37256",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-chat-2.1.0%2B1.20.1.jar",
-          "filename": "minecord-chat-2.1.0+1.20.1.jar",
-          "primary": false,
-          "size": 366182
-        },
-        {
-          "sha512": "2e33c4f869f305be117cfc210d983e3d555710b75d739e73e1103c20e4b0a78d73563ef6411aae8b42f25c69afad58cbfe85edef89b44e1721c1bb3d4b1c5f5c",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-cmds-2.0.1%2B1.20.1-sources.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.1-sources.jar",
-          "primary": false,
-          "size": 34831
-        },
-        {
-          "sha512": "8ae4aa8a554bb5ba937c1c1f63d8ce179420ab79206f2757fe69d3ed0c0f32db5fcec32f8a168e8d17ff4924ad95829d88ed9edfb05e0e1224a6c825f4fad79a",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-cmds-2.0.1%2B1.20.1.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.1.jar",
-          "primary": false,
-          "size": 66727
-        },
-        {
-          "sha512": "7810b3657ef9a23b639a13dc0255a271a6348605e897bde80d3584e2799ce8aa09593d77584924331331509dd9eba4714fe1bf619a24fb992b085fe46bfc72a1",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-presence-2.0.0%2B1.20.1-sources.jar",
-          "filename": "minecord-presence-2.0.0+1.20.1-sources.jar",
-          "primary": false,
-          "size": 22557
-        },
-        {
-          "sha512": "e251c62152192da3abbfa36bbbf4f20967910b1f364e4ade3eaf05ed01c0e3da2349a986acae41057c330ac30be68b6e6647ea9325848a2cb34dec6e8cc7d3df",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-presence-2.0.0%2B1.20.1.jar",
-          "filename": "minecord-presence-2.0.0+1.20.1.jar",
-          "primary": false,
-          "size": 32414
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "M1E4zPMf",
-      "name": "Minecord v2.1.0+1.19.4",
-      "version_number": "2.1.0+1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0d3a1eb0b9c2f85c8fa88cf5effd8820547b1c7004af173765249d53acc7c0c182c8adb2d6f71aca9438160f70d70998509e4e21ca8cd0984ba48b9f48d0daed",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-2.1.0%2B1.19.4.jar",
-          "filename": "minecord-2.1.0+1.19.4.jar",
-          "primary": true,
-          "size": 11692735
-        },
-        {
-          "sha512": "d6e36dfd6a2cc5f0206f36896663ef6a154de9c4ff5a4b50303f6365e7dde1b50f41bb17fb31334b3949d233349acb7fa5077aa0d200529f30ec06571d41f6e2",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-2.1.0%2B1.19.4-sources.jar",
-          "filename": "minecord-2.1.0+1.19.4-sources.jar",
-          "primary": false,
-          "size": 6517
-        },
-        {
-          "sha512": "ab6532602a856f61f5e56466c74a792ee5340e18d317d62df262ba32fa952581439a0e1afa0e2d9f31a35ecdd6eba97bf4303c1d216a384dce56aef2d0ce7696",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-api-2.0.1%2B1.19.4-sources.jar",
-          "filename": "minecord-api-2.0.1+1.19.4-sources.jar",
-          "primary": false,
-          "size": 31900
-        },
-        {
-          "sha512": "59ccbbaf01cf6de434db4135c593bdd234f2b531eca46173cada2b7b557c92d2b4078af4cd07f6fb79bf23aaf77e0f9961e36b3b88a7686cf2099e390253a123",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-api-2.0.1%2B1.19.4.jar",
-          "filename": "minecord-api-2.0.1+1.19.4.jar",
-          "primary": false,
-          "size": 12358791
-        },
-        {
-          "sha512": "6694e66f01f633ff193f8415926d8f7fbca88b32310211f8c548c1dbb7e3f39f116dbf8483e5bdfe94b28051eccd10a304684bfc998a9daf669182884bb65538",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-chat-2.1.0%2B1.19.4-sources.jar",
-          "filename": "minecord-chat-2.1.0+1.19.4-sources.jar",
-          "primary": false,
-          "size": 46064
-        },
-        {
-          "sha512": "5c4573839ec68394ffa3ff9378653958a7bc55d52b86c9a105819e46118c06e0dbac5f3910c2a83662389b6c9a0233b93d4d6566b285d369f647202c310875e2",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-chat-2.1.0%2B1.19.4.jar",
-          "filename": "minecord-chat-2.1.0+1.19.4.jar",
-          "primary": false,
-          "size": 368129
-        },
-        {
-          "sha512": "32ecb4798ac4299ff522cd4814f67ba9d12601abc27f7b83b41d1454a7f557e2ca19232fdd1239d5e79a7f1b6c2a01e2f6623c27df0227e0b77e7c468c9312e7",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-cmds-2.0.1%2B1.19.4-sources.jar",
-          "filename": "minecord-cmds-2.0.1+1.19.4-sources.jar",
-          "primary": false,
-          "size": 34829
-        },
-        {
-          "sha512": "3175c29557d50186c3917069a8291291fd01392f46bd3cf37fbf79250957c1710558da06af777bb19ec8409cb42bed795724b89213a63f7ae76e9d659831e94b",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-cmds-2.0.1%2B1.19.4.jar",
-          "filename": "minecord-cmds-2.0.1+1.19.4.jar",
-          "primary": false,
-          "size": 66648
-        },
-        {
-          "sha512": "ff83e39ab81820cf1706a847b612fe95b513584c0c802b1697f323ae72e64aa5ca5c74e09c17e42c09c7d2e79dab13cbec561668667ee248468f48659a0050f5",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-presence-2.0.0%2B1.19.4-sources.jar",
-          "filename": "minecord-presence-2.0.0+1.19.4-sources.jar",
-          "primary": false,
-          "size": 22558
-        },
-        {
-          "sha512": "8ba49d3a8f6bbdd03900cfc881dc7ddf1c8ed282fb7b8a1624083daa5c103797d26b6822cea5246bac77d40c547f905241c89be2917a4306d5babcd5c02879ce",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-presence-2.0.0%2B1.19.4.jar",
-          "filename": "minecord-presence-2.0.0+1.19.4.jar",
-          "primary": false,
-          "size": 32414
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "U2ldQ9R3",
-      "name": "Minecord v2.0.3+1.20.6",
-      "version_number": "2.0.3+1.20.6",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a2d90c25742f32f25343576ccf079c4946d4e055c32f0e24000968f8d81d6115fc838028f201b6389ab42b28e5da00df575634b2d319d2ba182922a3d3814d8e",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-2.0.3%2B1.20.6.jar",
-          "filename": "minecord-2.0.3+1.20.6.jar",
-          "primary": true,
-          "size": 12302920
-        },
-        {
-          "sha512": "e3d29b551dfe4d40da48c21d3ff75d944edabd9d3dabafa11a5a7130041b0905c656ccb857f258050f73ce40244824a9f1cafc509eabd5228eb8b0c8937f87e0",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-2.0.3%2B1.20.6-sources.jar",
-          "filename": "minecord-2.0.3+1.20.6-sources.jar",
-          "primary": false,
-          "size": 6515
-        },
-        {
-          "sha512": "4a43c6a621badf7fc6aa6de9abc2d9a435ad513e5d69a8dab2e0463efbc0e99e526c02d7c4030aee6c3151eca0e283ac37e3b0f0a8e25860287d5d832d0c8eec",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-api-2.0.1%2B1.20.6-sources.jar",
-          "filename": "minecord-api-2.0.1+1.20.6-sources.jar",
-          "primary": false,
-          "size": 31903
-        },
-        {
-          "sha512": "204c54955b93a8d67c7f7c02266f72fd75ce2386790ccdae65b9217d0f21d7b1a2516061753fe906d46f6043bf23faa5175b89e3f17e8fdd546686bbb44eb0d9",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-api-2.0.1%2B1.20.6.jar",
-          "filename": "minecord-api-2.0.1+1.20.6.jar",
-          "primary": false,
-          "size": 12950528
-        },
-        {
-          "sha512": "51a89a8b3e055a1464a9388deddd3bd6db51b5ceaba83ee32b5cbe4edc6c66505a9fa0a7384e6b7aad7802af7928ac6d8feab7f79d23ca0c20accfadebac330f",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-chat-2.0.2%2B1.20.6-sources.jar",
-          "filename": "minecord-chat-2.0.2+1.20.6-sources.jar",
-          "primary": false,
-          "size": 45748
-        },
-        {
-          "sha512": "b6747274f943b960ad5aabe957b07bf8be692805f412ef037ce509fbf13cc738b0d5b6377ce4872255144382ec314565aac798726d7c3c62e57ac6152c3d4c60",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-chat-2.0.2%2B1.20.6.jar",
-          "filename": "minecord-chat-2.0.2+1.20.6.jar",
-          "primary": false,
-          "size": 429750
-        },
-        {
-          "sha512": "24ad0a73142b0ac492492ccf99a39d61881a87a75d75820ebfcaad5cb5f39ae052bb28f4321c249a35066d8765087a65409e170066cb4c7fb67222f69d086504",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-cmds-2.0.1%2B1.20.6-sources.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.6-sources.jar",
-          "primary": false,
-          "size": 34819
-        },
-        {
-          "sha512": "984b263d5ae45e12929f5d6faa804848cc0f445fdf9442726aa6c6c66169e24c5a1bbbfeb0b60776b392ba568f4e67ac9f8425e4313cd80e9975bc74db683f0d",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-cmds-2.0.1%2B1.20.6.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.6.jar",
-          "primary": false,
-          "size": 66713
-        },
-        {
-          "sha512": "31ccf0a2e8826d586e8beb8edc56d6f2e191a3ccde057cb2cbbcf5ad3695686c8d358292c7b1fa89251572cd8677540a5ccf407032a8834be332f2d8145f1f22",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-presence-2.0.0%2B1.20.6-sources.jar",
-          "filename": "minecord-presence-2.0.0+1.20.6-sources.jar",
-          "primary": false,
-          "size": 22556
-        },
-        {
-          "sha512": "a8081077e614e0ea01828b48fe832614f79fd6f3a1934a30d383787e6b69af91fe3364265d2dd098d9e62e9ec8254e98626c5e214e702ebcd78ee1a041ced7f8",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-presence-2.0.0%2B1.20.6.jar",
-          "filename": "minecord-presence-2.0.0+1.20.6.jar",
-          "primary": false,
-          "size": 32432
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "OGmdoG1f",
-      "name": "Minecord v2.0.3+1.20.4",
-      "version_number": "2.0.3+1.20.4",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "59f040e06ccbef9ba47e8f9b9b25179d5acf4732fce8d2e43e71415dbb6fe4ca005be3ff9492f135369d9143e87393ec845840fd45cb586224ba4458ffd5b906",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-2.0.3%2B1.20.4.jar",
-          "filename": "minecord-2.0.3+1.20.4.jar",
-          "primary": true,
-          "size": 12150773
-        },
-        {
-          "sha512": "b0cbcebea9e47797b2e1a9d1fc130f37ddfc593d3f7294ffb5f8a6a1e01af9335320e3c09362011a4c2006faec00740a319fb6e6bd9e0e340070e722f5858b78",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-2.0.3%2B1.20.4-sources.jar",
-          "filename": "minecord-2.0.3+1.20.4-sources.jar",
-          "primary": false,
-          "size": 6516
-        },
-        {
-          "sha512": "f11e3b800823ac1e2d6c272ea7e0cd7c437e250e324fc4967ba3879f485fa533dafead2970a0e4b27739d8af92a4169c667c5b1dcf277ef68fccc692960015b6",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-api-2.0.1%2B1.20.4-sources.jar",
-          "filename": "minecord-api-2.0.1+1.20.4-sources.jar",
-          "primary": false,
-          "size": 31902
-        },
-        {
-          "sha512": "4243a69472f71b7cde53870e66a3c36244fe90259a5b483938cc2c6e4e99d92dadf2589e181744ef6807df6c58f0db386f32b7334a85265c7b7861f14874a5c9",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-api-2.0.1%2B1.20.4.jar",
-          "filename": "minecord-api-2.0.1+1.20.4.jar",
-          "primary": false,
-          "size": 12797265
-        },
-        {
-          "sha512": "b6e3b57cb17d796c5dcda423a052ff0122084c40c379ef7f2cc3ebfcd3b7eb2c4aa54992fcd80a1f50fd0803feec2aa7aa9eb3e572ad0e0d77c4bb3823ffb5df",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-chat-2.0.2%2B1.20.4-sources.jar",
-          "filename": "minecord-chat-2.0.2+1.20.4-sources.jar",
-          "primary": false,
-          "size": 45966
-        },
-        {
-          "sha512": "c2d6bdf83df170c02eb01e9733b9663295cf6ba0345bfdb58dba854f16ea2fb9bcba714302ea3a0199814914308313d5b0b31196518f332582c58d1a1e25525d",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-chat-2.0.2%2B1.20.4.jar",
-          "filename": "minecord-chat-2.0.2+1.20.4.jar",
-          "primary": false,
-          "size": 433608
-        },
-        {
-          "sha512": "2314c814650270d067101c32a65f8e54bdfc3c101d63efcbdab892a68abd33bd799a312ea42f4a18a79f71c1d6459dbd1026f000d87a18087176b71c3e3cc7fe",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-cmds-2.0.1%2B1.20.4-sources.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.4-sources.jar",
-          "primary": false,
-          "size": 34819
-        },
-        {
-          "sha512": "3b8473a3da6782d85fc3172b7c8fd6ad603fcd5deed72bf29e1a2f385c0890f32fc67cfb5fd42ddde26b94e85d1b2753ae881135482f389d67f9e21e7accb957",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-cmds-2.0.1%2B1.20.4.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.4.jar",
-          "primary": false,
-          "size": 66689
-        },
-        {
-          "sha512": "61b920042acd69c61bd96b6bd78e83dd11a2391444b78a50e0f9c54e28f35f3a43dc0f5979be6cf732723f4d3a1322c86b1db537b7464f7b81ae5c8e5d88ff87",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-presence-2.0.0%2B1.20.4-sources.jar",
-          "filename": "minecord-presence-2.0.0+1.20.4-sources.jar",
-          "primary": false,
-          "size": 22556
-        },
-        {
-          "sha512": "be4b17a21a5465c165901bb56e2e2c38d4c6ffc2740e38f92928f564de1e71d7356b84dbe0b77bf76b10ad77208cad56a055d2478698f91a744f32310f81966b",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-presence-2.0.0%2B1.20.4.jar",
-          "filename": "minecord-presence-2.0.0+1.20.4.jar",
-          "primary": false,
-          "size": 32423
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ROHsLYEA",
-      "name": "Minecord v2.0.3+1.20.2",
-      "version_number": "2.0.3+1.20.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "787dd6a1ca88bee2cd6e88288278d60eb1a89dac8d086ef11f0d5a4ad909becd5118c23c0031fe8409c706d4c89b49c1a86d7ab8b9b187765651e8c0f6cb756d",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-2.0.3%2B1.20.2.jar",
-          "filename": "minecord-2.0.3+1.20.2.jar",
-          "primary": true,
-          "size": 11776045
-        },
-        {
-          "sha512": "6fbf8cfbfa06f603966636666171d754d0a116968ecb0256354e6791d8c04a096d4f1dc1255d44244e9e41c24663f4902588fc476cf512fd35b5035456874e3d",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-2.0.3%2B1.20.2-sources.jar",
-          "filename": "minecord-2.0.3+1.20.2-sources.jar",
-          "primary": false,
-          "size": 6517
-        },
-        {
-          "sha512": "ecff50558286300324da55bdda40e99806e1980c1cc5420ec6010c85bd3961e9606a6251623bef3e14808d67de4dabcd3468d10e5c2016e68c564ece2a4dd2f8",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-api-2.0.1%2B1.20.2-sources.jar",
-          "filename": "minecord-api-2.0.1+1.20.2-sources.jar",
-          "primary": false,
-          "size": 31905
-        },
-        {
-          "sha512": "5ef80326cff060508080a1b37dce1acaa3ed1ecc3c2ab15dfd4e56d4364a5587145574f3bec296bf5676a89b1afc15f4cdbc86f26adf480a18a4afaed939d3bc",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-api-2.0.1%2B1.20.2.jar",
-          "filename": "minecord-api-2.0.1+1.20.2.jar",
-          "primary": false,
-          "size": 12382789
-        },
-        {
-          "sha512": "84700d5890034c08dc9f37b55cefd09e25a3f5d43b2eef9175a67a5c5602913b8bd012f77e5d8a4ddc5498bdbf4772528b32baae2171efc1a218fc08a86173ce",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-chat-2.0.2%2B1.20.2-sources.jar",
-          "filename": "minecord-chat-2.0.2+1.20.2-sources.jar",
-          "primary": false,
-          "size": 45800
-        },
-        {
-          "sha512": "84b67835911f19c4fc2ba397ecd6f2a008347097461c7a9edd4682cf95132239bd924ae1a36c978594ec8e666a0e8ae0111be043fd26e07d2f0ebcd4f98b1f77",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-chat-2.0.2%2B1.20.2.jar",
-          "filename": "minecord-chat-2.0.2+1.20.2.jar",
-          "primary": false,
-          "size": 426922
-        },
-        {
-          "sha512": "bf206688be34f1218c94aa04f1fce3130319d2fa666fb0fb9a3f11d6216e1d679966ebadf70acf56ddd7ea4fd107b3cf2059fdf9def86cca3f34c4dfe36a1af7",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-cmds-2.0.1%2B1.20.2-sources.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.2-sources.jar",
-          "primary": false,
-          "size": 34832
-        },
-        {
-          "sha512": "514e1b6720d1b7cd55e1f7d8c1251571e3ce8b64aa81a1356cb1f268cb490e80900159e9d4d6fe608beee9b0f954227f3fb824ca52929f59c07af99caed3aa23",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-cmds-2.0.1%2B1.20.2.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.2.jar",
-          "primary": false,
-          "size": 66728
-        },
-        {
-          "sha512": "8da8f1c5b778f4d90d3138e08fe9d59040a53675a00d77ab364101915ab654130e309ba6ae3ac9f74c2503d2ae30d2535a4274e0eda68f218fb6bf391ffe2a4c",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-presence-2.0.0%2B1.20.2-sources.jar",
-          "filename": "minecord-presence-2.0.0+1.20.2-sources.jar",
-          "primary": false,
-          "size": 22558
-        },
-        {
-          "sha512": "4455646b73f4ea6f048d67066df47e2fbe3909ea59a054fe54f64bb83b46a91b4c184ff17a3779ee9a1d7fc514597ab7757269430128119e79918317120ad5be",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-presence-2.0.0%2B1.20.2.jar",
-          "filename": "minecord-presence-2.0.0+1.20.2.jar",
-          "primary": false,
-          "size": 32414
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "m6DbPaS2",
-      "name": "Minecord v2.0.3+1.20.1",
-      "version_number": "2.0.3+1.20.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "bacc36f813ffed7b41c3a72f037f9b3ec81cb15ab96315df28bb83b29228393dc89210532253f4a86f8311f17e26639dd31fa7d47508c57e93756af6fd6ce38c",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-2.0.3%2B1.20.1.jar",
-          "filename": "minecord-2.0.3+1.20.1.jar",
-          "primary": true,
-          "size": 11714268
-        },
-        {
-          "sha512": "6c30830668e1689b0bdaf10ddde1dc8e92a1f0e5f2f1e20e52a41b2ddf20d6b4b0ab305965edcfb41128b1c685a75187489500bb8b6d2077c1b3b4ad7f5b4303",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-2.0.3%2B1.20.1-sources.jar",
-          "filename": "minecord-2.0.3+1.20.1-sources.jar",
-          "primary": false,
-          "size": 6515
-        },
-        {
-          "sha512": "4eb4c183f663ae8080d184ccd333b3581847b61762cd97a1f9f86fc42f1d3b732b91291cb3672efc284e2eb08b03c7cc95dec250644b2207e8338656982cd5b0",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-api-2.0.1%2B1.20.1-sources.jar",
-          "filename": "minecord-api-2.0.1+1.20.1-sources.jar",
-          "primary": false,
-          "size": 31899
-        },
-        {
-          "sha512": "15b4e8e0c6a50b30914f5365b4082fed1cbd34ed558f06a01091bb1f9cdc6fd3052ac90b97a8329db1a459a9a632e7bc60199c53c02f4b8ed2354dd9163789cf",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-api-2.0.1%2B1.20.1.jar",
-          "filename": "minecord-api-2.0.1+1.20.1.jar",
-          "primary": false,
-          "size": 12382074
-        },
-        {
-          "sha512": "b02bd20ab993c394b887acd31b2d405b1839e7c666b6210d157054b294d325df10907e73c545344c8670aeb4fae4f45788e3118de1bdcda638113ea4af457591",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-chat-2.0.2%2B1.20.1-sources.jar",
-          "filename": "minecord-chat-2.0.2+1.20.1-sources.jar",
-          "primary": false,
-          "size": 45776
-        },
-        {
-          "sha512": "152ec2912b16487865ea93557e5af4e95fc9bfc39f8bba3d93de787b623f32187447bc505a2ac56d584a5670d4023822a7a3513d54b6c0a248bdd86350be23d4",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-chat-2.0.2%2B1.20.1.jar",
-          "filename": "minecord-chat-2.0.2+1.20.1.jar",
-          "primary": false,
-          "size": 365874
-        },
-        {
-          "sha512": "53248f2e755332ac75baef627b3b24008caf042ecdcf25bbe9a8f9b0bbc54989ad4d3071bad916291263e3174c89486977644b8fae8d0f2d2683223b5c230192",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-cmds-2.0.1%2B1.20.1-sources.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.1-sources.jar",
-          "primary": false,
-          "size": 34831
-        },
-        {
-          "sha512": "8ae4aa8a554bb5ba937c1c1f63d8ce179420ab79206f2757fe69d3ed0c0f32db5fcec32f8a168e8d17ff4924ad95829d88ed9edfb05e0e1224a6c825f4fad79a",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-cmds-2.0.1%2B1.20.1.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.1.jar",
-          "primary": false,
-          "size": 66727
-        },
-        {
-          "sha512": "1a42109d49899e9ee72c6a745786c70274fe8b9918c84e34f3e665ea307582492f3e3db35ebf2050028569a0497fc523a98f9e9ab0b47e3620b402d03da0af59",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-presence-2.0.0%2B1.20.1-sources.jar",
-          "filename": "minecord-presence-2.0.0+1.20.1-sources.jar",
-          "primary": false,
-          "size": 22557
-        },
-        {
-          "sha512": "e251c62152192da3abbfa36bbbf4f20967910b1f364e4ade3eaf05ed01c0e3da2349a986acae41057c330ac30be68b6e6647ea9325848a2cb34dec6e8cc7d3df",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-presence-2.0.0%2B1.20.1.jar",
-          "filename": "minecord-presence-2.0.0+1.20.1.jar",
-          "primary": false,
-          "size": 32414
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "T9fvJnHI",
-      "name": "Minecord v2.0.3+1.19.4",
-      "version_number": "2.0.3+1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "bbc9c1204751aaecfbf49a00a574548a5a11ca2aca6251f1e6e542fc98ad6f205d2d2c37bce34c485a433b93f804754e29bae715073f8373138568c9f8f3b8fd",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-2.0.3%2B1.19.4.jar",
-          "filename": "minecord-2.0.3+1.19.4.jar",
-          "primary": true,
-          "size": 11692433
-        },
-        {
-          "sha512": "5a3c084c8a6a235f3f1bf869507d326c14cf172729093ce083c8e361742b8c9f179fb366b9f77b166e39ff7f75d59844889a25dd63493f7124e8ae0dfd710ea2",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-2.0.3%2B1.19.4-sources.jar",
-          "filename": "minecord-2.0.3+1.19.4-sources.jar",
-          "primary": false,
-          "size": 6517
-        },
-        {
-          "sha512": "73c603ad9494290c696e20b7fb865bcb668888731838ad47d817bde1fac30bfb21e22e5d939d44d4ec0629b03614ada904861aa5e67b520bd83b68fe67e16473",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-api-2.0.1%2B1.19.4-sources.jar",
-          "filename": "minecord-api-2.0.1+1.19.4-sources.jar",
-          "primary": false,
-          "size": 31900
-        },
-        {
-          "sha512": "59ccbbaf01cf6de434db4135c593bdd234f2b531eca46173cada2b7b557c92d2b4078af4cd07f6fb79bf23aaf77e0f9961e36b3b88a7686cf2099e390253a123",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-api-2.0.1%2B1.19.4.jar",
-          "filename": "minecord-api-2.0.1+1.19.4.jar",
-          "primary": false,
-          "size": 12358791
-        },
-        {
-          "sha512": "67c9674b269edaae3a4274826f5f5cb59a04308a0e8a93f3b2590ac008945624dfcfe9005fe05035abe8b571b2270ff151246149cdf4dfc39d0438a79dcc16c9",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-chat-2.0.2%2B1.19.4-sources.jar",
-          "filename": "minecord-chat-2.0.2+1.19.4-sources.jar",
-          "primary": false,
-          "size": 45771
-        },
-        {
-          "sha512": "770082d275bb8046ade4fb05df604cfcb6948b38ab4ea9a4073648ff5843a6198ffb0d8c4c74d5af0dd8a86dd9ec14303223ea45fb16c7e91ba6f45af3078f85",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-chat-2.0.2%2B1.19.4.jar",
-          "filename": "minecord-chat-2.0.2+1.19.4.jar",
-          "primary": false,
-          "size": 367823
-        },
-        {
-          "sha512": "7f9669a10cea02faa47bbbda5540bd99a608a1fe9aa90c87f2f61a090f3f33a951660ea2cb9776c8aad742d8844e3cd1225b893f2a420f5c0a7f17eda444475f",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-cmds-2.0.1%2B1.19.4-sources.jar",
-          "filename": "minecord-cmds-2.0.1+1.19.4-sources.jar",
-          "primary": false,
-          "size": 34829
-        },
-        {
-          "sha512": "3175c29557d50186c3917069a8291291fd01392f46bd3cf37fbf79250957c1710558da06af777bb19ec8409cb42bed795724b89213a63f7ae76e9d659831e94b",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-cmds-2.0.1%2B1.19.4.jar",
-          "filename": "minecord-cmds-2.0.1+1.19.4.jar",
-          "primary": false,
-          "size": 66648
-        },
-        {
-          "sha512": "560485e5fe57a2a87bb9e4b86f35ff0e2d8bc4884d6051c40807a650d2e4ffa261cb5befea8d8fe9518e6170a91e0bb2da976a3d20bdbf340e9ddb6d8e1bbabc",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-presence-2.0.0%2B1.19.4-sources.jar",
-          "filename": "minecord-presence-2.0.0+1.19.4-sources.jar",
-          "primary": false,
-          "size": 22558
-        },
-        {
-          "sha512": "8ba49d3a8f6bbdd03900cfc881dc7ddf1c8ed282fb7b8a1624083daa5c103797d26b6822cea5246bac77d40c547f905241c89be2917a4306d5babcd5c02879ce",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-presence-2.0.0%2B1.19.4.jar",
-          "filename": "minecord-presence-2.0.0+1.19.4.jar",
-          "primary": false,
-          "size": 32414
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "OzFzxlIK",
-      "name": "Minecord v2.0.2+1.20.4",
-      "version_number": "2.0.2+1.20.4",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "aff5868c55271e2e9aa37fed25767d70e613b727764ca179ee04013d5a1bc14101c890f3d5d8206ee5df54f8b4f55ad877cb40c6df7fb99169c0d4e4ee1705df",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-2.0.2%2B1.20.4.jar",
-          "filename": "minecord-2.0.2+1.20.4.jar",
-          "primary": true,
-          "size": 12150763
-        },
-        {
-          "sha512": "f48893660d18aa21764570637ce4a3000dd3d3f5de5f932a8dbf2379e1b8a57ddc638863ea68da224fb0589256a8eed344a7a3c9b4cd8cd8d110e25323d5b7b2",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-2.0.2%2B1.20.4-sources.jar",
-          "filename": "minecord-2.0.2+1.20.4-sources.jar",
-          "primary": false,
-          "size": 6516
-        },
-        {
-          "sha512": "a2b3f1d5dca24d860f0f3f39e7246b707ae49fea345085d4a7cb99111f0a7f46473c46680f3e21925e1d9a5fda97aea59684f1b44d054a4be727f7aa2e9220e4",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-api-2.0.1%2B1.20.4-sources.jar",
-          "filename": "minecord-api-2.0.1+1.20.4-sources.jar",
-          "primary": false,
-          "size": 31902
-        },
-        {
-          "sha512": "f18804b0e26e1bcfef219abd962bc3affee293ffd40a570720714d5385ff906e6cd0b1c900d04d6d8960a46bf7fec79f8825c825b533dda5bd76ae262ad88ab0",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-api-2.0.1%2B1.20.4.jar",
-          "filename": "minecord-api-2.0.1+1.20.4.jar",
-          "primary": false,
-          "size": 12797266
-        },
-        {
-          "sha512": "4b2eecae7371dd5f8486b747aacd1dea49c835ba6d8eeb2f1fcc8aa87ea828d02ee82610c3d440434687acd0c3f0045d0830a51588211c728b888aeb0aa097d7",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-chat-2.0.1%2B1.20.4-sources.jar",
-          "filename": "minecord-chat-2.0.1+1.20.4-sources.jar",
-          "primary": false,
-          "size": 45952
-        },
-        {
-          "sha512": "976969f65c98a09be4042df0b66bf2bfc5aae1753767e219f5f3c5c371823e81fdee1d2e0a25bbb45021c77d9a5ee5f139166a3b5ff827e3c54f206ddbb70889",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-chat-2.0.1%2B1.20.4.jar",
-          "filename": "minecord-chat-2.0.1+1.20.4.jar",
-          "primary": false,
-          "size": 433593
-        },
-        {
-          "sha512": "2c8ab2f97dc3f10c6dd60ddf3d570b05fe12221f987bc8e4a578df3e56890988218fbcabadcc34e591561c5bfbf777db4ba17dfc35172e0bb0b76736cea496cb",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-cmds-2.0.1%2B1.20.4-sources.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.4-sources.jar",
-          "primary": false,
-          "size": 34819
-        },
-        {
-          "sha512": "fbca0da503d9cf41f9ebb6d42107bcd8822ec768c055ffb6cd64f800fee47179c770104e254054d08596c096521bb22b909778e5f130327759dce361eb7e2321",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-cmds-2.0.1%2B1.20.4.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.4.jar",
-          "primary": false,
-          "size": 66690
-        },
-        {
-          "sha512": "3aa7b07bc0332c1c0db6c00b99fabb0ea37516ef0a2931aa1417cdc52cc1a1725e47ef54738a6037486fca0b5090981cba24c587e145d63262b40aff6ca99068",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-presence-2.0.0%2B1.20.4-sources.jar",
-          "filename": "minecord-presence-2.0.0+1.20.4-sources.jar",
-          "primary": false,
-          "size": 22556
-        },
-        {
-          "sha512": "61b6dc6e0877511aba67deb4a6a3368398bf973d39ebc563344befdc1a875ba283c1fdef4d27151e0e075465f4161e515168589a081def3a9e692a328d422888",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-presence-2.0.0%2B1.20.4.jar",
-          "filename": "minecord-presence-2.0.0+1.20.4.jar",
-          "primary": false,
-          "size": 32424
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "hu5eE36z",
-      "name": "Minecord v2.0.2+1.20.2",
-      "version_number": "2.0.2+1.20.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "fd6068e7ad558e39288e3457ef8eb476fbe747ce6b1d0ce3f6f191a32ec142ed475e12e0999210dfebb3126c4e3ca9ed906d34b435e91a75f0c66ba6984cb365",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-2.0.2%2B1.20.2.jar",
-          "filename": "minecord-2.0.2+1.20.2.jar",
-          "primary": true,
-          "size": 11776038
-        },
-        {
-          "sha512": "170c75cfda229fd0c1f284d74bd441964a821fff0f1e1a806a79b53f64d1aaee523bc3b207707112eb619b7ffb27be89b6c0b41680825970a6c3663f7683e268",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-2.0.2%2B1.20.2-sources.jar",
-          "filename": "minecord-2.0.2+1.20.2-sources.jar",
-          "primary": false,
-          "size": 6516
-        },
-        {
-          "sha512": "8f30c20a0abac97c04b4cbf4a3eb7131fc98388d61308d3e32f33f8a4f572d4150a75d5662f5fc1f7f7585f708fed658093721c534153ea6a34355855f6610d7",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-api-2.0.1%2B1.20.2-sources.jar",
-          "filename": "minecord-api-2.0.1+1.20.2-sources.jar",
-          "primary": false,
-          "size": 31903
-        },
-        {
-          "sha512": "6269f77e09ae9d3624603157d3fc2398fb2630492d874747cfa781d8ea6c7fdf714293bd9bb93d33c79adb910d33fcccb586185dfe14b3f3aee857d3b8d9e89c",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-api-2.0.1%2B1.20.2.jar",
-          "filename": "minecord-api-2.0.1+1.20.2.jar",
-          "primary": false,
-          "size": 12382787
-        },
-        {
-          "sha512": "35d5d08bd69d982aedfa9bd19661d19cf35bd70d739321945a983b6a8bcb435d3a920d4371fb9517212479eb433fb1c2c8f5f0fd83b801d515878e22b6dca239",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-chat-2.0.1%2B1.20.2-sources.jar",
-          "filename": "minecord-chat-2.0.1+1.20.2-sources.jar",
-          "primary": false,
-          "size": 45785
-        },
-        {
-          "sha512": "51aafbe2b02f232e64af339508b14f222dc8d2888e05ed4755a1648f906192981c297b077cb8a98fba4f49ab0b0bd17b906f437380136802c38c8a8ee4b15468",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-chat-2.0.1%2B1.20.2.jar",
-          "filename": "minecord-chat-2.0.1+1.20.2.jar",
-          "primary": false,
-          "size": 426910
-        },
-        {
-          "sha512": "6141757a598a26e73e5ddbda7a4b5e734558330df30e5a1bba132493ba82b8c1224251611cdb12b237127f20a751e9653db7be976b9614b21080da78448e19ba",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-cmds-2.0.1%2B1.20.2-sources.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.2-sources.jar",
-          "primary": false,
-          "size": 34831
-        },
-        {
-          "sha512": "8e29f583468fb77fb2d85075ff92ea062a20b5b064dd14ea6f22e6b10eddc9f30a34b68004ec47e8ca9d78a8d02709da53f233519e416d57928a5fc0a27a675d",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-cmds-2.0.1%2B1.20.2.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.2.jar",
-          "primary": false,
-          "size": 66727
-        },
-        {
-          "sha512": "89cc18786b5a66b0b0616c2ff9744b3ee30376461cc49ad845523464c8c383e1f8fd601d49ae578f15602d753560f0ac89ad4cd477f63f5aa0ea88322e32f3e2",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-presence-2.0.0%2B1.20.2-sources.jar",
-          "filename": "minecord-presence-2.0.0+1.20.2-sources.jar",
-          "primary": false,
-          "size": 22557
-        },
-        {
-          "sha512": "c6a87632683c6290c0f6849dc94294e35ceb7230a713f0593d70c4ce7b3222192ec847659577ae68a09fa4d0a862bc83bee6366e44c4d55c36edb1410741e121",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-presence-2.0.0%2B1.20.2.jar",
-          "filename": "minecord-presence-2.0.0+1.20.2.jar",
-          "primary": false,
-          "size": 32413
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "xwCriu2W",
-      "name": "Minecord v2.0.2+1.20.1",
-      "version_number": "2.0.2+1.20.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d33ffa36d3a90311517841d2e777a3c75e66c11929f5820677200c3f176fec62f6dad9efcc664f8d5f2be3800f24910b33589087e0ab41840f16a67b90581165",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-2.0.2%2B1.20.1.jar",
-          "filename": "minecord-2.0.2+1.20.1.jar",
-          "primary": true,
-          "size": 11714133
-        },
-        {
-          "sha512": "6ab787fb7ada18852ee03da0dc92c895ce03efffa057ba77714f7360d327ea00978446ce63ee182615ad68fb4bdae032a99d754809589590887d27b9ae2c0181",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-2.0.2%2B1.20.1-sources.jar",
-          "filename": "minecord-2.0.2+1.20.1-sources.jar",
-          "primary": false,
-          "size": 6514
-        },
-        {
-          "sha512": "eccfec46cf402afd386cfcfa8916ac8ff580af76126ed75e62e5a4a08e7a8c5241ef00f9af16f66a4c4c9bcb687d488b0a6e6ac16870a03c1de3aad13101f876",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-api-2.0.1%2B1.20.1-sources.jar",
-          "filename": "minecord-api-2.0.1+1.20.1-sources.jar",
-          "primary": false,
-          "size": 31899
-        },
-        {
-          "sha512": "b8dd5207fc12fe239b5007e7fca15ade613d55de423ba9032f35b94e194ccce60e763ee23670c7223fe23f7c8dce61fea80dc863c90627d4a2ea1a9ee9bf651c",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-api-2.0.1%2B1.20.1.jar",
-          "filename": "minecord-api-2.0.1+1.20.1.jar",
-          "primary": false,
-          "size": 12382070
-        },
-        {
-          "sha512": "a22b11ff10f196f56a094d5de96cadfbdefdcb2cc9a59beab90b077a58445eb6fa25641b406cc3fafa387e70d5c2ca9506378d8632a65602c265b1e30abbb023",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-chat-2.0.1%2B1.20.1-sources.jar",
-          "filename": "minecord-chat-2.0.1+1.20.1-sources.jar",
-          "primary": false,
-          "size": 45761
-        },
-        {
-          "sha512": "202fd68d824e3a9702e005832369d85bb231c2e354924a50d431a0606d0113eee0db7b850ea10b30a9ee8990be628ea1b38651ef0e56c37600106717bbee2152",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-chat-2.0.1%2B1.20.1.jar",
-          "filename": "minecord-chat-2.0.1+1.20.1.jar",
-          "primary": false,
-          "size": 365817
-        },
-        {
-          "sha512": "b3c97db02df81a595409d33b7b11fb4383fabdb10503ab15aa5907272204e247c5b1bd10cdc6d6c69dfc95dd463bf58176322f8e4bbdbe210772d8ecc0379384",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-cmds-2.0.1%2B1.20.1-sources.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.1-sources.jar",
-          "primary": false,
-          "size": 34830
-        },
-        {
-          "sha512": "4b48d02736a86705e0f8d2e28692e2b14ecc6fde9bb56b202108a1d208f020010ded50d261787452a9087cdefd874a7a1202357e36eea96dc1c9b489383635f6",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-cmds-2.0.1%2B1.20.1.jar",
-          "filename": "minecord-cmds-2.0.1+1.20.1.jar",
-          "primary": false,
-          "size": 66726
-        },
-        {
-          "sha512": "212dd936e18affbdf86580c7c86b22dbd30447de70ef8892cb1905f188dafe563fabc1574e1b5bdeb60bb4a54b902da128aaf4091eb39365acc798dfa7b835e8",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-presence-2.0.0%2B1.20.1-sources.jar",
-          "filename": "minecord-presence-2.0.0+1.20.1-sources.jar",
-          "primary": false,
-          "size": 22556
-        },
-        {
-          "sha512": "ca230a81d4b7d018a6a9a2f285f382a5f1e58e1842c9ecbe367f9a38f25aaf6e23d26f12430f4cdabd05bb3e3d1b72691818e60b77229344c9ce2240c9b11c88",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-presence-2.0.0%2B1.20.1.jar",
-          "filename": "minecord-presence-2.0.0+1.20.1.jar",
-          "primary": false,
-          "size": 32413
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "3oExrTvY",
       "name": "Minecord v2.0.2+1.19.4",
       "version_number": "2.0.2+1.19.4",
@@ -1367,462 +84,6 @@
           "filename": "minecord-presence-2.0.0+1.19.4.jar",
           "primary": false,
           "size": 32413
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "pfqjUCvA",
-      "name": "Minecord v2.0.1+1.20",
-      "version_number": "2.0.1+1.20",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "93a1d6b9e08a10ac3d7755a2759429a349e2e10c7c180014c2b163e7d277370bfd0d9bfbd692ce0c1d1f77af1ff50533e76ee6d7950905d02b305f072c635d74",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-2.0.1%2B1.20.jar",
-          "filename": "minecord-2.0.1+1.20.jar",
-          "primary": true,
-          "size": 11860597
-        },
-        {
-          "sha512": "f384afb16775882bc12e38bff1f0a177d33d153761e060907f9ef544c349889e6094d69bb632d5f119dd10ed329b153518888c411e81c9619dbb6c1b4330e688",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-2.0.1%2B1.20-sources.jar",
-          "filename": "minecord-2.0.1+1.20-sources.jar",
-          "primary": false,
-          "size": 6496
-        },
-        {
-          "sha512": "766b0dbb2b3c3d1957dbb46a57d2fd6cc06f77d6a0455fb75f7dea333d8db525b92cbaf54133b52da1f58f1043e668320482435de2ece587f4235c0463dc1a0c",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-api-2.0.1%2B1.20-sources.jar",
-          "filename": "minecord-api-2.0.1+1.20-sources.jar",
-          "primary": false,
-          "size": 32424
-        },
-        {
-          "sha512": "d18f0b87518436f5167503b23a0118ce3dac98022f1acf3aac3d9670af302dd519ac0bd1810683007eef252324036a2123f7d7d1f9e05ce8e354af920764896b",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-api-2.0.1%2B1.20.jar",
-          "filename": "minecord-api-2.0.1+1.20.jar",
-          "primary": false,
-          "size": 12487436
-        },
-        {
-          "sha512": "926e68c6ffff441517f7b10a452136ca0d24ef4ba3bfe990a421d4773dab3490a01c548f4f336376f47a11c2adb19c6f8e8a4a4f1498e4d254384c6f6eabad56",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-chat-2.0.0%2B1.20-sources.jar",
-          "filename": "minecord-chat-2.0.0+1.20-sources.jar",
-          "primary": false,
-          "size": 45763
-        },
-        {
-          "sha512": "0daa5939131bfa8582f70dd13ad4288d2ceaac402f22fc498a1c404467a38c509d683e1827ce9e6d48f113cf577846edfb4b1f9f39dbe59a9a79d57d5c1c3852",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-chat-2.0.0%2B1.20.jar",
-          "filename": "minecord-chat-2.0.0+1.20.jar",
-          "primary": false,
-          "size": 368788
-        },
-        {
-          "sha512": "a348bf5c3b1780b9d472fa6736acb5a03ac29571e192246737a21d2a7a6de6df1a6dde3aa2d7a6e04f877f1a77ee206fbf1214c1bf08dca1d79da5c503480921",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-cmds-2.0.0%2B1.20-sources.jar",
-          "filename": "minecord-cmds-2.0.0+1.20-sources.jar",
-          "primary": false,
-          "size": 34788
-        },
-        {
-          "sha512": "3dfe844662756dda606fffb9429f651fe67c1af140ad70d55eb6ec07f59236017e518ee1fa662495f1e565c2df76b455890eb221c848e321e7533d632a5de6b6",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-cmds-2.0.0%2B1.20.jar",
-          "filename": "minecord-cmds-2.0.0+1.20.jar",
-          "primary": false,
-          "size": 67532
-        },
-        {
-          "sha512": "5d578347cfebd31f4172f2cff6b63292a01eadd2a25a458f1aed82ae1802acacdd811cd57adccdb496c9303a4d7f720a902d946eae443eca7e652581db6048b1",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-presence-2.0.0%2B1.20-sources.jar",
-          "filename": "minecord-presence-2.0.0+1.20-sources.jar",
-          "primary": false,
-          "size": 22649
-        },
-        {
-          "sha512": "fa197af8b5b1fb4f7cfb1cf3133218c0e1a2798ebceea9f7db49be8317b9eda29872177cef90bce6e721bb24c863d39652fdca99e331ba7b8205f785d37b565a",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-presence-2.0.0%2B1.20.jar",
-          "filename": "minecord-presence-2.0.0+1.20.jar",
-          "primary": false,
-          "size": 33221
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "d1cUy87M",
-      "name": "Minecord v2.0.1+1.19.4",
-      "version_number": "2.0.1+1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6a72a72931201c20a2eb1f968af121bc0bebc870f5345054718592a29e11a323b7db21c33c5caaa50b329d5c7c67e214cf8d58983236fc1711bcfa007dd6b1ea",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-2.0.1%2B1.19.4.jar",
-          "filename": "minecord-2.0.1+1.19.4.jar",
-          "primary": true,
-          "size": 11803444
-        },
-        {
-          "sha512": "1fa7658bbed9be3f973a15d1d06b7a27aaf366a87c07eb0746a8558cea29bf41c63ceef4b4fa8cb7afee1ebf50d80c4522a651c021178e2498ea1e4163a99c68",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-2.0.1%2B1.19.4-sources.jar",
-          "filename": "minecord-2.0.1+1.19.4-sources.jar",
-          "primary": false,
-          "size": 6499
-        },
-        {
-          "sha512": "526d67476cb401795770828e03e90cd9cc926a2564373a7d3074fe06b971375b8718f806d3349c4963bb8c9d9e09ed32a58117cebd0570191444e445fb1bd6c1",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-api-2.0.1%2B1.19.4-sources.jar",
-          "filename": "minecord-api-2.0.1+1.19.4-sources.jar",
-          "primary": false,
-          "size": 32428
-        },
-        {
-          "sha512": "18982e41b015caaddad0e3487f421173d5b51f6423f53a8b2d6192c948eb0d950cc5b0ccb4fcf462ce7ec68ffe94848613e47fe9e9d71cb5c855507c5a4aec0d",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-api-2.0.1%2B1.19.4.jar",
-          "filename": "minecord-api-2.0.1+1.19.4.jar",
-          "primary": false,
-          "size": 12435003
-        },
-        {
-          "sha512": "ed4d7dbe4ef8665e4d542b826fd2397ebebec6b0a437f0b80712e2c6907035ab8f4c8b881bb86c0a248df053f365ed4e2b3955e9c180db81b192caea20103cb3",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-chat-2.0.0%2B1.19.4-sources.jar",
-          "filename": "minecord-chat-2.0.0+1.19.4-sources.jar",
-          "primary": false,
-          "size": 45761
-        },
-        {
-          "sha512": "ba452b472aac3fccd325ab5cf6f256486afbdafbf77b0ef58ba502313a81f6f262d9e83653ccf0a498b73dd27de68aa7cb5403167518ad4ecdd083e8fed875b0",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-chat-2.0.0%2B1.19.4.jar",
-          "filename": "minecord-chat-2.0.0+1.19.4.jar",
-          "primary": false,
-          "size": 359134
-        },
-        {
-          "sha512": "a9bf6fbb20eb35f6b925cbaaf620af123ec5fa01db1565bcba884c987fd5a7358733bf81419226a4fb51b574f5c8bf711479d545aa6b2ed6d0c5d053e70dc092",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-cmds-2.0.0%2B1.19.4-sources.jar",
-          "filename": "minecord-cmds-2.0.0+1.19.4-sources.jar",
-          "primary": false,
-          "size": 34789
-        },
-        {
-          "sha512": "8be9c329d79a6772d98329c2f62d709e9a3ad5f4e166b7c3c720b1fa17c7904b029b476809f8c7c6d99f6f3c71564c5c22e8b6021ddd9c9cbcb5de1483da1ea7",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-cmds-2.0.0%2B1.19.4.jar",
-          "filename": "minecord-cmds-2.0.0+1.19.4.jar",
-          "primary": false,
-          "size": 67455
-        },
-        {
-          "sha512": "c9fbb919fc64fd970da1ee84286b9f211071d71c7e8c759e6a460715d969e9abcc9bce644583cfa563aa6574836243dbce98cc43d81427e9098fb48cb7601c95",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-presence-2.0.0%2B1.19.4-sources.jar",
-          "filename": "minecord-presence-2.0.0+1.19.4-sources.jar",
-          "primary": false,
-          "size": 22652
-        },
-        {
-          "sha512": "4125e74a2f4771bd7dd9e9095fdea40001064df5abc6c2851a8fe20dcecee6874c27320b9db9841a33023d905af249d90bb01391c2f68985129cbad0967ae492",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-presence-2.0.0%2B1.19.4.jar",
-          "filename": "minecord-presence-2.0.0+1.19.4.jar",
-          "primary": false,
-          "size": 33225
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hZp3OTog",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "livMoL0V",
-      "name": "Minecord v2.0.0+1.20",
-      "version_number": "2.0.0+1.20",
-      "game_versions": [
-        "1.20"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b94d59a7e059cd263aa10e9d75a4820cebdcde60625682defa1d3ac71777b6a2a1516c50902c8bfc49eb097b50174c9e7268f9e3dbe5b4c588d83fa19fbfd206",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-2.0.0%2B1.20.jar",
-          "filename": "minecord-2.0.0+1.20.jar",
-          "primary": true,
-          "size": 11863564
-        },
-        {
-          "sha512": "538e69a14a57b98bbf1418b9f495fd305b35cd21672be14359aa9ecaa9856257ae0f875d9a201db184652478f019c9ac5f57186d2ae4ab181651a98b3e873cf5",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-2.0.0%2B1.20-sources.jar",
-          "filename": "minecord-2.0.0+1.20-sources.jar",
-          "primary": false,
-          "size": 6496
-        },
-        {
-          "sha512": "453fb84556476d19e2d932071844f77d7fbbdb10ed2b8a390819382ff4b4309117ec9366885b66b1d9669b050eef05878cb4047035ed5b03ffda20a7b8c99f76",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-api-2.0.0%2B1.20-sources.jar",
-          "filename": "minecord-api-2.0.0+1.20-sources.jar",
-          "primary": false,
-          "size": 33944
-        },
-        {
-          "sha512": "c235aa850636aec67e10e5e980dadd7105be45d39dbfe86d77f723d7a2c7214291fb535f216075e020e877994c4c728973e06c6a4b5a8a4bdaf57c775086d22d",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-api-2.0.0%2B1.20.jar",
-          "filename": "minecord-api-2.0.0+1.20.jar",
-          "primary": false,
-          "size": 12490506
-        },
-        {
-          "sha512": "0b952abeacb2fcc5cafc045c4957da194939b0c6c8c744f79eb4b6a4eed89c304d4ed1e9d6494b013df77c865c3b89b9ccf5bb8fd2a59f92f8010683e848b5a6",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-chat-2.0.0%2B1.20-sources.jar",
-          "filename": "minecord-chat-2.0.0+1.20-sources.jar",
-          "primary": false,
-          "size": 45763
-        },
-        {
-          "sha512": "91d8e6dbc488bfe3ee38fe18557a05ef3f0274c6c2fe16033cbdc4ca89092dd34e5b35d93fd25e2d80d3428fb28be9eb1b09a24968a6b93d07c06c78cd40881e",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-chat-2.0.0%2B1.20.jar",
-          "filename": "minecord-chat-2.0.0+1.20.jar",
-          "primary": false,
-          "size": 368788
-        },
-        {
-          "sha512": "e68eabd4dabd6130a8a71ab38ce25c4c94607bf1bc1f0c4761efb794cecf37a289092403e862262b90ee4bf1568739620a55442b9b7580663753c261b2936235",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-cmds-2.0.0%2B1.20-sources.jar",
-          "filename": "minecord-cmds-2.0.0+1.20-sources.jar",
-          "primary": false,
-          "size": 34788
-        },
-        {
-          "sha512": "efe74c47fa79d13b3d426332604a4e6cd765482edeb1fd280157728e1c503acd7957459244dd8f217a5967b6ae1bc4e9d27eb577049c1d247e0dcef929e26597",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-cmds-2.0.0%2B1.20.jar",
-          "filename": "minecord-cmds-2.0.0+1.20.jar",
-          "primary": false,
-          "size": 67532
-        },
-        {
-          "sha512": "2b6e8f15219c94c8865fc8690a2e2c35c5803281cc5e56295c4819f2e07b298a51ad53568666de55514a45d938ffae8dd90d232557a765cb5b635eda932d33a2",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-presence-2.0.0%2B1.20-sources.jar",
-          "filename": "minecord-presence-2.0.0+1.20-sources.jar",
-          "primary": false,
-          "size": 22649
-        },
-        {
-          "sha512": "f6591d7401d9806c4ddcc5b8bf40fe756aa6f96da9936b12c4d42669198e131c093af4b7cecc4756105fb86c4f74e0687a9b1a4d83cfdbe7b760c3148bd7a213",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-presence-2.0.0%2B1.20.jar",
-          "filename": "minecord-presence-2.0.0+1.20.jar",
-          "primary": false,
-          "size": 33221
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "msU3fpYy",
-      "name": "Minecord v2.0.0+1.19.4",
-      "version_number": "2.0.0+1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "82324794170f0aaa0677871963e6022206184c90e6b5f2e35ca080e805b264583b0ab9df120219dae42d36c46a1fddf0b282cdff2e28ddb5f81b59c605d1d212",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-2.0.0%2B1.19.4.jar",
-          "filename": "minecord-2.0.0+1.19.4.jar",
-          "primary": true,
-          "size": 11843429
-        },
-        {
-          "sha512": "7fd1d99bbddd68a5cd35949a0df4499c169303663d10af5de69ea639777617d00d3d2ca6beb4e05cf5b47f935a5a07ddd2beeab4fd5ded3abda3ada60d724c12",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-2.0.0%2B1.19.4-sources.jar",
-          "filename": "minecord-2.0.0+1.19.4-sources.jar",
-          "primary": false,
-          "size": 6879
-        },
-        {
-          "sha512": "557c23aa45c64796675d90ea6e49ca23f8ed2366b395f7dfe5fe0641f99435e5c328dc3d3024360b6baf9d69a61243238a5503466b78196454fa5204441a8efd",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-api-2.0.0%2B1.19.4-sources.jar",
-          "filename": "minecord-api-2.0.0+1.19.4-sources.jar",
-          "primary": false,
-          "size": 35862
-        },
-        {
-          "sha512": "153db7818de410f78dc1f1b6b5b363900494d7b6b51a47aab4f1bfee18a2f2d09cee5909830af78060c1c037e8b2adebf024fb287ed0bb117645cfc0cb7bf5ff",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-api-2.0.0%2B1.19.4.jar",
-          "filename": "minecord-api-2.0.0+1.19.4.jar",
-          "primary": false,
-          "size": 12733843
-        },
-        {
-          "sha512": "774fd641618bd277551a36440498d02193d18e00d502983490b133dd858e175539c46bc6bbb28ee3aeddc18b9c5553cb0cab0a4c270b7d840d03e2d2741bd5a2",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-chat-2.0.0%2B1.19.4-sources.jar",
-          "filename": "minecord-chat-2.0.0+1.19.4-sources.jar",
-          "primary": false,
-          "size": 48027
-        },
-        {
-          "sha512": "7510d83652575e1fbc8f2722e61498e37fd8b85e52069f59148a988d53284a6df2a899ac0ada06ca11c7964dc6e670a2026869ab604794d1867180693cbd7fd3",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-chat-2.0.0%2B1.19.4.jar",
-          "filename": "minecord-chat-2.0.0+1.19.4.jar",
-          "primary": false,
-          "size": 365337
-        },
-        {
-          "sha512": "5687712a39e0a55dd3b2c67ecfd0350c58ad3df0a225de9e65a08ac88a3e9bd545be177d68afbc311ace14270a0f8186c148eb802f539711a4f37f3d25a13ef3",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-cmds-2.0.0%2B1.19.4-sources.jar",
-          "filename": "minecord-cmds-2.0.0+1.19.4-sources.jar",
-          "primary": false,
-          "size": 36428
-        },
-        {
-          "sha512": "bb7738293c836f3246b0fa5983989eb336d5972dfb5743324730c232ead07c4ec61735b40b92c28b8cc47ab00c3bda27bab7a5fe495eaa07f29ba7eccad5de14",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-cmds-2.0.0%2B1.19.4.jar",
-          "filename": "minecord-cmds-2.0.0+1.19.4.jar",
-          "primary": false,
-          "size": 69932
-        },
-        {
-          "sha512": "b8c4f0a7310a162f2d4a42820dede0c79ea56e25e0b281c1daa3bffd5ea27294dbd0d215c166a99267aab0f073a3f58cb95446a2c4e775d9f25b9da7d6bf50e7",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-presence-2.0.0%2B1.19.4-sources.jar",
-          "filename": "minecord-presence-2.0.0+1.19.4-sources.jar",
-          "primary": false,
-          "size": 23779
-        },
-        {
-          "sha512": "a40da4b59fe087bfea519df7a0523149ca4e9cf1fe50adf9321291c563e4fdb85065f0ab47f8ff804aa0d747e14c0701461401c01af983a396d25e153b913706",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-presence-2.0.0%2B1.19.4.jar",
-          "filename": "minecord-presence-2.0.0+1.19.4.jar",
-          "primary": false,
-          "size": 34552
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hZp3OTog",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "PK5anx6l",
-      "name": "Minecord v1.1.0-beta.3 for Minecraft 1.19",
-      "version_number": "1.1.0-beta.3",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "1b2ef0d3d769ac20b535d07f1caf1f1d1ca2e2bea7456e8d58ce9bb139746b7f183c8c40cb71d1c11b897788ee0c90f2587ad1287f1c3e68fe50606b10cd97e8",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-mc1.19-1.1.0-beta.3.jar",
-          "filename": "minecord-mc1.19-1.1.0-beta.3.jar",
-          "primary": true,
-          "size": 10787588
-        },
-        {
-          "sha512": "0a45eb3ddc4fc9157a3a581a042542b081e4fbda80a25f88286a76d3a35b84104b88da11a7496e14b1c8e501b410df66367293ffe240a9beade78f954a86a786",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-api-mc1.19-1.1.0-beta.3-sources.jar",
-          "filename": "minecord-api-mc1.19-1.1.0-beta.3-sources.jar",
-          "primary": false,
-          "size": 29147
-        },
-        {
-          "sha512": "43b4bf20d5b9ddf9898e07b2be040eee87cf7c48d5405bce2de6707e65141dbc6d3291c7ce182cf94d96347056a26bf87883a6ca6471bc0b39d70b789a08c78a",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-api-mc1.19-1.1.0-beta.3.jar",
-          "filename": "minecord-api-mc1.19-1.1.0-beta.3.jar",
-          "primary": false,
-          "size": 11554106
-        },
-        {
-          "sha512": "deb568a681a7545aff3ef8b33d4643fd6d6643dfc2bf5435a416e3bdf6b18a554813b5ab9bf9a2cc35d8029e4661ccd01be54f42e4dcc39a8bf8b9a83a1cfc2c",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-chat-mc1.19-1.1.0-beta.3-sources.jar",
-          "filename": "minecord-chat-mc1.19-1.1.0-beta.3-sources.jar",
-          "primary": false,
-          "size": 42187
-        },
-        {
-          "sha512": "a6ca017f88b2651f70758d31d835d326003d92182f19c4469d4e2d5565691d3ed64aa74de4790ce402bae9b97c0160f1e249f53c5702c42852de16785b056c8c",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-chat-mc1.19-1.1.0-beta.3.jar",
-          "filename": "minecord-chat-mc1.19-1.1.0-beta.3.jar",
-          "primary": false,
-          "size": 161009
-        },
-        {
-          "sha512": "cc3d42a3b83fe3ee1de96e6125b4490610b11e4020258f0ff85b1ff9f91b45f3b1eae14d4abe6b489876a4cc243480dd5aad659ae216f1b1eb46e099337b814e",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-cmds-mc1.19-1.0.1-beta.3-sources.jar",
-          "filename": "minecord-cmds-mc1.19-1.0.1-beta.3-sources.jar",
-          "primary": false,
-          "size": 32546
-        },
-        {
-          "sha512": "99a96473680362ff060c398eb45e09bc3cf94dcaef62d8d1ac7f4590c01ab7f8fe557e8ec6c46698b4c92582fe35d1e896ec333a023ea4c624af824b4fe7e4bd",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-cmds-mc1.19-1.0.1-beta.3.jar",
-          "filename": "minecord-cmds-mc1.19-1.0.1-beta.3.jar",
-          "primary": false,
-          "size": 65014
-        },
-        {
-          "sha512": "a9668ccdae10299134f43bd7a6d8d75abdae457d016aab3e2eb8a9ee0f40b83e1de5f900b0d2292baff5ccc73c5390ad8f238471417f35950c97541b46b32c95",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-mc1.19-1.1.0-beta.3-sources.jar",
-          "filename": "minecord-mc1.19-1.1.0-beta.3-sources.jar",
-          "primary": false,
-          "size": 6343
-        },
-        {
-          "sha512": "a470a873efea79e323bd6cadc48e92477a065f621b1aaf022de56369323211b673bbb597e19a67db19c0384a181a05a0eeed6a74e390665d0990d68d2563b4a3",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-presence-mc1.19-1.0.0-beta.3-sources.jar",
-          "filename": "minecord-presence-mc1.19-1.0.0-beta.3-sources.jar",
-          "primary": false,
-          "size": 22971
-        },
-        {
-          "sha512": "6f2a834dfc3a55ecd2222714cfb513a0bae69a6fa27e3cf3ef26c9183f6370a52d9d7696e940a79043f8cd264cae483b32799b23ecfac45b0d4d17f622ca0616",
-          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-presence-mc1.19-1.0.0-beta.3.jar",
-          "filename": "minecord-presence-mc1.19-1.0.0-beta.3.jar",
-          "primary": false,
-          "size": 33402
         }
       ],
       "dependencies": [
@@ -2011,6 +272,1745 @@
         {
           "project_id": "P7dR8mSH",
           "version_id": "3KmOcp6b",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "M1E4zPMf",
+      "name": "Minecord v2.1.0+1.19.4",
+      "version_number": "2.1.0+1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0d3a1eb0b9c2f85c8fa88cf5effd8820547b1c7004af173765249d53acc7c0c182c8adb2d6f71aca9438160f70d70998509e4e21ca8cd0984ba48b9f48d0daed",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-2.1.0%2B1.19.4.jar",
+          "filename": "minecord-2.1.0+1.19.4.jar",
+          "primary": true,
+          "size": 11692735
+        },
+        {
+          "sha512": "d6e36dfd6a2cc5f0206f36896663ef6a154de9c4ff5a4b50303f6365e7dde1b50f41bb17fb31334b3949d233349acb7fa5077aa0d200529f30ec06571d41f6e2",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-2.1.0%2B1.19.4-sources.jar",
+          "filename": "minecord-2.1.0+1.19.4-sources.jar",
+          "primary": false,
+          "size": 6517
+        },
+        {
+          "sha512": "ab6532602a856f61f5e56466c74a792ee5340e18d317d62df262ba32fa952581439a0e1afa0e2d9f31a35ecdd6eba97bf4303c1d216a384dce56aef2d0ce7696",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-api-2.0.1%2B1.19.4-sources.jar",
+          "filename": "minecord-api-2.0.1+1.19.4-sources.jar",
+          "primary": false,
+          "size": 31900
+        },
+        {
+          "sha512": "59ccbbaf01cf6de434db4135c593bdd234f2b531eca46173cada2b7b557c92d2b4078af4cd07f6fb79bf23aaf77e0f9961e36b3b88a7686cf2099e390253a123",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-api-2.0.1%2B1.19.4.jar",
+          "filename": "minecord-api-2.0.1+1.19.4.jar",
+          "primary": false,
+          "size": 12358791
+        },
+        {
+          "sha512": "6694e66f01f633ff193f8415926d8f7fbca88b32310211f8c548c1dbb7e3f39f116dbf8483e5bdfe94b28051eccd10a304684bfc998a9daf669182884bb65538",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-chat-2.1.0%2B1.19.4-sources.jar",
+          "filename": "minecord-chat-2.1.0+1.19.4-sources.jar",
+          "primary": false,
+          "size": 46064
+        },
+        {
+          "sha512": "5c4573839ec68394ffa3ff9378653958a7bc55d52b86c9a105819e46118c06e0dbac5f3910c2a83662389b6c9a0233b93d4d6566b285d369f647202c310875e2",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-chat-2.1.0%2B1.19.4.jar",
+          "filename": "minecord-chat-2.1.0+1.19.4.jar",
+          "primary": false,
+          "size": 368129
+        },
+        {
+          "sha512": "32ecb4798ac4299ff522cd4814f67ba9d12601abc27f7b83b41d1454a7f557e2ca19232fdd1239d5e79a7f1b6c2a01e2f6623c27df0227e0b77e7c468c9312e7",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-cmds-2.0.1%2B1.19.4-sources.jar",
+          "filename": "minecord-cmds-2.0.1+1.19.4-sources.jar",
+          "primary": false,
+          "size": 34829
+        },
+        {
+          "sha512": "3175c29557d50186c3917069a8291291fd01392f46bd3cf37fbf79250957c1710558da06af777bb19ec8409cb42bed795724b89213a63f7ae76e9d659831e94b",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-cmds-2.0.1%2B1.19.4.jar",
+          "filename": "minecord-cmds-2.0.1+1.19.4.jar",
+          "primary": false,
+          "size": 66648
+        },
+        {
+          "sha512": "ff83e39ab81820cf1706a847b612fe95b513584c0c802b1697f323ae72e64aa5ca5c74e09c17e42c09c7d2e79dab13cbec561668667ee248468f48659a0050f5",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-presence-2.0.0%2B1.19.4-sources.jar",
+          "filename": "minecord-presence-2.0.0+1.19.4-sources.jar",
+          "primary": false,
+          "size": 22558
+        },
+        {
+          "sha512": "8ba49d3a8f6bbdd03900cfc881dc7ddf1c8ed282fb7b8a1624083daa5c103797d26b6822cea5246bac77d40c547f905241c89be2917a4306d5babcd5c02879ce",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/M1E4zPMf/minecord-presence-2.0.0%2B1.19.4.jar",
+          "filename": "minecord-presence-2.0.0+1.19.4.jar",
+          "primary": false,
+          "size": 32414
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "N6CxCnCT",
+      "name": "Minecord v2.1.0+1.21",
+      "version_number": "2.1.0+1.21",
+      "game_versions": [
+        "1.20.5",
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e71509592aad3c2e6b458e95802c6c9e3936bb1654aafe275ef35c8685c11a92364e85301874fea3f2000aefb906bc0983310642c141d0ad9ba6c37f08cc3ceb",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-2.1.0%2B1.21.jar",
+          "filename": "minecord-2.1.0+1.21.jar",
+          "primary": true,
+          "size": 12303978
+        },
+        {
+          "sha512": "8c171057f23c9a865052296a92fafe477aa75599dfd183f0af748322aef360ce7e15c67cd4ecc692700f597c21406b48a18d8bb3da5071ed8c0ca5b585116844",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-2.1.0%2B1.21-sources.jar",
+          "filename": "minecord-2.1.0+1.21-sources.jar",
+          "primary": false,
+          "size": 6511
+        },
+        {
+          "sha512": "b23305a3c4a1f990718622758f6c4c226aa89d1c91153850fed487f0d02e76ae317799a3b57a54ca489a4d15060b4121cb17531919b1e7649680d1f27eabfb75",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-api-2.0.1%2B1.21-sources.jar",
+          "filename": "minecord-api-2.0.1+1.21-sources.jar",
+          "primary": false,
+          "size": 31902
+        },
+        {
+          "sha512": "97c2aa02bba4032669815089b36dacfc3a51f4590a9e82089fe6f20dbcd181f0b5f6bd1a34dccb23c2bb488d5914860beadc2bc9af06d4ca70d2be736bae152b",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-api-2.0.1%2B1.21.jar",
+          "filename": "minecord-api-2.0.1+1.21.jar",
+          "primary": false,
+          "size": 12951008
+        },
+        {
+          "sha512": "684fb6911c0cb9d562841ddf033b583769c8bf047f701f04d5d938f997a45ad09b333fb088c9506489a76bfe0d12e7a381589cd59a35cc42506e723bc5123f61",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-chat-2.1.0%2B1.21-sources.jar",
+          "filename": "minecord-chat-2.1.0+1.21-sources.jar",
+          "primary": false,
+          "size": 46063
+        },
+        {
+          "sha512": "2e6cf1dc318e0930425d75e740bbba4fb0f808405fc2a5e8e3bf2178d37b8026c5caae49b8d87f1ec5841068a541697d44e48ea712bb254035c19e7bc0707368",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-chat-2.1.0%2B1.21.jar",
+          "filename": "minecord-chat-2.1.0+1.21.jar",
+          "primary": false,
+          "size": 430384
+        },
+        {
+          "sha512": "724ee74dc38a730c1b1b8af6625f9449c5b9325a8a93b19f3ecb5138eee5d1e077483330ef8c2694e4b359a6d0e8948287656210015a6f8a0f3893860951f7dd",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-cmds-2.0.1%2B1.21-sources.jar",
+          "filename": "minecord-cmds-2.0.1+1.21-sources.jar",
+          "primary": false,
+          "size": 34815
+        },
+        {
+          "sha512": "1541005cc5b41e4292799ca1581a3b45d5fb20c2b33f79b7b9350fa3d1edd1bda91737e75c1824d905b03ebfd5ac699ef6c7fc0fcf8704cacb8b649a091cb66c",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-cmds-2.0.1%2B1.21.jar",
+          "filename": "minecord-cmds-2.0.1+1.21.jar",
+          "primary": false,
+          "size": 66710
+        },
+        {
+          "sha512": "8b0274db2677891d46be8639d68c230dcc30273cd4a8195c80dd6024872a9d657830c1a140285fc224667c7f7e4cb7adccb225dda051ad5b1f345cdb10b038f6",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-presence-2.0.0%2B1.21-sources.jar",
+          "filename": "minecord-presence-2.0.0+1.21-sources.jar",
+          "primary": false,
+          "size": 22552
+        },
+        {
+          "sha512": "ba60337b00555313b74a02d7405b88aa26931201305f422e1034365dae2c6d4db8032d158d2d6776e8853ba8c00748689f415958c9a22d3fe6f3d0cbb14c43a1",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/N6CxCnCT/minecord-presence-2.0.0%2B1.21.jar",
+          "filename": "minecord-presence-2.0.0+1.21.jar",
+          "primary": false,
+          "size": 32429
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "OGmdoG1f",
+      "name": "Minecord v2.0.3+1.20.4",
+      "version_number": "2.0.3+1.20.4",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "59f040e06ccbef9ba47e8f9b9b25179d5acf4732fce8d2e43e71415dbb6fe4ca005be3ff9492f135369d9143e87393ec845840fd45cb586224ba4458ffd5b906",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-2.0.3%2B1.20.4.jar",
+          "filename": "minecord-2.0.3+1.20.4.jar",
+          "primary": true,
+          "size": 12150773
+        },
+        {
+          "sha512": "b0cbcebea9e47797b2e1a9d1fc130f37ddfc593d3f7294ffb5f8a6a1e01af9335320e3c09362011a4c2006faec00740a319fb6e6bd9e0e340070e722f5858b78",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-2.0.3%2B1.20.4-sources.jar",
+          "filename": "minecord-2.0.3+1.20.4-sources.jar",
+          "primary": false,
+          "size": 6516
+        },
+        {
+          "sha512": "f11e3b800823ac1e2d6c272ea7e0cd7c437e250e324fc4967ba3879f485fa533dafead2970a0e4b27739d8af92a4169c667c5b1dcf277ef68fccc692960015b6",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-api-2.0.1%2B1.20.4-sources.jar",
+          "filename": "minecord-api-2.0.1+1.20.4-sources.jar",
+          "primary": false,
+          "size": 31902
+        },
+        {
+          "sha512": "4243a69472f71b7cde53870e66a3c36244fe90259a5b483938cc2c6e4e99d92dadf2589e181744ef6807df6c58f0db386f32b7334a85265c7b7861f14874a5c9",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-api-2.0.1%2B1.20.4.jar",
+          "filename": "minecord-api-2.0.1+1.20.4.jar",
+          "primary": false,
+          "size": 12797265
+        },
+        {
+          "sha512": "b6e3b57cb17d796c5dcda423a052ff0122084c40c379ef7f2cc3ebfcd3b7eb2c4aa54992fcd80a1f50fd0803feec2aa7aa9eb3e572ad0e0d77c4bb3823ffb5df",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-chat-2.0.2%2B1.20.4-sources.jar",
+          "filename": "minecord-chat-2.0.2+1.20.4-sources.jar",
+          "primary": false,
+          "size": 45966
+        },
+        {
+          "sha512": "c2d6bdf83df170c02eb01e9733b9663295cf6ba0345bfdb58dba854f16ea2fb9bcba714302ea3a0199814914308313d5b0b31196518f332582c58d1a1e25525d",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-chat-2.0.2%2B1.20.4.jar",
+          "filename": "minecord-chat-2.0.2+1.20.4.jar",
+          "primary": false,
+          "size": 433608
+        },
+        {
+          "sha512": "2314c814650270d067101c32a65f8e54bdfc3c101d63efcbdab892a68abd33bd799a312ea42f4a18a79f71c1d6459dbd1026f000d87a18087176b71c3e3cc7fe",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-cmds-2.0.1%2B1.20.4-sources.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.4-sources.jar",
+          "primary": false,
+          "size": 34819
+        },
+        {
+          "sha512": "3b8473a3da6782d85fc3172b7c8fd6ad603fcd5deed72bf29e1a2f385c0890f32fc67cfb5fd42ddde26b94e85d1b2753ae881135482f389d67f9e21e7accb957",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-cmds-2.0.1%2B1.20.4.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.4.jar",
+          "primary": false,
+          "size": 66689
+        },
+        {
+          "sha512": "61b920042acd69c61bd96b6bd78e83dd11a2391444b78a50e0f9c54e28f35f3a43dc0f5979be6cf732723f4d3a1322c86b1db537b7464f7b81ae5c8e5d88ff87",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-presence-2.0.0%2B1.20.4-sources.jar",
+          "filename": "minecord-presence-2.0.0+1.20.4-sources.jar",
+          "primary": false,
+          "size": 22556
+        },
+        {
+          "sha512": "be4b17a21a5465c165901bb56e2e2c38d4c6ffc2740e38f92928f564de1e71d7356b84dbe0b77bf76b10ad77208cad56a055d2478698f91a744f32310f81966b",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OGmdoG1f/minecord-presence-2.0.0%2B1.20.4.jar",
+          "filename": "minecord-presence-2.0.0+1.20.4.jar",
+          "primary": false,
+          "size": 32423
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "OzFzxlIK",
+      "name": "Minecord v2.0.2+1.20.4",
+      "version_number": "2.0.2+1.20.4",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "aff5868c55271e2e9aa37fed25767d70e613b727764ca179ee04013d5a1bc14101c890f3d5d8206ee5df54f8b4f55ad877cb40c6df7fb99169c0d4e4ee1705df",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-2.0.2%2B1.20.4.jar",
+          "filename": "minecord-2.0.2+1.20.4.jar",
+          "primary": true,
+          "size": 12150763
+        },
+        {
+          "sha512": "f48893660d18aa21764570637ce4a3000dd3d3f5de5f932a8dbf2379e1b8a57ddc638863ea68da224fb0589256a8eed344a7a3c9b4cd8cd8d110e25323d5b7b2",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-2.0.2%2B1.20.4-sources.jar",
+          "filename": "minecord-2.0.2+1.20.4-sources.jar",
+          "primary": false,
+          "size": 6516
+        },
+        {
+          "sha512": "a2b3f1d5dca24d860f0f3f39e7246b707ae49fea345085d4a7cb99111f0a7f46473c46680f3e21925e1d9a5fda97aea59684f1b44d054a4be727f7aa2e9220e4",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-api-2.0.1%2B1.20.4-sources.jar",
+          "filename": "minecord-api-2.0.1+1.20.4-sources.jar",
+          "primary": false,
+          "size": 31902
+        },
+        {
+          "sha512": "f18804b0e26e1bcfef219abd962bc3affee293ffd40a570720714d5385ff906e6cd0b1c900d04d6d8960a46bf7fec79f8825c825b533dda5bd76ae262ad88ab0",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-api-2.0.1%2B1.20.4.jar",
+          "filename": "minecord-api-2.0.1+1.20.4.jar",
+          "primary": false,
+          "size": 12797266
+        },
+        {
+          "sha512": "4b2eecae7371dd5f8486b747aacd1dea49c835ba6d8eeb2f1fcc8aa87ea828d02ee82610c3d440434687acd0c3f0045d0830a51588211c728b888aeb0aa097d7",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-chat-2.0.1%2B1.20.4-sources.jar",
+          "filename": "minecord-chat-2.0.1+1.20.4-sources.jar",
+          "primary": false,
+          "size": 45952
+        },
+        {
+          "sha512": "976969f65c98a09be4042df0b66bf2bfc5aae1753767e219f5f3c5c371823e81fdee1d2e0a25bbb45021c77d9a5ee5f139166a3b5ff827e3c54f206ddbb70889",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-chat-2.0.1%2B1.20.4.jar",
+          "filename": "minecord-chat-2.0.1+1.20.4.jar",
+          "primary": false,
+          "size": 433593
+        },
+        {
+          "sha512": "2c8ab2f97dc3f10c6dd60ddf3d570b05fe12221f987bc8e4a578df3e56890988218fbcabadcc34e591561c5bfbf777db4ba17dfc35172e0bb0b76736cea496cb",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-cmds-2.0.1%2B1.20.4-sources.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.4-sources.jar",
+          "primary": false,
+          "size": 34819
+        },
+        {
+          "sha512": "fbca0da503d9cf41f9ebb6d42107bcd8822ec768c055ffb6cd64f800fee47179c770104e254054d08596c096521bb22b909778e5f130327759dce361eb7e2321",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-cmds-2.0.1%2B1.20.4.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.4.jar",
+          "primary": false,
+          "size": 66690
+        },
+        {
+          "sha512": "3aa7b07bc0332c1c0db6c00b99fabb0ea37516ef0a2931aa1417cdc52cc1a1725e47ef54738a6037486fca0b5090981cba24c587e145d63262b40aff6ca99068",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-presence-2.0.0%2B1.20.4-sources.jar",
+          "filename": "minecord-presence-2.0.0+1.20.4-sources.jar",
+          "primary": false,
+          "size": 22556
+        },
+        {
+          "sha512": "61b6dc6e0877511aba67deb4a6a3368398bf973d39ebc563344befdc1a875ba283c1fdef4d27151e0e075465f4161e515168589a081def3a9e692a328d422888",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/OzFzxlIK/minecord-presence-2.0.0%2B1.20.4.jar",
+          "filename": "minecord-presence-2.0.0+1.20.4.jar",
+          "primary": false,
+          "size": 32424
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "PK5anx6l",
+      "name": "Minecord v1.1.0-beta.3 for Minecraft 1.19",
+      "version_number": "1.1.0-beta.3",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1b2ef0d3d769ac20b535d07f1caf1f1d1ca2e2bea7456e8d58ce9bb139746b7f183c8c40cb71d1c11b897788ee0c90f2587ad1287f1c3e68fe50606b10cd97e8",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-mc1.19-1.1.0-beta.3.jar",
+          "filename": "minecord-mc1.19-1.1.0-beta.3.jar",
+          "primary": true,
+          "size": 10787588
+        },
+        {
+          "sha512": "0a45eb3ddc4fc9157a3a581a042542b081e4fbda80a25f88286a76d3a35b84104b88da11a7496e14b1c8e501b410df66367293ffe240a9beade78f954a86a786",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-api-mc1.19-1.1.0-beta.3-sources.jar",
+          "filename": "minecord-api-mc1.19-1.1.0-beta.3-sources.jar",
+          "primary": false,
+          "size": 29147
+        },
+        {
+          "sha512": "43b4bf20d5b9ddf9898e07b2be040eee87cf7c48d5405bce2de6707e65141dbc6d3291c7ce182cf94d96347056a26bf87883a6ca6471bc0b39d70b789a08c78a",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-api-mc1.19-1.1.0-beta.3.jar",
+          "filename": "minecord-api-mc1.19-1.1.0-beta.3.jar",
+          "primary": false,
+          "size": 11554106
+        },
+        {
+          "sha512": "deb568a681a7545aff3ef8b33d4643fd6d6643dfc2bf5435a416e3bdf6b18a554813b5ab9bf9a2cc35d8029e4661ccd01be54f42e4dcc39a8bf8b9a83a1cfc2c",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-chat-mc1.19-1.1.0-beta.3-sources.jar",
+          "filename": "minecord-chat-mc1.19-1.1.0-beta.3-sources.jar",
+          "primary": false,
+          "size": 42187
+        },
+        {
+          "sha512": "a6ca017f88b2651f70758d31d835d326003d92182f19c4469d4e2d5565691d3ed64aa74de4790ce402bae9b97c0160f1e249f53c5702c42852de16785b056c8c",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-chat-mc1.19-1.1.0-beta.3.jar",
+          "filename": "minecord-chat-mc1.19-1.1.0-beta.3.jar",
+          "primary": false,
+          "size": 161009
+        },
+        {
+          "sha512": "cc3d42a3b83fe3ee1de96e6125b4490610b11e4020258f0ff85b1ff9f91b45f3b1eae14d4abe6b489876a4cc243480dd5aad659ae216f1b1eb46e099337b814e",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-cmds-mc1.19-1.0.1-beta.3-sources.jar",
+          "filename": "minecord-cmds-mc1.19-1.0.1-beta.3-sources.jar",
+          "primary": false,
+          "size": 32546
+        },
+        {
+          "sha512": "99a96473680362ff060c398eb45e09bc3cf94dcaef62d8d1ac7f4590c01ab7f8fe557e8ec6c46698b4c92582fe35d1e896ec333a023ea4c624af824b4fe7e4bd",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-cmds-mc1.19-1.0.1-beta.3.jar",
+          "filename": "minecord-cmds-mc1.19-1.0.1-beta.3.jar",
+          "primary": false,
+          "size": 65014
+        },
+        {
+          "sha512": "a9668ccdae10299134f43bd7a6d8d75abdae457d016aab3e2eb8a9ee0f40b83e1de5f900b0d2292baff5ccc73c5390ad8f238471417f35950c97541b46b32c95",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-mc1.19-1.1.0-beta.3-sources.jar",
+          "filename": "minecord-mc1.19-1.1.0-beta.3-sources.jar",
+          "primary": false,
+          "size": 6343
+        },
+        {
+          "sha512": "a470a873efea79e323bd6cadc48e92477a065f621b1aaf022de56369323211b673bbb597e19a67db19c0384a181a05a0eeed6a74e390665d0990d68d2563b4a3",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-presence-mc1.19-1.0.0-beta.3-sources.jar",
+          "filename": "minecord-presence-mc1.19-1.0.0-beta.3-sources.jar",
+          "primary": false,
+          "size": 22971
+        },
+        {
+          "sha512": "6f2a834dfc3a55ecd2222714cfb513a0bae69a6fa27e3cf3ef26c9183f6370a52d9d7696e940a79043f8cd264cae483b32799b23ecfac45b0d4d17f622ca0616",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/PK5anx6l/minecord-presence-mc1.19-1.0.0-beta.3.jar",
+          "filename": "minecord-presence-mc1.19-1.0.0-beta.3.jar",
+          "primary": false,
+          "size": 33402
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ROHsLYEA",
+      "name": "Minecord v2.0.3+1.20.2",
+      "version_number": "2.0.3+1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "787dd6a1ca88bee2cd6e88288278d60eb1a89dac8d086ef11f0d5a4ad909becd5118c23c0031fe8409c706d4c89b49c1a86d7ab8b9b187765651e8c0f6cb756d",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-2.0.3%2B1.20.2.jar",
+          "filename": "minecord-2.0.3+1.20.2.jar",
+          "primary": true,
+          "size": 11776045
+        },
+        {
+          "sha512": "6fbf8cfbfa06f603966636666171d754d0a116968ecb0256354e6791d8c04a096d4f1dc1255d44244e9e41c24663f4902588fc476cf512fd35b5035456874e3d",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-2.0.3%2B1.20.2-sources.jar",
+          "filename": "minecord-2.0.3+1.20.2-sources.jar",
+          "primary": false,
+          "size": 6517
+        },
+        {
+          "sha512": "ecff50558286300324da55bdda40e99806e1980c1cc5420ec6010c85bd3961e9606a6251623bef3e14808d67de4dabcd3468d10e5c2016e68c564ece2a4dd2f8",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-api-2.0.1%2B1.20.2-sources.jar",
+          "filename": "minecord-api-2.0.1+1.20.2-sources.jar",
+          "primary": false,
+          "size": 31905
+        },
+        {
+          "sha512": "5ef80326cff060508080a1b37dce1acaa3ed1ecc3c2ab15dfd4e56d4364a5587145574f3bec296bf5676a89b1afc15f4cdbc86f26adf480a18a4afaed939d3bc",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-api-2.0.1%2B1.20.2.jar",
+          "filename": "minecord-api-2.0.1+1.20.2.jar",
+          "primary": false,
+          "size": 12382789
+        },
+        {
+          "sha512": "84700d5890034c08dc9f37b55cefd09e25a3f5d43b2eef9175a67a5c5602913b8bd012f77e5d8a4ddc5498bdbf4772528b32baae2171efc1a218fc08a86173ce",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-chat-2.0.2%2B1.20.2-sources.jar",
+          "filename": "minecord-chat-2.0.2+1.20.2-sources.jar",
+          "primary": false,
+          "size": 45800
+        },
+        {
+          "sha512": "84b67835911f19c4fc2ba397ecd6f2a008347097461c7a9edd4682cf95132239bd924ae1a36c978594ec8e666a0e8ae0111be043fd26e07d2f0ebcd4f98b1f77",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-chat-2.0.2%2B1.20.2.jar",
+          "filename": "minecord-chat-2.0.2+1.20.2.jar",
+          "primary": false,
+          "size": 426922
+        },
+        {
+          "sha512": "bf206688be34f1218c94aa04f1fce3130319d2fa666fb0fb9a3f11d6216e1d679966ebadf70acf56ddd7ea4fd107b3cf2059fdf9def86cca3f34c4dfe36a1af7",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-cmds-2.0.1%2B1.20.2-sources.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.2-sources.jar",
+          "primary": false,
+          "size": 34832
+        },
+        {
+          "sha512": "514e1b6720d1b7cd55e1f7d8c1251571e3ce8b64aa81a1356cb1f268cb490e80900159e9d4d6fe608beee9b0f954227f3fb824ca52929f59c07af99caed3aa23",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-cmds-2.0.1%2B1.20.2.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.2.jar",
+          "primary": false,
+          "size": 66728
+        },
+        {
+          "sha512": "8da8f1c5b778f4d90d3138e08fe9d59040a53675a00d77ab364101915ab654130e309ba6ae3ac9f74c2503d2ae30d2535a4274e0eda68f218fb6bf391ffe2a4c",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-presence-2.0.0%2B1.20.2-sources.jar",
+          "filename": "minecord-presence-2.0.0+1.20.2-sources.jar",
+          "primary": false,
+          "size": 22558
+        },
+        {
+          "sha512": "4455646b73f4ea6f048d67066df47e2fbe3909ea59a054fe54f64bb83b46a91b4c184ff17a3779ee9a1d7fc514597ab7757269430128119e79918317120ad5be",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ROHsLYEA/minecord-presence-2.0.0%2B1.20.2.jar",
+          "filename": "minecord-presence-2.0.0+1.20.2.jar",
+          "primary": false,
+          "size": 32414
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "T9fvJnHI",
+      "name": "Minecord v2.0.3+1.19.4",
+      "version_number": "2.0.3+1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "bbc9c1204751aaecfbf49a00a574548a5a11ca2aca6251f1e6e542fc98ad6f205d2d2c37bce34c485a433b93f804754e29bae715073f8373138568c9f8f3b8fd",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-2.0.3%2B1.19.4.jar",
+          "filename": "minecord-2.0.3+1.19.4.jar",
+          "primary": true,
+          "size": 11692433
+        },
+        {
+          "sha512": "5a3c084c8a6a235f3f1bf869507d326c14cf172729093ce083c8e361742b8c9f179fb366b9f77b166e39ff7f75d59844889a25dd63493f7124e8ae0dfd710ea2",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-2.0.3%2B1.19.4-sources.jar",
+          "filename": "minecord-2.0.3+1.19.4-sources.jar",
+          "primary": false,
+          "size": 6517
+        },
+        {
+          "sha512": "73c603ad9494290c696e20b7fb865bcb668888731838ad47d817bde1fac30bfb21e22e5d939d44d4ec0629b03614ada904861aa5e67b520bd83b68fe67e16473",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-api-2.0.1%2B1.19.4-sources.jar",
+          "filename": "minecord-api-2.0.1+1.19.4-sources.jar",
+          "primary": false,
+          "size": 31900
+        },
+        {
+          "sha512": "59ccbbaf01cf6de434db4135c593bdd234f2b531eca46173cada2b7b557c92d2b4078af4cd07f6fb79bf23aaf77e0f9961e36b3b88a7686cf2099e390253a123",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-api-2.0.1%2B1.19.4.jar",
+          "filename": "minecord-api-2.0.1+1.19.4.jar",
+          "primary": false,
+          "size": 12358791
+        },
+        {
+          "sha512": "67c9674b269edaae3a4274826f5f5cb59a04308a0e8a93f3b2590ac008945624dfcfe9005fe05035abe8b571b2270ff151246149cdf4dfc39d0438a79dcc16c9",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-chat-2.0.2%2B1.19.4-sources.jar",
+          "filename": "minecord-chat-2.0.2+1.19.4-sources.jar",
+          "primary": false,
+          "size": 45771
+        },
+        {
+          "sha512": "770082d275bb8046ade4fb05df604cfcb6948b38ab4ea9a4073648ff5843a6198ffb0d8c4c74d5af0dd8a86dd9ec14303223ea45fb16c7e91ba6f45af3078f85",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-chat-2.0.2%2B1.19.4.jar",
+          "filename": "minecord-chat-2.0.2+1.19.4.jar",
+          "primary": false,
+          "size": 367823
+        },
+        {
+          "sha512": "7f9669a10cea02faa47bbbda5540bd99a608a1fe9aa90c87f2f61a090f3f33a951660ea2cb9776c8aad742d8844e3cd1225b893f2a420f5c0a7f17eda444475f",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-cmds-2.0.1%2B1.19.4-sources.jar",
+          "filename": "minecord-cmds-2.0.1+1.19.4-sources.jar",
+          "primary": false,
+          "size": 34829
+        },
+        {
+          "sha512": "3175c29557d50186c3917069a8291291fd01392f46bd3cf37fbf79250957c1710558da06af777bb19ec8409cb42bed795724b89213a63f7ae76e9d659831e94b",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-cmds-2.0.1%2B1.19.4.jar",
+          "filename": "minecord-cmds-2.0.1+1.19.4.jar",
+          "primary": false,
+          "size": 66648
+        },
+        {
+          "sha512": "560485e5fe57a2a87bb9e4b86f35ff0e2d8bc4884d6051c40807a650d2e4ffa261cb5befea8d8fe9518e6170a91e0bb2da976a3d20bdbf340e9ddb6d8e1bbabc",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-presence-2.0.0%2B1.19.4-sources.jar",
+          "filename": "minecord-presence-2.0.0+1.19.4-sources.jar",
+          "primary": false,
+          "size": 22558
+        },
+        {
+          "sha512": "8ba49d3a8f6bbdd03900cfc881dc7ddf1c8ed282fb7b8a1624083daa5c103797d26b6822cea5246bac77d40c547f905241c89be2917a4306d5babcd5c02879ce",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/T9fvJnHI/minecord-presence-2.0.0%2B1.19.4.jar",
+          "filename": "minecord-presence-2.0.0+1.19.4.jar",
+          "primary": false,
+          "size": 32414
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "U2ldQ9R3",
+      "name": "Minecord v2.0.3+1.20.6",
+      "version_number": "2.0.3+1.20.6",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a2d90c25742f32f25343576ccf079c4946d4e055c32f0e24000968f8d81d6115fc838028f201b6389ab42b28e5da00df575634b2d319d2ba182922a3d3814d8e",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-2.0.3%2B1.20.6.jar",
+          "filename": "minecord-2.0.3+1.20.6.jar",
+          "primary": true,
+          "size": 12302920
+        },
+        {
+          "sha512": "e3d29b551dfe4d40da48c21d3ff75d944edabd9d3dabafa11a5a7130041b0905c656ccb857f258050f73ce40244824a9f1cafc509eabd5228eb8b0c8937f87e0",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-2.0.3%2B1.20.6-sources.jar",
+          "filename": "minecord-2.0.3+1.20.6-sources.jar",
+          "primary": false,
+          "size": 6515
+        },
+        {
+          "sha512": "4a43c6a621badf7fc6aa6de9abc2d9a435ad513e5d69a8dab2e0463efbc0e99e526c02d7c4030aee6c3151eca0e283ac37e3b0f0a8e25860287d5d832d0c8eec",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-api-2.0.1%2B1.20.6-sources.jar",
+          "filename": "minecord-api-2.0.1+1.20.6-sources.jar",
+          "primary": false,
+          "size": 31903
+        },
+        {
+          "sha512": "204c54955b93a8d67c7f7c02266f72fd75ce2386790ccdae65b9217d0f21d7b1a2516061753fe906d46f6043bf23faa5175b89e3f17e8fdd546686bbb44eb0d9",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-api-2.0.1%2B1.20.6.jar",
+          "filename": "minecord-api-2.0.1+1.20.6.jar",
+          "primary": false,
+          "size": 12950528
+        },
+        {
+          "sha512": "51a89a8b3e055a1464a9388deddd3bd6db51b5ceaba83ee32b5cbe4edc6c66505a9fa0a7384e6b7aad7802af7928ac6d8feab7f79d23ca0c20accfadebac330f",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-chat-2.0.2%2B1.20.6-sources.jar",
+          "filename": "minecord-chat-2.0.2+1.20.6-sources.jar",
+          "primary": false,
+          "size": 45748
+        },
+        {
+          "sha512": "b6747274f943b960ad5aabe957b07bf8be692805f412ef037ce509fbf13cc738b0d5b6377ce4872255144382ec314565aac798726d7c3c62e57ac6152c3d4c60",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-chat-2.0.2%2B1.20.6.jar",
+          "filename": "minecord-chat-2.0.2+1.20.6.jar",
+          "primary": false,
+          "size": 429750
+        },
+        {
+          "sha512": "24ad0a73142b0ac492492ccf99a39d61881a87a75d75820ebfcaad5cb5f39ae052bb28f4321c249a35066d8765087a65409e170066cb4c7fb67222f69d086504",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-cmds-2.0.1%2B1.20.6-sources.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.6-sources.jar",
+          "primary": false,
+          "size": 34819
+        },
+        {
+          "sha512": "984b263d5ae45e12929f5d6faa804848cc0f445fdf9442726aa6c6c66169e24c5a1bbbfeb0b60776b392ba568f4e67ac9f8425e4313cd80e9975bc74db683f0d",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-cmds-2.0.1%2B1.20.6.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.6.jar",
+          "primary": false,
+          "size": 66713
+        },
+        {
+          "sha512": "31ccf0a2e8826d586e8beb8edc56d6f2e191a3ccde057cb2cbbcf5ad3695686c8d358292c7b1fa89251572cd8677540a5ccf407032a8834be332f2d8145f1f22",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-presence-2.0.0%2B1.20.6-sources.jar",
+          "filename": "minecord-presence-2.0.0+1.20.6-sources.jar",
+          "primary": false,
+          "size": 22556
+        },
+        {
+          "sha512": "a8081077e614e0ea01828b48fe832614f79fd6f3a1934a30d383787e6b69af91fe3364265d2dd098d9e62e9ec8254e98626c5e214e702ebcd78ee1a041ced7f8",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/U2ldQ9R3/minecord-presence-2.0.0%2B1.20.6.jar",
+          "filename": "minecord-presence-2.0.0+1.20.6.jar",
+          "primary": false,
+          "size": 32432
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "YjfExZ5D",
+      "name": "Minecord v2.1.0+1.20.2",
+      "version_number": "2.1.0+1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2447f27c155f591d0b88d0ff8d5eaae9d1fe086af29efa018eed4058d4e94fd049050764a8a36794d6a145f6b47fd40b477841cda9136c4931755a94ea759067",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-2.1.0%2B1.20.2.jar",
+          "filename": "minecord-2.1.0+1.20.2.jar",
+          "primary": true,
+          "size": 11776365
+        },
+        {
+          "sha512": "464c8882433acc3bf97c5a490267bbdd9a3dbaec667100431edf3c0fab72a1efb17c3a1f3dd0df6223e3d7de2990d1140b96ec310e86ffaec1258e8609093890",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-2.1.0%2B1.20.2-sources.jar",
+          "filename": "minecord-2.1.0+1.20.2-sources.jar",
+          "primary": false,
+          "size": 6517
+        },
+        {
+          "sha512": "2c3ed2e878e3d218672a3770302b4063226b6d8f0e6daaef2f88237d60d7b6686de6468e596bdf5ce264ec9015404cef89c13a717ce3d96d33685198ada17503",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-api-2.0.1%2B1.20.2-sources.jar",
+          "filename": "minecord-api-2.0.1+1.20.2-sources.jar",
+          "primary": false,
+          "size": 31905
+        },
+        {
+          "sha512": "5ef80326cff060508080a1b37dce1acaa3ed1ecc3c2ab15dfd4e56d4364a5587145574f3bec296bf5676a89b1afc15f4cdbc86f26adf480a18a4afaed939d3bc",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-api-2.0.1%2B1.20.2.jar",
+          "filename": "minecord-api-2.0.1+1.20.2.jar",
+          "primary": false,
+          "size": 12382789
+        },
+        {
+          "sha512": "bf33c54c6f02851404fe24da57b49c77cfd58786e4d591965efbc70416480a5f577e87d5c701dbc21e64a3a1e0155d26ec791bafd3e47347fe43b67f8b17ee3a",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-chat-2.1.0%2B1.20.2-sources.jar",
+          "filename": "minecord-chat-2.1.0+1.20.2-sources.jar",
+          "primary": false,
+          "size": 46094
+        },
+        {
+          "sha512": "8edf2f644bf39a17910a68a02641dcc1aec5311cb523a1adbd7cd464662daaa83907fd1d92352e9502691e6334185e19f13b833449682d0fc70483e047d79b8e",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-chat-2.1.0%2B1.20.2.jar",
+          "filename": "minecord-chat-2.1.0+1.20.2.jar",
+          "primary": false,
+          "size": 427230
+        },
+        {
+          "sha512": "f953c5228a750bda2724872748feda2b367fa69c7b564ba343201cbdbbb982e60b3d618b57ebf3ce6d154c6c2bbcc7ac134020dfc02265c287980e017379ca3b",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-cmds-2.0.1%2B1.20.2-sources.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.2-sources.jar",
+          "primary": false,
+          "size": 34832
+        },
+        {
+          "sha512": "514e1b6720d1b7cd55e1f7d8c1251571e3ce8b64aa81a1356cb1f268cb490e80900159e9d4d6fe608beee9b0f954227f3fb824ca52929f59c07af99caed3aa23",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-cmds-2.0.1%2B1.20.2.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.2.jar",
+          "primary": false,
+          "size": 66728
+        },
+        {
+          "sha512": "c6b05e3cc428f2c7213433ae65b3aaaea863a97a0a5d5cda2a90fe45e07cf539a2e9a76721a0ea425475d2e97fb027cc803b7bf9a1988087558d2bd089ec2d38",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-presence-2.0.0%2B1.20.2-sources.jar",
+          "filename": "minecord-presence-2.0.0+1.20.2-sources.jar",
+          "primary": false,
+          "size": 22558
+        },
+        {
+          "sha512": "4455646b73f4ea6f048d67066df47e2fbe3909ea59a054fe54f64bb83b46a91b4c184ff17a3779ee9a1d7fc514597ab7757269430128119e79918317120ad5be",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/YjfExZ5D/minecord-presence-2.0.0%2B1.20.2.jar",
+          "filename": "minecord-presence-2.0.0+1.20.2.jar",
+          "primary": false,
+          "size": 32414
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "d1cUy87M",
+      "name": "Minecord v2.0.1+1.19.4",
+      "version_number": "2.0.1+1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "6a72a72931201c20a2eb1f968af121bc0bebc870f5345054718592a29e11a323b7db21c33c5caaa50b329d5c7c67e214cf8d58983236fc1711bcfa007dd6b1ea",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-2.0.1%2B1.19.4.jar",
+          "filename": "minecord-2.0.1+1.19.4.jar",
+          "primary": true,
+          "size": 11803444
+        },
+        {
+          "sha512": "1fa7658bbed9be3f973a15d1d06b7a27aaf366a87c07eb0746a8558cea29bf41c63ceef4b4fa8cb7afee1ebf50d80c4522a651c021178e2498ea1e4163a99c68",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-2.0.1%2B1.19.4-sources.jar",
+          "filename": "minecord-2.0.1+1.19.4-sources.jar",
+          "primary": false,
+          "size": 6499
+        },
+        {
+          "sha512": "526d67476cb401795770828e03e90cd9cc926a2564373a7d3074fe06b971375b8718f806d3349c4963bb8c9d9e09ed32a58117cebd0570191444e445fb1bd6c1",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-api-2.0.1%2B1.19.4-sources.jar",
+          "filename": "minecord-api-2.0.1+1.19.4-sources.jar",
+          "primary": false,
+          "size": 32428
+        },
+        {
+          "sha512": "18982e41b015caaddad0e3487f421173d5b51f6423f53a8b2d6192c948eb0d950cc5b0ccb4fcf462ce7ec68ffe94848613e47fe9e9d71cb5c855507c5a4aec0d",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-api-2.0.1%2B1.19.4.jar",
+          "filename": "minecord-api-2.0.1+1.19.4.jar",
+          "primary": false,
+          "size": 12435003
+        },
+        {
+          "sha512": "ed4d7dbe4ef8665e4d542b826fd2397ebebec6b0a437f0b80712e2c6907035ab8f4c8b881bb86c0a248df053f365ed4e2b3955e9c180db81b192caea20103cb3",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-chat-2.0.0%2B1.19.4-sources.jar",
+          "filename": "minecord-chat-2.0.0+1.19.4-sources.jar",
+          "primary": false,
+          "size": 45761
+        },
+        {
+          "sha512": "ba452b472aac3fccd325ab5cf6f256486afbdafbf77b0ef58ba502313a81f6f262d9e83653ccf0a498b73dd27de68aa7cb5403167518ad4ecdd083e8fed875b0",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-chat-2.0.0%2B1.19.4.jar",
+          "filename": "minecord-chat-2.0.0+1.19.4.jar",
+          "primary": false,
+          "size": 359134
+        },
+        {
+          "sha512": "a9bf6fbb20eb35f6b925cbaaf620af123ec5fa01db1565bcba884c987fd5a7358733bf81419226a4fb51b574f5c8bf711479d545aa6b2ed6d0c5d053e70dc092",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-cmds-2.0.0%2B1.19.4-sources.jar",
+          "filename": "minecord-cmds-2.0.0+1.19.4-sources.jar",
+          "primary": false,
+          "size": 34789
+        },
+        {
+          "sha512": "8be9c329d79a6772d98329c2f62d709e9a3ad5f4e166b7c3c720b1fa17c7904b029b476809f8c7c6d99f6f3c71564c5c22e8b6021ddd9c9cbcb5de1483da1ea7",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-cmds-2.0.0%2B1.19.4.jar",
+          "filename": "minecord-cmds-2.0.0+1.19.4.jar",
+          "primary": false,
+          "size": 67455
+        },
+        {
+          "sha512": "c9fbb919fc64fd970da1ee84286b9f211071d71c7e8c759e6a460715d969e9abcc9bce644583cfa563aa6574836243dbce98cc43d81427e9098fb48cb7601c95",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-presence-2.0.0%2B1.19.4-sources.jar",
+          "filename": "minecord-presence-2.0.0+1.19.4-sources.jar",
+          "primary": false,
+          "size": 22652
+        },
+        {
+          "sha512": "4125e74a2f4771bd7dd9e9095fdea40001064df5abc6c2851a8fe20dcecee6874c27320b9db9841a33023d905af249d90bb01391c2f68985129cbad0967ae492",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/d1cUy87M/minecord-presence-2.0.0%2B1.19.4.jar",
+          "filename": "minecord-presence-2.0.0+1.19.4.jar",
+          "primary": false,
+          "size": 33225
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hZp3OTog",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "esQY0gSe",
+      "name": "Minecord v2.1.0+1.20.6",
+      "version_number": "2.1.0+1.20.6",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9ed851fe70a0c94f11d58b54b1c96dcb762f4fa1ad6529c94da4f4fa095d754821c0142965b13b9fea602e1d24c721fd266a96b5c771a39e89b3b852b3658972",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-2.1.0%2B1.20.6.jar",
+          "filename": "minecord-2.1.0+1.20.6.jar",
+          "primary": true,
+          "size": 12303228
+        },
+        {
+          "sha512": "fe930f33e18df7114f1d9b8959c87adf36367c099b8c33b320720c7ffc3497cdbf7a7478c87ceb2a0236f2d715167d544981ba463d68a3d3beef0cdc3831239d",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-2.1.0%2B1.20.6-sources.jar",
+          "filename": "minecord-2.1.0+1.20.6-sources.jar",
+          "primary": false,
+          "size": 6515
+        },
+        {
+          "sha512": "e4e9666006438c4e62369e6d84e22a1c371548485ec8827a92e2bfba7448af13aae3e2c99e4fdc42e8d758981ccc0b75f0bf1b6bdc3d62d48ebd3e634545274e",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-api-2.0.1%2B1.20.6-sources.jar",
+          "filename": "minecord-api-2.0.1+1.20.6-sources.jar",
+          "primary": false,
+          "size": 31903
+        },
+        {
+          "sha512": "204c54955b93a8d67c7f7c02266f72fd75ce2386790ccdae65b9217d0f21d7b1a2516061753fe906d46f6043bf23faa5175b89e3f17e8fdd546686bbb44eb0d9",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-api-2.0.1%2B1.20.6.jar",
+          "filename": "minecord-api-2.0.1+1.20.6.jar",
+          "primary": false,
+          "size": 12950528
+        },
+        {
+          "sha512": "e1e605cbc164ca6eb47fbb39a1fcdd9f008f5c34eeb861ab859d1c793f0472106bfc2f86b3a3f62fd64f2e553e9fad45f489c6fc274a9a9fade8f9a8fc10c932",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-chat-2.1.0%2B1.20.6-sources.jar",
+          "filename": "minecord-chat-2.1.0+1.20.6-sources.jar",
+          "primary": false,
+          "size": 46042
+        },
+        {
+          "sha512": "442a01143ecc3450e0b98f61e48b81eaab9e4f8ec46fa5abfbd317c83b54fb049b5dece7538592c6e5a90058dd80044305a0ae4f95e62451dc03878e03b29251",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-chat-2.1.0%2B1.20.6.jar",
+          "filename": "minecord-chat-2.1.0+1.20.6.jar",
+          "primary": false,
+          "size": 430055
+        },
+        {
+          "sha512": "caff925cb2d931cb842393a1a846cd8051cf87858ab50b335e2176ae3d5c7a1e43331df583e84ac6bcecb5ba2eb3ad7808de80cdac0bc03db7608af98af4bac2",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-cmds-2.0.1%2B1.20.6-sources.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.6-sources.jar",
+          "primary": false,
+          "size": 34819
+        },
+        {
+          "sha512": "984b263d5ae45e12929f5d6faa804848cc0f445fdf9442726aa6c6c66169e24c5a1bbbfeb0b60776b392ba568f4e67ac9f8425e4313cd80e9975bc74db683f0d",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-cmds-2.0.1%2B1.20.6.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.6.jar",
+          "primary": false,
+          "size": 66713
+        },
+        {
+          "sha512": "a163ef31d65adc223af1d58effed04ba80d55219415fb2369ea1717d7e3595cb28902a53c5176b404a0518d912cea0d6d2e8332a68b66d7848a1b5947eb13855",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-presence-2.0.0%2B1.20.6-sources.jar",
+          "filename": "minecord-presence-2.0.0+1.20.6-sources.jar",
+          "primary": false,
+          "size": 22556
+        },
+        {
+          "sha512": "a8081077e614e0ea01828b48fe832614f79fd6f3a1934a30d383787e6b69af91fe3364265d2dd098d9e62e9ec8254e98626c5e214e702ebcd78ee1a041ced7f8",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/esQY0gSe/minecord-presence-2.0.0%2B1.20.6.jar",
+          "filename": "minecord-presence-2.0.0+1.20.6.jar",
+          "primary": false,
+          "size": 32432
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "hu5eE36z",
+      "name": "Minecord v2.0.2+1.20.2",
+      "version_number": "2.0.2+1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "fd6068e7ad558e39288e3457ef8eb476fbe747ce6b1d0ce3f6f191a32ec142ed475e12e0999210dfebb3126c4e3ca9ed906d34b435e91a75f0c66ba6984cb365",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-2.0.2%2B1.20.2.jar",
+          "filename": "minecord-2.0.2+1.20.2.jar",
+          "primary": true,
+          "size": 11776038
+        },
+        {
+          "sha512": "170c75cfda229fd0c1f284d74bd441964a821fff0f1e1a806a79b53f64d1aaee523bc3b207707112eb619b7ffb27be89b6c0b41680825970a6c3663f7683e268",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-2.0.2%2B1.20.2-sources.jar",
+          "filename": "minecord-2.0.2+1.20.2-sources.jar",
+          "primary": false,
+          "size": 6516
+        },
+        {
+          "sha512": "8f30c20a0abac97c04b4cbf4a3eb7131fc98388d61308d3e32f33f8a4f572d4150a75d5662f5fc1f7f7585f708fed658093721c534153ea6a34355855f6610d7",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-api-2.0.1%2B1.20.2-sources.jar",
+          "filename": "minecord-api-2.0.1+1.20.2-sources.jar",
+          "primary": false,
+          "size": 31903
+        },
+        {
+          "sha512": "6269f77e09ae9d3624603157d3fc2398fb2630492d874747cfa781d8ea6c7fdf714293bd9bb93d33c79adb910d33fcccb586185dfe14b3f3aee857d3b8d9e89c",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-api-2.0.1%2B1.20.2.jar",
+          "filename": "minecord-api-2.0.1+1.20.2.jar",
+          "primary": false,
+          "size": 12382787
+        },
+        {
+          "sha512": "35d5d08bd69d982aedfa9bd19661d19cf35bd70d739321945a983b6a8bcb435d3a920d4371fb9517212479eb433fb1c2c8f5f0fd83b801d515878e22b6dca239",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-chat-2.0.1%2B1.20.2-sources.jar",
+          "filename": "minecord-chat-2.0.1+1.20.2-sources.jar",
+          "primary": false,
+          "size": 45785
+        },
+        {
+          "sha512": "51aafbe2b02f232e64af339508b14f222dc8d2888e05ed4755a1648f906192981c297b077cb8a98fba4f49ab0b0bd17b906f437380136802c38c8a8ee4b15468",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-chat-2.0.1%2B1.20.2.jar",
+          "filename": "minecord-chat-2.0.1+1.20.2.jar",
+          "primary": false,
+          "size": 426910
+        },
+        {
+          "sha512": "6141757a598a26e73e5ddbda7a4b5e734558330df30e5a1bba132493ba82b8c1224251611cdb12b237127f20a751e9653db7be976b9614b21080da78448e19ba",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-cmds-2.0.1%2B1.20.2-sources.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.2-sources.jar",
+          "primary": false,
+          "size": 34831
+        },
+        {
+          "sha512": "8e29f583468fb77fb2d85075ff92ea062a20b5b064dd14ea6f22e6b10eddc9f30a34b68004ec47e8ca9d78a8d02709da53f233519e416d57928a5fc0a27a675d",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-cmds-2.0.1%2B1.20.2.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.2.jar",
+          "primary": false,
+          "size": 66727
+        },
+        {
+          "sha512": "89cc18786b5a66b0b0616c2ff9744b3ee30376461cc49ad845523464c8c383e1f8fd601d49ae578f15602d753560f0ac89ad4cd477f63f5aa0ea88322e32f3e2",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-presence-2.0.0%2B1.20.2-sources.jar",
+          "filename": "minecord-presence-2.0.0+1.20.2-sources.jar",
+          "primary": false,
+          "size": 22557
+        },
+        {
+          "sha512": "c6a87632683c6290c0f6849dc94294e35ceb7230a713f0593d70c4ce7b3222192ec847659577ae68a09fa4d0a862bc83bee6366e44c4d55c36edb1410741e121",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/hu5eE36z/minecord-presence-2.0.0%2B1.20.2.jar",
+          "filename": "minecord-presence-2.0.0+1.20.2.jar",
+          "primary": false,
+          "size": 32413
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "livMoL0V",
+      "name": "Minecord v2.0.0+1.20",
+      "version_number": "2.0.0+1.20",
+      "game_versions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "b94d59a7e059cd263aa10e9d75a4820cebdcde60625682defa1d3ac71777b6a2a1516c50902c8bfc49eb097b50174c9e7268f9e3dbe5b4c588d83fa19fbfd206",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-2.0.0%2B1.20.jar",
+          "filename": "minecord-2.0.0+1.20.jar",
+          "primary": true,
+          "size": 11863564
+        },
+        {
+          "sha512": "538e69a14a57b98bbf1418b9f495fd305b35cd21672be14359aa9ecaa9856257ae0f875d9a201db184652478f019c9ac5f57186d2ae4ab181651a98b3e873cf5",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-2.0.0%2B1.20-sources.jar",
+          "filename": "minecord-2.0.0+1.20-sources.jar",
+          "primary": false,
+          "size": 6496
+        },
+        {
+          "sha512": "453fb84556476d19e2d932071844f77d7fbbdb10ed2b8a390819382ff4b4309117ec9366885b66b1d9669b050eef05878cb4047035ed5b03ffda20a7b8c99f76",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-api-2.0.0%2B1.20-sources.jar",
+          "filename": "minecord-api-2.0.0+1.20-sources.jar",
+          "primary": false,
+          "size": 33944
+        },
+        {
+          "sha512": "c235aa850636aec67e10e5e980dadd7105be45d39dbfe86d77f723d7a2c7214291fb535f216075e020e877994c4c728973e06c6a4b5a8a4bdaf57c775086d22d",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-api-2.0.0%2B1.20.jar",
+          "filename": "minecord-api-2.0.0+1.20.jar",
+          "primary": false,
+          "size": 12490506
+        },
+        {
+          "sha512": "0b952abeacb2fcc5cafc045c4957da194939b0c6c8c744f79eb4b6a4eed89c304d4ed1e9d6494b013df77c865c3b89b9ccf5bb8fd2a59f92f8010683e848b5a6",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-chat-2.0.0%2B1.20-sources.jar",
+          "filename": "minecord-chat-2.0.0+1.20-sources.jar",
+          "primary": false,
+          "size": 45763
+        },
+        {
+          "sha512": "91d8e6dbc488bfe3ee38fe18557a05ef3f0274c6c2fe16033cbdc4ca89092dd34e5b35d93fd25e2d80d3428fb28be9eb1b09a24968a6b93d07c06c78cd40881e",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-chat-2.0.0%2B1.20.jar",
+          "filename": "minecord-chat-2.0.0+1.20.jar",
+          "primary": false,
+          "size": 368788
+        },
+        {
+          "sha512": "e68eabd4dabd6130a8a71ab38ce25c4c94607bf1bc1f0c4761efb794cecf37a289092403e862262b90ee4bf1568739620a55442b9b7580663753c261b2936235",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-cmds-2.0.0%2B1.20-sources.jar",
+          "filename": "minecord-cmds-2.0.0+1.20-sources.jar",
+          "primary": false,
+          "size": 34788
+        },
+        {
+          "sha512": "efe74c47fa79d13b3d426332604a4e6cd765482edeb1fd280157728e1c503acd7957459244dd8f217a5967b6ae1bc4e9d27eb577049c1d247e0dcef929e26597",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-cmds-2.0.0%2B1.20.jar",
+          "filename": "minecord-cmds-2.0.0+1.20.jar",
+          "primary": false,
+          "size": 67532
+        },
+        {
+          "sha512": "2b6e8f15219c94c8865fc8690a2e2c35c5803281cc5e56295c4819f2e07b298a51ad53568666de55514a45d938ffae8dd90d232557a765cb5b635eda932d33a2",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-presence-2.0.0%2B1.20-sources.jar",
+          "filename": "minecord-presence-2.0.0+1.20-sources.jar",
+          "primary": false,
+          "size": 22649
+        },
+        {
+          "sha512": "f6591d7401d9806c4ddcc5b8bf40fe756aa6f96da9936b12c4d42669198e131c093af4b7cecc4756105fb86c4f74e0687a9b1a4d83cfdbe7b760c3148bd7a213",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/livMoL0V/minecord-presence-2.0.0%2B1.20.jar",
+          "filename": "minecord-presence-2.0.0+1.20.jar",
+          "primary": false,
+          "size": 33221
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "m6DbPaS2",
+      "name": "Minecord v2.0.3+1.20.1",
+      "version_number": "2.0.3+1.20.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "bacc36f813ffed7b41c3a72f037f9b3ec81cb15ab96315df28bb83b29228393dc89210532253f4a86f8311f17e26639dd31fa7d47508c57e93756af6fd6ce38c",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-2.0.3%2B1.20.1.jar",
+          "filename": "minecord-2.0.3+1.20.1.jar",
+          "primary": true,
+          "size": 11714268
+        },
+        {
+          "sha512": "6c30830668e1689b0bdaf10ddde1dc8e92a1f0e5f2f1e20e52a41b2ddf20d6b4b0ab305965edcfb41128b1c685a75187489500bb8b6d2077c1b3b4ad7f5b4303",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-2.0.3%2B1.20.1-sources.jar",
+          "filename": "minecord-2.0.3+1.20.1-sources.jar",
+          "primary": false,
+          "size": 6515
+        },
+        {
+          "sha512": "4eb4c183f663ae8080d184ccd333b3581847b61762cd97a1f9f86fc42f1d3b732b91291cb3672efc284e2eb08b03c7cc95dec250644b2207e8338656982cd5b0",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-api-2.0.1%2B1.20.1-sources.jar",
+          "filename": "minecord-api-2.0.1+1.20.1-sources.jar",
+          "primary": false,
+          "size": 31899
+        },
+        {
+          "sha512": "15b4e8e0c6a50b30914f5365b4082fed1cbd34ed558f06a01091bb1f9cdc6fd3052ac90b97a8329db1a459a9a632e7bc60199c53c02f4b8ed2354dd9163789cf",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-api-2.0.1%2B1.20.1.jar",
+          "filename": "minecord-api-2.0.1+1.20.1.jar",
+          "primary": false,
+          "size": 12382074
+        },
+        {
+          "sha512": "b02bd20ab993c394b887acd31b2d405b1839e7c666b6210d157054b294d325df10907e73c545344c8670aeb4fae4f45788e3118de1bdcda638113ea4af457591",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-chat-2.0.2%2B1.20.1-sources.jar",
+          "filename": "minecord-chat-2.0.2+1.20.1-sources.jar",
+          "primary": false,
+          "size": 45776
+        },
+        {
+          "sha512": "152ec2912b16487865ea93557e5af4e95fc9bfc39f8bba3d93de787b623f32187447bc505a2ac56d584a5670d4023822a7a3513d54b6c0a248bdd86350be23d4",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-chat-2.0.2%2B1.20.1.jar",
+          "filename": "minecord-chat-2.0.2+1.20.1.jar",
+          "primary": false,
+          "size": 365874
+        },
+        {
+          "sha512": "53248f2e755332ac75baef627b3b24008caf042ecdcf25bbe9a8f9b0bbc54989ad4d3071bad916291263e3174c89486977644b8fae8d0f2d2683223b5c230192",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-cmds-2.0.1%2B1.20.1-sources.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.1-sources.jar",
+          "primary": false,
+          "size": 34831
+        },
+        {
+          "sha512": "8ae4aa8a554bb5ba937c1c1f63d8ce179420ab79206f2757fe69d3ed0c0f32db5fcec32f8a168e8d17ff4924ad95829d88ed9edfb05e0e1224a6c825f4fad79a",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-cmds-2.0.1%2B1.20.1.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.1.jar",
+          "primary": false,
+          "size": 66727
+        },
+        {
+          "sha512": "1a42109d49899e9ee72c6a745786c70274fe8b9918c84e34f3e665ea307582492f3e3db35ebf2050028569a0497fc523a98f9e9ab0b47e3620b402d03da0af59",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-presence-2.0.0%2B1.20.1-sources.jar",
+          "filename": "minecord-presence-2.0.0+1.20.1-sources.jar",
+          "primary": false,
+          "size": 22557
+        },
+        {
+          "sha512": "e251c62152192da3abbfa36bbbf4f20967910b1f364e4ade3eaf05ed01c0e3da2349a986acae41057c330ac30be68b6e6647ea9325848a2cb34dec6e8cc7d3df",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/m6DbPaS2/minecord-presence-2.0.0%2B1.20.1.jar",
+          "filename": "minecord-presence-2.0.0+1.20.1.jar",
+          "primary": false,
+          "size": 32414
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "msU3fpYy",
+      "name": "Minecord v2.0.0+1.19.4",
+      "version_number": "2.0.0+1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "82324794170f0aaa0677871963e6022206184c90e6b5f2e35ca080e805b264583b0ab9df120219dae42d36c46a1fddf0b282cdff2e28ddb5f81b59c605d1d212",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-2.0.0%2B1.19.4.jar",
+          "filename": "minecord-2.0.0+1.19.4.jar",
+          "primary": true,
+          "size": 11843429
+        },
+        {
+          "sha512": "7fd1d99bbddd68a5cd35949a0df4499c169303663d10af5de69ea639777617d00d3d2ca6beb4e05cf5b47f935a5a07ddd2beeab4fd5ded3abda3ada60d724c12",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-2.0.0%2B1.19.4-sources.jar",
+          "filename": "minecord-2.0.0+1.19.4-sources.jar",
+          "primary": false,
+          "size": 6879
+        },
+        {
+          "sha512": "557c23aa45c64796675d90ea6e49ca23f8ed2366b395f7dfe5fe0641f99435e5c328dc3d3024360b6baf9d69a61243238a5503466b78196454fa5204441a8efd",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-api-2.0.0%2B1.19.4-sources.jar",
+          "filename": "minecord-api-2.0.0+1.19.4-sources.jar",
+          "primary": false,
+          "size": 35862
+        },
+        {
+          "sha512": "153db7818de410f78dc1f1b6b5b363900494d7b6b51a47aab4f1bfee18a2f2d09cee5909830af78060c1c037e8b2adebf024fb287ed0bb117645cfc0cb7bf5ff",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-api-2.0.0%2B1.19.4.jar",
+          "filename": "minecord-api-2.0.0+1.19.4.jar",
+          "primary": false,
+          "size": 12733843
+        },
+        {
+          "sha512": "774fd641618bd277551a36440498d02193d18e00d502983490b133dd858e175539c46bc6bbb28ee3aeddc18b9c5553cb0cab0a4c270b7d840d03e2d2741bd5a2",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-chat-2.0.0%2B1.19.4-sources.jar",
+          "filename": "minecord-chat-2.0.0+1.19.4-sources.jar",
+          "primary": false,
+          "size": 48027
+        },
+        {
+          "sha512": "7510d83652575e1fbc8f2722e61498e37fd8b85e52069f59148a988d53284a6df2a899ac0ada06ca11c7964dc6e670a2026869ab604794d1867180693cbd7fd3",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-chat-2.0.0%2B1.19.4.jar",
+          "filename": "minecord-chat-2.0.0+1.19.4.jar",
+          "primary": false,
+          "size": 365337
+        },
+        {
+          "sha512": "5687712a39e0a55dd3b2c67ecfd0350c58ad3df0a225de9e65a08ac88a3e9bd545be177d68afbc311ace14270a0f8186c148eb802f539711a4f37f3d25a13ef3",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-cmds-2.0.0%2B1.19.4-sources.jar",
+          "filename": "minecord-cmds-2.0.0+1.19.4-sources.jar",
+          "primary": false,
+          "size": 36428
+        },
+        {
+          "sha512": "bb7738293c836f3246b0fa5983989eb336d5972dfb5743324730c232ead07c4ec61735b40b92c28b8cc47ab00c3bda27bab7a5fe495eaa07f29ba7eccad5de14",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-cmds-2.0.0%2B1.19.4.jar",
+          "filename": "minecord-cmds-2.0.0+1.19.4.jar",
+          "primary": false,
+          "size": 69932
+        },
+        {
+          "sha512": "b8c4f0a7310a162f2d4a42820dede0c79ea56e25e0b281c1daa3bffd5ea27294dbd0d215c166a99267aab0f073a3f58cb95446a2c4e775d9f25b9da7d6bf50e7",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-presence-2.0.0%2B1.19.4-sources.jar",
+          "filename": "minecord-presence-2.0.0+1.19.4-sources.jar",
+          "primary": false,
+          "size": 23779
+        },
+        {
+          "sha512": "a40da4b59fe087bfea519df7a0523149ca4e9cf1fe50adf9321291c563e4fdb85065f0ab47f8ff804aa0d747e14c0701461401c01af983a396d25e153b913706",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/msU3fpYy/minecord-presence-2.0.0%2B1.19.4.jar",
+          "filename": "minecord-presence-2.0.0+1.19.4.jar",
+          "primary": false,
+          "size": 34552
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hZp3OTog",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "pfqjUCvA",
+      "name": "Minecord v2.0.1+1.20",
+      "version_number": "2.0.1+1.20",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "93a1d6b9e08a10ac3d7755a2759429a349e2e10c7c180014c2b163e7d277370bfd0d9bfbd692ce0c1d1f77af1ff50533e76ee6d7950905d02b305f072c635d74",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-2.0.1%2B1.20.jar",
+          "filename": "minecord-2.0.1+1.20.jar",
+          "primary": true,
+          "size": 11860597
+        },
+        {
+          "sha512": "f384afb16775882bc12e38bff1f0a177d33d153761e060907f9ef544c349889e6094d69bb632d5f119dd10ed329b153518888c411e81c9619dbb6c1b4330e688",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-2.0.1%2B1.20-sources.jar",
+          "filename": "minecord-2.0.1+1.20-sources.jar",
+          "primary": false,
+          "size": 6496
+        },
+        {
+          "sha512": "766b0dbb2b3c3d1957dbb46a57d2fd6cc06f77d6a0455fb75f7dea333d8db525b92cbaf54133b52da1f58f1043e668320482435de2ece587f4235c0463dc1a0c",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-api-2.0.1%2B1.20-sources.jar",
+          "filename": "minecord-api-2.0.1+1.20-sources.jar",
+          "primary": false,
+          "size": 32424
+        },
+        {
+          "sha512": "d18f0b87518436f5167503b23a0118ce3dac98022f1acf3aac3d9670af302dd519ac0bd1810683007eef252324036a2123f7d7d1f9e05ce8e354af920764896b",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-api-2.0.1%2B1.20.jar",
+          "filename": "minecord-api-2.0.1+1.20.jar",
+          "primary": false,
+          "size": 12487436
+        },
+        {
+          "sha512": "926e68c6ffff441517f7b10a452136ca0d24ef4ba3bfe990a421d4773dab3490a01c548f4f336376f47a11c2adb19c6f8e8a4a4f1498e4d254384c6f6eabad56",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-chat-2.0.0%2B1.20-sources.jar",
+          "filename": "minecord-chat-2.0.0+1.20-sources.jar",
+          "primary": false,
+          "size": 45763
+        },
+        {
+          "sha512": "0daa5939131bfa8582f70dd13ad4288d2ceaac402f22fc498a1c404467a38c509d683e1827ce9e6d48f113cf577846edfb4b1f9f39dbe59a9a79d57d5c1c3852",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-chat-2.0.0%2B1.20.jar",
+          "filename": "minecord-chat-2.0.0+1.20.jar",
+          "primary": false,
+          "size": 368788
+        },
+        {
+          "sha512": "a348bf5c3b1780b9d472fa6736acb5a03ac29571e192246737a21d2a7a6de6df1a6dde3aa2d7a6e04f877f1a77ee206fbf1214c1bf08dca1d79da5c503480921",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-cmds-2.0.0%2B1.20-sources.jar",
+          "filename": "minecord-cmds-2.0.0+1.20-sources.jar",
+          "primary": false,
+          "size": 34788
+        },
+        {
+          "sha512": "3dfe844662756dda606fffb9429f651fe67c1af140ad70d55eb6ec07f59236017e518ee1fa662495f1e565c2df76b455890eb221c848e321e7533d632a5de6b6",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-cmds-2.0.0%2B1.20.jar",
+          "filename": "minecord-cmds-2.0.0+1.20.jar",
+          "primary": false,
+          "size": 67532
+        },
+        {
+          "sha512": "5d578347cfebd31f4172f2cff6b63292a01eadd2a25a458f1aed82ae1802acacdd811cd57adccdb496c9303a4d7f720a902d946eae443eca7e652581db6048b1",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-presence-2.0.0%2B1.20-sources.jar",
+          "filename": "minecord-presence-2.0.0+1.20-sources.jar",
+          "primary": false,
+          "size": 22649
+        },
+        {
+          "sha512": "fa197af8b5b1fb4f7cfb1cf3133218c0e1a2798ebceea9f7db49be8317b9eda29872177cef90bce6e721bb24c863d39652fdca99e331ba7b8205f785d37b565a",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/pfqjUCvA/minecord-presence-2.0.0%2B1.20.jar",
+          "filename": "minecord-presence-2.0.0+1.20.jar",
+          "primary": false,
+          "size": 33221
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "sK4V96Ro",
+      "name": "Minecord v2.1.0+1.20.1",
+      "version_number": "2.1.0+1.20.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d7e7df391cfc9d03bdf5f2e3c28ffebd197cc817b61d1d457026b29877721d08939da306a17f564aaa45aafcf9b69dc24327602312f00cf23f5b4995f3cb087b",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-2.1.0%2B1.20.1.jar",
+          "filename": "minecord-2.1.0+1.20.1.jar",
+          "primary": true,
+          "size": 11714593
+        },
+        {
+          "sha512": "b1dcc1219aba6e0cdce955390dbe4bcaf885b6ab51275cdadf7983a313b4ced6b8999dbbb69d65e7fc3a94f5c3c953fa11f4af5e38e99853cff5510d0bef5c52",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-2.1.0%2B1.20.1-sources.jar",
+          "filename": "minecord-2.1.0+1.20.1-sources.jar",
+          "primary": false,
+          "size": 6515
+        },
+        {
+          "sha512": "876e708a5fddead6a0e58d03eb2419c876c029056d36a42a02c36c6fd6386b4d327b38e7e64e8af001d66bc5fced5188bd160a141c0d9bf466dafc58c3526ea7",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-api-2.0.1%2B1.20.1-sources.jar",
+          "filename": "minecord-api-2.0.1+1.20.1-sources.jar",
+          "primary": false,
+          "size": 31899
+        },
+        {
+          "sha512": "15b4e8e0c6a50b30914f5365b4082fed1cbd34ed558f06a01091bb1f9cdc6fd3052ac90b97a8329db1a459a9a632e7bc60199c53c02f4b8ed2354dd9163789cf",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-api-2.0.1%2B1.20.1.jar",
+          "filename": "minecord-api-2.0.1+1.20.1.jar",
+          "primary": false,
+          "size": 12382074
+        },
+        {
+          "sha512": "27c9a45ec19e5b69f5884fff154ba01b91b98ad5e9329a3c18d44c6f2d3ae738bbd046c07fc6864528d3a4f1fdfd5a1a71d5995b951f3f6724e1895c6c986dff",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-chat-2.1.0%2B1.20.1-sources.jar",
+          "filename": "minecord-chat-2.1.0+1.20.1-sources.jar",
+          "primary": false,
+          "size": 46070
+        },
+        {
+          "sha512": "52aa3f6360ed705286ffd1177639aa2ee8f5d8ff11e780b005c16b39ce525eba5576209c48c12773bb6514eee52a1ed7908bc302b9769cce6b10487f29e37256",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-chat-2.1.0%2B1.20.1.jar",
+          "filename": "minecord-chat-2.1.0+1.20.1.jar",
+          "primary": false,
+          "size": 366182
+        },
+        {
+          "sha512": "2e33c4f869f305be117cfc210d983e3d555710b75d739e73e1103c20e4b0a78d73563ef6411aae8b42f25c69afad58cbfe85edef89b44e1721c1bb3d4b1c5f5c",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-cmds-2.0.1%2B1.20.1-sources.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.1-sources.jar",
+          "primary": false,
+          "size": 34831
+        },
+        {
+          "sha512": "8ae4aa8a554bb5ba937c1c1f63d8ce179420ab79206f2757fe69d3ed0c0f32db5fcec32f8a168e8d17ff4924ad95829d88ed9edfb05e0e1224a6c825f4fad79a",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-cmds-2.0.1%2B1.20.1.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.1.jar",
+          "primary": false,
+          "size": 66727
+        },
+        {
+          "sha512": "7810b3657ef9a23b639a13dc0255a271a6348605e897bde80d3584e2799ce8aa09593d77584924331331509dd9eba4714fe1bf619a24fb992b085fe46bfc72a1",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-presence-2.0.0%2B1.20.1-sources.jar",
+          "filename": "minecord-presence-2.0.0+1.20.1-sources.jar",
+          "primary": false,
+          "size": 22557
+        },
+        {
+          "sha512": "e251c62152192da3abbfa36bbbf4f20967910b1f364e4ade3eaf05ed01c0e3da2349a986acae41057c330ac30be68b6e6647ea9325848a2cb34dec6e8cc7d3df",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/sK4V96Ro/minecord-presence-2.0.0%2B1.20.1.jar",
+          "filename": "minecord-presence-2.0.0+1.20.1.jar",
+          "primary": false,
+          "size": 32414
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ts2g3zjk",
+      "name": "Minecord v2.1.0+1.20.4",
+      "version_number": "2.1.0+1.20.4",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f82fc553bea81e989e3d7ec2bcb15c7b915b4b1172f23dd7b2aeb1c0c263b422a31de0b5dea5ae8038b6dca90fecf5d6fd8fc72e063e99c1595d7a502fed83be",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-2.1.0%2B1.20.4.jar",
+          "filename": "minecord-2.1.0+1.20.4.jar",
+          "primary": true,
+          "size": 12151075
+        },
+        {
+          "sha512": "1f2fd28b88a6e08a1860e46ebb6503ee1f18163b4c7a7d0796af38a37e57790aca48c9362f6e8268caaaed65db0276d5a084fc4cf84203a977d1d1afd675bf51",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-2.1.0%2B1.20.4-sources.jar",
+          "filename": "minecord-2.1.0+1.20.4-sources.jar",
+          "primary": false,
+          "size": 6516
+        },
+        {
+          "sha512": "79bfb0edcfa39e245e225da9f35f6a502660d706988385ef21478103690dba211a9bf96e4139bc5102fed6da91276ef1276ba323df0e03689fe7fd284bc15ba7",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-api-2.0.1%2B1.20.4-sources.jar",
+          "filename": "minecord-api-2.0.1+1.20.4-sources.jar",
+          "primary": false,
+          "size": 31902
+        },
+        {
+          "sha512": "60494640f0351ec3b4f94a71ca867aa900afe1b70a041f858619cefe230f7a92a4a961bdd653b519f07ee4ace1bf35bc79dae756500ce422ce16e7bb9c2d41db",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-api-2.0.1%2B1.20.4.jar",
+          "filename": "minecord-api-2.0.1+1.20.4.jar",
+          "primary": false,
+          "size": 12797265
+        },
+        {
+          "sha512": "675653c388524be2b6c2808d6ad76cc2d46324ac8da3968f5a6f7c6d4b264d836b99ba012bde668755aaedee1acd81a921fc789d194960c3b59349ef44217e08",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-chat-2.1.0%2B1.20.4-sources.jar",
+          "filename": "minecord-chat-2.1.0+1.20.4-sources.jar",
+          "primary": false,
+          "size": 46259
+        },
+        {
+          "sha512": "039f9a8f1e048b54e4f90745dae9de8b7a43b0d2e2cca8c4ea7bd9622f23d7c7a0ca540ef3fdce6a87337fb9a927fc70c8af3a41c637065c75a48a3d3aa25383",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-chat-2.1.0%2B1.20.4.jar",
+          "filename": "minecord-chat-2.1.0+1.20.4.jar",
+          "primary": false,
+          "size": 433913
+        },
+        {
+          "sha512": "b15ae6943069ecbdf2a04045a75f119f24ea646de9411cf18ddf88d82c25e3eb87479726d10e4475758d27cf697c67c382ed2a1ceaad076255976099ae486874",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-cmds-2.0.1%2B1.20.4-sources.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.4-sources.jar",
+          "primary": false,
+          "size": 34819
+        },
+        {
+          "sha512": "3b8473a3da6782d85fc3172b7c8fd6ad603fcd5deed72bf29e1a2f385c0890f32fc67cfb5fd42ddde26b94e85d1b2753ae881135482f389d67f9e21e7accb957",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-cmds-2.0.1%2B1.20.4.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.4.jar",
+          "primary": false,
+          "size": 66689
+        },
+        {
+          "sha512": "1c99cf5a84ea4ae18297b8ee9efe0baf631d331c50ffc8e87b4a5317b14a1042371578dee74d789f632b3ec42e19f20ae01f90754d2ea8f395840948e7d12fac",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-presence-2.0.0%2B1.20.4-sources.jar",
+          "filename": "minecord-presence-2.0.0+1.20.4-sources.jar",
+          "primary": false,
+          "size": 22556
+        },
+        {
+          "sha512": "be4b17a21a5465c165901bb56e2e2c38d4c6ffc2740e38f92928f564de1e71d7356b84dbe0b77bf76b10ad77208cad56a055d2478698f91a744f32310f81966b",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/ts2g3zjk/minecord-presence-2.0.0%2B1.20.4.jar",
+          "filename": "minecord-presence-2.0.0+1.20.4.jar",
+          "primary": false,
+          "size": 32423
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "xwCriu2W",
+      "name": "Minecord v2.0.2+1.20.1",
+      "version_number": "2.0.2+1.20.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d33ffa36d3a90311517841d2e777a3c75e66c11929f5820677200c3f176fec62f6dad9efcc664f8d5f2be3800f24910b33589087e0ab41840f16a67b90581165",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-2.0.2%2B1.20.1.jar",
+          "filename": "minecord-2.0.2+1.20.1.jar",
+          "primary": true,
+          "size": 11714133
+        },
+        {
+          "sha512": "6ab787fb7ada18852ee03da0dc92c895ce03efffa057ba77714f7360d327ea00978446ce63ee182615ad68fb4bdae032a99d754809589590887d27b9ae2c0181",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-2.0.2%2B1.20.1-sources.jar",
+          "filename": "minecord-2.0.2+1.20.1-sources.jar",
+          "primary": false,
+          "size": 6514
+        },
+        {
+          "sha512": "eccfec46cf402afd386cfcfa8916ac8ff580af76126ed75e62e5a4a08e7a8c5241ef00f9af16f66a4c4c9bcb687d488b0a6e6ac16870a03c1de3aad13101f876",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-api-2.0.1%2B1.20.1-sources.jar",
+          "filename": "minecord-api-2.0.1+1.20.1-sources.jar",
+          "primary": false,
+          "size": 31899
+        },
+        {
+          "sha512": "b8dd5207fc12fe239b5007e7fca15ade613d55de423ba9032f35b94e194ccce60e763ee23670c7223fe23f7c8dce61fea80dc863c90627d4a2ea1a9ee9bf651c",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-api-2.0.1%2B1.20.1.jar",
+          "filename": "minecord-api-2.0.1+1.20.1.jar",
+          "primary": false,
+          "size": 12382070
+        },
+        {
+          "sha512": "a22b11ff10f196f56a094d5de96cadfbdefdcb2cc9a59beab90b077a58445eb6fa25641b406cc3fafa387e70d5c2ca9506378d8632a65602c265b1e30abbb023",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-chat-2.0.1%2B1.20.1-sources.jar",
+          "filename": "minecord-chat-2.0.1+1.20.1-sources.jar",
+          "primary": false,
+          "size": 45761
+        },
+        {
+          "sha512": "202fd68d824e3a9702e005832369d85bb231c2e354924a50d431a0606d0113eee0db7b850ea10b30a9ee8990be628ea1b38651ef0e56c37600106717bbee2152",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-chat-2.0.1%2B1.20.1.jar",
+          "filename": "minecord-chat-2.0.1+1.20.1.jar",
+          "primary": false,
+          "size": 365817
+        },
+        {
+          "sha512": "b3c97db02df81a595409d33b7b11fb4383fabdb10503ab15aa5907272204e247c5b1bd10cdc6d6c69dfc95dd463bf58176322f8e4bbdbe210772d8ecc0379384",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-cmds-2.0.1%2B1.20.1-sources.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.1-sources.jar",
+          "primary": false,
+          "size": 34830
+        },
+        {
+          "sha512": "4b48d02736a86705e0f8d2e28692e2b14ecc6fde9bb56b202108a1d208f020010ded50d261787452a9087cdefd874a7a1202357e36eea96dc1c9b489383635f6",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-cmds-2.0.1%2B1.20.1.jar",
+          "filename": "minecord-cmds-2.0.1+1.20.1.jar",
+          "primary": false,
+          "size": 66726
+        },
+        {
+          "sha512": "212dd936e18affbdf86580c7c86b22dbd30447de70ef8892cb1905f188dafe563fabc1574e1b5bdeb60bb4a54b902da128aaf4091eb39365acc798dfa7b835e8",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-presence-2.0.0%2B1.20.1-sources.jar",
+          "filename": "minecord-presence-2.0.0+1.20.1-sources.jar",
+          "primary": false,
+          "size": 22556
+        },
+        {
+          "sha512": "ca230a81d4b7d018a6a9a2f285f382a5f1e58e1842c9ecbe367f9a38f25aaf6e23d26f12430f4cdabd05bb3e3d1b72691818e60b77229344c9ce2240c9b11c88",
+          "url": "https://cdn.modrinth.com/data/DoVQa3oa/versions/xwCriu2W/minecord-presence-2.0.0%2B1.20.1.jar",
+          "filename": "minecord-presence-2.0.0+1.20.1.jar",
+          "primary": false,
+          "size": 32413
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }

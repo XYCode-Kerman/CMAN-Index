@@ -1,26 +1,68 @@
 {
-  "id": "potion-descriptions",
+  "id": "IeEUOwPx",
   "slug": "potion-descriptions",
   "name": "Potion Descriptions",
   "description": "Adds effect descriptions to potion tooltips",
   "versions": [
     {
-      "id": "p4BbvUf5",
-      "name": "Potion Descriptions 1.8 (Forge)",
-      "version_number": "1.8-forge",
+      "id": "760pGfHQ",
+      "name": "Potion Descriptions 1.2.4 (Forge)",
+      "version_number": "1.2.4-forge",
       "game_versions": [
-        "1.19.2"
+        "1.12.2"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "09bb4efd99a78604542ea629ac7fce12260a7f69b50b366e99707c26fe51b981d060cd17dcece0fe01237c50235d8bb0ffe30cfbec47dc3ce128ee8dde40c836",
-          "url": "https://cdn.modrinth.com/data/IeEUOwPx/versions/p4BbvUf5/potiondescriptions-1.19.2-1.8-forge.jar",
-          "filename": "potiondescriptions-1.19.2-1.8-forge.jar",
+          "sha512": "0d4c4791ebd3cc0215ff3be3bef9e4cf0f8dbf7784935edfffe3ee8cc876e37a98eb298e89145cb6277c578c1c0b79591e6f97b6e7966fe4dad08f37275363e0",
+          "url": "https://cdn.modrinth.com/data/IeEUOwPx/versions/760pGfHQ/potiondescriptions-1.12.2-1.2.4.jar",
+          "filename": "potiondescriptions-1.12.2-1.2.4.jar",
           "primary": true,
-          "size": 46152
+          "size": 15640
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "BazvISAm",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "pfjLUfGv",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "JQj2r3A4",
+      "name": "Potion Descriptions 1.5.4 (Forge)",
+      "version_number": "1.5.4-forge",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "fc45f592bfe77ccfa8f8ff43c815ab47228250b130564560d579f00e09bd1f115897b22fccb555f382bbafb9f53d4f0b6a8e1473027e603d464440a07c433f4c",
+          "url": "https://cdn.modrinth.com/data/IeEUOwPx/versions/JQj2r3A4/potiondescriptions-1.16.5-1.5.4.jar",
+          "filename": "potiondescriptions-1.16.5-1.5.4.jar",
+          "primary": true,
+          "size": 16467
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "pfjLUfGv",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -43,28 +85,54 @@
           "primary": true,
           "size": 48661
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "pfjLUfGv",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "onDuQF5e",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
-      "id": "z3KxKoDE",
-      "name": "Potion Descriptions 1.7 (Fabric/Quilt)",
-      "version_number": "1.7-fabric",
+      "id": "p4BbvUf5",
+      "name": "Potion Descriptions 1.8 (Forge)",
+      "version_number": "1.8-forge",
       "game_versions": [
-        "1.18.2"
+        "1.19.2"
       ],
       "loaders": [
-        "fabric",
-        "quilt"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "1e97b28ff532debcb4fe7dd3cfbe9078e31d08fb4c8fc4153af127680b3ee6e82b322d0d5c98c52981e705c3091344a9cc22418a0fb8f67ab40f1a327d5287a4",
-          "url": "https://cdn.modrinth.com/data/IeEUOwPx/versions/z3KxKoDE/potiondescriptions-1.18.2-1.7-fabric.jar",
-          "filename": "potiondescriptions-1.18.2-1.7-fabric.jar",
+          "sha512": "09bb4efd99a78604542ea629ac7fce12260a7f69b50b366e99707c26fe51b981d060cd17dcece0fe01237c50235d8bb0ffe30cfbec47dc3ce128ee8dde40c836",
+          "url": "https://cdn.modrinth.com/data/IeEUOwPx/versions/p4BbvUf5/potiondescriptions-1.19.2-1.8-forge.jar",
+          "filename": "potiondescriptions-1.19.2-1.8-forge.jar",
           "primary": true,
-          "size": 48752
+          "size": 46152
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "t1vWfbe8",
@@ -90,6 +158,20 @@
           "primary": true,
           "size": 48887
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "pfjLUfGv",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -110,45 +192,54 @@
           "primary": true,
           "size": 27778
         }
-      ]
-    },
-    {
-      "id": "JQj2r3A4",
-      "name": "Potion Descriptions 1.5.4 (Forge)",
-      "version_number": "1.5.4-forge",
-      "game_versions": [
-        "1.16.5"
       ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "fc45f592bfe77ccfa8f8ff43c815ab47228250b130564560d579f00e09bd1f115897b22fccb555f382bbafb9f53d4f0b6a8e1473027e603d464440a07c433f4c",
-          "url": "https://cdn.modrinth.com/data/IeEUOwPx/versions/JQj2r3A4/potiondescriptions-1.16.5-1.5.4.jar",
-          "filename": "potiondescriptions-1.16.5-1.5.4.jar",
-          "primary": true,
-          "size": 16467
+          "project_id": "pfjLUfGv",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "760pGfHQ",
-      "name": "Potion Descriptions 1.2.4 (Forge)",
-      "version_number": "1.2.4-forge",
+      "id": "z3KxKoDE",
+      "name": "Potion Descriptions 1.7 (Fabric/Quilt)",
+      "version_number": "1.7-fabric",
       "game_versions": [
-        "1.12.2"
+        "1.18.2"
       ],
       "loaders": [
-        "forge"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "0d4c4791ebd3cc0215ff3be3bef9e4cf0f8dbf7784935edfffe3ee8cc876e37a98eb298e89145cb6277c578c1c0b79591e6f97b6e7966fe4dad08f37275363e0",
-          "url": "https://cdn.modrinth.com/data/IeEUOwPx/versions/760pGfHQ/potiondescriptions-1.12.2-1.2.4.jar",
-          "filename": "potiondescriptions-1.12.2-1.2.4.jar",
+          "sha512": "1e97b28ff532debcb4fe7dd3cfbe9078e31d08fb4c8fc4153af127680b3ee6e82b322d0d5c98c52981e705c3091344a9cc22418a0fb8f67ab40f1a327d5287a4",
+          "url": "https://cdn.modrinth.com/data/IeEUOwPx/versions/z3KxKoDE/potiondescriptions-1.18.2-1.7-fabric.jar",
+          "filename": "potiondescriptions-1.18.2-1.7-fabric.jar",
           "primary": true,
-          "size": 15640
+          "size": 48752
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "pfjLUfGv",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }

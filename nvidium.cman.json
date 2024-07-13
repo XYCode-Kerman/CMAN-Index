@@ -5,11 +5,11 @@
   "description": "Fast nvidia only rendering engine for sodium",
   "versions": [
     {
-      "id": "cl0HrTL6",
-      "name": "Nvidium 0.2.9-beta",
-      "version_number": "0.2.9-beta",
+      "id": "2RY6RGKi",
+      "name": "nvidium 0.1.2-alpha",
+      "version_number": "0.1.2-alpha",
       "game_versions": [
-        "1.21"
+        "1.19.4"
       ],
       "loaders": [
         "fabric",
@@ -17,17 +17,23 @@
       ],
       "files": [
         {
-          "sha512": "ac42aaf3fbd8a63e5a8ecc1f9d7c4782722708132b8cbee2f01c226665b94e157cafa2c8d79f0f0fdbc7e7d57f32af00b251c1deccb099ae816c6326a0797788",
-          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/cl0HrTL6/nvidium-0.2.9-beta.jar",
-          "filename": "nvidium-0.2.9-beta.jar",
+          "sha512": "b8d170de23921119c63896a8122947a4e6bc3d9d1fe1942c251eed90d837bf34d9b07444a7479310af19ce12ce164cdb0b59a04f4868c6ab9a9dbaf5489a2337",
+          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/2RY6RGKi/nvidium-0.1.2-alpha.jar",
+          "filename": "nvidium-0.1.2-alpha.jar",
           "primary": true,
-          "size": 157404
+          "size": 94457
         }
       ],
       "dependencies": [
         {
+          "project_id": "YL57xq9U",
+          "version_id": "IBYlCS75",
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
+        {
           "project_id": "AANobbMI",
-          "version_id": "RncWhTxD",
+          "version_id": "b4hTi3mo",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -91,6 +97,65 @@
       ]
     },
     {
+      "id": "ETg31Z6e",
+      "name": "Nvidium 0.2.3-beta",
+      "version_number": "0.2.3-beta",
+      "game_versions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c5ec1cc9836735423338f97cd7eefda3d016b8b71f00589d4e670dc4607d488c2dd9328588ecfa727ec79e1e4d0aec14a7e002f7774195951508e741c9c80c14",
+          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/ETg31Z6e/nvidium-0.2.3-beta.jar",
+          "filename": "nvidium-0.2.3-beta.jar",
+          "primary": true,
+          "size": 156091
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AANobbMI",
+          "version_id": "bbP1qBMr",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "I9LWXtS0",
+      "name": "Nvidium 0.1.16-alpha",
+      "version_number": "0.1.16-alpha",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f85e521dd6a066999af8ddc94619c56e73f8fdc741dbccfbeb6bc4b127e978f702bf39e2d492d7f963aef212a78d9e5f9ff06b1f253ef261b9f052aced7def26",
+          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/I9LWXtS0/nvidium-0.1.16-alpha.jar",
+          "filename": "nvidium-0.1.16-alpha.jar",
+          "primary": true,
+          "size": 121801
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AANobbMI",
+          "version_id": "6SSPmLc9",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "J2fuM58R",
       "name": "Nvidium 0.2.6-beta",
       "version_number": "0.2.6-beta",
@@ -115,6 +180,201 @@
         {
           "project_id": "AANobbMI",
           "version_id": "4GyXKCLd",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "JTkUZGqn",
+      "name": "Nvidium 0.2.0-beta",
+      "version_number": "0.2.0-beta",
+      "game_versions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "6d1bc2873082b4b2e5261db6dc303ef36718d63fb88462f6695eb042f93edb8f5abb7a0993260918193eede4d2455d8410e4a95f3a2a6a9595bc3715e126b3f7",
+          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/JTkUZGqn/nvidium-0.2.0-beta.jar",
+          "filename": "nvidium-0.2.0-beta.jar",
+          "primary": true,
+          "size": 143507
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AANobbMI",
+          "version_id": "4OZL6q9h",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "LTv8XrYG",
+      "name": "Nvidium 0.2.2-beta",
+      "version_number": "0.2.2-beta",
+      "game_versions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "49f0f54050d571124d4206210a07c81a6dc4925d6f659e00ebecb86855229e99dd3b39e5fbec1768853cce4e90ec6f110af3b9396c3447122cbe3056c7f9c64e",
+          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/LTv8XrYG/nvidium-0.2.2-beta.jar",
+          "filename": "nvidium-0.2.2-beta.jar",
+          "primary": true,
+          "size": 155717
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AANobbMI",
+          "version_id": "bbP1qBMr",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "LXNe7fra",
+      "name": "nvidium 0.1.0-alpha",
+      "version_number": "0.1.0-alpha",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5134ef351cf356944937e77fd55f05c9e676eae59c67a93c7343a44c881ca95474197aaab8a45c590f185b3c86b0a138b67f13390089dd1370868dae31e8d4db",
+          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/LXNe7fra/nvidium-0.1.0-alpha.jar",
+          "filename": "nvidium-0.1.0-alpha.jar",
+          "primary": false,
+          "size": 93663
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AANobbMI",
+          "version_id": "b4hTi3mo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "PleqMW3C",
+      "name": "nvidium 0.1.11-alpha (sodium 0.4.10)",
+      "version_number": "0.1.11-alpha",
+      "game_versions": [
+        "1.19.4",
+        "1.20"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "cd6947b2aa5abe1eace92d9363642d8a9257dd8cc7bb37cc92368fe1a8de0bb080b820adcfbb42702f8fccb9cefec77dfbb95861c781fcdcf5ab05577ce4301d",
+          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/PleqMW3C/nvidium-0.1.11-alpha.jar",
+          "filename": "nvidium-0.1.11-alpha.jar",
+          "primary": true,
+          "size": 115190
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YL57xq9U",
+          "version_id": "URWeWMAt",
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
+        {
+          "project_id": "AANobbMI",
+          "version_id": "vgceLbdH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Q8EeXw8B",
+      "name": "nvidium 0.1.10-alpha (sodium 0.4.11)",
+      "version_number": "0.1.10-alpha",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "98d70b1b312a05e0712e81a8816b03515e5710e6e0cc5d3a63aea0e674ca7fa823aad4c69b98eda3fe77d41668eba9cef787b05c9d61e7832519755731896300",
+          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/Q8EeXw8B/nvidium-0.1.10-alpha.jar",
+          "filename": "nvidium-0.1.10-alpha.jar",
+          "primary": true,
+          "size": 119989
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YL57xq9U",
+          "version_id": "AQqB1OqQ",
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
+        {
+          "project_id": "AANobbMI",
+          "version_id": "b4hTi3mo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "RcPCnsXK",
+      "name": "nvidium 0.1.4-alpha",
+      "version_number": "0.1.4-alpha",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "16900fb395a3b411a16efd132e3e8dce3f4af87742e7383b4eff7b6c27d42857d7fbe04b399d950927e135a8cd8b05e31fabbbdaf70992bfd3c9f18b4378261d",
+          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/RcPCnsXK/nvidium-0.1.4-alpha.jar",
+          "filename": "nvidium-0.1.4-alpha.jar",
+          "primary": true,
+          "size": 103400
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YL57xq9U",
+          "version_id": "IBYlCS75",
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
+        {
+          "project_id": "AANobbMI",
+          "version_id": "b4hTi3mo",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -159,187 +419,6 @@
       ]
     },
     {
-      "id": "jn5Yk9Nd",
-      "name": "Nvidium 0.2.4-beta",
-      "version_number": "0.2.4-beta",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6607aa98adc7fe0bd810fdaef07a0800d286a5593a6b29677bc1682dcb84fb403a69a8df40575751ebc5d69f206f15585a83cbe88f3b3e5a80e41a015557ee29",
-          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/jn5Yk9Nd/nvidium-0.2.4-beta.jar",
-          "filename": "nvidium-0.2.4-beta.jar",
-          "primary": true,
-          "size": 162265
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AANobbMI",
-          "version_id": "InGKdfel",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ETg31Z6e",
-      "name": "Nvidium 0.2.3-beta",
-      "version_number": "0.2.3-beta",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "c5ec1cc9836735423338f97cd7eefda3d016b8b71f00589d4e670dc4607d488c2dd9328588ecfa727ec79e1e4d0aec14a7e002f7774195951508e741c9c80c14",
-          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/ETg31Z6e/nvidium-0.2.3-beta.jar",
-          "filename": "nvidium-0.2.3-beta.jar",
-          "primary": true,
-          "size": 156091
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AANobbMI",
-          "version_id": "bbP1qBMr",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "LTv8XrYG",
-      "name": "Nvidium 0.2.2-beta",
-      "version_number": "0.2.2-beta",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "49f0f54050d571124d4206210a07c81a6dc4925d6f659e00ebecb86855229e99dd3b39e5fbec1768853cce4e90ec6f110af3b9396c3447122cbe3056c7f9c64e",
-          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/LTv8XrYG/nvidium-0.2.2-beta.jar",
-          "filename": "nvidium-0.2.2-beta.jar",
-          "primary": true,
-          "size": 155717
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AANobbMI",
-          "version_id": "bbP1qBMr",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ysJnbtbv",
-      "name": "Nvidium 0.2.1-beta",
-      "version_number": "0.2.1-beta",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "69f0f699fa006586d0b33f27359b0ab9a7c6a6386ec9b3d302d71ca6c839cd175cfa845427151785ed956aebec3527262318ef39af684b06de17f67d3b9d7fa5",
-          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/ysJnbtbv/nvidium-0.2.1-beta.jar",
-          "filename": "nvidium-0.2.1-beta.jar",
-          "primary": true,
-          "size": 145781
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AANobbMI",
-          "version_id": "bbP1qBMr",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "JTkUZGqn",
-      "name": "Nvidium 0.2.0-beta",
-      "version_number": "0.2.0-beta",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6d1bc2873082b4b2e5261db6dc303ef36718d63fb88462f6695eb042f93edb8f5abb7a0993260918193eede4d2455d8410e4a95f3a2a6a9595bc3715e126b3f7",
-          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/JTkUZGqn/nvidium-0.2.0-beta.jar",
-          "filename": "nvidium-0.2.0-beta.jar",
-          "primary": true,
-          "size": 143507
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AANobbMI",
-          "version_id": "4OZL6q9h",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "I9LWXtS0",
-      "name": "Nvidium 0.1.16-alpha",
-      "version_number": "0.1.16-alpha",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f85e521dd6a066999af8ddc94619c56e73f8fdc741dbccfbeb6bc4b127e978f702bf39e2d492d7f963aef212a78d9e5f9ff06b1f253ef261b9f052aced7def26",
-          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/I9LWXtS0/nvidium-0.1.16-alpha.jar",
-          "filename": "nvidium-0.1.16-alpha.jar",
-          "primary": true,
-          "size": 121801
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AANobbMI",
-          "version_id": "6SSPmLc9",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "WJV4pTzp",
       "name": "Nvidium 0.1.15-alpha",
       "version_number": "0.1.15-alpha",
@@ -359,37 +438,6 @@
           "filename": "nvidium-0.1.15-alpha.jar",
           "primary": true,
           "size": 121933
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AANobbMI",
-          "version_id": "vgceLbdH",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "esYI1xBx",
-      "name": "nvidium 0.1.14-alpha",
-      "version_number": "0.1.14-alpha",
-      "game_versions": [
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "5bfedb2e039b35a1586738e7b0f5039c54f9c27f28537d7a5bfe9324950af79e6b3b7ef37036a873318dcf0c36296cea4a93d881bf6bbaf66f26c1abe4ca8eb3",
-          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/esYI1xBx/nvidium-0.1.14-alpha.jar",
-          "filename": "nvidium-0.1.14-alpha.jar",
-          "primary": true,
-          "size": 120361
         }
       ],
       "dependencies": [
@@ -439,9 +487,38 @@
       ]
     },
     {
-      "id": "pyrZpIBT",
-      "name": "nvidium 0.1.12-alpha",
-      "version_number": "0.1.12-alpha",
+      "id": "cl0HrTL6",
+      "name": "Nvidium 0.2.9-beta",
+      "version_number": "0.2.9-beta",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "ac42aaf3fbd8a63e5a8ecc1f9d7c4782722708132b8cbee2f01c226665b94e157cafa2c8d79f0f0fdbc7e7d57f32af00b251c1deccb099ae816c6326a0797788",
+          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/cl0HrTL6/nvidium-0.2.9-beta.jar",
+          "filename": "nvidium-0.2.9-beta.jar",
+          "primary": true,
+          "size": 157404
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AANobbMI",
+          "version_id": "RncWhTxD",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "esYI1xBx",
+      "name": "nvidium 0.1.14-alpha",
+      "version_number": "0.1.14-alpha",
       "game_versions": [
         "1.19.4",
         "1.20",
@@ -453,47 +530,11 @@
       ],
       "files": [
         {
-          "sha512": "8cfa30ba73065ecf86c8870d1a321ac4501e33ccc4eb7fb4841b80e8682390973d465e3c0898b5c7c143949878cefab991e3940dd5ae86692b63ad933e85d867",
-          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/pyrZpIBT/nvidium-0.1.12-alpha.jar",
-          "filename": "nvidium-0.1.12-alpha.jar",
+          "sha512": "5bfedb2e039b35a1586738e7b0f5039c54f9c27f28537d7a5bfe9324950af79e6b3b7ef37036a873318dcf0c36296cea4a93d881bf6bbaf66f26c1abe4ca8eb3",
+          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/esYI1xBx/nvidium-0.1.14-alpha.jar",
+          "filename": "nvidium-0.1.14-alpha.jar",
           "primary": true,
-          "size": 118726
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "YL57xq9U",
-          "version_id": "URWeWMAt",
-          "file_name": null,
-          "dependency_type": "incompatible"
-        },
-        {
-          "project_id": "AANobbMI",
-          "version_id": "vgceLbdH",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "PleqMW3C",
-      "name": "nvidium 0.1.11-alpha (sodium 0.4.10)",
-      "version_number": "0.1.11-alpha",
-      "game_versions": [
-        "1.19.4",
-        "1.20"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "cd6947b2aa5abe1eace92d9363642d8a9257dd8cc7bb37cc92368fe1a8de0bb080b820adcfbb42702f8fccb9cefec77dfbb95861c781fcdcf5ab05577ce4301d",
-          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/PleqMW3C/nvidium-0.1.11-alpha.jar",
-          "filename": "nvidium-0.1.11-alpha.jar",
-          "primary": true,
-          "size": 115190
+          "size": 120361
         }
       ],
       "dependencies": [
@@ -502,82 +543,6 @@
           "version_id": "vgceLbdH",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "YL57xq9U",
-          "version_id": "URWeWMAt",
-          "file_name": null,
-          "dependency_type": "incompatible"
-        }
-      ]
-    },
-    {
-      "id": "kpnbPBqZ",
-      "name": "nvidium 0.1.10-alpha (sodium 0.4.10)",
-      "version_number": "0.1.10-alpha",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d4981a7d479ef5c9b7e74c69c363e0e59380da0e471ce657f11ede505e2024e0bf68e283c9593b9f303e23f95d6fe81173748d5e2be0cbe4e73adb580bb9f1b3",
-          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/kpnbPBqZ/nvidium-0.1.10-alpha.jar",
-          "filename": "nvidium-0.1.10-alpha.jar",
-          "primary": true,
-          "size": 112645
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AANobbMI",
-          "version_id": "b4hTi3mo",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "YL57xq9U",
-          "version_id": "AQqB1OqQ",
-          "file_name": null,
-          "dependency_type": "incompatible"
-        }
-      ]
-    },
-    {
-      "id": "Q8EeXw8B",
-      "name": "nvidium 0.1.10-alpha (sodium 0.4.11)",
-      "version_number": "0.1.10-alpha",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "98d70b1b312a05e0712e81a8816b03515e5710e6e0cc5d3a63aea0e674ca7fa823aad4c69b98eda3fe77d41668eba9cef787b05c9d61e7832519755731896300",
-          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/Q8EeXw8B/nvidium-0.1.10-alpha.jar",
-          "filename": "nvidium-0.1.10-alpha.jar",
-          "primary": true,
-          "size": 119989
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AANobbMI",
-          "version_id": "b4hTi3mo",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "YL57xq9U",
-          "version_id": "AQqB1OqQ",
-          "file_name": null,
-          "dependency_type": "incompatible"
         }
       ]
     },
@@ -617,41 +582,6 @@
       ]
     },
     {
-      "id": "ucgwwuUs",
-      "name": "nvidium 0.1.8-alpha",
-      "version_number": "0.1.8-alpha",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f9c69874abe4ae983e6c519decc47276b887f91d0765f782a8eb999dedab494ddd0dac92a66f37e16609f02d31e2ce04567248914657594c0121ce553b0856bb",
-          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/ucgwwuUs/nvidium-0.1.8-alpha.jar",
-          "filename": "nvidium-0.1.8-alpha.jar",
-          "primary": false,
-          "size": 120949
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AANobbMI",
-          "version_id": "b4hTi3mo",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "YL57xq9U",
-          "version_id": "347HlKZS",
-          "file_name": null,
-          "dependency_type": "incompatible"
-        }
-      ]
-    },
-    {
       "id": "ioXOklz8",
       "name": "nvidium 0.1.7-alpha",
       "version_number": "0.1.7-alpha",
@@ -673,25 +603,28 @@
       ],
       "dependencies": [
         {
-          "project_id": "AANobbMI",
-          "version_id": "b4hTi3mo",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "YL57xq9U",
           "version_id": "IBYlCS75",
           "file_name": null,
           "dependency_type": "incompatible"
+        },
+        {
+          "project_id": "AANobbMI",
+          "version_id": "b4hTi3mo",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "qO1f9KFu",
-      "name": "nvidium 0.1.6-alpha",
-      "version_number": "0.1.6-alpha",
+      "id": "jn5Yk9Nd",
+      "name": "Nvidium 0.2.4-beta",
+      "version_number": "0.2.4-beta",
       "game_versions": [
-        "1.19.4"
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
         "fabric",
@@ -699,32 +632,26 @@
       ],
       "files": [
         {
-          "sha512": "2137bd5c6532709d16241300244b7770d297d61c7b47f90607fe69d8732b32238b44924acb564a98d1224a6042c4e9e6c060581c9174c0426e1d97f1eb17f47a",
-          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/qO1f9KFu/nvidium-0.1.6-alpha.jar",
-          "filename": "nvidium-0.1.6-alpha.jar",
+          "sha512": "6607aa98adc7fe0bd810fdaef07a0800d286a5593a6b29677bc1682dcb84fb403a69a8df40575751ebc5d69f206f15585a83cbe88f3b3e5a80e41a015557ee29",
+          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/jn5Yk9Nd/nvidium-0.2.4-beta.jar",
+          "filename": "nvidium-0.2.4-beta.jar",
           "primary": true,
-          "size": 110875
+          "size": 162265
         }
       ],
       "dependencies": [
         {
-          "project_id": "YL57xq9U",
-          "version_id": "IBYlCS75",
-          "file_name": null,
-          "dependency_type": "incompatible"
-        },
-        {
           "project_id": "AANobbMI",
-          "version_id": "b4hTi3mo",
+          "version_id": "InGKdfel",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "uDOBbg9l",
-      "name": "nvidium 0.1.5-alpha",
-      "version_number": "0.1.5-alpha",
+      "id": "kpnbPBqZ",
+      "name": "nvidium 0.1.10-alpha (sodium 0.4.10)",
+      "version_number": "0.1.10-alpha",
       "game_versions": [
         "1.19.4"
       ],
@@ -734,60 +661,25 @@
       ],
       "files": [
         {
-          "sha512": "b7d66575452f2bfda2e82e2cc03c5aafd7906b73843a25122f432768804d0e9b4cc6231f56e55ac8aebef29828542d2182f7a38823d4c558d02c2d908b6a96ea",
-          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/uDOBbg9l/nvidium-0.1.5-alpha.jar",
-          "filename": "nvidium-0.1.5-alpha.jar",
-          "primary": false,
-          "size": 109993
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AANobbMI",
-          "version_id": "b4hTi3mo",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "YL57xq9U",
-          "version_id": "IBYlCS75",
-          "file_name": null,
-          "dependency_type": "incompatible"
-        }
-      ]
-    },
-    {
-      "id": "RcPCnsXK",
-      "name": "nvidium 0.1.4-alpha",
-      "version_number": "0.1.4-alpha",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "16900fb395a3b411a16efd132e3e8dce3f4af87742e7383b4eff7b6c27d42857d7fbe04b399d950927e135a8cd8b05e31fabbbdaf70992bfd3c9f18b4378261d",
-          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/RcPCnsXK/nvidium-0.1.4-alpha.jar",
-          "filename": "nvidium-0.1.4-alpha.jar",
+          "sha512": "d4981a7d479ef5c9b7e74c69c363e0e59380da0e471ce657f11ede505e2024e0bf68e283c9593b9f303e23f95d6fe81173748d5e2be0cbe4e73adb580bb9f1b3",
+          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/kpnbPBqZ/nvidium-0.1.10-alpha.jar",
+          "filename": "nvidium-0.1.10-alpha.jar",
           "primary": true,
-          "size": 103400
+          "size": 112645
         }
       ],
       "dependencies": [
+        {
+          "project_id": "YL57xq9U",
+          "version_id": "AQqB1OqQ",
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
         {
           "project_id": "AANobbMI",
           "version_id": "b4hTi3mo",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "YL57xq9U",
-          "version_id": "IBYlCS75",
-          "file_name": null,
-          "dependency_type": "incompatible"
         }
       ]
     },
@@ -813,23 +705,60 @@
       ],
       "dependencies": [
         {
-          "project_id": "AANobbMI",
-          "version_id": "b4hTi3mo",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "YL57xq9U",
           "version_id": "IBYlCS75",
           "file_name": null,
           "dependency_type": "incompatible"
+        },
+        {
+          "project_id": "AANobbMI",
+          "version_id": "b4hTi3mo",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "2RY6RGKi",
-      "name": "nvidium 0.1.2-alpha",
-      "version_number": "0.1.2-alpha",
+      "id": "pyrZpIBT",
+      "name": "nvidium 0.1.12-alpha",
+      "version_number": "0.1.12-alpha",
+      "game_versions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "8cfa30ba73065ecf86c8870d1a321ac4501e33ccc4eb7fb4841b80e8682390973d465e3c0898b5c7c143949878cefab991e3940dd5ae86692b63ad933e85d867",
+          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/pyrZpIBT/nvidium-0.1.12-alpha.jar",
+          "filename": "nvidium-0.1.12-alpha.jar",
+          "primary": true,
+          "size": 118726
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YL57xq9U",
+          "version_id": "URWeWMAt",
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
+        {
+          "project_id": "AANobbMI",
+          "version_id": "vgceLbdH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "qO1f9KFu",
+      "name": "nvidium 0.1.6-alpha",
+      "version_number": "0.1.6-alpha",
       "game_versions": [
         "1.19.4"
       ],
@@ -839,11 +768,11 @@
       ],
       "files": [
         {
-          "sha512": "b8d170de23921119c63896a8122947a4e6bc3d9d1fe1942c251eed90d837bf34d9b07444a7479310af19ce12ce164cdb0b59a04f4868c6ab9a9dbaf5489a2337",
-          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/2RY6RGKi/nvidium-0.1.2-alpha.jar",
-          "filename": "nvidium-0.1.2-alpha.jar",
+          "sha512": "2137bd5c6532709d16241300244b7770d297d61c7b47f90607fe69d8732b32238b44924acb564a98d1224a6042c4e9e6c060581c9174c0426e1d97f1eb17f47a",
+          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/qO1f9KFu/nvidium-0.1.6-alpha.jar",
+          "filename": "nvidium-0.1.6-alpha.jar",
           "primary": true,
-          "size": 94457
+          "size": 110875
         }
       ],
       "dependencies": [
@@ -897,9 +826,9 @@
       ]
     },
     {
-      "id": "LXNe7fra",
-      "name": "nvidium 0.1.0-alpha",
-      "version_number": "0.1.0-alpha",
+      "id": "uDOBbg9l",
+      "name": "nvidium 0.1.5-alpha",
+      "version_number": "0.1.5-alpha",
       "game_versions": [
         "1.19.4"
       ],
@@ -909,17 +838,88 @@
       ],
       "files": [
         {
-          "sha512": "5134ef351cf356944937e77fd55f05c9e676eae59c67a93c7343a44c881ca95474197aaab8a45c590f185b3c86b0a138b67f13390089dd1370868dae31e8d4db",
-          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/LXNe7fra/nvidium-0.1.0-alpha.jar",
-          "filename": "nvidium-0.1.0-alpha.jar",
+          "sha512": "b7d66575452f2bfda2e82e2cc03c5aafd7906b73843a25122f432768804d0e9b4cc6231f56e55ac8aebef29828542d2182f7a38823d4c558d02c2d908b6a96ea",
+          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/uDOBbg9l/nvidium-0.1.5-alpha.jar",
+          "filename": "nvidium-0.1.5-alpha.jar",
           "primary": false,
-          "size": 93663
+          "size": 109993
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YL57xq9U",
+          "version_id": "IBYlCS75",
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
+        {
+          "project_id": "AANobbMI",
+          "version_id": "b4hTi3mo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ucgwwuUs",
+      "name": "nvidium 0.1.8-alpha",
+      "version_number": "0.1.8-alpha",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f9c69874abe4ae983e6c519decc47276b887f91d0765f782a8eb999dedab494ddd0dac92a66f37e16609f02d31e2ce04567248914657594c0121ce553b0856bb",
+          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/ucgwwuUs/nvidium-0.1.8-alpha.jar",
+          "filename": "nvidium-0.1.8-alpha.jar",
+          "primary": false,
+          "size": 120949
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "YL57xq9U",
+          "version_id": "347HlKZS",
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
+        {
+          "project_id": "AANobbMI",
+          "version_id": "b4hTi3mo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ysJnbtbv",
+      "name": "Nvidium 0.2.1-beta",
+      "version_number": "0.2.1-beta",
+      "game_versions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "69f0f699fa006586d0b33f27359b0ab9a7c6a6386ec9b3d302d71ca6c839cd175cfa845427151785ed956aebec3527262318ef39af684b06de17f67d3b9d7fa5",
+          "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/ysJnbtbv/nvidium-0.2.1-beta.jar",
+          "filename": "nvidium-0.2.1-beta.jar",
+          "primary": true,
+          "size": 145781
         }
       ],
       "dependencies": [
         {
           "project_id": "AANobbMI",
-          "version_id": "b4hTi3mo",
+          "version_id": "bbP1qBMr",
           "file_name": null,
           "dependency_type": "required"
         }

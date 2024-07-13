@@ -5,6 +5,47 @@
   "description": "Advanced cave maps based on 3D path-finding",
   "versions": [
     {
+      "id": "P5B90sV2",
+      "name": "Cave Survey 1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0c79308e85e9fc571e1e58481874a13f79bcab9686e1df35fd4a9980b6c216b16b5a138aad342d63d75f9c07e46fa9da182f6b055f84d5d301de6d347c4e1904",
+          "url": "https://cdn.modrinth.com/data/tjrUvbJd/versions/P5B90sV2/cave-survey-1.0.0.jar",
+          "filename": "cave-survey-1.0.0.jar",
+          "primary": true,
+          "size": 810489
+        },
+        {
+          "sha512": "1976c84705a77a805cf13ae25f30eae4604e470c3cec8d11ab70126078ae0b042836f4de44254da6dbd5309dc1bab150d6bde9cba72c89da937f80c49db4b40b",
+          "url": "https://cdn.modrinth.com/data/tjrUvbJd/versions/P5B90sV2/cave-survey-client-1.0.0.jar",
+          "filename": "cave-survey-client-1.0.0.jar",
+          "primary": false,
+          "size": 70788
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "xGdtZczs",
+          "version_id": "VraJ1qRh",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "qvrUMd9Z",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "UXIR1Beo",
       "name": "Cave Survey 1.1.0",
       "version_number": "1.1.0",
@@ -33,16 +74,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "xGdtZczs",
           "version_id": "WhphZXxD",
           "file_name": null,
           "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -84,47 +125,6 @@
           "version_id": "uIYkhRbX",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "P5B90sV2",
-      "name": "Cave Survey 1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0c79308e85e9fc571e1e58481874a13f79bcab9686e1df35fd4a9980b6c216b16b5a138aad342d63d75f9c07e46fa9da182f6b055f84d5d301de6d347c4e1904",
-          "url": "https://cdn.modrinth.com/data/tjrUvbJd/versions/P5B90sV2/cave-survey-1.0.0.jar",
-          "filename": "cave-survey-1.0.0.jar",
-          "primary": true,
-          "size": 810489
-        },
-        {
-          "sha512": "1976c84705a77a805cf13ae25f30eae4604e470c3cec8d11ab70126078ae0b042836f4de44254da6dbd5309dc1bab150d6bde9cba72c89da937f80c49db4b40b",
-          "url": "https://cdn.modrinth.com/data/tjrUvbJd/versions/P5B90sV2/cave-survey-client-1.0.0.jar",
-          "filename": "cave-survey-client-1.0.0.jar",
-          "primary": false,
-          "size": 70788
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "qvrUMd9Z",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "xGdtZczs",
-          "version_id": "VraJ1qRh",
-          "file_name": null,
-          "dependency_type": "embedded"
         }
       ]
     }

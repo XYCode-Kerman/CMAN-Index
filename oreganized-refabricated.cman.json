@@ -5,32 +5,25 @@
   "description": "A fabric port of Oreganized by Team Galena",
   "versions": [
     {
-      "id": "qIfVwDOi",
-      "name": "Oreganized Refabricated 2.0.3d",
-      "version_number": "2.0.3d",
+      "id": "LCWDMUd8",
+      "name": "Oreganized Refabricated 2.0.3",
+      "version_number": "2.0.3",
       "game_versions": [
         "1.20.1"
       ],
       "loaders": [
-        "fabric",
-        "quilt"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "75549d9ef6eb60a69ccbaf4db68d7b6d2c5db159c220eaf76703e4d172432a974a0a04a0f3e55e9371a5d23cb3d0602b5caffc4d0899168d2f5e1c6a29a9d614",
-          "url": "https://cdn.modrinth.com/data/PG6k097t/versions/qIfVwDOi/Oreganized-2.0.3d-fabric.jar",
-          "filename": "Oreganized-2.0.3d-fabric.jar",
+          "sha512": "ad0d3822aa7c557b2d3a963f43ce3e983206960ad9193cc680f49f715ca81ceff96479ea9d25798f82f13d84699ef29b35145fb2a803af43b65618030decae2e",
+          "url": "https://cdn.modrinth.com/data/PG6k097t/versions/LCWDMUd8/Oreganized-2.0.3-fabric.jar",
+          "filename": "Oreganized-2.0.3-fabric.jar",
           "primary": true,
-          "size": 18040796
+          "size": 18037007
         }
       ],
       "dependencies": [
-        {
-          "project_id": "QLPYve8H",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
@@ -42,18 +35,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
-        },
-        {
-          "project_id": "7vxePowz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "hAt6ty93",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -75,40 +56,6 @@
           "filename": "Oreganized-2.0.3c-fabric.jar",
           "primary": true,
           "size": 18042599
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "tEJPA4Ty",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "oBD2Fd2o",
-      "name": "Oreganized Refabricated 2.0.3b",
-      "version_number": "2.0.3b",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "10839f436c3abb549a6b1ed5cdf60ed9ccfaca16bf8147b4802d096099b265feb026af1b1eef8b068b84444c56febb5740bb9af96c884994568d84f13ceefab8",
-          "url": "https://cdn.modrinth.com/data/PG6k097t/versions/oBD2Fd2o/Oreganized-2.0.3b-fabric.jar",
-          "filename": "Oreganized-2.0.3b-fabric.jar",
-          "primary": true,
-          "size": 18040809
         }
       ],
       "dependencies": [
@@ -179,9 +126,9 @@
       ]
     },
     {
-      "id": "LCWDMUd8",
-      "name": "Oreganized Refabricated 2.0.3",
-      "version_number": "2.0.3",
+      "id": "oBD2Fd2o",
+      "name": "Oreganized Refabricated 2.0.3b",
+      "version_number": "2.0.3b",
       "game_versions": [
         "1.20.1"
       ],
@@ -190,14 +137,61 @@
       ],
       "files": [
         {
-          "sha512": "ad0d3822aa7c557b2d3a963f43ce3e983206960ad9193cc680f49f715ca81ceff96479ea9d25798f82f13d84699ef29b35145fb2a803af43b65618030decae2e",
-          "url": "https://cdn.modrinth.com/data/PG6k097t/versions/LCWDMUd8/Oreganized-2.0.3-fabric.jar",
-          "filename": "Oreganized-2.0.3-fabric.jar",
+          "sha512": "10839f436c3abb549a6b1ed5cdf60ed9ccfaca16bf8147b4802d096099b265feb026af1b1eef8b068b84444c56febb5740bb9af96c884994568d84f13ceefab8",
+          "url": "https://cdn.modrinth.com/data/PG6k097t/versions/oBD2Fd2o/Oreganized-2.0.3b-fabric.jar",
+          "filename": "Oreganized-2.0.3b-fabric.jar",
           "primary": true,
-          "size": 18037007
+          "size": 18040809
         }
       ],
       "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "tEJPA4Ty",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "qIfVwDOi",
+      "name": "Oreganized Refabricated 2.0.3d",
+      "version_number": "2.0.3d",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "75549d9ef6eb60a69ccbaf4db68d7b6d2c5db159c220eaf76703e4d172432a974a0a04a0f3e55e9371a5d23cb3d0602b5caffc4d0899168d2f5e1c6a29a9d614",
+          "url": "https://cdn.modrinth.com/data/PG6k097t/versions/qIfVwDOi/Oreganized-2.0.3d-fabric.jar",
+          "filename": "Oreganized-2.0.3d-fabric.jar",
+          "primary": true,
+          "size": 18040796
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "QLPYve8H",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "tEJPA4Ty",
           "version_id": null,
@@ -205,10 +199,16 @@
           "dependency_type": "embedded"
         },
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "7vxePowz",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "hAt6ty93",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }

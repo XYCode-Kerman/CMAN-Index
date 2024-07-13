@@ -5,6 +5,85 @@
   "description": "Quilt mod which helps to place ice boats by snapping orientation to cardinal directions ",
   "versions": [
     {
+      "id": "JmITtgmO",
+      "name": "Add configurable alignment button",
+      "version_number": "2.1.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "708ee27d18ee654a74fc339fab128b7689a68f2c56ca95b9fbd1f3e5040bd8b9a976ec5d4f7c6c9a56c9f870fe74851809bf186c81e72b6ea1de267ec64dce5b",
+          "url": "https://cdn.modrinth.com/data/AFqV4ew3/versions/2.1.0/critical-orientation-2.1.0%2B1.18.1-SNAPSHOT.jar",
+          "filename": "critical-orientation-2.1.0+1.18.1-SNAPSHOT.jar",
+          "primary": true,
+          "size": 106360
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "MBtDagKT",
+          "version_id": "UyB0JC5n",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "pwp94ACs",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Pe8SoDAF",
+      "name": "Fix double registering of event handler",
+      "version_number": "2.0.1",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "bcf0ec94583eafc796d1fb3a2ef1240064c27503610a2d57524e7ec22d68c0f25f95758e0492bf9ec212b619723b0dba073bb8bc2c4cda8190f13e9b207dc620",
+          "url": "https://cdn.modrinth.com/data/AFqV4ew3/versions/2.0.1/critical-orientation-2.0.1.jar",
+          "filename": "critical-orientation-2.0.1.jar",
+          "primary": false,
+          "size": 54215
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "UQXCON6M",
+      "name": "Code refactor & working update to 1.18",
+      "version_number": "2.0.2",
+      "game_versions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0287e930d9be1b42d339fedc110f5bdfbb33fd2d3c80eb1ed4130f5f0d6fe74799ff1d11e2776df1672426cc5bece5cc0d23d5d1b34e319cb99d95dad0907ce7",
+          "url": "https://cdn.modrinth.com//data/AFqV4ew3/versions/2.0.2/critical-orientation-2.0.2%2B21w37a.jar",
+          "filename": "critical-orientation-2.0.2+21w37a.jar",
+          "primary": true,
+          "size": 54236
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "atC6Q4ao",
       "name": "Fix lang file issue",
       "version_number": "3.0.2",
@@ -34,12 +113,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "codAaoxh",
-          "version_id": "kJmuqGbh",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "CtMNOUcV",
           "file_name": null,
@@ -50,6 +123,74 @@
           "version_id": "QPXihdoB",
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "codAaoxh",
+          "version_id": "kJmuqGbh",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "itKIJghA",
+      "name": "Rewrite & update to Java 16",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.17"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "6968174df32a7d9bbfd24e1b417ac6e94b04efc6ea74351a765f3b9786534561f836eb5e29e250907b04b92bde3bb6a7ef3104ad208d4e46127f74f2b1738375",
+          "url": "https://cdn.modrinth.com/data/AFqV4ew3/versions/2.0.0/critical-orientation-2.0.0.jar",
+          "filename": "critical-orientation-2.0.0.jar",
+          "primary": false,
+          "size": 54264
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "jjcYkXfN",
+      "name": "Update to 1.19",
+      "version_number": "3.0.0",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "e3d5f44382ffe550e1efb7622426f9b1eb8783f0ac080336f2e406bf389eaf716ec7db6c5f8a887507c6a2350aaae1e324f8531f2f73c18d4ddfca68f006aec1",
+          "url": "https://cdn.modrinth.com/data/AFqV4ew3/versions/3.0.0/critical-orientation-1.19-3.0.0.jar",
+          "filename": "critical-orientation-1.19-3.0.0.jar",
+          "primary": true,
+          "size": 109828
+        },
+        {
+          "sha512": "3d7357277a5c267bacf7b8e5020bb564b22f6f49513bf9b170ff4eefd901bb020478e33d5fb8fe83797d9fea3ce923911357df28105209d9dfeba0e4a6576645",
+          "url": "https://cdn.modrinth.com/data/AFqV4ew3/versions/3.0.0/critical-orientation-1.19-3.0.0-sources.jar",
+          "filename": "critical-orientation-1.19-3.0.0-sources.jar",
+          "primary": false,
+          "size": 52889
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "HwOyG7I5",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "MBtDagKT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -91,147 +232,6 @@
           "dependency_type": "required"
         }
       ]
-    },
-    {
-      "id": "jjcYkXfN",
-      "name": "Update to 1.19",
-      "version_number": "3.0.0",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "e3d5f44382ffe550e1efb7622426f9b1eb8783f0ac080336f2e406bf389eaf716ec7db6c5f8a887507c6a2350aaae1e324f8531f2f73c18d4ddfca68f006aec1",
-          "url": "https://cdn.modrinth.com/data/AFqV4ew3/versions/3.0.0/critical-orientation-1.19-3.0.0.jar",
-          "filename": "critical-orientation-1.19-3.0.0.jar",
-          "primary": true,
-          "size": 109828
-        },
-        {
-          "sha512": "3d7357277a5c267bacf7b8e5020bb564b22f6f49513bf9b170ff4eefd901bb020478e33d5fb8fe83797d9fea3ce923911357df28105209d9dfeba0e4a6576645",
-          "url": "https://cdn.modrinth.com/data/AFqV4ew3/versions/3.0.0/critical-orientation-1.19-3.0.0-sources.jar",
-          "filename": "critical-orientation-1.19-3.0.0-sources.jar",
-          "primary": false,
-          "size": 52889
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "MBtDagKT",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "HwOyG7I5",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "JmITtgmO",
-      "name": "Add configurable alignment button",
-      "version_number": "2.1.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "708ee27d18ee654a74fc339fab128b7689a68f2c56ca95b9fbd1f3e5040bd8b9a976ec5d4f7c6c9a56c9f870fe74851809bf186c81e72b6ea1de267ec64dce5b",
-          "url": "https://cdn.modrinth.com/data/AFqV4ew3/versions/2.1.0/critical-orientation-2.1.0%2B1.18.1-SNAPSHOT.jar",
-          "filename": "critical-orientation-2.1.0+1.18.1-SNAPSHOT.jar",
-          "primary": true,
-          "size": 106360
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "pwp94ACs",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "MBtDagKT",
-          "version_id": "UyB0JC5n",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "UQXCON6M",
-      "name": "Code refactor & working update to 1.18",
-      "version_number": "2.0.2",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0287e930d9be1b42d339fedc110f5bdfbb33fd2d3c80eb1ed4130f5f0d6fe74799ff1d11e2776df1672426cc5bece5cc0d23d5d1b34e319cb99d95dad0907ce7",
-          "url": "https://cdn.modrinth.com//data/AFqV4ew3/versions/2.0.2/critical-orientation-2.0.2%2B21w37a.jar",
-          "filename": "critical-orientation-2.0.2+21w37a.jar",
-          "primary": true,
-          "size": 54236
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Pe8SoDAF",
-      "name": "Fix double registering of event handler",
-      "version_number": "2.0.1",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "bcf0ec94583eafc796d1fb3a2ef1240064c27503610a2d57524e7ec22d68c0f25f95758e0492bf9ec212b619723b0dba073bb8bc2c4cda8190f13e9b207dc620",
-          "url": "https://cdn.modrinth.com/data/AFqV4ew3/versions/2.0.1/critical-orientation-2.0.1.jar",
-          "filename": "critical-orientation-2.0.1.jar",
-          "primary": false,
-          "size": 54215
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "itKIJghA",
-      "name": "Rewrite & update to Java 16",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.17"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6968174df32a7d9bbfd24e1b417ac6e94b04efc6ea74351a765f3b9786534561f836eb5e29e250907b04b92bde3bb6a7ef3104ad208d4e46127f74f2b1738375",
-          "url": "https://cdn.modrinth.com/data/AFqV4ew3/versions/2.0.0/critical-orientation-2.0.0.jar",
-          "filename": "critical-orientation-2.0.0.jar",
-          "primary": false,
-          "size": 54264
-        }
-      ],
-      "dependencies": []
     }
   ]
 }

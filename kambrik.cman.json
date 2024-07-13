@@ -5,28 +5,84 @@
   "description": "A Kotlin Library Mod",
   "versions": [
     {
-      "id": "zm4X34qZ",
-      "name": "Kambrik 7.0.0+1.20.4-NeoForge",
-      "version_number": "7.0.0-1.20.4",
+      "id": "E0GS19K7",
+      "name": "Kambrik 6.1.0+1.20.1-Forge",
+      "version_number": "6.1.0+1.20.1",
       "game_versions": [
-        "1.20.4"
+        "1.20.1"
       ],
       "loaders": [
-        "neoforge"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "8c5966d3408ed3e33b0b6982fab539cd8deb29feca39c74b5cb7e1f3e979273fae7090634ea163e0cc6f89a6ed939fe812b1188ab229eee88496ed3263f0767d",
-          "url": "https://cdn.modrinth.com/data/zfbCkvdZ/versions/zm4X34qZ/Kambrik-7.0.0%2B1.20.4-neoforge.jar",
-          "filename": "Kambrik-7.0.0+1.20.4-neoforge.jar",
+          "sha512": "e850147729b5455102d2035888c757dac6aae059e6501d1affbc2a6b3a399f17a5fa94cb269be7818ed06ac4e3b14c537cd10d2b4df63332f742a1d0ce3fc089",
+          "url": "https://cdn.modrinth.com/data/zfbCkvdZ/versions/E0GS19K7/Kambrik-6.1.0%2B1.20.1-forge.jar",
+          "filename": "Kambrik-6.1.0+1.20.1-forge.jar",
           "primary": true,
-          "size": 312943
+          "size": 327077
         }
       ],
       "dependencies": [
         {
           "project_id": "ordsPcFz",
           "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "HpOrN1a8",
+      "name": "Kambrik 1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "daf9857881d4d25fbca724809ab8885ad872b1887a9ed54e4cedce77886f80c6d7b7b70c6bd05fbedfa6eace47c4c18d26bf9fef3388cd0599bd88ac49954a1e",
+          "url": "https://cdn.modrinth.com/data/zfbCkvdZ/versions/1.0.0/Kambrik-1.0.0.jar",
+          "filename": "Kambrik-1.0.0.jar",
+          "primary": false,
+          "size": 335210
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "M4Cmuqql",
+      "name": "Kambrik 6.1.0+1.20.1-Fabric",
+      "version_number": "6.1.0+1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "990396d1f294ed15df12f7ae076917aec83b02fe221dfd402a1a4c16fbb4b1a9ba7153a3d66b3e7e923026c1cd3680071bf2317b06b0fc6a23acbea3d40de879",
+          "url": "https://cdn.modrinth.com/data/zfbCkvdZ/versions/M4Cmuqql/Kambrik-6.1.0%2B1.20.1-fabric.jar",
+          "filename": "Kambrik-6.1.0+1.20.1-fabric.jar",
+          "primary": true,
+          "size": 329359
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": "s10JMAtS",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -61,34 +117,6 @@
       ]
     },
     {
-      "id": "er56DwLJ",
-      "name": "Kambrik 6.1.1+1.20.1-Forge",
-      "version_number": "6.1.1+1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "6f19e23f0ec7f542e71d95239a322f5453cb50e6890f95c9152472cc7629b28fdcf3e4eab5a00bc768f893238fd65cd91230b5ecb8debc14b30d6721b5b0923d",
-          "url": "https://cdn.modrinth.com/data/zfbCkvdZ/versions/er56DwLJ/Kambrik-6.1.1%2B1.20.1-forge.jar",
-          "filename": "Kambrik-6.1.1+1.20.1-forge.jar",
-          "primary": true,
-          "size": 325546
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "SqVitkHr",
       "name": "Kambrik 6.1.1+1.20.1-Fabric",
       "version_number": "6.1.1+1.20.1",
@@ -109,76 +137,14 @@
       ],
       "dependencies": [
         {
-          "project_id": "Ha28R6CL",
-          "version_id": "s10JMAtS",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": "XheZ9iGK",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "E0GS19K7",
-      "name": "Kambrik 6.1.0+1.20.1-Forge",
-      "version_number": "6.1.0+1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e850147729b5455102d2035888c757dac6aae059e6501d1affbc2a6b3a399f17a5fa94cb269be7818ed06ac4e3b14c537cd10d2b4df63332f742a1d0ce3fc089",
-          "url": "https://cdn.modrinth.com/data/zfbCkvdZ/versions/E0GS19K7/Kambrik-6.1.0%2B1.20.1-forge.jar",
-          "filename": "Kambrik-6.1.0+1.20.1-forge.jar",
-          "primary": true,
-          "size": 327077
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "M4Cmuqql",
-      "name": "Kambrik 6.1.0+1.20.1-Fabric",
-      "version_number": "6.1.0+1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "990396d1f294ed15df12f7ae076917aec83b02fe221dfd402a1a4c16fbb4b1a9ba7153a3d66b3e7e923026c1cd3680071bf2317b06b0fc6a23acbea3d40de879",
-          "url": "https://cdn.modrinth.com/data/zfbCkvdZ/versions/M4Cmuqql/Kambrik-6.1.0%2B1.20.1-fabric.jar",
-          "filename": "Kambrik-6.1.0+1.20.1-fabric.jar",
-          "primary": true,
-          "size": 329359
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "Ha28R6CL",
           "version_id": "s10JMAtS",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -211,6 +177,77 @@
           "dependency_type": "required"
         }
       ]
+    },
+    {
+      "id": "eo4IOIRF",
+      "name": "Kambrik 3.1.0",
+      "version_number": "3.1.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "45c05e34978cd83cefcdcba3befe9b7417e61e89e70c0c612f5ff26bb47601c29c2b3ca9f8da722aaf31e07f8e328717e19e385a68aefeeea7d6b57e5c82c28a",
+          "url": "https://cdn.modrinth.com/data/zfbCkvdZ/versions/3.1.0/Kambrik-3.1.0-1.18.jar",
+          "filename": "Kambrik-3.1.0-1.18.jar",
+          "primary": false,
+          "size": 446285
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "er56DwLJ",
+      "name": "Kambrik 6.1.1+1.20.1-Forge",
+      "version_number": "6.1.1+1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "6f19e23f0ec7f542e71d95239a322f5453cb50e6890f95c9152472cc7629b28fdcf3e4eab5a00bc768f893238fd65cd91230b5ecb8debc14b30d6721b5b0923d",
+          "url": "https://cdn.modrinth.com/data/zfbCkvdZ/versions/er56DwLJ/Kambrik-6.1.1%2B1.20.1-forge.jar",
+          "filename": "Kambrik-6.1.1+1.20.1-forge.jar",
+          "primary": true,
+          "size": 325546
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "hcUdkfwj",
+      "name": "Kambrik 1.1.0",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e30f475dff6f32f8080b8ddac41d5477f5782b41a4f37fcb17aaa5e96d55841ed787e2df7c3e31fb21826e7e56fa974368578966838f3ce390a460b7ec3ee2f6",
+          "url": "https://cdn.modrinth.com/data/zfbCkvdZ/versions/1.1.0/Kambrik-1.1.0.jar",
+          "filename": "Kambrik-1.1.0.jar",
+          "primary": false,
+          "size": 380738
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "kFW8nJA9",
@@ -247,28 +284,6 @@
       ]
     },
     {
-      "id": "eo4IOIRF",
-      "name": "Kambrik 3.1.0",
-      "version_number": "3.1.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "45c05e34978cd83cefcdcba3befe9b7417e61e89e70c0c612f5ff26bb47601c29c2b3ca9f8da722aaf31e07f8e328717e19e385a68aefeeea7d6b57e5c82c28a",
-          "url": "https://cdn.modrinth.com/data/zfbCkvdZ/versions/3.1.0/Kambrik-3.1.0-1.18.jar",
-          "filename": "Kambrik-3.1.0-1.18.jar",
-          "primary": false,
-          "size": 446285
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "u28lnZqI",
       "name": "Kambrik 3.0.0",
       "version_number": "3.0.0",
@@ -290,47 +305,32 @@
       "dependencies": []
     },
     {
-      "id": "hcUdkfwj",
-      "name": "Kambrik 1.1.0",
-      "version_number": "1.1.0",
+      "id": "zm4X34qZ",
+      "name": "Kambrik 7.0.0+1.20.4-NeoForge",
+      "version_number": "7.0.0-1.20.4",
       "game_versions": [
-        "1.17.1"
+        "1.20.4"
       ],
       "loaders": [
-        "fabric"
+        "neoforge"
       ],
       "files": [
         {
-          "sha512": "e30f475dff6f32f8080b8ddac41d5477f5782b41a4f37fcb17aaa5e96d55841ed787e2df7c3e31fb21826e7e56fa974368578966838f3ce390a460b7ec3ee2f6",
-          "url": "https://cdn.modrinth.com/data/zfbCkvdZ/versions/1.1.0/Kambrik-1.1.0.jar",
-          "filename": "Kambrik-1.1.0.jar",
-          "primary": false,
-          "size": 380738
+          "sha512": "8c5966d3408ed3e33b0b6982fab539cd8deb29feca39c74b5cb7e1f3e979273fae7090634ea163e0cc6f89a6ed939fe812b1188ab229eee88496ed3263f0767d",
+          "url": "https://cdn.modrinth.com/data/zfbCkvdZ/versions/zm4X34qZ/Kambrik-7.0.0%2B1.20.4-neoforge.jar",
+          "filename": "Kambrik-7.0.0+1.20.4-neoforge.jar",
+          "primary": true,
+          "size": 312943
         }
       ],
-      "dependencies": []
-    },
-    {
-      "id": "HpOrN1a8",
-      "name": "Kambrik 1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "daf9857881d4d25fbca724809ab8885ad872b1887a9ed54e4cedce77886f80c6d7b7b70c6bd05fbedfa6eace47c4c18d26bf9fef3388cd0599bd88ac49954a1e",
-          "url": "https://cdn.modrinth.com/data/zfbCkvdZ/versions/1.0.0/Kambrik-1.0.0.jar",
-          "filename": "Kambrik-1.0.0.jar",
-          "primary": false,
-          "size": 335210
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
-      ],
-      "dependencies": []
+      ]
     }
   ]
 }

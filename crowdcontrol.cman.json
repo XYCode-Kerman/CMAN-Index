@@ -5,105 +5,58 @@
   "description": "The Ultimate Interactive Experience for Streamers on Twitch, YouTube, TikTok and beyond",
   "versions": [
     {
-      "id": "WV6gbD7K",
-      "name": "v3.5.0 (Fabric 1.21)",
-      "version_number": "3.5.0+fabric-1.21",
+      "id": "34bWPpcE",
+      "name": "v3.3.0 (Fabric 1.19.4)",
+      "version_number": "3.3.0+fabric-1.19.4",
       "game_versions": [
-        "1.21"
+        "1.19.4",
+        "23w12a",
+        "23w13a"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "a95f1b74694d57c18172a4042c5d1dc9c811850101295761c7d87e23a98f379e3bdbec7e36a455d4a8fa7cac18d44fb2a1d3e7707da38cc1a2bd3ec6bc1a5b16",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/WV6gbD7K/CrowdControl-Fabric%2B1.21-3.5.0.jar",
-          "filename": "CrowdControl-Fabric+1.21-3.5.0.jar",
+          "sha512": "758d394136aac0784cba4d41940517a277663f17a27479e529f9dab7d4b1876e10eaa26547759787d52fb55e36f8eaea50e0ffd7962d27d2bbfbd039e4590998",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/34bWPpcE/CrowdControl-Fabric%2B1.19.4-3.3.0.jar",
+          "filename": "CrowdControl-Fabric+1.19.4-3.3.0.jar",
           "primary": true,
-          "size": 5267853
+          "size": 9319476
         }
       ],
       "dependencies": [
         {
-          "project_id": "K01OU20C",
-          "version_id": "quTFtjka",
+          "project_id": "9s6osm5g",
+          "version_id": "6XGTNEII",
           "file_name": null,
           "dependency_type": "embedded"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
+          "project_id": "K01OU20C",
+          "version_id": "h4Dd87o5",
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "embedded"
         },
         {
           "project_id": "mOgUt4GM",
-          "version_id": null,
+          "version_id": "iZRiOnnj",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
-          "project_id": "uPWCQrVL",
-          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "version_id": "s5UrEfIY",
           "file_name": null,
-          "dependency_type": "incompatible"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "Yc8omJNb",
-          "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "8yWAvRoz",
-      "name": "v3.5.0 (Paper 1.20.6+)",
-      "version_number": "3.5.0+paper",
-      "game_versions": [
-        "1.20.6",
-        "1.21"
-      ],
-      "loaders": [
-        "paper"
-      ],
-      "files": [
-        {
-          "sha512": "bd3cc961c4442c2f5669dd9b719d275721a8de2a6a29c6a4971a6b3d8dbbfe7a72ec508e5ac0c49704c60adce33d633c4af8629a2f25fcf0e823eea10b9795e5",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/8yWAvRoz/CrowdControl-Paper-3.5.0.jar",
-          "filename": "CrowdControl-Paper-3.5.0.jar",
-          "primary": true,
-          "size": 1880041
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "nn5h9T93",
-      "name": "v3.5.0 (Sponge 11+)",
-      "version_number": "3.5.0+sponge11",
-      "game_versions": [
-        "1.20.6",
-        "1.21"
-      ],
-      "loaders": [
-        "sponge"
-      ],
-      "files": [
-        {
-          "sha512": "a20e94f1c5ce446dcb5d308d6df4dd6eafdbf238c6d3b5ab7a40540298b9f4cf2785474289542ab51fedb5e49235536349f50bfb71b384a076c1235e5a8b2a6a",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/nn5h9T93/CrowdControl-Sponge11-3.5.0.jar",
-          "filename": "CrowdControl-Sponge11-3.5.0.jar",
-          "primary": true,
-          "size": 1395374
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "CXJEjQ7K",
-      "name": "v3.5.0 (Sponge 8)",
-      "version_number": "3.5.0+sponge8",
+      "id": "3D0aWEkk",
+      "name": "v3.3.2 (Sponge 8+)",
+      "version_number": "3.3.2+sponge8",
       "game_versions": [
         "1.16.5"
       ],
@@ -112,147 +65,11 @@
       ],
       "files": [
         {
-          "sha512": "b3c892d1c00be460632b70b9173886adcdfa3c1bc709a3c99d441bb29f67e20710f81c0b4eb5ac9049753716f4ddef31078eac122cd04c32879b445e748e2e84",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/CXJEjQ7K/CrowdControl-Sponge8-3.5.0.jar",
-          "filename": "CrowdControl-Sponge8-3.5.0.jar",
+          "sha512": "c742e25351b30c9b714562392543df6ef790f20de20f5b40c3e1a74c11129431864cf43c42753e478ffb4a60c95e93f8fc890821c70a41e953387a730bd92872",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/3D0aWEkk/CrowdControl-Sponge8-3.3.2.jar",
+          "filename": "CrowdControl-Sponge8-3.3.2.jar",
           "primary": true,
-          "size": 2083119
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "NhujYlCo",
-      "name": "v3.5.0 (Sponge 7)",
-      "version_number": "3.5.0+sponge7",
-      "game_versions": [
-        "1.12.2"
-      ],
-      "loaders": [
-        "sponge"
-      ],
-      "files": [
-        {
-          "sha512": "4a8815f804d29eb2bb4921e41fab3923e577066083fc5b0c81748cb7a0c1522fb558c8efb3e087c611325844b482207a2fdbf65eee01f1cf1006b61658ad0f1b",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/NhujYlCo/CrowdControl-Sponge7-3.5.0.jar",
-          "filename": "CrowdControl-Sponge7-3.5.0.jar",
-          "primary": true,
-          "size": 2183021
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "95if9jwL",
-      "name": "v3.4.2 (Fabric 1.20.6)",
-      "version_number": "3.4.2+fabric-1.20.6",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "bfd773c133f410e1bce797f9965ba5e936eae0c8b1fb3e70b23da869eca9d709ed9159c0e367c996a84ddf429f83cc5a741bb03be379607f85831c5bdc9126ed",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/95if9jwL/CrowdControl-Fabric%2B1.20.6-3.4.2.jar",
-          "filename": "CrowdControl-Fabric+1.20.6-3.4.2.jar",
-          "primary": true,
-          "size": 9365389
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "ba9S2OFd",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "znhJLkCd",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "uPWCQrVL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "incompatible"
-        }
-      ]
-    },
-    {
-      "id": "8DbCUNOR",
-      "name": "v3.4.2 (Paper 1.20.6+)",
-      "version_number": "3.4.2+paper",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "paper"
-      ],
-      "files": [
-        {
-          "sha512": "c05ca0a634d7f16de1958995e02c529e2428ed746c8cc639df0c0d0285b794475778a9242bffb4ab14ab689dce441515d5a47183c45bd8dc4ac45070c7c3d9ee",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/8DbCUNOR/CrowdControl-Paper-3.4.2.jar",
-          "filename": "CrowdControl-Paper-3.4.2.jar",
-          "primary": true,
-          "size": 6445340
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ycQHjT10",
-      "name": "v3.4.2 (Sponge 8)",
-      "version_number": "3.4.2+sponge8",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "sponge"
-      ],
-      "files": [
-        {
-          "sha512": "053271f3fbcde7728ad723f974929ce0be4c0074c71015c11e99915abdc2e9c81e42a04570c8b726e08be3ddb4bbe42fce8abb7e143765c2c3f13dc684d1b323",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/ycQHjT10/CrowdControl-Sponge8-3.4.2.jar",
-          "filename": "CrowdControl-Sponge8-3.4.2.jar",
-          "primary": true,
-          "size": 6962925
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "9HfhAMoq",
-      "name": "v3.4.2 (Sponge 7)",
-      "version_number": "3.4.2+sponge7",
-      "game_versions": [
-        "1.12.2"
-      ],
-      "loaders": [
-        "sponge"
-      ],
-      "files": [
-        {
-          "sha512": "d99d2891065c176805ba2f845d69e1cc675a9740e1dc29dc6c187455106d31d855b65b605ae01e1e99cdf1f89a3edadaacdc323a577adf596988b64c78352dd7",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/9HfhAMoq/CrowdControl-Sponge7-3.4.2.jar",
-          "filename": "CrowdControl-Sponge7-3.4.2.jar",
-          "primary": true,
-          "size": 6357392
+          "size": 6890847
         }
       ],
       "dependencies": []
@@ -279,10 +96,22 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "znhJLkCd",
+          "project_id": "P7dR8mSH",
+          "version_id": null,
           "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "uPWCQrVL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "incompatible"
         },
         {
           "project_id": "K01OU20C",
@@ -291,96 +120,19 @@
           "dependency_type": "embedded"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
+          "project_id": "9s6osm5g",
+          "version_id": "znhJLkCd",
           "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "uPWCQrVL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "incompatible"
+          "dependency_type": "embedded"
         }
       ]
     },
     {
-      "id": "tMXfT7B3",
-      "name": "v3.4.0 (Paper 1.20.6+)",
-      "version_number": "3.4.0+paper",
+      "id": "3yUMZOlD",
+      "name": "v3.3.1 (Fabric 1.19.2)",
+      "version_number": "3.3.1+fabric-1.19.2",
       "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "paper",
-        "purpur"
-      ],
-      "files": [
-        {
-          "sha512": "44cbb65e92662f3f80d30341809c5fb191f35bea96946a4d3a09be290fcf1c9493654619140bbd5fdd7c85dfffb4e65586722b110a9fe4742965e74e90dfba21",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/tMXfT7B3/CrowdControl-Paper%2B1.20.6-3.4.0.jar",
-          "filename": "CrowdControl-Paper+1.20.6-3.4.0.jar",
-          "primary": true,
-          "size": 6424088
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "w7Ak6QI7",
-      "name": "v3.4.0 (Sponge 8+)",
-      "version_number": "3.4.0+sponge8",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "sponge"
-      ],
-      "files": [
-        {
-          "sha512": "8a20fdcbd89d565a4b85346b2255f5badc8bda9791311ddb5b9c16adf127ebfc45e73a326540cb7dbc32d4afeb928edc1bcd75d6cbb0f25626e032d104062a24",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/w7Ak6QI7/CrowdControl-Sponge8-3.4.0.jar",
-          "filename": "CrowdControl-Sponge8-3.4.0.jar",
-          "primary": true,
-          "size": 6957240
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "vCwIOaAn",
-      "name": "v3.4.0 (Sponge 7)",
-      "version_number": "3.4.0+sponge7",
-      "game_versions": [
-        "1.12.2"
-      ],
-      "loaders": [
-        "sponge"
-      ],
-      "files": [
-        {
-          "sha512": "bfeb4386682f1b4c95c3e81f8e2b23f0817b0b98bdcf24e1ec893ce852df6576af3c78b3a5276b6731eaf6fc92cd881030adf91bd577ef664323afe4f606766f",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/vCwIOaAn/CrowdControl-Sponge7-3.4.0.jar",
-          "filename": "CrowdControl-Sponge7-3.4.0.jar",
-          "primary": true,
-          "size": 6352022
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "paFiEC4s",
-      "name": "v3.3.6 (Fabric 1.20.4)",
-      "version_number": "3.3.6+fabric-1.20.4",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
+        "1.19.2"
       ],
       "loaders": [
         "fabric",
@@ -388,41 +140,35 @@
       ],
       "files": [
         {
-          "sha512": "27afe8e3d22f545c89e37a45d844575de38b2f063cb9dd89276af7c00d8edcc96fb0f5a30951d579b9c40414c65a4036b0b7b170c6706ee164bb52e17155e05a",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/paFiEC4s/CrowdControl-Fabric%2B1.20.4-3.3.6.jar",
-          "filename": "CrowdControl-Fabric+1.20.4-3.3.6.jar",
+          "sha512": "b18afdad4c0206c7ca7716854d851a2b2a73d65aa8214a157d29057c3f24842eb175be56444c54a2f091b3c481c8ec7d73f51a0c930d4afa0c44213a15b3fabc",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/3yUMZOlD/CrowdControl-Fabric%2B1.19.2-3.3.1.jar",
+          "filename": "CrowdControl-Fabric+1.19.2-3.3.1.jar",
           "primary": true,
-          "size": 9176547
+          "size": 9235172
         }
       ],
       "dependencies": [
         {
-          "project_id": "uPWCQrVL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "incompatible"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "DObEjZD4",
+          "project_id": "9s6osm5g",
+          "version_id": "EXrxCjl6",
           "file_name": null,
           "dependency_type": "embedded"
         },
         {
           "project_id": "mOgUt4GM",
-          "version_id": null,
+          "version_id": "V4hnfgRO",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": null,
+          "version_id": "hfsU4hXq",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "9s6osm5g",
-          "version_id": "eBZiZ9NS",
+          "project_id": "K01OU20C",
+          "version_id": "tPfCTMiZ",
           "file_name": null,
           "dependency_type": "embedded"
         }
@@ -456,30 +202,126 @@
       "dependencies": []
     },
     {
-      "id": "xjUujlrk",
-      "name": "v3.3.6 (Sponge 8+)",
-      "version_number": "3.3.6+sponge8",
+      "id": "7mXkms0i",
+      "name": "v3.3.0 (Paper 1.19.4+)",
+      "version_number": "3.3.0+paper",
       "game_versions": [
-        "1.16.5"
+        "1.19.4"
       ],
       "loaders": [
-        "sponge"
+        "paper",
+        "purpur"
       ],
       "files": [
         {
-          "sha512": "1d531564ded46b29337fab6bfd217e8cae51a1c63cc8fccc3ff1486354a9b3fc142c498cfdfb7a5c2e6b2076c36f63d776f1c36cdfa59669ed813c203912f8d8",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/xjUujlrk/CrowdControl-Sponge8-3.3.6.jar",
-          "filename": "CrowdControl-Sponge8-3.3.6.jar",
+          "sha512": "123269568d8bff440bec9ab7345e55556c04d6dbcbcd0bdfa6dec30f521f743b2cc05731560e0a8b23a80770af7e6233b518e9c70ba629f56a26c7627640b793",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/7mXkms0i/CrowdControl-Paper-3.3.0.jar",
+          "filename": "CrowdControl-Paper-3.3.0.jar",
           "primary": true,
-          "size": 6928493
+          "size": 6762614
         }
       ],
       "dependencies": []
     },
     {
-      "id": "jeMn8mMG",
-      "name": "v3.3.6 (Sponge 7)",
-      "version_number": "3.3.6+sponge7",
+      "id": "8DbCUNOR",
+      "name": "v3.4.2 (Paper 1.20.6+)",
+      "version_number": "3.4.2+paper",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "paper"
+      ],
+      "files": [
+        {
+          "sha512": "c05ca0a634d7f16de1958995e02c529e2428ed746c8cc639df0c0d0285b794475778a9242bffb4ab14ab689dce441515d5a47183c45bd8dc4ac45070c7c3d9ee",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/8DbCUNOR/CrowdControl-Paper-3.4.2.jar",
+          "filename": "CrowdControl-Paper-3.4.2.jar",
+          "primary": true,
+          "size": 6445340
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "8yWAvRoz",
+      "name": "v3.5.0 (Paper 1.20.6+)",
+      "version_number": "3.5.0+paper",
+      "game_versions": [
+        "1.20.6",
+        "1.21"
+      ],
+      "loaders": [
+        "paper"
+      ],
+      "files": [
+        {
+          "sha512": "bd3cc961c4442c2f5669dd9b719d275721a8de2a6a29c6a4971a6b3d8dbbfe7a72ec508e5ac0c49704c60adce33d633c4af8629a2f25fcf0e823eea10b9795e5",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/8yWAvRoz/CrowdControl-Paper-3.5.0.jar",
+          "filename": "CrowdControl-Paper-3.5.0.jar",
+          "primary": true,
+          "size": 1880041
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "95if9jwL",
+      "name": "v3.4.2 (Fabric 1.20.6)",
+      "version_number": "3.4.2+fabric-1.20.6",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "bfd773c133f410e1bce797f9965ba5e936eae0c8b1fb3e70b23da869eca9d709ed9159c0e367c996a84ddf429f83cc5a741bb03be379607f85831c5bdc9126ed",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/95if9jwL/CrowdControl-Fabric%2B1.20.6-3.4.2.jar",
+          "filename": "CrowdControl-Fabric+1.20.6-3.4.2.jar",
+          "primary": true,
+          "size": 9365389
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "uPWCQrVL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "ba9S2OFd",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "znhJLkCd",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "9HfhAMoq",
+      "name": "v3.4.2 (Sponge 7)",
+      "version_number": "3.4.2+sponge7",
       "game_versions": [
         "1.12.2"
       ],
@@ -488,19 +330,112 @@
       ],
       "files": [
         {
-          "sha512": "998c0ef3c10d02952f377be7166f2c253ad54e4ee8b4098b4eb5960c0ed35e4b255acadcff683deb44b35ecf73c1d4dbb75b342271745fc3c148e07d658aaf69",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/jeMn8mMG/CrowdControl-Sponge7-3.3.6.jar",
-          "filename": "CrowdControl-Sponge7-3.3.6.jar",
+          "sha512": "d99d2891065c176805ba2f845d69e1cc675a9740e1dc29dc6c187455106d31d855b65b605ae01e1e99cdf1f89a3edadaacdc323a577adf596988b64c78352dd7",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/9HfhAMoq/CrowdControl-Sponge7-3.4.2.jar",
+          "filename": "CrowdControl-Sponge7-3.4.2.jar",
           "primary": true,
-          "size": 6323059
+          "size": 6357392
         }
       ],
       "dependencies": []
     },
     {
-      "id": "rGBBTPCd",
-      "name": "v3.3.5 (Fabric 1.19.2)",
-      "version_number": "3.3.5+fabric-1.19.2",
+      "id": "ACkcUYpj",
+      "name": "v3.3.2 (Paper 1.19.4+)",
+      "version_number": "3.3.2+paper",
+      "game_versions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "paper",
+        "purpur"
+      ],
+      "files": [
+        {
+          "sha512": "6d64f3c615a40db10a511b24b0415176106a8725a07ab35a2da39ab308868ff3da3037ded237a455e4fdabc6b60a0a67db96f877d69b55eb0dc766ee4fb572c9",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/ACkcUYpj/CrowdControl-Paper-3.3.2.jar",
+          "filename": "CrowdControl-Paper-3.3.2.jar",
+          "primary": true,
+          "size": 6340150
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "AZDYfgfq",
+      "name": "v3.3.4 (Sponge 8+)",
+      "version_number": "3.3.4+sponge8",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "sponge"
+      ],
+      "files": [
+        {
+          "sha512": "adad3017b0fe3f9d347b32347a76c7a77383bb14c72c78ad13cb41b4b6a508c908c975b4b6bb70fd4b7e242643fe4519911120e02e2d84c74db403dd3c08255a",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/AZDYfgfq/CrowdControl-Sponge8-3.3.4.jar",
+          "filename": "CrowdControl-Sponge8-3.3.4.jar",
+          "primary": true,
+          "size": 6897685
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "AptBA4yg",
+      "name": "v3.3.4 (Fabric 1.20.1)",
+      "version_number": "3.3.4+fabric-1.20.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4b721b8b5b6b8aa11af6396557515e9a5a73abf9d65f91dafb6a048756c690ed02d3f73e478d22d96ddaca6c2373f3c424b155648855b54458fe1d48c7f034b0",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/AptBA4yg/CrowdControl-Fabric%2B1.20.1-3.3.4.jar",
+          "filename": "CrowdControl-Fabric+1.20.1-3.3.4.jar",
+          "primary": true,
+          "size": 9429969
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "qW85eawp",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "B71GKE5O",
+      "name": "v3.3.2 (Fabric 1.19.2)",
+      "version_number": "3.3.2+fabric-1.19.2",
       "game_versions": [
         "1.19.2"
       ],
@@ -510,84 +445,37 @@
       ],
       "files": [
         {
-          "sha512": "c5596e5799dcf9e15b3a1e0ea284a0c955749f34a8a0e4caeed53ea8f40af2c1a9c1a61534d45954479e3f857a6c85614f6eb82e49784924be0560e053994a89",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/rGBBTPCd/CrowdControl-Fabric%2B1.19.2-3.3.5.jar",
-          "filename": "CrowdControl-Fabric+1.19.2-3.3.5.jar",
+          "sha512": "a65789360ab60a31285f5d99a188ec025f51645b70910aaa95970f522cdef8e60f8009a9b0c19306bc7108e0c56a5eb51c80d4b003edb70d9aad143ab36894f1",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/B71GKE5O/CrowdControl-Fabric%2B1.19.2-3.3.2.jar",
+          "filename": "CrowdControl-Fabric+1.19.2-3.3.2.jar",
           "primary": true,
-          "size": 9319440
+          "size": 9303884
         }
       ],
       "dependencies": [
         {
           "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
+          "version_id": "EXrxCjl6",
           "file_name": null,
           "dependency_type": "embedded"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
-          "version_id": null,
+          "version_id": "gSoPJyVn",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "K01OU20C",
           "version_id": "tPfCTMiZ",
           "file_name": null,
           "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "CO4Rq7Br",
-      "name": "v3.3.5 (Fabric 1.19.4)",
-      "version_number": "3.3.5+fabric-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3c8b3e62020f69c798d7ee0c3b2e5ea220cfb4965ea9018834ec34c4659c531b83faf9f6624ca77a2e0f6319eb47db0cbb387a3598cd6ca04e36c4c1d744a066",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/CO4Rq7Br/CrowdControl-Fabric%2B1.19.4-3.3.5.jar",
-          "filename": "CrowdControl-Fabric+1.19.4-3.3.5.jar",
-          "primary": true,
-          "size": 9382112
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "mhFzbEwE",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "h4Dd87o5",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -620,12 +508,6 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
@@ -636,174 +518,19 @@
           "version_id": "qW85eawp",
           "file_name": null,
           "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "desJR6me",
-      "name": "v3.3.5 (Fabric 1.20.2)",
-      "version_number": "3.3.5+fabric-1.20.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2770d04453faf6f5bf111c28da4ddd1347740a8cf65173e6e27e63e61cf6d51e573f59038eb15160713c899ae4038f1d5195498f6240f5f394132d8d468e372d",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/desJR6me/CrowdControl-Fabric%2B1.20.2-3.3.5.jar",
-          "filename": "CrowdControl-Fabric+1.20.2-3.3.5.jar",
-          "primary": true,
-          "size": 9214898
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "K01OU20C",
-          "version_id": "IBZVrThp",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "9s6osm5g",
-          "version_id": "LnfolBYb",
+          "version_id": "s7VTKfLA",
           "file_name": null,
           "dependency_type": "embedded"
         }
       ]
     },
     {
-      "id": "RfDZSQgp",
-      "name": "v3.3.5 (Paper 1.19.4+)",
-      "version_number": "3.3.5+paper",
-      "game_versions": [
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "paper",
-        "purpur"
-      ],
-      "files": [
-        {
-          "sha512": "946f87c0000369787897d5315613d179a5b0136a4ba3883736a2c661a442ea380826528a80be144a6915811a0a49f12353960ad03dfd89717fec83fb4f03d366",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/RfDZSQgp/CrowdControl-Paper-3.3.5.jar",
-          "filename": "CrowdControl-Paper-3.3.5.jar",
-          "primary": true,
-          "size": 6346317
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Ws08Uq2I",
-      "name": "v3.3.5 (Sponge 8+)",
-      "version_number": "3.3.5+sponge8",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "sponge"
-      ],
-      "files": [
-        {
-          "sha512": "aeda15dde3f3ff6b6635d18180184987e3bdbe99af51fa419abb09bc3539279b319bffb7f0424c6ee2b5e2b6ea42096557bc0c29331c81eb408a0ce3ad58d987",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/Ws08Uq2I/CrowdControl-Sponge8-3.3.5.jar",
-          "filename": "CrowdControl-Sponge8-3.3.5.jar",
-          "primary": true,
-          "size": 6896597
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "P2V6TtJc",
-      "name": "v3.3.5 (Sponge 7)",
-      "version_number": "3.3.5+sponge7",
-      "game_versions": [
-        "1.12.2"
-      ],
-      "loaders": [
-        "sponge"
-      ],
-      "files": [
-        {
-          "sha512": "6ecf67fae9342ce6d6faa954e37d9625dc942cdaecec981eb2e55664ad97b1df5e7401357e059f43754ae7acdbcf63623c12afb34b69379f04cedcba12ef4faf",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/P2V6TtJc/CrowdControl-Sponge7-3.3.5.jar",
-          "filename": "CrowdControl-Sponge7-3.3.5.jar",
-          "primary": true,
-          "size": 6294102
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "TgsfhL0d",
-      "name": "v3.3.4 (Fabric 1.19.2)",
-      "version_number": "3.3.4+fabric-1.19.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "47691a6be618ce7e67d607c79337ae0106a32fa1f7d491d785c3567957eb90820ee2c30108f9b03413a7a8ded8278f47e8d6e450ad9ac251822919ffcd1b5473",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/TgsfhL0d/CrowdControl-Fabric%2B1.19.2-3.3.4.jar",
-          "filename": "CrowdControl-Fabric+1.19.2-3.3.4.jar",
-          "primary": true,
-          "size": 9318779
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "tPfCTMiZ",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "dpLHjBiX",
-      "name": "v3.3.4 (Fabric 1.19.4)",
-      "version_number": "3.3.4+fabric-1.19.4",
+      "id": "CLvIk2VE",
+      "name": "v3.3.0-rc2 (Fabric 1.19.4)",
+      "version_number": "3.3.0-rc2",
       "game_versions": [
         "1.19.4"
       ],
@@ -813,14 +540,55 @@
       ],
       "files": [
         {
-          "sha512": "caed41fba3df596186331527c47d7a7572ad773dd7adbc0168411fe1528cc7bedcd8a26793cf9bbeda71214964498d67e532fe480ae24de899850ab19cac3a18",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/dpLHjBiX/CrowdControl-Fabric%2B1.19.4-3.3.4.jar",
-          "filename": "CrowdControl-Fabric+1.19.4-3.3.4.jar",
+          "sha512": "0a38e58609577696589609e20933468d0c8f9afc2618d0fa05d6a4571bad0693093a213d542115c3a8c3a792d73290337a36ad97eaf664c8b635054e086709bd",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/CLvIk2VE/CrowdControl-Fabric-3.3.0-rc2.jar",
+          "filename": "CrowdControl-Fabric-3.3.0-rc2.jar",
           "primary": true,
-          "size": 9171029
+          "size": 5858660
         }
       ],
       "dependencies": [
+        {
+          "project_id": "K01OU20C",
+          "version_id": "h4Dd87o5",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "CO4Rq7Br",
+      "name": "v3.3.5 (Fabric 1.19.4)",
+      "version_number": "3.3.5+fabric-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3c8b3e62020f69c798d7ee0c3b2e5ea220cfb4965ea9018834ec34c4659c531b83faf9f6624ca77a2e0f6319eb47db0cbb387a3598cd6ca04e36c4c1d744a066",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/CO4Rq7Br/CrowdControl-Fabric%2B1.19.4-3.3.5.jar",
+          "filename": "CrowdControl-Fabric+1.19.4-3.3.5.jar",
+          "primary": true,
+          "size": 9382112
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
@@ -834,12 +602,6 @@
           "dependency_type": "embedded"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "9s6osm5g",
           "version_id": "mhFzbEwE",
           "file_name": null,
@@ -848,81 +610,9 @@
       ]
     },
     {
-      "id": "AptBA4yg",
-      "name": "v3.3.4 (Fabric 1.20.1)",
-      "version_number": "3.3.4+fabric-1.20.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4b721b8b5b6b8aa11af6396557515e9a5a73abf9d65f91dafb6a048756c690ed02d3f73e478d22d96ddaca6c2373f3c424b155648855b54458fe1d48c7f034b0",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/AptBA4yg/CrowdControl-Fabric%2B1.20.1-3.3.4.jar",
-          "filename": "CrowdControl-Fabric+1.20.1-3.3.4.jar",
-          "primary": true,
-          "size": 9429969
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "qW85eawp",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "aeAdtO9a",
-      "name": "v3.3.4 (Paper 1.19.4+)",
-      "version_number": "3.3.4+paper",
-      "game_versions": [
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "paper",
-        "purpur"
-      ],
-      "files": [
-        {
-          "sha512": "ed863ce6cff0985cfbe0869722d9c93d15662cc89fcbfbccc6254aa8c6e389b371a7ff16fde42889fb72fd1843179f86a1271dee129c1b53d989df026b87e8af",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/aeAdtO9a/CrowdControl-Paper-3.3.4.jar",
-          "filename": "CrowdControl-Paper-3.3.4.jar",
-          "primary": true,
-          "size": 6345543
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "AZDYfgfq",
-      "name": "v3.3.4 (Sponge 8+)",
-      "version_number": "3.3.4+sponge8",
+      "id": "CXJEjQ7K",
+      "name": "v3.5.0 (Sponge 8)",
+      "version_number": "3.5.0+sponge8",
       "game_versions": [
         "1.16.5"
       ],
@@ -931,19 +621,19 @@
       ],
       "files": [
         {
-          "sha512": "adad3017b0fe3f9d347b32347a76c7a77383bb14c72c78ad13cb41b4b6a508c908c975b4b6bb70fd4b7e242643fe4519911120e02e2d84c74db403dd3c08255a",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/AZDYfgfq/CrowdControl-Sponge8-3.3.4.jar",
-          "filename": "CrowdControl-Sponge8-3.3.4.jar",
+          "sha512": "b3c892d1c00be460632b70b9173886adcdfa3c1bc709a3c99d441bb29f67e20710f81c0b4eb5ac9049753716f4ddef31078eac122cd04c32879b445e748e2e84",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/CXJEjQ7K/CrowdControl-Sponge8-3.5.0.jar",
+          "filename": "CrowdControl-Sponge8-3.5.0.jar",
           "primary": true,
-          "size": 6897685
+          "size": 2083119
         }
       ],
       "dependencies": []
     },
     {
-      "id": "bUEvlTIO",
-      "name": "v3.3.4 (Sponge 7)",
-      "version_number": "3.3.4+sponge7",
+      "id": "DAyUaFkX",
+      "name": "v3.3.1 (Sponge 7)",
+      "version_number": "3.3.1+sponge7",
       "game_versions": [
         "1.12.2"
       ],
@@ -952,11 +642,197 @@
       ],
       "files": [
         {
-          "sha512": "21f508472ac5968a950ba0073a67b6a55b4085affff912ae85d969313189074b7193255175df69c621d172d146fe70066b3719d4f924c65f5e2de0f2f9f653ce",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/bUEvlTIO/CrowdControl-Sponge7-3.3.4.jar",
-          "filename": "CrowdControl-Sponge7-3.3.4.jar",
+          "sha512": "b2b6c7a9731394a1766f7421256e372b7b8ac451f55b30610828d559f0b43c111cf86fc11151db1e57e87f0fef6c0fdd71c454f57956f1e4a3e3c8e56e6b04d5",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/DAyUaFkX/CrowdControl-Sponge7-3.3.1.jar",
+          "filename": "CrowdControl-Sponge7-3.3.1.jar",
           "primary": true,
-          "size": 6295233
+          "size": 6176158
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "DtjAXD43",
+      "name": "The Vote Update, patch 2",
+      "version_number": "23.13.2",
+      "game_versions": [
+        "23w13a_or_b"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "e031a5d59f2c34ec67b650b4d413719107a452bb513abf3b37b1705e18d90378efae4260e4fb820acb5cc84f6cd53358c107088afb9fa20fe774086a258d1494",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/DtjAXD43/CrowdControl-Fabric-23.13.2.jar",
+          "filename": "CrowdControl-Fabric-23.13.2.jar",
+          "primary": true,
+          "size": 20610425
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "TenXkoRu",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "iZRiOnnj",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "ECNcuf6J",
+      "name": "The Vote Update",
+      "version_number": "23.13.0",
+      "game_versions": [
+        "23w13a_or_b"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "6df906521cc9e2b191bd055f58cd3def0858d6f2c6ed9b0d7b5b5e22451c18ec06e6a932b33fde2c6a2ad1f8dbbf6beece4f2ac36612918a3da3cf23c5a4deb3",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/ECNcuf6J/CrowdControl-Fabric-23.13.0.jar",
+          "filename": "CrowdControl-Fabric-23.13.0.jar",
+          "primary": true,
+          "size": 19600651
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "TenXkoRu",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "LdN3cjOn",
+      "name": "v3.3.1 (Fabric 1.19.4)",
+      "version_number": "3.3.1+fabric-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "bfee75e4c4e183e11cc272838d603aec63612dabf366e8968dbb231e75ea42d953ec621a900f52986b99ef6c6e01271e6480489c437752b943f87719a7ef26e4",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/LdN3cjOn/CrowdControl-Fabric%2B1.19.4-3.3.1.jar",
+          "filename": "CrowdControl-Fabric+1.19.4-3.3.1.jar",
+          "primary": true,
+          "size": 9297179
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "5U5Y73uW",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "6XGTNEII",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "CtMNOUcV",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "h4Dd87o5",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "NCoFTt4W",
+      "name": "v3.3.0 (Sponge 7)",
+      "version_number": "3.3.0+sponge7",
+      "game_versions": [
+        "1.12.2"
+      ],
+      "loaders": [
+        "sponge"
+      ],
+      "files": [
+        {
+          "sha512": "77ff0e0b9b49e33d7a649e7c5513b5fc1e60925967ac7acde57b7dc02732e1cf68c9078167d7a167619abe2a5645de09778610ebb767d877668df5c748a2bdd1",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/NCoFTt4W/CrowdControl-Sponge7-3.3.0.jar",
+          "filename": "CrowdControl-Sponge7-3.3.0.jar",
+          "primary": true,
+          "size": 6197182
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "NhujYlCo",
+      "name": "v3.5.0 (Sponge 7)",
+      "version_number": "3.5.0+sponge7",
+      "game_versions": [
+        "1.12.2"
+      ],
+      "loaders": [
+        "sponge"
+      ],
+      "files": [
+        {
+          "sha512": "4a8815f804d29eb2bb4921e41fab3923e577066083fc5b0c81748cb7a0c1522fb558c8efb3e087c611325844b482207a2fdbf65eee01f1cf1006b61658ad0f1b",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/NhujYlCo/CrowdControl-Sponge7-3.5.0.jar",
+          "filename": "CrowdControl-Sponge7-3.5.0.jar",
+          "primary": true,
+          "size": 2183021
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "OD1UrvbB",
+      "name": "v3.3.1 (Sponge 8+)",
+      "version_number": "3.3.1+sponge8",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "sponge"
+      ],
+      "files": [
+        {
+          "sha512": "decc0472a25c6af192e77f464e79aaed4bde543b9c1feafb30c09b727fae1c9cfee4c89769feacf0555b87ee579158c052b822b0292b812cf0c081a6ccf3d775",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/OD1UrvbB/CrowdControl-Sponge8-3.3.1.jar",
+          "filename": "CrowdControl-Sponge8-3.3.1.jar",
+          "primary": true,
+          "size": 6779416
         }
       ],
       "dependencies": []
@@ -990,12 +866,6 @@
           "dependency_type": "embedded"
         },
         {
-          "project_id": "9s6osm5g",
-          "version_id": "y0kQixP8",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": "XheZ9iGK",
           "file_name": null,
@@ -1006,60 +876,86 @@
           "version_id": "eTCL1uh8",
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "qorobCZH",
-      "name": "v3.3.3 (Fabric 1.19.4)",
-      "version_number": "3.3.3+fabric-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "137cbf4c7cf8636755a1b116d232b7a4dc12dea478f5fe69c58c42d4755ed6363b6bfe34c47806526b1c6ff1fd26f21117482d4a333232639695a48a83e19d11",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/qorobCZH/CrowdControl-Fabric%2B1.19.4-3.3.3.jar",
-          "filename": "CrowdControl-Fabric+1.19.4-3.3.3.jar",
-          "primary": true,
-          "size": 9363085
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "h4Dd87o5",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
         },
         {
           "project_id": "9s6osm5g",
-          "version_id": "6XGTNEII",
+          "version_id": "y0kQixP8",
           "file_name": null,
           "dependency_type": "embedded"
         }
       ]
     },
     {
-      "id": "xjqOKC2L",
-      "name": "v3.3.3 (Fabric 1.19.2)",
-      "version_number": "3.3.3+fabric-1.19.2",
+      "id": "P2V6TtJc",
+      "name": "v3.3.5 (Sponge 7)",
+      "version_number": "3.3.5+sponge7",
+      "game_versions": [
+        "1.12.2"
+      ],
+      "loaders": [
+        "sponge"
+      ],
+      "files": [
+        {
+          "sha512": "6ecf67fae9342ce6d6faa954e37d9625dc942cdaecec981eb2e55664ad97b1df5e7401357e059f43754ae7acdbcf63623c12afb34b69379f04cedcba12ef4faf",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/P2V6TtJc/CrowdControl-Sponge7-3.3.5.jar",
+          "filename": "CrowdControl-Sponge7-3.3.5.jar",
+          "primary": true,
+          "size": 6294102
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "RfDZSQgp",
+      "name": "v3.3.5 (Paper 1.19.4+)",
+      "version_number": "3.3.5+paper",
+      "game_versions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "paper",
+        "purpur"
+      ],
+      "files": [
+        {
+          "sha512": "946f87c0000369787897d5315613d179a5b0136a4ba3883736a2c661a442ea380826528a80be144a6915811a0a49f12353960ad03dfd89717fec83fb4f03d366",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/RfDZSQgp/CrowdControl-Paper-3.3.5.jar",
+          "filename": "CrowdControl-Paper-3.3.5.jar",
+          "primary": true,
+          "size": 6346317
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "S9Hsst8p",
+      "name": "v3.3.0-rc2 (Sponge 8+)",
+      "version_number": "3.3.0-rc2",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "sponge"
+      ],
+      "files": [
+        {
+          "sha512": "6bc6735888959bccdd293ffbfae0e3b9e937e9218af18ba2fb9c9800dd7f6ed0b8c4542f02672eeea2bbcdf9f70d5b410ebb84eb50b282fcf2cb6d6b351f4cf0",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/S9Hsst8p/CrowdControl-Sponge8-3.3.0-rc2.jar",
+          "filename": "CrowdControl-Sponge8-3.3.0-rc2.jar",
+          "primary": true,
+          "size": 4488945
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "TgsfhL0d",
+      "name": "v3.3.4 (Fabric 1.19.2)",
+      "version_number": "3.3.4+fabric-1.19.2",
       "game_versions": [
         "1.19.2"
       ],
@@ -1069,39 +965,255 @@
       ],
       "files": [
         {
-          "sha512": "2e88e9cca955885328a724bb9dc25c41badcd893af0e3ac7ee44ad715efbb699f57c38a21f5e9e40af31b47f4194ea8afef3250e8a06e92289c9cc0e9124015e",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/xjqOKC2L/CrowdControl-Fabric%2B1.19.2-3.3.3.jar",
-          "filename": "CrowdControl-Fabric+1.19.2-3.3.3.jar",
+          "sha512": "47691a6be618ce7e67d607c79337ae0106a32fa1f7d491d785c3567957eb90820ee2c30108f9b03413a7a8ded8278f47e8d6e450ad9ac251822919ffcd1b5473",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/TgsfhL0d/CrowdControl-Fabric%2B1.19.2-3.3.4.jar",
+          "filename": "CrowdControl-Fabric+1.19.2-3.3.4.jar",
           "primary": true,
-          "size": 9301026
+          "size": 9318779
         }
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "EXrxCjl6",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
           "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "embedded"
         },
         {
           "project_id": "K01OU20C",
           "version_id": "tPfCTMiZ",
           "file_name": null,
           "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "UF7bfdqe",
+      "name": "v3.3.0-rc1 (Sponge 8+)",
+      "version_number": "3.3.0-rc1",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "sponge"
+      ],
+      "files": [
+        {
+          "sha512": "d0d0a8f724f335fcefe906a387c6e6c44778e9045c054167a2d9712f9690879cb4719bdf8796c4a7f0e7ad64032424db876a8b61146bb1c32bd2e6ea6dd06b77",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/UF7bfdqe/CrowdControl-Sponge8-3.3.0-rc1.jar",
+          "filename": "CrowdControl-Sponge8-3.3.0-rc1.jar",
+          "primary": true,
+          "size": 13976771
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "WJEqW0RK",
+      "name": "v3.3.0-rc1 (Fabric 1.19.3)",
+      "version_number": "3.3.0-rc1",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2bebd5c4679531f4d91b9c932056aad756123a8fa7ab2eaab4f02ed552ae86de4e0da80c79b84c764bd27a464f2bbb0710f5b28f720c935d429d7a40c22803bf",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/WJEqW0RK/CrowdControl-Fabric-3.3.0-rc1.jar",
+          "filename": "CrowdControl-Fabric-3.3.0-rc1.jar",
+          "primary": true,
+          "size": 8278593
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "1ld37x4U",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "h4Dd87o5",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "WV6gbD7K",
+      "name": "v3.5.0 (Fabric 1.21)",
+      "version_number": "3.5.0+fabric-1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a95f1b74694d57c18172a4042c5d1dc9c811850101295761c7d87e23a98f379e3bdbec7e36a455d4a8fa7cac18d44fb2a1d3e7707da38cc1a2bd3ec6bc1a5b16",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/WV6gbD7K/CrowdControl-Fabric%2B1.21-3.5.0.jar",
+          "filename": "CrowdControl-Fabric+1.21-3.5.0.jar",
+          "primary": true,
+          "size": 5267853
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "Yc8omJNb",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "uPWCQrVL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "quTFtjka",
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
+    },
+    {
+      "id": "Ws08Uq2I",
+      "name": "v3.3.5 (Sponge 8+)",
+      "version_number": "3.3.5+sponge8",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "sponge"
+      ],
+      "files": [
+        {
+          "sha512": "aeda15dde3f3ff6b6635d18180184987e3bdbe99af51fa419abb09bc3539279b319bffb7f0424c6ee2b5e2b6ea42096557bc0c29331c81eb408a0ce3ad58d987",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/Ws08Uq2I/CrowdControl-Sponge8-3.3.5.jar",
+          "filename": "CrowdControl-Sponge8-3.3.5.jar",
+          "primary": true,
+          "size": 6896597
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "aK6JfFez",
+      "name": "v3.3.2 (Sponge 7)",
+      "version_number": "3.3.2+sponge7",
+      "game_versions": [
+        "1.12.2"
+      ],
+      "loaders": [
+        "sponge"
+      ],
+      "files": [
+        {
+          "sha512": "df1910045edcf12ad0005f094af68b5dcb8f7f5a108655c58b8da4bf7ce044aa3a796b4c9bfc6bacf238c160f4dabf661b8276f74e66b76a504751a65635b0e2",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/aK6JfFez/CrowdControl-Sponge7-3.3.2.jar",
+          "filename": "CrowdControl-Sponge7-3.3.2.jar",
+          "primary": true,
+          "size": 6287600
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "aeAdtO9a",
+      "name": "v3.3.4 (Paper 1.19.4+)",
+      "version_number": "3.3.4+paper",
+      "game_versions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "paper",
+        "purpur"
+      ],
+      "files": [
+        {
+          "sha512": "ed863ce6cff0985cfbe0869722d9c93d15662cc89fcbfbccc6254aa8c6e389b371a7ff16fde42889fb72fd1843179f86a1271dee129c1b53d989df026b87e8af",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/aeAdtO9a/CrowdControl-Paper-3.3.4.jar",
+          "filename": "CrowdControl-Paper-3.3.4.jar",
+          "primary": true,
+          "size": 6345543
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "aus7zJ7S",
+      "name": "v3.3.0-rc1 (Sponge 7)",
+      "version_number": "3.3.0-rc1",
+      "game_versions": [
+        "1.12.2"
+      ],
+      "loaders": [
+        "sponge"
+      ],
+      "files": [
+        {
+          "sha512": "6d1111b1576ca89af49687b81fde2ee9ad062f9ebb783d13181420fae72189775da790514a55445b6aa79b2b69c51a7841457ac372a1faa1921c1d5e9e14d384",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/aus7zJ7S/CrowdControl-Sponge7-3.3.0-rc1.jar",
+          "filename": "CrowdControl-Sponge7-3.3.0-rc1.jar",
+          "primary": true,
+          "size": 6178162
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "bUEvlTIO",
+      "name": "v3.3.4 (Sponge 7)",
+      "version_number": "3.3.4+sponge7",
+      "game_versions": [
+        "1.12.2"
+      ],
+      "loaders": [
+        "sponge"
+      ],
+      "files": [
+        {
+          "sha512": "21f508472ac5968a950ba0073a67b6a55b4085affff912ae85d969313189074b7193255175df69c621d172d146fe70066b3719d4f924c65f5e2de0f2f9f653ce",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/bUEvlTIO/CrowdControl-Sponge7-3.3.4.jar",
+          "filename": "CrowdControl-Sponge7-3.3.4.jar",
+          "primary": true,
+          "size": 6295233
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "cAjLxXKc",
@@ -1146,6 +1258,143 @@
       "dependencies": []
     },
     {
+      "id": "desJR6me",
+      "name": "v3.3.5 (Fabric 1.20.2)",
+      "version_number": "3.3.5+fabric-1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2770d04453faf6f5bf111c28da4ddd1347740a8cf65173e6e27e63e61cf6d51e573f59038eb15160713c899ae4038f1d5195498f6240f5f394132d8d468e372d",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/desJR6me/CrowdControl-Fabric%2B1.20.2-3.3.5.jar",
+          "filename": "CrowdControl-Fabric+1.20.2-3.3.5.jar",
+          "primary": true,
+          "size": 9214898
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "K01OU20C",
+          "version_id": "IBZVrThp",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "LnfolBYb",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "dpLHjBiX",
+      "name": "v3.3.4 (Fabric 1.19.4)",
+      "version_number": "3.3.4+fabric-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "caed41fba3df596186331527c47d7a7572ad773dd7adbc0168411fe1528cc7bedcd8a26793cf9bbeda71214964498d67e532fe480ae24de899850ab19cac3a18",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/dpLHjBiX/CrowdControl-Fabric%2B1.19.4-3.3.4.jar",
+          "filename": "CrowdControl-Fabric+1.19.4-3.3.4.jar",
+          "primary": true,
+          "size": 9171029
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "h4Dd87o5",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "mhFzbEwE",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "gbe72MmW",
+      "name": "v3.3.0-rc2 (Paper 1.19.4+)",
+      "version_number": "3.3.0-rc2",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "paper",
+        "purpur"
+      ],
+      "files": [
+        {
+          "sha512": "913ad94f52385b6460cc8532c2c0e31ad6f93f0b575da2e727b0d12d5c8d2fd45994e57735001f5d385ad8ea609a6ecbdccac7ae69c0638696c118a2d64072ad",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/gbe72MmW/CrowdControl-Paper-3.3.0-rc2.jar",
+          "filename": "CrowdControl-Paper-3.3.0-rc2.jar",
+          "primary": true,
+          "size": 3984562
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "gkyXnBxr",
+      "name": "v3.2.5 (Sponge 7) [CC 1.0]",
+      "version_number": "3.2.5+sponge7",
+      "game_versions": [
+        "1.12.2"
+      ],
+      "loaders": [
+        "sponge"
+      ],
+      "files": [
+        {
+          "sha512": "737fc7c562591a7be10533733679d7e63e9f3c27248f0d46cd1d1a8027a425f85f34595deae282148d95b5f376cb2788c7796792935f146114f33ae0666a4680",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/gkyXnBxr/CrowdControl-Sponge7-v3.2.5.jar",
+          "filename": "CrowdControl-Sponge7-v3.2.5.jar",
+          "primary": true,
+          "size": 2967726
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "hY1Mx9jD",
       "name": "v3.3.3 (Paper 1.19.4+)",
       "version_number": "3.3.3+paper",
@@ -1170,194 +1419,19 @@
       "dependencies": []
     },
     {
-      "id": "xP6QXZMx",
-      "name": "v3.3.2 (Fabric 1.20.1)",
-      "version_number": "3.3.2+fabric-1.20.1",
+      "id": "igBbiAq7",
+      "name": "v3.2.5 (Paper 1.17+) [CC 1.0]",
+      "version_number": "3.2.5+paper",
       "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "80afec35eea0843271c7c68dcfb803d48a9e154165481c408402cd6decc4e572e7b950f38369e9688c4cafe63dc63445aadd767c684ea59d43c887fe8fe402bd",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/xP6QXZMx/CrowdControl-Fabric%2B1.20.1-3.3.2.jar",
-          "filename": "CrowdControl-Fabric+1.20.1-3.3.2.jar",
-          "primary": true,
-          "size": 9372961
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "K01OU20C",
-          "version_id": "HykM2Qyv",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "y0kQixP8",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "zv46i3PW",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "FLGCXPFi",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "vyKyo9ba",
-      "name": "v3.3.2 (Fabric 1.19.4)",
-      "version_number": "3.3.2+fabric-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "b48b9bdaed4b3bda0489e54181b44646c2d902792f1cc5c722f9f34b90aa55398cdafd0012a7c71d561d61b69a476ab864022b734b126d94db65ff170d65d7f5",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/vyKyo9ba/CrowdControl-Fabric%2B1.19.4-3.3.2.jar",
-          "filename": "CrowdControl-Fabric+1.19.4-3.3.2.jar",
-          "primary": true,
-          "size": 9365956
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "6XGTNEII",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "h4Dd87o5",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "CtMNOUcV",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "5U5Y73uW",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "B71GKE5O",
-      "name": "v3.3.2 (Fabric 1.19.2)",
-      "version_number": "3.3.2+fabric-1.19.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "a65789360ab60a31285f5d99a188ec025f51645b70910aaa95970f522cdef8e60f8009a9b0c19306bc7108e0c56a5eb51c80d4b003edb70d9aad143ab36894f1",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/B71GKE5O/CrowdControl-Fabric%2B1.19.2-3.3.2.jar",
-          "filename": "CrowdControl-Fabric+1.19.2-3.3.2.jar",
-          "primary": true,
-          "size": 9303884
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "EXrxCjl6",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "tPfCTMiZ",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "3D0aWEkk",
-      "name": "v3.3.2 (Sponge 8+)",
-      "version_number": "3.3.2+sponge8",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "sponge"
-      ],
-      "files": [
-        {
-          "sha512": "c742e25351b30c9b714562392543df6ef790f20de20f5b40c3e1a74c11129431864cf43c42753e478ffb4a60c95e93f8fc890821c70a41e953387a730bd92872",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/3D0aWEkk/CrowdControl-Sponge8-3.3.2.jar",
-          "filename": "CrowdControl-Sponge8-3.3.2.jar",
-          "primary": true,
-          "size": 6890847
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "aK6JfFez",
-      "name": "v3.3.2 (Sponge 7)",
-      "version_number": "3.3.2+sponge7",
-      "game_versions": [
-        "1.12.2"
-      ],
-      "loaders": [
-        "sponge"
-      ],
-      "files": [
-        {
-          "sha512": "df1910045edcf12ad0005f094af68b5dcb8f7f5a108655c58b8da4bf7ce044aa3a796b4c9bfc6bacf238c160f4dabf661b8276f74e66b76a504751a65635b0e2",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/aK6JfFez/CrowdControl-Sponge7-3.3.2.jar",
-          "filename": "CrowdControl-Sponge7-3.3.2.jar",
-          "primary": true,
-          "size": 6287600
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ACkcUYpj",
-      "name": "v3.3.2 (Paper 1.19.4+)",
-      "version_number": "3.3.2+paper",
-      "game_versions": [
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
         "1.19.4",
         "1.20",
         "1.20.1"
@@ -1368,134 +1442,19 @@
       ],
       "files": [
         {
-          "sha512": "6d64f3c615a40db10a511b24b0415176106a8725a07ab35a2da39ab308868ff3da3037ded237a455e4fdabc6b60a0a67db96f877d69b55eb0dc766ee4fb572c9",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/ACkcUYpj/CrowdControl-Paper-3.3.2.jar",
-          "filename": "CrowdControl-Paper-3.3.2.jar",
+          "sha512": "3f99380f950867c5d922a3bec635058688ce6fece43be5d589e02ac4bffb82b9da801e98af367805980b752117a6626e8492ee25c83f3c25dc99045651713912",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/igBbiAq7/CrowdControl-Paper-v3.2.5.jar",
+          "filename": "CrowdControl-Paper-v3.2.5.jar",
           "primary": true,
-          "size": 6340150
+          "size": 5188785
         }
       ],
       "dependencies": []
     },
     {
-      "id": "LdN3cjOn",
-      "name": "v3.3.1 (Fabric 1.19.4)",
-      "version_number": "3.3.1+fabric-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "bfee75e4c4e183e11cc272838d603aec63612dabf366e8968dbb231e75ea42d953ec621a900f52986b99ef6c6e01271e6480489c437752b943f87719a7ef26e4",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/LdN3cjOn/CrowdControl-Fabric%2B1.19.4-3.3.1.jar",
-          "filename": "CrowdControl-Fabric+1.19.4-3.3.1.jar",
-          "primary": true,
-          "size": 9297179
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "6XGTNEII",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "5U5Y73uW",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "CtMNOUcV",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "h4Dd87o5",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "3yUMZOlD",
-      "name": "v3.3.1 (Fabric 1.19.2)",
-      "version_number": "3.3.1+fabric-1.19.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "b18afdad4c0206c7ca7716854d851a2b2a73d65aa8214a157d29057c3f24842eb175be56444c54a2f091b3c481c8ec7d73f51a0c930d4afa0c44213a15b3fabc",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/3yUMZOlD/CrowdControl-Fabric%2B1.19.2-3.3.1.jar",
-          "filename": "CrowdControl-Fabric+1.19.2-3.3.1.jar",
-          "primary": true,
-          "size": 9235172
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "V4hnfgRO",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "EXrxCjl6",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "tPfCTMiZ",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "OD1UrvbB",
-      "name": "v3.3.1 (Sponge 8+)",
-      "version_number": "3.3.1+sponge8",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "sponge"
-      ],
-      "files": [
-        {
-          "sha512": "decc0472a25c6af192e77f464e79aaed4bde543b9c1feafb30c09b727fae1c9cfee4c89769feacf0555b87ee579158c052b822b0292b812cf0c081a6ccf3d775",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/OD1UrvbB/CrowdControl-Sponge8-3.3.1.jar",
-          "filename": "CrowdControl-Sponge8-3.3.1.jar",
-          "primary": true,
-          "size": 6779416
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "DAyUaFkX",
-      "name": "v3.3.1 (Sponge 7)",
-      "version_number": "3.3.1+sponge7",
+      "id": "jeMn8mMG",
+      "name": "v3.3.6 (Sponge 7)",
+      "version_number": "3.3.6+sponge7",
       "game_versions": [
         "1.12.2"
       ],
@@ -1504,36 +1463,49 @@
       ],
       "files": [
         {
-          "sha512": "b2b6c7a9731394a1766f7421256e372b7b8ac451f55b30610828d559f0b43c111cf86fc11151db1e57e87f0fef6c0fdd71c454f57956f1e4a3e3c8e56e6b04d5",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/DAyUaFkX/CrowdControl-Sponge7-3.3.1.jar",
-          "filename": "CrowdControl-Sponge7-3.3.1.jar",
+          "sha512": "998c0ef3c10d02952f377be7166f2c253ad54e4ee8b4098b4eb5960c0ed35e4b255acadcff683deb44b35ecf73c1d4dbb75b342271745fc3c148e07d658aaf69",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/jeMn8mMG/CrowdControl-Sponge7-3.3.6.jar",
+          "filename": "CrowdControl-Sponge7-3.3.6.jar",
           "primary": true,
-          "size": 6176158
+          "size": 6323059
         }
       ],
       "dependencies": []
     },
     {
-      "id": "zh0fIpBZ",
-      "name": "v3.3.1 (Paper 1.19.4+)",
-      "version_number": "3.3.1+paper",
+      "id": "lpvRlMtG",
+      "name": "The Vote Update, patch 1",
+      "version_number": "23.13.1",
       "game_versions": [
-        "1.19.4"
+        "23w13a_or_b"
       ],
       "loaders": [
-        "paper",
-        "purpur"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "7dbcc3c45c29f55292cb1bf536d797c04d01ec2375b78d717e6a3a5e5f636dbbf8e655fa793f98dbcacee2143a65fdeaad1708bd32f272b534dd324b137a0ea9",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/zh0fIpBZ/CrowdControl-Paper-3.3.1.jar",
-          "filename": "CrowdControl-Paper-3.3.1.jar",
+          "sha512": "ec0399a4aa4f61dbe0841844f8668d49f1596d9eb402a5aa2cae306515e2c6ff7ce9fd07e4880ca5a5f6e4a55693d3b4551f1c51b02c9711bfdec8eb765ac737",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/lpvRlMtG/CrowdControl-Fabric-23.13.1.jar",
+          "filename": "CrowdControl-Fabric-23.13.1.jar",
           "primary": true,
-          "size": 6740368
+          "size": 19601570
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "TenXkoRu",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
     },
     {
       "id": "nfiJ4Beo",
@@ -1589,6 +1561,28 @@
       ]
     },
     {
+      "id": "nn5h9T93",
+      "name": "v3.5.0 (Sponge 11+)",
+      "version_number": "3.5.0+sponge11",
+      "game_versions": [
+        "1.20.6",
+        "1.21"
+      ],
+      "loaders": [
+        "sponge"
+      ],
+      "files": [
+        {
+          "sha512": "a20e94f1c5ce446dcb5d308d6df4dd6eafdbf238c6d3b5ab7a40540298b9f4cf2785474289542ab51fedb5e49235536349f50bfb71b384a076c1235e5a8b2a6a",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/nn5h9T93/CrowdControl-Sponge11-3.5.0.jar",
+          "filename": "CrowdControl-Sponge11-3.5.0.jar",
+          "primary": true,
+          "size": 1395374
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "oR8qBtKM",
       "name": "v3.3.0 (Sponge 8+)",
       "version_number": "3.3.0+sponge8",
@@ -1610,56 +1604,12 @@
       "dependencies": []
     },
     {
-      "id": "NCoFTt4W",
-      "name": "v3.3.0 (Sponge 7)",
-      "version_number": "3.3.0+sponge7",
+      "id": "paFiEC4s",
+      "name": "v3.3.6 (Fabric 1.20.4)",
+      "version_number": "3.3.6+fabric-1.20.4",
       "game_versions": [
-        "1.12.2"
-      ],
-      "loaders": [
-        "sponge"
-      ],
-      "files": [
-        {
-          "sha512": "77ff0e0b9b49e33d7a649e7c5513b5fc1e60925967ac7acde57b7dc02732e1cf68c9078167d7a167619abe2a5645de09778610ebb767d877668df5c748a2bdd1",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/NCoFTt4W/CrowdControl-Sponge7-3.3.0.jar",
-          "filename": "CrowdControl-Sponge7-3.3.0.jar",
-          "primary": true,
-          "size": 6197182
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "7mXkms0i",
-      "name": "v3.3.0 (Paper 1.19.4+)",
-      "version_number": "3.3.0+paper",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "paper",
-        "purpur"
-      ],
-      "files": [
-        {
-          "sha512": "123269568d8bff440bec9ab7345e55556c04d6dbcbcd0bdfa6dec30f521f743b2cc05731560e0a8b23a80770af7e6233b518e9c70ba629f56a26c7627640b793",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/7mXkms0i/CrowdControl-Paper-3.3.0.jar",
-          "filename": "CrowdControl-Paper-3.3.0.jar",
-          "primary": true,
-          "size": 6762614
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "34bWPpcE",
-      "name": "v3.3.0 (Fabric 1.19.4)",
-      "version_number": "3.3.0+fabric-1.19.4",
-      "game_versions": [
-        "1.19.4",
-        "23w12a",
-        "23w13a"
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
         "fabric",
@@ -1667,26 +1617,67 @@
       ],
       "files": [
         {
-          "sha512": "758d394136aac0784cba4d41940517a277663f17a27479e529f9dab7d4b1876e10eaa26547759787d52fb55e36f8eaea50e0ffd7962d27d2bbfbd039e4590998",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/34bWPpcE/CrowdControl-Fabric%2B1.19.4-3.3.0.jar",
-          "filename": "CrowdControl-Fabric+1.19.4-3.3.0.jar",
+          "sha512": "27afe8e3d22f545c89e37a45d844575de38b2f063cb9dd89276af7c00d8edcc96fb0f5a30951d579b9c40414c65a4036b0b7b170c6706ee164bb52e17155e05a",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/paFiEC4s/CrowdControl-Fabric%2B1.20.4-3.3.6.jar",
+          "filename": "CrowdControl-Fabric+1.20.4-3.3.6.jar",
           "primary": true,
-          "size": 9319476
+          "size": 9176547
         }
       ],
       "dependencies": [
         {
           "project_id": "K01OU20C",
-          "version_id": "h4Dd87o5",
+          "version_id": "DObEjZD4",
           "file_name": null,
           "dependency_type": "embedded"
         },
         {
+          "project_id": "uPWCQrVL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "P7dR8mSH",
-          "version_id": "s5UrEfIY",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "eBZiZ9NS",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "qorobCZH",
+      "name": "v3.3.3 (Fabric 1.19.4)",
+      "version_number": "3.3.3+fabric-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "137cbf4c7cf8636755a1b116d232b7a4dc12dea478f5fe69c58c42d4755ed6363b6bfe34c47806526b1c6ff1fd26f21117482d4a333232639695a48a83e19d11",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/qorobCZH/CrowdControl-Fabric%2B1.19.4-3.3.3.jar",
+          "filename": "CrowdControl-Fabric+1.19.4-3.3.3.jar",
+          "primary": true,
+          "size": 9363085
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "9s6osm5g",
           "version_id": "6XGTNEII",
@@ -1694,150 +1685,16 @@
           "dependency_type": "embedded"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": "iZRiOnnj",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "DtjAXD43",
-      "name": "The Vote Update, patch 2",
-      "version_number": "23.13.2",
-      "game_versions": [
-        "23w13a_or_b"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "e031a5d59f2c34ec67b650b4d413719107a452bb513abf3b37b1705e18d90378efae4260e4fb820acb5cc84f6cd53358c107088afb9fa20fe774086a258d1494",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/DtjAXD43/CrowdControl-Fabric-23.13.2.jar",
-          "filename": "CrowdControl-Fabric-23.13.2.jar",
-          "primary": true,
-          "size": 20610425
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "TenXkoRu",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "iZRiOnnj",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "lpvRlMtG",
-      "name": "The Vote Update, patch 1",
-      "version_number": "23.13.1",
-      "game_versions": [
-        "23w13a_or_b"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ec0399a4aa4f61dbe0841844f8668d49f1596d9eb402a5aa2cae306515e2c6ff7ce9fd07e4880ca5a5f6e4a55693d3b4551f1c51b02c9711bfdec8eb765ac737",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/lpvRlMtG/CrowdControl-Fabric-23.13.1.jar",
-          "filename": "CrowdControl-Fabric-23.13.1.jar",
-          "primary": true,
-          "size": 19601570
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "TenXkoRu",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "ECNcuf6J",
-      "name": "The Vote Update",
-      "version_number": "23.13.0",
-      "game_versions": [
-        "23w13a_or_b"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6df906521cc9e2b191bd055f58cd3def0858d6f2c6ed9b0d7b5b5e22451c18ec06e6a932b33fde2c6a2ad1f8dbbf6beece4f2ac36612918a3da3cf23c5a4deb3",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/ECNcuf6J/CrowdControl-Fabric-23.13.0.jar",
-          "filename": "CrowdControl-Fabric-23.13.0.jar",
-          "primary": true,
-          "size": 19600651
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "TenXkoRu",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "CLvIk2VE",
-      "name": "v3.3.0-rc2 (Fabric 1.19.4)",
-      "version_number": "3.3.0-rc2",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0a38e58609577696589609e20933468d0c8f9afc2618d0fa05d6a4571bad0693093a213d542115c3a8c3a792d73290337a36ad97eaf664c8b635054e086709bd",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/CLvIk2VE/CrowdControl-Fabric-3.3.0-rc2.jar",
-          "filename": "CrowdControl-Fabric-3.3.0-rc2.jar",
-          "primary": true,
-          "size": 5858660
-        }
-      ],
-      "dependencies": [
-        {
           "project_id": "K01OU20C",
           "version_id": "h4Dd87o5",
           "file_name": null,
           "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
@@ -1848,22 +1705,70 @@
       ]
     },
     {
-      "id": "S9Hsst8p",
-      "name": "v3.3.0-rc2 (Sponge 8+)",
-      "version_number": "3.3.0-rc2",
+      "id": "rGBBTPCd",
+      "name": "v3.3.5 (Fabric 1.19.2)",
+      "version_number": "3.3.5+fabric-1.19.2",
       "game_versions": [
-        "1.16.5"
+        "1.19.2"
       ],
       "loaders": [
-        "sponge"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "6bc6735888959bccdd293ffbfae0e3b9e937e9218af18ba2fb9c9800dd7f6ed0b8c4542f02672eeea2bbcdf9f70d5b410ebb84eb50b282fcf2cb6d6b351f4cf0",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/S9Hsst8p/CrowdControl-Sponge8-3.3.0-rc2.jar",
-          "filename": "CrowdControl-Sponge8-3.3.0-rc2.jar",
+          "sha512": "c5596e5799dcf9e15b3a1e0ea284a0c955749f34a8a0e4caeed53ea8f40af2c1a9c1a61534d45954479e3f857a6c85614f6eb82e49784924be0560e053994a89",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/rGBBTPCd/CrowdControl-Fabric%2B1.19.2-3.3.5.jar",
+          "filename": "CrowdControl-Fabric+1.19.2-3.3.5.jar",
           "primary": true,
-          "size": 4488945
+          "size": 9319440
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "tPfCTMiZ",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "tMXfT7B3",
+      "name": "v3.4.0 (Paper 1.20.6+)",
+      "version_number": "3.4.0+paper",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "paper",
+        "purpur"
+      ],
+      "files": [
+        {
+          "sha512": "44cbb65e92662f3f80d30341809c5fb191f35bea96946a4d3a09be290fcf1c9493654619140bbd5fdd7c85dfffb4e65586722b110a9fe4742965e74e90dfba21",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/tMXfT7B3/CrowdControl-Paper%2B1.20.6-3.4.0.jar",
+          "filename": "CrowdControl-Paper+1.20.6-3.4.0.jar",
+          "primary": true,
+          "size": 6424088
         }
       ],
       "dependencies": []
@@ -1890,87 +1795,9 @@
       "dependencies": []
     },
     {
-      "id": "gbe72MmW",
-      "name": "v3.3.0-rc2 (Paper 1.19.4+)",
-      "version_number": "3.3.0-rc2",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "paper",
-        "purpur"
-      ],
-      "files": [
-        {
-          "sha512": "913ad94f52385b6460cc8532c2c0e31ad6f93f0b575da2e727b0d12d5c8d2fd45994e57735001f5d385ad8ea609a6ecbdccac7ae69c0638696c118a2d64072ad",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/gbe72MmW/CrowdControl-Paper-3.3.0-rc2.jar",
-          "filename": "CrowdControl-Paper-3.3.0-rc2.jar",
-          "primary": true,
-          "size": 3984562
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "WJEqW0RK",
-      "name": "v3.3.0-rc1 (Fabric 1.19.3)",
-      "version_number": "3.3.0-rc1",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2bebd5c4679531f4d91b9c932056aad756123a8fa7ab2eaab4f02ed552ae86de4e0da80c79b84c764bd27a464f2bbb0710f5b28f720c935d429d7a40c22803bf",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/WJEqW0RK/CrowdControl-Fabric-3.3.0-rc1.jar",
-          "filename": "CrowdControl-Fabric-3.3.0-rc1.jar",
-          "primary": true,
-          "size": 8278593
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "K01OU20C",
-          "version_id": "h4Dd87o5",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "1ld37x4U",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "UF7bfdqe",
-      "name": "v3.3.0-rc1 (Sponge 8+)",
-      "version_number": "3.3.0-rc1",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "sponge"
-      ],
-      "files": [
-        {
-          "sha512": "d0d0a8f724f335fcefe906a387c6e6c44778e9045c054167a2d9712f9690879cb4719bdf8796c4a7f0e7ad64032424db876a8b61146bb1c32bd2e6ea6dd06b77",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/UF7bfdqe/CrowdControl-Sponge8-3.3.0-rc1.jar",
-          "filename": "CrowdControl-Sponge8-3.3.0-rc1.jar",
-          "primary": true,
-          "size": 13976771
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "aus7zJ7S",
-      "name": "v3.3.0-rc1 (Sponge 7)",
-      "version_number": "3.3.0-rc1",
+      "id": "vCwIOaAn",
+      "name": "v3.4.0 (Sponge 7)",
+      "version_number": "3.4.0+sponge7",
       "game_versions": [
         "1.12.2"
       ],
@@ -1979,11 +1806,216 @@
       ],
       "files": [
         {
-          "sha512": "6d1111b1576ca89af49687b81fde2ee9ad062f9ebb783d13181420fae72189775da790514a55445b6aa79b2b69c51a7841457ac372a1faa1921c1d5e9e14d384",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/aus7zJ7S/CrowdControl-Sponge7-3.3.0-rc1.jar",
-          "filename": "CrowdControl-Sponge7-3.3.0-rc1.jar",
+          "sha512": "bfeb4386682f1b4c95c3e81f8e2b23f0817b0b98bdcf24e1ec893ce852df6576af3c78b3a5276b6731eaf6fc92cd881030adf91bd577ef664323afe4f606766f",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/vCwIOaAn/CrowdControl-Sponge7-3.4.0.jar",
+          "filename": "CrowdControl-Sponge7-3.4.0.jar",
           "primary": true,
-          "size": 6178162
+          "size": 6352022
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "vyKyo9ba",
+      "name": "v3.3.2 (Fabric 1.19.4)",
+      "version_number": "3.3.2+fabric-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "b48b9bdaed4b3bda0489e54181b44646c2d902792f1cc5c722f9f34b90aa55398cdafd0012a7c71d561d61b69a476ab864022b734b126d94db65ff170d65d7f5",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/vyKyo9ba/CrowdControl-Fabric%2B1.19.4-3.3.2.jar",
+          "filename": "CrowdControl-Fabric+1.19.4-3.3.2.jar",
+          "primary": true,
+          "size": 9365956
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "5U5Y73uW",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "6XGTNEII",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "CtMNOUcV",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "h4Dd87o5",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "w7Ak6QI7",
+      "name": "v3.4.0 (Sponge 8+)",
+      "version_number": "3.4.0+sponge8",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "sponge"
+      ],
+      "files": [
+        {
+          "sha512": "8a20fdcbd89d565a4b85346b2255f5badc8bda9791311ddb5b9c16adf127ebfc45e73a326540cb7dbc32d4afeb928edc1bcd75d6cbb0f25626e032d104062a24",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/w7Ak6QI7/CrowdControl-Sponge8-3.4.0.jar",
+          "filename": "CrowdControl-Sponge8-3.4.0.jar",
+          "primary": true,
+          "size": 6957240
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "xP6QXZMx",
+      "name": "v3.3.2 (Fabric 1.20.1)",
+      "version_number": "3.3.2+fabric-1.20.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "80afec35eea0843271c7c68dcfb803d48a9e154165481c408402cd6decc4e572e7b950f38369e9688c4cafe63dc63445aadd767c684ea59d43c887fe8fe402bd",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/xP6QXZMx/CrowdControl-Fabric%2B1.20.1-3.3.2.jar",
+          "filename": "CrowdControl-Fabric+1.20.1-3.3.2.jar",
+          "primary": true,
+          "size": 9372961
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "FLGCXPFi",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "HykM2Qyv",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "y0kQixP8",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "zv46i3PW",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "xjUujlrk",
+      "name": "v3.3.6 (Sponge 8+)",
+      "version_number": "3.3.6+sponge8",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "sponge"
+      ],
+      "files": [
+        {
+          "sha512": "1d531564ded46b29337fab6bfd217e8cae51a1c63cc8fccc3ff1486354a9b3fc142c498cfdfb7a5c2e6b2076c36f63d776f1c36cdfa59669ed813c203912f8d8",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/xjUujlrk/CrowdControl-Sponge8-3.3.6.jar",
+          "filename": "CrowdControl-Sponge8-3.3.6.jar",
+          "primary": true,
+          "size": 6928493
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "xjqOKC2L",
+      "name": "v3.3.3 (Fabric 1.19.2)",
+      "version_number": "3.3.3+fabric-1.19.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2e88e9cca955885328a724bb9dc25c41badcd893af0e3ac7ee44ad715efbb699f57c38a21f5e9e40af31b47f4194ea8afef3250e8a06e92289c9cc0e9124015e",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/xjqOKC2L/CrowdControl-Fabric%2B1.19.2-3.3.3.jar",
+          "filename": "CrowdControl-Fabric+1.19.2-3.3.3.jar",
+          "primary": true,
+          "size": 9301026
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "EXrxCjl6",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "tPfCTMiZ",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "ycQHjT10",
+      "name": "v3.4.2 (Sponge 8)",
+      "version_number": "3.4.2+sponge8",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "sponge"
+      ],
+      "files": [
+        {
+          "sha512": "053271f3fbcde7728ad723f974929ce0be4c0074c71015c11e99915abdc2e9c81e42a04570c8b726e08be3ddb4bbe42fce8abb7e143765c2c3f13dc684d1b323",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/ycQHjT10/CrowdControl-Sponge8-3.4.2.jar",
+          "filename": "CrowdControl-Sponge8-3.4.2.jar",
+          "primary": true,
+          "size": 6962925
         }
       ],
       "dependencies": []
@@ -2015,43 +2047,11 @@
       "dependencies": []
     },
     {
-      "id": "gkyXnBxr",
-      "name": "v3.2.5 (Sponge 7) [CC 1.0]",
-      "version_number": "3.2.5+sponge7",
+      "id": "zh0fIpBZ",
+      "name": "v3.3.1 (Paper 1.19.4+)",
+      "version_number": "3.3.1+paper",
       "game_versions": [
-        "1.12.2"
-      ],
-      "loaders": [
-        "sponge"
-      ],
-      "files": [
-        {
-          "sha512": "737fc7c562591a7be10533733679d7e63e9f3c27248f0d46cd1d1a8027a425f85f34595deae282148d95b5f376cb2788c7796792935f146114f33ae0666a4680",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/gkyXnBxr/CrowdControl-Sponge7-v3.2.5.jar",
-          "filename": "CrowdControl-Sponge7-v3.2.5.jar",
-          "primary": true,
-          "size": 2967726
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "igBbiAq7",
-      "name": "v3.2.5 (Paper 1.17+) [CC 1.0]",
-      "version_number": "3.2.5+paper",
-      "game_versions": [
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
+        "1.19.4"
       ],
       "loaders": [
         "paper",
@@ -2059,11 +2059,11 @@
       ],
       "files": [
         {
-          "sha512": "3f99380f950867c5d922a3bec635058688ce6fece43be5d589e02ac4bffb82b9da801e98af367805980b752117a6626e8492ee25c83f3c25dc99045651713912",
-          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/igBbiAq7/CrowdControl-Paper-v3.2.5.jar",
-          "filename": "CrowdControl-Paper-v3.2.5.jar",
+          "sha512": "7dbcc3c45c29f55292cb1bf536d797c04d01ec2375b78d717e6a3a5e5f636dbbf8e655fa793f98dbcacee2143a65fdeaad1708bd32f272b534dd324b137a0ea9",
+          "url": "https://cdn.modrinth.com/data/6XhH9LqD/versions/zh0fIpBZ/CrowdControl-Paper-3.3.1.jar",
+          "filename": "CrowdControl-Paper-3.3.1.jar",
           "primary": true,
-          "size": 5188785
+          "size": 6740368
         }
       ],
       "dependencies": []

@@ -5,18 +5,12 @@
   "description": "Compatibility add-on for Farmer's delight mod and CTOV ",
   "versions": [
     {
-      "id": "qWJ0YcQq",
-      "name": "2.1",
-      "version_number": "2.1+mod",
+      "id": "Bp3TnFpM",
+      "name": "2.0",
+      "version_number": "2.0+mod",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
         "1.20",
-        "1.20.1",
-        "1.20.2"
+        "1.20.1"
       ],
       "loaders": [
         "fabric",
@@ -25,23 +19,62 @@
       ],
       "files": [
         {
-          "sha512": "79724964a5e8c31356b2efa4c8811c928d2f5095016e19162de90d7d4c4fbba3dcaa49db003a5f3d588d177d7c7008551af8f77677f52831ec62e05f69547441",
-          "url": "https://cdn.modrinth.com/data/CdRC4fyI/versions/qWJ0YcQq/ctov-farmers-delight-compat-2.1.jar",
-          "filename": "ctov-farmers-delight-compat-2.1.jar",
+          "sha512": "195b115278338fa3c1642f3889d750273e275ebcf79dde822febb2576ac36d49944bfcaa5983135651f2ec0ebff327aecda9fbc49bdc24e5b3dc26f781103624",
+          "url": "https://cdn.modrinth.com/data/CdRC4fyI/versions/Bp3TnFpM/ctov-farmers-delight-compat-2.0.jar",
+          "filename": "ctov-farmers-delight-compat-2.0.jar",
           "primary": true,
-          "size": 197762
+          "size": 197854
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "fgmhI8kH",
+          "version_id": "f51MDpat",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "4EakbH8e",
+          "version_id": "lpeIiuMj",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Q9CAeSaW",
+      "name": "1.2",
+      "version_number": "1.2+mod",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "58c882ec6f73b76a0e006427b9e80e98c438d4fd1a9b4a5e757f74560eef499c7ac7e4887495b2005ca104e6d9528274ed2574bf9a172677ae3ce3c9bca1d217",
+          "url": "https://cdn.modrinth.com/data/CdRC4fyI/versions/Q9CAeSaW/ctov-farmers-delight-compat-1.2.jar",
+          "filename": "ctov-farmers-delight-compat-1.2.jar",
+          "primary": true,
+          "size": 197928
         }
       ],
       "dependencies": [
         {
           "project_id": "4EakbH8e",
-          "version_id": null,
+          "version_id": "Zlgy4hSU",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "fgmhI8kH",
-          "version_id": null,
+          "version_id": "tnyL873R",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -97,117 +130,6 @@
         {
           "project_id": "fgmhI8kH",
           "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Bp3TnFpM",
-      "name": "2.0",
-      "version_number": "2.0+mod",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "195b115278338fa3c1642f3889d750273e275ebcf79dde822febb2576ac36d49944bfcaa5983135651f2ec0ebff327aecda9fbc49bdc24e5b3dc26f781103624",
-          "url": "https://cdn.modrinth.com/data/CdRC4fyI/versions/Bp3TnFpM/ctov-farmers-delight-compat-2.0.jar",
-          "filename": "ctov-farmers-delight-compat-2.0.jar",
-          "primary": true,
-          "size": 197854
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "4EakbH8e",
-          "version_id": "lpeIiuMj",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "fgmhI8kH",
-          "version_id": "f51MDpat",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "n0AOS3nN",
-      "name": "2.0",
-      "version_number": "2.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "d3f995ad3b03efbdb2872e56011212c7be356bd7f20f95783f79ac2d854a20375c6463586858e9145e73584d87dd23e75543e5cdce53a4fce3ca0f195e28dae7",
-          "url": "https://cdn.modrinth.com/data/CdRC4fyI/versions/n0AOS3nN/ctov-farmers-delight-add-on-v2-0.zip",
-          "filename": "ctov-farmers-delight-add-on-v2-0.zip",
-          "primary": true,
-          "size": 94499
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "4EakbH8e",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "fgmhI8kH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Q9CAeSaW",
-      "name": "1.2",
-      "version_number": "1.2+mod",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "58c882ec6f73b76a0e006427b9e80e98c438d4fd1a9b4a5e757f74560eef499c7ac7e4887495b2005ca104e6d9528274ed2574bf9a172677ae3ce3c9bca1d217",
-          "url": "https://cdn.modrinth.com/data/CdRC4fyI/versions/Q9CAeSaW/ctov-farmers-delight-compat-1.2.jar",
-          "filename": "ctov-farmers-delight-compat-1.2.jar",
-          "primary": true,
-          "size": 197928
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "4EakbH8e",
-          "version_id": "Zlgy4hSU",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "fgmhI8kH",
-          "version_id": "tnyL873R",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -284,6 +206,84 @@
         {
           "project_id": "fgmhI8kH",
           "version_id": "tnyL873R",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "n0AOS3nN",
+      "name": "2.0",
+      "version_number": "2.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "d3f995ad3b03efbdb2872e56011212c7be356bd7f20f95783f79ac2d854a20375c6463586858e9145e73584d87dd23e75543e5cdce53a4fce3ca0f195e28dae7",
+          "url": "https://cdn.modrinth.com/data/CdRC4fyI/versions/n0AOS3nN/ctov-farmers-delight-add-on-v2-0.zip",
+          "filename": "ctov-farmers-delight-add-on-v2-0.zip",
+          "primary": true,
+          "size": 94499
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "4EakbH8e",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "fgmhI8kH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "qWJ0YcQq",
+      "name": "2.1",
+      "version_number": "2.1+mod",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "79724964a5e8c31356b2efa4c8811c928d2f5095016e19162de90d7d4c4fbba3dcaa49db003a5f3d588d177d7c7008551af8f77677f52831ec62e05f69547441",
+          "url": "https://cdn.modrinth.com/data/CdRC4fyI/versions/qWJ0YcQq/ctov-farmers-delight-compat-2.1.jar",
+          "filename": "ctov-farmers-delight-compat-2.1.jar",
+          "primary": true,
+          "size": 197762
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "4EakbH8e",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "fgmhI8kH",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }

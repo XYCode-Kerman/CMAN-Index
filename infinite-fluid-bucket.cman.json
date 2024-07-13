@@ -5,22 +5,26 @@
   "description": "Enchant bucket with infinity!",
   "versions": [
     {
-      "id": "H7K2aW9A",
-      "name": "1.21+0.5.0",
-      "version_number": "0.5.0",
+      "id": "6SZokNiZ",
+      "name": "1.20-1.20.4+0.4.0",
+      "version_number": "0.4.0",
       "game_versions": [
-        "1.21"
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "d804e210b7077ead6dfcc3b5a5dbec41e5ad41076ec49451ce165c39f0572b50a1aaf2b069a57a04e0a9dd584926016f15561a7efc6df2894dca3ab431c77d89",
-          "url": "https://cdn.modrinth.com/data/L5FvP12r/versions/H7K2aW9A/InfiniteFluidBucket%2B1.21%2B0.5.0.jar",
-          "filename": "InfiniteFluidBucket+1.21+0.5.0.jar",
+          "sha512": "b3f659dbabfc5f5a50bcd7e998022408881490367ccaab4fc4825b6fd3b49e131797ae2cce1e66e154fdb4a640b673f6d80f59a2323212fdce62f99cfe1ffdfc",
+          "url": "https://cdn.modrinth.com/data/L5FvP12r/versions/6SZokNiZ/InfiniteFluidBucket%2B1.20-1.20.4%2B0.4.0.jar",
+          "filename": "InfiniteFluidBucket+1.20-1.20.4+0.4.0.jar",
           "primary": true,
-          "size": 131593
+          "size": 93348
         }
       ],
       "dependencies": [
@@ -35,6 +39,12 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -56,6 +66,50 @@
           "filename": "InfiniteFluidBucket+1.20.1+0.4.2.jar",
           "primary": true,
           "size": 94621
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "B2Pm5f63",
+      "name": "1.20-1.20.4+0.4.1",
+      "version_number": "0.4.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "93c8218e8185afeda4fd481b97028d0af4ecc416ff970cb348bef33aab81b30a7cf0ce7da2489f9bb6d3b9e2cb525b1e54fe8c30743414322fcafdc93866b78e",
+          "url": "https://cdn.modrinth.com/data/L5FvP12r/versions/B2Pm5f63/InfiniteFluidBucket%2B1.20-1.20.4%2B0.4.1.jar",
+          "filename": "InfiniteFluidBucket+1.20-1.20.4+0.4.1.jar",
+          "primary": true,
+          "size": 96606
         }
       ],
       "dependencies": [
@@ -121,13 +175,44 @@
       ]
     },
     {
-      "id": "B2Pm5f63",
-      "name": "1.20-1.20.4+0.4.1",
-      "version_number": "0.4.1",
+      "id": "H7K2aW9A",
+      "name": "1.21+0.5.0",
+      "version_number": "0.5.0",
       "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d804e210b7077ead6dfcc3b5a5dbec41e5ad41076ec49451ce165c39f0572b50a1aaf2b069a57a04e0a9dd584926016f15561a7efc6df2894dca3ab431c77d89",
+          "url": "https://cdn.modrinth.com/data/L5FvP12r/versions/H7K2aW9A/InfiniteFluidBucket%2B1.21%2B0.5.0.jar",
+          "filename": "InfiniteFluidBucket+1.21+0.5.0.jar",
+          "primary": true,
+          "size": 131593
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "OGBDleaG",
+      "name": "1.20.4-0.3.2",
+      "version_number": "0.3.2",
+      "game_versions": [
         "1.20.3",
         "1.20.4"
       ],
@@ -136,16 +221,22 @@
       ],
       "files": [
         {
-          "sha512": "93c8218e8185afeda4fd481b97028d0af4ecc416ff970cb348bef33aab81b30a7cf0ce7da2489f9bb6d3b9e2cb525b1e54fe8c30743414322fcafdc93866b78e",
-          "url": "https://cdn.modrinth.com/data/L5FvP12r/versions/B2Pm5f63/InfiniteFluidBucket%2B1.20-1.20.4%2B0.4.1.jar",
-          "filename": "InfiniteFluidBucket+1.20-1.20.4+0.4.1.jar",
+          "sha512": "810c42967e298da160abc503b8b2c22a9fa0a0109218c4ad9d2bb242ccaa860972bb93acc6fe9040fa14fcda560b6bc45ff002cbc458065c0956b4889304f996",
+          "url": "https://cdn.modrinth.com/data/L5FvP12r/versions/OGBDleaG/InfiniteFluidBucket-0.3.2.jar",
+          "filename": "InfiniteFluidBucket-0.3.2.jar",
           "primary": true,
-          "size": 96606
+          "size": 356525
         }
       ],
       "dependencies": [
         {
           "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -165,31 +256,37 @@
       ]
     },
     {
-      "id": "z5OlLaW9",
-      "name": "1.20.6+0.4.0",
-      "version_number": "0.4.0",
+      "id": "TftkN803",
+      "name": "0.3.1",
+      "version_number": "0.3.1",
       "game_versions": [
-        "1.20.5",
-        "1.20.6"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "a67dd28eeb377bc13cb8847952e76f72bc8c9c90cc31e805823f85283291c86c5c967a258c92caeb1c71ff4b2231c1c4aff5824392e96c1d7439df385e75dcc9",
-          "url": "https://cdn.modrinth.com/data/L5FvP12r/versions/z5OlLaW9/InfiniteFluidBucket%2B1.20.6%2B0.4.0.jar",
-          "filename": "InfiniteFluidBucket+1.20.6+0.4.0.jar",
+          "sha512": "d0cdf8e7d06615a4fe3da5843485e1ebd846fbf94f4d18d327ecf1158cd8409e682a6a7dbe798df10d95f20df7da8a0605a0951b2d89f631c8b6732af0ca0b21",
+          "url": "https://cdn.modrinth.com/data/L5FvP12r/versions/TftkN803/InfiniteFluidBucket-0.3.1.jar",
+          "filename": "InfiniteFluidBucket-0.3.1.jar",
           "primary": true,
-          "size": 95144
+          "size": 355917
         }
       ],
       "dependencies": [
         {
-          "project_id": "mOgUt4GM",
+          "project_id": "1eAoo2KR",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "P7dR8mSH",
@@ -198,37 +295,46 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "1eAoo2KR",
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "6SZokNiZ",
-      "name": "1.20-1.20.4+0.4.0",
-      "version_number": "0.4.0",
+      "id": "XilkfVCK",
+      "name": "1.20.1-0.3.3",
+      "version_number": "0.3.3",
       "game_versions": [
         "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.20.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "b3f659dbabfc5f5a50bcd7e998022408881490367ccaab4fc4825b6fd3b49e131797ae2cce1e66e154fdb4a640b673f6d80f59a2323212fdce62f99cfe1ffdfc",
-          "url": "https://cdn.modrinth.com/data/L5FvP12r/versions/6SZokNiZ/InfiniteFluidBucket%2B1.20-1.20.4%2B0.4.0.jar",
-          "filename": "InfiniteFluidBucket+1.20-1.20.4+0.4.0.jar",
+          "sha512": "e4b2297bb82cbdb8b9fd53fe1e579dc407ff5f9516821249ad5df3005d667cc3f9e31439ea80d1f311481c944b1679b08ff4774e412fbf659641a8e677635c16",
+          "url": "https://cdn.modrinth.com/data/L5FvP12r/versions/XilkfVCK/InfiniteFluidBucket-0.3.3.jar",
+          "filename": "InfiniteFluidBucket-0.3.3.jar",
           "primary": true,
-          "size": 93348
+          "size": 362420
         }
       ],
       "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
@@ -240,12 +346,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -297,9 +397,9 @@
       ]
     },
     {
-      "id": "XilkfVCK",
-      "name": "1.20.1-0.3.3",
-      "version_number": "0.3.3",
+      "id": "eBk3XSUb",
+      "name": "0.2.0",
+      "version_number": "0.2.0",
       "game_versions": [
         "1.20",
         "1.20.1"
@@ -309,11 +409,11 @@
       ],
       "files": [
         {
-          "sha512": "e4b2297bb82cbdb8b9fd53fe1e579dc407ff5f9516821249ad5df3005d667cc3f9e31439ea80d1f311481c944b1679b08ff4774e412fbf659641a8e677635c16",
-          "url": "https://cdn.modrinth.com/data/L5FvP12r/versions/XilkfVCK/InfiniteFluidBucket-0.3.3.jar",
-          "filename": "InfiniteFluidBucket-0.3.3.jar",
+          "sha512": "a754261f1f56c8de3e23da5e5093dd4f7af65100911124146b2fced78e150adc37164244cd9e374a057d894136710ccbedaf440669a087089298cf543711b998",
+          "url": "https://cdn.modrinth.com/data/L5FvP12r/versions/eBk3XSUb/InfiniteFluidBucket-0.2.0.jar",
+          "filename": "InfiniteFluidBucket-0.2.0.jar",
           "primary": true,
-          "size": 362420
+          "size": 267791
         }
       ],
       "dependencies": [
@@ -330,7 +430,54 @@
           "dependency_type": "required"
         },
         {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jpwuo5RU",
+      "name": "0.3.0",
+      "version_number": "0.3.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "967027342d23b8d31c1e754ffa20e786faaf8c50214c79285b53c1ba5eb715c99a692a4cbccc8d5d78c95f767fa065d9ed8bb279230a8f6b5a3a6153dbed892b",
+          "url": "https://cdn.modrinth.com/data/L5FvP12r/versions/jpwuo5RU/InfiniteFluidBucket-0.3.0.jar",
+          "filename": "InfiniteFluidBucket-0.3.0.jar",
+          "primary": true,
+          "size": 299646
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -391,194 +538,6 @@
       ]
     },
     {
-      "id": "OGBDleaG",
-      "name": "1.20.4-0.3.2",
-      "version_number": "0.3.2",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "810c42967e298da160abc503b8b2c22a9fa0a0109218c4ad9d2bb242ccaa860972bb93acc6fe9040fa14fcda560b6bc45ff002cbc458065c0956b4889304f996",
-          "url": "https://cdn.modrinth.com/data/L5FvP12r/versions/OGBDleaG/InfiniteFluidBucket-0.3.2.jar",
-          "filename": "InfiniteFluidBucket-0.3.2.jar",
-          "primary": true,
-          "size": 356525
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "TftkN803",
-      "name": "0.3.1",
-      "version_number": "0.3.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d0cdf8e7d06615a4fe3da5843485e1ebd846fbf94f4d18d327ecf1158cd8409e682a6a7dbe798df10d95f20df7da8a0605a0951b2d89f631c8b6732af0ca0b21",
-          "url": "https://cdn.modrinth.com/data/L5FvP12r/versions/TftkN803/InfiniteFluidBucket-0.3.1.jar",
-          "filename": "InfiniteFluidBucket-0.3.1.jar",
-          "primary": true,
-          "size": 355917
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "jpwuo5RU",
-      "name": "0.3.0",
-      "version_number": "0.3.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "967027342d23b8d31c1e754ffa20e786faaf8c50214c79285b53c1ba5eb715c99a692a4cbccc8d5d78c95f767fa065d9ed8bb279230a8f6b5a3a6153dbed892b",
-          "url": "https://cdn.modrinth.com/data/L5FvP12r/versions/jpwuo5RU/InfiniteFluidBucket-0.3.0.jar",
-          "filename": "InfiniteFluidBucket-0.3.0.jar",
-          "primary": true,
-          "size": 299646
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "eBk3XSUb",
-      "name": "0.2.0",
-      "version_number": "0.2.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a754261f1f56c8de3e23da5e5093dd4f7af65100911124146b2fced78e150adc37164244cd9e374a057d894136710ccbedaf440669a087089298cf543711b998",
-          "url": "https://cdn.modrinth.com/data/L5FvP12r/versions/eBk3XSUb/InfiniteFluidBucket-0.2.0.jar",
-          "filename": "InfiniteFluidBucket-0.2.0.jar",
-          "primary": true,
-          "size": 267791
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "plusr7qX",
       "name": "0.1.0",
       "version_number": "0.1.0",
@@ -616,6 +575,47 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "z5OlLaW9",
+      "name": "1.20.6+0.4.0",
+      "version_number": "0.4.0",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a67dd28eeb377bc13cb8847952e76f72bc8c9c90cc31e805823f85283291c86c5c967a258c92caeb1c71ff4b2231c1c4aff5824392e96c1d7439df385e75dcc9",
+          "url": "https://cdn.modrinth.com/data/L5FvP12r/versions/z5OlLaW9/InfiniteFluidBucket%2B1.20.6%2B0.4.0.jar",
+          "filename": "InfiniteFluidBucket+1.20.6+0.4.0.jar",
+          "primary": true,
+          "size": 95144
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

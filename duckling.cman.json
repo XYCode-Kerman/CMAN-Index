@@ -5,22 +5,57 @@
   "description": "Liven your world with ducks!",
   "versions": [
     {
-      "id": "RdzrVLjE",
-      "name": "Duckling 5.0.1",
-      "version_number": "5.0.1",
+      "id": "4X1lMKaO",
+      "name": "3.0.0",
+      "version_number": "3.0.0",
       "game_versions": [
-        "1.21"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "03e333508f47e9ed66cdc781bac31c9d3fd13b7e76d5b76bfc7238c5a1a684570838ebdea2c1bda71867b1a148894ed903827acc14566387a5f902101e4f5a92",
+          "url": "https://cdn.modrinth.com/data/jkb861Ih/versions/4X1lMKaO/duckling-3.0.0-fabric.jar",
+          "filename": "duckling-3.0.0-fabric.jar",
+          "primary": true,
+          "size": 140790
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": "5bofFrdJ",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "IwtFizop",
+      "name": "Duckling 4.0.0",
+      "version_number": "4.0.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge",
         "neoforge"
       ],
       "files": [
         {
-          "sha512": "47d7cb734f3d0a40ff083fbf48b854118e145ac6405c379ae828510077c8eb6462ac73b7c18355be31a95ef0bed740a25248a02ad7802764f4c3ede91a064760",
-          "url": "https://cdn.modrinth.com/data/jkb861Ih/versions/RdzrVLjE/duckling-neoforge-1.21-5.0.1.jar",
-          "filename": "duckling-neoforge-1.21-5.0.1.jar",
+          "sha512": "8c132b834c7322d3bf5e79f399933b2bae4c67abfa8aa1fcd399592de5d5fc513b25b5856ce1fefbc433994822eaa5b5d995964519d8b460bec4de456e84c13b",
+          "url": "https://cdn.modrinth.com/data/jkb861Ih/versions/IwtFizop/duckling-neoforge-1.20.4-4.0.0.jar",
+          "filename": "duckling-neoforge-1.20.4-4.0.0.jar",
           "primary": true,
-          "size": 545993
+          "size": 528590
         }
       ],
       "dependencies": [
@@ -29,12 +64,34 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
+        }
+      ]
+    },
+    {
+      "id": "NbEwYjgU",
+      "name": "2.0.8",
+      "version_number": "2.0.8",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
         {
-          "project_id": "G1hIVOrD",
-          "version_id": null,
+          "sha512": "a91296025fd1c3b00447657c6e31bef591801d0eb31ee2b9de9eec86c054533f6d1df5463b2496d778c47ab423e44248371e14e7c3f1f13fd2d36778779f1e0f",
+          "url": "https://cdn.modrinth.com/data/jkb861Ih/versions/NbEwYjgU/duckling-2.0.8-forge.jar",
+          "filename": "duckling-2.0.8-forge.jar",
+          "primary": true,
+          "size": 142235
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": "lxzmD9V4",
           "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "required"
         }
       ]
     },
@@ -55,6 +112,40 @@
           "filename": "duckling-fabric-1.21-5.0.1.jar",
           "primary": true,
           "size": 539620
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "G1hIVOrD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "RdzrVLjE",
+      "name": "Duckling 5.0.1",
+      "version_number": "5.0.1",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "47d7cb734f3d0a40ff083fbf48b854118e145ac6405c379ae828510077c8eb6462ac73b7c18355be31a95ef0bed740a25248a02ad7802764f4c3ede91a064760",
+          "url": "https://cdn.modrinth.com/data/jkb861Ih/versions/RdzrVLjE/duckling-neoforge-1.21-5.0.1.jar",
+          "filename": "duckling-neoforge-1.21-5.0.1.jar",
+          "primary": true,
+          "size": 545993
         }
       ],
       "dependencies": [
@@ -107,6 +198,36 @@
       ]
     },
     {
+      "id": "UT330hC2",
+      "name": "3.0.0",
+      "version_number": "3.0.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "b09127c1686d9cd4f4406fcc428c382cadbde33e2d64c721a85804e6b2a9de23ab636612bcd2d1f4b6b2abbef98e83b723be4ca2ede60ddf17e45fbcafd12b6d",
+          "url": "https://cdn.modrinth.com/data/jkb861Ih/versions/UT330hC2/duckling-3.0.0-forge.jar",
+          "filename": "duckling-3.0.0-forge.jar",
+          "primary": true,
+          "size": 144057
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": "qq4z76WF",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "UY1QPV4F",
       "name": "Duckling 5.0.0",
       "version_number": "5.0.0",
@@ -141,33 +262,28 @@
       ]
     },
     {
-      "id": "IwtFizop",
-      "name": "Duckling 4.0.0",
-      "version_number": "4.0.0",
+      "id": "XKN23z0I",
+      "name": "2.0.8",
+      "version_number": "2.0.8",
       "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.19.2"
       ],
       "loaders": [
-        "forge",
-        "neoforge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "8c132b834c7322d3bf5e79f399933b2bae4c67abfa8aa1fcd399592de5d5fc513b25b5856ce1fefbc433994822eaa5b5d995964519d8b460bec4de456e84c13b",
-          "url": "https://cdn.modrinth.com/data/jkb861Ih/versions/IwtFizop/duckling-neoforge-1.20.4-4.0.0.jar",
-          "filename": "duckling-neoforge-1.20.4-4.0.0.jar",
+          "sha512": "553d248247e643dd14398d9a2ad2f32d09927903082675be79399d74fad9338abc190fbd93fca555fdc2c5829585fe36bb17f35f5ee1149527ce1fbaee4fd478",
+          "url": "https://cdn.modrinth.com/data/jkb861Ih/versions/XKN23z0I/duckling-2.0.8-fabric.jar",
+          "filename": "duckling-2.0.8-fabric.jar",
           "primary": true,
-          "size": 528590
+          "size": 138678
         }
       ],
       "dependencies": [
         {
           "project_id": "8BmcQJ2H",
-          "version_id": null,
+          "version_id": "ATPZfRS1",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -201,122 +317,6 @@
         {
           "project_id": "8BmcQJ2H",
           "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "UT330hC2",
-      "name": "3.0.0",
-      "version_number": "3.0.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge",
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "b09127c1686d9cd4f4406fcc428c382cadbde33e2d64c721a85804e6b2a9de23ab636612bcd2d1f4b6b2abbef98e83b723be4ca2ede60ddf17e45fbcafd12b6d",
-          "url": "https://cdn.modrinth.com/data/jkb861Ih/versions/UT330hC2/duckling-3.0.0-forge.jar",
-          "filename": "duckling-3.0.0-forge.jar",
-          "primary": true,
-          "size": 144057
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "8BmcQJ2H",
-          "version_id": "qq4z76WF",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4X1lMKaO",
-      "name": "3.0.0",
-      "version_number": "3.0.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "03e333508f47e9ed66cdc781bac31c9d3fd13b7e76d5b76bfc7238c5a1a684570838ebdea2c1bda71867b1a148894ed903827acc14566387a5f902101e4f5a92",
-          "url": "https://cdn.modrinth.com/data/jkb861Ih/versions/4X1lMKaO/duckling-3.0.0-fabric.jar",
-          "filename": "duckling-3.0.0-fabric.jar",
-          "primary": true,
-          "size": 140790
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "8BmcQJ2H",
-          "version_id": "5bofFrdJ",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "NbEwYjgU",
-      "name": "2.0.8",
-      "version_number": "2.0.8",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "a91296025fd1c3b00447657c6e31bef591801d0eb31ee2b9de9eec86c054533f6d1df5463b2496d778c47ab423e44248371e14e7c3f1f13fd2d36778779f1e0f",
-          "url": "https://cdn.modrinth.com/data/jkb861Ih/versions/NbEwYjgU/duckling-2.0.8-forge.jar",
-          "filename": "duckling-2.0.8-forge.jar",
-          "primary": true,
-          "size": 142235
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "8BmcQJ2H",
-          "version_id": "lxzmD9V4",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "XKN23z0I",
-      "name": "2.0.8",
-      "version_number": "2.0.8",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "553d248247e643dd14398d9a2ad2f32d09927903082675be79399d74fad9338abc190fbd93fca555fdc2c5829585fe36bb17f35f5ee1149527ce1fbaee4fd478",
-          "url": "https://cdn.modrinth.com/data/jkb861Ih/versions/XKN23z0I/duckling-2.0.8-fabric.jar",
-          "filename": "duckling-2.0.8-fabric.jar",
-          "primary": true,
-          "size": 138678
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "8BmcQJ2H",
-          "version_id": "ATPZfRS1",
           "file_name": null,
           "dependency_type": "required"
         }

@@ -5,15 +5,14 @@
   "description": "Let the server rest while there are no players online",
   "versions": [
     {
-      "id": "mPf1P26X",
-      "name": "Slumber 1.2.0 - 1.20.4-1.21",
-      "version_number": "1.2.0",
+      "id": "64NFPFOi",
+      "name": "Slumber 1.0.0 - 1.19.x",
+      "version_number": "1.0.0-1.19",
       "game_versions": [
-        "1.20.3",
-        "1.20.4",
-        "1.20.5",
-        "1.20.6",
-        "1.21"
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
       ],
       "loaders": [
         "fabric",
@@ -21,17 +20,40 @@
       ],
       "files": [
         {
-          "sha512": "b7db00573440d64a8275f1a63a492eba00bb2575c460e05ea27e7bf63cfc2591a4b3dc913805c26fdbea1f959ff247d3532b433afef09a5fb4317ed2ce1dce14",
-          "url": "https://cdn.modrinth.com/data/ksm6XRZ9/versions/mPf1P26X/slumber-1.2.0.jar",
-          "filename": "slumber-1.2.0.jar",
+          "sha512": "f763791a4824313de4256f02f7e8a86362a2e40cedab0cdf7bad80797278b24fc42df96350ddcc552949beb9fc692090c6c29bc8fd9f828ddf8e496b358078e3",
+          "url": "https://cdn.modrinth.com/data/ksm6XRZ9/versions/1.0.0-1.19/slumber-1.0.0.jar",
+          "filename": "slumber-1.0.0.jar",
           "primary": true,
-          "size": 38561
+          "size": 8360
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "6O5JDJnL",
+      "name": "Slumber 1.1.1 - 1.20.x",
+      "version_number": "1.1.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c6f71b246afe4960c1a602e6e23d2944ac967b422244ebe708540c0f66b5d67c20adb0a889de2e8e0050147af0c5a3b2b36149417ac879a347ab9bcbb675242d",
+          "url": "https://cdn.modrinth.com/data/ksm6XRZ9/versions/6O5JDJnL/slumber-1.1.1.jar",
+          "filename": "slumber-1.1.1.jar",
+          "primary": true,
+          "size": 20583
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
+          "project_id": "TQTTVgYE",
+          "version_id": "K0Wj117C",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -75,6 +97,39 @@
       ]
     },
     {
+      "id": "FhXQn08p",
+      "name": "Slumber 1.1.0 - 1.19.x",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "7c53010e7724d58149d2ee480a8a8e3dd09d8c1cd4d91500db4ed95e12467cfc0889a00232bc4d57bdfe51a6988005d24219242e5515dcb1bcaf5c33e5b88e6c",
+          "url": "https://cdn.modrinth.com/data/ksm6XRZ9/versions/FhXQn08p/slumber-1.1.0.jar",
+          "filename": "slumber-1.1.0.jar",
+          "primary": true,
+          "size": 20497
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "TQTTVgYE",
+          "version_id": "K0Wj117C",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "SXd67jew",
       "name": "Slumber 1.1.2 - 1.20.x",
       "version_number": "1.1.2",
@@ -111,12 +166,11 @@
       ]
     },
     {
-      "id": "6O5JDJnL",
-      "name": "Slumber 1.1.1 - 1.20.x",
-      "version_number": "1.1.1",
+      "id": "WcSe0hU0",
+      "name": "Slumber 1.0.0 - 1.18.2",
+      "version_number": "1.0.0-1.18.2",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.18.2"
       ],
       "loaders": [
         "fabric",
@@ -124,54 +178,14 @@
       ],
       "files": [
         {
-          "sha512": "c6f71b246afe4960c1a602e6e23d2944ac967b422244ebe708540c0f66b5d67c20adb0a889de2e8e0050147af0c5a3b2b36149417ac879a347ab9bcbb675242d",
-          "url": "https://cdn.modrinth.com/data/ksm6XRZ9/versions/6O5JDJnL/slumber-1.1.1.jar",
-          "filename": "slumber-1.1.1.jar",
+          "sha512": "6d65c7a2535cbc2964a02a5b8424560c17cbd12c3595d11efe68d0e855714a594cc11cd9efe7a659b3d6676e4b0017b46381ee5e5b916cba4573b62c04ea40df",
+          "url": "https://cdn.modrinth.com/data/ksm6XRZ9/versions/1.0.0-1.18.2/slumber-1.0.0.jar",
+          "filename": "slumber-1.0.0.jar",
           "primary": true,
-          "size": 20583
+          "size": 19987
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "TQTTVgYE",
-          "version_id": "K0Wj117C",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "FhXQn08p",
-      "name": "Slumber 1.1.0 - 1.19.x",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "7c53010e7724d58149d2ee480a8a8e3dd09d8c1cd4d91500db4ed95e12467cfc0889a00232bc4d57bdfe51a6988005d24219242e5515dcb1bcaf5c33e5b88e6c",
-          "url": "https://cdn.modrinth.com/data/ksm6XRZ9/versions/FhXQn08p/slumber-1.1.0.jar",
-          "filename": "slumber-1.1.0.jar",
-          "primary": true,
-          "size": 20497
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "TQTTVgYE",
-          "version_id": "K0Wj117C",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
+      "dependencies": []
     },
     {
       "id": "do8wSB7v",
@@ -199,28 +213,29 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
+          "project_id": "TQTTVgYE",
+          "version_id": "p5SN7luf",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "TQTTVgYE",
-          "version_id": "p5SN7luf",
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "64NFPFOi",
-      "name": "Slumber 1.0.0 - 1.19.x",
-      "version_number": "1.0.0-1.19",
+      "id": "mPf1P26X",
+      "name": "Slumber 1.2.0 - 1.20.4-1.21",
+      "version_number": "1.2.0",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21"
       ],
       "loaders": [
         "fabric",
@@ -228,36 +243,21 @@
       ],
       "files": [
         {
-          "sha512": "f763791a4824313de4256f02f7e8a86362a2e40cedab0cdf7bad80797278b24fc42df96350ddcc552949beb9fc692090c6c29bc8fd9f828ddf8e496b358078e3",
-          "url": "https://cdn.modrinth.com/data/ksm6XRZ9/versions/1.0.0-1.19/slumber-1.0.0.jar",
-          "filename": "slumber-1.0.0.jar",
+          "sha512": "b7db00573440d64a8275f1a63a492eba00bb2575c460e05ea27e7bf63cfc2591a4b3dc913805c26fdbea1f959ff247d3532b433afef09a5fb4317ed2ce1dce14",
+          "url": "https://cdn.modrinth.com/data/ksm6XRZ9/versions/mPf1P26X/slumber-1.2.0.jar",
+          "filename": "slumber-1.2.0.jar",
           "primary": true,
-          "size": 8360
+          "size": 38561
         }
       ],
-      "dependencies": []
-    },
-    {
-      "id": "WcSe0hU0",
-      "name": "Slumber 1.0.0 - 1.18.2",
-      "version_number": "1.0.0-1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "6d65c7a2535cbc2964a02a5b8424560c17cbd12c3595d11efe68d0e855714a594cc11cd9efe7a659b3d6676e4b0017b46381ee5e5b916cba4573b62c04ea40df",
-          "url": "https://cdn.modrinth.com/data/ksm6XRZ9/versions/1.0.0-1.18.2/slumber-1.0.0.jar",
-          "filename": "slumber-1.0.0.jar",
-          "primary": true,
-          "size": 19987
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
-      ],
-      "dependencies": []
+      ]
     }
   ]
 }

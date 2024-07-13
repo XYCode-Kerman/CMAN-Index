@@ -41,25 +41,57 @@
       ]
     },
     {
-      "id": "puLnK1FE",
-      "name": "Bring Decay 0.0.4",
-      "version_number": "0.0.4",
+      "id": "IYqhRqnT",
+      "name": "Bring Decay 0.0.1",
+      "version_number": "0.0.1",
       "game_versions": [
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
+        "1.19.3"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "ec0d74bba6ca0e4fc790c7541fdc8d4a3ed9d3519b40aa991659a298e80ab0308eeaf9d374544d391e33dbc364c0e7503212e770177df6929a284d2f619e714b",
-          "url": "https://cdn.modrinth.com/data/TU5NoK6F/versions/puLnK1FE/bringdecay-0.0.4-1.19.3-1.20.1.jar",
-          "filename": "bringdecay-0.0.4-1.19.3-1.20.1.jar",
+          "sha512": "ce19c551159b8fa4cc7a74fe6907dd0a63cd28171a8a5ebec6df184b42dd8fcca4ef27519c2a3478ea2e31287c57a76bcc73e1e0b0b96aa58ed6356babfc5584",
+          "url": "https://cdn.modrinth.com/data/TU5NoK6F/versions/IYqhRqnT/bringdecay-0.0.1-1.19.3.jar",
+          "filename": "bringdecay-0.0.1-1.19.3.jar",
           "primary": true,
-          "size": 43077
+          "size": 9280
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Pju8Poqy",
+      "name": "Bring Decay 0.0.2",
+      "version_number": "0.0.2",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2386dde1e818dd49ad3596dbb6e93ef085bdc059ef60ffadc06f78ab555eb31d91a30c57c5a7770e0e316750d9b305e42561bfec1216a87f3ee8d8e689bd111c",
+          "url": "https://cdn.modrinth.com/data/TU5NoK6F/versions/Pju8Poqy/bringdecay-0.0.2-1.19.3-1.20.jar",
+          "filename": "bringdecay-0.0.2-1.19.3-1.20.jar",
+          "primary": true,
+          "size": 20335
         }
       ],
       "dependencies": [
@@ -68,12 +100,6 @@
           "version_id": "DTb2fq9B",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "DkOr2M32",
-          "version_id": "GNgdNh04",
-          "file_name": null,
-          "dependency_type": "embedded"
         }
       ]
     },
@@ -116,42 +142,6 @@
       ]
     },
     {
-      "id": "jJzhHEja",
-      "name": "Bring Decay 0.0.3",
-      "version_number": "0.0.3",
-      "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "076ae9669f73abf0a3da03e41e2716a1b8f708d91b487207ea8496b3c5762bf964ae5c2a35fab7463d5d55a392bdf49da40909c42467cd2c1cc434b3251f70e7",
-          "url": "https://cdn.modrinth.com/data/TU5NoK6F/versions/jJzhHEja/bringdecay-0.0.3-1.20.2-1.20.4.jar",
-          "filename": "bringdecay-0.0.3-1.20.2-1.20.4.jar",
-          "primary": true,
-          "size": 42001
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "DkOr2M32",
-          "version_id": "GNgdNh04",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "DnwAgNmV",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "YWJZf2iR",
       "name": "Bring Decay 0.0.3",
       "version_number": "0.0.3",
@@ -175,51 +165,16 @@
       ],
       "dependencies": [
         {
+          "project_id": "P7dR8mSH",
+          "version_id": "DTb2fq9B",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "DkOr2M32",
           "version_id": "GNgdNh04",
           "file_name": null,
           "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "DTb2fq9B",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Pju8Poqy",
-      "name": "Bring Decay 0.0.2",
-      "version_number": "0.0.2",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2386dde1e818dd49ad3596dbb6e93ef085bdc059ef60ffadc06f78ab555eb31d91a30c57c5a7770e0e316750d9b305e42561bfec1216a87f3ee8d8e689bd111c",
-          "url": "https://cdn.modrinth.com/data/TU5NoK6F/versions/Pju8Poqy/bringdecay-0.0.2-1.19.3-1.20.jar",
-          "filename": "bringdecay-0.0.2-1.19.3-1.20.jar",
-          "primary": true,
-          "size": 20335
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "DTb2fq9B",
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -262,30 +217,75 @@
       ]
     },
     {
-      "id": "IYqhRqnT",
-      "name": "Bring Decay 0.0.1",
-      "version_number": "0.0.1",
+      "id": "jJzhHEja",
+      "name": "Bring Decay 0.0.3",
+      "version_number": "0.0.3",
       "game_versions": [
-        "1.19.3"
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "ce19c551159b8fa4cc7a74fe6907dd0a63cd28171a8a5ebec6df184b42dd8fcca4ef27519c2a3478ea2e31287c57a76bcc73e1e0b0b96aa58ed6356babfc5584",
-          "url": "https://cdn.modrinth.com/data/TU5NoK6F/versions/IYqhRqnT/bringdecay-0.0.1-1.19.3.jar",
-          "filename": "bringdecay-0.0.1-1.19.3.jar",
+          "sha512": "076ae9669f73abf0a3da03e41e2716a1b8f708d91b487207ea8496b3c5762bf964ae5c2a35fab7463d5d55a392bdf49da40909c42467cd2c1cc434b3251f70e7",
+          "url": "https://cdn.modrinth.com/data/TU5NoK6F/versions/jJzhHEja/bringdecay-0.0.3-1.20.2-1.20.4.jar",
+          "filename": "bringdecay-0.0.3-1.20.2-1.20.4.jar",
           "primary": true,
-          "size": 9280
+          "size": 42001
         }
       ],
       "dependencies": [
         {
           "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
+          "version_id": "DnwAgNmV",
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "DkOr2M32",
+          "version_id": "GNgdNh04",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "puLnK1FE",
+      "name": "Bring Decay 0.0.4",
+      "version_number": "0.0.4",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ec0d74bba6ca0e4fc790c7541fdc8d4a3ed9d3519b40aa991659a298e80ab0308eeaf9d374544d391e33dbc364c0e7503212e770177df6929a284d2f619e714b",
+          "url": "https://cdn.modrinth.com/data/TU5NoK6F/versions/puLnK1FE/bringdecay-0.0.4-1.19.3-1.20.1.jar",
+          "filename": "bringdecay-0.0.4-1.19.3-1.20.1.jar",
+          "primary": true,
+          "size": 43077
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "DTb2fq9B",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "DkOr2M32",
+          "version_id": "GNgdNh04",
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
     }

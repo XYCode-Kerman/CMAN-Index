@@ -5,6 +5,62 @@
   "description": "Clean up your chat by removing duplicate messages!",
   "versions": [
     {
+      "id": "3seFqK4O",
+      "name": "1.2.1",
+      "version_number": "1.2.1",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19-pre1",
+        "1.19-pre2",
+        "1.19-pre3",
+        "1.19-pre4",
+        "1.19-pre5",
+        "1.19-rc1",
+        "1.19-rc2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "307e6655ceb34b10c779307ef99111df6bd83c3d0ccfbfe2f3584d930e2ca343e7370d6b27094882d1021f614c87d2a43e27ba9aae7675185bdf3b0c0d5a87d6",
+          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/1.2.1/CompactChat-1.2.1-1.18.2.jar",
+          "filename": "CompactChat-1.2.1-1.18.2.jar",
+          "primary": true,
+          "size": 22523
+        },
+        {
+          "sha512": "54da6a5345d10a9dc2f1e300b14ff47afc81d9624bf8e326a27002861103e18b34496659923f3ba4b319df81d955fff5ea663fc4b2f2dc74b8267dc56e2427ed",
+          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/1.2.1/CompactChat-1.2.1-1.19-rc2.jar",
+          "filename": "CompactChat-1.2.1-1.19-rc2.jar",
+          "primary": false,
+          "size": 22514
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "d6AIXpak",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "5MK2BXrp",
       "name": "2.1.1",
       "version_number": "2.1.1",
@@ -40,38 +96,243 @@
       ]
     },
     {
-      "id": "uDcCGuqq",
-      "name": "2.1.0",
-      "version_number": "2.1.0",
+      "id": "9XOqYqz1",
+      "name": "v1.2 for 1.18.x",
+      "version_number": "1.2-1.18.x",
       "game_versions": [
-        "1.20.4"
+        "1.18",
+        "1.18.1",
+        "1.18.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "b40aa79fd7d5046d8a2af2083047fa97d5af66f1044ebd3c18757adba5cdf27882597fbd2ddb53cb09a56b16cff0dfee48f2bdb2fbf5b00e68e72d2f0b8f7a18",
-          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/uDcCGuqq/compact-chat-2.1.0.jar",
-          "filename": "compact-chat-2.1.0.jar",
+          "sha512": "84e01fd9a51b6e953e12148abbc6ddbb35b6a7a4851e878e020f539af6a0b065faf3bfe7f275c7b4a4d937832f573aa085092fdec6c2f2be276889ea87a29a03",
+          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/1.2/CompactChat-1.2-1.18.2.jar",
+          "filename": "CompactChat-1.2-1.18.2.jar",
           "primary": true,
-          "size": 24101
+          "size": 21655
         }
       ],
       "dependencies": [
         {
           "project_id": "9s6osm5g",
-          "version_id": null,
+          "version_id": "BLMp2TRt",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "mOgUt4GM",
-          "version_id": null,
+          "version_id": "GYRoFp1I",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "wIj7jjb3",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "AOCXUcg5",
+      "name": "1.3",
+      "version_number": "1.3",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19-pre1",
+        "1.19-pre2",
+        "1.19-pre3",
+        "1.19-pre4",
+        "1.19-pre5",
+        "1.19-rc1",
+        "1.19-rc2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f6c25456b631f010aac60500b74fa6d9eb1bf0c09d8d7a7c10e746966c815aec240c79a43e0276246dd25a36d6cd806f233aa6175d3c095648020f5583abdb7b",
+          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/1.3/CompactChat-1.3-1.18.2.jar",
+          "filename": "CompactChat-1.3-1.18.2.jar",
+          "primary": true,
+          "size": 24884
+        },
+        {
+          "sha512": "e80e377b0ace3da2464a8d9d5c03f844dcd2fdfbe3642a3a0a4bd2296d79c607ee4a0820bb023a9ecff3b07a5acdd97b179455699470615e6103f5e2a8661d86",
+          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/1.3/CompactChat-1.3-1.19.jar",
+          "filename": "CompactChat-1.3-1.19.jar",
+          "primary": false,
+          "size": 24876
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "d6AIXpak",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
           "file_name": null,
           "dependency_type": "optional"
         }
       ]
+    },
+    {
+      "id": "Ek66Tl7v",
+      "name": "Initial Release",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a5411aa61cbc43fc636d45405d772714150fed5d4c9b1b4f1551fbb8504a717d5bb2061da0943b748218f6c85594bad09d2100f97f3c5985b65c49f95b7ff491",
+          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/1.0.0/CompactChat-1.0-1.17.1.jar",
+          "filename": "CompactChat-1.0-1.17.1.jar",
+          "primary": false,
+          "size": 7618
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "HdSvrnB6",
+      "name": "1.18.2 build & minor UI changes",
+      "version_number": "1.1.1",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "005157ba6063cadaa4626978f18e8d4dc59e7c430700ed4a4469461aad3f1b856157c6c73c681e004dad5dd0066b626d0a278ab0a574956b9c23de1cd4d67b83",
+          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/1.1.1/CompactChat-1.1.1.jar",
+          "filename": "CompactChat-1.1.1.jar",
+          "primary": true,
+          "size": 179627
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "GYRoFp1I",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "wIj7jjb3",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "HtrOglNQ",
+      "name": "Infinite chat history option & more fixes",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "bd657db3676d3f838bbb0e8fb94da2319e1df262335cb621d256798da77a75eca16cdd25c81edf507bdcfec265dd26cdcb69cfca197bfc670f53ef1d1a2a08e9",
+          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/1.0.1/CompactChat-1.0.1.jar",
+          "filename": "CompactChat-1.0.1.jar",
+          "primary": false,
+          "size": 217305
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ONcfHJKJ",
+      "name": "2.0.1",
+      "version_number": "2.0.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8c5d7238bb9bc91546d85258fd98f591fa2ca4fecc254635524d7a3527aba09fb6068685c248ad0ce9d091d275c43b6be46c4b454b07e46c698e45d06aac1ac7",
+          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/ONcfHJKJ/compact-chat-2.0.1.jar",
+          "filename": "compact-chat-2.0.1.jar",
+          "primary": true,
+          "size": 21204
+        },
+        {
+          "sha512": "43091cc644f373ba7bd62e514b0778caaab2f24a0afa73b40987200a3d4346f485d83e6a926365b45c1147316e43e6959ab9f79d039765540c9451d3e99cad98",
+          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/ONcfHJKJ/compact-chat-2.0.1-sources.jar",
+          "filename": "compact-chat-2.0.1-sources.jar",
+          "primary": false,
+          "size": 13632
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": "DgIYuFEF",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "RTFDnTKf",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "WFkhcRyP",
+      "name": "Russian translations, bug fixes & more",
+      "version_number": "1.1",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a7466e270aa0dd23682104e3182ebdf7b3f95ef44df3716762cd5d3a7908ea059c741f5b754421b568886d84be666aa108771ffcce897e30a271cc280e340584",
+          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/1.1/CompactChat-1.1.jar",
+          "filename": "CompactChat-1.1.jar",
+          "primary": false,
+          "size": 218794
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "WTGMj87L",
@@ -90,47 +351,6 @@
           "filename": "compact-chat-2.0.4.jar",
           "primary": true,
           "size": 23242
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "uaQtth5I",
-      "name": "2.0.3",
-      "version_number": "2.0.3",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "7487a736cb9b0a2f67c3454a610703958e69cf11b25fef53519e9e54399ef928c187fbe2288857e38b40db20ab2d257ec06a24a5eda3ee75cb024ea61cc2f833",
-          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/uaQtth5I/compact-chat-2.0.3.jar",
-          "filename": "compact-chat-2.0.3.jar",
-          "primary": true,
-          "size": 22014
-        },
-        {
-          "sha512": "1c6cb237b95c8693fb3ef5985f79698a9ae85050a980382012b3e31d1844797cbf1202e2c09ea1a5a5dd2aed4c61e191e024ee804fd99fd65dc49b2db1a66bcd",
-          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/uaQtth5I/compact-chat-2.0.3-sources.jar",
-          "filename": "compact-chat-2.0.3-sources.jar",
-          "primary": false,
-          "size": 15810
         }
       ],
       "dependencies": [
@@ -177,211 +397,14 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "eTCL1uh8",
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ONcfHJKJ",
-      "name": "2.0.1",
-      "version_number": "2.0.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8c5d7238bb9bc91546d85258fd98f591fa2ca4fecc254635524d7a3527aba09fb6068685c248ad0ce9d091d275c43b6be46c4b454b07e46c698e45d06aac1ac7",
-          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/ONcfHJKJ/compact-chat-2.0.1.jar",
-          "filename": "compact-chat-2.0.1.jar",
-          "primary": true,
-          "size": 21204
-        },
-        {
-          "sha512": "43091cc644f373ba7bd62e514b0778caaab2f24a0afa73b40987200a3d4346f485d83e6a926365b45c1147316e43e6959ab9f79d039765540c9451d3e99cad98",
-          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/ONcfHJKJ/compact-chat-2.0.1-sources.jar",
-          "filename": "compact-chat-2.0.1-sources.jar",
-          "primary": false,
-          "size": 13632
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "RTFDnTKf",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": "DgIYuFEF",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "z7kBDopg",
-      "name": "2.0.0",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "7a3de0222067c1f90e32b3278993df352f49a7c18fdedd052822bc6fd0c06fa1fc02341a96f3ce10b812632a9bb5814fb0e5b6897bd11cd200f824b935d04799",
-          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/z7kBDopg/compact-chat-2.0.0.jar",
-          "filename": "compact-chat-2.0.0.jar",
-          "primary": true,
-          "size": 21646
-        },
-        {
-          "sha512": "57c36dba997498e8804f557d4045d117a5833f5c0d86abcd7f855df9fb758e23e0852424377e55df75a0055ffd13b3c4da18219c09aff7abd81fde0705d4b40c",
-          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/z7kBDopg/compact-chat-2.0.0-sources.jar",
-          "filename": "compact-chat-2.0.0-sources.jar",
-          "primary": false,
-          "size": 14950
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "eIrlBn1Z",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": "KMwbSA7v",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "AOCXUcg5",
-      "name": "1.3",
-      "version_number": "1.3",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19-pre1",
-        "1.19-pre2",
-        "1.19-pre3",
-        "1.19-pre4",
-        "1.19-pre5",
-        "1.19-rc1",
-        "1.19-rc2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f6c25456b631f010aac60500b74fa6d9eb1bf0c09d8d7a7c10e746966c815aec240c79a43e0276246dd25a36d6cd806f233aa6175d3c095648020f5583abdb7b",
-          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/1.3/CompactChat-1.3-1.18.2.jar",
-          "filename": "CompactChat-1.3-1.18.2.jar",
-          "primary": true,
-          "size": 24884
-        },
-        {
-          "sha512": "e80e377b0ace3da2464a8d9d5c03f844dcd2fdfbe3642a3a0a4bd2296d79c607ee4a0820bb023a9ecff3b07a5acdd97b179455699470615e6103f5e2a8661d86",
-          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/1.3/CompactChat-1.3-1.19.jar",
-          "filename": "CompactChat-1.3-1.19.jar",
-          "primary": false,
-          "size": 24876
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "d6AIXpak",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "nVxObSbX",
-          "file_name": null,
-          "dependency_type": "optional"
         },
         {
           "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "3seFqK4O",
-      "name": "1.2.1",
-      "version_number": "1.2.1",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19-pre1",
-        "1.19-pre2",
-        "1.19-pre3",
-        "1.19-pre4",
-        "1.19-pre5",
-        "1.19-rc1",
-        "1.19-rc2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "307e6655ceb34b10c779307ef99111df6bd83c3d0ccfbfe2f3584d930e2ca343e7370d6b27094882d1021f614c87d2a43e27ba9aae7675185bdf3b0c0d5a87d6",
-          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/1.2.1/CompactChat-1.2.1-1.18.2.jar",
-          "filename": "CompactChat-1.2.1-1.18.2.jar",
-          "primary": true,
-          "size": 22523
-        },
-        {
-          "sha512": "54da6a5345d10a9dc2f1e300b14ff47afc81d9624bf8e326a27002861103e18b34496659923f3ba4b319df81d955fff5ea663fc4b2f2dc74b8267dc56e2427ed",
-          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/1.2.1/CompactChat-1.2.1-1.19-rc2.jar",
-          "filename": "CompactChat-1.2.1-1.19-rc2.jar",
-          "primary": false,
-          "size": 22514
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "nVxObSbX",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "d6AIXpak",
+          "version_id": "s7VTKfLA",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -414,6 +437,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "mOgUt4GM",
+          "version_id": "E4VKK6kQ",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
@@ -424,54 +453,81 @@
           "version_id": "lWMN0I1E",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "E4VKK6kQ",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "9XOqYqz1",
-      "name": "v1.2 for 1.18.x",
-      "version_number": "1.2-1.18.x",
+      "id": "uDcCGuqq",
+      "name": "2.1.0",
+      "version_number": "2.1.0",
       "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
+        "1.20.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "84e01fd9a51b6e953e12148abbc6ddbb35b6a7a4851e878e020f539af6a0b065faf3bfe7f275c7b4a4d937832f573aa085092fdec6c2f2be276889ea87a29a03",
-          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/1.2/CompactChat-1.2-1.18.2.jar",
-          "filename": "CompactChat-1.2-1.18.2.jar",
+          "sha512": "b40aa79fd7d5046d8a2af2083047fa97d5af66f1044ebd3c18757adba5cdf27882597fbd2ddb53cb09a56b16cff0dfee48f2bdb2fbf5b00e68e72d2f0b8f7a18",
+          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/uDcCGuqq/compact-chat-2.1.0.jar",
+          "filename": "compact-chat-2.1.0.jar",
           "primary": true,
-          "size": 21655
+          "size": 24101
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "wIj7jjb3",
+          "project_id": "9s6osm5g",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "mOgUt4GM",
-          "version_id": "GYRoFp1I",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "uaQtth5I",
+      "name": "2.0.3",
+      "version_number": "2.0.3",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "7487a736cb9b0a2f67c3454a610703958e69cf11b25fef53519e9e54399ef928c187fbe2288857e38b40db20ab2d257ec06a24a5eda3ee75cb024ea61cc2f833",
+          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/uaQtth5I/compact-chat-2.0.3.jar",
+          "filename": "compact-chat-2.0.3.jar",
+          "primary": true,
+          "size": 22014
         },
         {
+          "sha512": "1c6cb237b95c8693fb3ef5985f79698a9ae85050a980382012b3e31d1844797cbf1202e2c09ea1a5a5dd2aed4c61e191e024ee804fd99fd65dc49b2db1a66bcd",
+          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/uaQtth5I/compact-chat-2.0.3-sources.jar",
+          "filename": "compact-chat-2.0.3-sources.jar",
+          "primary": false,
+          "size": 15810
+        }
+      ],
+      "dependencies": [
+        {
           "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -516,103 +572,47 @@
       ]
     },
     {
-      "id": "HdSvrnB6",
-      "name": "1.18.2 build & minor UI changes",
-      "version_number": "1.1.1",
+      "id": "z7kBDopg",
+      "name": "2.0.0",
+      "version_number": "2.0.0",
       "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "005157ba6063cadaa4626978f18e8d4dc59e7c430700ed4a4469461aad3f1b856157c6c73c681e004dad5dd0066b626d0a278ab0a574956b9c23de1cd4d67b83",
-          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/1.1.1/CompactChat-1.1.1.jar",
-          "filename": "CompactChat-1.1.1.jar",
+          "sha512": "7a3de0222067c1f90e32b3278993df352f49a7c18fdedd052822bc6fd0c06fa1fc02341a96f3ce10b812632a9bb5814fb0e5b6897bd11cd200f824b935d04799",
+          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/z7kBDopg/compact-chat-2.0.0.jar",
+          "filename": "compact-chat-2.0.0.jar",
           "primary": true,
-          "size": 179627
+          "size": 21646
+        },
+        {
+          "sha512": "57c36dba997498e8804f557d4045d117a5833f5c0d86abcd7f855df9fb758e23e0852424377e55df75a0055ffd13b3c4da18219c09aff7abd81fde0705d4b40c",
+          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/z7kBDopg/compact-chat-2.0.0-sources.jar",
+          "filename": "compact-chat-2.0.0-sources.jar",
+          "primary": false,
+          "size": 14950
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "wIj7jjb3",
+          "project_id": "ccKDOlHs",
+          "version_id": "KMwbSA7v",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "mOgUt4GM",
-          "version_id": "GYRoFp1I",
+          "version_id": "eIrlBn1Z",
           "file_name": null,
           "dependency_type": "optional"
         }
       ]
-    },
-    {
-      "id": "WFkhcRyP",
-      "name": "Russian translations, bug fixes & more",
-      "version_number": "1.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a7466e270aa0dd23682104e3182ebdf7b3f95ef44df3716762cd5d3a7908ea059c741f5b754421b568886d84be666aa108771ffcce897e30a271cc280e340584",
-          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/1.1/CompactChat-1.1.jar",
-          "filename": "CompactChat-1.1.jar",
-          "primary": false,
-          "size": 218794
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "HtrOglNQ",
-      "name": "Infinite chat history option & more fixes",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "bd657db3676d3f838bbb0e8fb94da2319e1df262335cb621d256798da77a75eca16cdd25c81edf507bdcfec265dd26cdcb69cfca197bfc670f53ef1d1a2a08e9",
-          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/1.0.1/CompactChat-1.0.1.jar",
-          "filename": "CompactChat-1.0.1.jar",
-          "primary": false,
-          "size": 217305
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Ek66Tl7v",
-      "name": "Initial Release",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a5411aa61cbc43fc636d45405d772714150fed5d4c9b1b4f1551fbb8504a717d5bb2061da0943b748218f6c85594bad09d2100f97f3c5985b65c49f95b7ff491",
-          "url": "https://cdn.modrinth.com/data/w2SFICvx/versions/1.0.0/CompactChat-1.0-1.17.1.jar",
-          "filename": "CompactChat-1.0-1.17.1.jar",
-          "primary": false,
-          "size": 7618
-        }
-      ],
-      "dependencies": []
     }
   ]
 }

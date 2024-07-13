@@ -5,9 +5,30 @@
   "description": "Adds the TARDIS from Doctor Who into Fabric 1.20.1. Apparatus Vivi.",
   "versions": [
     {
-      "id": "eI95jRqz",
-      "name": "1.0.4-HOTFIX-1.20.1-release",
-      "version_number": "1.0.4-HOTFIX-1.20.1-release",
+      "id": "1T6VW5TB",
+      "name": "(Deprecated) 1.0.1",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9d9ea32af0edc07f88db4efacfbeeb170091fbb63481c1dadc27ab6d9ec3fdf9ad0ea4060d98e2cbd32f4554cf6d2bab5192380ea4bba257936ae8c6aa325755",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/1T6VW5TB/ait-tardis-beta-0.1.jar",
+          "filename": "ait-tardis-beta-0.1.jar",
+          "primary": true,
+          "size": 8554577
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "1vGwWg8l",
+      "name": "1.2.40-1.20.1-beta",
+      "version_number": "1.2.40-1.20.1-beta",
       "game_versions": [
         "1.20.1"
       ],
@@ -16,14 +37,20 @@
       ],
       "files": [
         {
-          "sha512": "bd4e2ee81612727d2581bd9e3ecfc9a9a1fc9526d682f563b19ca457b5860c5d177a66c46de6a9e077183522c5af34440f9fcce941c6d41da32e21df5cb5f592",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/eI95jRqz/ait-1.0.4-HOTFIX-1.20.1-release.jar",
-          "filename": "ait-1.0.4-HOTFIX-1.20.1-release.jar",
+          "sha512": "dff0ee6d8d4a15780911245f8b5dd36786a40f51827981edaaa639f8a5e6cbb4810ef077e0585be312f8540d53bcd22d6f6f3f9154595b81329774d09b2cb0d5",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/1vGwWg8l/ait-1.2.40-1.20.1-beta.jar",
+          "filename": "ait-1.2.40-1.20.1-beta.jar",
           "primary": true,
-          "size": 28340243
+          "size": 36546293
         }
       ],
       "dependencies": [
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "8gkWtwQu",
           "version_id": null,
@@ -43,13 +70,59 @@
           "dependency_type": "required"
         },
         {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "1zZVJ0w5",
+      "name": "1.2.25-1.20.1-beta",
+      "version_number": "1.2.25-1.20.1-beta",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "780d185ad09054bcd508631452304b08fbada829ab75d6b17a8967fd1c0670da8c524651f2e916d27b72473269b8d02ea5609a8fa30e9600ccda306220185e6b",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/1zZVJ0w5/ait-1.2.25-1.20.1-beta.jar",
+          "filename": "ait-1.2.25-1.20.1-beta.jar",
+          "primary": true,
+          "size": 34666676
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "ccKDOlHs",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "zJpHMkdD",
+          "project_id": "KZvTlFBC",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -77,221 +150,13 @@
       ],
       "dependencies": [
         {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "ccKDOlHs",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "sO66eGTy",
-      "name": "1.0.3-1.20.1-release",
-      "version_number": "1.0.3-1.20.1-release",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "cc0fc68aa8d0f03b232cdaf21638272d8e097e6c1bff1c64bb31c403c3f17c1e57a7d264c1b06fd0a35e78186224afad2190d2a65a94a94418618b918fe07f87",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/sO66eGTy/ait-1.0.3-1.20.1-release.jar",
-          "filename": "ait-1.0.3-1.20.1-release.jar",
-          "primary": true,
-          "size": 28319285
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "TM6hVuX1",
-      "name": "1.0.2-1.20.1-release",
-      "version_number": "1.0.2-1.20.1-release",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "831f3cfba1342973a15ab1665c6ce44f4c9186245c0b290ebc7df1dea081dc372aedebc8f6cad7662dcd8de3ce8ef1948a16fe7629453b3a3ba8001acc14bb54",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/TM6hVuX1/ait-1.0.2-1.20.1-release.jar",
-          "filename": "ait-1.0.2-1.20.1-release.jar",
-          "primary": true,
-          "size": 28313349
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "8KFDyg7v",
-      "name": "1.0.1-1.20.1-release",
-      "version_number": "1.0.1-1.20.1-release",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9b77ae22fd4ae980176ba442fc16a9e31fcd1fda0ce1a04d8cfef2f822aabfa5d2d2d7d66a8bae93eb6aa3f2659c58a1fd62c5aef6b823bc6a3bcdd2fcddc527",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/8KFDyg7v/ait-1.0.1-1.20.1-release.jar",
-          "filename": "ait-1.0.1-1.20.1-release.jar",
-          "primary": true,
-          "size": 28307089
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "jfZj0OIO",
-      "name": "1.0.0-1.20.1-release",
-      "version_number": "1.0.0-1.20.1-release",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "bf685a39ab719cf9bc9a9f21acbf545b7b525afe3a1654549b49b73916d7670c4e7bd76c854ca2c9a336ff215d0972e9779663d27f6f5628481432e99981b897",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/jfZj0OIO/ait-1.0.0-1.20.1-release.jar",
-          "filename": "ait-1.0.0-1.20.1-release.jar",
-          "primary": true,
-          "size": 28296999
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "8gkWtwQu",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -309,17 +174,17 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "ccKDOlHs",
+          "project_id": "8gkWtwQu",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "vx2b8JQw",
-      "name": "1.3.2-1.20.1-beta",
-      "version_number": "1.3.2-1.20.1-beta",
+      "id": "3zWYUggJ",
+      "name": "1.2.22-1.20.1-beta",
+      "version_number": "1.2.22-1.20.1-beta",
       "game_versions": [
         "1.20.1"
       ],
@@ -328,11 +193,11 @@
       ],
       "files": [
         {
-          "sha512": "3c25bd196579e491ed88c355f66337feeb703839dd04a0193e61e1c20d287696c02ce73c76d24188aca544d9e806d107d110b3080d7b579b2db7dadf1b2912e3",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/vx2b8JQw/ait-1.3.2-1.20.1-beta.jar",
-          "filename": "ait-1.3.2-1.20.1-beta.jar",
+          "sha512": "c07f8e45d14dff5a6bb5be58560e29744f85c62cc939955f8ab359309cd2ac3636b3ebc4238bda49404f5cd7dade83c9a25d8c0845b5d99a9caa23c9969ca1fb",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/3zWYUggJ/ait-1.2.22-1.20.1-beta.jar",
+          "filename": "ait-1.2.22-1.20.1-beta.jar",
           "primary": true,
-          "size": 29790657
+          "size": 34666387
         }
       ],
       "dependencies": [
@@ -343,19 +208,13 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "ccKDOlHs",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
+          "project_id": "ccKDOlHs",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -365,13 +224,40 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "jhBhxWcW",
-      "name": "1.3.1-1.20.1-beta",
-      "version_number": "1.3.1-1.20.1-beta",
+      "id": "4Zckjspt",
+      "name": "(Deprecated) 1.0.3",
+      "version_number": "1.0.3",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9410456096dccdd192476d5a1a953287b0a2fbbaad7f27e25d19f0432cb9eab83bdb2d611079593cf8fabbd34ae7165289344b00655ec54e6b50d3d66e8aa9a5",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/4Zckjspt/ait-1.0.3-BETA.jar",
+          "filename": "ait-1.0.3-BETA.jar",
+          "primary": true,
+          "size": 12357745
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "7MnI7jBN",
+      "name": "1.2.15-1.20.1-beta",
+      "version_number": "1.2.15-1.20.1-beta",
       "game_versions": [
         "1.20.1"
       ],
@@ -380,31 +266,25 @@
       ],
       "files": [
         {
-          "sha512": "1db11938c12634dbb21d98f9dd5b239c4cb04a2d4ece486e52d41897ef6000fb5eb777d54354d483a6cca73b59012f6c1c2f24ce4b4cb75127b309ce15c25436",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/jhBhxWcW/ait-1.3.1-1.20.1-beta.jar",
-          "filename": "ait-1.3.1-1.20.1-beta.jar",
+          "sha512": "040dfdeed8d62b532301c48f199e8d4c59eb76514575e966109404bdfa3dfc06d2126d1c6feabe63f6d8cabffd398268077412ab35bb8245d9090e9b5049b428",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/7MnI7jBN/ait-1.2.15-1.20.1-beta.jar",
+          "filename": "ait-1.2.15-1.20.1-beta.jar",
           "primary": true,
-          "size": 29969793
+          "size": 27054967
         }
       ],
       "dependencies": [
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
         {
           "project_id": "8gkWtwQu",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "ccKDOlHs",
@@ -413,7 +293,13 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "zJpHMkdD",
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "KZvTlFBC",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -473,9 +359,9 @@
       ]
     },
     {
-      "id": "h4B6qMJg",
-      "name": "1.2.46-1.20.1-beta",
-      "version_number": "1.2.46-1.20.1-beta",
+      "id": "8KFDyg7v",
+      "name": "1.0.1-1.20.1-release",
+      "version_number": "1.0.1-1.20.1-release",
       "game_versions": [
         "1.20.1"
       ],
@@ -484,63 +370,11 @@
       ],
       "files": [
         {
-          "sha512": "3f2288518a48bbe10a8849f889c6bc9b2b5c68b663fcb01d0d2967d1bd720369792e7048785d0c2f50c5289c0edebf62d40d040cf77f088fd627d8850716b491",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/h4B6qMJg/ait-1.2.46-1.20.1-beta.jar",
-          "filename": "ait-1.2.46-1.20.1-beta.jar",
+          "sha512": "9b77ae22fd4ae980176ba442fc16a9e31fcd1fda0ce1a04d8cfef2f822aabfa5d2d2d7d66a8bae93eb6aa3f2659c58a1fd62c5aef6b823bc6a3bcdd2fcddc527",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/8KFDyg7v/ait-1.0.1-1.20.1-release.jar",
+          "filename": "ait-1.0.1-1.20.1-release.jar",
           "primary": true,
-          "size": 36002536
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "rF1MuYcT",
-      "name": "1.2.45-1.20.1-beta",
-      "version_number": "1.2.45-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f511a77901be55b6f3394cd49e10b2b4ee82a0149adeeff6743e856cad723a2515799fe0d9e1677b884fab771d7683f4ab7666efd042b3135fd0cf6ae2d5f192",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/rF1MuYcT/ait-1.2.45-1.20.1-beta.jar",
-          "filename": "ait-1.2.45-1.20.1-beta.jar",
-          "primary": true,
-          "size": 36002546
+          "size": 28307089
         }
       ],
       "dependencies": [
@@ -551,16 +385,16 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "zJpHMkdD",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "8gkWtwQu",
@@ -577,9 +411,9 @@
       ]
     },
     {
-      "id": "qy1yalxF",
-      "name": "1.2.44-1.20.1-beta",
-      "version_number": "1.2.44-1.20.1-beta",
+      "id": "BgAR0TEj",
+      "name": "1.2.33-1.20.1-beta",
+      "version_number": "1.2.33-1.20.1-beta",
       "game_versions": [
         "1.20.1"
       ],
@@ -588,11 +422,115 @@
       ],
       "files": [
         {
-          "sha512": "ce9f8c5af3e53f11efeeb21d039c93275404246ea06a512e9b5accf3dab143b3dedea899902f3e0eaa1fa4262311a8d50d9b33fbc5da5f78e946d3044f762dac",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/qy1yalxF/ait-1.2.44-1.20.1-beta.jar",
-          "filename": "ait-1.2.44-1.20.1-beta.jar",
+          "sha512": "caaa7f8fea194b6465438b699b69d55260b330e09773b13e4627df843ddfe6df953042127683e40553e3ecb20fa50e9d23f0cdeb2353a9cb9cbf44b188f355de",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/BgAR0TEj/ait-1.2.33-1.20.1-beta.jar",
+          "filename": "ait-1.2.33-1.20.1-beta.jar",
           "primary": true,
-          "size": 36547423
+          "size": 34927640
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "FJqi6oE5",
+      "name": "1.2.41-1.20.1-beta",
+      "version_number": "1.2.41-1.20.1-beta",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5bdb5bfbdf852005a36ef650717fece49904b6dd0bd5320125e2b9792661b2738fa47d46d3b2abc2c9959186c64e391316d04c609bf8958293ca907525545fe4",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/FJqi6oE5/ait-1.2.41-1.20.1-beta.jar",
+          "filename": "ait-1.2.41-1.20.1-beta.jar",
+          "primary": true,
+          "size": 36546315
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "G8hAHam3",
+      "name": "1.2.35-1.20.1-beta",
+      "version_number": "1.2.35-1.20.1-beta",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1fb4f665ec2b554de164f9fa10c20d588b38b93328f667beb77595aad9b5354ba404895bc5efd43deee492c702cd9d59d5add1693bccbb081bde751ca800365c",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/G8hAHam3/ait-1.2.35-1.20.1-beta.jar",
+          "filename": "ait-1.2.35-1.20.1-beta.jar",
+          "primary": true,
+          "size": 34931262
         }
       ],
       "dependencies": [
@@ -625,6 +563,287 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "HqCntFGZ",
+      "name": "1.2.11-1.20.1-beta",
+      "version_number": "1.2.11-1.20.1-beta",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2649923802b7e298da0bc4c625e3a02c53ee819beb34f2f817c72c522e798b7bf3e5c697e837a521d11278aecc95a2b8f20f40f5a96743c285ee9000fdf76517",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/HqCntFGZ/ait-1.2.11-1.20.1-beta.jar",
+          "filename": "ait-1.2.11-1.20.1-beta.jar",
+          "primary": true,
+          "size": 27009976
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "OSQN9G96",
+      "name": "1.2.24-1.20.1-beta",
+      "version_number": "1.2.24-1.20.1-beta",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "dbbb2adcb3193f4ed202f40f7237bf650a5b5db030417eda710b4fc0a7017f85d40e16f4b668feb4d07135b0566aec81358f9d855265a2ffbcf90f9ccf2f5195",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/OSQN9G96/ait-1.2.24-1.20.1-beta.jar",
+          "filename": "ait-1.2.24-1.20.1-beta.jar",
+          "primary": true,
+          "size": 34666669
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "PSGRMhM8",
+      "name": "1.2.14-1.20.1-beta",
+      "version_number": "1.2.14-1.20.1-beta",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "189454f0bcd183ec72ce2cce309fd4e9bcf16b9582e1ffc9ae9f47f7244b96dae9cb34534d99829d3ac5bfd3ba4ef4de34a307f275f4fc743c872d45d243ec19",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/PSGRMhM8/ait-1.2.14-1.20.1-beta.jar",
+          "filename": "ait-1.2.14-1.20.1-beta.jar",
+          "primary": true,
+          "size": 27032069
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "PfeeaCmP",
+      "name": "1.2.16-1.20.1-beta",
+      "version_number": "1.2.16-1.20.1-beta",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f9bcef6e7ff99fff57439ede66373ed8609bda7ca18dd8222913ead20c46584ba8c94db86ab1445441ed50eb251b6a06eb73ba00a53d802d22cfe72af731eaee",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/PfeeaCmP/ait-1.2.16-1.20.1-beta.jar",
+          "filename": "ait-1.2.16-1.20.1-beta.jar",
+          "primary": true,
+          "size": 27055086
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "Q4kxa77f",
+      "name": "(Deprecated) 1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d8597a7cc08206eaa76d0001afd761ae90f22cc5fd436b373dcee48070f162e97bec7b5fe973fe502adf11e4d4253f645b7dd511c9027fd18822734721328213",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/Q4kxa77f/ait-tardis-beta.jar",
+          "filename": "ait-tardis-beta.jar",
+          "primary": true,
+          "size": 8469250
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "TM6hVuX1",
+      "name": "1.0.2-1.20.1-release",
+      "version_number": "1.0.2-1.20.1-release",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "831f3cfba1342973a15ab1665c6ce44f4c9186245c0b290ebc7df1dea081dc372aedebc8f6cad7662dcd8de3ce8ef1948a16fe7629453b3a3ba8001acc14bb54",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/TM6hVuX1/ait-1.0.2-1.20.1-release.jar",
+          "filename": "ait-1.0.2-1.20.1-release.jar",
+          "primary": true,
+          "size": 28313349
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -665,6 +884,162 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "WH7BB3A6",
+      "name": "1.2.9-1.20.1-beta",
+      "version_number": "1.2.9-1.20.1-beta",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d467cdf05ec60c3cea3a52ef1f23479812d751c4b5f964b76ed39bede45e21b45b5e9d7d5a80da951264b0e0f409197ff3a20a2d80e0989dfb462d36a5ba61d5",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/WH7BB3A6/ait-1.2.9-1.20.1-beta.jar",
+          "filename": "ait-1.2.9-1.20.1-beta.jar",
+          "primary": true,
+          "size": 27010056
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Wy2Q87dC",
+      "name": "1.2.30-1.20.1-beta",
+      "version_number": "1.2.30-1.20.1-beta",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "67d4d9b231ca094658923e3f33cae8e6b7c4aeb7cc35511419d4a2949c89c656c772301eea220e2ff0230b08c3d924be8b9e2db13e62a6f98d4dc8f6cccb9ea4",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/Wy2Q87dC/ait-1.2.30-1.20.1-beta.jar",
+          "filename": "ait-1.2.30-1.20.1-beta.jar",
+          "primary": true,
+          "size": 34875211
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "XIQ27K4b",
+      "name": "1.2.17-1.20.1-beta",
+      "version_number": "1.2.17-1.20.1-beta",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "7806adb05aecaf87d12edf31fdf2798cd7a28d0b86b6f234392a227729fa157ad64d40e03e09c730fa219b0f0ad89c5a4e24a00a1c7777bfdd30da71a0b46735",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/XIQ27K4b/ait-1.2.17-1.20.1-beta.jar",
+          "filename": "ait-1.2.17-1.20.1-beta.jar",
+          "primary": true,
+          "size": 34667198
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "KZvTlFBC",
@@ -733,9 +1108,9 @@
       ]
     },
     {
-      "id": "FJqi6oE5",
-      "name": "1.2.41-1.20.1-beta",
-      "version_number": "1.2.41-1.20.1-beta",
+      "id": "cOy9ccUP",
+      "name": "1.2.20-1.20.1-beta",
+      "version_number": "1.2.20-1.20.1-beta",
       "game_versions": [
         "1.20.1"
       ],
@@ -744,14 +1119,26 @@
       ],
       "files": [
         {
-          "sha512": "5bdb5bfbdf852005a36ef650717fece49904b6dd0bd5320125e2b9792661b2738fa47d46d3b2abc2c9959186c64e391316d04c609bf8958293ca907525545fe4",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/FJqi6oE5/ait-1.2.41-1.20.1-beta.jar",
-          "filename": "ait-1.2.41-1.20.1-beta.jar",
+          "sha512": "a87212c8ce30377e67a42d0084c87a7ab0496cda0bf9536691cec1f03be2a81646084fbde7426fced94e0129d568f23c630cdc096ae69edf9e864fefd66ab769",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/cOy9ccUP/ait-1.2.20-1.20.1-beta.jar",
+          "filename": "ait-1.2.20-1.20.1-beta.jar",
           "primary": true,
-          "size": 36546315
+          "size": 34666394
         }
       ],
       "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
         {
           "project_id": "ccKDOlHs",
           "version_id": null,
@@ -766,6 +1153,92 @@
         },
         {
           "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "dSzq3oaM",
+      "name": "1.2.10-1.20.1-beta",
+      "version_number": "1.2.10-1.20.1-beta",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "335f0a8c5c751bd315380a6c31ffc47f4bc507f35c5f695026e0f83821a137ea74c13385366af1412ec3a45e708a8a741619a76dee65f9ecb1767fb70f6480b9",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/dSzq3oaM/ait-1.2.10-1.20.1-beta.jar",
+          "filename": "ait-1.2.10-1.20.1-beta.jar",
+          "primary": true,
+          "size": 26850679
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "dV2YzPTG",
+      "name": "1.2.36-1.20.1-beta",
+      "version_number": "1.2.36-1.20.1-beta",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c4d9411258321c72bc2621dacc91530da127de36fdb7e1bc093174c6109ee6f30c0adb6a52837c14c450669a981cb9628d5b0b770001ef83f0c1f02554bd64bb",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/dV2YzPTG/ait-1.2.36-1.20.1-beta.jar",
+          "filename": "ait-1.2.36-1.20.1-beta.jar",
+          "primary": true,
+          "size": 36592183
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "8gkWtwQu",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -781,13 +1254,19 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "1vGwWg8l",
-      "name": "1.2.40-1.20.1-beta",
-      "version_number": "1.2.40-1.20.1-beta",
+      "id": "eI95jRqz",
+      "name": "1.0.4-HOTFIX-1.20.1-release",
+      "version_number": "1.0.4-HOTFIX-1.20.1-release",
       "game_versions": [
         "1.20.1"
       ],
@@ -796,20 +1275,14 @@
       ],
       "files": [
         {
-          "sha512": "dff0ee6d8d4a15780911245f8b5dd36786a40f51827981edaaa639f8a5e6cbb4810ef077e0585be312f8540d53bcd22d6f6f3f9154595b81329774d09b2cb0d5",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/1vGwWg8l/ait-1.2.40-1.20.1-beta.jar",
-          "filename": "ait-1.2.40-1.20.1-beta.jar",
+          "sha512": "bd4e2ee81612727d2581bd9e3ecfc9a9a1fc9526d682f563b19ca457b5860c5d177a66c46de6a9e077183522c5af34440f9fcce941c6d41da32e21df5cb5f592",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/eI95jRqz/ait-1.0.4-HOTFIX-1.20.1-release.jar",
+          "filename": "ait-1.0.4-HOTFIX-1.20.1-release.jar",
           "primary": true,
-          "size": 36546293
+          "size": 28340243
         }
       ],
       "dependencies": [
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "8gkWtwQu",
           "version_id": null,
@@ -824,6 +1297,12 @@
         },
         {
           "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ccKDOlHs",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -941,9 +1420,9 @@
       ]
     },
     {
-      "id": "dV2YzPTG",
-      "name": "1.2.36-1.20.1-beta",
-      "version_number": "1.2.36-1.20.1-beta",
+      "id": "h4B6qMJg",
+      "name": "1.2.46-1.20.1-beta",
+      "version_number": "1.2.46-1.20.1-beta",
       "game_versions": [
         "1.20.1"
       ],
@@ -952,182 +1431,14 @@
       ],
       "files": [
         {
-          "sha512": "c4d9411258321c72bc2621dacc91530da127de36fdb7e1bc093174c6109ee6f30c0adb6a52837c14c450669a981cb9628d5b0b770001ef83f0c1f02554bd64bb",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/dV2YzPTG/ait-1.2.36-1.20.1-beta.jar",
-          "filename": "ait-1.2.36-1.20.1-beta.jar",
+          "sha512": "3f2288518a48bbe10a8849f889c6bc9b2b5c68b663fcb01d0d2967d1bd720369792e7048785d0c2f50c5289c0edebf62d40d040cf77f088fd627d8850716b491",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/h4B6qMJg/ait-1.2.46-1.20.1-beta.jar",
+          "filename": "ait-1.2.46-1.20.1-beta.jar",
           "primary": true,
-          "size": 36592183
+          "size": 36002536
         }
       ],
       "dependencies": [
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "G8hAHam3",
-      "name": "1.2.35-1.20.1-beta",
-      "version_number": "1.2.35-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "1fb4f665ec2b554de164f9fa10c20d588b38b93328f667beb77595aad9b5354ba404895bc5efd43deee492c702cd9d59d5add1693bccbb081bde751ca800365c",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/G8hAHam3/ait-1.2.35-1.20.1-beta.jar",
-          "filename": "ait-1.2.35-1.20.1-beta.jar",
-          "primary": true,
-          "size": 34931262
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "oYgC4Ztz",
-      "name": "1.2.34-1.20.1-beta",
-      "version_number": "1.2.34-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ef5c78389530c7b24dd7d539ed4328b7c369020b85a047150ba71ea7dc9d2a0d87eb34685a9b35cfda9bc0d06683ed5888a5243e2e0be6f8e4e8768989f1947d",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/oYgC4Ztz/ait-1.2.34-1.20.1-beta.jar",
-          "filename": "ait-1.2.34-1.20.1-beta.jar",
-          "primary": true,
-          "size": 34927703
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "BgAR0TEj",
-      "name": "1.2.33-1.20.1-beta",
-      "version_number": "1.2.33-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "caaa7f8fea194b6465438b699b69d55260b330e09773b13e4627df843ddfe6df953042127683e40553e3ecb20fa50e9d23f0cdeb2353a9cb9cbf44b188f355de",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/BgAR0TEj/ait-1.2.33-1.20.1-beta.jar",
-          "filename": "ait-1.2.33-1.20.1-beta.jar",
-          "primary": true,
-          "size": 34927640
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "8gkWtwQu",
           "version_id": null,
@@ -1145,6 +1456,18 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -1194,6 +1517,110 @@
         },
         {
           "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "jfZj0OIO",
+      "name": "1.0.0-1.20.1-release",
+      "version_number": "1.0.0-1.20.1-release",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "bf685a39ab719cf9bc9a9f21acbf545b7b525afe3a1654549b49b73916d7670c4e7bd76c854ca2c9a336ff215d0972e9779663d27f6f5628481432e99981b897",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/jfZj0OIO/ait-1.0.0-1.20.1-release.jar",
+          "filename": "ait-1.0.0-1.20.1-release.jar",
+          "primary": true,
+          "size": 28296999
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jhBhxWcW",
+      "name": "1.3.1-1.20.1-beta",
+      "version_number": "1.3.1-1.20.1-beta",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1db11938c12634dbb21d98f9dd5b239c4cb04a2d4ece486e52d41897ef6000fb5eb777d54354d483a6cca73b59012f6c1c2f24ce4b4cb75127b309ce15c25436",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/jhBhxWcW/ait-1.3.1-1.20.1-beta.jar",
+          "filename": "ait-1.3.1-1.20.1-beta.jar",
+          "primary": true,
+          "size": 29969793
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "zJpHMkdD",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -1253,9 +1680,9 @@
       ]
     },
     {
-      "id": "Wy2Q87dC",
-      "name": "1.2.30-1.20.1-beta",
-      "version_number": "1.2.30-1.20.1-beta",
+      "id": "ka9bPKWf",
+      "name": "1.2.13-1.20.1-beta",
+      "version_number": "1.2.13-1.20.1-beta",
       "game_versions": [
         "1.20.1"
       ],
@@ -1264,126 +1691,16 @@
       ],
       "files": [
         {
-          "sha512": "67d4d9b231ca094658923e3f33cae8e6b7c4aeb7cc35511419d4a2949c89c656c772301eea220e2ff0230b08c3d924be8b9e2db13e62a6f98d4dc8f6cccb9ea4",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/Wy2Q87dC/ait-1.2.30-1.20.1-beta.jar",
-          "filename": "ait-1.2.30-1.20.1-beta.jar",
+          "sha512": "855f40b2abf8f2e6da760d06b04efe48c4485ab80507bba5f6e5009b5ba68fd14e2e4aad31b775a081cbc3728e817b26d57d8dc91f97486e158ad40a4d596880",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/ka9bPKWf/ait-1.2.13-1.20.1-beta.jar",
+          "filename": "ait-1.2.13-1.20.1-beta.jar",
           "primary": true,
-          "size": 34875211
+          "size": 27030733
         }
       ],
       "dependencies": [
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "zgXeVxbG",
-      "name": "1.2.29-1.20.1-beta",
-      "version_number": "1.2.29-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "373eb0f0b4bbb924187a39c199aebeb60a4ccd0242d6e3a7608e771c2e2e9aff12955634e72c78b293b5a65a4441a7e9532cdbde510a98a7ff06f7f24563720c",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/zgXeVxbG/ait-1.2.29-1.20.1-beta.jar",
-          "filename": "ait-1.2.29-1.20.1-beta.jar",
-          "primary": true,
-          "size": 34874835
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "rCG5wELf",
-      "name": "1.2.28-1.20.1-beta",
-      "version_number": "1.2.28-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d052d95f7f0ae20b4623bd717dd14fba565c8487ddecaa5b7d9d2138632649c2b65d9d033296ebe75e137ae27c16c5663cbc009a56c5e2d5f6f5a671eb91c242",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/rCG5wELf/ait-1.2.27-1.20.1-beta.jar",
-          "filename": "ait-1.2.27-1.20.1-beta.jar",
-          "primary": true,
-          "size": 34873952
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "zJpHMkdD",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -1401,319 +1718,13 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "tiD2OL0S",
-      "name": "1.2.27-1.20.1-beta",
-      "version_number": "1.2.27-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4985838a0d0ee4c8052284bb54d37f3cd02551f809235a0e259a1b77fc39c1f16d89b862b0784a0f17ca6e11e716846ec13eee95b000e9bf954f1889f0de1e96",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/tiD2OL0S/ait-1.2.27-1.20.1-beta.jar",
-          "filename": "ait-1.2.27-1.20.1-beta.jar",
-          "primary": true,
-          "size": 34873435
-        }
-      ],
-      "dependencies": [
-        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "xxzQDnnx",
-      "name": "1.2.26-1.20.1-beta",
-      "version_number": "1.2.26-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ed563c32f72190281c2472217bc330f42ac42bffd60dd935c8b831ac200b0fea888558412ada3e7630b6541925555421e17aedc7e6783d5c8729f13b3523c578",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/xxzQDnnx/ait-1.2.26-1.20.1-beta.jar",
-          "filename": "ait-1.2.26-1.20.1-beta.jar",
-          "primary": true,
-          "size": 34873476
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "1zZVJ0w5",
-      "name": "1.2.25-1.20.1-beta",
-      "version_number": "1.2.25-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "780d185ad09054bcd508631452304b08fbada829ab75d6b17a8967fd1c0670da8c524651f2e916d27b72473269b8d02ea5609a8fa30e9600ccda306220185e6b",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/1zZVJ0w5/ait-1.2.25-1.20.1-beta.jar",
-          "filename": "ait-1.2.25-1.20.1-beta.jar",
-          "primary": true,
-          "size": 34666676
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "OSQN9G96",
-      "name": "1.2.24-1.20.1-beta",
-      "version_number": "1.2.24-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "dbbb2adcb3193f4ed202f40f7237bf650a5b5db030417eda710b4fc0a7017f85d40e16f4b668feb4d07135b0566aec81358f9d855265a2ffbcf90f9ccf2f5195",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/OSQN9G96/ait-1.2.24-1.20.1-beta.jar",
-          "filename": "ait-1.2.24-1.20.1-beta.jar",
-          "primary": true,
-          "size": 34666669
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "tN6293EE",
-      "name": "1.2.23-1.20.1-beta",
-      "version_number": "1.2.23-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "226f0d2045442ca201228c5319eb640f22d90ce64e865f964cbb5a8d8d56f2b236462b54f059ae311ea3db04b313bf342052a2e2ffb5431e6c532132a1d958b5",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/tN6293EE/ait-1.2.23-1.20.1-beta.jar",
-          "filename": "ait-1.2.23-1.20.1-beta.jar",
-          "primary": true,
-          "size": 34666410
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "3zWYUggJ",
-      "name": "1.2.22-1.20.1-beta",
-      "version_number": "1.2.22-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c07f8e45d14dff5a6bb5be58560e29744f85c62cc939955f8ab359309cd2ac3636b3ebc4238bda49404f5cd7dade83c9a25d8c0845b5d99a9caa23c9969ca1fb",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/3zWYUggJ/ait-1.2.22-1.20.1-beta.jar",
-          "filename": "ait-1.2.22-1.20.1-beta.jar",
-          "primary": true,
-          "size": 34666387
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "8gkWtwQu",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -1773,9 +1784,30 @@
       ]
     },
     {
-      "id": "cOy9ccUP",
-      "name": "1.2.20-1.20.1-beta",
-      "version_number": "1.2.20-1.20.1-beta",
+      "id": "mO1D3gVh",
+      "name": "(Deprecated) 1.1",
+      "version_number": "1.1",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ecfcc5f03501c59c0906a662dad6433a57199a9c2a4b0424b5ebe1036943f4f82d614df1acbe7a53bd585f0baa3891cd3678bdf114b15035d26e0e9a23bf2355",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/mO1D3gVh/ait-duzos-release-WOW.jar",
+          "filename": "ait-duzos-release-WOW.jar",
+          "primary": true,
+          "size": 12361488
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "oYgC4Ztz",
+      "name": "1.2.34-1.20.1-beta",
+      "version_number": "1.2.34-1.20.1-beta",
       "game_versions": [
         "1.20.1"
       ],
@@ -1784,11 +1816,188 @@
       ],
       "files": [
         {
-          "sha512": "a87212c8ce30377e67a42d0084c87a7ab0496cda0bf9536691cec1f03be2a81646084fbde7426fced94e0129d568f23c630cdc096ae69edf9e864fefd66ab769",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/cOy9ccUP/ait-1.2.20-1.20.1-beta.jar",
-          "filename": "ait-1.2.20-1.20.1-beta.jar",
+          "sha512": "ef5c78389530c7b24dd7d539ed4328b7c369020b85a047150ba71ea7dc9d2a0d87eb34685a9b35cfda9bc0d06683ed5888a5243e2e0be6f8e4e8768989f1947d",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/oYgC4Ztz/ait-1.2.34-1.20.1-beta.jar",
+          "filename": "ait-1.2.34-1.20.1-beta.jar",
           "primary": true,
-          "size": 34666394
+          "size": 34927703
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "p7aMJVLg",
+      "name": "(Deprecated) 1.0.2",
+      "version_number": "1.0.2",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f095fb11acd685cfd5c766e1cd93bce5ef76850d14be66b3cfab9b141b08be6edbb6a9b20104367e5fec77396d7b8249017acc0b6211e5e089df5e1d6241d52f",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/p7aMJVLg/ait-tardis-beta-0.2.jar",
+          "filename": "ait-tardis-beta-0.2.jar",
+          "primary": true,
+          "size": 8584453
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "qy1yalxF",
+      "name": "1.2.44-1.20.1-beta",
+      "version_number": "1.2.44-1.20.1-beta",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ce9f8c5af3e53f11efeeb21d039c93275404246ea06a512e9b5accf3dab143b3dedea899902f3e0eaa1fa4262311a8d50d9b33fbc5da5f78e946d3044f762dac",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/qy1yalxF/ait-1.2.44-1.20.1-beta.jar",
+          "filename": "ait-1.2.44-1.20.1-beta.jar",
+          "primary": true,
+          "size": 36547423
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "r3uoidRs",
+      "name": "1.2.12-1.20.1-beta",
+      "version_number": "1.2.12-1.20.1-beta",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e91da75f6e96cd1fb9b889ff675b6ca0c85d3e28cf3f67fd959a793099cef73e4200d1ddd21a80209bd5c616129ee24c0e5a8dfcd7c7744f8e2929723833636c",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/r3uoidRs/ait-1.2.12-1.20.1-beta.jar",
+          "filename": "ait-1.2.12-1.20.1-beta.jar",
+          "primary": true,
+          "size": 27028643
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "rCG5wELf",
+      "name": "1.2.28-1.20.1-beta",
+      "version_number": "1.2.28-1.20.1-beta",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d052d95f7f0ae20b4623bd717dd14fba565c8487ddecaa5b7d9d2138632649c2b65d9d033296ebe75e137ae27c16c5663cbc009a56c5e2d5f6f5a671eb91c242",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/rCG5wELf/ait-1.2.27-1.20.1-beta.jar",
+          "filename": "ait-1.2.27-1.20.1-beta.jar",
+          "primary": true,
+          "size": 34873952
         }
       ],
       "dependencies": [
@@ -1805,10 +2014,62 @@
           "dependency_type": "optional"
         },
         {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "ccKDOlHs",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "rF1MuYcT",
+      "name": "1.2.45-1.20.1-beta",
+      "version_number": "1.2.45-1.20.1-beta",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f511a77901be55b6f3394cd49e10b2b4ee82a0149adeeff6743e856cad723a2515799fe0d9e1677b884fab771d7683f4ab7666efd042b3135fd0cf6ae2d5f192",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/rF1MuYcT/ait-1.2.45-1.20.1-beta.jar",
+          "filename": "ait-1.2.45-1.20.1-beta.jar",
+          "primary": true,
+          "size": 36002546
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         },
         {
           "project_id": "8gkWtwQu",
@@ -1877,6 +2138,110 @@
       ]
     },
     {
+      "id": "sO66eGTy",
+      "name": "1.0.3-1.20.1-release",
+      "version_number": "1.0.3-1.20.1-release",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "cc0fc68aa8d0f03b232cdaf21638272d8e097e6c1bff1c64bb31c403c3f17c1e57a7d264c1b06fd0a35e78186224afad2190d2a65a94a94418618b918fe07f87",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/sO66eGTy/ait-1.0.3-1.20.1-release.jar",
+          "filename": "ait-1.0.3-1.20.1-release.jar",
+          "primary": true,
+          "size": 28319285
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "tN6293EE",
+      "name": "1.2.23-1.20.1-beta",
+      "version_number": "1.2.23-1.20.1-beta",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "226f0d2045442ca201228c5319eb640f22d90ce64e865f964cbb5a8d8d56f2b236462b54f059ae311ea3db04b313bf342052a2e2ffb5431e6c532132a1d958b5",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/tN6293EE/ait-1.2.23-1.20.1-beta.jar",
+          "filename": "ait-1.2.23-1.20.1-beta.jar",
+          "primary": true,
+          "size": 34666410
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "tYHuh7V3",
       "name": "1.2.18-1.20.1-beta",
       "version_number": "1.2.18-1.20.1-beta",
@@ -1929,9 +2294,9 @@
       ]
     },
     {
-      "id": "XIQ27K4b",
-      "name": "1.2.17-1.20.1-beta",
-      "version_number": "1.2.17-1.20.1-beta",
+      "id": "tiD2OL0S",
+      "name": "1.2.27-1.20.1-beta",
+      "version_number": "1.2.27-1.20.1-beta",
       "game_versions": [
         "1.20.1"
       ],
@@ -1940,28 +2305,22 @@
       ],
       "files": [
         {
-          "sha512": "7806adb05aecaf87d12edf31fdf2798cd7a28d0b86b6f234392a227729fa157ad64d40e03e09c730fa219b0f0ad89c5a4e24a00a1c7777bfdd30da71a0b46735",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/XIQ27K4b/ait-1.2.17-1.20.1-beta.jar",
-          "filename": "ait-1.2.17-1.20.1-beta.jar",
+          "sha512": "4985838a0d0ee4c8052284bb54d37f3cd02551f809235a0e259a1b77fc39c1f16d89b862b0784a0f17ca6e11e716846ec13eee95b000e9bf954f1889f0de1e96",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/tiD2OL0S/ait-1.2.27-1.20.1-beta.jar",
+          "filename": "ait-1.2.27-1.20.1-beta.jar",
           "primary": true,
-          "size": 34667198
+          "size": 34873435
         }
       ],
       "dependencies": [
         {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ccKDOlHs",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -1973,53 +2332,7 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "PfeeaCmP",
-      "name": "1.2.16-1.20.1-beta",
-      "version_number": "1.2.16-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f9bcef6e7ff99fff57439ede66373ed8609bda7ca18dd8222913ead20c46584ba8c94db86ab1445441ed50eb251b6a06eb73ba00a53d802d22cfe72af731eaee",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/PfeeaCmP/ait-1.2.16-1.20.1-beta.jar",
-          "filename": "ait-1.2.16-1.20.1-beta.jar",
-          "primary": true,
-          "size": 27055086
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "KZvTlFBC",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -2029,370 +2342,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "7MnI7jBN",
-      "name": "1.2.15-1.20.1-beta",
-      "version_number": "1.2.15-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "040dfdeed8d62b532301c48f199e8d4c59eb76514575e966109404bdfa3dfc06d2126d1c6feabe63f6d8cabffd398268077412ab35bb8245d9090e9b5049b428",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/7MnI7jBN/ait-1.2.15-1.20.1-beta.jar",
-          "filename": "ait-1.2.15-1.20.1-beta.jar",
-          "primary": true,
-          "size": 27054967
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "PSGRMhM8",
-      "name": "1.2.14-1.20.1-beta",
-      "version_number": "1.2.14-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "189454f0bcd183ec72ce2cce309fd4e9bcf16b9582e1ffc9ae9f47f7244b96dae9cb34534d99829d3ac5bfd3ba4ef4de34a307f275f4fc743c872d45d243ec19",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/PSGRMhM8/ait-1.2.14-1.20.1-beta.jar",
-          "filename": "ait-1.2.14-1.20.1-beta.jar",
-          "primary": true,
-          "size": 27032069
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ka9bPKWf",
-      "name": "1.2.13-1.20.1-beta",
-      "version_number": "1.2.13-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "855f40b2abf8f2e6da760d06b04efe48c4485ab80507bba5f6e5009b5ba68fd14e2e4aad31b775a081cbc3728e817b26d57d8dc91f97486e158ad40a4d596880",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/ka9bPKWf/ait-1.2.13-1.20.1-beta.jar",
-          "filename": "ait-1.2.13-1.20.1-beta.jar",
-          "primary": true,
-          "size": 27030733
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "r3uoidRs",
-      "name": "1.2.12-1.20.1-beta",
-      "version_number": "1.2.12-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e91da75f6e96cd1fb9b889ff675b6ca0c85d3e28cf3f67fd959a793099cef73e4200d1ddd21a80209bd5c616129ee24c0e5a8dfcd7c7744f8e2929723833636c",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/r3uoidRs/ait-1.2.12-1.20.1-beta.jar",
-          "filename": "ait-1.2.12-1.20.1-beta.jar",
-          "primary": true,
-          "size": 27028643
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "HqCntFGZ",
-      "name": "1.2.11-1.20.1-beta",
-      "version_number": "1.2.11-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2649923802b7e298da0bc4c625e3a02c53ee819beb34f2f817c72c522e798b7bf3e5c697e837a521d11278aecc95a2b8f20f40f5a96743c285ee9000fdf76517",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/HqCntFGZ/ait-1.2.11-1.20.1-beta.jar",
-          "filename": "ait-1.2.11-1.20.1-beta.jar",
-          "primary": true,
-          "size": 27009976
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "dSzq3oaM",
-      "name": "1.2.10-1.20.1-beta",
-      "version_number": "1.2.10-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "335f0a8c5c751bd315380a6c31ffc47f4bc507f35c5f695026e0f83821a137ea74c13385366af1412ec3a45e708a8a741619a76dee65f9ecb1767fb70f6480b9",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/dSzq3oaM/ait-1.2.10-1.20.1-beta.jar",
-          "filename": "ait-1.2.10-1.20.1-beta.jar",
-          "primary": true,
-          "size": 26850679
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "WH7BB3A6",
-      "name": "1.2.9-1.20.1-beta",
-      "version_number": "1.2.9-1.20.1-beta",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d467cdf05ec60c3cea3a52ef1f23479812d751c4b5f964b76ed39bede45e21b45b5e9d7d5a80da951264b0e0f409197ff3a20a2d80e0989dfb462d36a5ba61d5",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/WH7BB3A6/ait-1.2.9-1.20.1-beta.jar",
-          "filename": "ait-1.2.9-1.20.1-beta.jar",
-          "primary": true,
-          "size": 27010056
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "8gkWtwQu",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "KZvTlFBC",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -2449,109 +2398,160 @@
       ]
     },
     {
-      "id": "mO1D3gVh",
-      "name": "(Deprecated) 1.1",
-      "version_number": "1.1",
+      "id": "vx2b8JQw",
+      "name": "1.3.2-1.20.1-beta",
+      "version_number": "1.3.2-1.20.1-beta",
       "game_versions": [
-        "1.16.5"
+        "1.20.1"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "ecfcc5f03501c59c0906a662dad6433a57199a9c2a4b0424b5ebe1036943f4f82d614df1acbe7a53bd585f0baa3891cd3678bdf114b15035d26e0e9a23bf2355",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/mO1D3gVh/ait-duzos-release-WOW.jar",
-          "filename": "ait-duzos-release-WOW.jar",
+          "sha512": "3c25bd196579e491ed88c355f66337feeb703839dd04a0193e61e1c20d287696c02ce73c76d24188aca544d9e806d107d110b3080d7b579b2db7dadf1b2912e3",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/vx2b8JQw/ait-1.3.2-1.20.1-beta.jar",
+          "filename": "ait-1.3.2-1.20.1-beta.jar",
           "primary": true,
-          "size": 12361488
+          "size": 29790657
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
     },
     {
-      "id": "4Zckjspt",
-      "name": "(Deprecated) 1.0.3",
-      "version_number": "1.0.3",
+      "id": "xxzQDnnx",
+      "name": "1.2.26-1.20.1-beta",
+      "version_number": "1.2.26-1.20.1-beta",
       "game_versions": [
-        "1.16.5"
+        "1.20.1"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "9410456096dccdd192476d5a1a953287b0a2fbbaad7f27e25d19f0432cb9eab83bdb2d611079593cf8fabbd34ae7165289344b00655ec54e6b50d3d66e8aa9a5",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/4Zckjspt/ait-1.0.3-BETA.jar",
-          "filename": "ait-1.0.3-BETA.jar",
+          "sha512": "ed563c32f72190281c2472217bc330f42ac42bffd60dd935c8b831ac200b0fea888558412ada3e7630b6541925555421e17aedc7e6783d5c8729f13b3523c578",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/xxzQDnnx/ait-1.2.26-1.20.1-beta.jar",
+          "filename": "ait-1.2.26-1.20.1-beta.jar",
           "primary": true,
-          "size": 12357745
+          "size": 34873476
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
     },
     {
-      "id": "p7aMJVLg",
-      "name": "(Deprecated) 1.0.2",
-      "version_number": "1.0.2",
+      "id": "zgXeVxbG",
+      "name": "1.2.29-1.20.1-beta",
+      "version_number": "1.2.29-1.20.1-beta",
       "game_versions": [
-        "1.16.5"
+        "1.20.1"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "f095fb11acd685cfd5c766e1cd93bce5ef76850d14be66b3cfab9b141b08be6edbb6a9b20104367e5fec77396d7b8249017acc0b6211e5e089df5e1d6241d52f",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/p7aMJVLg/ait-tardis-beta-0.2.jar",
-          "filename": "ait-tardis-beta-0.2.jar",
+          "sha512": "373eb0f0b4bbb924187a39c199aebeb60a4ccd0242d6e3a7608e771c2e2e9aff12955634e72c78b293b5a65a4441a7e9532cdbde510a98a7ff06f7f24563720c",
+          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/zgXeVxbG/ait-1.2.29-1.20.1-beta.jar",
+          "filename": "ait-1.2.29-1.20.1-beta.jar",
           "primary": true,
-          "size": 8584453
+          "size": 34874835
         }
       ],
-      "dependencies": []
-    },
-    {
-      "id": "1T6VW5TB",
-      "name": "(Deprecated) 1.0.1",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "9d9ea32af0edc07f88db4efacfbeeb170091fbb63481c1dadc27ab6d9ec3fdf9ad0ea4060d98e2cbd32f4554cf6d2bab5192380ea4bba257936ae8c6aa325755",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/1T6VW5TB/ait-tardis-beta-0.1.jar",
-          "filename": "ait-tardis-beta-0.1.jar",
-          "primary": true,
-          "size": 8554577
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Q4kxa77f",
-      "name": "(Deprecated) 1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
-          "sha512": "d8597a7cc08206eaa76d0001afd761ae90f22cc5fd436b373dcee48070f162e97bec7b5fe973fe502adf11e4d4253f645b7dd511c9027fd18822734721328213",
-          "url": "https://cdn.modrinth.com/data/ZMP9ZjB9/versions/Q4kxa77f/ait-tardis-beta.jar",
-          "filename": "ait-tardis-beta.jar",
-          "primary": true,
-          "size": 8469250
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "zJpHMkdD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "8gkWtwQu",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "KZvTlFBC",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
-      ],
-      "dependencies": []
+      ]
     }
   ]
 }

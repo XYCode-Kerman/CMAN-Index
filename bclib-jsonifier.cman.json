@@ -5,27 +5,6 @@
   "description": "Fixes the nasty BCLib mess with tags and recipes.",
   "versions": [
     {
-      "id": "uMWbdY19",
-      "name": "BCLib Jsonifier 1.1+1.19.2",
-      "version_number": "1.1+1.19.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "1b76fcff799acd3a4c9f9a57df331d42fcd97071f22c66b06757c7c9b32f7a740796a077e60e98583ea21d5d1793e95765f6de53c7fd502b3b2ac8859ac073c0",
-          "url": "https://cdn.modrinth.com/data/lxjWUMkB/versions/uMWbdY19/bclib-jsonifier-1.1%2B1.19.2.jar",
-          "filename": "bclib-jsonifier-1.1+1.19.2.jar",
-          "primary": true,
-          "size": 640436
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "bA5lilwF",
       "name": "BCLib Jsonifier 1.0+1.19.2",
       "version_number": "1.0",
@@ -46,18 +25,39 @@
       ],
       "dependencies": [
         {
-          "project_id": "BgNRHReB",
-          "version_id": "mKksn4EY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "umyGl7zF",
           "version_id": "D9tF4vlU",
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "BgNRHReB",
+          "version_id": "mKksn4EY",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
+    },
+    {
+      "id": "uMWbdY19",
+      "name": "BCLib Jsonifier 1.1+1.19.2",
+      "version_number": "1.1+1.19.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1b76fcff799acd3a4c9f9a57df331d42fcd97071f22c66b06757c7c9b32f7a740796a077e60e98583ea21d5d1793e95765f6de53c7fd502b3b2ac8859ac073c0",
+          "url": "https://cdn.modrinth.com/data/lxjWUMkB/versions/uMWbdY19/bclib-jsonifier-1.1%2B1.19.2.jar",
+          "filename": "bclib-jsonifier-1.1+1.19.2.jar",
+          "primary": true,
+          "size": 640436
+        }
+      ],
+      "dependencies": []
     }
   ]
 }

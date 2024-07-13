@@ -5,6 +5,40 @@
   "description": "Automation line around paper and books.",
   "versions": [
     {
+      "id": "DAWVdM2E",
+      "name": "Create Paper Line 1.19.2-0.1.3.c",
+      "version_number": "1.19.2-0.1.3.c",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ccfa1e0bbba0ab301df9ab561edc31ed83f83536edeb87def8e6e00c897145557bc579ada4db76326369efa0692fe86e877c831aad06adf95de1cd0f62aec8ef",
+          "url": "https://cdn.modrinth.com/data/OqA8C5Ps/versions/DAWVdM2E/create_paper_line-1.19.2-0.1.3.c.jar",
+          "filename": "create_paper_line-1.19.2-0.1.3.c.jar",
+          "primary": true,
+          "size": 413331
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "LNytGWDc",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "we09GulE",
       "name": "create_paper_line-1.19.2-0.1.1.e",
       "version_number": "1.19.2-0.1.1.e",
@@ -31,50 +65,16 @@
           "dependency_type": "required"
         },
         {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "umyGl7zF",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "DAWVdM2E",
-      "name": "Create Paper Line 1.19.2-0.1.3.c",
-      "version_number": "1.19.2-0.1.3.c",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "ccfa1e0bbba0ab301df9ab561edc31ed83f83536edeb87def8e6e00c897145557bc579ada4db76326369efa0692fe86e877c831aad06adf95de1cd0f62aec8ef",
-          "url": "https://cdn.modrinth.com/data/OqA8C5Ps/versions/DAWVdM2E/create_paper_line-1.19.2-0.1.3.c.jar",
-          "filename": "create_paper_line-1.19.2-0.1.3.c.jar",
-          "primary": true,
-          "size": 413331
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "LNytGWDc",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -99,6 +99,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "umyGl7zF",
           "version_id": null,
           "file_name": null,
@@ -109,12 +115,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     }

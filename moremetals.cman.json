@@ -1,9 +1,30 @@
 {
-  "id": "moremetals",
+  "id": "QIxNtuzC",
   "slug": "moremetals",
   "name": "MoreMetals",
   "description": "You guessed it! It adds metals!",
   "versions": [
+    {
+      "id": "AlQxFMN9",
+      "name": "MoreMetals 1.3.0 for 1.18.1",
+      "version_number": "1.3.0",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "90664124eeaf60b449496021f40a51d1aa843e8cb3843ec36855cb966538a47db926bc0c158dfcb95df64fc842434aebf30f956daf05322358a078c99f12e318",
+          "url": "https://cdn.modrinth.com/data/QIxNtuzC/versions/1.3.0/moremetals-1.3.0.jar",
+          "filename": "moremetals-1.3.0.jar",
+          "primary": true,
+          "size": 255307
+        }
+      ],
+      "dependencies": []
+    },
     {
       "id": "cA5M36yO",
       "name": "MoreMetals 1.5.0 for 1.19",
@@ -21,6 +42,14 @@
           "filename": "moremetals-1.5.0.jar",
           "primary": true,
           "size": 243365
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "3KmOcp6b",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -42,25 +71,13 @@
           "primary": true,
           "size": 243364
         }
-      ]
-    },
-    {
-      "id": "AlQxFMN9",
-      "name": "MoreMetals 1.3.0 for 1.18.1",
-      "version_number": "1.3.0",
-      "game_versions": [
-        "1.18.1"
       ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "90664124eeaf60b449496021f40a51d1aa843e8cb3843ec36855cb966538a47db926bc0c158dfcb95df64fc842434aebf30f956daf05322358a078c99f12e318",
-          "url": "https://cdn.modrinth.com/data/QIxNtuzC/versions/1.3.0/moremetals-1.3.0.jar",
-          "filename": "moremetals-1.3.0.jar",
-          "primary": true,
-          "size": 255307
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -82,7 +99,8 @@
           "primary": true,
           "size": 266961
         }
-      ]
+      ],
+      "dependencies": []
     }
   ]
 }

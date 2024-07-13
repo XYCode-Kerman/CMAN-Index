@@ -5,29 +5,58 @@
   "description": "This mod adds a Calculator in-game, to make calculations you may need to do easy and fast.",
   "versions": [
     {
-      "id": "XDdK4FK4",
-      "name": "[FABRIC]Minecalc-1.0.3+1.20",
-      "version_number": "1.0.3",
+      "id": "3z6o6DvO",
+      "name": "[QUILT]Minecalc-1.0.3+1.19.2 (Modfest: Singularity release)",
+      "version_number": "1.0.3+1.19.2",
       "game_versions": [
-        "1.20"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
-        "fabric",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "7f6f2946651df6a9b33b67450247c598c029678640060f5b046de86c2da53caa253623b63f7bab94b562c9ddedee94c07dd5c18a6a8198de7df11b17437bcf45",
-          "url": "https://cdn.modrinth.com/data/vptsNFMA/versions/XDdK4FK4/minecalc-1.0.3.jar",
-          "filename": "minecalc-1.0.3.jar",
+          "sha512": "b4f3fbeca8870a7066e48f23af8cbe72e7cc72a9324493c9c127c607677433310653a7bdbb25e0df7cdbbc02796e415d8f0427adb1ca2df0214096b36e1b3076",
+          "url": "https://cdn.modrinth.com/data/vptsNFMA/versions/3z6o6DvO/minecalc-1.0.3%2B1.19.2.jar",
+          "filename": "minecalc-1.0.3+1.19.2.jar",
           "primary": true,
-          "size": 507146
+          "size": 389484
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "n2c5lxAo",
+          "project_id": "qvIfYCYJ",
+          "version_id": "BTCxVi75",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "6163njZD",
+      "name": "[QUILT]Minecalc-1.0.3+1.20",
+      "version_number": "1.0.3+1.20",
+      "game_versions": [
+        "1.20"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f4c90937df90e72b1307f0c55b4758f3c38c91acc942596153648ee4c7751596474ab9b61b5e6f24c1756ef39a0d9d27acdb7b11f4e46a970b2310ee33ff4d4f",
+          "url": "https://cdn.modrinth.com/data/vptsNFMA/versions/6163njZD/minecalc-1.0.3%2B1.20.jar",
+          "filename": "minecalc-1.0.3+1.20.jar",
+          "primary": true,
+          "size": 507540
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -63,6 +92,66 @@
       ]
     },
     {
+      "id": "DW1xRWW1",
+      "name": "[QUILT]Minecalc-1.0.1+1.19.2",
+      "version_number": "1.0.1+1.19.2",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "71a5a771d078db52505c277091b0f6f8b6aeb3e2fcdf19333b36d9be00bfe1df11f47bac3962c5689ae492b3c13a1c68713a01265b457385d2850c4b83335ff2",
+          "url": "https://cdn.modrinth.com/data/vptsNFMA/versions/DW1xRWW1/minecalc-1.0.1%2B1.19.2.jar",
+          "filename": "minecalc-1.0.1+1.19.2.jar",
+          "primary": true,
+          "size": 388125
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "ddaofVmY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "NG6VhmUl",
+      "name": "[QUILT]Minecalc-1.0.2+1.19.2",
+      "version_number": "1.0.2+1.19.2",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0d730630f92ef84566239db86f24d22afdd7877aeba2405a41c1f3793d9f9c9f605cace9406387432c447065e3046956bbd90963309b33b4911f7e57f09b7858",
+          "url": "https://cdn.modrinth.com/data/vptsNFMA/versions/NG6VhmUl/minecalc-1.0.2%2B1.19.2.jar",
+          "filename": "minecalc-1.0.2+1.19.2.jar",
+          "primary": true,
+          "size": 388904
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "HpHTJI6P",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "OyjSYNpp",
       "name": "[FABRIC]Minecalc-1.0.3+1.18.2",
       "version_number": "1.0.3",
@@ -86,34 +175,6 @@
         {
           "project_id": "P7dR8mSH",
           "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "6163njZD",
-      "name": "[QUILT]Minecalc-1.0.3+1.20",
-      "version_number": "1.0.3+1.20",
-      "game_versions": [
-        "1.20"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f4c90937df90e72b1307f0c55b4758f3c38c91acc942596153648ee4c7751596474ab9b61b5e6f24c1756ef39a0d9d27acdb7b11f4e46a970b2310ee33ff4d4f",
-          "url": "https://cdn.modrinth.com/data/vptsNFMA/versions/6163njZD/minecalc-1.0.3%2B1.20.jar",
-          "filename": "minecalc-1.0.3+1.20.jar",
-          "primary": true,
-          "size": 507540
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -152,96 +213,6 @@
       ]
     },
     {
-      "id": "3z6o6DvO",
-      "name": "[QUILT]Minecalc-1.0.3+1.19.2 (Modfest: Singularity release)",
-      "version_number": "1.0.3+1.19.2",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "b4f3fbeca8870a7066e48f23af8cbe72e7cc72a9324493c9c127c607677433310653a7bdbb25e0df7cdbbc02796e415d8f0427adb1ca2df0214096b36e1b3076",
-          "url": "https://cdn.modrinth.com/data/vptsNFMA/versions/3z6o6DvO/minecalc-1.0.3%2B1.19.2.jar",
-          "filename": "minecalc-1.0.3+1.19.2.jar",
-          "primary": true,
-          "size": 389484
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "BTCxVi75",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "NG6VhmUl",
-      "name": "[QUILT]Minecalc-1.0.2+1.19.2",
-      "version_number": "1.0.2+1.19.2",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0d730630f92ef84566239db86f24d22afdd7877aeba2405a41c1f3793d9f9c9f605cace9406387432c447065e3046956bbd90963309b33b4911f7e57f09b7858",
-          "url": "https://cdn.modrinth.com/data/vptsNFMA/versions/NG6VhmUl/minecalc-1.0.2%2B1.19.2.jar",
-          "filename": "minecalc-1.0.2+1.19.2.jar",
-          "primary": true,
-          "size": 388904
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "HpHTJI6P",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "DW1xRWW1",
-      "name": "[QUILT]Minecalc-1.0.1+1.19.2",
-      "version_number": "1.0.1+1.19.2",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "71a5a771d078db52505c277091b0f6f8b6aeb3e2fcdf19333b36d9be00bfe1df11f47bac3962c5689ae492b3c13a1c68713a01265b457385d2850c4b83335ff2",
-          "url": "https://cdn.modrinth.com/data/vptsNFMA/versions/DW1xRWW1/minecalc-1.0.1%2B1.19.2.jar",
-          "filename": "minecalc-1.0.1+1.19.2.jar",
-          "primary": true,
-          "size": 388125
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "ddaofVmY",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "TLjyB4vA",
       "name": "[QUILT]Minecalc-1.0.0+1.19 [DEPRECATED]",
       "version_number": "1.0.0+1.19",
@@ -263,6 +234,35 @@
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "XDdK4FK4",
+      "name": "[FABRIC]Minecalc-1.0.3+1.20",
+      "version_number": "1.0.3",
+      "game_versions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "7f6f2946651df6a9b33b67450247c598c029678640060f5b046de86c2da53caa253623b63f7bab94b562c9ddedee94c07dd5c18a6a8198de7df11b17437bcf45",
+          "url": "https://cdn.modrinth.com/data/vptsNFMA/versions/XDdK4FK4/minecalc-1.0.3.jar",
+          "filename": "minecalc-1.0.3.jar",
+          "primary": true,
+          "size": 507146
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "n2c5lxAo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     }
   ]
 }

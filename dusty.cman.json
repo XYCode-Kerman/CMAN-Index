@@ -5,6 +5,47 @@
   "description": "A server side mod that adds dust and several ways to deal with said dust.",
   "versions": [
     {
+      "id": "972lUB1b",
+      "name": "Dust 1.0.3+1.21",
+      "version_number": "1.0.3+1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a7262809a40e41f7eb57e80c988aa0a5cc7833ff183921eec451a8d3f8d0c7e8693c575b91b02627ed67993cfb5de7de01540f31087bea2d48de59c823ec69d0",
+          "url": "https://cdn.modrinth.com/data/Dzn1XCbd/versions/972lUB1b/dust-1.0.3%2B1.21.jar",
+          "filename": "dust-1.0.3+1.21.jar",
+          "primary": true,
+          "size": 1710267
+        },
+        {
+          "sha512": "41a687baee3c5e7c6449848cdeb104a818b02a25ae8ca88c9b2e0eec1b7242d26efb99e6c0a8920263f182884b3bd62c69b303c5d8806cb001b1406af68fe361",
+          "url": "https://cdn.modrinth.com/data/Dzn1XCbd/versions/972lUB1b/dust-1.0.3%2B1.21-sources.jar",
+          "filename": "dust-1.0.3+1.21-sources.jar",
+          "primary": false,
+          "size": 141495
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "xGdtZczs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "Bf6lDVjQ",
       "name": "Dust 1.0.6+1.21",
       "version_number": "1.0.6+1.21",
@@ -28,47 +69,6 @@
           "filename": "dust-1.0.6+1.21-sources.jar",
           "primary": false,
           "size": 142508
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "xGdtZczs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "RVm7pNjt",
-      "name": "Dust 1.0.5+1.21",
-      "version_number": "1.0.5+1.21",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e05d7eee2e9d4e0bc1906f2a2bce9c487cd39754a16ce50b2937451f41789c498b8aeab93b793e02a76ab8fc4746f4dca8cf63039c41d155e97eb0b3a766a3f7",
-          "url": "https://cdn.modrinth.com/data/Dzn1XCbd/versions/RVm7pNjt/dust-1.0.5%2B1.21.jar",
-          "filename": "dust-1.0.5+1.21.jar",
-          "primary": true,
-          "size": 1711081
-        },
-        {
-          "sha512": "98edfb1571064b11af0a57af7078d04e2d139b726f348a8bb9a3cd00e7a63b04bd20608761af5e5ea410555c7bacffc78f693f23f33743b5f7b1380081daf415",
-          "url": "https://cdn.modrinth.com/data/Dzn1XCbd/versions/RVm7pNjt/dust-1.0.5%2B1.21-sources.jar",
-          "filename": "dust-1.0.5+1.21-sources.jar",
-          "primary": false,
-          "size": 141960
         }
       ],
       "dependencies": [
@@ -128,88 +128,6 @@
       ]
     },
     {
-      "id": "972lUB1b",
-      "name": "Dust 1.0.3+1.21",
-      "version_number": "1.0.3+1.21",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a7262809a40e41f7eb57e80c988aa0a5cc7833ff183921eec451a8d3f8d0c7e8693c575b91b02627ed67993cfb5de7de01540f31087bea2d48de59c823ec69d0",
-          "url": "https://cdn.modrinth.com/data/Dzn1XCbd/versions/972lUB1b/dust-1.0.3%2B1.21.jar",
-          "filename": "dust-1.0.3+1.21.jar",
-          "primary": true,
-          "size": 1710267
-        },
-        {
-          "sha512": "41a687baee3c5e7c6449848cdeb104a818b02a25ae8ca88c9b2e0eec1b7242d26efb99e6c0a8920263f182884b3bd62c69b303c5d8806cb001b1406af68fe361",
-          "url": "https://cdn.modrinth.com/data/Dzn1XCbd/versions/972lUB1b/dust-1.0.3%2B1.21-sources.jar",
-          "filename": "dust-1.0.3+1.21-sources.jar",
-          "primary": false,
-          "size": 141495
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "xGdtZczs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Y1NNo7M2",
-      "name": "Dust 1.0.2+1.21",
-      "version_number": "1.0.2+1.21",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "56be67b2d07d5223114c2946bfb6be27bebb599e2ec1ee614009e569d6b658a81a66440b26a2849992ba915f016b52c61e9faaf4067f49ec8ff3c6e38fcd0ddd",
-          "url": "https://cdn.modrinth.com/data/Dzn1XCbd/versions/Y1NNo7M2/dust-1.0.2%2B1.21.jar",
-          "filename": "dust-1.0.2+1.21.jar",
-          "primary": true,
-          "size": 1710249
-        },
-        {
-          "sha512": "a449d6549058f783cb96447ebada820ac777f015959f3d91ab0618c3560bb2e80f45770dc0342baa0738b928167a6fc3e6cf476e253ac066d7db7304691cbf60",
-          "url": "https://cdn.modrinth.com/data/Dzn1XCbd/versions/Y1NNo7M2/dust-1.0.2%2B1.21-sources.jar",
-          "filename": "dust-1.0.2+1.21-sources.jar",
-          "primary": false,
-          "size": 141478
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "xGdtZczs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "MXH5qO93",
       "name": "Dust 1.0.1+1.21",
       "version_number": "1.0.1+1.21",
@@ -251,6 +169,47 @@
       ]
     },
     {
+      "id": "RVm7pNjt",
+      "name": "Dust 1.0.5+1.21",
+      "version_number": "1.0.5+1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e05d7eee2e9d4e0bc1906f2a2bce9c487cd39754a16ce50b2937451f41789c498b8aeab93b793e02a76ab8fc4746f4dca8cf63039c41d155e97eb0b3a766a3f7",
+          "url": "https://cdn.modrinth.com/data/Dzn1XCbd/versions/RVm7pNjt/dust-1.0.5%2B1.21.jar",
+          "filename": "dust-1.0.5+1.21.jar",
+          "primary": true,
+          "size": 1711081
+        },
+        {
+          "sha512": "98edfb1571064b11af0a57af7078d04e2d139b726f348a8bb9a3cd00e7a63b04bd20608761af5e5ea410555c7bacffc78f693f23f33743b5f7b1380081daf415",
+          "url": "https://cdn.modrinth.com/data/Dzn1XCbd/versions/RVm7pNjt/dust-1.0.5%2B1.21-sources.jar",
+          "filename": "dust-1.0.5+1.21-sources.jar",
+          "primary": false,
+          "size": 141960
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "xGdtZczs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
       "id": "UfcENOZe",
       "name": "Dust 1.0.0+1.21",
       "version_number": "1.0.0+1.21",
@@ -274,6 +233,47 @@
           "filename": "dust-1.0.0+1.21-sources.jar",
           "primary": false,
           "size": 140265
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "xGdtZczs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Y1NNo7M2",
+      "name": "Dust 1.0.2+1.21",
+      "version_number": "1.0.2+1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "56be67b2d07d5223114c2946bfb6be27bebb599e2ec1ee614009e569d6b658a81a66440b26a2849992ba915f016b52c61e9faaf4067f49ec8ff3c6e38fcd0ddd",
+          "url": "https://cdn.modrinth.com/data/Dzn1XCbd/versions/Y1NNo7M2/dust-1.0.2%2B1.21.jar",
+          "filename": "dust-1.0.2+1.21.jar",
+          "primary": true,
+          "size": 1710249
+        },
+        {
+          "sha512": "a449d6549058f783cb96447ebada820ac777f015959f3d91ab0618c3560bb2e80f45770dc0342baa0738b928167a6fc3e6cf476e253ac066d7db7304691cbf60",
+          "url": "https://cdn.modrinth.com/data/Dzn1XCbd/versions/Y1NNo7M2/dust-1.0.2%2B1.21-sources.jar",
+          "filename": "dust-1.0.2+1.21-sources.jar",
+          "primary": false,
+          "size": 141478
         }
       ],
       "dependencies": [

@@ -5,6 +5,88 @@
   "description": "A modern re-imagining of the classic Machine and Space mods. (Currently Undergoing a Rewrite)",
   "versions": [
     {
+      "id": "GnAf18T8",
+      "name": "0.0.4 [1.20]",
+      "version_number": "0.0.4+1.20",
+      "game_versions": [
+        "1.20"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3697e7e8bc50c28d9ce8f4f3f59c49ac91da36a578e43b4b89a83c9217725b5a737ac17d5d4748de00d64f9831b30010c01f1646b67f53e6f1a4d76a6d680cc0",
+          "url": "https://cdn.modrinth.com/data/3WyZOm8r/versions/GnAf18T8/stellarworks-SNAPSHOT-4%2B1.20-sources.jar",
+          "filename": "stellarworks-SNAPSHOT-4+1.20-sources.jar",
+          "primary": true,
+          "size": 477964
+        },
+        {
+          "sha512": "7dd36710f3c62bc9e9842c95013ffab5a4b3b46f33279c7480315ae1150fd8bfc7ad7c560508add59b79024c24b0ea1a0f4038890900de881c182315fe4348d2",
+          "url": "https://cdn.modrinth.com/data/3WyZOm8r/versions/GnAf18T8/stellarworks-SNAPSHOT-4%2B1.20.jar",
+          "filename": "stellarworks-SNAPSHOT-4+1.20.jar",
+          "primary": false,
+          "size": 487363
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "RTFDnTKf",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "uw5SkGdQ",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "QMopWOKe",
+      "name": "0.0.5",
+      "version_number": "0.0.5+1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3c27c5c7f650eac3a7b9ffa7a2cdfd8596ffec5f3d2a3988887e76749deabc69b9d297f350a397b6fb668df048d81cd8b7945710443ca418e08b3cd615c80cf3",
+          "url": "https://cdn.modrinth.com/data/3WyZOm8r/versions/QMopWOKe/stellarworks-0.0.5%2B1.20.1-sources.jar",
+          "filename": "stellarworks-0.0.5+1.20.1-sources.jar",
+          "primary": true,
+          "size": 476348
+        },
+        {
+          "sha512": "3da4dd829e1e68043c380afb0b836152a504acbba805bd1e9cf30f45170c68507a6e91b8defa698fa3652eb46f764d961f5b6abcfcfddb3ce134be612e4a3e51",
+          "url": "https://cdn.modrinth.com/data/3WyZOm8r/versions/QMopWOKe/stellarworks-0.0.5%2B1.20.1.jar",
+          "filename": "stellarworks-0.0.5+1.20.1.jar",
+          "primary": false,
+          "size": 482106
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "RTFDnTKf",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "uw5SkGdQ",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "SQl6wImF",
       "name": "0.0.9",
       "version_number": "0.0.9",
@@ -33,46 +115,6 @@
         {
           "project_id": "qvIfYCYJ",
           "version_id": "fFx48erS",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "fFKVkyCq",
-      "name": "0.0.8",
-      "version_number": "0.0.8",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "9d4f64ce7dd1f8c7bb527b0d9becedb1518e8c1d709173245ecff9060b9a41bcfac194774c53e56fbc006725c07f46e2ffb4455d7adacfeb4d7635308b2f11b4",
-          "url": "https://cdn.modrinth.com/data/3WyZOm8r/versions/fFKVkyCq/stellarworks-0.0.8.jar",
-          "filename": "stellarworks-0.0.8.jar",
-          "primary": true,
-          "size": 502448
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "RTFDnTKf",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": "DgIYuFEF",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "di82eiyL",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -146,12 +188,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "ccKDOlHs",
-          "version_id": "m23n3uIM",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "eTCL1uh8",
           "file_name": null,
@@ -162,88 +198,40 @@
           "version_id": "fFx48erS",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "QMopWOKe",
-      "name": "0.0.5",
-      "version_number": "0.0.5+1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3c27c5c7f650eac3a7b9ffa7a2cdfd8596ffec5f3d2a3988887e76749deabc69b9d297f350a397b6fb668df048d81cd8b7945710443ca418e08b3cd615c80cf3",
-          "url": "https://cdn.modrinth.com/data/3WyZOm8r/versions/QMopWOKe/stellarworks-0.0.5%2B1.20.1-sources.jar",
-          "filename": "stellarworks-0.0.5+1.20.1-sources.jar",
-          "primary": true,
-          "size": 476348
         },
         {
-          "sha512": "3da4dd829e1e68043c380afb0b836152a504acbba805bd1e9cf30f45170c68507a6e91b8defa698fa3652eb46f764d961f5b6abcfcfddb3ce134be612e4a3e51",
-          "url": "https://cdn.modrinth.com/data/3WyZOm8r/versions/QMopWOKe/stellarworks-0.0.5%2B1.20.1.jar",
-          "filename": "stellarworks-0.0.5+1.20.1.jar",
-          "primary": false,
-          "size": 482106
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "RTFDnTKf",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "uw5SkGdQ",
+          "project_id": "ccKDOlHs",
+          "version_id": "m23n3uIM",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "GnAf18T8",
-      "name": "0.0.4 [1.20]",
-      "version_number": "0.0.4+1.20",
+      "id": "U2xBKInp",
+      "name": "0.0.0",
+      "version_number": "0.0.0",
       "game_versions": [
-        "1.20"
+        "1.19.2"
       ],
       "loaders": [
         "quilt"
       ],
       "files": [
         {
-          "sha512": "3697e7e8bc50c28d9ce8f4f3f59c49ac91da36a578e43b4b89a83c9217725b5a737ac17d5d4748de00d64f9831b30010c01f1646b67f53e6f1a4d76a6d680cc0",
-          "url": "https://cdn.modrinth.com/data/3WyZOm8r/versions/GnAf18T8/stellarworks-SNAPSHOT-4%2B1.20-sources.jar",
-          "filename": "stellarworks-SNAPSHOT-4+1.20-sources.jar",
+          "sha512": "8e530da5534086804060dc6055648536e8501054916d1c40c13a89ea2a597fb4afbaaf91f6daf2fc0a6cd771b63c1f97e46916eae4b4561e06e732db36e9e495",
+          "url": "https://cdn.modrinth.com/data/3WyZOm8r/versions/U2xBKInp/xyz.limepot.sinetermino-Dev%200.0.1%2B1.19.2.jar",
+          "filename": "xyz.limepot.sinetermino-Dev 0.0.1+1.19.2.jar",
           "primary": true,
-          "size": 477964
-        },
-        {
-          "sha512": "7dd36710f3c62bc9e9842c95013ffab5a4b3b46f33279c7480315ae1150fd8bfc7ad7c560508add59b79024c24b0ea1a0f4038890900de881c182315fe4348d2",
-          "url": "https://cdn.modrinth.com/data/3WyZOm8r/versions/GnAf18T8/stellarworks-SNAPSHOT-4%2B1.20.jar",
-          "filename": "stellarworks-SNAPSHOT-4+1.20.jar",
-          "primary": false,
-          "size": 487363
+          "size": 807891
         }
       ],
       "dependencies": [
         {
           "project_id": "qvIfYCYJ",
-          "version_id": "uw5SkGdQ",
+          "version_id": "kMDIFsRI",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "RTFDnTKf",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -283,28 +271,40 @@
       ]
     },
     {
-      "id": "U2xBKInp",
-      "name": "0.0.0",
-      "version_number": "0.0.0",
+      "id": "fFKVkyCq",
+      "name": "0.0.8",
+      "version_number": "0.0.8",
       "game_versions": [
-        "1.19.2"
+        "1.20.1"
       ],
       "loaders": [
         "quilt"
       ],
       "files": [
         {
-          "sha512": "8e530da5534086804060dc6055648536e8501054916d1c40c13a89ea2a597fb4afbaaf91f6daf2fc0a6cd771b63c1f97e46916eae4b4561e06e732db36e9e495",
-          "url": "https://cdn.modrinth.com/data/3WyZOm8r/versions/U2xBKInp/xyz.limepot.sinetermino-Dev%200.0.1%2B1.19.2.jar",
-          "filename": "xyz.limepot.sinetermino-Dev 0.0.1+1.19.2.jar",
+          "sha512": "9d4f64ce7dd1f8c7bb527b0d9becedb1518e8c1d709173245ecff9060b9a41bcfac194774c53e56fbc006725c07f46e2ffb4455d7adacfeb4d7635308b2f11b4",
+          "url": "https://cdn.modrinth.com/data/3WyZOm8r/versions/fFKVkyCq/stellarworks-0.0.8.jar",
+          "filename": "stellarworks-0.0.8.jar",
           "primary": true,
-          "size": 807891
+          "size": 502448
         }
       ],
       "dependencies": [
         {
+          "project_id": "ccKDOlHs",
+          "version_id": "DgIYuFEF",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "RTFDnTKf",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "qvIfYCYJ",
-          "version_id": "kMDIFsRI",
+          "version_id": "di82eiyL",
           "file_name": null,
           "dependency_type": "required"
         }

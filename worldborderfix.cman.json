@@ -5,13 +5,32 @@
   "description": "Makes world borders work per dimension",
   "versions": [
     {
-      "id": "yMH2mJB2",
-      "name": "1.6.4",
-      "version_number": "1.6.4",
+      "id": "C2l4VS4g",
+      "name": "1.3",
+      "version_number": "1.3",
       "game_versions": [
-        "1.20.5",
-        "1.20.6",
-        "1.21"
+        "1.18"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9034a08f5c8a4069f5100d9b44c86e97f5052db535a6d5181df80a35db03ebe61fefb1a2fb7dfcea15e854fa6fccf7195839f71aa60b7e16aef8de1f9844d53f",
+          "url": "https://cdn.modrinth.com/data/M7MroYMU/versions/1.3/multiworldborders-1.3-fabric-1.18.jar",
+          "filename": "multiworldborders-1.3-fabric-1.18.jar",
+          "primary": false,
+          "size": 32070
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "H2sVhPC1",
+      "name": "1.6",
+      "version_number": "1.6",
+      "game_versions": [
+        "1.19.4"
       ],
       "loaders": [
         "fabric",
@@ -19,11 +38,40 @@
       ],
       "files": [
         {
-          "sha512": "0544bd59af4a7037cda6db4139e0d261a6068bf388a9774d90c3761ecf2191f1bf256c311412a4b63336bae0e47f9561ac2a6b3d13aa30759452c82bc1475963",
-          "url": "https://cdn.modrinth.com/data/M7MroYMU/versions/yMH2mJB2/multiworldborders-1.6.4-fabric-1.20.5-rc2.jar",
-          "filename": "multiworldborders-1.6.4-fabric-1.20.5-rc2.jar",
+          "sha512": "17b329517234c78cde96d785b0eeb16c61b687cf37f2ef6ac0ac83a0bf81f9b0794f5410c5724a8bb4ad5138e9d4477e918be47ad83e96c032b4ab0b78ddb656",
+          "url": "https://cdn.modrinth.com/data/M7MroYMU/versions/H2sVhPC1/multiworldborders-1.6.0-fabric-1.19.4.jar",
+          "filename": "multiworldborders-1.6.0-fabric-1.19.4.jar",
           "primary": true,
-          "size": 38702
+          "size": 31078
+        },
+        {
+          "sha512": "fe4db69855d9d7918c29b6c5e3df73d1a3a4c5266273d7bea63fa71fb1d491f363eacc5212ba4e69a049a46207d7f3d004418bfd190feb510a520af9cbabd4c0",
+          "url": "https://cdn.modrinth.com/data/M7MroYMU/versions/H2sVhPC1/multiworldborders-1.6.0-fabric-1.19.4-sources.jar",
+          "filename": "multiworldborders-1.6.0-fabric-1.19.4-sources.jar",
+          "primary": false,
+          "size": 23825
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "JkIca10C",
+      "name": "1.2",
+      "version_number": "1.2",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f88b0c1e210f39ecde34f46e87f739c67c6b2da31bdd1602fb58210a8451ef18b299a22b93911af9417fe3e32a03defd16c9aa8ee8eb032db39761d952def3bb",
+          "url": "https://cdn.modrinth.com/data/M7MroYMU/versions/1.2/worldborderfix-1.2-fabric-1.17.jar",
+          "filename": "worldborderfix-1.2-fabric-1.17.jar",
+          "primary": false,
+          "size": 31000
         }
       ],
       "dependencies": []
@@ -60,36 +108,6 @@
       "dependencies": []
     },
     {
-      "id": "rH2c52Rr",
-      "name": "1.6.2",
-      "version_number": "1.6.2",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "de2eb56b9b52e949df20b5e8bd3539924910fd0f91b10a0b820322afecf54e89711b515e041adff0d90676077b222864db6c58417ddeaf010205f5cbd1383c5d",
-          "url": "https://cdn.modrinth.com/data/M7MroYMU/versions/rH2c52Rr/multiworldborders-1.6.2-fabric-1.20.jar",
-          "filename": "multiworldborders-1.6.2-fabric-1.20.jar",
-          "primary": true,
-          "size": 30971
-        },
-        {
-          "sha512": "74efd98e94d44110c51b82b199048968a73ba0243907016a509a578406a2afb77112e0ceb4cd3cad94e2cff152c8fa282d3df565e88ee72bc3dc6501caffdaa4",
-          "url": "https://cdn.modrinth.com/data/M7MroYMU/versions/rH2c52Rr/multiworldborders-1.6.2-fabric-1.20-sources.jar",
-          "filename": "multiworldborders-1.6.2-fabric-1.20-sources.jar",
-          "primary": false,
-          "size": 23769
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "aPDBDaBH",
       "name": "1.6.1",
       "version_number": "1.6.1",
@@ -115,35 +133,6 @@
           "filename": "multiworldborders-1.6.1-fabric-1.20-sources.jar",
           "primary": false,
           "size": 23823
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "H2sVhPC1",
-      "name": "1.6",
-      "version_number": "1.6",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "17b329517234c78cde96d785b0eeb16c61b687cf37f2ef6ac0ac83a0bf81f9b0794f5410c5724a8bb4ad5138e9d4477e918be47ad83e96c032b4ab0b78ddb656",
-          "url": "https://cdn.modrinth.com/data/M7MroYMU/versions/H2sVhPC1/multiworldborders-1.6.0-fabric-1.19.4.jar",
-          "filename": "multiworldborders-1.6.0-fabric-1.19.4.jar",
-          "primary": true,
-          "size": 31078
-        },
-        {
-          "sha512": "fe4db69855d9d7918c29b6c5e3df73d1a3a4c5266273d7bea63fa71fb1d491f363eacc5212ba4e69a049a46207d7f3d004418bfd190feb510a520af9cbabd4c0",
-          "url": "https://cdn.modrinth.com/data/M7MroYMU/versions/H2sVhPC1/multiworldborders-1.6.0-fabric-1.19.4-sources.jar",
-          "filename": "multiworldborders-1.6.0-fabric-1.19.4-sources.jar",
-          "primary": false,
-          "size": 23825
         }
       ],
       "dependencies": []
@@ -196,44 +185,52 @@
       "dependencies": []
     },
     {
-      "id": "C2l4VS4g",
-      "name": "1.3",
-      "version_number": "1.3",
+      "id": "rH2c52Rr",
+      "name": "1.6.2",
+      "version_number": "1.6.2",
       "game_versions": [
-        "1.18"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "9034a08f5c8a4069f5100d9b44c86e97f5052db535a6d5181df80a35db03ebe61fefb1a2fb7dfcea15e854fa6fccf7195839f71aa60b7e16aef8de1f9844d53f",
-          "url": "https://cdn.modrinth.com/data/M7MroYMU/versions/1.3/multiworldborders-1.3-fabric-1.18.jar",
-          "filename": "multiworldborders-1.3-fabric-1.18.jar",
+          "sha512": "de2eb56b9b52e949df20b5e8bd3539924910fd0f91b10a0b820322afecf54e89711b515e041adff0d90676077b222864db6c58417ddeaf010205f5cbd1383c5d",
+          "url": "https://cdn.modrinth.com/data/M7MroYMU/versions/rH2c52Rr/multiworldborders-1.6.2-fabric-1.20.jar",
+          "filename": "multiworldborders-1.6.2-fabric-1.20.jar",
+          "primary": true,
+          "size": 30971
+        },
+        {
+          "sha512": "74efd98e94d44110c51b82b199048968a73ba0243907016a509a578406a2afb77112e0ceb4cd3cad94e2cff152c8fa282d3df565e88ee72bc3dc6501caffdaa4",
+          "url": "https://cdn.modrinth.com/data/M7MroYMU/versions/rH2c52Rr/multiworldborders-1.6.2-fabric-1.20-sources.jar",
+          "filename": "multiworldborders-1.6.2-fabric-1.20-sources.jar",
           "primary": false,
-          "size": 32070
+          "size": 23769
         }
       ],
       "dependencies": []
     },
     {
-      "id": "JkIca10C",
-      "name": "1.2",
-      "version_number": "1.2",
+      "id": "wVKzHKlQ",
+      "name": "1.0",
+      "version_number": "1.0",
       "game_versions": [
-        "1.17",
-        "1.17.1"
+        "1.16.5"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "f88b0c1e210f39ecde34f46e87f739c67c6b2da31bdd1602fb58210a8451ef18b299a22b93911af9417fe3e32a03defd16c9aa8ee8eb032db39761d952def3bb",
-          "url": "https://cdn.modrinth.com/data/M7MroYMU/versions/1.2/worldborderfix-1.2-fabric-1.17.jar",
-          "filename": "worldborderfix-1.2-fabric-1.17.jar",
+          "sha512": "f12d3b96d26f056cf3735f1be6c476e65813f19fa687eabff4b230de0f874b0c937138eabfaad6161fae8713ad88ba8f243ed4c9fc8e42614cb72944dde99345",
+          "url": "https://cdn.modrinth.com/data/M7MroYMU/versions/1.0/worldborderfix-1.0-fabric-1.16.5.jar",
+          "filename": "worldborderfix-1.0-fabric-1.16.5.jar",
           "primary": false,
-          "size": 31000
+          "size": 25994
         }
       ],
       "dependencies": []
@@ -260,22 +257,25 @@
       "dependencies": []
     },
     {
-      "id": "wVKzHKlQ",
-      "name": "1.0",
-      "version_number": "1.0",
+      "id": "yMH2mJB2",
+      "name": "1.6.4",
+      "version_number": "1.6.4",
       "game_versions": [
-        "1.16.5"
+        "1.20.5",
+        "1.20.6",
+        "1.21"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "f12d3b96d26f056cf3735f1be6c476e65813f19fa687eabff4b230de0f874b0c937138eabfaad6161fae8713ad88ba8f243ed4c9fc8e42614cb72944dde99345",
-          "url": "https://cdn.modrinth.com/data/M7MroYMU/versions/1.0/worldborderfix-1.0-fabric-1.16.5.jar",
-          "filename": "worldborderfix-1.0-fabric-1.16.5.jar",
-          "primary": false,
-          "size": 25994
+          "sha512": "0544bd59af4a7037cda6db4139e0d261a6068bf388a9774d90c3761ecf2191f1bf256c311412a4b63336bae0e47f9561ac2a6b3d13aa30759452c82bc1475963",
+          "url": "https://cdn.modrinth.com/data/M7MroYMU/versions/yMH2mJB2/multiworldborders-1.6.4-fabric-1.20.5-rc2.jar",
+          "filename": "multiworldborders-1.6.4-fabric-1.20.5-rc2.jar",
+          "primary": true,
+          "size": 38702
         }
       ],
       "dependencies": []

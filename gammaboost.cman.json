@@ -5,40 +5,6 @@
   "description": "A Minecraft mod to allows minor boosting of brightness in certain contexts",
   "versions": [
     {
-      "id": "sRn09feV",
-      "name": "[1.19] Gamma Boost 3.0.0-beta.1",
-      "version_number": "3.0.0-beta.1+1.19",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "fe959aebb74e13565fb25778e0ff8e644c5923860d20263d0314a1bd5187c59d74ad7b4f6f7d88ef75ff41d0e64b8f5eb463b750322efbc8a78559dca107b7c9",
-          "url": "https://cdn.modrinth.com/data/7tZEgyix/versions/3.0.0-beta.1%2B1.19/gammaboost-fabric-3.0.0-beta.1%2B1.19.jar",
-          "filename": "gammaboost-fabric-3.0.0-beta.1+1.19.jar",
-          "primary": true,
-          "size": 13153
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "dY183GiL",
-          "version_id": "vWs8OkbC",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "3KmOcp6b",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "CykMyWgx",
       "name": "[1.17.x] UAL 2.1.0",
       "version_number": "2.1.0+1.17-fabric",
@@ -56,6 +22,28 @@
           "filename": "undergroundambientlighting-2.1.0-fabric.jar",
           "primary": true,
           "size": 17422
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Mjzvtn9D",
+      "name": "[1.17.x] UAL 2.0.0",
+      "version_number": "2.0.0+1.17-fabric",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0444f59ae578cfc6968b91c38e09ae04cd64c65c567311e718e8ecf058b41c3ced2e115798712878fd7dc94984c313d7166a122de63c7affd1061c4d7849cb9e",
+          "url": "https://cdn.modrinth.com/data/7tZEgyix/versions/2.0.0%2B1.17-fabric/undergroundambientlighting-2.0.0-fabric.jar",
+          "filename": "undergroundambientlighting-2.0.0-fabric.jar",
+          "primary": true,
+          "size": 15207
         }
       ],
       "dependencies": []
@@ -104,28 +92,6 @@
       "dependencies": []
     },
     {
-      "id": "Mjzvtn9D",
-      "name": "[1.17.x] UAL 2.0.0",
-      "version_number": "2.0.0+1.17-fabric",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0444f59ae578cfc6968b91c38e09ae04cd64c65c567311e718e8ecf058b41c3ced2e115798712878fd7dc94984c313d7166a122de63c7affd1061c4d7849cb9e",
-          "url": "https://cdn.modrinth.com/data/7tZEgyix/versions/2.0.0%2B1.17-fabric/undergroundambientlighting-2.0.0-fabric.jar",
-          "filename": "undergroundambientlighting-2.0.0-fabric.jar",
-          "primary": true,
-          "size": 15207
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "rSOCzzqU",
       "name": "[21w06a+] UAL 1.0.0 ",
       "version_number": "1.0.0+21w06a-fabric",
@@ -145,6 +111,40 @@
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "sRn09feV",
+      "name": "[1.19] Gamma Boost 3.0.0-beta.1",
+      "version_number": "3.0.0-beta.1+1.19",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "fe959aebb74e13565fb25778e0ff8e644c5923860d20263d0314a1bd5187c59d74ad7b4f6f7d88ef75ff41d0e64b8f5eb463b750322efbc8a78559dca107b7c9",
+          "url": "https://cdn.modrinth.com/data/7tZEgyix/versions/3.0.0-beta.1%2B1.19/gammaboost-fabric-3.0.0-beta.1%2B1.19.jar",
+          "filename": "gammaboost-fabric-3.0.0-beta.1+1.19.jar",
+          "primary": true,
+          "size": 13153
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "3KmOcp6b",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "dY183GiL",
+          "version_id": "vWs8OkbC",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     }
   ]
 }

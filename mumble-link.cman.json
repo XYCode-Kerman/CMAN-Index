@@ -33,16 +33,10 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
           "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": "s10JMAtS",
-          "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
@@ -50,42 +44,6 @@
           "file_name": null,
           "dependency_type": "required"
         },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "t44gZjN1",
-      "name": "0.10.2",
-      "version_number": "0.10.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "7842736a3a21d0891ce84a71cf6f65c936ed4dcc4bf158e96e89bd3f84192ada3f4ebea22b4969b7d8ef122edd75c32ed1f431cfd1ca1ae5e0f4fed1b9d9bf72",
-          "url": "https://cdn.modrinth.com/data/3QyVJtCB/versions/t44gZjN1/fabric-mumblelink-mod-0.10.2.jar",
-          "filename": "fabric-mumblelink-mod-0.10.2.jar",
-          "primary": true,
-          "size": 7710262
-        },
-        {
-          "sha512": "08ab20d06c094a4b579ac9e6f92cc26303a061f96b402cbfcb296f3c43c98721b48526f15277b093f30a65d7b951da08e2deafc11765d6b3a4e3d167f030c8dd",
-          "url": "https://cdn.modrinth.com/data/3QyVJtCB/versions/t44gZjN1/fabric-mumblelink-mod-0.10.2-sources.jar",
-          "filename": "fabric-mumblelink-mod-0.10.2-sources.jar",
-          "primary": false,
-          "size": 18096
-        }
-      ],
-      "dependencies": [
         {
           "project_id": "9s6osm5g",
           "version_id": "o9dFD9SO",
@@ -97,18 +55,6 @@
           "version_id": "s10JMAtS",
           "file_name": null,
           "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -141,10 +87,10 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
+          "project_id": "P7dR8mSH",
+          "version_id": null,
           "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "required"
         },
         {
           "project_id": "mOgUt4GM",
@@ -153,10 +99,64 @@
           "dependency_type": "optional"
         },
         {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": "s10JMAtS",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "t44gZjN1",
+      "name": "0.10.2",
+      "version_number": "0.10.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "7842736a3a21d0891ce84a71cf6f65c936ed4dcc4bf158e96e89bd3f84192ada3f4ebea22b4969b7d8ef122edd75c32ed1f431cfd1ca1ae5e0f4fed1b9d9bf72",
+          "url": "https://cdn.modrinth.com/data/3QyVJtCB/versions/t44gZjN1/fabric-mumblelink-mod-0.10.2.jar",
+          "filename": "fabric-mumblelink-mod-0.10.2.jar",
+          "primary": true,
+          "size": 7710262
+        },
+        {
+          "sha512": "08ab20d06c094a4b579ac9e6f92cc26303a061f96b402cbfcb296f3c43c98721b48526f15277b093f30a65d7b951da08e2deafc11765d6b3a4e3d167f030c8dd",
+          "url": "https://cdn.modrinth.com/data/3QyVJtCB/versions/t44gZjN1/fabric-mumblelink-mod-0.10.2-sources.jar",
+          "filename": "fabric-mumblelink-mod-0.10.2-sources.jar",
+          "primary": false,
+          "size": 18096
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "P7dR8mSH",
-          "version_id": null,
+          "version_id": "hfsU4hXq",
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "embedded"
         },
         {
           "project_id": "Ha28R6CL",

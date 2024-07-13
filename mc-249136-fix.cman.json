@@ -5,6 +5,42 @@
   "description": "A hacky fix for server lag spikes when generating shipwreck buried treasure map / explorer map loot.",
   "versions": [
     {
+      "id": "KShgul52",
+      "name": "MC-249136 Fix 1.0.1",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "98749e120fae5dca6a6f799cadc6b0796972d11ef3f4da791edca392778f1fb49e83e808bdf85e6aac45bcd2d2c716f2a8b42bbd1baea1152db9a6cd9c29c068",
+          "url": "https://cdn.modrinth.com/data/QzMW0gl4/versions/KShgul52/mc249136-1.0.1.jar",
+          "filename": "mc249136-1.0.1.jar",
+          "primary": true,
+          "size": 19315
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "fL69krwO",
       "name": "MC-249136 Fix 1.0.2",
       "version_number": "1.0.2",
@@ -31,42 +67,6 @@
           "filename": "mc249136-1.0.2.jar",
           "primary": true,
           "size": 24014
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "KShgul52",
-      "name": "MC-249136 Fix 1.0.1",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "98749e120fae5dca6a6f799cadc6b0796972d11ef3f4da791edca392778f1fb49e83e808bdf85e6aac45bcd2d2c716f2a8b42bbd1baea1152db9a6cd9c29c068",
-          "url": "https://cdn.modrinth.com/data/QzMW0gl4/versions/KShgul52/mc249136-1.0.1.jar",
-          "filename": "mc249136-1.0.1.jar",
-          "primary": true,
-          "size": 19315
         }
       ],
       "dependencies": [

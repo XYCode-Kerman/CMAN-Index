@@ -5,6 +5,34 @@
   "description": "A datapack which enables Community Mode for Scriptor Magicae.",
   "versions": [
     {
+      "id": "Np5Enrnh",
+      "name": "Community Mode",
+      "version_number": "1",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "a18d1d9abef4e75146ed33cb453d666cd1432907058752afadb5bfb5cab5b9950afb1edf0ae0abc6e15f3c297a7b60517bddce5fc977991765a691482fac7373",
+          "url": "https://cdn.modrinth.com/data/qdU2QhKa/versions/Np5Enrnh/scriptor_community_mode.zip",
+          "filename": "scriptor_community_mode.zip",
+          "primary": true,
+          "size": 60568
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "JyJgaOrk",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "aug9o59m",
       "name": "Community Mode Mod for 1.1.4+",
       "version_number": "2",
@@ -22,40 +50,6 @@
           "filename": "scriptor_community_mode.jar",
           "primary": true,
           "size": 62198
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Fhq3O3Hx",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "incompatible"
-        },
-        {
-          "project_id": "JyJgaOrk",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "xVVSpaSh",
-      "name": "Community Mode for 1.1.4+",
-      "version_number": "2",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "73cf1b4a83cc9d81a237eda4bae10a77540ea7d01ab09fbf6eefb690482754b83a093e5cba39d9be942974b9923be7a08739bbdb9669e002629a49b4eb427321",
-          "url": "https://cdn.modrinth.com/data/qdU2QhKa/versions/xVVSpaSh/scriptor_community_mode.zip",
-          "filename": "scriptor_community_mode.zip",
-          "primary": true,
-          "size": 61389
         }
       ],
       "dependencies": [
@@ -116,9 +110,9 @@
       ]
     },
     {
-      "id": "Np5Enrnh",
-      "name": "Community Mode",
-      "version_number": "1",
+      "id": "xVVSpaSh",
+      "name": "Community Mode for 1.1.4+",
+      "version_number": "2",
       "game_versions": [
         "1.20.4"
       ],
@@ -127,14 +121,20 @@
       ],
       "files": [
         {
-          "sha512": "a18d1d9abef4e75146ed33cb453d666cd1432907058752afadb5bfb5cab5b9950afb1edf0ae0abc6e15f3c297a7b60517bddce5fc977991765a691482fac7373",
-          "url": "https://cdn.modrinth.com/data/qdU2QhKa/versions/Np5Enrnh/scriptor_community_mode.zip",
+          "sha512": "73cf1b4a83cc9d81a237eda4bae10a77540ea7d01ab09fbf6eefb690482754b83a093e5cba39d9be942974b9923be7a08739bbdb9669e002629a49b4eb427321",
+          "url": "https://cdn.modrinth.com/data/qdU2QhKa/versions/xVVSpaSh/scriptor_community_mode.zip",
           "filename": "scriptor_community_mode.zip",
           "primary": true,
-          "size": 60568
+          "size": 61389
         }
       ],
       "dependencies": [
+        {
+          "project_id": "Fhq3O3Hx",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
         {
           "project_id": "JyJgaOrk",
           "version_id": null,

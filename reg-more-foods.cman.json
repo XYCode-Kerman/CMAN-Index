@@ -5,22 +5,165 @@
   "description": "Adds 80+ new foods to Minecraft.\nThis pack is available as both a Datapack, and a mod.",
   "versions": [
     {
-      "id": "yoCjKh8Q",
-      "name": "Release 1.1.0",
-      "version_number": "1.1.0+1.21",
+      "id": "1iAu8DKe",
+      "name": "Release 1.0.0 (Fabric)",
+      "version_number": "1.0.0+1.20.5+fabric",
       "game_versions": [
-        "1.21"
+        "1.20.5",
+        "1.20.6-rc1",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "7f737ecb87ccbefc11b16a46a3dc3c0674146046e0ddc23cdf1949a9de0dc64a8ab052b7977b38a2585387a51d5dfb57e96dd3992a418563bcfab2cff3db7442",
+          "url": "https://cdn.modrinth.com/data/2jidfU3A/versions/1iAu8DKe/regs-more-foods-1.0%2B1.20.5%2Bfabric.jar",
+          "filename": "regs-more-foods-1.0+1.20.5+fabric.jar",
+          "primary": true,
+          "size": 183348
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "EsAfCjCV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "8mbr3lft",
+      "name": "Beta 1.0.0",
+      "version_number": "1.0.0-beta",
+      "game_versions": [
+        "1.20.5-pre2"
       ],
       "loaders": [
         "datapack"
       ],
       "files": [
         {
-          "sha512": "8915b0934e70cda8528bdb0250b51ebf9bb7ba8195621518f3a363f69e6e93a0a1cc8c33767def52297c47c50909ef8a84159ba844aae063a61e27ed76970e06",
-          "url": "https://cdn.modrinth.com/data/2jidfU3A/versions/yoCjKh8Q/Reg%27s%20More%20Foods%20Pack%20%28UNZIP%20ME%29.zip",
+          "sha512": "4f945b0f8b22bce59327aa5051c86ab11b06f8a588efa588d56c7fc7677886a47a444d10db94fc74fc7f521f35d4223d009e5122c468f420dd0d52de44d3aa5a",
+          "url": "https://cdn.modrinth.com/data/2jidfU3A/versions/8mbr3lft/Reg%27s%20More%20Foods%20Pack%20%28UNZIP%20ME%21%29.zip",
+          "filename": "Reg's More Foods Pack (UNZIP ME!).zip",
+          "primary": true,
+          "size": 80171
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "N2iKDBoJ",
+      "name": "Beta 1.2.0 (Fabric)",
+      "version_number": "1.2.0-beta+fabric",
+      "game_versions": [
+        "24w13a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f069b2ad689d29a27762cf8f650283fc45581fdbabc52ac1b30b319070aaa32abe98a28dc8e1918961073328eb42777b06b98cc9704c1217f0b11288a1a8063c",
+          "url": "https://cdn.modrinth.com/data/2jidfU3A/versions/N2iKDBoJ/reg-more-foods-1.jar",
+          "filename": "reg-more-foods-1.jar",
+          "primary": true,
+          "size": 257087
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "EsAfCjCV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "PW1QySXi",
+      "name": "Beta 1.2.0",
+      "version_number": "1.2.0-beta",
+      "game_versions": [
+        "1.20.5-pre4",
+        "1.20.5-rc1",
+        "1.20.5-rc2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "409fd938d1a6fa646510aac0cff050dd82c92f6011eb3359886527275c3ef58bc12ec2e22211bab4563c416a9fa49474dd051307ae9ef55e8ba1dc59e4f926e0",
+          "url": "https://cdn.modrinth.com/data/2jidfU3A/versions/PW1QySXi/Reg%27s%20More%20Foods%20Pack%20%28UNZIP%20ME%29.zip",
           "filename": "Reg's More Foods Pack (UNZIP ME).zip",
           "primary": true,
-          "size": 183198
+          "size": 84599
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "UUfCOCwS",
+      "name": "Alpha 1.0.0",
+      "version_number": "1.0.0-alpha",
+      "game_versions": [
+        "1.20.5-pre1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "f7a96d2776500434ad2188dd8440aa637a8a65e6b6c5d664574728035ddf1245a84454fd9a0927505121dba36648703ec33f8eac220c6bc0912929eace75fae1",
+          "url": "https://cdn.modrinth.com/data/2jidfU3A/versions/UUfCOCwS/More%20Foods%20Datapack.zip",
+          "filename": "More Foods Datapack.zip",
+          "primary": true,
+          "size": 75148
+        },
+        {
+          "sha512": "599884023f87a7107827660d9e6d210b170464638ca98282c61fea65cb83dd889b48a10e8e966d549218aaa240189799407912177a250e33a39976a6c27ee8c0",
+          "url": "https://cdn.modrinth.com/data/2jidfU3A/versions/UUfCOCwS/More%20Foods%20Resourcepack.zip",
+          "filename": "More Foods Resourcepack.zip",
+          "primary": false,
+          "size": 48501
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Wt7VrG66",
+      "name": "Beta 1.1.0",
+      "version_number": "1.1.0-beta",
+      "game_versions": [
+        "1.20.5-pre3"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "c8e965f4df4c54f224e17d4e04d363589b27b2b2ac744a3e02678ccdca5ef728c1a159d9f469b45733d09ebf75a50ca46950e3768730bd7dba9dc79dc1ad5c20",
+          "url": "https://cdn.modrinth.com/data/2jidfU3A/versions/Wt7VrG66/Reg%27s%20More%20Foods%20Pack%20%28UNZIP%20ME%29.zip",
+          "filename": "Reg's More Foods Pack (UNZIP ME).zip",
+          "primary": true,
+          "size": 80368
         }
       ],
       "dependencies": []
@@ -84,165 +227,22 @@
       "dependencies": []
     },
     {
-      "id": "1iAu8DKe",
-      "name": "Release 1.0.0 (Fabric)",
-      "version_number": "1.0.0+1.20.5+fabric",
+      "id": "yoCjKh8Q",
+      "name": "Release 1.1.0",
+      "version_number": "1.1.0+1.21",
       "game_versions": [
-        "1.20.5",
-        "1.20.6-rc1",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "7f737ecb87ccbefc11b16a46a3dc3c0674146046e0ddc23cdf1949a9de0dc64a8ab052b7977b38a2585387a51d5dfb57e96dd3992a418563bcfab2cff3db7442",
-          "url": "https://cdn.modrinth.com/data/2jidfU3A/versions/1iAu8DKe/regs-more-foods-1.0%2B1.20.5%2Bfabric.jar",
-          "filename": "regs-more-foods-1.0+1.20.5+fabric.jar",
-          "primary": true,
-          "size": 183348
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "EsAfCjCV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "N2iKDBoJ",
-      "name": "Beta 1.2.0 (Fabric)",
-      "version_number": "1.2.0-beta+fabric",
-      "game_versions": [
-        "24w13a"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f069b2ad689d29a27762cf8f650283fc45581fdbabc52ac1b30b319070aaa32abe98a28dc8e1918961073328eb42777b06b98cc9704c1217f0b11288a1a8063c",
-          "url": "https://cdn.modrinth.com/data/2jidfU3A/versions/N2iKDBoJ/reg-more-foods-1.jar",
-          "filename": "reg-more-foods-1.jar",
-          "primary": true,
-          "size": 257087
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "EsAfCjCV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "PW1QySXi",
-      "name": "Beta 1.2.0",
-      "version_number": "1.2.0-beta",
-      "game_versions": [
-        "1.20.5-pre4",
-        "1.20.5-rc1",
-        "1.20.5-rc2"
+        "1.21"
       ],
       "loaders": [
         "datapack"
       ],
       "files": [
         {
-          "sha512": "409fd938d1a6fa646510aac0cff050dd82c92f6011eb3359886527275c3ef58bc12ec2e22211bab4563c416a9fa49474dd051307ae9ef55e8ba1dc59e4f926e0",
-          "url": "https://cdn.modrinth.com/data/2jidfU3A/versions/PW1QySXi/Reg%27s%20More%20Foods%20Pack%20%28UNZIP%20ME%29.zip",
+          "sha512": "8915b0934e70cda8528bdb0250b51ebf9bb7ba8195621518f3a363f69e6e93a0a1cc8c33767def52297c47c50909ef8a84159ba844aae063a61e27ed76970e06",
+          "url": "https://cdn.modrinth.com/data/2jidfU3A/versions/yoCjKh8Q/Reg%27s%20More%20Foods%20Pack%20%28UNZIP%20ME%29.zip",
           "filename": "Reg's More Foods Pack (UNZIP ME).zip",
           "primary": true,
-          "size": 84599
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Wt7VrG66",
-      "name": "Beta 1.1.0",
-      "version_number": "1.1.0-beta",
-      "game_versions": [
-        "1.20.5-pre3"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "c8e965f4df4c54f224e17d4e04d363589b27b2b2ac744a3e02678ccdca5ef728c1a159d9f469b45733d09ebf75a50ca46950e3768730bd7dba9dc79dc1ad5c20",
-          "url": "https://cdn.modrinth.com/data/2jidfU3A/versions/Wt7VrG66/Reg%27s%20More%20Foods%20Pack%20%28UNZIP%20ME%29.zip",
-          "filename": "Reg's More Foods Pack (UNZIP ME).zip",
-          "primary": true,
-          "size": 80368
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "8mbr3lft",
-      "name": "Beta 1.0.0",
-      "version_number": "1.0.0-beta",
-      "game_versions": [
-        "1.20.5-pre2"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "4f945b0f8b22bce59327aa5051c86ab11b06f8a588efa588d56c7fc7677886a47a444d10db94fc74fc7f521f35d4223d009e5122c468f420dd0d52de44d3aa5a",
-          "url": "https://cdn.modrinth.com/data/2jidfU3A/versions/8mbr3lft/Reg%27s%20More%20Foods%20Pack%20%28UNZIP%20ME%21%29.zip",
-          "filename": "Reg's More Foods Pack (UNZIP ME!).zip",
-          "primary": true,
-          "size": 80171
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "UUfCOCwS",
-      "name": "Alpha 1.0.0",
-      "version_number": "1.0.0-alpha",
-      "game_versions": [
-        "1.20.5-pre1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "f7a96d2776500434ad2188dd8440aa637a8a65e6b6c5d664574728035ddf1245a84454fd9a0927505121dba36648703ec33f8eac220c6bc0912929eace75fae1",
-          "url": "https://cdn.modrinth.com/data/2jidfU3A/versions/UUfCOCwS/More%20Foods%20Datapack.zip",
-          "filename": "More Foods Datapack.zip",
-          "primary": true,
-          "size": 75148
-        },
-        {
-          "sha512": "599884023f87a7107827660d9e6d210b170464638ca98282c61fea65cb83dd889b48a10e8e966d549218aaa240189799407912177a250e33a39976a6c27ee8c0",
-          "url": "https://cdn.modrinth.com/data/2jidfU3A/versions/UUfCOCwS/More%20Foods%20Resourcepack.zip",
-          "filename": "More Foods Resourcepack.zip",
-          "primary": false,
-          "size": 48501
+          "size": 183198
         }
       ],
       "dependencies": []

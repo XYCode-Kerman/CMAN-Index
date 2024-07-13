@@ -5,6 +5,79 @@
   "description": "Import books from text files or clipboard, and export books to text files.",
   "versions": [
     {
+      "id": "1M6gP2cb",
+      "name": "1.1.0",
+      "version_number": "1.1.0+1.16.5",
+      "game_versions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "921dcb83e524202c501a187ed6e0e8c492d143aea56a4dd9e46fb571fe2cf0772b1cca69a37ca482b507ff5b81c4a76da852e0d3393849e40f1e332ae28ccfdb",
+          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/1.1.0%2B1.16.5/Textbook-1.1.0%2B1.16.5.jar",
+          "filename": "Textbook-1.1.0+1.16.5.jar",
+          "primary": false,
+          "size": 117071
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "1kNNaT5j",
+      "name": "2.2.1",
+      "version_number": "2.2.1+1.18.2+fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "fa668891c047aa49980192123ded97914c67cdd8d9f956821688e01f79fb75795d1ba20ffb30311fe0dd645b5ea3e7488bc55211f0c1691a048633736a00c2fb",
+          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.2.1%2B1.18.2%2Bfabric/Textbook-Fabric-2.2.1%2B1.18.2.jar",
+          "filename": "Textbook-Fabric-2.2.1+1.18.2.jar",
+          "primary": true,
+          "size": 102455
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "RAXqYPH1",
+          "version_id": "23Idtgu9",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ING0LAPF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "5FmpKPYL",
       "name": "2.2.2",
       "version_number": "2.2.2+1.20.x+fabric",
@@ -27,69 +100,22 @@
       ],
       "dependencies": [
         {
-          "project_id": "ING0LAPF",
-          "version_id": "nCsLahrm",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "M8a6qx7w",
-      "name": "2.2.2",
-      "version_number": "2.2.2+1.19+fabric",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ddf8b81e36bddb4dd7e493157cc70c7b31fc8a439c5615aca78746f1b9f4e0593ebade9c5f559445f507d7cedd208886ba8a589a8d2e2f025f52ef8cc0b42044",
-          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/M8a6qx7w/Textbook-Fabric-2.2.2%2B1.19.jar",
-          "filename": "Textbook-Fabric-2.2.2+1.19.jar",
-          "primary": true,
-          "size": 102456
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
-          "project_id": "RAXqYPH1",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "ING0LAPF",
-          "version_id": "HqwjQxrN",
+          "version_id": "nCsLahrm",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -128,166 +154,50 @@
       ]
     },
     {
-      "id": "yAj8wAua",
-      "name": "2.2.1",
-      "version_number": "2.2.1+1.18.2",
+      "id": "EzyeT14s",
+      "name": "2.1.1",
+      "version_number": "2.1.1+1.15.2",
       "game_versions": [
-        "1.18.2"
+        "1.15",
+        "1.15.1",
+        "1.15.2"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "835f5970c2e63db15e5cdab4a29c356da6479228ebac56b55382bbc3c8ad3965cef5cf173f6e173de20033365d2d62f0eae31be6eb4e74c9188fa4e46559b01c",
-          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.2.1%2B1.18.2/Textbook-Forge-2.2.1%2B1.18.2.jar",
-          "filename": "Textbook-Forge-2.2.1+1.18.2.jar",
-          "primary": true,
-          "size": 103116
+          "sha512": "424ff45d40c6ad42bbf8f8df795402c11de484f3776c4da313c7b4f2de45eb5d556953dda87170142e4a66b8a288dc95dba984dad3c497b1a68528556d9064e1",
+          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.1.1%2B1.15.2/Textbook-2.1.1%2B1.15.2.jar",
+          "filename": "Textbook-2.1.1+1.15.2.jar",
+          "primary": false,
+          "size": 93550
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "ING0LAPF",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "RAXqYPH1",
-          "version_id": "1Xmee7yQ",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
+      "dependencies": []
     },
     {
-      "id": "1kNNaT5j",
-      "name": "2.2.1",
-      "version_number": "2.2.1+1.18.2+fabric",
+      "id": "FySI7hck",
+      "name": "2.2.0",
+      "version_number": "2.2.0+1.15.2",
       "game_versions": [
-        "1.18.2"
+        "1.15",
+        "1.15.1",
+        "1.15.2"
       ],
       "loaders": [
-        "fabric",
-        "quilt"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "fa668891c047aa49980192123ded97914c67cdd8d9f956821688e01f79fb75795d1ba20ffb30311fe0dd645b5ea3e7488bc55211f0c1691a048633736a00c2fb",
-          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.2.1%2B1.18.2%2Bfabric/Textbook-Fabric-2.2.1%2B1.18.2.jar",
-          "filename": "Textbook-Fabric-2.2.1+1.18.2.jar",
-          "primary": true,
-          "size": 102455
+          "sha512": "487b36aea3c5073ace7604fac714b40806f53267738662b429cf9cd7a578ffca48d7a5ef250f210d6c8df53836d3d2968c7fcc4b2b4e88c859f7cacfa36503ef",
+          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.2.0%2B1.15.2/Textbook-2.2.0%2B1.15.2.jar",
+          "filename": "Textbook-2.2.0+1.15.2.jar",
+          "primary": false,
+          "size": 107212
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "ING0LAPF",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "RAXqYPH1",
-          "version_id": "23Idtgu9",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "nVxObSbX",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "OupQnzmB",
-      "name": "2.2.1",
-      "version_number": "2.2.1+1.17.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "8d8c8b35aee88fc1158a100c6b636bac36527f3f4ae31ea35630ed56a7bca728115ebb6f15d2209a6789f096dfef46e657f1ce809180f679d8bcf7f94ef175ab",
-          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.2.1%2B1.17.1/Textbook-Forge-2.2.1%2B1.17.1.jar",
-          "filename": "Textbook-Forge-2.2.1+1.17.1.jar",
-          "primary": true,
-          "size": 103122
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ING0LAPF",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "RAXqYPH1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ZyXwpWQT",
-      "name": "2.2.1",
-      "version_number": "2.2.1+1.17.1+fabric",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "410403953a62d88ed6985f0dbd0694ca9387b30081af42ba9eb74d83c8b7dbfebc9f3e71aaac5dcf2d47d69760f2a0f5968ee0e95c185adc30059fd0fa4bf8e8",
-          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.2.1%2B1.17.1%2Bfabric/Textbook-Fabric-2.2.1%2B1.17.1.jar",
-          "filename": "Textbook-Fabric-2.2.1+1.17.1.jar",
-          "primary": true,
-          "size": 102456
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ING0LAPF",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "RAXqYPH1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "7kh2ofyR",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
+      "dependencies": []
     },
     {
       "id": "LfZ02YXX",
@@ -337,11 +247,11 @@
       ]
     },
     {
-      "id": "lMt1HHdv",
-      "name": "2.2.1",
-      "version_number": "2.2.1+1.15.2+fabric",
+      "id": "M8a6qx7w",
+      "name": "2.2.2",
+      "version_number": "2.2.2+1.19+fabric",
       "game_versions": [
-        "1.15.2"
+        "1.19"
       ],
       "loaders": [
         "fabric",
@@ -349,11 +259,57 @@
       ],
       "files": [
         {
-          "sha512": "7994ea5dee9ca79489fecd1c6f8fc093678d9a7e4e6e3766d06293693961a1a2040f6690564ba2dd210fec6d0c9c37d1bf2edeed03411614577e51a9ebd4503d",
-          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.2.1%2B1.15.2%2Bfabric/Textbook-Fabric-2.2.1%2B1.15.2.jar",
-          "filename": "Textbook-Fabric-2.2.1+1.15.2.jar",
+          "sha512": "ddf8b81e36bddb4dd7e493157cc70c7b31fc8a439c5615aca78746f1b9f4e0593ebade9c5f559445f507d7cedd208886ba8a589a8d2e2f025f52ef8cc0b42044",
+          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/M8a6qx7w/Textbook-Fabric-2.2.2%2B1.19.jar",
+          "filename": "Textbook-Fabric-2.2.2+1.19.jar",
           "primary": true,
-          "size": 102189
+          "size": 102456
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ING0LAPF",
+          "version_id": "HqwjQxrN",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "RAXqYPH1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "OupQnzmB",
+      "name": "2.2.1",
+      "version_number": "2.2.1+1.17.1",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8d8c8b35aee88fc1158a100c6b636bac36527f3f4ae31ea35630ed56a7bca728115ebb6f15d2209a6789f096dfef46e657f1ce809180f679d8bcf7f94ef175ab",
+          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.2.1%2B1.17.1/Textbook-Forge-2.2.1%2B1.17.1.jar",
+          "filename": "Textbook-Forge-2.2.1+1.17.1.jar",
+          "primary": true,
+          "size": 103122
         }
       ],
       "dependencies": [
@@ -364,19 +320,7 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": "3umfHb6R",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "RAXqYPH1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -384,53 +328,9 @@
       ]
     },
     {
-      "id": "qQwcCyH7",
-      "name": "2.2.0",
-      "version_number": "2.2.0+1.18.1",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "923ebf40a025c0c507c7ab25333e5ced43e230795134c35d75499bcfdb3361c69ce13463d3305cef4ea03117eecbd5f1a31bf50b7c9e38772fc27f91124bc507",
-          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.2.0%2B1.18.1/Textbook-2.2.0%2B1.18.1.jar",
-          "filename": "Textbook-2.2.0+1.18.1.jar",
-          "primary": true,
-          "size": 107515
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "uBfvzCVi",
-      "name": "2.2.0",
-      "version_number": "2.2.0+1.17.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e5fc8119565c471deb4db2b81d8b57b71dc2b64711d879b0412864262d58e05e917deb40969975d43278bf471ca0c476f82e26d2b338e22a1563901e09d6f44c",
-          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.2.0%2B1.17.1/Textbook-2.2.0%2B1.17.1.jar",
-          "filename": "Textbook-2.2.0+1.17.1.jar",
-          "primary": false,
-          "size": 107520
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "lhfXTAoL",
-      "name": "2.2.0",
-      "version_number": "2.2.0+1.16.5",
+      "id": "Owx53jDD",
+      "name": "2.0.0",
+      "version_number": "2.0.0+1.16.5",
       "game_versions": [
         "1.16",
         "1.16.1",
@@ -444,77 +344,11 @@
       ],
       "files": [
         {
-          "sha512": "e108c1216f52be2082285a3c20b0a12aea58aaf12a649a6c84579ea317a1a65a423739abe9604bcb6c504c0c2c7b7f39a8352d8e9caaa4e6b81a9990bd84442e",
-          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.2.0%2B1.16.5/Textbook-2.2.0%2B1.16.5.jar",
-          "filename": "Textbook-2.2.0+1.16.5.jar",
+          "sha512": "2f6832a9ade958e73590da49f6f76edd54d4ae4e8e2587ab45f13a889db63d6b979d56aeb9aba1ea185823d78994b79a2eab2e65cc8e7e7e3c42716ce2f8301f",
+          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.0.0%2B1.16.5/Textbook-2.0.0%2B1.16.5.jar",
+          "filename": "Textbook-2.0.0+1.16.5.jar",
           "primary": false,
-          "size": 106936
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "FySI7hck",
-      "name": "2.2.0",
-      "version_number": "2.2.0+1.15.2",
-      "game_versions": [
-        "1.15",
-        "1.15.1",
-        "1.15.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "487b36aea3c5073ace7604fac714b40806f53267738662b429cf9cd7a578ffca48d7a5ef250f210d6c8df53836d3d2968c7fcc4b2b4e88c859f7cacfa36503ef",
-          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.2.0%2B1.15.2/Textbook-2.2.0%2B1.15.2.jar",
-          "filename": "Textbook-2.2.0+1.15.2.jar",
-          "primary": false,
-          "size": 107212
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "rc87GiXE",
-      "name": "2.1.1",
-      "version_number": "2.1.1+1.18",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6ba3a3de589438fadbe03ddec0b8154c0e60ff8b94b52d563707c5d7a599ff603a3bcd343770cb00bf3cccda640fe0351e81c85a70ce95523006ebcde07e7eb7",
-          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.1.1%2B1.18/Textbook-2.1.1%2B1.18.jar",
-          "filename": "Textbook-2.1.1+1.18.jar",
-          "primary": false,
-          "size": 93597
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "smUyNfA7",
-      "name": "2.1.1",
-      "version_number": "2.1.1+1.17.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "76d4ea8189b5f42282fe0fd6cc4b3819550fd5d8e121504be916af33b516279611f06a4a92625d05164c196fd0eb2e189d45be288b36780ac1d57eb133926c22",
-          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.1.1%2B1.17.1/Textbook-2.1.1%2B1.17.1.jar",
-          "filename": "Textbook-2.1.1+1.17.1.jar",
-          "primary": false,
-          "size": 93597
+          "size": 92743
         }
       ],
       "dependencies": []
@@ -546,9 +380,9 @@
       "dependencies": []
     },
     {
-      "id": "EzyeT14s",
-      "name": "2.1.1",
-      "version_number": "2.1.1+1.15.2",
+      "id": "Y1yZZhWY",
+      "name": "1.1.0",
+      "version_number": "1.1.0+1.15.2",
       "game_versions": [
         "1.15",
         "1.15.1",
@@ -559,14 +393,61 @@
       ],
       "files": [
         {
-          "sha512": "424ff45d40c6ad42bbf8f8df795402c11de484f3776c4da313c7b4f2de45eb5d556953dda87170142e4a66b8a288dc95dba984dad3c497b1a68528556d9064e1",
-          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.1.1%2B1.15.2/Textbook-2.1.1%2B1.15.2.jar",
-          "filename": "Textbook-2.1.1+1.15.2.jar",
+          "sha512": "5052e261e62203f45e8cd371c28ad3048b26de9f48364d30f8255285a413ed67147010f29c993e4b18db4a58c28e128ba4876d4c61c5ea0046a3dd690c65d5bf",
+          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/1.1.0%2B1.15.2/Textbook-1.1.0%2B1.15.2.jar",
+          "filename": "Textbook-1.1.0+1.15.2.jar",
           "primary": false,
-          "size": 93550
+          "size": 117141
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "ZyXwpWQT",
+      "name": "2.2.1",
+      "version_number": "2.2.1+1.17.1+fabric",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "410403953a62d88ed6985f0dbd0694ca9387b30081af42ba9eb74d83c8b7dbfebc9f3e71aaac5dcf2d47d69760f2a0f5968ee0e95c185adc30059fd0fa4bf8e8",
+          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.2.1%2B1.17.1%2Bfabric/Textbook-Fabric-2.2.1%2B1.17.1.jar",
+          "filename": "Textbook-Fabric-2.2.1+1.17.1.jar",
+          "primary": true,
+          "size": 102456
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "7kh2ofyR",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ING0LAPF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "RAXqYPH1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "dse49BNU",
@@ -616,6 +497,79 @@
       "dependencies": []
     },
     {
+      "id": "lMt1HHdv",
+      "name": "2.2.1",
+      "version_number": "2.2.1+1.15.2+fabric",
+      "game_versions": [
+        "1.15.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "7994ea5dee9ca79489fecd1c6f8fc093678d9a7e4e6e3766d06293693961a1a2040f6690564ba2dd210fec6d0c9c37d1bf2edeed03411614577e51a9ebd4503d",
+          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.2.1%2B1.15.2%2Bfabric/Textbook-Fabric-2.2.1%2B1.15.2.jar",
+          "filename": "Textbook-Fabric-2.2.1+1.15.2.jar",
+          "primary": true,
+          "size": 102189
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "3umfHb6R",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ING0LAPF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "RAXqYPH1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "lhfXTAoL",
+      "name": "2.2.0",
+      "version_number": "2.2.0+1.16.5",
+      "game_versions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e108c1216f52be2082285a3c20b0a12aea58aaf12a649a6c84579ea317a1a65a423739abe9604bcb6c504c0c2c7b7f39a8352d8e9caaa4e6b81a9990bd84442e",
+          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.2.0%2B1.16.5/Textbook-2.2.0%2B1.16.5.jar",
+          "filename": "Textbook-2.2.0+1.16.5.jar",
+          "primary": false,
+          "size": 106936
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "mYorTY2G",
       "name": "2.1.0",
       "version_number": "2.1.0+1.15.2",
@@ -639,48 +593,46 @@
       "dependencies": []
     },
     {
-      "id": "tvmPVcuJ",
-      "name": "2.0.0",
-      "version_number": "2.0.0+1.17.1",
+      "id": "qQwcCyH7",
+      "name": "2.2.0",
+      "version_number": "2.2.0+1.18.1",
       "game_versions": [
-        "1.17.1"
+        "1.18",
+        "1.18.1",
+        "1.18.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "840503425de5f3d3b38c86b8d19c9bb5d6dc5c86472e460466ca1268ae6c5bb0aa4763c1e9461243f0d2dfd5fd8d9216d8361b45f501470e562ffedfd1570adc",
-          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.0.0%2B1.17.1/Textbook-2.0.0%2B1.17.1.jar",
-          "filename": "Textbook-2.0.0+1.17.1.jar",
-          "primary": false,
-          "size": 92963
+          "sha512": "923ebf40a025c0c507c7ab25333e5ced43e230795134c35d75499bcfdb3361c69ce13463d3305cef4ea03117eecbd5f1a31bf50b7c9e38772fc27f91124bc507",
+          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.2.0%2B1.18.1/Textbook-2.2.0%2B1.18.1.jar",
+          "filename": "Textbook-2.2.0+1.18.1.jar",
+          "primary": true,
+          "size": 107515
         }
       ],
       "dependencies": []
     },
     {
-      "id": "Owx53jDD",
-      "name": "2.0.0",
-      "version_number": "2.0.0+1.16.5",
+      "id": "rc87GiXE",
+      "name": "2.1.1",
+      "version_number": "2.1.1+1.18",
       "game_versions": [
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
+        "1.18",
+        "1.18.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "2f6832a9ade958e73590da49f6f76edd54d4ae4e8e2587ab45f13a889db63d6b979d56aeb9aba1ea185823d78994b79a2eab2e65cc8e7e7e3c42716ce2f8301f",
-          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.0.0%2B1.16.5/Textbook-2.0.0%2B1.16.5.jar",
-          "filename": "Textbook-2.0.0+1.16.5.jar",
+          "sha512": "6ba3a3de589438fadbe03ddec0b8154c0e60ff8b94b52d563707c5d7a599ff603a3bcd343770cb00bf3cccda640fe0351e81c85a70ce95523006ebcde07e7eb7",
+          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.1.1%2B1.18/Textbook-2.1.1%2B1.18.jar",
+          "filename": "Textbook-2.1.1+1.18.jar",
           "primary": false,
-          "size": 92743
+          "size": 93597
         }
       ],
       "dependencies": []
@@ -709,53 +661,101 @@
       "dependencies": []
     },
     {
-      "id": "1M6gP2cb",
-      "name": "1.1.0",
-      "version_number": "1.1.0+1.16.5",
+      "id": "smUyNfA7",
+      "name": "2.1.1",
+      "version_number": "2.1.1+1.17.1",
       "game_versions": [
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
+        "1.17.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "921dcb83e524202c501a187ed6e0e8c492d143aea56a4dd9e46fb571fe2cf0772b1cca69a37ca482b507ff5b81c4a76da852e0d3393849e40f1e332ae28ccfdb",
-          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/1.1.0%2B1.16.5/Textbook-1.1.0%2B1.16.5.jar",
-          "filename": "Textbook-1.1.0+1.16.5.jar",
+          "sha512": "76d4ea8189b5f42282fe0fd6cc4b3819550fd5d8e121504be916af33b516279611f06a4a92625d05164c196fd0eb2e189d45be288b36780ac1d57eb133926c22",
+          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.1.1%2B1.17.1/Textbook-2.1.1%2B1.17.1.jar",
+          "filename": "Textbook-2.1.1+1.17.1.jar",
           "primary": false,
-          "size": 117071
+          "size": 93597
         }
       ],
       "dependencies": []
     },
     {
-      "id": "Y1yZZhWY",
-      "name": "1.1.0",
-      "version_number": "1.1.0+1.15.2",
+      "id": "tvmPVcuJ",
+      "name": "2.0.0",
+      "version_number": "2.0.0+1.17.1",
       "game_versions": [
-        "1.15",
-        "1.15.1",
-        "1.15.2"
+        "1.17.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "5052e261e62203f45e8cd371c28ad3048b26de9f48364d30f8255285a413ed67147010f29c993e4b18db4a58c28e128ba4876d4c61c5ea0046a3dd690c65d5bf",
-          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/1.1.0%2B1.15.2/Textbook-1.1.0%2B1.15.2.jar",
-          "filename": "Textbook-1.1.0+1.15.2.jar",
+          "sha512": "840503425de5f3d3b38c86b8d19c9bb5d6dc5c86472e460466ca1268ae6c5bb0aa4763c1e9461243f0d2dfd5fd8d9216d8361b45f501470e562ffedfd1570adc",
+          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.0.0%2B1.17.1/Textbook-2.0.0%2B1.17.1.jar",
+          "filename": "Textbook-2.0.0+1.17.1.jar",
           "primary": false,
-          "size": 117141
+          "size": 92963
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "uBfvzCVi",
+      "name": "2.2.0",
+      "version_number": "2.2.0+1.17.1",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e5fc8119565c471deb4db2b81d8b57b71dc2b64711d879b0412864262d58e05e917deb40969975d43278bf471ca0c476f82e26d2b338e22a1563901e09d6f44c",
+          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.2.0%2B1.17.1/Textbook-2.2.0%2B1.17.1.jar",
+          "filename": "Textbook-2.2.0+1.17.1.jar",
+          "primary": false,
+          "size": 107520
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "yAj8wAua",
+      "name": "2.2.1",
+      "version_number": "2.2.1+1.18.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "835f5970c2e63db15e5cdab4a29c356da6479228ebac56b55382bbc3c8ad3965cef5cf173f6e173de20033365d2d62f0eae31be6eb4e74c9188fa4e46559b01c",
+          "url": "https://cdn.modrinth.com/data/bVkN6vx9/versions/2.2.1%2B1.18.2/Textbook-Forge-2.2.1%2B1.18.2.jar",
+          "filename": "Textbook-Forge-2.2.1+1.18.2.jar",
+          "primary": true,
+          "size": 103116
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "RAXqYPH1",
+          "version_id": "1Xmee7yQ",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ING0LAPF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     }
   ]
 }

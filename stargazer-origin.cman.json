@@ -5,16 +5,20 @@
   "description": "Dive into your world with the Stargazer Origin! Harness celestial powers, face unique challenges, and teleport across realms. Ready for a cosmic adventure?",
   "versions": [
     {
-      "id": "xASBQQxp",
-      "name": "Stargazer Origin (2.4.0) [Mod]",
-      "version_number": "2.4.0",
+      "id": "AX2Yv37z",
+      "name": "Stargazer Origin (2.3.2) [Mod]",
+      "version_number": "2.3.2",
       "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
         "1.20.2",
         "1.20.3",
-        "1.20.4",
-        "1.20.5",
-        "1.20.6",
-        "1.21"
+        "1.20.4"
       ],
       "loaders": [
         "fabric",
@@ -23,14 +27,20 @@
       ],
       "files": [
         {
-          "sha512": "4db4e7922f263b3d1b10de083e8366fd547b42e9c2d7fea589ab35cee6df88e917695eedf5bd3bf67ce25215a7438b3a180b9dfb9ddde63d87b7ed4ac7001e27",
-          "url": "https://cdn.modrinth.com/data/1gmmcEWS/versions/xASBQQxp/stargazer-origin-2.4.0.jar",
-          "filename": "stargazer-origin-2.4.0.jar",
+          "sha512": "81e620f654f456c495eacb2fedb75ed655785424404e886f0e0f6c667d22b8d14e0b1dcaebc5a60c0203d0b6974dc11c66867b14fef5f1a1356df816edb36266",
+          "url": "https://cdn.modrinth.com/data/1gmmcEWS/versions/AX2Yv37z/stargazer-origin-2.3.2.jar",
+          "filename": "stargazer-origin-2.3.2.jar",
           "primary": true,
-          "size": 239946
+          "size": 241570
         }
       ],
       "dependencies": [
+        {
+          "project_id": "z8OqPrIv",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "3BeIrqZR",
           "version_id": null,
@@ -39,12 +49,6 @@
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "z8OqPrIv",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -73,57 +77,6 @@
           "filename": "Stargazer Origin (2.4.0).zip",
           "primary": true,
           "size": 104945
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "3BeIrqZR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "z8OqPrIv",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "AX2Yv37z",
-      "name": "Stargazer Origin (2.3.2) [Mod]",
-      "version_number": "2.3.2",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "81e620f654f456c495eacb2fedb75ed655785424404e886f0e0f6c667d22b8d14e0b1dcaebc5a60c0203d0b6974dc11c66867b14fef5f1a1356df816edb36266",
-          "url": "https://cdn.modrinth.com/data/1gmmcEWS/versions/AX2Yv37z/stargazer-origin-2.3.2.jar",
-          "filename": "stargazer-origin-2.3.2.jar",
-          "primary": true,
-          "size": 241570
         }
       ],
       "dependencies": [
@@ -184,6 +137,53 @@
         },
         {
           "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "z8OqPrIv",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "xASBQQxp",
+      "name": "Stargazer Origin (2.4.0) [Mod]",
+      "version_number": "2.4.0",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4db4e7922f263b3d1b10de083e8366fd547b42e9c2d7fea589ab35cee6df88e917695eedf5bd3bf67ce25215a7438b3a180b9dfb9ddde63d87b7ed4ac7001e27",
+          "url": "https://cdn.modrinth.com/data/1gmmcEWS/versions/xASBQQxp/stargazer-origin-2.4.0.jar",
+          "filename": "stargazer-origin-2.4.0.jar",
+          "primary": true,
+          "size": 239946
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "3BeIrqZR",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"

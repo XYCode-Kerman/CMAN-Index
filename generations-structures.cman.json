@@ -1,9 +1,44 @@
 {
-  "id": "generations-structures",
+  "id": "vuBdsrzF",
   "slug": "generations-structures",
   "name": "Generations-Structures",
   "description": "Structures Extension for the Generations Family of Mods",
   "versions": [
+    {
+      "id": "9o8PYTR2",
+      "name": "Generations-Structures-1.5.0-Alpha",
+      "version_number": "1.5.0-Alpha",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "1da1fbe1e272f7c890832912d995fb433cce38fa23d58cac6f3425b10ca04d84d5961cda11b9bc0ce501663e40d01c6f7fada7a6ce8a986d62d6bf3f6dcb1efc",
+          "url": "https://cdn.modrinth.com/data/vuBdsrzF/versions/9o8PYTR2/Generations-Structures-Fabric-1.5.0-Alpha.jar",
+          "filename": "Generations-Structures-Fabric-1.5.0-Alpha.jar",
+          "primary": true,
+          "size": 197812
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AxvRzJ70",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
     {
       "id": "Fc3q4vqB",
       "name": "Generations-Structures-Forge-1.5.2-Alpha",
@@ -22,6 +57,55 @@
           "filename": "Generations-Structures-Forge-1.5.2-Alpha.jar",
           "primary": true,
           "size": 474594
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AxvRzJ70",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "HXF82T3G",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "PQIhECW7",
+      "name": "Generations-Structures-1.5.0-Alpha",
+      "version_number": "1.5.0-Alpha",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "ef1f1a545fa4006e7481031494412b5e937eee55ac066726168bc646d0f8abcba8eb05cd637baa7d42f21fbba42d230ed4199218fe2ca5e98ac61fb59150cc7f",
+          "url": "https://cdn.modrinth.com/data/vuBdsrzF/versions/PQIhECW7/Generations-Structures-Forge-1.5.0-Alpha.jar",
+          "filename": "Generations-Structures-Forge-1.5.0-Alpha.jar",
+          "primary": true,
+          "size": 201938
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "HXF82T3G",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "AxvRzJ70",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -44,47 +128,19 @@
           "primary": true,
           "size": 471055
         }
-      ]
-    },
-    {
-      "id": "9o8PYTR2",
-      "name": "Generations-Structures-1.5.0-Alpha",
-      "version_number": "1.5.0-Alpha",
-      "game_versions": [
-        "1.20.1"
       ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "1da1fbe1e272f7c890832912d995fb433cce38fa23d58cac6f3425b10ca04d84d5961cda11b9bc0ce501663e40d01c6f7fada7a6ce8a986d62d6bf3f6dcb1efc",
-          "url": "https://cdn.modrinth.com/data/vuBdsrzF/versions/9o8PYTR2/Generations-Structures-Fabric-1.5.0-Alpha.jar",
-          "filename": "Generations-Structures-Fabric-1.5.0-Alpha.jar",
-          "primary": true,
-          "size": 197812
-        }
-      ]
-    },
-    {
-      "id": "PQIhECW7",
-      "name": "Generations-Structures-1.5.0-Alpha",
-      "version_number": "1.5.0-Alpha",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge",
-        "neoforge"
-      ],
-      "files": [
+          "project_id": "AxvRzJ70",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
-          "sha512": "ef1f1a545fa4006e7481031494412b5e937eee55ac066726168bc646d0f8abcba8eb05cd637baa7d42f21fbba42d230ed4199218fe2ca5e98ac61fb59150cc7f",
-          "url": "https://cdn.modrinth.com/data/vuBdsrzF/versions/PQIhECW7/Generations-Structures-Forge-1.5.0-Alpha.jar",
-          "filename": "Generations-Structures-Forge-1.5.0-Alpha.jar",
-          "primary": true,
-          "size": 201938
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

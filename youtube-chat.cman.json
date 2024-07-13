@@ -5,6 +5,88 @@
   "description": "Receive live stream chat from YouTube, and display it into the game.",
   "versions": [
     {
+      "id": "AWi6GPsx",
+      "name": "[Forge] YouTube Chat v5.0.1 for Minecraft 1.19",
+      "version_number": "5.0.1-forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f1da72b42095035ebe1e566d26bb1f5a7af03d5fcefbc95e1bf71ebe67e7094cfd8014e8edcc583a6653294714d81feb8b6e2477e13845d99cf6cbdd71c053d1",
+          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/5.0.1-forge/youtube-chat-mc1.19-v5.0.1-forge.jar",
+          "filename": "youtube-chat-mc1.19-v5.0.1-forge.jar",
+          "primary": true,
+          "size": 1789749
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "EUyHCmUW",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "CnfU1w1Q",
+      "name": "[Fabric] YouTube Chat v5.1.0 for Minecraft 1.19.3",
+      "version_number": "5.1.0-fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2bab65c176896504a1e56fb2abd8cdc085e7b6b8fca942293f844cc728033e4edc70aa560dda77bb61af760ff71aca0ed6d37ce549076ee178bb1f2a48ae4db3",
+          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/CnfU1w1Q/youtube-chat-mc1.19.3-v5.1.0-fabric.jar",
+          "filename": "youtube-chat-mc1.19.3-v5.1.0-fabric.jar",
+          "primary": true,
+          "size": 2310543
+        },
+        {
+          "sha512": "5b82c86dbce8378dbc144892a943c420f819004a6d290d4c816637d5f871e8afab61d4cfc400abc3a3f88063ae2d0ba82c394d745272a51dada80df3cbf28e3f",
+          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/CnfU1w1Q/youtube-chat-mc1.19.3-v5.1.0-dev.jar",
+          "filename": "youtube-chat-mc1.19.3-v5.1.0-dev.jar",
+          "primary": false,
+          "size": 2123608
+        },
+        {
+          "sha512": "a1c357e926e4b849807c070943e9ec79dbd919cbcde3bdc9ba73ed9027171bb9be6bb2bdaca7ec00a03726acd4af4c5015a905d7630f549b5b6558ef160b8388",
+          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/CnfU1w1Q/youtube-chat-mc1.19.3-v5.1.0-sources.jar",
+          "filename": "youtube-chat-mc1.19.3-v5.1.0-sources.jar",
+          "primary": false,
+          "size": 35014
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "w2VZSLTf",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "DC6ObZEA",
       "name": "[Forge] YouTube Chat v5.1.0 for Minecraft 1.19.3",
       "version_number": "5.1.0-forge",
@@ -47,96 +129,96 @@
       ]
     },
     {
-      "id": "CnfU1w1Q",
-      "name": "[Fabric] YouTube Chat v5.1.0 for Minecraft 1.19.3",
-      "version_number": "5.1.0-fabric",
+      "id": "Pzb6woPP",
+      "name": "[Fabric] YouTube Chat v4.0.2 for Minecraft 1.18.2",
+      "version_number": "4.0.2-fabric",
       "game_versions": [
-        "1.19.3"
+        "1.18.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "2bab65c176896504a1e56fb2abd8cdc085e7b6b8fca942293f844cc728033e4edc70aa560dda77bb61af760ff71aca0ed6d37ce549076ee178bb1f2a48ae4db3",
-          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/CnfU1w1Q/youtube-chat-mc1.19.3-v5.1.0-fabric.jar",
-          "filename": "youtube-chat-mc1.19.3-v5.1.0-fabric.jar",
+          "sha512": "8cf64eaa7506e07eafa67a12da35721f07c5471804a4089984a50dbf6d66653f80b5b59c4d04dcd6a68654b2a8cac50933d896ba04029e486083e4004a3dbab8",
+          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/4.0.2-fabric/youtube-chat-mc1.18.2-v4.0.2-fabric.jar",
+          "filename": "youtube-chat-mc1.18.2-v4.0.2-fabric.jar",
           "primary": true,
-          "size": 2310543
-        },
-        {
-          "sha512": "5b82c86dbce8378dbc144892a943c420f819004a6d290d4c816637d5f871e8afab61d4cfc400abc3a3f88063ae2d0ba82c394d745272a51dada80df3cbf28e3f",
-          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/CnfU1w1Q/youtube-chat-mc1.19.3-v5.1.0-dev.jar",
-          "filename": "youtube-chat-mc1.19.3-v5.1.0-dev.jar",
-          "primary": false,
-          "size": 2123608
-        },
-        {
-          "sha512": "a1c357e926e4b849807c070943e9ec79dbd919cbcde3bdc9ba73ed9027171bb9be6bb2bdaca7ec00a03726acd4af4c5015a905d7630f549b5b6558ef160b8388",
-          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/CnfU1w1Q/youtube-chat-mc1.19.3-v5.1.0-sources.jar",
-          "filename": "youtube-chat-mc1.19.3-v5.1.0-sources.jar",
-          "primary": false,
-          "size": 35014
+          "size": 2282223
         }
       ],
       "dependencies": [
         {
           "project_id": "9s6osm5g",
-          "version_id": "w2VZSLTf",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "UX7MdLOF",
+      "name": "[Fabric] YouTube Chat v5.0.0 for Minecraft 1.19",
+      "version_number": "5.0.0-fabric",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0ac461c6b69a737f16468440e6f0897b4bb514b8e51464143547cfc7271ded7b5d391896e2cbbcbb2255872d9b517ba6cd81399f0f2b64ee8aab66f5e0e674fb",
+          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/5.0.0-fabric/youtube-chat-mc1.19-v5.0.0-fabric.jar",
+          "filename": "youtube-chat-mc1.19-v5.0.0-fabric.jar",
+          "primary": true,
+          "size": 2282397
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "3KmOcp6b",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
+          "version_id": "oU5qfeR6",
           "file_name": null,
           "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "pnG3lwdy",
-      "name": "[Forge] YouTube Chat v5.0.2 for Minecraft 1.19",
-      "version_number": "5.0.2-forge",
+      "id": "UkGxgOaW",
+      "name": "[Forge] YouTube Chat v4.0.2 for Minecraft 1.18.2",
+      "version_number": "4.0.2-forge",
       "game_versions": [
-        "1.19"
+        "1.18.2"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "c893d0d9c2a54154dca5582e813bd79a92a2f8c1b2c496cdcaa91b87c38a676959965dd2dae280d4a079a9af56b51e0d6a1b6bd2d13c014a2d0e0a30f500c27a",
-          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/5.0.2-forge/youtube-chat-mc1.19-v5.0.2-forge.jar",
-          "filename": "youtube-chat-mc1.19-v5.0.2-forge.jar",
+          "sha512": "aee2e3f5f2d81cd8e88d668bc04e892f514d936a9e15ee645d8f6e8f50a1bf595090fb867e6a2c8d66631ce7ba7550fba5c2aef533559600900f9f36e683c1ec",
+          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/4.0.2-forge/youtube-chat-mc1.18.2-v4.0.2-forge.jar",
+          "filename": "youtube-chat-mc1.18.2-v4.0.2-forge.jar",
           "primary": true,
-          "size": 1818924
-        },
-        {
-          "sha512": "a9ad822989aa96869a8f2edb8c0256f900069302cb0c596a7aeb8d34f288d492ce7cc6d86466bff799b46ee20817c2962c604b529f0f43040d05693383b5910f",
-          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/5.0.2-forge/youtube-chat-mc1.19-v5.0.2-dev.jar",
-          "filename": "youtube-chat-mc1.19-v5.0.2-dev.jar",
-          "primary": false,
-          "size": 1669657
-        },
-        {
-          "sha512": "c7cfbe5492306a24f71db8997c7dde38f578da3c8c1992bbbd0d580faf6f1880b196b897708270073effc041a03e16ce0e6e82d3a53df36cc0c70e1f13746c86",
-          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/5.0.2-forge/youtube-chat-mc1.19-v5.0.2-sources.jar",
-          "filename": "youtube-chat-mc1.19-v5.0.2-sources.jar",
-          "primary": false,
-          "size": 35327
+          "size": 1789779
         }
       ],
       "dependencies": [
         {
           "project_id": "9s6osm5g",
-          "version_id": "EUyHCmUW",
+          "version_id": "ZbWG3eJW",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -183,9 +265,9 @@
       ]
     },
     {
-      "id": "AWi6GPsx",
-      "name": "[Forge] YouTube Chat v5.0.1 for Minecraft 1.19",
-      "version_number": "5.0.1-forge",
+      "id": "pnG3lwdy",
+      "name": "[Forge] YouTube Chat v5.0.2 for Minecraft 1.19",
+      "version_number": "5.0.2-forge",
       "game_versions": [
         "1.19"
       ],
@@ -194,113 +276,31 @@
       ],
       "files": [
         {
-          "sha512": "f1da72b42095035ebe1e566d26bb1f5a7af03d5fcefbc95e1bf71ebe67e7094cfd8014e8edcc583a6653294714d81feb8b6e2477e13845d99cf6cbdd71c053d1",
-          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/5.0.1-forge/youtube-chat-mc1.19-v5.0.1-forge.jar",
-          "filename": "youtube-chat-mc1.19-v5.0.1-forge.jar",
+          "sha512": "c893d0d9c2a54154dca5582e813bd79a92a2f8c1b2c496cdcaa91b87c38a676959965dd2dae280d4a079a9af56b51e0d6a1b6bd2d13c014a2d0e0a30f500c27a",
+          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/5.0.2-forge/youtube-chat-mc1.19-v5.0.2-forge.jar",
+          "filename": "youtube-chat-mc1.19-v5.0.2-forge.jar",
           "primary": true,
-          "size": 1789749
+          "size": 1818924
+        },
+        {
+          "sha512": "a9ad822989aa96869a8f2edb8c0256f900069302cb0c596a7aeb8d34f288d492ce7cc6d86466bff799b46ee20817c2962c604b529f0f43040d05693383b5910f",
+          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/5.0.2-forge/youtube-chat-mc1.19-v5.0.2-dev.jar",
+          "filename": "youtube-chat-mc1.19-v5.0.2-dev.jar",
+          "primary": false,
+          "size": 1669657
+        },
+        {
+          "sha512": "c7cfbe5492306a24f71db8997c7dde38f578da3c8c1992bbbd0d580faf6f1880b196b897708270073effc041a03e16ce0e6e82d3a53df36cc0c70e1f13746c86",
+          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/5.0.2-forge/youtube-chat-mc1.19-v5.0.2-sources.jar",
+          "filename": "youtube-chat-mc1.19-v5.0.2-sources.jar",
+          "primary": false,
+          "size": 35327
         }
       ],
       "dependencies": [
         {
           "project_id": "9s6osm5g",
           "version_id": "EUyHCmUW",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "UX7MdLOF",
-      "name": "[Fabric] YouTube Chat v5.0.0 for Minecraft 1.19",
-      "version_number": "5.0.0-fabric",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0ac461c6b69a737f16468440e6f0897b4bb514b8e51464143547cfc7271ded7b5d391896e2cbbcbb2255872d9b517ba6cd81399f0f2b64ee8aab66f5e0e674fb",
-          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/5.0.0-fabric/youtube-chat-mc1.19-v5.0.0-fabric.jar",
-          "filename": "youtube-chat-mc1.19-v5.0.0-fabric.jar",
-          "primary": true,
-          "size": 2282397
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "oU5qfeR6",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "3KmOcp6b",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "UkGxgOaW",
-      "name": "[Forge] YouTube Chat v4.0.2 for Minecraft 1.18.2",
-      "version_number": "4.0.2-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "aee2e3f5f2d81cd8e88d668bc04e892f514d936a9e15ee645d8f6e8f50a1bf595090fb867e6a2c8d66631ce7ba7550fba5c2aef533559600900f9f36e683c1ec",
-          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/4.0.2-forge/youtube-chat-mc1.18.2-v4.0.2-forge.jar",
-          "filename": "youtube-chat-mc1.18.2-v4.0.2-forge.jar",
-          "primary": true,
-          "size": 1789779
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "ZbWG3eJW",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Pzb6woPP",
-      "name": "[Fabric] YouTube Chat v4.0.2 for Minecraft 1.18.2",
-      "version_number": "4.0.2-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8cf64eaa7506e07eafa67a12da35721f07c5471804a4089984a50dbf6d66653f80b5b59c4d04dcd6a68654b2a8cac50933d896ba04029e486083e4004a3dbab8",
-          "url": "https://cdn.modrinth.com/data/yo2w7hPw/versions/4.0.2-fabric/youtube-chat-mc1.18.2-v4.0.2-fabric.jar",
-          "filename": "youtube-chat-mc1.18.2-v4.0.2-fabric.jar",
-          "primary": true,
-          "size": 2282223
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
           "file_name": null,
           "dependency_type": "required"
         }

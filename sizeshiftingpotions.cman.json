@@ -5,22 +5,59 @@
   "description": "Adds potions to change your size!",
   "versions": [
     {
-      "id": "kcFeja97",
-      "name": "Size Shifting Potions v1.7.1 Forge",
-      "version_number": "v1.7.1-forge",
+      "id": "1uWy6Mmb",
+      "name": "v1.4.0",
+      "version_number": "v1.4.0",
       "game_versions": [
-        "1.20.1"
+        "1.18.1",
+        "1.18.2",
+        "22w13a"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "3d8ad618d52ec1e47f3f8856dadb6babeb974b782e9d923f6ef4724088b4ac7e8e5ca58d3ae09a9f75e24d8c23f6062fb93a35f6ba43232f5dfff32c1d646979",
-          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/kcFeja97/sizeshiftingpotions-1.7.1-forge.jar",
-          "filename": "sizeshiftingpotions-1.7.1-forge.jar",
+          "sha512": "21e453eb9d386e2faaadae2d323a0d55ae84ffc0dfd0ad505c98a6648856afca6fe1efd2fe23b98581e4be4aa70d9b7847b3e4965234606852507234d36db19d",
+          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/v1.4.0/sizeshiftingpotions-1.4.0.jar",
+          "filename": "sizeshiftingpotions-1.4.0.jar",
           "primary": true,
-          "size": 90596
+          "size": 84578
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": "CRaHmCcJ",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "t5W7Jfwy",
+          "version_id": "upq7HCkV",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "8XY6NJGW",
+      "name": "Size Shifting Potions v1.5.1 Fabric",
+      "version_number": "v1.5.1",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "7edb02ec0955baab502a78ece473cae07c3af0288e74b6c9d94d145b300061b98489f83f6140310849a228916280f1420f6da093e9de72e01482741f6a9de59e",
+          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/8XY6NJGW/SizeShiftingPotions-fabric-1.19.2-1.5.1.jar",
+          "filename": "SizeShiftingPotions-fabric-1.19.2-1.5.1.jar",
+          "primary": true,
+          "size": 105102
         }
       ],
       "dependencies": [
@@ -32,16 +69,16 @@
         },
         {
           "project_id": "t5W7Jfwy",
-          "version_id": null,
+          "version_id": "upq7HCkV",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "wuAPOI9C",
-      "name": "Size Shifting Potions v1.7.1 Fabric",
-      "version_number": "v1.7.1-fabric",
+      "id": "9hkn8wUg",
+      "name": "Size Shifting Potions v1.6.2 Fabric",
+      "version_number": "v1.6.2-fabric",
       "game_versions": [
         "1.20.1"
       ],
@@ -51,11 +88,46 @@
       ],
       "files": [
         {
-          "sha512": "cb2bd8a9101270a4ba94d12c5a8311f4bf0eecb665dde19449b332ac9c4bebea514115792b28700f0a9ca4ce9d9a1dcee221b5cb72de9612b9222406b609e479",
-          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/wuAPOI9C/sizeshiftingpotions-1.7.1-fabric.jar",
-          "filename": "sizeshiftingpotions-1.7.1-fabric.jar",
+          "sha512": "3c09a11b0d35dad20935dad974d2211e9fcc5a83bb7660557b692925e1eda90f0bacae3b981784f0bd3ebd61286e4c55188a7c5ceddf45349a173d25b111bcc4",
+          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/9hkn8wUg/SizeShiftingPotions-fabric-1.20.1-1.6.2.jar",
+          "filename": "SizeShiftingPotions-fabric-1.20.1-1.6.2.jar",
           "primary": true,
-          "size": 88031
+          "size": 97048
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": "YXz8kIQl",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "t5W7Jfwy",
+          "version_id": "upq7HCkV",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Cw7BWZSi",
+      "name": "Size Shifting Potions v1.7.0 Fabric",
+      "version_number": "v1.7.0-fabric",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "ad0b1ffce245d0da2337eed9956312048ca8236727c9322dab481eefa36d5037ea367802869ef64beff4c5e6816f579cef19642219bb2446102cfd6222fdac1e",
+          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/Cw7BWZSi/sizeshiftingpotions-1.7.0-fabric.jar",
+          "filename": "sizeshiftingpotions-1.7.0-fabric.jar",
+          "primary": true,
+          "size": 86054
         }
       ],
       "dependencies": [
@@ -108,11 +180,11 @@
       ]
     },
     {
-      "id": "Cw7BWZSi",
-      "name": "Size Shifting Potions v1.7.0 Fabric",
-      "version_number": "v1.7.0-fabric",
+      "id": "Fkatprqc",
+      "name": "Size Shifting Potions v1.6.0 Fabric",
+      "version_number": "v1.6.0",
       "game_versions": [
-        "1.20.1"
+        "1.19.3"
       ],
       "loaders": [
         "fabric",
@@ -120,11 +192,11 @@
       ],
       "files": [
         {
-          "sha512": "ad0b1ffce245d0da2337eed9956312048ca8236727c9322dab481eefa36d5037ea367802869ef64beff4c5e6816f579cef19642219bb2446102cfd6222fdac1e",
-          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/Cw7BWZSi/sizeshiftingpotions-1.7.0-fabric.jar",
-          "filename": "sizeshiftingpotions-1.7.0-fabric.jar",
+          "sha512": "ea5f281d678d1dd84351d8ca27136d85ef6fd4bf2e2767b48687fa3cfb7d4863d405feb5f504b5ced7c90958eb60885b7bf044e3c11602007a40f745c1d56433",
+          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/Fkatprqc/SizeShiftingPotions-fabric-1.19.3-1.6.0.jar",
+          "filename": "SizeShiftingPotions-fabric-1.19.3-1.6.0.jar",
           "primary": true,
-          "size": 86054
+          "size": 104905
         }
       ],
       "dependencies": [
@@ -136,9 +208,43 @@
         },
         {
           "project_id": "t5W7Jfwy",
-          "version_id": null,
+          "version_id": "upq7HCkV",
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "JSvYKZCe",
+      "name": "Size Shifting Potions v1.5.1 Forge",
+      "version_number": "v1.5.1",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f9789198bd5f0fb29f31c390bd0bec87e0540860d294f1a72ef1fddc7c1828d75ed1c33de40fd1068ce14e5ab42a3e17c03488ade2a4333365d6dc3d33680671",
+          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/JSvYKZCe/SizeShiftingPotions-forge-1.19.2-1.5.1.jar",
+          "filename": "SizeShiftingPotions-forge-1.19.2-1.5.1.jar",
+          "primary": true,
+          "size": 105619
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "t5W7Jfwy",
+          "version_id": "YsC6605j",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "codAaoxh",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
     },
@@ -163,25 +269,83 @@
       ],
       "dependencies": [
         {
+          "project_id": "codAaoxh",
+          "version_id": "MsATpcA9",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
           "project_id": "t5W7Jfwy",
           "version_id": "uTXXBeVj",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "R0cUcHFm",
+      "name": "v1.3.0",
+      "version_number": "v1.3.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2a5113ba8c393d51d400cc424a8a1a7ebc71a3cd4f217ba67355f8b5f2879aa46e51237a92f0f95e5bc16d520067a027eb4e9eea11e51d0bb089628e85617a9f",
+          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/v1.3.0/sizeshiftingpotions-1.3.0.jar",
+          "filename": "sizeshiftingpotions-1.3.0.jar",
+          "primary": false,
+          "size": 31111
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "YFlHmcZ5",
+      "name": "Size Shifting Potions v1.6.0 Forge",
+      "version_number": "v1.6.0",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "6e552b400c281c42241d55fe4764cccebb2765abbdf1a06d97f6fc582eaa4ad4194a9f7b3e579339fd94f5f6bacc680868d10241e8aea94e0f0a3b13b1284c95",
+          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/YFlHmcZ5/SizeShiftingPotions-forge-1.19.3-1.6.0.jar",
+          "filename": "SizeShiftingPotions-forge-1.19.3-1.6.0.jar",
+          "primary": true,
+          "size": 105488
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "t5W7Jfwy",
+          "version_id": "TYANFfos",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "codAaoxh",
-          "version_id": "MsATpcA9",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
         }
       ]
     },
     {
-      "id": "9hkn8wUg",
-      "name": "Size Shifting Potions v1.6.2 Fabric",
-      "version_number": "v1.6.2-fabric",
+      "id": "b2wETqft",
+      "name": "v1.4.2",
+      "version_number": "v1.4.2",
       "game_versions": [
-        "1.20.1"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
         "fabric",
@@ -189,25 +353,25 @@
       ],
       "files": [
         {
-          "sha512": "3c09a11b0d35dad20935dad974d2211e9fcc5a83bb7660557b692925e1eda90f0bacae3b981784f0bd3ebd61286e4c55188a7c5ceddf45349a173d25b111bcc4",
-          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/9hkn8wUg/SizeShiftingPotions-fabric-1.20.1-1.6.2.jar",
-          "filename": "SizeShiftingPotions-fabric-1.20.1-1.6.2.jar",
+          "sha512": "cc27cf9e08a9ccbb6af9b3d75dd607bf23d1186bd2dd05369695a5f46ee2c77ed026039e829dbcedd01797f6f60b4fc549a45673bd6d607516f284a5b241ce29",
+          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/v1.4.2/sizeshiftingpotions-1.4.2.jar",
+          "filename": "sizeshiftingpotions-1.4.2.jar",
           "primary": true,
-          "size": 97048
+          "size": 86189
         }
       ],
       "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": "E9lkXHyn",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
         {
           "project_id": "t5W7Jfwy",
           "version_id": "upq7HCkV",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "codAaoxh",
-          "version_id": "YXz8kIQl",
-          "file_name": null,
-          "dependency_type": "embedded"
         }
       ]
     },
@@ -281,140 +445,36 @@
       ]
     },
     {
-      "id": "YFlHmcZ5",
-      "name": "Size Shifting Potions v1.6.0 Forge",
-      "version_number": "v1.6.0",
+      "id": "kcFeja97",
+      "name": "Size Shifting Potions v1.7.1 Forge",
+      "version_number": "v1.7.1-forge",
       "game_versions": [
-        "1.19.3"
+        "1.20.1"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "6e552b400c281c42241d55fe4764cccebb2765abbdf1a06d97f6fc582eaa4ad4194a9f7b3e579339fd94f5f6bacc680868d10241e8aea94e0f0a3b13b1284c95",
-          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/YFlHmcZ5/SizeShiftingPotions-forge-1.19.3-1.6.0.jar",
-          "filename": "SizeShiftingPotions-forge-1.19.3-1.6.0.jar",
+          "sha512": "3d8ad618d52ec1e47f3f8856dadb6babeb974b782e9d923f6ef4724088b4ac7e8e5ca58d3ae09a9f75e24d8c23f6062fb93a35f6ba43232f5dfff32c1d646979",
+          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/kcFeja97/sizeshiftingpotions-1.7.1-forge.jar",
+          "filename": "sizeshiftingpotions-1.7.1-forge.jar",
           "primary": true,
-          "size": 105488
+          "size": 90596
         }
       ],
       "dependencies": [
+        {
+          "project_id": "t5W7Jfwy",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "codAaoxh",
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
-        },
-        {
-          "project_id": "t5W7Jfwy",
-          "version_id": "TYANFfos",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Fkatprqc",
-      "name": "Size Shifting Potions v1.6.0 Fabric",
-      "version_number": "v1.6.0",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ea5f281d678d1dd84351d8ca27136d85ef6fd4bf2e2767b48687fa3cfb7d4863d405feb5f504b5ced7c90958eb60885b7bf044e3c11602007a40f745c1d56433",
-          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/Fkatprqc/SizeShiftingPotions-fabric-1.19.3-1.6.0.jar",
-          "filename": "SizeShiftingPotions-fabric-1.19.3-1.6.0.jar",
-          "primary": true,
-          "size": 104905
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "t5W7Jfwy",
-          "version_id": "upq7HCkV",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "JSvYKZCe",
-      "name": "Size Shifting Potions v1.5.1 Forge",
-      "version_number": "v1.5.1",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "f9789198bd5f0fb29f31c390bd0bec87e0540860d294f1a72ef1fddc7c1828d75ed1c33de40fd1068ce14e5ab42a3e17c03488ade2a4333365d6dc3d33680671",
-          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/JSvYKZCe/SizeShiftingPotions-forge-1.19.2-1.5.1.jar",
-          "filename": "SizeShiftingPotions-forge-1.19.2-1.5.1.jar",
-          "primary": true,
-          "size": 105619
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "t5W7Jfwy",
-          "version_id": "YsC6605j",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "8XY6NJGW",
-      "name": "Size Shifting Potions v1.5.1 Fabric",
-      "version_number": "v1.5.1",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "7edb02ec0955baab502a78ece473cae07c3af0288e74b6c9d94d145b300061b98489f83f6140310849a228916280f1420f6da093e9de72e01482741f6a9de59e",
-          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/8XY6NJGW/SizeShiftingPotions-fabric-1.19.2-1.5.1.jar",
-          "filename": "SizeShiftingPotions-fabric-1.19.2-1.5.1.jar",
-          "primary": true,
-          "size": 105102
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "t5W7Jfwy",
-          "version_id": "upq7HCkV",
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -443,6 +503,41 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "wuAPOI9C",
+      "name": "Size Shifting Potions v1.7.1 Fabric",
+      "version_number": "v1.7.1-fabric",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "cb2bd8a9101270a4ba94d12c5a8311f4bf0eecb665dde19449b332ac9c4bebea514115792b28700f0a9ca4ce9d9a1dcee221b5cb72de9612b9222406b609e479",
+          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/wuAPOI9C/sizeshiftingpotions-1.7.1-fabric.jar",
+          "filename": "sizeshiftingpotions-1.7.1-fabric.jar",
+          "primary": true,
+          "size": 88031
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "t5W7Jfwy",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -476,43 +571,6 @@
       ]
     },
     {
-      "id": "b2wETqft",
-      "name": "v1.4.2",
-      "version_number": "v1.4.2",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "cc27cf9e08a9ccbb6af9b3d75dd607bf23d1186bd2dd05369695a5f46ee2c77ed026039e829dbcedd01797f6f60b4fc549a45673bd6d607516f284a5b241ce29",
-          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/v1.4.2/sizeshiftingpotions-1.4.2.jar",
-          "filename": "sizeshiftingpotions-1.4.2.jar",
-          "primary": true,
-          "size": 86189
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "t5W7Jfwy",
-          "version_id": "upq7HCkV",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "codAaoxh",
-          "version_id": "E9lkXHyn",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
       "id": "zyGmg6qu",
       "name": "v1.4.1",
       "version_number": "v1.4.1",
@@ -534,76 +592,18 @@
       ],
       "dependencies": [
         {
-          "project_id": "t5W7Jfwy",
-          "version_id": "rCJ3oStN",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "codAaoxh",
           "version_id": "hxPiYWhh",
           "file_name": null,
           "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "1uWy6Mmb",
-      "name": "v1.4.0",
-      "version_number": "v1.4.0",
-      "game_versions": [
-        "1.18.1",
-        "1.18.2",
-        "22w13a"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "21e453eb9d386e2faaadae2d323a0d55ae84ffc0dfd0ad505c98a6648856afca6fe1efd2fe23b98581e4be4aa70d9b7847b3e4965234606852507234d36db19d",
-          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/v1.4.0/sizeshiftingpotions-1.4.0.jar",
-          "filename": "sizeshiftingpotions-1.4.0.jar",
-          "primary": true,
-          "size": 84578
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": "CRaHmCcJ",
-          "file_name": null,
-          "dependency_type": "embedded"
         },
         {
           "project_id": "t5W7Jfwy",
-          "version_id": "upq7HCkV",
+          "version_id": "rCJ3oStN",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
-    },
-    {
-      "id": "R0cUcHFm",
-      "name": "v1.3.0",
-      "version_number": "v1.3.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2a5113ba8c393d51d400cc424a8a1a7ebc71a3cd4f217ba67355f8b5f2879aa46e51237a92f0f95e5bc16d520067a027eb4e9eea11e51d0bb089628e85617a9f",
-          "url": "https://cdn.modrinth.com/data/rfj2v0X6/versions/v1.3.0/sizeshiftingpotions-1.3.0.jar",
-          "filename": "sizeshiftingpotions-1.3.0.jar",
-          "primary": false,
-          "size": 31111
-        }
-      ],
-      "dependencies": []
     }
   ]
 }

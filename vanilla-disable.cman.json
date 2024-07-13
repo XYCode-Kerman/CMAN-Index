@@ -5,32 +5,12 @@
   "description": "Allows you to change many vanilla features.",
   "versions": [
     {
-      "id": "gaCRXNSf",
-      "name": "4.0.0 for 1.21 - Neoforge",
-      "version_number": "4.0.0",
+      "id": "1AtfsWwd",
+      "name": "3.3.0 for 1.20.4 - Fabric/Quilt",
+      "version_number": "3.3.0",
       "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "b181b59218448cfe105af1a7048313ecf103cab7c89e6fa9ce568fac507a4a07df84393524d84dee50856080a87b0caa3d6b622f9eb31d82df8e9a1edf9f98c4",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/gaCRXNSf/vanilla_disable-neoforge-mc1.21-4.0.0-all.jar",
-          "filename": "vanilla_disable-neoforge-mc1.21-4.0.0-all.jar",
-          "primary": true,
-          "size": 2864307
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "bHUb6I2J",
-      "name": "4.0.0 for 1.21 - Fabric/Quilt",
-      "version_number": "4.0.0",
-      "game_versions": [
-        "1.21"
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
         "fabric",
@@ -38,35 +18,537 @@
       ],
       "files": [
         {
-          "sha512": "591e4f9e8848f70064c2075d8ebe42393c3dc8ad271213dd77bbbd15cbc75bc4c8ed3d792e4d441aeb5be9459f2e35908a8df02e36efa8fdb2c9bae51a0d2b73",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/bHUb6I2J/vanilla_disable-fabric-mc1.21-4.0.0.jar",
-          "filename": "vanilla_disable-fabric-mc1.21-4.0.0.jar",
+          "sha512": "49dd2079999cbc900b98d2531139fddeea194d04c68f1d6c9123c066b1e926200b208ce80fb85b3cb444cafb8aaa78f6e79c630d101936ca3898d6a5ea929007",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1AtfsWwd/vanilla_disable-fabric-mc1.20.4-3.3.0.jar",
+          "filename": "vanilla_disable-fabric-mc1.20.4-3.3.0.jar",
           "primary": true,
-          "size": 2886454
+          "size": 2884469
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "1eNyrRys",
+      "name": "3.3.4 for 1.20.6 - Fabric/Quilt",
+      "version_number": "3.3.4",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "205c46013b0209e30fdab47373e72960e685cb943b692b087e19a57a0548ba2bd1a49a20a6bd4001554926665a9ef48a854c26982caaa8950fddb56455ca075d",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1eNyrRys/vanilla_disable-fabric-mc1.20.6-3.3.4.jar",
+          "filename": "vanilla_disable-fabric-mc1.20.6-3.3.4.jar",
+          "primary": true,
+          "size": 2875878
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "2Imxq85W",
+      "name": "3.0.2 for 1.20.1",
+      "version_number": "3.0.2",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "ecee126dddad5b4bad163a87e1636487af0893fbcf0982b7a73e70a6b506b9e7b23bff37f3851b4df2e0dcfb5e8ea463d86b6841b52f632fc90ad360ffc0fcdd",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/2Imxq85W/vanilla_disable-mc1.20.1-3.0.2.jar",
+          "filename": "vanilla_disable-mc1.20.1-3.0.2.jar",
+          "primary": true,
+          "size": 3587099
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": "m23n3uIM",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "zv46i3PW",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "2wl9JLCF",
+      "name": "3.0.3 for 1.20.1",
+      "version_number": "3.0.3",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "bfec48917c756d19ebb15340281e1e86d5a696147e16417ccd207203d68107f8d4397200a7b8de01c6b7ab3b867c4e4817c9b4d8e99c9601bec5f46d76974715",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/2wl9JLCF/vanilla_disable-mc1.20.1-3.0.3.jar",
+          "filename": "vanilla_disable-mc1.20.1-3.0.3.jar",
+          "primary": true,
+          "size": 3591031
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "46Nf7Kyd",
+      "name": "3.0.0 for 1.20.1",
+      "version_number": "3.0.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "e25c51b00cff3f16471bc2db849c2812a0bf6407e73c033e3ab8038d689ad79b337ec795f88c6b8053d3e2809357ea8360ebca7e0ff3c627311e923933b04546",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/46Nf7Kyd/vanilla_disable-mc1.20.1-3.0.0.jar",
+          "filename": "vanilla_disable-mc1.20.1-3.0.0.jar",
+          "primary": true,
+          "size": 3586950
         }
       ],
       "dependencies": []
     },
     {
-      "id": "n1S2ISNr",
-      "name": "3.4.0 for 1.21 - Neoforge",
-      "version_number": "3.4.0",
+      "id": "6HxkEdzy",
+      "name": "1.0.0",
+      "version_number": "1.0.0",
       "game_versions": [
-        "1.21"
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0dca6330dc81b0fcb39a523cf067657559bef00c76040e0dfbe0276ed4669352ed47c21817bfb0a3a0a7637770833c48612c923abacf75253318f61bcdda82ae",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.0.0/vanilla_disable-1.0.0.jar",
+          "filename": "vanilla_disable-1.0.0.jar",
+          "primary": false,
+          "size": 84066
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "6bkBIGj0",
+      "name": "3.1.0 for 1.20.4",
+      "version_number": "3.1.0",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d918fecc2c8368bd02ca059835cf321028e511bac4ba42093abf98fb968aec2af390a3dc229e28bacef23b8ee78edd30562c2ca7f71861bf09273e9b99ad65d2",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/6bkBIGj0/vanilla_disable-mc1.20.4-3.1.0.jar",
+          "filename": "vanilla_disable-mc1.20.4-3.1.0.jar",
+          "primary": true,
+          "size": 2994372
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "6vQWO3Ek",
+      "name": "3.0.1 for 1.20.1",
+      "version_number": "3.0.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2aba02ccc36651ad94aeb0352174e8fad3f708f25b13e71efb05fd556c6d7c8c752ea62917850b1b44a6a2d34374f6f0c6033e08ff56062df14d7cc010d7086e",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/6vQWO3Ek/vanilla_disable-mc1.20.1-3.0.1.jar",
+          "filename": "vanilla_disable-mc1.20.1-3.0.1.jar",
+          "primary": true,
+          "size": 3586988
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": "m23n3uIM",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "8EeoseVv",
+      "name": "1.7.0",
+      "version_number": "v1.7.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "bfea6a5125a281a0cd80aec1bb427b33fd16012ca1f0f84ade7b4bcbb230410d987180fdbcfae344936fc4103da4fb770091b709840bb705620e3b6d227c81a5",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/v1.7.0/vanilla_disable-mc1.18.2-1.7.0.jar",
+          "filename": "vanilla_disable-mc1.18.2-1.7.0.jar",
+          "primary": true,
+          "size": 175904
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "8I5GlkLo",
+      "name": "2.1.0-1.19",
+      "version_number": "v2.1.0-1.19",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3739c99859fe1cc1b7680a7dbc8d4cee1ded86d4acd5929df95e3bef10b95175714bb77aa40dc894b012352e30b96929bae3d66cd33e02c359d90fc4b88c11a6",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/2.1.0/vanilla_disable-mc1.19-2.1.0-quilt.jar",
+          "filename": "vanilla_disable-mc1.19-2.1.0-quilt.jar",
+          "primary": true,
+          "size": 282311
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "8mBSZfWO",
+      "name": "1.0.2",
+      "version_number": "1.0.2",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f2f6853a12f9bd443b348384ae62722f3f3952edeb36b9a213007093eb655cc789e80c4ded0e7914e04731644670ca74d687b9199803a13c4ad264af3912cc57",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.0.2/vanilla_disable-1.0.2.jar",
+          "filename": "vanilla_disable-1.0.2.jar",
+          "primary": false,
+          "size": 82782
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "9pw2NIFF",
+      "name": "1.1.0",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1c001b4a65ff6c11aa40d401ff0ad42ee1342b11b7e7f9637c317d6acf0a1ec6166606f757be490d041f79d965a28305224a7f0c88df21fd76eab2490195de09",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.1.0/vanilla_disable-1.1.0.jar",
+          "filename": "vanilla_disable-1.1.0.jar",
+          "primary": true,
+          "size": 116127
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "AJbopOe8",
+      "name": "1.6.0",
+      "version_number": "v1.6.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "ac1db631ea264b6c9192feb29ad663b1000c12f6b23cfe9fab25dbe425b95eb752af5660a6e879cfd2b23f72dff1725f2012730e32a5bce502d6f68cc34823bc",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/v1.6.0/vanilla_disable-mc1.18.2-1.6.0.jar",
+          "filename": "vanilla_disable-mc1.18.2-1.6.0.jar",
+          "primary": true,
+          "size": 162169
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "C4mo60qS",
+      "name": "3.3.1 for 1.20.4 - Neoforge",
+      "version_number": "3.3.1",
+      "game_versions": [
+        "1.20.4"
       ],
       "loaders": [
         "neoforge"
       ],
       "files": [
         {
-          "sha512": "5a40762ffcacf5f6366c7ccfbc99e6f836a6ad701b0119d31763c7a6723cc352d52048a0be868939204eda36cbb120233e45672570188cc60b0dff9e0c30a1d7",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/n1S2ISNr/vanilla_disable-neoforge-mc1.21-3.4.0-all.jar",
-          "filename": "vanilla_disable-neoforge-mc1.21-3.4.0-all.jar",
+          "sha512": "ba20e9a484a14b393d61e200ce34373d8ff45c5e2654f6c6775caff13ce46f73f1ccad77e1e9f2d99a15e6c9318fd702e6320bd898046667f256c3a5ed6665bd",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/C4mo60qS/vanilla_disable-neoforge-mc1.20.4-3.3.1-all.jar",
+          "filename": "vanilla_disable-neoforge-mc1.20.4-3.3.1-all.jar",
           "primary": true,
-          "size": 2857666
+          "size": 2858165
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "DsM4h2NC",
+      "name": "1.5.0",
+      "version_number": "1.5.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "6f76b0f8ace8dd6f4b60cb28773aca088ab3075afaa82f62d71b9bf84516df501e8f72d3f20ab0c900d42259b87b83d395c338adcaeb01bc0e0ff0856649b998",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.5.0/vanilla_disable-mc1.18.2-1.5.0.jar",
+          "filename": "vanilla_disable-mc1.18.2-1.5.0.jar",
+          "primary": true,
+          "size": 227
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "WXDvMkR5",
+          "version_id": "Fi3C0IO5",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "Rm5XIX2N",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Fgt7Y6gP",
+      "name": "1.2.0",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "45251644894c9bea555e26a664884add2fd2c718e0799486924f741711e98276a2a710f407c40ac4e6f3c2a5daea0b4b54e22d0edc0e74241c5d05b9a81c0c8e",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.2.0/vanilla_disable-mc1.18.1-1.2.0.jar",
+          "filename": "vanilla_disable-mc1.18.1-1.2.0.jar",
+          "primary": true,
+          "size": 125083
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "GOFNC0YP",
+      "name": "1.3.2",
+      "version_number": "1.3.2",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f9b6d5549d4ae888aa4f8afbcf93e06f92508ab4d2da5c6b6be43f12c11a50a60b5ea7f7530f99b956fe9c5e0e2847c2cbab0a90b3dc01e024a42d7a6eeefdef",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.3.2/vanilla_disable-mc1.18.1-1.3.2.jar",
+          "filename": "vanilla_disable-mc1.18.1-1.3.2.jar",
+          "primary": true,
+          "size": 141032
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Gb6x4atV",
+      "name": "3.3.2 for 1.20.5 - Neoforge",
+      "version_number": "3.3.2",
+      "game_versions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "0d6bf7f5410fdb02ac8962f1c3196f0159eec96cd9bf9c3f3c32c485754f23804143d73cf339984552574cf856999879986da6a94a9fead2ae0c980cab5ed78e",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/Gb6x4atV/vanilla_disable-neoforge-mc1.20.5-3.3.2-all.jar",
+          "filename": "vanilla_disable-neoforge-mc1.20.5-3.3.2-all.jar",
+          "primary": true,
+          "size": 2854961
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "GmV1QyKo",
+      "name": "1.3.0",
+      "version_number": "1.3.0",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d1b7bd946b999ec4d70f0b43bd3f351dbaf6b340db3ff9d61898cb93d53db646ff8cf822b509040a8ddb926a225b18137ff0c1fa84de75c0c29872bcdfb395a8",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.3.0/vanilla_disable-mc1.18.1-1.3.0.jar",
+          "filename": "vanilla_disable-mc1.18.1-1.3.0.jar",
+          "primary": true,
+          "size": 140297
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "KtQKvsdu",
+      "name": "1.3.1",
+      "version_number": "1.3.1",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "b0d47ab5a706abfb81bd0cade9b0f35f4a00d02f554a0364bf4728c970efc6915394bb0929944f46dc6f293028626c3f9465410ee3f1c4a863afd056b50e7601",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.3.1/vanilla_disable-mc1.18.1-1.3.1.jar",
+          "filename": "vanilla_disable-mc1.18.1-1.3.1.jar",
+          "primary": true,
+          "size": 140331
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "L2OBfPeD",
+      "name": "3.0.4 for 1.20.1",
+      "version_number": "3.0.4",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "1484ec2feb82fb5035f3f50316fccfd32bc4f300652263d5c5bf2bf6f60a5cd08eb8dbe7b614891c5ccd3051c6c748ee9b6bf7689fbdec280b9d51a54b0afb27",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/L2OBfPeD/vanilla_disable-mc1.20.1-3.0.4.jar",
+          "filename": "vanilla_disable-mc1.20.1-3.0.4.jar",
+          "primary": true,
+          "size": 3651990
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": "m23n3uIM",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "zv46i3PW",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
     },
     {
       "id": "LcHisVyD",
@@ -98,34 +580,75 @@
       ]
     },
     {
-      "id": "yPX19Atq",
-      "name": "3.3.4 for 1.20.6 - Neoforge",
-      "version_number": "3.3.4",
+      "id": "N2K8SB37",
+      "name": "2.1.0-1.19.1",
+      "version_number": "v2.1.0-1.19.1",
       "game_versions": [
-        "1.20.5",
-        "1.20.6"
+        "1.19.1"
       ],
       "loaders": [
-        "neoforge"
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "57c41d0df8efbc6dc14dfb0c460ec81f3e8cd0d56bd62160bcf78f6a0a9c79c9e24f4c5327e56fcf03cfb22f2fff555437838effe8493b8981724fd7ec2cea8e",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/yPX19Atq/vanilla_disable-neoforge-mc1.20.6-3.3.4-all.jar",
-          "filename": "vanilla_disable-neoforge-mc1.20.6-3.3.4-all.jar",
+          "sha512": "8e7d16c374bf289feee32db64e9b1b231111223b9743246a01d3e5dab5f6d6b85eaa70d125da0af6f35916e22f37394bad002322e13e0ba83ac9b37ee039e78e",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/v2.1.0-1.19.1/vanilla_disable-mc1.19.1-2.1.0-quilt.jar",
+          "filename": "vanilla_disable-mc1.19.1-2.1.0-quilt.jar",
           "primary": true,
-          "size": 2854200
+          "size": 282444
         }
       ],
       "dependencies": []
     },
     {
-      "id": "1eNyrRys",
-      "name": "3.3.4 for 1.20.6 - Fabric/Quilt",
-      "version_number": "3.3.4",
+      "id": "NNFXP5Em",
+      "name": "2.0.0",
+      "version_number": "v2.0.0",
       "game_versions": [
-        "1.20.5",
-        "1.20.6"
+        "1.19"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "e1f5e52c8e3e506c6916e82e7cf5497aa33fb727a7da720fdcd5a1398dc63ab9d6017a876ba4a54767517bddeaaf2e82c8d4f4dfbedbfa1dd1f62cbd1580b8ae",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/v2.0.0/vanilla_disable-mc1.19-2.0.0-quilt.jar",
+          "filename": "vanilla_disable-mc1.19-2.0.0-quilt.jar",
+          "primary": true,
+          "size": 215796
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "O9PduD1t",
+      "name": "2.2.1 for 1.19.2",
+      "version_number": "2.2.1",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "62dd5e486604882dd90b59b612613368075f71621d2cdf2372169fbdadf5d6f3272e803940c8c07b190ebb97ee6eefef7e0dbee5dc0d6062a68a84c9ab45f78e",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/O9PduD1t/vanilla_disable-mc1.19.2-2.2.1-quilt.jar",
+          "filename": "vanilla_disable-mc1.19.2-2.2.1-quilt.jar",
+          "primary": true,
+          "size": 289926
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "PeOncHwm",
+      "name": "3.3.1 for 1.20.4 - Fabric/Quilt",
+      "version_number": "3.3.1",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
         "fabric",
@@ -133,11 +656,11 @@
       ],
       "files": [
         {
-          "sha512": "205c46013b0209e30fdab47373e72960e685cb943b692b087e19a57a0548ba2bd1a49a20a6bd4001554926665a9ef48a854c26982caaa8950fddb56455ca075d",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1eNyrRys/vanilla_disable-fabric-mc1.20.6-3.3.4.jar",
-          "filename": "vanilla_disable-fabric-mc1.20.6-3.3.4.jar",
+          "sha512": "df3696099d5bb30e0c04fc2815c17804e049b251f093d641e4bf37b704c1913c80391e404e4c0590ad48adf6c0d346dfa2ffea3e3b484d6ffa24c897c888f615",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/PeOncHwm/vanilla_disable-fabric-mc1.20.4-3.3.1.jar",
+          "filename": "vanilla_disable-fabric-mc1.20.4-3.3.1.jar",
           "primary": true,
-          "size": 2875878
+          "size": 2870763
         }
       ],
       "dependencies": [
@@ -148,6 +671,133 @@
           "dependency_type": "optional"
         }
       ]
+    },
+    {
+      "id": "QvyNGoXR",
+      "name": "1.5.1",
+      "version_number": "1.5.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5ad86b92014001373519a7a9a7a0651731caa81af51789a11c292d1552fed9d7735c992d39948d99475b3c8f6ead1b00dae99b81c4ffb7fc67a8bdec32e22bd7",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.5.1/vanilla_disable-mc1.18.2-1.5.1.jar",
+          "filename": "vanilla_disable-mc1.18.2-1.5.1.jar",
+          "primary": true,
+          "size": 158613
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "WXDvMkR5",
+          "version_id": "Fi3C0IO5",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "ujdG5zAV",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "TEPW2dD2",
+      "name": "3.0.5 for 1.20.1",
+      "version_number": "3.0.5",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "961274acc3d2380d61a8a01dfc644228154b2b194b97e09602acf0dbd1176e2d02a5133de5e5287808c27413e987e7e8d2eac6745b62de137ccecbfb7b835284",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/TEPW2dD2/vanilla_disable-mc1.20.1-3.0.5.jar",
+          "filename": "vanilla_disable-mc1.20.1-3.0.5.jar",
+          "primary": true,
+          "size": 3783695
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": "m23n3uIM",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "Tf3JXwCW",
+      "name": "1.4.0",
+      "version_number": "1.4.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3469fa62d8779e6c4e8ec489ce3160b4eb0dc97f1a1e5bc59661e367dfdea48a22d717218d1a3b9edffb584d059a5542a992b8f1ccdffd6c2c53b0eef319421f",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.4.0/vanilla_disable-mc1.18.2-1.4.0.jar",
+          "filename": "vanilla_disable-mc1.18.2-1.4.0.jar",
+          "primary": true,
+          "size": 142440
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "WXDvMkR5",
+          "version_id": "Fi3C0IO5",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "ujdG5zAV",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "U5Om3S4A",
+      "name": "3.2.0 for 1.20.4 - Neoforge",
+      "version_number": "3.2.0",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "10891423a20035d548cc6985310c58bef255b54b6add4200792d784156d65063760fe1201c3e81a2c375bdfd2037e86d521d2203b14301ff410f4b98d4b1a6db",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/U5Om3S4A/VanillaDisable-neoforge-1.20.4-all.jar",
+          "filename": "VanillaDisable-neoforge-1.20.4-all.jar",
+          "primary": true,
+          "size": 3109787
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "XG6U49Dm",
@@ -202,22 +852,88 @@
       ]
     },
     {
-      "id": "Gb6x4atV",
-      "name": "3.3.2 for 1.20.5 - Neoforge",
-      "version_number": "3.3.2",
+      "id": "XVCL9iIi",
+      "name": "2.4.0 for 1.19.4",
+      "version_number": "2.4.0",
       "game_versions": [
-        "1.20.5"
+        "1.19.4"
       ],
       "loaders": [
-        "neoforge"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "0d6bf7f5410fdb02ac8962f1c3196f0159eec96cd9bf9c3f3c32c485754f23804143d73cf339984552574cf856999879986da6a94a9fead2ae0c980cab5ed78e",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/Gb6x4atV/vanilla_disable-neoforge-mc1.20.5-3.3.2-all.jar",
-          "filename": "vanilla_disable-neoforge-mc1.20.5-3.3.2-all.jar",
+          "sha512": "3e7d2fdb2e0d1f6552a209bf53859f120859099e8d0bbcb0ef0a3409dddf86a9ae77494143446d0fd79305374731117e66f438da058fc9cc2440f2f8dd754fdb",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/XVCL9iIi/vanilla_disable-mc1.19.4-2.4.0.jar",
+          "filename": "vanilla_disable-mc1.19.4-2.4.0.jar",
           "primary": true,
-          "size": 2854961
+          "size": 361317
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "YQgIbodn",
+      "name": "2.3.0",
+      "version_number": "v2.3.0",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "55b724fa2f9681b876480489d7273660f4cfaacef49e8705659a179d5234bf2a3dd6d66b9f67deee0521cff26a384831767e9091e57b3e5272f45edae3f7939a",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/YQgIbodn/vanilla_disable-mc1.19.3-2.3.0.jar",
+          "filename": "vanilla_disable-mc1.19.3-2.3.0.jar",
+          "primary": true,
+          "size": 307826
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ZMjAGxn3",
+      "name": "1.0.4",
+      "version_number": "1.0.4",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "cbe72d267b8f467fcfe7964c81fc59452f0b12235d8376fa856cbdcb302bf05d2ebbcc9c6a81533a209e87f5f89959a6c060562b8b92ccb6f5e59194870d9191",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.0.4/vanilla_disable-1.0.4.jar",
+          "filename": "vanilla_disable-1.0.4.jar",
+          "primary": true,
+          "size": 83054
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "bHUb6I2J",
+      "name": "4.0.0 for 1.21 - Fabric/Quilt",
+      "version_number": "4.0.0",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "591e4f9e8848f70064c2075d8ebe42393c3dc8ad271213dd77bbbd15cbc75bc4c8ed3d792e4d441aeb5be9459f2e35908a8df02e36efa8fdb2c9bae51a0d2b73",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/bHUb6I2J/vanilla_disable-fabric-mc1.21-4.0.0.jar",
+          "filename": "vanilla_disable-fabric-mc1.21-4.0.0.jar",
+          "primary": true,
+          "size": 2886454
         }
       ],
       "dependencies": []
@@ -245,33 +961,11 @@
       "dependencies": []
     },
     {
-      "id": "C4mo60qS",
-      "name": "3.3.1 for 1.20.4 - Neoforge",
-      "version_number": "3.3.1",
+      "id": "dz3SEMPn",
+      "name": "3.0.6 for 1.20.2",
+      "version_number": "3.0.6",
       "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "ba20e9a484a14b393d61e200ce34373d8ff45c5e2654f6c6775caff13ce46f73f1ccad77e1e9f2d99a15e6c9318fd702e6320bd898046667f256c3a5ed6665bd",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/C4mo60qS/vanilla_disable-neoforge-mc1.20.4-3.3.1-all.jar",
-          "filename": "vanilla_disable-neoforge-mc1.20.4-3.3.1-all.jar",
-          "primary": true,
-          "size": 2858165
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "PeOncHwm",
-      "name": "3.3.1 for 1.20.4 - Fabric/Quilt",
-      "version_number": "3.3.1",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
+        "1.20.2"
       ],
       "loaders": [
         "fabric",
@@ -279,14 +973,20 @@
       ],
       "files": [
         {
-          "sha512": "df3696099d5bb30e0c04fc2815c17804e049b251f093d641e4bf37b704c1913c80391e404e4c0590ad48adf6c0d346dfa2ffea3e3b484d6ffa24c897c888f615",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/PeOncHwm/vanilla_disable-fabric-mc1.20.4-3.3.1.jar",
-          "filename": "vanilla_disable-fabric-mc1.20.4-3.3.1.jar",
+          "sha512": "cc4fe72aec8e1d161163cbed830c181c979489f1216f957726d00abdc30e3b85452b583db9168dee1b1ea4a9d9cd91a13d0db64618c7b560acc408f46ac42eda",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/dz3SEMPn/vanilla_disable-mc1.20.2-3.0.6.jar",
+          "filename": "vanilla_disable-mc1.20.2-3.0.6.jar",
           "primary": true,
-          "size": 2870763
+          "size": 3840396
         }
       ],
       "dependencies": [
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
         {
           "project_id": "mOgUt4GM",
           "version_id": null,
@@ -296,76 +996,32 @@
       ]
     },
     {
-      "id": "xFu6dc5t",
-      "name": "3.3.0 for 1.20.4 - Neoforge",
-      "version_number": "3.3.0",
+      "id": "fSMdKHnD",
+      "name": "1.8.0 for 1.18.2",
+      "version_number": "v1.8.0",
       "game_versions": [
-        "1.20.4"
+        "1.18.2"
       ],
       "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "d92d5a1c8df7dad2b46eb1a3f31e584ad85ca59573c4c3709b0d8362dfe77ade8a4bbf323489ac56ed4c6c72c5087e3a9fa578ff5f54782692fa6fa1caf6b066",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/xFu6dc5t/vanilla_disable-neoforge-mc1.20.4-3.3.0-all.jar",
-          "filename": "vanilla_disable-neoforge-mc1.20.4-3.3.0-all.jar",
-          "primary": true,
-          "size": 2855998
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "1AtfsWwd",
-      "name": "3.3.0 for 1.20.4 - Fabric/Quilt",
-      "version_number": "3.3.0",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "49dd2079999cbc900b98d2531139fddeea194d04c68f1d6c9123c066b1e926200b208ce80fb85b3cb444cafb8aaa78f6e79c630d101936ca3898d6a5ea929007",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1AtfsWwd/vanilla_disable-fabric-mc1.20.4-3.3.0.jar",
-          "filename": "vanilla_disable-fabric-mc1.20.4-3.3.0.jar",
+          "sha512": "b8953cfd11c2de2ad062c2226e4163344576c02728dc74cf7de6d4cca18f3b0a7e2e846681d69fa654593045ec6819c76680a78c5cf4b01962dbd0cba49163d2",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/v1.8.0/vanilla_disable-mc1.18.2-1.8.0-quilt.jar",
+          "filename": "vanilla_disable-mc1.18.2-1.8.0-quilt.jar",
           "primary": true,
-          "size": 2884469
+          "size": 179264
         }
       ],
       "dependencies": [
         {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
+          "project_id": "qvIfYCYJ",
+          "version_id": "pwp94ACs",
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
-    },
-    {
-      "id": "U5Om3S4A",
-      "name": "3.2.0 for 1.20.4 - Neoforge",
-      "version_number": "3.2.0",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "10891423a20035d548cc6985310c58bef255b54b6add4200792d784156d65063760fe1201c3e81a2c375bdfd2037e86d521d2203b14301ff410f4b98d4b1a6db",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/U5Om3S4A/VanillaDisable-neoforge-1.20.4-all.jar",
-          "filename": "VanillaDisable-neoforge-1.20.4-all.jar",
-          "primary": true,
-          "size": 3109787
-        }
-      ],
-      "dependencies": []
     },
     {
       "id": "fUafMKsE",
@@ -398,12 +1054,11 @@
       ]
     },
     {
-      "id": "6bkBIGj0",
-      "name": "3.1.0 for 1.20.4",
-      "version_number": "3.1.0",
+      "id": "fczwsA7x",
+      "name": "2.4.1 for 1.20",
+      "version_number": "2.4.1",
       "game_versions": [
-        "1.20.3",
-        "1.20.4"
+        "1.20"
       ],
       "loaders": [
         "fabric",
@@ -411,21 +1066,206 @@
       ],
       "files": [
         {
-          "sha512": "d918fecc2c8368bd02ca059835cf321028e511bac4ba42093abf98fb968aec2af390a3dc229e28bacef23b8ee78edd30562c2ca7f71861bf09273e9b99ad65d2",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/6bkBIGj0/vanilla_disable-mc1.20.4-3.1.0.jar",
-          "filename": "vanilla_disable-mc1.20.4-3.1.0.jar",
+          "sha512": "5b625a8ef508b7f09829817f454e4854436e83c73e9311effffefa86bc484b3af6901af761a227178c76a7dd5e39150e455620e03fbb96286c03ca131e0e4879",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/fczwsA7x/vanilla_disable-mc1.20-2.4.1.jar",
+          "filename": "vanilla_disable-mc1.20-2.4.1.jar",
           "primary": true,
-          "size": 2994372
+          "size": 362222
         }
       ],
       "dependencies": [
         {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "version_id": "n2c5lxAo",
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
+    },
+    {
+      "id": "fuu0IoQO",
+      "name": "1.0.3",
+      "version_number": "1.0.3",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "01c88daaa36720892b1ec9a1e8a0a3393d5920bcd5deedb02a69660289f71d906bb0ad1db63a6114a00406ea98775bf5890cacaf1bdf43e54446c232ef93b787",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.0.3/vanilla_disable-1.0.3.jar",
+          "filename": "vanilla_disable-1.0.3.jar",
+          "primary": true,
+          "size": 84159
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "g7MdGTEW",
+      "name": "2.4.0 for 1.20",
+      "version_number": "2.4.0",
+      "game_versions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5063971ba6a1630cff855328cb932fe3112d3b99f35ecb0552763d34516ed0501a6113f31a358322bfe58b55680acf852b6e6cbb0e1765280aec74243dcf46e5",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/g7MdGTEW/vanilla_disable-mc1.20-2.4.0.jar",
+          "filename": "vanilla_disable-mc1.20-2.4.0.jar",
+          "primary": true,
+          "size": 362175
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "n2c5lxAo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "gaCRXNSf",
+      "name": "4.0.0 for 1.21 - Neoforge",
+      "version_number": "4.0.0",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "b181b59218448cfe105af1a7048313ecf103cab7c89e6fa9ce568fac507a4a07df84393524d84dee50856080a87b0caa3d6b622f9eb31d82df8e9a1edf9f98c4",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/gaCRXNSf/vanilla_disable-neoforge-mc1.21-4.0.0-all.jar",
+          "filename": "vanilla_disable-neoforge-mc1.21-4.0.0-all.jar",
+          "primary": true,
+          "size": 2864307
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ivOFjKKS",
+      "name": "2.3.1 for 1.19.3",
+      "version_number": "2.3.1",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "78ece18e93fb0e53d84168af5ba9e202c995be56fa242dfe6348b7edc13b1afb2096d89b788b396c22ddc95709c2ba17d75905f7b005f68aff1b932fb0e30357",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/ivOFjKKS/vanilla_disable-mc1.19.3-2.3.1.jar",
+          "filename": "vanilla_disable-mc1.19.3-2.3.1.jar",
+          "primary": true,
+          "size": 358917
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "n1S2ISNr",
+      "name": "3.4.0 for 1.21 - Neoforge",
+      "version_number": "3.4.0",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "5a40762ffcacf5f6366c7ccfbc99e6f836a6ad701b0119d31763c7a6723cc352d52048a0be868939204eda36cbb120233e45672570188cc60b0dff9e0c30a1d7",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/n1S2ISNr/vanilla_disable-neoforge-mc1.21-3.4.0-all.jar",
+          "filename": "vanilla_disable-neoforge-mc1.21-3.4.0-all.jar",
+          "primary": true,
+          "size": 2857666
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rzAjV67o",
+      "name": "1.0.1",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "844ba7b67a5d4b833c70a541f2db9cbb2a82fe1c49b05f7e6a88b197aae4625ca8d652974c4dfe5b658c307800904cfeae30cf9804c37e32950ff1efcba5ee0e",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.0.1/vanilla_disable-1.0.1.jar",
+          "filename": "vanilla_disable-1.0.1.jar",
+          "primary": false,
+          "size": 82767
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "tnRZmS8b",
+      "name": "2.4.1 for 1.19.4",
+      "version_number": "2.4.1",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "b463a8692d6f2a4206b80e99576c0617fe0cf52dec918fdf0f8cffc1046879cadbf49b9975c7ec1dbdce0cf00a5b68161918bbd1b9f835e3e23600ff202391ea",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/tnRZmS8b/vanilla_disable-mc1.19.4-2.4.1.jar",
+          "filename": "vanilla_disable-mc1.19.4-2.4.1.jar",
+          "primary": true,
+          "size": 361363
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "MYvpypD6",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "xFu6dc5t",
+      "name": "3.3.0 for 1.20.4 - Neoforge",
+      "version_number": "3.3.0",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "d92d5a1c8df7dad2b46eb1a3f31e584ad85ca59573c4c3709b0d8362dfe77ade8a4bbf323489ac56ed4c6c72c5087e3a9fa578ff5f54782692fa6fa1caf6b066",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/xFu6dc5t/vanilla_disable-neoforge-mc1.20.4-3.3.0-all.jar",
+          "filename": "vanilla_disable-neoforge-mc1.20.4-3.3.0-all.jar",
+          "primary": true,
+          "size": 2855998
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "xJzNInMG",
@@ -464,418 +1304,6 @@
       ]
     },
     {
-      "id": "dz3SEMPn",
-      "name": "3.0.6 for 1.20.2",
-      "version_number": "3.0.6",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "cc4fe72aec8e1d161163cbed830c181c979489f1216f957726d00abdc30e3b85452b583db9168dee1b1ea4a9d9cd91a13d0db64618c7b560acc408f46ac42eda",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/dz3SEMPn/vanilla_disable-mc1.20.2-3.0.6.jar",
-          "filename": "vanilla_disable-mc1.20.2-3.0.6.jar",
-          "primary": true,
-          "size": 3840396
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "TEPW2dD2",
-      "name": "3.0.5 for 1.20.1",
-      "version_number": "3.0.5",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "961274acc3d2380d61a8a01dfc644228154b2b194b97e09602acf0dbd1176e2d02a5133de5e5287808c27413e987e7e8d2eac6745b62de137ccecbfb7b835284",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/TEPW2dD2/vanilla_disable-mc1.20.1-3.0.5.jar",
-          "filename": "vanilla_disable-mc1.20.1-3.0.5.jar",
-          "primary": true,
-          "size": 3783695
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": "m23n3uIM",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "eTCL1uh8",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "L2OBfPeD",
-      "name": "3.0.4 for 1.20.1",
-      "version_number": "3.0.4",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "1484ec2feb82fb5035f3f50316fccfd32bc4f300652263d5c5bf2bf6f60a5cd08eb8dbe7b614891c5ccd3051c6c748ee9b6bf7689fbdec280b9d51a54b0afb27",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/L2OBfPeD/vanilla_disable-mc1.20.1-3.0.4.jar",
-          "filename": "vanilla_disable-mc1.20.1-3.0.4.jar",
-          "primary": true,
-          "size": 3651990
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "zv46i3PW",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": "m23n3uIM",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "2wl9JLCF",
-      "name": "3.0.3 for 1.20.1",
-      "version_number": "3.0.3",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "bfec48917c756d19ebb15340281e1e86d5a696147e16417ccd207203d68107f8d4397200a7b8de01c6b7ab3b867c4e4817c9b4d8e99c9601bec5f46d76974715",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/2wl9JLCF/vanilla_disable-mc1.20.1-3.0.3.jar",
-          "filename": "vanilla_disable-mc1.20.1-3.0.3.jar",
-          "primary": true,
-          "size": 3591031
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "eTCL1uh8",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "2Imxq85W",
-      "name": "3.0.2 for 1.20.1",
-      "version_number": "3.0.2",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ecee126dddad5b4bad163a87e1636487af0893fbcf0982b7a73e70a6b506b9e7b23bff37f3851b4df2e0dcfb5e8ea463d86b6841b52f632fc90ad360ffc0fcdd",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/2Imxq85W/vanilla_disable-mc1.20.1-3.0.2.jar",
-          "filename": "vanilla_disable-mc1.20.1-3.0.2.jar",
-          "primary": true,
-          "size": 3587099
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "zv46i3PW",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": "m23n3uIM",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "6vQWO3Ek",
-      "name": "3.0.1 for 1.20.1",
-      "version_number": "3.0.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2aba02ccc36651ad94aeb0352174e8fad3f708f25b13e71efb05fd556c6d7c8c752ea62917850b1b44a6a2d34374f6f0c6033e08ff56062df14d7cc010d7086e",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/6vQWO3Ek/vanilla_disable-mc1.20.1-3.0.1.jar",
-          "filename": "vanilla_disable-mc1.20.1-3.0.1.jar",
-          "primary": true,
-          "size": 3586988
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": "m23n3uIM",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "eTCL1uh8",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "46Nf7Kyd",
-      "name": "3.0.0 for 1.20.1",
-      "version_number": "3.0.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "e25c51b00cff3f16471bc2db849c2812a0bf6407e73c033e3ab8038d689ad79b337ec795f88c6b8053d3e2809357ea8360ebca7e0ff3c627311e923933b04546",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/46Nf7Kyd/vanilla_disable-mc1.20.1-3.0.0.jar",
-          "filename": "vanilla_disable-mc1.20.1-3.0.0.jar",
-          "primary": true,
-          "size": 3586950
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "fczwsA7x",
-      "name": "2.4.1 for 1.20",
-      "version_number": "2.4.1",
-      "game_versions": [
-        "1.20"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "5b625a8ef508b7f09829817f454e4854436e83c73e9311effffefa86bc484b3af6901af761a227178c76a7dd5e39150e455620e03fbb96286c03ca131e0e4879",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/fczwsA7x/vanilla_disable-mc1.20-2.4.1.jar",
-          "filename": "vanilla_disable-mc1.20-2.4.1.jar",
-          "primary": true,
-          "size": 362222
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "n2c5lxAo",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "tnRZmS8b",
-      "name": "2.4.1 for 1.19.4",
-      "version_number": "2.4.1",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "b463a8692d6f2a4206b80e99576c0617fe0cf52dec918fdf0f8cffc1046879cadbf49b9975c7ec1dbdce0cf00a5b68161918bbd1b9f835e3e23600ff202391ea",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/tnRZmS8b/vanilla_disable-mc1.19.4-2.4.1.jar",
-          "filename": "vanilla_disable-mc1.19.4-2.4.1.jar",
-          "primary": true,
-          "size": 361363
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "MYvpypD6",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "g7MdGTEW",
-      "name": "2.4.0 for 1.20",
-      "version_number": "2.4.0",
-      "game_versions": [
-        "1.20"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "5063971ba6a1630cff855328cb932fe3112d3b99f35ecb0552763d34516ed0501a6113f31a358322bfe58b55680acf852b6e6cbb0e1765280aec74243dcf46e5",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/g7MdGTEW/vanilla_disable-mc1.20-2.4.0.jar",
-          "filename": "vanilla_disable-mc1.20-2.4.0.jar",
-          "primary": true,
-          "size": 362175
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "n2c5lxAo",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "XVCL9iIi",
-      "name": "2.4.0 for 1.19.4",
-      "version_number": "2.4.0",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3e7d2fdb2e0d1f6552a209bf53859f120859099e8d0bbcb0ef0a3409dddf86a9ae77494143446d0fd79305374731117e66f438da058fc9cc2440f2f8dd754fdb",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/XVCL9iIi/vanilla_disable-mc1.19.4-2.4.0.jar",
-          "filename": "vanilla_disable-mc1.19.4-2.4.0.jar",
-          "primary": true,
-          "size": 361317
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ivOFjKKS",
-      "name": "2.3.1 for 1.19.3",
-      "version_number": "2.3.1",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "78ece18e93fb0e53d84168af5ba9e202c995be56fa242dfe6348b7edc13b1afb2096d89b788b396c22ddc95709c2ba17d75905f7b005f68aff1b932fb0e30357",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/ivOFjKKS/vanilla_disable-mc1.19.3-2.3.1.jar",
-          "filename": "vanilla_disable-mc1.19.3-2.3.1.jar",
-          "primary": true,
-          "size": 358917
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "O9PduD1t",
-      "name": "2.2.1 for 1.19.2",
-      "version_number": "2.2.1",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "62dd5e486604882dd90b59b612613368075f71621d2cdf2372169fbdadf5d6f3272e803940c8c07b190ebb97ee6eefef7e0dbee5dc0d6062a68a84c9ab45f78e",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/O9PduD1t/vanilla_disable-mc1.19.2-2.2.1-quilt.jar",
-          "filename": "vanilla_disable-mc1.19.2-2.2.1-quilt.jar",
-          "primary": true,
-          "size": 289926
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "YQgIbodn",
-      "name": "2.3.0",
-      "version_number": "v2.3.0",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "55b724fa2f9681b876480489d7273660f4cfaacef49e8705659a179d5234bf2a3dd6d66b9f67deee0521cff26a384831767e9091e57b3e5272f45edae3f7939a",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/YQgIbodn/vanilla_disable-mc1.19.3-2.3.0.jar",
-          "filename": "vanilla_disable-mc1.19.3-2.3.0.jar",
-          "primary": true,
-          "size": 307826
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "yAhLZCaA",
       "name": "2.2.0",
       "version_number": "v2.2.0",
@@ -897,43 +1325,23 @@
       "dependencies": []
     },
     {
-      "id": "N2K8SB37",
-      "name": "2.1.0-1.19.1",
-      "version_number": "v2.1.0-1.19.1",
+      "id": "yPX19Atq",
+      "name": "3.3.4 for 1.20.6 - Neoforge",
+      "version_number": "3.3.4",
       "game_versions": [
-        "1.19.1"
+        "1.20.5",
+        "1.20.6"
       ],
       "loaders": [
-        "quilt"
+        "neoforge"
       ],
       "files": [
         {
-          "sha512": "8e7d16c374bf289feee32db64e9b1b231111223b9743246a01d3e5dab5f6d6b85eaa70d125da0af6f35916e22f37394bad002322e13e0ba83ac9b37ee039e78e",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/v2.1.0-1.19.1/vanilla_disable-mc1.19.1-2.1.0-quilt.jar",
-          "filename": "vanilla_disable-mc1.19.1-2.1.0-quilt.jar",
+          "sha512": "57c41d0df8efbc6dc14dfb0c460ec81f3e8cd0d56bd62160bcf78f6a0a9c79c9e24f4c5327e56fcf03cfb22f2fff555437838effe8493b8981724fd7ec2cea8e",
+          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/yPX19Atq/vanilla_disable-neoforge-mc1.20.6-3.3.4-all.jar",
+          "filename": "vanilla_disable-neoforge-mc1.20.6-3.3.4-all.jar",
           "primary": true,
-          "size": 282444
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "8I5GlkLo",
-      "name": "2.1.0-1.19",
-      "version_number": "v2.1.0-1.19",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3739c99859fe1cc1b7680a7dbc8d4cee1ded86d4acd5929df95e3bef10b95175714bb77aa40dc894b012352e30b96929bae3d66cd33e02c359d90fc4b88c11a6",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/2.1.0/vanilla_disable-mc1.19-2.1.0-quilt.jar",
-          "filename": "vanilla_disable-mc1.19-2.1.0-quilt.jar",
-          "primary": true,
-          "size": 282311
+          "size": 2854200
         }
       ],
       "dependencies": []
@@ -965,414 +1373,6 @@
           "dependency_type": "required"
         }
       ]
-    },
-    {
-      "id": "NNFXP5Em",
-      "name": "2.0.0",
-      "version_number": "v2.0.0",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "e1f5e52c8e3e506c6916e82e7cf5497aa33fb727a7da720fdcd5a1398dc63ab9d6017a876ba4a54767517bddeaaf2e82c8d4f4dfbedbfa1dd1f62cbd1580b8ae",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/v2.0.0/vanilla_disable-mc1.19-2.0.0-quilt.jar",
-          "filename": "vanilla_disable-mc1.19-2.0.0-quilt.jar",
-          "primary": true,
-          "size": 215796
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "fSMdKHnD",
-      "name": "1.8.0 for 1.18.2",
-      "version_number": "v1.8.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "b8953cfd11c2de2ad062c2226e4163344576c02728dc74cf7de6d4cca18f3b0a7e2e846681d69fa654593045ec6819c76680a78c5cf4b01962dbd0cba49163d2",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/v1.8.0/vanilla_disable-mc1.18.2-1.8.0-quilt.jar",
-          "filename": "vanilla_disable-mc1.18.2-1.8.0-quilt.jar",
-          "primary": true,
-          "size": 179264
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "pwp94ACs",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "8EeoseVv",
-      "name": "1.7.0",
-      "version_number": "v1.7.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "bfea6a5125a281a0cd80aec1bb427b33fd16012ca1f0f84ade7b4bcbb230410d987180fdbcfae344936fc4103da4fb770091b709840bb705620e3b6d227c81a5",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/v1.7.0/vanilla_disable-mc1.18.2-1.7.0.jar",
-          "filename": "vanilla_disable-mc1.18.2-1.7.0.jar",
-          "primary": true,
-          "size": 175904
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "AJbopOe8",
-      "name": "1.6.0",
-      "version_number": "v1.6.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ac1db631ea264b6c9192feb29ad663b1000c12f6b23cfe9fab25dbe425b95eb752af5660a6e879cfd2b23f72dff1725f2012730e32a5bce502d6f68cc34823bc",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/v1.6.0/vanilla_disable-mc1.18.2-1.6.0.jar",
-          "filename": "vanilla_disable-mc1.18.2-1.6.0.jar",
-          "primary": true,
-          "size": 162169
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "QvyNGoXR",
-      "name": "1.5.1",
-      "version_number": "1.5.1",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "5ad86b92014001373519a7a9a7a0651731caa81af51789a11c292d1552fed9d7735c992d39948d99475b3c8f6ead1b00dae99b81c4ffb7fc67a8bdec32e22bd7",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.5.1/vanilla_disable-mc1.18.2-1.5.1.jar",
-          "filename": "vanilla_disable-mc1.18.2-1.5.1.jar",
-          "primary": true,
-          "size": 158613
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "ujdG5zAV",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "WXDvMkR5",
-          "version_id": "Fi3C0IO5",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "DsM4h2NC",
-      "name": "1.5.0",
-      "version_number": "1.5.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6f76b0f8ace8dd6f4b60cb28773aca088ab3075afaa82f62d71b9bf84516df501e8f72d3f20ab0c900d42259b87b83d395c338adcaeb01bc0e0ff0856649b998",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.5.0/vanilla_disable-mc1.18.2-1.5.0.jar",
-          "filename": "vanilla_disable-mc1.18.2-1.5.0.jar",
-          "primary": true,
-          "size": 227
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "WXDvMkR5",
-          "version_id": "Fi3C0IO5",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "Rm5XIX2N",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Tf3JXwCW",
-      "name": "1.4.0",
-      "version_number": "1.4.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3469fa62d8779e6c4e8ec489ce3160b4eb0dc97f1a1e5bc59661e367dfdea48a22d717218d1a3b9edffb584d059a5542a992b8f1ccdffd6c2c53b0eef319421f",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.4.0/vanilla_disable-mc1.18.2-1.4.0.jar",
-          "filename": "vanilla_disable-mc1.18.2-1.4.0.jar",
-          "primary": true,
-          "size": 142440
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "ujdG5zAV",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "WXDvMkR5",
-          "version_id": "Fi3C0IO5",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "GOFNC0YP",
-      "name": "1.3.2",
-      "version_number": "1.3.2",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f9b6d5549d4ae888aa4f8afbcf93e06f92508ab4d2da5c6b6be43f12c11a50a60b5ea7f7530f99b956fe9c5e0e2847c2cbab0a90b3dc01e024a42d7a6eeefdef",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.3.2/vanilla_disable-mc1.18.1-1.3.2.jar",
-          "filename": "vanilla_disable-mc1.18.1-1.3.2.jar",
-          "primary": true,
-          "size": 141032
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "KtQKvsdu",
-      "name": "1.3.1",
-      "version_number": "1.3.1",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b0d47ab5a706abfb81bd0cade9b0f35f4a00d02f554a0364bf4728c970efc6915394bb0929944f46dc6f293028626c3f9465410ee3f1c4a863afd056b50e7601",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.3.1/vanilla_disable-mc1.18.1-1.3.1.jar",
-          "filename": "vanilla_disable-mc1.18.1-1.3.1.jar",
-          "primary": true,
-          "size": 140331
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "GmV1QyKo",
-      "name": "1.3.0",
-      "version_number": "1.3.0",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d1b7bd946b999ec4d70f0b43bd3f351dbaf6b340db3ff9d61898cb93d53db646ff8cf822b509040a8ddb926a225b18137ff0c1fa84de75c0c29872bcdfb395a8",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.3.0/vanilla_disable-mc1.18.1-1.3.0.jar",
-          "filename": "vanilla_disable-mc1.18.1-1.3.0.jar",
-          "primary": true,
-          "size": 140297
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Fgt7Y6gP",
-      "name": "1.2.0",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "45251644894c9bea555e26a664884add2fd2c718e0799486924f741711e98276a2a710f407c40ac4e6f3c2a5daea0b4b54e22d0edc0e74241c5d05b9a81c0c8e",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.2.0/vanilla_disable-mc1.18.1-1.2.0.jar",
-          "filename": "vanilla_disable-mc1.18.1-1.2.0.jar",
-          "primary": true,
-          "size": 125083
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "9pw2NIFF",
-      "name": "1.1.0",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "1c001b4a65ff6c11aa40d401ff0ad42ee1342b11b7e7f9637c317d6acf0a1ec6166606f757be490d041f79d965a28305224a7f0c88df21fd76eab2490195de09",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.1.0/vanilla_disable-1.1.0.jar",
-          "filename": "vanilla_disable-1.1.0.jar",
-          "primary": true,
-          "size": 116127
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ZMjAGxn3",
-      "name": "1.0.4",
-      "version_number": "1.0.4",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "cbe72d267b8f467fcfe7964c81fc59452f0b12235d8376fa856cbdcb302bf05d2ebbcc9c6a81533a209e87f5f89959a6c060562b8b92ccb6f5e59194870d9191",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.0.4/vanilla_disable-1.0.4.jar",
-          "filename": "vanilla_disable-1.0.4.jar",
-          "primary": true,
-          "size": 83054
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "fuu0IoQO",
-      "name": "1.0.3",
-      "version_number": "1.0.3",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "01c88daaa36720892b1ec9a1e8a0a3393d5920bcd5deedb02a69660289f71d906bb0ad1db63a6114a00406ea98775bf5890cacaf1bdf43e54446c232ef93b787",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.0.3/vanilla_disable-1.0.3.jar",
-          "filename": "vanilla_disable-1.0.3.jar",
-          "primary": true,
-          "size": 84159
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "8mBSZfWO",
-      "name": "1.0.2",
-      "version_number": "1.0.2",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f2f6853a12f9bd443b348384ae62722f3f3952edeb36b9a213007093eb655cc789e80c4ded0e7914e04731644670ca74d687b9199803a13c4ad264af3912cc57",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.0.2/vanilla_disable-1.0.2.jar",
-          "filename": "vanilla_disable-1.0.2.jar",
-          "primary": false,
-          "size": 82782
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "rzAjV67o",
-      "name": "1.0.1",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "844ba7b67a5d4b833c70a541f2db9cbb2a82fe1c49b05f7e6a88b197aae4625ca8d652974c4dfe5b658c307800904cfeae30cf9804c37e32950ff1efcba5ee0e",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.0.1/vanilla_disable-1.0.1.jar",
-          "filename": "vanilla_disable-1.0.1.jar",
-          "primary": false,
-          "size": 82767
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "6HxkEdzy",
-      "name": "1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0dca6330dc81b0fcb39a523cf067657559bef00c76040e0dfbe0276ed4669352ed47c21817bfb0a3a0a7637770833c48612c923abacf75253318f61bcdda82ae",
-          "url": "https://cdn.modrinth.com/data/udzOW1ID/versions/1.0.0/vanilla_disable-1.0.0.jar",
-          "filename": "vanilla_disable-1.0.0.jar",
-          "primary": false,
-          "size": 84066
-        }
-      ],
-      "dependencies": []
     }
   ]
 }

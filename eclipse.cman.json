@@ -5,28 +5,30 @@
   "description": "Adds a few characters from Eclipse universe as Origins.",
   "versions": [
     {
-      "id": "GmUYQOmV",
-      "name": "Eclipse Origins v2.1.0",
-      "version_number": "2.1.0",
+      "id": "8VeCermI",
+      "name": "Eclipse Origins v1.0.0",
+      "version_number": "1.0.0",
       "game_versions": [
-        "1.19.4"
+        "1.18",
+        "1.18.1",
+        "1.18.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "781cf4435432614a48dd24e9fe4a62f3dc7c9db549b3e63289ef65bec25afb0a8cba37bc4578f39bad290dd91511d0bff112e1890e7ccef60e75cc48e48f2ce6",
-          "url": "https://cdn.modrinth.com/data/1It7vbfm/versions/GmUYQOmV/EclipseOrigins_v2.1.0.jar",
-          "filename": "EclipseOrigins_v2.1.0.jar",
+          "sha512": "562c779e031e5f56328cd0e6f1323885707fa0b1e8b46dbc5472f739d7bb17ed44c0c647584f1c672adc9e1433161429434e38560ac72dfc30e5783d52049732",
+          "url": "https://cdn.modrinth.com/data/1It7vbfm/versions/8VeCermI/EclipseOrigins_v1.0.0.jar",
+          "filename": "EclipseOrigins_v1.0.0.jar",
           "primary": true,
-          "size": 4135792
+          "size": 89912
         }
       ],
       "dependencies": [
         {
           "project_id": "3BeIrqZR",
-          "version_id": "3rGbH9xO",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
@@ -34,7 +36,7 @@
           "project_id": "t5W7Jfwy",
           "version_id": "upq7HCkV",
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         }
       ]
     },
@@ -75,34 +77,70 @@
       ]
     },
     {
-      "id": "jYYu2THn",
-      "name": "Eclipse Origins v2.1.0",
-      "version_number": "2.1.0",
+      "id": "GlA2L2W0",
+      "name": "Eclipse Origins v2.0.0",
+      "version_number": "2.0.0",
       "game_versions": [
-        "1.18.2"
+        "1.19",
+        "1.19.2",
+        "1.19.3"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "4a00388f7f6c8b5221e1c4cd6947d691e4090d88cfbb3c9be5f5949122c7cbf6aa08703ec01a04f8688f6ceef0e9c4763d3054b3bb61927e3a21241169178aa8",
-          "url": "https://cdn.modrinth.com/data/1It7vbfm/versions/jYYu2THn/EclipseOrigins_v2.1.0.jar",
-          "filename": "EclipseOrigins_v2.1.0.jar",
+          "sha512": "27bd5ccaed5609cbdfda0d80b69deba45bda61236f9ccd99639dcc4789e1e540cdfa13749f78e1bbceb76ac3170ee9be095af72d401158b6dc72dcd4dd423e22",
+          "url": "https://cdn.modrinth.com/data/1It7vbfm/versions/GlA2L2W0/EclipseOrigins_v2.0.0.jar",
+          "filename": "EclipseOrigins_v2.0.0.jar",
           "primary": true,
-          "size": 4135875
+          "size": 4375625
         }
       ],
       "dependencies": [
         {
-          "project_id": "t5W7Jfwy",
-          "version_id": "upq7HCkV",
+          "project_id": "3BeIrqZR",
+          "version_id": "5njhNHNC",
           "file_name": null,
           "dependency_type": "required"
         },
         {
+          "project_id": "t5W7Jfwy",
+          "version_id": "riJf9xr3",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "GmUYQOmV",
+      "name": "Eclipse Origins v2.1.0",
+      "version_number": "2.1.0",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "781cf4435432614a48dd24e9fe4a62f3dc7c9db549b3e63289ef65bec25afb0a8cba37bc4578f39bad290dd91511d0bff112e1890e7ccef60e75cc48e48f2ce6",
+          "url": "https://cdn.modrinth.com/data/1It7vbfm/versions/GmUYQOmV/EclipseOrigins_v2.1.0.jar",
+          "filename": "EclipseOrigins_v2.1.0.jar",
+          "primary": true,
+          "size": 4135792
+        }
+      ],
+      "dependencies": [
+        {
           "project_id": "3BeIrqZR",
-          "version_id": "rBw5PYxY",
+          "version_id": "3rGbH9xO",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "t5W7Jfwy",
+          "version_id": "upq7HCkV",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -130,62 +168,24 @@
       ],
       "dependencies": [
         {
-          "project_id": "t5W7Jfwy",
-          "version_id": "riJf9xr3",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "3BeIrqZR",
           "version_id": "rBw5PYxY",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "GlA2L2W0",
-      "name": "Eclipse Origins v2.0.0",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.19",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "27bd5ccaed5609cbdfda0d80b69deba45bda61236f9ccd99639dcc4789e1e540cdfa13749f78e1bbceb76ac3170ee9be095af72d401158b6dc72dcd4dd423e22",
-          "url": "https://cdn.modrinth.com/data/1It7vbfm/versions/GlA2L2W0/EclipseOrigins_v2.0.0.jar",
-          "filename": "EclipseOrigins_v2.0.0.jar",
-          "primary": true,
-          "size": 4375625
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "t5W7Jfwy",
           "version_id": "riJf9xr3",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "3BeIrqZR",
-          "version_id": "5njhNHNC",
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "8VeCermI",
-      "name": "Eclipse Origins v1.0.0",
-      "version_number": "1.0.0",
+      "id": "jYYu2THn",
+      "name": "Eclipse Origins v2.1.0",
+      "version_number": "2.1.0",
       "game_versions": [
-        "1.18",
-        "1.18.1",
         "1.18.2"
       ],
       "loaders": [
@@ -193,23 +193,23 @@
       ],
       "files": [
         {
-          "sha512": "562c779e031e5f56328cd0e6f1323885707fa0b1e8b46dbc5472f739d7bb17ed44c0c647584f1c672adc9e1433161429434e38560ac72dfc30e5783d52049732",
-          "url": "https://cdn.modrinth.com/data/1It7vbfm/versions/8VeCermI/EclipseOrigins_v1.0.0.jar",
-          "filename": "EclipseOrigins_v1.0.0.jar",
+          "sha512": "4a00388f7f6c8b5221e1c4cd6947d691e4090d88cfbb3c9be5f5949122c7cbf6aa08703ec01a04f8688f6ceef0e9c4763d3054b3bb61927e3a21241169178aa8",
+          "url": "https://cdn.modrinth.com/data/1It7vbfm/versions/jYYu2THn/EclipseOrigins_v2.1.0.jar",
+          "filename": "EclipseOrigins_v2.1.0.jar",
           "primary": true,
-          "size": 89912
+          "size": 4135875
         }
       ],
       "dependencies": [
         {
-          "project_id": "t5W7Jfwy",
-          "version_id": "upq7HCkV",
+          "project_id": "3BeIrqZR",
+          "version_id": "rBw5PYxY",
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         },
         {
-          "project_id": "3BeIrqZR",
-          "version_id": null,
+          "project_id": "t5W7Jfwy",
+          "version_id": "upq7HCkV",
           "file_name": null,
           "dependency_type": "required"
         }

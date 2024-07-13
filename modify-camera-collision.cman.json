@@ -5,40 +5,6 @@
   "description": "Change how your camera collision works in third-person view!",
   "versions": [
     {
-      "id": "csCMfSbj",
-      "name": "v1.0.0+1.21",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8349999276656aaa955629881e73601d770266cb7758dcb2fb4dfd1e8e609c58911141d4309cdab92f66058c2fbcdc6f410bd40236899615cfe4182cee99d629",
-          "url": "https://cdn.modrinth.com/data/TbGPEeYZ/versions/csCMfSbj/modify-camera-collision-1.0.0%2B1.21.jar",
-          "filename": "modify-camera-collision-1.0.0+1.21.jar",
-          "primary": true,
-          "size": 23947
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "3yeJvx5m",
       "name": "v1.0.0+1.19.4",
       "version_number": "1.0.0",
@@ -59,16 +25,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "mhFzbEwE",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "lMqXEzUw",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "mhFzbEwE",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -99,53 +65,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "eTCL1uh8",
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "eHVkcbmR",
-      "name": "v1.0.0+1.19(.1,.2,.3)",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "74c4b6869c5d50486dd67dd7775407db8354c121885d671a8e29dbcf639e457ef91419874de812fe230d1010553bb1675cf46873db8fd2055dac4cbbf8437ff1",
-          "url": "https://cdn.modrinth.com/data/TbGPEeYZ/versions/eHVkcbmR/modify-camera-collision-1.0.0%2B1.19%28.1%2C.2%2C.3%29.jar",
-          "filename": "modify-camera-collision-1.0.0+1.19(.1,.2,.3).jar",
-          "primary": false,
-          "size": 14935
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "mhFzbEwE",
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
     },
@@ -186,6 +115,77 @@
       ]
     },
     {
+      "id": "csCMfSbj",
+      "name": "v1.0.0+1.21",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8349999276656aaa955629881e73601d770266cb7758dcb2fb4dfd1e8e609c58911141d4309cdab92f66058c2fbcdc6f410bd40236899615cfe4182cee99d629",
+          "url": "https://cdn.modrinth.com/data/TbGPEeYZ/versions/csCMfSbj/modify-camera-collision-1.0.0%2B1.21.jar",
+          "filename": "modify-camera-collision-1.0.0+1.21.jar",
+          "primary": true,
+          "size": 23947
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "eHVkcbmR",
+      "name": "v1.0.0+1.19(.1,.2,.3)",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "74c4b6869c5d50486dd67dd7775407db8354c121885d671a8e29dbcf639e457ef91419874de812fe230d1010553bb1675cf46873db8fd2055dac4cbbf8437ff1",
+          "url": "https://cdn.modrinth.com/data/TbGPEeYZ/versions/eHVkcbmR/modify-camera-collision-1.0.0%2B1.19%28.1%2C.2%2C.3%29.jar",
+          "filename": "modify-camera-collision-1.0.0+1.19(.1,.2,.3).jar",
+          "primary": false,
+          "size": 14935
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "mhFzbEwE",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "sLTQwLUj",
       "name": "v1.0.0+1.17.x",
       "version_number": "1.0.0",
@@ -207,16 +207,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "gb0cZ2Qp",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "7kh2ofyR",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "gb0cZ2Qp",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

@@ -5,6 +5,53 @@
   "description": "This is a mod that provides additional client-side features on the server PvP Legacy.",
   "versions": [
     {
+      "id": "MZqlepCI",
+      "name": "PvP Legacy Utils 1.1.0",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "bfba2f0740b54d5b2dcf50f71a03dcd57eb739a303ca08a42885c01c243876e622bf4fa2b3c0cddf2c70c0bab4f564b038303f61311822d8646f0db87ffe27c9",
+          "url": "https://cdn.modrinth.com/data/SlPzzauK/versions/MZqlepCI/pvplegacyutils-1.1.0.jar",
+          "filename": "pvplegacyutils-1.1.0.jar",
+          "primary": true,
+          "size": 86040
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "iSShMuV3",
       "name": "PvP Legacy Utils 1.1.1",
       "version_number": "1.1.1",
@@ -57,53 +104,6 @@
       ]
     },
     {
-      "id": "MZqlepCI",
-      "name": "PvP Legacy Utils 1.1.0",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "bfba2f0740b54d5b2dcf50f71a03dcd57eb739a303ca08a42885c01c243876e622bf4fa2b3c0cddf2c70c0bab4f564b038303f61311822d8646f0db87ffe27c9",
-          "url": "https://cdn.modrinth.com/data/SlPzzauK/versions/MZqlepCI/pvplegacyutils-1.1.0.jar",
-          "filename": "pvplegacyutils-1.1.0.jar",
-          "primary": true,
-          "size": 86040
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "ingJR0IL",
       "name": "PvP Legacy Utils 1.0.0",
       "version_number": "1.0.0",
@@ -129,6 +129,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "9s6osm5g",
           "version_id": "mhFzbEwE",
           "file_name": null,
@@ -139,12 +145,6 @@
           "version_id": "uIYkhRbX",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     }

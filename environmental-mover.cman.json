@@ -5,40 +5,6 @@
   "description": "A utility mod that uses special machines powered by RF to absorb and move biomes!",
   "versions": [
     {
-      "id": "qKxQ5BR5",
-      "name": "Environmental Mover 1.18.2-1.0.8.3",
-      "version_number": "1.18.2-1.0.8.3",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "c18dd9a9fa2280d0aa5df810991b86353f5566e3aedbe6cea215f2a61d1e3da4954d9c77aecd48d49821ae5c384a51a0f1fd252447df425df8026c2390acc417",
-          "url": "https://cdn.modrinth.com/data/htUt8F4p/versions/qKxQ5BR5/evmover-1.18.2-1.0.8.3.jar",
-          "filename": "evmover-1.18.2-1.0.8.3.jar",
-          "primary": true,
-          "size": 281707
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "nU0bVIaL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "g5iopPRH",
       "name": "Environmental Mover 1.18.2-1.0.7.0",
       "version_number": "1.18.2-1.0.7.0",
@@ -59,16 +25,50 @@
       ],
       "dependencies": [
         {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "nU0bVIaL",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
+        }
+      ]
+    },
+    {
+      "id": "qKxQ5BR5",
+      "name": "Environmental Mover 1.18.2-1.0.8.3",
+      "version_number": "1.18.2-1.0.8.3",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c18dd9a9fa2280d0aa5df810991b86353f5566e3aedbe6cea215f2a61d1e3da4954d9c77aecd48d49821ae5c384a51a0f1fd252447df425df8026c2390acc417",
+          "url": "https://cdn.modrinth.com/data/htUt8F4p/versions/qKxQ5BR5/evmover-1.18.2-1.0.8.3.jar",
+          "filename": "evmover-1.18.2-1.0.8.3.jar",
+          "primary": true,
+          "size": 281707
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "u6dRKJwZ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

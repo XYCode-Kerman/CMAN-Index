@@ -1,15 +1,16 @@
 {
-  "id": "crosshairtweaks",
+  "id": "uv6GyJOZ",
   "slug": "crosshairtweaks",
   "name": "Crosshair Tweaks",
   "description": "A small QOL mod that lets you alter the vanilla crosshair in small ways.",
   "versions": [
     {
-      "id": "BbxohI2h",
-      "name": "Crosshair Tweaks 1.1.1",
-      "version_number": "1.1.1",
+      "id": "4nWmKg0H",
+      "name": "Crosshair Tweaks 1.1.0",
+      "version_number": "1.1.0",
       "game_versions": [
-        "1.21"
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
         "fabric",
@@ -17,11 +18,31 @@
       ],
       "files": [
         {
-          "sha512": "1a819d790511b35374f5087a188b33df35c42bd4ae7b7dfdafed919a5506de8b1dd17be61b6156673028d198c163ee42f375d387dbabbca635ee7ac087b0e64f",
-          "url": "https://cdn.modrinth.com/data/uv6GyJOZ/versions/BbxohI2h/CrosshairTweaks%201.21-fabric-1.1.1.jar",
-          "filename": "CrosshairTweaks 1.21-fabric-1.1.1.jar",
+          "sha512": "d8545cd9d9271d164c0802647a2e7d9f46f8504fe0c7296bdf50986acedf7bd7d86d0432f786228336cbbf5144d525a6685ad1c4a7dece7b883fec545aeb39ca",
+          "url": "https://cdn.modrinth.com/data/uv6GyJOZ/versions/4nWmKg0H/CrosshairTweaks%201.20.4-fabric-1.1.0.jar",
+          "filename": "CrosshairTweaks 1.20.4-fabric-1.1.0.jar",
           "primary": true,
-          "size": 35138
+          "size": 35108
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -45,15 +66,34 @@
           "primary": true,
           "size": 35129
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
-      "id": "FFi5uN8T",
+      "id": "BbxohI2h",
       "name": "Crosshair Tweaks 1.1.1",
       "version_number": "1.1.1",
       "game_versions": [
-        "1.20.3",
-        "1.20.4"
+        "1.21"
       ],
       "loaders": [
         "fabric",
@@ -61,99 +101,31 @@
       ],
       "files": [
         {
-          "sha512": "f8445f6264cda3a609cef1b898f36146e32065bab3e435bebe67f2a88a892b99925cc78911b6e92bc25d1303cbfd75f8f5935d5aec39e9330ad75c0e90ed48fc",
-          "url": "https://cdn.modrinth.com/data/uv6GyJOZ/versions/FFi5uN8T/CrosshairTweaks%201.20.4-fabric-1.1.1.jar",
-          "filename": "CrosshairTweaks 1.20.4-fabric-1.1.1.jar",
+          "sha512": "1a819d790511b35374f5087a188b33df35c42bd4ae7b7dfdafed919a5506de8b1dd17be61b6156673028d198c163ee42f375d387dbabbca635ee7ac087b0e64f",
+          "url": "https://cdn.modrinth.com/data/uv6GyJOZ/versions/BbxohI2h/CrosshairTweaks%201.21-fabric-1.1.1.jar",
+          "filename": "CrosshairTweaks 1.21-fabric-1.1.1.jar",
           "primary": true,
-          "size": 35102
+          "size": 35138
         }
-      ]
-    },
-    {
-      "id": "K2wEA3vC",
-      "name": "Crosshair Tweaks 1.1.1",
-      "version_number": "1.1.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
       ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "e4430cc79105d27121510f2f7fa44c84d5d83667c044f555719b23c382e149924ffec7edc7ffa127b5d258a10e1a50ebd504e200fdaa27a2b790843ba9aa4a23",
-          "url": "https://cdn.modrinth.com/data/uv6GyJOZ/versions/K2wEA3vC/CrosshairTweaks%201.20.1-fabric-1.1.1.jar",
-          "filename": "CrosshairTweaks 1.20.1-fabric-1.1.1.jar",
-          "primary": true,
-          "size": 35185
-        }
-      ]
-    },
-    {
-      "id": "eMSuS5l1",
-      "name": "Crosshair Tweaks 1.1.0",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
-          "sha512": "2b9b614c139377e275f30f18671f1137d8eb61ae9b8632494c9244010999214d4e3fb7f15e2277e62b0c3af6fa767b4dbd4508a822a192fc628af70a94c88f25",
-          "url": "https://cdn.modrinth.com/data/uv6GyJOZ/versions/eMSuS5l1/CrosshairTweaks%201.20.6-fabric-1.1.0.jar",
-          "filename": "CrosshairTweaks 1.20.6-fabric-1.1.0.jar",
-          "primary": true,
-          "size": 35135
-        }
-      ]
-    },
-    {
-      "id": "4nWmKg0H",
-      "name": "Crosshair Tweaks 1.1.0",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
         {
-          "sha512": "d8545cd9d9271d164c0802647a2e7d9f46f8504fe0c7296bdf50986acedf7bd7d86d0432f786228336cbbf5144d525a6685ad1c4a7dece7b883fec545aeb39ca",
-          "url": "https://cdn.modrinth.com/data/uv6GyJOZ/versions/4nWmKg0H/CrosshairTweaks%201.20.4-fabric-1.1.0.jar",
-          "filename": "CrosshairTweaks 1.20.4-fabric-1.1.0.jar",
-          "primary": true,
-          "size": 35108
-        }
-      ]
-    },
-    {
-      "id": "bGo3oA7I",
-      "name": "Crosshair Tweaks 1.1.0",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4e39d79ba5bf30a360c0d4f20b09a83e41b6d72397afa05e22de50f1443df1097939ea315e1504db92d884a183f05eda88c2f5608914789a3efdb602529acea6",
-          "url": "https://cdn.modrinth.com/data/uv6GyJOZ/versions/bGo3oA7I/CrosshairTweaks%201.20.1-fabric-1.1.0.jar",
-          "filename": "CrosshairTweaks 1.20.1-fabric-1.1.0.jar",
-          "primary": true,
-          "size": 35191
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -177,6 +149,68 @@
           "primary": true,
           "size": 181556
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": "CgwTUAR2",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "FFi5uN8T",
+      "name": "Crosshair Tweaks 1.1.1",
+      "version_number": "1.1.1",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f8445f6264cda3a609cef1b898f36146e32065bab3e435bebe67f2a88a892b99925cc78911b6e92bc25d1303cbfd75f8f5935d5aec39e9330ad75c0e90ed48fc",
+          "url": "https://cdn.modrinth.com/data/uv6GyJOZ/versions/FFi5uN8T/CrosshairTweaks%201.20.4-fabric-1.1.1.jar",
+          "filename": "CrosshairTweaks 1.20.4-fabric-1.1.1.jar",
+          "primary": true,
+          "size": 35102
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -197,6 +231,152 @@
           "filename": "crosshairtweaks-1.0.1.jar",
           "primary": true,
           "size": 127776
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": "3HHSMwA9",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "K2wEA3vC",
+      "name": "Crosshair Tweaks 1.1.1",
+      "version_number": "1.1.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "e4430cc79105d27121510f2f7fa44c84d5d83667c044f555719b23c382e149924ffec7edc7ffa127b5d258a10e1a50ebd504e200fdaa27a2b790843ba9aa4a23",
+          "url": "https://cdn.modrinth.com/data/uv6GyJOZ/versions/K2wEA3vC/CrosshairTweaks%201.20.1-fabric-1.1.1.jar",
+          "filename": "CrosshairTweaks 1.20.1-fabric-1.1.1.jar",
+          "primary": true,
+          "size": 35185
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "bGo3oA7I",
+      "name": "Crosshair Tweaks 1.1.0",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4e39d79ba5bf30a360c0d4f20b09a83e41b6d72397afa05e22de50f1443df1097939ea315e1504db92d884a183f05eda88c2f5608914789a3efdb602529acea6",
+          "url": "https://cdn.modrinth.com/data/uv6GyJOZ/versions/bGo3oA7I/CrosshairTweaks%201.20.1-fabric-1.1.0.jar",
+          "filename": "CrosshairTweaks 1.20.1-fabric-1.1.0.jar",
+          "primary": true,
+          "size": 35191
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "eMSuS5l1",
+      "name": "Crosshair Tweaks 1.1.0",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2b9b614c139377e275f30f18671f1137d8eb61ae9b8632494c9244010999214d4e3fb7f15e2277e62b0c3af6fa767b4dbd4508a822a192fc628af70a94c88f25",
+          "url": "https://cdn.modrinth.com/data/uv6GyJOZ/versions/eMSuS5l1/CrosshairTweaks%201.20.6-fabric-1.1.0.jar",
+          "filename": "CrosshairTweaks 1.20.6-fabric-1.1.0.jar",
+          "primary": true,
+          "size": 35135
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -219,6 +399,26 @@
           "primary": true,
           "size": 127608
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": "3HHSMwA9",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -240,6 +440,26 @@
           "filename": "crosshairtweaks-1.0.0.jar",
           "primary": true,
           "size": 127874
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": "CgwTUAR2",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }

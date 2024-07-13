@@ -5,39 +5,68 @@
   "description": "Minecraft Mod doubling as a Discord Bot, initially made for Create: Astral",
   "versions": [
     {
-      "id": "d7qxQPTl",
-      "name": "AstralBot 1.5.2 Fabric 1.21",
-      "version_number": "1.5.2-mc1.21-fabric",
+      "id": "1OreY7lz",
+      "name": "AstralBot 1.0.2 Forge 1.18.2",
+      "version_number": "1.0.2",
       "game_versions": [
-        "1.21"
+        "1.18.2"
       ],
       "loaders": [
-        "fabric"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "3524a361c1186316669497350bdfec1ce2ecd59e02fd742bd3adb744060395e6f4ec507287c64320569a3793cffe1c66db768b803f1581bda3463403cc66b42b",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/d7qxQPTl/astralbot-fabric-1.21-1.5.2.jar",
-          "filename": "astralbot-fabric-1.21-1.5.2.jar",
+          "sha512": "1c3ec1ecb5e6e2e9589d8bcdf8192fa090f59fc7f26ba64e39a124edc2f549c7a97d042091a302ab45b51e90851e3920218b9ef640458dcb0cc9669895b2de51",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/1OreY7lz/astralbot-forge-1.18.2-1.0.2.jar",
+          "filename": "astralbot-forge-1.18.2-1.0.2.jar",
           "primary": true,
-          "size": 30006491
+          "size": 11314365
+        },
+        {
+          "sha512": "9d6d06735a2ef2b70cbbe1e3cb616d4e7af6824df758c2b07a718320c759d4c3a7df389bb88b2528e9f7112e65f9cf607555b9c5f72ace868a23adb83f8b0867",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/1OreY7lz/astralbot-forge-1.18.2-1.0.2-sources.jar",
+          "filename": "astralbot-forge-1.18.2-1.0.2-sources.jar",
+          "primary": false,
+          "size": 4438
         }
       ],
       "dependencies": [
         {
-          "project_id": "Ha28R6CL",
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ordsPcFz",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
+        }
+      ]
+    },
+    {
+      "id": "1TNFGBYG",
+      "name": "AstralBot 1.2.1 Forge",
+      "version_number": "1.2.1",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
         {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
+          "sha512": "3c1cb6a6aa0297f64217bf1cbb5d8e69a9be8865977b1b27d0dc3c83fb7f7452e409438167f2672e3497b9f5a44402d5fcb26395869b6bd04644d48d2e90d2df",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/1TNFGBYG/astralbot-forge-1.19.2-1.2.1.jar",
+          "filename": "astralbot-forge-1.19.2-1.2.1.jar",
+          "primary": true,
+          "size": 11311252
+        }
+      ],
+      "dependencies": [
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "ordsPcFz",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -46,7 +75,7 @@
           "project_id": "GAUIVqEJ",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "optional"
         }
       ]
     },
@@ -71,40 +100,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "vQX0wEMu",
-      "name": "AstralBot 1.5.2 Forge 1.18.2",
-      "version_number": "1.5.2-mc1.18.2-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e0971d0ac3b28e9f914b55604954b5fd5c6cccbea6b57892317f16bfe1e27d42ee9b60eaa2629859f2bdbd3cfe37d79829413c45c6d2c3dcfd12d5be3d406123",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/vQX0wEMu/astralbot-forge-1.18.2-1.5.2.jar",
-          "filename": "astralbot-forge-1.18.2-1.5.2.jar",
-          "primary": true,
-          "size": 29909609
-        }
-      ],
-      "dependencies": [
-        {
           "project_id": "GAUIVqEJ",
           "version_id": null,
           "file_name": null,
@@ -119,181 +114,9 @@
       ]
     },
     {
-      "id": "hKm5KHZp",
-      "name": "AstralBot 1.5.2 Forge 1.19.2",
-      "version_number": "1.5.2-mc1.19.2-forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "7b8780884c5e48d9142b469c9afcb89de2adffe0014e2d0734efb91615279fd3fa3fdc709f58ed7bbe3d5b331da773c1479766b89d81b1a19eb6b462bbf504ec",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/hKm5KHZp/astralbot-forge-1.19.2-1.5.2.jar",
-          "filename": "astralbot-forge-1.19.2-1.5.2.jar",
-          "primary": true,
-          "size": 29909406
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "MBPzydyr",
-      "name": "AstralBot 1.5.2 Fabric 1.18.2",
-      "version_number": "1.5.2-mc1.18.2-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0c38d53db104769d434f3a88d3f8b5c2eb2232abff80b133e73c47a268a700d75918a2dd734e448d528d5ef96ecd53b50cb7c8339e02741ac28e674d4a64f8a1",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/MBPzydyr/astralbot-fabric-1.18.2-1.5.2.jar",
-          "filename": "astralbot-fabric-1.18.2-1.5.2.jar",
-          "primary": true,
-          "size": 29913004
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "i6dEMpYD",
-      "name": "AstralBot 1.5.2 Fabric 1.19.2",
-      "version_number": "1.5.2-mc1.19.2-fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0a5eb3833d942231ffc7465154c9290139cd0210697504fa18217e0dc92655355f5af1111ae63292f3a76c16ba316863441b78b38d76bc2935b6433386c1708c",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/i6dEMpYD/astralbot-fabric-1.19.2-1.5.2.jar",
-          "filename": "astralbot-fabric-1.19.2-1.5.2.jar",
-          "primary": true,
-          "size": 29904714
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "jv24tXIe",
-      "name": "AstralBot 1.5.2 Fabric 1.20.1",
-      "version_number": "1.5.2-mc1.20.1-fabric",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e12ec232bb8b20d205cfb2a35c629600a659e04798aa9dee8b13c09ee605b21df13a45d4e98ebe13fcc180ce2c4446e90de0974e1688983e61eaf825bbe20f3e",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/jv24tXIe/astralbot-fabric-1.20.1-1.5.2.jar",
-          "filename": "astralbot-fabric-1.20.1-1.5.2.jar",
-          "primary": true,
-          "size": 29904954
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "9fA3JnMd",
-      "name": "AstralBot 1.5.2 Forge 1.20.1",
-      "version_number": "1.5.2-mc1.20.1-forge",
+      "id": "4VtBQu2S",
+      "name": "AstralBot 1.0.0 Forge 1.20.1",
+      "version_number": "1.0.0",
       "game_versions": [
         "1.20.1"
       ],
@@ -302,11 +125,18 @@
       ],
       "files": [
         {
-          "sha512": "b295080e10d9ca96a43acbbe1f822107099027e88108525ff84aab4ecb9560ada3586db6f5336af2479cfb834b1ecd4d20dbcec622543592355098c926a08287",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/9fA3JnMd/astralbot-forge-1.20.1-1.5.2.jar",
-          "filename": "astralbot-forge-1.20.1-1.5.2.jar",
+          "sha512": "3e4eada77beb2a26add7a637b835527ef3fcbef6296257993ebc1e9ba1006b32ddd86a5b11cf3f4df771c56434bfdb1ad10c9200308bf8ff078277d9bab5e9a9",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/4VtBQu2S/astralbot-forge-1.20.1-1.0.0.jar",
+          "filename": "astralbot-forge-1.20.1-1.0.0.jar",
           "primary": true,
-          "size": 29909623
+          "size": 24258377
+        },
+        {
+          "sha512": "96fa6fd3120683bd9fea0c5d87d4f8b171ea2993f222c5c1c1a00070a8c6d8412e37a68bc861badd6b36ba5112092dddb2c46d776225082dd9eae3b06191dd7b",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/4VtBQu2S/astralbot-forge-1.20.1-1.0.0-sources.jar",
+          "filename": "astralbot-forge-1.20.1-1.0.0-sources.jar",
+          "primary": false,
+          "size": 4324
         }
       ],
       "dependencies": [
@@ -315,12 +145,93 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "4rWVQiji",
+      "name": "AstralBot 1.0.2 Fabric 1.20.1",
+      "version_number": "1.0.2",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "91f6485c2529703cfc1d51cd4afad315e86e215fa71031fbf73c7eef503398c81205be5efa9a42cbd49bd9fbc19aa4574146135ba35c73181ef6478e754be09c",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/4rWVQiji/astralbot-fabric-1.20.1-1.0.2.jar",
+          "filename": "astralbot-fabric-1.20.1-1.0.2.jar",
+          "primary": true,
+          "size": 11310707
         },
+        {
+          "sha512": "fae84915a2de2d1f7129c1c0e8c57f520d4d28ac4e1ee84a8b69e0539efa76acdb90561514bbda03ad93e8ac9861c164e1e2871e7491bc70808760c2f16b6cef",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/4rWVQiji/astralbot-fabric-1.20.1-1.0.2-sources.jar",
+          "filename": "astralbot-fabric-1.20.1-1.0.2-sources.jar",
+          "primary": false,
+          "size": 2686
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LVN9ygNV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "5fBChEqI",
+      "name": "AstralBot 1.5.2 NeoForge 1.20.4",
+      "version_number": "1.5.2-mc1.20.4-neoforge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "4c92d7ecc9d9f88379d91b3f84b67c7e5ca0aa2293798bb8ce6ad8daf33f8db35254874258a65c5909c1ce4485c854885316844e41ee02231b146db5e4d2231c",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/5fBChEqI/astralbot-neoforge-1.20.4-1.5.2-all.jar",
+          "filename": "astralbot-neoforge-1.20.4-1.5.2-all.jar",
+          "primary": true,
+          "size": 29418521
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "GAUIVqEJ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
+        },
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -371,9 +282,61 @@
       ]
     },
     {
-      "id": "5fBChEqI",
-      "name": "AstralBot 1.5.2 NeoForge 1.20.4",
-      "version_number": "1.5.2-mc1.20.4-neoforge",
+      "id": "5z0jjk7Q",
+      "name": "AstralBot 1.3.0 Fabric",
+      "version_number": "1.3.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c17d34e10a1c7d27b73dad48a5210391c141e9028df5e33be5cded4a94b46c277c2a791208bf0297137e94fe3adb73025bf35dcb24c45b00f6d4c6aefe951e9e",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/5z0jjk7Q/astralbot-fabric-1.20.1-1.3.0.jar",
+          "filename": "astralbot-fabric-1.20.1-1.3.0.jar",
+          "primary": true,
+          "size": 11626269
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LVN9ygNV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "65sVSdBN",
+      "name": "AstralBot 1.5.0 NeoForge 1.20.4",
+      "version_number": "1.5.0-mc1.20.4-neoforge",
       "game_versions": [
         "1.20.4"
       ],
@@ -382,11 +345,11 @@
       ],
       "files": [
         {
-          "sha512": "4c92d7ecc9d9f88379d91b3f84b67c7e5ca0aa2293798bb8ce6ad8daf33f8db35254874258a65c5909c1ce4485c854885316844e41ee02231b146db5e4d2231c",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/5fBChEqI/astralbot-neoforge-1.20.4-1.5.2-all.jar",
-          "filename": "astralbot-neoforge-1.20.4-1.5.2-all.jar",
+          "sha512": "7ee2a6023f53a866b2eaba21aa10891d972b4f85bea71f4dd4dec5bf59b7ca2c30bd489798a9eab4c630cef95c28f84caa4b163df59d64e2866913bc3a8cca2e",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/65sVSdBN/astralbot-neoforge-1.20.4-1.5.0-all.jar",
+          "filename": "astralbot-neoforge-1.20.4-1.5.0-all.jar",
           "primary": true,
-          "size": 29418521
+          "size": 29418501
         }
       ],
       "dependencies": [
@@ -405,22 +368,22 @@
       ]
     },
     {
-      "id": "ZEcz6CfI",
-      "name": "AstralBot 1.5.1 Forge 1.19.2",
-      "version_number": "1.5.1-mc1.19.2-forge",
+      "id": "9fA3JnMd",
+      "name": "AstralBot 1.5.2 Forge 1.20.1",
+      "version_number": "1.5.2-mc1.20.1-forge",
       "game_versions": [
-        "1.19.2"
+        "1.20.1"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "832af2eec1c0342212c2f72f22a985ff55611e76758fe025a18d6c8c37f51ca6135af664c2210ffc4d29c05772c6b95c4d56f25115d9b1da58879a9f7e6caf21",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/ZEcz6CfI/astralbot-forge-1.19.2-1.5.1.jar",
-          "filename": "astralbot-forge-1.19.2-1.5.1.jar",
+          "sha512": "b295080e10d9ca96a43acbbe1f822107099027e88108525ff84aab4ecb9560ada3586db6f5336af2479cfb834b1ecd4d20dbcec622543592355098c926a08287",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/9fA3JnMd/astralbot-forge-1.20.1-1.5.2.jar",
+          "filename": "astralbot-forge-1.20.1-1.5.2.jar",
           "primary": true,
-          "size": 29909410
+          "size": 29909623
         }
       ],
       "dependencies": [
@@ -432,6 +395,180 @@
         },
         {
           "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "9vTHEv9c",
+      "name": "AstralBot 1.2.0 Fabric",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "12c8c9714c8a45bcdcbd8b7aca1be23380ce24802bd0dd753a2d9bcded3ff282ad11ae88f1519a36ef37b3450755514485e8f39bd352731fbde6cd756503b9cd",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/9vTHEv9c/astralbot-fabric-1.18.2-1.2.0.jar",
+          "filename": "astralbot-fabric-1.18.2-1.2.0.jar",
+          "primary": true,
+          "size": 11281092
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LVN9ygNV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "BZzGAJcJ",
+      "name": "AstralBot 1.1.0 Forge 1.20.1",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "738fb09f570049c2086a3753eb8dc363a07928638f91b3ccc61ec0b64b90fd006e144731d7f2e6d3ceb58ec2ee5503cc9f3f1f5835fd21eb1b8125001581c40f",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/BZzGAJcJ/astralbot-forge-1.20.1-1.1.0.jar",
+          "filename": "astralbot-forge-1.20.1-1.1.0.jar",
+          "primary": true,
+          "size": 11195875
+        },
+        {
+          "sha512": "072873ee0eb72afa55a0706a7402e3a5ae8a7d66e1a9931e013d68bef470ea14729c01a0da73b0562b03af3203c466cf63586189b4db7fa4a2168eda94d58bfd",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/BZzGAJcJ/astralbot-forge-1.20.1-1.1.0-sources.jar",
+          "filename": "astralbot-forge-1.20.1-1.1.0-sources.jar",
+          "primary": false,
+          "size": 5058
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "ByDnH3lm",
+      "name": "AstralBot 1.4.0 Forge 1.19.2",
+      "version_number": "1.4.0-mc1.19.2-forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e80ba99d8f7e5584b2539ecc0878db23883d19c79af737e6056a895ba063948e97e33bdf2cc4f8ec481ce9f67a0b305719cb32bfc56ca445bd47067197511398",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/ByDnH3lm/astralbot-forge-1.19.2-1.4.0.jar",
+          "filename": "astralbot-forge-1.19.2-1.4.0.jar",
+          "primary": true,
+          "size": 24759732
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "Dbk1tGrR",
+      "name": "AstralBot 1.0.1 Fabric 1.20.1",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "b8a4ea4938a5efdb9fe108ad99748b8de6584d77e5b35ae3819f0350c74cab921bc4a415aa9feffc86795896b9834f38cda13ba757bd3985be95b8cd137c6cc6",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/Dbk1tGrR/astralbot-fabric-1.20.1-1.0.1.jar",
+          "filename": "astralbot-fabric-1.20.1-1.0.1.jar",
+          "primary": true,
+          "size": 11230837
+        },
+        {
+          "sha512": "5fbac2354b4b046eaad5725e3345ef1aa0ed3e8230169ce192fed47661e9f0659e3ee1f8f1ae52b57b2c54028a6dbe2bd8047757c1ed7e976f9994e3584fd6d6",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/Dbk1tGrR/astralbot-fabric-1.20.1-1.0.1-sources.jar",
+          "filename": "astralbot-fabric-1.20.1-1.0.1-sources.jar",
+          "primary": false,
+          "size": 2686
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "LVN9ygNV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -473,114 +610,29 @@
       ]
     },
     {
-      "id": "ZpJ6hPc8",
-      "name": "AstralBot 1.5.1 Fabric 1.19.2",
-      "version_number": "1.5.1-mc1.19.2-fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "23bbb9b6eec98605200db98f5488479765b55cdb6c94c8ebec872a9a48a2f456956db8341ae597efd7d254bbef4a5cf651e1e904df512e550c61b9be3ce0e352",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/ZpJ6hPc8/astralbot-fabric-1.19.2-1.5.1.jar",
-          "filename": "astralbot-fabric-1.19.2-1.5.1.jar",
-          "primary": true,
-          "size": 29904720
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "znTklVjx",
-      "name": "AstralBot 1.5.1 Fabric 1.20.1",
-      "version_number": "1.5.1-mc1.20.1-fabric",
+      "id": "EqohcgQE",
+      "name": "AstralBot 1.0.1 Forge 1.20.1",
+      "version_number": "1.0.1",
       "game_versions": [
         "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f26f7566ab2d59ffa17d2dbd8d19b9644cbf05b502bf81e98339c409e6d7232b58ab26f31814def22feaba59b981664e9b7ded59ec8beb674d522e8c1cf5146f",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/znTklVjx/astralbot-fabric-1.20.1-1.5.1.jar",
-          "filename": "astralbot-fabric-1.20.1-1.5.1.jar",
-          "primary": true,
-          "size": 29904963
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "uAPDDmgS",
-      "name": "AstralBot 1.5.1 Forge 1.18.2",
-      "version_number": "1.5.1-mc1.18.2-forge",
-      "game_versions": [
-        "1.18.2"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "b151533d16c1246015028a2d03eadfca8a7338dd3434970cf8c0b8fc29f00de48b5938f23ab7c67fe3d4a32c4e325e64458277e1797e5c75e2c50696e4b57211",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/uAPDDmgS/astralbot-forge-1.18.2-1.5.1.jar",
-          "filename": "astralbot-forge-1.18.2-1.5.1.jar",
+          "sha512": "5822a795fdf2cf935c2caae32eb59e56b20c5b69a0a7103c7428213a638f2ec9d07fe8ee2cc8f7e06f48ebc98c0cdd3fc31172282d61b3dbf11f867c913641d3",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/EqohcgQE/astralbot-forge-1.20.1-1.0.1.jar",
+          "filename": "astralbot-forge-1.20.1-1.0.1.jar",
           "primary": true,
-          "size": 29909619
+          "size": 11233885
+        },
+        {
+          "sha512": "268486e1a1240e3f83d6733cdb029caf8ec7a428a6697c4b1fbc756d542c8785b30bb3360a098c20576c49f90ac0301eb897d2ecbf3b5f4cdd414c80a8464c23",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/EqohcgQE/astralbot-forge-1.20.1-1.0.1-sources.jar",
+          "filename": "astralbot-forge-1.20.1-1.0.1-sources.jar",
+          "primary": false,
+          "size": 4324
         }
       ],
       "dependencies": [
@@ -588,139 +640,13 @@
           "project_id": "GAUIVqEJ",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "optional"
         },
         {
           "project_id": "ordsPcFz",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ombwjvbE",
-      "name": "AstralBot 1.5.1 Fabric 1.18.2",
-      "version_number": "1.5.1-mc1.18.2-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e843dd21adb5fea97b9a2d0ad737879c788eaf59ae167283861f9131d5e731b9db3680f0d5307c3f8d4595bc001ff1a530de234de6268adb505dfa9a1ad097b3",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/ombwjvbE/astralbot-fabric-1.18.2-1.5.1.jar",
-          "filename": "astralbot-fabric-1.18.2-1.5.1.jar",
-          "primary": true,
-          "size": 29913015
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ns6SvfQU",
-      "name": "AstralBot 1.5.0 Fabric 1.20.4",
-      "version_number": "1.5.0-mc1.20.4-fabric",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9b211a2ea1eef83c51d880ae3a2533b368b44cb3349f8ccae0b57081211d335665f839896fd725b76caaa6c10dddae7f6adab63ec14e7a43b660959cfdc71c5b",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/ns6SvfQU/astralbot-fabric-1.20.4-1.5.0.jar",
-          "filename": "astralbot-fabric-1.20.4-1.5.0.jar",
-          "primary": true,
-          "size": 29875834
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "65sVSdBN",
-      "name": "AstralBot 1.5.0 NeoForge 1.20.4",
-      "version_number": "1.5.0-mc1.20.4-neoforge",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "7ee2a6023f53a866b2eaba21aa10891d972b4f85bea71f4dd4dec5bf59b7ca2c30bd489798a9eab4c630cef95c28f84caa4b163df59d64e2866913bc3a8cca2e",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/65sVSdBN/astralbot-neoforge-1.20.4-1.5.0-all.jar",
-          "filename": "astralbot-neoforge-1.20.4-1.5.0-all.jar",
-          "primary": true,
-          "size": 29418501
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
         }
       ]
     },
@@ -759,22 +685,29 @@
       ]
     },
     {
-      "id": "ap1oNYXl",
-      "name": "AstralBot 1.4.0 Fabric 1.18.2",
-      "version_number": "1.4.0-mc1.18.2-fabric",
+      "id": "JTOtyr7i",
+      "name": "AstralBot 1.0.2 Fabric 1.19.2",
+      "version_number": "1.0.2",
       "game_versions": [
-        "1.18.2"
+        "1.19.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "a68612aa30d93cdf5e62f1df984e011daf63351ea3443f10f35553699e908091d3447846d97c15b5ebdfb3e3a228926f65873896ed06712ccecc02623395c890",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/ap1oNYXl/astralbot-fabric-1.18.2-1.4.0.jar",
-          "filename": "astralbot-fabric-1.18.2-1.4.0.jar",
+          "sha512": "5d4f1a071ec8adcbd6cb8ec92e470642d7ab79ac3e4a62f3a7f0624a1712bed93c548b65eb646b3a842b8b35732bf85c5e37f60788a77dbe4ba28ab4521e0a08",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/JTOtyr7i/astralbot-fabric-1.19.2-1.0.2.jar",
+          "filename": "astralbot-fabric-1.19.2-1.0.2.jar",
           "primary": true,
-          "size": 24763660
+          "size": 11320040
+        },
+        {
+          "sha512": "099f7c21df489d9364947499d91f11b249318e552235852dffafcc6460340912a461fdbc6985c103ad103174080ae2190072aca1f999900d34634aa15e063ec7",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/JTOtyr7i/astralbot-fabric-1.19.2-1.0.2-sources.jar",
+          "filename": "astralbot-fabric-1.19.2-1.0.2-sources.jar",
+          "primary": false,
+          "size": 2645
         }
       ],
       "dependencies": [
@@ -785,7 +718,60 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "LVN9ygNV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "JXabSs5g",
+      "name": "AstralBot 1.0.2 Fabric 1.18.2",
+      "version_number": "1.0.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d075fc268977c94453d761604215a1f5673b11f10d42e51628490f46caf473b3ccf08897b63b2235a08ffa7a0cde4690c57a5fe06c29880d22c7923d6cca26e2",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/JXabSs5g/astralbot-fabric-1.18.2-1.0.2.jar",
+          "filename": "astralbot-fabric-1.18.2-1.0.2.jar",
+          "primary": true,
+          "size": 11319240
+        },
+        {
+          "sha512": "251531fdf0bb3205a165906a0bf42d5a8457957ad31752f05f6a7563fb70cfbb39b40eb18b64de1ba0142bff8d298ac93b78321d5a95caafacd1e7c72f1b44bd",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/JXabSs5g/astralbot-fabric-1.18.2-1.0.2-sources.jar",
+          "filename": "astralbot-fabric-1.18.2-1.0.2-sources.jar",
+          "primary": false,
+          "size": 5338
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "Ha28R6CL",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -797,17 +783,184 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "GAUIVqEJ",
+          "project_id": "LVN9ygNV",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "ByDnH3lm",
-      "name": "AstralBot 1.4.0 Forge 1.19.2",
-      "version_number": "1.4.0-mc1.19.2-forge",
+      "id": "LqPAQd39",
+      "name": "AstralBot 1.2.0 Forge",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "224f0fd29baa337f649bd6e5e2a55e3e182500cab664bcb5b842b5d1373fde7e2e68b13c16d3a4b5a04c6e85baebfe241f6a6da6171d5d632e0fbe84302b0fce",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/LqPAQd39/astralbot-forge-1.20.1-1.2.0.jar",
+          "filename": "astralbot-forge-1.20.1-1.2.0.jar",
+          "primary": true,
+          "size": 11275931
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "M2f9757Q",
+      "name": "AstralBot 1.0.2 Forge 1.20.1",
+      "version_number": "1.0.2",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e9b41d6c86593fa247289f7d40aa7f6fd2d9187b4c6a1d622ea7b0a09f727f94d962719d7c202c54abbbceb17be7ff9304b3bf381a170298c3d9da84420b5a3c",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/M2f9757Q/astralbot-forge-1.20.1-1.0.2.jar",
+          "filename": "astralbot-forge-1.20.1-1.0.2.jar",
+          "primary": true,
+          "size": 11313756
+        },
+        {
+          "sha512": "bb4b2da71564c0d47dc86868521e6532145c9b21611cdd242109db3d21130a80f4b096e54368170b294822825784700926059ce573ba7264988190195ef0ad4f",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/M2f9757Q/astralbot-forge-1.20.1-1.0.2-sources.jar",
+          "filename": "astralbot-forge-1.20.1-1.0.2-sources.jar",
+          "primary": false,
+          "size": 4324
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "MBPzydyr",
+      "name": "AstralBot 1.5.2 Fabric 1.18.2",
+      "version_number": "1.5.2-mc1.18.2-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0c38d53db104769d434f3a88d3f8b5c2eb2232abff80b133e73c47a268a700d75918a2dd734e448d528d5ef96ecd53b50cb7c8339e02741ac28e674d4a64f8a1",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/MBPzydyr/astralbot-fabric-1.18.2-1.5.2.jar",
+          "filename": "astralbot-fabric-1.18.2-1.5.2.jar",
+          "primary": true,
+          "size": 29913004
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "MvbErwze",
+      "name": "AstralBot 1.2.0 Fabric",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "08f8d842a4fa8c76e4b1275d1af8d114c8a35fdeffc9b2a853c26c879f6fc633239b99b710396ff1ece70edb1cf5948549c9029edc9e5277b57a76d81bddf8c0",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/MvbErwze/astralbot-fabric-1.19.2-1.2.0.jar",
+          "filename": "astralbot-fabric-1.19.2-1.2.0.jar",
+          "primary": true,
+          "size": 11272767
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LVN9ygNV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "MxOUY2uu",
+      "name": "AstralBot 1.3.0 Forge",
+      "version_number": "1.3.0",
       "game_versions": [
         "1.19.2"
       ],
@@ -816,11 +969,45 @@
       ],
       "files": [
         {
-          "sha512": "e80ba99d8f7e5584b2539ecc0878db23883d19c79af737e6056a895ba063948e97e33bdf2cc4f8ec481ce9f67a0b305719cb32bfc56ca445bd47067197511398",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/ByDnH3lm/astralbot-forge-1.19.2-1.4.0.jar",
-          "filename": "astralbot-forge-1.19.2-1.4.0.jar",
+          "sha512": "9c342591656f0b6bd2d556b894abb9617456aad8bab0fd348e89627fb8e9b6033cf7574032880c6f77955bc411db24efbaea969f2ffc66bd09f8a248c345995f",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/MxOUY2uu/astralbot-forge-1.19.2-1.3.0.jar",
+          "filename": "astralbot-forge-1.19.2-1.3.0.jar",
           "primary": true,
-          "size": 24759732
+          "size": 11629271
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "O2XMhTj2",
+      "name": "AstralBot 1.3.0 Fabric",
+      "version_number": "1.3.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4eb2c56d94fcba08121e867e438a65133e75a390635a01c3cfba3d50467cc9fa2e85608301027b4d8f2fd060f37164d15990d303def755c9353d1431a607289d",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/O2XMhTj2/astralbot-fabric-1.18.2-1.3.0.jar",
+          "filename": "astralbot-fabric-1.18.2-1.3.0.jar",
+          "primary": true,
+          "size": 11634364
         }
       ],
       "dependencies": [
@@ -828,13 +1015,228 @@
           "project_id": "GAUIVqEJ",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LVN9ygNV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "PQtGA23E",
+      "name": "AstralBot 1.1.0 Forge 1.19.2",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "7f8712050aee51d702858913af354c6bd1fb404267e986ad0ec3988ba6516031d9202406dbc34ccca7ca24ef5b3731eedabe1fe172ade8cb67fcc28169c50ea8",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/PQtGA23E/astralbot-forge-1.19.2-1.1.0.jar",
+          "filename": "astralbot-forge-1.19.2-1.1.0.jar",
+          "primary": true,
+          "size": 11195877
+        },
+        {
+          "sha512": "5865abafbc3ac5cd2e79ee75489af3c38a468a3f87c85ab092a0ea2a20efc9184e58cfd1301168184d520be18f87b6074f0b10a454f397d90c17251cba8a43e0",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/PQtGA23E/astralbot-forge-1.19.2-1.1.0-sources.jar",
+          "filename": "astralbot-forge-1.19.2-1.1.0-sources.jar",
+          "primary": false,
+          "size": 5058
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         },
         {
           "project_id": "ordsPcFz",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "QawoByhE",
+      "name": "AstralBot 1.2.1 Forge",
+      "version_number": "1.2.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e8c2e82568c6c833943a18acb12b660b9adbbc9793b457b5732c73e4901a531400e933071f5bd610127595c4f214c9706db8d3d82e988cf9e6f72c7b644c17e7",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/QawoByhE/astralbot-forge-1.20.1-1.2.1.jar",
+          "filename": "astralbot-forge-1.20.1-1.2.1.jar",
+          "primary": true,
+          "size": 11311503
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "QxsrR2UO",
+      "name": "AstralBot 1.0.0 Fabric 1.20.1",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c295a0703a234230beb47160628b286e45579da0a605c93a37bc8997926f1f8f60b393d741740fa3afb4adf02588bb6fb464f4b4e917d596d7732346e788bd64",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/QxsrR2UO/astralbot-fabric-1.20.1-1.0.0.jar",
+          "filename": "astralbot-fabric-1.20.1-1.0.0.jar",
+          "primary": true,
+          "size": 24255335
+        },
+        {
+          "sha512": "87b7ec47718d758178e2f943b5d326193b321e99c7c9c31a19d70877bbdaff6f6af2c35cb47891bca06db1a57309e6fc8fd60e3cb249dfdf8dc2a2a40f15ff03",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/QxsrR2UO/astralbot-fabric-1.20.1-1.0.0-sources.jar",
+          "filename": "astralbot-fabric-1.20.1-1.0.0-sources.jar",
+          "primary": false,
+          "size": 2684
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Vbopr0BI",
+      "name": "AstralBot 1.2.0 Forge",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "2e6854780670371614e483fb3e10a3fe4367369aa9b65ac98650b8d2b8bc15d2590256002b84ab0282e6b5376b5ad688e79851b2bc68dbdc52408f99d4ceceeb",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/Vbopr0BI/astralbot-forge-1.19.2-1.2.0.jar",
+          "filename": "astralbot-forge-1.19.2-1.2.0.jar",
+          "primary": true,
+          "size": 11275684
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "XGUV9uHR",
+      "name": "AstralBot 1.0.2 Forge 1.19.2",
+      "version_number": "1.0.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "73ffcd9922b38805ebdff5a59793421b34406db3d5a30d720d540999e5c1912c0b0975da58a3246c49bd728b76fdbba09997f0507c3b20a401ff7e7e169fa29d",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/XGUV9uHR/astralbot-forge-1.19.2-1.0.2.jar",
+          "filename": "astralbot-forge-1.19.2-1.0.2.jar",
+          "primary": true,
+          "size": 11323084
+        },
+        {
+          "sha512": "73ee7e646f3aae3bec568c717c0d15ae250f3bc3e51a9e1546193213ba04e2aa477bd708b0717ee6361678339aed97b25b204d44ecff135e6c3c08f7abf30135",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/XGUV9uHR/astralbot-forge-1.19.2-1.0.2-sources.jar",
+          "filename": "astralbot-forge-1.19.2-1.0.2-sources.jar",
+          "primary": false,
+          "size": 4322
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -865,13 +1267,13 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "Ha28R6CL",
+          "project_id": "ohNO6lps",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "ohNO6lps",
+          "project_id": "Ha28R6CL",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -885,29 +1287,102 @@
       ]
     },
     {
-      "id": "lfcWmYTR",
-      "name": "AstralBot 1.4.0 Fabric 1.20.1",
-      "version_number": "1.4.0-mc1.20.1-fabric",
+      "id": "YrbpqQsz",
+      "name": "AstralBot 1.2.1 Fabric",
+      "version_number": "1.2.1",
       "game_versions": [
-        "1.20.1"
+        "1.19.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "accc7dbcd793d8a9ff8f04e1ff6aba9cbea1f435b22cff722bb54c9d31c2f79cafb81777b35b4e49e6710b848c5944d38a521963634e3db5ae557310340c0af0",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/lfcWmYTR/astralbot-fabric-1.20.1-1.4.0.jar",
-          "filename": "astralbot-fabric-1.20.1-1.4.0.jar",
+          "sha512": "505a23e78e924102f6c6bf8aff8e917bb52193bfd208a1956c447924b605ce05d9a3f34051edcad9f373f244dc34717911e0e6fd7cf784eeb0891d03c4fd3321",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/YrbpqQsz/astralbot-fabric-1.19.2-1.2.1.jar",
+          "filename": "astralbot-fabric-1.19.2-1.2.1.jar",
           "primary": true,
-          "size": 24755602
+          "size": 11308336
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
-          "sha512": "75b618440fcc834dfae46e76f0f16707c432950ca84c14e21a3a6ba8fbf21af89e161b30bfc1026c4a165a16b1cf2516ecc267871e54fae9be95f49c754582a9",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/lfcWmYTR/astralbot-fabric-1.20.1-1.4.0-sources.jar",
-          "filename": "astralbot-fabric-1.20.1-1.4.0-sources.jar",
-          "primary": false,
-          "size": 2788
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "LVN9ygNV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "ZEcz6CfI",
+      "name": "AstralBot 1.5.1 Forge 1.19.2",
+      "version_number": "1.5.1-mc1.19.2-forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "832af2eec1c0342212c2f72f22a985ff55611e76758fe025a18d6c8c37f51ca6135af664c2210ffc4d29c05772c6b95c4d56f25115d9b1da58879a9f7e6caf21",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/ZEcz6CfI/astralbot-forge-1.19.2-1.5.1.jar",
+          "filename": "astralbot-forge-1.19.2-1.5.1.jar",
+          "primary": true,
+          "size": 29909410
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ZpJ6hPc8",
+      "name": "AstralBot 1.5.1 Fabric 1.19.2",
+      "version_number": "1.5.1-mc1.19.2-fabric",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "23bbb9b6eec98605200db98f5488479765b55cdb6c94c8ebec872a9a48a2f456956db8341ae597efd7d254bbef4a5cf651e1e904df512e550c61b9be3ce0e352",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/ZpJ6hPc8/astralbot-fabric-1.19.2-1.5.1.jar",
+          "filename": "astralbot-fabric-1.19.2-1.5.1.jar",
+          "primary": true,
+          "size": 29904720
         }
       ],
       "dependencies": [
@@ -934,6 +1409,98 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "ap1oNYXl",
+      "name": "AstralBot 1.4.0 Fabric 1.18.2",
+      "version_number": "1.4.0-mc1.18.2-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a68612aa30d93cdf5e62f1df984e011daf63351ea3443f10f35553699e908091d3447846d97c15b5ebdfb3e3a228926f65873896ed06712ccecc02623395c890",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/ap1oNYXl/astralbot-fabric-1.18.2-1.4.0.jar",
+          "filename": "astralbot-fabric-1.18.2-1.4.0.jar",
+          "primary": true,
+          "size": 24763660
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "b6NI4ViO",
+      "name": "AstralBot 1.2.1 Fabric",
+      "version_number": "1.2.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "38fcaa645565bfda2bbbd81ae403c8d8bdaa96a521d655f1af62cf153ddad7bedbc606c13a4badbdefdb714f8b1420470a3140bebea804663902e21898118e33",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/b6NI4ViO/astralbot-fabric-1.20.1-1.2.1.jar",
+          "filename": "astralbot-fabric-1.20.1-1.2.1.jar",
+          "primary": true,
+          "size": 11308578
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LVN9ygNV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -987,6 +1554,457 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "cyVXYKd0",
+      "name": "AstralBot 1.3.0 Fabric",
+      "version_number": "1.3.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ca41b3b80b518a8fa74dcb6ce117b4c52f36a132e1a734a0eef39863c358a3ccf12ded49f338da640303a623a6655c29b2d8e97b7b0f30d294716345f2b67348",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/cyVXYKd0/astralbot-fabric-1.19.2-1.3.0.jar",
+          "filename": "astralbot-fabric-1.19.2-1.3.0.jar",
+          "primary": true,
+          "size": 11626025
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "LVN9ygNV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "d7qxQPTl",
+      "name": "AstralBot 1.5.2 Fabric 1.21",
+      "version_number": "1.5.2-mc1.21-fabric",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "3524a361c1186316669497350bdfec1ce2ecd59e02fd742bd3adb744060395e6f4ec507287c64320569a3793cffe1c66db768b803f1581bda3463403cc66b42b",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/d7qxQPTl/astralbot-fabric-1.21-1.5.2.jar",
+          "filename": "astralbot-fabric-1.21-1.5.2.jar",
+          "primary": true,
+          "size": 30006491
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "e2dmHOzk",
+      "name": "AstralBot 1.1.0 Fabric 1.20.1",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c45641de69c18417448cb68ccb7171d71eafa8ac98328cb48fec152634c159c45cf4d52454a5969d9f0445d702d4e15438c24cdfb2ff0c0055be7b100530e4a8",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/e2dmHOzk/astralbot-fabric-1.20.1-1.1.0.jar",
+          "filename": "astralbot-fabric-1.20.1-1.1.0.jar",
+          "primary": true,
+          "size": 11192970
+        },
+        {
+          "sha512": "76da322ba87b1a03a690353ebe0db212d202a492973fc3f3599df332d4045ced8ce2dea7c90d54912b5b4fe649e064410a87e4673156c94d45362c05a8212279",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/e2dmHOzk/astralbot-fabric-1.20.1-1.1.0-sources.jar",
+          "filename": "astralbot-fabric-1.20.1-1.1.0-sources.jar",
+          "primary": false,
+          "size": 3133
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LVN9ygNV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "eeGGOWIb",
+      "name": "AstralBot 1.1.0 Fabric 1.19.2",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "86ab31b444f37e0a7ba48e576abad754c56773e331c24849b200ebf755211b467aaa3f92d2179123c2037b9598bf335c67a53bddbff6293a8877f821512ededd",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/eeGGOWIb/astralbot-fabric-1.19.2-1.1.0.jar",
+          "filename": "astralbot-fabric-1.19.2-1.1.0.jar",
+          "primary": true,
+          "size": 11192974
+        },
+        {
+          "sha512": "35a6198e71d7282bd5b1aa132179cc4d4927bd6d5460dedb38a809cb8d98cd13239cf1c862caa37872675d120291dd055adb0a08db1e14e4c2bf5a7f49fae8a7",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/eeGGOWIb/astralbot-fabric-1.19.2-1.1.0-sources.jar",
+          "filename": "astralbot-fabric-1.19.2-1.1.0-sources.jar",
+          "primary": false,
+          "size": 3093
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "LVN9ygNV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "fGzlTkfS",
+      "name": "AstralBot 1.2.1 Forge",
+      "version_number": "1.2.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "6beaf744c3621babf2f7670bc70f57e090e0d18eae8150332ceb1d3dfd294dcb4bc588d8c594416ae118de3ea1e49efef163653efa78ffb673df4bf905d4edcc",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/fGzlTkfS/astralbot-forge-1.18.2-1.2.1.jar",
+          "filename": "astralbot-forge-1.18.2-1.2.1.jar",
+          "primary": true,
+          "size": 11311911
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "gk9PFi7M",
+      "name": "AstralBot 1.0.1 Fabric 1.18.2",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "288a6c314d6844bea84d3d78db45e3c3fd81a7c8d9b43dfe8365b38b21727e0446d76d16e3c26f784d48427090211e888a18033dbf08f75fa3de606299854c2a",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/gk9PFi7M/astralbot-fabric-1.18.2-1.0.1.jar",
+          "filename": "astralbot-fabric-1.18.2-1.0.1.jar",
+          "primary": true,
+          "size": 11239368
+        },
+        {
+          "sha512": "963faef7f2a73a27a121d4b1fe186c4e88caee207eab7f709962a227672f8591a08b025ba67999ddd501e32dcb185a32858dbf0accb0c09f41bddfaf6e6a11c4",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/gk9PFi7M/astralbot-fabric-1.18.2-1.0.1-sources.jar",
+          "filename": "astralbot-fabric-1.18.2-1.0.1-sources.jar",
+          "primary": false,
+          "size": 5337
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LVN9ygNV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "h8DPUef7",
+      "name": "AstralBot 1.3.0 Forge",
+      "version_number": "1.3.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e566143b7ba5006035caa60d1f573f36744628c85a60f924a72bd4e24e3637be6f144684461e2a921bc7f82f910daa505bd6c000894804a98232139dbce7da41",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/h8DPUef7/astralbot-forge-1.20.1-1.3.0.jar",
+          "filename": "astralbot-forge-1.20.1-1.3.0.jar",
+          "primary": true,
+          "size": 11629482
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "hKm5KHZp",
+      "name": "AstralBot 1.5.2 Forge 1.19.2",
+      "version_number": "1.5.2-mc1.19.2-forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "7b8780884c5e48d9142b469c9afcb89de2adffe0014e2d0734efb91615279fd3fa3fdc709f58ed7bbe3d5b331da773c1479766b89d81b1a19eb6b462bbf504ec",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/hKm5KHZp/astralbot-forge-1.19.2-1.5.2.jar",
+          "filename": "astralbot-forge-1.19.2-1.5.2.jar",
+          "primary": true,
+          "size": 29909406
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "i6dEMpYD",
+      "name": "AstralBot 1.5.2 Fabric 1.19.2",
+      "version_number": "1.5.2-mc1.19.2-fabric",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0a5eb3833d942231ffc7465154c9290139cd0210697504fa18217e0dc92655355f5af1111ae63292f3a76c16ba316863441b78b38d76bc2935b6433386c1708c",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/i6dEMpYD/astralbot-fabric-1.19.2-1.5.2.jar",
+          "filename": "astralbot-fabric-1.19.2-1.5.2.jar",
+          "primary": true,
+          "size": 29904714
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "jv24tXIe",
+      "name": "AstralBot 1.5.2 Fabric 1.20.1",
+      "version_number": "1.5.2-mc1.20.1-fabric",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e12ec232bb8b20d205cfb2a35c629600a659e04798aa9dee8b13c09ee605b21df13a45d4e98ebe13fcc180ce2c4446e90de0974e1688983e61eaf825bbe20f3e",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/jv24tXIe/astralbot-fabric-1.20.1-1.5.2.jar",
+          "filename": "astralbot-fabric-1.20.1-1.5.2.jar",
+          "primary": true,
+          "size": 29904954
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -1059,181 +2077,9 @@
       ]
     },
     {
-      "id": "O2XMhTj2",
-      "name": "AstralBot 1.3.0 Fabric",
-      "version_number": "1.3.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4eb2c56d94fcba08121e867e438a65133e75a390635a01c3cfba3d50467cc9fa2e85608301027b4d8f2fd060f37164d15990d303def755c9353d1431a607289d",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/O2XMhTj2/astralbot-fabric-1.18.2-1.3.0.jar",
-          "filename": "astralbot-fabric-1.18.2-1.3.0.jar",
-          "primary": true,
-          "size": 11634364
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LVN9ygNV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ucglHd2v",
-      "name": "AstralBot 1.3.0 Forge",
-      "version_number": "1.3.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "93b65e8173719a1ff49c35b99c5353408d4be81a56c69d70293135ba320f71410d83c40e7b3b195e608eab77627160b80a33537581521cdd83891980a56bda3d",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/ucglHd2v/astralbot-forge-1.18.2-1.3.0.jar",
-          "filename": "astralbot-forge-1.18.2-1.3.0.jar",
-          "primary": true,
-          "size": 11629883
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "cyVXYKd0",
-      "name": "AstralBot 1.3.0 Fabric",
-      "version_number": "1.3.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ca41b3b80b518a8fa74dcb6ce117b4c52f36a132e1a734a0eef39863c358a3ccf12ded49f338da640303a623a6655c29b2d8e97b7b0f30d294716345f2b67348",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/cyVXYKd0/astralbot-fabric-1.19.2-1.3.0.jar",
-          "filename": "astralbot-fabric-1.19.2-1.3.0.jar",
-          "primary": true,
-          "size": 11626025
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LVN9ygNV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "MxOUY2uu",
-      "name": "AstralBot 1.3.0 Forge",
-      "version_number": "1.3.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "9c342591656f0b6bd2d556b894abb9617456aad8bab0fd348e89627fb8e9b6033cf7574032880c6f77955bc411db24efbaea969f2ffc66bd09f8a248c345995f",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/MxOUY2uu/astralbot-forge-1.19.2-1.3.0.jar",
-          "filename": "astralbot-forge-1.19.2-1.3.0.jar",
-          "primary": true,
-          "size": 11629271
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "5z0jjk7Q",
-      "name": "AstralBot 1.3.0 Fabric",
-      "version_number": "1.3.0",
+      "id": "lfcWmYTR",
+      "name": "AstralBot 1.4.0 Fabric 1.20.1",
+      "version_number": "1.4.0-mc1.20.1-fabric",
       "game_versions": [
         "1.20.1"
       ],
@@ -1242,11 +2088,18 @@
       ],
       "files": [
         {
-          "sha512": "c17d34e10a1c7d27b73dad48a5210391c141e9028df5e33be5cded4a94b46c277c2a791208bf0297137e94fe3adb73025bf35dcb24c45b00f6d4c6aefe951e9e",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/5z0jjk7Q/astralbot-fabric-1.20.1-1.3.0.jar",
-          "filename": "astralbot-fabric-1.20.1-1.3.0.jar",
+          "sha512": "accc7dbcd793d8a9ff8f04e1ff6aba9cbea1f435b22cff722bb54c9d31c2f79cafb81777b35b4e49e6710b848c5944d38a521963634e3db5ae557310340c0af0",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/lfcWmYTR/astralbot-fabric-1.20.1-1.4.0.jar",
+          "filename": "astralbot-fabric-1.20.1-1.4.0.jar",
           "primary": true,
-          "size": 11626269
+          "size": 24755602
+        },
+        {
+          "sha512": "75b618440fcc834dfae46e76f0f16707c432950ca84c14e21a3a6ba8fbf21af89e161b30bfc1026c4a165a16b1cf2516ecc267871e54fae9be95f49c754582a9",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/lfcWmYTR/astralbot-fabric-1.20.1-1.4.0-sources.jar",
+          "filename": "astralbot-fabric-1.20.1-1.4.0-sources.jar",
+          "primary": false,
+          "size": 2788
         }
       ],
       "dependencies": [
@@ -1260,242 +2113,8 @@
           "project_id": "GAUIVqEJ",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "embedded"
         },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LVN9ygNV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "h8DPUef7",
-      "name": "AstralBot 1.3.0 Forge",
-      "version_number": "1.3.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e566143b7ba5006035caa60d1f573f36744628c85a60f924a72bd4e24e3637be6f144684461e2a921bc7f82f910daa505bd6c000894804a98232139dbce7da41",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/h8DPUef7/astralbot-forge-1.20.1-1.3.0.jar",
-          "filename": "astralbot-forge-1.20.1-1.3.0.jar",
-          "primary": true,
-          "size": 11629482
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "YrbpqQsz",
-      "name": "AstralBot 1.2.1 Fabric",
-      "version_number": "1.2.1",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "505a23e78e924102f6c6bf8aff8e917bb52193bfd208a1956c447924b605ce05d9a3f34051edcad9f373f244dc34717911e0e6fd7cf784eeb0891d03c4fd3321",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/YrbpqQsz/astralbot-fabric-1.19.2-1.2.1.jar",
-          "filename": "astralbot-fabric-1.19.2-1.2.1.jar",
-          "primary": true,
-          "size": 11308336
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LVN9ygNV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "uwuuQwxY",
-      "name": "AstralBot 1.2.1 Fabric",
-      "version_number": "1.2.1",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "bafc842e6feae6681013bc0074191774aeca768eb0e91f2dd9e625327fc2197a08d7a0431ca48cc5d5277501e7d85e323c91617d295885bc557bd283eac9656f",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/uwuuQwxY/astralbot-fabric-1.18.2-1.2.1.jar",
-          "filename": "astralbot-fabric-1.18.2-1.2.1.jar",
-          "primary": true,
-          "size": 11316665
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "LVN9ygNV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "1TNFGBYG",
-      "name": "AstralBot 1.2.1 Forge",
-      "version_number": "1.2.1",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "3c1cb6a6aa0297f64217bf1cbb5d8e69a9be8865977b1b27d0dc3c83fb7f7452e409438167f2672e3497b9f5a44402d5fcb26395869b6bd04644d48d2e90d2df",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/1TNFGBYG/astralbot-forge-1.19.2-1.2.1.jar",
-          "filename": "astralbot-forge-1.19.2-1.2.1.jar",
-          "primary": true,
-          "size": 11311252
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "fGzlTkfS",
-      "name": "AstralBot 1.2.1 Forge",
-      "version_number": "1.2.1",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "6beaf744c3621babf2f7670bc70f57e090e0d18eae8150332ceb1d3dfd294dcb4bc588d8c594416ae118de3ea1e49efef163653efa78ffb673df4bf905d4edcc",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/fGzlTkfS/astralbot-forge-1.18.2-1.2.1.jar",
-          "filename": "astralbot-forge-1.18.2-1.2.1.jar",
-          "primary": true,
-          "size": 11311911
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "b6NI4ViO",
-      "name": "AstralBot 1.2.1 Fabric",
-      "version_number": "1.2.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "38fcaa645565bfda2bbbd81ae403c8d8bdaa96a521d655f1af62cf153ddad7bedbc606c13a4badbdefdb714f8b1420470a3140bebea804663902e21898118e33",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/b6NI4ViO/astralbot-fabric-1.20.1-1.2.1.jar",
-          "filename": "astralbot-fabric-1.20.1-1.2.1.jar",
-          "primary": true,
-          "size": 11308578
-        }
-      ],
-      "dependencies": [
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
@@ -1507,178 +2126,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "LVN9ygNV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "QawoByhE",
-      "name": "AstralBot 1.2.1 Forge",
-      "version_number": "1.2.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e8c2e82568c6c833943a18acb12b660b9adbbc9793b457b5732c73e4901a531400e933071f5bd610127595c4f214c9706db8d3d82e988cf9e6f72c7b644c17e7",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/QawoByhE/astralbot-forge-1.20.1-1.2.1.jar",
-          "filename": "astralbot-forge-1.20.1-1.2.1.jar",
-          "primary": true,
-          "size": 11311503
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "MvbErwze",
-      "name": "AstralBot 1.2.0 Fabric",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "08f8d842a4fa8c76e4b1275d1af8d114c8a35fdeffc9b2a853c26c879f6fc633239b99b710396ff1ece70edb1cf5948549c9029edc9e5277b57a76d81bddf8c0",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/MvbErwze/astralbot-fabric-1.19.2-1.2.0.jar",
-          "filename": "astralbot-fabric-1.19.2-1.2.0.jar",
-          "primary": true,
-          "size": 11272767
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LVN9ygNV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Vbopr0BI",
-      "name": "AstralBot 1.2.0 Forge",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "2e6854780670371614e483fb3e10a3fe4367369aa9b65ac98650b8d2b8bc15d2590256002b84ab0282e6b5376b5ad688e79851b2bc68dbdc52408f99d4ceceeb",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/Vbopr0BI/astralbot-forge-1.19.2-1.2.0.jar",
-          "filename": "astralbot-forge-1.19.2-1.2.0.jar",
-          "primary": true,
-          "size": 11275684
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "9vTHEv9c",
-      "name": "AstralBot 1.2.0 Fabric",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "12c8c9714c8a45bcdcbd8b7aca1be23380ce24802bd0dd753a2d9bcded3ff282ad11ae88f1519a36ef37b3450755514485e8f39bd352731fbde6cd756503b9cd",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/9vTHEv9c/astralbot-fabric-1.18.2-1.2.0.jar",
-          "filename": "astralbot-fabric-1.18.2-1.2.0.jar",
-          "primary": true,
-          "size": 11281092
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LVN9ygNV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -1703,13 +2150,59 @@
       ],
       "dependencies": [
         {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "GAUIVqEJ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "ns6SvfQU",
+      "name": "AstralBot 1.5.0 Fabric 1.20.4",
+      "version_number": "1.5.0-mc1.20.4-fabric",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9b211a2ea1eef83c51d880ae3a2533b368b44cb3349f8ccae0b57081211d335665f839896fd725b76caaa6c10dddae7f6adab63ec14e7a43b660959cfdc71c5b",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/ns6SvfQU/astralbot-fabric-1.20.4-1.5.0.jar",
+          "filename": "astralbot-fabric-1.20.4-1.5.0.jar",
+          "primary": true,
+          "size": 29875834
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
-          "project_id": "ordsPcFz",
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -1717,33 +2210,27 @@
       ]
     },
     {
-      "id": "tLtQOlzm",
-      "name": "AstralBot 1.2.0 Fabric",
-      "version_number": "1.2.0",
+      "id": "ombwjvbE",
+      "name": "AstralBot 1.5.1 Fabric 1.18.2",
+      "version_number": "1.5.1-mc1.18.2-fabric",
       "game_versions": [
-        "1.20.1"
+        "1.18.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "d8ce5c66b6ff4f7b2eedc9bd4c46406cfdb8fc85f523b1930fdc3ea118bf4034e09e30c57edbadd0935742ce5fa6d24175b318310c91c53e8c4d12d758fd160e",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/tLtQOlzm/astralbot-fabric-1.20.1-1.2.0.jar",
-          "filename": "astralbot-fabric-1.20.1-1.2.0.jar",
+          "sha512": "e843dd21adb5fea97b9a2d0ad737879c788eaf59ae167283861f9131d5e731b9db3680f0d5307c3f8d4595bc001ff1a530de234de6268adb505dfa9a1ad097b3",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/ombwjvbE/astralbot-fabric-1.18.2-1.5.1.jar",
+          "filename": "astralbot-fabric-1.18.2-1.5.1.jar",
           "primary": true,
-          "size": 11273004
+          "size": 29913015
         }
       ],
       "dependencies": [
         {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "Ha28R6CL",
+          "project_id": "ohNO6lps",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -1755,204 +2242,6 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "LVN9ygNV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "LqPAQd39",
-      "name": "AstralBot 1.2.0 Forge",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "224f0fd29baa337f649bd6e5e2a55e3e182500cab664bcb5b842b5d1373fde7e2e68b13c16d3a4b5a04c6e85baebfe241f6a6da6171d5d632e0fbe84302b0fce",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/LqPAQd39/astralbot-forge-1.20.1-1.2.0.jar",
-          "filename": "astralbot-forge-1.20.1-1.2.0.jar",
-          "primary": true,
-          "size": 11275931
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "BZzGAJcJ",
-      "name": "AstralBot 1.1.0 Forge 1.20.1",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "738fb09f570049c2086a3753eb8dc363a07928638f91b3ccc61ec0b64b90fd006e144731d7f2e6d3ceb58ec2ee5503cc9f3f1f5835fd21eb1b8125001581c40f",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/BZzGAJcJ/astralbot-forge-1.20.1-1.1.0.jar",
-          "filename": "astralbot-forge-1.20.1-1.1.0.jar",
-          "primary": true,
-          "size": 11195875
-        },
-        {
-          "sha512": "072873ee0eb72afa55a0706a7402e3a5ae8a7d66e1a9931e013d68bef470ea14729c01a0da73b0562b03af3203c466cf63586189b4db7fa4a2168eda94d58bfd",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/BZzGAJcJ/astralbot-forge-1.20.1-1.1.0-sources.jar",
-          "filename": "astralbot-forge-1.20.1-1.1.0-sources.jar",
-          "primary": false,
-          "size": 5058
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "PQtGA23E",
-      "name": "AstralBot 1.1.0 Forge 1.19.2",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "7f8712050aee51d702858913af354c6bd1fb404267e986ad0ec3988ba6516031d9202406dbc34ccca7ca24ef5b3731eedabe1fe172ade8cb67fcc28169c50ea8",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/PQtGA23E/astralbot-forge-1.19.2-1.1.0.jar",
-          "filename": "astralbot-forge-1.19.2-1.1.0.jar",
-          "primary": true,
-          "size": 11195877
-        },
-        {
-          "sha512": "5865abafbc3ac5cd2e79ee75489af3c38a468a3f87c85ab092a0ea2a20efc9184e58cfd1301168184d520be18f87b6074f0b10a454f397d90c17251cba8a43e0",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/PQtGA23E/astralbot-forge-1.19.2-1.1.0-sources.jar",
-          "filename": "astralbot-forge-1.19.2-1.1.0-sources.jar",
-          "primary": false,
-          "size": 5058
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "vWnrM4d3",
-      "name": "AstralBot 1.1.0 Forge 1.18.2",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "9a10aa722c296de9e0c0264d06d6cda30ce9852002cc9812ce35c2c169187987d293acc8c52af2849f4021658a26e1631b8c4c02b32d8f01ef3f1add8213d796",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/vWnrM4d3/astralbot-forge-1.18.2-1.1.0.jar",
-          "filename": "astralbot-forge-1.18.2-1.1.0.jar",
-          "primary": true,
-          "size": 11196493
-        },
-        {
-          "sha512": "a1bfee9ff38d99bb3496a3cc95cc497b4cf0be053c119ad2eecec09ee2b4bed892325ecbb99f49eb3351c7714be1a9173649a5e3c688639f5026e97def64959b",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/vWnrM4d3/astralbot-forge-1.18.2-1.1.0-sources.jar",
-          "filename": "astralbot-forge-1.18.2-1.1.0-sources.jar",
-          "primary": false,
-          "size": 5171
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "e2dmHOzk",
-      "name": "AstralBot 1.1.0 Fabric 1.20.1",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c45641de69c18417448cb68ccb7171d71eafa8ac98328cb48fec152634c159c45cf4d52454a5969d9f0445d702d4e15438c24cdfb2ff0c0055be7b100530e4a8",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/e2dmHOzk/astralbot-fabric-1.20.1-1.1.0.jar",
-          "filename": "astralbot-fabric-1.20.1-1.1.0.jar",
-          "primary": true,
-          "size": 11192970
-        },
-        {
-          "sha512": "76da322ba87b1a03a690353ebe0db212d202a492973fc3f3599df332d4045ced8ce2dea7c90d54912b5b4fe649e064410a87e4673156c94d45362c05a8212279",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/e2dmHOzk/astralbot-fabric-1.20.1-1.1.0-sources.jar",
-          "filename": "astralbot-fabric-1.20.1-1.1.0-sources.jar",
-          "primary": false,
-          "size": 3133
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "LVN9ygNV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "Ha28R6CL",
           "version_id": null,
           "file_name": null,
@@ -1962,66 +2251,7 @@
           "project_id": "GAUIVqEJ",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "eeGGOWIb",
-      "name": "AstralBot 1.1.0 Fabric 1.19.2",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "86ab31b444f37e0a7ba48e576abad754c56773e331c24849b200ebf755211b467aaa3f92d2179123c2037b9598bf335c67a53bddbff6293a8877f821512ededd",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/eeGGOWIb/astralbot-fabric-1.19.2-1.1.0.jar",
-          "filename": "astralbot-fabric-1.19.2-1.1.0.jar",
-          "primary": true,
-          "size": 11192974
-        },
-        {
-          "sha512": "35a6198e71d7282bd5b1aa132179cc4d4927bd6d5460dedb38a809cb8d98cd13239cf1c862caa37872675d120291dd055adb0a08db1e14e4c2bf5a7f49fae8a7",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/eeGGOWIb/astralbot-fabric-1.19.2-1.1.0-sources.jar",
-          "filename": "astralbot-fabric-1.19.2-1.1.0-sources.jar",
-          "primary": false,
-          "size": 3093
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LVN9ygNV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "embedded"
         }
       ]
     },
@@ -2059,59 +2289,6 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LVN9ygNV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "JTOtyr7i",
-      "name": "AstralBot 1.0.2 Fabric 1.19.2",
-      "version_number": "1.0.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "5d4f1a071ec8adcbd6cb8ec92e470642d7ab79ac3e4a62f3a7f0624a1712bed93c548b65eb646b3a842b8b35732bf85c5e37f60788a77dbe4ba28ab4521e0a08",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/JTOtyr7i/astralbot-fabric-1.19.2-1.0.2.jar",
-          "filename": "astralbot-fabric-1.19.2-1.0.2.jar",
-          "primary": true,
-          "size": 11320040
-        },
-        {
-          "sha512": "099f7c21df489d9364947499d91f11b249318e552235852dffafcc6460340912a461fdbc6985c103ad103174080ae2190072aca1f999900d34634aa15e063ec7",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/JTOtyr7i/astralbot-fabric-1.19.2-1.0.2-sources.jar",
-          "filename": "astralbot-fabric-1.19.2-1.0.2-sources.jar",
-          "primary": false,
-          "size": 2645
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "LVN9ygNV",
           "version_id": null,
           "file_name": null,
@@ -2132,185 +2309,9 @@
       ]
     },
     {
-      "id": "XGUV9uHR",
-      "name": "AstralBot 1.0.2 Forge 1.19.2",
-      "version_number": "1.0.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "73ffcd9922b38805ebdff5a59793421b34406db3d5a30d720d540999e5c1912c0b0975da58a3246c49bd728b76fdbba09997f0507c3b20a401ff7e7e169fa29d",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/XGUV9uHR/astralbot-forge-1.19.2-1.0.2.jar",
-          "filename": "astralbot-forge-1.19.2-1.0.2.jar",
-          "primary": true,
-          "size": 11323084
-        },
-        {
-          "sha512": "73ee7e646f3aae3bec568c717c0d15ae250f3bc3e51a9e1546193213ba04e2aa477bd708b0717ee6361678339aed97b25b204d44ecff135e6c3c08f7abf30135",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/XGUV9uHR/astralbot-forge-1.19.2-1.0.2-sources.jar",
-          "filename": "astralbot-forge-1.19.2-1.0.2-sources.jar",
-          "primary": false,
-          "size": 4322
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "1OreY7lz",
-      "name": "AstralBot 1.0.2 Forge 1.18.2",
-      "version_number": "1.0.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "1c3ec1ecb5e6e2e9589d8bcdf8192fa090f59fc7f26ba64e39a124edc2f549c7a97d042091a302ab45b51e90851e3920218b9ef640458dcb0cc9669895b2de51",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/1OreY7lz/astralbot-forge-1.18.2-1.0.2.jar",
-          "filename": "astralbot-forge-1.18.2-1.0.2.jar",
-          "primary": true,
-          "size": 11314365
-        },
-        {
-          "sha512": "9d6d06735a2ef2b70cbbe1e3cb616d4e7af6824df758c2b07a718320c759d4c3a7df389bb88b2528e9f7112e65f9cf607555b9c5f72ace868a23adb83f8b0867",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/1OreY7lz/astralbot-forge-1.18.2-1.0.2-sources.jar",
-          "filename": "astralbot-forge-1.18.2-1.0.2-sources.jar",
-          "primary": false,
-          "size": 4438
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "M2f9757Q",
-      "name": "AstralBot 1.0.2 Forge 1.20.1",
-      "version_number": "1.0.2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e9b41d6c86593fa247289f7d40aa7f6fd2d9187b4c6a1d622ea7b0a09f727f94d962719d7c202c54abbbceb17be7ff9304b3bf381a170298c3d9da84420b5a3c",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/M2f9757Q/astralbot-forge-1.20.1-1.0.2.jar",
-          "filename": "astralbot-forge-1.20.1-1.0.2.jar",
-          "primary": true,
-          "size": 11313756
-        },
-        {
-          "sha512": "bb4b2da71564c0d47dc86868521e6532145c9b21611cdd242109db3d21130a80f4b096e54368170b294822825784700926059ce573ba7264988190195ef0ad4f",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/M2f9757Q/astralbot-forge-1.20.1-1.0.2-sources.jar",
-          "filename": "astralbot-forge-1.20.1-1.0.2-sources.jar",
-          "primary": false,
-          "size": 4324
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "JXabSs5g",
-      "name": "AstralBot 1.0.2 Fabric 1.18.2",
-      "version_number": "1.0.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d075fc268977c94453d761604215a1f5673b11f10d42e51628490f46caf473b3ccf08897b63b2235a08ffa7a0cde4690c57a5fe06c29880d22c7923d6cca26e2",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/JXabSs5g/astralbot-fabric-1.18.2-1.0.2.jar",
-          "filename": "astralbot-fabric-1.18.2-1.0.2.jar",
-          "primary": true,
-          "size": 11319240
-        },
-        {
-          "sha512": "251531fdf0bb3205a165906a0bf42d5a8457957ad31752f05f6a7563fb70cfbb39b40eb18b64de1ba0142bff8d298ac93b78321d5a95caafacd1e7c72f1b44bd",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/JXabSs5g/astralbot-fabric-1.18.2-1.0.2-sources.jar",
-          "filename": "astralbot-fabric-1.18.2-1.0.2-sources.jar",
-          "primary": false,
-          "size": 5338
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "LVN9ygNV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "4rWVQiji",
-      "name": "AstralBot 1.0.2 Fabric 1.20.1",
-      "version_number": "1.0.2",
+      "id": "tLtQOlzm",
+      "name": "AstralBot 1.2.0 Fabric",
+      "version_number": "1.2.0",
       "game_versions": [
         "1.20.1"
       ],
@@ -2319,26 +2320,19 @@
       ],
       "files": [
         {
-          "sha512": "91f6485c2529703cfc1d51cd4afad315e86e215fa71031fbf73c7eef503398c81205be5efa9a42cbd49bd9fbc19aa4574146135ba35c73181ef6478e754be09c",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/4rWVQiji/astralbot-fabric-1.20.1-1.0.2.jar",
-          "filename": "astralbot-fabric-1.20.1-1.0.2.jar",
+          "sha512": "d8ce5c66b6ff4f7b2eedc9bd4c46406cfdb8fc85f523b1930fdc3ea118bf4034e09e30c57edbadd0935742ce5fa6d24175b318310c91c53e8c4d12d758fd160e",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/tLtQOlzm/astralbot-fabric-1.20.1-1.2.0.jar",
+          "filename": "astralbot-fabric-1.20.1-1.2.0.jar",
           "primary": true,
-          "size": 11310707
-        },
-        {
-          "sha512": "fae84915a2de2d1f7129c1c0e8c57f520d4d28ac4e1ee84a8b69e0539efa76acdb90561514bbda03ad93e8ac9861c164e1e2871e7491bc70808760c2f16b6cef",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/4rWVQiji/astralbot-fabric-1.20.1-1.0.2-sources.jar",
-          "filename": "astralbot-fabric-1.20.1-1.0.2-sources.jar",
-          "primary": false,
-          "size": 2686
+          "size": 11273004
         }
       ],
       "dependencies": [
         {
-          "project_id": "ohNO6lps",
+          "project_id": "GAUIVqEJ",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         },
         {
           "project_id": "Ha28R6CL",
@@ -2353,17 +2347,17 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "GAUIVqEJ",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "yhrYPqhj",
-      "name": "AstralBot 1.0.1 Forge 1.18.2",
-      "version_number": "1.0.1",
+      "id": "uAPDDmgS",
+      "name": "AstralBot 1.5.1 Forge 1.18.2",
+      "version_number": "1.5.1-mc1.18.2-forge",
       "game_versions": [
         "1.18.2"
       ],
@@ -2372,80 +2366,66 @@
       ],
       "files": [
         {
-          "sha512": "7dbc99e4c7c0ffdf349d7d38abf20eb521618ef20a6f37586f92ed6a369955d61873accc6cb8cdb990d843db49e89abaaf75ff13b8962ddee2047cab549e3507",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/yhrYPqhj/astralbot-forge-1.18.2-1.0.1.jar",
-          "filename": "astralbot-forge-1.18.2-1.0.1.jar",
+          "sha512": "b151533d16c1246015028a2d03eadfca8a7338dd3434970cf8c0b8fc29f00de48b5938f23ab7c67fe3d4a32c4e325e64458277e1797e5c75e2c50696e4b57211",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/uAPDDmgS/astralbot-forge-1.18.2-1.5.1.jar",
+          "filename": "astralbot-forge-1.18.2-1.5.1.jar",
           "primary": true,
-          "size": 11234494
-        },
-        {
-          "sha512": "962b2e486514fa5f9651bccbf5cc6fa7d0a4365fc27789867290c465063d595681cc248529cc91cfe38c76e295a4adf6ac74db5688a281fd53f962d09f3469d6",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/yhrYPqhj/astralbot-forge-1.18.2-1.0.1-sources.jar",
-          "filename": "astralbot-forge-1.18.2-1.0.1-sources.jar",
-          "primary": false,
-          "size": 4438
+          "size": 29909619
         }
       ],
       "dependencies": [
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
         {
           "project_id": "ordsPcFz",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "EqohcgQE",
-      "name": "AstralBot 1.0.1 Forge 1.20.1",
-      "version_number": "1.0.1",
+      "id": "ucglHd2v",
+      "name": "AstralBot 1.3.0 Forge",
+      "version_number": "1.3.0",
       "game_versions": [
-        "1.20.1"
+        "1.18.2"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "5822a795fdf2cf935c2caae32eb59e56b20c5b69a0a7103c7428213a638f2ec9d07fe8ee2cc8f7e06f48ebc98c0cdd3fc31172282d61b3dbf11f867c913641d3",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/EqohcgQE/astralbot-forge-1.20.1-1.0.1.jar",
-          "filename": "astralbot-forge-1.20.1-1.0.1.jar",
+          "sha512": "93b65e8173719a1ff49c35b99c5353408d4be81a56c69d70293135ba320f71410d83c40e7b3b195e608eab77627160b80a33537581521cdd83891980a56bda3d",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/ucglHd2v/astralbot-forge-1.18.2-1.3.0.jar",
+          "filename": "astralbot-forge-1.18.2-1.3.0.jar",
           "primary": true,
-          "size": 11233885
-        },
-        {
-          "sha512": "268486e1a1240e3f83d6733cdb029caf8ec7a428a6697c4b1fbc756d542c8785b30bb3360a098c20576c49f90ac0301eb897d2ecbf3b5f4cdd414c80a8464c23",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/EqohcgQE/astralbot-forge-1.20.1-1.0.1-sources.jar",
-          "filename": "astralbot-forge-1.20.1-1.0.1-sources.jar",
-          "primary": false,
-          "size": 4324
+          "size": 11629883
         }
       ],
       "dependencies": [
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
         {
           "project_id": "ordsPcFz",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "gk9PFi7M",
-      "name": "AstralBot 1.0.1 Fabric 1.18.2",
-      "version_number": "1.0.1",
+      "id": "uwuuQwxY",
+      "name": "AstralBot 1.2.1 Fabric",
+      "version_number": "1.2.1",
       "game_versions": [
         "1.18.2"
       ],
@@ -2454,127 +2434,20 @@
       ],
       "files": [
         {
-          "sha512": "288a6c314d6844bea84d3d78db45e3c3fd81a7c8d9b43dfe8365b38b21727e0446d76d16e3c26f784d48427090211e888a18033dbf08f75fa3de606299854c2a",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/gk9PFi7M/astralbot-fabric-1.18.2-1.0.1.jar",
-          "filename": "astralbot-fabric-1.18.2-1.0.1.jar",
+          "sha512": "bafc842e6feae6681013bc0074191774aeca768eb0e91f2dd9e625327fc2197a08d7a0431ca48cc5d5277501e7d85e323c91617d295885bc557bd283eac9656f",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/uwuuQwxY/astralbot-fabric-1.18.2-1.2.1.jar",
+          "filename": "astralbot-fabric-1.18.2-1.2.1.jar",
           "primary": true,
-          "size": 11239368
-        },
-        {
-          "sha512": "963faef7f2a73a27a121d4b1fe186c4e88caee207eab7f709962a227672f8591a08b025ba67999ddd501e32dcb185a32858dbf0accb0c09f41bddfaf6e6a11c4",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/gk9PFi7M/astralbot-fabric-1.18.2-1.0.1-sources.jar",
-          "filename": "astralbot-fabric-1.18.2-1.0.1-sources.jar",
-          "primary": false,
-          "size": 5337
+          "size": 11316665
         }
       ],
       "dependencies": [
-        {
-          "project_id": "LVN9ygNV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "Ha28R6CL",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Dbk1tGrR",
-      "name": "AstralBot 1.0.1 Fabric 1.20.1",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b8a4ea4938a5efdb9fe108ad99748b8de6584d77e5b35ae3819f0350c74cab921bc4a415aa9feffc86795896b9834f38cda13ba757bd3985be95b8cd137c6cc6",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/Dbk1tGrR/astralbot-fabric-1.20.1-1.0.1.jar",
-          "filename": "astralbot-fabric-1.20.1-1.0.1.jar",
-          "primary": true,
-          "size": 11230837
-        },
-        {
-          "sha512": "5fbac2354b4b046eaad5725e3345ef1aa0ed3e8230169ce192fed47661e9f0659e3ee1f8f1ae52b57b2c54028a6dbe2bd8047757c1ed7e976f9994e3584fd6d6",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/Dbk1tGrR/astralbot-fabric-1.20.1-1.0.1-sources.jar",
-          "filename": "astralbot-fabric-1.20.1-1.0.1-sources.jar",
-          "primary": false,
-          "size": 2686
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "LVN9ygNV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "GAUIVqEJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "xA2g1yJH",
-      "name": "AstralBot 1.0.0 Fabric 1.18.2",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "757e7933639614691a09038dafde7135b7314037832d761a0393505e103c0b309d47956da476a94b333e2e2201efdac078642e743b74ec9b24daca92d44c5060",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/xA2g1yJH/astralbot-fabric-1.18.2-1.0.0.jar",
-          "filename": "astralbot-fabric-1.18.2-1.0.0.jar",
-          "primary": true,
-          "size": 24268949
-        },
-        {
-          "sha512": "7ad74565a3434e2e337e7bc483511f12297ef40c27196de3ad9f6e879b366ae7d6c83a0000aa37d9ad11f18129067c29a7f4789044d9e128d107afaca2d3f93a",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/xA2g1yJH/astralbot-fabric-1.18.2-1.0.0-sources.jar",
-          "filename": "astralbot-fabric-1.18.2-1.0.0-sources.jar",
-          "primary": false,
-          "size": 5337
-        }
-      ],
-      "dependencies": [
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
@@ -2582,13 +2455,88 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "ohNO6lps",
+          "project_id": "LVN9ygNV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "vQX0wEMu",
+      "name": "AstralBot 1.5.2 Forge 1.18.2",
+      "version_number": "1.5.2-mc1.18.2-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e0971d0ac3b28e9f914b55604954b5fd5c6cccbea6b57892317f16bfe1e27d42ee9b60eaa2629859f2bdbd3cfe37d79829413c45c6d2c3dcfd12d5be3d406123",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/vQX0wEMu/astralbot-forge-1.18.2-1.5.2.jar",
+          "filename": "astralbot-forge-1.18.2-1.5.2.jar",
+          "primary": true,
+          "size": 29909609
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ordsPcFz",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "Ha28R6CL",
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "vWnrM4d3",
+      "name": "AstralBot 1.1.0 Forge 1.18.2",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9a10aa722c296de9e0c0264d06d6cda30ce9852002cc9812ce35c2c169187987d293acc8c52af2849f4021658a26e1631b8c4c02b32d8f01ef3f1add8213d796",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/vWnrM4d3/astralbot-forge-1.18.2-1.1.0.jar",
+          "filename": "astralbot-forge-1.18.2-1.1.0.jar",
+          "primary": true,
+          "size": 11196493
+        },
+        {
+          "sha512": "a1bfee9ff38d99bb3496a3cc95cc497b4cf0be053c119ad2eecec09ee2b4bed892325ecbb99f49eb3351c7714be1a9173649a5e3c688639f5026e97def64959b",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/vWnrM4d3/astralbot-forge-1.18.2-1.1.0-sources.jar",
+          "filename": "astralbot-forge-1.18.2-1.1.0-sources.jar",
+          "primary": false,
+          "size": 5171
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ordsPcFz",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -2631,40 +2579,40 @@
       ]
     },
     {
-      "id": "QxsrR2UO",
-      "name": "AstralBot 1.0.0 Fabric 1.20.1",
+      "id": "xA2g1yJH",
+      "name": "AstralBot 1.0.0 Fabric 1.18.2",
       "version_number": "1.0.0",
       "game_versions": [
-        "1.20.1"
+        "1.18.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "c295a0703a234230beb47160628b286e45579da0a605c93a37bc8997926f1f8f60b393d741740fa3afb4adf02588bb6fb464f4b4e917d596d7732346e788bd64",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/QxsrR2UO/astralbot-fabric-1.20.1-1.0.0.jar",
-          "filename": "astralbot-fabric-1.20.1-1.0.0.jar",
+          "sha512": "757e7933639614691a09038dafde7135b7314037832d761a0393505e103c0b309d47956da476a94b333e2e2201efdac078642e743b74ec9b24daca92d44c5060",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/xA2g1yJH/astralbot-fabric-1.18.2-1.0.0.jar",
+          "filename": "astralbot-fabric-1.18.2-1.0.0.jar",
           "primary": true,
-          "size": 24255335
+          "size": 24268949
         },
         {
-          "sha512": "87b7ec47718d758178e2f943b5d326193b321e99c7c9c31a19d70877bbdaff6f6af2c35cb47891bca06db1a57309e6fc8fd60e3cb249dfdf8dc2a2a40f15ff03",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/QxsrR2UO/astralbot-fabric-1.20.1-1.0.0-sources.jar",
-          "filename": "astralbot-fabric-1.20.1-1.0.0-sources.jar",
+          "sha512": "7ad74565a3434e2e337e7bc483511f12297ef40c27196de3ad9f6e879b366ae7d6c83a0000aa37d9ad11f18129067c29a7f4789044d9e128d107afaca2d3f93a",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/xA2g1yJH/astralbot-fabric-1.18.2-1.0.0-sources.jar",
+          "filename": "astralbot-fabric-1.18.2-1.0.0-sources.jar",
           "primary": false,
-          "size": 2684
+          "size": 5337
         }
       ],
       "dependencies": [
         {
-          "project_id": "Ha28R6CL",
+          "project_id": "ohNO6lps",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "ohNO6lps",
+          "project_id": "Ha28R6CL",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -2678,37 +2626,89 @@
       ]
     },
     {
-      "id": "4VtBQu2S",
-      "name": "AstralBot 1.0.0 Forge 1.20.1",
-      "version_number": "1.0.0",
+      "id": "yhrYPqhj",
+      "name": "AstralBot 1.0.1 Forge 1.18.2",
+      "version_number": "1.0.1",
       "game_versions": [
-        "1.20.1"
+        "1.18.2"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "3e4eada77beb2a26add7a637b835527ef3fcbef6296257993ebc1e9ba1006b32ddd86a5b11cf3f4df771c56434bfdb1ad10c9200308bf8ff078277d9bab5e9a9",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/4VtBQu2S/astralbot-forge-1.20.1-1.0.0.jar",
-          "filename": "astralbot-forge-1.20.1-1.0.0.jar",
+          "sha512": "7dbc99e4c7c0ffdf349d7d38abf20eb521618ef20a6f37586f92ed6a369955d61873accc6cb8cdb990d843db49e89abaaf75ff13b8962ddee2047cab549e3507",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/yhrYPqhj/astralbot-forge-1.18.2-1.0.1.jar",
+          "filename": "astralbot-forge-1.18.2-1.0.1.jar",
           "primary": true,
-          "size": 24258377
+          "size": 11234494
         },
         {
-          "sha512": "96fa6fd3120683bd9fea0c5d87d4f8b171ea2993f222c5c1c1a00070a8c6d8412e37a68bc861badd6b36ba5112092dddb2c46d776225082dd9eae3b06191dd7b",
-          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/4VtBQu2S/astralbot-forge-1.20.1-1.0.0-sources.jar",
-          "filename": "astralbot-forge-1.20.1-1.0.0-sources.jar",
+          "sha512": "962b2e486514fa5f9651bccbf5cc6fa7d0a4365fc27789867290c465063d595681cc248529cc91cfe38c76e295a4adf6ac74db5688a281fd53f962d09f3469d6",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/yhrYPqhj/astralbot-forge-1.18.2-1.0.1-sources.jar",
+          "filename": "astralbot-forge-1.18.2-1.0.1-sources.jar",
           "primary": false,
-          "size": 4324
+          "size": 4438
         }
       ],
       "dependencies": [
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
         {
           "project_id": "ordsPcFz",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "znTklVjx",
+      "name": "AstralBot 1.5.1 Fabric 1.20.1",
+      "version_number": "1.5.1-mc1.20.1-fabric",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f26f7566ab2d59ffa17d2dbd8d19b9644cbf05b502bf81e98339c409e6d7232b58ab26f31814def22feaba59b981664e9b7ded59ec8beb674d522e8c1cf5146f",
+          "url": "https://cdn.modrinth.com/data/NE7Gptcf/versions/znTklVjx/astralbot-fabric-1.20.1-1.5.1.jar",
+          "filename": "astralbot-fabric-1.20.1-1.5.1.jar",
+          "primary": true,
+          "size": 29904963
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "GAUIVqEJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
     }

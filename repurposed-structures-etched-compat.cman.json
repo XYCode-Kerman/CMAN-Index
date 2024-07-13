@@ -1,9 +1,43 @@
 {
-  "id": "repurposed-structures-etched-compat",
+  "id": "3gQXrsPx",
   "slug": "repurposed-structures-etched-compat",
   "name": "Repurposed Structures - Etched Compat",
   "description": "Get musical in RS Villages with Etched on!",
   "versions": [
+    {
+      "id": "Mu5hZEqJ",
+      "name": "3",
+      "version_number": "3",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "0ce55de56cf29fa3f67d8a873a9d89b3dd7cd8166bd38974a993e189e1b45b05bda77534e25bbd4a52bc8ada1a913fa0a18fa57b7071f92128dd60afbdae8327",
+          "url": "https://cdn.modrinth.com/data/3gQXrsPx/versions/Mu5hZEqJ/Repurposed_Structures-Etched_v3.zip",
+          "filename": "Repurposed_Structures-Etched_v3.zip",
+          "primary": true,
+          "size": 40367
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "QDNS5oAT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "muf0XoRe",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
     {
       "id": "jgtJ9gOx",
       "name": "4",
@@ -22,25 +56,19 @@
           "primary": true,
           "size": 50248
         }
-      ]
-    },
-    {
-      "id": "Mu5hZEqJ",
-      "name": "3",
-      "version_number": "3",
-      "game_versions": [
-        "1.19.2"
       ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "0ce55de56cf29fa3f67d8a873a9d89b3dd7cd8166bd38974a993e189e1b45b05bda77534e25bbd4a52bc8ada1a913fa0a18fa57b7071f92128dd60afbdae8327",
-          "url": "https://cdn.modrinth.com/data/3gQXrsPx/versions/Mu5hZEqJ/Repurposed_Structures-Etched_v3.zip",
-          "filename": "Repurposed_Structures-Etched_v3.zip",
-          "primary": true,
-          "size": 40367
+          "project_id": "muf0XoRe",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "QDNS5oAT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -62,6 +90,14 @@
           "primary": true,
           "size": 37596
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "QDNS5oAT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -81,6 +117,14 @@
           "filename": "Repurposed_Structures-Etched_Forge.zip",
           "primary": true,
           "size": 35223
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "QDNS5oAT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

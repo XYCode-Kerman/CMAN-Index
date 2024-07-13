@@ -5,98 +5,6 @@
   "description": "Adds culling to leaf blocks, providing a huge performance boost over vanilla.",
   "versions": [
     {
-      "id": "qnt6fK9f",
-      "name": "CullLeaves v3.4.0 - NeoForge 1.21",
-      "version_number": "3.4.0-neoforge",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "87af44b9e7f03c291a7e9e09116e2e66ff446b61bd0093f920f292889d2496f8d8a9e29e9ce154843d10cfa60c5c67af8e98dcdec1d2f6a09a0995bcc441aae2",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/qnt6fK9f/cullleaves-neoforge-3.4.0.jar",
-          "filename": "cullleaves-neoforge-3.4.0.jar",
-          "primary": true,
-          "size": 34758
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "JnCn3KSm",
-      "name": "CullLeaves v3.4.0 - Fabric 1.21",
-      "version_number": "3.4.0-fabric",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "c87373db698dad8d774d66eb844e2efb0fc41884ca8e03fa1cb26eb752c6614ab0c88951cc34f1a10ffb59bfba69c22f69d7bf92d150130353ad2dffa5e6e297",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/JnCn3KSm/cullleaves-fabric-3.4.0.jar",
-          "filename": "cullleaves-fabric-3.4.0.jar",
-          "primary": true,
-          "size": 75285
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "OgI2Yf72",
-      "name": "CullLeaves v3.3.0 - Fabric 1.20.4",
-      "version_number": "3.3.0-fabric",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6f337fe6636956386eb61f1fb27805c9e7ac1c9172d2c2dac3314ba45c016703957492ab5d55b38dcfe9e71b8d68218fccb9f694c9ef78a0604f9127941455c4",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/OgI2Yf72/cullleaves-fabric-3.3.0.jar",
-          "filename": "cullleaves-fabric-3.3.0.jar",
-          "primary": true,
-          "size": 70755
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "codAaoxh",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
       "id": "2Evn7EQY",
       "name": "CullLeaves v3.3.0 - NeoForge 1.20.4",
       "version_number": "3.3.0-neoforge",
@@ -113,93 +21,6 @@
           "filename": "cullleaves-neoforge-3.3.0.jar",
           "primary": true,
           "size": 34170
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "vGCKmen2",
-      "name": "Cull Leaves 3.2.0 - Quilt 1.20+",
-      "version_number": "3.2.0-quilt",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "357214a1e4f4b303f38265b330dc5336ca581c588085be795c102ceb2f9a4da7b65ef11f96d1ad6617040f0eb1aaf76d61d049e00c06dbe94900fd1deb41d4a3",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/vGCKmen2/cullleaves-quilt-3.2.0.jar",
-          "filename": "cullleaves-quilt-3.2.0.jar",
-          "primary": true,
-          "size": 75079
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "3rzOQJrq",
-      "name": "Cull Leaves 3.2.0 - Fabric 1.20+",
-      "version_number": "3.2.0-fabric",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a58ae6f484dec0e88e09e449a76ba0489b2535d2b330e714ba803e6c08dba2601edc851635058b129fdd78149dc8d8221bd767141bfd55546310065a0c61f4f5",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/3rzOQJrq/cullleaves-fabric-3.2.0.jar",
-          "filename": "cullleaves-fabric-3.2.0.jar",
-          "primary": true,
-          "size": 75072
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "VvIpk7Qs",
-      "name": "Cull Leaves 3.2.0 - Forge 1.20+",
-      "version_number": "3.2.0-forge",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "c4cd7c71745c29ccaad924256f4711e4f76f19bc31b31fd0336cd88d46fb9b3e3a12f71f149049b7619d1902f1108f93e00572ca7ecb090cddfa01fff3837f81",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/VvIpk7Qs/cullleaves-forge-3.2.0.jar",
-          "filename": "cullleaves-forge-3.2.0.jar",
-          "primary": true,
-          "size": 35354
         }
       ],
       "dependencies": [
@@ -241,439 +62,33 @@
       ]
     },
     {
-      "id": "EboqCOZq",
-      "name": "CullLeaves 3.1.0 - Quilt 1.20+",
-      "version_number": "3.1.0-quilt",
+      "id": "3rzOQJrq",
+      "name": "Cull Leaves 3.2.0 - Fabric 1.20+",
+      "version_number": "3.2.0-fabric",
       "game_versions": [
         "1.20",
         "1.20.1"
       ],
       "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f084bb4a1cf7bff40b6e34f31898f33f867bc8cb2cf813c997a91ec59d8058cdb8ef7437c28b3544f10237bd11a7c8c418e3cf730e27d002395b379c6e394c6d",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/EboqCOZq/cullleaves-quilt-3.1.0.jar",
-          "filename": "cullleaves-quilt-3.1.0.jar",
-          "primary": true,
-          "size": 75496
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": "3YykTkmJ",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "RaoQqzUR",
-      "name": "CullLeaves 3.1.0 - Forge 1.20+",
-      "version_number": "3.1.0-forge",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e77d8e0f1481a7e986d2f2e0aec03549bba5d2e96bcf434c66423399dac0a8e408766b760d058c3c664cf70808ea4593fc543a3141d3deae382ebd4c66afd3a5",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/RaoQqzUR/cullleaves-forge-3.1.0.jar",
-          "filename": "cullleaves-forge-3.1.0.jar",
-          "primary": true,
-          "size": 35738
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": "MsATpcA9",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "jAdt9S90",
-      "name": "CullLeaves 3.0.3 - Fabric 1.19.3",
-      "version_number": "3.0.3-fabric",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "82abd420efdb184364598c6e5814a35eff3359565b2552ceef5fbfb3885cea4158374ed703a986c8df5ed5b0a5f499936ba483c85e3aaee14cf10f86f72f84b9",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/jAdt9S90/cullleaves-fabric-3.0.3.jar",
-          "filename": "cullleaves-fabric-3.0.3.jar",
+          "sha512": "a58ae6f484dec0e88e09e449a76ba0489b2535d2b330e714ba803e6c08dba2601edc851635058b129fdd78149dc8d8221bd767141bfd55546310065a0c61f4f5",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/3rzOQJrq/cullleaves-fabric-3.2.0.jar",
+          "filename": "cullleaves-fabric-3.2.0.jar",
           "primary": true,
-          "size": 82669
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "codAaoxh",
-          "version_id": "61U935Ys",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "DK6h46LO",
-      "name": "CullLeaves 3.0.3 - Quilt 1.19.3",
-      "version_number": "3.0.3-quilt",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "a469a05130bc748bfd8693e7535adaf6f154b6b4c234edbaf3ccaf194dc390e9749be56f781a2492d4af4987ee4420d477fb245add8be51a820851794e06cee5",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/DK6h46LO/cullleaves-quilt-3.0.3.jar",
-          "filename": "cullleaves-quilt-3.0.3.jar",
-          "primary": true,
-          "size": 82731
+          "size": 75072
         }
       ],
       "dependencies": [
         {
           "project_id": "codAaoxh",
-          "version_id": "e50cGA1L",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "ZUB07xly",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "lCHUsf1r",
-      "name": "CullLeaves 3.0.2 - Fabric 1.19.3",
-      "version_number": "3.0.2-fabric",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "62928869d9439637728ff146e1e852b32db4b3b2c123e6f19cc5703921c28fc91183c44ac0cdf92f22f51fe3658ca203fbd7e1cea67cb36622179a7131aacb9e",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/lCHUsf1r/cullleaves-fabric-3.0.2.jar",
-          "filename": "cullleaves-fabric-3.0.2.jar",
-          "primary": true,
-          "size": 81471
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": "61U935Ys",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
         }
       ]
-    },
-    {
-      "id": "N0IiuOd4",
-      "name": "CullLeaves 3.0.2 - Quilt 1.19.3",
-      "version_number": "3.0.2-quilt",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "7cf38a5b9b433240558b25e380849eea1f60024585c5152460c667f2a4a93ecf35ad4241c3fc60c0366d593f6ca36fef6d6a658aa333492159b38036f0102245",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/N0IiuOd4/cullleaves-quilt-3.0.2.jar",
-          "filename": "cullleaves-quilt-3.0.2.jar",
-          "primary": true,
-          "size": 81513
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": "e50cGA1L",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "G8pojeWM",
-      "name": "CullLeaves 3.0.2 - Forge 1.19.3",
-      "version_number": "3.0.2-forge",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e5e128143976f4596ff5d9ef22c32deb59865c1f8caa7ec3374ede20d9487a8272e58a9571a039ed52867e9d258c50fc968b1ab392269642db841d90d3252bf0",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/G8pojeWM/cullleaves-forge-3.0.2.jar",
-          "filename": "cullleaves-forge-3.0.2.jar",
-          "primary": true,
-          "size": 33860
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": "UmJ7FJgm",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "EqasvEFc",
-      "name": "CullLeaves 3.0.1 - Fabric 1.19.2",
-      "version_number": "3.0.1-fabric",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "139fd4bf9e2dee8d61e32668a336771ffa75cacb0388554ab3f820788faeb805909f93dfd16f002128eedec57ae5bb6133d8e84082186fee71cd380023f42a7b",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/EqasvEFc/cullleaves-fabric-3.0.1.jar",
-          "filename": "cullleaves-fabric-3.0.1.jar",
-          "primary": true,
-          "size": 81692
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": "p0LjncVW",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "h5MkiE1k",
-      "name": "CullLeaves 3.0.1 - Quilt 1.19.2",
-      "version_number": "3.0.1-quilt",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2bcbd04d1b379be5c7c37566e4c0782d3964a00aa3dfef857f684cb30fb9483a7338f81e0f0c8b808e43d3428b539d6ed506bfacbe01e645b97e9fbd3f6f0e48",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/h5MkiE1k/cullleaves-quilt-3.0.1.jar",
-          "filename": "cullleaves-quilt-3.0.1.jar",
-          "primary": true,
-          "size": 82001
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": "hxPiYWhh",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "cx8ZZ7y9",
-      "name": "CullLeaves 3.0.1 - Forge 1.19.2",
-      "version_number": "3.0.1-forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "aba4890d223a427b709efb945417ec593807ffbc7f478d1e15365fb9f095bb0df4ba6fb6185b4d788d051c3be200c85503357e581b691a6a46236284e7825c5c",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/cx8ZZ7y9/cullleaves-forge-3.0.1.jar",
-          "filename": "cullleaves-forge-3.0.1.jar",
-          "primary": true,
-          "size": 94571
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": "r9djZ2iR",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "LdgTaAbv",
-      "name": "CullLeaves 3.0.0 - Fabric 1.19.2",
-      "version_number": "3.0.0-fabric",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0473aa9ef07641911f4e89f1a8087dfe7e6fe2237c825d52a79f83bd5e20425f375fd1a1d51d7b137aad86cf29027b1744ebac1c4b11a8947cfa39cd55b33c4c",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/LdgTaAbv/cullleaves-fabric-3.0.0.jar",
-          "filename": "cullleaves-fabric-3.0.0.jar",
-          "primary": true,
-          "size": 81339
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": "p0LjncVW",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "JSKzBziu",
-      "name": "CullLeaves 3.0.0 - Quilt 1.19.2",
-      "version_number": "3.0.0-quilt",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "43d955a01bcd4212b678323a92d3791662fd7372980b3eb5ce4f1d9edb75730bc7e7fbef985f4a156282aa9d22ad8eb5c7ddd57edc079c9fc0b7e571f2121961",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/JSKzBziu/cullleaves-quilt-3.0.0.jar",
-          "filename": "cullleaves-quilt-3.0.0.jar",
-          "primary": true,
-          "size": 81648
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": "hxPiYWhh",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "bfTNhqPe",
-      "name": "CullLeaves 3.0.0 - Forge 1.19.2",
-      "version_number": "3.0.0-forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "f9c62015d4afaa4b44c024bc1e33d16ca61dd6c463314764c36d440da1c677bab064204003789bfa86887b36f0b7a789762b369c683665f19207127170ac1953",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/bfTNhqPe/cullleaves-forge-3.0.0.jar",
-          "filename": "cullleaves-forge-3.0.0.jar",
-          "primary": true,
-          "size": 94209
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": "r9djZ2iR",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "NbNf9rLK",
-      "name": "CullLeaves 2.3.4 - 1.19",
-      "version_number": "2.3.4",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "22w42a",
-        "22w43a"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "407f80facdb1952e281697759302e1d28d5f459f0193630414f6c0252c2917fe77b7f48daaf70ef2814315948c9e4240278ddaf301b7150aa70ff5e4e0846c22",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/2.3.4/cullleaves-2.3.4.jar",
-          "filename": "cullleaves-2.3.4.jar",
-          "primary": true,
-          "size": 84513
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "YEQ4O9NX",
-      "name": "CullLeaves 2.3.3 - 1.19",
-      "version_number": "2.3.3",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "03fdf1568ada6b6ea7e79fc14869f1546f74033b9d921592fc14c77ac9931d5cad8f334dbd0261d04d0aaf8cdbe9001de2684e60d1898ef3fc56063ab6513b39",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/2.3.3/cullleaves-2.3.3.jar",
-          "filename": "cullleaves-2.3.3.jar",
-          "primary": true,
-          "size": 84403
-        }
-      ],
-      "dependencies": []
     },
     {
       "id": "718Klypf",
@@ -731,48 +146,295 @@
       "dependencies": []
     },
     {
-      "id": "d6b1Ezyz",
-      "name": "CullLeaves 2.3.0 - 1.17/1.18",
-      "version_number": "2.3.0",
+      "id": "DK6h46LO",
+      "name": "CullLeaves 3.0.3 - Quilt 1.19.3",
+      "version_number": "3.0.3-quilt",
       "game_versions": [
-        "1.17",
-        "1.17.1",
-        "21w37a",
-        "21w38a"
+        "1.19.3"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "a469a05130bc748bfd8693e7535adaf6f154b6b4c234edbaf3ccaf194dc390e9749be56f781a2492d4af4987ee4420d477fb245add8be51a820851794e06cee5",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/DK6h46LO/cullleaves-quilt-3.0.3.jar",
+          "filename": "cullleaves-quilt-3.0.3.jar",
+          "primary": true,
+          "size": 82731
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "ZUB07xly",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "codAaoxh",
+          "version_id": "e50cGA1L",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "DdSy1eAp",
+      "name": "Cull Leaves 1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "20w45a",
+        "20w46a",
+        "20w48a",
+        "20w49a",
+        "20w51a"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "fce2b27c774752787b873cfd6c4e02da8445c75f31bcaa982e487cb4d3824c5b55bdd066ab8bfb73381e27ebc49e2ce4971424b9cb64bbbe226c4511b223cf4c",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/2.3.0/cullleaves-2.3.0.jar",
-          "filename": "cullleaves-2.3.0.jar",
+          "sha512": "7ffbc021ca1e679a87e05aeb9357d392201498a172ab3a188e21dc0a58fe221705392dc1caee7646bf17dabeb437e26708418064fd6193b1cbce7145fb3bc120",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/1.0.0/cullleaves-1.0.0.jar",
+          "filename": "cullleaves-1.0.0.jar",
           "primary": false,
-          "size": 121892
+          "size": 16914
         }
       ],
       "dependencies": []
     },
     {
-      "id": "qXQsntrr",
-      "name": "CullLeaves 2.2.0 - 1.17",
-      "version_number": "2.2.0",
+      "id": "EboqCOZq",
+      "name": "CullLeaves 3.1.0 - Quilt 1.20+",
+      "version_number": "3.1.0-quilt",
       "game_versions": [
-        "1.17-rc1",
-        "1.17-rc2",
-        "1.17"
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f084bb4a1cf7bff40b6e34f31898f33f867bc8cb2cf813c997a91ec59d8058cdb8ef7437c28b3544f10237bd11a7c8c418e3cf730e27d002395b379c6e394c6d",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/EboqCOZq/cullleaves-quilt-3.1.0.jar",
+          "filename": "cullleaves-quilt-3.1.0.jar",
+          "primary": true,
+          "size": 75496
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": "3YykTkmJ",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "EqasvEFc",
+      "name": "CullLeaves 3.0.1 - Fabric 1.19.2",
+      "version_number": "3.0.1-fabric",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "4e108ceb97489ba0426c5967c714a87a815323617368948951026985f330c81327e8f3e53f13be279dda8abbef0448c4ffc06a1ffd6fa971d1c1a082bbaf0e6c",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/2.2.0/cullleaves-2.2.0.jar",
-          "filename": "cullleaves-2.2.0.jar",
+          "sha512": "139fd4bf9e2dee8d61e32668a336771ffa75cacb0388554ab3f820788faeb805909f93dfd16f002128eedec57ae5bb6133d8e84082186fee71cd380023f42a7b",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/EqasvEFc/cullleaves-fabric-3.0.1.jar",
+          "filename": "cullleaves-fabric-3.0.1.jar",
           "primary": true,
-          "size": 48423
+          "size": 81692
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": "p0LjncVW",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "G8pojeWM",
+      "name": "CullLeaves 3.0.2 - Forge 1.19.3",
+      "version_number": "3.0.2-forge",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e5e128143976f4596ff5d9ef22c32deb59865c1f8caa7ec3374ede20d9487a8272e58a9571a039ed52867e9d258c50fc968b1ab392269642db841d90d3252bf0",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/G8pojeWM/cullleaves-forge-3.0.2.jar",
+          "filename": "cullleaves-forge-3.0.2.jar",
+          "primary": true,
+          "size": 33860
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": "UmJ7FJgm",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "JSKzBziu",
+      "name": "CullLeaves 3.0.0 - Quilt 1.19.2",
+      "version_number": "3.0.0-quilt",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "43d955a01bcd4212b678323a92d3791662fd7372980b3eb5ce4f1d9edb75730bc7e7fbef985f4a156282aa9d22ad8eb5c7ddd57edc079c9fc0b7e571f2121961",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/JSKzBziu/cullleaves-quilt-3.0.0.jar",
+          "filename": "cullleaves-quilt-3.0.0.jar",
+          "primary": true,
+          "size": 81648
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": "hxPiYWhh",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "JnCn3KSm",
+      "name": "CullLeaves v3.4.0 - Fabric 1.21",
+      "version_number": "3.4.0-fabric",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c87373db698dad8d774d66eb844e2efb0fc41884ca8e03fa1cb26eb752c6614ab0c88951cc34f1a10ffb59bfba69c22f69d7bf92d150130353ad2dffa5e6e297",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/JnCn3KSm/cullleaves-fabric-3.4.0.jar",
+          "filename": "cullleaves-fabric-3.4.0.jar",
+          "primary": true,
+          "size": 75285
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "LdgTaAbv",
+      "name": "CullLeaves 3.0.0 - Fabric 1.19.2",
+      "version_number": "3.0.0-fabric",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0473aa9ef07641911f4e89f1a8087dfe7e6fe2237c825d52a79f83bd5e20425f375fd1a1d51d7b137aad86cf29027b1744ebac1c4b11a8947cfa39cd55b33c4c",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/LdgTaAbv/cullleaves-fabric-3.0.0.jar",
+          "filename": "cullleaves-fabric-3.0.0.jar",
+          "primary": true,
+          "size": 81339
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": "p0LjncVW",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "N0IiuOd4",
+      "name": "CullLeaves 3.0.2 - Quilt 1.19.3",
+      "version_number": "3.0.2-quilt",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "7cf38a5b9b433240558b25e380849eea1f60024585c5152460c667f2a4a93ecf35ad4241c3fc60c0366d593f6ca36fef6d6a658aa333492159b38036f0102245",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/N0IiuOd4/cullleaves-quilt-3.0.2.jar",
+          "filename": "cullleaves-quilt-3.0.2.jar",
+          "primary": true,
+          "size": 81513
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": "e50cGA1L",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "NbNf9rLK",
+      "name": "CullLeaves 2.3.4 - 1.19",
+      "version_number": "2.3.4",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "22w42a",
+        "22w43a"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "407f80facdb1952e281697759302e1d28d5f459f0193630414f6c0252c2917fe77b7f48daaf70ef2814315948c9e4240278ddaf301b7150aa70ff5e4e0846c22",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/2.3.4/cullleaves-2.3.4.jar",
+          "filename": "cullleaves-2.3.4.jar",
+          "primary": true,
+          "size": 84513
         }
       ],
       "dependencies": []
@@ -798,6 +460,121 @@
           "filename": "cullleaves-2.1.0.jar",
           "primary": true,
           "size": 44708
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "OgI2Yf72",
+      "name": "CullLeaves v3.3.0 - Fabric 1.20.4",
+      "version_number": "3.3.0-fabric",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "6f337fe6636956386eb61f1fb27805c9e7ac1c9172d2c2dac3314ba45c016703957492ab5d55b38dcfe9e71b8d68218fccb9f694c9ef78a0604f9127941455c4",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/OgI2Yf72/cullleaves-fabric-3.3.0.jar",
+          "filename": "cullleaves-fabric-3.3.0.jar",
+          "primary": true,
+          "size": 70755
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "codAaoxh",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "RaoQqzUR",
+      "name": "CullLeaves 3.1.0 - Forge 1.20+",
+      "version_number": "3.1.0-forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e77d8e0f1481a7e986d2f2e0aec03549bba5d2e96bcf434c66423399dac0a8e408766b760d058c3c664cf70808ea4593fc543a3141d3deae382ebd4c66afd3a5",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/RaoQqzUR/cullleaves-forge-3.1.0.jar",
+          "filename": "cullleaves-forge-3.1.0.jar",
+          "primary": true,
+          "size": 35738
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": "MsATpcA9",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "VvIpk7Qs",
+      "name": "Cull Leaves 3.2.0 - Forge 1.20+",
+      "version_number": "3.2.0-forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c4cd7c71745c29ccaad924256f4711e4f76f19bc31b31fd0336cd88d46fb9b3e3a12f71f149049b7619d1902f1108f93e00572ca7ecb090cddfa01fff3837f81",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/VvIpk7Qs/cullleaves-forge-3.2.0.jar",
+          "filename": "cullleaves-forge-3.2.0.jar",
+          "primary": true,
+          "size": 35354
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "YEQ4O9NX",
+      "name": "CullLeaves 2.3.3 - 1.19",
+      "version_number": "2.3.3",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "03fdf1568ada6b6ea7e79fc14869f1546f74033b9d921592fc14c77ac9931d5cad8f334dbd0261d04d0aaf8cdbe9001de2684e60d1898ef3fc56063ab6513b39",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/2.3.3/cullleaves-2.3.3.jar",
+          "filename": "cullleaves-2.3.3.jar",
+          "primary": true,
+          "size": 84403
         }
       ],
       "dependencies": []
@@ -835,34 +612,257 @@
       "dependencies": []
     },
     {
-      "id": "DdSy1eAp",
-      "name": "Cull Leaves 1.0.0",
-      "version_number": "1.0.0",
+      "id": "bfTNhqPe",
+      "name": "CullLeaves 3.0.0 - Forge 1.19.2",
+      "version_number": "3.0.0-forge",
       "game_versions": [
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "20w45a",
-        "20w46a",
-        "20w48a",
-        "20w49a",
-        "20w51a"
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f9c62015d4afaa4b44c024bc1e33d16ca61dd6c463314764c36d440da1c677bab064204003789bfa86887b36f0b7a789762b369c683665f19207127170ac1953",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/bfTNhqPe/cullleaves-forge-3.0.0.jar",
+          "filename": "cullleaves-forge-3.0.0.jar",
+          "primary": true,
+          "size": 94209
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": "r9djZ2iR",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "cx8ZZ7y9",
+      "name": "CullLeaves 3.0.1 - Forge 1.19.2",
+      "version_number": "3.0.1-forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "aba4890d223a427b709efb945417ec593807ffbc7f478d1e15365fb9f095bb0df4ba6fb6185b4d788d051c3be200c85503357e581b691a6a46236284e7825c5c",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/cx8ZZ7y9/cullleaves-forge-3.0.1.jar",
+          "filename": "cullleaves-forge-3.0.1.jar",
+          "primary": true,
+          "size": 94571
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": "r9djZ2iR",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "d6b1Ezyz",
+      "name": "CullLeaves 2.3.0 - 1.17/1.18",
+      "version_number": "2.3.0",
+      "game_versions": [
+        "1.17",
+        "1.17.1",
+        "21w37a",
+        "21w38a"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "7ffbc021ca1e679a87e05aeb9357d392201498a172ab3a188e21dc0a58fe221705392dc1caee7646bf17dabeb437e26708418064fd6193b1cbce7145fb3bc120",
-          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/1.0.0/cullleaves-1.0.0.jar",
-          "filename": "cullleaves-1.0.0.jar",
+          "sha512": "fce2b27c774752787b873cfd6c4e02da8445c75f31bcaa982e487cb4d3824c5b55bdd066ab8bfb73381e27ebc49e2ce4971424b9cb64bbbe226c4511b223cf4c",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/2.3.0/cullleaves-2.3.0.jar",
+          "filename": "cullleaves-2.3.0.jar",
           "primary": false,
-          "size": 16914
+          "size": 121892
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "h5MkiE1k",
+      "name": "CullLeaves 3.0.1 - Quilt 1.19.2",
+      "version_number": "3.0.1-quilt",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2bcbd04d1b379be5c7c37566e4c0782d3964a00aa3dfef857f684cb30fb9483a7338f81e0f0c8b808e43d3428b539d6ed506bfacbe01e645b97e9fbd3f6f0e48",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/h5MkiE1k/cullleaves-quilt-3.0.1.jar",
+          "filename": "cullleaves-quilt-3.0.1.jar",
+          "primary": true,
+          "size": 82001
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": "hxPiYWhh",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "jAdt9S90",
+      "name": "CullLeaves 3.0.3 - Fabric 1.19.3",
+      "version_number": "3.0.3-fabric",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "82abd420efdb184364598c6e5814a35eff3359565b2552ceef5fbfb3885cea4158374ed703a986c8df5ed5b0a5f499936ba483c85e3aaee14cf10f86f72f84b9",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/jAdt9S90/cullleaves-fabric-3.0.3.jar",
+          "filename": "cullleaves-fabric-3.0.3.jar",
+          "primary": true,
+          "size": 82669
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": "61U935Ys",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "lCHUsf1r",
+      "name": "CullLeaves 3.0.2 - Fabric 1.19.3",
+      "version_number": "3.0.2-fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "62928869d9439637728ff146e1e852b32db4b3b2c123e6f19cc5703921c28fc91183c44ac0cdf92f22f51fe3658ca203fbd7e1cea67cb36622179a7131aacb9e",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/lCHUsf1r/cullleaves-fabric-3.0.2.jar",
+          "filename": "cullleaves-fabric-3.0.2.jar",
+          "primary": true,
+          "size": 81471
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": "61U935Ys",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "qXQsntrr",
+      "name": "CullLeaves 2.2.0 - 1.17",
+      "version_number": "2.2.0",
+      "game_versions": [
+        "1.17-rc1",
+        "1.17-rc2",
+        "1.17"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4e108ceb97489ba0426c5967c714a87a815323617368948951026985f330c81327e8f3e53f13be279dda8abbef0448c4ffc06a1ffd6fa971d1c1a082bbaf0e6c",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/2.2.0/cullleaves-2.2.0.jar",
+          "filename": "cullleaves-2.2.0.jar",
+          "primary": true,
+          "size": 48423
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "qnt6fK9f",
+      "name": "CullLeaves v3.4.0 - NeoForge 1.21",
+      "version_number": "3.4.0-neoforge",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "87af44b9e7f03c291a7e9e09116e2e66ff446b61bd0093f920f292889d2496f8d8a9e29e9ce154843d10cfa60c5c67af8e98dcdec1d2f6a09a0995bcc441aae2",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/qnt6fK9f/cullleaves-neoforge-3.4.0.jar",
+          "filename": "cullleaves-neoforge-3.4.0.jar",
+          "primary": true,
+          "size": 34758
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "vGCKmen2",
+      "name": "Cull Leaves 3.2.0 - Quilt 1.20+",
+      "version_number": "3.2.0-quilt",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "357214a1e4f4b303f38265b330dc5336ca581c588085be795c102ceb2f9a4da7b65ef11f96d1ad6617040f0eb1aaf76d61d049e00c06dbe94900fd1deb41d4a3",
+          "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/vGCKmen2/cullleaves-quilt-3.2.0.jar",
+          "filename": "cullleaves-quilt-3.2.0.jar",
+          "primary": true,
+          "size": 75079
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
     }
   ]
 }

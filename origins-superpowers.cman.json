@@ -5,32 +5,35 @@
   "description": "Welcome to Origin Superpowers, or OSP for short. OSP is a datapack that overhauls the origins mod in its entirety, adding 60 superpowers you can get.",
   "versions": [
     {
-      "id": "QdavExN2",
-      "name": "Origin Superpowers V2.3.8",
-      "version_number": "2.3.8",
+      "id": "8zYPzBjW",
+      "name": "Origin Superpowers V2.2.4",
+      "version_number": "2.2.4",
       "game_versions": [
-        "1.20"
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
         "datapack"
       ],
       "files": [
         {
-          "sha512": "ecc7018f9c604fb540000ea2580ab14c43557d87a0256bbfc2b77aa2de8f5faaa7312993c4df84d4330ec248fe9c5b31f52d2482f0beaa533fc25dd97975a929",
-          "url": "https://cdn.modrinth.com/data/ZW5yFeTL/versions/QdavExN2/Origin%20Superpower%20V2.3.8.zip",
-          "filename": "Origin Superpower V2.3.8.zip",
+          "sha512": "4413e2153ffeb7a2444792c603485dc66a6778cb747afc00d11499e535796612c7248a2cb1923b45283153fa91cc0992f710840215e58e044450303bb48b10a0",
+          "url": "https://cdn.modrinth.com/data/ZW5yFeTL/versions/8zYPzBjW/Origin_Superpowers_V2.2.4.zip",
+          "filename": "Origin_Superpowers_V2.2.4.zip",
           "primary": true,
-          "size": 867307
-        },
-        {
-          "sha512": "11c2cf67f6bb13cdf058c7f739c94a543296c1b97fbb393fb2ca080c70a83b9d55b47dcc8c21e34087bb1b7b1aace994cd5370a0c440cc2e68579f4ca1561470",
-          "url": "https://cdn.modrinth.com/data/ZW5yFeTL/versions/QdavExN2/Origin%20Superpowers%20Optional%20Resource%20Pack.zip",
-          "filename": "Origin Superpowers Optional Resource Pack.zip",
-          "primary": false,
-          "size": 327016
+          "size": 818338
         }
       ],
       "dependencies": [
+        {
+          "project_id": "1qeWG44Y",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
         {
           "project_id": "t5W7Jfwy",
           "version_id": null,
@@ -39,6 +42,62 @@
         },
         {
           "project_id": "3BeIrqZR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "2hOSgFpY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "EIa7A7lm",
+      "name": "Origin Superpowers V2.2.3",
+      "version_number": "2.2.3",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "ced13a44fe01848ffd04756a0717a9192e90cc8a85bfb82f26ad52c460af8f96ae30649d25ba8d9dbb10bfbf53133434bb11065b4959afce9076e8f886cd3b79",
+          "url": "https://cdn.modrinth.com/data/ZW5yFeTL/versions/EIa7A7lm/Origin_Superpowers_V2.2.3.zip",
+          "filename": "Origin_Superpowers_V2.2.3.zip",
+          "primary": true,
+          "size": 817955
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "2hOSgFpY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "3BeIrqZR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "1qeWG44Y",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "t5W7Jfwy",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -66,10 +125,10 @@
       ],
       "dependencies": [
         {
-          "project_id": "t5W7Jfwy",
+          "project_id": "1qeWG44Y",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         },
         {
           "project_id": "3BeIrqZR",
@@ -78,10 +137,10 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "1qeWG44Y",
+          "project_id": "t5W7Jfwy",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
     },
@@ -126,35 +185,32 @@
       ]
     },
     {
-      "id": "wFyoBlhN",
-      "name": "Origin Superpowers V2.3.2",
-      "version_number": "2.3.2",
+      "id": "QdavExN2",
+      "name": "Origin Superpowers V2.3.8",
+      "version_number": "2.3.8",
       "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.20"
       ],
       "loaders": [
         "datapack"
       ],
       "files": [
         {
-          "sha512": "25db67f10a6aae889f8419f599dec01748bd9623e60a9b565713670f7c27fdbf65c63897de7f78e91797306f64fb74794f2f3e0cc4700275c2a31ca293268d0c",
-          "url": "https://cdn.modrinth.com/data/ZW5yFeTL/versions/wFyoBlhN/Origin%20Superpowers%20V2.3.2.zip",
-          "filename": "Origin Superpowers V2.3.2.zip",
+          "sha512": "ecc7018f9c604fb540000ea2580ab14c43557d87a0256bbfc2b77aa2de8f5faaa7312993c4df84d4330ec248fe9c5b31f52d2482f0beaa533fc25dd97975a929",
+          "url": "https://cdn.modrinth.com/data/ZW5yFeTL/versions/QdavExN2/Origin%20Superpower%20V2.3.8.zip",
+          "filename": "Origin Superpower V2.3.8.zip",
           "primary": true,
-          "size": 837623
+          "size": 867307
+        },
+        {
+          "sha512": "11c2cf67f6bb13cdf058c7f739c94a543296c1b97fbb393fb2ca080c70a83b9d55b47dcc8c21e34087bb1b7b1aace994cd5370a0c440cc2e68579f4ca1561470",
+          "url": "https://cdn.modrinth.com/data/ZW5yFeTL/versions/QdavExN2/Origin%20Superpowers%20Optional%20Resource%20Pack.zip",
+          "filename": "Origin Superpowers Optional Resource Pack.zip",
+          "primary": false,
+          "size": 327016
         }
       ],
       "dependencies": [
-        {
-          "project_id": "3BeIrqZR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "t5W7Jfwy",
           "version_id": null,
@@ -162,16 +218,10 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "1qeWG44Y",
+          "project_id": "3BeIrqZR",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "2hOSgFpY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "required"
         }
       ]
     },
@@ -276,56 +326,6 @@
       ]
     },
     {
-      "id": "zqB0SD5u",
-      "name": "Origin Superpowers V2.2.6",
-      "version_number": "2.2.6",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "7df8968a614d40be321c1290c3ac33fe14c3a195f8d849ea86a7d190fd6b45a2fde1d2e030ef0c86cc775cc5936054e5182e1b2ea4b081b282e6176aefa74e3c",
-          "url": "https://cdn.modrinth.com/data/ZW5yFeTL/versions/zqB0SD5u/Origin_Superpowers_V2.2.6.zip",
-          "filename": "Origin_Superpowers_V2.2.6.zip",
-          "primary": true,
-          "size": 818904
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "2hOSgFpY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "3BeIrqZR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1qeWG44Y",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "t5W7Jfwy",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "fFKmIGQB",
       "name": "Origin Superpowers V2.2.5",
       "version_number": "2.2.5",
@@ -376,9 +376,9 @@
       ]
     },
     {
-      "id": "8zYPzBjW",
-      "name": "Origin Superpowers V2.2.4",
-      "version_number": "2.2.4",
+      "id": "wFyoBlhN",
+      "name": "Origin Superpowers V2.3.2",
+      "version_number": "2.3.2",
       "game_versions": [
         "1.20",
         "1.20.1",
@@ -391,19 +391,19 @@
       ],
       "files": [
         {
-          "sha512": "4413e2153ffeb7a2444792c603485dc66a6778cb747afc00d11499e535796612c7248a2cb1923b45283153fa91cc0992f710840215e58e044450303bb48b10a0",
-          "url": "https://cdn.modrinth.com/data/ZW5yFeTL/versions/8zYPzBjW/Origin_Superpowers_V2.2.4.zip",
-          "filename": "Origin_Superpowers_V2.2.4.zip",
+          "sha512": "25db67f10a6aae889f8419f599dec01748bd9623e60a9b565713670f7c27fdbf65c63897de7f78e91797306f64fb74794f2f3e0cc4700275c2a31ca293268d0c",
+          "url": "https://cdn.modrinth.com/data/ZW5yFeTL/versions/wFyoBlhN/Origin%20Superpowers%20V2.3.2.zip",
+          "filename": "Origin Superpowers V2.3.2.zip",
           "primary": true,
-          "size": 818338
+          "size": 837623
         }
       ],
       "dependencies": [
         {
-          "project_id": "1qeWG44Y",
+          "project_id": "3BeIrqZR",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         },
         {
           "project_id": "t5W7Jfwy",
@@ -412,10 +412,10 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "3BeIrqZR",
+          "project_id": "1qeWG44Y",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         },
         {
           "project_id": "2hOSgFpY",
@@ -426,9 +426,9 @@
       ]
     },
     {
-      "id": "EIa7A7lm",
-      "name": "Origin Superpowers V2.2.3",
-      "version_number": "2.2.3",
+      "id": "zqB0SD5u",
+      "name": "Origin Superpowers V2.2.6",
+      "version_number": "2.2.6",
       "game_versions": [
         "1.20",
         "1.20.1",
@@ -441,22 +441,22 @@
       ],
       "files": [
         {
-          "sha512": "ced13a44fe01848ffd04756a0717a9192e90cc8a85bfb82f26ad52c460af8f96ae30649d25ba8d9dbb10bfbf53133434bb11065b4959afce9076e8f886cd3b79",
-          "url": "https://cdn.modrinth.com/data/ZW5yFeTL/versions/EIa7A7lm/Origin_Superpowers_V2.2.3.zip",
-          "filename": "Origin_Superpowers_V2.2.3.zip",
+          "sha512": "7df8968a614d40be321c1290c3ac33fe14c3a195f8d849ea86a7d190fd6b45a2fde1d2e030ef0c86cc775cc5936054e5182e1b2ea4b081b282e6176aefa74e3c",
+          "url": "https://cdn.modrinth.com/data/ZW5yFeTL/versions/zqB0SD5u/Origin_Superpowers_V2.2.6.zip",
+          "filename": "Origin_Superpowers_V2.2.6.zip",
           "primary": true,
-          "size": 817955
+          "size": 818904
         }
       ],
       "dependencies": [
         {
-          "project_id": "3BeIrqZR",
+          "project_id": "2hOSgFpY",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "embedded"
         },
         {
-          "project_id": "t5W7Jfwy",
+          "project_id": "3BeIrqZR",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -468,10 +468,10 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "2hOSgFpY",
+          "project_id": "t5W7Jfwy",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "required"
         }
       ]
     }

@@ -5,6 +5,37 @@
   "description": "Contains a handful of utilities to aid in mod development.",
   "versions": [
     {
+      "id": "4LYmsiei",
+      "name": "libMCdev 1.2.0",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "25024e4adfcb3b4a89ccf1085b3d8e066bfaeb7f827678f4e3eaaf89ed7c6405b2404e6cf13e2c078c263f6821f161cef6823026bb6b90e45c0d69bf45ed2023",
+          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/4LYmsiei/libmcdev-fabric-1.2.0.jar",
+          "filename": "libmcdev-fabric-1.2.0.jar",
+          "primary": true,
+          "size": 31196
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "9M68T0Tp",
       "name": "libMCdev 1.6.1",
       "version_number": "1.6.1",
@@ -64,12 +95,10 @@
       "dependencies": []
     },
     {
-      "id": "u80dix0H",
-      "name": "libMCdev 1.6.0",
-      "version_number": "1.6.0",
+      "id": "ArIfDfMW",
+      "name": "libMCdev 1.4.0",
+      "version_number": "1.4.0",
       "game_versions": [
-        "1.20.2",
-        "1.20.3",
         "1.20.4"
       ],
       "loaders": [
@@ -78,46 +107,25 @@
       ],
       "files": [
         {
-          "sha512": "145a7ecd0438146c44a73239a622783fb7983d53dfdd5f9933b3350dc1201692ed8b01473eb0904081d595352eb91c85017330ea9262e5e0d3f17645b2101d02",
-          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/u80dix0H/libmcdev-1.6.0-core.jar",
-          "filename": "libmcdev-1.6.0-core.jar",
+          "sha512": "f0c3081e1847816ee1e86aef868acb565b03beff879e7a2258ffbfb444fbd5b79cc7a333dc6bb23f4373632a162148c98cbf39c96c248efca580b56388f91951",
+          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/ArIfDfMW/libmcdev-core.jar",
+          "filename": "libmcdev-core.jar",
           "primary": true,
-          "size": 20561
+          "size": 19849
         },
         {
-          "sha512": "d8ad77632e7b0ead4d1c506cc5963c2ffdee127ed9c0129d05b9e5e86af50534c99192d75911af705deff78d2ea9e5db16652da44d74e9b60d4b5a2321afc0e9",
-          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/u80dix0H/libmcdev-1.6.0-core-sources.jar",
-          "filename": "libmcdev-1.6.0-core-sources.jar",
+          "sha512": "3cbaac33ef24233caccb40da9e21e4efa10910aa6af05fd02c92bf7baca62b6f7e3801c578d794fed379a305bc84e463cce7e505ae7898ec673f8e981a9af3cb",
+          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/ArIfDfMW/libmcdev-data.jar",
+          "filename": "libmcdev-data.jar",
           "primary": false,
-          "size": 14036
+          "size": 10527
         },
         {
-          "sha512": "606d1ceae4cd11afb6179d569f08b4b085e00fa6775df493e4d3dcd286803e00c5a7a59d4ad9ba0f62c46c2f9cac26a3d25fc4bc2354089b0948014610964b50",
-          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/u80dix0H/libmcdev-1.6.0-data-sources.jar",
-          "filename": "libmcdev-1.6.0-data-sources.jar",
+          "sha512": "b06bce784253f74d61e5078ee3da1c073417ef6514c687abccc329d68d8df034edbd5c465846d1dda40becff59fc97600b8cad54cb8a89fedb7848d9226b537a",
+          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/ArIfDfMW/libmcdev-media.jar",
+          "filename": "libmcdev-media.jar",
           "primary": false,
-          "size": 5674
-        },
-        {
-          "sha512": "1ce0bb08e5b6d143669c4a00180ecb93857b4eabab9199030a3ad870e6d813326c83c567316bb909c61022af6c75a18dd8d2f27d17875056f399f4895ee4b024",
-          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/u80dix0H/libmcdev-1.6.0-data.jar",
-          "filename": "libmcdev-1.6.0-data.jar",
-          "primary": false,
-          "size": 10280
-        },
-        {
-          "sha512": "a03ddf010f9c967abdfd270b7ed00d3a947b1fdb10243c59d0b7d97bc488d547135fcd21a27cd4fe67fdaf276c7074aa039ba7e2b2ed2530530075aba8b8efad",
-          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/u80dix0H/libmcdev-1.6.0-media-sources.jar",
-          "filename": "libmcdev-1.6.0-media-sources.jar",
-          "primary": false,
-          "size": 9389
-        },
-        {
-          "sha512": "18e45698cc8ccc90753cb073ab06621cf24405012ba599a2172b265f2b317568f1b2a140f674462d0bb40667ec623d24ca7620963c664db7a91e3b614295a9ae",
-          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/u80dix0H/libmcdev-1.6.0-media.jar",
-          "filename": "libmcdev-1.6.0-media.jar",
-          "primary": false,
-          "size": 13965
+          "size": 13381
         }
       ],
       "dependencies": []
@@ -182,6 +190,108 @@
       "dependencies": []
     },
     {
+      "id": "X9ee1UPq",
+      "name": "libMCdev 1.1.2",
+      "version_number": "1.1.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2e24c0c1d9b7bae0fe9a8391491ad7048dd56be96fdd7991ff4a7ed6d2adf744d8a008e72c5d28dedb06453fceb8955e58ca30ce707a6b6f3c9719d297750b2c",
+          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/X9ee1UPq/libmcdev-fabric-1.1.2.jar",
+          "filename": "libmcdev-fabric-1.1.2.jar",
+          "primary": true,
+          "size": 31208
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "XBOfQPXN",
+      "name": "libMCdev 1.1.0",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2a6781538e6d4caf8236e20cc19f9d7171454e68cfb596325996e084be7a339a399073ad7a8dc8d76c61e2b4989d1b24d72067c597fb9b8670cd9e9b445ed99e",
+          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/XBOfQPXN/libmcdev-fabric-1.1.0.jar",
+          "filename": "libmcdev-fabric-1.1.0.jar",
+          "primary": true,
+          "size": 32268
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "b7YsTrWG",
+      "name": "libMCdev 1.4.1",
+      "version_number": "1.4.1",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "69bc70bcf76dafc5d7bdafd8fa35d973181e7b5ddc26c471da9120d94b6bdf2f484ea73cc36b928d5b0ec33d030537db8d3c362f04f8c0614532948755cd9f94",
+          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/b7YsTrWG/libmcdev-1.4.1-core.jar",
+          "filename": "libmcdev-1.4.1-core.jar",
+          "primary": true,
+          "size": 19868
+        },
+        {
+          "sha512": "5a413a29595be417bc66b4d3d45067e11dcf77570a6a25f7976c186d3fee48eaf2a695ce76d3af741ac66c552440f6fe40afd0af4a2277bd6eec52b232149673",
+          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/b7YsTrWG/libmcdev-1.4.1-core-sources.jar",
+          "filename": "libmcdev-1.4.1-core-sources.jar",
+          "primary": false,
+          "size": 14468
+        },
+        {
+          "sha512": "62772aec306e7b5f7f0347b77a63c93adde28cfe524720b1822f5c9d3bab4bbf3295e7684767e763b585691367a249700f0525d924a0cd3466162542bd5f6769",
+          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/b7YsTrWG/libmcdev-1.4.1-data-sources.jar",
+          "filename": "libmcdev-1.4.1-data-sources.jar",
+          "primary": false,
+          "size": 5657
+        },
+        {
+          "sha512": "687c1576dd81621a13e1cc9751e95425a2fe988f0988ce77c6f669e291e28ad6ad2de39dd95027f4b1da8023d5ddca24e71e93f03d249243c1760753ddb0f465",
+          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/b7YsTrWG/libmcdev-1.4.1-data.jar",
+          "filename": "libmcdev-1.4.1-data.jar",
+          "primary": false,
+          "size": 10527
+        },
+        {
+          "sha512": "8b9bf26c6f493b4550b9b86c825fb6633c4c7575a03bf127e0ea32efc79ed0c198f6fae46c70e59f004bc5f923c04dd8f533f0e5edac809678dedbbf67e46acf",
+          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/b7YsTrWG/libmcdev-1.4.1-media-sources.jar",
+          "filename": "libmcdev-1.4.1-media-sources.jar",
+          "primary": false,
+          "size": 8779
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "g1PVBARN",
       "name": "libMCdev 1.4.2",
       "version_number": "1.4.2",
@@ -241,94 +351,6 @@
       "dependencies": []
     },
     {
-      "id": "b7YsTrWG",
-      "name": "libMCdev 1.4.1",
-      "version_number": "1.4.1",
-      "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "69bc70bcf76dafc5d7bdafd8fa35d973181e7b5ddc26c471da9120d94b6bdf2f484ea73cc36b928d5b0ec33d030537db8d3c362f04f8c0614532948755cd9f94",
-          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/b7YsTrWG/libmcdev-1.4.1-core.jar",
-          "filename": "libmcdev-1.4.1-core.jar",
-          "primary": true,
-          "size": 19868
-        },
-        {
-          "sha512": "5a413a29595be417bc66b4d3d45067e11dcf77570a6a25f7976c186d3fee48eaf2a695ce76d3af741ac66c552440f6fe40afd0af4a2277bd6eec52b232149673",
-          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/b7YsTrWG/libmcdev-1.4.1-core-sources.jar",
-          "filename": "libmcdev-1.4.1-core-sources.jar",
-          "primary": false,
-          "size": 14468
-        },
-        {
-          "sha512": "62772aec306e7b5f7f0347b77a63c93adde28cfe524720b1822f5c9d3bab4bbf3295e7684767e763b585691367a249700f0525d924a0cd3466162542bd5f6769",
-          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/b7YsTrWG/libmcdev-1.4.1-data-sources.jar",
-          "filename": "libmcdev-1.4.1-data-sources.jar",
-          "primary": false,
-          "size": 5657
-        },
-        {
-          "sha512": "687c1576dd81621a13e1cc9751e95425a2fe988f0988ce77c6f669e291e28ad6ad2de39dd95027f4b1da8023d5ddca24e71e93f03d249243c1760753ddb0f465",
-          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/b7YsTrWG/libmcdev-1.4.1-data.jar",
-          "filename": "libmcdev-1.4.1-data.jar",
-          "primary": false,
-          "size": 10527
-        },
-        {
-          "sha512": "8b9bf26c6f493b4550b9b86c825fb6633c4c7575a03bf127e0ea32efc79ed0c198f6fae46c70e59f004bc5f923c04dd8f533f0e5edac809678dedbbf67e46acf",
-          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/b7YsTrWG/libmcdev-1.4.1-media-sources.jar",
-          "filename": "libmcdev-1.4.1-media-sources.jar",
-          "primary": false,
-          "size": 8779
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ArIfDfMW",
-      "name": "libMCdev 1.4.0",
-      "version_number": "1.4.0",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f0c3081e1847816ee1e86aef868acb565b03beff879e7a2258ffbfb444fbd5b79cc7a333dc6bb23f4373632a162148c98cbf39c96c248efca580b56388f91951",
-          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/ArIfDfMW/libmcdev-core.jar",
-          "filename": "libmcdev-core.jar",
-          "primary": true,
-          "size": 19849
-        },
-        {
-          "sha512": "3cbaac33ef24233caccb40da9e21e4efa10910aa6af05fd02c92bf7baca62b6f7e3801c578d794fed379a305bc84e463cce7e505ae7898ec673f8e981a9af3cb",
-          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/ArIfDfMW/libmcdev-data.jar",
-          "filename": "libmcdev-data.jar",
-          "primary": false,
-          "size": 10527
-        },
-        {
-          "sha512": "b06bce784253f74d61e5078ee3da1c073417ef6514c687abccc329d68d8df034edbd5c465846d1dda40becff59fc97600b8cad54cb8a89fedb7848d9226b537a",
-          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/ArIfDfMW/libmcdev-media.jar",
-          "filename": "libmcdev-media.jar",
-          "primary": false,
-          "size": 13381
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "l2akxhhq",
       "name": "libMCdev 1.3.0",
       "version_number": "1.3.0",
@@ -360,9 +382,9 @@
       ]
     },
     {
-      "id": "4LYmsiei",
-      "name": "libMCdev 1.2.0",
-      "version_number": "1.2.0",
+      "id": "u80dix0H",
+      "name": "libMCdev 1.6.0",
+      "version_number": "1.6.0",
       "game_versions": [
         "1.20.2",
         "1.20.3",
@@ -374,40 +396,46 @@
       ],
       "files": [
         {
-          "sha512": "25024e4adfcb3b4a89ccf1085b3d8e066bfaeb7f827678f4e3eaaf89ed7c6405b2404e6cf13e2c078c263f6821f161cef6823026bb6b90e45c0d69bf45ed2023",
-          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/4LYmsiei/libmcdev-fabric-1.2.0.jar",
-          "filename": "libmcdev-fabric-1.2.0.jar",
+          "sha512": "145a7ecd0438146c44a73239a622783fb7983d53dfdd5f9933b3350dc1201692ed8b01473eb0904081d595352eb91c85017330ea9262e5e0d3f17645b2101d02",
+          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/u80dix0H/libmcdev-1.6.0-core.jar",
+          "filename": "libmcdev-1.6.0-core.jar",
           "primary": true,
-          "size": 31196
-        }
-      ],
-      "dependencies": [
+          "size": 20561
+        },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "X9ee1UPq",
-      "name": "libMCdev 1.1.2",
-      "version_number": "1.1.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
+          "sha512": "d8ad77632e7b0ead4d1c506cc5963c2ffdee127ed9c0129d05b9e5e86af50534c99192d75911af705deff78d2ea9e5db16652da44d74e9b60d4b5a2321afc0e9",
+          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/u80dix0H/libmcdev-1.6.0-core-sources.jar",
+          "filename": "libmcdev-1.6.0-core-sources.jar",
+          "primary": false,
+          "size": 14036
+        },
         {
-          "sha512": "2e24c0c1d9b7bae0fe9a8391491ad7048dd56be96fdd7991ff4a7ed6d2adf744d8a008e72c5d28dedb06453fceb8955e58ca30ce707a6b6f3c9719d297750b2c",
-          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/X9ee1UPq/libmcdev-fabric-1.1.2.jar",
-          "filename": "libmcdev-fabric-1.1.2.jar",
-          "primary": true,
-          "size": 31208
+          "sha512": "606d1ceae4cd11afb6179d569f08b4b085e00fa6775df493e4d3dcd286803e00c5a7a59d4ad9ba0f62c46c2f9cac26a3d25fc4bc2354089b0948014610964b50",
+          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/u80dix0H/libmcdev-1.6.0-data-sources.jar",
+          "filename": "libmcdev-1.6.0-data-sources.jar",
+          "primary": false,
+          "size": 5674
+        },
+        {
+          "sha512": "1ce0bb08e5b6d143669c4a00180ecb93857b4eabab9199030a3ad870e6d813326c83c567316bb909c61022af6c75a18dd8d2f27d17875056f399f4895ee4b024",
+          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/u80dix0H/libmcdev-1.6.0-data.jar",
+          "filename": "libmcdev-1.6.0-data.jar",
+          "primary": false,
+          "size": 10280
+        },
+        {
+          "sha512": "a03ddf010f9c967abdfd270b7ed00d3a947b1fdb10243c59d0b7d97bc488d547135fcd21a27cd4fe67fdaf276c7074aa039ba7e2b2ed2530530075aba8b8efad",
+          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/u80dix0H/libmcdev-1.6.0-media-sources.jar",
+          "filename": "libmcdev-1.6.0-media-sources.jar",
+          "primary": false,
+          "size": 9389
+        },
+        {
+          "sha512": "18e45698cc8ccc90753cb073ab06621cf24405012ba599a2172b265f2b317568f1b2a140f674462d0bb40667ec623d24ca7620963c664db7a91e3b614295a9ae",
+          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/u80dix0H/libmcdev-1.6.0-media.jar",
+          "filename": "libmcdev-1.6.0-media.jar",
+          "primary": false,
+          "size": 13965
         }
       ],
       "dependencies": []
@@ -440,34 +468,6 @@
         }
       ],
       "dependencies": []
-    },
-    {
-      "id": "XBOfQPXN",
-      "name": "libMCdev 1.1.0",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2a6781538e6d4caf8236e20cc19f9d7171454e68cfb596325996e084be7a339a399073ad7a8dc8d76c61e2b4989d1b24d72067c597fb9b8670cd9e9b445ed99e",
-          "url": "https://cdn.modrinth.com/data/F9fRCMky/versions/XBOfQPXN/libmcdev-fabric-1.1.0.jar",
-          "filename": "libmcdev-fabric-1.1.0.jar",
-          "primary": true,
-          "size": 32268
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
     }
   ]
 }

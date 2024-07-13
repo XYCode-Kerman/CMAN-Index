@@ -5,6 +5,88 @@
   "description": "Souls-like mechanics in Minecraft!",
   "versions": [
     {
+      "id": "AyEjInKQ",
+      "name": "Respite Bench 1.0",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "3eaf4ec230d5b1b8904365bc15ba2f829027088628c9b26cb1e89f948e2a298c7a10c18d8880dbad50c785b760254f695d34a9aa2b8d6e01b2069be51fbed0d8",
+          "url": "https://cdn.modrinth.com/data/u2n0Egbv/versions/AyEjInKQ/respite_bench-1.0.jar",
+          "filename": "respite_bench-1.0.jar",
+          "primary": true,
+          "size": 176364
+        },
+        {
+          "sha512": "9029dc830ca469615d651c7df7d007ca767445c0527e7e82d18647ff9906f01a3045e76b32adeb67229f8cda391730bdbc3fe08e6616b2c479d158e6b04d2813",
+          "url": "https://cdn.modrinth.com/data/u2n0Egbv/versions/AyEjInKQ/respite_bench-1.0-sources.jar",
+          "filename": "respite_bench-1.0-sources.jar",
+          "primary": false,
+          "size": 156839
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "GzIiKLyz",
+      "name": "Respite Bench 1.1.0",
+      "version_number": "1.1.0+1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "714fab930450265cfdb564fe2cc2e0f58d5a8bfd67f6eeafabe642b3491c0972f8122fbe22e37112b9c063313dc92a591874237fba669d8345b90ad8afd8522e",
+          "url": "https://cdn.modrinth.com/data/u2n0Egbv/versions/GzIiKLyz/respitebench-1.1.0%2B1.20.1.jar",
+          "filename": "respitebench-1.1.0+1.20.1.jar",
+          "primary": true,
+          "size": 188544
+        },
+        {
+          "sha512": "4ca4f6547922eaf1b3ee1cc71f1803a9bad8130f2f376bc4d68026320a7ee46d2a89f255e61f883e051ad1ce67d540eba6816fd1a82b4f5885baf19535f0067f",
+          "url": "https://cdn.modrinth.com/data/u2n0Egbv/versions/GzIiKLyz/respitebench-1.1.0%2B1.20.1-sources.jar",
+          "filename": "respitebench-1.1.0+1.20.1-sources.jar",
+          "primary": false,
+          "size": 162520
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "JsEpy53i",
       "name": "Respite Bench 1.2.8",
       "version_number": "1.2.8+1.20.1",
@@ -32,6 +114,53 @@
       ],
       "dependencies": [
         {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Qbb4AJh0",
+      "name": "Respite Bench 1.2.0",
+      "version_number": "1.2.0+1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9d2a5d1a372be67c85c6360a630f0ee72a061ee02d56dee61b5ceacc94588f4f1d4400317d738665a4bf77ba5e9d8c587295ef60bf52becc451ceea05b0f14fd",
+          "url": "https://cdn.modrinth.com/data/u2n0Egbv/versions/Qbb4AJh0/respitebench-1.2.0%2B1.20.1.jar",
+          "filename": "respitebench-1.2.0+1.20.1.jar",
+          "primary": true,
+          "size": 189120
+        },
+        {
+          "sha512": "c5c51b273aa706d93cd6c76b7024631bc60523e1e8e6bc9bc7f6205571252a135d2fdea932ece8768cfb5141be7118c1a929da795cb95aa9f51bcf45bd9fce71",
+          "url": "https://cdn.modrinth.com/data/u2n0Egbv/versions/Qbb4AJh0/respitebench-1.2.0%2B1.20.1-sources.jar",
+          "filename": "respitebench-1.2.0+1.20.1-sources.jar",
+          "primary": false,
+          "size": 162516
+        }
+      ],
+      "dependencies": [
+        {
           "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
@@ -47,7 +176,7 @@
           "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         }
       ]
     },
@@ -99,53 +228,6 @@
       ]
     },
     {
-      "id": "Qbb4AJh0",
-      "name": "Respite Bench 1.2.0",
-      "version_number": "1.2.0+1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9d2a5d1a372be67c85c6360a630f0ee72a061ee02d56dee61b5ceacc94588f4f1d4400317d738665a4bf77ba5e9d8c587295ef60bf52becc451ceea05b0f14fd",
-          "url": "https://cdn.modrinth.com/data/u2n0Egbv/versions/Qbb4AJh0/respitebench-1.2.0%2B1.20.1.jar",
-          "filename": "respitebench-1.2.0+1.20.1.jar",
-          "primary": true,
-          "size": 189120
-        },
-        {
-          "sha512": "c5c51b273aa706d93cd6c76b7024631bc60523e1e8e6bc9bc7f6205571252a135d2fdea932ece8768cfb5141be7118c1a929da795cb95aa9f51bcf45bd9fce71",
-          "url": "https://cdn.modrinth.com/data/u2n0Egbv/versions/Qbb4AJh0/respitebench-1.2.0%2B1.20.1-sources.jar",
-          "filename": "respitebench-1.2.0+1.20.1-sources.jar",
-          "primary": false,
-          "size": 162516
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "udLW2l4M",
       "name": "Respite Bench 1.1.4",
       "version_number": "1.1.4+1.20.1",
@@ -186,88 +268,6 @@
         },
         {
           "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "GzIiKLyz",
-      "name": "Respite Bench 1.1.0",
-      "version_number": "1.1.0+1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "714fab930450265cfdb564fe2cc2e0f58d5a8bfd67f6eeafabe642b3491c0972f8122fbe22e37112b9c063313dc92a591874237fba669d8345b90ad8afd8522e",
-          "url": "https://cdn.modrinth.com/data/u2n0Egbv/versions/GzIiKLyz/respitebench-1.1.0%2B1.20.1.jar",
-          "filename": "respitebench-1.1.0+1.20.1.jar",
-          "primary": true,
-          "size": 188544
-        },
-        {
-          "sha512": "4ca4f6547922eaf1b3ee1cc71f1803a9bad8130f2f376bc4d68026320a7ee46d2a89f255e61f883e051ad1ce67d540eba6816fd1a82b4f5885baf19535f0067f",
-          "url": "https://cdn.modrinth.com/data/u2n0Egbv/versions/GzIiKLyz/respitebench-1.1.0%2B1.20.1-sources.jar",
-          "filename": "respitebench-1.1.0+1.20.1-sources.jar",
-          "primary": false,
-          "size": 162520
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "AyEjInKQ",
-      "name": "Respite Bench 1.0",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "3eaf4ec230d5b1b8904365bc15ba2f829027088628c9b26cb1e89f948e2a298c7a10c18d8880dbad50c785b760254f695d34a9aa2b8d6e01b2069be51fbed0d8",
-          "url": "https://cdn.modrinth.com/data/u2n0Egbv/versions/AyEjInKQ/respite_bench-1.0.jar",
-          "filename": "respite_bench-1.0.jar",
-          "primary": true,
-          "size": 176364
-        },
-        {
-          "sha512": "9029dc830ca469615d651c7df7d007ca767445c0527e7e82d18647ff9906f01a3045e76b32adeb67229f8cda391730bdbc3fe08e6616b2c479d158e6b04d2813",
-          "url": "https://cdn.modrinth.com/data/u2n0Egbv/versions/AyEjInKQ/respite_bench-1.0-sources.jar",
-          "filename": "respite_bench-1.0-sources.jar",
-          "primary": false,
-          "size": 156839
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"

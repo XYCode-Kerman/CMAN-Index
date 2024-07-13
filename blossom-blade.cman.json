@@ -5,15 +5,12 @@
   "description": "The sword stuck in the pedestal glows with a holy light, carrying the smell of cherry blossoms with every swing.",
   "versions": [
     {
-      "id": "uVqeOjPT",
-      "name": "1.2",
-      "version_number": "1.2+mod",
+      "id": "DAbnnMDF",
+      "name": "1.0",
+      "version_number": "1.0+mod",
       "game_versions": [
         "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.20.1"
       ],
       "loaders": [
         "fabric",
@@ -22,14 +19,27 @@
       ],
       "files": [
         {
-          "sha512": "b4ac9bff7fbeecbbea06c25c727e4aa7d76cf05c81cae206414d8f49f34f2a307d951140e5be5ce39568a57e1e36f978e1967d2ef80d11bdef66591dda034467",
-          "url": "https://cdn.modrinth.com/data/UMmSTwE0/versions/uVqeOjPT/blossom-blade-1.2.jar",
-          "filename": "blossom-blade-1.2.jar",
+          "sha512": "ebffd531ba5a9bbb7d9f9a2170129504f99abff666a082f6ce8c0cf33bd6ccc3240fdae83c0f7bf757d36aba316723c2e21aefd149736051ce4b6ae785d5a439",
+          "url": "https://cdn.modrinth.com/data/UMmSTwE0/versions/DAbnnMDF/blossom-blade-1.0.jar",
+          "filename": "blossom-blade-1.0.jar",
           "primary": true,
-          "size": 7029
+          "size": 6215
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "EEIwvQVo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "UMmSTwE0",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "DlSnHsIz",
@@ -55,6 +65,41 @@
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "ECaSFgaR",
+      "name": "1.0",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "2b441091dbca50c0d3023355e52dda8dfb44e5d1e1a1b79b80323e6f13b5464774038632ac1750c0bac7288be9f9aa1253f0936b492b1f167161de2621d0a1b6",
+          "url": "https://cdn.modrinth.com/data/UMmSTwE0/versions/ECaSFgaR/cherry_grove.zip",
+          "filename": "cherry_grove.zip",
+          "primary": true,
+          "size": 4396
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "EEIwvQVo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "o4gsLB4v",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
     },
     {
       "id": "GbmURQT5",
@@ -119,12 +164,15 @@
       "dependencies": []
     },
     {
-      "id": "DAbnnMDF",
-      "name": "1.0",
-      "version_number": "1.0+mod",
+      "id": "uVqeOjPT",
+      "name": "1.2",
+      "version_number": "1.2+mod",
       "game_versions": [
         "1.20",
-        "1.20.1"
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
         "fabric",
@@ -133,62 +181,14 @@
       ],
       "files": [
         {
-          "sha512": "ebffd531ba5a9bbb7d9f9a2170129504f99abff666a082f6ce8c0cf33bd6ccc3240fdae83c0f7bf757d36aba316723c2e21aefd149736051ce4b6ae785d5a439",
-          "url": "https://cdn.modrinth.com/data/UMmSTwE0/versions/DAbnnMDF/blossom-blade-1.0.jar",
-          "filename": "blossom-blade-1.0.jar",
+          "sha512": "b4ac9bff7fbeecbbea06c25c727e4aa7d76cf05c81cae206414d8f49f34f2a307d951140e5be5ce39568a57e1e36f978e1967d2ef80d11bdef66591dda034467",
+          "url": "https://cdn.modrinth.com/data/UMmSTwE0/versions/uVqeOjPT/blossom-blade-1.2.jar",
+          "filename": "blossom-blade-1.2.jar",
           "primary": true,
-          "size": 6215
+          "size": 7029
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "EEIwvQVo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "UMmSTwE0",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ECaSFgaR",
-      "name": "1.0",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "2b441091dbca50c0d3023355e52dda8dfb44e5d1e1a1b79b80323e6f13b5464774038632ac1750c0bac7288be9f9aa1253f0936b492b1f167161de2621d0a1b6",
-          "url": "https://cdn.modrinth.com/data/UMmSTwE0/versions/ECaSFgaR/cherry_grove.zip",
-          "filename": "cherry_grove.zip",
-          "primary": true,
-          "size": 4396
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "EEIwvQVo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "o4gsLB4v",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
+      "dependencies": []
     }
   ]
 }

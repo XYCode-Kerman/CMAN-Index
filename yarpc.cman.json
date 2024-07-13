@@ -39,68 +39,35 @@
       ]
     },
     {
-      "id": "rCUnhQYw",
-      "name": "YARPC 1.3.0",
-      "version_number": "1.3.0",
+      "id": "4VnsQjZ3",
+      "name": "YARPC 2.1.1",
+      "version_number": "2.1.1",
       "game_versions": [
-        "1.18.1",
-        "1.18.2",
-        "1.19",
         "1.19.1",
         "1.19.2",
         "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.19.4"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "e6cf5ecc19242cdc18f1d00a0d793f3060eb9c596d0a495a49f0e6eacfb0b27f470ec605b8b3209c5848958666829ba8195a669d40169c8e239c8bfaf2c56e9c",
-          "url": "https://cdn.modrinth.com/data/G1FCVVqA/versions/rCUnhQYw/yarpc-1.3.0.jar",
-          "filename": "yarpc-1.3.0.jar",
+          "sha512": "62bc45d6fb34c31d50d4d38511adac089a54a81b66705d7950ad1f88aaf0e273d2fe82df6a077a9a2cfb1609415930ee40ce7539b1c9b747af56ac98ea7c2017",
+          "url": "https://cdn.modrinth.com/data/G1FCVVqA/versions/4VnsQjZ3/yarpc-2.1.1-1.19.1.jar",
+          "filename": "yarpc-2.1.1-1.19.1.jar",
           "primary": true,
-          "size": 35903
+          "size": 46614
         }
       ],
-      "dependencies": []
-    },
-    {
-      "id": "MUxpq7t1",
-      "name": "YARPC 1.2.0",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "f3bbe70c8d34f0db7e67bb9ea4c1d15c29e7739c65f2885062ee2f479af94cc77efadcaec385efb97d20f9c946fe11ed0e7e621b8a4b790d997e59e6c3ec38c7",
-          "url": "https://cdn.modrinth.com/data/G1FCVVqA/versions/MUxpq7t1/yarpc-1.2.0.jar",
-          "filename": "yarpc-1.2.0.jar",
-          "primary": true,
-          "size": 35758
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
-      ],
-      "dependencies": []
+      ]
     },
     {
       "id": "6a4uz4SX",
@@ -121,37 +88,6 @@
           "filename": "yarpc-1.0.0.jar",
           "primary": true,
           "size": 44074
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4VnsQjZ3",
-      "name": "YARPC 2.1.1",
-      "version_number": "2.1.1",
-      "game_versions": [
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "62bc45d6fb34c31d50d4d38511adac089a54a81b66705d7950ad1f88aaf0e273d2fe82df6a077a9a2cfb1609415930ee40ce7539b1c9b747af56ac98ea7c2017",
-          "url": "https://cdn.modrinth.com/data/G1FCVVqA/versions/4VnsQjZ3/yarpc-2.1.1-1.19.1.jar",
-          "filename": "yarpc-2.1.1-1.19.1.jar",
-          "primary": true,
-          "size": 46614
         }
       ],
       "dependencies": [
@@ -189,6 +125,38 @@
       "dependencies": []
     },
     {
+      "id": "MUxpq7t1",
+      "name": "YARPC 1.2.0",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f3bbe70c8d34f0db7e67bb9ea4c1d15c29e7739c65f2885062ee2f479af94cc77efadcaec385efb97d20f9c946fe11ed0e7e621b8a4b790d997e59e6c3ec38c7",
+          "url": "https://cdn.modrinth.com/data/G1FCVVqA/versions/MUxpq7t1/yarpc-1.2.0.jar",
+          "filename": "yarpc-1.2.0.jar",
+          "primary": true,
+          "size": 35758
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "m8wsJBkr",
       "name": "YARPC 3.0.1",
       "version_number": "3.0.1",
@@ -219,6 +187,38 @@
           "dependency_type": "required"
         }
       ]
+    },
+    {
+      "id": "rCUnhQYw",
+      "name": "YARPC 1.3.0",
+      "version_number": "1.3.0",
+      "game_versions": [
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e6cf5ecc19242cdc18f1d00a0d793f3060eb9c596d0a495a49f0e6eacfb0b27f470ec605b8b3209c5848958666829ba8195a669d40169c8e239c8bfaf2c56e9c",
+          "url": "https://cdn.modrinth.com/data/G1FCVVqA/versions/rCUnhQYw/yarpc-1.3.0.jar",
+          "filename": "yarpc-1.3.0.jar",
+          "primary": true,
+          "size": 35903
+        }
+      ],
+      "dependencies": []
     }
   ]
 }

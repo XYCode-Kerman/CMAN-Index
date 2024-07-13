@@ -5,6 +5,48 @@
   "description": "Visual key remapping mod for newer Minecraft",
   "versions": [
     {
+      "id": "ISqtokpK",
+      "name": "0.9.0-beta.1+1.20.2-forge",
+      "version_number": "0.9.0-beta.1+1.20.2-forge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "06dbbc070525105a897f501d49391880b689b6332daa44b3e9d5b2de6eda45c944df350f1ccb137ac92a4c6709c747f3abf8eac0118be94cd30474ed49edffbd",
+          "url": "https://cdn.modrinth.com/data/B5uMasrz/versions/ISqtokpK/keymap-0.9.0-beta.1%2B1.20.2-forge.jar",
+          "filename": "keymap-0.9.0-beta.1+1.20.2-forge.jar",
+          "primary": true,
+          "size": 213231
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Ilaf4buw",
+      "name": "0.10.0-beta.1+1.20.6",
+      "version_number": "0.10.0-beta.1+1.20.6",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f3a8b995d1aa70034c5e6bc575386f45c8de04eb772ac02b47f9e05565818cae1d3d87304ba07d6b57979ec5bb9553e3e75f9aa3cb7286b93f6acfd76d2c430b",
+          "url": "https://cdn.modrinth.com/data/B5uMasrz/versions/Ilaf4buw/keymap-0.10.0-beta.1%2B1.20.6.jar",
+          "filename": "keymap-0.10.0-beta.1+1.20.6.jar",
+          "primary": true,
+          "size": 207592
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "PXK3FYWO",
       "name": "0.10.0-beta.1+1.20.6",
       "version_number": "0.10.0-beta.1+1.20.6",
@@ -54,25 +96,53 @@
       ]
     },
     {
-      "id": "Ilaf4buw",
-      "name": "0.10.0-beta.1+1.20.6",
-      "version_number": "0.10.0-beta.1+1.20.6",
+      "id": "USuDYCEC",
+      "name": "0.9.0-beta.1+1.20.1-fabric",
+      "version_number": "0.9.0-beta.1+1.20.1-fabric",
       "game_versions": [
-        "1.20.6"
+        "1.20.1"
       ],
       "loaders": [
-        "forge"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "f3a8b995d1aa70034c5e6bc575386f45c8de04eb772ac02b47f9e05565818cae1d3d87304ba07d6b57979ec5bb9553e3e75f9aa3cb7286b93f6acfd76d2c430b",
-          "url": "https://cdn.modrinth.com/data/B5uMasrz/versions/Ilaf4buw/keymap-0.10.0-beta.1%2B1.20.6.jar",
-          "filename": "keymap-0.10.0-beta.1+1.20.6.jar",
+          "sha512": "0d64555ef186c32272e9ab03b414118e520d77e5d8dacaf6bdb6ba58bc6fb28930f7ccd2022e6c84203c0862af9e71067d239c911a7c8c0f765ee04908b6dbfe",
+          "url": "https://cdn.modrinth.com/data/B5uMasrz/versions/USuDYCEC/keymap-0.9.0-beta.1%2B1.20.1-fabric.jar",
+          "filename": "keymap-0.9.0-beta.1+1.20.1-fabric.jar",
           "primary": true,
-          "size": 207592
+          "size": 201305
+        },
+        {
+          "sha512": "08b56572fb69d3081668eb2b322cdfd0824d1aeeb986eb3128a6597dd8d2f97d28bf7a2968b609c80c1b60343eac0b2d0d391f76f3c65dfb2ed3e1ef07e1c385",
+          "url": "https://cdn.modrinth.com/data/B5uMasrz/versions/USuDYCEC/keymap-0.9.0-beta.1%2B1.20.1-fabric-dev-shadow.jar",
+          "filename": "keymap-0.9.0-beta.1+1.20.1-fabric-dev-shadow.jar",
+          "primary": false,
+          "size": 192794
+        },
+        {
+          "sha512": "36334de4908aff373448d5af315beeb5ab25dd9ae52d1c880ec641b8b260a7d12a335e49ee8d648ab0bf08f45d942a8f959f4f8fe472f397b7136177dc00b9e5",
+          "url": "https://cdn.modrinth.com/data/B5uMasrz/versions/USuDYCEC/keymap-0.9.0-beta.1%2B1.20.1-fabric-sources.jar",
+          "filename": "keymap-0.9.0-beta.1+1.20.1-fabric-sources.jar",
+          "primary": false,
+          "size": 118788
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
     },
     {
       "id": "uQyJAqKe",
@@ -91,27 +161,6 @@
           "filename": "keymap-0.9.0-beta.1+1.20.1-forge.jar",
           "primary": true,
           "size": 213157
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ISqtokpK",
-      "name": "0.9.0-beta.1+1.20.2-forge",
-      "version_number": "0.9.0-beta.1+1.20.2-forge",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "06dbbc070525105a897f501d49391880b689b6332daa44b3e9d5b2de6eda45c944df350f1ccb137ac92a4c6709c747f3abf8eac0118be94cd30474ed49edffbd",
-          "url": "https://cdn.modrinth.com/data/B5uMasrz/versions/ISqtokpK/keymap-0.9.0-beta.1%2B1.20.2-forge.jar",
-          "filename": "keymap-0.9.0-beta.1+1.20.2-forge.jar",
-          "primary": true,
-          "size": 213231
         }
       ],
       "dependencies": []
@@ -162,55 +211,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "USuDYCEC",
-      "name": "0.9.0-beta.1+1.20.1-fabric",
-      "version_number": "0.9.0-beta.1+1.20.1-fabric",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0d64555ef186c32272e9ab03b414118e520d77e5d8dacaf6bdb6ba58bc6fb28930f7ccd2022e6c84203c0862af9e71067d239c911a7c8c0f765ee04908b6dbfe",
-          "url": "https://cdn.modrinth.com/data/B5uMasrz/versions/USuDYCEC/keymap-0.9.0-beta.1%2B1.20.1-fabric.jar",
-          "filename": "keymap-0.9.0-beta.1+1.20.1-fabric.jar",
-          "primary": true,
-          "size": 201305
-        },
-        {
-          "sha512": "08b56572fb69d3081668eb2b322cdfd0824d1aeeb986eb3128a6597dd8d2f97d28bf7a2968b609c80c1b60343eac0b2d0d391f76f3c65dfb2ed3e1ef07e1c385",
-          "url": "https://cdn.modrinth.com/data/B5uMasrz/versions/USuDYCEC/keymap-0.9.0-beta.1%2B1.20.1-fabric-dev-shadow.jar",
-          "filename": "keymap-0.9.0-beta.1+1.20.1-fabric-dev-shadow.jar",
-          "primary": false,
-          "size": 192794
-        },
-        {
-          "sha512": "36334de4908aff373448d5af315beeb5ab25dd9ae52d1c880ec641b8b260a7d12a335e49ee8d648ab0bf08f45d942a8f959f4f8fe472f397b7136177dc00b9e5",
-          "url": "https://cdn.modrinth.com/data/B5uMasrz/versions/USuDYCEC/keymap-0.9.0-beta.1%2B1.20.1-fabric-sources.jar",
-          "filename": "keymap-0.9.0-beta.1+1.20.1-fabric-sources.jar",
-          "primary": false,
-          "size": 118788
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     }

@@ -5,30 +5,66 @@
   "description": "Allows waterlogging with any block and fluid and also allows fluids to pass through blocks. Everything without the usage of blockstates.",
   "versions": [
     {
-      "id": "ZxSaH4An",
-      "name": "Fluidlogged 2.0.1-beta.2 Forge",
-      "version_number": "2.0.1-beta.2",
+      "id": "42MXu2No",
+      "name": "Fluidlogged 1.2.0 Forge",
+      "version_number": "1.2.0",
       "game_versions": [
-        "1.20.1"
+        "1.19.3"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "b27acabc86457ee0bcb3e666df828d87ad572dfa0121d9b0459e3c7c83f61ee4afb5d64da47fc2740b47a625709243d65c9a6b8a38dd0332c0d655e354a8cb08",
-          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/ZxSaH4An/fluidlogged-2.0.1-beta.2-forge-mc1.20.1.jar",
-          "filename": "fluidlogged-2.0.1-beta.2-forge-mc1.20.1.jar",
+          "sha512": "3293700125caecbca1266eaf416f5cf2cf2c1641d53d25ad54000c6fba991c154b0406e38881df4bd4575f4304eac411d8c107f4126a89bab5f2c9d31616f37f",
+          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/42MXu2No/fluidlogged-1.2.0-forge-mc1.19.3.jar",
+          "filename": "fluidlogged-1.2.0-forge-mc1.19.3.jar",
           "primary": true,
-          "size": 239958
+          "size": 66692
         }
       ],
       "dependencies": [
         {
-          "project_id": "1eAoo2KR",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "4URUfjmG",
+      "name": "Fabric 1.1.0",
+      "version_number": "fabric-mc1.18.2-1.1.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "171e051d8bb0c09f7372f35f2f9f962b9836c4022a13f8d6163514ed15a69aceba0e521c9924412abc69cd83c508444f938d983421a1c4b211a9d4dfa03a98d8",
+          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/4URUfjmG/fluidlogged-mc1.18.2-1.1.0.jar",
+          "filename": "fluidlogged-mc1.18.2-1.1.0.jar",
+          "primary": true,
+          "size": 88273
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "4XRtXhtL",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "cx9D94fU",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -67,10 +103,11 @@
       ]
     },
     {
-      "id": "iekBD03a",
-      "name": "Fluidlogged 2.0.0-beta1 Forge",
-      "version_number": "2.0.0-beta1",
+      "id": "BnVjjoXL",
+      "name": "Fluidlogged 1.2.1 Forge",
+      "version_number": "1.2.1",
       "game_versions": [
+        "1.20",
         "1.20.1"
       ],
       "loaders": [
@@ -78,17 +115,138 @@
       ],
       "files": [
         {
-          "sha512": "2f4f3cdd178c946b795d33f7e83f2a513aaf133cce771e45ecf59a50d003fe7a3e33e1b806754bf6dd3157046ccdf07d1c4de975c1f7a0de37d6df9b0c2f2181",
-          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/iekBD03a/fluidlogged-2.0.0-beta1-forge-mc1.20.1.jar",
-          "filename": "fluidlogged-2.0.0-beta1-forge-mc1.20.1.jar",
+          "sha512": "8fd07c6c13a4557ccbc8d935d06394cf9308321e8c60497a73b0c8af26d065fbb185ffb984e2f0adec88a6ff28167e0b7b023bdb67fd593bff7e8f0055f8cf1d",
+          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/BnVjjoXL/fluidlogged-1.2.1-forge-mc1.20.jar",
+          "filename": "fluidlogged-1.2.1-forge-mc1.20.jar",
           "primary": true,
-          "size": 229617
+          "size": 66883
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "C4sWG8n7",
+      "name": "Fabric 1.1.0",
+      "version_number": "fabric-mc1.19.2-1.1.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2117bdfd7d77ea406bed00d24fc73a960e416ac23469b6b570e8decde564afa9501947c4cdb4a24cdea92a2441901cddbbf4a3bcc3675c5f027e417b240046db",
+          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/C4sWG8n7/fluidlogged-mc1.19.2-1.1.0.jar",
+          "filename": "fluidlogged-mc1.19.2-1.1.0.jar",
+          "primary": true,
+          "size": 88455
         }
       ],
       "dependencies": [
         {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
+          "project_id": "mOgUt4GM",
+          "version_id": "8TOgNwQL",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "RAzwgZkP",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "DZKKhKne",
+      "name": "Fluidlogged 1.2.0 Fabric",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9ee9376e6e028bb156ffe81168d478b7d93d767a293e2cf1805314b53a4107aeb847b121f6027b14dd7b8ea1c41ace72ccb90c48163218e13c38764070f870bc",
+          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/DZKKhKne/fluidlogged-1.2.0-fabric-mc1.19.jar",
+          "filename": "fluidlogged-1.2.0-fabric-mc1.19.jar",
+          "primary": true,
+          "size": 66069
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "FtIIWFFy",
+      "name": "Fabric 1.0.0",
+      "version_number": "fabric-mc1.18.2-1.0.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f319341c036974c36b04affbe7671cd33aa26bc16fc1cbd158a5b48b90d2ffb36cae781e84a34fbb9153955677dccc609f9a58478db0dd0bd36cc7b94d542197",
+          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/1.0.0/fluidlogged-1.0.0.jar",
+          "filename": "fluidlogged-1.0.0.jar",
+          "primary": true,
+          "size": 31920
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "AnCs0z08",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "codAaoxh",
+          "version_id": "CRaHmCcJ",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "P9EKxzZ0",
+      "name": "Fluidlogged 1.2.0 Fabric",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "823a09725940397e4800cea51758ebff35803a05ef1bcecef65742228c9f0eafc56dc394f9440551a390dd3bde14c4a812315698797eabb9e3a27f3ebd2576f7",
+          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/P9EKxzZ0/fluidlogged-1.2.0-fabric-mc1.19.3.jar",
+          "filename": "fluidlogged-1.2.0-fabric-mc1.19.3.jar",
+          "primary": true,
+          "size": 66419
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -129,108 +287,6 @@
       ]
     },
     {
-      "id": "BnVjjoXL",
-      "name": "Fluidlogged 1.2.1 Forge",
-      "version_number": "1.2.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "8fd07c6c13a4557ccbc8d935d06394cf9308321e8c60497a73b0c8af26d065fbb185ffb984e2f0adec88a6ff28167e0b7b023bdb67fd593bff7e8f0055f8cf1d",
-          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/BnVjjoXL/fluidlogged-1.2.1-forge-mc1.20.jar",
-          "filename": "fluidlogged-1.2.1-forge-mc1.20.jar",
-          "primary": true,
-          "size": 66883
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ft84W4E8",
-      "name": "Fluidlogged 1.2.1 Fabric",
-      "version_number": "1.2.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "86a7ef2f895c4462e3617b0ed213bc68419cc279e624335479cef4134d8bfdf44ef1d260935a412d353cef162bc3382e676833d486c4041d784d48ad3267e7c8",
-          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/ft84W4E8/fluidlogged-1.2.1-fabric-mc1.20.jar",
-          "filename": "fluidlogged-1.2.1-fabric-mc1.20.jar",
-          "primary": true,
-          "size": 66406
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "42MXu2No",
-      "name": "Fluidlogged 1.2.0 Forge",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "3293700125caecbca1266eaf416f5cf2cf2c1641d53d25ad54000c6fba991c154b0406e38881df4bd4575f4304eac411d8c107f4126a89bab5f2c9d31616f37f",
-          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/42MXu2No/fluidlogged-1.2.0-forge-mc1.19.3.jar",
-          "filename": "fluidlogged-1.2.0-forge-mc1.19.3.jar",
-          "primary": true,
-          "size": 66692
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "yrd5wZhl",
-      "name": "Fluidlogged 1.2.0 Forge",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "042791ee630c61066c5f5b682e6e325ad031136c1512d7df3329853a525cd5d4f05dfdc564eddfd91116e5548d0330d65c2ee5b8c634a8ca9361927b51ab662d",
-          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/yrd5wZhl/fluidlogged-1.2.0-forge-mc1.19.jar",
-          "filename": "fluidlogged-1.2.0-forge-mc1.19.jar",
-          "primary": true,
-          "size": 72566
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "ZDJBbu4r",
       "name": "Fluidlogged 1.2.0 Forge",
       "version_number": "1.2.0",
@@ -261,88 +317,28 @@
       ]
     },
     {
-      "id": "P9EKxzZ0",
-      "name": "Fluidlogged 1.2.0 Fabric",
-      "version_number": "1.2.0",
+      "id": "ZxSaH4An",
+      "name": "Fluidlogged 2.0.1-beta.2 Forge",
+      "version_number": "2.0.1-beta.2",
       "game_versions": [
-        "1.19.3"
+        "1.20.1"
       ],
       "loaders": [
-        "fabric"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "823a09725940397e4800cea51758ebff35803a05ef1bcecef65742228c9f0eafc56dc394f9440551a390dd3bde14c4a812315698797eabb9e3a27f3ebd2576f7",
-          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/P9EKxzZ0/fluidlogged-1.2.0-fabric-mc1.19.3.jar",
-          "filename": "fluidlogged-1.2.0-fabric-mc1.19.3.jar",
+          "sha512": "b27acabc86457ee0bcb3e666df828d87ad572dfa0121d9b0459e3c7c83f61ee4afb5d64da47fc2740b47a625709243d65c9a6b8a38dd0332c0d655e354a8cb08",
+          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/ZxSaH4An/fluidlogged-2.0.1-beta.2-forge-mc1.20.1.jar",
+          "filename": "fluidlogged-2.0.1-beta.2-forge-mc1.20.1.jar",
           "primary": true,
-          "size": 66419
+          "size": 239958
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "DZKKhKne",
-      "name": "Fluidlogged 1.2.0 Fabric",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9ee9376e6e028bb156ffe81168d478b7d93d767a293e2cf1805314b53a4107aeb847b121f6027b14dd7b8ea1c41ace72ccb90c48163218e13c38764070f870bc",
-          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/DZKKhKne/fluidlogged-1.2.0-fabric-mc1.19.jar",
-          "filename": "fluidlogged-1.2.0-fabric-mc1.19.jar",
-          "primary": true,
-          "size": 66069
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "pjse3Kd3",
-      "name": "Fluidlogged 1.2.0 Fabric",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e82cdfc2addb86fd815e4b4720f4088ca78b5b868b698089be77b7bf3158dca6dba78d3f384b836654fedcb5e4fc3eb372f5a03335680619ea14fc694e82ac5b",
-          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/pjse3Kd3/fluidlogged-1.2.0-fabric-mc1.18.jar",
-          "filename": "fluidlogged-1.2.0-fabric-mc1.18.jar",
-          "primary": true,
-          "size": 65879
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
+          "project_id": "1eAoo2KR",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -384,78 +380,6 @@
       ]
     },
     {
-      "id": "C4sWG8n7",
-      "name": "Fabric 1.1.0",
-      "version_number": "fabric-mc1.19.2-1.1.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2117bdfd7d77ea406bed00d24fc73a960e416ac23469b6b570e8decde564afa9501947c4cdb4a24cdea92a2441901cddbbf4a3bcc3675c5f027e417b240046db",
-          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/C4sWG8n7/fluidlogged-mc1.19.2-1.1.0.jar",
-          "filename": "fluidlogged-mc1.19.2-1.1.0.jar",
-          "primary": true,
-          "size": 88455
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "8TOgNwQL",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "RAzwgZkP",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4URUfjmG",
-      "name": "Fabric 1.1.0",
-      "version_number": "fabric-mc1.18.2-1.1.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "171e051d8bb0c09f7372f35f2f9f962b9836c4022a13f8d6163514ed15a69aceba0e521c9924412abc69cd83c508444f938d983421a1c4b211a9d4dfa03a98d8",
-          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/4URUfjmG/fluidlogged-mc1.18.2-1.1.0.jar",
-          "filename": "fluidlogged-mc1.18.2-1.1.0.jar",
-          "primary": true,
-          "size": 88273
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "cx9D94fU",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "4XRtXhtL",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "fgDFSzNC",
       "name": "Forge 1.1 (deprecated)",
       "version_number": "forge-mc1.18.2-1.1",
@@ -475,6 +399,86 @@
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "ft84W4E8",
+      "name": "Fluidlogged 1.2.1 Fabric",
+      "version_number": "1.2.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "86a7ef2f895c4462e3617b0ed213bc68419cc279e624335479cef4134d8bfdf44ef1d260935a412d353cef162bc3382e676833d486c4041d784d48ad3267e7c8",
+          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/ft84W4E8/fluidlogged-1.2.1-fabric-mc1.20.jar",
+          "filename": "fluidlogged-1.2.1-fabric-mc1.20.jar",
+          "primary": true,
+          "size": 66406
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "iekBD03a",
+      "name": "Fluidlogged 2.0.0-beta1 Forge",
+      "version_number": "2.0.0-beta1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "2f4f3cdd178c946b795d33f7e83f2a513aaf133cce771e45ecf59a50d003fe7a3e33e1b806754bf6dd3157046ccdf07d1c4de975c1f7a0de37d6df9b0c2f2181",
+          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/iekBD03a/fluidlogged-2.0.0-beta1-forge-mc1.20.1.jar",
+          "filename": "fluidlogged-2.0.0-beta1-forge-mc1.20.1.jar",
+          "primary": true,
+          "size": 229617
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "pjse3Kd3",
+      "name": "Fluidlogged 1.2.0 Fabric",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e82cdfc2addb86fd815e4b4720f4088ca78b5b868b698089be77b7bf3158dca6dba78d3f384b836654fedcb5e4fc3eb372f5a03335680619ea14fc694e82ac5b",
+          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/pjse3Kd3/fluidlogged-1.2.0-fabric-mc1.18.jar",
+          "filename": "fluidlogged-1.2.0-fabric-mc1.18.jar",
+          "primary": true,
+          "size": 65879
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "rAybw5hk",
@@ -497,48 +501,44 @@
       ],
       "dependencies": [
         {
-          "project_id": "codAaoxh",
-          "version_id": "CRaHmCcJ",
+          "project_id": "P7dR8mSH",
+          "version_id": "AnCs0z08",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "AnCs0z08",
+          "project_id": "codAaoxh",
+          "version_id": "CRaHmCcJ",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "FtIIWFFy",
-      "name": "Fabric 1.0.0",
-      "version_number": "fabric-mc1.18.2-1.0.0",
+      "id": "yrd5wZhl",
+      "name": "Fluidlogged 1.2.0 Forge",
+      "version_number": "1.2.0",
       "game_versions": [
-        "1.18.2"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
-        "fabric"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "f319341c036974c36b04affbe7671cd33aa26bc16fc1cbd158a5b48b90d2ffb36cae781e84a34fbb9153955677dccc609f9a58478db0dd0bd36cc7b94d542197",
-          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/1.0.0/fluidlogged-1.0.0.jar",
-          "filename": "fluidlogged-1.0.0.jar",
+          "sha512": "042791ee630c61066c5f5b682e6e325ad031136c1512d7df3329853a525cd5d4f05dfdc564eddfd91116e5548d0330d65c2ee5b8c634a8ca9361927b51ab662d",
+          "url": "https://cdn.modrinth.com/data/BnXpPaut/versions/yrd5wZhl/fluidlogged-1.2.0-forge-mc1.19.jar",
+          "filename": "fluidlogged-1.2.0-forge-mc1.19.jar",
           "primary": true,
-          "size": 31920
+          "size": 72566
         }
       ],
       "dependencies": [
         {
           "project_id": "P7dR8mSH",
-          "version_id": "AnCs0z08",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "codAaoxh",
-          "version_id": "CRaHmCcJ",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }

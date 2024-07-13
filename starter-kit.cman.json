@@ -5,25 +5,54 @@
   "description": "📦 Give all new players joining the world configurable starter gear, items and/or potion effects. It can overwrite the initial inventory, or add the items after. Compatible with FTB Team Islands.",
   "versions": [
     {
-      "id": "mVYtJdmn",
-      "name": "[Fabric/Forge/Neo] 1.21.0-7.0",
-      "version_number": "1.21.0-7.0-fabric+forge+neo",
+      "id": "13CMI21O",
+      "name": "[Forge & Fabric] 1.18.2-5.2",
+      "version_number": "1.18.2-5.2-forge+fabric",
       "game_versions": [
-        "1.21"
+        "1.18.2"
       ],
       "loaders": [
         "fabric",
         "forge",
-        "neoforge",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "48b622ca319ab45d64ddd80dba8f7009fafd9c42d012ced735dae6c9b89a7f87462d8c09162169691b11547a7da90d6e2f9dfe631a6b54b257b62cd621e8b39c",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/mVYtJdmn/starterkit-1.21.0-7.0.jar",
-          "filename": "starterkit-1.21.0-7.0.jar",
+          "sha512": "63c59651728bee7b4bf5c6b5bea2d8abfb033769f7207c9fdfabcdc7d6312c25e29a0c84d0478e2fddba2fe1bedcd930b3de6e4da5febaf07c5d30d8f6905b44",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/13CMI21O/starterkit-1.18.2-5.2.jar",
+          "filename": "starterkit-1.18.2-5.2.jar",
           "primary": true,
-          "size": 271941
+          "size": 61854
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "Xz9KMXXo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "1OyWsesA",
+      "name": "[Fabric/Forge] 1.19.2-5.3",
+      "version_number": "1.19.2-5.3-forge+fabric",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "39cbe818fbae2b4edd628c5d423d1fe467bf6cbc10f99cc39d1c27ffa90a1c87a5e13cc5235e2196442a2bc4d0b9b4ee34e254030979859df54059bfff63b2cd",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/1OyWsesA/starterkit-1.19.2-5.3.jar",
+          "filename": "starterkit-1.19.2-5.3.jar",
+          "primary": true,
+          "size": 61842
         }
       ],
       "dependencies": [
@@ -36,25 +65,116 @@
       ]
     },
     {
-      "id": "RYlydA2n",
-      "name": "[Fabric/Forge/Neo] 1.20.6-7.0",
-      "version_number": "1.20.6-7.0-fabric+forge+neo",
+      "id": "1iljwxux",
+      "name": "[Forge & Fabric] 1.19.3-5.0",
+      "version_number": "1.19.3-5.0-forge+fabric",
       "game_versions": [
-        "1.20.6"
+        "1.19.3"
       ],
       "loaders": [
         "fabric",
         "forge",
-        "neoforge",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "050c2f25e3911a2acb62769e5753a3ba6bc14bb1250ad51ce0074521bfc7b8cd0e04275a298b964cac66d07f30662caea7551c382d2247391b9e67b23e991cce",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/RYlydA2n/starterkit-1.20.6-7.0.jar",
-          "filename": "starterkit-1.20.6-7.0.jar",
+          "sha512": "3841655641e54825ca88f8f8734bfc930791bcba2bb9e85c134f0aba95fb33511239f28cd27ef32195d6280e646ce1625793d0ab52d998059f16fef382dd5c5c",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/1iljwxux/starterkit-1.19.3-5.0.jar",
+          "filename": "starterkit-1.19.3-5.0.jar",
           "primary": true,
-          "size": 271808
+          "size": 62172
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "w1vSb4TN",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "1uskVkb1",
+      "name": "[Fabric] 1.19.2-3.7",
+      "version_number": "1.19.2-3.7-fabric",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "fd64b84105aaf64c17c885075a5a963017cc440a0f0781d68533ea97c5c7de32718a250489d147f012702e9810549e6789802d113cc156596a0a683f41a2c0c6",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/1uskVkb1/starterkit-fabric_1.19.2-3.7.jar",
+          "filename": "starterkit-fabric_1.19.2-3.7.jar",
+          "primary": true,
+          "size": 15500
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "MTb34BGn",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "4YoJxdA9",
+      "name": "[Forge] 1.19.2-3.4",
+      "version_number": "1.19.2-3.4-forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "df4d0968aa6f81892789e40f1b7d73a638160a22429e8ebd4ee8b0e6dac8c877e28f90b231136985eefb67f63d099ba07dc1e422fd15e6363e5b2aeccb7bab98",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/4YoJxdA9/starterkit_1.19.2-3.4.jar",
+          "filename": "starterkit_1.19.2-3.4.jar",
+          "primary": true,
+          "size": 14679
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "MTb34BGn",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "4gYC6M8q",
+      "name": "[Fabric/Forge] 1.19.2-6.9",
+      "version_number": "1.19.2-6.9-fabric+forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d52c3d92dd146c10f727113a2a7a1d71e4ff3ad5fa7fa1653fe48358c96c5fc7140f9e4ed154dcd4b376fd2c1c98117855ff7dfecb1418284e91713bcfdfeccf",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/4gYC6M8q/starterkit-1.19.2-6.9.jar",
+          "filename": "starterkit-1.19.2-6.9.jar",
+          "primary": true,
+          "size": 183281
         }
       ],
       "dependencies": [
@@ -67,25 +187,24 @@
       ]
     },
     {
-      "id": "vqZZ1MXc",
-      "name": "[Fabric/Forge/Neo] 1.20.4-7.0",
-      "version_number": "1.20.4-7.0-fabric+forge+neo",
+      "id": "5I6aYPnW",
+      "name": "[Fabric/Forge] 1.19.2-5.4",
+      "version_number": "1.19.2-5.4-fabric+forge+neo",
       "game_versions": [
-        "1.20.4"
+        "1.19.2"
       ],
       "loaders": [
         "fabric",
         "forge",
-        "neoforge",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "c192fd692c768327ab981df82949b66c8736b218e4fcb2df7d6d59437e79991b2ffca397c6c4f2e94dfe4a21b06d026bce72f19e3f9fffe05398a96a84e72624",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/vqZZ1MXc/starterkit-1.20.4-7.0.jar",
-          "filename": "starterkit-1.20.4-7.0.jar",
+          "sha512": "45cabd207cdb924b023818f986f0e75cdec32ff53611aefaa442ba9abbac21522f92a2a21a7c8616507e74548cf69c1f170c3d135821ac73905973e7a228bc17",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/5I6aYPnW/starterkit-1.19.2-5.4.jar",
+          "filename": "starterkit-1.19.2-5.4.jar",
           "primary": true,
-          "size": 271001
+          "size": 44487
         }
       ],
       "dependencies": [
@@ -98,9 +217,71 @@
       ]
     },
     {
-      "id": "pb3dtXM1",
-      "name": "[Fabric/Forge/Neo] 1.20.1-7.0",
-      "version_number": "1.20.1-7.0-fabric+forge+neo",
+      "id": "692fmdzk",
+      "name": "[Fabric] 1.19.2-4.1",
+      "version_number": "1.19.2-4.1-fabric",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "84aaa3687486f69d15c015d90a3a556174542d9dbed01f8103b1bd3ae2ed8ce9a7c165361e250c418227d3645fb7342ed690db13b7d3984e4e046694f43d401e",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/692fmdzk/starterkit-fabric_1.19.2-4.1.jar",
+          "filename": "starterkit-fabric_1.19.2-4.1.jar",
+          "primary": true,
+          "size": 46118
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "MTb34BGn",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "6ERWj8CM",
+      "name": "[Forge] 1.19.3-4.1",
+      "version_number": "1.19.3-4.1-forge",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8f1b66fe2c036b896aa3844ebe43c517c9ac1bf218c71a5e75840b77fa30866bd06f5b88217c90d35e9e6c3de0c262b25f3998d41b8bf624124c1f1e7e6dae99",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/6ERWj8CM/starterkit_1.19.3-4.1.jar",
+          "filename": "starterkit_1.19.3-4.1.jar",
+          "primary": true,
+          "size": 14947
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "w1vSb4TN",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "6HnyBbns",
+      "name": "[Fabric/Forge/Neo] 1.20.1-5.4",
+      "version_number": "1.20.1-5.4-fabric+forge+neo",
       "game_versions": [
         "1.20.1"
       ],
@@ -112,11 +293,11 @@
       ],
       "files": [
         {
-          "sha512": "00c09f1145051eac30453d931f70f6784a2a1f1a2b6c2da056a21773a67cae1fe00b534762eaa1d652ad78ec3953e1d974fe19fec4cb2d249ba2772aa9e8cce2",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/pb3dtXM1/starterkit-1.20.1-7.0.jar",
-          "filename": "starterkit-1.20.1-7.0.jar",
+          "sha512": "fa470dfeac6fb414e91695cf7d5b41a206261b2f6cf3ad1406f0828e65e0bef70996d009a4718a6fe20d9c843af70b889fb9f1cb7968424064ce1cc571971b24",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/6HnyBbns/starterkit-1.20.1-5.4.jar",
+          "filename": "starterkit-1.20.1-5.4.jar",
           "primary": true,
-          "size": 184996
+          "size": 44488
         }
       ],
       "dependencies": [
@@ -129,9 +310,133 @@
       ]
     },
     {
-      "id": "nDDhwn2h",
-      "name": "[Fabric/Forge] 1.19.2-7.0",
-      "version_number": "1.19.2-7.0-fabric+forge",
+      "id": "7BD3dh3n",
+      "name": "[Fabric/Forge/Neo] 1.20.4-6.0",
+      "version_number": "1.20.4-6.0-fabric+forge+neo",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c40e6c4962f38e14d9e17bacd4ede8d2d8bae0dfb5226155f023bbca53d14d397ab7a6936b63f446866938f802d4adf26d1814b8a53bc7f80970720710ab22e0",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/7BD3dh3n/starterkit-1.20.4-6.0.jar",
+          "filename": "starterkit-1.20.4-6.0.jar",
+          "primary": true,
+          "size": 268662
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "82p0hfzC",
+      "name": "[Forge] 1.19.2-3.9",
+      "version_number": "1.19.2-3.9-forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "dbaf3eee8a766e420f6fc9cba2b265876c1bb61344c46fd418b44daa2e7d0e669cc1cd70060f092e35c38d557794950016e0fac802b4fc51046b9b7a8049acec",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/82p0hfzC/starterkit_1.19.2-3.9.jar",
+          "filename": "starterkit_1.19.2-3.9.jar",
+          "primary": true,
+          "size": 14636
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "MTb34BGn",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "8KFsMuyQ",
+      "name": "[Fabric/Forge/Neo] 1.20.1-6.2",
+      "version_number": "1.20.1-6.2-fabric+forge+neo",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f40b8de875f34a3843eaed2a23479626e14dc3b468c3a87f24cac02450439459189e8d1e2b8fd24879c1a2dc272a14f3119fc09aa35b8b97cc764282ba5e6d74",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/8KFsMuyQ/starterkit-1.20.1-6.2.jar",
+          "filename": "starterkit-1.20.1-6.2.jar",
+          "primary": true,
+          "size": 183540
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "8iQzF9Xw",
+      "name": "[Fabric] 1.19.3-4.2",
+      "version_number": "1.19.3-4.2-fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a569adf0af30449a3ffe9610a1761ec316e26ed5ea49f5070eac69cb05203f1b4628c20ce29937eff7fa4e12be3c8b6a8e63206e881de669c136435a196f4a6b",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/8iQzF9Xw/starterkit-fabric_1.19.3-4.2.jar",
+          "filename": "starterkit-fabric_1.19.3-4.2.jar",
+          "primary": true,
+          "size": 46145
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "w1vSb4TN",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "8ysl4dK1",
+      "name": "[Forge & Fabric] 1.19.2-5.1",
+      "version_number": "1.19.2-5.1-forge+fabric",
       "game_versions": [
         "1.19.2"
       ],
@@ -142,11 +447,199 @@
       ],
       "files": [
         {
-          "sha512": "dce419c8cf18d7229b4a16549b2ec5a9f796155c44b8d8fb72776ae239af16f0caedce62497f956e060e96e5b63c065f416b99c067dd4926ddddf4ec5bf30389",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/nDDhwn2h/starterkit-1.19.2-7.0.jar",
-          "filename": "starterkit-1.19.2-7.0.jar",
+          "sha512": "e8e464080847ba27490dd105470897ad42f91dddde08bfd95ce8c2f53d5b30c7a590df00d605c60bf0e3a2be77e664bd74951214d369cb0a6c3accc9a0f97f17",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/8ysl4dK1/starterkit-1.19.2-5.1.jar",
+          "filename": "starterkit-1.19.2-5.1.jar",
           "primary": true,
-          "size": 183853
+          "size": 62086
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "MTb34BGn",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ACauENHf",
+      "name": "[Fabric/Forge/Neo] 1.20.2-5.4",
+      "version_number": "1.20.2-5.4-fabric+forge+neo",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "cd343369f16a20d8d9af6168aa70ff9f145d9906057175b0b2487785a4c1b8c56f67a391fa3f1fc81099d6fe6ec685445cb1eeaa4c3eb5417f9734e7222997d0",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/ACauENHf/starterkit-1.20.2-5.4.jar",
+          "filename": "starterkit-1.20.2-5.4.jar",
+          "primary": true,
+          "size": 59701
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "BLxqJ9tp",
+      "name": "[Fabric/Forge/Neo] 1.20.4-6.1",
+      "version_number": "1.20.4-6.1-fabric+forge+neo",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0cfa9ef3297d02ef0aee8460e6fec3d0e5f44a245e6b6db4823a48c92f6faaca5301c8cc5f9986571f87fc0cfdac27947062f5d6018122d36726f3875a7882a4",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/BLxqJ9tp/starterkit-1.20.4-6.1.jar",
+          "filename": "starterkit-1.20.4-6.1.jar",
+          "primary": true,
+          "size": 268905
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "CQHnmuYg",
+      "name": "[Fabric] 1.19.2-3.8",
+      "version_number": "1.19.2-3.8-fabric",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "37576e4b539fd63380eabf802fc820f32054a0e80347d69ce80e8a7d3de657f2f898e10ff3066f4823c900d051e6695cd21d725711a478e3f5800f24b4f6b17f",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/CQHnmuYg/starterkit-fabric_1.19.2-3.8.jar",
+          "filename": "starterkit-fabric_1.19.2-3.8.jar",
+          "primary": true,
+          "size": 46074
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "MTb34BGn",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "CWcB1Trq",
+      "name": "[Fabric/Forge/Neo] 1.20.1-5.5",
+      "version_number": "1.20.1-5.5-fabric+forge+neo",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "7a4742152b53756aa8e849474c41b5598fe7c0f21713c8e25d5a75f008fbb4ccf52b79993cde46f4c57f353867618e85ee111b2779ed198a4ba9bfaf76f06a88",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/CWcB1Trq/starterkit-1.20.1-5.5.jar",
+          "filename": "starterkit-1.20.1-5.5.jar",
+          "primary": true,
+          "size": 44836
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "CyUzvPin",
+      "name": "[Forge & Fabric] 1.19.3-5.1",
+      "version_number": "1.19.3-5.1-forge+fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "976b93173577a52860f84ed8f864a84e01bd8cf4236b0a47004bff500755f2cc4f6e4401ac46f53c980e17b399814fabbf337cad7206092c8c923f07db86b384",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/CyUzvPin/starterkit-1.19.3-5.1.jar",
+          "filename": "starterkit-1.19.3-5.1.jar",
+          "primary": true,
+          "size": 62100
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "w1vSb4TN",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "E2Mxvf1j",
+      "name": "[Fabric/Forge/Neo] 1.20.4-6.2",
+      "version_number": "1.20.4-6.2-fabric+forge+neo",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "86487da4ae4643b46df9058fb04c8e374342fc6cb206b4fa4f3a1cb600008c5a3931687a31fd939a71b2127cfdd6f364b61c834bed1651ad42f436a1c5725ec7",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/E2Mxvf1j/starterkit-1.20.4-6.2.jar",
+          "filename": "starterkit-1.20.4-6.2.jar",
+          "primary": true,
+          "size": 268902
         }
       ],
       "dependencies": [
@@ -190,11 +683,11 @@
       ]
     },
     {
-      "id": "xLfZpcT1",
-      "name": "[Fabric/Forge/Neo] 1.20.6-6.9",
-      "version_number": "1.20.6-6.9-fabric+forge+neo",
+      "id": "FJtjQWb6",
+      "name": "[Fabric/Forge/Neo] 1.20.4-5.4",
+      "version_number": "1.20.4-5.4-fabric+forge+neo",
       "game_versions": [
-        "1.20.6"
+        "1.20.4"
       ],
       "loaders": [
         "fabric",
@@ -204,11 +697,11 @@
       ],
       "files": [
         {
-          "sha512": "8a0ffdc3dededef117c86af5802fdbd638d00a85bb40b443f86f175caca15964a5d25fa94f6b196653a2115ef15162bc7d6502d9f1d06fa0464964aa4ae469f5",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/xLfZpcT1/starterkit-1.20.6-6.9.jar",
-          "filename": "starterkit-1.20.6-6.9.jar",
+          "sha512": "3e81a2ca754960d13e1f9432ea8b5fc20d29d33a64feb4078d044be325d644805e8dcad018388876dd494c198b2223461c1062036aef164a631637b42cd0ad63",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/FJtjQWb6/starterkit-1.20.4-5.4.jar",
+          "filename": "starterkit-1.20.4-5.4.jar",
           "primary": true,
-          "size": 270964
+          "size": 59699
         }
       ],
       "dependencies": [
@@ -221,11 +714,105 @@
       ]
     },
     {
-      "id": "w4J9ylrE",
-      "name": "[Fabric/Forge/Neo] 1.20.4-6.9",
-      "version_number": "1.20.4-6.9-fabric+forge+neo",
+      "id": "GCakQH66",
+      "name": "[Fabric] 1.18.2-4.1",
+      "version_number": "1.18.2-4.1-fabric",
       "game_versions": [
-        "1.20.4"
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "34d8f5528aae83708d3960e587996a5677a753e1deb16e8326e572ef136022b20fa9c4112c74376b3aceeeba374d496a34ca180ad0c42d5795bfa6b00b914d1f",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/GCakQH66/starterkit-fabric_1.18.2-4.1.jar",
+          "filename": "starterkit-fabric_1.18.2-4.1.jar",
+          "primary": true,
+          "size": 46043
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "Xz9KMXXo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "GPiBeSyc",
+      "name": "[Forge & Fabric] 1.19.3-5.2",
+      "version_number": "1.19.3-5.2-forge+fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "10fc665989b47167f19f53c6c78dd47a991380089329f556a780e3fd74ffa3f3e0dc446349d556f6b06a8a470ef9aa294b3d15a292997762f65e106dd79bb797",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/GPiBeSyc/starterkit-1.19.3-5.2.jar",
+          "filename": "starterkit-1.19.3-5.2.jar",
+          "primary": true,
+          "size": 61878
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "w1vSb4TN",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Gccqwaju",
+      "name": "[Forge & Fabric] 1.20-5.2",
+      "version_number": "1.20-5.2-forge+fabric",
+      "game_versions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "6d0743f7d317575a8b40855ffe591d2f144ab6cc1e3c70a7537606c50812b6dc11f82b21c7ffa97c5d9a4a3a40bc1632905e7a199328de951a884b407ef827b3",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/Gccqwaju/starterkit-1.20.0-5.2.jar",
+          "filename": "starterkit-1.20.0-5.2.jar",
+          "primary": true,
+          "size": 61838
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "RNhYJa64",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "HM4ElLcI",
+      "name": "[Fabric/Forge/Neo] 1.20.6-6.7",
+      "version_number": "1.20.6-6.7-fabric+forge+neo",
+      "game_versions": [
+        "1.20.6"
       ],
       "loaders": [
         "fabric",
@@ -235,11 +822,11 @@
       ],
       "files": [
         {
-          "sha512": "dde18d38dce99a98d4f1b9976b0d13a3b732983f64f3a57be5e294c4c80467961a40e3b2ab89929b94af7ceb69f4b8aa5f87568ac17fa35099632928f5598a24",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/w4J9ylrE/starterkit-1.20.4-6.9.jar",
-          "filename": "starterkit-1.20.4-6.9.jar",
+          "sha512": "63aaa08dbcd8cfeba9c2fc4a28a293402625179b39b0d80cf5555e3cd12193c6014e2f83192409fdf1a71a0124e552f20614ae04429238293f93bf929dd60521",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/HM4ElLcI/starterkit-1.20.6-6.7.jar",
+          "filename": "starterkit-1.20.6-6.7.jar",
           "primary": true,
-          "size": 270117
+          "size": 270841
         }
       ],
       "dependencies": [
@@ -283,132 +870,9 @@
       ]
     },
     {
-      "id": "4gYC6M8q",
-      "name": "[Fabric/Forge] 1.19.2-6.9",
-      "version_number": "1.19.2-6.9-fabric+forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d52c3d92dd146c10f727113a2a7a1d71e4ff3ad5fa7fa1653fe48358c96c5fc7140f9e4ed154dcd4b376fd2c1c98117855ff7dfecb1418284e91713bcfdfeccf",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/4gYC6M8q/starterkit-1.19.2-6.9.jar",
-          "filename": "starterkit-1.19.2-6.9.jar",
-          "primary": true,
-          "size": 183281
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "WI7f7CzZ",
-      "name": "[Fabric/Forge/Neo] 1.21.0-6.8",
-      "version_number": "1.21.0-6.8-fabric+forge+neo",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f1e09d04135ae17537e41c3a06149e10083255b61dc7687d00a0361338b711dd17d4bdab6a62fe5acfd81dd10d1e31d78b76736b649c46f331807d968635aebb",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/WI7f7CzZ/starterkit-1.21.0-6.8.jar",
-          "filename": "starterkit-1.21.0-6.8.jar",
-          "primary": true,
-          "size": 271093
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "mgtq9mKs",
-      "name": "[Fabric/Forge/Neo] 1.20.6-6.8",
-      "version_number": "1.20.6-6.8-fabric+forge+neo",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "df6e2be1cecae2acee11e21e213c17ebaf51f53e47036bb82f0545986c9afc1498b6170c762cf79a6b86da0a9f67298f222e06bd629f1bde1b2c8491ce11962e",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/mgtq9mKs/starterkit-1.20.6-6.8.jar",
-          "filename": "starterkit-1.20.6-6.8.jar",
-          "primary": true,
-          "size": 270962
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "h9WNHjqr",
-      "name": "[Fabric/Forge/Neo] 1.20.4-6.8",
-      "version_number": "1.20.4-6.8-fabric+forge+neo",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ec46b1f73bdb7cf9005da483681c214a8ab3b9091bb0050b02cf9cf340770ac7e556920aa116fb58486a4fed06c3d2335042bda94e86d23a8d46680b35d8ac8a",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/h9WNHjqr/starterkit-1.20.4-6.8.jar",
-          "filename": "starterkit-1.20.4-6.8.jar",
-          "primary": true,
-          "size": 270139
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "zgCOxV4R",
-      "name": "[Fabric/Forge/Neo] 1.20.1-6.8",
-      "version_number": "1.20.1-6.8-fabric+forge+neo",
+      "id": "I8HoSR4u",
+      "name": "[Fabric/Forge/Neo] 1.20.1-6.3",
+      "version_number": "1.20.1-6.3-fabric+forge+neo",
       "game_versions": [
         "1.20.1"
       ],
@@ -420,11 +884,11 @@
       ],
       "files": [
         {
-          "sha512": "1352f383ef510c3599ef98dc12004ac1a251b4652586fbd8006624aa9ee1014b52c245f9c5cfbd395b5cae1aba8f6d98ff19a0529b8237b1c35889e104cc7aa0",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/zgCOxV4R/starterkit-1.20.1-6.8.jar",
-          "filename": "starterkit-1.20.1-6.8.jar",
+          "sha512": "84f5ba5fae7b13ca5b213fae8d229ef76627adb7119da1b5d68b13faa7d33e13911a476c793cf2169de88c4c9548f2d395b469077fbd2ad6028c9ff68c2f4633",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/I8HoSR4u/starterkit-1.20.1-6.3.jar",
+          "filename": "starterkit-1.20.1-6.3.jar",
           "primary": true,
-          "size": 184427
+          "size": 183621
         }
       ],
       "dependencies": [
@@ -437,24 +901,215 @@
       ]
     },
     {
-      "id": "YehkzHk5",
-      "name": "[Fabric/Forge] 1.19.2-6.8",
-      "version_number": "1.19.2-6.8-fabric+forge",
+      "id": "Ijk5ownz",
+      "name": "[Fabric/Forge/Neo] 1.20.1-6.5",
+      "version_number": "1.20.1-6.5-fabric+forge+neo",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "ad23c859b6d4903b0445792867be7605c43ed8d2f22fc047cc005ebdaaf0d5157f1b2e931913353850d1b368b7b2fe330eac85bd74d3335fb011881440ab10cf",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/Ijk5ownz/starterkit-1.20.1-6.5.jar",
+          "filename": "starterkit-1.20.1-6.5.jar",
+          "primary": true,
+          "size": 184175
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "JdI3NrcY",
+      "name": "[Fabric/Forge/Neo] 1.20.1-6.0",
+      "version_number": "1.20.1-6.0-fabric+forge+neo",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "ad0602ef52a2c96ebfdd293efadc888860a531dbd7670ac2a2e6f2c7322cec92632697e6aafabe2e6d30d233fcfd1baf6c2289193d8e52861f049903b034110c",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/JdI3NrcY/starterkit-1.20.1-6.0.jar",
+          "filename": "starterkit-1.20.1-6.0.jar",
+          "primary": true,
+          "size": 183304
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "JwSShdeH",
+      "name": "[Fabric/Neo] 1.20.5-6.6",
+      "version_number": "1.20.5-6.6-fabric+neo",
+      "game_versions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "ac2979cec168a0915e5f9590002643f18b6244c21fb2182569e366164f70e86e6ad3f574118fa16fcd8f8341574d1f98b487f2a5bacb9c122f4939756c0415a3",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/JwSShdeH/starterkit-1.20.5-6.6.jar",
+          "filename": "starterkit-1.20.5-6.6.jar",
+          "primary": true,
+          "size": 185966
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Jxksba7W",
+      "name": "[Forge & Fabric] 1.18.2-5.0",
+      "version_number": "1.18.2-5.0-forge+fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d99d285c79fd6933a54e346f30bfbc8ca9c1577c74cb41fcf16c3dad14f051f37c2269c3ee96553a459b29478f781f466f307810f5311372d69f6b1a46db72c5",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/Jxksba7W/starterkit-1.18.2-5.0.jar",
+          "filename": "starterkit-1.18.2-5.0.jar",
+          "primary": true,
+          "size": 62137
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "Xz9KMXXo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "LbCUN94Y",
+      "name": "[Fabric] 1.16.5-4.0",
+      "version_number": "1.16.5-4.0-fabric",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d921b85aacba11a6720d441431835e67dd659e3430cdd9dc71f26e4acc52b3a1cd47dc131c899e27e8b2fe6461204973a6964895269f9b3b8db2ffb342f9032b",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/LbCUN94Y/starterkit-fabric_1.16.5-4.0.jar",
+          "filename": "starterkit-fabric_1.16.5-4.0.jar",
+          "primary": true,
+          "size": 45244
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "diqQmTlH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "LkoWb7wY",
+      "name": "[Fabric] 1.19.2-3.9",
+      "version_number": "1.19.2-3.9-fabric",
       "game_versions": [
         "1.19.2"
       ],
       "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e5b1680d67645a6da2fe3096b53a21cb0e46a6080689dff0ad9c362d5277506a0cad50bcb40a5cf015a977f659d453579b64bcdb8308e2c34344c698395cf5c4",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/LkoWb7wY/starterkit-fabric_1.19.2-3.9.jar",
+          "filename": "starterkit-fabric_1.19.2-3.9.jar",
+          "primary": true,
+          "size": 46028
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "MTb34BGn",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "MVnIGVY3",
+      "name": "[Fabric/Forge/Neo] 1.20.4-5.3",
+      "version_number": "1.20.4-5.3-fabric+forge+neo",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
         "fabric",
         "forge",
+        "neoforge",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "765f86c3ef2aec45690d286b2c69e7d55b25ff242b309cc28874b78e099d5d2670ba596e1f7ed9f8a93a025e25514447775ca5c729b9802ac7629407758b1968",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/YehkzHk5/starterkit-1.19.2-6.8.jar",
-          "filename": "starterkit-1.19.2-6.8.jar",
+          "sha512": "77149fea4f13465b4332ab3f27c3a1b85e106497ba6b4476fbd78466d67b7750ba9e28d700db05b70023cba5ed246fe0114dc8519b40df3adaaf2dbe8ac811b0",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/MVnIGVY3/starterkit-1.20.4-5.3.jar",
+          "filename": "starterkit-1.20.4-5.3.jar",
           "primary": true,
-          "size": 183291
+          "size": 77102
         }
       ],
       "dependencies": [
@@ -467,56 +1122,58 @@
       ]
     },
     {
-      "id": "aXwDMFto",
-      "name": "[Fabric/Forge/Neo] 1.21.0-6.7",
-      "version_number": "1.21.0-6.7-fabric+forge+neo",
+      "id": "Mid2h9eJ",
+      "name": "[Fabric] 1.18.2-3.9",
+      "version_number": "1.18.2-3.9-fabric",
       "game_versions": [
-        "1.21"
+        "1.18.2"
       ],
       "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "3eb66e7bba237cb42bb4594f2a86b4daffbba9afba269eda3170b6fb5c86f347c0bc296fb3500097159276af60bbf9dac15deb3bf36954417db30df600e92e03",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/aXwDMFto/starterkit-1.21.0-6.7.jar",
-          "filename": "starterkit-1.21.0-6.7.jar",
+          "sha512": "6740d02da61de1bbd82f242260a9ae8a3184d4578ef5fcfe66d6720dcbc276530a62896bab7f501ca6b3b765ddbfeeeac5b5d8761c95a23fa8ac3366618ff6ef",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/Mid2h9eJ/starterkit-fabric_1.18.2-3.9.jar",
+          "filename": "starterkit-fabric_1.18.2-3.9.jar",
           "primary": true,
-          "size": 270975
+          "size": 45956
         }
       ],
       "dependencies": [
         {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "e0M1UDsY",
-          "version_id": null,
+          "version_id": "Xz9KMXXo",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "HM4ElLcI",
-      "name": "[Fabric/Forge/Neo] 1.20.6-6.7",
-      "version_number": "1.20.6-6.7-fabric+forge+neo",
+      "id": "NrTul6JY",
+      "name": "[Fabric/Neo] 1.20.5-6.5",
+      "version_number": "1.20.5-6.5-fabric+neo",
       "game_versions": [
-        "1.20.6"
+        "1.20.5"
       ],
       "loaders": [
         "fabric",
-        "forge",
         "neoforge",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "63aaa08dbcd8cfeba9c2fc4a28a293402625179b39b0d80cf5555e3cd12193c6014e2f83192409fdf1a71a0124e552f20614ae04429238293f93bf929dd60521",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/HM4ElLcI/starterkit-1.20.6-6.7.jar",
-          "filename": "starterkit-1.20.6-6.7.jar",
+          "sha512": "b7f4ae827fd91e58f3086f105b67304bf33f0a5a6dd59efefe74de6a919813e8c9285c8ce52df7b32957f1e1b5d3db1c57e370f393a661b2281ddaa474da1728",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/NrTul6JY/starterkit-1.20.5-6.5.jar",
+          "filename": "starterkit-1.20.5-6.5.jar",
           "primary": true,
-          "size": 270841
+          "size": 186000
         }
       ],
       "dependencies": [
@@ -590,496 +1247,6 @@
       ]
     },
     {
-      "id": "kwRz8bUf",
-      "name": "[Fabric/Forge/Neo] 1.20.6-6.6",
-      "version_number": "1.20.6-6.6-fabric+forge+neo",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "a7d519d135f9aa48ea084d59bbce42b6f8a88106d03b9444856e2438e1a58f2f7a06339ee8b3d04b82eb4cfa50ecfd67582815f4a9b39d0d9888a08de671236e",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/kwRz8bUf/starterkit-1.20.6-6.6.jar",
-          "filename": "starterkit-1.20.6-6.6.jar",
-          "primary": true,
-          "size": 270676
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "JwSShdeH",
-      "name": "[Fabric/Neo] 1.20.5-6.6",
-      "version_number": "1.20.5-6.6-fabric+neo",
-      "game_versions": [
-        "1.20.5"
-      ],
-      "loaders": [
-        "fabric",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ac2979cec168a0915e5f9590002643f18b6244c21fb2182569e366164f70e86e6ad3f574118fa16fcd8f8341574d1f98b487f2a5bacb9c122f4939756c0415a3",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/JwSShdeH/starterkit-1.20.5-6.6.jar",
-          "filename": "starterkit-1.20.5-6.6.jar",
-          "primary": true,
-          "size": 185966
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "NrTul6JY",
-      "name": "[Fabric/Neo] 1.20.5-6.5",
-      "version_number": "1.20.5-6.5-fabric+neo",
-      "game_versions": [
-        "1.20.5"
-      ],
-      "loaders": [
-        "fabric",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "b7f4ae827fd91e58f3086f105b67304bf33f0a5a6dd59efefe74de6a919813e8c9285c8ce52df7b32957f1e1b5d3db1c57e370f393a661b2281ddaa474da1728",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/NrTul6JY/starterkit-1.20.5-6.5.jar",
-          "filename": "starterkit-1.20.5-6.5.jar",
-          "primary": true,
-          "size": 186000
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "UOwzT7Jm",
-      "name": "[Fabric/Forge/Neo] 1.20.4-6.5",
-      "version_number": "1.20.4-6.5-fabric+forge+neo",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "907d918b41ca4440f83c3c915b1ca0321bb0beeba86f8e3313a9e63d4d8569821cf2315321819052b95987feaed1055f15db6cb57e4b83055ac4b99541545df8",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/UOwzT7Jm/starterkit-1.20.4-6.5.jar",
-          "filename": "starterkit-1.20.4-6.5.jar",
-          "primary": true,
-          "size": 269929
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Ijk5ownz",
-      "name": "[Fabric/Forge/Neo] 1.20.1-6.5",
-      "version_number": "1.20.1-6.5-fabric+forge+neo",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ad23c859b6d4903b0445792867be7605c43ed8d2f22fc047cc005ebdaaf0d5157f1b2e931913353850d1b368b7b2fe330eac85bd74d3335fb011881440ab10cf",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/Ijk5ownz/starterkit-1.20.1-6.5.jar",
-          "filename": "starterkit-1.20.1-6.5.jar",
-          "primary": true,
-          "size": 184175
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "vfHW3ty6",
-      "name": "[Fabric/Forge] 1.19.2-6.5",
-      "version_number": "1.19.2-6.5-fabric+forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "97a2f97989aadbefa9fdaf7536a3891125effb4124329e12a423f92196a743f2de613dde79af95a21614ea8123cc066e51c7a78399a2632469ccb1e4af2bff8b",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/vfHW3ty6/starterkit-1.19.2-6.5.jar",
-          "filename": "starterkit-1.19.2-6.5.jar",
-          "primary": true,
-          "size": 182700
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "p86xgczm",
-      "name": "[Fabric/Forge/Neo] 1.20.4-6.4",
-      "version_number": "1.20.4-6.4-fabric+forge+neo",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2719532982174311c11d3e2c5f9be4185bda5b900b5e4dea52489fccd001bc33744d2761dbd1e8f1918eb44b6bf66ce143caa143b21e1caa3077e479413b2d40",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/p86xgczm/starterkit-1.20.4-6.4.jar",
-          "filename": "starterkit-1.20.4-6.4.jar",
-          "primary": true,
-          "size": 269976
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "mZf90ShY",
-      "name": "[Fabric/Forge/Neo] 1.20.1-6.4",
-      "version_number": "1.20.1-6.4-fabric+forge+neo",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "cbd268f2329834b74fe39cbd483082e6f1482a0d886b39615677d9c8b569d573703c08988632460366fca1a6ba22896483013cff0e5e8678c23b8706197507d0",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/mZf90ShY/starterkit-1.20.1-6.4.jar",
-          "filename": "starterkit-1.20.1-6.4.jar",
-          "primary": true,
-          "size": 184204
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "VVPJWVKk",
-      "name": "[Fabric/Forge] 1.19.2-6.4",
-      "version_number": "1.19.2-6.4-fabric+forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "21e515b185b2b2f0733767f9b6bc3e0120adfd8daeca97f0bfce025dd36cb6b502c565b7a134cc67d0e210cef3cc66e938d0424604ddace44a613a0b5100f12d",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/VVPJWVKk/starterkit-1.19.2-6.4.jar",
-          "filename": "starterkit-1.19.2-6.4.jar",
-          "primary": true,
-          "size": 182756
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "n1vEcey0",
-      "name": "[Fabric/Forge/Neo] 1.20.4-6.3",
-      "version_number": "1.20.4-6.3-fabric+forge+neo",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6d8e608ffc96361caa85e82d2d9ee8783b9cd0c2aea1ec4b581375695655066e50b03964dc271d04131a0ca8bb5d8b5fb1d224ac61118c0dfa49f813b33742db",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/n1vEcey0/starterkit-1.20.4-6.3.jar",
-          "filename": "starterkit-1.20.4-6.3.jar",
-          "primary": true,
-          "size": 269103
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "I8HoSR4u",
-      "name": "[Fabric/Forge/Neo] 1.20.1-6.3",
-      "version_number": "1.20.1-6.3-fabric+forge+neo",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "84f5ba5fae7b13ca5b213fae8d229ef76627adb7119da1b5d68b13faa7d33e13911a476c793cf2169de88c4c9548f2d395b469077fbd2ad6028c9ff68c2f4633",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/I8HoSR4u/starterkit-1.20.1-6.3.jar",
-          "filename": "starterkit-1.20.1-6.3.jar",
-          "primary": true,
-          "size": 183621
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ctEwjzYH",
-      "name": "[Fabric/Forge] 1.19.2-6.3",
-      "version_number": "1.19.2-6.3-fabric+forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4c7d3874e4b1ca127ddb51a6d3903ccc4f12b56d84182430e817657e8c3d430ea9475e54b9858fbd3116a991bcb433ce2667aad131b3fd5385247f98c221d11b",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/ctEwjzYH/starterkit-1.19.2-6.3.jar",
-          "filename": "starterkit-1.19.2-6.3.jar",
-          "primary": true,
-          "size": 182172
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "E2Mxvf1j",
-      "name": "[Fabric/Forge/Neo] 1.20.4-6.2",
-      "version_number": "1.20.4-6.2-fabric+forge+neo",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "86487da4ae4643b46df9058fb04c8e374342fc6cb206b4fa4f3a1cb600008c5a3931687a31fd939a71b2127cfdd6f364b61c834bed1651ad42f436a1c5725ec7",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/E2Mxvf1j/starterkit-1.20.4-6.2.jar",
-          "filename": "starterkit-1.20.4-6.2.jar",
-          "primary": true,
-          "size": 268902
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "8KFsMuyQ",
-      "name": "[Fabric/Forge/Neo] 1.20.1-6.2",
-      "version_number": "1.20.1-6.2-fabric+forge+neo",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f40b8de875f34a3843eaed2a23479626e14dc3b468c3a87f24cac02450439459189e8d1e2b8fd24879c1a2dc272a14f3119fc09aa35b8b97cc764282ba5e6d74",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/8KFsMuyQ/starterkit-1.20.1-6.2.jar",
-          "filename": "starterkit-1.20.1-6.2.jar",
-          "primary": true,
-          "size": 183540
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "VZ1IcT1v",
-      "name": "[Fabric/Forge] 1.19.2-6.2",
-      "version_number": "1.19.2-6.2-fabric+forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "8a3124dbf7666b41bb5ee9f41a499c4ca8b11ebdb6491fcad2dc59fd57ba63839d12f420da4cc8fbd73bac0affcd3c7de4f7c32beb4d36b934be9c53997bed6c",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/VZ1IcT1v/starterkit-1.19.2-6.2.jar",
-          "filename": "starterkit-1.19.2-6.2.jar",
-          "primary": true,
-          "size": 182094
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "BLxqJ9tp",
-      "name": "[Fabric/Forge/Neo] 1.20.4-6.1",
-      "version_number": "1.20.4-6.1-fabric+forge+neo",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0cfa9ef3297d02ef0aee8460e6fec3d0e5f44a245e6b6db4823a48c92f6faaca5301c8cc5f9986571f87fc0cfdac27947062f5d6018122d36726f3875a7882a4",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/BLxqJ9tp/starterkit-1.20.4-6.1.jar",
-          "filename": "starterkit-1.20.4-6.1.jar",
-          "primary": true,
-          "size": 268905
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "PFJiNgPp",
       "name": "[Fabric/Forge/Neo] 1.20.1-6.1",
       "version_number": "1.20.1-6.1-fabric+forge+neo",
@@ -1099,159 +1266,6 @@
           "filename": "starterkit-1.20.1-6.1.jar",
           "primary": true,
           "size": 183506
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "k8gBfBkU",
-      "name": "[Fabric/Forge] 1.19.2-6.1",
-      "version_number": "1.19.2-6.1-fabric+forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "51c8317c34c8f6d548a9bbe714f3077382932b5125b59b3581ae075cb5c733994006e7bd01e5ddbe5985008c2e0a6eb142ce5aeeccc85ae9e3deb30cb4bd469f",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/k8gBfBkU/starterkit-1.19.2-6.1.jar",
-          "filename": "starterkit-1.19.2-6.1.jar",
-          "primary": true,
-          "size": 182098
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "7BD3dh3n",
-      "name": "[Fabric/Forge/Neo] 1.20.4-6.0",
-      "version_number": "1.20.4-6.0-fabric+forge+neo",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "c40e6c4962f38e14d9e17bacd4ede8d2d8bae0dfb5226155f023bbca53d14d397ab7a6936b63f446866938f802d4adf26d1814b8a53bc7f80970720710ab22e0",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/7BD3dh3n/starterkit-1.20.4-6.0.jar",
-          "filename": "starterkit-1.20.4-6.0.jar",
-          "primary": true,
-          "size": 268662
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "JdI3NrcY",
-      "name": "[Fabric/Forge/Neo] 1.20.1-6.0",
-      "version_number": "1.20.1-6.0-fabric+forge+neo",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ad0602ef52a2c96ebfdd293efadc888860a531dbd7670ac2a2e6f2c7322cec92632697e6aafabe2e6d30d233fcfd1baf6c2289193d8e52861f049903b034110c",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/JdI3NrcY/starterkit-1.20.1-6.0.jar",
-          "filename": "starterkit-1.20.1-6.0.jar",
-          "primary": true,
-          "size": 183304
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "dwmReMQ2",
-      "name": "[Fabric/Forge] 1.19.2-6.0",
-      "version_number": "1.19.2-6.0-fabric+forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "077e62d806d958026a4ebf66f3e32373dffe8d4f24a79ddbe7a98ba47e0060f3a55b262a3977174f839460589bc9eaf61512e116f6e703090f347d4dc66f96ac",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/dwmReMQ2/starterkit-1.19.2-6.0.jar",
-          "filename": "starterkit-1.19.2-6.0.jar",
-          "primary": true,
-          "size": 181897
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "xwuYfQEV",
-      "name": "[Fabric/Forge/Neo] 1.20.4-5.5",
-      "version_number": "1.20.4-5.5-fabric+forge+neo",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "5d1e795154fab80ed3b5eda51c8d07e6c983cb07d69fd2f0fbc4ef538bf65e82dc1c7954a7da4d0bd6688d08d6cc3f9b5a015c53f6a9f1554815f1a17c6b5a3b",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/xwuYfQEV/starterkit-1.20.4-5.5.jar",
-          "filename": "starterkit-1.20.4-5.5.jar",
-          "primary": true,
-          "size": 60224
         }
       ],
       "dependencies": [
@@ -1295,101 +1309,39 @@
       ]
     },
     {
-      "id": "CWcB1Trq",
-      "name": "[Fabric/Forge/Neo] 1.20.1-5.5",
-      "version_number": "1.20.1-5.5-fabric+forge+neo",
+      "id": "PUQyueKW",
+      "name": "[Forge & Fabric] 1.20.1-5.2",
+      "version_number": "1.20.1-5.2-forge+fabric",
       "game_versions": [
         "1.20.1"
       ],
       "loaders": [
         "fabric",
         "forge",
-        "neoforge",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "7a4742152b53756aa8e849474c41b5598fe7c0f21713c8e25d5a75f008fbb4ccf52b79993cde46f4c57f353867618e85ee111b2779ed198a4ba9bfaf76f06a88",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/CWcB1Trq/starterkit-1.20.1-5.5.jar",
-          "filename": "starterkit-1.20.1-5.5.jar",
+          "sha512": "f2d756998630ed65298be91140e8e9e052eeba5178dfd85cb6f9d27fa2cbba5093836326e667fe2cb27e95390186e04837d803790a681f4aef3e419c660745e2",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/PUQyueKW/starterkit-1.20.1-5.2.jar",
+          "filename": "starterkit-1.20.1-5.2.jar",
           "primary": true,
-          "size": 44836
+          "size": 61853
         }
       ],
       "dependencies": [
         {
           "project_id": "e0M1UDsY",
-          "version_id": null,
+          "version_id": "W1CQ9UCz",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "zToANVwf",
-      "name": "[Fabric/Forge] 1.19.2-5.5",
-      "version_number": "1.19.2-5.5-fabric+forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0acffdacf656be55ae43959e7a834b3305263b87bf412562446c807fcc3123382deac4c7837afb53c6aeb280f19d16bbd3bd80cdbafcc3a705be41a5a8a56987",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/zToANVwf/starterkit-1.19.2-5.5.jar",
-          "filename": "starterkit-1.19.2-5.5.jar",
-          "primary": true,
-          "size": 44833
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "FJtjQWb6",
-      "name": "[Fabric/Forge/Neo] 1.20.4-5.4",
-      "version_number": "1.20.4-5.4-fabric+forge+neo",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3e81a2ca754960d13e1f9432ea8b5fc20d29d33a64feb4078d044be325d644805e8dcad018388876dd494c198b2223461c1062036aef164a631637b42cd0ad63",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/FJtjQWb6/starterkit-1.20.4-5.4.jar",
-          "filename": "starterkit-1.20.4-5.4.jar",
-          "primary": true,
-          "size": 59699
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ACauENHf",
-      "name": "[Fabric/Forge/Neo] 1.20.2-5.4",
-      "version_number": "1.20.2-5.4-fabric+forge+neo",
+      "id": "PmrWrfiI",
+      "name": "[Forge & Fabric] 1.20.2-5.2",
+      "version_number": "1.20.2-5.2-forge+fabric",
       "game_versions": [
         "1.20.2"
       ],
@@ -1401,11 +1353,11 @@
       ],
       "files": [
         {
-          "sha512": "cd343369f16a20d8d9af6168aa70ff9f145d9906057175b0b2487785a4c1b8c56f67a391fa3f1fc81099d6fe6ec685445cb1eeaa4c3eb5417f9734e7222997d0",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/ACauENHf/starterkit-1.20.2-5.4.jar",
-          "filename": "starterkit-1.20.2-5.4.jar",
+          "sha512": "6bd511fc316517cf1137bcbfd5ae67b2d8bb3ccc55a15d492fbdcd516e61a5d1519eb631239b1568833cc2e37ce54fd2ff73e233d686125116e5abc0a2371551",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/PmrWrfiI/starterkit-1.20.2-5.2.jar",
+          "filename": "starterkit-1.20.2-5.2.jar",
           "primary": true,
-          "size": 59701
+          "size": 61849
         }
       ],
       "dependencies": [
@@ -1418,11 +1370,45 @@
       ]
     },
     {
-      "id": "6HnyBbns",
-      "name": "[Fabric/Forge/Neo] 1.20.1-5.4",
-      "version_number": "1.20.1-5.4-fabric+forge+neo",
+      "id": "PyPD7H89",
+      "name": "[Fabric] 1.18.2-3.5",
+      "version_number": "1.18.2-3.5-fabric",
       "game_versions": [
-        "1.20.1"
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5e908bdd6b037b691bbf4ce2063c09dc5f8cbd730a7d2b1dc924e4d3f1232b6019a4893dd597fa9e9e7d646eaf03ecfa26844655918693d82cc77b069c19917e",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/PyPD7H89/starterkit-fabric_1.18.2-3.5.jar",
+          "filename": "starterkit-fabric_1.18.2-3.5.jar",
+          "primary": true,
+          "size": 15424
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "Xz9KMXXo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "RYlydA2n",
+      "name": "[Fabric/Forge/Neo] 1.20.6-7.0",
+      "version_number": "1.20.6-7.0-fabric+forge+neo",
+      "game_versions": [
+        "1.20.6"
       ],
       "loaders": [
         "fabric",
@@ -1432,11 +1418,11 @@
       ],
       "files": [
         {
-          "sha512": "fa470dfeac6fb414e91695cf7d5b41a206261b2f6cf3ad1406f0828e65e0bef70996d009a4718a6fe20d9c843af70b889fb9f1cb7968424064ce1cc571971b24",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/6HnyBbns/starterkit-1.20.1-5.4.jar",
-          "filename": "starterkit-1.20.1-5.4.jar",
+          "sha512": "050c2f25e3911a2acb62769e5753a3ba6bc14bb1250ad51ce0074521bfc7b8cd0e04275a298b964cac66d07f30662caea7551c382d2247391b9e67b23e991cce",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/RYlydA2n/starterkit-1.20.6-7.0.jar",
+          "filename": "starterkit-1.20.6-7.0.jar",
           "primary": true,
-          "size": 44488
+          "size": 271808
         }
       ],
       "dependencies": [
@@ -1449,39 +1435,71 @@
       ]
     },
     {
-      "id": "5I6aYPnW",
-      "name": "[Fabric/Forge] 1.19.2-5.4",
-      "version_number": "1.19.2-5.4-fabric+forge+neo",
+      "id": "Rqj5tZki",
+      "name": "[Forge] 1.16.5-4.0",
+      "version_number": "1.16.5-4.0-forge",
       "game_versions": [
-        "1.19.2"
+        "1.16.5"
       ],
       "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "45cabd207cdb924b023818f986f0e75cdec32ff53611aefaa442ba9abbac21522f92a2a21a7c8616507e74548cf69c1f170c3d135821ac73905973e7a228bc17",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/5I6aYPnW/starterkit-1.19.2-5.4.jar",
-          "filename": "starterkit-1.19.2-5.4.jar",
+          "sha512": "f2de9e79e9710c50c4474d43309241a1b2955b50b5ea45d82868f2044b48cd1fd9039ab51de02f65da3d552837964c7f8c912fcfc297610a89e8a2f351929aa9",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/Rqj5tZki/starterkit_1.16.5-4.0.jar",
+          "filename": "starterkit_1.16.5-4.0.jar",
           "primary": true,
-          "size": 44487
+          "size": 14577
         }
       ],
       "dependencies": [
         {
           "project_id": "e0M1UDsY",
-          "version_id": null,
+          "version_id": "HMuqiDvH",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "MVnIGVY3",
-      "name": "[Fabric/Forge/Neo] 1.20.4-5.3",
-      "version_number": "1.20.4-5.3-fabric+forge+neo",
+      "id": "UExnPFd0",
+      "name": "[Fabric] 1.16.5-3.5",
+      "version_number": "1.16.5-3.5-fabric",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "dbd1cd47859883b9f6fc3036a0867109077fbd21830452edba92026bca4095ad66ac873be977c8991adea8583a09f5a08f692b5476c2c829e3d3917734c63277",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/UExnPFd0/starterkit-fabric_1.16.5-3.5.jar",
+          "filename": "starterkit-fabric_1.16.5-3.5.jar",
+          "primary": true,
+          "size": 14901
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "diqQmTlH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "UOwzT7Jm",
+      "name": "[Fabric/Forge/Neo] 1.20.4-6.5",
+      "version_number": "1.20.4-6.5-fabric+forge+neo",
       "game_versions": [
         "1.20.4"
       ],
@@ -1493,11 +1511,11 @@
       ],
       "files": [
         {
-          "sha512": "77149fea4f13465b4332ab3f27c3a1b85e106497ba6b4476fbd78466d67b7750ba9e28d700db05b70023cba5ed246fe0114dc8519b40df3adaaf2dbe8ac811b0",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/MVnIGVY3/starterkit-1.20.4-5.3.jar",
-          "filename": "starterkit-1.20.4-5.3.jar",
+          "sha512": "907d918b41ca4440f83c3c915b1ca0321bb0beeba86f8e3313a9e63d4d8569821cf2315321819052b95987feaed1055f15db6cb57e4b83055ac4b99541545df8",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/UOwzT7Jm/starterkit-1.20.4-6.5.jar",
+          "filename": "starterkit-1.20.4-6.5.jar",
           "primary": true,
-          "size": 77102
+          "size": 269929
         }
       ],
       "dependencies": [
@@ -1510,25 +1528,80 @@
       ]
     },
     {
-      "id": "gYVA0ZB6",
-      "name": "[Fabric/Forge/Neo] 1.20.3-5.3",
-      "version_number": "1.20.3-5.3-fabric+forge+neo",
+      "id": "UoeOKtMK",
+      "name": "[Forge] 1.18.2-4.0",
+      "version_number": "1.18.2-4.0-forge",
       "game_versions": [
-        "1.20.3"
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ceaf526f83d442f81bf8a830548e324d3da30785333b58d7bb8633144e8bf50124717539750ae9f362eba0220032049091ca0719c8da9a7f4a0f3ee03001ab5f",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/UoeOKtMK/starterkit_1.18.2-4.0.jar",
+          "filename": "starterkit_1.18.2-4.0.jar",
+          "primary": true,
+          "size": 14770
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "Xz9KMXXo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "VNFRYSf3",
+      "name": "[Forge] 1.19.2-4.1",
+      "version_number": "1.19.2-4.1-forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "3715cb1ca45e13f56920858348b96fe89afedb295a9746a0960563a9b4684407476c70fb9011c25724d16954b1258d221babf9237f5e9a970c59cecd65973ab7",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/VNFRYSf3/starterkit_1.19.2-4.1.jar",
+          "filename": "starterkit_1.19.2-4.1.jar",
+          "primary": true,
+          "size": 14933
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "MTb34BGn",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "VVPJWVKk",
+      "name": "[Fabric/Forge] 1.19.2-6.4",
+      "version_number": "1.19.2-6.4-fabric+forge",
+      "game_versions": [
+        "1.19.2"
       ],
       "loaders": [
         "fabric",
         "forge",
-        "neoforge",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "1a1ef3d41a1bb7a5c1212538ecd305e59ec31c2d069e25eeffb01a4ff0c7f530b1bc2fea7dde69c47ff08e83a53e51c4cd1911e727df39dacafdc1d7dae0d9e9",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/gYVA0ZB6/starterkit-1.20.3-5.3.jar",
-          "filename": "starterkit-1.20.3-5.3.jar",
+          "sha512": "21e515b185b2b2f0733767f9b6bc3e0120adfd8daeca97f0bfce025dd36cb6b502c565b7a134cc67d0e210cef3cc66e938d0424604ddace44a613a0b5100f12d",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/VVPJWVKk/starterkit-1.19.2-6.4.jar",
+          "filename": "starterkit-1.19.2-6.4.jar",
           "primary": true,
-          "size": 77102
+          "size": 182756
         }
       ],
       "dependencies": [
@@ -1541,25 +1614,24 @@
       ]
     },
     {
-      "id": "kBIWEqgF",
-      "name": "[Fabric/Forge/Neo] 1.20.2-5.3",
-      "version_number": "1.20.2-5.3-forge+fabric",
+      "id": "VZ1IcT1v",
+      "name": "[Fabric/Forge] 1.19.2-6.2",
+      "version_number": "1.19.2-6.2-fabric+forge",
       "game_versions": [
-        "1.20.2"
+        "1.19.2"
       ],
       "loaders": [
         "fabric",
         "forge",
-        "neoforge",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "f2301d6c9432a84bb0cc5213af6fb145e3af13c42a6d59cf409bd22f1ef0bd6c5a6d016a3d3561ee5e2136dc012f937564054aee6f49655d6b3211353da8e8de",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/kBIWEqgF/starterkit-1.20.2-5.3.jar",
-          "filename": "starterkit-1.20.2-5.3.jar",
+          "sha512": "8a3124dbf7666b41bb5ee9f41a499c4ca8b11ebdb6491fcad2dc59fd57ba63839d12f420da4cc8fbd73bac0affcd3c7de4f7c32beb4d36b934be9c53997bed6c",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/VZ1IcT1v/starterkit-1.19.2-6.2.jar",
+          "filename": "starterkit-1.19.2-6.2.jar",
           "primary": true,
-          "size": 77031
+          "size": 182094
         }
       ],
       "dependencies": [
@@ -1603,71 +1675,11 @@
       ]
     },
     {
-      "id": "1OyWsesA",
-      "name": "[Fabric/Forge] 1.19.2-5.3",
-      "version_number": "1.19.2-5.3-forge+fabric",
+      "id": "WI7f7CzZ",
+      "name": "[Fabric/Forge/Neo] 1.21.0-6.8",
+      "version_number": "1.21.0-6.8-fabric+forge+neo",
       "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "39cbe818fbae2b4edd628c5d423d1fe467bf6cbc10f99cc39d1c27ffa90a1c87a5e13cc5235e2196442a2bc4d0b9b4ee34e254030979859df54059bfff63b2cd",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/1OyWsesA/starterkit-1.19.2-5.3.jar",
-          "filename": "starterkit-1.19.2-5.3.jar",
-          "primary": true,
-          "size": 61842
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "g2acc8mi",
-      "name": "[Fabric/Forge] 1.18.2-5.3",
-      "version_number": "1.18.2-5.3-forge+fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "92e91fad376bfabe83f06d7df060ec3c5c8667beea142263428e9475edec9e1a350e19e5b8b2a4f9387c434d446dd5c8951c33b3d5715c9187160cf2557600c3",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/g2acc8mi/starterkit-1.18.2-5.3.jar",
-          "filename": "starterkit-1.18.2-5.3.jar",
-          "primary": true,
-          "size": 61826
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "PmrWrfiI",
-      "name": "[Forge & Fabric] 1.20.2-5.2",
-      "version_number": "1.20.2-5.2-forge+fabric",
-      "game_versions": [
-        "1.20.2"
+        "1.21"
       ],
       "loaders": [
         "fabric",
@@ -1677,867 +1689,17 @@
       ],
       "files": [
         {
-          "sha512": "6bd511fc316517cf1137bcbfd5ae67b2d8bb3ccc55a15d492fbdcd516e61a5d1519eb631239b1568833cc2e37ce54fd2ff73e233d686125116e5abc0a2371551",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/PmrWrfiI/starterkit-1.20.2-5.2.jar",
-          "filename": "starterkit-1.20.2-5.2.jar",
+          "sha512": "f1e09d04135ae17537e41c3a06149e10083255b61dc7687d00a0361338b711dd17d4bdab6a62fe5acfd81dd10d1e31d78b76736b649c46f331807d968635aebb",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/WI7f7CzZ/starterkit-1.21.0-6.8.jar",
+          "filename": "starterkit-1.21.0-6.8.jar",
           "primary": true,
-          "size": 61849
+          "size": 271093
         }
       ],
       "dependencies": [
         {
           "project_id": "e0M1UDsY",
           "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "PUQyueKW",
-      "name": "[Forge & Fabric] 1.20.1-5.2",
-      "version_number": "1.20.1-5.2-forge+fabric",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f2d756998630ed65298be91140e8e9e052eeba5178dfd85cb6f9d27fa2cbba5093836326e667fe2cb27e95390186e04837d803790a681f4aef3e419c660745e2",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/PUQyueKW/starterkit-1.20.1-5.2.jar",
-          "filename": "starterkit-1.20.1-5.2.jar",
-          "primary": true,
-          "size": 61853
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "W1CQ9UCz",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Gccqwaju",
-      "name": "[Forge & Fabric] 1.20-5.2",
-      "version_number": "1.20-5.2-forge+fabric",
-      "game_versions": [
-        "1.20"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6d0743f7d317575a8b40855ffe591d2f144ab6cc1e3c70a7537606c50812b6dc11f82b21c7ffa97c5d9a4a3a40bc1632905e7a199328de951a884b407ef827b3",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/Gccqwaju/starterkit-1.20.0-5.2.jar",
-          "filename": "starterkit-1.20.0-5.2.jar",
-          "primary": true,
-          "size": 61838
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "RNhYJa64",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "cLmpkvul",
-      "name": "[Forge & Fabric] 1.19.4-5.2",
-      "version_number": "1.19.4-5.2-forge+fabric",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "febc99cd9eee1f9ac6a94041b8cae4b03658833b8328f68de6c991f3bcbde987f1c0a9ecb13bebd0bd09578ab2c7451c9114e51a75bfc11372ca60159da512b5",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/cLmpkvul/starterkit-1.19.4-5.2.jar",
-          "filename": "starterkit-1.19.4-5.2.jar",
-          "primary": true,
-          "size": 61901
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "YZdu9B77",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "GPiBeSyc",
-      "name": "[Forge & Fabric] 1.19.3-5.2",
-      "version_number": "1.19.3-5.2-forge+fabric",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "10fc665989b47167f19f53c6c78dd47a991380089329f556a780e3fd74ffa3f3e0dc446349d556f6b06a8a470ef9aa294b3d15a292997762f65e106dd79bb797",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/GPiBeSyc/starterkit-1.19.3-5.2.jar",
-          "filename": "starterkit-1.19.3-5.2.jar",
-          "primary": true,
-          "size": 61878
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "w1vSb4TN",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "pLNsi6nl",
-      "name": "[Forge & Fabric] 1.19.2-5.2",
-      "version_number": "1.19.2-5.2-forge+fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "287539d58f4381f3bd6e260e3d560efe2794228f4bdbdefda14bbe167ef35c82a8ac6159899936d3cc3ff32797f8e80f1740554be82956590b1765f3974358b8",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/pLNsi6nl/starterkit-1.19.2-5.2.jar",
-          "filename": "starterkit-1.19.2-5.2.jar",
-          "primary": true,
-          "size": 61866
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "MTb34BGn",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "13CMI21O",
-      "name": "[Forge & Fabric] 1.18.2-5.2",
-      "version_number": "1.18.2-5.2-forge+fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "63c59651728bee7b4bf5c6b5bea2d8abfb033769f7207c9fdfabcdc7d6312c25e29a0c84d0478e2fddba2fe1bedcd930b3de6e4da5febaf07c5d30d8f6905b44",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/13CMI21O/starterkit-1.18.2-5.2.jar",
-          "filename": "starterkit-1.18.2-5.2.jar",
-          "primary": true,
-          "size": 61854
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "Xz9KMXXo",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "CyUzvPin",
-      "name": "[Forge & Fabric] 1.19.3-5.1",
-      "version_number": "1.19.3-5.1-forge+fabric",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "976b93173577a52860f84ed8f864a84e01bd8cf4236b0a47004bff500755f2cc4f6e4401ac46f53c980e17b399814fabbf337cad7206092c8c923f07db86b384",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/CyUzvPin/starterkit-1.19.3-5.1.jar",
-          "filename": "starterkit-1.19.3-5.1.jar",
-          "primary": true,
-          "size": 62100
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "w1vSb4TN",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "8ysl4dK1",
-      "name": "[Forge & Fabric] 1.19.2-5.1",
-      "version_number": "1.19.2-5.1-forge+fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "e8e464080847ba27490dd105470897ad42f91dddde08bfd95ce8c2f53d5b30c7a590df00d605c60bf0e3a2be77e664bd74951214d369cb0a6c3accc9a0f97f17",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/8ysl4dK1/starterkit-1.19.2-5.1.jar",
-          "filename": "starterkit-1.19.2-5.1.jar",
-          "primary": true,
-          "size": 62086
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "MTb34BGn",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "oeFVfjlS",
-      "name": "[Forge & Fabric] 1.18.2-5.1",
-      "version_number": "1.18.2-5.1-forge+fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f2a58d514be590b9bfbdb54f5403c5e76124685d27e22915e086c31d1cd8387cbdffae266707ed9dc0c08e2a2c140aff6642e6825d53e4298c595c8d62ed4d56",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/oeFVfjlS/starterkit-1.18.2-5.1.jar",
-          "filename": "starterkit-1.18.2-5.1.jar",
-          "primary": true,
-          "size": 62074
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "Xz9KMXXo",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "1iljwxux",
-      "name": "[Forge & Fabric] 1.19.3-5.0",
-      "version_number": "1.19.3-5.0-forge+fabric",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3841655641e54825ca88f8f8734bfc930791bcba2bb9e85c134f0aba95fb33511239f28cd27ef32195d6280e646ce1625793d0ab52d998059f16fef382dd5c5c",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/1iljwxux/starterkit-1.19.3-5.0.jar",
-          "filename": "starterkit-1.19.3-5.0.jar",
-          "primary": true,
-          "size": 62172
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "w1vSb4TN",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "XDyaFAdA",
-      "name": "[Forge & Fabric] 1.19.2-5.0",
-      "version_number": "1.19.2-5.0-forge+fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "17d5b4e579efed401392f7ec7f383155f54c506909ada6163a66682f5cee641e4179cc16b9584dc9d170de83db3a0e3b2fa5fe50256da2dbf02ea0cb024e3d44",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/XDyaFAdA/starterkit-1.19.2-5.0.jar",
-          "filename": "starterkit-1.19.2-5.0.jar",
-          "primary": true,
-          "size": 62154
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "MTb34BGn",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Jxksba7W",
-      "name": "[Forge & Fabric] 1.18.2-5.0",
-      "version_number": "1.18.2-5.0-forge+fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d99d285c79fd6933a54e346f30bfbc8ca9c1577c74cb41fcf16c3dad14f051f37c2269c3ee96553a459b29478f781f466f307810f5311372d69f6b1a46db72c5",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/Jxksba7W/starterkit-1.18.2-5.0.jar",
-          "filename": "starterkit-1.18.2-5.0.jar",
-          "primary": true,
-          "size": 62137
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "Xz9KMXXo",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "8iQzF9Xw",
-      "name": "[Fabric] 1.19.3-4.2",
-      "version_number": "1.19.3-4.2-fabric",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a569adf0af30449a3ffe9610a1761ec316e26ed5ea49f5070eac69cb05203f1b4628c20ce29937eff7fa4e12be3c8b6a8e63206e881de669c136435a196f4a6b",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/8iQzF9Xw/starterkit-fabric_1.19.3-4.2.jar",
-          "filename": "starterkit-fabric_1.19.3-4.2.jar",
-          "primary": true,
-          "size": 46145
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "w1vSb4TN",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "6ERWj8CM",
-      "name": "[Forge] 1.19.3-4.1",
-      "version_number": "1.19.3-4.1-forge",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "8f1b66fe2c036b896aa3844ebe43c517c9ac1bf218c71a5e75840b77fa30866bd06f5b88217c90d35e9e6c3de0c262b25f3998d41b8bf624124c1f1e7e6dae99",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/6ERWj8CM/starterkit_1.19.3-4.1.jar",
-          "filename": "starterkit_1.19.3-4.1.jar",
-          "primary": true,
-          "size": 14947
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "w1vSb4TN",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "VNFRYSf3",
-      "name": "[Forge] 1.19.2-4.1",
-      "version_number": "1.19.2-4.1-forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "3715cb1ca45e13f56920858348b96fe89afedb295a9746a0960563a9b4684407476c70fb9011c25724d16954b1258d221babf9237f5e9a970c59cecd65973ab7",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/VNFRYSf3/starterkit_1.19.2-4.1.jar",
-          "filename": "starterkit_1.19.2-4.1.jar",
-          "primary": true,
-          "size": 14933
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "MTb34BGn",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "waAD0WBJ",
-      "name": "[Forge] 1.18.2-4.1",
-      "version_number": "1.18.2-4.1-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "38fd5d0849c1dfb6016d7d07958b59d5a083e61dca62cb02f6a1df865167422fcc54759a9c924c43b9bdca78627ba6c95b9ff64e65d929668591d027aa9d7df0",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/waAD0WBJ/starterkit_1.18.2-4.1.jar",
-          "filename": "starterkit_1.18.2-4.1.jar",
-          "primary": true,
-          "size": 14984
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "Xz9KMXXo",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "fuk9KbDs",
-      "name": "[Forge] 1.16.5-4.1",
-      "version_number": "1.16.5-4.1-forge",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "9af8dd8763d85f8c7c1b24b1d00833c573df29c8fa50fe9a9a99902f3102b51009d5d3688bf196b9708cf1cf7a96cec3fecedc6fc4aa78ce1d0d68ded0bbca2c",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/fuk9KbDs/starterkit_1.16.5-4.1.jar",
-          "filename": "starterkit_1.16.5-4.1.jar",
-          "primary": true,
-          "size": 14814
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "HMuqiDvH",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "692fmdzk",
-      "name": "[Fabric] 1.19.2-4.1",
-      "version_number": "1.19.2-4.1-fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "84aaa3687486f69d15c015d90a3a556174542d9dbed01f8103b1bd3ae2ed8ce9a7c165361e250c418227d3645fb7342ed690db13b7d3984e4e046694f43d401e",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/692fmdzk/starterkit-fabric_1.19.2-4.1.jar",
-          "filename": "starterkit-fabric_1.19.2-4.1.jar",
-          "primary": true,
-          "size": 46118
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "MTb34BGn",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "GCakQH66",
-      "name": "[Fabric] 1.18.2-4.1",
-      "version_number": "1.18.2-4.1-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "34d8f5528aae83708d3960e587996a5677a753e1deb16e8326e572ef136022b20fa9c4112c74376b3aceeeba374d496a34ca180ad0c42d5795bfa6b00b914d1f",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/GCakQH66/starterkit-fabric_1.18.2-4.1.jar",
-          "filename": "starterkit-fabric_1.18.2-4.1.jar",
-          "primary": true,
-          "size": 46043
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "Xz9KMXXo",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "sj5Vzzub",
-      "name": "[Fabric] 1.16.5-4.1",
-      "version_number": "1.16.5-4.1-fabric",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "96be4cf5261bbe580f917b1dc565876545a17af2e7bbf6666fa8031d677c00ec96e1c0686921b08f05ed3bf77bbe52ef70f3464c459b91287edfda2dcf78afc6",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/sj5Vzzub/starterkit-fabric_1.16.5-4.1.jar",
-          "filename": "starterkit-fabric_1.16.5-4.1.jar",
-          "primary": true,
-          "size": 45426
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "diqQmTlH",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "lkZ4MFsc",
-      "name": "[Forge] 1.19.2-4.0",
-      "version_number": "1.19.2-4.0-forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "26eb13a375cc58c538e7978c28165f2b57a3b823c92189eab24d1ebd884ad3dc1ee203997ecf25db8a5f8bc5c4c0574ff459287016b6e4d2b2471fe31bf10050",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/lkZ4MFsc/starterkit_1.19.2-4.0.jar",
-          "filename": "starterkit_1.19.2-4.0.jar",
-          "primary": true,
-          "size": 14754
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "MTb34BGn",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "UoeOKtMK",
-      "name": "[Forge] 1.18.2-4.0",
-      "version_number": "1.18.2-4.0-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "ceaf526f83d442f81bf8a830548e324d3da30785333b58d7bb8633144e8bf50124717539750ae9f362eba0220032049091ca0719c8da9a7f4a0f3ee03001ab5f",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/UoeOKtMK/starterkit_1.18.2-4.0.jar",
-          "filename": "starterkit_1.18.2-4.0.jar",
-          "primary": true,
-          "size": 14770
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "Xz9KMXXo",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Rqj5tZki",
-      "name": "[Forge] 1.16.5-4.0",
-      "version_number": "1.16.5-4.0-forge",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "f2de9e79e9710c50c4474d43309241a1b2955b50b5ea45d82868f2044b48cd1fd9039ab51de02f65da3d552837964c7f8c912fcfc297610a89e8a2f351929aa9",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/Rqj5tZki/starterkit_1.16.5-4.0.jar",
-          "filename": "starterkit_1.16.5-4.0.jar",
-          "primary": true,
-          "size": 14577
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "HMuqiDvH",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "omJXB9H5",
-      "name": "[Fabric] 1.19.2-4.0",
-      "version_number": "1.19.2-4.0-fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "018a45d7646e4070259317444824a9b1e7142386bd27998f221078bf4b55f071f0845bd84b0b17456a163320e3c6d80d2d8c951ef264ef2d6de303a0b196a6c4",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/omJXB9H5/starterkit-fabric_1.19.2-4.0.jar",
-          "filename": "starterkit-fabric_1.19.2-4.0.jar",
-          "primary": true,
-          "size": 45951
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "MTb34BGn",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "yoTqC7M5",
-      "name": "[Fabric] 1.18.2-4.0",
-      "version_number": "1.18.2-4.0-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0afd2f4dd93bbc896734b7400b8d7a91cefc4586b8d1bbe2ee3f05d64808f7c35f724d9e91940521c60083b041d945248853dc3ed7ba546a9592f2436ca05f2a",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/yoTqC7M5/starterkit-fabric_1.18.2-4.0.jar",
-          "filename": "starterkit-fabric_1.18.2-4.0.jar",
-          "primary": true,
-          "size": 45883
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "Xz9KMXXo",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "LbCUN94Y",
-      "name": "[Fabric] 1.16.5-4.0",
-      "version_number": "1.16.5-4.0-fabric",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d921b85aacba11a6720d441431835e67dd659e3430cdd9dc71f26e4acc52b3a1cd47dc131c899e27e8b2fe6461204973a6964895269f9b3b8db2ffb342f9032b",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/LbCUN94Y/starterkit-fabric_1.16.5-4.0.jar",
-          "filename": "starterkit-fabric_1.16.5-4.0.jar",
-          "primary": true,
-          "size": 45244
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "diqQmTlH",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "82p0hfzC",
-      "name": "[Forge] 1.19.2-3.9",
-      "version_number": "1.19.2-3.9-forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "dbaf3eee8a766e420f6fc9cba2b265876c1bb61344c46fd418b44daa2e7d0e669cc1cd70060f092e35c38d557794950016e0fac802b4fc51046b9b7a8049acec",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/82p0hfzC/starterkit_1.19.2-3.9.jar",
-          "filename": "starterkit_1.19.2-3.9.jar",
-          "primary": true,
-          "size": 14636
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "MTb34BGn",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "fZ2idBc9",
-      "name": "[Forge] 1.18.2-3.9",
-      "version_number": "1.18.2-3.9-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "821a2ad08317eda015a5fd444039e16bc57a6ae548c650a2b1f68e3718f0d5ee6732d0ef4cd3866a7ed973f1e3929ba683f91f0681f04f8fa28b91b7a0e10fc1",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/fZ2idBc9/starterkit_1.18.2-3.9.jar",
-          "filename": "starterkit_1.18.2-3.9.jar",
-          "primary": true,
-          "size": 14687
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "Xz9KMXXo",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -2572,133 +1734,27 @@
       ]
     },
     {
-      "id": "LkoWb7wY",
-      "name": "[Fabric] 1.19.2-3.9",
-      "version_number": "1.19.2-3.9-fabric",
+      "id": "XDyaFAdA",
+      "name": "[Forge & Fabric] 1.19.2-5.0",
+      "version_number": "1.19.2-5.0-forge+fabric",
       "game_versions": [
         "1.19.2"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "forge",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "e5b1680d67645a6da2fe3096b53a21cb0e46a6080689dff0ad9c362d5277506a0cad50bcb40a5cf015a977f659d453579b64bcdb8308e2c34344c698395cf5c4",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/LkoWb7wY/starterkit-fabric_1.19.2-3.9.jar",
-          "filename": "starterkit-fabric_1.19.2-3.9.jar",
+          "sha512": "17d5b4e579efed401392f7ec7f383155f54c506909ada6163a66682f5cee641e4179cc16b9584dc9d170de83db3a0e3b2fa5fe50256da2dbf02ea0cb024e3d44",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/XDyaFAdA/starterkit-1.19.2-5.0.jar",
+          "filename": "starterkit-1.19.2-5.0.jar",
           "primary": true,
-          "size": 46028
+          "size": 62154
         }
       ],
       "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "MTb34BGn",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Mid2h9eJ",
-      "name": "[Fabric] 1.18.2-3.9",
-      "version_number": "1.18.2-3.9-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6740d02da61de1bbd82f242260a9ae8a3184d4578ef5fcfe66d6720dcbc276530a62896bab7f501ca6b3b765ddbfeeeac5b5d8761c95a23fa8ac3366618ff6ef",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/Mid2h9eJ/starterkit-fabric_1.18.2-3.9.jar",
-          "filename": "starterkit-fabric_1.18.2-3.9.jar",
-          "primary": true,
-          "size": 45956
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "Xz9KMXXo",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ilY5AmX1",
-      "name": "[Fabric] 1.16.5-3.9",
-      "version_number": "1.16.5-3.9-fabric",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "484c62dcd16d6d317dfcaaa874ac77714d3922fb7e6179d0ecd444615cddb50383e226131a49599362529298ba7ea948210d322970d383ed11b0a61a1c94e17e",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/ilY5AmX1/starterkit-fabric_1.16.5-3.9.jar",
-          "filename": "starterkit-fabric_1.16.5-3.9.jar",
-          "primary": true,
-          "size": 45318
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "diqQmTlH",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "CQHnmuYg",
-      "name": "[Fabric] 1.19.2-3.8",
-      "version_number": "1.19.2-3.8-fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "37576e4b539fd63380eabf802fc820f32054a0e80347d69ce80e8a7d3de657f2f898e10ff3066f4823c900d051e6695cd21d725711a478e3f5800f24b4f6b17f",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/CQHnmuYg/starterkit-fabric_1.19.2-3.8.jar",
-          "filename": "starterkit-fabric_1.19.2-3.8.jar",
-          "primary": true,
-          "size": 46074
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "e0M1UDsY",
           "version_id": "MTb34BGn",
@@ -2742,90 +1798,61 @@
       ]
     },
     {
-      "id": "vv4mCF5J",
-      "name": "[Fabric] 1.16.5-3.8",
-      "version_number": "1.16.5-3.8-fabric",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "01c50b360f2d0cd4b9d9a72e9725716492145c407ab1befd57ec258ce01aa0f9cd460710fd65f369fe734fdbf3ddf4208fbb75c4e6fdbb53c4f19453ea9fe0c1",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/vv4mCF5J/starterkit-fabric_1.16.5-3.8.jar",
-          "filename": "starterkit-fabric_1.16.5-3.8.jar",
-          "primary": true,
-          "size": 45362
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "diqQmTlH",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4YoJxdA9",
-      "name": "[Forge] 1.19.2-3.4",
-      "version_number": "1.19.2-3.4-forge",
+      "id": "YehkzHk5",
+      "name": "[Fabric/Forge] 1.19.2-6.8",
+      "version_number": "1.19.2-6.8-fabric+forge",
       "game_versions": [
         "1.19.2"
       ],
       "loaders": [
-        "forge"
+        "fabric",
+        "forge",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "df4d0968aa6f81892789e40f1b7d73a638160a22429e8ebd4ee8b0e6dac8c877e28f90b231136985eefb67f63d099ba07dc1e422fd15e6363e5b2aeccb7bab98",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/4YoJxdA9/starterkit_1.19.2-3.4.jar",
-          "filename": "starterkit_1.19.2-3.4.jar",
+          "sha512": "765f86c3ef2aec45690d286b2c69e7d55b25ff242b309cc28874b78e099d5d2670ba596e1f7ed9f8a93a025e25514447775ca5c729b9802ac7629407758b1968",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/YehkzHk5/starterkit-1.19.2-6.8.jar",
+          "filename": "starterkit-1.19.2-6.8.jar",
           "primary": true,
-          "size": 14679
+          "size": 183291
         }
       ],
       "dependencies": [
         {
           "project_id": "e0M1UDsY",
-          "version_id": "MTb34BGn",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "tXhpLTE2",
-      "name": "[Forge] 1.18.2-3.2",
-      "version_number": "1.18.2-3.2-forge",
+      "id": "aXwDMFto",
+      "name": "[Fabric/Forge/Neo] 1.21.0-6.7",
+      "version_number": "1.21.0-6.7-fabric+forge+neo",
       "game_versions": [
-        "1.18.2"
+        "1.21"
       ],
       "loaders": [
-        "forge"
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "9e41fb5bb7b498ef402a2723e435ddf4f7806cd2749ffb39b55ec58a80bfdbf8d4a22ea4d128949a9bb17d253cb21623d32805ec56d13614648892af07941fdd",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/tXhpLTE2/starterkit_1.18.2-3.2.jar",
-          "filename": "starterkit_1.18.2-3.2.jar",
+          "sha512": "3eb66e7bba237cb42bb4594f2a86b4daffbba9afba269eda3170b6fb5c86f347c0bc296fb3500097159276af60bbf9dac15deb3bf36954417db30df600e92e03",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/aXwDMFto/starterkit-1.21.0-6.7.jar",
+          "filename": "starterkit-1.21.0-6.7.jar",
           "primary": true,
-          "size": 14743
+          "size": 270975
         }
       ],
       "dependencies": [
         {
           "project_id": "e0M1UDsY",
-          "version_id": "Xz9KMXXo",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -2860,9 +1887,585 @@
       ]
     },
     {
-      "id": "1uskVkb1",
-      "name": "[Fabric] 1.19.2-3.7",
-      "version_number": "1.19.2-3.7-fabric",
+      "id": "cLmpkvul",
+      "name": "[Forge & Fabric] 1.19.4-5.2",
+      "version_number": "1.19.4-5.2-forge+fabric",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "febc99cd9eee1f9ac6a94041b8cae4b03658833b8328f68de6c991f3bcbde987f1c0a9ecb13bebd0bd09578ab2c7451c9114e51a75bfc11372ca60159da512b5",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/cLmpkvul/starterkit-1.19.4-5.2.jar",
+          "filename": "starterkit-1.19.4-5.2.jar",
+          "primary": true,
+          "size": 61901
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "YZdu9B77",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ctEwjzYH",
+      "name": "[Fabric/Forge] 1.19.2-6.3",
+      "version_number": "1.19.2-6.3-fabric+forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4c7d3874e4b1ca127ddb51a6d3903ccc4f12b56d84182430e817657e8c3d430ea9475e54b9858fbd3116a991bcb433ce2667aad131b3fd5385247f98c221d11b",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/ctEwjzYH/starterkit-1.19.2-6.3.jar",
+          "filename": "starterkit-1.19.2-6.3.jar",
+          "primary": true,
+          "size": 182172
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "dwmReMQ2",
+      "name": "[Fabric/Forge] 1.19.2-6.0",
+      "version_number": "1.19.2-6.0-fabric+forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "077e62d806d958026a4ebf66f3e32373dffe8d4f24a79ddbe7a98ba47e0060f3a55b262a3977174f839460589bc9eaf61512e116f6e703090f347d4dc66f96ac",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/dwmReMQ2/starterkit-1.19.2-6.0.jar",
+          "filename": "starterkit-1.19.2-6.0.jar",
+          "primary": true,
+          "size": 181897
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "fZ2idBc9",
+      "name": "[Forge] 1.18.2-3.9",
+      "version_number": "1.18.2-3.9-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "821a2ad08317eda015a5fd444039e16bc57a6ae548c650a2b1f68e3718f0d5ee6732d0ef4cd3866a7ed973f1e3929ba683f91f0681f04f8fa28b91b7a0e10fc1",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/fZ2idBc9/starterkit_1.18.2-3.9.jar",
+          "filename": "starterkit_1.18.2-3.9.jar",
+          "primary": true,
+          "size": 14687
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "Xz9KMXXo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "fuk9KbDs",
+      "name": "[Forge] 1.16.5-4.1",
+      "version_number": "1.16.5-4.1-forge",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9af8dd8763d85f8c7c1b24b1d00833c573df29c8fa50fe9a9a99902f3102b51009d5d3688bf196b9708cf1cf7a96cec3fecedc6fc4aa78ce1d0d68ded0bbca2c",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/fuk9KbDs/starterkit_1.16.5-4.1.jar",
+          "filename": "starterkit_1.16.5-4.1.jar",
+          "primary": true,
+          "size": 14814
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "HMuqiDvH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "g2acc8mi",
+      "name": "[Fabric/Forge] 1.18.2-5.3",
+      "version_number": "1.18.2-5.3-forge+fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "92e91fad376bfabe83f06d7df060ec3c5c8667beea142263428e9475edec9e1a350e19e5b8b2a4f9387c434d446dd5c8951c33b3d5715c9187160cf2557600c3",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/g2acc8mi/starterkit-1.18.2-5.3.jar",
+          "filename": "starterkit-1.18.2-5.3.jar",
+          "primary": true,
+          "size": 61826
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "gYVA0ZB6",
+      "name": "[Fabric/Forge/Neo] 1.20.3-5.3",
+      "version_number": "1.20.3-5.3-fabric+forge+neo",
+      "game_versions": [
+        "1.20.3"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "1a1ef3d41a1bb7a5c1212538ecd305e59ec31c2d069e25eeffb01a4ff0c7f530b1bc2fea7dde69c47ff08e83a53e51c4cd1911e727df39dacafdc1d7dae0d9e9",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/gYVA0ZB6/starterkit-1.20.3-5.3.jar",
+          "filename": "starterkit-1.20.3-5.3.jar",
+          "primary": true,
+          "size": 77102
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "h9WNHjqr",
+      "name": "[Fabric/Forge/Neo] 1.20.4-6.8",
+      "version_number": "1.20.4-6.8-fabric+forge+neo",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "ec46b1f73bdb7cf9005da483681c214a8ab3b9091bb0050b02cf9cf340770ac7e556920aa116fb58486a4fed06c3d2335042bda94e86d23a8d46680b35d8ac8a",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/h9WNHjqr/starterkit-1.20.4-6.8.jar",
+          "filename": "starterkit-1.20.4-6.8.jar",
+          "primary": true,
+          "size": 270139
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ilY5AmX1",
+      "name": "[Fabric] 1.16.5-3.9",
+      "version_number": "1.16.5-3.9-fabric",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "484c62dcd16d6d317dfcaaa874ac77714d3922fb7e6179d0ecd444615cddb50383e226131a49599362529298ba7ea948210d322970d383ed11b0a61a1c94e17e",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/ilY5AmX1/starterkit-fabric_1.16.5-3.9.jar",
+          "filename": "starterkit-fabric_1.16.5-3.9.jar",
+          "primary": true,
+          "size": 45318
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "diqQmTlH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "k8gBfBkU",
+      "name": "[Fabric/Forge] 1.19.2-6.1",
+      "version_number": "1.19.2-6.1-fabric+forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "51c8317c34c8f6d548a9bbe714f3077382932b5125b59b3581ae075cb5c733994006e7bd01e5ddbe5985008c2e0a6eb142ce5aeeccc85ae9e3deb30cb4bd469f",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/k8gBfBkU/starterkit-1.19.2-6.1.jar",
+          "filename": "starterkit-1.19.2-6.1.jar",
+          "primary": true,
+          "size": 182098
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "kBIWEqgF",
+      "name": "[Fabric/Forge/Neo] 1.20.2-5.3",
+      "version_number": "1.20.2-5.3-forge+fabric",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f2301d6c9432a84bb0cc5213af6fb145e3af13c42a6d59cf409bd22f1ef0bd6c5a6d016a3d3561ee5e2136dc012f937564054aee6f49655d6b3211353da8e8de",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/kBIWEqgF/starterkit-1.20.2-5.3.jar",
+          "filename": "starterkit-1.20.2-5.3.jar",
+          "primary": true,
+          "size": 77031
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "kwRz8bUf",
+      "name": "[Fabric/Forge/Neo] 1.20.6-6.6",
+      "version_number": "1.20.6-6.6-fabric+forge+neo",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "a7d519d135f9aa48ea084d59bbce42b6f8a88106d03b9444856e2438e1a58f2f7a06339ee8b3d04b82eb4cfa50ecfd67582815f4a9b39d0d9888a08de671236e",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/kwRz8bUf/starterkit-1.20.6-6.6.jar",
+          "filename": "starterkit-1.20.6-6.6.jar",
+          "primary": true,
+          "size": 270676
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "lkZ4MFsc",
+      "name": "[Forge] 1.19.2-4.0",
+      "version_number": "1.19.2-4.0-forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "26eb13a375cc58c538e7978c28165f2b57a3b823c92189eab24d1ebd884ad3dc1ee203997ecf25db8a5f8bc5c4c0574ff459287016b6e4d2b2471fe31bf10050",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/lkZ4MFsc/starterkit_1.19.2-4.0.jar",
+          "filename": "starterkit_1.19.2-4.0.jar",
+          "primary": true,
+          "size": 14754
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "MTb34BGn",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "mVYtJdmn",
+      "name": "[Fabric/Forge/Neo] 1.21.0-7.0",
+      "version_number": "1.21.0-7.0-fabric+forge+neo",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "48b622ca319ab45d64ddd80dba8f7009fafd9c42d012ced735dae6c9b89a7f87462d8c09162169691b11547a7da90d6e2f9dfe631a6b54b257b62cd621e8b39c",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/mVYtJdmn/starterkit-1.21.0-7.0.jar",
+          "filename": "starterkit-1.21.0-7.0.jar",
+          "primary": true,
+          "size": 271941
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "mZf90ShY",
+      "name": "[Fabric/Forge/Neo] 1.20.1-6.4",
+      "version_number": "1.20.1-6.4-fabric+forge+neo",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "cbd268f2329834b74fe39cbd483082e6f1482a0d886b39615677d9c8b569d573703c08988632460366fca1a6ba22896483013cff0e5e8678c23b8706197507d0",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/mZf90ShY/starterkit-1.20.1-6.4.jar",
+          "filename": "starterkit-1.20.1-6.4.jar",
+          "primary": true,
+          "size": 184204
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "mgtq9mKs",
+      "name": "[Fabric/Forge/Neo] 1.20.6-6.8",
+      "version_number": "1.20.6-6.8-fabric+forge+neo",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "df6e2be1cecae2acee11e21e213c17ebaf51f53e47036bb82f0545986c9afc1498b6170c762cf79a6b86da0a9f67298f222e06bd629f1bde1b2c8491ce11962e",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/mgtq9mKs/starterkit-1.20.6-6.8.jar",
+          "filename": "starterkit-1.20.6-6.8.jar",
+          "primary": true,
+          "size": 270962
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "n1vEcey0",
+      "name": "[Fabric/Forge/Neo] 1.20.4-6.3",
+      "version_number": "1.20.4-6.3-fabric+forge+neo",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "6d8e608ffc96361caa85e82d2d9ee8783b9cd0c2aea1ec4b581375695655066e50b03964dc271d04131a0ca8bb5d8b5fb1d224ac61118c0dfa49f813b33742db",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/n1vEcey0/starterkit-1.20.4-6.3.jar",
+          "filename": "starterkit-1.20.4-6.3.jar",
+          "primary": true,
+          "size": 269103
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "nDDhwn2h",
+      "name": "[Fabric/Forge] 1.19.2-7.0",
+      "version_number": "1.19.2-7.0-fabric+forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "dce419c8cf18d7229b4a16549b2ec5a9f796155c44b8d8fb72776ae239af16f0caedce62497f956e060e96e5b63c065f416b99c067dd4926ddddf4ec5bf30389",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/nDDhwn2h/starterkit-1.19.2-7.0.jar",
+          "filename": "starterkit-1.19.2-7.0.jar",
+          "primary": true,
+          "size": 183853
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "oeFVfjlS",
+      "name": "[Forge & Fabric] 1.18.2-5.1",
+      "version_number": "1.18.2-5.1-forge+fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f2a58d514be590b9bfbdb54f5403c5e76124685d27e22915e086c31d1cd8387cbdffae266707ed9dc0c08e2a2c140aff6642e6825d53e4298c595c8d62ed4d56",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/oeFVfjlS/starterkit-1.18.2-5.1.jar",
+          "filename": "starterkit-1.18.2-5.1.jar",
+          "primary": true,
+          "size": 62074
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "Xz9KMXXo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "omJXB9H5",
+      "name": "[Fabric] 1.19.2-4.0",
+      "version_number": "1.19.2-4.0-fabric",
       "game_versions": [
         "1.19.2"
       ],
@@ -2871,11 +2474,11 @@
       ],
       "files": [
         {
-          "sha512": "fd64b84105aaf64c17c885075a5a963017cc440a0f0781d68533ea97c5c7de32718a250489d147f012702e9810549e6789802d113cc156596a0a683f41a2c0c6",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/1uskVkb1/starterkit-fabric_1.19.2-3.7.jar",
-          "filename": "starterkit-fabric_1.19.2-3.7.jar",
+          "sha512": "018a45d7646e4070259317444824a9b1e7142386bd27998f221078bf4b55f071f0845bd84b0b17456a163320e3c6d80d2d8c951ef264ef2d6de303a0b196a6c4",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/omJXB9H5/starterkit-fabric_1.19.2-4.0.jar",
+          "filename": "starterkit-fabric_1.19.2-4.0.jar",
           "primary": true,
-          "size": 15500
+          "size": 45951
         }
       ],
       "dependencies": [
@@ -2894,43 +2497,101 @@
       ]
     },
     {
-      "id": "PyPD7H89",
-      "name": "[Fabric] 1.18.2-3.5",
-      "version_number": "1.18.2-3.5-fabric",
+      "id": "p86xgczm",
+      "name": "[Fabric/Forge/Neo] 1.20.4-6.4",
+      "version_number": "1.20.4-6.4-fabric+forge+neo",
       "game_versions": [
-        "1.18.2"
+        "1.20.4"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "5e908bdd6b037b691bbf4ce2063c09dc5f8cbd730a7d2b1dc924e4d3f1232b6019a4893dd597fa9e9e7d646eaf03ecfa26844655918693d82cc77b069c19917e",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/PyPD7H89/starterkit-fabric_1.18.2-3.5.jar",
-          "filename": "starterkit-fabric_1.18.2-3.5.jar",
+          "sha512": "2719532982174311c11d3e2c5f9be4185bda5b900b5e4dea52489fccd001bc33744d2761dbd1e8f1918eb44b6bf66ce143caa143b21e1caa3077e479413b2d40",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/p86xgczm/starterkit-1.20.4-6.4.jar",
+          "filename": "starterkit-1.20.4-6.4.jar",
           "primary": true,
-          "size": 15424
+          "size": 269976
         }
       ],
       "dependencies": [
         {
           "project_id": "e0M1UDsY",
-          "version_id": "Xz9KMXXo",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "UExnPFd0",
-      "name": "[Fabric] 1.16.5-3.5",
-      "version_number": "1.16.5-3.5-fabric",
+      "id": "pLNsi6nl",
+      "name": "[Forge & Fabric] 1.19.2-5.2",
+      "version_number": "1.19.2-5.2-forge+fabric",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "287539d58f4381f3bd6e260e3d560efe2794228f4bdbdefda14bbe167ef35c82a8ac6159899936d3cc3ff32797f8e80f1740554be82956590b1765f3974358b8",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/pLNsi6nl/starterkit-1.19.2-5.2.jar",
+          "filename": "starterkit-1.19.2-5.2.jar",
+          "primary": true,
+          "size": 61866
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "MTb34BGn",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "pb3dtXM1",
+      "name": "[Fabric/Forge/Neo] 1.20.1-7.0",
+      "version_number": "1.20.1-7.0-fabric+forge+neo",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "00c09f1145051eac30453d931f70f6784a2a1f1a2b6c2da056a21773a67cae1fe00b534762eaa1d652ad78ec3953e1d974fe19fec4cb2d249ba2772aa9e8cce2",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/pb3dtXM1/starterkit-1.20.1-7.0.jar",
+          "filename": "starterkit-1.20.1-7.0.jar",
+          "primary": true,
+          "size": 184996
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "sj5Vzzub",
+      "name": "[Fabric] 1.16.5-4.1",
+      "version_number": "1.16.5-4.1-fabric",
       "game_versions": [
         "1.16.5"
       ],
@@ -2939,11 +2600,11 @@
       ],
       "files": [
         {
-          "sha512": "dbd1cd47859883b9f6fc3036a0867109077fbd21830452edba92026bca4095ad66ac873be977c8991adea8583a09f5a08f692b5476c2c829e3d3917734c63277",
-          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/UExnPFd0/starterkit-fabric_1.16.5-3.5.jar",
-          "filename": "starterkit-fabric_1.16.5-3.5.jar",
+          "sha512": "96be4cf5261bbe580f917b1dc565876545a17af2e7bbf6666fa8031d677c00ec96e1c0686921b08f05ed3bf77bbe52ef70f3464c459b91287edfda2dcf78afc6",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/sj5Vzzub/starterkit-fabric_1.16.5-4.1.jar",
+          "filename": "starterkit-fabric_1.16.5-4.1.jar",
           "primary": true,
-          "size": 14901
+          "size": 45426
         }
       ],
       "dependencies": [
@@ -2956,6 +2617,345 @@
         {
           "project_id": "e0M1UDsY",
           "version_id": "diqQmTlH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "tXhpLTE2",
+      "name": "[Forge] 1.18.2-3.2",
+      "version_number": "1.18.2-3.2-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9e41fb5bb7b498ef402a2723e435ddf4f7806cd2749ffb39b55ec58a80bfdbf8d4a22ea4d128949a9bb17d253cb21623d32805ec56d13614648892af07941fdd",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/tXhpLTE2/starterkit_1.18.2-3.2.jar",
+          "filename": "starterkit_1.18.2-3.2.jar",
+          "primary": true,
+          "size": 14743
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "Xz9KMXXo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "vfHW3ty6",
+      "name": "[Fabric/Forge] 1.19.2-6.5",
+      "version_number": "1.19.2-6.5-fabric+forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "97a2f97989aadbefa9fdaf7536a3891125effb4124329e12a423f92196a743f2de613dde79af95a21614ea8123cc066e51c7a78399a2632469ccb1e4af2bff8b",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/vfHW3ty6/starterkit-1.19.2-6.5.jar",
+          "filename": "starterkit-1.19.2-6.5.jar",
+          "primary": true,
+          "size": 182700
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "vqZZ1MXc",
+      "name": "[Fabric/Forge/Neo] 1.20.4-7.0",
+      "version_number": "1.20.4-7.0-fabric+forge+neo",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c192fd692c768327ab981df82949b66c8736b218e4fcb2df7d6d59437e79991b2ffca397c6c4f2e94dfe4a21b06d026bce72f19e3f9fffe05398a96a84e72624",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/vqZZ1MXc/starterkit-1.20.4-7.0.jar",
+          "filename": "starterkit-1.20.4-7.0.jar",
+          "primary": true,
+          "size": 271001
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "vv4mCF5J",
+      "name": "[Fabric] 1.16.5-3.8",
+      "version_number": "1.16.5-3.8-fabric",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "01c50b360f2d0cd4b9d9a72e9725716492145c407ab1befd57ec258ce01aa0f9cd460710fd65f369fe734fdbf3ddf4208fbb75c4e6fdbb53c4f19453ea9fe0c1",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/vv4mCF5J/starterkit-fabric_1.16.5-3.8.jar",
+          "filename": "starterkit-fabric_1.16.5-3.8.jar",
+          "primary": true,
+          "size": 45362
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "diqQmTlH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "w4J9ylrE",
+      "name": "[Fabric/Forge/Neo] 1.20.4-6.9",
+      "version_number": "1.20.4-6.9-fabric+forge+neo",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "dde18d38dce99a98d4f1b9976b0d13a3b732983f64f3a57be5e294c4c80467961a40e3b2ab89929b94af7ceb69f4b8aa5f87568ac17fa35099632928f5598a24",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/w4J9ylrE/starterkit-1.20.4-6.9.jar",
+          "filename": "starterkit-1.20.4-6.9.jar",
+          "primary": true,
+          "size": 270117
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "waAD0WBJ",
+      "name": "[Forge] 1.18.2-4.1",
+      "version_number": "1.18.2-4.1-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "38fd5d0849c1dfb6016d7d07958b59d5a083e61dca62cb02f6a1df865167422fcc54759a9c924c43b9bdca78627ba6c95b9ff64e65d929668591d027aa9d7df0",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/waAD0WBJ/starterkit_1.18.2-4.1.jar",
+          "filename": "starterkit_1.18.2-4.1.jar",
+          "primary": true,
+          "size": 14984
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "Xz9KMXXo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "xLfZpcT1",
+      "name": "[Fabric/Forge/Neo] 1.20.6-6.9",
+      "version_number": "1.20.6-6.9-fabric+forge+neo",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "8a0ffdc3dededef117c86af5802fdbd638d00a85bb40b443f86f175caca15964a5d25fa94f6b196653a2115ef15162bc7d6502d9f1d06fa0464964aa4ae469f5",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/xLfZpcT1/starterkit-1.20.6-6.9.jar",
+          "filename": "starterkit-1.20.6-6.9.jar",
+          "primary": true,
+          "size": 270964
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "xwuYfQEV",
+      "name": "[Fabric/Forge/Neo] 1.20.4-5.5",
+      "version_number": "1.20.4-5.5-fabric+forge+neo",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5d1e795154fab80ed3b5eda51c8d07e6c983cb07d69fd2f0fbc4ef538bf65e82dc1c7954a7da4d0bd6688d08d6cc3f9b5a015c53f6a9f1554815f1a17c6b5a3b",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/xwuYfQEV/starterkit-1.20.4-5.5.jar",
+          "filename": "starterkit-1.20.4-5.5.jar",
+          "primary": true,
+          "size": 60224
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "yoTqC7M5",
+      "name": "[Fabric] 1.18.2-4.0",
+      "version_number": "1.18.2-4.0-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0afd2f4dd93bbc896734b7400b8d7a91cefc4586b8d1bbe2ee3f05d64808f7c35f724d9e91940521c60083b041d945248853dc3ed7ba546a9592f2436ca05f2a",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/yoTqC7M5/starterkit-fabric_1.18.2-4.0.jar",
+          "filename": "starterkit-fabric_1.18.2-4.0.jar",
+          "primary": true,
+          "size": 45883
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "Xz9KMXXo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "zToANVwf",
+      "name": "[Fabric/Forge] 1.19.2-5.5",
+      "version_number": "1.19.2-5.5-fabric+forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0acffdacf656be55ae43959e7a834b3305263b87bf412562446c807fcc3123382deac4c7837afb53c6aeb280f19d16bbd3bd80cdbafcc3a705be41a5a8a56987",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/zToANVwf/starterkit-1.19.2-5.5.jar",
+          "filename": "starterkit-1.19.2-5.5.jar",
+          "primary": true,
+          "size": 44833
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "zgCOxV4R",
+      "name": "[Fabric/Forge/Neo] 1.20.1-6.8",
+      "version_number": "1.20.1-6.8-fabric+forge+neo",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "1352f383ef510c3599ef98dc12004ac1a251b4652586fbd8006624aa9ee1014b52c245f9c5cfbd395b5cae1aba8f6d98ff19a0529b8237b1c35889e104cc7aa0",
+          "url": "https://cdn.modrinth.com/data/6L3ydNi8/versions/zgCOxV4R/starterkit-1.20.1-6.8.jar",
+          "filename": "starterkit-1.20.1-6.8.jar",
+          "primary": true,
+          "size": 184427
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }

@@ -5,20 +5,23 @@
   "description": "Informs the player on how close they were to performing a successful jump reset.",
   "versions": [
     {
-      "id": "OGavFNLN",
-      "name": "1.0.1 >=1.20.5",
+      "id": "AG7emJLz",
+      "name": "1.0.1 1.20.0-4",
       "version_number": "1.0.1",
       "game_versions": [
-        "1.20.5",
-        "1.20.6"
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "cdbd6792d480c0ad2724abce751b6d839a089ca2a5b262e4bc97a4944a3a4c8d1bdaa062bab9cf804354573a80c378e463772b8048c10ffa9a0bc7b55769c9b6",
-          "url": "https://cdn.modrinth.com/data/kJEc5zbS/versions/OGavFNLN/jump-reset-indicator-1.0.1.jar",
+          "sha512": "d03ee0095f07fba4f74dc9303e842488affe358b727ff26710e17bf253c09324be0d6061ea3acce9afa24c3c82bb64954f893e4b83477471410a7208103180e9",
+          "url": "https://cdn.modrinth.com/data/kJEc5zbS/versions/AG7emJLz/jump-reset-indicator-1.0.1.jar",
           "filename": "jump-reset-indicator-1.0.1.jar",
           "primary": true,
           "size": 15843
@@ -46,35 +49,26 @@
       ]
     },
     {
-      "id": "AG7emJLz",
-      "name": "1.0.1 1.20.0-4",
+      "id": "OGavFNLN",
+      "name": "1.0.1 >=1.20.5",
       "version_number": "1.0.1",
       "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.20.5",
+        "1.20.6"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "d03ee0095f07fba4f74dc9303e842488affe358b727ff26710e17bf253c09324be0d6061ea3acce9afa24c3c82bb64954f893e4b83477471410a7208103180e9",
-          "url": "https://cdn.modrinth.com/data/kJEc5zbS/versions/AG7emJLz/jump-reset-indicator-1.0.1.jar",
+          "sha512": "cdbd6792d480c0ad2724abce751b6d839a089ca2a5b262e4bc97a4944a3a4c8d1bdaa062bab9cf804354573a80c378e463772b8048c10ffa9a0bc7b55769c9b6",
+          "url": "https://cdn.modrinth.com/data/kJEc5zbS/versions/OGavFNLN/jump-reset-indicator-1.0.1.jar",
           "filename": "jump-reset-indicator-1.0.1.jar",
           "primary": true,
           "size": 15843
         }
       ],
       "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
@@ -83,6 +77,12 @@
         },
         {
           "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"

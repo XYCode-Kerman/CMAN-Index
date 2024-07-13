@@ -5,36 +5,6 @@
   "description": "Adds a host of Create-mod villagers and structures to bring life and activity to your Create worlds.",
   "versions": [
     {
-      "id": "MxQ9WNdS",
-      "name": "Dynamic Village v0.3-1.19.2",
-      "version_number": "0.3",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "11da05783220e3b31ca273744eb08860f93b4deb581ccf7e4b8cad1eb49354f9a7c33834666c437453814f0ee80860fabdabbcf4630c99aea1bc1ea88a7d1c00",
-          "url": "https://cdn.modrinth.com/data/YCPmkFAm/versions/MxQ9WNdS/dynamicvillage-v0.3-1.19.2.jar",
-          "filename": "dynamicvillage-v0.3-1.19.2.jar",
-          "primary": true,
-          "size": 203314
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "LNytGWDc",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "FFIrauQh",
       "name": "Create: Dynamic Village v0.2.1-1.19.2",
       "version_number": "0.2.1",
@@ -53,6 +23,36 @@
           "filename": "dynamicvillage-0.2.1.jar",
           "primary": true,
           "size": 127518
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "LNytGWDc",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "MxQ9WNdS",
+      "name": "Dynamic Village v0.3-1.19.2",
+      "version_number": "0.3",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "11da05783220e3b31ca273744eb08860f93b4deb581ccf7e4b8cad1eb49354f9a7c33834666c437453814f0ee80860fabdabbcf4630c99aea1bc1ea88a7d1c00",
+          "url": "https://cdn.modrinth.com/data/YCPmkFAm/versions/MxQ9WNdS/dynamicvillage-v0.3-1.19.2.jar",
+          "filename": "dynamicvillage-v0.3-1.19.2.jar",
+          "primary": true,
+          "size": 203314
         }
       ],
       "dependencies": [
@@ -87,10 +87,10 @@
       ],
       "dependencies": [
         {
-          "project_id": "LNytGWDc",
+          "project_id": "u6dRKJwZ",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         },
         {
           "project_id": "nfn13YXA",
@@ -99,10 +99,10 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "u6dRKJwZ",
+          "project_id": "LNytGWDc",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
     },

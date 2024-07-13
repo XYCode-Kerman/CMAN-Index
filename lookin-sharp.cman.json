@@ -5,6 +5,34 @@
   "description": "A combat mod which expands the vanilla melee weapon options!",
   "versions": [
     {
+      "id": "11fjcuUS",
+      "name": "[Forge] Lookin' Sharp - 1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8fb5830dbe1397fc7a31339444390aaa8b694181b60632b86c726737ba9d399a4f40844e87724c04e99c08827442e9c77613a26ca698669fe4e2008b4d5b7f3f",
+          "url": "https://cdn.modrinth.com/data/RLMXoOXH/versions/11fjcuUS/lookinsharp-forge-1.20.1-1.0.0.jar",
+          "filename": "lookinsharp-forge-1.20.1-1.0.0.jar",
+          "primary": true,
+          "size": 209854
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "G1hIVOrD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "PkfegkuC",
       "name": "Lookin' sharp 1.0.2",
       "version_number": "1.0.2",
@@ -25,56 +53,22 @@
       ],
       "dependencies": [
         {
-          "project_id": "G1hIVOrD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "2u6LRnMa",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "G1hIVOrD",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "fOeMhphb",
-      "name": "Lookin' sharp 1.0.2",
-      "version_number": "1.0.2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "9185844d47f9ddcefee124a364e6c1c08e0a42a1093197e351cff8a53b713f34fb1527a2a98f93df7dda0c7cf3127ecdb0da9ff72bf7b4ffb56b4a991554c445",
-          "url": "https://cdn.modrinth.com/data/RLMXoOXH/versions/fOeMhphb/lookinsharp%20forge%201.20.1.jar",
-          "filename": "lookinsharp forge 1.20.1.jar",
-          "primary": true,
-          "size": 210232
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "2u6LRnMa",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "G1hIVOrD",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -99,10 +93,10 @@
       ],
       "dependencies": [
         {
-          "project_id": "2u6LRnMa",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         },
         {
           "project_id": "G1hIVOrD",
@@ -111,10 +105,10 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "2u6LRnMa",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         }
       ]
     },
@@ -154,9 +148,9 @@
       ]
     },
     {
-      "id": "11fjcuUS",
-      "name": "[Forge] Lookin' Sharp - 1.0.0",
-      "version_number": "1.0.0",
+      "id": "fOeMhphb",
+      "name": "Lookin' sharp 1.0.2",
+      "version_number": "1.0.2",
       "game_versions": [
         "1.20.1"
       ],
@@ -165,19 +159,25 @@
       ],
       "files": [
         {
-          "sha512": "8fb5830dbe1397fc7a31339444390aaa8b694181b60632b86c726737ba9d399a4f40844e87724c04e99c08827442e9c77613a26ca698669fe4e2008b4d5b7f3f",
-          "url": "https://cdn.modrinth.com/data/RLMXoOXH/versions/11fjcuUS/lookinsharp-forge-1.20.1-1.0.0.jar",
-          "filename": "lookinsharp-forge-1.20.1-1.0.0.jar",
+          "sha512": "9185844d47f9ddcefee124a364e6c1c08e0a42a1093197e351cff8a53b713f34fb1527a2a98f93df7dda0c7cf3127ecdb0da9ff72bf7b4ffb56b4a991554c445",
+          "url": "https://cdn.modrinth.com/data/RLMXoOXH/versions/fOeMhphb/lookinsharp%20forge%201.20.1.jar",
+          "filename": "lookinsharp forge 1.20.1.jar",
           "primary": true,
-          "size": 209854
+          "size": 210232
         }
       ],
       "dependencies": [
         {
+          "project_id": "2u6LRnMa",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "G1hIVOrD",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         }
       ]
     },

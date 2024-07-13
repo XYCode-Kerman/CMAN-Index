@@ -1,9 +1,44 @@
 {
-  "id": "neat-shaders-fix",
+  "id": "c9vlRwnr",
   "slug": "neat-shaders-fix",
   "name": "Neat - Shaders-Fix",
   "description": "A mod that adds a health bar to mobs, but now works with shaders.",
   "versions": [
+    {
+      "id": "DBp22PGu",
+      "name": "1.0.1",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.7.10"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ffd6046d12e6660dc1fcc7eba5a79749b69aa365f78f728615243056695ab7e5195150df6b23719964ae82181c49d06f1d4ae1b3edaa0c77fc79a178d8f01b80",
+          "url": "https://cdn.modrinth.com/data/c9vlRwnr/versions/DBp22PGu/Neat-1.0.1.jar",
+          "filename": "Neat-1.0.1.jar",
+          "primary": true,
+          "size": 16944
+        },
+        {
+          "sha512": "2d149bfa725632a7f0e1c33e2b956518227de03e13151753f50718dd9b310c568df0e2ea1e16101562aed2116770ba600cfa08ad4f723aaa5266ff8d2017e5b7",
+          "url": "https://cdn.modrinth.com/data/c9vlRwnr/versions/DBp22PGu/Neat-1.0.1-dev.jar",
+          "filename": "Neat-1.0.1-dev.jar",
+          "primary": false,
+          "size": 16707
+        },
+        {
+          "sha512": "a29b1e706640bb4059b6a61d45638f5a2ad15689534a64e208645c16f3ce1ea3d8c3ebaf87dd5f198c50d49de5386a5a4b9066057d32adff7f4ced8eca0abc60",
+          "url": "https://cdn.modrinth.com/data/c9vlRwnr/versions/DBp22PGu/Neat-1.0.1-sources.jar",
+          "filename": "Neat-1.0.1-sources.jar",
+          "primary": false,
+          "size": 10130
+        }
+      ],
+      "dependencies": []
+    },
     {
       "id": "VFJyBdyc",
       "name": "1.0.2(1)",
@@ -35,6 +70,14 @@
           "filename": "Neat-1.0.2-sources.jar",
           "primary": false,
           "size": 16340
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ghjoiQAl",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -70,39 +113,13 @@
           "primary": false,
           "size": 16342
         }
-      ]
-    },
-    {
-      "id": "DBp22PGu",
-      "name": "1.0.1",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "1.7.10"
       ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "ffd6046d12e6660dc1fcc7eba5a79749b69aa365f78f728615243056695ab7e5195150df6b23719964ae82181c49d06f1d4ae1b3edaa0c77fc79a178d8f01b80",
-          "url": "https://cdn.modrinth.com/data/c9vlRwnr/versions/DBp22PGu/Neat-1.0.1.jar",
-          "filename": "Neat-1.0.1.jar",
-          "primary": true,
-          "size": 16944
-        },
-        {
-          "sha512": "2d149bfa725632a7f0e1c33e2b956518227de03e13151753f50718dd9b310c568df0e2ea1e16101562aed2116770ba600cfa08ad4f723aaa5266ff8d2017e5b7",
-          "url": "https://cdn.modrinth.com/data/c9vlRwnr/versions/DBp22PGu/Neat-1.0.1-dev.jar",
-          "filename": "Neat-1.0.1-dev.jar",
-          "primary": false,
-          "size": 16707
-        },
-        {
-          "sha512": "a29b1e706640bb4059b6a61d45638f5a2ad15689534a64e208645c16f3ce1ea3d8c3ebaf87dd5f198c50d49de5386a5a4b9066057d32adff7f4ced8eca0abc60",
-          "url": "https://cdn.modrinth.com/data/c9vlRwnr/versions/DBp22PGu/Neat-1.0.1-sources.jar",
-          "filename": "Neat-1.0.1-sources.jar",
-          "primary": false,
-          "size": 10130
+          "project_id": "ghjoiQAl",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

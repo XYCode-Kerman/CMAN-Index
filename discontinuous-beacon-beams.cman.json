@@ -5,11 +5,11 @@
   "description": "Stops beacon beams from rendering though clear glass in their paths. Configurable.",
   "versions": [
     {
-      "id": "xyn5qTP9",
-      "name": "1.2.0+MC1.21",
-      "version_number": "1.2.0+MC1.21",
+      "id": "24VBoMWx",
+      "name": "1.1.10+MC1.20.2",
+      "version_number": "1.1.10+MC1.20.2",
       "game_versions": [
-        "1.21"
+        "1.20.2"
       ],
       "loaders": [
         "fabric",
@@ -17,11 +17,11 @@
       ],
       "files": [
         {
-          "sha512": "a48226dbd8c65a42ec78dcc364286071a65fdfbe898fc1e2d45c91d4466976c1658788a2ad8429bfdbbe38f4a1f954946bc54bbd788fa9fb945eef38562b708a",
-          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/xyn5qTP9/discontinuous-beacon-beams-1.2.0%2BMC1.21.jar",
-          "filename": "discontinuous-beacon-beams-1.2.0+MC1.21.jar",
+          "sha512": "3913c270f3c76bff85b2f5b2511c9d554b98f9f37ad329527f6575457c3dcdeb9fac1611a3607e4b164dbd2680ffd22f6db491ec2c3b2531bc13b66962b35157",
+          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/24VBoMWx/discontinuous-beacon-beams-1.1.10%2BMC1.20.2.jar",
+          "filename": "discontinuous-beacon-beams-1.1.10+MC1.20.2.jar",
           "primary": true,
-          "size": 125664
+          "size": 81847
         }
       ],
       "dependencies": [
@@ -38,18 +38,33 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "tbAZnTrE",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         }
       ]
+    },
+    {
+      "id": "2TMPKzQ4",
+      "name": "1.1.2+MC1.18.2",
+      "version_number": "1.1.2+MC1.18.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "53d7a60b4106dbf8821d6d7b64e9c7fe26b6ed88b3777c8e8980fda48eedb2f2a3c38c77c5c8a445ae3a19e7dd6874459bc7f4e9caad21cac05a47a0ab7d65e8",
+          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/1.1.2%2BMC1.18.2/discontinuous-beacon-beams-1.1.2%2BMC1.18.2.jar",
+          "filename": "discontinuous-beacon-beams-1.1.2+MC1.18.2.jar",
+          "primary": true,
+          "size": 72611
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "4Y0Gz3Xb",
@@ -97,6 +112,70 @@
       ]
     },
     {
+      "id": "7dU0cXzo",
+      "name": "1.1.12+MC1.20.2-1.20.4",
+      "version_number": "1.1.12+MC1.20.2-1.20.4",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2aa0e03e34c391ef1d902c96c527120fe989c06778f775f67a5a3d7fc99b8ef0fd1d05ffbe64519daa29a790d8c3d44cbf2904d371f666919e7034d3f2820b73",
+          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/7dU0cXzo/discontinuous-beacon-beams-1.1.12%2BMC1.20.2-1.20.4.jar",
+          "filename": "discontinuous-beacon-beams-1.1.12+MC1.20.2-1.20.4.jar",
+          "primary": true,
+          "size": 78366
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "CcJHYSTe",
+      "name": "1.0.3+MC1.17",
+      "version_number": "1.0.3+MC1.17",
+      "game_versions": [
+        "1.17"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "df54235c78ea0352801d82f297c277e68f3ea873c751f8b40d07e9f53e4733fa0f4ad2281e02e5bdea6708fbf560d5e6c6f09423ac57e62116315609a522f6a6",
+          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/1.0.3%2BMC1.17/discontinuous-beacon-beams-1.0.3%2BMC1.17.jar",
+          "filename": "discontinuous-beacon-beams-1.0.3+MC1.17.jar",
+          "primary": false,
+          "size": 37644
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "DtCYrHJG",
       "name": "1.1.14+MC1.20.2-1.20.5",
       "version_number": "1.1.14+MC1.20.2-1.20.5",
@@ -135,6 +214,154 @@
         {
           "project_id": "9s6osm5g",
           "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "LxYoLMt8",
+      "name": "1.1.3+MC1.19",
+      "version_number": "1.1.3+MC1.19",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5ad987fbd83d5cc5693c116f7016b8354da62845d677213627d9421c922b02657b63689ab274a04c7bd4278a195b1f2eef02cc572785ad5808ed5737d291c800",
+          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/1.1.3%2BMC1.19/discontinuous-beacon-beams-1.1.3%2BMC1.19.jar",
+          "filename": "discontinuous-beacon-beams-1.1.3+MC1.19.jar",
+          "primary": true,
+          "size": 79312
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Ugt8CPZF",
+      "name": "1.0.3-1+MC1.17",
+      "version_number": "1.0.3-1+MC1.17",
+      "game_versions": [
+        "1.17"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "62252eb9c5167e7f475b4ffa2960c0c84c3704de7a04c63ece61a8dbe7780a70ba555ff87b307c23d739891bc76655eb3fe3fb5bc5d247e2b24fcb49b7f66f5f",
+          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/1.0.3-1%2BMC1.17/discontinuous-beacon-beams-1.0.3-1%2BMC1.17.jar",
+          "filename": "discontinuous-beacon-beams-1.0.3-1+MC1.17.jar",
+          "primary": false,
+          "size": 37700
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "WjZr8VaQ",
+      "name": "1.1.9+MC1.20-1.20.1",
+      "version_number": "1.1.9+MC1.20-1.20.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d7cdd77ea216bef9e196ec53fe3d5c3d887e492e6269f64440768775b98d956478a1cc76288a266fcc94e91aeff6dac4c46d9459468e14d36cc70b9d80914a05",
+          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/WjZr8VaQ/discontinuous-beacon-beams-1.1.9%2BMC1.20-1.20.1.jar",
+          "filename": "discontinuous-beacon-beams-1.1.9+MC1.20-1.20.1.jar",
+          "primary": true,
+          "size": 81026
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "ZMg4dCj3",
+      "name": "1.1.5+MC1.19-1.19.1",
+      "version_number": "1.1.5+MC1.19-1.19.1",
+      "game_versions": [
+        "1.19",
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2be1f73f3b7e325b3af970dc580975c05f6bd0b13d00d4fed14f59fa33086767af4e9f6e19abe80c3caf86a116ae200c03fff48136083b6155e260ec0323b4a9",
+          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/1.1.5%2BMC1.19-1.19.1/discontinuous-beacon-beams-1.1.5%2BMC1.19-1.19.1.jar",
+          "filename": "discontinuous-beacon-beams-1.1.5+MC1.19-1.19.1.jar",
+          "primary": true,
+          "size": 80196
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "cKPb8ahP",
+      "name": "1.1.7+MC1.19-1.19.2",
+      "version_number": "1.1.7+MC1.19-1.19.2",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "771cb6a0d1333d0f86ce2e0927e19556c83933f226655a95f4217fb0df13e33a2028a6b49ba4a0889f1fdfc64ab243ab5ff3cc438d9a41cf0b8d5dbc9e277da5",
+          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/cKPb8ahP/discontinuous-beacon-beams-1.1.7%2BMC1.19-1.19.2.jar",
+          "filename": "discontinuous-beacon-beams-1.1.7+MC1.19-1.19.2.jar",
+          "primary": true,
+          "size": 80633
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
           "file_name": null,
           "dependency_type": "optional"
         }
@@ -184,91 +411,6 @@
       ]
     },
     {
-      "id": "vx6PH2qq",
-      "name": "1.1.13+MC1.20-1.20.1",
-      "version_number": "1.1.13+MC1.20-1.20.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "31f5151c66cd9a6499b0990fcd6b5f46cfacd9da7a45e8d1ec0a0b2bd22e117407638250b682297d285419a247d4cb043994cc23101c07c00962d60d8aad6f6f",
-          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/vx6PH2qq/discontinuous-beacon-beams-1.1.13%2BMC1.20-1.20.1.jar",
-          "filename": "discontinuous-beacon-beams-1.1.13+MC1.20-1.20.1.jar",
-          "primary": true,
-          "size": 78556
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "7dU0cXzo",
-      "name": "1.1.12+MC1.20.2-1.20.4",
-      "version_number": "1.1.12+MC1.20.2-1.20.4",
-      "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2aa0e03e34c391ef1d902c96c527120fe989c06778f775f67a5a3d7fc99b8ef0fd1d05ffbe64519daa29a790d8c3d44cbf2904d371f666919e7034d3f2820b73",
-          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/7dU0cXzo/discontinuous-beacon-beams-1.1.12%2BMC1.20.2-1.20.4.jar",
-          "filename": "discontinuous-beacon-beams-1.1.12+MC1.20.2-1.20.4.jar",
-          "primary": true,
-          "size": 78366
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "kLovHlAI",
       "name": "1.1.11+MC1.20.2-1.20.4",
       "version_number": "1.1.11+MC1.20.2-1.20.4",
@@ -298,292 +440,18 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "24VBoMWx",
-      "name": "1.1.10+MC1.20.2",
-      "version_number": "1.1.10+MC1.20.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3913c270f3c76bff85b2f5b2511c9d554b98f9f37ad329527f6575457c3dcdeb9fac1611a3607e4b164dbd2680ffd22f6db491ec2c3b2531bc13b66962b35157",
-          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/24VBoMWx/discontinuous-beacon-beams-1.1.10%2BMC1.20.2.jar",
-          "filename": "discontinuous-beacon-beams-1.1.10+MC1.20.2.jar",
-          "primary": true,
-          "size": 81847
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
         {
-          "project_id": "9s6osm5g",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "WjZr8VaQ",
-      "name": "1.1.9+MC1.20-1.20.1",
-      "version_number": "1.1.9+MC1.20-1.20.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d7cdd77ea216bef9e196ec53fe3d5c3d887e492e6269f64440768775b98d956478a1cc76288a266fcc94e91aeff6dac4c46d9459468e14d36cc70b9d80914a05",
-          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/WjZr8VaQ/discontinuous-beacon-beams-1.1.9%2BMC1.20-1.20.1.jar",
-          "filename": "discontinuous-beacon-beams-1.1.9+MC1.20-1.20.1.jar",
-          "primary": true,
-          "size": 81026
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "eTCL1uh8",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
-    },
-    {
-      "id": "uEj8LSCO",
-      "name": "1.1.8+MC1.19.3-1.19.4",
-      "version_number": "1.1.8+MC1.19.3-1.19.4",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "adf1a39fb6200ce493343cd16b1cf72e264435c37994d9408ed784cf01592028cae3618b6afd52491d7613a7d5c1f53cd631727565da325c004e0bc7fa045eff",
-          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/uEj8LSCO/discontinuous-beacon-beams-1.1.8%2BMC1.19.3-1.19.4.jar",
-          "filename": "discontinuous-beacon-beams-1.1.8+MC1.19.3-1.19.4.jar",
-          "primary": true,
-          "size": 80745
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "mhFzbEwE",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "cKPb8ahP",
-      "name": "1.1.7+MC1.19-1.19.2",
-      "version_number": "1.1.7+MC1.19-1.19.2",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "771cb6a0d1333d0f86ce2e0927e19556c83933f226655a95f4217fb0df13e33a2028a6b49ba4a0889f1fdfc64ab243ab5ff3cc438d9a41cf0b8d5dbc9e277da5",
-          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/cKPb8ahP/discontinuous-beacon-beams-1.1.7%2BMC1.19-1.19.2.jar",
-          "filename": "discontinuous-beacon-beams-1.1.7+MC1.19-1.19.2.jar",
-          "primary": true,
-          "size": 80633
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "t3HgW82x",
-      "name": "1.1.6+MC1.19-1.19.2",
-      "version_number": "1.1.6+MC1.19-1.19.2",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "31b4555ce205a79e96f6bb88c2236f1567f106164cb6667f808342ef04ee83a44637e6cc7e1edcb5eb3a242c0adeb8001289d8bfa753345b07978b6f046a6014",
-          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/1.1.6%2BMC1.19-1.19.2/discontinuous-beacon-beams-1.1.6%2BMC1.19-1.19.2.jar",
-          "filename": "discontinuous-beacon-beams-1.1.6+MC1.19-1.19.2.jar",
-          "primary": true,
-          "size": 80197
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "RAzwgZkP",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ZMg4dCj3",
-      "name": "1.1.5+MC1.19-1.19.1",
-      "version_number": "1.1.5+MC1.19-1.19.1",
-      "game_versions": [
-        "1.19",
-        "1.19.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2be1f73f3b7e325b3af970dc580975c05f6bd0b13d00d4fed14f59fa33086767af4e9f6e19abe80c3caf86a116ae200c03fff48136083b6155e260ec0323b4a9",
-          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/1.1.5%2BMC1.19-1.19.1/discontinuous-beacon-beams-1.1.5%2BMC1.19-1.19.1.jar",
-          "filename": "discontinuous-beacon-beams-1.1.5+MC1.19-1.19.1.jar",
-          "primary": true,
-          "size": 80196
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "LxYoLMt8",
-      "name": "1.1.3+MC1.19",
-      "version_number": "1.1.3+MC1.19",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "5ad987fbd83d5cc5693c116f7016b8354da62845d677213627d9421c922b02657b63689ab274a04c7bd4278a195b1f2eef02cc572785ad5808ed5737d291c800",
-          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/1.1.3%2BMC1.19/discontinuous-beacon-beams-1.1.3%2BMC1.19.jar",
-          "filename": "discontinuous-beacon-beams-1.1.3+MC1.19.jar",
-          "primary": true,
-          "size": 79312
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "2TMPKzQ4",
-      "name": "1.1.2+MC1.18.2",
-      "version_number": "1.1.2+MC1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "53d7a60b4106dbf8821d6d7b64e9c7fe26b6ed88b3777c8e8980fda48eedb2f2a3c38c77c5c8a445ae3a19e7dd6874459bc7f4e9caad21cac05a47a0ab7d65e8",
-          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/1.1.2%2BMC1.18.2/discontinuous-beacon-beams-1.1.2%2BMC1.18.2.jar",
-          "filename": "discontinuous-beacon-beams-1.1.2+MC1.18.2.jar",
-          "primary": true,
-          "size": 72611
-        }
-      ],
-      "dependencies": []
     },
     {
       "id": "sVCHaNRt",
@@ -629,6 +497,133 @@
       "dependencies": []
     },
     {
+      "id": "t3HgW82x",
+      "name": "1.1.6+MC1.19-1.19.2",
+      "version_number": "1.1.6+MC1.19-1.19.2",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "31b4555ce205a79e96f6bb88c2236f1567f106164cb6667f808342ef04ee83a44637e6cc7e1edcb5eb3a242c0adeb8001289d8bfa753345b07978b6f046a6014",
+          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/1.1.6%2BMC1.19-1.19.2/discontinuous-beacon-beams-1.1.6%2BMC1.19-1.19.2.jar",
+          "filename": "discontinuous-beacon-beams-1.1.6+MC1.19-1.19.2.jar",
+          "primary": true,
+          "size": 80197
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "RAzwgZkP",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "uEj8LSCO",
+      "name": "1.1.8+MC1.19.3-1.19.4",
+      "version_number": "1.1.8+MC1.19.3-1.19.4",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "adf1a39fb6200ce493343cd16b1cf72e264435c37994d9408ed784cf01592028cae3618b6afd52491d7613a7d5c1f53cd631727565da325c004e0bc7fa045eff",
+          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/uEj8LSCO/discontinuous-beacon-beams-1.1.8%2BMC1.19.3-1.19.4.jar",
+          "filename": "discontinuous-beacon-beams-1.1.8+MC1.19.3-1.19.4.jar",
+          "primary": true,
+          "size": 80745
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "mhFzbEwE",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "vx6PH2qq",
+      "name": "1.1.13+MC1.20-1.20.1",
+      "version_number": "1.1.13+MC1.20-1.20.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "31f5151c66cd9a6499b0990fcd6b5f46cfacd9da7a45e8d1ec0a0b2bd22e117407638250b682297d285419a247d4cb043994cc23101c07c00962d60d8aad6f6f",
+          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/vx6PH2qq/discontinuous-beacon-beams-1.1.13%2BMC1.20-1.20.1.jar",
+          "filename": "discontinuous-beacon-beams-1.1.13+MC1.20-1.20.1.jar",
+          "primary": true,
+          "size": 78556
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "xpDETXMY",
       "name": "1.0.4+MC1.17-1.17.1",
       "version_number": "1.0.4+MC1.17-1.17.1",
@@ -651,46 +646,51 @@
       "dependencies": []
     },
     {
-      "id": "Ugt8CPZF",
-      "name": "1.0.3-1+MC1.17",
-      "version_number": "1.0.3-1+MC1.17",
+      "id": "xyn5qTP9",
+      "name": "1.2.0+MC1.21",
+      "version_number": "1.2.0+MC1.21",
       "game_versions": [
-        "1.17"
+        "1.21"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "62252eb9c5167e7f475b4ffa2960c0c84c3704de7a04c63ece61a8dbe7780a70ba555ff87b307c23d739891bc76655eb3fe3fb5bc5d247e2b24fcb49b7f66f5f",
-          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/1.0.3-1%2BMC1.17/discontinuous-beacon-beams-1.0.3-1%2BMC1.17.jar",
-          "filename": "discontinuous-beacon-beams-1.0.3-1+MC1.17.jar",
-          "primary": false,
-          "size": 37700
+          "sha512": "a48226dbd8c65a42ec78dcc364286071a65fdfbe898fc1e2d45c91d4466976c1658788a2ad8429bfdbbe38f4a1f954946bc54bbd788fa9fb945eef38562b708a",
+          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/xyn5qTP9/discontinuous-beacon-beams-1.2.0%2BMC1.21.jar",
+          "filename": "discontinuous-beacon-beams-1.2.0+MC1.21.jar",
+          "primary": true,
+          "size": 125664
         }
       ],
-      "dependencies": []
-    },
-    {
-      "id": "CcJHYSTe",
-      "name": "1.0.3+MC1.17",
-      "version_number": "1.0.3+MC1.17",
-      "game_versions": [
-        "1.17"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "df54235c78ea0352801d82f297c277e68f3ea873c751f8b40d07e9f53e4733fa0f4ad2281e02e5bdea6708fbf560d5e6c6f09423ac57e62116315609a522f6a6",
-          "url": "https://cdn.modrinth.com/data/wdknt2Nc/versions/1.0.3%2BMC1.17/discontinuous-beacon-beams-1.0.3%2BMC1.17.jar",
-          "filename": "discontinuous-beacon-beams-1.0.3+MC1.17.jar",
-          "primary": false,
-          "size": 37644
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "tbAZnTrE",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
-      ],
-      "dependencies": []
+      ]
     }
   ]
 }

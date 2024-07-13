@@ -5,6 +5,62 @@
   "description": "You can execute predefined commands across the Velocity network, enabling remote execution of server commands specified in a configuration file.",
   "versions": [
     {
+      "id": "2voKtrur",
+      "name": "CommandBridge Bukkit",
+      "version_number": "1.0-SNAPSHOT",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "bukkit",
+        "folia",
+        "paper",
+        "purpur",
+        "spigot"
+      ],
+      "files": [
+        {
+          "sha512": "b1d098d7f20796f54692cde7162358a85d8123c2818529bedefcf811a1a69d08e7c5ae085370a155ebe5dafa955b98f83f91d5285e58329a632f12d1233d80e8",
+          "url": "https://cdn.modrinth.com/data/wIuI4ru2/versions/2voKtrur/CommandBridgeBukkit-1.0-SNAPSHOT.jar",
+          "filename": "CommandBridgeBukkit-1.0-SNAPSHOT.jar",
+          "primary": true,
+          "size": 7168
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "7gXslE8G",
+      "name": "CommandBridge Velocity",
+      "version_number": "1.0-SNAPSHOT",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "c850034ea8ce47378fe7ecb68d5d4739c773c0918a905af722319bbdff09fbd1bfd2aa2a8afe3b5b781227147ff7ea73886668d3003e76ac77969f439b092120",
+          "url": "https://cdn.modrinth.com/data/wIuI4ru2/versions/7gXslE8G/CommandBridgeVelocity-1.0-SNAPSHOT.jar",
+          "filename": "CommandBridgeVelocity-1.0-SNAPSHOT.jar",
+          "primary": true,
+          "size": 15848
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "FV2Wyshe",
       "name": "CommandBridge 1.3-Bukkit",
       "version_number": "1.3-SNAPSHOT",
@@ -36,6 +92,33 @@
       "dependencies": []
     },
     {
+      "id": "R2k4zVuH",
+      "name": "CommandBridge 1.1-Velocity",
+      "version_number": "1.1-SNAPSHOT",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "c0a66b9436021121134657e1a8731fb915f1d0198b678af33c37471ab9be8b5230440bb27f9e91902e04dfc9d6e5b06df4c34f8f1b77389c07033c65a4ab74c7",
+          "url": "https://cdn.modrinth.com/data/wIuI4ru2/versions/R2k4zVuH/CommandBridgeVelocity-1.1-SNAPSHOT.jar",
+          "filename": "CommandBridgeVelocity-1.1-SNAPSHOT.jar",
+          "primary": true,
+          "size": 22233
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "WPMgz7uI",
       "name": "CommandBridge 1.3-Velocity",
       "version_number": "1.3-SNAPSHOT",
@@ -59,67 +142,6 @@
           "filename": "CommandBridgeVelocity-1.3-SNAPSHOT.jar",
           "primary": true,
           "size": 2436224
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "v2TvVaMx",
-      "name": "CommandBridge 1.2-Velocity",
-      "version_number": "1.2-SNAPSHOT",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4",
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "08ccb98d789d20c256a77821eea9ab63ec442b0038e2dce50d223eb86fba9102e4c64c2a327d691d7647e65cd78f5a406312e2abc0e38f5108e2f7a57dc730b4",
-          "url": "https://cdn.modrinth.com/data/wIuI4ru2/versions/v2TvVaMx/CommandBridgeVelocity-1.2-SNAPSHOT.jar",
-          "filename": "CommandBridgeVelocity-1.2-SNAPSHOT.jar",
-          "primary": true,
-          "size": 49167
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "wIuI4ru2",
-          "version_id": "tACOWlfj",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "R2k4zVuH",
-      "name": "CommandBridge 1.1-Velocity",
-      "version_number": "1.1-SNAPSHOT",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4",
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "c0a66b9436021121134657e1a8731fb915f1d0198b678af33c37471ab9be8b5230440bb27f9e91902e04dfc9d6e5b06df4c34f8f1b77389c07033c65a4ab74c7",
-          "url": "https://cdn.modrinth.com/data/wIuI4ru2/versions/R2k4zVuH/CommandBridgeVelocity-1.1-SNAPSHOT.jar",
-          "filename": "CommandBridgeVelocity-1.1-SNAPSHOT.jar",
-          "primary": true,
-          "size": 22233
         }
       ],
       "dependencies": []
@@ -163,60 +185,38 @@
       ]
     },
     {
-      "id": "7gXslE8G",
-      "name": "CommandBridge Velocity",
-      "version_number": "1.0-SNAPSHOT",
+      "id": "v2TvVaMx",
+      "name": "CommandBridge 1.2-Velocity",
+      "version_number": "1.2-SNAPSHOT",
       "game_versions": [
         "1.20",
         "1.20.1",
         "1.20.2",
         "1.20.3",
         "1.20.4",
-        "1.20.5"
+        "1.20.5",
+        "1.20.6"
       ],
       "loaders": [
         "velocity"
       ],
       "files": [
         {
-          "sha512": "c850034ea8ce47378fe7ecb68d5d4739c773c0918a905af722319bbdff09fbd1bfd2aa2a8afe3b5b781227147ff7ea73886668d3003e76ac77969f439b092120",
-          "url": "https://cdn.modrinth.com/data/wIuI4ru2/versions/7gXslE8G/CommandBridgeVelocity-1.0-SNAPSHOT.jar",
-          "filename": "CommandBridgeVelocity-1.0-SNAPSHOT.jar",
+          "sha512": "08ccb98d789d20c256a77821eea9ab63ec442b0038e2dce50d223eb86fba9102e4c64c2a327d691d7647e65cd78f5a406312e2abc0e38f5108e2f7a57dc730b4",
+          "url": "https://cdn.modrinth.com/data/wIuI4ru2/versions/v2TvVaMx/CommandBridgeVelocity-1.2-SNAPSHOT.jar",
+          "filename": "CommandBridgeVelocity-1.2-SNAPSHOT.jar",
           "primary": true,
-          "size": 15848
+          "size": 49167
         }
       ],
-      "dependencies": []
-    },
-    {
-      "id": "2voKtrur",
-      "name": "CommandBridge Bukkit",
-      "version_number": "1.0-SNAPSHOT",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4",
-        "1.20.5"
-      ],
-      "loaders": [
-        "bukkit",
-        "folia",
-        "paper",
-        "purpur",
-        "spigot"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "b1d098d7f20796f54692cde7162358a85d8123c2818529bedefcf811a1a69d08e7c5ae085370a155ebe5dafa955b98f83f91d5285e58329a632f12d1233d80e8",
-          "url": "https://cdn.modrinth.com/data/wIuI4ru2/versions/2voKtrur/CommandBridgeBukkit-1.0-SNAPSHOT.jar",
-          "filename": "CommandBridgeBukkit-1.0-SNAPSHOT.jar",
-          "primary": true,
-          "size": 7168
+          "project_id": "wIuI4ru2",
+          "version_id": "tACOWlfj",
+          "file_name": null,
+          "dependency_type": "required"
         }
-      ],
-      "dependencies": []
+      ]
     }
   ]
 }

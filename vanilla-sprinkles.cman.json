@@ -5,40 +5,6 @@
   "description": "A mod about sprinkling a layer on top of vanilla",
   "versions": [
     {
-      "id": "G4jfG8ng",
-      "name": "Vanilla Sprinkles 1.21-1.0.3",
-      "version_number": "1.21-1.0.3",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9b1412a975bfe3d2f803cc90472f6b4254161f90adc332032387dc1997258a26a2b332528c46da5b87d14357a4bafb03912824be61c0322d95235d05035d4ac4",
-          "url": "https://cdn.modrinth.com/data/oYhPEuUZ/versions/G4jfG8ng/vanillasprinkles-1.21-1.0.3.jar",
-          "filename": "vanillasprinkles-1.21-1.0.3.jar",
-          "primary": true,
-          "size": 54684
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "SHJeFf7t",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "7yI0z5g5",
       "name": "Vanilla Sprinkles 1.20.6-1.0.3",
       "version_number": "1.20.6-1.0.3",
@@ -70,6 +36,40 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "G4jfG8ng",
+      "name": "Vanilla Sprinkles 1.21-1.0.3",
+      "version_number": "1.21-1.0.3",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9b1412a975bfe3d2f803cc90472f6b4254161f90adc332032387dc1997258a26a2b332528c46da5b87d14357a4bafb03912824be61c0322d95235d05035d4ac4",
+          "url": "https://cdn.modrinth.com/data/oYhPEuUZ/versions/G4jfG8ng/vanillasprinkles-1.21-1.0.3.jar",
+          "filename": "vanillasprinkles-1.21-1.0.3.jar",
+          "primary": true,
+          "size": 54684
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "SHJeFf7t",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -108,9 +108,9 @@
       ]
     },
     {
-      "id": "vulBU1Tp",
-      "name": "Vanilla Sprinkles 1.20.6-1.0.2",
-      "version_number": "1.20.6-1.0.2",
+      "id": "PgkkKsQb",
+      "name": "Vanilla Sprinkles 1.20.6-1.0.0",
+      "version_number": "1.20.6-1.0.0",
       "game_versions": [
         "1.20.5",
         "1.20.6"
@@ -120,14 +120,20 @@
       ],
       "files": [
         {
-          "sha512": "a5e494e933c0fd004ceb68a114431819fd5c44e8e7adabb7f45546f2da2eec3c50973327b056f3dc0565bdab5c9448b292ec581f0adf981347a05e3ba9bd1e47",
-          "url": "https://cdn.modrinth.com/data/oYhPEuUZ/versions/vulBU1Tp/vanillasprinkles-1.20.6-1.0.2.jar",
-          "filename": "vanillasprinkles-1.20.6-1.0.2.jar",
+          "sha512": "881a8d26dd353607e4f5ec1377e284582a8f96b0f21b406ddfc005326a4d63f0886830e1aad56426f36dc8ca6072231953a747a39271ea6d7073fc31f053cb1c",
+          "url": "https://cdn.modrinth.com/data/oYhPEuUZ/versions/PgkkKsQb/vanillasprinkles-1.20.6-1.0.0.jar",
+          "filename": "vanillasprinkles-1.20.6-1.0.0.jar",
           "primary": true,
-          "size": 53375
+          "size": 30010
         }
       ],
       "dependencies": [
+        {
+          "project_id": "SHJeFf7t",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
@@ -188,9 +194,9 @@
       "dependencies": []
     },
     {
-      "id": "PgkkKsQb",
-      "name": "Vanilla Sprinkles 1.20.6-1.0.0",
-      "version_number": "1.20.6-1.0.0",
+      "id": "vulBU1Tp",
+      "name": "Vanilla Sprinkles 1.20.6-1.0.2",
+      "version_number": "1.20.6-1.0.2",
       "game_versions": [
         "1.20.5",
         "1.20.6"
@@ -200,20 +206,14 @@
       ],
       "files": [
         {
-          "sha512": "881a8d26dd353607e4f5ec1377e284582a8f96b0f21b406ddfc005326a4d63f0886830e1aad56426f36dc8ca6072231953a747a39271ea6d7073fc31f053cb1c",
-          "url": "https://cdn.modrinth.com/data/oYhPEuUZ/versions/PgkkKsQb/vanillasprinkles-1.20.6-1.0.0.jar",
-          "filename": "vanillasprinkles-1.20.6-1.0.0.jar",
+          "sha512": "a5e494e933c0fd004ceb68a114431819fd5c44e8e7adabb7f45546f2da2eec3c50973327b056f3dc0565bdab5c9448b292ec581f0adf981347a05e3ba9bd1e47",
+          "url": "https://cdn.modrinth.com/data/oYhPEuUZ/versions/vulBU1Tp/vanillasprinkles-1.20.6-1.0.2.jar",
+          "filename": "vanillasprinkles-1.20.6-1.0.2.jar",
           "primary": true,
-          "size": 30010
+          "size": 53375
         }
       ],
       "dependencies": [
-        {
-          "project_id": "SHJeFf7t",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "P7dR8mSH",
           "version_id": null,

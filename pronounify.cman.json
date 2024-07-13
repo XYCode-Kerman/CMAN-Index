@@ -5,6 +5,76 @@
   "description": "PronounDB in Minecraft",
   "versions": [
     {
+      "id": "IggM7tEv",
+      "name": "[Forge 1.18.2] 1.0.0",
+      "version_number": "1.0.0-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "39e61bb430e484bb3a23023299185604c3d06edee1c6452d664eae42904f0ee4203fd1080d321ed9d4864ee4ae1dc81ffbcce20bd35388a0833f87cd0083be1a",
+          "url": "https://cdn.modrinth.com/data/EROYCQAh/versions/1.0.0-forge/pronounmc-forge-1.0.0.jar",
+          "filename": "pronounmc-forge-1.0.0.jar",
+          "primary": true,
+          "size": 19315
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "QYYiIEDr",
+      "name": "[Forge 1.18.2] 1.1.0",
+      "version_number": "1.1.0-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "175d66f7f00c88635662410f7ffe69c8e39f137b237ac0ef4be6d0955f254df66dbbb0d47b172d01cd61b5c6bd1bd39a2523c957f817745f6ad6e11d3eee056e",
+          "url": "https://cdn.modrinth.com/data/EROYCQAh/versions/1.1.0-forge/pronounmc-forge-1.1.0.jar",
+          "filename": "pronounmc-forge-1.1.0.jar",
+          "primary": true,
+          "size": 24242
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "qunfJst1",
+      "name": "[Fabric 1.18.2] 1.0.0",
+      "version_number": "1.0.0-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4158f73ddb612983dc519d3d320729858abb242de522c04ee34b98e9b499a7d585d49236d5712beb319d6c81047f70005b50297a8b161c1e5283d63325ce8b21",
+          "url": "https://cdn.modrinth.com/data/EROYCQAh/versions/1.0.0-fabric/pronounmc-fabric-1.0.0.jar",
+          "filename": "pronounmc-fabric-1.0.0.jar",
+          "primary": true,
+          "size": 18921
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "tMNvthYe",
       "name": "2.0.0",
       "version_number": "2.0.0",
@@ -32,39 +102,18 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "Ha28R6CL",
-          "version_id": "s10JMAtS",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "oU5qfeR6",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": "s10JMAtS",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
-    },
-    {
-      "id": "QYYiIEDr",
-      "name": "[Forge 1.18.2] 1.1.0",
-      "version_number": "1.1.0-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "175d66f7f00c88635662410f7ffe69c8e39f137b237ac0ef4be6d0955f254df66dbbb0d47b172d01cd61b5c6bd1bd39a2523c957f817745f6ad6e11d3eee056e",
-          "url": "https://cdn.modrinth.com/data/EROYCQAh/versions/1.1.0-forge/pronounmc-forge-1.1.0.jar",
-          "filename": "pronounmc-forge-1.1.0.jar",
-          "primary": true,
-          "size": 24242
-        }
-      ],
-      "dependencies": []
     },
     {
       "id": "u0brZ2ao",
@@ -97,55 +146,6 @@
           "version_id": "nVxObSbX",
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "IggM7tEv",
-      "name": "[Forge 1.18.2] 1.0.0",
-      "version_number": "1.0.0-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "39e61bb430e484bb3a23023299185604c3d06edee1c6452d664eae42904f0ee4203fd1080d321ed9d4864ee4ae1dc81ffbcce20bd35388a0833f87cd0083be1a",
-          "url": "https://cdn.modrinth.com/data/EROYCQAh/versions/1.0.0-forge/pronounmc-forge-1.0.0.jar",
-          "filename": "pronounmc-forge-1.0.0.jar",
-          "primary": true,
-          "size": 19315
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "qunfJst1",
-      "name": "[Fabric 1.18.2] 1.0.0",
-      "version_number": "1.0.0-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4158f73ddb612983dc519d3d320729858abb242de522c04ee34b98e9b499a7d585d49236d5712beb319d6c81047f70005b50297a8b161c1e5283d63325ce8b21",
-          "url": "https://cdn.modrinth.com/data/EROYCQAh/versions/1.0.0-fabric/pronounmc-fabric-1.0.0.jar",
-          "filename": "pronounmc-fabric-1.0.0.jar",
-          "primary": true,
-          "size": 18921
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     }

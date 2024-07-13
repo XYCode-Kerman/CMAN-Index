@@ -5,6 +5,124 @@
   "description": "A very minimal armor durability viewer",
   "versions": [
     {
+      "id": "A5KIgdL7",
+      "name": "0.3.2 for MC 1.18 to 1.18.2",
+      "version_number": "0.3.2",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "abd77aa0c0c783a76e6f148c32e7c0e332f5f68d8935aacdc35ef8de65d951fc3c8ddc4becd8f69d284b144a867d2ff4177787ae72be7479469b239e37e550fb",
+          "url": "https://cdn.modrinth.com/data/JW3bGnLO/versions/0.3.2/microDurability-0.3.2%2B1.18.1.jar",
+          "filename": "microDurability-0.3.2+1.18.1.jar",
+          "primary": true,
+          "size": 1097270
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "4XRtXhtL",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "S1MGnGwT",
+      "name": "0.3.6 for MC 1.17 to 1.18.2",
+      "version_number": "0.3.6+1.17",
+      "game_versions": [
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "40afbe27f239334fe35be7ef10f7acf4c9e30d32f7a25aecaf1d8887394de70d4513399532205f269ffef9ebd18f15403074e990e6936ba802787878eace1039",
+          "url": "https://cdn.modrinth.com/data/JW3bGnLO/versions/0.3.6%2B1.17/microdurability-0.3.6%2B1.17.jar",
+          "filename": "microdurability-0.3.6+1.17.jar",
+          "primary": true,
+          "size": 24738
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "4XRtXhtL",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "cx9D94fU",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "SKKklgju",
+      "name": "0.3.7 for MC 1.20 to 1.20.4",
+      "version_number": "0.3.7+1.20",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "800642ffbc2530347d8c92a7c29efd7cb6916265856a1bccbff1926cd79baed0388d3b9e2819a33d10026a66f1d2e6c40e3899fe96e741c02c2701f015ae7f10",
+          "url": "https://cdn.modrinth.com/data/JW3bGnLO/versions/SKKklgju/microdurability-0.3.7%2B1.20.jar",
+          "filename": "microdurability-0.3.7+1.20.jar",
+          "primary": true,
+          "size": 25872
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "VlmNAzmB",
       "name": "0.4.0 for MC 1.16+",
       "version_number": "0.4.0+1.16-1.21",
@@ -43,51 +161,7 @@
       ],
       "dependencies": [
         {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "SKKklgju",
-      "name": "0.3.7 for MC 1.20 to 1.20.4",
-      "version_number": "0.3.7+1.20",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "800642ffbc2530347d8c92a7c29efd7cb6916265856a1bccbff1926cd79baed0388d3b9e2819a33d10026a66f1d2e6c40e3899fe96e741c02c2701f015ae7f10",
-          "url": "https://cdn.modrinth.com/data/JW3bGnLO/versions/SKKklgju/microdurability-0.3.7%2B1.20.jar",
-          "filename": "microdurability-0.3.7+1.20.jar",
-          "primary": true,
-          "size": 25872
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -148,6 +222,176 @@
       ]
     },
     {
+      "id": "hoNoGWd1",
+      "name": "0.3.3 for MC 1.19 to 1.19.3",
+      "version_number": "0.3.3+1.19",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d7f2973496cdb4ba35e7553044856f257c9561b94165b4005bc03ff3be328e84d551114594eaa7dcc4fbce2af33f46becce187e041c229af30dfe182cd00c982",
+          "url": "https://cdn.modrinth.com/data/JW3bGnLO/versions/0.3.3%2B1.19/microdurability-0.3.3%2B1.19.jar",
+          "filename": "microdurability-0.3.3+1.19.jar",
+          "primary": true,
+          "size": 21466
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "RS6s817x",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "hyhSglah",
+      "name": "0.3.4 for MC 1.19 to 1.19.3",
+      "version_number": "0.3.4+1.19",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "40cbed1cf1f8249848e31c89e6ff7d2f08707405f2517f4a831304981779a67b00ff51a25f8a2b31d62f53030f59b28c43feebdd7d068df8047b80a7abb80cb1",
+          "url": "https://cdn.modrinth.com/data/JW3bGnLO/versions/0.3.4%2B1.19/microdurability-0.3.4%2B1.19.jar",
+          "filename": "microdurability-0.3.4+1.19.jar",
+          "primary": true,
+          "size": 23048
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "3KmOcp6b",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "iUJuBPPB",
+      "name": "0.3.3 for MC 1.18",
+      "version_number": "0.3.3+1.18",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9e0a165003d17b5e81ddf2f77c006cc91f68ce6bb361a281bea68dd376a9257c2e68a1e58b6b2a36f1f083334a3c95773d5ca8a5056c8409bb1399278b660a16",
+          "url": "https://cdn.modrinth.com/data/JW3bGnLO/versions/0.3.3%2B1.18/microdurability-0.3.3%2B1.18.jar",
+          "filename": "microdurability-0.3.3+1.18.jar",
+          "primary": true,
+          "size": 21432
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "4XRtXhtL",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "cx9D94fU",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "k4zhMtYM",
+      "name": "0.3.4 for MC 1.18",
+      "version_number": "0.3.4+1.18",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4ce40a418de6a0a0b9f52c0e13ced1c8afad0cbe282e47a13888485fad97c1ec7cd86beedc4983f762fe9bdc910a22b25eacac62840563651208f968bf37459b",
+          "url": "https://cdn.modrinth.com/data/JW3bGnLO/versions/0.3.4%2B1.18/microdurability-0.3.4%2B1.18.jar",
+          "filename": "microdurability-0.3.4+1.18.jar",
+          "primary": true,
+          "size": 23016
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "4XRtXhtL",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "cx9D94fU",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "kbTj92Ij",
       "name": "0.3.6 for MC 1.19 to 1.19.3",
       "version_number": "0.3.6+1.19",
@@ -171,8 +415,8 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
+          "project_id": "P7dR8mSH",
+          "version_id": "3KmOcp6b",
           "file_name": null,
           "dependency_type": "required"
         },
@@ -183,97 +427,10 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "3KmOcp6b",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "S1MGnGwT",
-      "name": "0.3.6 for MC 1.17 to 1.18.2",
-      "version_number": "0.3.6+1.17",
-      "game_versions": [
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "40afbe27f239334fe35be7ef10f7acf4c9e30d32f7a25aecaf1d8887394de70d4513399532205f269ffef9ebd18f15403074e990e6936ba802787878eace1039",
-          "url": "https://cdn.modrinth.com/data/JW3bGnLO/versions/0.3.6%2B1.17/microdurability-0.3.6%2B1.17.jar",
-          "filename": "microdurability-0.3.6+1.17.jar",
-          "primary": true,
-          "size": 24738
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "4XRtXhtL",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "cx9D94fU",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "vE7p2VE7",
-      "name": "0.3.5 for MC 1.19 to 1.19.3",
-      "version_number": "0.3.5+1.19",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "95d93b63e62abefdde49d1d994ca348bc4fb55aa61e4acab5825dac3e54c0ca7c009d0144bddccff06e1cbddb357a01daf1b47734d063aed0b06da6c96ae696d",
-          "url": "https://cdn.modrinth.com/data/JW3bGnLO/versions/0.3.5%2B1.19/microdurability-0.3.5%2B1.19.jar",
-          "filename": "microdurability-0.3.5+1.19.jar",
-          "primary": true,
-          "size": 23570
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "3KmOcp6b",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "9s6osm5g",
           "version_id": "o9dFD9SO",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -320,9 +477,9 @@
       ]
     },
     {
-      "id": "hyhSglah",
-      "name": "0.3.4 for MC 1.19 to 1.19.3",
-      "version_number": "0.3.4+1.19",
+      "id": "vE7p2VE7",
+      "name": "0.3.5 for MC 1.19 to 1.19.3",
+      "version_number": "0.3.5+1.19",
       "game_versions": [
         "1.19",
         "1.19.1",
@@ -334,20 +491,14 @@
       ],
       "files": [
         {
-          "sha512": "40cbed1cf1f8249848e31c89e6ff7d2f08707405f2517f4a831304981779a67b00ff51a25f8a2b31d62f53030f59b28c43feebdd7d068df8047b80a7abb80cb1",
-          "url": "https://cdn.modrinth.com/data/JW3bGnLO/versions/0.3.4%2B1.19/microdurability-0.3.4%2B1.19.jar",
-          "filename": "microdurability-0.3.4+1.19.jar",
+          "sha512": "95d93b63e62abefdde49d1d994ca348bc4fb55aa61e4acab5825dac3e54c0ca7c009d0144bddccff06e1cbddb357a01daf1b47734d063aed0b06da6c96ae696d",
+          "url": "https://cdn.modrinth.com/data/JW3bGnLO/versions/0.3.5%2B1.19/microdurability-0.3.5%2B1.19.jar",
+          "filename": "microdurability-0.3.5+1.19.jar",
           "primary": true,
-          "size": 23048
+          "size": 23570
         }
       ],
       "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "P7dR8mSH",
           "version_id": "3KmOcp6b",
@@ -355,165 +506,14 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "k4zhMtYM",
-      "name": "0.3.4 for MC 1.18",
-      "version_number": "0.3.4+1.18",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4ce40a418de6a0a0b9f52c0e13ced1c8afad0cbe282e47a13888485fad97c1ec7cd86beedc4983f762fe9bdc910a22b25eacac62840563651208f968bf37459b",
-          "url": "https://cdn.modrinth.com/data/JW3bGnLO/versions/0.3.4%2B1.18/microdurability-0.3.4%2B1.18.jar",
-          "filename": "microdurability-0.3.4+1.18.jar",
-          "primary": true,
-          "size": 23016
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "cx9D94fU",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "4XRtXhtL",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "hoNoGWd1",
-      "name": "0.3.3 for MC 1.19 to 1.19.3",
-      "version_number": "0.3.3+1.19",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d7f2973496cdb4ba35e7553044856f257c9561b94165b4005bc03ff3be328e84d551114594eaa7dcc4fbce2af33f46becce187e041c229af30dfe182cd00c982",
-          "url": "https://cdn.modrinth.com/data/JW3bGnLO/versions/0.3.3%2B1.19/microdurability-0.3.3%2B1.19.jar",
-          "filename": "microdurability-0.3.3+1.19.jar",
-          "primary": true,
-          "size": 21466
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "RS6s817x",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "id0aLmxO",
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "iUJuBPPB",
-      "name": "0.3.3 for MC 1.18",
-      "version_number": "0.3.3+1.18",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9e0a165003d17b5e81ddf2f77c006cc91f68ce6bb361a281bea68dd376a9257c2e68a1e58b6b2a36f1f083334a3c95773d5ca8a5056c8409bb1399278b660a16",
-          "url": "https://cdn.modrinth.com/data/JW3bGnLO/versions/0.3.3%2B1.18/microdurability-0.3.3%2B1.18.jar",
-          "filename": "microdurability-0.3.3+1.18.jar",
-          "primary": true,
-          "size": 21432
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "cx9D94fU",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "4XRtXhtL",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "A5KIgdL7",
-      "name": "0.3.2 for MC 1.18 to 1.18.2",
-      "version_number": "0.3.2",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "abd77aa0c0c783a76e6f148c32e7c0e332f5f68d8935aacdc35ef8de65d951fc3c8ddc4becd8f69d284b144a867d2ff4177787ae72be7479469b239e37e550fb",
-          "url": "https://cdn.modrinth.com/data/JW3bGnLO/versions/0.3.2/microDurability-0.3.2%2B1.18.1.jar",
-          "filename": "microDurability-0.3.2+1.18.1.jar",
-          "primary": true,
-          "size": 1097270
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "4XRtXhtL",
+          "version_id": "o9dFD9SO",
           "file_name": null,
           "dependency_type": "required"
         }

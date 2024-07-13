@@ -1,9 +1,99 @@
 {
-  "id": "wandering-trader-announcement",
+  "id": "sxx4Yagq",
   "slug": "wandering-trader-announcement",
   "name": "Wandering Trader Announcement",
   "description": "Announces when a wandering trader spawns",
   "versions": [
+    {
+      "id": "7phTusm4",
+      "name": "1.0.1+NeoForge",
+      "version_number": "1.0.1+NeoForge",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "4c0e9ecc9678e5b76a70ee353537c83c862b861071c3f32f26d577a6e72762c386cb444ee0999fd06328a6bf4d39af789b085bd0126be0cae314edd64b37c66e",
+          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/7phTusm4/Wandering-Trader-Announcement-NeoForge-1.0.1-all.jar",
+          "filename": "Wandering-Trader-Announcement-NeoForge-1.0.1-all.jar",
+          "primary": true,
+          "size": 173815
+        },
+        {
+          "sha512": "0f85af4f12c906e2fc1297606e7058b764252c58ecaa407ea2c51fb18be26f53cfcb0b3e964d8ae62a6d867d622ed055951d0a6de1f74de77e8e1a545fcec2a6",
+          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/7phTusm4/Wandering-Trader-Announcement-NeoForge-1.0.1-sources.jar",
+          "filename": "Wandering-Trader-Announcement-NeoForge-1.0.1-sources.jar",
+          "primary": false,
+          "size": 10469
+        },
+        {
+          "sha512": "f36670e1876f93fb6c5b83adb1e6025b9e58f7317c05a3d3285435bd450809b537dfe07f4583e580fc53a5a76c9c3270dbddd61e0ff5f7b0333eabe7be234514",
+          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/7phTusm4/Wandering-Trader-Announcement-NeoForge-1.0.1.jar",
+          "filename": "Wandering-Trader-Announcement-NeoForge-1.0.1.jar",
+          "primary": false,
+          "size": 14942
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "HIuqnQpi",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "97Z1kSpg",
+      "name": "1.0.3+Quilt",
+      "version_number": "1.0.3+Quilt",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "16864f4049383fa14176df707fc436b265f43b1f2d74aa0cd676298a7ee3dbe925246b04001a09dfb4ea729d5b57b72501d35cb4d9f87fee2515085aaef734c9",
+          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/97Z1kSpg/Wandering-Trader-Announcement-Quilt-1.0.3.jar",
+          "filename": "Wandering-Trader-Announcement-Quilt-1.0.3.jar",
+          "primary": true,
+          "size": 71874
+        },
+        {
+          "sha512": "a0f3698c98121cd1ee6fdac95ea57900466c4d896976431141271d73a9febc09216e3a65a98b480e594458a51ec5052022f8c5c42a547bc703e9244b31b88a27",
+          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/97Z1kSpg/Wandering-Trader-Announcement-Quilt-1.0.3-sources.jar",
+          "filename": "Wandering-Trader-Announcement-Quilt-1.0.3-sources.jar",
+          "primary": false,
+          "size": 68345
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
     {
       "id": "AY9d5EFP",
       "name": "1.0.4+Fabric",
@@ -28,6 +118,20 @@
           "filename": "Wandering-Trader-Announcement-Fabric-1.0.4-sources.jar",
           "primary": false,
           "size": 68188
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -56,87 +160,19 @@
           "primary": false,
           "size": 68345
         }
-      ]
-    },
-    {
-      "id": "qQpMR6Nv",
-      "name": "1.0.4+NeoForge",
-      "version_number": "1.0.4+NeoForge",
-      "game_versions": [
-        "1.20.1"
       ],
-      "loaders": [
-        "forge",
-        "neoforge"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "94d966d9863ffc14d34c20448f1cd0a1f7524921858bad612693b1ac8702e27a40978765c743aadc0fdc4adc43492f897e9d968bfaa29da8056f2c47b1dbe3a5",
-          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/qQpMR6Nv/Wandering-Trader-Announcement-NeoForge-1.0.4.jar",
-          "filename": "Wandering-Trader-Announcement-NeoForge-1.0.4.jar",
-          "primary": true,
-          "size": 231479
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
-          "sha512": "792fd50b73ff1a80e71cb202ce70501f66e3528fd63e41ad33d1c8b16be6bbc30e24384f43b0ff87f97eda5bed3d6d136ed3d5ab5d720a9d7527f541954e7959",
-          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/qQpMR6Nv/Wandering-Trader-Announcement-NeoForge-1.0.4-sources.jar",
-          "filename": "Wandering-Trader-Announcement-NeoForge-1.0.4-sources.jar",
-          "primary": false,
-          "size": 67738
-        }
-      ]
-    },
-    {
-      "id": "YrPAUtvf",
-      "name": "1.0.3+Fabric",
-      "version_number": "1.0.3+Fabric",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "57d9bbb8141836e6795284bbd0a88ac0bfb6db96c30fc5ac29fdb66edd04461c5ae45688c2dec05ddf3aa7ac5bd35151485a36ecb7edbc5100a201513a53981d",
-          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/YrPAUtvf/Wandering-Trader-Announcement-Fabric-1.0.3.jar",
-          "filename": "Wandering-Trader-Announcement-Fabric-1.0.3.jar",
-          "primary": true,
-          "size": 71629
-        },
-        {
-          "sha512": "5e6804b3ec81773018ff9f3a9510c6827f22903c9d0c90d261ed42814e5b35af08d8fb6ffb6d790b45edcc1fd1e2eede208cf2b90340eda287b2c69adf0bd226",
-          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/YrPAUtvf/Wandering-Trader-Announcement-Fabric-1.0.3-sources.jar",
-          "filename": "Wandering-Trader-Announcement-Fabric-1.0.3-sources.jar",
-          "primary": false,
-          "size": 68188
-        }
-      ]
-    },
-    {
-      "id": "97Z1kSpg",
-      "name": "1.0.3+Quilt",
-      "version_number": "1.0.3+Quilt",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "16864f4049383fa14176df707fc436b265f43b1f2d74aa0cd676298a7ee3dbe925246b04001a09dfb4ea729d5b57b72501d35cb4d9f87fee2515085aaef734c9",
-          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/97Z1kSpg/Wandering-Trader-Announcement-Quilt-1.0.3.jar",
-          "filename": "Wandering-Trader-Announcement-Quilt-1.0.3.jar",
-          "primary": true,
-          "size": 71874
-        },
-        {
-          "sha512": "a0f3698c98121cd1ee6fdac95ea57900466c4d896976431141271d73a9febc09216e3a65a98b480e594458a51ec5052022f8c5c42a547bc703e9244b31b88a27",
-          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/97Z1kSpg/Wandering-Trader-Announcement-Quilt-1.0.3-sources.jar",
-          "filename": "Wandering-Trader-Announcement-Quilt-1.0.3-sources.jar",
-          "primary": false,
-          "size": 68345
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -166,6 +202,14 @@
           "primary": false,
           "size": 67719
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -193,32 +237,109 @@
           "primary": false,
           "size": 10929
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
-      "id": "oeum6a5T",
-      "name": "1.0.2+Quilt",
-      "version_number": "1.0.2+Quilt",
+      "id": "YrPAUtvf",
+      "name": "1.0.3+Fabric",
+      "version_number": "1.0.3+Fabric",
       "game_versions": [
         "1.20.1"
       ],
       "loaders": [
-        "quilt"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "c6550277d36e71c5983c7b471cfbc85b03480e68c2b068e986258cdfa8a99990669f25114c526ae81246758e534c6e7a2468bee85f095bfd966d5d1d90e95b15",
-          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/oeum6a5T/Wandering-Trader-Announcement-Quilt-1.0.2.jar",
-          "filename": "Wandering-Trader-Announcement-Quilt-1.0.2.jar",
+          "sha512": "57d9bbb8141836e6795284bbd0a88ac0bfb6db96c30fc5ac29fdb66edd04461c5ae45688c2dec05ddf3aa7ac5bd35151485a36ecb7edbc5100a201513a53981d",
+          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/YrPAUtvf/Wandering-Trader-Announcement-Fabric-1.0.3.jar",
+          "filename": "Wandering-Trader-Announcement-Fabric-1.0.3.jar",
           "primary": true,
-          "size": 14616
+          "size": 71629
         },
         {
-          "sha512": "2f7c50b7bb92c59b95e7bea8733dfde31b0ce228c58e1bac783bb54d8f03c309c3b251264964e3199950ef197074aacd69a9c5bd41c0a2c8bbe1f5ffc9eaa559",
-          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/oeum6a5T/Wandering-Trader-Announcement-Quilt-1.0.2-sources.jar",
-          "filename": "Wandering-Trader-Announcement-Quilt-1.0.2-sources.jar",
+          "sha512": "5e6804b3ec81773018ff9f3a9510c6827f22903c9d0c90d261ed42814e5b35af08d8fb6ffb6d790b45edcc1fd1e2eede208cf2b90340eda287b2c69adf0bd226",
+          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/YrPAUtvf/Wandering-Trader-Announcement-Fabric-1.0.3-sources.jar",
+          "filename": "Wandering-Trader-Announcement-Fabric-1.0.3-sources.jar",
           "primary": false,
-          "size": 11086
+          "size": 68188
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jAfj6gtU",
+      "name": "1.0.0+NeoForge",
+      "version_number": "1.0.0+NeoForge",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "501c5d69577eb1805f6735649ad862fd0d948229d57b6a47caf1e6f62230f2fdb5bfed972bd1e563ec8c2e9a6be1458dd18fb2854c74d383659af16ee5e39fc1",
+          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/jAfj6gtU/Wandering-Trader-Announcement-NeoForge-1.0.0-all.jar",
+          "filename": "Wandering-Trader-Announcement-NeoForge-1.0.0-all.jar",
+          "primary": true,
+          "size": 173817
+        },
+        {
+          "sha512": "61ba7de620a70614f8c89d42281c8799e59cb15d441877ddee74172d4153bae0ee27fed4f32568a864000c09188973309b98b135928b09e53731df28fe36ebb0",
+          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/jAfj6gtU/Wandering-Trader-Announcement-NeoForge-1.0.0-sources.jar",
+          "filename": "Wandering-Trader-Announcement-NeoForge-1.0.0-sources.jar",
+          "primary": false,
+          "size": 10469
+        },
+        {
+          "sha512": "deb76d71ef71973f21737ff171e4426314b93673a69849ebbda1adaabe883f11f076f5a9166ba33e1cdde3baa720bd0aa55a7864d48d4e964675eca4b1b5ed73",
+          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/jAfj6gtU/Wandering-Trader-Announcement-NeoForge-1.0.0.jar",
+          "filename": "Wandering-Trader-Announcement-NeoForge-1.0.0.jar",
+          "primary": false,
+          "size": 14942
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "HIuqnQpi",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -255,39 +376,20 @@
           "primary": false,
           "size": 14937
         }
-      ]
-    },
-    {
-      "id": "t2oH1jKB",
-      "name": "1.0.1+Fabric",
-      "version_number": "1.0.1+Fabric",
-      "game_versions": [
-        "1.20.1"
       ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "9f9e12971c8349961fcd6e35e2d4905b618ab22966e262f4477cd9e59acd8572757a1c0d9fe74cc333741165995103462870c47cafcbf99f6a321958a0142268",
-          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/t2oH1jKB/Wandering-Trader-Announcement-Fabric-1.0.1.jar",
-          "filename": "Wandering-Trader-Announcement-Fabric-1.0.1.jar",
-          "primary": true,
-          "size": 14367
-        },
-        {
-          "sha512": "7640f7d1c7db5102c0602996700e418f3dd8e236f290501de16c73b8c494e5fbf314deaf1185791d45bc6b5b9a5e8097029c7f1469ac7d249ed3670d53da30ce",
-          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/t2oH1jKB/Wandering-Trader-Announcement-Fabric-1.0.1-sources.jar",
-          "filename": "Wandering-Trader-Announcement-Fabric-1.0.1-sources.jar",
-          "primary": false,
-          "size": 10929
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "ub6JzZ0y",
-      "name": "1.0.1+Quilt",
-      "version_number": "1.0.1+Quilt",
+      "id": "oeum6a5T",
+      "name": "1.0.2+Quilt",
+      "version_number": "1.0.2+Quilt",
       "game_versions": [
         "1.20.1"
       ],
@@ -296,25 +398,39 @@
       ],
       "files": [
         {
-          "sha512": "a8d947c66d9aec93373a5454a9e0eb208cd4b538e5dc31d7cf052cc6bedb43124636f66afbae9dd9105b33364b47fa3c6245b09de1ad6298e1372dfda695fa86",
-          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/ub6JzZ0y/Wandering-Trader-Announcement-Quilt-1.0.1.jar",
-          "filename": "Wandering-Trader-Announcement-Quilt-1.0.1.jar",
+          "sha512": "c6550277d36e71c5983c7b471cfbc85b03480e68c2b068e986258cdfa8a99990669f25114c526ae81246758e534c6e7a2468bee85f095bfd966d5d1d90e95b15",
+          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/oeum6a5T/Wandering-Trader-Announcement-Quilt-1.0.2.jar",
+          "filename": "Wandering-Trader-Announcement-Quilt-1.0.2.jar",
           "primary": true,
-          "size": 14615
+          "size": 14616
         },
         {
-          "sha512": "55949897a1372e2c6b67b95670c25f34fc9610d40cfddebe91725f20af0fac324c4883fe4d60b23483e7fb654eedc94380408c93c49c71e46ede7390a6d8dfd9",
-          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/ub6JzZ0y/Wandering-Trader-Announcement-Quilt-1.0.1-sources.jar",
-          "filename": "Wandering-Trader-Announcement-Quilt-1.0.1-sources.jar",
+          "sha512": "2f7c50b7bb92c59b95e7bea8733dfde31b0ce228c58e1bac783bb54d8f03c309c3b251264964e3199950ef197074aacd69a9c5bd41c0a2c8bbe1f5ffc9eaa559",
+          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/oeum6a5T/Wandering-Trader-Announcement-Quilt-1.0.2-sources.jar",
+          "filename": "Wandering-Trader-Announcement-Quilt-1.0.2-sources.jar",
           "primary": false,
           "size": 11086
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "7phTusm4",
-      "name": "1.0.1+NeoForge",
-      "version_number": "1.0.1+NeoForge",
+      "id": "qQpMR6Nv",
+      "name": "1.0.4+NeoForge",
+      "version_number": "1.0.4+NeoForge",
       "game_versions": [
         "1.20.1"
       ],
@@ -324,25 +440,26 @@
       ],
       "files": [
         {
-          "sha512": "4c0e9ecc9678e5b76a70ee353537c83c862b861071c3f32f26d577a6e72762c386cb444ee0999fd06328a6bf4d39af789b085bd0126be0cae314edd64b37c66e",
-          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/7phTusm4/Wandering-Trader-Announcement-NeoForge-1.0.1-all.jar",
-          "filename": "Wandering-Trader-Announcement-NeoForge-1.0.1-all.jar",
+          "sha512": "94d966d9863ffc14d34c20448f1cd0a1f7524921858bad612693b1ac8702e27a40978765c743aadc0fdc4adc43492f897e9d968bfaa29da8056f2c47b1dbe3a5",
+          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/qQpMR6Nv/Wandering-Trader-Announcement-NeoForge-1.0.4.jar",
+          "filename": "Wandering-Trader-Announcement-NeoForge-1.0.4.jar",
           "primary": true,
-          "size": 173815
+          "size": 231479
         },
         {
-          "sha512": "0f85af4f12c906e2fc1297606e7058b764252c58ecaa407ea2c51fb18be26f53cfcb0b3e964d8ae62a6d867d622ed055951d0a6de1f74de77e8e1a545fcec2a6",
-          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/7phTusm4/Wandering-Trader-Announcement-NeoForge-1.0.1-sources.jar",
-          "filename": "Wandering-Trader-Announcement-NeoForge-1.0.1-sources.jar",
+          "sha512": "792fd50b73ff1a80e71cb202ce70501f66e3528fd63e41ad33d1c8b16be6bbc30e24384f43b0ff87f97eda5bed3d6d136ed3d5ab5d720a9d7527f541954e7959",
+          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/qQpMR6Nv/Wandering-Trader-Announcement-NeoForge-1.0.4-sources.jar",
+          "filename": "Wandering-Trader-Announcement-NeoForge-1.0.4-sources.jar",
           "primary": false,
-          "size": 10469
-        },
+          "size": 67738
+        }
+      ],
+      "dependencies": [
         {
-          "sha512": "f36670e1876f93fb6c5b83adb1e6025b9e58f7317c05a3d3285435bd450809b537dfe07f4583e580fc53a5a76c9c3270dbddd61e0ff5f7b0333eabe7be234514",
-          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/7phTusm4/Wandering-Trader-Announcement-NeoForge-1.0.1.jar",
-          "filename": "Wandering-Trader-Announcement-NeoForge-1.0.1.jar",
-          "primary": false,
-          "size": 14942
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -371,40 +488,101 @@
           "primary": false,
           "size": 11086
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
-      "id": "jAfj6gtU",
-      "name": "1.0.0+NeoForge",
-      "version_number": "1.0.0+NeoForge",
+      "id": "t2oH1jKB",
+      "name": "1.0.1+Fabric",
+      "version_number": "1.0.1+Fabric",
       "game_versions": [
         "1.20.1"
       ],
       "loaders": [
-        "forge",
-        "neoforge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "501c5d69577eb1805f6735649ad862fd0d948229d57b6a47caf1e6f62230f2fdb5bfed972bd1e563ec8c2e9a6be1458dd18fb2854c74d383659af16ee5e39fc1",
-          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/jAfj6gtU/Wandering-Trader-Announcement-NeoForge-1.0.0-all.jar",
-          "filename": "Wandering-Trader-Announcement-NeoForge-1.0.0-all.jar",
+          "sha512": "9f9e12971c8349961fcd6e35e2d4905b618ab22966e262f4477cd9e59acd8572757a1c0d9fe74cc333741165995103462870c47cafcbf99f6a321958a0142268",
+          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/t2oH1jKB/Wandering-Trader-Announcement-Fabric-1.0.1.jar",
+          "filename": "Wandering-Trader-Announcement-Fabric-1.0.1.jar",
           "primary": true,
-          "size": 173817
+          "size": 14367
         },
         {
-          "sha512": "61ba7de620a70614f8c89d42281c8799e59cb15d441877ddee74172d4153bae0ee27fed4f32568a864000c09188973309b98b135928b09e53731df28fe36ebb0",
-          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/jAfj6gtU/Wandering-Trader-Announcement-NeoForge-1.0.0-sources.jar",
-          "filename": "Wandering-Trader-Announcement-NeoForge-1.0.0-sources.jar",
+          "sha512": "7640f7d1c7db5102c0602996700e418f3dd8e236f290501de16c73b8c494e5fbf314deaf1185791d45bc6b5b9a5e8097029c7f1469ac7d249ed3670d53da30ce",
+          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/t2oH1jKB/Wandering-Trader-Announcement-Fabric-1.0.1-sources.jar",
+          "filename": "Wandering-Trader-Announcement-Fabric-1.0.1-sources.jar",
           "primary": false,
-          "size": 10469
+          "size": 10929
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
-          "sha512": "deb76d71ef71973f21737ff171e4426314b93673a69849ebbda1adaabe883f11f076f5a9166ba33e1cdde3baa720bd0aa55a7864d48d4e964675eca4b1b5ed73",
-          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/jAfj6gtU/Wandering-Trader-Announcement-NeoForge-1.0.0.jar",
-          "filename": "Wandering-Trader-Announcement-NeoForge-1.0.0.jar",
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ub6JzZ0y",
+      "name": "1.0.1+Quilt",
+      "version_number": "1.0.1+Quilt",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "a8d947c66d9aec93373a5454a9e0eb208cd4b538e5dc31d7cf052cc6bedb43124636f66afbae9dd9105b33364b47fa3c6245b09de1ad6298e1372dfda695fa86",
+          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/ub6JzZ0y/Wandering-Trader-Announcement-Quilt-1.0.1.jar",
+          "filename": "Wandering-Trader-Announcement-Quilt-1.0.1.jar",
+          "primary": true,
+          "size": 14615
+        },
+        {
+          "sha512": "55949897a1372e2c6b67b95670c25f34fc9610d40cfddebe91725f20af0fac324c4883fe4d60b23483e7fb654eedc94380408c93c49c71e46ede7390a6d8dfd9",
+          "url": "https://cdn.modrinth.com/data/sxx4Yagq/versions/ub6JzZ0y/Wandering-Trader-Announcement-Quilt-1.0.1-sources.jar",
+          "filename": "Wandering-Trader-Announcement-Quilt-1.0.1-sources.jar",
           "primary": false,
-          "size": 14942
+          "size": 11086
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

@@ -1,26 +1,37 @@
 {
-  "id": "botools",
+  "id": "8RLRm8Fb",
   "slug": "botools",
   "name": "Botools",
   "description": "A simple tool, can spawn carpet fake player by position and angle you set.",
   "versions": [
     {
-      "id": "UEhfcxww",
-      "name": "Botools 0.9",
-      "version_number": "0.9",
+      "id": "DCygTvY9",
+      "name": "Botools 1.0",
+      "version_number": "1.0",
       "game_versions": [
-        "1.16.5"
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "f23e516ce379b8eba97954ddf763a65ea1a77ccb9f93cc61f7c2e8258f7cf85b232dddedcd9550828c081cfca53e7bc51beda2a973a3bc37f1a05f49d29026d2",
-          "url": "https://cdn.modrinth.com/data/8RLRm8Fb/versions/UEhfcxww/Botools-0.9.jar",
-          "filename": "Botools-0.9.jar",
+          "sha512": "8f9b344ed25a4254c1773804c1ec3864f1449dadfdf68ebf5de2f0ec09c1e9afacef205ddec54ee163dc9618ca6df054b4b5f40f6f51c2436a03e60d038aac55",
+          "url": "https://cdn.modrinth.com/data/8RLRm8Fb/versions/DCygTvY9/Botools-1.0.jar",
+          "filename": "Botools-1.0.jar",
           "primary": true,
-          "size": 18191
+          "size": 18162
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "TQTTVgYE",
+          "version_id": "M2G5yWMw",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -42,6 +53,42 @@
           "primary": true,
           "size": 18405
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "TQTTVgYE",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "UEhfcxww",
+      "name": "Botools 0.9",
+      "version_number": "0.9",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f23e516ce379b8eba97954ddf763a65ea1a77ccb9f93cc61f7c2e8258f7cf85b232dddedcd9550828c081cfca53e7bc51beda2a973a3bc37f1a05f49d29026d2",
+          "url": "https://cdn.modrinth.com/data/8RLRm8Fb/versions/UEhfcxww/Botools-0.9.jar",
+          "filename": "Botools-0.9.jar",
+          "primary": true,
+          "size": 18191
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "TQTTVgYE",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -62,28 +109,13 @@
           "primary": true,
           "size": 18403
         }
-      ]
-    },
-    {
-      "id": "DCygTvY9",
-      "name": "Botools 1.0",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2"
       ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "8f9b344ed25a4254c1773804c1ec3864f1449dadfdf68ebf5de2f0ec09c1e9afacef205ddec54ee163dc9618ca6df054b4b5f40f6f51c2436a03e60d038aac55",
-          "url": "https://cdn.modrinth.com/data/8RLRm8Fb/versions/DCygTvY9/Botools-1.0.jar",
-          "filename": "Botools-1.0.jar",
-          "primary": true,
-          "size": 18162
+          "project_id": "TQTTVgYE",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

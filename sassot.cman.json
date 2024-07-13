@@ -5,34 +5,130 @@
   "description": "A vanilla-style mod that adds Spears, expands on Shields, and reworks melee combat & mining tools.",
   "versions": [
     {
-      "id": "jH8n7STZ",
-      "name": "SASSOT 1.2.0.a-1.21",
-      "version_number": "1.2.0.a-1.21",
+      "id": "3OtTmd66",
+      "name": "SASSOT 1.0.0-1.19.4",
+      "version_number": "1.0.0-1.19.4",
       "game_versions": [
-        "1.21"
+        "1.19.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "e1a1b6eb62ca32948f745e2463be6adfc4526c5687502cb450056a66669a2784a9e47dc8a82bfc86adcec9c047687e07bdf42abe8454459e5f423362dd1e2e80",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/jH8n7STZ/sassot-1.2.0.a-1.21.jar",
-          "filename": "sassot-1.2.0.a-1.21.jar",
+          "sha512": "62338cb6529d91884763481dea8d7606044a90459c6cc446be459d2d6061e4a7257759acf156028536833543b2f0492f3780bccc464bbf21aae96d24bfa15c53",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/3OtTmd66/sassot-1.0.0-1.19.4.jar",
+          "filename": "sassot-1.0.0-1.19.4.jar",
           "primary": true,
-          "size": 1612858
+          "size": 1541969
         }
       ],
       "dependencies": [
         {
           "project_id": "P7dR8mSH",
+          "version_id": "B7GygbYq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "4I5FHKoy",
+      "name": "SASSOT 0.1.12+bettercombat-1.19.4",
+      "version_number": "0.1.12+bettercombat-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "563cf60aa548f529c5c0aeb6eaa0c6b62d015492332f83ec2716f2ab4179603e47f555811549e5e6053c87eb92f9b4bf9cebdb8491ac2f7e55c4de14f161ff2f",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/4I5FHKoy/sassot-0.1.12%2Bbettercombat.jar",
+          "filename": "sassot-0.1.12+bettercombat.jar",
+          "primary": true,
+          "size": 1714661
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5sy6g3kz",
+          "version_id": "NQcJaV5u",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "a92DCuIA",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "fRiHVvU7",
-          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "version_id": "qMk5NmAs",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "7eOLS6vk",
+      "name": "SASSOT 0.1.9-1.19.4",
+      "version_number": "0.1.9-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9d2393b591cde9e9a08fbbdca7a74fe001e16bbdf2ad4805ed2f02d2c0ce70ab4115ebbfd9d049c40aedc3f7b74303b4b286bd0713d778239af8f431d230fabe",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/7eOLS6vk/sassot-0.1.9.jar",
+          "filename": "sassot-0.1.9.jar",
+          "primary": true,
+          "size": 1543586
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "Xru23QG1",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "AS98rDyy",
+      "name": "SASSOT 1.1.0-1.20.1",
+      "version_number": "1.1.0-1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1c164abd1c6f666b2013bc7b82103e6660aa5866b20b2eccd734fc4d11d70bf6a7795802d072f0978da799bf782d85441c41f3fbedf63e45edd6f9ac008f27fc",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/AS98rDyy/sassot-1.1.0-1.20.1.jar",
+          "filename": "sassot-1.1.0-1.20.1.jar",
+          "primary": true,
+          "size": 1546576
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "FLGCXPFi",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "yBW8D80W",
+          "version_id": "Vsx4I8Np",
           "file_name": null,
           "dependency_type": "optional"
         }
@@ -73,50 +169,22 @@
       ]
     },
     {
-      "id": "pr6cl59s",
-      "name": "SASSOT 1.1.7-1.20.6",
-      "version_number": "1.1.7-1.20.6",
+      "id": "CzNsQ6Wi",
+      "name": "SASSOT 1.1.5-1.20.4",
+      "version_number": "1.1.5-1.20.4",
       "game_versions": [
-        "1.20.6"
+        "1.20.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "eeeed673a608a98f4ee695b048e068deee790af992aa9142a2803c5aa83ef687f3fcd74c9313536c5f5d64822d916a63b748f7d1fc81f34c169305e30c4471f2",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/pr6cl59s/sassot-1.1.7-1.20.6.jar",
-          "filename": "sassot-1.1.7-1.20.6.jar",
+          "sha512": "a797922fad22ada3054fbda0f22f9ae74de5352bf39dc514634b02e91aeb9f716ae0cbca899e3517acc695becfa8ec255a6e7e7bcb25e3365134676154926bd9",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/CzNsQ6Wi/sassot-1.1.5-1.20.4.jar",
+          "filename": "sassot-1.1.5-1.20.4.jar",
           "primary": true,
-          "size": 1609000
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "aDp0Vld2",
-      "name": "SASSOT 1.1.6-1.20.6",
-      "version_number": "1.1.6-1.20.6",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "59e7b7e09e96b00c9b1e5721e7c41b16291d831a49eba5bdcb526b2de83ac481e8fb05e4b348a282d076d7abb7fb5c3030e98b14c455278e330c8ad67a739f92",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/aDp0Vld2/sassot-1.1.6-1.20.6.jar",
-          "filename": "sassot-1.1.6-1.20.6.jar",
-          "primary": true,
-          "size": 1608091
+          "size": 1572849
         }
       ],
       "dependencies": [
@@ -127,10 +195,66 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "fRiHVvU7",
+          "project_id": "yBW8D80W",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "HG9y3NLr",
+      "name": "SASSOT 0.1.10-1.19.4",
+      "version_number": "0.1.10-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e83864e872b1086dcba9e6583521dd5d0b0784205ebe60b14cec374eb8708262c2c9f3fde5c0de903f52cd15326a0641f5fff4ad87640cd60b25b72baf8fde07",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/HG9y3NLr/sassot-0.1.10.jar",
+          "filename": "sassot-0.1.10.jar",
+          "primary": true,
+          "size": 1543557
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "qMk5NmAs",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "HfO4OGoB",
+      "name": "SASSOT 0.1.8-1.19.4",
+      "version_number": "0.1.8-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2d50b2cc38ae32dc8b1abf13a2d89032e35442fb1b1a89af9fb0167062298945347ea2bcd3d8a75b80d9bbe7dc45ea4120227f6e1c129ae11fc0508b16b2f0fc",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/HfO4OGoB/sassot-0.1.8.jar",
+          "filename": "sassot-0.1.8.jar",
+          "primary": true,
+          "size": 1542193
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -175,22 +299,248 @@
       ]
     },
     {
-      "id": "CzNsQ6Wi",
-      "name": "SASSOT 1.1.5-1.20.4",
-      "version_number": "1.1.5-1.20.4",
+      "id": "KqQSt25r",
+      "name": "SASSOT 0.1.1-1.19.4",
+      "version_number": "0.1.1-1.19.4",
       "game_versions": [
-        "1.20.4"
+        "1.19.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "a797922fad22ada3054fbda0f22f9ae74de5352bf39dc514634b02e91aeb9f716ae0cbca899e3517acc695becfa8ec255a6e7e7bcb25e3365134676154926bd9",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/CzNsQ6Wi/sassot-1.1.5-1.20.4.jar",
-          "filename": "sassot-1.1.5-1.20.4.jar",
+          "sha512": "ea5526b52e96c6688f21cb48daa01d147536e222c5d92973bf19d7b2fef242d2d773fddc6afd64f4cc05d84ffb2c3f09eb8f752b0c7c4f640dd3e28c072bb419",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/KqQSt25r/sassot-0.1.1.jar",
+          "filename": "sassot-0.1.1.jar",
           "primary": true,
-          "size": 1572849
+          "size": 1537301
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "s5UrEfIY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "LQyRyvfw",
+      "name": "SASSOT 0.1.11+bettercombat-1.19.4",
+      "version_number": "0.1.11+bettercombat-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ad6df07dffbee67b4b2c63b2b21c12d9b3f0216f935df8575bc536e280fa9a013c317df1791f035680f1515671fd13242e5e5385b71f2f59e1e8c39314be2960",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/LQyRyvfw/sassot-0.1.11%2Bbettercombat.jar",
+          "filename": "sassot-0.1.11+bettercombat.jar",
+          "primary": true,
+          "size": 1714484
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5sy6g3kz",
+          "version_id": "NQcJaV5u",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "a92DCuIA",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "qMk5NmAs",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "QpopecpJ",
+      "name": "SASSOT 0.1.5-1.19.4",
+      "version_number": "0.1.5-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8181272111cf02a46802735e3e5b8f018314a2051cb03c872d6768732960b8b70bc92dd2c95ad9099950ac8ca8c2b2b40a930d17bf23657dc2cfb949ae521efb",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/QpopecpJ/sassot-0.1.5.jar",
+          "filename": "sassot-0.1.5.jar",
+          "primary": true,
+          "size": 1537734
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "R6zd3Sl9",
+      "name": "SASSOT 0.1.4-1.19.4",
+      "version_number": "0.1.4-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "887dabdb4518dc23da99813eaf61ff6783ea6976661ffce605a7ec37d1a1c4142253ed92caf66436ade478a2c7cc5f6161fbc81dd3ba4b2473610f53d6cc03ce",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/R6zd3Sl9/sassot-0.1.4.jar",
+          "filename": "sassot-0.1.4.jar",
+          "primary": true,
+          "size": 1537652
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "RWGWu73v",
+      "name": "SASSOT 1.1.3-1.20.1",
+      "version_number": "1.1.3-1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f696d454457eb3f8cb30c3b3a3c02ef95b774da7ba39fe6a03c86028aeedcf2dfbd822845058860e29c75b2c84e7c11b6f2a3d6070039bc4f6452c88d18e9f71",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/RWGWu73v/sassot-1.1.3-1.20.1.jar",
+          "filename": "sassot-1.1.3-1.20.1.jar",
+          "primary": true,
+          "size": 1566467
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "yBW8D80W",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "TNBHbyI3",
+      "name": "SASSOT 1.1.3.a-1.20.1+bettercombat",
+      "version_number": "1.1.3.a-1.20.1+bettercombat",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0655ff2ade857c4665d7e16420eff1c816898be0e52cc9c3d753cba96991590a4e7d9e7d20de9b33111955a6e4faa767b04dd804ce0797604361e3f3488e439e",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/TNBHbyI3/sassot-1.1.3.a-1.20.1%2Bbettercombat.jar",
+          "filename": "sassot-1.1.3.a-1.20.1+bettercombat.jar",
+          "primary": true,
+          "size": 1757574
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "a92DCuIA",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5sy6g3kz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "W89UU105",
+      "name": "SASSOT 1.0.1-1.19.4",
+      "version_number": "1.0.1-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "17ab845f021729bf80a7648c517320fa184dded9aa9164d4487610aa5834c2e7e18f4fee6b4ef4da7c925a06a844bc732076b7dd7f9ab690dc9e32b7c26ed884",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/W89UU105/sassot-1.0.1-1.19.4.jar",
+          "filename": "sassot-1.0.1-1.19.4.jar",
+          "primary": true,
+          "size": 1542822
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "B7GygbYq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "aDp0Vld2",
+      "name": "SASSOT 1.1.6-1.20.6",
+      "version_number": "1.1.6-1.20.6",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "59e7b7e09e96b00c9b1e5721e7c41b16291d831a49eba5bdcb526b2de83ac481e8fb05e4b348a282d076d7abb7fb5c3030e98b14c455278e330c8ad67a739f92",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/aDp0Vld2/sassot-1.1.6-1.20.6.jar",
+          "filename": "sassot-1.1.6-1.20.6.jar",
+          "primary": true,
+          "size": 1608091
         }
       ],
       "dependencies": [
@@ -201,10 +551,140 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "yBW8D80W",
+          "project_id": "fRiHVvU7",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "aWnLUdPv",
+      "name": "SASSOT 0.1.7-1.19.4",
+      "version_number": "0.1.7-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0eb72fa90998dc413f31d0357e11230f97a88612c59090a0ab54daf0306b76e14ee10f3b2f67a2a3098e1a0671404c577e241f2d9061ab53a97efb5b3f60a428",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/aWnLUdPv/sassot-0.1.7.jar",
+          "filename": "sassot-0.1.7.jar",
+          "primary": true,
+          "size": 1540783
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "dKeEb9hb",
+      "name": "SASSOT 0.1.2-1.19.4",
+      "version_number": "0.1.2-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "84188aff4f794d597a39ee763fecd17f9c99b3fe9556a84e99b2780d9be663ea6e1c030721f5a1d5cca66969856247dcb7fd954d3ef79138356a6dff1586aa0b",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/dKeEb9hb/sassot-0.1.2.jar",
+          "filename": "sassot-0.1.2.jar",
+          "primary": true,
+          "size": 1537636
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "s5UrEfIY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "dVUnpREA",
+      "name": "SASSOT 1.1.1-1.20.1+bettercombat",
+      "version_number": "1.1.1-1.20.1+bettercombat",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f135069825691c6db2734cbd758da95a2059a6c5fcb06a487686d3e717d853d6a3973c506f4210a094e648978735e7975f10449506e0545340ea47bbdd4a6f01",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/dVUnpREA/sassot-1.1.1-1.20.1%2Bbettercombat.jar",
+          "filename": "sassot-1.1.1-1.20.1+bettercombat.jar",
+          "primary": true,
+          "size": 1723691
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "FLGCXPFi",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5sy6g3kz",
+          "version_id": "MxaoPSMy",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "yBW8D80W",
+          "version_id": "Vsx4I8Np",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "a92DCuIA",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "gfebZhl2",
+      "name": "SASSOT 0.1.0-1.19.4",
+      "version_number": "0.1.0-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8fde79f1aabbac4aba8d5dbdbad0a89120e42366704ea4cefd11e7f77545b877e731f00cc6855c53a79542004dba3e870c897ed3c0ffded47b992a088743fd30",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/gfebZhl2/sassot-0.1.0.jar",
+          "filename": "sassot-0.1.0.jar",
+          "primary": true,
+          "size": 1537306
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "s5UrEfIY",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -289,200 +769,6 @@
       ]
     },
     {
-      "id": "TNBHbyI3",
-      "name": "SASSOT 1.1.3.a-1.20.1+bettercombat",
-      "version_number": "1.1.3.a-1.20.1+bettercombat",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0655ff2ade857c4665d7e16420eff1c816898be0e52cc9c3d753cba96991590a4e7d9e7d20de9b33111955a6e4faa767b04dd804ce0797604361e3f3488e439e",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/TNBHbyI3/sassot-1.1.3.a-1.20.1%2Bbettercombat.jar",
-          "filename": "sassot-1.1.3.a-1.20.1+bettercombat.jar",
-          "primary": true,
-          "size": 1757574
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5sy6g3kz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "a92DCuIA",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "wrrNzmmW",
-      "name": "SASSOT 1.1.3.a-1.20.1",
-      "version_number": "1.1.3.a-1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9e905690375545b065bdb8bc3956f10a7bd291c2ba81a0e9e916c78b9422c3ffb702de65dff87d8cb05f321508f0c30bcd427171c3318c6209efba5cbf2f26f8",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/wrrNzmmW/sassot-1.1.3.a-1.20.1.jar",
-          "filename": "sassot-1.1.3.a-1.20.1.jar",
-          "primary": true,
-          "size": 1566893
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "yBW8D80W",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "q9wCD4yL",
-      "name": "SASSOT 1.1.3-1.20.1+bettercombat",
-      "version_number": "1.1.3-1.20.1+bettercombat",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d519a4f47e18e23aa9a34927134367661dedb25f58e2f361c714e854c10f987bc8e11fb0de99b1f51618a460c97f2924d2bbafaa43b20ae18a0bcc9648f4b87f",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/q9wCD4yL/sassot-1.1.3-1.20.1%2Bbettercombat.jar",
-          "filename": "sassot-1.1.3-1.20.1+bettercombat.jar",
-          "primary": true,
-          "size": 1757147
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5sy6g3kz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "a92DCuIA",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "RWGWu73v",
-      "name": "SASSOT 1.1.3-1.20.1",
-      "version_number": "1.1.3-1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f696d454457eb3f8cb30c3b3a3c02ef95b774da7ba39fe6a03c86028aeedcf2dfbd822845058860e29c75b2c84e7c11b6f2a3d6070039bc4f6452c88d18e9f71",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/RWGWu73v/sassot-1.1.3-1.20.1.jar",
-          "filename": "sassot-1.1.3-1.20.1.jar",
-          "primary": true,
-          "size": 1566467
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "yBW8D80W",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "x3su3byS",
-      "name": "SASSOT 1.1.2-1.20.1+bettercombat",
-      "version_number": "1.1.2-1.20.1+bettercombat",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4a25d22ccbf61514a19c80b9b0281ae881d34c3c7bc2f51a86a59e02c4c98459941e3491d23edb717dc7460bcbf1f70469f7039bcb7701303a56ace1e287e282",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/x3su3byS/sassot-1.1.2-1.20.1%2Bbettercombat.jar",
-          "filename": "sassot-1.1.2-1.20.1+bettercombat.jar",
-          "primary": true,
-          "size": 1720851
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5sy6g3kz",
-          "version_id": "MxaoPSMy",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "a92DCuIA",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "FLGCXPFi",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "yBW8D80W",
-          "version_id": "Vsx4I8Np",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "hQydcszw",
       "name": "SASSOT 1.1.2-1.20.1",
       "version_number": "1.1.2-1.20.1",
@@ -517,48 +803,126 @@
       ]
     },
     {
-      "id": "dVUnpREA",
-      "name": "SASSOT 1.1.1-1.20.1+bettercombat",
-      "version_number": "1.1.1-1.20.1+bettercombat",
+      "id": "jH8n7STZ",
+      "name": "SASSOT 1.2.0.a-1.21",
+      "version_number": "1.2.0.a-1.21",
       "game_versions": [
-        "1.20.1"
+        "1.21"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "f135069825691c6db2734cbd758da95a2059a6c5fcb06a487686d3e717d853d6a3973c506f4210a094e648978735e7975f10449506e0545340ea47bbdd4a6f01",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/dVUnpREA/sassot-1.1.1-1.20.1%2Bbettercombat.jar",
-          "filename": "sassot-1.1.1-1.20.1+bettercombat.jar",
+          "sha512": "e1a1b6eb62ca32948f745e2463be6adfc4526c5687502cb450056a66669a2784a9e47dc8a82bfc86adcec9c047687e07bdf42abe8454459e5f423362dd1e2e80",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/jH8n7STZ/sassot-1.2.0.a-1.21.jar",
+          "filename": "sassot-1.2.0.a-1.21.jar",
           "primary": true,
-          "size": 1723691
+          "size": 1612858
         }
       ],
       "dependencies": [
         {
           "project_id": "P7dR8mSH",
-          "version_id": "FLGCXPFi",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "5sy6g3kz",
-          "version_id": "MxaoPSMy",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "a92DCuIA",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "yBW8D80W",
-          "version_id": "Vsx4I8Np",
+          "project_id": "fRiHVvU7",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "kb27v6ji",
+      "name": "SASSOT 0.1.11-1.19.4",
+      "version_number": "0.1.11-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0a91a950bfa1ee1597f6005cd2493ff2c634e549c348e994454d53042108e64431a1768191a61a6ae6ca65a50cceff3603b423fb6dcd5d4f973402d922bbbadb",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/kb27v6ji/sassot-0.1.11.jar",
+          "filename": "sassot-0.1.11.jar",
+          "primary": true,
+          "size": 1541926
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "qMk5NmAs",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "kli2NKoo",
+      "name": "SASSOT 0.1.6-1.19.4",
+      "version_number": "0.1.6-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a68087d4e7f895299ef131f2ccf3dcb44a13576a7977679cb779118545c8c8bcc282851c731c1d5fbf79d71e09069fcac848121cd081951d5c792a7e09279f62",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/kli2NKoo/sassot-0.1.6.jar",
+          "filename": "sassot-0.1.6.jar",
+          "primary": true,
+          "size": 1539581
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "lOz3rvCP",
+      "name": "SASSOT 0.1.9+bettercombat-1.19.4",
+      "version_number": "0.1.9+bettercombat-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d9d1d7f56ca9d2b7e70a8bbe6f2465104657ad5abe122ce9e5e3aae029dd0ae29bf22df4ecab159b38ab1df69e7f4a7121aa6d02d13eb09f41e6465699555ddf",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/lOz3rvCP/sassot-0.1.9%2Bbettercombat.jar",
+          "filename": "sassot-0.1.9+bettercombat.jar",
+          "primary": true,
+          "size": 1689717
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5sy6g3kz",
+          "version_id": "NQcJaV5u",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "Xru23QG1",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -617,18 +981,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "a92DCuIA",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "yBW8D80W",
-          "version_id": "Vsx4I8Np",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": "FLGCXPFi",
           "file_name": null,
@@ -639,13 +991,53 @@
           "version_id": "MxaoPSMy",
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "yBW8D80W",
+          "version_id": "Vsx4I8Np",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "a92DCuIA",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "AS98rDyy",
-      "name": "SASSOT 1.1.0-1.20.1",
-      "version_number": "1.1.0-1.20.1",
+      "id": "pr6cl59s",
+      "name": "SASSOT 1.1.7-1.20.6",
+      "version_number": "1.1.7-1.20.6",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "eeeed673a608a98f4ee695b048e068deee790af992aa9142a2803c5aa83ef687f3fcd74c9313536c5f5d64822d916a63b748f7d1fc81f34c169305e30c4471f2",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/pr6cl59s/sassot-1.1.7-1.20.6.jar",
+          "filename": "sassot-1.1.7-1.20.6.jar",
+          "primary": true,
+          "size": 1609000
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "q9wCD4yL",
+      "name": "SASSOT 1.1.3-1.20.1+bettercombat",
+      "version_number": "1.1.3-1.20.1+bettercombat",
       "game_versions": [
         "1.20.1"
       ],
@@ -654,51 +1046,23 @@
       ],
       "files": [
         {
-          "sha512": "1c164abd1c6f666b2013bc7b82103e6660aa5866b20b2eccd734fc4d11d70bf6a7795802d072f0978da799bf782d85441c41f3fbedf63e45edd6f9ac008f27fc",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/AS98rDyy/sassot-1.1.0-1.20.1.jar",
-          "filename": "sassot-1.1.0-1.20.1.jar",
+          "sha512": "d519a4f47e18e23aa9a34927134367661dedb25f58e2f361c714e854c10f987bc8e11fb0de99b1f51618a460c97f2924d2bbafaa43b20ae18a0bcc9648f4b87f",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/q9wCD4yL/sassot-1.1.3-1.20.1%2Bbettercombat.jar",
+          "filename": "sassot-1.1.3-1.20.1+bettercombat.jar",
           "primary": true,
-          "size": 1546576
+          "size": 1757147
         }
       ],
       "dependencies": [
         {
           "project_id": "P7dR8mSH",
-          "version_id": "FLGCXPFi",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "yBW8D80W",
-          "version_id": "Vsx4I8Np",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "sb8El0IQ",
-      "name": "SASSOT 1.0.1-1.19.4+bettercombat",
-      "version_number": "1.0.1-1.19.4+bettercombat",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e1b4e6a72f750985c8d6cfc7dc0f5f1c00903887428d651aafba433fbb2f861c7e38694c19b31947278ecec9db5cb3a9a6a1ea5778e973d473c4ade810fd42f3",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/sb8El0IQ/sassot-1.0.1-1.19.4%2Bbettercombat.jar",
-          "filename": "sassot-1.0.1-1.19.4+bettercombat.jar",
-          "primary": true,
-          "size": 1715340
-        }
-      ],
-      "dependencies": [
-        {
           "project_id": "5sy6g3kz",
-          "version_id": "NQcJaV5u",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
@@ -706,41 +1070,7 @@
           "project_id": "a92DCuIA",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "B7GygbYq",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "W89UU105",
-      "name": "SASSOT 1.0.1-1.19.4",
-      "version_number": "1.0.1-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "17ab845f021729bf80a7648c517320fa184dded9aa9164d4487610aa5834c2e7e18f4fee6b4ef4da7c925a06a844bc732076b7dd7f9ab690dc9e32b7c26ed884",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/W89UU105/sassot-1.0.1-1.19.4.jar",
-          "filename": "sassot-1.0.1-1.19.4.jar",
-          "primary": true,
-          "size": 1542822
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "B7GygbYq",
-          "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "embedded"
         }
       ]
     },
@@ -765,14 +1095,14 @@
       ],
       "dependencies": [
         {
-          "project_id": "a92DCuIA",
-          "version_id": null,
+          "project_id": "5sy6g3kz",
+          "version_id": "NQcJaV5u",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "5sy6g3kz",
-          "version_id": "NQcJaV5u",
+          "project_id": "a92DCuIA",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
@@ -785,9 +1115,9 @@
       ]
     },
     {
-      "id": "3OtTmd66",
-      "name": "SASSOT 1.0.0-1.19.4",
-      "version_number": "1.0.0-1.19.4",
+      "id": "sb8El0IQ",
+      "name": "SASSOT 1.0.1-1.19.4+bettercombat",
+      "version_number": "1.0.1-1.19.4+bettercombat",
       "game_versions": [
         "1.19.4"
       ],
@@ -796,11 +1126,11 @@
       ],
       "files": [
         {
-          "sha512": "62338cb6529d91884763481dea8d7606044a90459c6cc446be459d2d6061e4a7257759acf156028536833543b2f0492f3780bccc464bbf21aae96d24bfa15c53",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/3OtTmd66/sassot-1.0.0-1.19.4.jar",
-          "filename": "sassot-1.0.0-1.19.4.jar",
+          "sha512": "e1b4e6a72f750985c8d6cfc7dc0f5f1c00903887428d651aafba433fbb2f861c7e38694c19b31947278ecec9db5cb3a9a6a1ea5778e973d473c4ade810fd42f3",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/sb8El0IQ/sassot-1.0.1-1.19.4%2Bbettercombat.jar",
+          "filename": "sassot-1.0.1-1.19.4+bettercombat.jar",
           "primary": true,
-          "size": 1541969
+          "size": 1715340
         }
       ],
       "dependencies": [
@@ -809,44 +1139,16 @@
           "version_id": "B7GygbYq",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4I5FHKoy",
-      "name": "SASSOT 0.1.12+bettercombat-1.19.4",
-      "version_number": "0.1.12+bettercombat-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "563cf60aa548f529c5c0aeb6eaa0c6b62d015492332f83ec2716f2ab4179603e47f555811549e5e6053c87eb92f9b4bf9cebdb8491ac2f7e55c4de14f161ff2f",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/4I5FHKoy/sassot-0.1.12%2Bbettercombat.jar",
-          "filename": "sassot-0.1.12+bettercombat.jar",
-          "primary": true,
-          "size": 1714661
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "a92DCuIA",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "qMk5NmAs",
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "5sy6g3kz",
           "version_id": "NQcJaV5u",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "a92DCuIA",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -881,298 +1183,80 @@
       ]
     },
     {
-      "id": "LQyRyvfw",
-      "name": "SASSOT 0.1.11+bettercombat-1.19.4",
-      "version_number": "0.1.11+bettercombat-1.19.4",
+      "id": "wrrNzmmW",
+      "name": "SASSOT 1.1.3.a-1.20.1",
+      "version_number": "1.1.3.a-1.20.1",
       "game_versions": [
-        "1.19.4"
+        "1.20.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "ad6df07dffbee67b4b2c63b2b21c12d9b3f0216f935df8575bc536e280fa9a013c317df1791f035680f1515671fd13242e5e5385b71f2f59e1e8c39314be2960",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/LQyRyvfw/sassot-0.1.11%2Bbettercombat.jar",
-          "filename": "sassot-0.1.11+bettercombat.jar",
+          "sha512": "9e905690375545b065bdb8bc3956f10a7bd291c2ba81a0e9e916c78b9422c3ffb702de65dff87d8cb05f321508f0c30bcd427171c3318c6209efba5cbf2f26f8",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/wrrNzmmW/sassot-1.1.3.a-1.20.1.jar",
+          "filename": "sassot-1.1.3.a-1.20.1.jar",
           "primary": true,
-          "size": 1714484
+          "size": 1566893
         }
       ],
       "dependencies": [
         {
-          "project_id": "a92DCuIA",
+          "project_id": "yBW8D80W",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "qMk5NmAs",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "5sy6g3kz",
-          "version_id": "NQcJaV5u",
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "kb27v6ji",
-      "name": "SASSOT 0.1.11-1.19.4",
-      "version_number": "0.1.11-1.19.4",
+      "id": "x3su3byS",
+      "name": "SASSOT 1.1.2-1.20.1+bettercombat",
+      "version_number": "1.1.2-1.20.1+bettercombat",
       "game_versions": [
-        "1.19.4"
+        "1.20.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "0a91a950bfa1ee1597f6005cd2493ff2c634e549c348e994454d53042108e64431a1768191a61a6ae6ca65a50cceff3603b423fb6dcd5d4f973402d922bbbadb",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/kb27v6ji/sassot-0.1.11.jar",
-          "filename": "sassot-0.1.11.jar",
+          "sha512": "4a25d22ccbf61514a19c80b9b0281ae881d34c3c7bc2f51a86a59e02c4c98459941e3491d23edb717dc7460bcbf1f70469f7039bcb7701303a56ace1e287e282",
+          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/x3su3byS/sassot-1.1.2-1.20.1%2Bbettercombat.jar",
+          "filename": "sassot-1.1.2-1.20.1+bettercombat.jar",
           "primary": true,
-          "size": 1541926
+          "size": 1720851
         }
       ],
       "dependencies": [
         {
           "project_id": "P7dR8mSH",
-          "version_id": "qMk5NmAs",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "HG9y3NLr",
-      "name": "SASSOT 0.1.10-1.19.4",
-      "version_number": "0.1.10-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e83864e872b1086dcba9e6583521dd5d0b0784205ebe60b14cec374eb8708262c2c9f3fde5c0de903f52cd15326a0641f5fff4ad87640cd60b25b72baf8fde07",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/HG9y3NLr/sassot-0.1.10.jar",
-          "filename": "sassot-0.1.10.jar",
-          "primary": true,
-          "size": 1543557
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "qMk5NmAs",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "lOz3rvCP",
-      "name": "SASSOT 0.1.9+bettercombat-1.19.4",
-      "version_number": "0.1.9+bettercombat-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d9d1d7f56ca9d2b7e70a8bbe6f2465104657ad5abe122ce9e5e3aae029dd0ae29bf22df4ecab159b38ab1df69e7f4a7121aa6d02d13eb09f41e6465699555ddf",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/lOz3rvCP/sassot-0.1.9%2Bbettercombat.jar",
-          "filename": "sassot-0.1.9+bettercombat.jar",
-          "primary": true,
-          "size": 1689717
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "Xru23QG1",
+          "version_id": "FLGCXPFi",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "5sy6g3kz",
-          "version_id": "NQcJaV5u",
+          "version_id": "MxaoPSMy",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "7eOLS6vk",
-      "name": "SASSOT 0.1.9-1.19.4",
-      "version_number": "0.1.9-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+        },
         {
-          "sha512": "9d2393b591cde9e9a08fbbdca7a74fe001e16bbdf2ad4805ed2f02d2c0ce70ab4115ebbfd9d049c40aedc3f7b74303b4b286bd0713d778239af8f431d230fabe",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/7eOLS6vk/sassot-0.1.9.jar",
-          "filename": "sassot-0.1.9.jar",
-          "primary": true,
-          "size": 1543586
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "Xru23QG1",
+          "project_id": "yBW8D80W",
+          "version_id": "Vsx4I8Np",
           "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "HfO4OGoB",
-      "name": "SASSOT 0.1.8-1.19.4",
-      "version_number": "0.1.8-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+          "dependency_type": "optional"
+        },
         {
-          "sha512": "2d50b2cc38ae32dc8b1abf13a2d89032e35442fb1b1a89af9fb0167062298945347ea2bcd3d8a75b80d9bbe7dc45ea4120227f6e1c129ae11fc0508b16b2f0fc",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/HfO4OGoB/sassot-0.1.8.jar",
-          "filename": "sassot-0.1.8.jar",
-          "primary": true,
-          "size": 1542193
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "aWnLUdPv",
-      "name": "SASSOT 0.1.7-1.19.4",
-      "version_number": "0.1.7-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0eb72fa90998dc413f31d0357e11230f97a88612c59090a0ab54daf0306b76e14ee10f3b2f67a2a3098e1a0671404c577e241f2d9061ab53a97efb5b3f60a428",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/aWnLUdPv/sassot-0.1.7.jar",
-          "filename": "sassot-0.1.7.jar",
-          "primary": true,
-          "size": 1540783
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "kli2NKoo",
-      "name": "SASSOT 0.1.6-1.19.4",
-      "version_number": "0.1.6-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a68087d4e7f895299ef131f2ccf3dcb44a13576a7977679cb779118545c8c8bcc282851c731c1d5fbf79d71e09069fcac848121cd081951d5c792a7e09279f62",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/kli2NKoo/sassot-0.1.6.jar",
-          "filename": "sassot-0.1.6.jar",
-          "primary": true,
-          "size": 1539581
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "QpopecpJ",
-      "name": "SASSOT 0.1.5-1.19.4",
-      "version_number": "0.1.5-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8181272111cf02a46802735e3e5b8f018314a2051cb03c872d6768732960b8b70bc92dd2c95ad9099950ac8ca8c2b2b40a930d17bf23657dc2cfb949ae521efb",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/QpopecpJ/sassot-0.1.5.jar",
-          "filename": "sassot-0.1.5.jar",
-          "primary": true,
-          "size": 1537734
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "R6zd3Sl9",
-      "name": "SASSOT 0.1.4-1.19.4",
-      "version_number": "0.1.4-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "887dabdb4518dc23da99813eaf61ff6783ea6976661ffce605a7ec37d1a1c4142253ed92caf66436ade478a2c7cc5f6161fbc81dd3ba4b2473610f53d6cc03ce",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/R6zd3Sl9/sassot-0.1.4.jar",
-          "filename": "sassot-0.1.4.jar",
-          "primary": true,
-          "size": 1537652
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
+          "project_id": "a92DCuIA",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -1201,90 +1285,6 @@
         {
           "project_id": "P7dR8mSH",
           "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "dKeEb9hb",
-      "name": "SASSOT 0.1.2-1.19.4",
-      "version_number": "0.1.2-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "84188aff4f794d597a39ee763fecd17f9c99b3fe9556a84e99b2780d9be663ea6e1c030721f5a1d5cca66969856247dcb7fd954d3ef79138356a6dff1586aa0b",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/dKeEb9hb/sassot-0.1.2.jar",
-          "filename": "sassot-0.1.2.jar",
-          "primary": true,
-          "size": 1537636
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "s5UrEfIY",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "KqQSt25r",
-      "name": "SASSOT 0.1.1-1.19.4",
-      "version_number": "0.1.1-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ea5526b52e96c6688f21cb48daa01d147536e222c5d92973bf19d7b2fef242d2d773fddc6afd64f4cc05d84ffb2c3f09eb8f752b0c7c4f640dd3e28c072bb419",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/KqQSt25r/sassot-0.1.1.jar",
-          "filename": "sassot-0.1.1.jar",
-          "primary": true,
-          "size": 1537301
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "s5UrEfIY",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "gfebZhl2",
-      "name": "SASSOT 0.1.0-1.19.4",
-      "version_number": "0.1.0-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8fde79f1aabbac4aba8d5dbdbad0a89120e42366704ea4cefd11e7f77545b877e731f00cc6855c53a79542004dba3e870c897ed3c0ffded47b992a088743fd30",
-          "url": "https://cdn.modrinth.com/data/35SrcDM5/versions/gfebZhl2/sassot-0.1.0.jar",
-          "filename": "sassot-0.1.0.jar",
-          "primary": true,
-          "size": 1537306
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "s5UrEfIY",
           "file_name": null,
           "dependency_type": "required"
         }

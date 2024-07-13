@@ -5,44 +5,6 @@
   "description": "Color-related changes like sorting colored blocks in the creative inventory.",
   "versions": [
     {
-      "id": "oBLZDLnW",
-      "name": "v1.0.1",
-      "version_number": "v1.0.1",
-      "game_versions": [
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "9bf3fbece95cecf21efd91e6c11dd9aab652acba59b3f5676ca42fe174e3aaa8c343ffcf3b5122925a50e929b4e1dc0c8e0348c4e4683da19cbb03463e153eed",
-          "url": "https://cdn.modrinth.com/data/q6PqLGjT/versions/oBLZDLnW/rainbow-shenanigans-1.0.1.jar",
-          "filename": "rainbow-shenanigans-1.0.1.jar",
-          "primary": true,
-          "size": 44070
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "HbesKKlL",
       "name": "v1.0.0",
       "version_number": "v1.0.0",
@@ -68,16 +30,54 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "7kh2ofyR",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "oBLZDLnW",
+      "name": "v1.0.1",
+      "version_number": "v1.0.1",
+      "game_versions": [
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "9bf3fbece95cecf21efd91e6c11dd9aab652acba59b3f5676ca42fe174e3aaa8c343ffcf3b5122925a50e929b4e1dc0c8e0348c4e4683da19cbb03463e153eed",
+          "url": "https://cdn.modrinth.com/data/q6PqLGjT/versions/oBLZDLnW/rainbow-shenanigans-1.0.1.jar",
+          "filename": "rainbow-shenanigans-1.0.1.jar",
+          "primary": true,
+          "size": 44070
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

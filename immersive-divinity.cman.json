@@ -5,46 +5,6 @@
   "description": "A compatibility mod for Immersive Portals to work with DivineRPG!",
   "versions": [
     {
-      "id": "do5wIILi",
-      "name": "Immersive Divinity Data Pack Version",
-      "version_number": "1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "1345aed61e2379cf21ae2dd74682326807eb87d0209471851624b855b19e30687112af2020af03bb39bb0fe2c159c01cccbbf8287611422181edfa2181356603",
-          "url": "https://cdn.modrinth.com/data/nC9XRhBi/versions/do5wIILi/Immersive%20Divinity%201.0.0.zip",
-          "filename": "Immersive Divinity 1.0.0.zip",
-          "primary": true,
-          "size": 35078
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "F3kLpGw6",
-          "version_id": "jyQTQpje",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "u58R1TMW",
-          "version_id": "aKnE8qBS",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "zJpHMkdD",
-          "version_id": "155jtqJi",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "HXXfoEs0",
       "name": "Immersive Divinity First Release",
       "version_number": "1",
@@ -65,8 +25,8 @@
       ],
       "dependencies": [
         {
-          "project_id": "F3kLpGw6",
-          "version_id": "jyQTQpje",
+          "project_id": "zJpHMkdD",
+          "version_id": "155jtqJi",
           "file_name": null,
           "dependency_type": "required"
         },
@@ -77,8 +37,48 @@
           "dependency_type": "required"
         },
         {
+          "project_id": "F3kLpGw6",
+          "version_id": "jyQTQpje",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "do5wIILi",
+      "name": "Immersive Divinity Data Pack Version",
+      "version_number": "1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "1345aed61e2379cf21ae2dd74682326807eb87d0209471851624b855b19e30687112af2020af03bb39bb0fe2c159c01cccbbf8287611422181edfa2181356603",
+          "url": "https://cdn.modrinth.com/data/nC9XRhBi/versions/do5wIILi/Immersive%20Divinity%201.0.0.zip",
+          "filename": "Immersive Divinity 1.0.0.zip",
+          "primary": true,
+          "size": 35078
+        }
+      ],
+      "dependencies": [
+        {
           "project_id": "zJpHMkdD",
           "version_id": "155jtqJi",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "u58R1TMW",
+          "version_id": "aKnE8qBS",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "F3kLpGw6",
+          "version_id": "jyQTQpje",
           "file_name": null,
           "dependency_type": "required"
         }

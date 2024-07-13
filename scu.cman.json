@@ -1,29 +1,9 @@
 {
-  "id": "scu",
+  "id": "4JT4oKKX",
   "slug": "scu",
   "name": "SkyClient Updater",
   "description": "Automatic updater for SkyClient mods",
   "versions": [
-    {
-      "id": "yDRRsxnr",
-      "name": "1.3.7",
-      "version_number": "v1.3.7",
-      "game_versions": [
-        "1.8.9"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "5f44477601766edeba37b9b3b6387281a6dcc6075e6d780093482cc95cd62042ac7fa5babd74d4e2f246041c54091f23767592cbdce805d7b89f0a4b8c6d03d1",
-          "url": "https://cdn.modrinth.com/data/4JT4oKKX/versions/yDRRsxnr/SkyClient-Updater-1.8.9-forge-1.3.7.jar",
-          "filename": "SkyClient-Updater-1.8.9-forge-1.3.7.jar",
-          "primary": true,
-          "size": 6303872
-        }
-      ]
-    },
     {
       "id": "2SWnMJqw",
       "name": "1.3.6",
@@ -41,6 +21,14 @@
           "filename": "SkyClient-Updater-1.8.9-forge-1.3.6.jar",
           "primary": true,
           "size": 2671255
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AibBIVmj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
     },
@@ -61,6 +49,42 @@
           "filename": "SkyClient-Updater-1.8.9-forge-1.3.5.jar",
           "primary": true,
           "size": 2666437
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AibBIVmj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "yDRRsxnr",
+      "name": "1.3.7",
+      "version_number": "v1.3.7",
+      "game_versions": [
+        "1.8.9"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5f44477601766edeba37b9b3b6387281a6dcc6075e6d780093482cc95cd62042ac7fa5babd74d4e2f246041c54091f23767592cbdce805d7b89f0a4b8c6d03d1",
+          "url": "https://cdn.modrinth.com/data/4JT4oKKX/versions/yDRRsxnr/SkyClient-Updater-1.8.9-forge-1.3.7.jar",
+          "filename": "SkyClient-Updater-1.8.9-forge-1.3.7.jar",
+          "primary": true,
+          "size": 6303872
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AibBIVmj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
     }

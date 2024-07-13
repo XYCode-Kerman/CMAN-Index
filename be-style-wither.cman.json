@@ -5,23 +5,118 @@
   "description": "Brings the behavior of Wither closer to Bedrock Edition",
   "versions": [
     {
-      "id": "fsY9zL8C",
-      "name": "BEStyleWither-1.20-1.6.1-Forge",
-      "version_number": "1.20-1.6.1-Forge",
+      "id": "21mWDMSP",
+      "name": "BEStyleWither-1.19.3-1.4.1-Fabric",
+      "version_number": "1.19.3-1.4.1-Fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "e969e380a9460486729a2037bde3dffe02768d35688c8b3bf90a65d932ffbcd13ff2474cbda5d05410ed3d152127cf12e88bd410f7f8b812d45f0dc2007574e3",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/21mWDMSP/bestylewither-fabric-mc1.19.3-1.4.1.jar",
+          "filename": "bestylewither-fabric-mc1.19.3-1.4.1.jar",
+          "primary": true,
+          "size": 170823
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "w2VZSLTf",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "3NKLN2vA",
+      "name": "BEStyleWither-1.20.2-1.7.0-NeoForge",
+      "version_number": "1.20.2-1.7.0-NeoForge",
+      "game_versions": [
+        "1.20.2",
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "c0b9756a3f79e7a6a2b13309fc1ba43946f6c867515e35f37303e2a2d3323953ebae0bc30b96046f9fd283ca2d6cb68fa398eea0fdabddd55b9039e5ee4a4b86",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/3NKLN2vA/bestylewither-neoforge-mc1.20.2-1.7.0.jar",
+          "filename": "bestylewither-neoforge-mc1.20.2-1.7.0.jar",
+          "primary": true,
+          "size": 175130
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "3ZAVSk1T",
+      "name": "BEStyleWither-1.20-1.6.0-Fabric",
+      "version_number": "1.20-1.6.0-Fabric",
       "game_versions": [
         "1.20",
-        "1.20.1"
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "9cd0f02c790ef9010d06c87ba92377103fe451890deee20b9c52c8c9cf8ad0ef07891fcc9ca20be50291de4db90b8ac7eb6283ba939b5fac958d7bbf78f98d8c",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/3ZAVSk1T/bestylewither-fabric-mc1.20-1.6.0.jar",
+          "filename": "bestylewither-fabric-mc1.20-1.6.0.jar",
+          "primary": true,
+          "size": 171037
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "CFRuOvDA",
+      "name": "BEStyleWither-1.19-1.3.2-Forge",
+      "version_number": "1.19-1.3.2-Forge",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "24585308e1d07820a7163b97817dab6d7648ebf31bbd2eff81f3dae19fd53ad58b987543bea85d95dff3497fb584305faabd46be652ea013d1e8dc717fd6b6ae",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/fsY9zL8C/bestylewither-forge-mc1.20-1.6.1.jar",
-          "filename": "bestylewither-forge-mc1.20-1.6.1.jar",
+          "sha512": "a80f665449f82dc913ab4227ac590580fd1ce84ad8e40536c149f8139359d83c0191bd41dfc8a96a229dc2ece89d48cac568731a47d90f4b91c474933dd4021a",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/CFRuOvDA/bestylewither-forge-mc1.19-1.3.2.jar",
+          "filename": "bestylewither-forge-mc1.19-1.3.2.jar",
           "primary": true,
-          "size": 175821
+          "size": 165348
         }
       ],
       "dependencies": []
@@ -63,50 +158,6 @@
       ]
     },
     {
-      "id": "3NKLN2vA",
-      "name": "BEStyleWither-1.20.2-1.7.0-NeoForge",
-      "version_number": "1.20.2-1.7.0-NeoForge",
-      "game_versions": [
-        "1.20.2",
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "c0b9756a3f79e7a6a2b13309fc1ba43946f6c867515e35f37303e2a2d3323953ebae0bc30b96046f9fd283ca2d6cb68fa398eea0fdabddd55b9039e5ee4a4b86",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/3NKLN2vA/bestylewither-neoforge-mc1.20.2-1.7.0.jar",
-          "filename": "bestylewither-neoforge-mc1.20.2-1.7.0.jar",
-          "primary": true,
-          "size": 175130
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "s2XguDw1",
-      "name": "BEStyleWither-1.20.2-1.7.0-Forge",
-      "version_number": "1.20.2-1.7.0-Forge",
-      "game_versions": [
-        "1.20.2",
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "7336c9bc4935c873646d3724e70180c0a7866c85824043c5def018666126bd9aaa4ecafee9919341d66e55ec51de080f91d6862a4a19244a14e39ad16c458505",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/s2XguDw1/bestylewither-forge-mc1.20.2-1.7.0.jar",
-          "filename": "bestylewither-forge-mc1.20.2-1.7.0.jar",
-          "primary": true,
-          "size": 174460
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "H8Ze2qmV",
       "name": "BEStyleWither-1.20.2-1.7.0-Fabric",
       "version_number": "1.20.2-1.7.0-Fabric",
@@ -143,195 +194,46 @@
       ]
     },
     {
-      "id": "msU5FraE",
-      "name": "BEStyleWither-1.20-1.6.0-Forge",
-      "version_number": "1.20-1.6.0-Forge",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "99ef57b36f2d647fb08ef8c45322d61f2dadffcdfef786e1558a1596ec2340e3270a323128d4358df2f0f57eff40017ff49e80c93d575885ea5b3ddf3837bf8b",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/msU5FraE/bestylewither-forge-mc1.20-1.6.0.jar",
-          "filename": "bestylewither-forge-mc1.20-1.6.0.jar",
-          "primary": true,
-          "size": 174048
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "3ZAVSk1T",
-      "name": "BEStyleWither-1.20-1.6.0-Fabric",
-      "version_number": "1.20-1.6.0-Fabric",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "9cd0f02c790ef9010d06c87ba92377103fe451890deee20b9c52c8c9cf8ad0ef07891fcc9ca20be50291de4db90b8ac7eb6283ba939b5fac958d7bbf78f98d8c",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/3ZAVSk1T/bestylewither-fabric-mc1.20-1.6.0.jar",
-          "filename": "bestylewither-fabric-mc1.20-1.6.0.jar",
-          "primary": true,
-          "size": 171037
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "hVE8v36O",
-      "name": "BEStyleWither-1.19.4-1.5.0-Forge",
-      "version_number": "1.19.4-1.5.0-Forge",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "169c303d2a803da6d1ef02d52f420ff6125b9c8d4becb5e5bca52ecfe7c8182c3502ffd2d3f24a0fd82266b08179e6710edef4c08017c155a5154480ffa2c801",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/hVE8v36O/bestylewither-forge-mc1.19.4-1.5.0.jar",
-          "filename": "bestylewither-forge-mc1.19.4-1.5.0.jar",
-          "primary": true,
-          "size": 174036
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "WjEilcFm",
-      "name": "BEStyleWither-1.19.4-1.5.0-Fabric",
-      "version_number": "1.19.4-1.5.0-Fabric",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "9aefdaf86976115b4d47bc32c6e5ac362393d509da1a59ccceae2efedec8a8c7094275196ff38a1a29b7fbf5a4b71f49638ebae64c4c657a79292e0358c24f8f",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/WjEilcFm/bestylewither-fabric-mc1.19.4-1.5.0.jar",
-          "filename": "bestylewither-fabric-mc1.19.4-1.5.0.jar",
-          "primary": true,
-          "size": 171014
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "mhFzbEwE",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "dW5k76ew",
-      "name": "BEStyleWither-1.19.3-1.4.2-Forge",
-      "version_number": "1.19.3-1.4.2-Forge",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "78a543dd126116584de021b2cc7796de84b9c9e0c47e622ff8f5423e1310d006552d09371f76668b895ce616494b003551797fc9f9d55011702eb646245aeccf",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/dW5k76ew/bestylewither-forge-mc1.19.3-1.4.2.jar",
-          "filename": "bestylewither-forge-mc1.19.3-1.4.2.jar",
-          "primary": true,
-          "size": 173929
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "uuvby4hl",
-      "name": "BEStyleWither-1.19.3-1.4.2-Fabric",
-      "version_number": "1.19.3-1.4.2-Fabric",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "c6322d5fafc2fe222d08d2abce25fd10f79634461c19a0da769238c19fdc4b6f2474fa873906716746d219d819e4ed6ef56e268b5f07151008de296386ee2392",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/uuvby4hl/bestylewither-fabric-mc1.19.3-1.4.2.jar",
-          "filename": "bestylewither-fabric-mc1.19.3-1.4.2.jar",
-          "primary": true,
-          "size": 170984
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "w2VZSLTf",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "CFRuOvDA",
-      "name": "BEStyleWither-1.19-1.3.2-Forge",
-      "version_number": "1.19-1.3.2-Forge",
+      "id": "LLMrIbKB",
+      "name": "BEStyleWither-1.19-1.3.1-Fabric",
+      "version_number": "1.19-1.3.1-Fabric",
       "game_versions": [
         "1.19",
         "1.19.1",
         "1.19.2"
       ],
       "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "19c37760b0de9b7c57ff5715fa400638528c6b8a910714856eae269622eeb919c1abc43bad272a7a4a71e1dae46361c5d0336753d29441f2e6ca497a67935058",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/LLMrIbKB/bestylewither-fabric-mc1.19-1.3.1.jar",
+          "filename": "bestylewither-fabric-mc1.19-1.3.1.jar",
+          "primary": true,
+          "size": 162753
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "LXi9JA0t",
+      "name": "BEStyleWither-1.18.2-1.1-Forge",
+      "version_number": "1.18.2-1.1-Forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "a80f665449f82dc913ab4227ac590580fd1ce84ad8e40536c149f8139359d83c0191bd41dfc8a96a229dc2ece89d48cac568731a47d90f4b91c474933dd4021a",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/CFRuOvDA/bestylewither-forge-mc1.19-1.3.2.jar",
-          "filename": "bestylewither-forge-mc1.19-1.3.2.jar",
+          "sha512": "3ca80d89c2e5ffb3fba4282b527aa884a73eef51e5d5180dcf42d33dee4759680e1330ef59349cf325d8dfef73b59a66b295ed913e5c0582159132b3cde89c52",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/1.18.2-1.1-Forge/bestylewither-forge-1.18.2-1.1.jar",
+          "filename": "bestylewither-forge-1.18.2-1.1.jar",
           "primary": true,
-          "size": 165348
+          "size": 165090
         }
       ],
       "dependencies": []
@@ -361,9 +263,38 @@
       "dependencies": []
     },
     {
-      "id": "x40FWRFu",
-      "name": "BEStyleWither-1.19.3-1.4.1-Forge",
-      "version_number": "1.19.3-1.4.1-Forge",
+      "id": "TrBeD0VE",
+      "name": "BEStyleWither-1.18.2-1.0-Fabric",
+      "version_number": "1.18.2-1.0-Fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0393fb3a5b183595b4e1fe253ae84b719367c4c6a7a421049d9926afe124209ca08248ac471e64298e28e957f4eaf1917fa876dedb5328360f916deed33c649b",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/1.18.2-1.0-Fabric/bestylewither-fabric-1.18.2-1.0.jar",
+          "filename": "bestylewither-fabric-1.18.2-1.0.jar",
+          "primary": true,
+          "size": 162682
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "VoPuWSiQ",
+      "name": "BEStyleWither-1.19.3-1.4.0-Forge",
+      "version_number": "1.19.3-1.4.0-Forge",
       "game_versions": [
         "1.19.3"
       ],
@@ -372,21 +303,21 @@
       ],
       "files": [
         {
-          "sha512": "9e7f63c4fb7201bd3a457b012969f935e95ed80814fae54e8ae4109629dc111c27f79b990a9992d5557ebea384c416ea98512a1018824fd8c20b4625c08edb35",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/x40FWRFu/bestylewither-forge-mc1.19.3-1.4.1.jar",
-          "filename": "bestylewither-forge-mc1.19.3-1.4.1.jar",
+          "sha512": "c240d2c442b72be3f7d2d0b79ef2ad58fb95520a529753387b66e5eefcf242d79bb7e441261aef2714576fdd2b7c77dd313e067ed88c8081e9f3538c852489e6",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/VoPuWSiQ/bestylewither-forge-mc1.19.3-1.4.0.jar",
+          "filename": "bestylewither-forge-mc1.19.3-1.4.0.jar",
           "primary": true,
-          "size": 173703
+          "size": 173694
         }
       ],
       "dependencies": []
     },
     {
-      "id": "21mWDMSP",
-      "name": "BEStyleWither-1.19.3-1.4.1-Fabric",
-      "version_number": "1.19.3-1.4.1-Fabric",
+      "id": "WjEilcFm",
+      "name": "BEStyleWither-1.19.4-1.5.0-Fabric",
+      "version_number": "1.19.4-1.5.0-Fabric",
       "game_versions": [
-        "1.19.3"
+        "1.19.4"
       ],
       "loaders": [
         "fabric",
@@ -394,27 +325,91 @@
       ],
       "files": [
         {
-          "sha512": "e969e380a9460486729a2037bde3dffe02768d35688c8b3bf90a65d932ffbcd13ff2474cbda5d05410ed3d152127cf12e88bd410f7f8b812d45f0dc2007574e3",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/21mWDMSP/bestylewither-fabric-mc1.19.3-1.4.1.jar",
-          "filename": "bestylewither-fabric-mc1.19.3-1.4.1.jar",
+          "sha512": "9aefdaf86976115b4d47bc32c6e5ac362393d509da1a59ccceae2efedec8a8c7094275196ff38a1a29b7fbf5a4b71f49638ebae64c4c657a79292e0358c24f8f",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/WjEilcFm/bestylewither-fabric-mc1.19.4-1.5.0.jar",
+          "filename": "bestylewither-fabric-mc1.19.4-1.5.0.jar",
           "primary": true,
-          "size": 170823
+          "size": 171014
         }
       ],
       "dependencies": [
         {
           "project_id": "9s6osm5g",
-          "version_id": "w2VZSLTf",
+          "version_id": "mhFzbEwE",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
+          "version_id": "uIYkhRbX",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
+    },
+    {
+      "id": "bTzWcXn9",
+      "name": "BEStyleWither-1.18.2-1.2-Forge",
+      "version_number": "1.18.2-1.2-Forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "655d515895b6658077825f9e90cd377be0d32e6f5ab41b3f2dc1bf83a27b3b4a7f2400f1bb06bf0da11545b38d17965213236baf76a3e8f4efe5dd03802896d0",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/1.18.2-1.2-Forge/bestylewither-forge-1.18.2-1.2.jar",
+          "filename": "bestylewither-forge-1.18.2-1.2.jar",
+          "primary": true,
+          "size": 165136
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "dW5k76ew",
+      "name": "BEStyleWither-1.19.3-1.4.2-Forge",
+      "version_number": "1.19.3-1.4.2-Forge",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "78a543dd126116584de021b2cc7796de84b9c9e0c47e622ff8f5423e1310d006552d09371f76668b895ce616494b003551797fc9f9d55011702eb646245aeccf",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/dW5k76ew/bestylewither-forge-mc1.19.3-1.4.2.jar",
+          "filename": "bestylewither-forge-mc1.19.3-1.4.2.jar",
+          "primary": true,
+          "size": 173929
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "fsY9zL8C",
+      "name": "BEStyleWither-1.20-1.6.1-Forge",
+      "version_number": "1.20-1.6.1-Forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "24585308e1d07820a7163b97817dab6d7648ebf31bbd2eff81f3dae19fd53ad58b987543bea85d95dff3497fb584305faabd46be652ea013d1e8dc717fd6b6ae",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/fsY9zL8C/bestylewither-forge-mc1.20-1.6.1.jar",
+          "filename": "bestylewither-forge-mc1.20-1.6.1.jar",
+          "primary": true,
+          "size": 175821
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "fzX6F8pE",
@@ -440,9 +435,30 @@
       "dependencies": []
     },
     {
-      "id": "LLMrIbKB",
-      "name": "BEStyleWither-1.19-1.3.1-Fabric",
-      "version_number": "1.19-1.3.1-Fabric",
+      "id": "hVE8v36O",
+      "name": "BEStyleWither-1.19.4-1.5.0-Forge",
+      "version_number": "1.19.4-1.5.0-Forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "169c303d2a803da6d1ef02d52f420ff6125b9c8d4becb5e5bca52ecfe7c8182c3502ffd2d3f24a0fd82266b08179e6710edef4c08017c155a5154480ffa2c801",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/hVE8v36O/bestylewither-forge-mc1.19.4-1.5.0.jar",
+          "filename": "bestylewither-forge-mc1.19.4-1.5.0.jar",
+          "primary": true,
+          "size": 174036
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "hgrJcyhJ",
+      "name": "BEStyleWither-1.19-1.3-Fabric",
+      "version_number": "1.19-1.3-Fabric",
       "game_versions": [
         "1.19",
         "1.19.1",
@@ -454,32 +470,76 @@
       ],
       "files": [
         {
-          "sha512": "19c37760b0de9b7c57ff5715fa400638528c6b8a910714856eae269622eeb919c1abc43bad272a7a4a71e1dae46361c5d0336753d29441f2e6ca497a67935058",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/LLMrIbKB/bestylewither-fabric-mc1.19-1.3.1.jar",
-          "filename": "bestylewither-fabric-mc1.19-1.3.1.jar",
+          "sha512": "dadb562020747dcfcc69fa590e9d6d7d44c5fd49aaa9baddcf8614bf79172f7cc23b395d8a09871006c0f5c0bcb49514ac3c406971ddd8f7677927f035bebade",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/1.19-1.3-Fabric/bestylewither-fabric-mc1.19-1.3.jar",
+          "filename": "bestylewither-fabric-mc1.19-1.3.jar",
           "primary": true,
-          "size": 162753
+          "size": 162727
         }
       ],
       "dependencies": []
     },
     {
-      "id": "VoPuWSiQ",
-      "name": "BEStyleWither-1.19.3-1.4.0-Forge",
-      "version_number": "1.19.3-1.4.0-Forge",
+      "id": "msU5FraE",
+      "name": "BEStyleWither-1.20-1.6.0-Forge",
+      "version_number": "1.20-1.6.0-Forge",
       "game_versions": [
-        "1.19.3"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "c240d2c442b72be3f7d2d0b79ef2ad58fb95520a529753387b66e5eefcf242d79bb7e441261aef2714576fdd2b7c77dd313e067ed88c8081e9f3538c852489e6",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/VoPuWSiQ/bestylewither-forge-mc1.19.3-1.4.0.jar",
-          "filename": "bestylewither-forge-mc1.19.3-1.4.0.jar",
+          "sha512": "99ef57b36f2d647fb08ef8c45322d61f2dadffcdfef786e1558a1596ec2340e3270a323128d4358df2f0f57eff40017ff49e80c93d575885ea5b3ddf3837bf8b",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/msU5FraE/bestylewither-forge-mc1.20-1.6.0.jar",
+          "filename": "bestylewither-forge-mc1.20-1.6.0.jar",
           "primary": true,
-          "size": 173694
+          "size": 174048
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "o3d4hiGh",
+      "name": "BEStyleWither-1.18.2-1.0-Forge",
+      "version_number": "1.18.2-1.0-Forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "181bc03d8c8475f13fc809bcad6b9ceee407013f2d20f13a59e06282cb65b6f91e00c9566a1130e924d2374c39e006034e704f907eca799bbee5876233316919",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/1.18.2-1.0-Forge/bestylewither-forge-1.18.2-1.0.jar",
+          "filename": "bestylewither-forge-1.18.2-1.0.jar",
+          "primary": true,
+          "size": 165070
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "pmSlJE3a",
+      "name": "BEStyleWither-1.18.2-1.2-Fabric",
+      "version_number": "1.18.2-1.2-Fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f56dab310c0d3d5ba2883a461dce714b0486a02812b1da284cf585559bf49f612fb9731a15552383e4ddc16f3837d0e12b6645aaca952ed4c883295f5c12b5f5",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/1.18.2-1.2-Fabric/bestylewither-fabric-1.18.2-1.2.jar",
+          "filename": "bestylewither-fabric-1.18.2-1.2.jar",
+          "primary": true,
+          "size": 162744
         }
       ],
       "dependencies": []
@@ -502,6 +562,92 @@
           "filename": "bestylewither-fabric-mc1.19.3-1.4.0.jar",
           "primary": true,
           "size": 170818
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "w2VZSLTf",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "qziORD8T",
+      "name": "BEStyleWither-1.18.2-1.1-Fabric",
+      "version_number": "1.18.2-1.1-Fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "b25ba7a42a4ed09cc26929bc5704524ca06eff07e2248adbe97e0b1ea7098fd8d3f9e88c701d202dc53c2d8fd443699d52f997dccca084148969ac452fa4d93e",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/1.18.2-1.1-Fabric/bestylewither-fabric-1.18.2-1.1.jar",
+          "filename": "bestylewither-fabric-1.18.2-1.1.jar",
+          "primary": true,
+          "size": 162693
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "s2XguDw1",
+      "name": "BEStyleWither-1.20.2-1.7.0-Forge",
+      "version_number": "1.20.2-1.7.0-Forge",
+      "game_versions": [
+        "1.20.2",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "7336c9bc4935c873646d3724e70180c0a7866c85824043c5def018666126bd9aaa4ecafee9919341d66e55ec51de080f91d6862a4a19244a14e39ad16c458505",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/s2XguDw1/bestylewither-forge-mc1.20.2-1.7.0.jar",
+          "filename": "bestylewither-forge-mc1.20.2-1.7.0.jar",
+          "primary": true,
+          "size": 174460
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "uuvby4hl",
+      "name": "BEStyleWither-1.19.3-1.4.2-Fabric",
+      "version_number": "1.19.3-1.4.2-Fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c6322d5fafc2fe222d08d2abce25fd10f79634461c19a0da769238c19fdc4b6f2474fa873906716746d219d819e4ed6ef56e268b5f07151008de296386ee2392",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/uuvby4hl/bestylewither-fabric-mc1.19.3-1.4.2.jar",
+          "filename": "bestylewither-fabric-mc1.19.3-1.4.2.jar",
+          "primary": true,
+          "size": 170984
         }
       ],
       "dependencies": [
@@ -543,171 +689,25 @@
       "dependencies": []
     },
     {
-      "id": "hgrJcyhJ",
-      "name": "BEStyleWither-1.19-1.3-Fabric",
-      "version_number": "1.19-1.3-Fabric",
+      "id": "x40FWRFu",
+      "name": "BEStyleWither-1.19.3-1.4.1-Forge",
+      "version_number": "1.19.3-1.4.1-Forge",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "dadb562020747dcfcc69fa590e9d6d7d44c5fd49aaa9baddcf8614bf79172f7cc23b395d8a09871006c0f5c0bcb49514ac3c406971ddd8f7677927f035bebade",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/1.19-1.3-Fabric/bestylewither-fabric-mc1.19-1.3.jar",
-          "filename": "bestylewither-fabric-mc1.19-1.3.jar",
-          "primary": true,
-          "size": 162727
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "bTzWcXn9",
-      "name": "BEStyleWither-1.18.2-1.2-Forge",
-      "version_number": "1.18.2-1.2-Forge",
-      "game_versions": [
-        "1.18.2"
+        "1.19.3"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "655d515895b6658077825f9e90cd377be0d32e6f5ab41b3f2dc1bf83a27b3b4a7f2400f1bb06bf0da11545b38d17965213236baf76a3e8f4efe5dd03802896d0",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/1.18.2-1.2-Forge/bestylewither-forge-1.18.2-1.2.jar",
-          "filename": "bestylewither-forge-1.18.2-1.2.jar",
+          "sha512": "9e7f63c4fb7201bd3a457b012969f935e95ed80814fae54e8ae4109629dc111c27f79b990a9992d5557ebea384c416ea98512a1018824fd8c20b4625c08edb35",
+          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/x40FWRFu/bestylewither-forge-mc1.19.3-1.4.1.jar",
+          "filename": "bestylewither-forge-mc1.19.3-1.4.1.jar",
           "primary": true,
-          "size": 165136
+          "size": 173703
         }
       ],
       "dependencies": []
-    },
-    {
-      "id": "pmSlJE3a",
-      "name": "BEStyleWither-1.18.2-1.2-Fabric",
-      "version_number": "1.18.2-1.2-Fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f56dab310c0d3d5ba2883a461dce714b0486a02812b1da284cf585559bf49f612fb9731a15552383e4ddc16f3837d0e12b6645aaca952ed4c883295f5c12b5f5",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/1.18.2-1.2-Fabric/bestylewither-fabric-1.18.2-1.2.jar",
-          "filename": "bestylewither-fabric-1.18.2-1.2.jar",
-          "primary": true,
-          "size": 162744
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "LXi9JA0t",
-      "name": "BEStyleWither-1.18.2-1.1-Forge",
-      "version_number": "1.18.2-1.1-Forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "3ca80d89c2e5ffb3fba4282b527aa884a73eef51e5d5180dcf42d33dee4759680e1330ef59349cf325d8dfef73b59a66b295ed913e5c0582159132b3cde89c52",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/1.18.2-1.1-Forge/bestylewither-forge-1.18.2-1.1.jar",
-          "filename": "bestylewither-forge-1.18.2-1.1.jar",
-          "primary": true,
-          "size": 165090
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "qziORD8T",
-      "name": "BEStyleWither-1.18.2-1.1-Fabric",
-      "version_number": "1.18.2-1.1-Fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "b25ba7a42a4ed09cc26929bc5704524ca06eff07e2248adbe97e0b1ea7098fd8d3f9e88c701d202dc53c2d8fd443699d52f997dccca084148969ac452fa4d93e",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/1.18.2-1.1-Fabric/bestylewither-fabric-1.18.2-1.1.jar",
-          "filename": "bestylewither-fabric-1.18.2-1.1.jar",
-          "primary": true,
-          "size": 162693
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "o3d4hiGh",
-      "name": "BEStyleWither-1.18.2-1.0-Forge",
-      "version_number": "1.18.2-1.0-Forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "181bc03d8c8475f13fc809bcad6b9ceee407013f2d20f13a59e06282cb65b6f91e00c9566a1130e924d2374c39e006034e704f907eca799bbee5876233316919",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/1.18.2-1.0-Forge/bestylewither-forge-1.18.2-1.0.jar",
-          "filename": "bestylewither-forge-1.18.2-1.0.jar",
-          "primary": true,
-          "size": 165070
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "TrBeD0VE",
-      "name": "BEStyleWither-1.18.2-1.0-Fabric",
-      "version_number": "1.18.2-1.0-Fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0393fb3a5b183595b4e1fe253ae84b719367c4c6a7a421049d9926afe124209ca08248ac471e64298e28e957f4eaf1917fa876dedb5328360f916deed33c649b",
-          "url": "https://cdn.modrinth.com/data/OkmRZ5fH/versions/1.18.2-1.0-Fabric/bestylewither-fabric-1.18.2-1.0.jar",
-          "filename": "bestylewither-fabric-1.18.2-1.0.jar",
-          "primary": true,
-          "size": 162682
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
     }
   ]
 }

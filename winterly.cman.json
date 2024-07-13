@@ -5,33 +5,111 @@
   "description": "Winter expansion mod adding cold and sloppy stuff.",
   "versions": [
     {
-      "id": "khODZH7g",
-      "name": "0.10.1+1.20.4+neoforge",
-      "version_number": "0.10.1+1.20.4+neoforge",
+      "id": "1zhzjHPc",
+      "name": "[1.19.1] Winterly 0.7.2",
+      "version_number": "0.7.2",
       "game_versions": [
-        "1.20.3",
-        "1.20.4"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
-        "neoforge"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "63d73ca4ffbb72f89855dc823aaf3c6a3a0ed9590948d4ecce4b877cb1fa771d616b8cb7866631bf9af036bd1943596c936cb586e3ed5229797c2126aa18a5c2",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/khODZH7g/winterly-neoforge-0.10.1%2B1.20.4.jar",
-          "filename": "winterly-neoforge-0.10.1+1.20.4.jar",
+          "sha512": "41c27825432d068e1930dd6af196b4c66e1ce60b64e3653a307e1c5520b62fd1edcd25076de931b1c7d2fc2d82428db26d4f66bb9c2546b795b3fccb47cb353e",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.7.2/winterly-0.7.2.jar",
+          "filename": "winterly-0.7.2.jar",
           "primary": true,
-          "size": 231176
+          "size": 226161
         },
         {
-          "sha512": "84e5863bdb7fe00c7926baa3e75648490667868bf1dbc946d57db725f43272cb771d8579ef89f43d558e384a8f8ba78a498fbfcc7cb44c4091ba21e4a9af684f",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/khODZH7g/winterly-neoforge-0.10.1%2B1.20.4-sources.jar",
-          "filename": "winterly-neoforge-0.10.1+1.20.4-sources.jar",
+          "sha512": "dd533dd0243d67edad30279a0e931acf774a0d998c26e6e54916f634b07d739ae6ea13fc588f9a8ade35c4c87741f5e8188ae23d8620ed761403fbc583800b6e",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.7.2/winterly-0.7.2-sources.jar",
+          "filename": "winterly-0.7.2-sources.jar",
           "primary": false,
-          "size": 179611
+          "size": 243217
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5aaWibi9",
+          "version_id": "OLwsMJv4",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "3UiHsekh",
+      "name": "[1.18.2] Winterly 0.6.0",
+      "version_number": "0.6.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "b07db05e719ecbc7670e43e4d1d9b6effc9f0b8463cd4edd4f5db967efbd69141129cdca49d9c3eff77dea31e5d91a5141daab0e31e878c6e4c149eafe4a14d6",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.6.0/winterly-0.6.0.jar",
+          "filename": "winterly-0.6.0.jar",
+          "primary": true,
+          "size": 225994
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "5tRFmRAm",
+      "name": "[1.20] Winterly 0.9.3",
+      "version_number": "0.9.3+1.20",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "73454817a8cb38762e558f9a0317cec11744a78626eeee419587eb41bee5a62c7c57f66220eb7048a24492a303d630e4f6ad5c60e88cc524e7141e1c3fa9b304",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/5tRFmRAm/winterly-0.9.3%2B1.20.jar",
+          "filename": "winterly-0.9.3+1.20.jar",
+          "primary": true,
+          "size": 210134
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5aaWibi9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "8plvfEPa",
@@ -59,6 +137,620 @@
           "filename": "winterly-fabric-0.10.1+1.20.4-sources.jar",
           "primary": false,
           "size": 180181
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5aaWibi9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "DFK1Zcpj",
+      "name": "[1.19.2] Winterly 0.8.1",
+      "version_number": "0.8.1",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "48c9c0d01f45bb572d2ea848ffbd808ea8ffa35e7ee43d1584a37ddec2dcd50a81c7c06e62fa6b6799b3dd91450e962be9c43806cfe9f779e87ff7fce65cf06e",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/DFK1Zcpj/winterly-0.8.1.jar",
+          "filename": "winterly-0.8.1.jar",
+          "primary": true,
+          "size": 189592
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5aaWibi9",
+          "version_id": "OLwsMJv4",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "EJ1gHSQj",
+      "name": "Winterly 0.4.0",
+      "version_number": "0.4.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "3ee8b2d6b7810f62459295bf64100521649cc571b6da0971e260211463a2be4f80778706691839fac92222203a1ce72f31905f6eb0085575966a07c0b6af98af",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.4.0-1.18.1-fabric/winterly-0.4.0-1.18.1-fabric.jar",
+          "filename": "winterly-0.4.0-1.18.1-fabric.jar",
+          "primary": true,
+          "size": 199450
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "mGIxWbTy",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5aaWibi9",
+          "version_id": "vOuy3Z5S",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "EwzHX8aM",
+      "name": "[1.19.2] Winterly 0.8.0",
+      "version_number": "0.8.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "13a51cd29e1abb578a858b0397441dd5c47733807e889e89a517e2c5d8b2ef79b1010827dce5fc8814203579a8bb6f9df992087ea6e51d58510ed1f6b85aa95f",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/EwzHX8aM/winterly-0.8.0.jar",
+          "filename": "winterly-0.8.0.jar",
+          "primary": true,
+          "size": 188872
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5aaWibi9",
+          "version_id": "OLwsMJv4",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "IypDP2YU",
+      "name": "[1.19.2] Winterly 0.8.3",
+      "version_number": "0.8.3",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "18814f5a16cb49983a22398e1af44430764bac96f7aadc9bfa9e6d086565cc6c3fd51c57a55108414fa9157c0a44e7d37e1363891abaacb4ab76aaac72b7efb8",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/IypDP2YU/winterly-0.8.3.jar",
+          "filename": "winterly-0.8.3.jar",
+          "primary": true,
+          "size": 209171
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5aaWibi9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Jl220nPU",
+      "name": "[1.20] Winterly 0.9.0",
+      "version_number": "0.9.0+1.20",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2434bf55ce04b8d689bf81cc4929537f82f273476e332dd1d9fa8cb6599ff2129c3f4ceb74e72b50621c87af3c18ac81c8fb6d730198ba4a10ed523791dc7e06",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/Jl220nPU/winterly-0.9.0%2B1.20.jar",
+          "filename": "winterly-0.9.0+1.20.jar",
+          "primary": true,
+          "size": 209809
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5aaWibi9",
+          "version_id": "e563ycts",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "MMwxzSjK",
+      "name": "[1.20.4] Winterly 0.9.6",
+      "version_number": "0.9.6+1.20.4",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "03823059b1c67babace2dbac8441541f59304d3bc3f8151c29ac260e78366392bbd3f798a947493b2ec94d07c56004aaf16bf806b42ab400113ac13138bc67e8",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/MMwxzSjK/winterly-0.9.6%2B1.20.4.jar",
+          "filename": "winterly-0.9.6+1.20.4.jar",
+          "primary": true,
+          "size": 233447
+        },
+        {
+          "sha512": "2453e389f4e724a6b5d8a97c2c721880fd920ecf4b2d345a12fd00e0ddf1391657bb0754f05bd0b48f89dafd37eb3b033b5252b0d98e54237c83f1121087c52f",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/MMwxzSjK/winterly-0.9.6%2B1.20.4-sources.jar",
+          "filename": "winterly-0.9.6+1.20.4-sources.jar",
+          "primary": false,
+          "size": 172273
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5aaWibi9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "MdpUk9sQ",
+      "name": "Winterly 0.1.0",
+      "version_number": "0.1.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "38a278e8348cfda234079b35afa46591a1f590e5e215b748b49658d7f8bad4fc13df38ff0960bdefbd68d8b4556954427aee65ac31b7b7c01aa258a185288966",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.1.0-1.18-fabric/winterly-0.1.0-1.18-fabric.jar",
+          "filename": "winterly-0.1.0-1.18-fabric.jar",
+          "primary": true,
+          "size": 147498
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "P3Spm6Wt",
+      "name": "Winterly 0.3.0",
+      "version_number": "0.3.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "3df1753d61423e22d68a93ff944438ba46579588ee9139ea2533022c5d0ae4c6c90d84694662c81112bb6f57f8e255017a45c90fb0bee5034088a4effde4da4c",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.3.0-1.18-fabric/winterly-0.3.0-1.18-fabric.jar",
+          "filename": "winterly-0.3.0-1.18-fabric.jar",
+          "primary": true,
+          "size": 184519
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "PnsEAyXk",
+      "name": "[1.18.1] Winterly 0.5.1",
+      "version_number": "0.5.1",
+      "game_versions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a598f9b6f22d29ef1d7f7489f1955639587d2ed932d9bc34d41ae1f8cb842355dd4d706123edab6743c9297ec2ec90fd056f884595ac399205734f95c576ce37",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.5.1/winterly-0.5.1.jar",
+          "filename": "winterly-0.5.1.jar",
+          "primary": true,
+          "size": 289362
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "mGIxWbTy",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5aaWibi9",
+          "version_id": "vOuy3Z5S",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "QExqBkrU",
+      "name": "[1.20.2] Winterly 0.9.4",
+      "version_number": "0.9.4+1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "66f86737dd5735e98f7c2dcaf81a8215d59407ecee8f3e6192bd2a8dd42983ddcf02f10477f1119d341e8a8f60765a775a02372f0acaf6ec1f53ce30f948924b",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/QExqBkrU/winterly-0.9.4%2B1.20.2.jar",
+          "filename": "winterly-0.9.4+1.20.2.jar",
+          "primary": true,
+          "size": 212111
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5aaWibi9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "QoNCi3kq",
+      "name": "[1.19.3] Winterly 0.9.0",
+      "version_number": "0.9.0",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "24edcc76f1ae55c48a6b3f8a0fee3b5ebbacaa9a4227cce4679dfb0c0bb54e0e06a7acbd54904cf34695d81e3669b2e5a47ea2ee001aa2975f2528a95ff5c70b",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/QoNCi3kq/winterly-0.9.0.jar",
+          "filename": "winterly-0.9.0.jar",
+          "primary": true,
+          "size": 209310
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5aaWibi9",
+          "version_id": "5zEAvqnX",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "mhFzbEwE",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "RRq1YQdb",
+      "name": "[1.18.2] Winterly 0.6.1",
+      "version_number": "0.6.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "cbbfa81e1802e734adba402fa2b90618928684a04466f4e468788891b6c70362703f826ed3c5abaf8e73089e6fb335fa6b46e34be86e5691da5baebc9830d770",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.6.1/winterly-0.6.1.jar",
+          "filename": "winterly-0.6.1.jar",
+          "primary": true,
+          "size": 225979
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Relg5dBM",
+      "name": "[1.20] Winterly 0.9.2",
+      "version_number": "0.9.2+1.20",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "636b395cd33db49e4eee89ad2b5c1c082190c1f92c89e936e39cd55f0a3350e20e9b475008cde2f32acdc72dd6ee99ecd8f955e79f77473343367462db2c8a50",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/Relg5dBM/winterly-0.9.2%2B1.20.jar",
+          "filename": "winterly-0.9.2+1.20.jar",
+          "primary": true,
+          "size": 209940
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5aaWibi9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Rf60vwxM",
+      "name": "[1.20.4] Winterly 0.9.5",
+      "version_number": "0.9.5+1.20.4",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2ddd0f3753b1bce0e4a87b766428efb628361df37094b015856a6b4f95a5babccaaee7ba879e23fbf42565d856656ae1e1594239cbe0ec83557e82a67bff8c8f",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/Rf60vwxM/winterly-0.9.5%2B1.20.4.jar",
+          "filename": "winterly-0.9.5+1.20.4.jar",
+          "primary": true,
+          "size": 233196
+        },
+        {
+          "sha512": "d68c3129a5856d5d616e82b0e527274765b27a40cb3047343d668b0a3aa2b864636a2a824d0cba38fe1b7efd70d08acfd2a058d156b6d561125f931c6a3f31bc",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/Rf60vwxM/winterly-0.9.5%2B1.20.4-sources.jar",
+          "filename": "winterly-0.9.5+1.20.4-sources.jar",
+          "primary": false,
+          "size": 172023
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5aaWibi9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "SGt2iTCP",
+      "name": "0.11.0+1.21",
+      "version_number": "0.11.0+1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "7af3fc49b91f1347a4fa999a65381ccbd26129e6b9c987bf17246b63fe78dfbdf0d4ed165634ca859555a6c444fb1211877e7e37e8da87bbae5025ef82997d06",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/SGt2iTCP/winterly-0.11.0%2B1.21.jar",
+          "filename": "winterly-0.11.0+1.21.jar",
+          "primary": true,
+          "size": 347290
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "UngvZnfo",
+      "name": "0.10.0+1.20.4+fabric",
+      "version_number": "0.10.0+1.20.4+fabric",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4a988d1044945b191a0d59022d6e755807ba60a00f4cb8f2d3dff96b8395610df40f44218b6e6c783719f0b69645c2703a392240987f09312483ac18aebb4d2e",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/UngvZnfo/winterly-fabric-0.10.0%2B1.20.4.jar",
+          "filename": "winterly-fabric-0.10.0+1.20.4.jar",
+          "primary": true,
+          "size": 242898
+        },
+        {
+          "sha512": "dca32352346268721b2656e88d7fbc414c91134494646affbe924b79132e106e7ff08264dfe72b13a00b21bf2eec760288b6fd10f095b3bf5021caa51e190644",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/UngvZnfo/winterly-fabric-0.10.0%2B1.20.4-sources.jar",
+          "filename": "winterly-fabric-0.10.0+1.20.4-sources.jar",
+          "primary": false,
+          "size": 178930
         }
       ],
       "dependencies": [
@@ -125,282 +817,189 @@
       ]
     },
     {
-      "id": "UngvZnfo",
-      "name": "0.10.0+1.20.4+fabric",
-      "version_number": "0.10.0+1.20.4+fabric",
+      "id": "bDM3AFzD",
+      "name": "Winterly 0.5.0",
+      "version_number": "0.5.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2f403de747636f80d535dde78607c25e6c06327ca829b12052ec62adfc4683fe4e6ea91acbccc3018aaa27b509aa52a82c7f98734ce99425200393e589fe36f6",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.5.1-1.18.1-fabric/winterly-0.5.0-1.18.1-fabric.jar",
+          "filename": "winterly-0.5.0-1.18.1-fabric.jar",
+          "primary": true,
+          "size": 290038
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "mGIxWbTy",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5aaWibi9",
+          "version_id": "vOuy3Z5S",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "dTs4hjxy",
+      "name": "Winterly 0.5.2",
+      "version_number": "0.5.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "6649600043cc9889a5f7290ddb086d7d76a8082da0dfa3031bfb69f1a90aeef2bab59fcef33232ec5f03760039de02857992ca5fec3bae99168d3a16b5267565",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.5.2/winterly-0.5.2.jar",
+          "filename": "winterly-0.5.2.jar",
+          "primary": true,
+          "size": 289325
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5aaWibi9",
+          "version_id": "XqLNMi9J",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "wIj7jjb3",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "h1y4Rqsm",
+      "name": "[1.19] Winterly 0.7.0",
+      "version_number": "0.7.0",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "dc771d545174570d7818b82692c12880428f0c8456c1cba6421c56802ae7bdc6856003d2b0e63357e7b74229cc98ed63e6f956745986f73786e56ef7728109e7",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.7.0/winterly-0.6.1.jar",
+          "filename": "winterly-0.6.1.jar",
+          "primary": true,
+          "size": 225978
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "h9VadkUn",
+      "name": "Winterly 0.2.0",
+      "version_number": "0.2.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "7649c3698c1843a7ccbe3eae5d82491e950de1ac253f405e213fb9c32320911401570af257ec9afeb1415b7714fbbfc8ef29ab7320428a780f523cf444cf0c97",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.2.0-1.18-fabric/winterly-0.2.0-1.18-fabric.jar",
+          "filename": "winterly-0.2.0-1.18-fabric.jar",
+          "primary": true,
+          "size": 173053
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "iiDABnKX",
+      "name": "[1.19.2] Winterly 0.8.2",
+      "version_number": "0.8.2",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "e392f8cfd873c1213c2338e03ca979f1078acfa5f873a1f39be9de86b433a18f11e241fb1240bbc929f5208f049a61c5364f38eb000aefd8875ab930b50558cc",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/iiDABnKX/winterly-0.8.2.jar",
+          "filename": "winterly-0.8.2.jar",
+          "primary": true,
+          "size": 210162
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5aaWibi9",
+          "version_id": "OLwsMJv4",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "khODZH7g",
+      "name": "0.10.1+1.20.4+neoforge",
+      "version_number": "0.10.1+1.20.4+neoforge",
       "game_versions": [
         "1.20.3",
         "1.20.4"
       ],
       "loaders": [
-        "fabric",
-        "quilt"
+        "neoforge"
       ],
       "files": [
         {
-          "sha512": "4a988d1044945b191a0d59022d6e755807ba60a00f4cb8f2d3dff96b8395610df40f44218b6e6c783719f0b69645c2703a392240987f09312483ac18aebb4d2e",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/UngvZnfo/winterly-fabric-0.10.0%2B1.20.4.jar",
-          "filename": "winterly-fabric-0.10.0+1.20.4.jar",
+          "sha512": "63d73ca4ffbb72f89855dc823aaf3c6a3a0ed9590948d4ecce4b877cb1fa771d616b8cb7866631bf9af036bd1943596c936cb586e3ed5229797c2126aa18a5c2",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/khODZH7g/winterly-neoforge-0.10.1%2B1.20.4.jar",
+          "filename": "winterly-neoforge-0.10.1+1.20.4.jar",
           "primary": true,
-          "size": 242898
+          "size": 231176
         },
         {
-          "sha512": "dca32352346268721b2656e88d7fbc414c91134494646affbe924b79132e106e7ff08264dfe72b13a00b21bf2eec760288b6fd10f095b3bf5021caa51e190644",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/UngvZnfo/winterly-fabric-0.10.0%2B1.20.4-sources.jar",
-          "filename": "winterly-fabric-0.10.0+1.20.4-sources.jar",
+          "sha512": "84e5863bdb7fe00c7926baa3e75648490667868bf1dbc946d57db725f43272cb771d8579ef89f43d558e384a8f8ba78a498fbfcc7cb44c4091ba21e4a9af684f",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/khODZH7g/winterly-neoforge-0.10.1%2B1.20.4-sources.jar",
+          "filename": "winterly-neoforge-0.10.1+1.20.4-sources.jar",
           "primary": false,
-          "size": 178930
+          "size": 179611
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "5aaWibi9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "MMwxzSjK",
-      "name": "[1.20.4] Winterly 0.9.6",
-      "version_number": "0.9.6+1.20.4",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "03823059b1c67babace2dbac8441541f59304d3bc3f8151c29ac260e78366392bbd3f798a947493b2ec94d07c56004aaf16bf806b42ab400113ac13138bc67e8",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/MMwxzSjK/winterly-0.9.6%2B1.20.4.jar",
-          "filename": "winterly-0.9.6+1.20.4.jar",
-          "primary": true,
-          "size": 233447
-        },
-        {
-          "sha512": "2453e389f4e724a6b5d8a97c2c721880fd920ecf4b2d345a12fd00e0ddf1391657bb0754f05bd0b48f89dafd37eb3b033b5252b0d98e54237c83f1121087c52f",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/MMwxzSjK/winterly-0.9.6%2B1.20.4-sources.jar",
-          "filename": "winterly-0.9.6+1.20.4-sources.jar",
-          "primary": false,
-          "size": 172273
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "5aaWibi9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Rf60vwxM",
-      "name": "[1.20.4] Winterly 0.9.5",
-      "version_number": "0.9.5+1.20.4",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2ddd0f3753b1bce0e4a87b766428efb628361df37094b015856a6b4f95a5babccaaee7ba879e23fbf42565d856656ae1e1594239cbe0ec83557e82a67bff8c8f",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/Rf60vwxM/winterly-0.9.5%2B1.20.4.jar",
-          "filename": "winterly-0.9.5+1.20.4.jar",
-          "primary": true,
-          "size": 233196
-        },
-        {
-          "sha512": "d68c3129a5856d5d616e82b0e527274765b27a40cb3047343d668b0a3aa2b864636a2a824d0cba38fe1b7efd70d08acfd2a058d156b6d561125f931c6a3f31bc",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/Rf60vwxM/winterly-0.9.5%2B1.20.4-sources.jar",
-          "filename": "winterly-0.9.5+1.20.4-sources.jar",
-          "primary": false,
-          "size": 172023
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "5aaWibi9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "QExqBkrU",
-      "name": "[1.20.2] Winterly 0.9.4",
-      "version_number": "0.9.4+1.20.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "66f86737dd5735e98f7c2dcaf81a8215d59407ecee8f3e6192bd2a8dd42983ddcf02f10477f1119d341e8a8f60765a775a02372f0acaf6ec1f53ce30f948924b",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/QExqBkrU/winterly-0.9.4%2B1.20.2.jar",
-          "filename": "winterly-0.9.4+1.20.2.jar",
-          "primary": true,
-          "size": 212111
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "5aaWibi9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "5tRFmRAm",
-      "name": "[1.20] Winterly 0.9.3",
-      "version_number": "0.9.3+1.20",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "73454817a8cb38762e558f9a0317cec11744a78626eeee419587eb41bee5a62c7c57f66220eb7048a24492a303d630e4f6ad5c60e88cc524e7141e1c3fa9b304",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/5tRFmRAm/winterly-0.9.3%2B1.20.jar",
-          "filename": "winterly-0.9.3+1.20.jar",
-          "primary": true,
-          "size": 210134
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5aaWibi9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Relg5dBM",
-      "name": "[1.20] Winterly 0.9.2",
-      "version_number": "0.9.2+1.20",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "636b395cd33db49e4eee89ad2b5c1c082190c1f92c89e936e39cd55f0a3350e20e9b475008cde2f32acdc72dd6ee99ecd8f955e79f77473343367462db2c8a50",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/Relg5dBM/winterly-0.9.2%2B1.20.jar",
-          "filename": "winterly-0.9.2+1.20.jar",
-          "primary": true,
-          "size": 209940
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "5aaWibi9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
+      "dependencies": []
     },
     {
       "id": "oETCc3sf",
@@ -431,44 +1030,8 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "5aaWibi9",
           "version_id": "e563ycts",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Jl220nPU",
-      "name": "[1.20] Winterly 0.9.0",
-      "version_number": "0.9.0+1.20",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2434bf55ce04b8d689bf81cc4929537f82f273476e332dd1d9fa8cb6599ff2129c3f4ceb74e72b50621c87af3c18ac81c8fb6d730198ba4a10ed523791dc7e06",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/Jl220nPU/winterly-0.9.0%2B1.20.jar",
-          "filename": "winterly-0.9.0+1.20.jar",
-          "primary": true,
-          "size": 209809
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
           "file_name": null,
           "dependency_type": "required"
         },
@@ -477,272 +1040,30 @@
           "version_id": "s7VTKfLA",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "5aaWibi9",
-          "version_id": "e563ycts",
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "QoNCi3kq",
-      "name": "[1.19.3] Winterly 0.9.0",
-      "version_number": "0.9.0",
+      "id": "tY2t7OKR",
+      "name": "Winterly 0.3.1",
+      "version_number": "0.3.1",
       "game_versions": [
-        "1.19.3",
-        "1.19.4"
+        "1.18",
+        "1.18.1"
       ],
       "loaders": [
-        "fabric",
-        "quilt"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "24edcc76f1ae55c48a6b3f8a0fee3b5ebbacaa9a4227cce4679dfb0c0bb54e0e06a7acbd54904cf34695d81e3669b2e5a47ea2ee001aa2975f2528a95ff5c70b",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/QoNCi3kq/winterly-0.9.0.jar",
-          "filename": "winterly-0.9.0.jar",
+          "sha512": "7bc9a93ade74e9cea944aa909eedb010aab322699fd046fc19913a9fa009137b3aa44bcc5c4c327d6714d054b519ef524750d1b6a76d00de5070e94d3c5aaf02",
+          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.3.1-1.18-fabric/winterly-0.3.1-1.18.1-fabric.jar",
+          "filename": "winterly-0.3.1-1.18.1-fabric.jar",
           "primary": true,
-          "size": 209310
+          "size": 187234
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "5aaWibi9",
-          "version_id": "5zEAvqnX",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "mhFzbEwE",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "IypDP2YU",
-      "name": "[1.19.2] Winterly 0.8.3",
-      "version_number": "0.8.3",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "18814f5a16cb49983a22398e1af44430764bac96f7aadc9bfa9e6d086565cc6c3fd51c57a55108414fa9157c0a44e7d37e1363891abaacb4ab76aaac72b7efb8",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/IypDP2YU/winterly-0.8.3.jar",
-          "filename": "winterly-0.8.3.jar",
-          "primary": true,
-          "size": 209171
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5aaWibi9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "iiDABnKX",
-      "name": "[1.19.2] Winterly 0.8.2",
-      "version_number": "0.8.2",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "e392f8cfd873c1213c2338e03ca979f1078acfa5f873a1f39be9de86b433a18f11e241fb1240bbc929f5208f049a61c5364f38eb000aefd8875ab930b50558cc",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/iiDABnKX/winterly-0.8.2.jar",
-          "filename": "winterly-0.8.2.jar",
-          "primary": true,
-          "size": 210162
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "5aaWibi9",
-          "version_id": "OLwsMJv4",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "DFK1Zcpj",
-      "name": "[1.19.2] Winterly 0.8.1",
-      "version_number": "0.8.1",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "48c9c0d01f45bb572d2ea848ffbd808ea8ffa35e7ee43d1584a37ddec2dcd50a81c7c06e62fa6b6799b3dd91450e962be9c43806cfe9f779e87ff7fce65cf06e",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/DFK1Zcpj/winterly-0.8.1.jar",
-          "filename": "winterly-0.8.1.jar",
-          "primary": true,
-          "size": 189592
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5aaWibi9",
-          "version_id": "OLwsMJv4",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "EwzHX8aM",
-      "name": "[1.19.2] Winterly 0.8.0",
-      "version_number": "0.8.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "13a51cd29e1abb578a858b0397441dd5c47733807e889e89a517e2c5d8b2ef79b1010827dce5fc8814203579a8bb6f9df992087ea6e51d58510ed1f6b85aa95f",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/EwzHX8aM/winterly-0.8.0.jar",
-          "filename": "winterly-0.8.0.jar",
-          "primary": true,
-          "size": 188872
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "5aaWibi9",
-          "version_id": "OLwsMJv4",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "1zhzjHPc",
-      "name": "[1.19.1] Winterly 0.7.2",
-      "version_number": "0.7.2",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "41c27825432d068e1930dd6af196b4c66e1ce60b64e3653a307e1c5520b62fd1edcd25076de931b1c7d2fc2d82428db26d4f66bb9c2546b795b3fccb47cb353e",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.7.2/winterly-0.7.2.jar",
-          "filename": "winterly-0.7.2.jar",
-          "primary": true,
-          "size": 226161
-        },
-        {
-          "sha512": "dd533dd0243d67edad30279a0e931acf774a0d998c26e6e54916f634b07d739ae6ea13fc588f9a8ade35c4c87741f5e8188ae23d8620ed761403fbc583800b6e",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.7.2/winterly-0.7.2-sources.jar",
-          "filename": "winterly-0.7.2-sources.jar",
-          "primary": false,
-          "size": 243217
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5aaWibi9",
-          "version_id": "OLwsMJv4",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
+      "dependencies": []
     },
     {
       "id": "x5ThQvNB",
@@ -774,310 +1095,18 @@
       ],
       "dependencies": [
         {
-          "project_id": "5aaWibi9",
-          "version_id": "oLUBJhyv",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": "3KmOcp6b",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "h1y4Rqsm",
-      "name": "[1.19] Winterly 0.7.0",
-      "version_number": "0.7.0",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "dc771d545174570d7818b82692c12880428f0c8456c1cba6421c56802ae7bdc6856003d2b0e63357e7b74229cc98ed63e6f956745986f73786e56ef7728109e7",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.7.0/winterly-0.6.1.jar",
-          "filename": "winterly-0.6.1.jar",
-          "primary": true,
-          "size": 225978
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "RRq1YQdb",
-      "name": "[1.18.2] Winterly 0.6.1",
-      "version_number": "0.6.1",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "cbbfa81e1802e734adba402fa2b90618928684a04466f4e468788891b6c70362703f826ed3c5abaf8e73089e6fb335fa6b46e34be86e5691da5baebc9830d770",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.6.1/winterly-0.6.1.jar",
-          "filename": "winterly-0.6.1.jar",
-          "primary": true,
-          "size": 225979
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "3UiHsekh",
-      "name": "[1.18.2] Winterly 0.6.0",
-      "version_number": "0.6.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b07db05e719ecbc7670e43e4d1d9b6effc9f0b8463cd4edd4f5db967efbd69141129cdca49d9c3eff77dea31e5d91a5141daab0e31e878c6e4c149eafe4a14d6",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.6.0/winterly-0.6.0.jar",
-          "filename": "winterly-0.6.0.jar",
-          "primary": true,
-          "size": 225994
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "dTs4hjxy",
-      "name": "Winterly 0.5.2",
-      "version_number": "0.5.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6649600043cc9889a5f7290ddb086d7d76a8082da0dfa3031bfb69f1a90aeef2bab59fcef33232ec5f03760039de02857992ca5fec3bae99168d3a16b5267565",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.5.2/winterly-0.5.2.jar",
-          "filename": "winterly-0.5.2.jar",
-          "primary": true,
-          "size": 289325
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "wIj7jjb3",
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "5aaWibi9",
-          "version_id": "XqLNMi9J",
+          "version_id": "oLUBJhyv",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
-    },
-    {
-      "id": "PnsEAyXk",
-      "name": "[1.18.1] Winterly 0.5.1",
-      "version_number": "0.5.1",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a598f9b6f22d29ef1d7f7489f1955639587d2ed932d9bc34d41ae1f8cb842355dd4d706123edab6743c9297ec2ec90fd056f884595ac399205734f95c576ce37",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.5.1/winterly-0.5.1.jar",
-          "filename": "winterly-0.5.1.jar",
-          "primary": true,
-          "size": 289362
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5aaWibi9",
-          "version_id": "vOuy3Z5S",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "mGIxWbTy",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "bDM3AFzD",
-      "name": "Winterly 0.5.0",
-      "version_number": "0.5.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2f403de747636f80d535dde78607c25e6c06327ca829b12052ec62adfc4683fe4e6ea91acbccc3018aaa27b509aa52a82c7f98734ce99425200393e589fe36f6",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.5.1-1.18.1-fabric/winterly-0.5.0-1.18.1-fabric.jar",
-          "filename": "winterly-0.5.0-1.18.1-fabric.jar",
-          "primary": true,
-          "size": 290038
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5aaWibi9",
-          "version_id": "vOuy3Z5S",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "mGIxWbTy",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "EJ1gHSQj",
-      "name": "Winterly 0.4.0",
-      "version_number": "0.4.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "3ee8b2d6b7810f62459295bf64100521649cc571b6da0971e260211463a2be4f80778706691839fac92222203a1ce72f31905f6eb0085575966a07c0b6af98af",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.4.0-1.18.1-fabric/winterly-0.4.0-1.18.1-fabric.jar",
-          "filename": "winterly-0.4.0-1.18.1-fabric.jar",
-          "primary": true,
-          "size": 199450
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "mGIxWbTy",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "5aaWibi9",
-          "version_id": "vOuy3Z5S",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "tY2t7OKR",
-      "name": "Winterly 0.3.1",
-      "version_number": "0.3.1",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "7bc9a93ade74e9cea944aa909eedb010aab322699fd046fc19913a9fa009137b3aa44bcc5c4c327d6714d054b519ef524750d1b6a76d00de5070e94d3c5aaf02",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.3.1-1.18-fabric/winterly-0.3.1-1.18.1-fabric.jar",
-          "filename": "winterly-0.3.1-1.18.1-fabric.jar",
-          "primary": true,
-          "size": 187234
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "P3Spm6Wt",
-      "name": "Winterly 0.3.0",
-      "version_number": "0.3.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "3df1753d61423e22d68a93ff944438ba46579588ee9139ea2533022c5d0ae4c6c90d84694662c81112bb6f57f8e255017a45c90fb0bee5034088a4effde4da4c",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.3.0-1.18-fabric/winterly-0.3.0-1.18-fabric.jar",
-          "filename": "winterly-0.3.0-1.18-fabric.jar",
-          "primary": true,
-          "size": 184519
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "h9VadkUn",
-      "name": "Winterly 0.2.0",
-      "version_number": "0.2.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "7649c3698c1843a7ccbe3eae5d82491e950de1ac253f405e213fb9c32320911401570af257ec9afeb1415b7714fbbfc8ef29ab7320428a780f523cf444cf0c97",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.2.0-1.18-fabric/winterly-0.2.0-1.18-fabric.jar",
-          "filename": "winterly-0.2.0-1.18-fabric.jar",
-          "primary": true,
-          "size": 173053
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "MdpUk9sQ",
-      "name": "Winterly 0.1.0",
-      "version_number": "0.1.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "38a278e8348cfda234079b35afa46591a1f590e5e215b748b49658d7f8bad4fc13df38ff0960bdefbd68d8b4556954427aee65ac31b7b7c01aa258a185288966",
-          "url": "https://cdn.modrinth.com/data/CEvDfomf/versions/0.1.0-1.18-fabric/winterly-0.1.0-1.18-fabric.jar",
-          "filename": "winterly-0.1.0-1.18-fabric.jar",
-          "primary": true,
-          "size": 147498
-        }
-      ],
-      "dependencies": []
     }
   ]
 }

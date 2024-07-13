@@ -5,6 +5,49 @@
   "description": "Automatically try to reconnect and enter saved commands.",
   "versions": [
     {
+      "id": "7aKcwfcm",
+      "name": "[1.20.1 - 1.20.4] AutoReconnector 1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ba4a4692d479f7385eb851b8ef2750bc680f305fd6c6a114d3e1aa797513b3805694cd66cec6a7d671a2318cb89ae2dcb61144973f81f4a0c09e3cf82f8e4635",
+          "url": "https://cdn.modrinth.com/data/uO8XFzPf/versions/7aKcwfcm/AutoConnector-1.0.0.jar",
+          "filename": "AutoConnector-1.0.0.jar",
+          "primary": true,
+          "size": 14166
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "90wMGgzv",
       "name": "[1.20.5 - 1.20.6] AutoReconnector 2.1.0",
       "version_number": "2.1.0",
@@ -106,49 +149,6 @@
           "filename": "autoreconnector-fabric-1.1.0.jar",
           "primary": true,
           "size": 14318
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "7aKcwfcm",
-      "name": "[1.20.1 - 1.20.4] AutoReconnector 1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ba4a4692d479f7385eb851b8ef2750bc680f305fd6c6a114d3e1aa797513b3805694cd66cec6a7d671a2318cb89ae2dcb61144973f81f4a0c09e3cf82f8e4635",
-          "url": "https://cdn.modrinth.com/data/uO8XFzPf/versions/7aKcwfcm/AutoConnector-1.0.0.jar",
-          "filename": "AutoConnector-1.0.0.jar",
-          "primary": true,
-          "size": 14166
         }
       ],
       "dependencies": [

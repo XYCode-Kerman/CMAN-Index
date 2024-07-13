@@ -5,9 +5,9 @@
   "description": "Adds 6 turrets and drones for protection and combat assistance",
   "versions": [
     {
-      "id": "yuhG8Sjt",
-      "name": "K-Turrets 1.0.4-1.20.1",
-      "version_number": "1.0.4-1.20.1",
+      "id": "ABLaa7dB",
+      "name": "K-Turrets 1.0.0-1.20.1",
+      "version_number": "1.0.0-1.20.1",
       "game_versions": [
         "1.20",
         "1.20.1"
@@ -17,14 +17,20 @@
       ],
       "files": [
         {
-          "sha512": "7b48ab09b85a06600d2209437ed7a8f2107c93173a391da292d3a0b9c5a568699cb2890e3f56017099ef7267303e236caf7382ca4e607dcb07d870bfa8f7c1aa",
-          "url": "https://cdn.modrinth.com/data/gRYeIzgX/versions/yuhG8Sjt/k-turrets-1.0.4-1.20.1.jar",
-          "filename": "k-turrets-1.0.4-1.20.1.jar",
+          "sha512": "2e5228e1b7961183f5ef236972060ef37ae8e480f6ba6940e8d383ee50348d46f19556ada37191a0dcb5731a30849b9f076e3119fe7c0ca1d2b8520f631d6a4e",
+          "url": "https://cdn.modrinth.com/data/gRYeIzgX/versions/ABLaa7dB/k-turrets-1.0.0-1.20.1.jar",
+          "filename": "k-turrets-1.0.0-1.20.1.jar",
           "primary": true,
-          "size": 942874
+          "size": 940083
         }
       ],
       "dependencies": [
+        {
+          "project_id": "fwC1Kin9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "K01OU20C",
           "version_id": null,
@@ -33,53 +39,6 @@
         },
         {
           "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "fwC1Kin9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "G2uzU8zO",
-      "name": "K-Turrets 1.0.3-1.20.1",
-      "version_number": "1.0.3-1.20.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "bd6cb45c76bb7e4db514be4087ca33eb4fca0547c44ad259aa4349d16f15d960a2403bf6b34a4674b084f660fa363413207f4c5a7172846ab8d9555c1e623d7f",
-          "url": "https://cdn.modrinth.com/data/gRYeIzgX/versions/G2uzU8zO/k-turrets-1.0.3-1.20.1.jar",
-          "filename": "k-turrets-1.0.3-1.20.1.jar",
-          "primary": true,
-          "size": 942764
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "K01OU20C",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "fwC1Kin9",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -108,11 +67,46 @@
       ],
       "dependencies": [
         {
-          "project_id": "K01OU20C",
+          "project_id": "ccKDOlHs",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
+        {
+          "project_id": "fwC1Kin9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "G2uzU8zO",
+      "name": "K-Turrets 1.0.3-1.20.1",
+      "version_number": "1.0.3-1.20.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "bd6cb45c76bb7e4db514be4087ca33eb4fca0547c44ad259aa4349d16f15d960a2403bf6b34a4674b084f660fa363413207f4c5a7172846ab8d9555c1e623d7f",
+          "url": "https://cdn.modrinth.com/data/gRYeIzgX/versions/G2uzU8zO/k-turrets-1.0.3-1.20.1.jar",
+          "filename": "k-turrets-1.0.3-1.20.1.jar",
+          "primary": true,
+          "size": 942764
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "ccKDOlHs",
           "version_id": null,
@@ -121,6 +115,12 @@
         },
         {
           "project_id": "fwC1Kin9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -149,12 +149,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "K01OU20C",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "ccKDOlHs",
           "version_id": null,
           "file_name": null,
@@ -165,42 +159,37 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "ABLaa7dB",
-      "name": "K-Turrets 1.0.0-1.20.1",
-      "version_number": "1.0.0-1.20.1",
+      "id": "YGToWIsO",
+      "name": "K-Turrets 0.0.18-1.19.2",
+      "version_number": "0.0.18-1.19.2",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "2e5228e1b7961183f5ef236972060ef37ae8e480f6ba6940e8d383ee50348d46f19556ada37191a0dcb5731a30849b9f076e3119fe7c0ca1d2b8520f631d6a4e",
-          "url": "https://cdn.modrinth.com/data/gRYeIzgX/versions/ABLaa7dB/k-turrets-1.0.0-1.20.1.jar",
-          "filename": "k-turrets-1.0.0-1.20.1.jar",
+          "sha512": "20934eb1c6b16d97b6cd688ab68cd18aac13e878193146b65f412fe936c9c2c80805dc419d8e7dff577dce5365d4270b48d928dce2416be5aed0dc54460d3eb4",
+          "url": "https://cdn.modrinth.com/data/gRYeIzgX/versions/YGToWIsO/k-turrets-0.0.18-1.19.2.jar",
+          "filename": "k-turrets-0.0.18-1.19.2.jar",
           "primary": true,
-          "size": 940083
+          "size": 956053
         }
       ],
       "dependencies": [
-        {
-          "project_id": "K01OU20C",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "fwC1Kin9",
           "version_id": null,
@@ -234,11 +223,46 @@
       ],
       "dependencies": [
         {
+          "project_id": "fwC1Kin9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "ccKDOlHs",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "yuhG8Sjt",
+      "name": "K-Turrets 1.0.4-1.20.1",
+      "version_number": "1.0.4-1.20.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "7b48ab09b85a06600d2209437ed7a8f2107c93173a391da292d3a0b9c5a568699cb2890e3f56017099ef7267303e236caf7382ca4e607dcb07d870bfa8f7c1aa",
+          "url": "https://cdn.modrinth.com/data/gRYeIzgX/versions/yuhG8Sjt/k-turrets-1.0.4-1.20.1.jar",
+          "filename": "k-turrets-1.0.4-1.20.1.jar",
+          "primary": true,
+          "size": 942874
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "K01OU20C",
           "version_id": null,
@@ -250,33 +274,9 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "YGToWIsO",
-      "name": "K-Turrets 0.0.18-1.19.2",
-      "version_number": "0.0.18-1.19.2",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+        },
         {
-          "sha512": "20934eb1c6b16d97b6cd688ab68cd18aac13e878193146b65f412fe936c9c2c80805dc419d8e7dff577dce5365d4270b48d928dce2416be5aed0dc54460d3eb4",
-          "url": "https://cdn.modrinth.com/data/gRYeIzgX/versions/YGToWIsO/k-turrets-0.0.18-1.19.2.jar",
-          "filename": "k-turrets-0.0.18-1.19.2.jar",
-          "primary": true,
-          "size": 956053
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "fwC1Kin9",
+          "project_id": "ccKDOlHs",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"

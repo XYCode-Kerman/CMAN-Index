@@ -5,72 +5,92 @@
   "description": "Library mod for dynamically generating assets at runtime.",
   "versions": [
     {
-      "id": "Cur17NBQ",
-      "name": "Dynamic Asset Generator [Fabric/Quilt] v6.1.1",
-      "version_number": "6.1.1",
+      "id": "1lSEUa2K",
+      "name": "0.3.0",
+      "version_number": "0.3.0-forge",
       "game_versions": [
-        "1.21"
+        "1.18.1"
       ],
       "loaders": [
-        "fabric",
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "981f60e00ee0a7c42cca2c07f62f806adb061c6fed479fca62071f24c4bd686c780ec9affc3f8e9efbea24c2ba033deb480dbfe7e843b538fcbee2ddc09614a3",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.3.0-forge/dynamic_asset_generator-forge-0.3.0.jar",
+          "filename": "dynamic_asset_generator-forge-0.3.0.jar",
+          "primary": true,
+          "size": 90261
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "1w9FdcOy",
+      "name": "0.4.8",
+      "version_number": "0.4.8-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d5abb695b6474123cd0c89a85425f95ee94a057ae3103093e6e0b47260d717aaccb84a298dcdc4e7452e29d30c9d9a71424cd97a9d2ee801d4022fbb7bfc68b4",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.8-forge/dynamic_asset_generator-forge-0.4.8.jar",
+          "filename": "dynamic_asset_generator-forge-0.4.8.jar",
+          "primary": true,
+          "size": 111328
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "2RoV7FmU",
+      "name": "1.1.0",
+      "version_number": "1.1.0-1.19.2-quilt",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
         "quilt"
       ],
       "files": [
         {
-          "sha512": "af6e4eeea768c4bc587a1f33bbd931ae87755996cef508c0627d964c7c2a8207138f12f6a7af8cbe5fe0da2f607abac7b915f0da81b5c9e9c4ea348409c990c1",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/Cur17NBQ/dynamicassetgenerator-6.1.1-fabric.jar",
-          "filename": "dynamicassetgenerator-6.1.1-fabric.jar",
-          "primary": true,
-          "size": 409081
+          "sha512": "4c4a5530017bec75891545bcacf80432b21f5ec41d220cabd00e6194bef0479e3640403be68c2f80d3d2de795ca7e655b2247bbf66af25e8934bb95402015d89",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/2RoV7FmU/dynamic_asset_generator-quilt-1.19.2-1.1.0.jar",
+          "filename": "dynamic_asset_generator-quilt-1.19.2-1.1.0.jar",
+          "primary": false,
+          "size": 225071
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
+          "project_id": "qvIfYCYJ",
+          "version_id": "BTCxVi75",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "KJv84EqK",
-      "name": "Dynamic Asset Generator [NeoForge] v6.1.1",
-      "version_number": "6.1.1",
+      "id": "2XdHV4Hn",
+      "name": "0.4.2",
+      "version_number": "0.4.2-fabric",
       "game_versions": [
-        "1.21"
+        "1.18.2"
       ],
       "loaders": [
-        "neoforge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "f85e3eda69352522ab3c855c65a141adfa3e06cc3865d166fd374ed93aad6bc8b904a9204979cd8351726b7b99f0a2024b5ba4c20da9130cbaded232b97a7c60",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/KJv84EqK/dynamicassetgenerator-6.1.1-neoforge.jar",
-          "filename": "dynamicassetgenerator-6.1.1-neoforge.jar",
+          "sha512": "3ac58bc8ba8a9f3b2d6fbaf5a9b3de64e2ad18f5275469a43c15211a4137e27b071eee786e014c4416ef729765309c924dc96487b52a94495e77e21d92529968",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.2-fabric/dynamic_asset_generator-fabric-0.4.2.jar",
+          "filename": "dynamic_asset_generator-fabric-0.4.2.jar",
           "primary": true,
-          "size": 393573
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "SxUfQiVa",
-      "name": "Dynamic Asset Generator [NeoForge] v6.0.5",
-      "version_number": "6.0.5",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "51339af24115db9e65575a66c739064117d63270043508c50c6701089afa8e72773746583457fef0c9d8c1de068a9b823f894445662f36beed8053bf02939f41",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/SxUfQiVa/dynamicassetgenerator-6.0.5-neoforge.jar",
-          "filename": "dynamicassetgenerator-6.0.5-neoforge.jar",
-          "primary": true,
-          "size": 393568
+          "size": 213413
         }
       ],
       "dependencies": []
@@ -105,9 +125,198 @@
       ]
     },
     {
-      "id": "kg2t6GUl",
-      "name": "5.1.3",
-      "version_number": "5.1.3",
+      "id": "4AmH0HfB",
+      "name": "3.1.0",
+      "version_number": "3.1.0",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c7d4099e2c0e1c6c0555eebb4fc3c5da98109506c5739fdccd7bb3f4b0d480688d0fd6b7ebd551f638a068a28de9c82a4a64e1f60316b8c256d4e2d950af3ff6",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/4AmH0HfB/dynamicassetgenerator-forge-1.19.4-3.1.0.jar",
+          "filename": "dynamicassetgenerator-forge-1.19.4-3.1.0.jar",
+          "primary": true,
+          "size": 233885
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "5CjVmHZg",
+      "name": "4.2.0",
+      "version_number": "4.2.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "a34efdbdaa181b2901c7254fc10dd7ad2e15bbacc7be06b2b385fccad450645a5e836583f6bf8a43e77502e3d1eec7e6955196160cf8541cedd34ebbc69ef3e1",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/5CjVmHZg/dynamicassetgenerator-quilt-1.20.1-4.2.0.jar",
+          "filename": "dynamicassetgenerator-quilt-1.20.1-4.2.0.jar",
+          "primary": true,
+          "size": 319212
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "fFx48erS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "5F2gmUcs",
+      "name": "4.1.2",
+      "version_number": "4.1.2",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "32f3633fa7d38ce4955e6890c96eae82551b7f73cd5946564053941986686d34707b33bb9005ae0effc990f844f8ade6dd60e559dabb81f2a5445a9c6ee213bf",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/5F2gmUcs/dynamicassetgenerator-quilt-1.20.1-4.1.2.jar",
+          "filename": "dynamicassetgenerator-quilt-1.20.1-4.1.2.jar",
+          "primary": true,
+          "size": 307052
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "fFx48erS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "5ZDJHeni",
+      "name": "0.6.3",
+      "version_number": "0.6.3-1.19-fabric",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "03eea7a68f01ae94c8e0a793f4c9e8542d25c07bd9023d05a245398543a4048c54ec57f562f4fece9a1f166e219805044050ab788e7a5c21e0746ce4bf535f60",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.3-1.19-fabric/dynamic_asset_generator-fabric-1.19-0.6.3.jar",
+          "filename": "dynamic_asset_generator-fabric-1.19-0.6.3.jar",
+          "primary": true,
+          "size": 270306
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "5j8bX7hG",
+      "name": "4.2.2",
+      "version_number": "4.2.2",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "9cfa89f5344b39d0fc694340e56ae6617d9063128b30f853d677e8ea5c1be74a6f9eb593cb20a406ec5e629e6796f63c30edb2f4707e02b8f53eb82158507fd7",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/5j8bX7hG/dynamicassetgenerator-quilt-1.20.1-4.2.2.jar",
+          "filename": "dynamicassetgenerator-quilt-1.20.1-4.2.2.jar",
+          "primary": true,
+          "size": 327053
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "6ZI3xnH5",
+      "name": "0.6.0",
+      "version_number": "0.6.0-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a7081bac086448646e7d55d970253452531e3ebf817122f2b6a9e52515a49ea4513c6e8cbf23531e872b8951dc600e8f76c1a49b7cf9c800f499fd62177b8e2b",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.0-fabric/dynamic_asset_generator-fabric-1.18.2-0.6.0.jar",
+          "filename": "dynamic_asset_generator-fabric-1.18.2-0.6.0.jar",
+          "primary": true,
+          "size": 245717
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "73rtMDa5",
+      "name": "0.2.1",
+      "version_number": "0.2.1-forge",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "650e82861b58427eb06cde6a481bcea800c1b480719a859b8234b79a0aea5f56c32bb1a017364068a83bdffec2516021029707595e1094fa7f9ee24c30a873f6",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.2.1-forge/dynamic_asset_generator-forge-0.2.1.jar",
+          "filename": "dynamic_asset_generator-forge-0.2.1.jar",
+          "primary": false,
+          "size": 52022
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "788tpQoG",
+      "name": "0.5.0",
+      "version_number": "0.5.0-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "45e2c95caf24689bffe6ca73244256ca3415e6a64b7c1dcfad9aa9f90e521090b9be2736f38464d8357090f144e0871514bbf0cdc304191d42f0031db1b00c5d",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.5.0-fabric/dynamic_asset_generator-fabric-0.5.0.jar",
+          "filename": "dynamic_asset_generator-fabric-0.5.0.jar",
+          "primary": true,
+          "size": 239482
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "7cmQmu8g",
+      "name": "5.1.0",
+      "version_number": "5.1.0",
       "game_versions": [
         "1.20.4"
       ],
@@ -116,14 +325,331 @@
       ],
       "files": [
         {
-          "sha512": "37ab1ecd21c4bc896e0f05a2fe3110dbf5e0837c4b00a777acdffafcd9d7393e48a074543788cb0cc50752eb9ac950aa3129b28b30cf8012f05fdf617eb66a51",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/kg2t6GUl/dynamicassetgenerator-neoforge-1.20.4-5.1.3.jar",
-          "filename": "dynamicassetgenerator-neoforge-1.20.4-5.1.3.jar",
+          "sha512": "96aa0bf29647d9c91c5b6a4b6cdbd314c830b27fcd34ca7644d96cee8612f45da5b15bb77cafe0ed4012810463a71dab7b510d8754f5317327544b55f95955be",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/7cmQmu8g/dynamicassetgenerator-neoforge-1.20.4-5.1.0.jar",
+          "filename": "dynamicassetgenerator-neoforge-1.20.4-5.1.0.jar",
           "primary": true,
-          "size": 389920
+          "size": 389945
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "7r3EdX8l",
+      "name": "3.0.2",
+      "version_number": "3.0.2",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "587c2be0c3088cdf2e459703dd33426d314bf7c4b27b247ef2270d42cadf0c4570ee285051fac19554944f975736bfebdab609ddbd85bebefba37e369f8e0120",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/7r3EdX8l/dynamicassetgenerator-forge-1.19.3-3.0.2.jar",
+          "filename": "dynamicassetgenerator-forge-1.19.3-3.0.2.jar",
+          "primary": true,
+          "size": 230156
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "80wKRnEd",
+      "name": "0.5.2",
+      "version_number": "0.5.2-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ffbb33664c3af5af86665c971ef57370af9d5785fee92e222fa35d54e1f28cf9130de4ba8426cf4f0a574e490f18203e04a5ae042702f2b280ec84887bb5b5f3",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.5.2-forge/dynamic_asset_generator-forge-0.5.2.jar",
+          "filename": "dynamic_asset_generator-forge-0.5.2.jar",
+          "primary": true,
+          "size": 120462
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "8J576OET",
+      "name": "4.1.2",
+      "version_number": "4.1.2",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "30438125d8ea12e126b166874b1ed6d16a9e1adaa42a0456f23e8cb996655c83fdb5dea569bdaf5f6364ddf51707a156ce2d7b2138965ac05f52569f5bbaeafd",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/8J576OET/dynamicassetgenerator-forge-1.20.1-4.1.2.jar",
+          "filename": "dynamicassetgenerator-forge-1.20.1-4.1.2.jar",
+          "primary": true,
+          "size": 293477
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "8cH3WYyP",
+      "name": "Dynamic Asset Generator [NeoForge] v6.0.3",
+      "version_number": "6.0.3",
+      "game_versions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "0a83ebbb9346a12f21a6e52445adb643f31db85d464a6f19c668b5954c0c962e30e4774e3d0774552e233ef0f13cf22c1ea3727d6f64d2446418f456d6020894",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/8cH3WYyP/dynamicassetgenerator-6.0.3-neoforge.jar",
+          "filename": "dynamicassetgenerator-6.0.3-neoforge.jar",
+          "primary": true,
+          "size": 393569
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "9CJIpcf1",
+      "name": "5.1.1",
+      "version_number": "5.1.1",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3925837111e454a37fbdd707e80aeae015ddde40bbafd50ba67692b5205529d1c49f8c499a9a6ae5e13641134ad35a6fab327d84067c31edf76474a414655b66",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/9CJIpcf1/dynamicassetgenerator-fabriquilt-1.20.4-5.1.1.jar",
+          "filename": "dynamicassetgenerator-fabriquilt-1.20.4-5.1.1.jar",
+          "primary": true,
+          "size": 407415
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "9EHWe8Bn",
+      "name": "1.0.0",
+      "version_number": "1.0.0-1.19-quilt",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d969f769e15271da06a6530417f248b50c31909b6acb3575ca83bda96e05df31823af1add941d381452a5c4ee7294a9cbcc9b23afa7769cd6d3ae38eec04a2bf",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/1.0.0-1.19-quilt/dynamic_asset_generator-quilt-1.19-1.0.0.jar",
+          "filename": "dynamic_asset_generator-quilt-1.19-1.0.0.jar",
+          "primary": true,
+          "size": 184483
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "9SCkcuaH",
+      "name": "3.0.5",
+      "version_number": "3.0.5",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "db47a9dc72d40dca6e9ca255aa878fe68c3b3e8a06bfb9cf8a9cc1607c5e7d6c945dfe43334978ea06bbef178f4ba13ffa2d52a1310e0e6be9322aba901967a7",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/9SCkcuaH/dynamicassetgenerator-forge-1.19.4-3.0.5.jar",
+          "filename": "dynamicassetgenerator-forge-1.19.4-3.0.5.jar",
+          "primary": true,
+          "size": 230822
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "9TcaVVia",
+      "name": "0.1.0",
+      "version_number": "0.1.0-forge",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d9815088a76c6eb855b2497d77e82041501722cfe9497ced232d8d07113868ebae95f88cf3ae18424e4c527aa04e939a73e4ac8d5543705c114f94e3c7957e03",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.0-forge/dynamic_asset_generator-forge-0.1.0.jar",
+          "filename": "dynamic_asset_generator-forge-0.1.0.jar",
+          "primary": false,
+          "size": 38534
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "9mVr370i",
+      "name": "0.1.2",
+      "version_number": "0.1.2-forge",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "7c9e420732bedd0d440a527c80fcaf94cbc4277b4b6b3b85184127de9638f724d03314815ee386c327c3fbff945190930dcbb11f88193ec05e7a083028606c77",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.2-forge/dynamic_asset_generator-forge-0.1.2.jar",
+          "filename": "dynamic_asset_generator-forge-0.1.2.jar",
+          "primary": false,
+          "size": 39040
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ApkECRvM",
+      "name": "4.1.1",
+      "version_number": "4.1.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "872818b5142921d14b7788da4f699f5e29b8e0790ed0d24f4867fa0c115956ac7646d3669e3b9ac9bf27dcbd0c0e15d6242978e4e2ba2b7423028c81d2202a4f",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/ApkECRvM/dynamicassetgenerator-quilt-1.20.1-4.1.1.jar",
+          "filename": "dynamicassetgenerator-quilt-1.20.1-4.1.1.jar",
+          "primary": true,
+          "size": 306885
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "fFx48erS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "B0pZPjA7",
+      "name": "0.5.1",
+      "version_number": "0.5.1-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "6f60ea635645107a8a269e774debcd6e3ab0c3a0eae4c97e97531fcf8e77c19779a0d298c6a0619cfce35115564bb5a0736f0907261c8cd3d8390f92ce7ec544",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.5.1-fabric/dynamic_asset_generator-fabric-0.5.1.jar",
+          "filename": "dynamic_asset_generator-fabric-0.5.1.jar",
+          "primary": true,
+          "size": 240771
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "BG5jWxpR",
+      "name": "1.0.0",
+      "version_number": "1.0.0-1.19-fabric",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "02a421e729fcf5a78a28e20894e9e8ab4f13344bc4575ae8a4c31398a74fd406a986e3f26ee64509d1faad91ba51531fa350e20598a0e37d643a0c9fb9a94fb8",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/1.0.0-1.19-fabric/dynamic_asset_generator-fabric-1.19-1.0.0.jar",
+          "filename": "dynamic_asset_generator-fabric-1.19-1.0.0.jar",
+          "primary": true,
+          "size": 318277
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "CC9FFqHc",
+      "name": "0.1.4d",
+      "version_number": "0.1.4d-fabric",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "6b9e05ad69a73b5fee926cd72b5a6939cf03c11f15916fa7840f48cdca4296824546cb6bb158ac8c9ca80764ef8d7a11a92d4e3bee9ba53be952233d1ffe88fd",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.4d-fabric/dynamic_asset_generator-fabric-0.1.4d.jar",
+          "filename": "dynamic_asset_generator-fabric-0.1.4d.jar",
+          "primary": false,
+          "size": 39521
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Cur17NBQ",
+      "name": "Dynamic Asset Generator [Fabric/Quilt] v6.1.1",
+      "version_number": "6.1.1",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "af6e4eeea768c4bc587a1f33bbd931ae87755996cef508c0627d964c7c2a8207138f12f6a7af8cbe5fe0da2f607abac7b915f0da81b5c9e9c4ea348409c990c1",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/Cur17NBQ/dynamicassetgenerator-6.1.1-fabric.jar",
+          "filename": "dynamicassetgenerator-6.1.1-fabric.jar",
+          "primary": true,
+          "size": 409081
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "D9OQbbjj",
@@ -149,6 +675,2290 @@
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Dwqk4bs4",
+      "name": "0.4.7",
+      "version_number": "0.4.7-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c8b87cc6c6daa407aa82ea33539f754e5ac503b0303c767060b8750a89c2020c4f9434c528628873362b668feb914ca0cf342eb33369427a0dbae141dd45c594",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.7-forge/dynamic_asset_generator-forge-0.4.7.jar",
+          "filename": "dynamic_asset_generator-forge-0.4.7.jar",
+          "primary": true,
+          "size": 108747
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "EPCJoxv9",
+      "name": "2.0.0",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "decb7e23472bd9519334c3a0f3f8b563910c98be7f138b8459b461867558794cdf062603516fc0f88b37532b22eddba84238e3c9b9fe8516c5983ef4f3ea06c4",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/EPCJoxv9/dynamicassetgenerator-quilt-1.19.3-2.0.0.jar",
+          "filename": "dynamicassetgenerator-quilt-1.19.3-2.0.0.jar",
+          "primary": true,
+          "size": 215452
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "eaoB99I6",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "FfvTdb01",
+      "name": "0.6.3",
+      "version_number": "0.6.3-1.19-quilt",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "b1a16bb5677fa6d3c6cea1a00b8b57e5fee3d56f5912e9f1f39ad4c949611837deccf876775a444656bbdfc97e3842220ef24ad72792a4aa4c9627f2aaf7cd89",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.3-1.19-quilt/dynamic_asset_generator-quilt-1.19-0.6.3.jar",
+          "filename": "dynamic_asset_generator-quilt-1.19-0.6.3.jar",
+          "primary": true,
+          "size": 268506
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "GIAxMj5Q",
+      "name": "3.0.3",
+      "version_number": "3.0.3",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "a247debff1150343c037853137754b3f69dd2955d029325f249b5c1a1600dacc8321ddabeb791be88c0abf2b9bdd503a075c8aaaad8850ba2c21895a1f326ce2",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/GIAxMj5Q/dynamicassetgenerator-quilt-1.19.4-3.0.3.jar",
+          "filename": "dynamicassetgenerator-quilt-1.19.4-3.0.3.jar",
+          "primary": true,
+          "size": 241821
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "QPXihdoB",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Gcx4WTH3",
+      "name": "Dynamic Asset Generator [Fabric/Quilt] v6.0.4",
+      "version_number": "6.0.4",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3e7a68df605002abff56aebdac22408b496c79352aa669d0bc8c4dc79ae1840b612940c09133f4b1d5173cd3d07b546d3d09a904e8afe2e9933a06402d848a48",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/Gcx4WTH3/dynamicassetgenerator-6.0.4-fabric.jar",
+          "filename": "dynamicassetgenerator-6.0.4-fabric.jar",
+          "primary": true,
+          "size": 409293
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "HxSQxWqB",
+      "name": "0.6.4",
+      "version_number": "0.6.4-1.19-fabric",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5b76d28dda1dda1b1e200793ad4b3ab02c0f64b4e7a65c90f2a15543646ea317b2834f75dbb98981f160d31f888b6932dfbf2447e8b3f324559c2949b0428040",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.4-1.19-fabric/dynamic_asset_generator-fabric-1.19-0.6.4.jar",
+          "filename": "dynamic_asset_generator-fabric-1.19-0.6.4.jar",
+          "primary": true,
+          "size": 270306
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "IOm2PZNz",
+      "name": "3.0.0",
+      "version_number": "3.0.0",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d546570be669d7bc51916143a821ea91d6fe96b37b6febe244d698b60be05c23659b7218df6042106563db5adf3ce9b8afa5418eb72a0d8a9d69d8c3d78da0f8",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/IOm2PZNz/dynamicassetgenerator-quilt-1.19.3-3.0.0.jar",
+          "filename": "dynamicassetgenerator-quilt-1.19.3-3.0.0.jar",
+          "primary": true,
+          "size": 240796
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "eaoB99I6",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "IdQgnw2q",
+      "name": "Dynamic Asset Generator [Fabric/Quilt] v6.0.1",
+      "version_number": "6.0.1",
+      "game_versions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "6b82180578f72c3db4bfb6f81c09a96fc41aa0e52452ebe5f8fe0f879421a5f91790feb7a8623f48cd5d5ee4b1298ee1cd6bf91bdc4a0a7ddda9acb47d9fe5ad",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/IdQgnw2q/dynamicassetgenerator-6.0.1-fabric.jar",
+          "filename": "dynamicassetgenerator-6.0.1-fabric.jar",
+          "primary": true,
+          "size": 741427
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "IiRLMpBg",
+      "name": "0.6.0",
+      "version_number": "0.6.0-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "cfbffc7218b494d4e8f3825191df4bd45173e88ca4232f1f3b1a49840539c3ded5de45bc8fab853680d3915ff4b9205b37c220341657c8dd44efaf5e7908a5f0",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.0-forge/dynamic_asset_generator-forge-1.18.2-0.6.0.jar",
+          "filename": "dynamic_asset_generator-forge-1.18.2-0.6.0.jar",
+          "primary": true,
+          "size": 119899
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "J2rqP5Qj",
+      "name": "5.0.0",
+      "version_number": "5.0.0",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "50d0c0f80dfd9c2c552e40c0808a7b561aab9158c588f88b123e11989cf565a7a84b57dbc30f8eed31fe7a5489796bf40cdc2b35f682c7fa7acbbef100240232",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/J2rqP5Qj/dynamicassetgenerator-fabriquilt-1.20.2-5.0.0.jar",
+          "filename": "dynamicassetgenerator-fabriquilt-1.20.2-5.0.0.jar",
+          "primary": true,
+          "size": 402290
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "JulhGz4S",
+      "name": "0.7.0",
+      "version_number": "0.7.0-1.19-fabric",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e3a0b07cbc09e9ecf19a30c928cf584b50d9ca1491624733ddea2e0b631cecd970f73fcd1d8b3a5f286fb3ccec0b01b0a70be088ca338a911bc02c03d9d1c68e",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.7.0-1.19-fabric/dynamic_asset_generator-fabric-1.19-0.7.0.jar",
+          "filename": "dynamic_asset_generator-fabric-1.19-0.7.0.jar",
+          "primary": true,
+          "size": 276506
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "KCIcUX4v",
+      "name": "5.1.2",
+      "version_number": "5.1.2",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "7e9ae3f974e0acfbb3717963a29c894a9d670778c16ef01343a0741c4f3404d7d81ab76867913555246fb06ea16c1c6568d960e87c2723f137e44a5225502431",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/KCIcUX4v/dynamicassetgenerator-neoforge-1.20.4-5.1.2.jar",
+          "filename": "dynamicassetgenerator-neoforge-1.20.4-5.1.2.jar",
+          "primary": true,
+          "size": 390197
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "KJv84EqK",
+      "name": "Dynamic Asset Generator [NeoForge] v6.1.1",
+      "version_number": "6.1.1",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "f85e3eda69352522ab3c855c65a141adfa3e06cc3865d166fd374ed93aad6bc8b904a9204979cd8351726b7b99f0a2024b5ba4c20da9130cbaded232b97a7c60",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/KJv84EqK/dynamicassetgenerator-6.1.1-neoforge.jar",
+          "filename": "dynamicassetgenerator-6.1.1-neoforge.jar",
+          "primary": true,
+          "size": 393573
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "KoQnZCkH",
+      "name": "Dynamic Asset Generator [NeoForge] v6.1.0",
+      "version_number": "6.1.0",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "5cf987a3f5bc15a827b30ea62b0afa26fa5a6a27b29b60adc97fbd388b3bc352ced705bb37ddc6e61310ce20079a03f0f01f8320de68042aaaf94258a51143e5",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/KoQnZCkH/dynamicassetgenerator-6.1.0-neoforge.jar",
+          "filename": "dynamicassetgenerator-6.1.0-neoforge.jar",
+          "primary": true,
+          "size": 393573
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "KqV0e28N",
+      "name": "5.1.1",
+      "version_number": "5.1.1",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "27fd39278aa4a27ae7047d5e535bb918f79a6cb23adc7a7959d85ef74e80ae53bdb98cf3812c699bed1836cd74219474585bed67289ccbfd102a6dec659e2c06",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/KqV0e28N/dynamicassetgenerator-neoforge-1.20.4-5.1.1.jar",
+          "filename": "dynamicassetgenerator-neoforge-1.20.4-5.1.1.jar",
+          "primary": true,
+          "size": 390085
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "L0GthGHl",
+      "name": "1.2.0",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "1813b800d6feaec8d0ecc08fc12e31a5cb50f5a240431e07af9a5872b6d21c1414c139ec96faccf8688bc32f44baf1bd095ba03ac55645bf657e013e1a296bca",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/L0GthGHl/dynamic_asset_generator-quilt-1.19.2-1.2.0.jar",
+          "filename": "dynamic_asset_generator-quilt-1.19.2-1.2.0.jar",
+          "primary": true,
+          "size": 241680
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "BTCxVi75",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "L662ZW7p",
+      "name": "0.7.1",
+      "version_number": "0.7.1-1.19-quilt",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "dbdfa12c1d10d9015ec70228e46cbc60179cbbdd07b638d2d08c33c83651ea37d00f4c3f49e69c074f5e3ac08f6199a7a425c9f5c3ea0403982cf42fef173c6a",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.7.1-1.19-quilt/dynamic_asset_generator-quilt-1.19-0.7.1.jar",
+          "filename": "dynamic_asset_generator-quilt-1.19-0.7.1.jar",
+          "primary": true,
+          "size": 142811
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Lo5dk8J4",
+      "name": "1.2.0",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "4e8d846a890f527c7287821e703f8a5d4bc36c1971879893b3d37a3170202acfcc0167878736b4d6821250e202ea1da996b04de9e6767123873fb831b6be218f",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/Lo5dk8J4/dynamic_asset_generator-forge-1.19.2-1.2.0.jar",
+          "filename": "dynamic_asset_generator-forge-1.19.2-1.2.0.jar",
+          "primary": true,
+          "size": 235174
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "M6m3Slbs",
+      "name": "0.5.0",
+      "version_number": "0.5.0-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c7d96f02b31801699ec9b5fb77e7275d994b686859f14a08651ae7ff204ee9bc1687a815327535e2a7c9b8c5539c335b0b88a98232ca7b7426240a6b79ecfd14",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.5.0-forge/dynamic_asset_generator-forge-0.5.0.jar",
+          "filename": "dynamic_asset_generator-forge-0.5.0.jar",
+          "primary": true,
+          "size": 119032
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "N4O8ejSq",
+      "name": "0.7.0",
+      "version_number": "0.7.0-1.19-quilt",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "17940e3cd616063dfeaf4c124c304d8c11c7aba882e01956ee931e955f7ae02c4dd7040014b9b81f8d0c36494fb84a5b7bb8ddbae3e6d305ee79a3a8b5dab539",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.7.0-1.19-quilt/dynamic_asset_generator-quilt-1.19-0.7.0.jar",
+          "filename": "dynamic_asset_generator-quilt-1.19-0.7.0.jar",
+          "primary": true,
+          "size": 142492
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "NEygr751",
+      "name": "3.1.0",
+      "version_number": "3.1.0",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "8aa00e0d0801e869c462dc72879e3b5aed981629afc854299e0dabd0e205da69c1ba7ed8ed2e284acaa83d3aa63667510c517a927937d9844b6b331b46fea4ad",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/NEygr751/dynamicassetgenerator-quilt-1.19.4-3.1.0.jar",
+          "filename": "dynamicassetgenerator-quilt-1.19.4-3.1.0.jar",
+          "primary": true,
+          "size": 244956
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "QPXihdoB",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "NYCkTcYf",
+      "name": "0.4.3",
+      "version_number": "0.4.3-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "56b96d426e8a9de0173aa930872dd4b38255ee6184cfa1b97e840e7ec4797088d26523668c77e8035ae4ca358126fc8f54f779fb4d86af61f9522b3d992d743b",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.3-fabric/dynamic_asset_generator-fabric-0.4.3.jar",
+          "filename": "dynamic_asset_generator-fabric-0.4.3.jar",
+          "primary": true,
+          "size": 214734
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "NfN96NpC",
+      "name": "0.1.5",
+      "version_number": "0.1.5-forge",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0497a6b2b7fb6ce903e542a89396f069ebe9b5725ad70d0f74f16c322598dbb9c2c197842c76bfe0c6fb3862f6eb10b93f19c2db7089eacae43db291e5c3dec3",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.5-forge/dynamic_asset_generator-forge-0.1.5.jar",
+          "filename": "dynamic_asset_generator-forge-0.1.5.jar",
+          "primary": false,
+          "size": 42366
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "OCqA4yEe",
+      "name": "3.0.5",
+      "version_number": "3.0.5",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "13dc962ed0e2692fe88c52d69d7a8e698384a0efdcdf60ebcab4e39408274512f2b03ed601c6866873720a1518a42d3c91a0d9b55092c242fd410283fc88a0b0",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/OCqA4yEe/dynamicassetgenerator-quilt-1.19.4-3.0.5.jar",
+          "filename": "dynamicassetgenerator-quilt-1.19.4-3.0.5.jar",
+          "primary": true,
+          "size": 241756
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "QPXihdoB",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "P2N7U5Yj",
+      "name": "3.0.1",
+      "version_number": "3.0.1",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "243763ad99b5bcee4a4cfd8e4a9cd7746555a6a5e9ff2f7ad1dcf102d25b27d54515396441ad1e8d9cfd19d845c6b3891d3604e319f2869fa944bf78a6ae59da",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/P2N7U5Yj/dynamicassetgenerator-forge-1.19.3-3.0.1.jar",
+          "filename": "dynamicassetgenerator-forge-1.19.3-3.0.1.jar",
+          "primary": true,
+          "size": 229890
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "PSUFKrvg",
+      "name": "0.2.0",
+      "version_number": "0.2.0-fabric",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4035816f6cd01fb2381c82ac84aa29418e365974196968a9676baaabcc8a146152c33f132d6536af9ada02c7f4a5193537d8fb251326b3db9dcdc6eef5e51a38",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.2.0-fabric/dynamic_asset_generator-fabric-0.2.0.jar",
+          "filename": "dynamic_asset_generator-fabric-0.2.0.jar",
+          "primary": false,
+          "size": 48531
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "PaHYhOff",
+      "name": "0.4.7",
+      "version_number": "0.4.7-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "20d336911914f6ed72eb823183e6c9b37920573132cdf687b96d0fd436703354956bb8b0829e6b20b5a80258754b4c8757060ed752f5aff7e23efebe76ae63aa",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.7-fabric/dynamic_asset_generator-fabric-0.4.7.jar",
+          "filename": "dynamic_asset_generator-fabric-0.4.7.jar",
+          "primary": true,
+          "size": 229127
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "PgC4tO78",
+      "name": "4.0.1",
+      "version_number": "4.0.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5e4f1b147474f8849db8e498d78215aaedcb3a3002541bbe9707a8d8cd08f320d263f9ee7e672e45261bf32deb4b4e2ac3be607c9670f747ebacf7d644d0ae6b",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/PgC4tO78/dynamicassetgenerator-quilt-1.20.1-4.0.1.jar",
+          "filename": "dynamicassetgenerator-quilt-1.20.1-4.0.1.jar",
+          "primary": true,
+          "size": 302519
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "fFx48erS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Q8FBj8Hc",
+      "name": "Dynamic Asset Generator [Fabric/Quilt] v6.0.2",
+      "version_number": "6.0.2",
+      "game_versions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "336de0652909ac0c9f0d1f0b3ed4c010c5106a7ce27d418d03e42a43b3dc7d6ba589e5b44754f57729e8a263e40adbc64c067099d4675299aabbaf04d8e1a260",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/Q8FBj8Hc/dynamicassetgenerator-6.0.2-fabric.jar",
+          "filename": "dynamicassetgenerator-6.0.2-fabric.jar",
+          "primary": true,
+          "size": 741433
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "QxsV3nI9",
+      "name": "0.4.9",
+      "version_number": "0.4.9-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e55f1617bd6d3e7bd94ae59d52a393b4d151a1e7c56cad388becf2f71fec4025bd2c67a278a8de89c67978a0dc4c995f3a09695612ec52b21c5b1964b00d0fc6",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.9-fabric/dynamic_asset_generator-fabric-0.4.9.jar",
+          "filename": "dynamic_asset_generator-fabric-0.4.9.jar",
+          "primary": true,
+          "size": 233790
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Qy0i0wOt",
+      "name": "0.3.1",
+      "version_number": "0.3.1-forge",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "3789181d23c9689196df266a4aaf813e975929e5c647078c2440f57b5a6279b36dd8f8bb126aac61c8a8c415aaa041a43aef4c4a4377f3a523f949c90b4445d9",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.3.1-forge/dynamic_asset_generator-forge-0.3.1.jar",
+          "filename": "dynamic_asset_generator-forge-0.3.1.jar",
+          "primary": true,
+          "size": 87384
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "R2bbBkHK",
+      "name": "4.2.1",
+      "version_number": "4.2.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "e480d6e86932dd74b47599b019df0cb62ee6893f2ef4bcf99f87c8af09898bd9c360b703f1d0c3f2b231dcc70b79375ac5e1ea3231f8c72c671c28b2860f2071",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/R2bbBkHK/dynamicassetgenerator-quilt-1.20.1-4.2.1.jar",
+          "filename": "dynamicassetgenerator-quilt-1.20.1-4.2.1.jar",
+          "primary": true,
+          "size": 326975
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "fFx48erS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "RNUj5Kli",
+      "name": "0.4.1",
+      "version_number": "0.4.1-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "fbf7f4af6651e9ff32ed7d264d72af161ba9f716124dd8d5f22d5008586a755b58d30c0f005aae16ee8d3f3e62ae0b0e2468d00be3667eb2b76c64043768d528",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.1-fabric/dynamic_asset_generator-fabric-0.4.1.jar",
+          "filename": "dynamic_asset_generator-fabric-0.4.1.jar",
+          "primary": true,
+          "size": 212992
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "RXHRmavb",
+      "name": "3.0.4",
+      "version_number": "3.0.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "233371f654af53dd007be7258053fcc4a7666474141c4c80205c7b7567bb5c2d2d668e64abb426fb25031c918ab6ca873d3bf1e082ce8c3aa9a7c0a16f74de49",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/RXHRmavb/dynamicassetgenerator-quilt-1.19.4-3.0.4.jar",
+          "filename": "dynamicassetgenerator-quilt-1.19.4-3.0.4.jar",
+          "primary": true,
+          "size": 241821
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "QPXihdoB",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "St5ShO3G",
+      "name": "4.1.1",
+      "version_number": "4.1.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "87a69fcd776e6a92e01758818e25efa77920748f50d4929d79c3dd6adbc15954a9b7139199d52214c62d350fbdc657d7c9dd27fdffc0a06f67a6330685d679d9",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/St5ShO3G/dynamicassetgenerator-forge-1.20.1-4.1.1.jar",
+          "filename": "dynamicassetgenerator-forge-1.20.1-4.1.1.jar",
+          "primary": true,
+          "size": 293292
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "SxUfQiVa",
+      "name": "Dynamic Asset Generator [NeoForge] v6.0.5",
+      "version_number": "6.0.5",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "51339af24115db9e65575a66c739064117d63270043508c50c6701089afa8e72773746583457fef0c9d8c1de068a9b823f894445662f36beed8053bf02939f41",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/SxUfQiVa/dynamicassetgenerator-6.0.5-neoforge.jar",
+          "filename": "dynamicassetgenerator-6.0.5-neoforge.jar",
+          "primary": true,
+          "size": 393568
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "TDWOJnus",
+      "name": "3.0.3",
+      "version_number": "3.0.3",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "892d7829f4b60660cae421b130f39b50c628bb7fb6fff525168214ac2e8f71ebb0f052bbdb1dc172c816d7e6db8633a9d6a8c0d5d64574d37ab4079288d31e18",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/TDWOJnus/dynamicassetgenerator-forge-1.19.4-3.0.3.jar",
+          "filename": "dynamicassetgenerator-forge-1.19.4-3.0.3.jar",
+          "primary": true,
+          "size": 230792
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Tq95WStr",
+      "name": "0.1.2",
+      "version_number": "0.1.2-fabric",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ab10f6e823b617a74c941a308dc6c5d164b1cd6948f7e0fd64830201ef5d421299689fa2187d32542a85f998f00a21e7529102828356a35bf4022b35802314af",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.2-fabric/dynamic_asset_generator-fabric-0.1.2.jar",
+          "filename": "dynamic_asset_generator-fabric-0.1.2.jar",
+          "primary": false,
+          "size": 38285
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "UwInHtnK",
+      "name": "0.1.0",
+      "version_number": "0.1.0-fabric",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "3e14d611eb7f9e9e49de111a57ff698684f946e4b8ea7d774ddc1accbe722f61b26a90ab78d329cb515a12643d55afa2e068f2bddae8f3fbde21b1a1377c55c9",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.0-fabric/dynamic_asset_generator-fabric-0.1.0.jar",
+          "filename": "dynamic_asset_generator-fabric-0.1.0.jar",
+          "primary": false,
+          "size": 37770
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "V9qt9iTO",
+      "name": "0.3.2",
+      "version_number": "0.3.2-fabric",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0a20ef1394cd2af048e45e6f72a7e92531c250b75d31589db2c474dccd9e7e502c49ea655d083ab74acb96e797cddf0f22e6848ff18d62bf9c289f1176befc0e",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.3.2-fabric/dynamic_asset_generator-fabric-0.3.2.jar",
+          "filename": "dynamic_asset_generator-fabric-0.3.2.jar",
+          "primary": true,
+          "size": 197651
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "VNaLfamp",
+      "name": "4.0.1",
+      "version_number": "4.0.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "4b20bd8896eae305233a5b9dfe4cb2a1ab2777da4cbb26317b3be6442628eff699c203811a3618da1b8493a703f1bfe19d81f427db234aa7d5b7a0bd3dc4edf9",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/VNaLfamp/dynamicassetgenerator-forge-1.20.1-4.0.1.jar",
+          "filename": "dynamicassetgenerator-forge-1.20.1-4.0.1.jar",
+          "primary": true,
+          "size": 288940
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "VxZxVOrb",
+      "name": "0.4.1",
+      "version_number": "0.4.1-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "700c74435afd8a627e1002adc026bb8803921f6cf841a154c22b346519530b3bb1627fe9262c43e3f7975fb2fb6942bba040ab0d8b127a649193dc847956f702",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.1-forge/dynamic_asset_generator-forge-0.4.1.jar",
+          "filename": "dynamic_asset_generator-forge-0.4.1.jar",
+          "primary": true,
+          "size": 92330
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "VyeR13Ul",
+      "name": "0.1.1",
+      "version_number": "0.1.1-fabric",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "b7b5011c3f169a6274e51fd45e3db66e819ac8ae07ec7a0296e7648985204c186599a227db462bf8b991410bdf307257e24d06cd0b9e90975e940a2fd43f1978",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.1-fabric/dynamic_asset_generator-fabric-0.1.1.jar",
+          "filename": "dynamic_asset_generator-fabric-0.1.1.jar",
+          "primary": false,
+          "size": 37418
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "X30oWVYB",
+      "name": "1.0.0",
+      "version_number": "1.0.0-1.19-forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "404fc5e8dec3139189d9fd9abc88455eae29667185c60d86ece90f46e4afdf3bdd70482583e39aadfcc50f75b6dddff32ea9dd24b39975ce94dd0a430bea8b79",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/1.0.0-1.19-forge/dynamic_asset_generator-forge-1.19-1.0.0.jar",
+          "filename": "dynamic_asset_generator-forge-1.19-1.0.0.jar",
+          "primary": true,
+          "size": 182534
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "X4hzLXc4",
+      "name": "0.3.5",
+      "version_number": "0.3.5-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "687db855d3aae46dfacc36c1c2f725387fa4264fed5bf5f420822571632c330edeabf3a35707f35fed313503228707d75bbb6bc602f2d17893eec05220ac4183",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.3.5-forge/dynamic_asset_generator-forge-0.3.5.jar",
+          "filename": "dynamic_asset_generator-forge-0.3.5.jar",
+          "primary": true,
+          "size": 89982
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "XytQPP9y",
+      "name": "1.0.1",
+      "version_number": "1.0.1-1.19.2-quilt",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4907496921fabe48aaec73476e5f2ac58cbb5b2e36d09adf04300bf55d2552890cc334bb826cbad0ab3baf18950381d76a31b88c1c27b5d2986485c81b446f07",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/XytQPP9y/dynamic_asset_generator-quilt-1.19.2-1.0.1.jar",
+          "filename": "dynamic_asset_generator-quilt-1.19.2-1.0.1.jar",
+          "primary": true,
+          "size": 184485
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "XzbiDdDi",
+      "name": "4.1.0",
+      "version_number": "4.1.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "13bf9ce16fd558e26eabc8aed6d711cef27ec91b9f8e2071341a50ded5280ac172030c5a51dc2069eca46344eca400765cf7030c41189e43eee5c9379e9819b5",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/XzbiDdDi/dynamicassetgenerator-quilt-1.20.1-4.1.0.jar",
+          "filename": "dynamicassetgenerator-quilt-1.20.1-4.1.0.jar",
+          "primary": true,
+          "size": 306885
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "fFx48erS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "YCA8JXFR",
+      "name": "0.6.2",
+      "version_number": "0.6.2-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "7c1b681fc424f663ad1f9b83143b3c263578ad0e897d73db8ce484f6a7e74d331d8d40f4329ab93ba6570f953184a5d617c6ae66dc5b0ef30795f7180a17006b",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.2-fabric/dynamic_asset_generator-fabric-1.18.2-0.6.2.jar",
+          "filename": "dynamic_asset_generator-fabric-1.18.2-0.6.2.jar",
+          "primary": true,
+          "size": 265341
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "YheZCBgc",
+      "name": "0.3.2",
+      "version_number": "0.3.2-forge",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8c8e3f08b741710f378be69362a65e5505c7b196ce15b299a9cab19d62534af9efcf700c58f7c6fa37fd7b4ca3d8a3bdccd0201b5833e87e7797856a3ec3f5a6",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.3.2-forge/dynamic_asset_generator-forge-0.3.2.jar",
+          "filename": "dynamic_asset_generator-forge-0.3.2.jar",
+          "primary": true,
+          "size": 87398
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "YlI57iUY",
+      "name": "0.4.4",
+      "version_number": "0.4.4-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a4a141b1417dad3bdf8ad7698336ed199e099a96023a9b2ecc6ca3f9002e3753a67e2e8e7897cf54103f48d77848fa680d719a75a49d390f9456210e011d634d",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.4-fabric/dynamic_asset_generator-fabric-0.4.4.jar",
+          "filename": "dynamic_asset_generator-fabric-0.4.4.jar",
+          "primary": true,
+          "size": 216179
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ZaEjK5KT",
+      "name": "0.7.0",
+      "version_number": "0.7.0-1.19-forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "abd0c6f08821959155e58d44d06097c0b1146361ce56bef35da3d3db91bb601ac10bc6c4603da711ca315a998cb68a7659d253c952ab1d6f7eb90fdf7fa8e57a",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.7.0-1.19-forge/dynamic_asset_generator-forge-1.19-0.7.0.jar",
+          "filename": "dynamic_asset_generator-forge-1.19-0.7.0.jar",
+          "primary": true,
+          "size": 141654
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ZdFTJDy8",
+      "name": "0.5.2",
+      "version_number": "0.5.2-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "18d6c26b44f9b1cc8a1216e354f9afee2fd3911a4d3d282ea504f4b93e8991f47bd46b3dacd1f03a1992266a73a0f44beeed30367250f9ca4032346e91adcab9",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.5.2-fabric/dynamic_asset_generator-fabric-0.5.2.jar",
+          "filename": "dynamic_asset_generator-fabric-0.5.2.jar",
+          "primary": true,
+          "size": 240906
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Ze3RIgnS",
+      "name": "0.6.4",
+      "version_number": "0.6.4-1.19-quilt",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "882981c69d47fe52358014141a218d039103308e3b800711911593f4f043f9a53041a5b7c4ad3935f40be913738cb62240816272e4c8fa0d2232ad184dc4e3f1",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.4-1.19-quilt/dynamic_asset_generator-quilt-1.19-0.6.4.jar",
+          "filename": "dynamic_asset_generator-quilt-1.19-0.6.4.jar",
+          "primary": true,
+          "size": 268507
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ZyaAqjJL",
+      "name": "Dynamic Asset Generator [Fabric/Quilt] v6.0.3",
+      "version_number": "6.0.3",
+      "game_versions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "ed027455c3ae7674291f8e1359307728303b87a8c3f5bf20f599b289637266dd4336fddc6f7db8a357d7a8aac9366ab5844f2c25bee1e6a1613305b46c529a6c",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/ZyaAqjJL/dynamicassetgenerator-6.0.3-fabric.jar",
+          "filename": "dynamicassetgenerator-6.0.3-fabric.jar",
+          "primary": true,
+          "size": 409291
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "bQaK0ZR8",
+      "name": "0.2.0",
+      "version_number": "0.2.0-forge",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "343b55a6bbd24e2b2eb0f68f590863c4e5422308026ac578cc5fb0178b2e82b63936b55f38146f822d49915c7999d667b69cf71b81a11e87b56af2979f36f587",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.2.0-forge/dynamic_asset_generator-forge-0.2.0.jar",
+          "filename": "dynamic_asset_generator-forge-0.2.0.jar",
+          "primary": false,
+          "size": 49278
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "bYm4QSpd",
+      "name": "0.4.9",
+      "version_number": "0.4.9-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "bc33e4b8a3041d9b208ec96843adf4e38a264b3f3164488d74aa63dc1ca86187dfaf18cafc9905b2ba6a323b36dcd797a1e31e3e6db9bd07de4bcfc173ce45b1",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.9-forge/dynamic_asset_generator-forge-0.4.9.jar",
+          "filename": "dynamic_asset_generator-forge-0.4.9.jar",
+          "primary": true,
+          "size": 113313
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "bbhNiunM",
+      "name": "1.1.0",
+      "version_number": "1.1.0-1.19.2-forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "175a65506e565b0022c6462d2f296bbb5c0dab91e340fcf41314f1e0a79f82b608b0165cd0e92cc13cc14b2d21b1a05017ea0f3bd5871d4d0e776c273a8b015f",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/bbhNiunM/dynamic_asset_generator-forge-1.19.2-1.1.0.jar",
+          "filename": "dynamic_asset_generator-forge-1.19.2-1.1.0.jar",
+          "primary": true,
+          "size": 216730
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "bkHaX0Iu",
+      "name": "0.3.5",
+      "version_number": "0.3.5-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "34ff9f2a9cb4b9301ea19c64841c8ba287c9a8075abfd573c1852b8f40509e646039306c2c101908bf4c5d4647a8d593d2cd4495432c66bba02b4c56c08fa597",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.3.5-fabric/dynamic_asset_generator-fabric-0.3.5.jar",
+          "filename": "dynamic_asset_generator-fabric-0.3.5.jar",
+          "primary": true,
+          "size": 210507
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "blFdmeJE",
+      "name": "0.6.3",
+      "version_number": "0.6.3-1.19-forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "2bbc777260c815619cb8fb6692a7ccc0c7605a1637b6fb1163ed999e3cdf2ec9627aebb94a938a0c6f27b3b954f6638025f43943708d6ef3b766ee8b61dca563",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.3-1.19-forge/dynamic_asset_generator-forge-1.19-0.6.3.jar",
+          "filename": "dynamic_asset_generator-forge-1.19-0.6.3.jar",
+          "primary": true,
+          "size": 139767
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "c0lAnzkT",
+      "name": "0.4.0",
+      "version_number": "0.4.0-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c2d001c7b595bfca627ad3a1499e9dafaad254289756dbdd931da7696bcf4f41b4b6aacd9d5bdf1178bdb6a7f4f37afee81da9e0da849449280929a068b20329",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.0-forge/dynamic_asset_generator-forge-0.4.0.jar",
+          "filename": "dynamic_asset_generator-forge-0.4.0.jar",
+          "primary": true,
+          "size": 92250
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "c5ADQXQg",
+      "name": "0.4.2",
+      "version_number": "0.4.2-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "cd63f3468cb18fddfa0ed32369df262e2ee257751ee838918aa2e71fbf06df57dc7b8269df24ffb782c812a5895a5a5680d7eae6c4036006ee719368b264732a",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.2-forge/dynamic_asset_generator-forge-0.4.2.jar",
+          "filename": "dynamic_asset_generator-forge-0.4.2.jar",
+          "primary": true,
+          "size": 92750
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "clupv0Gj",
+      "name": "0.4.6",
+      "version_number": "0.4.6-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5fb9136018710b9b6db831d52f75d40d75955bb2ceea3cc4b776d7acff00b4a8a046523fffc5ff5cad7124ecd25a52bc87a70d036895ef85a01ee68af123c7bf",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.6-forge/dynamic_asset_generator-forge-0.4.6.jar",
+          "filename": "dynamic_asset_generator-forge-0.4.6.jar",
+          "primary": true,
+          "size": 104622
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "diobBIPp",
+      "name": "5.0.0",
+      "version_number": "5.0.0",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "459b7a084b8614704e2678b186555d538f8475cb36f814589badb79df090979ec84f48fd757c64966ac1a4d7dee6910f94465f27d87d4a9e1691bab897e46572",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/diobBIPp/dynamicassetgenerator-neoforge-1.20.2-5.0.0.jar",
+          "filename": "dynamicassetgenerator-neoforge-1.20.2-5.0.0.jar",
+          "primary": true,
+          "size": 385759
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "eIMdEbPN",
+      "name": "0.6.0",
+      "version_number": "0.6.0-quilt",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f257b2edda23fbf333e9ed7137933f5054bff209d8206cc910647c5e5e88d73a4fc21af929d57d2e4e3c1335c4c3f4bf67755995c92f3e64c83a5ffccaf8e463",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.0-quilt/dynamic_asset_generator-quilt-1.18.2-0.6.0.jar",
+          "filename": "dynamic_asset_generator-quilt-1.18.2-0.6.0.jar",
+          "primary": true,
+          "size": 243920
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "f1r4ks8J",
+      "name": "Dynamic Asset Generator [NeoForge] v6.0.4",
+      "version_number": "6.0.4",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "a96f8b183d037381a75ce3e8a6fe108db21baca50d4aa7f80d4916f5194e5faa48612c55f4e6a1f68db3bf591d573de323c0a0737d6b4017992f7c4a3544b46e",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/f1r4ks8J/dynamicassetgenerator-6.0.4-neoforge.jar",
+          "filename": "dynamicassetgenerator-6.0.4-neoforge.jar",
+          "primary": true,
+          "size": 393566
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "fGL7Jjnm",
+      "name": "4.0.0",
+      "version_number": "4.0.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "42684b8ae6b85dae3b7b697b7a520143034de04bee87e3105a7f582bbce04130da55663ac53d3359787918161d7c68ed8eea22f1fe19e48d32e090ea19a18e45",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/fGL7Jjnm/dynamicassetgenerator-forge-1.20-4.0.0.jar",
+          "filename": "dynamicassetgenerator-forge-1.20-4.0.0.jar",
+          "primary": true,
+          "size": 288872
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "fZ02oIwz",
+      "name": "0.3.0",
+      "version_number": "0.3.0-fabric",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4f5ab3a2e9725fdfe0261c10216ff100d8b00e2dce2a90bcdd6160ccb17e9311b979bb065b30327e3f1a8187bb886f4df68ad2ed53c929f28c41abb00ba3ed55",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.3.0-fabric/dynamic_asset_generator-fabric-0.3.0.jar",
+          "filename": "dynamic_asset_generator-fabric-0.3.0.jar",
+          "primary": true,
+          "size": 200482
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "fhuk2agH",
+      "name": "3.1.1",
+      "version_number": "3.1.1",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "b3b0b75eee29fb0a9a85a7785a6bdd292c57f558c5a67ff64d9f0c5e99250cd6356130517f26eb8441a716b35a2b788bae70b6d363c2e0137eb11a348a813d8e",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/fhuk2agH/dynamicassetgenerator-quilt-1.19.4-3.1.1.jar",
+          "filename": "dynamicassetgenerator-quilt-1.19.4-3.1.1.jar",
+          "primary": true,
+          "size": 245051
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "QPXihdoB",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "gC6FX5Kn",
+      "name": "4.2.2",
+      "version_number": "4.2.2",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "33f1650bcf3d935eb565b36f798528853063ef08c62e2e7064c8112ed3a485e2676e10ec777d8299de9137f0da4455a623ecf1b4778dfda964587185557bd879",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/gC6FX5Kn/dynamicassetgenerator-forge-1.20.1-4.2.2.jar",
+          "filename": "dynamicassetgenerator-forge-1.20.1-4.2.2.jar",
+          "primary": true,
+          "size": 313732
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "hFyfdjtk",
+      "name": "0.6.4",
+      "version_number": "0.6.4-1.19-forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ff7c2649a42dcb314f231ad8024f4791072114745c68690e957d3ef55e208484e7b4a35c0e1562672a02fbad0129233df3b11b0821a077d54bebd9da0afe1064",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.4-1.19-forge/dynamic_asset_generator-forge-1.19-0.6.4.jar",
+          "filename": "dynamic_asset_generator-forge-1.19-0.6.4.jar",
+          "primary": true,
+          "size": 139777
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "hJTGHqPm",
+      "name": "Dynamic Asset Generator [NeoForge] v6.0.2",
+      "version_number": "6.0.2",
+      "game_versions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "e5fc4fa751050ccf11db86c609ac5daa2f7629960a119d38cb5e9f72dc13997ab79117895e9e2d941f9f38c702c5584581f0df5aab7adffb9f260dfb58178d4a",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/hJTGHqPm/dynamicassetgenerator-6.0.2-neoforge.jar",
+          "filename": "dynamicassetgenerator-6.0.2-neoforge.jar",
+          "primary": true,
+          "size": 725661
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "hd8CVBJd",
+      "name": "4.1.3",
+      "version_number": "4.1.3",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d7252a08ba0413a44fe6b29cf1dfbc86cb689d7403d6daf34f3d4461e4089094783b1143d3c9f4d115362f83af5df25c530562cc2fdafaa33e464d0fb3739c28",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/hd8CVBJd/dynamicassetgenerator-quilt-1.20.1-4.1.3.jar",
+          "filename": "dynamicassetgenerator-quilt-1.20.1-4.1.3.jar",
+          "primary": true,
+          "size": 306957
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "fFx48erS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "hw1r9jwP",
+      "name": "0.4.3",
+      "version_number": "0.4.3-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "edb9748b77df4f3cc7e658845e2edd96d2bfbf609ff185b12f6f9834c3333df8bafaec505de730d82009ff00714fd827cce9abcca8069355bdbd646d128e62a6",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.3-forge/dynamic_asset_generator-forge-0.4.3.jar",
+          "filename": "dynamic_asset_generator-forge-0.4.3.jar",
+          "primary": true,
+          "size": 94070
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "iFrHo8hr",
+      "name": "4.0.0",
+      "version_number": "4.0.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5f36c5b36ae12a1970983522cbd833ec2e2bc2ecaae30360bc6465101361cc0e81e05d69f16fda6b3a8ece230c48226f6a1bef87b2ca38395a8ed5f7b3842c2c",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/iFrHo8hr/dynamicassetgenerator-quilt-1.20-4.0.0.jar",
+          "filename": "dynamicassetgenerator-quilt-1.20-4.0.0.jar",
+          "primary": true,
+          "size": 302441
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "fFx48erS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "iQRiUW0x",
+      "name": "3.1.1",
+      "version_number": "3.1.1",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "67f31760fabb97a51a5a733b9694eb5172ac08f06208f4ef3b525e466869a980ed4d1bffed64ad818e87d31c3139f81810d3dc721f8284c81ccf28b29fc15b0e",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/iQRiUW0x/dynamicassetgenerator-forge-1.19.4-3.1.1.jar",
+          "filename": "dynamicassetgenerator-forge-1.19.4-3.1.1.jar",
+          "primary": true,
+          "size": 233886
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "jkbNWOXJ",
+      "name": "3.0.2",
+      "version_number": "3.0.2",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "a0c6778c5442b6beade2abdf34d5e1c5196d870db46839d812cf18d95fa748bb1a311c81277526666a4fe6253ee6cd2689a6100f15c50f7d2d20341af600e377",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/jkbNWOXJ/dynamicassetgenerator-quilt-1.19.3-3.0.2.jar",
+          "filename": "dynamicassetgenerator-quilt-1.19.3-3.0.2.jar",
+          "primary": true,
+          "size": 241134
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "eaoB99I6",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jxYUybJA",
+      "name": "1.0.1",
+      "version_number": "1.0.1-1.19.2-fabric",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5f293690bd10a80861b3d65b7e9d12d9da9f4bd4ec1b06c9186266be3011db007958a739c006d890bd249f2416a4930c867f1876f57cffe4a2892a49d4dd4642",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/jxYUybJA/dynamic_asset_generator-fabric-1.19.2-1.0.1.jar",
+          "filename": "dynamic_asset_generator-fabric-1.19.2-1.0.1.jar",
+          "primary": true,
+          "size": 321218
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "kg2t6GUl",
+      "name": "5.1.3",
+      "version_number": "5.1.3",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "37ab1ecd21c4bc896e0f05a2fe3110dbf5e0837c4b00a777acdffafcd9d7393e48a074543788cb0cc50752eb9ac950aa3129b28b30cf8012f05fdf617eb66a51",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/kg2t6GUl/dynamicassetgenerator-neoforge-1.20.4-5.1.3.jar",
+          "filename": "dynamicassetgenerator-neoforge-1.20.4-5.1.3.jar",
+          "primary": true,
+          "size": 389920
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "kiA0MBdH",
+      "name": "0.4.4",
+      "version_number": "0.4.4-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c4e044d8f44cfa8024f0618949ff2588ee09ba47b8f5326744a17c108a8f900a9ef9c75369cf53d42e56c0043fc068b8f400512bf57316f243a822c6dcb7abe4",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.4-forge/dynamic_asset_generator-forge-0.4.4.jar",
+          "filename": "dynamic_asset_generator-forge-0.4.4.jar",
+          "primary": true,
+          "size": 95515
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "lFfVaMOU",
+      "name": "5.1.0",
+      "version_number": "5.1.0",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "12919344392c8f8a962ae098f59d215cd87f8bc58c744fb255ab1bda804c8bb512b56a092906cfd612b836e3ed21a409b22cabdc5d9d85a5dd616f927111be53",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/lFfVaMOU/dynamicassetgenerator-fabriquilt-1.20.4-5.1.0.jar",
+          "filename": "dynamicassetgenerator-fabriquilt-1.20.4-5.1.0.jar",
+          "primary": true,
+          "size": 407272
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "lWkLiyOn",
+      "name": "5.1.2",
+      "version_number": "5.1.2",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "21bdefebd73825daa02282070cef111cd9c3cc2af8c232dc6805845298216880f41d7826a14228f7fd7bcdd824ad3bed2e4c8dc79544e481b62897e07dac6ec6",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/lWkLiyOn/dynamicassetgenerator-fabriquilt-1.20.4-5.1.2.jar",
+          "filename": "dynamicassetgenerator-fabriquilt-1.20.4-5.1.2.jar",
+          "primary": true,
+          "size": 407450
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "lZBXOSEt",
+      "name": "0.4.6",
+      "version_number": "0.4.6-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "99377ccad7a92a1e06af2cb3c00fbc969dd8a6fd0fea045b10337540558c9337df1e630753148b94d4319721e4d5f65898733920c377dfc9b8729af7759d9707",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.6-fabric/dynamic_asset_generator-fabric-0.4.6.jar",
+          "filename": "dynamic_asset_generator-fabric-0.4.6.jar",
+          "primary": true,
+          "size": 225283
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "mZnqCnCM",
+      "name": "0.2.1",
+      "version_number": "0.2.1-fabric",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "188ca8d5e9b882cfde088d8eb8cf193eebe7cab70dd04b1809255c9a5633688156e2f03f1cbbc00050daa174b274cc0937af651b6ccac584d6ea2c908a62030a",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.2.1-fabric/dynamic_asset_generator-fabric-0.2.1.jar",
+          "filename": "dynamic_asset_generator-fabric-0.2.1.jar",
+          "primary": false,
+          "size": 51265
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "n7ozEODn",
+      "name": "0.6.3",
+      "version_number": "0.6.3-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "70ee168dbe425910290186703e2714df885c94e60a86a2dc5521e40d40d5fc0e5ea8bdbdc98166704258f71dafb6907d3b17c411540ce181c5957d59e2cbdf5c",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.3-forge/dynamic_asset_generator-forge-1.18.2-0.6.3.jar",
+          "filename": "dynamic_asset_generator-forge-1.18.2-0.6.3.jar",
+          "primary": true,
+          "size": 139800
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "nsO6f7m5",
+      "name": "0.1.5",
+      "version_number": "0.1.5-fabric",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "48a963cba97ab9e5f8d191a47dd50739bf489f52537e5d6d9dd62ca75198ca636065789421d3866fcd699434956cb9aeb207aea3fed558d6b60f6c1449791034",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.5-fabric/dynamic_asset_generator-fabric-0.1.5.jar",
+          "filename": "dynamic_asset_generator-fabric-0.1.5.jar",
+          "primary": false,
+          "size": 41618
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "nzJicnAh",
+      "name": "1.0.1",
+      "version_number": "1.0.1-1.19.2-forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d1f0f3f06670da988ad60bf7882eb9b7d9d3216d015ae5880679183baea3501f4de77437324025c7671f13a6cef7a622236ea51db5c36233a2453c782ca9af52",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/nzJicnAh/dynamic_asset_generator-forge-1.19.2-1.0.1.jar",
+          "filename": "dynamic_asset_generator-forge-1.19.2-1.0.1.jar",
+          "primary": true,
+          "size": 182535
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "oWBaKB04",
+      "name": "4.1.3",
+      "version_number": "4.1.3",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d2ecaeab59c0c82c79d3272a283e834808b74db7dc84a7e1cd3408f7129561b2e510209394e761bd5968e052462efb77f07edbef413afcff519d8a7bf15ee333",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/oWBaKB04/dynamicassetgenerator-forge-1.20.1-4.1.3.jar",
+          "filename": "dynamicassetgenerator-forge-1.20.1-4.1.3.jar",
+          "primary": true,
+          "size": 293383
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "oXV5YCrk",
+      "name": "0.1.4d",
+      "version_number": "0.1.4d-forge",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b9b93ec3d4e2b12fecb4b55ed571b6e03b9575e87950434582e7619561475a7293117e9266aa119dcd51e23a67efcb2b51f17b1347445982913e2e826028205d",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.4d-forge/dynamic_asset_generator-forge-0.1.4d.jar",
+          "filename": "dynamic_asset_generator-forge-0.1.4d.jar",
+          "primary": false,
+          "size": 40275
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "pA2ZPUza",
+      "name": "2.0.0",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "6ae2824345e840bf5e45801f7e727023c669f7cce9e2405f671470d697b866f9ec25964fe06acf297865b0edfdf415c1402b0268f8a6c9d3ad0708d19f42363c",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/pA2ZPUza/dynamicassetgenerator-forge-1.19.3-2.0.0.jar",
+          "filename": "dynamicassetgenerator-forge-1.19.3-2.0.0.jar",
+          "primary": true,
+          "size": 205761
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "pI5WSww8",
+      "name": "3.0.4",
+      "version_number": "3.0.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "7d3215f8255453dd365eefd00668e227eb175a418debd4b001850b860fa6fc020a45c6d6e94aca0cf2e5ded4567550eb6d0ed350771c43f948a317c1618fb648",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/pI5WSww8/dynamicassetgenerator-forge-1.19.4-3.0.4.jar",
+          "filename": "dynamicassetgenerator-forge-1.19.4-3.0.4.jar",
+          "primary": true,
+          "size": 230879
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "pd0Geu3p",
+      "name": "0.1.1",
+      "version_number": "0.1.1-forge",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5f47a268e91949a2f23ea0cdbdbbe97113672ad63521b2dc5020256c436103e85d89a5c132a04dda770de55fbca5c455ff3fdc84e8201caeeecbe1bca13e3d62",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.1-forge/dynamic_asset_generator-forge-0.1.1.jar",
+          "filename": "dynamic_asset_generator-forge-0.1.1.jar",
+          "primary": false,
+          "size": 38172
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "phngtMmx",
+      "name": "4.2.1",
+      "version_number": "4.2.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5f76fa2ba61103af699e8853533daf33ee2a23141eeddfe815956c11b823e6f547e01fac9e12273e2586c952b78d9cf9998318d9ef741a4c1ea43d4c8977d671",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/phngtMmx/dynamicassetgenerator-forge-1.20.1-4.2.1.jar",
+          "filename": "dynamicassetgenerator-forge-1.20.1-4.2.1.jar",
+          "primary": true,
+          "size": 313652
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "qAqI2FKH",
+      "name": "0.3.1",
+      "version_number": "0.3.1-fabric",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "36b94cc1e1a4166ac413fd60e412f288f1ed4fbebf9e4d951227515ac8ce66e08ef51a66bcf7046f0d1ff7d89e44689998f4aa6f7278ee7c7f3b70723237e7f7",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.3.1-fabric/dynamic_asset_generator-fabric-0.3.1.jar",
+          "filename": "dynamic_asset_generator-fabric-0.3.1.jar",
+          "primary": true,
+          "size": 197639
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "qGktD7iQ",
+      "name": "0.7.1",
+      "version_number": "0.7.1-1.19-forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "bf8c5c5f8ee2399e20b825ca189172d9c612def7e47e0ba13605f54c55626b7d048a4e90c5adfd008a2f1dbdfaa35984c55573c8b1e5b5d57caae63d911d8c7d",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.7.1-1.19-forge/dynamic_asset_generator-forge-1.19-0.7.1.jar",
+          "filename": "dynamic_asset_generator-forge-1.19-0.7.1.jar",
+          "primary": true,
+          "size": 141954
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rizXlq54",
+      "name": "0.5.1",
+      "version_number": "0.5.1-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "447af1d37adb2773d7711a17cd5b3fbf0fc1885a63a7287163053e795ef81f5e18fe8e4aa2d7beca7f1854fb913c351756a94891071835dc16c3719b90c74609",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.5.1-forge/dynamic_asset_generator-forge-0.5.1.jar",
+          "filename": "dynamic_asset_generator-forge-0.5.1.jar",
+          "primary": true,
+          "size": 120331
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "scLeVcNM",
+      "name": "4.2.0",
+      "version_number": "4.2.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b7f755f3d0cabb057485270170a20f99f4c3c2af9a4c004890cfa85061fb20e09fcca372b975a17b832845909e4ae0033137ea14c020e9b45a236b0bb129ab9b",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/scLeVcNM/dynamicassetgenerator-forge-1.20.1-4.2.0.jar",
+          "filename": "dynamicassetgenerator-forge-1.20.1-4.2.0.jar",
+          "primary": true,
+          "size": 305669
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "swjTyRcB",
+      "name": "3.0.0",
+      "version_number": "3.0.0",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0ad4fd42d4fb5199a2eab09948ed1b05dc3595e21de066db4ec16363a0f6b6af2bc1be4bd81b835bcddd53374ad0e0e887212ffab58005875fd10253f50e4b3d",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/swjTyRcB/dynamicassetgenerator-forge-1.19.3-3.0.0.jar",
+          "filename": "dynamicassetgenerator-forge-1.19.3-3.0.0.jar",
+          "primary": true,
+          "size": 229897
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "uGbgfwc8",
+      "name": "4.1.0",
+      "version_number": "4.1.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e80744c1df56ed2cfc57567b70d37342f4a24340f764249bd02684e242888ea10ca3ece425e2939acd23906a7e5156c56be97ef4cc9b903bfa1ca6c460fb2db5",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/uGbgfwc8/dynamicassetgenerator-forge-1.20.1-4.1.0.jar",
+          "filename": "dynamicassetgenerator-forge-1.20.1-4.1.0.jar",
+          "primary": true,
+          "size": 293291
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "uUqsEDsh",
+      "name": "0.6.2",
+      "version_number": "0.6.2-quilt",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2a3045c413387344f26feadf60789f62bbc640b9e0bf7557d3a6e048fd32efd141e89b981027bd779d451368239ffba45345bf4e2dca3e617287d53a855e410a",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.2-quilt/dynamic_asset_generator-quilt-1.18.2-0.6.2.jar",
+          "filename": "dynamic_asset_generator-quilt-1.18.2-0.6.2.jar",
+          "primary": true,
+          "size": 263547
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "vRQUQEdH",
+      "name": "0.7.1",
+      "version_number": "0.7.1-1.19-fabric",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5e54acbf9ce6f4958595c3e0e14c1699d99dd8aa1481c86fdf0dc56266f6e4ccbd14ef84c358db3b1ff3763638d1c5522f8029840156f6c1a614285d6592614e",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.7.1-1.19-fabric/dynamic_asset_generator-fabric-1.19-0.7.1.jar",
+          "filename": "dynamic_asset_generator-fabric-1.19-0.7.1.jar",
+          "primary": true,
+          "size": 277161
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "vaNMC2tC",
+      "name": "3.0.1",
+      "version_number": "3.0.1",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "ef4f9c97b6146655838d98d060a9e372d6e8562e600690320c392a3d565e724b6d426bcd43f765d468325f2c3c4d0e45663ebadf7ad27a645e36c82253f95bcb",
+          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/vaNMC2tC/dynamicassetgenerator-quilt-1.19.3-3.0.1.jar",
+          "filename": "dynamicassetgenerator-quilt-1.19.3-3.0.1.jar",
+          "primary": true,
+          "size": 240901
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "eaoB99I6",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -184,206 +2994,6 @@
       ]
     },
     {
-      "id": "KoQnZCkH",
-      "name": "Dynamic Asset Generator [NeoForge] v6.1.0",
-      "version_number": "6.1.0",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "5cf987a3f5bc15a827b30ea62b0afa26fa5a6a27b29b60adc97fbd388b3bc352ced705bb37ddc6e61310ce20079a03f0f01f8320de68042aaaf94258a51143e5",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/KoQnZCkH/dynamicassetgenerator-6.1.0-neoforge.jar",
-          "filename": "dynamicassetgenerator-6.1.0-neoforge.jar",
-          "primary": true,
-          "size": 393573
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Gcx4WTH3",
-      "name": "Dynamic Asset Generator [Fabric/Quilt] v6.0.4",
-      "version_number": "6.0.4",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3e7a68df605002abff56aebdac22408b496c79352aa669d0bc8c4dc79ae1840b612940c09133f4b1d5173cd3d07b546d3d09a904e8afe2e9933a06402d848a48",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/Gcx4WTH3/dynamicassetgenerator-6.0.4-fabric.jar",
-          "filename": "dynamicassetgenerator-6.0.4-fabric.jar",
-          "primary": true,
-          "size": 409293
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "f1r4ks8J",
-      "name": "Dynamic Asset Generator [NeoForge] v6.0.4",
-      "version_number": "6.0.4",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "a96f8b183d037381a75ce3e8a6fe108db21baca50d4aa7f80d4916f5194e5faa48612c55f4e6a1f68db3bf591d573de323c0a0737d6b4017992f7c4a3544b46e",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/f1r4ks8J/dynamicassetgenerator-6.0.4-neoforge.jar",
-          "filename": "dynamicassetgenerator-6.0.4-neoforge.jar",
-          "primary": true,
-          "size": 393566
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ZyaAqjJL",
-      "name": "Dynamic Asset Generator [Fabric/Quilt] v6.0.3",
-      "version_number": "6.0.3",
-      "game_versions": [
-        "1.20.5"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ed027455c3ae7674291f8e1359307728303b87a8c3f5bf20f599b289637266dd4336fddc6f7db8a357d7a8aac9366ab5844f2c25bee1e6a1613305b46c529a6c",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/ZyaAqjJL/dynamicassetgenerator-6.0.3-fabric.jar",
-          "filename": "dynamicassetgenerator-6.0.3-fabric.jar",
-          "primary": true,
-          "size": 409291
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "8cH3WYyP",
-      "name": "Dynamic Asset Generator [NeoForge] v6.0.3",
-      "version_number": "6.0.3",
-      "game_versions": [
-        "1.20.5"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "0a83ebbb9346a12f21a6e52445adb643f31db85d464a6f19c668b5954c0c962e30e4774e3d0774552e233ef0f13cf22c1ea3727d6f64d2446418f456d6020894",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/8cH3WYyP/dynamicassetgenerator-6.0.3-neoforge.jar",
-          "filename": "dynamicassetgenerator-6.0.3-neoforge.jar",
-          "primary": true,
-          "size": 393569
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Q8FBj8Hc",
-      "name": "Dynamic Asset Generator [Fabric/Quilt] v6.0.2",
-      "version_number": "6.0.2",
-      "game_versions": [
-        "1.20.5"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "336de0652909ac0c9f0d1f0b3ed4c010c5106a7ce27d418d03e42a43b3dc7d6ba589e5b44754f57729e8a263e40adbc64c067099d4675299aabbaf04d8e1a260",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/Q8FBj8Hc/dynamicassetgenerator-6.0.2-fabric.jar",
-          "filename": "dynamicassetgenerator-6.0.2-fabric.jar",
-          "primary": true,
-          "size": 741433
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "hJTGHqPm",
-      "name": "Dynamic Asset Generator [NeoForge] v6.0.2",
-      "version_number": "6.0.2",
-      "game_versions": [
-        "1.20.5"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "e5fc4fa751050ccf11db86c609ac5daa2f7629960a119d38cb5e9f72dc13997ab79117895e9e2d941f9f38c702c5584581f0df5aab7adffb9f260dfb58178d4a",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/hJTGHqPm/dynamicassetgenerator-6.0.2-neoforge.jar",
-          "filename": "dynamicassetgenerator-6.0.2-neoforge.jar",
-          "primary": true,
-          "size": 725661
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "IdQgnw2q",
-      "name": "Dynamic Asset Generator [Fabric/Quilt] v6.0.1",
-      "version_number": "6.0.1",
-      "game_versions": [
-        "1.20.5"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6b82180578f72c3db4bfb6f81c09a96fc41aa0e52452ebe5f8fe0f879421a5f91790feb7a8623f48cd5d5ee4b1298ee1cd6bf91bdc4a0a7ddda9acb47d9fe5ad",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/IdQgnw2q/dynamicassetgenerator-6.0.1-fabric.jar",
-          "filename": "dynamicassetgenerator-6.0.1-fabric.jar",
-          "primary": true,
-          "size": 741427
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "xOxxCGRZ",
       "name": "Dynamic Asset Generator [NeoForge] v6.0.1",
       "version_number": "6.0.1",
@@ -400,1881 +3010,6 @@
           "filename": "dynamicassetgenerator-6.0.1-neoforge.jar",
           "primary": true,
           "size": 725663
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "KCIcUX4v",
-      "name": "5.1.2",
-      "version_number": "5.1.2",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "7e9ae3f974e0acfbb3717963a29c894a9d670778c16ef01343a0741c4f3404d7d81ab76867913555246fb06ea16c1c6568d960e87c2723f137e44a5225502431",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/KCIcUX4v/dynamicassetgenerator-neoforge-1.20.4-5.1.2.jar",
-          "filename": "dynamicassetgenerator-neoforge-1.20.4-5.1.2.jar",
-          "primary": true,
-          "size": 390197
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "lWkLiyOn",
-      "name": "5.1.2",
-      "version_number": "5.1.2",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "21bdefebd73825daa02282070cef111cd9c3cc2af8c232dc6805845298216880f41d7826a14228f7fd7bcdd824ad3bed2e4c8dc79544e481b62897e07dac6ec6",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/lWkLiyOn/dynamicassetgenerator-fabriquilt-1.20.4-5.1.2.jar",
-          "filename": "dynamicassetgenerator-fabriquilt-1.20.4-5.1.2.jar",
-          "primary": true,
-          "size": 407450
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "5j8bX7hG",
-      "name": "4.2.2",
-      "version_number": "4.2.2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "9cfa89f5344b39d0fc694340e56ae6617d9063128b30f853d677e8ea5c1be74a6f9eb593cb20a406ec5e629e6796f63c30edb2f4707e02b8f53eb82158507fd7",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/5j8bX7hG/dynamicassetgenerator-quilt-1.20.1-4.2.2.jar",
-          "filename": "dynamicassetgenerator-quilt-1.20.1-4.2.2.jar",
-          "primary": true,
-          "size": 327053
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "gC6FX5Kn",
-      "name": "4.2.2",
-      "version_number": "4.2.2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "33f1650bcf3d935eb565b36f798528853063ef08c62e2e7064c8112ed3a485e2676e10ec777d8299de9137f0da4455a623ecf1b4778dfda964587185557bd879",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/gC6FX5Kn/dynamicassetgenerator-forge-1.20.1-4.2.2.jar",
-          "filename": "dynamicassetgenerator-forge-1.20.1-4.2.2.jar",
-          "primary": true,
-          "size": 313732
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "KqV0e28N",
-      "name": "5.1.1",
-      "version_number": "5.1.1",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "27fd39278aa4a27ae7047d5e535bb918f79a6cb23adc7a7959d85ef74e80ae53bdb98cf3812c699bed1836cd74219474585bed67289ccbfd102a6dec659e2c06",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/KqV0e28N/dynamicassetgenerator-neoforge-1.20.4-5.1.1.jar",
-          "filename": "dynamicassetgenerator-neoforge-1.20.4-5.1.1.jar",
-          "primary": true,
-          "size": 390085
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "9CJIpcf1",
-      "name": "5.1.1",
-      "version_number": "5.1.1",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3925837111e454a37fbdd707e80aeae015ddde40bbafd50ba67692b5205529d1c49f8c499a9a6ae5e13641134ad35a6fab327d84067c31edf76474a414655b66",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/9CJIpcf1/dynamicassetgenerator-fabriquilt-1.20.4-5.1.1.jar",
-          "filename": "dynamicassetgenerator-fabriquilt-1.20.4-5.1.1.jar",
-          "primary": true,
-          "size": 407415
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "7cmQmu8g",
-      "name": "5.1.0",
-      "version_number": "5.1.0",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "96aa0bf29647d9c91c5b6a4b6cdbd314c830b27fcd34ca7644d96cee8612f45da5b15bb77cafe0ed4012810463a71dab7b510d8754f5317327544b55f95955be",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/7cmQmu8g/dynamicassetgenerator-neoforge-1.20.4-5.1.0.jar",
-          "filename": "dynamicassetgenerator-neoforge-1.20.4-5.1.0.jar",
-          "primary": true,
-          "size": 389945
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "lFfVaMOU",
-      "name": "5.1.0",
-      "version_number": "5.1.0",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "12919344392c8f8a962ae098f59d215cd87f8bc58c744fb255ab1bda804c8bb512b56a092906cfd612b836e3ed21a409b22cabdc5d9d85a5dd616f927111be53",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/lFfVaMOU/dynamicassetgenerator-fabriquilt-1.20.4-5.1.0.jar",
-          "filename": "dynamicassetgenerator-fabriquilt-1.20.4-5.1.0.jar",
-          "primary": true,
-          "size": 407272
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "diobBIPp",
-      "name": "5.0.0",
-      "version_number": "5.0.0",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "459b7a084b8614704e2678b186555d538f8475cb36f814589badb79df090979ec84f48fd757c64966ac1a4d7dee6910f94465f27d87d4a9e1691bab897e46572",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/diobBIPp/dynamicassetgenerator-neoforge-1.20.2-5.0.0.jar",
-          "filename": "dynamicassetgenerator-neoforge-1.20.2-5.0.0.jar",
-          "primary": true,
-          "size": 385759
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "J2rqP5Qj",
-      "name": "5.0.0",
-      "version_number": "5.0.0",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "50d0c0f80dfd9c2c552e40c0808a7b561aab9158c588f88b123e11989cf565a7a84b57dbc30f8eed31fe7a5489796bf40cdc2b35f682c7fa7acbbef100240232",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/J2rqP5Qj/dynamicassetgenerator-fabriquilt-1.20.2-5.0.0.jar",
-          "filename": "dynamicassetgenerator-fabriquilt-1.20.2-5.0.0.jar",
-          "primary": true,
-          "size": 402290
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "R2bbBkHK",
-      "name": "4.2.1",
-      "version_number": "4.2.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "e480d6e86932dd74b47599b019df0cb62ee6893f2ef4bcf99f87c8af09898bd9c360b703f1d0c3f2b231dcc70b79375ac5e1ea3231f8c72c671c28b2860f2071",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/R2bbBkHK/dynamicassetgenerator-quilt-1.20.1-4.2.1.jar",
-          "filename": "dynamicassetgenerator-quilt-1.20.1-4.2.1.jar",
-          "primary": true,
-          "size": 326975
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "fFx48erS",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "phngtMmx",
-      "name": "4.2.1",
-      "version_number": "4.2.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "5f76fa2ba61103af699e8853533daf33ee2a23141eeddfe815956c11b823e6f547e01fac9e12273e2586c952b78d9cf9998318d9ef741a4c1ea43d4c8977d671",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/phngtMmx/dynamicassetgenerator-forge-1.20.1-4.2.1.jar",
-          "filename": "dynamicassetgenerator-forge-1.20.1-4.2.1.jar",
-          "primary": true,
-          "size": 313652
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "5CjVmHZg",
-      "name": "4.2.0",
-      "version_number": "4.2.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "a34efdbdaa181b2901c7254fc10dd7ad2e15bbacc7be06b2b385fccad450645a5e836583f6bf8a43e77502e3d1eec7e6955196160cf8541cedd34ebbc69ef3e1",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/5CjVmHZg/dynamicassetgenerator-quilt-1.20.1-4.2.0.jar",
-          "filename": "dynamicassetgenerator-quilt-1.20.1-4.2.0.jar",
-          "primary": true,
-          "size": 319212
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "fFx48erS",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "scLeVcNM",
-      "name": "4.2.0",
-      "version_number": "4.2.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "b7f755f3d0cabb057485270170a20f99f4c3c2af9a4c004890cfa85061fb20e09fcca372b975a17b832845909e4ae0033137ea14c020e9b45a236b0bb129ab9b",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/scLeVcNM/dynamicassetgenerator-forge-1.20.1-4.2.0.jar",
-          "filename": "dynamicassetgenerator-forge-1.20.1-4.2.0.jar",
-          "primary": true,
-          "size": 305669
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "hd8CVBJd",
-      "name": "4.1.3",
-      "version_number": "4.1.3",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d7252a08ba0413a44fe6b29cf1dfbc86cb689d7403d6daf34f3d4461e4089094783b1143d3c9f4d115362f83af5df25c530562cc2fdafaa33e464d0fb3739c28",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/hd8CVBJd/dynamicassetgenerator-quilt-1.20.1-4.1.3.jar",
-          "filename": "dynamicassetgenerator-quilt-1.20.1-4.1.3.jar",
-          "primary": true,
-          "size": 306957
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "fFx48erS",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "oWBaKB04",
-      "name": "4.1.3",
-      "version_number": "4.1.3",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "d2ecaeab59c0c82c79d3272a283e834808b74db7dc84a7e1cd3408f7129561b2e510209394e761bd5968e052462efb77f07edbef413afcff519d8a7bf15ee333",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/oWBaKB04/dynamicassetgenerator-forge-1.20.1-4.1.3.jar",
-          "filename": "dynamicassetgenerator-forge-1.20.1-4.1.3.jar",
-          "primary": true,
-          "size": 293383
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "5F2gmUcs",
-      "name": "4.1.2",
-      "version_number": "4.1.2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "32f3633fa7d38ce4955e6890c96eae82551b7f73cd5946564053941986686d34707b33bb9005ae0effc990f844f8ade6dd60e559dabb81f2a5445a9c6ee213bf",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/5F2gmUcs/dynamicassetgenerator-quilt-1.20.1-4.1.2.jar",
-          "filename": "dynamicassetgenerator-quilt-1.20.1-4.1.2.jar",
-          "primary": true,
-          "size": 307052
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "fFx48erS",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "8J576OET",
-      "name": "4.1.2",
-      "version_number": "4.1.2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "30438125d8ea12e126b166874b1ed6d16a9e1adaa42a0456f23e8cb996655c83fdb5dea569bdaf5f6364ddf51707a156ce2d7b2138965ac05f52569f5bbaeafd",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/8J576OET/dynamicassetgenerator-forge-1.20.1-4.1.2.jar",
-          "filename": "dynamicassetgenerator-forge-1.20.1-4.1.2.jar",
-          "primary": true,
-          "size": 293477
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ApkECRvM",
-      "name": "4.1.1",
-      "version_number": "4.1.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "872818b5142921d14b7788da4f699f5e29b8e0790ed0d24f4867fa0c115956ac7646d3669e3b9ac9bf27dcbd0c0e15d6242978e4e2ba2b7423028c81d2202a4f",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/ApkECRvM/dynamicassetgenerator-quilt-1.20.1-4.1.1.jar",
-          "filename": "dynamicassetgenerator-quilt-1.20.1-4.1.1.jar",
-          "primary": true,
-          "size": 306885
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "fFx48erS",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "St5ShO3G",
-      "name": "4.1.1",
-      "version_number": "4.1.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "87a69fcd776e6a92e01758818e25efa77920748f50d4929d79c3dd6adbc15954a9b7139199d52214c62d350fbdc657d7c9dd27fdffc0a06f67a6330685d679d9",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/St5ShO3G/dynamicassetgenerator-forge-1.20.1-4.1.1.jar",
-          "filename": "dynamicassetgenerator-forge-1.20.1-4.1.1.jar",
-          "primary": true,
-          "size": 293292
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "XzbiDdDi",
-      "name": "4.1.0",
-      "version_number": "4.1.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "13bf9ce16fd558e26eabc8aed6d711cef27ec91b9f8e2071341a50ded5280ac172030c5a51dc2069eca46344eca400765cf7030c41189e43eee5c9379e9819b5",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/XzbiDdDi/dynamicassetgenerator-quilt-1.20.1-4.1.0.jar",
-          "filename": "dynamicassetgenerator-quilt-1.20.1-4.1.0.jar",
-          "primary": true,
-          "size": 306885
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "fFx48erS",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "uGbgfwc8",
-      "name": "4.1.0",
-      "version_number": "4.1.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e80744c1df56ed2cfc57567b70d37342f4a24340f764249bd02684e242888ea10ca3ece425e2939acd23906a7e5156c56be97ef4cc9b903bfa1ca6c460fb2db5",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/uGbgfwc8/dynamicassetgenerator-forge-1.20.1-4.1.0.jar",
-          "filename": "dynamicassetgenerator-forge-1.20.1-4.1.0.jar",
-          "primary": true,
-          "size": 293291
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "PgC4tO78",
-      "name": "4.0.1",
-      "version_number": "4.0.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "5e4f1b147474f8849db8e498d78215aaedcb3a3002541bbe9707a8d8cd08f320d263f9ee7e672e45261bf32deb4b4e2ac3be607c9670f747ebacf7d644d0ae6b",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/PgC4tO78/dynamicassetgenerator-quilt-1.20.1-4.0.1.jar",
-          "filename": "dynamicassetgenerator-quilt-1.20.1-4.0.1.jar",
-          "primary": true,
-          "size": 302519
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "fFx48erS",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "VNaLfamp",
-      "name": "4.0.1",
-      "version_number": "4.0.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "4b20bd8896eae305233a5b9dfe4cb2a1ab2777da4cbb26317b3be6442628eff699c203811a3618da1b8493a703f1bfe19d81f427db234aa7d5b7a0bd3dc4edf9",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/VNaLfamp/dynamicassetgenerator-forge-1.20.1-4.0.1.jar",
-          "filename": "dynamicassetgenerator-forge-1.20.1-4.0.1.jar",
-          "primary": true,
-          "size": 288940
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "iFrHo8hr",
-      "name": "4.0.0",
-      "version_number": "4.0.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "5f36c5b36ae12a1970983522cbd833ec2e2bc2ecaae30360bc6465101361cc0e81e05d69f16fda6b3a8ece230c48226f6a1bef87b2ca38395a8ed5f7b3842c2c",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/iFrHo8hr/dynamicassetgenerator-quilt-1.20-4.0.0.jar",
-          "filename": "dynamicassetgenerator-quilt-1.20-4.0.0.jar",
-          "primary": true,
-          "size": 302441
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "fFx48erS",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "fGL7Jjnm",
-      "name": "4.0.0",
-      "version_number": "4.0.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "42684b8ae6b85dae3b7b697b7a520143034de04bee87e3105a7f582bbce04130da55663ac53d3359787918161d7c68ed8eea22f1fe19e48d32e090ea19a18e45",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/fGL7Jjnm/dynamicassetgenerator-forge-1.20-4.0.0.jar",
-          "filename": "dynamicassetgenerator-forge-1.20-4.0.0.jar",
-          "primary": true,
-          "size": 288872
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "fhuk2agH",
-      "name": "3.1.1",
-      "version_number": "3.1.1",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "b3b0b75eee29fb0a9a85a7785a6bdd292c57f558c5a67ff64d9f0c5e99250cd6356130517f26eb8441a716b35a2b788bae70b6d363c2e0137eb11a348a813d8e",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/fhuk2agH/dynamicassetgenerator-quilt-1.19.4-3.1.1.jar",
-          "filename": "dynamicassetgenerator-quilt-1.19.4-3.1.1.jar",
-          "primary": true,
-          "size": 245051
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "QPXihdoB",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "iQRiUW0x",
-      "name": "3.1.1",
-      "version_number": "3.1.1",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "67f31760fabb97a51a5a733b9694eb5172ac08f06208f4ef3b525e466869a980ed4d1bffed64ad818e87d31c3139f81810d3dc721f8284c81ccf28b29fc15b0e",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/iQRiUW0x/dynamicassetgenerator-forge-1.19.4-3.1.1.jar",
-          "filename": "dynamicassetgenerator-forge-1.19.4-3.1.1.jar",
-          "primary": true,
-          "size": 233886
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "NEygr751",
-      "name": "3.1.0",
-      "version_number": "3.1.0",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "8aa00e0d0801e869c462dc72879e3b5aed981629afc854299e0dabd0e205da69c1ba7ed8ed2e284acaa83d3aa63667510c517a927937d9844b6b331b46fea4ad",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/NEygr751/dynamicassetgenerator-quilt-1.19.4-3.1.0.jar",
-          "filename": "dynamicassetgenerator-quilt-1.19.4-3.1.0.jar",
-          "primary": true,
-          "size": 244956
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "QPXihdoB",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4AmH0HfB",
-      "name": "3.1.0",
-      "version_number": "3.1.0",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "c7d4099e2c0e1c6c0555eebb4fc3c5da98109506c5739fdccd7bb3f4b0d480688d0fd6b7ebd551f638a068a28de9c82a4a64e1f60316b8c256d4e2d950af3ff6",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/4AmH0HfB/dynamicassetgenerator-forge-1.19.4-3.1.0.jar",
-          "filename": "dynamicassetgenerator-forge-1.19.4-3.1.0.jar",
-          "primary": true,
-          "size": 233885
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "OCqA4yEe",
-      "name": "3.0.5",
-      "version_number": "3.0.5",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "13dc962ed0e2692fe88c52d69d7a8e698384a0efdcdf60ebcab4e39408274512f2b03ed601c6866873720a1518a42d3c91a0d9b55092c242fd410283fc88a0b0",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/OCqA4yEe/dynamicassetgenerator-quilt-1.19.4-3.0.5.jar",
-          "filename": "dynamicassetgenerator-quilt-1.19.4-3.0.5.jar",
-          "primary": true,
-          "size": 241756
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "QPXihdoB",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "9SCkcuaH",
-      "name": "3.0.5",
-      "version_number": "3.0.5",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "db47a9dc72d40dca6e9ca255aa878fe68c3b3e8a06bfb9cf8a9cc1607c5e7d6c945dfe43334978ea06bbef178f4ba13ffa2d52a1310e0e6be9322aba901967a7",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/9SCkcuaH/dynamicassetgenerator-forge-1.19.4-3.0.5.jar",
-          "filename": "dynamicassetgenerator-forge-1.19.4-3.0.5.jar",
-          "primary": true,
-          "size": 230822
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "RXHRmavb",
-      "name": "3.0.4",
-      "version_number": "3.0.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "233371f654af53dd007be7258053fcc4a7666474141c4c80205c7b7567bb5c2d2d668e64abb426fb25031c918ab6ca873d3bf1e082ce8c3aa9a7c0a16f74de49",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/RXHRmavb/dynamicassetgenerator-quilt-1.19.4-3.0.4.jar",
-          "filename": "dynamicassetgenerator-quilt-1.19.4-3.0.4.jar",
-          "primary": true,
-          "size": 241821
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "QPXihdoB",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "pI5WSww8",
-      "name": "3.0.4",
-      "version_number": "3.0.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "7d3215f8255453dd365eefd00668e227eb175a418debd4b001850b860fa6fc020a45c6d6e94aca0cf2e5ded4567550eb6d0ed350771c43f948a317c1618fb648",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/pI5WSww8/dynamicassetgenerator-forge-1.19.4-3.0.4.jar",
-          "filename": "dynamicassetgenerator-forge-1.19.4-3.0.4.jar",
-          "primary": true,
-          "size": 230879
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "GIAxMj5Q",
-      "name": "3.0.3",
-      "version_number": "3.0.3",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "a247debff1150343c037853137754b3f69dd2955d029325f249b5c1a1600dacc8321ddabeb791be88c0abf2b9bdd503a075c8aaaad8850ba2c21895a1f326ce2",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/GIAxMj5Q/dynamicassetgenerator-quilt-1.19.4-3.0.3.jar",
-          "filename": "dynamicassetgenerator-quilt-1.19.4-3.0.3.jar",
-          "primary": true,
-          "size": 241821
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "QPXihdoB",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "TDWOJnus",
-      "name": "3.0.3",
-      "version_number": "3.0.3",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "892d7829f4b60660cae421b130f39b50c628bb7fb6fff525168214ac2e8f71ebb0f052bbdb1dc172c816d7e6db8633a9d6a8c0d5d64574d37ab4079288d31e18",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/TDWOJnus/dynamicassetgenerator-forge-1.19.4-3.0.3.jar",
-          "filename": "dynamicassetgenerator-forge-1.19.4-3.0.3.jar",
-          "primary": true,
-          "size": 230792
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "jkbNWOXJ",
-      "name": "3.0.2",
-      "version_number": "3.0.2",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "a0c6778c5442b6beade2abdf34d5e1c5196d870db46839d812cf18d95fa748bb1a311c81277526666a4fe6253ee6cd2689a6100f15c50f7d2d20341af600e377",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/jkbNWOXJ/dynamicassetgenerator-quilt-1.19.3-3.0.2.jar",
-          "filename": "dynamicassetgenerator-quilt-1.19.3-3.0.2.jar",
-          "primary": true,
-          "size": 241134
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "eaoB99I6",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "7r3EdX8l",
-      "name": "3.0.2",
-      "version_number": "3.0.2",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "587c2be0c3088cdf2e459703dd33426d314bf7c4b27b247ef2270d42cadf0c4570ee285051fac19554944f975736bfebdab609ddbd85bebefba37e369f8e0120",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/7r3EdX8l/dynamicassetgenerator-forge-1.19.3-3.0.2.jar",
-          "filename": "dynamicassetgenerator-forge-1.19.3-3.0.2.jar",
-          "primary": true,
-          "size": 230156
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "vaNMC2tC",
-      "name": "3.0.1",
-      "version_number": "3.0.1",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ef4f9c97b6146655838d98d060a9e372d6e8562e600690320c392a3d565e724b6d426bcd43f765d468325f2c3c4d0e45663ebadf7ad27a645e36c82253f95bcb",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/vaNMC2tC/dynamicassetgenerator-quilt-1.19.3-3.0.1.jar",
-          "filename": "dynamicassetgenerator-quilt-1.19.3-3.0.1.jar",
-          "primary": true,
-          "size": 240901
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "eaoB99I6",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "P2N7U5Yj",
-      "name": "3.0.1",
-      "version_number": "3.0.1",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "243763ad99b5bcee4a4cfd8e4a9cd7746555a6a5e9ff2f7ad1dcf102d25b27d54515396441ad1e8d9cfd19d845c6b3891d3604e319f2869fa944bf78a6ae59da",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/P2N7U5Yj/dynamicassetgenerator-forge-1.19.3-3.0.1.jar",
-          "filename": "dynamicassetgenerator-forge-1.19.3-3.0.1.jar",
-          "primary": true,
-          "size": 229890
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "IOm2PZNz",
-      "name": "3.0.0",
-      "version_number": "3.0.0",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d546570be669d7bc51916143a821ea91d6fe96b37b6febe244d698b60be05c23659b7218df6042106563db5adf3ce9b8afa5418eb72a0d8a9d69d8c3d78da0f8",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/IOm2PZNz/dynamicassetgenerator-quilt-1.19.3-3.0.0.jar",
-          "filename": "dynamicassetgenerator-quilt-1.19.3-3.0.0.jar",
-          "primary": true,
-          "size": 240796
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "eaoB99I6",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "swjTyRcB",
-      "name": "3.0.0",
-      "version_number": "3.0.0",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "0ad4fd42d4fb5199a2eab09948ed1b05dc3595e21de066db4ec16363a0f6b6af2bc1be4bd81b835bcddd53374ad0e0e887212ffab58005875fd10253f50e4b3d",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/swjTyRcB/dynamicassetgenerator-forge-1.19.3-3.0.0.jar",
-          "filename": "dynamicassetgenerator-forge-1.19.3-3.0.0.jar",
-          "primary": true,
-          "size": 229897
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "EPCJoxv9",
-      "name": "2.0.0",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "decb7e23472bd9519334c3a0f3f8b563910c98be7f138b8459b461867558794cdf062603516fc0f88b37532b22eddba84238e3c9b9fe8516c5983ef4f3ea06c4",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/EPCJoxv9/dynamicassetgenerator-quilt-1.19.3-2.0.0.jar",
-          "filename": "dynamicassetgenerator-quilt-1.19.3-2.0.0.jar",
-          "primary": true,
-          "size": 215452
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "eaoB99I6",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "pA2ZPUza",
-      "name": "2.0.0",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "6ae2824345e840bf5e45801f7e727023c669f7cce9e2405f671470d697b866f9ec25964fe06acf297865b0edfdf415c1402b0268f8a6c9d3ad0708d19f42363c",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/pA2ZPUza/dynamicassetgenerator-forge-1.19.3-2.0.0.jar",
-          "filename": "dynamicassetgenerator-forge-1.19.3-2.0.0.jar",
-          "primary": true,
-          "size": 205761
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "L0GthGHl",
-      "name": "1.2.0",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "1813b800d6feaec8d0ecc08fc12e31a5cb50f5a240431e07af9a5872b6d21c1414c139ec96faccf8688bc32f44baf1bd095ba03ac55645bf657e013e1a296bca",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/L0GthGHl/dynamic_asset_generator-quilt-1.19.2-1.2.0.jar",
-          "filename": "dynamic_asset_generator-quilt-1.19.2-1.2.0.jar",
-          "primary": true,
-          "size": 241680
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "BTCxVi75",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Lo5dk8J4",
-      "name": "1.2.0",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "4e8d846a890f527c7287821e703f8a5d4bc36c1971879893b3d37a3170202acfcc0167878736b4d6821250e202ea1da996b04de9e6767123873fb831b6be218f",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/Lo5dk8J4/dynamic_asset_generator-forge-1.19.2-1.2.0.jar",
-          "filename": "dynamic_asset_generator-forge-1.19.2-1.2.0.jar",
-          "primary": true,
-          "size": 235174
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "2RoV7FmU",
-      "name": "1.1.0",
-      "version_number": "1.1.0-1.19.2-quilt",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4c4a5530017bec75891545bcacf80432b21f5ec41d220cabd00e6194bef0479e3640403be68c2f80d3d2de795ca7e655b2247bbf66af25e8934bb95402015d89",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/2RoV7FmU/dynamic_asset_generator-quilt-1.19.2-1.1.0.jar",
-          "filename": "dynamic_asset_generator-quilt-1.19.2-1.1.0.jar",
-          "primary": false,
-          "size": 225071
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "BTCxVi75",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "bbhNiunM",
-      "name": "1.1.0",
-      "version_number": "1.1.0-1.19.2-forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "175a65506e565b0022c6462d2f296bbb5c0dab91e340fcf41314f1e0a79f82b608b0165cd0e92cc13cc14b2d21b1a05017ea0f3bd5871d4d0e776c273a8b015f",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/bbhNiunM/dynamic_asset_generator-forge-1.19.2-1.1.0.jar",
-          "filename": "dynamic_asset_generator-forge-1.19.2-1.1.0.jar",
-          "primary": true,
-          "size": 216730
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "nzJicnAh",
-      "name": "1.0.1",
-      "version_number": "1.0.1-1.19.2-forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "d1f0f3f06670da988ad60bf7882eb9b7d9d3216d015ae5880679183baea3501f4de77437324025c7671f13a6cef7a622236ea51db5c36233a2453c782ca9af52",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/nzJicnAh/dynamic_asset_generator-forge-1.19.2-1.0.1.jar",
-          "filename": "dynamic_asset_generator-forge-1.19.2-1.0.1.jar",
-          "primary": true,
-          "size": 182535
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "XytQPP9y",
-      "name": "1.0.1",
-      "version_number": "1.0.1-1.19.2-quilt",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4907496921fabe48aaec73476e5f2ac58cbb5b2e36d09adf04300bf55d2552890cc334bb826cbad0ab3baf18950381d76a31b88c1c27b5d2986485c81b446f07",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/XytQPP9y/dynamic_asset_generator-quilt-1.19.2-1.0.1.jar",
-          "filename": "dynamic_asset_generator-quilt-1.19.2-1.0.1.jar",
-          "primary": true,
-          "size": 184485
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "jxYUybJA",
-      "name": "1.0.1",
-      "version_number": "1.0.1-1.19.2-fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "5f293690bd10a80861b3d65b7e9d12d9da9f4bd4ec1b06c9186266be3011db007958a739c006d890bd249f2416a4930c867f1876f57cffe4a2892a49d4dd4642",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/jxYUybJA/dynamic_asset_generator-fabric-1.19.2-1.0.1.jar",
-          "filename": "dynamic_asset_generator-fabric-1.19.2-1.0.1.jar",
-          "primary": true,
-          "size": 321218
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "9EHWe8Bn",
-      "name": "1.0.0",
-      "version_number": "1.0.0-1.19-quilt",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d969f769e15271da06a6530417f248b50c31909b6acb3575ca83bda96e05df31823af1add941d381452a5c4ee7294a9cbcc9b23afa7769cd6d3ae38eec04a2bf",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/1.0.0-1.19-quilt/dynamic_asset_generator-quilt-1.19-1.0.0.jar",
-          "filename": "dynamic_asset_generator-quilt-1.19-1.0.0.jar",
-          "primary": true,
-          "size": 184483
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "X30oWVYB",
-      "name": "1.0.0",
-      "version_number": "1.0.0-1.19-forge",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "404fc5e8dec3139189d9fd9abc88455eae29667185c60d86ece90f46e4afdf3bdd70482583e39aadfcc50f75b6dddff32ea9dd24b39975ce94dd0a430bea8b79",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/1.0.0-1.19-forge/dynamic_asset_generator-forge-1.19-1.0.0.jar",
-          "filename": "dynamic_asset_generator-forge-1.19-1.0.0.jar",
-          "primary": true,
-          "size": 182534
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "BG5jWxpR",
-      "name": "1.0.0",
-      "version_number": "1.0.0-1.19-fabric",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "02a421e729fcf5a78a28e20894e9e8ab4f13344bc4575ae8a4c31398a74fd406a986e3f26ee64509d1faad91ba51531fa350e20598a0e37d643a0c9fb9a94fb8",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/1.0.0-1.19-fabric/dynamic_asset_generator-fabric-1.19-1.0.0.jar",
-          "filename": "dynamic_asset_generator-fabric-1.19-1.0.0.jar",
-          "primary": true,
-          "size": 318277
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "qGktD7iQ",
-      "name": "0.7.1",
-      "version_number": "0.7.1-1.19-forge",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "bf8c5c5f8ee2399e20b825ca189172d9c612def7e47e0ba13605f54c55626b7d048a4e90c5adfd008a2f1dbdfaa35984c55573c8b1e5b5d57caae63d911d8c7d",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.7.1-1.19-forge/dynamic_asset_generator-forge-1.19-0.7.1.jar",
-          "filename": "dynamic_asset_generator-forge-1.19-0.7.1.jar",
-          "primary": true,
-          "size": 141954
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "L662ZW7p",
-      "name": "0.7.1",
-      "version_number": "0.7.1-1.19-quilt",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "dbdfa12c1d10d9015ec70228e46cbc60179cbbdd07b638d2d08c33c83651ea37d00f4c3f49e69c074f5e3ac08f6199a7a425c9f5c3ea0403982cf42fef173c6a",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.7.1-1.19-quilt/dynamic_asset_generator-quilt-1.19-0.7.1.jar",
-          "filename": "dynamic_asset_generator-quilt-1.19-0.7.1.jar",
-          "primary": true,
-          "size": 142811
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "vRQUQEdH",
-      "name": "0.7.1",
-      "version_number": "0.7.1-1.19-fabric",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "5e54acbf9ce6f4958595c3e0e14c1699d99dd8aa1481c86fdf0dc56266f6e4ccbd14ef84c358db3b1ff3763638d1c5522f8029840156f6c1a614285d6592614e",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.7.1-1.19-fabric/dynamic_asset_generator-fabric-1.19-0.7.1.jar",
-          "filename": "dynamic_asset_generator-fabric-1.19-0.7.1.jar",
-          "primary": true,
-          "size": 277161
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "N4O8ejSq",
-      "name": "0.7.0",
-      "version_number": "0.7.0-1.19-quilt",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "17940e3cd616063dfeaf4c124c304d8c11c7aba882e01956ee931e955f7ae02c4dd7040014b9b81f8d0c36494fb84a5b7bb8ddbae3e6d305ee79a3a8b5dab539",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.7.0-1.19-quilt/dynamic_asset_generator-quilt-1.19-0.7.0.jar",
-          "filename": "dynamic_asset_generator-quilt-1.19-0.7.0.jar",
-          "primary": true,
-          "size": 142492
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ZaEjK5KT",
-      "name": "0.7.0",
-      "version_number": "0.7.0-1.19-forge",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "abd0c6f08821959155e58d44d06097c0b1146361ce56bef35da3d3db91bb601ac10bc6c4603da711ca315a998cb68a7659d253c952ab1d6f7eb90fdf7fa8e57a",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.7.0-1.19-forge/dynamic_asset_generator-forge-1.19-0.7.0.jar",
-          "filename": "dynamic_asset_generator-forge-1.19-0.7.0.jar",
-          "primary": true,
-          "size": 141654
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "JulhGz4S",
-      "name": "0.7.0",
-      "version_number": "0.7.0-1.19-fabric",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e3a0b07cbc09e9ecf19a30c928cf584b50d9ca1491624733ddea2e0b631cecd970f73fcd1d8b3a5f286fb3ccec0b01b0a70be088ca338a911bc02c03d9d1c68e",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.7.0-1.19-fabric/dynamic_asset_generator-fabric-1.19-0.7.0.jar",
-          "filename": "dynamic_asset_generator-fabric-1.19-0.7.0.jar",
-          "primary": true,
-          "size": 276506
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Ze3RIgnS",
-      "name": "0.6.4",
-      "version_number": "0.6.4-1.19-quilt",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "882981c69d47fe52358014141a218d039103308e3b800711911593f4f043f9a53041a5b7c4ad3935f40be913738cb62240816272e4c8fa0d2232ad184dc4e3f1",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.4-1.19-quilt/dynamic_asset_generator-quilt-1.19-0.6.4.jar",
-          "filename": "dynamic_asset_generator-quilt-1.19-0.6.4.jar",
-          "primary": true,
-          "size": 268507
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "hFyfdjtk",
-      "name": "0.6.4",
-      "version_number": "0.6.4-1.19-forge",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "ff7c2649a42dcb314f231ad8024f4791072114745c68690e957d3ef55e208484e7b4a35c0e1562672a02fbad0129233df3b11b0821a077d54bebd9da0afe1064",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.4-1.19-forge/dynamic_asset_generator-forge-1.19-0.6.4.jar",
-          "filename": "dynamic_asset_generator-forge-1.19-0.6.4.jar",
-          "primary": true,
-          "size": 139777
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "HxSQxWqB",
-      "name": "0.6.4",
-      "version_number": "0.6.4-1.19-fabric",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "5b76d28dda1dda1b1e200793ad4b3ab02c0f64b4e7a65c90f2a15543646ea317b2834f75dbb98981f160d31f888b6932dfbf2447e8b3f324559c2949b0428040",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.4-1.19-fabric/dynamic_asset_generator-fabric-1.19-0.6.4.jar",
-          "filename": "dynamic_asset_generator-fabric-1.19-0.6.4.jar",
-          "primary": true,
-          "size": 270306
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "FfvTdb01",
-      "name": "0.6.3",
-      "version_number": "0.6.3-1.19-quilt",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "b1a16bb5677fa6d3c6cea1a00b8b57e5fee3d56f5912e9f1f39ad4c949611837deccf876775a444656bbdfc97e3842220ef24ad72792a4aa4c9627f2aaf7cd89",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.3-1.19-quilt/dynamic_asset_generator-quilt-1.19-0.6.3.jar",
-          "filename": "dynamic_asset_generator-quilt-1.19-0.6.3.jar",
-          "primary": true,
-          "size": 268506
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "5ZDJHeni",
-      "name": "0.6.3",
-      "version_number": "0.6.3-1.19-fabric",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "03eea7a68f01ae94c8e0a793f4c9e8542d25c07bd9023d05a245398543a4048c54ec57f562f4fece9a1f166e219805044050ab788e7a5c21e0746ce4bf535f60",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.3-1.19-fabric/dynamic_asset_generator-fabric-1.19-0.6.3.jar",
-          "filename": "dynamic_asset_generator-fabric-1.19-0.6.3.jar",
-          "primary": true,
-          "size": 270306
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "blFdmeJE",
-      "name": "0.6.3",
-      "version_number": "0.6.3-1.19-forge",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "2bbc777260c815619cb8fb6692a7ccc0c7605a1637b6fb1163ed999e3cdf2ec9627aebb94a938a0c6f27b3b954f6638025f43943708d6ef3b766ee8b61dca563",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.3-1.19-forge/dynamic_asset_generator-forge-1.19-0.6.3.jar",
-          "filename": "dynamic_asset_generator-forge-1.19-0.6.3.jar",
-          "primary": true,
-          "size": 139767
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "n7ozEODn",
-      "name": "0.6.3",
-      "version_number": "0.6.3-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "70ee168dbe425910290186703e2714df885c94e60a86a2dc5521e40d40d5fc0e5ea8bdbdc98166704258f71dafb6907d3b17c411540ce181c5957d59e2cbdf5c",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.3-forge/dynamic_asset_generator-forge-1.18.2-0.6.3.jar",
-          "filename": "dynamic_asset_generator-forge-1.18.2-0.6.3.jar",
-          "primary": true,
-          "size": 139800
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "uUqsEDsh",
-      "name": "0.6.2",
-      "version_number": "0.6.2-quilt",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2a3045c413387344f26feadf60789f62bbc640b9e0bf7557d3a6e048fd32efd141e89b981027bd779d451368239ffba45345bf4e2dca3e617287d53a855e410a",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.2-quilt/dynamic_asset_generator-quilt-1.18.2-0.6.2.jar",
-          "filename": "dynamic_asset_generator-quilt-1.18.2-0.6.2.jar",
-          "primary": true,
-          "size": 263547
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "YCA8JXFR",
-      "name": "0.6.2",
-      "version_number": "0.6.2-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "7c1b681fc424f663ad1f9b83143b3c263578ad0e897d73db8ce484f6a7e74d331d8d40f4329ab93ba6570f953184a5d617c6ae66dc5b0ef30795f7180a17006b",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.2-fabric/dynamic_asset_generator-fabric-1.18.2-0.6.2.jar",
-          "filename": "dynamic_asset_generator-fabric-1.18.2-0.6.2.jar",
-          "primary": true,
-          "size": 265341
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "IiRLMpBg",
-      "name": "0.6.0",
-      "version_number": "0.6.0-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "cfbffc7218b494d4e8f3825191df4bd45173e88ca4232f1f3b1a49840539c3ded5de45bc8fab853680d3915ff4b9205b37c220341657c8dd44efaf5e7908a5f0",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.0-forge/dynamic_asset_generator-forge-1.18.2-0.6.0.jar",
-          "filename": "dynamic_asset_generator-forge-1.18.2-0.6.0.jar",
-          "primary": true,
-          "size": 119899
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "eIMdEbPN",
-      "name": "0.6.0",
-      "version_number": "0.6.0-quilt",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f257b2edda23fbf333e9ed7137933f5054bff209d8206cc910647c5e5e88d73a4fc21af929d57d2e4e3c1335c4c3f4bf67755995c92f3e64c83a5ffccaf8e463",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.0-quilt/dynamic_asset_generator-quilt-1.18.2-0.6.0.jar",
-          "filename": "dynamic_asset_generator-quilt-1.18.2-0.6.0.jar",
-          "primary": true,
-          "size": 243920
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "6ZI3xnH5",
-      "name": "0.6.0",
-      "version_number": "0.6.0-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a7081bac086448646e7d55d970253452531e3ebf817122f2b6a9e52515a49ea4513c6e8cbf23531e872b8951dc600e8f76c1a49b7cf9c800f499fd62177b8e2b",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.6.0-fabric/dynamic_asset_generator-fabric-1.18.2-0.6.0.jar",
-          "filename": "dynamic_asset_generator-fabric-1.18.2-0.6.0.jar",
-          "primary": true,
-          "size": 245717
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "80wKRnEd",
-      "name": "0.5.2",
-      "version_number": "0.5.2-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "ffbb33664c3af5af86665c971ef57370af9d5785fee92e222fa35d54e1f28cf9130de4ba8426cf4f0a574e490f18203e04a5ae042702f2b280ec84887bb5b5f3",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.5.2-forge/dynamic_asset_generator-forge-0.5.2.jar",
-          "filename": "dynamic_asset_generator-forge-0.5.2.jar",
-          "primary": true,
-          "size": 120462
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ZdFTJDy8",
-      "name": "0.5.2",
-      "version_number": "0.5.2-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "18d6c26b44f9b1cc8a1216e354f9afee2fd3911a4d3d282ea504f4b93e8991f47bd46b3dacd1f03a1992266a73a0f44beeed30367250f9ca4032346e91adcab9",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.5.2-fabric/dynamic_asset_generator-fabric-0.5.2.jar",
-          "filename": "dynamic_asset_generator-fabric-0.5.2.jar",
-          "primary": true,
-          "size": 240906
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "rizXlq54",
-      "name": "0.5.1",
-      "version_number": "0.5.1-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "447af1d37adb2773d7711a17cd5b3fbf0fc1885a63a7287163053e795ef81f5e18fe8e4aa2d7beca7f1854fb913c351756a94891071835dc16c3719b90c74609",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.5.1-forge/dynamic_asset_generator-forge-0.5.1.jar",
-          "filename": "dynamic_asset_generator-forge-0.5.1.jar",
-          "primary": true,
-          "size": 120331
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "B0pZPjA7",
-      "name": "0.5.1",
-      "version_number": "0.5.1-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6f60ea635645107a8a269e774debcd6e3ab0c3a0eae4c97e97531fcf8e77c19779a0d298c6a0619cfce35115564bb5a0736f0907261c8cd3d8390f92ce7ec544",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.5.1-fabric/dynamic_asset_generator-fabric-0.5.1.jar",
-          "filename": "dynamic_asset_generator-fabric-0.5.1.jar",
-          "primary": true,
-          "size": 240771
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "M6m3Slbs",
-      "name": "0.5.0",
-      "version_number": "0.5.0-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "c7d96f02b31801699ec9b5fb77e7275d994b686859f14a08651ae7ff204ee9bc1687a815327535e2a7c9b8c5539c335b0b88a98232ca7b7426240a6b79ecfd14",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.5.0-forge/dynamic_asset_generator-forge-0.5.0.jar",
-          "filename": "dynamic_asset_generator-forge-0.5.0.jar",
-          "primary": true,
-          "size": 119032
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "788tpQoG",
-      "name": "0.5.0",
-      "version_number": "0.5.0-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "45e2c95caf24689bffe6ca73244256ca3415e6a64b7c1dcfad9aa9f90e521090b9be2736f38464d8357090f144e0871514bbf0cdc304191d42f0031db1b00c5d",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.5.0-fabric/dynamic_asset_generator-fabric-0.5.0.jar",
-          "filename": "dynamic_asset_generator-fabric-0.5.0.jar",
-          "primary": true,
-          "size": 239482
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "bYm4QSpd",
-      "name": "0.4.9",
-      "version_number": "0.4.9-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "bc33e4b8a3041d9b208ec96843adf4e38a264b3f3164488d74aa63dc1ca86187dfaf18cafc9905b2ba6a323b36dcd797a1e31e3e6db9bd07de4bcfc173ce45b1",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.9-forge/dynamic_asset_generator-forge-0.4.9.jar",
-          "filename": "dynamic_asset_generator-forge-0.4.9.jar",
-          "primary": true,
-          "size": 113313
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "QxsV3nI9",
-      "name": "0.4.9",
-      "version_number": "0.4.9-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e55f1617bd6d3e7bd94ae59d52a393b4d151a1e7c56cad388becf2f71fec4025bd2c67a278a8de89c67978a0dc4c995f3a09695612ec52b21c5b1964b00d0fc6",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.9-fabric/dynamic_asset_generator-fabric-0.4.9.jar",
-          "filename": "dynamic_asset_generator-fabric-0.4.9.jar",
-          "primary": true,
-          "size": 233790
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "1w9FdcOy",
-      "name": "0.4.8",
-      "version_number": "0.4.8-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "d5abb695b6474123cd0c89a85425f95ee94a057ae3103093e6e0b47260d717aaccb84a298dcdc4e7452e29d30c9d9a71424cd97a9d2ee801d4022fbb7bfc68b4",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.8-forge/dynamic_asset_generator-forge-0.4.8.jar",
-          "filename": "dynamic_asset_generator-forge-0.4.8.jar",
-          "primary": true,
-          "size": 111328
         }
       ],
       "dependencies": []
@@ -2301,279 +3036,6 @@
       "dependencies": []
     },
     {
-      "id": "Dwqk4bs4",
-      "name": "0.4.7",
-      "version_number": "0.4.7-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "c8b87cc6c6daa407aa82ea33539f754e5ac503b0303c767060b8750a89c2020c4f9434c528628873362b668feb914ca0cf342eb33369427a0dbae141dd45c594",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.7-forge/dynamic_asset_generator-forge-0.4.7.jar",
-          "filename": "dynamic_asset_generator-forge-0.4.7.jar",
-          "primary": true,
-          "size": 108747
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "PaHYhOff",
-      "name": "0.4.7",
-      "version_number": "0.4.7-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "20d336911914f6ed72eb823183e6c9b37920573132cdf687b96d0fd436703354956bb8b0829e6b20b5a80258754b4c8757060ed752f5aff7e23efebe76ae63aa",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.7-fabric/dynamic_asset_generator-fabric-0.4.7.jar",
-          "filename": "dynamic_asset_generator-fabric-0.4.7.jar",
-          "primary": true,
-          "size": 229127
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "clupv0Gj",
-      "name": "0.4.6",
-      "version_number": "0.4.6-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "5fb9136018710b9b6db831d52f75d40d75955bb2ceea3cc4b776d7acff00b4a8a046523fffc5ff5cad7124ecd25a52bc87a70d036895ef85a01ee68af123c7bf",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.6-forge/dynamic_asset_generator-forge-0.4.6.jar",
-          "filename": "dynamic_asset_generator-forge-0.4.6.jar",
-          "primary": true,
-          "size": 104622
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "lZBXOSEt",
-      "name": "0.4.6",
-      "version_number": "0.4.6-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "99377ccad7a92a1e06af2cb3c00fbc969dd8a6fd0fea045b10337540558c9337df1e630753148b94d4319721e4d5f65898733920c377dfc9b8729af7759d9707",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.6-fabric/dynamic_asset_generator-fabric-0.4.6.jar",
-          "filename": "dynamic_asset_generator-fabric-0.4.6.jar",
-          "primary": true,
-          "size": 225283
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "kiA0MBdH",
-      "name": "0.4.4",
-      "version_number": "0.4.4-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "c4e044d8f44cfa8024f0618949ff2588ee09ba47b8f5326744a17c108a8f900a9ef9c75369cf53d42e56c0043fc068b8f400512bf57316f243a822c6dcb7abe4",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.4-forge/dynamic_asset_generator-forge-0.4.4.jar",
-          "filename": "dynamic_asset_generator-forge-0.4.4.jar",
-          "primary": true,
-          "size": 95515
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "YlI57iUY",
-      "name": "0.4.4",
-      "version_number": "0.4.4-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a4a141b1417dad3bdf8ad7698336ed199e099a96023a9b2ecc6ca3f9002e3753a67e2e8e7897cf54103f48d77848fa680d719a75a49d390f9456210e011d634d",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.4-fabric/dynamic_asset_generator-fabric-0.4.4.jar",
-          "filename": "dynamic_asset_generator-fabric-0.4.4.jar",
-          "primary": true,
-          "size": 216179
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "hw1r9jwP",
-      "name": "0.4.3",
-      "version_number": "0.4.3-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "edb9748b77df4f3cc7e658845e2edd96d2bfbf609ff185b12f6f9834c3333df8bafaec505de730d82009ff00714fd827cce9abcca8069355bdbd646d128e62a6",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.3-forge/dynamic_asset_generator-forge-0.4.3.jar",
-          "filename": "dynamic_asset_generator-forge-0.4.3.jar",
-          "primary": true,
-          "size": 94070
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "NYCkTcYf",
-      "name": "0.4.3",
-      "version_number": "0.4.3-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "56b96d426e8a9de0173aa930872dd4b38255ee6184cfa1b97e840e7ec4797088d26523668c77e8035ae4ca358126fc8f54f779fb4d86af61f9522b3d992d743b",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.3-fabric/dynamic_asset_generator-fabric-0.4.3.jar",
-          "filename": "dynamic_asset_generator-fabric-0.4.3.jar",
-          "primary": true,
-          "size": 214734
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "c5ADQXQg",
-      "name": "0.4.2",
-      "version_number": "0.4.2-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "cd63f3468cb18fddfa0ed32369df262e2ee257751ee838918aa2e71fbf06df57dc7b8269df24ffb782c812a5895a5a5680d7eae6c4036006ee719368b264732a",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.2-forge/dynamic_asset_generator-forge-0.4.2.jar",
-          "filename": "dynamic_asset_generator-forge-0.4.2.jar",
-          "primary": true,
-          "size": 92750
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "2XdHV4Hn",
-      "name": "0.4.2",
-      "version_number": "0.4.2-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "3ac58bc8ba8a9f3b2d6fbaf5a9b3de64e2ad18f5275469a43c15211a4137e27b071eee786e014c4416ef729765309c924dc96487b52a94495e77e21d92529968",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.2-fabric/dynamic_asset_generator-fabric-0.4.2.jar",
-          "filename": "dynamic_asset_generator-fabric-0.4.2.jar",
-          "primary": true,
-          "size": 213413
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "VxZxVOrb",
-      "name": "0.4.1",
-      "version_number": "0.4.1-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "700c74435afd8a627e1002adc026bb8803921f6cf841a154c22b346519530b3bb1627fe9262c43e3f7975fb2fb6942bba040ab0d8b127a649193dc847956f702",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.1-forge/dynamic_asset_generator-forge-0.4.1.jar",
-          "filename": "dynamic_asset_generator-forge-0.4.1.jar",
-          "primary": true,
-          "size": 92330
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "RNUj5Kli",
-      "name": "0.4.1",
-      "version_number": "0.4.1-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "fbf7f4af6651e9ff32ed7d264d72af161ba9f716124dd8d5f22d5008586a755b58d30c0f005aae16ee8d3f3e62ae0b0e2468d00be3667eb2b76c64043768d528",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.1-fabric/dynamic_asset_generator-fabric-0.4.1.jar",
-          "filename": "dynamic_asset_generator-fabric-0.4.1.jar",
-          "primary": true,
-          "size": 212992
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "c0lAnzkT",
-      "name": "0.4.0",
-      "version_number": "0.4.0-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "c2d001c7b595bfca627ad3a1499e9dafaad254289756dbdd931da7696bcf4f41b4b6aacd9d5bdf1178bdb6a7f4f37afee81da9e0da849449280929a068b20329",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.4.0-forge/dynamic_asset_generator-forge-0.4.0.jar",
-          "filename": "dynamic_asset_generator-forge-0.4.0.jar",
-          "primary": true,
-          "size": 92250
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "zoW4iEve",
       "name": "0.4.0",
       "version_number": "0.4.0-fabric",
@@ -2590,468 +3052,6 @@
           "filename": "dynamic_asset_generator-fabric-0.4.0.jar",
           "primary": true,
           "size": 212912
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "X4hzLXc4",
-      "name": "0.3.5",
-      "version_number": "0.3.5-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "687db855d3aae46dfacc36c1c2f725387fa4264fed5bf5f420822571632c330edeabf3a35707f35fed313503228707d75bbb6bc602f2d17893eec05220ac4183",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.3.5-forge/dynamic_asset_generator-forge-0.3.5.jar",
-          "filename": "dynamic_asset_generator-forge-0.3.5.jar",
-          "primary": true,
-          "size": 89982
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "bkHaX0Iu",
-      "name": "0.3.5",
-      "version_number": "0.3.5-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "34ff9f2a9cb4b9301ea19c64841c8ba287c9a8075abfd573c1852b8f40509e646039306c2c101908bf4c5d4647a8d593d2cd4495432c66bba02b4c56c08fa597",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.3.5-fabric/dynamic_asset_generator-fabric-0.3.5.jar",
-          "filename": "dynamic_asset_generator-fabric-0.3.5.jar",
-          "primary": true,
-          "size": 210507
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "YheZCBgc",
-      "name": "0.3.2",
-      "version_number": "0.3.2-forge",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "8c8e3f08b741710f378be69362a65e5505c7b196ce15b299a9cab19d62534af9efcf700c58f7c6fa37fd7b4ca3d8a3bdccd0201b5833e87e7797856a3ec3f5a6",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.3.2-forge/dynamic_asset_generator-forge-0.3.2.jar",
-          "filename": "dynamic_asset_generator-forge-0.3.2.jar",
-          "primary": true,
-          "size": 87398
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "V9qt9iTO",
-      "name": "0.3.2",
-      "version_number": "0.3.2-fabric",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0a20ef1394cd2af048e45e6f72a7e92531c250b75d31589db2c474dccd9e7e502c49ea655d083ab74acb96e797cddf0f22e6848ff18d62bf9c289f1176befc0e",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.3.2-fabric/dynamic_asset_generator-fabric-0.3.2.jar",
-          "filename": "dynamic_asset_generator-fabric-0.3.2.jar",
-          "primary": true,
-          "size": 197651
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Qy0i0wOt",
-      "name": "0.3.1",
-      "version_number": "0.3.1-forge",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "3789181d23c9689196df266a4aaf813e975929e5c647078c2440f57b5a6279b36dd8f8bb126aac61c8a8c415aaa041a43aef4c4a4377f3a523f949c90b4445d9",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.3.1-forge/dynamic_asset_generator-forge-0.3.1.jar",
-          "filename": "dynamic_asset_generator-forge-0.3.1.jar",
-          "primary": true,
-          "size": 87384
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "qAqI2FKH",
-      "name": "0.3.1",
-      "version_number": "0.3.1-fabric",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "36b94cc1e1a4166ac413fd60e412f288f1ed4fbebf9e4d951227515ac8ce66e08ef51a66bcf7046f0d1ff7d89e44689998f4aa6f7278ee7c7f3b70723237e7f7",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.3.1-fabric/dynamic_asset_generator-fabric-0.3.1.jar",
-          "filename": "dynamic_asset_generator-fabric-0.3.1.jar",
-          "primary": true,
-          "size": 197639
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "1lSEUa2K",
-      "name": "0.3.0",
-      "version_number": "0.3.0-forge",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "981f60e00ee0a7c42cca2c07f62f806adb061c6fed479fca62071f24c4bd686c780ec9affc3f8e9efbea24c2ba033deb480dbfe7e843b538fcbee2ddc09614a3",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.3.0-forge/dynamic_asset_generator-forge-0.3.0.jar",
-          "filename": "dynamic_asset_generator-forge-0.3.0.jar",
-          "primary": true,
-          "size": 90261
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "fZ02oIwz",
-      "name": "0.3.0",
-      "version_number": "0.3.0-fabric",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4f5ab3a2e9725fdfe0261c10216ff100d8b00e2dce2a90bcdd6160ccb17e9311b979bb065b30327e3f1a8187bb886f4df68ad2ed53c929f28c41abb00ba3ed55",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.3.0-fabric/dynamic_asset_generator-fabric-0.3.0.jar",
-          "filename": "dynamic_asset_generator-fabric-0.3.0.jar",
-          "primary": true,
-          "size": 200482
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "73rtMDa5",
-      "name": "0.2.1",
-      "version_number": "0.2.1-forge",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "650e82861b58427eb06cde6a481bcea800c1b480719a859b8234b79a0aea5f56c32bb1a017364068a83bdffec2516021029707595e1094fa7f9ee24c30a873f6",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.2.1-forge/dynamic_asset_generator-forge-0.2.1.jar",
-          "filename": "dynamic_asset_generator-forge-0.2.1.jar",
-          "primary": false,
-          "size": 52022
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "mZnqCnCM",
-      "name": "0.2.1",
-      "version_number": "0.2.1-fabric",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "188ca8d5e9b882cfde088d8eb8cf193eebe7cab70dd04b1809255c9a5633688156e2f03f1cbbc00050daa174b274cc0937af651b6ccac584d6ea2c908a62030a",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.2.1-fabric/dynamic_asset_generator-fabric-0.2.1.jar",
-          "filename": "dynamic_asset_generator-fabric-0.2.1.jar",
-          "primary": false,
-          "size": 51265
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "bQaK0ZR8",
-      "name": "0.2.0",
-      "version_number": "0.2.0-forge",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "343b55a6bbd24e2b2eb0f68f590863c4e5422308026ac578cc5fb0178b2e82b63936b55f38146f822d49915c7999d667b69cf71b81a11e87b56af2979f36f587",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.2.0-forge/dynamic_asset_generator-forge-0.2.0.jar",
-          "filename": "dynamic_asset_generator-forge-0.2.0.jar",
-          "primary": false,
-          "size": 49278
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "PSUFKrvg",
-      "name": "0.2.0",
-      "version_number": "0.2.0-fabric",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4035816f6cd01fb2381c82ac84aa29418e365974196968a9676baaabcc8a146152c33f132d6536af9ada02c7f4a5193537d8fb251326b3db9dcdc6eef5e51a38",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.2.0-fabric/dynamic_asset_generator-fabric-0.2.0.jar",
-          "filename": "dynamic_asset_generator-fabric-0.2.0.jar",
-          "primary": false,
-          "size": 48531
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "NfN96NpC",
-      "name": "0.1.5",
-      "version_number": "0.1.5-forge",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "0497a6b2b7fb6ce903e542a89396f069ebe9b5725ad70d0f74f16c322598dbb9c2c197842c76bfe0c6fb3862f6eb10b93f19c2db7089eacae43db291e5c3dec3",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.5-forge/dynamic_asset_generator-forge-0.1.5.jar",
-          "filename": "dynamic_asset_generator-forge-0.1.5.jar",
-          "primary": false,
-          "size": 42366
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "nsO6f7m5",
-      "name": "0.1.5",
-      "version_number": "0.1.5-fabric",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "48a963cba97ab9e5f8d191a47dd50739bf489f52537e5d6d9dd62ca75198ca636065789421d3866fcd699434956cb9aeb207aea3fed558d6b60f6c1449791034",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.5-fabric/dynamic_asset_generator-fabric-0.1.5.jar",
-          "filename": "dynamic_asset_generator-fabric-0.1.5.jar",
-          "primary": false,
-          "size": 41618
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "oXV5YCrk",
-      "name": "0.1.4d",
-      "version_number": "0.1.4d-forge",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "b9b93ec3d4e2b12fecb4b55ed571b6e03b9575e87950434582e7619561475a7293117e9266aa119dcd51e23a67efcb2b51f17b1347445982913e2e826028205d",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.4d-forge/dynamic_asset_generator-forge-0.1.4d.jar",
-          "filename": "dynamic_asset_generator-forge-0.1.4d.jar",
-          "primary": false,
-          "size": 40275
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "CC9FFqHc",
-      "name": "0.1.4d",
-      "version_number": "0.1.4d-fabric",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6b9e05ad69a73b5fee926cd72b5a6939cf03c11f15916fa7840f48cdca4296824546cb6bb158ac8c9ca80764ef8d7a11a92d4e3bee9ba53be952233d1ffe88fd",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.4d-fabric/dynamic_asset_generator-fabric-0.1.4d.jar",
-          "filename": "dynamic_asset_generator-fabric-0.1.4d.jar",
-          "primary": false,
-          "size": 39521
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "9mVr370i",
-      "name": "0.1.2",
-      "version_number": "0.1.2-forge",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "7c9e420732bedd0d440a527c80fcaf94cbc4277b4b6b3b85184127de9638f724d03314815ee386c327c3fbff945190930dcbb11f88193ec05e7a083028606c77",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.2-forge/dynamic_asset_generator-forge-0.1.2.jar",
-          "filename": "dynamic_asset_generator-forge-0.1.2.jar",
-          "primary": false,
-          "size": 39040
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Tq95WStr",
-      "name": "0.1.2",
-      "version_number": "0.1.2-fabric",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ab10f6e823b617a74c941a308dc6c5d164b1cd6948f7e0fd64830201ef5d421299689fa2187d32542a85f998f00a21e7529102828356a35bf4022b35802314af",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.2-fabric/dynamic_asset_generator-fabric-0.1.2.jar",
-          "filename": "dynamic_asset_generator-fabric-0.1.2.jar",
-          "primary": false,
-          "size": 38285
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "pd0Geu3p",
-      "name": "0.1.1",
-      "version_number": "0.1.1-forge",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "5f47a268e91949a2f23ea0cdbdbbe97113672ad63521b2dc5020256c436103e85d89a5c132a04dda770de55fbca5c455ff3fdc84e8201caeeecbe1bca13e3d62",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.1-forge/dynamic_asset_generator-forge-0.1.1.jar",
-          "filename": "dynamic_asset_generator-forge-0.1.1.jar",
-          "primary": false,
-          "size": 38172
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "VyeR13Ul",
-      "name": "0.1.1",
-      "version_number": "0.1.1-fabric",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b7b5011c3f169a6274e51fd45e3db66e819ac8ae07ec7a0296e7648985204c186599a227db462bf8b991410bdf307257e24d06cd0b9e90975e940a2fd43f1978",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.1-fabric/dynamic_asset_generator-fabric-0.1.1.jar",
-          "filename": "dynamic_asset_generator-fabric-0.1.1.jar",
-          "primary": false,
-          "size": 37418
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "9TcaVVia",
-      "name": "0.1.0",
-      "version_number": "0.1.0-forge",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "d9815088a76c6eb855b2497d77e82041501722cfe9497ced232d8d07113868ebae95f88cf3ae18424e4c527aa04e939a73e4ac8d5543705c114f94e3c7957e03",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.0-forge/dynamic_asset_generator-forge-0.1.0.jar",
-          "filename": "dynamic_asset_generator-forge-0.1.0.jar",
-          "primary": false,
-          "size": 38534
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "UwInHtnK",
-      "name": "0.1.0",
-      "version_number": "0.1.0-fabric",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "3e14d611eb7f9e9e49de111a57ff698684f946e4b8ea7d774ddc1accbe722f61b26a90ab78d329cb515a12643d55afa2e068f2bddae8f3fbde21b1a1377c55c9",
-          "url": "https://cdn.modrinth.com/data/83pFEQVb/versions/0.1.0-fabric/dynamic_asset_generator-fabric-0.1.0.jar",
-          "filename": "dynamic_asset_generator-fabric-0.1.0.jar",
-          "primary": false,
-          "size": 37770
         }
       ],
       "dependencies": []

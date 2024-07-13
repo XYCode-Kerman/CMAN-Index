@@ -5,49 +5,6 @@
   "description": "A lightweight Fabric and Neoforge server-side mod that adds various teleportation related commands",
   "versions": [
     {
-      "id": "sjd5NH4M",
-      "name": "[Fabric 1.21] Teleport Commands 1.1.1",
-      "version_number": "1.1.1",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "5fc2f3867d3f96e8c0985e94d368a0a0fd58b5777566ad8d3550acb2a91beaca64f90b8a613738abf5c5d2e8cba8b3156f86f09e3e08f03e9891430d129735fa",
-          "url": "https://cdn.modrinth.com/data/3ne670on/versions/sjd5NH4M/teleport_commands-fabric-1.21-1.1.1.jar",
-          "filename": "teleport_commands-fabric-1.21-1.1.1.jar",
-          "primary": true,
-          "size": 71191
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "NrjBVbWi",
-      "name": "[Neoforge 1.21] Teleport Commands 1.1.1",
-      "version_number": "1.1.1",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "6f0c7ae2f594a57721a557c45cbe0b30baa8420e3ee665186f12a9626d539ba8a0b2db46c691e6b4b5ebf7a04bb959e5e1a54c309fa9e8d0835e857ab43a4935",
-          "url": "https://cdn.modrinth.com/data/3ne670on/versions/NrjBVbWi/teleport_commands-neoforge-1.21-1.1.1.jar",
-          "filename": "teleport_commands-neoforge-1.21-1.1.1.jar",
-          "primary": true,
-          "size": 71621
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "GJ49BT4q",
       "name": "[Fabric 1.20.4-1.20.6] Teleport Commands 1.1.0",
       "version_number": "1.1.0",
@@ -95,6 +52,55 @@
       "dependencies": []
     },
     {
+      "id": "L9TJQTow",
+      "name": "[1.20.4] Teleport Commands Fabric 1.0.2",
+      "version_number": "1.0.2",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0bec19751dd6be1331c77c7c7e7ed00906e52876c32d430bb4ff040db288c10005063e65d460b89c8672af7afa7d63ecc626282d7157ae7889906cd32babe27e",
+          "url": "https://cdn.modrinth.com/data/3ne670on/versions/L9TJQTow/teleport_commands-1.0.2.jar",
+          "filename": "teleport_commands-1.0.2.jar",
+          "primary": true,
+          "size": 29842
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "NrjBVbWi",
+      "name": "[Neoforge 1.21] Teleport Commands 1.1.1",
+      "version_number": "1.1.1",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "6f0c7ae2f594a57721a557c45cbe0b30baa8420e3ee665186f12a9626d539ba8a0b2db46c691e6b4b5ebf7a04bb959e5e1a54c309fa9e8d0835e857ab43a4935",
+          "url": "https://cdn.modrinth.com/data/3ne670on/versions/NrjBVbWi/teleport_commands-neoforge-1.21-1.1.1.jar",
+          "filename": "teleport_commands-neoforge-1.21-1.1.1.jar",
+          "primary": true,
+          "size": 71621
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "ldLHdXnj",
       "name": "[1.20.4] Teleport Commands Fabric 1.0.5",
       "version_number": "1.0.5",
@@ -123,6 +129,28 @@
       ]
     },
     {
+      "id": "sjd5NH4M",
+      "name": "[Fabric 1.21] Teleport Commands 1.1.1",
+      "version_number": "1.1.1",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5fc2f3867d3f96e8c0985e94d368a0a0fd58b5777566ad8d3550acb2a91beaca64f90b8a613738abf5c5d2e8cba8b3156f86f09e3e08f03e9891430d129735fa",
+          "url": "https://cdn.modrinth.com/data/3ne670on/versions/sjd5NH4M/teleport_commands-fabric-1.21-1.1.1.jar",
+          "filename": "teleport_commands-fabric-1.21-1.1.1.jar",
+          "primary": true,
+          "size": 71191
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "yWFvRsPu",
       "name": "[1.20.4] Teleport Commands NeoForge 1.0.5",
       "version_number": "1.0.5",
@@ -142,34 +170,6 @@
         }
       ],
       "dependencies": []
-    },
-    {
-      "id": "L9TJQTow",
-      "name": "[1.20.4] Teleport Commands Fabric 1.0.2",
-      "version_number": "1.0.2",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0bec19751dd6be1331c77c7c7e7ed00906e52876c32d430bb4ff040db288c10005063e65d460b89c8672af7afa7d63ecc626282d7157ae7889906cd32babe27e",
-          "url": "https://cdn.modrinth.com/data/3ne670on/versions/L9TJQTow/teleport_commands-1.0.2.jar",
-          "filename": "teleport_commands-1.0.2.jar",
-          "primary": true,
-          "size": 29842
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
     }
   ]
 }

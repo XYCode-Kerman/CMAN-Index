@@ -5,84 +5,131 @@
   "description": "NeoForge's & Forge's config systems provided to other modding ecosystems. Designed for a multiloader architecture.",
   "versions": [
     {
-      "id": "sg4l7fSX",
-      "name": "[NEOFORGE] [1.21] ForgeConfigAPIPort-v21.0.2",
-      "version_number": "v21.0.2-1.21-NeoForge",
+      "id": "14GbpcF7",
+      "name": "[FABRIC] [1.20.2] ForgeConfigAPIPort-v9.1.1",
+      "version_number": "v9.1.1-1.20.2-Fabric",
       "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "b2f668e3736909014ffc8936e92f3ae3310399d963f570ebdfdb1d7c23e681a365f225d3fb0d4d4f1afc7e840b56c877cd183301a00ffc08f6db1ac002562e6e",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/sg4l7fSX/ForgeConfigAPIPort-v21.0.2-1.21-NeoForge.jar",
-          "filename": "ForgeConfigAPIPort-v21.0.2-1.21-NeoForge.jar",
-          "primary": true,
-          "size": 101872
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "7HZj0EzA",
-      "name": "[FORGE] [1.21] ForgeConfigAPIPort-v21.0.2",
-      "version_number": "v21.0.2-1.21-Forge",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "24903b73f80f370ed3f075f2d27f5f06bf4c2aec22b599312f4083238da7e99a9bbf736ccdf98855356f24ac2e3cf601cd6716830335b4210ae38133d03eff6d",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/7HZj0EzA/ForgeConfigAPIPort-v21.0.2-1.21-Forge.jar",
-          "filename": "ForgeConfigAPIPort-v21.0.2-1.21-Forge.jar",
-          "primary": true,
-          "size": 285004
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "YsY7k4Pu",
-      "name": "[FABRIC] [1.21] ForgeConfigAPIPort-v21.0.2",
-      "version_number": "v21.0.2-1.21-Fabric",
-      "game_versions": [
-        "1.21"
+        "1.20.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "cac67d5b1f762ab6c62eefdc716bee39ccfbb75850786441638c66dee3eb465a2598d2df9480624e01f5ac8cf79f6d0c1c21e1efb739629f04363fabe3d516cd",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/YsY7k4Pu/ForgeConfigAPIPort-v21.0.2-1.21-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v21.0.2-1.21-Fabric.jar",
+          "sha512": "fc64c3f7f2898525b3f7cc2bf5ef691f503cdf37bf0b405dbb9df1574471e48a5858934dad6fef627f09e21d3a8ffd3ab37e5e71bbe15b1ff9009fdc3839e2dd",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/14GbpcF7/ForgeConfigAPIPort-v9.1.1-1.20.2-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v9.1.1-1.20.2-Fabric.jar",
           "primary": true,
-          "size": 567242
+          "size": 456880
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "16w4kT84",
+      "name": "[FABRIC] [1.19] ForgeConfigAPIPort-v4.0.0",
+      "version_number": "4.0.0",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a0d5fe0755b74eab64f132bf7fbb5f989e07d506c0086f6407fe66054db27c510019f7245dfd4db93aa941677793c35e0f7604cdbcb0e8835828f14a52bce0c9",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.0.0/ForgeConfigAPIPort-v4.0.0-1.19-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v4.0.0-1.19-Fabric.jar",
+          "primary": true,
+          "size": 332338
+        },
+        {
+          "sha512": "4bcc879f71de6de15664ccecdd00e4db4d16666bd6e8cf4d1066d6abe109efb4b0fa57a9d0374f23502eee7f76715314b7ceb3871cb5c2401df75efa370dd7c5",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.0.0/ForgeConfigAPIPort-v4.0.0-1.19-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v4.0.0-1.19-Fabric-sources.jar",
+          "primary": false,
+          "size": 74529
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "3KmOcp6b",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "oU5qfeR6",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "1bZs84f5",
+      "name": "[NEOFORGE] [1.20.2] ForgeConfigAPIPort-v20.2.6",
+      "version_number": "v20.2.6-1.20.2-NeoForge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "0d9df3eb3c033a742cce2e603f3f7026540d144ced4f8125e527fb63310fcc6478a65f60f093485686966489a57e96d7beb4d8ba4c648af409e1950f265ed2fb",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/1bZs84f5/ForgeConfigAPIPort-v20.2.6-1.20.2-NeoForge.jar",
+          "filename": "ForgeConfigAPIPort-v20.2.6-1.20.2-NeoForge.jar",
+          "primary": true,
+          "size": 96141
         }
       ],
       "dependencies": [
         {
           "project_id": "5WeWGLoJ",
           "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "1cG1sI8e",
+      "name": "[FABRIC] [1.20] ForgeConfigAPIPort-v7.0.0",
+      "version_number": "v7.0.0-1.20-Fabric",
+      "game_versions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "44f7c62dd776a1115ed57bf53493dee37040078bab12f07724bcfcb087c73f4a7030d2b9261d4a97c28209b324eb4303afd1f37d95d7063d546d9ebaaa59723b",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/1cG1sI8e/ForgeConfigAPIPort-v7.0.0-1.20-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v7.0.0-1.20-Fabric.jar",
+          "primary": true,
+          "size": 397195
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": "UOV19nXG",
           "file_name": null,
           "dependency_type": "optional"
         },
@@ -91,6 +138,88 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "2TybfFU8",
+      "name": "[FABRIC] [1.19.4] ForgeConfigAPIPort-v6.0.2",
+      "version_number": "v6.0.2-1.19.4-Fabric",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "38a0aacd1b59f452622038a0e86bfeecd63f2bbe6726274042d5a93c19e11e3ff7c2b8d8528444ebfa061178783b7e26eb017ea9f6adf94d78601ed148a1d1ea",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/2TybfFU8/ForgeConfigAPIPort-v6.0.2-1.19.4-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v6.0.2-1.19.4-Fabric.jar",
+          "primary": true,
+          "size": 415251
+        },
+        {
+          "sha512": "85cfd5cd7ef843134b1512ba4b59664622d2b3f54f5b56fadc1125a3241eaad14b883d10c53573e3f37a82ec9a508e3f3111971016567280239e6c922e5b041e",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/2TybfFU8/ForgeConfigAPIPort-v6.0.2-1.19.4-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v6.0.2-1.19.4-Fabric-sources.jar",
+          "primary": false,
+          "size": 99898
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "2eL7Opm5",
+      "name": "[FABRIC] [1.19.1] ForgeConfigAPIPort-v4.1.3",
+      "version_number": "4.1.3",
+      "game_versions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ede84cd29c1afcc11280cac47a55132a728cea75e7e7ecbe9fa4a2368f41cff4bbfc8586ceddc777b74f8efeae9cb77d3e46d391a9891336134caaa568264761",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.1.3/ForgeConfigAPIPort-v4.1.3-1.19.1-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v4.1.3-1.19.1-Fabric.jar",
+          "primary": true,
+          "size": 606438
+        },
+        {
+          "sha512": "8f937a5091bda47821ad5b42b596ce6e232d1c81a3732282da3de6e114afbc442cfc1888446c9904942795445baf9fd3c29eaf7282a0bee2d41e88f2f95f6906",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.1.3/ForgeConfigAPIPort-v4.1.3-1.19.1-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v4.1.3-1.19.1-Fabric-sources.jar",
+          "primary": false,
+          "size": 102701
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -123,22 +252,253 @@
       ]
     },
     {
-      "id": "wMoOojVd",
-      "name": "[FORGE] [1.21] ForgeConfigAPIPort-v21.0.1",
-      "version_number": "v21.0.1-1.21-Forge",
+      "id": "3CoAOP6V",
+      "name": "[NEOFORGE] [1.20.6] ForgeConfigAPIPort-v20.6.1",
+      "version_number": "v20.6.1-1.20.6-NeoForge",
       "game_versions": [
-        "1.21"
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "432e1b6e52c771ff987f03442f1619f5e0d7a279ba91dc1d847ea4db0179ba0019f857d35705ea184f0305632a1c2d2a6f33e382c38ac4bd82411a2e396bbfa9",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/3CoAOP6V/ForgeConfigAPIPort-v20.6.1-1.20.6-NeoForge.jar",
+          "filename": "ForgeConfigAPIPort-v20.6.1-1.20.6-NeoForge.jar",
+          "primary": true,
+          "size": 100468
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "3VCgXZ79",
+      "name": "[FABRIC] [1.19.2] ForgeConfigAPIPort-v4.2.11",
+      "version_number": "4.2.11",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "bc6c8c703c47972aa232616bb3cbcd2602a68c00be09bce55608904eedd7088b221516893c4a46fc5fd660bf1f08d46a011426a0a4ad6606a9eefbff2c674f7a",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/3VCgXZ79/ForgeConfigAPIPort-v4.2.11-1.19.2-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v4.2.11-1.19.2-Fabric.jar",
+          "primary": true,
+          "size": 439991
+        },
+        {
+          "sha512": "2f08e7759ecf8150e91617062676755c66e78032f12984bc2e2b45e34f98724a50b15c9aa199074cd671ffee95474e84bb847e31d47e55bedf8f987801c06fa0",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/3VCgXZ79/ForgeConfigAPIPort-v4.2.11-1.19.2-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v4.2.11-1.19.2-Fabric-sources.jar",
+          "primary": false,
+          "size": 128996
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "3h8hgyqP",
+      "name": "[FABRIC] [1.19] ForgeConfigAPIPort-v4.0.1",
+      "version_number": "4.0.1",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a1ecc568009d373658729234da59ae333d152a4f0705e441334ef23ae5b93a117b67c023fb74c2d3fb28bcb84bf2e8e51ada74fed307670dae65aeb77574a369",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.0.1/ForgeConfigAPIPort-v4.0.1-1.19-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v4.0.1-1.19-Fabric.jar",
+          "primary": true,
+          "size": 332397
+        },
+        {
+          "sha512": "f6249431bee8ae8d33bf4afbfa3d1d673a18788207997165155dad2b2ca519e4adfa98cf98571d82a62483efce7e0dbb59d8bebf492dcd450c94e9892a136480",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.0.1/ForgeConfigAPIPort-v4.0.1-1.19-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v4.0.1-1.19-Fabric-sources.jar",
+          "primary": false,
+          "size": 75138
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "4JaArhTS",
+      "name": "[FABRIC] [1.17.1] ForgeConfigAPIPort-v2.0.5",
+      "version_number": "2.0.5",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0921a17927b79ee612e733b0fd8a1af9f59b967907e457aee13559ff9315600bfea661710c2443c81e9962a3c1b79efa63916758745e5591d0ce69c2cab2830b",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4JaArhTS/ForgeConfigAPIPort-v2.0.5-1.17.1-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v2.0.5-1.17.1-Fabric.jar",
+          "primary": true,
+          "size": 331306
+        },
+        {
+          "sha512": "ef764299724f73483179fa768dfe19876239b116dae7f2f8fbf9e0d4b1909be1736c35e30bd7e3ce16ca507e8c0b15f3686ba04b4edc8bf7dd727eb33dd55403",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4JaArhTS/ForgeConfigAPIPort-v2.0.5-1.17.1-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v2.0.5-1.17.1-Fabric-sources.jar",
+          "primary": false,
+          "size": 74877
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "31ES0yWr",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "7kh2ofyR",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "52l6IXEd",
+      "name": "[FABRIC] [1.20.2] ForgeConfigAPIPort-v9.1.0",
+      "version_number": "v9.1.0-1.20.2-Fabric",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "eb99aa7e15b16ab150f816254f453bfb08835832770b51a4db0921a0276a254793a656185149bd657e592bfd2b231c20125e2a2f4087248492b7f08c40bbe6db",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/52l6IXEd/ForgeConfigAPIPort-v9.1.0-1.20.2-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v9.1.0-1.20.2-Fabric.jar",
+          "primary": true,
+          "size": 456736
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "6J0K7FyD",
+      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.9",
+      "version_number": "v5.0.9-1.19.3-Fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4980e973cf0d7eb70088b34ccc8a72c2dcbaa1b536cd208fe784efeb3b1d0095314e78ef77519c8580e09b0945597bfc29dc673ba7b597e1e405fc34e3b166a7",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/6J0K7FyD/ForgeConfigAPIPort-v5.0.9-1.19.3-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v5.0.9-1.19.3-Fabric.jar",
+          "primary": true,
+          "size": 411732
+        },
+        {
+          "sha512": "d88af42c5adfc1558a476aeee94bd4a04b894b295003f1e8f03e3942bc068285cef0a4ac6c502c802e3db2eaa7df9c0165f88e4953df755e7f3bab0a3ae29c29",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/6J0K7FyD/ForgeConfigAPIPort-v5.0.9-1.19.3-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v5.0.9-1.19.3-Fabric-sources.jar",
+          "primary": false,
+          "size": 100837
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "6b78kro0",
+      "name": "[FORGE] [1.20.6] ForgeConfigAPIPort-v20.6.0",
+      "version_number": "v20.6.0-1.20.6-Forge",
+      "game_versions": [
+        "1.20.6"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "0b9691481e93c8c01008af26f014450844e579ddbef24b9bf93f9ee88b971298c06a501f2000e7ecc653fab4dcf41f4f9160796857d46e169b1adc9b6670477b",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/wMoOojVd/ForgeConfigAPIPort-v21.0.1-1.21-Forge.jar",
-          "filename": "ForgeConfigAPIPort-v21.0.1-1.21-Forge.jar",
+          "sha512": "06005b6cce96261e54a8c8d1c5569bcedd974f6bac3093c82da5de940ef1fa391b951acbf54da1dc0cd8ab75883ac0b42a1e85850e0944c7c58114f0ab4634f1",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/6b78kro0/ForgeConfigAPIPort-v20.6.0-1.20.6-Forge.jar",
+          "filename": "ForgeConfigAPIPort-v20.6.0-1.20.6-Forge.jar",
           "primary": true,
-          "size": 256985
+          "size": 257001
         }
       ],
       "dependencies": [
@@ -185,22 +545,22 @@
       ]
     },
     {
-      "id": "d4Qud7sf",
-      "name": "[NEOFORGE] [1.21] ForgeConfigAPIPort-v21.0.0",
-      "version_number": "v21.0.0-1.21-NeoForge",
+      "id": "7HZj0EzA",
+      "name": "[FORGE] [1.21] ForgeConfigAPIPort-v21.0.2",
+      "version_number": "v21.0.2-1.21-Forge",
       "game_versions": [
         "1.21"
       ],
       "loaders": [
-        "neoforge"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "623a8e1522122aa746531adb354cf8b4841530cabbfcc8976ee713d9f3fab06d6b1a2a279907edea6f39a95b9cef4c4f8879064c51a59410dd94946351da550b",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/d4Qud7sf/ForgeConfigAPIPort-v21.0.0-1.21-NeoForge.jar",
-          "filename": "ForgeConfigAPIPort-v21.0.0-1.21-NeoForge.jar",
+          "sha512": "24903b73f80f370ed3f075f2d27f5f06bf4c2aec22b599312f4083238da7e99a9bbf736ccdf98855356f24ac2e3cf601cd6716830335b4210ae38133d03eff6d",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/7HZj0EzA/ForgeConfigAPIPort-v21.0.2-1.21-Forge.jar",
+          "filename": "ForgeConfigAPIPort-v21.0.2-1.21-Forge.jar",
           "primary": true,
-          "size": 100128
+          "size": 285004
         }
       ],
       "dependencies": [
@@ -213,22 +573,96 @@
       ]
     },
     {
-      "id": "lB4p4JnZ",
-      "name": "[FABRIC] [1.21] ForgeConfigAPIPort-v21.0.0",
-      "version_number": "v21.0.0-1.21-Fabric",
+      "id": "86FCTo9M",
+      "name": "[FABRIC] [1.16.5] ForgeConfigAPIPort-v1.0.1",
+      "version_number": "1.0.1",
       "game_versions": [
-        "1.21"
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "77a2ace0032a3637cce73cb01a1f469655a700d6108d43d12c9fea52ca07f1a7b2b5bf8274cf82301e142fa6ee71f70629fd6dece4f998b9667d9b3a0a14b9d0",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/lB4p4JnZ/ForgeConfigAPIPort-v21.0.0-1.21-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v21.0.0-1.21-Fabric.jar",
+          "sha512": "078f63548a1609148d2923c023865744f3bb356aa9619eba325b76fdb1d65d383222a5a75f0d74aa00ae8c9de73df6cae4db7a80d1e2806a83e1d909e3652e48",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/1.0.1/ForgeConfigAPIPort-v1.0.1-1.16.5-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v1.0.1-1.16.5-Fabric.jar",
           "primary": true,
-          "size": 430289
+          "size": 466091
+        },
+        {
+          "sha512": "b25badb48cc2f743883c8445194063ec659203d74252c6c4af9344a6293c4a1ec3a70b1ca656e8187237c18fed27a4185b115beb5b5d94ff48eca85fdfc8a4e5",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/1.0.1/ForgeConfigAPIPort-v1.0.1-1.16.5-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v1.0.1-1.16.5-Fabric-sources.jar",
+          "primary": false,
+          "size": 74543
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "3gwnUSKz",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "8ZEqzvgl",
+      "name": "[NEOFORGE] [1.20.4] ForgeConfigAPIPort-v20.4.1",
+      "version_number": "v20.4.1-1.20.4-NeoForge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "68083e71a50497798132ed4d50a834c7f4bc718232459163cc752eaf3dddd35d65d917a875a03f249143b52fe157f2868765aef14ab73c6c1a5c0c92ecbb7591",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/8ZEqzvgl/ForgeConfigAPIPort-v20.4.1-1.20.4-NeoForge.jar",
+          "filename": "ForgeConfigAPIPort-v20.4.1-1.20.4-NeoForge.jar",
+          "primary": true,
+          "size": 99002
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "AxEvkjh5",
+      "name": "[FABRIC] [1.19] ForgeConfigAPIPort-v4.0.2",
+      "version_number": "4.0.2",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c4f8a05c795401ce0c441b2b20d60cb87dd69542322a4908f85e23ff50b02ef91f5f38cb780ff311eaa5c2a06c7bf57b80bd0bb88a64eac574777d0143451932",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.0.2/ForgeConfigAPIPort-v4.0.2-1.19-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v4.0.2-1.19-Fabric.jar",
+          "primary": true,
+          "size": 332462
+        },
+        {
+          "sha512": "0f7cb1daa2602ad203d58231324925eccfd476920a1baa6f9e67b4f4f676af0bf13810de6860b0f4177ac2cac493f4f30c0b511c3190b6947ee16d2f5c05de1d",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.0.2/ForgeConfigAPIPort-v4.0.2-1.19-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v4.0.2-1.19-Fabric-sources.jar",
+          "primary": false,
+          "size": 74651
         }
       ],
       "dependencies": [
@@ -239,7 +673,7 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "5WeWGLoJ",
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -247,22 +681,203 @@
       ]
     },
     {
-      "id": "3CoAOP6V",
-      "name": "[NEOFORGE] [1.20.6] ForgeConfigAPIPort-v20.6.1",
-      "version_number": "v20.6.1-1.20.6-NeoForge",
+      "id": "CkM0mGHX",
+      "name": "[FABRIC] [1.19.2] ForgeConfigAPIPort-v4.2.9",
+      "version_number": "4.2.9",
       "game_versions": [
-        "1.20.6"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
-        "neoforge"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "432e1b6e52c771ff987f03442f1619f5e0d7a279ba91dc1d847ea4db0179ba0019f857d35705ea184f0305632a1c2d2a6f33e382c38ac4bd82411a2e396bbfa9",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/3CoAOP6V/ForgeConfigAPIPort-v20.6.1-1.20.6-NeoForge.jar",
-          "filename": "ForgeConfigAPIPort-v20.6.1-1.20.6-NeoForge.jar",
+          "sha512": "1fea6cac17e7e5d459de7899d0996277c79a6fdcfe208427b64250871f7c491b90b71aace8462103e82c6f601f4086d5256a1d409a3482d0e3b22d1ac08c33d9",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/CkM0mGHX/ForgeConfigAPIPort-v4.2.9-1.19.2-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v4.2.9-1.19.2-Fabric.jar",
           "primary": true,
-          "size": 100468
+          "size": 432901
+        },
+        {
+          "sha512": "1a4290a5a2d0900217722c97621be9e75de5311b7dc3f0d362a9661170fdc8ad203f2cc3ea8eef00d87fa6bd68fd77f9778d1334de14288324c7ed316bf95f75",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/CkM0mGHX/ForgeConfigAPIPort-v4.2.9-1.19.2-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v4.2.9-1.19.2-Fabric-sources.jar",
+          "primary": false,
+          "size": 124790
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "CtENDTlF",
+      "name": "[FABRIC] [1.20.1] ForgeConfigAPIPort-v8.0.0",
+      "version_number": "v8.0.0-1.20.1-Fabric",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "257cd85263ab5119ce78cf16f2e7fdaf8b350e526c758d00f0af8393b9fabd581a2a974096fc7c7af45d793660e2e7b84391e11d10522036759ec66220a4b616",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/CtENDTlF/ForgeConfigAPIPort-v8.0.0-1.20.1-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v8.0.0-1.20.1-Fabric.jar",
+          "primary": true,
+          "size": 397198
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": "nwy63zfI",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "FtpEL8G9",
+      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.2",
+      "version_number": "v5.0.2-1.19.3-Fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "3de490ec0791dff2d09bce58ab163bafa1cf92d9216aab861da7797d6952dd855affd253e107fdbd4e96b9f1164bf976b8db849264c1bc23a323e9848740a416",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/FtpEL8G9/ForgeConfigAPIPort-v5.0.2-1.19.3-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v5.0.2-1.19.3-Fabric.jar",
+          "primary": true,
+          "size": 399655
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "GJ0aBxFN",
+      "name": "[FABRIC] [1.18.2] ForgeConfigAPIPort-v3.2.1",
+      "version_number": "3.2.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "741633a6816fc58565bf6eb2352d0dac62e9d210216167256053bec7f4c6c0066c7ef02ab5768304193e0ffd747ba110f188691542146f8797e5749f952a2a9c",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/3.2.1/ForgeConfigAPIPort-v3.2.1-1.18.2-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v3.2.1-1.18.2-Fabric.jar",
+          "primary": true,
+          "size": 494096
+        },
+        {
+          "sha512": "12ada84cc33da4ebda4b73e16b501c4ee5faa5dd48910c332ae3e617892affdc2b4289e43e1ba2d2abe82bc7d1791bdd1c0d589a0f6c47b80bd7ab14d8fc1179",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/3.2.1/ForgeConfigAPIPort-v3.2.1-1.18.2-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v3.2.1-1.18.2-Fabric-sources.jar",
+          "primary": false,
+          "size": 74785
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "H1LkHOeQ",
+      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.0",
+      "version_number": "v5.0.0-1.19.3-Fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "cd4c061ce5d0173c5f0bbd003500fc34a9dfceab0191f45c5eb89bdbb2e35e9b766fb7102b7cebb18a5ecae048305260f8ac61377eb3c4bdfca0f96ad7554cff",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/H1LkHOeQ/ForgeConfigAPIPort-v5.0.0-1.19.3-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v5.0.0-1.19.3-Fabric.jar",
+          "primary": true,
+          "size": 386525
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "PbVeub96",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "IS7wNJuv",
+      "name": "[FABRIC] [1.20.4] ForgeConfigAPIPort-v20.4.2",
+      "version_number": "v20.4.2-1.20.4-Fabric",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "04529d516c5c5bd8b7805026f0838eb24243c9092c3156c4332bc7286cabb83b31d828ad0097c182f0e90956eda9a58ac9419a836c9da24d90d5d96c5a08a6d9",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/IS7wNJuv/ForgeConfigAPIPort-v20.4.2-1.20.4-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v20.4.2-1.20.4-Fabric.jar",
+          "primary": true,
+          "size": 444601
         }
       ],
       "dependencies": [
@@ -271,34 +886,184 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "Xm6O1nBK",
-      "name": "[FORGE] [1.20.6] ForgeConfigAPIPort-v20.6.1",
-      "version_number": "v20.6.1-1.20.6-Forge",
+      "id": "JdloDJit",
+      "name": "[FABRIC] [1.19.2] ForgeConfigAPIPort-v4.2.4",
+      "version_number": "4.2.4",
       "game_versions": [
-        "1.20.6"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
-        "forge"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "af505e77e70dae6425e5f9e71a2a7bdb2850877f4d57456585cc15e6f29a65ae79ebb1d591545fb6386e807706e795c2e8b1029c6b7b0185bff06fd2bc2bf817",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/Xm6O1nBK/ForgeConfigAPIPort-v20.6.1-1.20.6-Forge.jar",
-          "filename": "ForgeConfigAPIPort-v20.6.1-1.20.6-Forge.jar",
+          "sha512": "4ff3e9e569e0425b4c8895088e870874b589f36b1ed6a6db17b6e873dadf7cd280a8e691bff969017fcded68bc94a6bcf3812757199726523f152340b9a64b67",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/JdloDJit/ForgeConfigAPIPort-v4.2.4-1.19.2-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v4.2.4-1.19.2-Fabric.jar",
           "primary": true,
-          "size": 257250
+          "size": 402584
+        },
+        {
+          "sha512": "64a853a2682548edc55ce969fe0ffefa45d8263f73e1199326afd03ecfd10f55453bf9467d02fe804eee45cc3f175bfe77af3bef270e70e8a37948bd1c7b0f2e",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/JdloDJit/ForgeConfigAPIPort-v4.2.4-1.19.2-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v4.2.4-1.19.2-Fabric-sources.jar",
+          "primary": false,
+          "size": 109040
         }
       ],
       "dependencies": [
         {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "JpOqHq5p",
+      "name": "[FABRIC] [1.18.2] ForgeConfigAPIPort-v3.2.2",
+      "version_number": "3.2.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "76ca2616476d725ceb611636cfb5c5dc7ac2d34426047386d756279fd2cb09ade229f20b6a721455f218640c877972adfb976d3db0cd2b259d7f9f0293fe3a17",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/3.2.2/ForgeConfigAPIPort-v3.2.2-1.18.2-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v3.2.2-1.18.2-Fabric.jar",
+          "primary": true,
+          "size": 498552
+        },
+        {
+          "sha512": "91ccb3f432846981c595e5312d604201dd2003cfd11c043ca38afb18e0c9cc7a7349f7f352eeae8c249b43ea2be896e4f72240eea0719ed3c03316032d76c430",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/3.2.2/ForgeConfigAPIPort-v3.2.2-1.18.2-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v3.2.2-1.18.2-Fabric-sources.jar",
+          "primary": false,
+          "size": 78049
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "K7z34XSj",
+      "name": "[FABRIC] [1.19.2] ForgeConfigAPIPort-v4.2.0",
+      "version_number": "4.2.0",
+      "game_versions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "6e306f75a3b970110fcfb446f6774ac9358eede9dd8f2cebb8c443d382840e63c51ae4beb60055f781c3938dd9ee5c0592e47c42335a5fd7cada43b7b185d53e",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/K7z34XSj/ForgeConfigAPIPort-v4.2.0-1.19.2-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v4.2.0-1.19.2-Fabric.jar",
+          "primary": true,
+          "size": 403277
+        },
+        {
+          "sha512": "624c004dcfa22259f7037c1e1e655b27efb691010a7db769406a9708937f7515d18f53d1032ff2a8af589b3c402f26f79103c8aa6384ca405e36b67dc3f356fc",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/K7z34XSj/ForgeConfigAPIPort-v4.2.0-1.19.2-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v4.2.0-1.19.2-Fabric-sources.jar",
+          "primary": false,
+          "size": 102821
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "8TOgNwQL",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "RAzwgZkP",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "KjE2hCJv",
+      "name": "[FABRIC] [1.19.2] ForgeConfigAPIPort-v4.2.5",
+      "version_number": "4.2.5",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4f012cfb4718a3930f94d2962afcee49bc579ac9eec301a923448240400d376f01e0b8fe06dbcb711abb391a125c235d9ae78ccebb7ad4a9e9e50a8ef0539a72",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/KjE2hCJv/ForgeConfigAPIPort-v4.2.5-1.19.2-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v4.2.5-1.19.2-Fabric.jar",
+          "primary": true,
+          "size": 411681
+        },
+        {
+          "sha512": "5e1257049e9a6cb0ec4b7f65f94585b1753533dc06202bddf17b25571e78a74ccd673c6be4d9d4d660a607cafafaa04868eccbfad543dd333bd54523eacb9076",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/KjE2hCJv/ForgeConfigAPIPort-v4.2.5-1.19.2-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v4.2.5-1.19.2-Fabric-sources.jar",
+          "primary": false,
+          "size": 114184
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -337,58 +1102,43 @@
       ]
     },
     {
-      "id": "6b78kro0",
-      "name": "[FORGE] [1.20.6] ForgeConfigAPIPort-v20.6.0",
-      "version_number": "v20.6.0-1.20.6-Forge",
+      "id": "MkqOn4Yc",
+      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.11",
+      "version_number": "v5.0.11-1.19.3-Fabric",
       "game_versions": [
-        "1.20.6"
+        "1.19.3"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "06005b6cce96261e54a8c8d1c5569bcedd974f6bac3093c82da5de940ef1fa391b951acbf54da1dc0cd8ab75883ac0b42a1e85850e0944c7c58114f0ab4634f1",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/6b78kro0/ForgeConfigAPIPort-v20.6.0-1.20.6-Forge.jar",
-          "filename": "ForgeConfigAPIPort-v20.6.0-1.20.6-Forge.jar",
+          "sha512": "4683700e66439de9baa0c8a9985201fe56cda9d633e4986acc170a43626e6690e4e750ce17f16469b52872ebdd87c9aeda1d23dbd4067289f4e0132359b104ca",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/MkqOn4Yc/ForgeConfigAPIPort-v5.0.11-1.19.3-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v5.0.11-1.19.3-Fabric.jar",
           "primary": true,
-          "size": 257001
+          "size": 417111
+        },
+        {
+          "sha512": "34f60a4ea1cdb6e3123bc64a291ea908b577c32ba2863415a8b97dd1c2a2f31a532b959dc83fc52727a3f85fd75db8074ea2bec8dc9b689f65016ea07da861f0",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/MkqOn4Yc/ForgeConfigAPIPort-v5.0.11-1.19.3-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v5.0.11-1.19.3-Fabric-sources.jar",
+          "primary": false,
+          "size": 102077
         }
       ],
       "dependencies": [
         {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "s4eBrY4J",
-      "name": "[NEOFORGE] [1.20.6] ForgeConfigAPIPort-v20.6.0",
-      "version_number": "v20.6.0-1.20.6-NeoForge",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
+        },
         {
-          "sha512": "d9933fe048044f3c39901adaf7d88840bede5059cb2bf68cdd828d4c32545ba95444adc81b78db905e3dffbc6494fe50cdd9e576cc5a33dfa5c3a01791d0798a",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/s4eBrY4J/ForgeConfigAPIPort-v20.6.0-1.20.6-NeoForge.jar",
-          "filename": "ForgeConfigAPIPort-v20.6.0-1.20.6-NeoForge.jar",
-          "primary": true,
-          "size": 100214
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
     },
@@ -427,207 +1177,6 @@
       ]
     },
     {
-      "id": "izawYWhx",
-      "name": "[NEOFORGE] [1.20.4] ForgeConfigAPIPort-v20.4.3",
-      "version_number": "v20.4.3-1.20.4-NeoForge",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "2bc884a350f32d39cf4e31a296b2fcb47673b391a097df74a19353eb06cbf56b1e926d943b96697fd7167b9f7d84c5933ab951e221519fc62b2c3f6fdcbfa6e3",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/izawYWhx/ForgeConfigAPIPort-v20.4.3-1.20.4-NeoForge.jar",
-          "filename": "ForgeConfigAPIPort-v20.4.3-1.20.4-NeoForge.jar",
-          "primary": true,
-          "size": 95920
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "cPR7Hb0e",
-      "name": "[FORGE] [1.20.4] ForgeConfigAPIPort-v20.4.3",
-      "version_number": "v20.4.3-1.20.4-Forge",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "78adf9d518611467050c31b86b0ca8d6ed8d17d1714eee3fa05f4843dc5646b0081e63de03baccd3787637ccc182a735e0a50c702e4aa16a9f26da0e77753314",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/cPR7Hb0e/ForgeConfigAPIPort-v20.4.3-1.20.4-Forge.jar",
-          "filename": "ForgeConfigAPIPort-v20.4.3-1.20.4-Forge.jar",
-          "primary": true,
-          "size": 256812
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "xbVGsTLe",
-      "name": "[FABRIC] [1.20.4] ForgeConfigAPIPort-v20.4.3",
-      "version_number": "v20.4.3-1.20.4-Fabric",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d1eb1bc1aad0bcd3d97deee3d8f3b3eeaa43c332697be043260b7af132c7ee3da6c8b35f635ef7e4a431a95fa6f13dd4a796badeba91bba2b67eff6dc855d8e5",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/xbVGsTLe/ForgeConfigAPIPort-v20.4.3-1.20.4-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v20.4.3-1.20.4-Fabric.jar",
-          "primary": true,
-          "size": 444627
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "r8gESJiS",
-      "name": "[FORGE] [1.20.2] ForgeConfigAPIPort-v20.2.6",
-      "version_number": "v20.2.6-1.20.2-Forge",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "452e1ae2d596612870c210f5b63ae553bd261074f7115bfa8bee30df2a53bb8eb9817583d428699815161bcc77636f806d27aa6597edba4aadc0409773e4f592",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/r8gESJiS/ForgeConfigAPIPort-v20.2.6-1.20.2-Forge.jar",
-          "filename": "ForgeConfigAPIPort-v20.2.6-1.20.2-Forge.jar",
-          "primary": true,
-          "size": 251856
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "1bZs84f5",
-      "name": "[NEOFORGE] [1.20.2] ForgeConfigAPIPort-v20.2.6",
-      "version_number": "v20.2.6-1.20.2-NeoForge",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "0d9df3eb3c033a742cce2e603f3f7026540d144ced4f8125e527fb63310fcc6478a65f60f093485686966489a57e96d7beb4d8ba4c648af409e1950f265ed2fb",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/1bZs84f5/ForgeConfigAPIPort-v20.2.6-1.20.2-NeoForge.jar",
-          "filename": "ForgeConfigAPIPort-v20.2.6-1.20.2-NeoForge.jar",
-          "primary": true,
-          "size": 96141
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "sK1XwxTt",
-      "name": "[FABRIC] [1.20.2] ForgeConfigAPIPort-v20.2.6",
-      "version_number": "v20.2.6-1.20.2-Fabric",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9bdbd4f17771d965c595e6aa65393c4f3e61353d9825835fa717377055e1651c5f2ea19595e008cdb317b031a283edbe7b3f8c9e1ba6cb3fd5477bb962639e37",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/sK1XwxTt/ForgeConfigAPIPort-v20.2.6-1.20.2-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v20.2.6-1.20.2-Fabric.jar",
-          "primary": true,
-          "size": 444847
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Uc2L9JYx",
-      "name": "[NEOFORGE] [1.20.4] ForgeConfigAPIPort-v20.4.2",
-      "version_number": "v20.4.2-1.20.4-NeoForge",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "302ab0461210b953dc90a1f939ca99f9dda83af88af8ea2a5f3a52873f9c5f0790cf21401228be1bad897a9cc600a15620f8b8b5aea6cc9435a82c714fc1ada0",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/Uc2L9JYx/ForgeConfigAPIPort-v20.4.2-1.20.4-NeoForge.jar",
-          "filename": "ForgeConfigAPIPort-v20.4.2-1.20.4-NeoForge.jar",
-          "primary": true,
-          "size": 95882
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "P3GfPe5a",
       "name": "[FORGE] [1.20.4] ForgeConfigAPIPort-v20.4.2",
       "version_number": "v20.4.2-1.20.4-Forge",
@@ -656,40 +1205,6 @@
       ]
     },
     {
-      "id": "IS7wNJuv",
-      "name": "[FABRIC] [1.20.4] ForgeConfigAPIPort-v20.4.2",
-      "version_number": "v20.4.2-1.20.4-Fabric",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "04529d516c5c5bd8b7805026f0838eb24243c9092c3156c4332bc7286cabb83b31d828ad0097c182f0e90956eda9a58ac9419a836c9da24d90d5d96c5a08a6d9",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/IS7wNJuv/ForgeConfigAPIPort-v20.4.2-1.20.4-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v20.4.2-1.20.4-Fabric.jar",
-          "primary": true,
-          "size": 444601
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "REA2Y3hn",
       "name": "[NEOFORGE] [1.20.2] ForgeConfigAPIPort-v20.2.5",
       "version_number": "v20.2.5-1.20.2-NeoForge",
@@ -706,6 +1221,117 @@
           "filename": "ForgeConfigAPIPort-v20.2.5-1.20.2-NeoForge.jar",
           "primary": true,
           "size": 96106
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "RRZz6X5Y",
+      "name": "[NEOFORGE] [1.20.2] ForgeConfigAPIPort-v20.2.4",
+      "version_number": "v20.2.4-1.20.2-NeoForge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "221ef5745d5df5b2d03bd636891dcbad956d653d62a183d5b62c46a65f482ba2d3e4cfed74c5eab46b00560109e2d44b1f1c1de468117d60ab161413d4af4d29",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/RRZz6X5Y/ForgeConfigAPIPort-v20.2.4-1.20.2-NeoForge.jar",
+          "filename": "ForgeConfigAPIPort-v20.2.4-1.20.2-NeoForge.jar",
+          "primary": true,
+          "size": 99204
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "TFLCxTVc",
+      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.10",
+      "version_number": "v5.0.10-1.19.3-Fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "17a89f7d921f079bec2de211e6c935b0400e11d45df20427ed33754d7a198c6816b0787b6758daae4a356b8003d0e258f210d3b0c759a6744d8414b46ec0b7db",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/TFLCxTVc/ForgeConfigAPIPort-v5.0.10-1.19.3-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v5.0.10-1.19.3-Fabric.jar",
+          "primary": true,
+          "size": 414343
+        },
+        {
+          "sha512": "d82ccba6828a68abb6acf5d58deec3c8c68695bd44d0d85c390960b9bfc3238df02b9704c3b1490fc4401cd439b159114d127672745b1691a46cb67650b67f4a",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/TFLCxTVc/ForgeConfigAPIPort-v5.0.10-1.19.3-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v5.0.10-1.19.3-Fabric-sources.jar",
+          "primary": false,
+          "size": 102027
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Uc2L9JYx",
+      "name": "[NEOFORGE] [1.20.4] ForgeConfigAPIPort-v20.4.2",
+      "version_number": "v20.4.2-1.20.4-NeoForge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "302ab0461210b953dc90a1f939ca99f9dda83af88af8ea2a5f3a52873f9c5f0790cf21401228be1bad897a9cc600a15620f8b8b5aea6cc9435a82c714fc1ada0",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/Uc2L9JYx/ForgeConfigAPIPort-v20.4.2-1.20.4-NeoForge.jar",
+          "filename": "ForgeConfigAPIPort-v20.4.2-1.20.4-NeoForge.jar",
+          "primary": true,
+          "size": 95882
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "VpvE1h2H",
+      "name": "ForgeConfigAPIPort",
+      "version_number": "v3.0.0-1.18-Fabric",
+      "game_versions": [
+        "1.18"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "39eefbbb373d5758fdd09601eb0bac3cb0888cc9d7bdb2a9b08bd832155b9a870d9940bfbb2527b2ebb98de699bb4f93ff8a1bcdc8933018af4f7cf7eb994e4a",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/v3.0.0-1.18-Fabric/ForgeConfigAPIPort-v3.0.0-1.18-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v3.0.0-1.18-Fabric-sources.jar",
+          "primary": false,
+          "size": 72149
+        },
+        {
+          "sha512": "ae72028f97dba7ea6ecf6d7f8381474bfff5e1f06c655790db5f6516687efb2e854179452404cdee321c3ddb749f10b282ea38bc2f4c37d0932d2c731dd61985",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/v3.0.0-1.18-Fabric/ForgeConfigAPIPort-v3.0.0-1.18-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v3.0.0-1.18-Fabric.jar",
+          "primary": false,
+          "size": 329888
         }
       ],
       "dependencies": []
@@ -739,22 +1365,180 @@
       ]
     },
     {
-      "id": "uVasUkyz",
-      "name": "[FABRIC] [1.20.2] ForgeConfigAPIPort-v20.2.5",
-      "version_number": "v20.2.5-1.20.2-Fabric",
+      "id": "WjwjuiDp",
+      "name": "[FABRIC] [1.17.1] ForgeConfigAPIPort-v2.0.4",
+      "version_number": "2.0.4",
       "game_versions": [
-        "1.20.2"
+        "1.17",
+        "1.17.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "5e874484913fa8517fc1448cf75982d003345e2eb5fa9bdfbfc5eea56f4087061ba0c67e14b4cd708ab490d5d16887b5f1511c30f1670832e4d6e2c7d335847c",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/uVasUkyz/ForgeConfigAPIPort-v20.2.5-1.20.2-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v20.2.5-1.20.2-Fabric.jar",
+          "sha512": "031ffa891018f474b6c8f226ab3fbc1833b5c7624e540bab01733f1029a26c3b7868b1141390a36395efd1ad6682d302dfeaa21503328f5a2ecb3133c78fabeb",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/2.0.4/ForgeConfigAPIPort-v2.0.4-1.17.1-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v2.0.4-1.17.1-Fabric.jar",
           "primary": true,
-          "size": 444823
+          "size": 494269
+        },
+        {
+          "sha512": "2cb2c2cfcf8ca200934cc392073a580e56224086cbfc90738328b4975b8447a7831a44fbf761a4a4fee8e03c43bbed7e2452636edfb5779ed096c5b835980854",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/2.0.4/ForgeConfigAPIPort-v2.0.4-1.17.1-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v2.0.4-1.17.1-Fabric-sources.jar",
+          "primary": false,
+          "size": 74775
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "7kh2ofyR",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "XGKEYlsw",
+      "name": "[FABRIC] [1.18.2] ForgeConfigAPIPort-v3.2.4",
+      "version_number": "3.2.4",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "95b40c2edd1610c26a0e8f6ac980acf403098ada7b4748a9b94bab9d4b2b590955e3e345fa0727299b23eaf27b0811ca6e34305acb95b18c42507101ebfe11cd",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/XGKEYlsw/ForgeConfigAPIPort-v3.2.4-1.18.2-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v3.2.4-1.18.2-Fabric.jar",
+          "primary": true,
+          "size": 331368
+        },
+        {
+          "sha512": "50723c07ba38619a91137e3196c795faf9f28e3a71007f9ba1556311a9351f26a79c179272f3ff4b05630645cdf9fd1fad393b50851b2f98ba8a9339b448adc0",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/XGKEYlsw/ForgeConfigAPIPort-v3.2.4-1.18.2-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v3.2.4-1.18.2-Fabric-sources.jar",
+          "primary": false,
+          "size": 74937
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "XhjJZ5uE",
+      "name": "[FABRIC] [1.19.2] ForgeConfigAPIPort-v4.2.6",
+      "version_number": "4.2.6",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f8deaaabd075986d6df5bffae50e02c1659476650173630b8bace35e4fe2b8a4c30818ed2fcff1c4ff92513c283b521c0ed47f92b64f98a9e76472d4026683f1",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/XhjJZ5uE/ForgeConfigAPIPort-v4.2.6-1.19.2-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v4.2.6-1.19.2-Fabric.jar",
+          "primary": true,
+          "size": 411723
+        },
+        {
+          "sha512": "14e9f54794e7fa0851d72ca51f9348a0d9b6f48e9a2bfd401426edeef76c5c0046e163d436c031ecae7673487ec761cae741c1ca390ac9b5d9fbc44fd8cbb0d0",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/XhjJZ5uE/ForgeConfigAPIPort-v4.2.6-1.19.2-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v4.2.6-1.19.2-Fabric-sources.jar",
+          "primary": false,
+          "size": 114211
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Xm6O1nBK",
+      "name": "[FORGE] [1.20.6] ForgeConfigAPIPort-v20.6.1",
+      "version_number": "v20.6.1-1.20.6-Forge",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "af505e77e70dae6425e5f9e71a2a7bdb2850877f4d57456585cc15e6f29a65ae79ebb1d591545fb6386e807706e795c2e8b1029c6b7b0185bff06fd2bc2bf817",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/Xm6O1nBK/ForgeConfigAPIPort-v20.6.1-1.20.6-Forge.jar",
+          "filename": "ForgeConfigAPIPort-v20.6.1-1.20.6-Forge.jar",
+          "primary": true,
+          "size": 257250
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "YsY7k4Pu",
+      "name": "[FABRIC] [1.21] ForgeConfigAPIPort-v21.0.2",
+      "version_number": "v21.0.2-1.21-Fabric",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "cac67d5b1f762ab6c62eefdc716bee39ccfbb75850786441638c66dee3eb465a2598d2df9480624e01f5ac8cf79f6d0c1c21e1efb739629f04363fabe3d516cd",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/YsY7k4Pu/ForgeConfigAPIPort-v21.0.2-1.21-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v21.0.2-1.21-Fabric.jar",
+          "primary": true,
+          "size": 567242
         }
       ],
       "dependencies": [
@@ -769,55 +1553,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "RRZz6X5Y",
-      "name": "[NEOFORGE] [1.20.2] ForgeConfigAPIPort-v20.2.4",
-      "version_number": "v20.2.4-1.20.2-NeoForge",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "221ef5745d5df5b2d03bd636891dcbad956d653d62a183d5b62c46a65f482ba2d3e4cfed74c5eab46b00560109e2d44b1f1c1de468117d60ab161413d4af4d29",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/RRZz6X5Y/ForgeConfigAPIPort-v20.2.4-1.20.2-NeoForge.jar",
-          "filename": "ForgeConfigAPIPort-v20.2.4-1.20.2-NeoForge.jar",
-          "primary": true,
-          "size": 99204
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "d4o2DIW4",
-      "name": "[FORGE] [1.20.2] ForgeConfigAPIPort-v20.2.4",
-      "version_number": "v20.2.4-1.20.2-Forge",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "b364441386cc9c162eb91baa84ae74a18065d2ebb0bcac62d8cdf84180ce35b289389602c4ddbd31d4c122412554ca1b19fa7c852681515be389b4d5aa372bae",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/d4o2DIW4/ForgeConfigAPIPort-v20.2.4-1.20.2-Forge.jar",
-          "filename": "ForgeConfigAPIPort-v20.2.4-1.20.2-Forge.jar",
-          "primary": true,
-          "size": 254919
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -856,25 +1591,484 @@
       ]
     },
     {
-      "id": "8ZEqzvgl",
-      "name": "[NEOFORGE] [1.20.4] ForgeConfigAPIPort-v20.4.1",
-      "version_number": "v20.4.1-1.20.4-NeoForge",
+      "id": "akDg87hC",
+      "name": "[FABRIC] [1.19.2] ForgeConfigAPIPort-v4.2.3",
+      "version_number": "4.2.3",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "cbc2d200111a24eaaf13045a69399a7758319e61c9c10e2b80c3ac39cc0badec33071cf0c1a782b3a9da06da6ce0e0be852cf16ecea9dc5a73b7adc53cba5d59",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/akDg87hC/ForgeConfigAPIPort-v4.2.3-1.19.2-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v4.2.3-1.19.2-Fabric.jar",
+          "primary": true,
+          "size": 396336
+        },
+        {
+          "sha512": "1b84e654f965b76a0aa6817fd55cf43f217e5cd005d4aaa1770d2911172e74eacc4afac6faa01bebb28c1dc9701cb3b1289ea1e9e4c6740028aa9360a271bcff",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/akDg87hC/ForgeConfigAPIPort-v4.2.3-1.19.2-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v4.2.3-1.19.2-Fabric-sources.jar",
+          "primary": false,
+          "size": 102303
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "alqrny5V",
+      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.6",
+      "version_number": "v5.0.6-1.19.3-Fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0b27406af064cb02383158588483ac3c1c6fe8fdcb0397a84d6ec6816bfb1e4a35bd88474e55d27692adb387231f1c31a47b9450a0d43cf043f82ac0eb97298d",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/alqrny5V/ForgeConfigAPIPort-v5.0.6-1.19.3-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v5.0.6-1.19.3-Fabric.jar",
+          "primary": true,
+          "size": 402877
+        },
+        {
+          "sha512": "4582d638218b51388f2b5cdeb17d45ee343389d9895061a9ab902b47f7774211a9397a0da9e8b72830213199a83341c96a4a753cdf6b1d106c16a07576279724",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/alqrny5V/ForgeConfigAPIPort-v5.0.6-1.19.3-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v5.0.6-1.19.3-Fabric-sources.jar",
+          "primary": false,
+          "size": 96825
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "bh0uyJuX",
+      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.5",
+      "version_number": "v5.0.5-1.19.3-Fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "6e102e3366144e1f3ae45b8f4bd962cc405d5eed384636629405752c78c71f0258a40c1cbcba76c1d8eb27505579471ae95bdada20a7c8fdefd0fe0b5c234043",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/bh0uyJuX/ForgeConfigAPIPort-v5.0.5-1.19.3-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v5.0.5-1.19.3-Fabric.jar",
+          "primary": true,
+          "size": 402849
+        },
+        {
+          "sha512": "26fdbcf3f8682670260aee6d694036fdd5ac32af3cd3eb224469a00872a17f95b4e58d349a4bca0c4d5e970bd3230a7f18e3e9a4ea70b5d609b0f07a9026c905",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/bh0uyJuX/ForgeConfigAPIPort-v5.0.5-1.19.3-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v5.0.5-1.19.3-Fabric-sources.jar",
+          "primary": false,
+          "size": 96797
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "cPR7Hb0e",
+      "name": "[FORGE] [1.20.4] ForgeConfigAPIPort-v20.4.3",
+      "version_number": "v20.4.3-1.20.4-Forge",
       "game_versions": [
         "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "78adf9d518611467050c31b86b0ca8d6ed8d17d1714eee3fa05f4843dc5646b0081e63de03baccd3787637ccc182a735e0a50c702e4aa16a9f26da0e77753314",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/cPR7Hb0e/ForgeConfigAPIPort-v20.4.3-1.20.4-Forge.jar",
+          "filename": "ForgeConfigAPIPort-v20.4.3-1.20.4-Forge.jar",
+          "primary": true,
+          "size": 256812
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "cjmImt9R",
+      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.7",
+      "version_number": "v5.0.7-1.19.3-Fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c4ccac8c95dbd8bd18c904def3d463f92630ab6db883232b3abe20ab6cfc0a1bbd9d0971acd68e7150eaf26d19a93da8e1aa4e0386cf83daf179220e532877cf",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/cjmImt9R/ForgeConfigAPIPort-v5.0.7-1.19.3-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v5.0.7-1.19.3-Fabric.jar",
+          "primary": true,
+          "size": 410419
+        },
+        {
+          "sha512": "897c0580787e975329152ba144e7cbee3741597fc55f55546e4ad00a16b9c3d0f5b59bb6ac6e48d62a7fda0001b801902b2b3d933b2ad2c0122637c46e335687",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/cjmImt9R/ForgeConfigAPIPort-v5.0.7-1.19.3-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v5.0.7-1.19.3-Fabric-sources.jar",
+          "primary": false,
+          "size": 100005
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "d4Qud7sf",
+      "name": "[NEOFORGE] [1.21] ForgeConfigAPIPort-v21.0.0",
+      "version_number": "v21.0.0-1.21-NeoForge",
+      "game_versions": [
+        "1.21"
       ],
       "loaders": [
         "neoforge"
       ],
       "files": [
         {
-          "sha512": "68083e71a50497798132ed4d50a834c7f4bc718232459163cc752eaf3dddd35d65d917a875a03f249143b52fe157f2868765aef14ab73c6c1a5c0c92ecbb7591",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/8ZEqzvgl/ForgeConfigAPIPort-v20.4.1-1.20.4-NeoForge.jar",
-          "filename": "ForgeConfigAPIPort-v20.4.1-1.20.4-NeoForge.jar",
+          "sha512": "623a8e1522122aa746531adb354cf8b4841530cabbfcc8976ee713d9f3fab06d6b1a2a279907edea6f39a95b9cef4c4f8879064c51a59410dd94946351da550b",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/d4Qud7sf/ForgeConfigAPIPort-v21.0.0-1.21-NeoForge.jar",
+          "filename": "ForgeConfigAPIPort-v21.0.0-1.21-NeoForge.jar",
           "primary": true,
-          "size": 99002
+          "size": 100128
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "d4o2DIW4",
+      "name": "[FORGE] [1.20.2] ForgeConfigAPIPort-v20.2.4",
+      "version_number": "v20.2.4-1.20.2-Forge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b364441386cc9c162eb91baa84ae74a18065d2ebb0bcac62d8cdf84180ce35b289389602c4ddbd31d4c122412554ca1b19fa7c852681515be389b4d5aa372bae",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/d4o2DIW4/ForgeConfigAPIPort-v20.2.4-1.20.2-Forge.jar",
+          "filename": "ForgeConfigAPIPort-v20.2.4-1.20.2-Forge.jar",
+          "primary": true,
+          "size": 254919
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "eYeUbc3T",
+      "name": "[FABRIC] [1.17.1] ForgeConfigAPIPort-v2.0.3",
+      "version_number": "2.0.3",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "263d2d0f9857bd01046d51b4ede3612e0390e4df3604ca73ef7b0d11821546df252add8e103886f690c45bd71e62d9cd4cedb2b76338ffb067056950762b4635",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/2.0.3/ForgeConfigAPIPort-v2.0.3-1.17.1-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v2.0.3-1.17.1-Fabric.jar",
+          "primary": true,
+          "size": 494253
+        },
+        {
+          "sha512": "4e7c3b4bcf6f723d50e1ecd4dabdbd1544f81e761e5e8105763c9a934f05b63fee07ac4caebb9628e9680ec35755df10191a3d0641f06e4d3dd068cfe420ddd7",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/2.0.3/ForgeConfigAPIPort-v2.0.3-1.17.1-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v2.0.3-1.17.1-Fabric-sources.jar",
+          "primary": false,
+          "size": 74759
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "7kh2ofyR",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "ewYccCIi",
+      "name": "[FABRIC] [1.20] ForgeConfigAPIPort-v7.0.0",
+      "version_number": "v7.0.0-1.20-Fabric",
+      "game_versions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ddbfbf91a3cfd69cb2f31c67203ec26b2ae1a7acd7788a49283f3650e427ec28f458b67b50624dec977260e29894f3369d220308546c7e96460609f3f94feab2",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/ewYccCIi/ForgeConfigAPIPort-v7.0.0-1.20-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v7.0.0-1.20-Fabric.jar",
+          "primary": true,
+          "size": 397196
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": "UOV19nXG",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "f5d9VI72",
+      "name": "[FABRIC] [1.20.2] ForgeConfigAPIPort-v9.0.0",
+      "version_number": "v9.0.0-1.20.2-Fabric",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "64b8168ec35549d37746d44c639f191e7c1a0851d20f51ced768520aa594456174dfab035e40f8d6afc06708335fe4dadd490d4941496914d1b46f011dcf3124",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/f5d9VI72/ForgeConfigAPIPort-v9.0.0-1.20.2-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v9.0.0-1.20.2-Fabric.jar",
+          "primary": true,
+          "size": 396911
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "fI5AsaV4",
+      "name": "[FABRIC] [1.19.2] ForgeConfigAPIPort-v4.2.7",
+      "version_number": "4.2.7",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "1c1366bc20fc06ff39ebfb7725a278c404a23a7953567a2074fd7ff125a81e75fb71b7df6aaf0f8cfa533c4c2c290d1100651a56b7b566740392e31aefe9707d",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/fI5AsaV4/ForgeConfigAPIPort-v4.2.7-1.19.2-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v4.2.7-1.19.2-Fabric.jar",
+          "primary": true,
+          "size": 432852
+        },
+        {
+          "sha512": "847014fa20763c03d18f0f14282c7294767bc1954cb8d6b886934201c5ca6a9c5c7655b786ff7405036c4f71a6f46a4704140ba24a41e5d2cd94663a11185eba",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/fI5AsaV4/ForgeConfigAPIPort-v4.2.7-1.19.2-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v4.2.7-1.19.2-Fabric-sources.jar",
+          "primary": false,
+          "size": 124743
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "h7joEojU",
+      "name": "[FABRIC] [1.19.1] ForgeConfigAPIPort-v4.1.4",
+      "version_number": "4.1.4",
+      "game_versions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a811d108c00fa904bd4f03c57d9f46a97847b7d4a33c2c055d35b7121f84e05dfb6e004a4eddca93ab85b5ea67244f408904a77af9a5ea421d10dc731614e6ed",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.1.4/ForgeConfigAPIPort-v4.1.4-1.19.1-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v4.1.4-1.19.1-Fabric.jar",
+          "primary": true,
+          "size": 606451
+        },
+        {
+          "sha512": "0447b2e884e0295ecedf963b93b946f1b1763d532b46a9ea5ee6a7e5dd59df1fe23a5e392082e5bfa05841a592a2798207da43da5306331d87c0c368aec89e5b",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.1.4/ForgeConfigAPIPort-v4.1.4-1.19.1-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v4.1.4-1.19.1-Fabric-sources.jar",
+          "primary": false,
+          "size": 102715
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "2Ys0a7JE",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "3fY6NddT",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "hRGdglV6",
+      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.1",
+      "version_number": "v5.0.1-1.19.3-Fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8c1f6633c74471ca708bf018e1d8991f3e0b6d59c90ea5e12d36e7d092a29904a2c23d6f7c032bc0f474219935cca9bd167c1d9b675a2331064f02fa4aede9c3",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/hRGdglV6/ForgeConfigAPIPort-v5.0.1-1.19.3-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v5.0.1-1.19.3-Fabric.jar",
+          "primary": true,
+          "size": 386592
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "PbVeub96",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
     },
     {
       "id": "hSymtRZz",
@@ -905,36 +2099,76 @@
       ]
     },
     {
-      "id": "y5ADtIQp",
-      "name": "[FABRIC] [1.20.4] ForgeConfigAPIPort-v20.4.1",
-      "version_number": "v20.4.1-1.20.4-Fabric",
+      "id": "izawYWhx",
+      "name": "[NEOFORGE] [1.20.4] ForgeConfigAPIPort-v20.4.3",
+      "version_number": "v20.4.3-1.20.4-NeoForge",
       "game_versions": [
         "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "2bc884a350f32d39cf4e31a296b2fcb47673b391a097df74a19353eb06cbf56b1e926d943b96697fd7167b9f7d84c5933ab951e221519fc62b2c3f6fdcbfa6e3",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/izawYWhx/ForgeConfigAPIPort-v20.4.3-1.20.4-NeoForge.jar",
+          "filename": "ForgeConfigAPIPort-v20.4.3-1.20.4-NeoForge.jar",
+          "primary": true,
+          "size": 95920
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "jwtFMyhT",
+      "name": "[FABRIC] [1.16.5] ForgeConfigAPIPort-v1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "bf38aa2da04864a682277fa25cf883d64a56b234afe08af74321eb9b8b80b4aab9574500f423a25f51399f85acc8b288b332d2f6a816a5f4cae3e934c0ec947a",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/y5ADtIQp/ForgeConfigAPIPort-v20.4.1-1.20.4-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v20.4.1-1.20.4-Fabric.jar",
+          "sha512": "6e129123a1229054985b140c131540c09de4a3776632033dda9c0d275940eada1a3dc275afddaac455249e413609c2a7ba568144a0a8b9439bd2e74f2f9af63d",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/1.0.0/ForgeConfigAPIPort-v1.0.0-1.16.5-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v1.0.0-1.16.5-Fabric.jar",
           "primary": true,
-          "size": 444562
+          "size": 466059
+        },
+        {
+          "sha512": "97f5236227df874ebdc08261881d2a48e71fffa3203b76a65eb23d65e15c8de964af671a10519c125f0cadc566cfd320e87b0bdc0860a4d67272b45ddce88332",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/1.0.0/ForgeConfigAPIPort-v1.0.0-1.16.5-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v1.0.0-1.16.5-Fabric-sources.jar",
+          "primary": false,
+          "size": 74507
         }
       ],
       "dependencies": [
         {
+          "project_id": "mOgUt4GM",
+          "version_id": "3gwnUSKz",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "embedded"
         }
       ]
     },
@@ -955,6 +2189,40 @@
           "filename": "ForgeConfigAPIPort-v20.4.0-1.20.4-Fabric.jar",
           "primary": true,
           "size": 463043
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "lB4p4JnZ",
+      "name": "[FABRIC] [1.21] ForgeConfigAPIPort-v21.0.0",
+      "version_number": "v21.0.0-1.21-Fabric",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "77a2ace0032a3637cce73cb01a1f469655a700d6108d43d12c9fea52ca07f1a7b2b5bf8274cf82301e142fa6ee71f70629fd6dece4f998b9667d9b3a0a14b9d0",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/lB4p4JnZ/ForgeConfigAPIPort-v21.0.0-1.21-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v21.0.0-1.21-Fabric.jar",
+          "primary": true,
+          "size": 430289
         }
       ],
       "dependencies": [
@@ -1007,206 +2275,43 @@
       ]
     },
     {
-      "id": "14GbpcF7",
-      "name": "[FABRIC] [1.20.2] ForgeConfigAPIPort-v9.1.1",
-      "version_number": "v9.1.1-1.20.2-Fabric",
+      "id": "mFoJ8qnh",
+      "name": "[FABRIC] [1.19.4] ForgeConfigAPIPort-v6.0.0",
+      "version_number": "v6.0.0-1.19.4-Fabric",
       "game_versions": [
-        "1.20.2"
+        "1.19.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "fc64c3f7f2898525b3f7cc2bf5ef691f503cdf37bf0b405dbb9df1574471e48a5858934dad6fef627f09e21d3a8ffd3ab37e5e71bbe15b1ff9009fdc3839e2dd",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/14GbpcF7/ForgeConfigAPIPort-v9.1.1-1.20.2-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v9.1.1-1.20.2-Fabric.jar",
+          "sha512": "499c019e0538a672bbb70be6b41d29841248929a7872543da33453928ea896f6282625ab6ca0b997ea226d65ddc0e841f915fba600feb53bed6cde3119bb8eb7",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/mFoJ8qnh/ForgeConfigAPIPort-v6.0.0-1.19.4-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v6.0.0-1.19.4-Fabric.jar",
           "primary": true,
-          "size": 456880
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
+          "size": 411879
         },
         {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "52l6IXEd",
-      "name": "[FABRIC] [1.20.2] ForgeConfigAPIPort-v9.1.0",
-      "version_number": "v9.1.0-1.20.2-Fabric",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "eb99aa7e15b16ab150f816254f453bfb08835832770b51a4db0921a0276a254793a656185149bd657e592bfd2b231c20125e2a2f4087248492b7f08c40bbe6db",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/52l6IXEd/ForgeConfigAPIPort-v9.1.0-1.20.2-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v9.1.0-1.20.2-Fabric.jar",
-          "primary": true,
-          "size": 456736
+          "sha512": "94bf58ce06a71fe4caa49aa90fd2b1dbb86333ac518f0f4b81c5ae6ea90f5821967a813fe5a220d7c4f185e8f217b2ae919ac59a18dc7c8b599d99faa10bca9d",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/mFoJ8qnh/ForgeConfigAPIPort-v6.0.0-1.19.4-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v6.0.0-1.19.4-Fabric-sources.jar",
+          "primary": false,
+          "size": 99607
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "f5d9VI72",
-      "name": "[FABRIC] [1.20.2] ForgeConfigAPIPort-v9.0.0",
-      "version_number": "v9.0.0-1.20.2-Fabric",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "64b8168ec35549d37746d44c639f191e7c1a0851d20f51ced768520aa594456174dfab035e40f8d6afc06708335fe4dadd490d4941496914d1b46f011dcf3124",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/f5d9VI72/ForgeConfigAPIPort-v9.0.0-1.20.2-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v9.0.0-1.20.2-Fabric.jar",
-          "primary": true,
-          "size": 396911
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": null,
+          "version_id": "uIYkhRbX",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "CtENDTlF",
-      "name": "[FABRIC] [1.20.1] ForgeConfigAPIPort-v8.0.0",
-      "version_number": "v8.0.0-1.20.1-Fabric",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "257cd85263ab5119ce78cf16f2e7fdaf8b350e526c758d00f0af8393b9fabd581a2a974096fc7c7af45d793660e2e7b84391e11d10522036759ec66220a4b616",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/CtENDTlF/ForgeConfigAPIPort-v8.0.0-1.20.1-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v8.0.0-1.20.1-Fabric.jar",
-          "primary": true,
-          "size": 397198
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5WeWGLoJ",
-          "version_id": "nwy63zfI",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ewYccCIi",
-      "name": "[FABRIC] [1.20] ForgeConfigAPIPort-v7.0.0",
-      "version_number": "v7.0.0-1.20-Fabric",
-      "game_versions": [
-        "1.20"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ddbfbf91a3cfd69cb2f31c67203ec26b2ae1a7acd7788a49283f3650e427ec28f458b67b50624dec977260e29894f3369d220308546c7e96460609f3f94feab2",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/ewYccCIi/ForgeConfigAPIPort-v7.0.0-1.20-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v7.0.0-1.20-Fabric.jar",
-          "primary": true,
-          "size": 397196
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5WeWGLoJ",
-          "version_id": "UOV19nXG",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "1cG1sI8e",
-      "name": "[FABRIC] [1.20] ForgeConfigAPIPort-v7.0.0",
-      "version_number": "v7.0.0-1.20-Fabric",
-      "game_versions": [
-        "1.20"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "44f7c62dd776a1115ed57bf53493dee37040078bab12f07724bcfcb087c73f4a7030d2b9261d4a97c28209b324eb4303afd1f37d95d7063d546d9ebaaa59723b",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/1cG1sI8e/ForgeConfigAPIPort-v7.0.0-1.20-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v7.0.0-1.20-Fabric.jar",
-          "primary": true,
-          "size": 397195
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "5WeWGLoJ",
-          "version_id": "UOV19nXG",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -1239,6 +2344,47 @@
       ]
     },
     {
+      "id": "notOZAjX",
+      "name": "[FABRIC] [1.19.1] ForgeConfigAPIPort-v4.1.2",
+      "version_number": "4.1.2",
+      "game_versions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "47b065385045275f33f15862b3bb94cb95b2520eed1f4db742e3bfb0e2231a10e2039452e6a07fbf0c7e8a799d4884104f0ecb7a5d59badc8d541cd101c56d7f",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.1.2/ForgeConfigAPIPort-v4.1.2-1.19.1-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v4.1.2-1.19.1-Fabric.jar",
+          "primary": true,
+          "size": 539062
+        },
+        {
+          "sha512": "b9eea367968647986b835cc9dad44e632cb7f60b7bd22414a0b85b3dc81c23a36ade0a7141ccc4709b564a35e4d31d97a4b4e946ea1886b9e0c7fb5f0c25cb61",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.1.2/ForgeConfigAPIPort-v4.1.2-1.19.1-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v4.1.2-1.19.1-Fabric-sources.jar",
+          "primary": false,
+          "size": 102646
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "oYUxEUGk",
       "name": "[FABRIC] [1.20] ForgeConfigAPIPort-v7.0.0",
       "version_number": "v7.0.0-1.20-Fabric",
@@ -1259,98 +2405,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "5WeWGLoJ",
           "version_id": "UOV19nXG",
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "2TybfFU8",
-      "name": "[FABRIC] [1.19.4] ForgeConfigAPIPort-v6.0.2",
-      "version_number": "v6.0.2-1.19.4-Fabric",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "38a0aacd1b59f452622038a0e86bfeecd63f2bbe6726274042d5a93c19e11e3ff7c2b8d8528444ebfa061178783b7e26eb017ea9f6adf94d78601ed148a1d1ea",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/2TybfFU8/ForgeConfigAPIPort-v6.0.2-1.19.4-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v6.0.2-1.19.4-Fabric.jar",
-          "primary": true,
-          "size": 415251
         },
-        {
-          "sha512": "85cfd5cd7ef843134b1512ba4b59664622d2b3f54f5b56fadc1125a3241eaad14b883d10c53573e3f37a82ec9a508e3f3111971016567280239e6c922e5b041e",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/2TybfFU8/ForgeConfigAPIPort-v6.0.2-1.19.4-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v6.0.2-1.19.4-Fabric-sources.jar",
-          "primary": false,
-          "size": 99898
-        }
-      ],
-      "dependencies": [
         {
           "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "MkqOn4Yc",
-      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.11",
-      "version_number": "v5.0.11-1.19.3-Fabric",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4683700e66439de9baa0c8a9985201fe56cda9d633e4986acc170a43626e6690e4e750ce17f16469b52872ebdd87c9aeda1d23dbd4067289f4e0132359b104ca",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/MkqOn4Yc/ForgeConfigAPIPort-v5.0.11-1.19.3-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v5.0.11-1.19.3-Fabric.jar",
-          "primary": true,
-          "size": 417111
-        },
-        {
-          "sha512": "34f60a4ea1cdb6e3123bc64a291ea908b577c32ba2863415a8b97dd1c2a2f31a532b959dc83fc52727a3f85fd75db8074ea2bec8dc9b689f65016ea07da861f0",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/MkqOn4Yc/ForgeConfigAPIPort-v5.0.11-1.19.3-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v5.0.11-1.19.3-Fabric-sources.jar",
-          "primary": false,
-          "size": 102077
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -1396,95 +2460,16 @@
       ]
     },
     {
-      "id": "mFoJ8qnh",
-      "name": "[FABRIC] [1.19.4] ForgeConfigAPIPort-v6.0.0",
-      "version_number": "v6.0.0-1.19.4-Fabric",
+      "id": "p2C10JUL",
+      "name": "[FABRIC] [1.16.5] ForgeConfigAPIPort-v1.0.2",
+      "version_number": "1.0.2",
       "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "499c019e0538a672bbb70be6b41d29841248929a7872543da33453928ea896f6282625ab6ca0b997ea226d65ddc0e841f915fba600feb53bed6cde3119bb8eb7",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/mFoJ8qnh/ForgeConfigAPIPort-v6.0.0-1.19.4-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v6.0.0-1.19.4-Fabric.jar",
-          "primary": true,
-          "size": 411879
-        },
-        {
-          "sha512": "94bf58ce06a71fe4caa49aa90fd2b1dbb86333ac518f0f4b81c5ae6ea90f5821967a813fe5a220d7c4f185e8f217b2ae919ac59a18dc7c8b599d99faa10bca9d",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/mFoJ8qnh/ForgeConfigAPIPort-v6.0.0-1.19.4-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v6.0.0-1.19.4-Fabric-sources.jar",
-          "primary": false,
-          "size": 99607
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "TFLCxTVc",
-      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.10",
-      "version_number": "v5.0.10-1.19.3-Fabric",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "17a89f7d921f079bec2de211e6c935b0400e11d45df20427ed33754d7a198c6816b0787b6758daae4a356b8003d0e258f210d3b0c759a6744d8414b46ec0b7db",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/TFLCxTVc/ForgeConfigAPIPort-v5.0.10-1.19.3-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v5.0.10-1.19.3-Fabric.jar",
-          "primary": true,
-          "size": 414343
-        },
-        {
-          "sha512": "d82ccba6828a68abb6acf5d58deec3c8c68695bd44d0d85c390960b9bfc3238df02b9704c3b1490fc4401cd439b159114d127672745b1691a46cb67650b67f4a",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/TFLCxTVc/ForgeConfigAPIPort-v5.0.10-1.19.3-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v5.0.10-1.19.3-Fabric-sources.jar",
-          "primary": false,
-          "size": 102027
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "3VCgXZ79",
-      "name": "[FABRIC] [1.19.2] ForgeConfigAPIPort-v4.2.11",
-      "version_number": "4.2.11",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
       ],
       "loaders": [
         "fabric",
@@ -1492,29 +2477,57 @@
       ],
       "files": [
         {
-          "sha512": "bc6c8c703c47972aa232616bb3cbcd2602a68c00be09bce55608904eedd7088b221516893c4a46fc5fd660bf1f08d46a011426a0a4ad6606a9eefbff2c674f7a",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/3VCgXZ79/ForgeConfigAPIPort-v4.2.11-1.19.2-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v4.2.11-1.19.2-Fabric.jar",
+          "sha512": "7d7686acee9f5c21989e8e1aa333de38a55411149de5aa840e9100de0438c1f519d077f42f7afff615c97b8dca4b11ab30ffdd139930f69a1a34fc27351d4325",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/p2C10JUL/ForgeConfigAPIPort-v1.0.2-1.16.5-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v1.0.2-1.16.5-Fabric.jar",
           "primary": true,
-          "size": 439991
+          "size": 332102
         },
         {
-          "sha512": "2f08e7759ecf8150e91617062676755c66e78032f12984bc2e2b45e34f98724a50b15c9aa199074cd671ffee95474e84bb847e31d47e55bedf8f987801c06fa0",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/3VCgXZ79/ForgeConfigAPIPort-v4.2.11-1.19.2-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v4.2.11-1.19.2-Fabric-sources.jar",
+          "sha512": "58a0418b496bf67e1c81d8b196f95de2b6ab1fb7c92b904978743ab151b026027f58a3eaf46db0a7c41a59f08eaf71cef55aad79fe1ad0c57bcd4d46849cfe44",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/p2C10JUL/ForgeConfigAPIPort-v1.0.2-1.16.5-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v1.0.2-1.16.5-Fabric-sources.jar",
           "primary": false,
-          "size": 128996
+          "size": 74662
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
+          "project_id": "mOgUt4GM",
+          "version_id": "3gwnUSKz",
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         },
         {
-          "project_id": "mOgUt4GM",
+          "project_id": "P7dR8mSH",
+          "version_id": "IQ3UGSc2",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "r8gESJiS",
+      "name": "[FORGE] [1.20.2] ForgeConfigAPIPort-v20.2.6",
+      "version_number": "v20.2.6-1.20.2-Forge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "452e1ae2d596612870c210f5b63ae553bd261074f7115bfa8bee30df2a53bb8eb9817583d428699815161bcc77636f806d27aa6597edba4aadc0409773e4f592",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/r8gESJiS/ForgeConfigAPIPort-v20.2.6-1.20.2-Forge.jar",
+          "filename": "ForgeConfigAPIPort-v20.2.6-1.20.2-Forge.jar",
+          "primary": true,
+          "size": 251856
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -1522,91 +2535,78 @@
       ]
     },
     {
-      "id": "6J0K7FyD",
-      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.9",
-      "version_number": "v5.0.9-1.19.3-Fabric",
+      "id": "rXgI0k5P",
+      "name": "[FABRIC] [1.18.2] ForgeConfigAPIPort-v3.2.3",
+      "version_number": "3.2.3",
       "game_versions": [
-        "1.19.3"
+        "1.18.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "4980e973cf0d7eb70088b34ccc8a72c2dcbaa1b536cd208fe784efeb3b1d0095314e78ef77519c8580e09b0945597bfc29dc673ba7b597e1e405fc34e3b166a7",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/6J0K7FyD/ForgeConfigAPIPort-v5.0.9-1.19.3-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v5.0.9-1.19.3-Fabric.jar",
+          "sha512": "c33f62a37842c53637d6e3801b9924981183b93d4f8dbd259bb5d9f7e54f58c000aad1770713e90c966558fd2b10cd684185e78c4fec1a39401687dd3f6f9360",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/3.2.3/ForgeConfigAPIPort-v3.2.3-1.18.2-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v3.2.3-1.18.2-Fabric.jar",
           "primary": true,
-          "size": 411732
+          "size": 494142
         },
         {
-          "sha512": "d88af42c5adfc1558a476aeee94bd4a04b894b295003f1e8f03e3942bc068285cef0a4ac6c502c802e3db2eaa7df9c0165f88e4953df755e7f3bab0a3ae29c29",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/6J0K7FyD/ForgeConfigAPIPort-v5.0.9-1.19.3-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v5.0.9-1.19.3-Fabric-sources.jar",
+          "sha512": "9481858cb5adaf1ebe52105be9e82c60bc09ebac9d238936df77bf2662874833149a228312b7f86182dd4b0c53096f644b4d3218d21fd55a250fffa5e7bfd1b9",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/3.2.3/ForgeConfigAPIPort-v3.2.3-1.18.2-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v3.2.3-1.18.2-Fabric-sources.jar",
           "primary": false,
-          "size": 100837
+          "size": 74833
         }
       ],
       "dependencies": [
         {
           "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
+          "version_id": "95QMsRyb",
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "embedded"
         },
         {
           "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
+          "version_id": "nVxObSbX",
           "file_name": null,
           "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "cjmImt9R",
-      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.7",
-      "version_number": "v5.0.7-1.19.3-Fabric",
+      "id": "s4eBrY4J",
+      "name": "[NEOFORGE] [1.20.6] ForgeConfigAPIPort-v20.6.0",
+      "version_number": "v20.6.0-1.20.6-NeoForge",
       "game_versions": [
-        "1.19.3"
+        "1.20.6"
       ],
       "loaders": [
-        "fabric"
+        "neoforge"
       ],
       "files": [
         {
-          "sha512": "c4ccac8c95dbd8bd18c904def3d463f92630ab6db883232b3abe20ab6cfc0a1bbd9d0971acd68e7150eaf26d19a93da8e1aa4e0386cf83daf179220e532877cf",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/cjmImt9R/ForgeConfigAPIPort-v5.0.7-1.19.3-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v5.0.7-1.19.3-Fabric.jar",
+          "sha512": "d9933fe048044f3c39901adaf7d88840bede5059cb2bf68cdd828d4c32545ba95444adc81b78db905e3dffbc6494fe50cdd9e576cc5a33dfa5c3a01791d0798a",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/s4eBrY4J/ForgeConfigAPIPort-v20.6.0-1.20.6-NeoForge.jar",
+          "filename": "ForgeConfigAPIPort-v20.6.0-1.20.6-NeoForge.jar",
           "primary": true,
-          "size": 410419
-        },
-        {
-          "sha512": "897c0580787e975329152ba144e7cbee3741597fc55f55546e4ad00a16b9c3d0f5b59bb6ac6e48d62a7fda0001b801902b2b3d933b2ad2c0122637c46e335687",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/cjmImt9R/ForgeConfigAPIPort-v5.0.7-1.19.3-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v5.0.7-1.19.3-Fabric-sources.jar",
-          "primary": false,
-          "size": 100005
+          "size": 100214
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "alqrny5V",
-      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.6",
-      "version_number": "v5.0.6-1.19.3-Fabric",
+      "id": "sJryrwj9",
+      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.4",
+      "version_number": "v5.0.4-1.19.3-Fabric",
       "game_versions": [
         "1.19.3"
       ],
@@ -1615,39 +2615,101 @@
       ],
       "files": [
         {
-          "sha512": "0b27406af064cb02383158588483ac3c1c6fe8fdcb0397a84d6ec6816bfb1e4a35bd88474e55d27692adb387231f1c31a47b9450a0d43cf043f82ac0eb97298d",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/alqrny5V/ForgeConfigAPIPort-v5.0.6-1.19.3-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v5.0.6-1.19.3-Fabric.jar",
+          "sha512": "797ccc9b0667cbd13cd4b9ee81ae64f52334a2ac52fadfa7445aa7ff696fb19142ed313dda5793ef1ef728308e33fad21aae3917b4a1f62fffae52e82f6788f4",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/sJryrwj9/ForgeConfigAPIPort-v5.0.4-1.19.3-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v5.0.4-1.19.3-Fabric.jar",
           "primary": true,
-          "size": 402877
+          "size": 399822
         },
         {
-          "sha512": "4582d638218b51388f2b5cdeb17d45ee343389d9895061a9ab902b47f7774211a9397a0da9e8b72830213199a83341c96a4a753cdf6b1d106c16a07576279724",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/alqrny5V/ForgeConfigAPIPort-v5.0.6-1.19.3-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v5.0.6-1.19.3-Fabric-sources.jar",
+          "sha512": "8f07a9d946559aeb293902dd8e82da7386770be62b7b4c9fa6d91a5f45f26e518e121a1eba1c0a8fff6c1d2472b172403629aa26caa29e45245dd7288da1314f",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/sJryrwj9/ForgeConfigAPIPort-v5.0.4-1.19.3-Fabric-sources.jar",
+          "filename": "ForgeConfigAPIPort-v5.0.4-1.19.3-Fabric-sources.jar",
           "primary": false,
-          "size": 96825
+          "size": 95042
         }
       ],
       "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
         {
           "project_id": "P7dR8mSH",
           "version_id": "jyKnHEDY",
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "sK1XwxTt",
+      "name": "[FABRIC] [1.20.2] ForgeConfigAPIPort-v20.2.6",
+      "version_number": "v20.2.6-1.20.2-Fabric",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9bdbd4f17771d965c595e6aa65393c4f3e61353d9825835fa717377055e1651c5f2ea19595e008cdb317b031a283edbe7b3f8c9e1ba6cb3fd5477bb962639e37",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/sK1XwxTt/ForgeConfigAPIPort-v20.2.6-1.20.2-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v20.2.6-1.20.2-Fabric.jar",
+          "primary": true,
+          "size": 444847
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "sg4l7fSX",
+      "name": "[NEOFORGE] [1.21] ForgeConfigAPIPort-v21.0.2",
+      "version_number": "v21.0.2-1.21-NeoForge",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "b2f668e3736909014ffc8936e92f3ae3310399d963f570ebdfdb1d7c23e681a365f225d3fb0d4d4f1afc7e840b56c877cd183301a00ffc08f6db1ac002562e6e",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/sg4l7fSX/ForgeConfigAPIPort-v21.0.2-1.21-NeoForge.jar",
+          "filename": "ForgeConfigAPIPort-v21.0.2-1.21-NeoForge.jar",
+          "primary": true,
+          "size": 101872
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "bh0uyJuX",
-      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.5",
-      "version_number": "v5.0.5-1.19.3-Fabric",
+      "id": "tlNCwMwZ",
+      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.3",
+      "version_number": "v5.0.3-1.19.3-Fabric",
       "game_versions": [
         "1.19.3"
       ],
@@ -1656,18 +2718,11 @@
       ],
       "files": [
         {
-          "sha512": "6e102e3366144e1f3ae45b8f4bd962cc405d5eed384636629405752c78c71f0258a40c1cbcba76c1d8eb27505579471ae95bdada20a7c8fdefd0fe0b5c234043",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/bh0uyJuX/ForgeConfigAPIPort-v5.0.5-1.19.3-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v5.0.5-1.19.3-Fabric.jar",
+          "sha512": "f9860811b7336dda3e5aa0b60f88bbd710b6b6e7d3a8dd618bd2a73b1248c0b2e68db6db7518725e027de9b5544cf90df22554a2fd9e5fa1eadc7aaa8aa7309c",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/tlNCwMwZ/ForgeConfigAPIPort-v5.0.3-1.19.3-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v5.0.3-1.19.3-Fabric.jar",
           "primary": true,
-          "size": 402849
-        },
-        {
-          "sha512": "26fdbcf3f8682670260aee6d694036fdd5ac32af3cd3eb224469a00872a17f95b4e58d349a4bca0c4d5e970bd3230a7f18e3e9a4ea70b5d609b0f07a9026c905",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/bh0uyJuX/ForgeConfigAPIPort-v5.0.5-1.19.3-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v5.0.5-1.19.3-Fabric-sources.jar",
-          "primary": false,
-          "size": 96797
+          "size": 399688
         }
       ],
       "dependencies": [
@@ -1716,451 +2771,50 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "gSoPJyVn",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "sJryrwj9",
-      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.4",
-      "version_number": "v5.0.4-1.19.3-Fabric",
+      "id": "uVasUkyz",
+      "name": "[FABRIC] [1.20.2] ForgeConfigAPIPort-v20.2.5",
+      "version_number": "v20.2.5-1.20.2-Fabric",
       "game_versions": [
-        "1.19.3"
+        "1.20.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "797ccc9b0667cbd13cd4b9ee81ae64f52334a2ac52fadfa7445aa7ff696fb19142ed313dda5793ef1ef728308e33fad21aae3917b4a1f62fffae52e82f6788f4",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/sJryrwj9/ForgeConfigAPIPort-v5.0.4-1.19.3-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v5.0.4-1.19.3-Fabric.jar",
+          "sha512": "5e874484913fa8517fc1448cf75982d003345e2eb5fa9bdfbfc5eea56f4087061ba0c67e14b4cd708ab490d5d16887b5f1511c30f1670832e4d6e2c7d335847c",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/uVasUkyz/ForgeConfigAPIPort-v20.2.5-1.20.2-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v20.2.5-1.20.2-Fabric.jar",
           "primary": true,
-          "size": 399822
-        },
-        {
-          "sha512": "8f07a9d946559aeb293902dd8e82da7386770be62b7b4c9fa6d91a5f45f26e518e121a1eba1c0a8fff6c1d2472b172403629aa26caa29e45245dd7288da1314f",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/sJryrwj9/ForgeConfigAPIPort-v5.0.4-1.19.3-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v5.0.4-1.19.3-Fabric-sources.jar",
-          "primary": false,
-          "size": 95042
+          "size": 444823
         }
       ],
       "dependencies": [
         {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "tlNCwMwZ",
-      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.3",
-      "version_number": "v5.0.3-1.19.3-Fabric",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f9860811b7336dda3e5aa0b60f88bbd710b6b6e7d3a8dd618bd2a73b1248c0b2e68db6db7518725e027de9b5544cf90df22554a2fd9e5fa1eadc7aaa8aa7309c",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/tlNCwMwZ/ForgeConfigAPIPort-v5.0.3-1.19.3-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v5.0.3-1.19.3-Fabric.jar",
-          "primary": true,
-          "size": 399688
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "FtpEL8G9",
-      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.2",
-      "version_number": "v5.0.2-1.19.3-Fabric",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "3de490ec0791dff2d09bce58ab163bafa1cf92d9216aab861da7797d6952dd855affd253e107fdbd4e96b9f1164bf976b8db849264c1bc23a323e9848740a416",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/FtpEL8G9/ForgeConfigAPIPort-v5.0.2-1.19.3-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v5.0.2-1.19.3-Fabric.jar",
-          "primary": true,
-          "size": 399655
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "hRGdglV6",
-      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.1",
-      "version_number": "v5.0.1-1.19.3-Fabric",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8c1f6633c74471ca708bf018e1d8991f3e0b6d59c90ea5e12d36e7d092a29904a2c23d6f7c032bc0f474219935cca9bd167c1d9b675a2331064f02fa4aede9c3",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/hRGdglV6/ForgeConfigAPIPort-v5.0.1-1.19.3-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v5.0.1-1.19.3-Fabric.jar",
-          "primary": true,
-          "size": 386592
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "PbVeub96",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "H1LkHOeQ",
-      "name": "[FABRIC] [1.19.3] ForgeConfigAPIPort-v5.0.0",
-      "version_number": "v5.0.0-1.19.3-Fabric",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "cd4c061ce5d0173c5f0bbd003500fc34a9dfceab0191f45c5eb89bdbb2e35e9b766fb7102b7cebb18a5ecae048305260f8ac61377eb3c4bdfca0f96ad7554cff",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/H1LkHOeQ/ForgeConfigAPIPort-v5.0.0-1.19.3-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v5.0.0-1.19.3-Fabric.jar",
-          "primary": true,
-          "size": 386525
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "PbVeub96",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "CkM0mGHX",
-      "name": "[FABRIC] [1.19.2] ForgeConfigAPIPort-v4.2.9",
-      "version_number": "4.2.9",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "1fea6cac17e7e5d459de7899d0996277c79a6fdcfe208427b64250871f7c491b90b71aace8462103e82c6f601f4086d5256a1d409a3482d0e3b22d1ac08c33d9",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/CkM0mGHX/ForgeConfigAPIPort-v4.2.9-1.19.2-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v4.2.9-1.19.2-Fabric.jar",
-          "primary": true,
-          "size": 432901
-        },
-        {
-          "sha512": "1a4290a5a2d0900217722c97621be9e75de5311b7dc3f0d362a9661170fdc8ad203f2cc3ea8eef00d87fa6bd68fd77f9778d1334de14288324c7ed316bf95f75",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/CkM0mGHX/ForgeConfigAPIPort-v4.2.9-1.19.2-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v4.2.9-1.19.2-Fabric-sources.jar",
-          "primary": false,
-          "size": 124790
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "fI5AsaV4",
-      "name": "[FABRIC] [1.19.2] ForgeConfigAPIPort-v4.2.7",
-      "version_number": "4.2.7",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "1c1366bc20fc06ff39ebfb7725a278c404a23a7953567a2074fd7ff125a81e75fb71b7df6aaf0f8cfa533c4c2c290d1100651a56b7b566740392e31aefe9707d",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/fI5AsaV4/ForgeConfigAPIPort-v4.2.7-1.19.2-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v4.2.7-1.19.2-Fabric.jar",
-          "primary": true,
-          "size": 432852
-        },
-        {
-          "sha512": "847014fa20763c03d18f0f14282c7294767bc1954cb8d6b886934201c5ca6a9c5c7655b786ff7405036c4f71a6f46a4704140ba24a41e5d2cd94663a11185eba",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/fI5AsaV4/ForgeConfigAPIPort-v4.2.7-1.19.2-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v4.2.7-1.19.2-Fabric-sources.jar",
-          "primary": false,
-          "size": 124743
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "XhjJZ5uE",
-      "name": "[FABRIC] [1.19.2] ForgeConfigAPIPort-v4.2.6",
-      "version_number": "4.2.6",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f8deaaabd075986d6df5bffae50e02c1659476650173630b8bace35e4fe2b8a4c30818ed2fcff1c4ff92513c283b521c0ed47f92b64f98a9e76472d4026683f1",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/XhjJZ5uE/ForgeConfigAPIPort-v4.2.6-1.19.2-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v4.2.6-1.19.2-Fabric.jar",
-          "primary": true,
-          "size": 411723
-        },
-        {
-          "sha512": "14e9f54794e7fa0851d72ca51f9348a0d9b6f48e9a2bfd401426edeef76c5c0046e163d436c031ecae7673487ec761cae741c1ca390ac9b5d9fbc44fd8cbb0d0",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/XhjJZ5uE/ForgeConfigAPIPort-v4.2.6-1.19.2-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v4.2.6-1.19.2-Fabric-sources.jar",
-          "primary": false,
-          "size": 114211
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "KjE2hCJv",
-      "name": "[FABRIC] [1.19.2] ForgeConfigAPIPort-v4.2.5",
-      "version_number": "4.2.5",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4f012cfb4718a3930f94d2962afcee49bc579ac9eec301a923448240400d376f01e0b8fe06dbcb711abb391a125c235d9ae78ccebb7ad4a9e9e50a8ef0539a72",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/KjE2hCJv/ForgeConfigAPIPort-v4.2.5-1.19.2-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v4.2.5-1.19.2-Fabric.jar",
-          "primary": true,
-          "size": 411681
-        },
-        {
-          "sha512": "5e1257049e9a6cb0ec4b7f65f94585b1753533dc06202bddf17b25571e78a74ccd673c6be4d9d4d660a607cafafaa04868eccbfad543dd333bd54523eacb9076",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/KjE2hCJv/ForgeConfigAPIPort-v4.2.5-1.19.2-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v4.2.5-1.19.2-Fabric-sources.jar",
-          "primary": false,
-          "size": 114184
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "JdloDJit",
-      "name": "[FABRIC] [1.19.2] ForgeConfigAPIPort-v4.2.4",
-      "version_number": "4.2.4",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4ff3e9e569e0425b4c8895088e870874b589f36b1ed6a6db17b6e873dadf7cd280a8e691bff969017fcded68bc94a6bcf3812757199726523f152340b9a64b67",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/JdloDJit/ForgeConfigAPIPort-v4.2.4-1.19.2-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v4.2.4-1.19.2-Fabric.jar",
-          "primary": true,
-          "size": 402584
-        },
-        {
-          "sha512": "64a853a2682548edc55ce969fe0ffefa45d8263f73e1199326afd03ecfd10f55453bf9467d02fe804eee45cc3f175bfe77af3bef270e70e8a37948bd1c7b0f2e",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/JdloDJit/ForgeConfigAPIPort-v4.2.4-1.19.2-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v4.2.4-1.19.2-Fabric-sources.jar",
-          "primary": false,
-          "size": 109040
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "akDg87hC",
-      "name": "[FABRIC] [1.19.2] ForgeConfigAPIPort-v4.2.3",
-      "version_number": "4.2.3",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "cbc2d200111a24eaaf13045a69399a7758319e61c9c10e2b80c3ac39cc0badec33071cf0c1a782b3a9da06da6ce0e0be852cf16ecea9dc5a73b7adc53cba5d59",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/akDg87hC/ForgeConfigAPIPort-v4.2.3-1.19.2-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v4.2.3-1.19.2-Fabric.jar",
-          "primary": true,
-          "size": 396336
-        },
-        {
-          "sha512": "1b84e654f965b76a0aa6817fd55cf43f217e5cd005d4aaa1770d2911172e74eacc4afac6faa01bebb28c1dc9701cb3b1289ea1e9e4c6740028aa9360a271bcff",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/akDg87hC/ForgeConfigAPIPort-v4.2.3-1.19.2-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v4.2.3-1.19.2-Fabric-sources.jar",
-          "primary": false,
-          "size": 102303
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -2195,530 +2849,41 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "gSoPJyVn",
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "K7z34XSj",
-      "name": "[FABRIC] [1.19.2] ForgeConfigAPIPort-v4.2.0",
-      "version_number": "4.2.0",
-      "game_versions": [
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6e306f75a3b970110fcfb446f6774ac9358eede9dd8f2cebb8c443d382840e63c51ae4beb60055f781c3938dd9ee5c0592e47c42335a5fd7cada43b7b185d53e",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/K7z34XSj/ForgeConfigAPIPort-v4.2.0-1.19.2-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v4.2.0-1.19.2-Fabric.jar",
-          "primary": true,
-          "size": 403277
-        },
-        {
-          "sha512": "624c004dcfa22259f7037c1e1e655b27efb691010a7db769406a9708937f7515d18f53d1032ff2a8af589b3c402f26f79103c8aa6384ca405e36b67dc3f356fc",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/K7z34XSj/ForgeConfigAPIPort-v4.2.0-1.19.2-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v4.2.0-1.19.2-Fabric-sources.jar",
-          "primary": false,
-          "size": 102821
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "8TOgNwQL",
-          "file_name": null,
-          "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": "RAzwgZkP",
+          "version_id": "hfsU4hXq",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "XGKEYlsw",
-      "name": "[FABRIC] [1.18.2] ForgeConfigAPIPort-v3.2.4",
-      "version_number": "3.2.4",
+      "id": "wMoOojVd",
+      "name": "[FORGE] [1.21] ForgeConfigAPIPort-v21.0.1",
+      "version_number": "v21.0.1-1.21-Forge",
       "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
+        "1.21"
       ],
       "loaders": [
-        "fabric",
-        "quilt"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "95b40c2edd1610c26a0e8f6ac980acf403098ada7b4748a9b94bab9d4b2b590955e3e345fa0727299b23eaf27b0811ca6e34305acb95b18c42507101ebfe11cd",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/XGKEYlsw/ForgeConfigAPIPort-v3.2.4-1.18.2-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v3.2.4-1.18.2-Fabric.jar",
+          "sha512": "0b9691481e93c8c01008af26f014450844e579ddbef24b9bf93f9ee88b971298c06a501f2000e7ecc653fab4dcf41f4f9160796857d46e169b1adc9b6670477b",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/wMoOojVd/ForgeConfigAPIPort-v21.0.1-1.21-Forge.jar",
+          "filename": "ForgeConfigAPIPort-v21.0.1-1.21-Forge.jar",
           "primary": true,
-          "size": 331368
-        },
-        {
-          "sha512": "50723c07ba38619a91137e3196c795faf9f28e3a71007f9ba1556311a9351f26a79c179272f3ff4b05630645cdf9fd1fad393b50851b2f98ba8a9339b448adc0",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/XGKEYlsw/ForgeConfigAPIPort-v3.2.4-1.18.2-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v3.2.4-1.18.2-Fabric-sources.jar",
-          "primary": false,
-          "size": 74937
+          "size": 256985
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "nVxObSbX",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "4JaArhTS",
-      "name": "[FABRIC] [1.17.1] ForgeConfigAPIPort-v2.0.5",
-      "version_number": "2.0.5",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0921a17927b79ee612e733b0fd8a1af9f59b967907e457aee13559ff9315600bfea661710c2443c81e9962a3c1b79efa63916758745e5591d0ce69c2cab2830b",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4JaArhTS/ForgeConfigAPIPort-v2.0.5-1.17.1-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v2.0.5-1.17.1-Fabric.jar",
-          "primary": true,
-          "size": 331306
-        },
-        {
-          "sha512": "ef764299724f73483179fa768dfe19876239b116dae7f2f8fbf9e0d4b1909be1736c35e30bd7e3ce16ca507e8c0b15f3686ba04b4edc8bf7dd727eb33dd55403",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4JaArhTS/ForgeConfigAPIPort-v2.0.5-1.17.1-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v2.0.5-1.17.1-Fabric-sources.jar",
-          "primary": false,
-          "size": 74877
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "31ES0yWr",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "7kh2ofyR",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "p2C10JUL",
-      "name": "[FABRIC] [1.16.5] ForgeConfigAPIPort-v1.0.2",
-      "version_number": "1.0.2",
-      "game_versions": [
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "7d7686acee9f5c21989e8e1aa333de38a55411149de5aa840e9100de0438c1f519d077f42f7afff615c97b8dca4b11ab30ffdd139930f69a1a34fc27351d4325",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/p2C10JUL/ForgeConfigAPIPort-v1.0.2-1.16.5-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v1.0.2-1.16.5-Fabric.jar",
-          "primary": true,
-          "size": 332102
-        },
-        {
-          "sha512": "58a0418b496bf67e1c81d8b196f95de2b6ab1fb7c92b904978743ab151b026027f58a3eaf46db0a7c41a59f08eaf71cef55aad79fe1ad0c57bcd4d46849cfe44",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/p2C10JUL/ForgeConfigAPIPort-v1.0.2-1.16.5-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v1.0.2-1.16.5-Fabric-sources.jar",
-          "primary": false,
-          "size": 74662
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "IQ3UGSc2",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "3gwnUSKz",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "WjwjuiDp",
-      "name": "[FABRIC] [1.17.1] ForgeConfigAPIPort-v2.0.4",
-      "version_number": "2.0.4",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "031ffa891018f474b6c8f226ab3fbc1833b5c7624e540bab01733f1029a26c3b7868b1141390a36395efd1ad6682d302dfeaa21503328f5a2ecb3133c78fabeb",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/2.0.4/ForgeConfigAPIPort-v2.0.4-1.17.1-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v2.0.4-1.17.1-Fabric.jar",
-          "primary": true,
-          "size": 494269
-        },
-        {
-          "sha512": "2cb2c2cfcf8ca200934cc392073a580e56224086cbfc90738328b4975b8447a7831a44fbf761a4a4fee8e03c43bbed7e2452636edfb5779ed096c5b835980854",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/2.0.4/ForgeConfigAPIPort-v2.0.4-1.17.1-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v2.0.4-1.17.1-Fabric-sources.jar",
-          "primary": false,
-          "size": 74775
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "7kh2ofyR",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "h7joEojU",
-      "name": "[FABRIC] [1.19.1] ForgeConfigAPIPort-v4.1.4",
-      "version_number": "4.1.4",
-      "game_versions": [
-        "1.19.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a811d108c00fa904bd4f03c57d9f46a97847b7d4a33c2c055d35b7121f84e05dfb6e004a4eddca93ab85b5ea67244f408904a77af9a5ea421d10dc731614e6ed",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.1.4/ForgeConfigAPIPort-v4.1.4-1.19.1-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v4.1.4-1.19.1-Fabric.jar",
-          "primary": true,
-          "size": 606451
-        },
-        {
-          "sha512": "0447b2e884e0295ecedf963b93b946f1b1763d532b46a9ea5ee6a7e5dd59df1fe23a5e392082e5bfa05841a592a2798207da43da5306331d87c0c368aec89e5b",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.1.4/ForgeConfigAPIPort-v4.1.4-1.19.1-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v4.1.4-1.19.1-Fabric-sources.jar",
-          "primary": false,
-          "size": 102715
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "3fY6NddT",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "2Ys0a7JE",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "rXgI0k5P",
-      "name": "[FABRIC] [1.18.2] ForgeConfigAPIPort-v3.2.3",
-      "version_number": "3.2.3",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c33f62a37842c53637d6e3801b9924981183b93d4f8dbd259bb5d9f7e54f58c000aad1770713e90c966558fd2b10cd684185e78c4fec1a39401687dd3f6f9360",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/3.2.3/ForgeConfigAPIPort-v3.2.3-1.18.2-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v3.2.3-1.18.2-Fabric.jar",
-          "primary": true,
-          "size": 494142
-        },
-        {
-          "sha512": "9481858cb5adaf1ebe52105be9e82c60bc09ebac9d238936df77bf2662874833149a228312b7f86182dd4b0c53096f644b4d3218d21fd55a250fffa5e7bfd1b9",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/3.2.3/ForgeConfigAPIPort-v3.2.3-1.18.2-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v3.2.3-1.18.2-Fabric-sources.jar",
-          "primary": false,
-          "size": 74833
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "nVxObSbX",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "86FCTo9M",
-      "name": "[FABRIC] [1.16.5] ForgeConfigAPIPort-v1.0.1",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "078f63548a1609148d2923c023865744f3bb356aa9619eba325b76fdb1d65d383222a5a75f0d74aa00ae8c9de73df6cae4db7a80d1e2806a83e1d909e3652e48",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/1.0.1/ForgeConfigAPIPort-v1.0.1-1.16.5-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v1.0.1-1.16.5-Fabric.jar",
-          "primary": true,
-          "size": 466091
-        },
-        {
-          "sha512": "b25badb48cc2f743883c8445194063ec659203d74252c6c4af9344a6293c4a1ec3a70b1ca656e8187237c18fed27a4185b115beb5b5d94ff48eca85fdfc8a4e5",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/1.0.1/ForgeConfigAPIPort-v1.0.1-1.16.5-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v1.0.1-1.16.5-Fabric-sources.jar",
-          "primary": false,
-          "size": 74543
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "3gwnUSKz",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "eYeUbc3T",
-      "name": "[FABRIC] [1.17.1] ForgeConfigAPIPort-v2.0.3",
-      "version_number": "2.0.3",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "263d2d0f9857bd01046d51b4ede3612e0390e4df3604ca73ef7b0d11821546df252add8e103886f690c45bd71e62d9cd4cedb2b76338ffb067056950762b4635",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/2.0.3/ForgeConfigAPIPort-v2.0.3-1.17.1-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v2.0.3-1.17.1-Fabric.jar",
-          "primary": true,
-          "size": 494253
-        },
-        {
-          "sha512": "4e7c3b4bcf6f723d50e1ecd4dabdbd1544f81e761e5e8105763c9a934f05b63fee07ac4caebb9628e9680ec35755df10191a3d0641f06e4d3dd068cfe420ddd7",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/2.0.3/ForgeConfigAPIPort-v2.0.3-1.17.1-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v2.0.3-1.17.1-Fabric-sources.jar",
-          "primary": false,
-          "size": 74759
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "7kh2ofyR",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "jwtFMyhT",
-      "name": "[FABRIC] [1.16.5] ForgeConfigAPIPort-v1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6e129123a1229054985b140c131540c09de4a3776632033dda9c0d275940eada1a3dc275afddaac455249e413609c2a7ba568144a0a8b9439bd2e74f2f9af63d",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/1.0.0/ForgeConfigAPIPort-v1.0.0-1.16.5-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v1.0.0-1.16.5-Fabric.jar",
-          "primary": true,
-          "size": 466059
-        },
-        {
-          "sha512": "97f5236227df874ebdc08261881d2a48e71fffa3203b76a65eb23d65e15c8de964af671a10519c125f0cadc566cfd320e87b0bdc0860a4d67272b45ddce88332",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/1.0.0/ForgeConfigAPIPort-v1.0.0-1.16.5-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v1.0.0-1.16.5-Fabric-sources.jar",
-          "primary": false,
-          "size": 74507
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "3gwnUSKz",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "JpOqHq5p",
-      "name": "[FABRIC] [1.18.2] ForgeConfigAPIPort-v3.2.2",
-      "version_number": "3.2.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "76ca2616476d725ceb611636cfb5c5dc7ac2d34426047386d756279fd2cb09ade229f20b6a721455f218640c877972adfb976d3db0cd2b259d7f9f0293fe3a17",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/3.2.2/ForgeConfigAPIPort-v3.2.2-1.18.2-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v3.2.2-1.18.2-Fabric.jar",
-          "primary": true,
-          "size": 498552
-        },
-        {
-          "sha512": "91ccb3f432846981c595e5312d604201dd2003cfd11c043ca38afb18e0c9cc7a7349f7f352eeae8c249b43ea2be896e4f72240eea0719ed3c03316032d76c430",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/3.2.2/ForgeConfigAPIPort-v3.2.2-1.18.2-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v3.2.2-1.18.2-Fabric-sources.jar",
-          "primary": false,
-          "size": 78049
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "nVxObSbX",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "2eL7Opm5",
-      "name": "[FABRIC] [1.19.1] ForgeConfigAPIPort-v4.1.3",
-      "version_number": "4.1.3",
-      "game_versions": [
-        "1.19.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ede84cd29c1afcc11280cac47a55132a728cea75e7e7ecbe9fa4a2368f41cff4bbfc8586ceddc777b74f8efeae9cb77d3e46d391a9891336134caaa568264761",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.1.3/ForgeConfigAPIPort-v4.1.3-1.19.1-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v4.1.3-1.19.1-Fabric.jar",
-          "primary": true,
-          "size": 606438
-        },
-        {
-          "sha512": "8f937a5091bda47821ad5b42b596ce6e232d1c81a3732282da3de6e114afbc442cfc1888446c9904942795445baf9fd3c29eaf7282a0bee2d41e88f2f95f6906",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.1.3/ForgeConfigAPIPort-v4.1.3-1.19.1-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v4.1.3-1.19.1-Fabric-sources.jar",
-          "primary": false,
-          "size": 102701
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
+          "project_id": "5WeWGLoJ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -2726,157 +2891,27 @@
       ]
     },
     {
-      "id": "GJ0aBxFN",
-      "name": "[FABRIC] [1.18.2] ForgeConfigAPIPort-v3.2.1",
-      "version_number": "3.2.1",
+      "id": "xbVGsTLe",
+      "name": "[FABRIC] [1.20.4] ForgeConfigAPIPort-v20.4.3",
+      "version_number": "v20.4.3-1.20.4-Fabric",
       "game_versions": [
-        "1.18.2"
+        "1.20.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "741633a6816fc58565bf6eb2352d0dac62e9d210216167256053bec7f4c6c0066c7ef02ab5768304193e0ffd747ba110f188691542146f8797e5749f952a2a9c",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/3.2.1/ForgeConfigAPIPort-v3.2.1-1.18.2-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v3.2.1-1.18.2-Fabric.jar",
+          "sha512": "d1eb1bc1aad0bcd3d97deee3d8f3b3eeaa43c332697be043260b7af132c7ee3da6c8b35f635ef7e4a431a95fa6f13dd4a796badeba91bba2b67eff6dc855d8e5",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/xbVGsTLe/ForgeConfigAPIPort-v20.4.3-1.20.4-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v20.4.3-1.20.4-Fabric.jar",
           "primary": true,
-          "size": 494096
-        },
-        {
-          "sha512": "12ada84cc33da4ebda4b73e16b501c4ee5faa5dd48910c332ae3e617892affdc2b4289e43e1ba2d2abe82bc7d1791bdd1c0d589a0f6c47b80bd7ab14d8fc1179",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/3.2.1/ForgeConfigAPIPort-v3.2.1-1.18.2-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v3.2.1-1.18.2-Fabric-sources.jar",
-          "primary": false,
-          "size": 74785
+          "size": 444627
         }
       ],
       "dependencies": [
         {
-          "project_id": "mOgUt4GM",
-          "version_id": "nVxObSbX",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "notOZAjX",
-      "name": "[FABRIC] [1.19.1] ForgeConfigAPIPort-v4.1.2",
-      "version_number": "4.1.2",
-      "game_versions": [
-        "1.19.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "47b065385045275f33f15862b3bb94cb95b2520eed1f4db742e3bfb0e2231a10e2039452e6a07fbf0c7e8a799d4884104f0ecb7a5d59badc8d541cd101c56d7f",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.1.2/ForgeConfigAPIPort-v4.1.2-1.19.1-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v4.1.2-1.19.1-Fabric.jar",
-          "primary": true,
-          "size": 539062
-        },
-        {
-          "sha512": "b9eea367968647986b835cc9dad44e632cb7f60b7bd22414a0b85b3dc81c23a36ade0a7141ccc4709b564a35e4d31d97a4b4e946ea1886b9e0c7fb5f0c25cb61",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.1.2/ForgeConfigAPIPort-v4.1.2-1.19.1-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v4.1.2-1.19.1-Fabric-sources.jar",
-          "primary": false,
-          "size": 102646
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "AxEvkjh5",
-      "name": "[FABRIC] [1.19] ForgeConfigAPIPort-v4.0.2",
-      "version_number": "4.0.2",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c4f8a05c795401ce0c441b2b20d60cb87dd69542322a4908f85e23ff50b02ef91f5f38cb780ff311eaa5c2a06c7bf57b80bd0bb88a64eac574777d0143451932",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.0.2/ForgeConfigAPIPort-v4.0.2-1.19-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v4.0.2-1.19-Fabric.jar",
-          "primary": true,
-          "size": 332462
-        },
-        {
-          "sha512": "0f7cb1daa2602ad203d58231324925eccfd476920a1baa6f9e67b4f4f676af0bf13810de6860b0f4177ac2cac493f4f30c0b511c3190b6947ee16d2f5c05de1d",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.0.2/ForgeConfigAPIPort-v4.0.2-1.19-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v4.0.2-1.19-Fabric-sources.jar",
-          "primary": false,
-          "size": 74651
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "3h8hgyqP",
-      "name": "[FABRIC] [1.19] ForgeConfigAPIPort-v4.0.1",
-      "version_number": "4.0.1",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a1ecc568009d373658729234da59ae333d152a4f0705e441334ef23ae5b93a117b67c023fb74c2d3fb28bcb84bf2e8e51ada74fed307670dae65aeb77574a369",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.0.1/ForgeConfigAPIPort-v4.0.1-1.19-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v4.0.1-1.19-Fabric.jar",
-          "primary": true,
-          "size": 332397
-        },
-        {
-          "sha512": "f6249431bee8ae8d33bf4afbfa3d1d673a18788207997165155dad2b2ca519e4adfa98cf98571d82a62483efce7e0dbb59d8bebf492dcd450c94e9892a136480",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.0.1/ForgeConfigAPIPort-v4.0.1-1.19-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v4.0.1-1.19-Fabric-sources.jar",
-          "primary": false,
-          "size": 75138
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
+          "project_id": "5WeWGLoJ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -2890,73 +2925,38 @@
       ]
     },
     {
-      "id": "16w4kT84",
-      "name": "[FABRIC] [1.19] ForgeConfigAPIPort-v4.0.0",
-      "version_number": "4.0.0",
+      "id": "y5ADtIQp",
+      "name": "[FABRIC] [1.20.4] ForgeConfigAPIPort-v20.4.1",
+      "version_number": "v20.4.1-1.20.4-Fabric",
       "game_versions": [
-        "1.19"
+        "1.20.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "a0d5fe0755b74eab64f132bf7fbb5f989e07d506c0086f6407fe66054db27c510019f7245dfd4db93aa941677793c35e0f7604cdbcb0e8835828f14a52bce0c9",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.0.0/ForgeConfigAPIPort-v4.0.0-1.19-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v4.0.0-1.19-Fabric.jar",
+          "sha512": "bf38aa2da04864a682277fa25cf883d64a56b234afe08af74321eb9b8b80b4aab9574500f423a25f51399f85acc8b288b332d2f6a816a5f4cae3e934c0ec947a",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/y5ADtIQp/ForgeConfigAPIPort-v20.4.1-1.20.4-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v20.4.1-1.20.4-Fabric.jar",
           "primary": true,
-          "size": 332338
-        },
-        {
-          "sha512": "4bcc879f71de6de15664ccecdd00e4db4d16666bd6e8cf4d1066d6abe109efb4b0fa57a9d0374f23502eee7f76715314b7ceb3871cb5c2401df75efa370dd7c5",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/4.0.0/ForgeConfigAPIPort-v4.0.0-1.19-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v4.0.0-1.19-Fabric-sources.jar",
-          "primary": false,
-          "size": 74529
+          "size": 444562
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "3KmOcp6b",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "oU5qfeR6",
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "VpvE1h2H",
-      "name": "ForgeConfigAPIPort",
-      "version_number": "v3.0.0-1.18-Fabric",
-      "game_versions": [
-        "1.18"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "39eefbbb373d5758fdd09601eb0bac3cb0888cc9d7bdb2a9b08bd832155b9a870d9940bfbb2527b2ebb98de699bb4f93ff8a1bcdc8933018af4f7cf7eb994e4a",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/v3.0.0-1.18-Fabric/ForgeConfigAPIPort-v3.0.0-1.18-Fabric-sources.jar",
-          "filename": "ForgeConfigAPIPort-v3.0.0-1.18-Fabric-sources.jar",
-          "primary": false,
-          "size": 72149
         },
         {
-          "sha512": "ae72028f97dba7ea6ecf6d7f8381474bfff5e1f06c655790db5f6516687efb2e854179452404cdee321c3ddb749f10b282ea38bc2f4c37d0932d2c731dd61985",
-          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/v3.0.0-1.18-Fabric/ForgeConfigAPIPort-v3.0.0-1.18-Fabric.jar",
-          "filename": "ForgeConfigAPIPort-v3.0.0-1.18-Fabric.jar",
-          "primary": false,
-          "size": 329888
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
-      ],
-      "dependencies": []
+      ]
     }
   ]
 }

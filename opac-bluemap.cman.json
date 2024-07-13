@@ -5,6 +5,46 @@
   "description": "Syncs your Open Parties and Claims land claims to your BlueMap maps",
   "versions": [
     {
+      "id": "TrhPEnh4",
+      "name": "OPaC BlueMap 1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f79fad75c1a3401fb1ec48eebbe8d403704d9fddf07d463bbf12c8740b8b3b2b8b44c8aa4d5c8eae37f20423a92b6675d392d762f7198c01efaff085caefb3ed",
+          "url": "https://cdn.modrinth.com/data/y2O53y8j/versions/TrhPEnh4/opac-bluemap-integration-1.0.0.jar",
+          "filename": "opac-bluemap-integration-1.0.0.jar",
+          "primary": true,
+          "size": 75473
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "gF3BGWvG",
+          "version_id": "789QK8OR",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "swbUV1cr",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "rmiNkWsE",
       "name": "OPaC BlueMap 1.0.2",
       "version_number": "1.0.2",
@@ -32,14 +72,14 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
+          "project_id": "gF3BGWvG",
+          "version_id": "789QK8OR",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "gF3BGWvG",
-          "version_id": "789QK8OR",
+          "project_id": "P7dR8mSH",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
@@ -75,46 +115,6 @@
           "filename": "opac-bluemap-integration-1.0.1-sources.jar",
           "primary": false,
           "size": 41870
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "gF3BGWvG",
-          "version_id": "789QK8OR",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "swbUV1cr",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "TrhPEnh4",
-      "name": "OPaC BlueMap 1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f79fad75c1a3401fb1ec48eebbe8d403704d9fddf07d463bbf12c8740b8b3b2b8b44c8aa4d5c8eae37f20423a92b6675d392d762f7198c01efaff085caefb3ed",
-          "url": "https://cdn.modrinth.com/data/y2O53y8j/versions/TrhPEnh4/opac-bluemap-integration-1.0.0.jar",
-          "filename": "opac-bluemap-integration-1.0.0.jar",
-          "primary": true,
-          "size": 75473
         }
       ],
       "dependencies": [

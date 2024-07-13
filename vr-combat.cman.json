@@ -1,9 +1,68 @@
 {
-  "id": "vr-combat",
+  "id": "XpGUobxt",
   "slug": "vr-combat",
   "name": "VR Combat",
   "description": "Compatibility between Vivecraft and Better Combat.",
   "versions": [
+    {
+      "id": "SNVHmbYk",
+      "name": "VR Combat 1.0.1",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "58e450ff5581376036f75ddfb951929c6a3f1372c893fbba561b255de5422c7a4bd6f8afeaaf9bb5ae7e412f12ff566337488b4d246359fcc5f17273ec7dd84b",
+          "url": "https://cdn.modrinth.com/data/XpGUobxt/versions/SNVHmbYk/VR-Combat_v1.0.1_Fabric_1.20.1.jar",
+          "filename": "VR-Combat_v1.0.1_Fabric_1.20.1.jar",
+          "primary": true,
+          "size": 6909
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "XhLbU83w",
+      "name": "VR Combat 1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "62fe1468acbca7200f8826707671873ca00bf1db39e94aba57b9f6b6a6bd844cea47c47ea8f3ea82b3f2edad597983fee6ceea16ff20e5e210be4dc183321847",
+          "url": "https://cdn.modrinth.com/data/XpGUobxt/versions/XhLbU83w/VR-Combat_v1.0.0_Fabric_1.19.2.jar",
+          "filename": "VR-Combat_v1.0.0_Fabric_1.19.2.jar",
+          "primary": true,
+          "size": 5853
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "wGoQDPN5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5sy6g3kz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
     {
       "id": "mW4eHntZ",
       "name": "VR Combat 1.0.2",
@@ -29,49 +88,19 @@
           "primary": true,
           "size": 6895
         }
-      ]
-    },
-    {
-      "id": "SNVHmbYk",
-      "name": "VR Combat 1.0.1",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "1.20.1"
       ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "58e450ff5581376036f75ddfb951929c6a3f1372c893fbba561b255de5422c7a4bd6f8afeaaf9bb5ae7e412f12ff566337488b4d246359fcc5f17273ec7dd84b",
-          "url": "https://cdn.modrinth.com/data/XpGUobxt/versions/SNVHmbYk/VR-Combat_v1.0.1_Fabric_1.20.1.jar",
-          "filename": "VR-Combat_v1.0.1_Fabric_1.20.1.jar",
-          "primary": true,
-          "size": 6909
-        }
-      ]
-    },
-    {
-      "id": "XhLbU83w",
-      "name": "VR Combat 1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+          "project_id": "wGoQDPN5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
-          "sha512": "62fe1468acbca7200f8826707671873ca00bf1db39e94aba57b9f6b6a6bd844cea47c47ea8f3ea82b3f2edad597983fee6ceea16ff20e5e210be4dc183321847",
-          "url": "https://cdn.modrinth.com/data/XpGUobxt/versions/XhLbU83w/VR-Combat_v1.0.0_Fabric_1.19.2.jar",
-          "filename": "VR-Combat_v1.0.0_Fabric_1.19.2.jar",
-          "primary": true,
-          "size": 5853
+          "project_id": "5sy6g3kz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

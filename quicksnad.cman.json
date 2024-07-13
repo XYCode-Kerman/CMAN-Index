@@ -5,13 +5,11 @@
   "description": "Addon for Quicksand with strange growth powers!",
   "versions": [
     {
-      "id": "tFqkbpAO",
-      "name": "1.0.1 - 1.19.*",
-      "version_number": "1.0-1.19",
+      "id": "1gANncH0",
+      "name": "1.0 - 1.18.2",
+      "version_number": "1.0-1.18.2",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
+        "1.18.2"
       ],
       "loaders": [
         "fabric",
@@ -19,17 +17,17 @@
       ],
       "files": [
         {
-          "sha512": "c7733a10f28bc55dc04a9d3a71f6630eaea74bd38333b02ca4945640e9af7aa0608650292236c178f810f1ce862b3a4fe9f31cbe009515d1fc6c3280fae1e024",
-          "url": "https://cdn.modrinth.com/data/8LL35qTE/versions/1.0-1.19/quicksnad-1.0.1.jar",
-          "filename": "quicksnad-1.0.1.jar",
+          "sha512": "40de5b819a500953371318a7c98e97724252cceee4a4e528a8e119730f4203453135be4e94d22522001d7f308bb5afe4773cff973cd3252cf1cd865a5b3a6680",
+          "url": "https://cdn.modrinth.com/data/8LL35qTE/versions/1.0-1.18.2/quicksnad-1.0.jar",
+          "filename": "quicksnad-1.0.jar",
           "primary": true,
-          "size": 231334
+          "size": 231262
         }
       ],
       "dependencies": [
         {
           "project_id": "1HzX1nfB",
-          "version_id": "mx7gvdBb",
+          "version_id": "pu2MoCrE",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -65,35 +63,6 @@
       ]
     },
     {
-      "id": "1gANncH0",
-      "name": "1.0 - 1.18.2",
-      "version_number": "1.0-1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "40de5b819a500953371318a7c98e97724252cceee4a4e528a8e119730f4203453135be4e94d22522001d7f308bb5afe4773cff973cd3252cf1cd865a5b3a6680",
-          "url": "https://cdn.modrinth.com/data/8LL35qTE/versions/1.0-1.18.2/quicksnad-1.0.jar",
-          "filename": "quicksnad-1.0.jar",
-          "primary": true,
-          "size": 231262
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1HzX1nfB",
-          "version_id": "pu2MoCrE",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "ni9Ol4vh",
       "name": "1.0 - 1.19.*",
       "version_number": "1.0",
@@ -113,6 +82,37 @@
           "filename": "quicksnad-1.0.jar",
           "primary": true,
           "size": 231322
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1HzX1nfB",
+          "version_id": "mx7gvdBb",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "tFqkbpAO",
+      "name": "1.0.1 - 1.19.*",
+      "version_number": "1.0-1.19",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c7733a10f28bc55dc04a9d3a71f6630eaea74bd38333b02ca4945640e9af7aa0608650292236c178f810f1ce862b3a4fe9f31cbe009515d1fc6c3280fae1e024",
+          "url": "https://cdn.modrinth.com/data/8LL35qTE/versions/1.0-1.19/quicksnad-1.0.1.jar",
+          "filename": "quicksnad-1.0.1.jar",
+          "primary": true,
+          "size": 231334
         }
       ],
       "dependencies": [

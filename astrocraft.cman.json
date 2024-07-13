@@ -5,22 +5,24 @@
   "description": "Adds real life stars and planets",
   "versions": [
     {
-      "id": "zYFAAvLt",
-      "name": "Astrocraft 1.3.1+1.20.6",
-      "version_number": "1.3.1+1.20.6",
+      "id": "14c0UIa9",
+      "name": "Astrocraft 1.3.1beta3+1.20.1",
+      "version_number": "1.3.1+1.20.1",
       "game_versions": [
-        "1.20.6"
+        "1.20.1",
+        "1.20.2",
+        "1.20.3"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "a1e0b136b98e44d029b47ea4e93af3dec9786fda5ea7b18e2ebb9c8bfb27402f3f5d8620f5b1105de6fb91b165a737a5c859e878ab535ae3acae745ac3ab2f48",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/zYFAAvLt/astrocraft-1.3.1%2B1.20.6.jar",
-          "filename": "astrocraft-1.3.1+1.20.6.jar",
+          "sha512": "66ab28918c60bf967af851a5cd7782297133e12d5ff1366b337143843001d50aa9f8ad342f7e0e9f07d0e45197f3efb5d1c012cff16b4dfc5e6ef60e5c9448f6",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/14c0UIa9/astrocraft-1.3.1%2B1.20.1.jar",
+          "filename": "astrocraft-1.3.1+1.20.1.jar",
           "primary": true,
-          "size": 4652501
+          "size": 4654372
         }
       ],
       "dependencies": [
@@ -41,6 +43,88 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "17CU2GJ1",
+      "name": "Astrocraft 1.1.3+1.20.1",
+      "version_number": "1.1.3+1.20.1",
+      "game_versions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8d940b5a32011ad51a76d54ab3b51489dd8d94b4835e44d6f095b6a4cf749b97117b1a64bd80c2635d9d01f5562fd74c4a5e2ae5b1ece7fc0b9dba3ffdbd1199",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/17CU2GJ1/astrocraft-1.1.3%2B1.20.1.jar",
+          "filename": "astrocraft-1.1.3+1.20.1.jar",
+          "primary": true,
+          "size": 1835259
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "2ODxxqg0",
+      "name": "Astrocraft 1.3.1beta+1.21",
+      "version_number": "1.3.1beta+1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8d76f037e5844c5010b60c8134d0114bd449692e4d8a2bac0696929cd5e8d48556a4d8601c5adaa233c1995fe6df474306c1f65661f4cd8d8d0426b843b6d957",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/2ODxxqg0/astrocraft-1.3.1beta%2B1.21.jar",
+          "filename": "astrocraft-1.3.1beta+1.21.jar",
+          "primary": true,
+          "size": 4651928
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -125,51 +209,9 @@
       ]
     },
     {
-      "id": "olPlMDcO",
-      "name": "Astrocraft 1.3.1+1.20.1",
-      "version_number": "1.3.1+1.20.1",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2",
-        "1.20.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "bcca6099c6c2e238af76013176a92cf7df62802244a46c92e484d97eddc20e9e72bdb74f3fa2fe53dd1e1b3ff4621034e6ab7c4b79a12cbdaa8bf862a558a6de",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/olPlMDcO/astrocraft-1.3.1%2B1.20.1.jar",
-          "filename": "astrocraft-1.3.1+1.20.1.jar",
-          "primary": true,
-          "size": 4654372
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "wnEMZL1C",
-      "name": "Astrocraft 1.3.1+1.21",
-      "version_number": "1.3.1+1.21",
+      "id": "6gUTi2rg",
+      "name": "Astrocraft 1.3.1beta2+1.21",
+      "version_number": "1.3.1beta2+1.21",
       "game_versions": [
         "1.21"
       ],
@@ -178,22 +220,16 @@
       ],
       "files": [
         {
-          "sha512": "e2ffe22d2f9b98c19de09abf247bdad407a7d946bc112060085c369f6960a1991d0f5f4d2a802a5359b0607e98bf8c66e555edbc6fb5b39c801c716aae63e36b",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/wnEMZL1C/astrocraft-1.3.1%2B1.21.jar",
+          "sha512": "dcd744bc6f3ab24bfce7b97a1fed10f750d4b78d3e3a3b999b2a23f4fa854190b0fceecdb28105d1954819c35dc807670f900279e254923ef3114513a50362ee",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/6gUTi2rg/astrocraft-1.3.1%2B1.21.jar",
           "filename": "astrocraft-1.3.1+1.21.jar",
           "primary": true,
-          "size": 4652312
+          "size": 4652211
         }
       ],
       "dependencies": [
         {
           "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -203,39 +239,43 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "14c0UIa9",
-      "name": "Astrocraft 1.3.1beta3+1.20.1",
-      "version_number": "1.3.1+1.20.1",
+      "id": "B5ywpvl7",
+      "name": "Astrocraft 1.3.1beta+1.20.5",
+      "version_number": "1.3.1beta+1.20.5",
       "game_versions": [
-        "1.20.1",
-        "1.20.2",
-        "1.20.3"
+        "1.20.5"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "66ab28918c60bf967af851a5cd7782297133e12d5ff1366b337143843001d50aa9f8ad342f7e0e9f07d0e45197f3efb5d1c012cff16b4dfc5e6ef60e5c9448f6",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/14c0UIa9/astrocraft-1.3.1%2B1.20.1.jar",
-          "filename": "astrocraft-1.3.1+1.20.1.jar",
+          "sha512": "b284f861bc7fb576170006b9cd0d8062d8d6740ef35ab7662f8c8114cbb34f158f1f2d1c6f1acc65bead845f7bea3132f24e031b17aeda39e93a1de737a3a33f",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/B5ywpvl7/astrocraft-1.3.1beta%2B1.20.5.jar",
+          "filename": "astrocraft-1.3.1beta+1.20.5.jar",
           "primary": true,
-          "size": 4654372
+          "size": 4651049
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "9s6osm5g",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -289,326 +329,6 @@
       ]
     },
     {
-      "id": "kap7Dou1",
-      "name": "Astrocraft 1.3.1beta3+1.20.5",
-      "version_number": "1.3.1+1.20.5",
-      "game_versions": [
-        "1.20.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d771573d3732e434e631b33b7ca06c0d73e05a40d8de34a1ba8c72040907c65dbc44a6a2f3f92f562877bffe6d8ff857a50281c522c32a490565ee3182db60fe",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/kap7Dou1/astrocraft-1.3.1%2B1.20.5.jar",
-          "filename": "astrocraft-1.3.1+1.20.5.jar",
-          "primary": true,
-          "size": 4652498
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "O73cn1uq",
-      "name": "Astrocraft 1.3.1beta3+1.20.6",
-      "version_number": "1.3.1+1.20.6",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c4dba2d122fe1237a1310fe4ec8866bc38b8778aa235a3e937f0a7ad3fad68670828c706581d65ade2f74c5f88ab5eb89b8d594818e1d1add60af65a65beb7a5",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/O73cn1uq/astrocraft-1.3.1%2B1.20.6.jar",
-          "filename": "astrocraft-1.3.1+1.20.6.jar",
-          "primary": true,
-          "size": 4652498
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "guPqxDCy",
-      "name": "Astrocraft 1.3.1beta3+1.21",
-      "version_number": "1.3.1beta3+1.21",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "7a8f5854e5657f6778118a834bae6d0ded8570f8a70b95bf7a04f063ae1ab880bf6447361250173da2896c1b3e3cb794c389a478957cddf25997d35095f3c345",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/guPqxDCy/astrocraft-1.3.1%2B1.21.jar",
-          "filename": "astrocraft-1.3.1+1.21.jar",
-          "primary": true,
-          "size": 4652307
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "6gUTi2rg",
-      "name": "Astrocraft 1.3.1beta2+1.21",
-      "version_number": "1.3.1beta2+1.21",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "dcd744bc6f3ab24bfce7b97a1fed10f750d4b78d3e3a3b999b2a23f4fa854190b0fceecdb28105d1954819c35dc807670f900279e254923ef3114513a50362ee",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/6gUTi2rg/astrocraft-1.3.1%2B1.21.jar",
-          "filename": "astrocraft-1.3.1+1.21.jar",
-          "primary": true,
-          "size": 4652211
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "2ODxxqg0",
-      "name": "Astrocraft 1.3.1beta+1.21",
-      "version_number": "1.3.1beta+1.21",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8d76f037e5844c5010b60c8134d0114bd449692e4d8a2bac0696929cd5e8d48556a4d8601c5adaa233c1995fe6df474306c1f65661f4cd8d8d0426b843b6d957",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/2ODxxqg0/astrocraft-1.3.1beta%2B1.21.jar",
-          "filename": "astrocraft-1.3.1beta+1.21.jar",
-          "primary": true,
-          "size": 4651928
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "jCrTQQM1",
-      "name": "Astrocraft 1.3.1beta+1.20.6",
-      "version_number": "1.3.1beta+1.20.6",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "3baeb826c9068874a94efc6b799e64faef696d9387e0627130da72083a4c26b44b785fdc45319a675d5e2a7cc855549843f795e7d54ff7455805d92d76b4dd44",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/jCrTQQM1/astrocraft-1.3.1beta%2B1.20.6.jar",
-          "filename": "astrocraft-1.3.1beta+1.20.6.jar",
-          "primary": true,
-          "size": 4651049
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "B5ywpvl7",
-      "name": "Astrocraft 1.3.1beta+1.20.5",
-      "version_number": "1.3.1beta+1.20.5",
-      "game_versions": [
-        "1.20.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b284f861bc7fb576170006b9cd0d8062d8d6740ef35ab7662f8c8114cbb34f158f1f2d1c6f1acc65bead845f7bea3132f24e031b17aeda39e93a1de737a3a33f",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/B5ywpvl7/astrocraft-1.3.1beta%2B1.20.5.jar",
-          "filename": "astrocraft-1.3.1beta+1.20.5.jar",
-          "primary": true,
-          "size": 4651049
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "uLZVeG1G",
-      "name": "Astrocraft 1.3.1beta+1.20.4",
-      "version_number": "1.3.1beta+1.20.4",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "41aac1e138c20105c9ef77ed27699bc68d44cf787504b8ad0babbceeec2171f6ae21175f656d3b26da62f92e2eaebe9f23062f35c50f3ee492de712dd1551f21",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/uLZVeG1G/astrocraft-1.3.1beta%2B1.20.4.jar",
-          "filename": "astrocraft-1.3.1beta+1.20.4.jar",
-          "primary": true,
-          "size": 4652896
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "EtlGy7Br",
       "name": "Astrocraft 1.3.1beta+1.20.1",
       "version_number": "1.3.1beta+1.20.1",
@@ -651,49 +371,9 @@
       ]
     },
     {
-      "id": "reg1YOAC",
-      "name": "Astrocraft 1.3.0+1.20.4",
-      "version_number": "1.3.0+1.20.4",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "1a7c8ea58238ac060482d6be6acc0dcb3aee0b91810605738a0b55226e6977c75b09b7f7ba492a6ecad2b077651e8bed8eb6c4280fabbc53d0e4ed4b02223b62",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/reg1YOAC/astrocraft-1.3.0%2B1.20.4.jar",
-          "filename": "astrocraft-1.3.0+1.20.4.jar",
-          "primary": true,
-          "size": 4644052
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "oTBe0dbl",
-      "name": "Astrocraft 1.3.0+1.20.1",
-      "version_number": "1.3.0+1.20.1",
+      "id": "GFpHVd4e",
+      "name": "Astrocraft 1.2.0beta+1.20.1",
+      "version_number": "1.2.0+1.20.1",
       "game_versions": [
         "1.20.1",
         "1.20.2",
@@ -704,38 +384,19 @@
       ],
       "files": [
         {
-          "sha512": "600909867ec52cdc00f3dc277ee4576c8f59a51de9af46fcd5faaed190d8e3c0d2845496e36a622ac3a4e68770fbcc3ad8e356d12fe652925fc21df4cf1281b6",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/oTBe0dbl/astrocraft-1.3.0%2B1.20.1.jar",
-          "filename": "astrocraft-1.3.0+1.20.1.jar",
+          "sha512": "64edb6e4f9186c8e493c6f86848ab954c212e196ec035e672d88c3eff3696504ca42d6c6c6969d0cb52400f72cb94c0cfb39fe46bc3188ac613c071c334f68f8",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/GFpHVd4e/astrocraft-1.2.0%2B1.20.1.jar",
+          "filename": "astrocraft-1.2.0+1.20.1.jar",
           "primary": true,
-          "size": 4644053
+          "size": 4589351
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
+      "dependencies": []
     },
     {
-      "id": "vuIZg4vo",
-      "name": "Astrocraft 1.2.4+1.20.4",
-      "version_number": "1.2.4+1.20.4",
+      "id": "KGuB6CcS",
+      "name": "Astrocraft 1.2.0+1.20.4",
+      "version_number": "1.2.0+1.20.4",
       "game_versions": [
         "1.20.4"
       ],
@@ -744,19 +405,19 @@
       ],
       "files": [
         {
-          "sha512": "8453b0a7b3dfe13cacba284e765db91dbf47d0d560c78ce8a519f241837e788188c1b55d4a83cd812d02e6dc32a65ed5eb1aace134da0b5646a7736105a0d0f4",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/vuIZg4vo/astrocraft-1.2.4%2B1.20.4.jar",
-          "filename": "astrocraft-1.2.4+1.20.4.jar",
+          "sha512": "9428957ae563ed9486d75ff71d0f0f59effa083fff80ee386a4c3f4bfef56984838cb134e767055396336a7920decbdd4b7c3479d60a33355be1dad7a05fdac7",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/KGuB6CcS/astrocraft-1.2.0%2B1.20.4.jar",
+          "filename": "astrocraft-1.2.0+1.20.4.jar",
           "primary": true,
-          "size": 4622998
+          "size": 4611138
         }
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
@@ -765,17 +426,17 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
+          "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "PdG6r4Mw",
-      "name": "Astrocraft 1.2.4+1.20.1",
-      "version_number": "1.2.4+1.20.1",
+      "id": "LebURE77",
+      "name": "Astrocraft 1.1.2+1.20.1",
+      "version_number": "1.1.2+1.20.1",
       "game_versions": [
         "1.20.1",
         "1.20.2",
@@ -786,22 +447,22 @@
       ],
       "files": [
         {
-          "sha512": "733a27c587ed93f8735498cd55fcc24b4114cdecd3b3dde65538ffea5a953b5415a9be964235027ec94a3d3d1d6b59ff7747f6172986db853afc9aa66dea7eed",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/PdG6r4Mw/astrocraft-1.2.4%2B1.20.1.jar",
-          "filename": "astrocraft-1.2.4+1.20.1.jar",
+          "sha512": "7f131f6e6a5ac021e2e44b412ab0dcebd9d3a00ca00e44dea21fb4a92e93544fa96ad3a8e87367ca5d0d81db8a758d4c7365ec8e9d1f517b776b50fc57536990",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/LebURE77/astrocraft-1.1.2%2B1.20.1.jar",
+          "filename": "astrocraft-1.1.2+1.20.1.jar",
           "primary": true,
-          "size": 4622999
+          "size": 1835232
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "9s6osm5g",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -855,6 +516,46 @@
       ]
     },
     {
+      "id": "O73cn1uq",
+      "name": "Astrocraft 1.3.1beta3+1.20.6",
+      "version_number": "1.3.1+1.20.6",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c4dba2d122fe1237a1310fe4ec8866bc38b8778aa235a3e937f0a7ad3fad68670828c706581d65ade2f74c5f88ab5eb89b8d594818e1d1add60af65a65beb7a5",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/O73cn1uq/astrocraft-1.3.1%2B1.20.6.jar",
+          "filename": "astrocraft-1.3.1+1.20.6.jar",
+          "primary": true,
+          "size": 4652498
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "OQRCunbZ",
       "name": "Astrocraft 1.2.3+1.20.1",
       "version_number": "1.2.3+1.20.1",
@@ -897,22 +598,24 @@
       ]
     },
     {
-      "id": "pE5XKOvY",
-      "name": "Astrocraft 1.2.2+1.20.4",
-      "version_number": "1.2.2+1.20.4",
+      "id": "PdG6r4Mw",
+      "name": "Astrocraft 1.2.4+1.20.1",
+      "version_number": "1.2.4+1.20.1",
       "game_versions": [
-        "1.20.4"
+        "1.20.1",
+        "1.20.2",
+        "1.20.3"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "4a9fa78be90e388cd715f048ec28b777555b2ff9502a6b87d1c216dcfd32a7f38bb423788d3ec5422dbc5e43ac9f2144f246a3cfd00bb706dab02eb24a99e1d3",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/pE5XKOvY/astrocraft-1.2.2%2B1.20.4.jar",
-          "filename": "astrocraft-1.2.2+1.20.4.jar",
+          "sha512": "733a27c587ed93f8735498cd55fcc24b4114cdecd3b3dde65538ffea5a953b5415a9be964235027ec94a3d3d1d6b59ff7747f6172986db853afc9aa66dea7eed",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/PdG6r4Mw/astrocraft-1.2.4%2B1.20.1.jar",
+          "filename": "astrocraft-1.2.4+1.20.1.jar",
           "primary": true,
-          "size": 4619010
+          "size": 4622999
         }
       ],
       "dependencies": [
@@ -979,9 +682,131 @@
       ]
     },
     {
-      "id": "yBHC5mKN",
-      "name": "Astrocraft 1.2.1+1.20.4",
-      "version_number": "1.2.1+1.20.4",
+      "id": "d20BSC16",
+      "name": "Astrocraft 1.2.0+1.20.1",
+      "version_number": "1.2.0+1.20.1",
+      "game_versions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4e894246b2f7096736694dc58f6a38a5ce6f2c16031128b84e06f38773861539cf8f38510223e584a7d4e2b5634b2edfc8ed330d56307b47c2336775767d0f80",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/d20BSC16/astrocraft-1.2.0%2B1.20.1.jar",
+          "filename": "astrocraft-1.2.0+1.20.1.jar",
+          "primary": true,
+          "size": 4611139
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "guPqxDCy",
+      "name": "Astrocraft 1.3.1beta3+1.21",
+      "version_number": "1.3.1beta3+1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "7a8f5854e5657f6778118a834bae6d0ded8570f8a70b95bf7a04f063ae1ab880bf6447361250173da2896c1b3e3cb794c389a478957cddf25997d35095f3c345",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/guPqxDCy/astrocraft-1.3.1%2B1.21.jar",
+          "filename": "astrocraft-1.3.1+1.21.jar",
+          "primary": true,
+          "size": 4652307
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "jCrTQQM1",
+      "name": "Astrocraft 1.3.1beta+1.20.6",
+      "version_number": "1.3.1beta+1.20.6",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "3baeb826c9068874a94efc6b799e64faef696d9387e0627130da72083a4c26b44b785fdc45319a675d5e2a7cc855549843f795e7d54ff7455805d92d76b4dd44",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/jCrTQQM1/astrocraft-1.3.1beta%2B1.20.6.jar",
+          "filename": "astrocraft-1.3.1beta+1.20.6.jar",
+          "primary": true,
+          "size": 4651049
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "k8ecYVul",
+      "name": "Astrocraft 1.1.2+1.20.4",
+      "version_number": "1.1.2+1.20.4",
       "game_versions": [
         "1.20.4"
       ],
@@ -990,11 +815,215 @@
       ],
       "files": [
         {
-          "sha512": "9651dc83f3c3a92f691d5c93089b686a720bcf2956a97158c10a5c7906e60c72a2e070cb8caac99bcdbb1fb93824b64fbaf0177b65dd106c0e354c6b0200d4ef",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/yBHC5mKN/astrocraft-1.2.1%2B1.20.4.jar",
-          "filename": "astrocraft-1.2.1+1.20.4.jar",
+          "sha512": "8bafadb50aa89bb2058ff342fed92c94489939afe7ca13895333ca06f840539c8de40fd3c406c57022a03a1ffa377881f0cc676f7a5366fb1a8562a5c8e85b4e",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/k8ecYVul/astrocraft-1.1.2%2B1.20.4.jar",
+          "filename": "astrocraft-1.1.2+1.20.4.jar",
           "primary": true,
-          "size": 4614647
+          "size": 1834707
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "kap7Dou1",
+      "name": "Astrocraft 1.3.1beta3+1.20.5",
+      "version_number": "1.3.1+1.20.5",
+      "game_versions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d771573d3732e434e631b33b7ca06c0d73e05a40d8de34a1ba8c72040907c65dbc44a6a2f3f92f562877bffe6d8ff857a50281c522c32a490565ee3182db60fe",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/kap7Dou1/astrocraft-1.3.1%2B1.20.5.jar",
+          "filename": "astrocraft-1.3.1+1.20.5.jar",
+          "primary": true,
+          "size": 4652498
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "oTBe0dbl",
+      "name": "Astrocraft 1.3.0+1.20.1",
+      "version_number": "1.3.0+1.20.1",
+      "game_versions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "600909867ec52cdc00f3dc277ee4576c8f59a51de9af46fcd5faaed190d8e3c0d2845496e36a622ac3a4e68770fbcc3ad8e356d12fe652925fc21df4cf1281b6",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/oTBe0dbl/astrocraft-1.3.0%2B1.20.1.jar",
+          "filename": "astrocraft-1.3.0+1.20.1.jar",
+          "primary": true,
+          "size": 4644053
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "olPlMDcO",
+      "name": "Astrocraft 1.3.1+1.20.1",
+      "version_number": "1.3.1+1.20.1",
+      "game_versions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "bcca6099c6c2e238af76013176a92cf7df62802244a46c92e484d97eddc20e9e72bdb74f3fa2fe53dd1e1b3ff4621034e6ab7c4b79a12cbdaa8bf862a558a6de",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/olPlMDcO/astrocraft-1.3.1%2B1.20.1.jar",
+          "filename": "astrocraft-1.3.1+1.20.1.jar",
+          "primary": true,
+          "size": 4654372
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "p24ycjw3",
+      "name": "Astrocraft 1.1.3+1.20.4",
+      "version_number": "1.1.3+1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d06b050b1d76c95f7313f0e122896cde447d4e2e394815e56c056f4c3a9dbf1b4408f0d2c7e4462c21297aa4ccbd59690dae436cbaa04d7fbd821fe7dc161552",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/p24ycjw3/astrocraft-1.1.3%2B1.20.4.jar",
+          "filename": "astrocraft-1.1.3+1.20.4.jar",
+          "primary": true,
+          "size": 1835258
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "pE5XKOvY",
+      "name": "Astrocraft 1.2.2+1.20.4",
+      "version_number": "1.2.2+1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4a9fa78be90e388cd715f048ec28b777555b2ff9502a6b87d1c216dcfd32a7f38bb423788d3ec5422dbc5e43ac9f2144f246a3cfd00bb706dab02eb24a99e1d3",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/pE5XKOvY/astrocraft-1.2.2%2B1.20.4.jar",
+          "filename": "astrocraft-1.2.2+1.20.4.jar",
+          "primary": true,
+          "size": 4619010
         }
       ],
       "dependencies": [
@@ -1006,6 +1035,46 @@
         },
         {
           "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "reg1YOAC",
+      "name": "Astrocraft 1.3.0+1.20.4",
+      "version_number": "1.3.0+1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1a7c8ea58238ac060482d6be6acc0dcb3aee0b91810605738a0b55226e6977c75b09b7f7ba492a6ecad2b077651e8bed8eb6c4280fabbc53d0e4ed4b02223b62",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/reg1YOAC/astrocraft-1.3.0%2B1.20.4.jar",
+          "filename": "astrocraft-1.3.0+1.20.4.jar",
+          "primary": true,
+          "size": 4644052
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -1061,9 +1130,9 @@
       ]
     },
     {
-      "id": "KGuB6CcS",
-      "name": "Astrocraft 1.2.0+1.20.4",
-      "version_number": "1.2.0+1.20.4",
+      "id": "uLZVeG1G",
+      "name": "Astrocraft 1.3.1beta+1.20.4",
+      "version_number": "1.3.1beta+1.20.4",
       "game_versions": [
         "1.20.4"
       ],
@@ -1072,62 +1141,14 @@
       ],
       "files": [
         {
-          "sha512": "9428957ae563ed9486d75ff71d0f0f59effa083fff80ee386a4c3f4bfef56984838cb134e767055396336a7920decbdd4b7c3479d60a33355be1dad7a05fdac7",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/KGuB6CcS/astrocraft-1.2.0%2B1.20.4.jar",
-          "filename": "astrocraft-1.2.0+1.20.4.jar",
+          "sha512": "41aac1e138c20105c9ef77ed27699bc68d44cf787504b8ad0babbceeec2171f6ae21175f656d3b26da62f92e2eaebe9f23062f35c50f3ee492de712dd1551f21",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/uLZVeG1G/astrocraft-1.3.1beta%2B1.20.4.jar",
+          "filename": "astrocraft-1.3.1beta+1.20.4.jar",
           "primary": true,
-          "size": 4611138
+          "size": 4652896
         }
       ],
       "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "d20BSC16",
-      "name": "Astrocraft 1.2.0+1.20.1",
-      "version_number": "1.2.0+1.20.1",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2",
-        "1.20.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4e894246b2f7096736694dc58f6a38a5ce6f2c16031128b84e06f38773861539cf8f38510223e584a7d4e2b5634b2edfc8ed330d56307b47c2336775767d0f80",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/d20BSC16/astrocraft-1.2.0%2B1.20.1.jar",
-          "filename": "astrocraft-1.2.0+1.20.1.jar",
-          "primary": true,
-          "size": 4611139
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
@@ -1139,36 +1160,19 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "GFpHVd4e",
-      "name": "Astrocraft 1.2.0beta+1.20.1",
-      "version_number": "1.2.0+1.20.1",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2",
-        "1.20.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "64edb6e4f9186c8e493c6f86848ab954c212e196ec035e672d88c3eff3696504ca42d6c6c6969d0cb52400f72cb94c0cfb39fe46bc3188ac613c071c334f68f8",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/GFpHVd4e/astrocraft-1.2.0%2B1.20.1.jar",
-          "filename": "astrocraft-1.2.0+1.20.1.jar",
-          "primary": true,
-          "size": 4589351
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "p24ycjw3",
-      "name": "Astrocraft 1.1.3+1.20.4",
-      "version_number": "1.1.3+1.20.4",
+      "id": "vuIZg4vo",
+      "name": "Astrocraft 1.2.4+1.20.4",
+      "version_number": "1.2.4+1.20.4",
       "game_versions": [
         "1.20.4"
       ],
@@ -1177,22 +1181,22 @@
       ],
       "files": [
         {
-          "sha512": "d06b050b1d76c95f7313f0e122896cde447d4e2e394815e56c056f4c3a9dbf1b4408f0d2c7e4462c21297aa4ccbd59690dae436cbaa04d7fbd821fe7dc161552",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/p24ycjw3/astrocraft-1.1.3%2B1.20.4.jar",
-          "filename": "astrocraft-1.1.3+1.20.4.jar",
+          "sha512": "8453b0a7b3dfe13cacba284e765db91dbf47d0d560c78ce8a519f241837e788188c1b55d4a83cd812d02e6dc32a65ed5eb1aace134da0b5646a7736105a0d0f4",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/vuIZg4vo/astrocraft-1.2.4%2B1.20.4.jar",
+          "filename": "astrocraft-1.2.4+1.20.4.jar",
           "primary": true,
-          "size": 1835258
+          "size": 4622998
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "9s6osm5g",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -1206,32 +1210,30 @@
       ]
     },
     {
-      "id": "17CU2GJ1",
-      "name": "Astrocraft 1.1.3+1.20.1",
-      "version_number": "1.1.3+1.20.1",
+      "id": "wnEMZL1C",
+      "name": "Astrocraft 1.3.1+1.21",
+      "version_number": "1.3.1+1.21",
       "game_versions": [
-        "1.20.1",
-        "1.20.2",
-        "1.20.3"
+        "1.21"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "8d940b5a32011ad51a76d54ab3b51489dd8d94b4835e44d6f095b6a4cf749b97117b1a64bd80c2635d9d01f5562fd74c4a5e2ae5b1ece7fc0b9dba3ffdbd1199",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/17CU2GJ1/astrocraft-1.1.3%2B1.20.1.jar",
-          "filename": "astrocraft-1.1.3+1.20.1.jar",
+          "sha512": "e2ffe22d2f9b98c19de09abf247bdad407a7d946bc112060085c369f6960a1991d0f5f4d2a802a5359b0607e98bf8c66e555edbc6fb5b39c801c716aae63e36b",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/wnEMZL1C/astrocraft-1.3.1%2B1.21.jar",
+          "filename": "astrocraft-1.3.1+1.21.jar",
           "primary": true,
-          "size": 1835259
+          "size": 4652312
         }
       ],
       "dependencies": [
         {
-          "project_id": "mOgUt4GM",
+          "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         },
         {
           "project_id": "P7dR8mSH",
@@ -1240,17 +1242,17 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "9s6osm5g",
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "k8ecYVul",
-      "name": "Astrocraft 1.1.2+1.20.4",
-      "version_number": "1.1.2+1.20.4",
+      "id": "yBHC5mKN",
+      "name": "Astrocraft 1.2.1+1.20.4",
+      "version_number": "1.2.1+1.20.4",
       "game_versions": [
         "1.20.4"
       ],
@@ -1259,19 +1261,19 @@
       ],
       "files": [
         {
-          "sha512": "8bafadb50aa89bb2058ff342fed92c94489939afe7ca13895333ca06f840539c8de40fd3c406c57022a03a1ffa377881f0cc676f7a5366fb1a8562a5c8e85b4e",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/k8ecYVul/astrocraft-1.1.2%2B1.20.4.jar",
-          "filename": "astrocraft-1.1.2+1.20.4.jar",
+          "sha512": "9651dc83f3c3a92f691d5c93089b686a720bcf2956a97158c10a5c7906e60c72a2e070cb8caac99bcdbb1fb93824b64fbaf0177b65dd106c0e354c6b0200d4ef",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/yBHC5mKN/astrocraft-1.2.1%2B1.20.4.jar",
+          "filename": "astrocraft-1.2.1+1.20.4.jar",
           "primary": true,
-          "size": 1834707
+          "size": 4614647
         }
       ],
       "dependencies": [
         {
-          "project_id": "mOgUt4GM",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         },
         {
           "project_id": "9s6osm5g",
@@ -1280,43 +1282,41 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "LebURE77",
-      "name": "Astrocraft 1.1.2+1.20.1",
-      "version_number": "1.1.2+1.20.1",
+      "id": "zYFAAvLt",
+      "name": "Astrocraft 1.3.1+1.20.6",
+      "version_number": "1.3.1+1.20.6",
       "game_versions": [
-        "1.20.1",
-        "1.20.2",
-        "1.20.3"
+        "1.20.6"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "7f131f6e6a5ac021e2e44b412ab0dcebd9d3a00ca00e44dea21fb4a92e93544fa96ad3a8e87367ca5d0d81db8a758d4c7365ec8e9d1f517b776b50fc57536990",
-          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/LebURE77/astrocraft-1.1.2%2B1.20.1.jar",
-          "filename": "astrocraft-1.1.2+1.20.1.jar",
+          "sha512": "a1e0b136b98e44d029b47ea4e93af3dec9786fda5ea7b18e2ebb9c8bfb27402f3f5d8620f5b1105de6fb91b165a737a5c859e878ab535ae3acae745ac3ab2f48",
+          "url": "https://cdn.modrinth.com/data/DCWEXia7/versions/zYFAAvLt/astrocraft-1.3.1%2B1.20.6.jar",
+          "filename": "astrocraft-1.3.1+1.20.6.jar",
           "primary": true,
-          "size": 1835232
+          "size": 4652501
         }
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"

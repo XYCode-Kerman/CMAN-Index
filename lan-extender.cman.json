@@ -5,6 +5,48 @@
   "description": "Turn your Minecraft LAN worlds into fully-fledged servers, for free.",
   "versions": [
     {
+      "id": "9Q2aYhm4",
+      "name": "v0.2.0 for Minecraft 1.18.x",
+      "version_number": "0.2.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c02c6036e82cdf6e5e6f46a539edc7f02a517f6a00006db10b19e4e9a478575d14f0e2ac95af392657aa9b4680c62cba5c336c4f0014a0f7d3ddc69639ff935d",
+          "url": "https://cdn.modrinth.com/data/bvX7CV7s/versions/9Q2aYhm4/lan-extender-fabric-mc1.18-0.2.0.jar",
+          "filename": "lan-extender-fabric-mc1.18-0.2.0.jar",
+          "primary": true,
+          "size": 600516
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "EBdYn7cM",
       "name": "v1.1.0 for Minecraft 1.19.x",
       "version_number": "1.1.0",
@@ -27,20 +69,103 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "gSoPJyVn",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "9s6osm5g",
           "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "LrBdX8qN",
+      "name": "v1.0.0 for Minecraft 1.18.x",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8071b76d9fc752535f6507f745cfb1c7c968b30eaaeba8bd309b6a01a7f3561337255a27042c17e6037c1526743a8dda67681e557a49c0ba410a55e835939be2",
+          "url": "https://cdn.modrinth.com/data/bvX7CV7s/versions/LrBdX8qN/lan-extender-fabric-mc1.18-1.0.0.jar",
+          "filename": "lan-extender-fabric-mc1.18-1.0.0.jar",
+          "primary": true,
+          "size": 603361
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "d86kV6wd",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "yQIU5REa",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "bPbIjQPr",
+      "name": "v0.2.0 for Minecraft 1.17.x",
+      "version_number": "0.2.0",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "753e63ffd352c0d6f03ecf6863a83f0622bce1565fe93f366ce8c6a2a4dd021f2fe6c1da42376a01a41fcb584885bd60dfcc16e93182323d23cd18870d607033",
+          "url": "https://cdn.modrinth.com/data/bvX7CV7s/versions/bPbIjQPr/lan-extender-fabric-mc1.17-0.2.0.jar",
+          "filename": "lan-extender-fabric-mc1.17-0.2.0.jar",
+          "primary": true,
+          "size": 600513
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "31ES0yWr",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "7kh2ofyR",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "gb0cZ2Qp",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -89,47 +214,6 @@
       ]
     },
     {
-      "id": "nf0kLzJy",
-      "name": "v1.1.0 for Minecraft 1.17.x",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "7d0a77c04b43cefa9b8ebe8194db8fcc9e332cd5154b1b91e9aeecda8ebac15d94f8741f2dee67904c072c66092cdf9aa7a4aa34ce52805e72432bd4525601f3",
-          "url": "https://cdn.modrinth.com/data/bvX7CV7s/versions/nf0kLzJy/lan-extender-fabric-mc1.17-1.1.0.jar",
-          "filename": "lan-extender-fabric-mc1.17-1.1.0.jar",
-          "primary": true,
-          "size": 604763
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "7kh2ofyR",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "ghSnwfRn",
       "name": "v1.0.0 for Minecraft 1.19.x",
       "version_number": "1.0.0",
@@ -152,12 +236,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": "8rIblgME",
           "file_name": null,
@@ -168,48 +246,53 @@
           "version_id": "NAs8eiQa",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "LrBdX8qN",
-      "name": "v1.0.0 for Minecraft 1.18.x",
-      "version_number": "1.0.0",
+      "id": "nf0kLzJy",
+      "name": "v1.1.0 for Minecraft 1.17.x",
+      "version_number": "1.1.0",
       "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
+        "1.17",
+        "1.17.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "8071b76d9fc752535f6507f745cfb1c7c968b30eaaeba8bd309b6a01a7f3561337255a27042c17e6037c1526743a8dda67681e557a49c0ba410a55e835939be2",
-          "url": "https://cdn.modrinth.com/data/bvX7CV7s/versions/LrBdX8qN/lan-extender-fabric-mc1.18-1.0.0.jar",
-          "filename": "lan-extender-fabric-mc1.18-1.0.0.jar",
+          "sha512": "7d0a77c04b43cefa9b8ebe8194db8fcc9e332cd5154b1b91e9aeecda8ebac15d94f8741f2dee67904c072c66092cdf9aa7a4aa34ce52805e72432bd4525601f3",
+          "url": "https://cdn.modrinth.com/data/bvX7CV7s/versions/nf0kLzJy/lan-extender-fabric-mc1.17-1.1.0.jar",
+          "filename": "lan-extender-fabric-mc1.17-1.1.0.jar",
           "primary": true,
-          "size": 603361
+          "size": 604763
         }
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
+          "project_id": "mOgUt4GM",
+          "version_id": "7kh2ofyR",
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": "yQIU5REa",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": "d86kV6wd",
+          "project_id": "9s6osm5g",
+          "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
     },
@@ -235,12 +318,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "gb0cZ2Qp",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": "31ES0yWr",
           "file_name": null,
@@ -251,87 +328,10 @@
           "version_id": "Gbkn1raO",
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "bPbIjQPr",
-      "name": "v0.2.0 for Minecraft 1.17.x",
-      "version_number": "0.2.0",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "753e63ffd352c0d6f03ecf6863a83f0622bce1565fe93f366ce8c6a2a4dd021f2fe6c1da42376a01a41fcb584885bd60dfcc16e93182323d23cd18870d607033",
-          "url": "https://cdn.modrinth.com/data/bvX7CV7s/versions/bPbIjQPr/lan-extender-fabric-mc1.17-0.2.0.jar",
-          "filename": "lan-extender-fabric-mc1.17-0.2.0.jar",
-          "primary": true,
-          "size": 600513
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "31ES0yWr",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "7kh2ofyR",
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "9s6osm5g",
           "version_id": "gb0cZ2Qp",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "9Q2aYhm4",
-      "name": "v0.2.0 for Minecraft 1.18.x",
-      "version_number": "0.2.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c02c6036e82cdf6e5e6f46a539edc7f02a517f6a00006db10b19e4e9a478575d14f0e2ac95af392657aa9b4680c62cba5c336c4f0014a0f7d3ddc69639ff935d",
-          "url": "https://cdn.modrinth.com/data/bvX7CV7s/versions/9Q2aYhm4/lan-extender-fabric-mc1.18-0.2.0.jar",
-          "filename": "lan-extender-fabric-mc1.18-0.2.0.jar",
-          "primary": true,
-          "size": 600516
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "nVxObSbX",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -360,12 +360,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "8TOgNwQL",
           "file_name": null,
@@ -374,6 +368,12 @@
         {
           "project_id": "P7dR8mSH",
           "version_id": "RAzwgZkP",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
           "file_name": null,
           "dependency_type": "required"
         }

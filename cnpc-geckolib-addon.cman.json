@@ -5,9 +5,43 @@
   "description": "An addon for Custom NPC and Geckolib3 that allows the use of geckolib models for your NPC",
   "versions": [
     {
-      "id": "txK26zBm",
-      "name": "CNPC-Gecko-Addon-1.18.2-0803-1.1.1",
-      "version_number": "1.18.2-0803-1.1.1",
+      "id": "A9lnQfsW",
+      "name": "CNPC-Gecko-Addon-1.16.5-0728-1.1.0",
+      "version_number": "1.16.5-0728-1.1.0",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "1c9bc36ce1ab541d422586f8b3711910f3fed832ad3606a3e6200ca950b1b4eb92a3d0157e1de5435c174020a390634eaa6d78b8389cf93914bfc5f60640b63c",
+          "url": "https://cdn.modrinth.com/data/hBV8SdT4/versions/A9lnQfsW/CNPC-Gecko-Addon-1.16.5-0728-1.1.0.jar",
+          "filename": "CNPC-Gecko-Addon-1.16.5-0728-1.1.0.jar",
+          "primary": true,
+          "size": 119995
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "6a16628x",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "B5PZEcOO",
+      "name": "CNPC-Gecko-Addon-1.18.2-0803-1.1.0",
+      "version_number": "1.18.2-0803-1.1.0",
       "game_versions": [
         "1.18.2"
       ],
@@ -16,11 +50,11 @@
       ],
       "files": [
         {
-          "sha512": "662741db3d7f8a60ec4299ef5b38783857a0176b1a351f256229daac4f6e15f18220782f9405c3830e5d483fc365b78bdc5c63238242e0ec045e7f766d10e703",
-          "url": "https://cdn.modrinth.com/data/hBV8SdT4/versions/txK26zBm/CNPC-Gecko-Addon-1.18.2-0803-1.1.1.jar",
-          "filename": "CNPC-Gecko-Addon-1.18.2-0803-1.1.1.jar",
+          "sha512": "e12923d14851bbfaa8cf722c3a403d8a03f1a72ca14a9ec378747134a4b770dcda67b737cc81f4a2a1c5ccde7862d2214fb5dfdb465547afc0d5a9f370ab85b6",
+          "url": "https://cdn.modrinth.com/data/hBV8SdT4/versions/B5PZEcOO/CNPC-Gecko-Addon-1.18.2-0803-1.1.0.jar",
+          "filename": "CNPC-Gecko-Addon-1.18.2-0803-1.1.0.jar",
           "primary": true,
-          "size": 121571
+          "size": 120248
         }
       ],
       "dependencies": [
@@ -29,6 +63,40 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Gw8d7KQu",
+      "name": "CNPC-Geckolib-Addon 1.16.5-0728-1.0.0",
+      "version_number": "1.16.5-1.0.0",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "6901fa47b35b4aa1094975ac9d7f3bbe131f7913f5e5191e587a0dd10996064bc3aa5225865ff8c65eee558d02ea727cfd8cb6e5b2d53406f771dcc2e34847f8",
+          "url": "https://cdn.modrinth.com/data/hBV8SdT4/versions/Gw8d7KQu/CNPC-Gecko-Addon-1.16.5-0728-1.0.0.jar",
+          "filename": "CNPC-Gecko-Addon-1.16.5-0728-1.0.0.jar",
+          "primary": true,
+          "size": 54207
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "6a16628x",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -67,40 +135,6 @@
       ]
     },
     {
-      "id": "ldWWqesI",
-      "name": "CNPC-Gecko-Addon-1.16.5-0515-1.1.1",
-      "version_number": "1.16.5-0515-1.1.1",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "43293afc056dd0ea6de0a84f59cf10f6befa96ac9c03658c849cc53125331dd9153a6a0fcb1d42fa53877c539b6a64a9c070d28cfdbe83b2c2bfac7bdf042b0e",
-          "url": "https://cdn.modrinth.com/data/hBV8SdT4/versions/ldWWqesI/CNPC-Gecko-Addon-1.16.5-0515-1.1.1.jar",
-          "filename": "CNPC-Gecko-Addon-1.16.5-0515-1.1.1.jar",
-          "primary": true,
-          "size": 121009
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "8BmcQJ2H",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "6a16628x",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "RPZhoCA7",
       "name": "CNPC-Gecko-Addon-1.12.2-(05Jul20,03Feb22)-1.1.1",
       "version_number": "1.12.2-(05Jul20,03Feb22)-1.1.1",
@@ -129,9 +163,9 @@
       ]
     },
     {
-      "id": "B5PZEcOO",
-      "name": "CNPC-Gecko-Addon-1.18.2-0803-1.1.0",
-      "version_number": "1.18.2-0803-1.1.0",
+      "id": "ehhVziSa",
+      "name": "CNPC-Geckolib-Addon 1.18.2-0803-1.0.1",
+      "version_number": "1.18.2-0803-1.0.1",
       "game_versions": [
         "1.18.2"
       ],
@@ -140,11 +174,11 @@
       ],
       "files": [
         {
-          "sha512": "e12923d14851bbfaa8cf722c3a403d8a03f1a72ca14a9ec378747134a4b770dcda67b737cc81f4a2a1c5ccde7862d2214fb5dfdb465547afc0d5a9f370ab85b6",
-          "url": "https://cdn.modrinth.com/data/hBV8SdT4/versions/B5PZEcOO/CNPC-Gecko-Addon-1.18.2-0803-1.1.0.jar",
-          "filename": "CNPC-Gecko-Addon-1.18.2-0803-1.1.0.jar",
+          "sha512": "9a2499aee55cc8423fa6695e54e355aa52d5310c2db8fec50c2622b5f554486dc62193771f74342f6fcfe7bf5c58a26544b4d85a585025141bcb8b9aa8739b1a",
+          "url": "https://cdn.modrinth.com/data/hBV8SdT4/versions/ehhVziSa/CNPC-Gecko-Addon-1.18.2-0803-1.0.1.jar",
+          "filename": "CNPC-Gecko-Addon-1.18.2-0803-1.0.1.jar",
           "primary": true,
-          "size": 120248
+          "size": 54135
         }
       ],
       "dependencies": [
@@ -157,9 +191,9 @@
       ]
     },
     {
-      "id": "A9lnQfsW",
-      "name": "CNPC-Gecko-Addon-1.16.5-0728-1.1.0",
-      "version_number": "1.16.5-0728-1.1.0",
+      "id": "fuR5RLsf",
+      "name": "CNPC-Geckolib-Addon 1.16.5-0728-1.0.1",
+      "version_number": "1.16.5-1.0.0",
       "game_versions": [
         "1.16.5"
       ],
@@ -168,20 +202,48 @@
       ],
       "files": [
         {
-          "sha512": "1c9bc36ce1ab541d422586f8b3711910f3fed832ad3606a3e6200ca950b1b4eb92a3d0157e1de5435c174020a390634eaa6d78b8389cf93914bfc5f60640b63c",
-          "url": "https://cdn.modrinth.com/data/hBV8SdT4/versions/A9lnQfsW/CNPC-Gecko-Addon-1.16.5-0728-1.1.0.jar",
-          "filename": "CNPC-Gecko-Addon-1.16.5-0728-1.1.0.jar",
+          "sha512": "43d0a819b4747f09c5a2ff57885a134d7513eb375db1afe810969643c0f8c59114b57c9a62c2d66cc2f8d16f62caf6ef734bbd4c961714cb96dcd8210ffc7980",
+          "url": "https://cdn.modrinth.com/data/hBV8SdT4/versions/fuR5RLsf/CNPC-Gecko-Addon-1.16.5-0728-1.0.1.jar",
+          "filename": "CNPC-Gecko-Addon-1.16.5-0728-1.0.1.jar",
           "primary": true,
-          "size": 119995
+          "size": 54222
         }
       ],
       "dependencies": [
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "6a16628x",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
+        }
+      ]
+    },
+    {
+      "id": "iofCKZML",
+      "name": "CNPC-Geckolib-Addon-1.12.2-(05Jul20,03Feb22)-1.0.0",
+      "version_number": "1.12.2-(05Jul20,03Feb22)-1.0.0",
+      "game_versions": [
+        "1.12.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "50915e87014f14423a80c7f48ba558a6806d3d3ce027f711d778726efd90b3a6428e9a9ba24569ce97ecf6907bd3a0e3a63682509640b09786418d946b3bc90e",
+          "url": "https://cdn.modrinth.com/data/hBV8SdT4/versions/iofCKZML/CNPC-Gecko-Addon-1.12.2-%2805Jul20%2C03Feb22%29-1.0.0.jar",
+          "filename": "CNPC-Gecko-Addon-1.12.2-(05Jul20,03Feb22)-1.0.0.jar",
+          "primary": true,
+          "size": 196526
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "8BmcQJ2H",
           "version_id": null,
@@ -225,81 +287,31 @@
       ]
     },
     {
-      "id": "tKiEeiLM",
-      "name": "CNPC-Gecko-Addon-1.12.2-(05Jul20,03Feb22)-1.1.0",
-      "version_number": "1.12.2-(05Jul20,03Feb22)-1.1.0",
+      "id": "ldWWqesI",
+      "name": "CNPC-Gecko-Addon-1.16.5-0515-1.1.1",
+      "version_number": "1.16.5-0515-1.1.1",
       "game_versions": [
-        "1.12.2"
+        "1.16.5"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "fa19e8231c22e3154aa551c6f38b3317986c11958ff90289ad7cdc54a9fd45f112f5814273af9937ab7ffa8352056807b353b5c515d47893891d0ea20552c263",
-          "url": "https://cdn.modrinth.com/data/hBV8SdT4/versions/tKiEeiLM/CNPC-Gecko-Addon-1.12.2-%2805Jul20%2C03Feb22%29-1.1.0.jar",
-          "filename": "CNPC-Gecko-Addon-1.12.2-(05Jul20,03Feb22)-1.1.0.jar",
+          "sha512": "43293afc056dd0ea6de0a84f59cf10f6befa96ac9c03658c849cc53125331dd9153a6a0fcb1d42fa53877c539b6a64a9c070d28cfdbe83b2c2bfac7bdf042b0e",
+          "url": "https://cdn.modrinth.com/data/hBV8SdT4/versions/ldWWqesI/CNPC-Gecko-Addon-1.16.5-0515-1.1.1.jar",
+          "filename": "CNPC-Gecko-Addon-1.16.5-0515-1.1.1.jar",
           "primary": true,
-          "size": 261773
+          "size": 121009
         }
       ],
       "dependencies": [
         {
-          "project_id": "8BmcQJ2H",
+          "project_id": "6a16628x",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "iofCKZML",
-      "name": "CNPC-Geckolib-Addon-1.12.2-(05Jul20,03Feb22)-1.0.0",
-      "version_number": "1.12.2-(05Jul20,03Feb22)-1.0.0",
-      "game_versions": [
-        "1.12.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "50915e87014f14423a80c7f48ba558a6806d3d3ce027f711d778726efd90b3a6428e9a9ba24569ce97ecf6907bd3a0e3a63682509640b09786418d946b3bc90e",
-          "url": "https://cdn.modrinth.com/data/hBV8SdT4/versions/iofCKZML/CNPC-Gecko-Addon-1.12.2-%2805Jul20%2C03Feb22%29-1.0.0.jar",
-          "filename": "CNPC-Gecko-Addon-1.12.2-(05Jul20,03Feb22)-1.0.0.jar",
-          "primary": true,
-          "size": 196526
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "8BmcQJ2H",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ehhVziSa",
-      "name": "CNPC-Geckolib-Addon 1.18.2-0803-1.0.1",
-      "version_number": "1.18.2-0803-1.0.1",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "9a2499aee55cc8423fa6695e54e355aa52d5310c2db8fec50c2622b5f554486dc62193771f74342f6fcfe7bf5c58a26544b4d85a585025141bcb8b9aa8739b1a",
-          "url": "https://cdn.modrinth.com/data/hBV8SdT4/versions/ehhVziSa/CNPC-Gecko-Addon-1.18.2-0803-1.0.1.jar",
-          "filename": "CNPC-Gecko-Addon-1.18.2-0803-1.0.1.jar",
-          "primary": true,
-          "size": 54135
-        }
-      ],
-      "dependencies": [
+          "dependency_type": "optional"
+        },
         {
           "project_id": "8BmcQJ2H",
           "version_id": null,
@@ -343,31 +355,25 @@
       ]
     },
     {
-      "id": "fuR5RLsf",
-      "name": "CNPC-Geckolib-Addon 1.16.5-0728-1.0.1",
-      "version_number": "1.16.5-1.0.0",
+      "id": "tKiEeiLM",
+      "name": "CNPC-Gecko-Addon-1.12.2-(05Jul20,03Feb22)-1.1.0",
+      "version_number": "1.12.2-(05Jul20,03Feb22)-1.1.0",
       "game_versions": [
-        "1.16.5"
+        "1.12.2"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "43d0a819b4747f09c5a2ff57885a134d7513eb375db1afe810969643c0f8c59114b57c9a62c2d66cc2f8d16f62caf6ef734bbd4c961714cb96dcd8210ffc7980",
-          "url": "https://cdn.modrinth.com/data/hBV8SdT4/versions/fuR5RLsf/CNPC-Gecko-Addon-1.16.5-0728-1.0.1.jar",
-          "filename": "CNPC-Gecko-Addon-1.16.5-0728-1.0.1.jar",
+          "sha512": "fa19e8231c22e3154aa551c6f38b3317986c11958ff90289ad7cdc54a9fd45f112f5814273af9937ab7ffa8352056807b353b5c515d47893891d0ea20552c263",
+          "url": "https://cdn.modrinth.com/data/hBV8SdT4/versions/tKiEeiLM/CNPC-Gecko-Addon-1.12.2-%2805Jul20%2C03Feb22%29-1.1.0.jar",
+          "filename": "CNPC-Gecko-Addon-1.12.2-(05Jul20,03Feb22)-1.1.0.jar",
           "primary": true,
-          "size": 54222
+          "size": 261773
         }
       ],
       "dependencies": [
-        {
-          "project_id": "6a16628x",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "8BmcQJ2H",
           "version_id": null,
@@ -377,31 +383,25 @@
       ]
     },
     {
-      "id": "Gw8d7KQu",
-      "name": "CNPC-Geckolib-Addon 1.16.5-0728-1.0.0",
-      "version_number": "1.16.5-1.0.0",
+      "id": "txK26zBm",
+      "name": "CNPC-Gecko-Addon-1.18.2-0803-1.1.1",
+      "version_number": "1.18.2-0803-1.1.1",
       "game_versions": [
-        "1.16.5"
+        "1.18.2"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "6901fa47b35b4aa1094975ac9d7f3bbe131f7913f5e5191e587a0dd10996064bc3aa5225865ff8c65eee558d02ea727cfd8cb6e5b2d53406f771dcc2e34847f8",
-          "url": "https://cdn.modrinth.com/data/hBV8SdT4/versions/Gw8d7KQu/CNPC-Gecko-Addon-1.16.5-0728-1.0.0.jar",
-          "filename": "CNPC-Gecko-Addon-1.16.5-0728-1.0.0.jar",
+          "sha512": "662741db3d7f8a60ec4299ef5b38783857a0176b1a351f256229daac4f6e15f18220782f9405c3830e5d483fc365b78bdc5c63238242e0ec045e7f766d10e703",
+          "url": "https://cdn.modrinth.com/data/hBV8SdT4/versions/txK26zBm/CNPC-Gecko-Addon-1.18.2-0803-1.1.1.jar",
+          "filename": "CNPC-Gecko-Addon-1.18.2-0803-1.1.1.jar",
           "primary": true,
-          "size": 54207
+          "size": 121571
         }
       ],
       "dependencies": [
-        {
-          "project_id": "6a16628x",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "8BmcQJ2H",
           "version_id": null,

@@ -5,35 +5,34 @@
   "description": "Adds a highly-configurable zoom key. The zoom is yours!",
   "versions": [
     {
-      "id": "jQ9ADWX2",
-      "name": "9.0.2+Fabric",
-      "version_number": "9.0.2+Fabric",
+      "id": "3WRTt0FK",
+      "name": "6.0.0+Quilt",
+      "version_number": "6.0.0+Quilt",
       "game_versions": [
-        "1.21"
+        "1.20.2"
       ],
       "loaders": [
-        "fabric",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "de31bfc86caa2b3e6cf8b88e3a3f35c5c8fd6742eac289470670fae0e0d1e70f719321d2ae5c2063eb10b9ec6af3a5b2ca6f9ce26e2e689b9878d0e8f4c6866d",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/jQ9ADWX2/OkZoomer-Fabric-9.0.2.jar",
-          "filename": "OkZoomer-Fabric-9.0.2.jar",
+          "sha512": "6f9f1fa61d4597b963828289c65c94e155be7507dad870d3216c4f19e116e8ae5bfa2eac223beb70c52722ef9f38780f1401da992bb53febeb9d22788427747e",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/3WRTt0FK/OkZoomer-Quilt-6.0.0.jar",
+          "filename": "OkZoomer-Quilt-6.0.0.jar",
           "primary": true,
-          "size": 393239
+          "size": 296916
         },
         {
-          "sha512": "e6bb56c5982d4165a0d88d6b1d3cd03038f9f45086c2145d16758a7f7080c5aa806042c8f86597fb282db133a7e5f559be52068402795a1812d3e9d15b3008a8",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/jQ9ADWX2/OkZoomer-Fabric-9.0.2-sources.jar",
-          "filename": "OkZoomer-Fabric-9.0.2-sources.jar",
+          "sha512": "f9ef7ba1b6e584cfddb9742eadff94e9a5d1fc4fcf59ba6862ff00295cdf83958dd61d3bbce65eb53fd8c90d1ba49e62f8180ba65151cabf12f4931300330adc",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/3WRTt0FK/OkZoomer-Quilt-6.0.0-sources.jar",
+          "filename": "OkZoomer-Quilt-6.0.0-sources.jar",
           "primary": false,
-          "size": 59403
+          "size": 60054
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "qvIfYCYJ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -42,7 +41,197 @@
           "project_id": "UuqHBjf9",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "78Hjm4bd",
+      "name": "Ok Zoomer 4.0.0 for Minecraft 1.15.2",
+      "version_number": "4.0.0+1.15.2",
+      "game_versions": [
+        "1.15",
+        "1.15.1",
+        "1.15.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1fe9463b10b8a4a2bbb3ae1cc5268294ea3b97d15d4fc8e3c3908916cbad79e66e0bc8f081eaf4e24b3543ffd6283eb9b8cec6b2f9e4a404354f64eb3f0f4a2b",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/4.0.0%2B1.15.2/okzoomer-4.0.0%2B1.15.2.jar",
+          "filename": "okzoomer-4.0.0+1.15.2.jar",
+          "primary": true,
+          "size": 594809
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "CwMl84DF",
+      "name": "Ok Zoomer 5.0.0-beta.6 for Minecraft 1.18.2",
+      "version_number": "5.0.0-beta.6+1.18.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ae793874aaf145e73038c4a2db9294425c9aadb9a9f1d55baac04bec5087791763253b47576139a8daaec52d8149d2ffde4aa70bde88af59db942a876e931f6f",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.6%2B1.18.2/okzoomer-5.0.0-beta.6%2B1.18.2.jar",
+          "filename": "okzoomer-5.0.0-beta.6+1.18.2.jar",
+          "primary": true,
+          "size": 448237
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "E4nO7jjo",
+      "name": "Ok Zoomer 5.0.0-beta.8 for Minecraft 1.19",
+      "version_number": "5.0.0-beta.8+1.19",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "7f779ad3f3894bf6c53cfb7e589b735ceb48741daddb6c679cde62f5cdee2695c4ee3273e5dbc8188d2505e16a2168ab5fd66efb29a522c9b0ac247210c9f252",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.8%2B1.19/ok_zoomer-5.0.0-beta.8%2B1.19.jar",
+          "filename": "ok_zoomer-5.0.0-beta.8+1.19.jar",
+          "primary": true,
+          "size": 259904
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "zEy1plMo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "FNsXFknk",
+      "name": "Ok Zoomer 5.0.0-beta.4 for Minecraft 1.18.2",
+      "version_number": "5.0.0-beta.4+1.18.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "cbd0f0a9189b1d513924b44ca60680c8725ebe375bbea4fda82d68cb8e5a3ea4515b1f4562f0fca6105a6886ad19f829868bcce4e25c58940857577185bc2332",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.4%2B1.18.2/okzoomer-5.0.0-beta.4%2B1.18.2.jar",
+          "filename": "okzoomer-5.0.0-beta.4+1.18.2.jar",
+          "primary": true,
+          "size": 403847
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "4JrWqhWw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "7BiQSUvg",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "GiK47vku",
+      "name": "5.2.0-beta.1+Quilt",
+      "version_number": "5.2.0-beta.1+Quilt",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "240cf6745d6f3b0362dc26cb4f1adc9b4272ba7d1d0c537cf5a289ef58e6fefe97427d4e20745a790d8a374f8593fa4fd1dd7f7a77fd59757215535d62909123",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/GiK47vku/OkZoomer-Quilt-5.2.0-beta.1.jar",
+          "filename": "OkZoomer-Quilt-5.2.0-beta.1.jar",
+          "primary": true,
+          "size": 134073
+        },
+        {
+          "sha512": "5ece1fe10b058533e30f6c0868df52dde730bcb189fd5f8a1c95e3a8848bb99967426889953f28603a3aa751d0b65e3a2a21f11069b5bd01dc44732c2ad9a219",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/GiK47vku/OkZoomer-Quilt-5.2.0-beta.1-sources.jar",
+          "filename": "OkZoomer-Quilt-5.2.0-beta.1-sources.jar",
+          "primary": false,
+          "size": 54320
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "UuqHBjf9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Hmpagx7s",
+      "name": "Ok Zoomer 5.0.0 for Minecraft 1.20.1",
+      "version_number": "5.0.0+1.20.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c009edd01e0f40b26110cac20e42900860c50934a0c5f2fb7ebd12989626de38855d41fc8b29d6db2f0673dc581865bea29b59e2e5a47e3f1a7eac306eb293b5",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/Hmpagx7s/ok_zoomer-5.0.0%2B1.20.1.jar",
+          "filename": "ok_zoomer-5.0.0+1.20.1.jar",
+          "primary": true,
+          "size": 233582
+        },
+        {
+          "sha512": "21fd1963619f1ded546a3d80e3288091d26ce75e374489f7413634f30e42709539f9e26eafc98a9fff2078ccaa7d666884199c7fe93fdaa134a5a5043ef49e70",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/Hmpagx7s/ok_zoomer-5.0.0%2B1.20.1-sources.jar",
+          "filename": "ok_zoomer-5.0.0+1.20.1-sources.jar",
+          "primary": false,
+          "size": 59113
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "mOgUt4GM",
@@ -53,105 +242,131 @@
       ]
     },
     {
-      "id": "iult97Ac",
-      "name": "9.0.1+Fabric",
-      "version_number": "9.0.1+Fabric",
+      "id": "Io5ormBU",
+      "name": "5.1.0+1.20.1+Quilt",
+      "version_number": "5.1.0+1.20.1+Quilt",
       "game_versions": [
-        "1.21"
+        "1.20.1"
       ],
       "loaders": [
-        "fabric",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "97e4d79017c225699568de9566ce15104ab8c9edd8c06e5ff836eecc9f9b69ee4fb8409d521db7f2761b02317c9cc123586df56138fd32f906fcb771c2e41d19",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/iult97Ac/OkZoomer-Fabric-9.0.1.jar",
-          "filename": "OkZoomer-Fabric-9.0.1.jar",
+          "sha512": "97b851526747bc47585badf0ba084068a81d45a06ae3eba48e2846f18cf006275e36e984a07c2afd3c06ddc792ef4c91298827385a9e869f0c7dbc85190b9eaa",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/Io5ormBU/OkZoomer-Quilt-5.1.0%2B1.20.1.jar",
+          "filename": "OkZoomer-Quilt-5.1.0+1.20.1.jar",
           "primary": true,
-          "size": 513223
+          "size": 297017
         },
         {
-          "sha512": "a7e8f8ef32c10e3e54c3a6a610f67537eb999758b848f28d002d8b00c342b72ff564d227eee207ab5e7780b6128d1a86376002087e7d65ac876d287caedd9c8b",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/iult97Ac/OkZoomer-Fabric-9.0.1-sources.jar",
-          "filename": "OkZoomer-Fabric-9.0.1-sources.jar",
+          "sha512": "cf07569903f7155f060b70de96d8c6eb4abedaa57f5318f0c30d2e5eb1ad0074a8622903f03f7acb4b3c72b1f553a8f8dae1786600c4c72e8b93cf471a2e08d4",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/Io5ormBU/OkZoomer-Quilt-5.1.0%2B1.20.1-sources.jar",
+          "filename": "OkZoomer-Quilt-5.1.0+1.20.1-sources.jar",
           "primary": false,
-          "size": 62362
+          "size": 60120
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "UuqHBjf9",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "UuqHBjf9",
+          "project_id": "qvIfYCYJ",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "ri1cYvhK",
-      "name": "9.0.0+Fabric",
-      "version_number": "9.0.0+Fabric",
+      "id": "IwYTho21",
+      "name": "7.2.0+Quilt",
+      "version_number": "7.2.0+Quilt",
       "game_versions": [
-        "1.21-pre1",
-        "1.21-pre2",
-        "1.21-pre3",
-        "1.21-pre4",
-        "1.21-rc1",
-        "1.21"
+        "1.20.4"
       ],
       "loaders": [
-        "fabric",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "1e724b09b8888bebcfee11f793b4fafc8da34514380e282c92b44dd49bd2e884ac3347c004ddbd75d4d22500eba509ad1e1dd05ba62fda81dd7e0b649e3774fd",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/ri1cYvhK/OkZoomer-Fabric-9.0.0.jar",
-          "filename": "OkZoomer-Fabric-9.0.0.jar",
+          "sha512": "4c6ed6587e915f8108a281960e83416cb7c3226bef265d02353354decc9a0231af1b9dc48d27133c7fa19faaeb0442f0604c180c2c46965cdec964ce54e1ccab",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/IwYTho21/OkZoomer-Quilt-7.2.0.jar",
+          "filename": "OkZoomer-Quilt-7.2.0.jar",
           "primary": true,
-          "size": 513553
+          "size": 146598
         },
         {
-          "sha512": "36b4a8580fb74a3dcd5f2f2dd46c54eac4598180066a08d793046274c388fbc2916b394d2baa47546192f2de095298e399ec4aecd09f24461f6ffde550116f5d",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/ri1cYvhK/OkZoomer-Fabric-9.0.0-sources.jar",
-          "filename": "OkZoomer-Fabric-9.0.0-sources.jar",
+          "sha512": "3e9fa797306446bf40cdbdbcff78e5b8aa380e66748a0c70d6301b38c2b6014b351c2a4f2e6cb1b84f139866b38f118c3d7ec6a086e19fce7a6332c6f9c6c72a",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/IwYTho21/OkZoomer-Quilt-7.2.0-sources.jar",
+          "filename": "OkZoomer-Quilt-7.2.0-sources.jar",
           "primary": false,
-          "size": 62691
+          "size": 59844
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "UuqHBjf9",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "UuqHBjf9",
+          "project_id": "qvIfYCYJ",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         }
       ]
+    },
+    {
+      "id": "KK5vv9Ca",
+      "name": "Ok Zoomer 4.0.0 for Minecraft 1.16.2",
+      "version_number": "4.0.0+1.16.2",
+      "game_versions": [
+        "1.16.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "978f0ea28dfb05800d7eb4931356bf0211dba09071f8f5ede12c91da2018ce497ca07fcdf9ec4f6c097d8bf2af895f782703be483a5908fb086a0bd160a2c6dd",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/4.0.0%2B1.16.2/okzoomer-4.0.0%2B1.16.2.jar",
+          "filename": "okzoomer-4.0.0+1.16.2.jar",
+          "primary": true,
+          "size": 611848
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "L7TmfftT",
+      "name": "Ok Zoomer 4.0.1 for Minecraft 1.16.2",
+      "version_number": "4.0.1+1.16.2",
+      "game_versions": [
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "13bf69c9103ba640a402b907fe775ddfd8ab6ec30e53f2a00cda5d8f3d6c9b99be89ce86ffb384f0caeb62c755e286e7ae45747d69c605047d7492f93300a540",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/4.0.1%2B1.16.2/okzoomer-4.0.1%2B1.16.2.jar",
+          "filename": "okzoomer-4.0.1+1.16.2.jar",
+          "primary": true,
+          "size": 611285
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "Mknl4czx",
@@ -202,9 +417,43 @@
       ]
     },
     {
-      "id": "IwYTho21",
-      "name": "7.2.0+Quilt",
-      "version_number": "7.2.0+Quilt",
+      "id": "P6ld16qa",
+      "name": "Ok Zoomer 5.0.0-beta.5 for Minecraft 1.18.2",
+      "version_number": "5.0.0-beta.5+1.18.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "303c86fc052aaa03425ccc5411bdde7423825d254179a56161e1b11d16057328c293754ffa38d0d7d580cabf4ee646dce5a2d0087551ee3fbfb99bca4b7b23e7",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.5%2B1.18.2/okzoomer-5.0.0-beta.5%2B1.18.2.jar",
+          "filename": "okzoomer-5.0.0-beta.5+1.18.2.jar",
+          "primary": true,
+          "size": 404024
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "PPg8l36Y",
+      "name": "7.0.0+Quilt",
+      "version_number": "7.0.0+Quilt",
       "game_versions": [
         "1.20.4"
       ],
@@ -213,18 +462,255 @@
       ],
       "files": [
         {
-          "sha512": "4c6ed6587e915f8108a281960e83416cb7c3226bef265d02353354decc9a0231af1b9dc48d27133c7fa19faaeb0442f0604c180c2c46965cdec964ce54e1ccab",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/IwYTho21/OkZoomer-Quilt-7.2.0.jar",
-          "filename": "OkZoomer-Quilt-7.2.0.jar",
+          "sha512": "cd4b4a33fc3dbd77717a41f24863e134f760a5480e087a664fd8658dbac2a59a962b42f931b82a4a40078c13156d9c79af868bd68cc93cbf02d8c1ccee178f6c",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/PPg8l36Y/OkZoomer-Quilt-7.0.0.jar",
+          "filename": "OkZoomer-Quilt-7.0.0.jar",
           "primary": true,
-          "size": 146598
+          "size": 311799
         },
         {
-          "sha512": "3e9fa797306446bf40cdbdbcff78e5b8aa380e66748a0c70d6301b38c2b6014b351c2a4f2e6cb1b84f139866b38f118c3d7ec6a086e19fce7a6332c6f9c6c72a",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/IwYTho21/OkZoomer-Quilt-7.2.0-sources.jar",
-          "filename": "OkZoomer-Quilt-7.2.0-sources.jar",
+          "sha512": "94980ad39f5c3671cd883b7af6fa2b0cb00145e8f6c28871eb00650cc53e736fa2c2347b89f95c271f9435afd3b5b3ae14b2f55d49a7f78116bb959d5a7c500e",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/PPg8l36Y/OkZoomer-Quilt-7.0.0-sources.jar",
+          "filename": "OkZoomer-Quilt-7.0.0-sources.jar",
           "primary": false,
-          "size": 59844
+          "size": 67907
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "UuqHBjf9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "XM9JShU4",
+      "name": "Ok Zoomer 5.0.0-beta.13 for Minecraft 1.20.1",
+      "version_number": "5.0.0-beta.13+1.20.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "77d5d25663ab103d39f7488d4defe55bb569f72043741c15ea2e3bc133abc2204e36f3751f2e420a6939aff0590650d15bc0ad1fc8e2f9d56174b0f3271aae1f",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/XM9JShU4/ok_zoomer-5.0.0-beta.13%2B1.20.1.jar",
+          "filename": "ok_zoomer-5.0.0-beta.13+1.20.1.jar",
+          "primary": true,
+          "size": 256563
+        },
+        {
+          "sha512": "0d8213db39848be434a5d2d48b442fa4b3a2b229eb6d92e037e7e513e5918c29989f1ee3339354d3aab1e2ef71cd8def3f588edc5d0c81e5edaee21a2652212b",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/XM9JShU4/ok_zoomer-5.0.0-beta.13%2B1.20.1-sources.jar",
+          "filename": "ok_zoomer-5.0.0-beta.13+1.20.1-sources.jar",
+          "primary": false,
+          "size": 59086
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "UuqHBjf9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "XQ6sAlpr",
+      "name": "Ok Zoomer 5.0.0-beta.2 for Minecraft 1.17",
+      "version_number": "5.0.0-beta.2+1.17",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5a94b1deca674ed6b569d505f2e27d42b53a85bbde860851a821e8743501844e3f264e039e05008df7305912b6f256398ceca581585822bd8ffbaa1c66cd93bd",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.2%2B1.17/okzoomer-5.0.0-beta.2%2B1.17.jar",
+          "filename": "okzoomer-5.0.0-beta.2+1.17.jar",
+          "primary": false,
+          "size": 492248
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "buDX2XKX",
+      "name": "Ok Zoomer 5.0.1 for Minecraft 1.20.1",
+      "version_number": "5.0.1+1.20.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "9efc41a292b6e2384d3959e64ca440a75b02dc3551c1a5e544dcd6af20942f38541ed9f66806e36ca79396514d85fef21c390e6e8fc19c80bb840055e5c9ebad",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/buDX2XKX/ok_zoomer-5.0.1%2B1.20.1.jar",
+          "filename": "ok_zoomer-5.0.1+1.20.1.jar",
+          "primary": true,
+          "size": 233584
+        },
+        {
+          "sha512": "ce2eb0107c47982fc20999bd0c28c59b1d81d8dfeba4fa420ed62ec5e103e92ec4249d85550b7b1bdb935fd92e654803dab4e4a0ae3361ad06f4de18df359bb5",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/buDX2XKX/ok_zoomer-5.0.1%2B1.20.1-sources.jar",
+          "filename": "ok_zoomer-5.0.1+1.20.1-sources.jar",
+          "primary": false,
+          "size": 59113
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "UuqHBjf9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "esyBJPbU",
+      "name": "Ok Zoomer 5.0.0-beta.3 for Minecraft 1.17.1",
+      "version_number": "5.0.0-beta.3+1.17.1",
+      "game_versions": [
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ed596d268dd6a4cd84cfaa58baa4f4a1ae3f2a96d14af0c928a0602a90a9e001cedc28496f9a977231b54508d194a92b4b51151be681af54e05e08705ada0ea6",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.3%2B1.17.1/okzoomer-5.0.0-beta.3%2B1.17.1.jar",
+          "filename": "okzoomer-5.0.0-beta.3+1.17.1.jar",
+          "primary": true,
+          "size": 269759
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "7kh2ofyR",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "RS6s817x",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "fGpO4l2z",
+      "name": "Ok Zoomer 5.0.0-beta.12 for Minecraft 1.20",
+      "version_number": "5.0.0-beta.12+1.20",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2ce721bb45d1a4e8e8b35fb4fa17a6faa6c6759c6c61fd5f1ea3f02db0e0a4466d04a84edd90291b4e6c2294ba1a784b53feee7760dcd221d3ae257afbe484b3",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/fGpO4l2z/ok_zoomer-5.0.0-beta.12%2B1.20.jar",
+          "filename": "ok_zoomer-5.0.0-beta.12+1.20.jar",
+          "primary": true,
+          "size": 269341
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "RTFDnTKf",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "UuqHBjf9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "rS9Tm10P",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "flkRovrR",
+      "name": "7.1.0+Quilt",
+      "version_number": "7.1.0+Quilt",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "43292a2da83c01c473d94fa2917d76ca62fd31f8f0d9272b3c7faf50ccc0e01c89fb0cffc44c4477ad295623045a7c60971df5d2cfdf039b466d468ef1d50774",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/flkRovrR/OkZoomer-Quilt-7.1.0.jar",
+          "filename": "OkZoomer-Quilt-7.1.0.jar",
+          "primary": true,
+          "size": 311919
+        },
+        {
+          "sha512": "61245552040fc9d6d8e977d4a5c1d5cb09ffec1cf893a96c55f12d871aa25d4acfd408e03a8b5e381fe5483d9171a0999629a02022389231e2c078ae12916af0",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/flkRovrR/OkZoomer-Quilt-7.1.0-sources.jar",
+          "filename": "OkZoomer-Quilt-7.1.0-sources.jar",
+          "primary": false,
+          "size": 67961
         }
       ],
       "dependencies": [
@@ -284,431 +770,6 @@
       ]
     },
     {
-      "id": "GiK47vku",
-      "name": "5.2.0-beta.1+Quilt",
-      "version_number": "5.2.0-beta.1+Quilt",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "240cf6745d6f3b0362dc26cb4f1adc9b4272ba7d1d0c537cf5a289ef58e6fefe97427d4e20745a790d8a374f8593fa4fd1dd7f7a77fd59757215535d62909123",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/GiK47vku/OkZoomer-Quilt-5.2.0-beta.1.jar",
-          "filename": "OkZoomer-Quilt-5.2.0-beta.1.jar",
-          "primary": true,
-          "size": 134073
-        },
-        {
-          "sha512": "5ece1fe10b058533e30f6c0868df52dde730bcb189fd5f8a1c95e3a8848bb99967426889953f28603a3aa751d0b65e3a2a21f11069b5bd01dc44732c2ad9a219",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/GiK47vku/OkZoomer-Quilt-5.2.0-beta.1-sources.jar",
-          "filename": "OkZoomer-Quilt-5.2.0-beta.1-sources.jar",
-          "primary": false,
-          "size": 54320
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "UuqHBjf9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "flkRovrR",
-      "name": "7.1.0+Quilt",
-      "version_number": "7.1.0+Quilt",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "43292a2da83c01c473d94fa2917d76ca62fd31f8f0d9272b3c7faf50ccc0e01c89fb0cffc44c4477ad295623045a7c60971df5d2cfdf039b466d468ef1d50774",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/flkRovrR/OkZoomer-Quilt-7.1.0.jar",
-          "filename": "OkZoomer-Quilt-7.1.0.jar",
-          "primary": true,
-          "size": 311919
-        },
-        {
-          "sha512": "61245552040fc9d6d8e977d4a5c1d5cb09ffec1cf893a96c55f12d871aa25d4acfd408e03a8b5e381fe5483d9171a0999629a02022389231e2c078ae12916af0",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/flkRovrR/OkZoomer-Quilt-7.1.0-sources.jar",
-          "filename": "OkZoomer-Quilt-7.1.0-sources.jar",
-          "primary": false,
-          "size": 67961
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "UuqHBjf9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Io5ormBU",
-      "name": "5.1.0+1.20.1+Quilt",
-      "version_number": "5.1.0+1.20.1+Quilt",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "97b851526747bc47585badf0ba084068a81d45a06ae3eba48e2846f18cf006275e36e984a07c2afd3c06ddc792ef4c91298827385a9e869f0c7dbc85190b9eaa",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/Io5ormBU/OkZoomer-Quilt-5.1.0%2B1.20.1.jar",
-          "filename": "OkZoomer-Quilt-5.1.0+1.20.1.jar",
-          "primary": true,
-          "size": 297017
-        },
-        {
-          "sha512": "cf07569903f7155f060b70de96d8c6eb4abedaa57f5318f0c30d2e5eb1ad0074a8622903f03f7acb4b3c72b1f553a8f8dae1786600c4c72e8b93cf471a2e08d4",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/Io5ormBU/OkZoomer-Quilt-5.1.0%2B1.20.1-sources.jar",
-          "filename": "OkZoomer-Quilt-5.1.0+1.20.1-sources.jar",
-          "primary": false,
-          "size": 60120
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "UuqHBjf9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "PPg8l36Y",
-      "name": "7.0.0+Quilt",
-      "version_number": "7.0.0+Quilt",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "cd4b4a33fc3dbd77717a41f24863e134f760a5480e087a664fd8658dbac2a59a962b42f931b82a4a40078c13156d9c79af868bd68cc93cbf02d8c1ccee178f6c",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/PPg8l36Y/OkZoomer-Quilt-7.0.0.jar",
-          "filename": "OkZoomer-Quilt-7.0.0.jar",
-          "primary": true,
-          "size": 311799
-        },
-        {
-          "sha512": "94980ad39f5c3671cd883b7af6fa2b0cb00145e8f6c28871eb00650cc53e736fa2c2347b89f95c271f9435afd3b5b3ae14b2f55d49a7f78116bb959d5a7c500e",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/PPg8l36Y/OkZoomer-Quilt-7.0.0-sources.jar",
-          "filename": "OkZoomer-Quilt-7.0.0-sources.jar",
-          "primary": false,
-          "size": 67907
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "UuqHBjf9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "3WRTt0FK",
-      "name": "6.0.0+Quilt",
-      "version_number": "6.0.0+Quilt",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6f9f1fa61d4597b963828289c65c94e155be7507dad870d3216c4f19e116e8ae5bfa2eac223beb70c52722ef9f38780f1401da992bb53febeb9d22788427747e",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/3WRTt0FK/OkZoomer-Quilt-6.0.0.jar",
-          "filename": "OkZoomer-Quilt-6.0.0.jar",
-          "primary": true,
-          "size": 296916
-        },
-        {
-          "sha512": "f9ef7ba1b6e584cfddb9742eadff94e9a5d1fc4fcf59ba6862ff00295cdf83958dd61d3bbce65eb53fd8c90d1ba49e62f8180ba65151cabf12f4931300330adc",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/3WRTt0FK/OkZoomer-Quilt-6.0.0-sources.jar",
-          "filename": "OkZoomer-Quilt-6.0.0-sources.jar",
-          "primary": false,
-          "size": 60054
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "UuqHBjf9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "wTjuReJe",
-      "name": "5.0.2+Quilt",
-      "version_number": "5.0.2+Quilt",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "fd13051b2f719b345499d84476db958275ee9b929d8a6447297ed1de7ffa7779caecbe2dfbbf07ce73b37dceccadd8f4e1a55fe165583c27b82054b199401f2b",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/wTjuReJe/OkZoomer-Quilt-5.0.2.jar",
-          "filename": "OkZoomer-Quilt-5.0.2.jar",
-          "primary": true,
-          "size": 296877
-        },
-        {
-          "sha512": "8298099db0a472a27bd9ee043a22325af8d04d4b732722f52a3c8031d364d7a3421317aea99369ddff378b362c2c07e80ba36a83224adf8eba5dbc1e6dc61d87",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/wTjuReJe/OkZoomer-Quilt-5.0.2-sources.jar",
-          "filename": "OkZoomer-Quilt-5.0.2-sources.jar",
-          "primary": false,
-          "size": 60063
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "UuqHBjf9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "buDX2XKX",
-      "name": "Ok Zoomer 5.0.1 for Minecraft 1.20.1",
-      "version_number": "5.0.1+1.20.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "9efc41a292b6e2384d3959e64ca440a75b02dc3551c1a5e544dcd6af20942f38541ed9f66806e36ca79396514d85fef21c390e6e8fc19c80bb840055e5c9ebad",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/buDX2XKX/ok_zoomer-5.0.1%2B1.20.1.jar",
-          "filename": "ok_zoomer-5.0.1+1.20.1.jar",
-          "primary": true,
-          "size": 233584
-        },
-        {
-          "sha512": "ce2eb0107c47982fc20999bd0c28c59b1d81d8dfeba4fa420ed62ec5e103e92ec4249d85550b7b1bdb935fd92e654803dab4e4a0ae3361ad06f4de18df359bb5",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/buDX2XKX/ok_zoomer-5.0.1%2B1.20.1-sources.jar",
-          "filename": "ok_zoomer-5.0.1+1.20.1-sources.jar",
-          "primary": false,
-          "size": 59113
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "UuqHBjf9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Hmpagx7s",
-      "name": "Ok Zoomer 5.0.0 for Minecraft 1.20.1",
-      "version_number": "5.0.0+1.20.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "c009edd01e0f40b26110cac20e42900860c50934a0c5f2fb7ebd12989626de38855d41fc8b29d6db2f0673dc581865bea29b59e2e5a47e3f1a7eac306eb293b5",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/Hmpagx7s/ok_zoomer-5.0.0%2B1.20.1.jar",
-          "filename": "ok_zoomer-5.0.0+1.20.1.jar",
-          "primary": true,
-          "size": 233582
-        },
-        {
-          "sha512": "21fd1963619f1ded546a3d80e3288091d26ce75e374489f7413634f30e42709539f9e26eafc98a9fff2078ccaa7d666884199c7fe93fdaa134a5a5043ef49e70",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/Hmpagx7s/ok_zoomer-5.0.0%2B1.20.1-sources.jar",
-          "filename": "ok_zoomer-5.0.0+1.20.1-sources.jar",
-          "primary": false,
-          "size": 59113
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "XM9JShU4",
-      "name": "Ok Zoomer 5.0.0-beta.13 for Minecraft 1.20.1",
-      "version_number": "5.0.0-beta.13+1.20.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "77d5d25663ab103d39f7488d4defe55bb569f72043741c15ea2e3bc133abc2204e36f3751f2e420a6939aff0590650d15bc0ad1fc8e2f9d56174b0f3271aae1f",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/XM9JShU4/ok_zoomer-5.0.0-beta.13%2B1.20.1.jar",
-          "filename": "ok_zoomer-5.0.0-beta.13+1.20.1.jar",
-          "primary": true,
-          "size": 256563
-        },
-        {
-          "sha512": "0d8213db39848be434a5d2d48b442fa4b3a2b229eb6d92e037e7e513e5918c29989f1ee3339354d3aab1e2ef71cd8def3f588edc5d0c81e5edaee21a2652212b",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/XM9JShU4/ok_zoomer-5.0.0-beta.13%2B1.20.1-sources.jar",
-          "filename": "ok_zoomer-5.0.0-beta.13+1.20.1-sources.jar",
-          "primary": false,
-          "size": 59086
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "UuqHBjf9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "fGpO4l2z",
-      "name": "Ok Zoomer 5.0.0-beta.12 for Minecraft 1.20",
-      "version_number": "5.0.0-beta.12+1.20",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2ce721bb45d1a4e8e8b35fb4fa17a6faa6c6759c6c61fd5f1ea3f02db0e0a4466d04a84edd90291b4e6c2294ba1a784b53feee7760dcd221d3ae257afbe484b3",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/fGpO4l2z/ok_zoomer-5.0.0-beta.12%2B1.20.jar",
-          "filename": "ok_zoomer-5.0.0-beta.12+1.20.jar",
-          "primary": true,
-          "size": 269341
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "UuqHBjf9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "RTFDnTKf",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "rS9Tm10P",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "iptyzc9N",
       "name": "Ok Zoomer 5.0.0-beta.11 for Minecraft 1.19.4",
       "version_number": "5.0.0-beta.11+1.19.4",
@@ -756,102 +817,121 @@
       ]
     },
     {
-      "id": "oOWfXNvO",
-      "name": "Ok Zoomer 5.0.0-beta.10 for Minecraft 1.19.3",
-      "version_number": "5.0.0-beta.10+1.19.3",
+      "id": "iult97Ac",
+      "name": "9.0.1+Fabric",
+      "version_number": "9.0.1+Fabric",
       "game_versions": [
-        "1.19.3"
+        "1.21"
       ],
       "loaders": [
+        "fabric",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "d2fc17e810470c6dee64e6325e7457d97e81fcb17ab63e9ab651a0a26c2482ed244ace575eb6ab2c2ddd13a089b7a10af33de89ef6ca3c75174ed5a280bc6117",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/oOWfXNvO/ok_zoomer-5.0.0-beta.10%2B1.19.3.jar",
-          "filename": "ok_zoomer-5.0.0-beta.10+1.19.3.jar",
+          "sha512": "97e4d79017c225699568de9566ce15104ab8c9edd8c06e5ff836eecc9f9b69ee4fb8409d521db7f2761b02317c9cc123586df56138fd32f906fcb771c2e41d19",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/iult97Ac/OkZoomer-Fabric-9.0.1.jar",
+          "filename": "OkZoomer-Fabric-9.0.1.jar",
           "primary": true,
-          "size": 270470
+          "size": 513223
+        },
+        {
+          "sha512": "a7e8f8ef32c10e3e54c3a6a610f67537eb999758b848f28d002d8b00c342b72ff564d227eee207ab5e7780b6128d1a86376002087e7d65ac876d287caedd9c8b",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/iult97Ac/OkZoomer-Fabric-9.0.1-sources.jar",
+          "filename": "OkZoomer-Fabric-9.0.1-sources.jar",
+          "primary": false,
+          "size": 62362
         }
       ],
       "dependencies": [
         {
-          "project_id": "qvIfYCYJ",
-          "version_id": "eaoB99I6",
+          "project_id": "P7dR8mSH",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "vNZwWPKn",
-      "name": "Ok Zoomer 5.0.0-beta.9 for Minecraft 1.19",
-      "version_number": "5.0.0-beta.9+1.19",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "5c01248271181b74df0ac2a1f75be483adb9063db91eab294b16a672c3e4c3d21c796ad264e027ee4ac9d7a585c75d7fe3caebc46024129db6deae55602a57cc",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.9%2B1.19/ok_zoomer-5.0.0-beta.9%2B1.19.jar",
-          "filename": "ok_zoomer-5.0.0-beta.9+1.19.jar",
-          "primary": true,
-          "size": 259906
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "UuqHBjf9",
-          "version_id": "TRRiyJgc",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
         },
         {
           "project_id": "mOgUt4GM",
-          "version_id": "oU5qfeR6",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "ddaofVmY",
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "E4nO7jjo",
-      "name": "Ok Zoomer 5.0.0-beta.8 for Minecraft 1.19",
-      "version_number": "5.0.0-beta.8+1.19",
+      "id": "jQ9ADWX2",
+      "name": "9.0.2+Fabric",
+      "version_number": "9.0.2+Fabric",
       "game_versions": [
-        "1.19"
+        "1.21"
       ],
       "loaders": [
+        "fabric",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "7f779ad3f3894bf6c53cfb7e589b735ceb48741daddb6c679cde62f5cdee2695c4ee3273e5dbc8188d2505e16a2168ab5fd66efb29a522c9b0ac247210c9f252",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.8%2B1.19/ok_zoomer-5.0.0-beta.8%2B1.19.jar",
-          "filename": "ok_zoomer-5.0.0-beta.8+1.19.jar",
+          "sha512": "de31bfc86caa2b3e6cf8b88e3a3f35c5c8fd6742eac289470670fae0e0d1e70f719321d2ae5c2063eb10b9ec6af3a5b2ca6f9ce26e2e689b9878d0e8f4c6866d",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/jQ9ADWX2/OkZoomer-Fabric-9.0.2.jar",
+          "filename": "OkZoomer-Fabric-9.0.2.jar",
           "primary": true,
-          "size": 259904
+          "size": 393239
+        },
+        {
+          "sha512": "e6bb56c5982d4165a0d88d6b1d3cd03038f9f45086c2145d16758a7f7080c5aa806042c8f86597fb282db133a7e5f559be52068402795a1812d3e9d15b3008a8",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/jQ9ADWX2/OkZoomer-Fabric-9.0.2-sources.jar",
+          "filename": "OkZoomer-Fabric-9.0.2-sources.jar",
+          "primary": false,
+          "size": 59403
         }
       ],
       "dependencies": [
         {
-          "project_id": "qvIfYCYJ",
-          "version_id": "zEy1plMo",
+          "project_id": "P7dR8mSH",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "UuqHBjf9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
+    },
+    {
+      "id": "kvcXLIhw",
+      "name": "Ok Zoomer 5.0.0-beta.1 for Minecraft 21w03a",
+      "version_number": "5.0.0-beta.1+21w03a",
+      "game_versions": [
+        "21w03a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2a911c8080c47bb27f8e93126c060160412de3636e42f377e2ff167a6bf3610aa1bafb40fe4e6f7dd40a4f0e2ae67fee82e2fc31bcc03b69dee70db326a1a978",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.1%2B21w03a/okzoomer-5.0.0-beta.1%2B21w03a.jar",
+          "filename": "okzoomer-5.0.0-beta.1+21w03a.jar",
+          "primary": true,
+          "size": 642323
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "nu6gjAtJ",
@@ -888,204 +968,127 @@
       ]
     },
     {
-      "id": "CwMl84DF",
-      "name": "Ok Zoomer 5.0.0-beta.6 for Minecraft 1.18.2",
-      "version_number": "5.0.0-beta.6+1.18.2",
+      "id": "oOWfXNvO",
+      "name": "Ok Zoomer 5.0.0-beta.10 for Minecraft 1.19.3",
+      "version_number": "5.0.0-beta.10+1.19.3",
       "game_versions": [
-        "1.18.2"
+        "1.19.3"
       ],
       "loaders": [
-        "fabric"
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "ae793874aaf145e73038c4a2db9294425c9aadb9a9f1d55baac04bec5087791763253b47576139a8daaec52d8149d2ffde4aa70bde88af59db942a876e931f6f",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.6%2B1.18.2/okzoomer-5.0.0-beta.6%2B1.18.2.jar",
-          "filename": "okzoomer-5.0.0-beta.6+1.18.2.jar",
+          "sha512": "d2fc17e810470c6dee64e6325e7457d97e81fcb17ab63e9ab651a0a26c2482ed244ace575eb6ab2c2ddd13a089b7a10af33de89ef6ca3c75174ed5a280bc6117",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/oOWfXNvO/ok_zoomer-5.0.0-beta.10%2B1.19.3.jar",
+          "filename": "ok_zoomer-5.0.0-beta.10+1.19.3.jar",
           "primary": true,
-          "size": 448237
+          "size": 270470
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
+          "project_id": "qvIfYCYJ",
+          "version_id": "eaoB99I6",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "P6ld16qa",
-      "name": "Ok Zoomer 5.0.0-beta.5 for Minecraft 1.18.2",
-      "version_number": "5.0.0-beta.5+1.18.2",
+      "id": "ri1cYvhK",
+      "name": "9.0.0+Fabric",
+      "version_number": "9.0.0+Fabric",
       "game_versions": [
-        "1.18.2"
+        "1.21-pre1",
+        "1.21-pre2",
+        "1.21-pre3",
+        "1.21-pre4",
+        "1.21-rc1",
+        "1.21"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "303c86fc052aaa03425ccc5411bdde7423825d254179a56161e1b11d16057328c293754ffa38d0d7d580cabf4ee646dce5a2d0087551ee3fbfb99bca4b7b23e7",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.5%2B1.18.2/okzoomer-5.0.0-beta.5%2B1.18.2.jar",
-          "filename": "okzoomer-5.0.0-beta.5+1.18.2.jar",
+          "sha512": "1e724b09b8888bebcfee11f793b4fafc8da34514380e282c92b44dd49bd2e884ac3347c004ddbd75d4d22500eba509ad1e1dd05ba62fda81dd7e0b649e3774fd",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/ri1cYvhK/OkZoomer-Fabric-9.0.0.jar",
+          "filename": "OkZoomer-Fabric-9.0.0.jar",
           "primary": true,
-          "size": 404024
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
+          "size": 513553
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": "nVxObSbX",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "FNsXFknk",
-      "name": "Ok Zoomer 5.0.0-beta.4 for Minecraft 1.18.2",
-      "version_number": "5.0.0-beta.4+1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "cbd0f0a9189b1d513924b44ca60680c8725ebe375bbea4fda82d68cb8e5a3ea4515b1f4562f0fca6105a6886ad19f829868bcce4e25c58940857577185bc2332",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.4%2B1.18.2/okzoomer-5.0.0-beta.4%2B1.18.2.jar",
-          "filename": "okzoomer-5.0.0-beta.4+1.18.2.jar",
-          "primary": true,
-          "size": 403847
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "7BiQSUvg",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "4JrWqhWw",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "esyBJPbU",
-      "name": "Ok Zoomer 5.0.0-beta.3 for Minecraft 1.17.1",
-      "version_number": "5.0.0-beta.3+1.17.1",
-      "game_versions": [
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ed596d268dd6a4cd84cfaa58baa4f4a1ae3f2a96d14af0c928a0602a90a9e001cedc28496f9a977231b54508d194a92b4b51151be681af54e05e08705ada0ea6",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.3%2B1.17.1/okzoomer-5.0.0-beta.3%2B1.17.1.jar",
-          "filename": "okzoomer-5.0.0-beta.3+1.17.1.jar",
-          "primary": true,
-          "size": 269759
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "7kh2ofyR",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "RS6s817x",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "XQ6sAlpr",
-      "name": "Ok Zoomer 5.0.0-beta.2 for Minecraft 1.17",
-      "version_number": "5.0.0-beta.2+1.17",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "5a94b1deca674ed6b569d505f2e27d42b53a85bbde860851a821e8743501844e3f264e039e05008df7305912b6f256398ceca581585822bd8ffbaa1c66cd93bd",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.2%2B1.17/okzoomer-5.0.0-beta.2%2B1.17.jar",
-          "filename": "okzoomer-5.0.0-beta.2+1.17.jar",
+          "sha512": "36b4a8580fb74a3dcd5f2f2dd46c54eac4598180066a08d793046274c388fbc2916b394d2baa47546192f2de095298e399ec4aecd09f24461f6ffde550116f5d",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/ri1cYvhK/OkZoomer-Fabric-9.0.0-sources.jar",
+          "filename": "OkZoomer-Fabric-9.0.0-sources.jar",
           "primary": false,
-          "size": 492248
+          "size": 62691
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "UuqHBjf9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
     },
     {
-      "id": "kvcXLIhw",
-      "name": "Ok Zoomer 5.0.0-beta.1 for Minecraft 21w03a",
-      "version_number": "5.0.0-beta.1+21w03a",
+      "id": "vNZwWPKn",
+      "name": "Ok Zoomer 5.0.0-beta.9 for Minecraft 1.19",
+      "version_number": "5.0.0-beta.9+1.19",
       "game_versions": [
-        "21w03a"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
-        "fabric"
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "2a911c8080c47bb27f8e93126c060160412de3636e42f377e2ff167a6bf3610aa1bafb40fe4e6f7dd40a4f0e2ae67fee82e2fc31bcc03b69dee70db326a1a978",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.1%2B21w03a/okzoomer-5.0.0-beta.1%2B21w03a.jar",
-          "filename": "okzoomer-5.0.0-beta.1+21w03a.jar",
+          "sha512": "5c01248271181b74df0ac2a1f75be483adb9063db91eab294b16a672c3e4c3d21c796ad264e027ee4ac9d7a585c75d7fe3caebc46024129db6deae55602a57cc",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.9%2B1.19/ok_zoomer-5.0.0-beta.9%2B1.19.jar",
+          "filename": "ok_zoomer-5.0.0-beta.9+1.19.jar",
           "primary": true,
-          "size": 642323
+          "size": 259906
         }
       ],
-      "dependencies": []
-    },
-    {
-      "id": "L7TmfftT",
-      "name": "Ok Zoomer 4.0.1 for Minecraft 1.16.2",
-      "version_number": "4.0.1+1.16.2",
-      "game_versions": [
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "13bf69c9103ba640a402b907fe775ddfd8ab6ec30e53f2a00cda5d8f3d6c9b99be89ce86ffb384f0caeb62c755e286e7ae45747d69c605047d7492f93300a540",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/4.0.1%2B1.16.2/okzoomer-4.0.1%2B1.16.2.jar",
-          "filename": "okzoomer-4.0.1+1.16.2.jar",
-          "primary": true,
-          "size": 611285
+          "project_id": "UuqHBjf9",
+          "version_id": "TRRiyJgc",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "ddaofVmY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "oU5qfeR6",
+          "file_name": null,
+          "dependency_type": "optional"
         }
-      ],
-      "dependencies": []
+      ]
     },
     {
       "id": "vOWtI3gy",
@@ -1109,48 +1112,45 @@
       "dependencies": []
     },
     {
-      "id": "78Hjm4bd",
-      "name": "Ok Zoomer 4.0.0 for Minecraft 1.15.2",
-      "version_number": "4.0.0+1.15.2",
+      "id": "wTjuReJe",
+      "name": "5.0.2+Quilt",
+      "version_number": "5.0.2+Quilt",
       "game_versions": [
-        "1.15",
-        "1.15.1",
-        "1.15.2"
+        "1.20.1"
       ],
       "loaders": [
-        "fabric"
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "1fe9463b10b8a4a2bbb3ae1cc5268294ea3b97d15d4fc8e3c3908916cbad79e66e0bc8f081eaf4e24b3543ffd6283eb9b8cec6b2f9e4a404354f64eb3f0f4a2b",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/4.0.0%2B1.15.2/okzoomer-4.0.0%2B1.15.2.jar",
-          "filename": "okzoomer-4.0.0+1.15.2.jar",
+          "sha512": "fd13051b2f719b345499d84476db958275ee9b929d8a6447297ed1de7ffa7779caecbe2dfbbf07ce73b37dceccadd8f4e1a55fe165583c27b82054b199401f2b",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/wTjuReJe/OkZoomer-Quilt-5.0.2.jar",
+          "filename": "OkZoomer-Quilt-5.0.2.jar",
           "primary": true,
-          "size": 594809
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "KK5vv9Ca",
-      "name": "Ok Zoomer 4.0.0 for Minecraft 1.16.2",
-      "version_number": "4.0.0+1.16.2",
-      "game_versions": [
-        "1.16.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+          "size": 296877
+        },
         {
-          "sha512": "978f0ea28dfb05800d7eb4931356bf0211dba09071f8f5ede12c91da2018ce497ca07fcdf9ec4f6c097d8bf2af895f782703be483a5908fb086a0bd160a2c6dd",
-          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/4.0.0%2B1.16.2/okzoomer-4.0.0%2B1.16.2.jar",
-          "filename": "okzoomer-4.0.0+1.16.2.jar",
-          "primary": true,
-          "size": 611848
+          "sha512": "8298099db0a472a27bd9ee043a22325af8d04d4b732722f52a3c8031d364d7a3421317aea99369ddff378b362c2c07e80ba36a83224adf8eba5dbc1e6dc61d87",
+          "url": "https://cdn.modrinth.com/data/aXf2OSFU/versions/wTjuReJe/OkZoomer-Quilt-5.0.2-sources.jar",
+          "filename": "OkZoomer-Quilt-5.0.2-sources.jar",
+          "primary": false,
+          "size": 60063
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "UuqHBjf9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     }
   ]
 }

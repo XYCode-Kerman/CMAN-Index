@@ -5,27 +5,6 @@
   "description": "Make minor tweaks to chat, including collapse repeated messages, timestamps",
   "versions": [
     {
-      "id": "fLidyUG7",
-      "name": "1.1.0",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d863a0cd3519cfd173d31019088f4f51d2088295c66ecc435b17ee3d215add6d3787322c439f0770bf1143e12c7272e273ac80d94c06dfc7274c5b27fde1a173",
-          "url": "https://cdn.modrinth.com/data/kQuSdlQy/versions/fLidyUG7/tweaks_not_found-1.1.0%2B1.19.jar",
-          "filename": "tweaks_not_found-1.1.0+1.19.jar",
-          "primary": true,
-          "size": 36571
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "cnVJg3VK",
       "name": "1.0.1",
       "version_number": "1.0.1",
@@ -46,18 +25,39 @@
       ],
       "dependencies": [
         {
-          "project_id": "ccKDOlHs",
-          "version_id": "yGLYmVnT",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "oU5qfeR6",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": "yGLYmVnT",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
+    },
+    {
+      "id": "fLidyUG7",
+      "name": "1.1.0",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d863a0cd3519cfd173d31019088f4f51d2088295c66ecc435b17ee3d215add6d3787322c439f0770bf1143e12c7272e273ac80d94c06dfc7274c5b27fde1a173",
+          "url": "https://cdn.modrinth.com/data/kQuSdlQy/versions/fLidyUG7/tweaks_not_found-1.1.0%2B1.19.jar",
+          "filename": "tweaks_not_found-1.1.0+1.19.jar",
+          "primary": true,
+          "size": 36571
+        }
+      ],
+      "dependencies": []
     }
   ]
 }

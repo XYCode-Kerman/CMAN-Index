@@ -5,6 +5,81 @@
   "description": "このMODはゲーム内チャットに日本語IMEを追加します。チャットにローマ字を入力することで、漢字とひらがなの変換候補が表示されます。The mod adds an IME for Japanese language to the game. When you enter text in romaji in the chat, the mod will offer you suggestions in kanji and hiragana.",
   "versions": [
     {
+      "id": "7UbEy648",
+      "name": "Japanese IME (JIME) 1.0-ALPHA+1.20-1.20.1",
+      "version_number": "1.0-ALPHA",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "cf72598d9cfca926320a06daddde16e5f17bb63313e606aab1da1421214f72057bc1452a2b14db13cf91805c57b33d58669a3e042ae174e7eeb0f6c02356a5fa",
+          "url": "https://cdn.modrinth.com/data/Ggc20boo/versions/7UbEy648/jime-1.0-ALPHA%2B1.20.x.jar",
+          "filename": "jime-1.0-ALPHA+1.20.x.jar",
+          "primary": true,
+          "size": 35160
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "tyANotOf",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "Ag9HmPGI",
+      "name": "Japanese IME (JIME) 1.0.0+1.20-1.20.4",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c4c15d476ea377ae5fa57ad51f66180362ae23b8a30e7ec92c7dc6476f68effa565b9fababd3e9733afb86c143352a8141cdce9de5425f9f886f846c7ffbb574",
+          "url": "https://cdn.modrinth.com/data/Ggc20boo/versions/Ag9HmPGI/jime-1.0.0%2B1.20-1.20.4.jar",
+          "filename": "jime-1.0.0+1.20-1.20.4.jar",
+          "primary": true,
+          "size": 90411
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vLGDpLdc",
+          "version_id": "IJbS3vg9",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "tyANotOf",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "kcMeGISq",
       "name": "Japanese IME (JIME) 1.0.2+1.20-1.20.4",
       "version_number": "1.0.2+fabric-1.20.4",
@@ -68,81 +143,6 @@
         }
       ],
       "dependencies": [
-        {
-          "project_id": "tyANotOf",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "Ag9HmPGI",
-      "name": "Japanese IME (JIME) 1.0.0+1.20-1.20.4",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "c4c15d476ea377ae5fa57ad51f66180362ae23b8a30e7ec92c7dc6476f68effa565b9fababd3e9733afb86c143352a8141cdce9de5425f9f886f846c7ffbb574",
-          "url": "https://cdn.modrinth.com/data/Ggc20boo/versions/Ag9HmPGI/jime-1.0.0%2B1.20-1.20.4.jar",
-          "filename": "jime-1.0.0+1.20-1.20.4.jar",
-          "primary": true,
-          "size": 90411
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "tyANotOf",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "vLGDpLdc",
-          "version_id": "IJbS3vg9",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "7UbEy648",
-      "name": "Japanese IME (JIME) 1.0-ALPHA+1.20-1.20.1",
-      "version_number": "1.0-ALPHA",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "cf72598d9cfca926320a06daddde16e5f17bb63313e606aab1da1421214f72057bc1452a2b14db13cf91805c57b33d58669a3e042ae174e7eeb0f6c02356a5fa",
-          "url": "https://cdn.modrinth.com/data/Ggc20boo/versions/7UbEy648/jime-1.0-ALPHA%2B1.20.x.jar",
-          "filename": "jime-1.0-ALPHA+1.20.x.jar",
-          "primary": true,
-          "size": 35160
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "tyANotOf",
           "version_id": null,

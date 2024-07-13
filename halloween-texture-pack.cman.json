@@ -5,6 +5,52 @@
   "description": "A port of the Legacy Console Edition Halloween pack.",
   "versions": [
     {
+      "id": "WAFIPxWW",
+      "name": "HTP v1.0",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "5436958e3e411c1c8fe054684d6dc6d368330e29e61eaa9a664cb63c271250928ed5c1f5191d0e00812edfed45b0f33e92cb0b8ed7ef8960dd5b7104818edc5e",
+          "url": "https://cdn.modrinth.com/data/cBQO52Gn/versions/WAFIPxWW/halloween.zip",
+          "filename": "halloween.zip",
+          "primary": true,
+          "size": 17056294
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "4I1XuqiY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "3qAYkBMB",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "vQT0PUS3",
       "name": "HTP v1.1",
       "version_number": "1.1",
@@ -39,51 +85,11 @@
       ],
       "dependencies": [
         {
-          "project_id": "3qAYkBMB",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "4I1XuqiY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "BVzZfTc1",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "WAFIPxWW",
-      "name": "HTP v1.0",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4",
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "5436958e3e411c1c8fe054684d6dc6d368330e29e61eaa9a664cb63c271250928ed5c1f5191d0e00812edfed45b0f33e92cb0b8ed7ef8960dd5b7104818edc5e",
-          "url": "https://cdn.modrinth.com/data/cBQO52Gn/versions/WAFIPxWW/halloween.zip",
-          "filename": "halloween.zip",
-          "primary": true,
-          "size": 17056294
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "3qAYkBMB",
           "version_id": null,
@@ -92,12 +98,6 @@
         },
         {
           "project_id": "4I1XuqiY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "BVzZfTc1",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"

@@ -42,6 +42,69 @@
       ]
     },
     {
+      "id": "S7yJ5BiN",
+      "name": "1.0.2+1.19.x",
+      "version_number": "1.0.2+1.19.x",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "818746423c4aa85a951164377395a3f5768b8cb35b406613db8acbf2a255c0f7f6c35a9a9e6d7d57ff4dce5ab463ee9a06474c0c54d88c767728cd6a424ab586",
+          "url": "https://cdn.modrinth.com/data/Di6KteGa/versions/1.0.2%2B1.19.x/colorfulanvils-1.0.2%2B1.19.1.jar",
+          "filename": "colorfulanvils-1.0.2+1.19.1.jar",
+          "primary": true,
+          "size": 6442020
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "aGLXaRr6",
+      "name": "1.1.0+1.19.x",
+      "version_number": "1.1.0+1.19.x",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "014467131ba6f26611c7eb18e4908296d074fd81bfb0688dd7cd917217fa4285c5165879c5db408ca1c703cc506df02d3ca79c5383517d400f3cba49cd518246",
+          "url": "https://cdn.modrinth.com/data/Di6KteGa/versions/aGLXaRr6/colorfulanvils-1.1.0%2B1.19.x.jar",
+          "filename": "colorfulanvils-1.1.0+1.19.x.jar",
+          "primary": true,
+          "size": 6743427
+        },
+        {
+          "sha512": "8b32d83f0b1eee1d7bb1be19e2af17203eee7a026bbb12cd1bb5768d7697827def53c67c5a107b377ff23ffff1832f1759e574c8a3f979e3930cc07658f69f2e",
+          "url": "https://cdn.modrinth.com/data/Di6KteGa/versions/aGLXaRr6/colorfulanvils-1.1.0%2B1.19.x-sources.jar",
+          "filename": "colorfulanvils-1.1.0+1.19.x-sources.jar",
+          "primary": false,
+          "size": 5343
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": "s10JMAtS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "v5dbug2x",
       "name": "1.1.1+1.19.x",
       "version_number": "1.1.1+1.19.x",
@@ -118,69 +181,6 @@
           "dependency_type": "required"
         }
       ]
-    },
-    {
-      "id": "aGLXaRr6",
-      "name": "1.1.0+1.19.x",
-      "version_number": "1.1.0+1.19.x",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "014467131ba6f26611c7eb18e4908296d074fd81bfb0688dd7cd917217fa4285c5165879c5db408ca1c703cc506df02d3ca79c5383517d400f3cba49cd518246",
-          "url": "https://cdn.modrinth.com/data/Di6KteGa/versions/aGLXaRr6/colorfulanvils-1.1.0%2B1.19.x.jar",
-          "filename": "colorfulanvils-1.1.0+1.19.x.jar",
-          "primary": true,
-          "size": 6743427
-        },
-        {
-          "sha512": "8b32d83f0b1eee1d7bb1be19e2af17203eee7a026bbb12cd1bb5768d7697827def53c67c5a107b377ff23ffff1832f1759e574c8a3f979e3930cc07658f69f2e",
-          "url": "https://cdn.modrinth.com/data/Di6KteGa/versions/aGLXaRr6/colorfulanvils-1.1.0%2B1.19.x-sources.jar",
-          "filename": "colorfulanvils-1.1.0+1.19.x-sources.jar",
-          "primary": false,
-          "size": 5343
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": "s10JMAtS",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "S7yJ5BiN",
-      "name": "1.0.2+1.19.x",
-      "version_number": "1.0.2+1.19.x",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "818746423c4aa85a951164377395a3f5768b8cb35b406613db8acbf2a255c0f7f6c35a9a9e6d7d57ff4dce5ab463ee9a06474c0c54d88c767728cd6a424ab586",
-          "url": "https://cdn.modrinth.com/data/Di6KteGa/versions/1.0.2%2B1.19.x/colorfulanvils-1.0.2%2B1.19.1.jar",
-          "filename": "colorfulanvils-1.0.2+1.19.1.jar",
-          "primary": true,
-          "size": 6442020
-        }
-      ],
-      "dependencies": []
     }
   ]
 }

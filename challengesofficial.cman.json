@@ -5,6 +5,59 @@
   "description": "A library mod that adds challenges to Minecraft.",
   "versions": [
     {
+      "id": "LqaXD4u5",
+      "name": "Challenges Forge 1.20.1 - 1.0",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d78ee93ac14db04f0f7f62282c71f7216a4f8832cc49d8c7bdabbc8ee07727a45f8b29d5c7ff80702ab00b2bd6359555229aafb60b8be5ec3919a8f7aafad318",
+          "url": "https://cdn.modrinth.com/data/1ZFKUTnF/versions/LqaXD4u5/challenges-1.0.jar",
+          "filename": "challenges-1.0.jar",
+          "primary": true,
+          "size": 220655
+        },
+        {
+          "sha512": "fa3bfe5ec8c17eead2e2a7c3e1024562f763bda9c32d764cdb6b75f396e49c9d84541e2d174c70a5e4ce62e735cae5ffa4980b583219539dff3e4ab0d296c78f",
+          "url": "https://cdn.modrinth.com/data/1ZFKUTnF/versions/LqaXD4u5/challenges-1.0-forge-sources.jar",
+          "filename": "challenges-1.0-forge-sources.jar",
+          "primary": false,
+          "size": 181598
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "H3eKhxi7",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LN9BxssP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "Maowq1u9",
       "name": "Challenges Forge 1.20.1 - 1.0.1",
       "version_number": "1.0.1",
@@ -32,7 +85,13 @@
       ],
       "dependencies": [
         {
-          "project_id": "AOEDs9Al",
+          "project_id": "LN9BxssP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -44,7 +103,54 @@
           "dependency_type": "required"
         },
         {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "X1ZnbrWl",
+      "name": "Challenges Fabric 1.20.1 - 1.0",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4506cd970a4aa9eb6d41c909b2034d74adf2a99042e71d0030020eca90d882eb28a707b6522e9ffded60adf743fa5c33803c741e30106345abf9974cd19192bc",
+          "url": "https://cdn.modrinth.com/data/1ZFKUTnF/versions/X1ZnbrWl/challenges-1.0.jar",
+          "filename": "challenges-1.0.jar",
+          "primary": true,
+          "size": 216946
+        },
+        {
+          "sha512": "171472b9246e6583b72e3233f19dbae31fedb98bf38871f848d7eb3073c51ba9f95b119b591d2855208b7a64175309a2e249d296ba985b6522d6c80e1655f147",
+          "url": "https://cdn.modrinth.com/data/1ZFKUTnF/versions/X1ZnbrWl/challenges-1.0-fabric-sources.jar",
+          "filename": "challenges-1.0-fabric-sources.jar",
+          "primary": false,
+          "size": 179321
+        }
+      ],
+      "dependencies": [
+        {
           "project_id": "LN9BxssP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "H3eKhxi7",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -91,54 +197,7 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "H3eKhxi7",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "LqaXD4u5",
-      "name": "Challenges Forge 1.20.1 - 1.0",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "d78ee93ac14db04f0f7f62282c71f7216a4f8832cc49d8c7bdabbc8ee07727a45f8b29d5c7ff80702ab00b2bd6359555229aafb60b8be5ec3919a8f7aafad318",
-          "url": "https://cdn.modrinth.com/data/1ZFKUTnF/versions/LqaXD4u5/challenges-1.0.jar",
-          "filename": "challenges-1.0.jar",
-          "primary": true,
-          "size": 220655
-        },
-        {
-          "sha512": "fa3bfe5ec8c17eead2e2a7c3e1024562f763bda9c32d764cdb6b75f396e49c9d84541e2d174c70a5e4ce62e735cae5ffa4980b583219539dff3e4ab0d296c78f",
-          "url": "https://cdn.modrinth.com/data/1ZFKUTnF/versions/LqaXD4u5/challenges-1.0-forge-sources.jar",
-          "filename": "challenges-1.0-forge-sources.jar",
-          "primary": false,
-          "size": 181598
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AOEDs9Al",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -151,65 +210,6 @@
         },
         {
           "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "X1ZnbrWl",
-      "name": "Challenges Fabric 1.20.1 - 1.0",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4506cd970a4aa9eb6d41c909b2034d74adf2a99042e71d0030020eca90d882eb28a707b6522e9ffded60adf743fa5c33803c741e30106345abf9974cd19192bc",
-          "url": "https://cdn.modrinth.com/data/1ZFKUTnF/versions/X1ZnbrWl/challenges-1.0.jar",
-          "filename": "challenges-1.0.jar",
-          "primary": true,
-          "size": 216946
-        },
-        {
-          "sha512": "171472b9246e6583b72e3233f19dbae31fedb98bf38871f848d7eb3073c51ba9f95b119b591d2855208b7a64175309a2e249d296ba985b6522d6c80e1655f147",
-          "url": "https://cdn.modrinth.com/data/1ZFKUTnF/versions/X1ZnbrWl/challenges-1.0-fabric-sources.jar",
-          "filename": "challenges-1.0-fabric-sources.jar",
-          "primary": false,
-          "size": 179321
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "H3eKhxi7",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "AOEDs9Al",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"

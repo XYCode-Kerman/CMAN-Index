@@ -5,40 +5,6 @@
   "description": "This mod is an add-on for the Mystical Agriculture mod. It adds seeds/crops/essences for other mods resources. Check below for a list of all additions for each mod supported.",
   "versions": [
     {
-      "id": "J47LLin1",
-      "name": "Industrial Agriculture 1.19.2-1.9.1",
-      "version_number": "1.9.1",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "3272e3effde710bbe600eb8780f7dce3180afdac802e758c50bfcacea1ce7e3933b2614131ecf3e104857edc09674ad422c6a5a70396cbb8449358235e721e9e",
-          "url": "https://cdn.modrinth.com/data/mCkStePk/versions/J47LLin1/Industrial_Agriculture%5BCore%5D-1.19.2-1.9.1.jar",
-          "filename": "Industrial_Agriculture[Core]-1.19.2-1.9.1.jar",
-          "primary": true,
-          "size": 1112263
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "C95ReXie",
-          "version_id": "u58C5ouW",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "pl0jGXIx",
-          "version_id": "dd97LvLg",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "AuvYUWSq",
       "name": "Industrial Agriculture 1.18.2-1.8.19",
       "version_number": "1.8.19",
@@ -73,6 +39,40 @@
       ]
     },
     {
+      "id": "J47LLin1",
+      "name": "Industrial Agriculture 1.19.2-1.9.1",
+      "version_number": "1.9.1",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "3272e3effde710bbe600eb8780f7dce3180afdac802e758c50bfcacea1ce7e3933b2614131ecf3e104857edc09674ad422c6a5a70396cbb8449358235e721e9e",
+          "url": "https://cdn.modrinth.com/data/mCkStePk/versions/J47LLin1/Industrial_Agriculture%5BCore%5D-1.19.2-1.9.1.jar",
+          "filename": "Industrial_Agriculture[Core]-1.19.2-1.9.1.jar",
+          "primary": true,
+          "size": 1112263
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "pl0jGXIx",
+          "version_id": "dd97LvLg",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "C95ReXie",
+          "version_id": "u58C5ouW",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "ZexI2M3k",
       "name": "Industrial Agriculture 1.16.5-1.8.16",
       "version_number": "1.8.16",
@@ -93,16 +93,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "pl0jGXIx",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "C95ReXie",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "pl0jGXIx",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }

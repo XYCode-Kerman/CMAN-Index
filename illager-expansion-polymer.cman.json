@@ -5,6 +5,29 @@
   "description": "A Fabric Server Side Mod that focuses on expanding content surrounding the mysterious Illagers in Minecraft!",
   "versions": [
     {
+      "id": "1VSQjRCJ",
+      "name": "1.0.0+1.19",
+      "version_number": "1.0.0+1.19",
+      "game_versions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "dcd87660b68f0506ffb0d96438962b5fcd3a7ef5069f21670eb2cd87eea36fdc3f4cc75e2d629f325c091e4d890f7b8a3b21d3c6ad72af2e0119b485d6bc5f51",
+          "url": "https://cdn.modrinth.com/data/zkp424MG/versions/1.0.0%2B1.19/illager_expansion-1.0.0%2B1.19.1%2Bpolymerport.0.jar",
+          "filename": "illager_expansion-1.0.0+1.19.1+polymerport.0.jar",
+          "primary": true,
+          "size": 3553809
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "22BZnofJ",
       "name": "1.3.1+1.21",
       "version_number": "1.3.1+1.21",
@@ -22,6 +45,98 @@
           "filename": "illager_expansion-1.3.1+1.21.jar",
           "primary": true,
           "size": 2196849
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "G8hlgtEk",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "m5NB7FJE",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "L4osRZGw",
+      "name": "1.1.1+1.20.4",
+      "version_number": "1.1.1+1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3037b6d5a2652a37689bae1873368e8f3cc863e4d5d3ee8d7e96f59234d9b1d7cd2e53580a34860191318cc237f777bfda9834646c34f219b235c09d9402ef3b",
+          "url": "https://cdn.modrinth.com/data/zkp424MG/versions/L4osRZGw/illager_expansion-1.1.1%2B1.20.4.jar",
+          "filename": "illager_expansion-1.1.1+1.20.4.jar",
+          "primary": true,
+          "size": 3698462
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "m5NB7FJE",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "G8hlgtEk",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Mvjlcozy",
+      "name": "1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3c112da7fac6cad06616ea772707ba2e24d108b09c5f163ca9328d8ab704fe37474974cafccf929d1e234e8d6b6ec854ff193d4f76777b37a500cfd750aedc06",
+          "url": "https://cdn.modrinth.com/data/zkp424MG/versions/1.0.0/illager_expansion%2Bpolymerport.0-1.0.0.jar",
+          "filename": "illager_expansion+polymerport.0-1.0.0.jar",
+          "primary": true,
+          "size": 3531534
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "WCFEcsZV",
+      "name": "1.2.0+1.20.6",
+      "version_number": "1.2.0+1.20.6",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "07018214484281c89c0d971c2d8850be5cd2db22a49bdcaeadc6699fc4183c0ca2d0752c32e87a79f17848083637c52f82053e01e98ba8eeb2491546d741b970",
+          "url": "https://cdn.modrinth.com/data/zkp424MG/versions/WCFEcsZV/illager_expansion-%601.2.0%2B1.20.6%60.jar",
+          "filename": "illager_expansion-`1.2.0+1.20.6`.jar",
+          "primary": true,
+          "size": 2195929
         }
       ],
       "dependencies": [
@@ -75,41 +190,6 @@
       ]
     },
     {
-      "id": "WCFEcsZV",
-      "name": "1.2.0+1.20.6",
-      "version_number": "1.2.0+1.20.6",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "07018214484281c89c0d971c2d8850be5cd2db22a49bdcaeadc6699fc4183c0ca2d0752c32e87a79f17848083637c52f82053e01e98ba8eeb2491546d741b970",
-          "url": "https://cdn.modrinth.com/data/zkp424MG/versions/WCFEcsZV/illager_expansion-%601.2.0%2B1.20.6%60.jar",
-          "filename": "illager_expansion-`1.2.0+1.20.6`.jar",
-          "primary": true,
-          "size": 2195929
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "G8hlgtEk",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "m5NB7FJE",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "kX4dN7dR",
       "name": "1.1.2+1.20.4",
       "version_number": "1.1.2+1.20.4",
@@ -127,41 +207,6 @@
           "filename": "illager_expansion-1.1.2+1.20.4.jar",
           "primary": true,
           "size": 3698564
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "G8hlgtEk",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "m5NB7FJE",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "L4osRZGw",
-      "name": "1.1.1+1.20.4",
-      "version_number": "1.1.1+1.20.4",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3037b6d5a2652a37689bae1873368e8f3cc863e4d5d3ee8d7e96f59234d9b1d7cd2e53580a34860191318cc237f777bfda9834646c34f219b235c09d9402ef3b",
-          "url": "https://cdn.modrinth.com/data/zkp424MG/versions/L4osRZGw/illager_expansion-1.1.1%2B1.20.4.jar",
-          "filename": "illager_expansion-1.1.1+1.20.4.jar",
-          "primary": true,
-          "size": 3698462
         }
       ],
       "dependencies": [
@@ -213,51 +258,6 @@
           "dependency_type": "optional"
         }
       ]
-    },
-    {
-      "id": "1VSQjRCJ",
-      "name": "1.0.0+1.19",
-      "version_number": "1.0.0+1.19",
-      "game_versions": [
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "dcd87660b68f0506ffb0d96438962b5fcd3a7ef5069f21670eb2cd87eea36fdc3f4cc75e2d629f325c091e4d890f7b8a3b21d3c6ad72af2e0119b485d6bc5f51",
-          "url": "https://cdn.modrinth.com/data/zkp424MG/versions/1.0.0%2B1.19/illager_expansion-1.0.0%2B1.19.1%2Bpolymerport.0.jar",
-          "filename": "illager_expansion-1.0.0+1.19.1+polymerport.0.jar",
-          "primary": true,
-          "size": 3553809
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Mvjlcozy",
-      "name": "1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3c112da7fac6cad06616ea772707ba2e24d108b09c5f163ca9328d8ab704fe37474974cafccf929d1e234e8d6b6ec854ff193d4f76777b37a500cfd750aedc06",
-          "url": "https://cdn.modrinth.com/data/zkp424MG/versions/1.0.0/illager_expansion%2Bpolymerport.0-1.0.0.jar",
-          "filename": "illager_expansion+polymerport.0-1.0.0.jar",
-          "primary": true,
-          "size": 3531534
-        }
-      ],
-      "dependencies": []
     }
   ]
 }

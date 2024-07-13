@@ -5,9 +5,9 @@
   "description": "Improvements and fixes for SoulForge",
   "versions": [
     {
-      "id": "bI0EhFHI",
-      "name": "0.9",
-      "version_number": "0.9",
+      "id": "7KnfSYT4",
+      "name": "0.1-SNAPSHOT",
+      "version_number": "0.1-SNAPSHOT",
       "game_versions": [
         "1.20.1"
       ],
@@ -16,20 +16,14 @@
       ],
       "files": [
         {
-          "sha512": "a91de6e85ae960bf0f7d221515f694e6b27e20a2d83c86d9d151a2368233c200585d0c0b0392a41acf9d863fbde330a47acc6daa6f460b23f59102eab1b476fd",
-          "url": "https://cdn.modrinth.com/data/bXkSqUUH/versions/bI0EhFHI/SoulForgeAdditions-0.9-SNAPSHOT.jar",
-          "filename": "SoulForgeAdditions-0.9-SNAPSHOT.jar",
+          "sha512": "16762efed8eb175c2e6493d5a3c3ae5abedb9592c333e259763a3f8a8107152ccf85764a105920a82459893f72b7a16632b1b31924285aa9dfecbe5a67092b8b",
+          "url": "https://cdn.modrinth.com/data/bXkSqUUH/versions/7KnfSYT4/SoulForgeAdditions-0.1-SNAPSHOT.jar",
+          "filename": "SoulForgeAdditions-0.1-SNAPSHOT.jar",
           "primary": true,
-          "size": 99672
+          "size": 5820
         }
       ],
       "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "CnCj4LpB",
           "version_id": null,
@@ -37,7 +31,7 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
+          "project_id": "EsAfCjCV",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -45,9 +39,9 @@
       ]
     },
     {
-      "id": "VldC5QPu",
-      "name": "0.8",
-      "version_number": "0.8",
+      "id": "KKyi4xJp",
+      "name": "0.2-SNAPSHOT",
+      "version_number": "0.2-SNAPSHOT",
       "game_versions": [
         "1.20.1"
       ],
@@ -56,22 +50,50 @@
       ],
       "files": [
         {
-          "sha512": "2c3402e6bd9e8f3779ccef2e7ee90eeb3d892c62de484d265cd905f9e7b590a7561e802356171d00a48dceaa1eae29aa00408d2b1e714d984bb35884ab5ce059",
-          "url": "https://cdn.modrinth.com/data/bXkSqUUH/versions/VldC5QPu/SoulForgeAdditions-0.8-SNAPSHOT.jar",
-          "filename": "SoulForgeAdditions-0.8-SNAPSHOT.jar",
+          "sha512": "50371a5f022af4d060c3f30199dcb8d722b6c778e07928b5ef8a3df44962ff693ce0acb66c3264df05f8d00705670b7c5d8fa4de0c1e3f62e9a9efdb81aad96b",
+          "url": "https://cdn.modrinth.com/data/bXkSqUUH/versions/KKyi4xJp/SoulForgeAdditions-0.2-SNAPSHOT.jar",
+          "filename": "SoulForgeAdditions-0.2-SNAPSHOT.jar",
           "primary": true,
-          "size": 101058
+          "size": 87176
         }
       ],
       "dependencies": [
         {
-          "project_id": "mOgUt4GM",
+          "project_id": "CnCj4LpB",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "EsAfCjCV",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
+        }
+      ]
+    },
+    {
+      "id": "RKENB4JO",
+      "name": "0.3",
+      "version_number": "0.3",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
         {
-          "project_id": "9s6osm5g",
+          "sha512": "e7c9027825e671c98720c4f979a1b044c2a62ee40d7019ce5c1027d577f837595cad4b26e9d43994b553d2b2a4fc81b510f82e5c7eaa4f9f3ce8b51244c534dc",
+          "url": "https://cdn.modrinth.com/data/bXkSqUUH/versions/RKENB4JO/SoulForgeAdditions-0.3-SNAPSHOT.jar",
+          "filename": "SoulForgeAdditions-0.3-SNAPSHOT.jar",
+          "primary": true,
+          "size": 89254
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "EsAfCjCV",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -125,6 +147,120 @@
       ]
     },
     {
+      "id": "VldC5QPu",
+      "name": "0.8",
+      "version_number": "0.8",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2c3402e6bd9e8f3779ccef2e7ee90eeb3d892c62de484d265cd905f9e7b590a7561e802356171d00a48dceaa1eae29aa00408d2b1e714d984bb35884ab5ce059",
+          "url": "https://cdn.modrinth.com/data/bXkSqUUH/versions/VldC5QPu/SoulForgeAdditions-0.8-SNAPSHOT.jar",
+          "filename": "SoulForgeAdditions-0.8-SNAPSHOT.jar",
+          "primary": true,
+          "size": 101058
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "CnCj4LpB",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "bI0EhFHI",
+      "name": "0.9",
+      "version_number": "0.9",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a91de6e85ae960bf0f7d221515f694e6b27e20a2d83c86d9d151a2368233c200585d0c0b0392a41acf9d863fbde330a47acc6daa6f460b23f59102eab1b476fd",
+          "url": "https://cdn.modrinth.com/data/bXkSqUUH/versions/bI0EhFHI/SoulForgeAdditions-0.9-SNAPSHOT.jar",
+          "filename": "SoulForgeAdditions-0.9-SNAPSHOT.jar",
+          "primary": true,
+          "size": 99672
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "CnCj4LpB",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "fF3HS9eR",
+      "name": "0.5",
+      "version_number": "0.5",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0b4aa436d232416030e7558fe6e6d1e7a23c30866c11672f3f232e71c463b2718f0dcceb73a17d6d1af8954e22fba70d395b8e2370f48a298bf434380b0781de",
+          "url": "https://cdn.modrinth.com/data/bXkSqUUH/versions/fF3HS9eR/SoulForgeAdditions-0.5-SNAPSHOT.jar",
+          "filename": "SoulForgeAdditions-0.5-SNAPSHOT.jar",
+          "primary": true,
+          "size": 88771
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "CnCj4LpB",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "EsAfCjCV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "hxJEGRVU",
       "name": "0.6",
       "version_number": "0.6",
@@ -165,40 +301,6 @@
       ]
     },
     {
-      "id": "fF3HS9eR",
-      "name": "0.5",
-      "version_number": "0.5",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0b4aa436d232416030e7558fe6e6d1e7a23c30866c11672f3f232e71c463b2718f0dcceb73a17d6d1af8954e22fba70d395b8e2370f48a298bf434380b0781de",
-          "url": "https://cdn.modrinth.com/data/bXkSqUUH/versions/fF3HS9eR/SoulForgeAdditions-0.5-SNAPSHOT.jar",
-          "filename": "SoulForgeAdditions-0.5-SNAPSHOT.jar",
-          "primary": true,
-          "size": 88771
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "CnCj4LpB",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "EsAfCjCV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "msQOjeGN",
       "name": "0.4",
       "version_number": "0.4",
@@ -229,108 +331,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "RKENB4JO",
-      "name": "0.3",
-      "version_number": "0.3",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e7c9027825e671c98720c4f979a1b044c2a62ee40d7019ce5c1027d577f837595cad4b26e9d43994b553d2b2a4fc81b510f82e5c7eaa4f9f3ce8b51244c534dc",
-          "url": "https://cdn.modrinth.com/data/bXkSqUUH/versions/RKENB4JO/SoulForgeAdditions-0.3-SNAPSHOT.jar",
-          "filename": "SoulForgeAdditions-0.3-SNAPSHOT.jar",
-          "primary": true,
-          "size": 89254
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "EsAfCjCV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "CnCj4LpB",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "KKyi4xJp",
-      "name": "0.2-SNAPSHOT",
-      "version_number": "0.2-SNAPSHOT",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "50371a5f022af4d060c3f30199dcb8d722b6c778e07928b5ef8a3df44962ff693ce0acb66c3264df05f8d00705670b7c5d8fa4de0c1e3f62e9a9efdb81aad96b",
-          "url": "https://cdn.modrinth.com/data/bXkSqUUH/versions/KKyi4xJp/SoulForgeAdditions-0.2-SNAPSHOT.jar",
-          "filename": "SoulForgeAdditions-0.2-SNAPSHOT.jar",
-          "primary": true,
-          "size": 87176
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "CnCj4LpB",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "EsAfCjCV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "7KnfSYT4",
-      "name": "0.1-SNAPSHOT",
-      "version_number": "0.1-SNAPSHOT",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "16762efed8eb175c2e6493d5a3c3ae5abedb9592c333e259763a3f8a8107152ccf85764a105920a82459893f72b7a16632b1b31924285aa9dfecbe5a67092b8b",
-          "url": "https://cdn.modrinth.com/data/bXkSqUUH/versions/7KnfSYT4/SoulForgeAdditions-0.1-SNAPSHOT.jar",
-          "filename": "SoulForgeAdditions-0.1-SNAPSHOT.jar",
-          "primary": true,
-          "size": 5820
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "CnCj4LpB",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "EsAfCjCV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     }

@@ -5,6 +5,27 @@
   "description": "Add firefly to minecraft.",
   "versions": [
     {
+      "id": "2rvNwqe9",
+      "name": "WildFireFly_1.2_1.19-release",
+      "version_number": "1.2",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "589754a532a945d53fb0226d00ab32ebd4fbcad0386a1419b4b442207a150cd00eab52587d1e01b8fe8635f3316a5f7d0da68ee53ba8e8757f0b68563fb63c3d",
+          "url": "https://cdn.modrinth.com/data/CLsLjOJs/versions/1.2/WildFireFly-1.2-release.jar",
+          "filename": "WildFireFly-1.2-release.jar",
+          "primary": true,
+          "size": 128812
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "ErsaDqNW",
       "name": "WildFirefly_1.2.1_1.19.x-release",
       "version_number": "1.2.1",
@@ -27,39 +48,18 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": "hfsU4hXq",
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
-    },
-    {
-      "id": "2rvNwqe9",
-      "name": "WildFireFly_1.2_1.19-release",
-      "version_number": "1.2",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "589754a532a945d53fb0226d00ab32ebd4fbcad0386a1419b4b442207a150cd00eab52587d1e01b8fe8635f3316a5f7d0da68ee53ba8e8757f0b68563fb63c3d",
-          "url": "https://cdn.modrinth.com/data/CLsLjOJs/versions/1.2/WildFireFly-1.2-release.jar",
-          "filename": "WildFireFly-1.2-release.jar",
-          "primary": true,
-          "size": 128812
-        }
-      ],
-      "dependencies": []
     },
     {
       "id": "RPDDFOlF",
@@ -83,27 +83,6 @@
       "dependencies": []
     },
     {
-      "id": "s4oJWQYW",
-      "name": "WildFirefly_1.0-1.19-release",
-      "version_number": "1.0-release",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "3df19a5e03d94dc392357ca181947e34eb8ab06207abc9e4423a657db3e2aa57a210c53ec747fbed0d2d3134c1445e4a0c6a366a0e0686a0b83cbe9f97fd834f",
-          "url": "https://cdn.modrinth.com/data/CLsLjOJs/versions/1.0-release/WildFireFly-1.0-1.19.jar",
-          "filename": "WildFireFly-1.0-1.19.jar",
-          "primary": true,
-          "size": 116870
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "ceEp1eqQ",
       "name": "Wild Firefly_1.0_1.19_rc2_alpha",
       "version_number": "1.0-beta",
@@ -120,6 +99,27 @@
           "filename": "WildFireFly-1.0-1.19_rc2-alpha.jar",
           "primary": true,
           "size": 116856
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "s4oJWQYW",
+      "name": "WildFirefly_1.0-1.19-release",
+      "version_number": "1.0-release",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "3df19a5e03d94dc392357ca181947e34eb8ab06207abc9e4423a657db3e2aa57a210c53ec747fbed0d2d3134c1445e4a0c6a366a0e0686a0b83cbe9f97fd834f",
+          "url": "https://cdn.modrinth.com/data/CLsLjOJs/versions/1.0-release/WildFireFly-1.0-1.19.jar",
+          "filename": "WildFireFly-1.0-1.19.jar",
+          "primary": true,
+          "size": 116870
         }
       ],
       "dependencies": []

@@ -5,43 +5,98 @@
   "description": "Fire. Water. Food.",
   "versions": [
     {
-      "id": "w7wob3w8",
-      "name": "A Cute Little Crock Pot 1.14.3+1.21",
-      "version_number": "1.14.3+1.21",
+      "id": "1bo5VpLI",
+      "name": "A Cute Little Crock Pot 1.14.1+1.20.1",
+      "version_number": "1.14.1+1.20.1",
       "game_versions": [
-        "1.21"
+        "1.20.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "4e1103fcc8ce817cc7661ede46d58db45caba523faa7c18505e57c7fd98658024512ec009674ebd87b81a9f0cdbfef08d1d577537b6bcc9bdb82e026eb9d2a24",
-          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/w7wob3w8/crockpot-1.14.3%2B1.21.jar",
-          "filename": "crockpot-1.14.3+1.21.jar",
+          "sha512": "abe4f7251b1f649efb429e8463f8f03e324bc823ca34781b7b74c8c5fe6ffb97fb12634c97608d2a3e36dd391bed174ea49bb0b8d6ffe3e650d5e2e6f00469df",
+          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/1bo5VpLI/crockpot-1.14.1%2B1.20.1.jar",
+          "filename": "crockpot-1.14.1+1.20.1.jar",
           "primary": true,
-          "size": 211029
+          "size": 213462
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "2sUZtDjB",
+      "name": "A Cute Little Crock Pot 1.13.1+1.19.3",
+      "version_number": "1.13.1+1.19.3",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "005aa3efe29e84d86b7a201ccf278553ae988abbd511179a95af8c1474bf193b58e49a02ac3ac5268b052925f5df1cef090c8c644846202637d5de9d6572fbb3",
+          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/2sUZtDjB/crockpot-1.13.1%2B1.19.3.jar",
+          "filename": "crockpot-1.13.1+1.19.3.jar",
+          "primary": true,
+          "size": 222262
         }
       ],
       "dependencies": [
         {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "EsAfCjCV",
+          "version_id": "sLboyqjL",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "9s6osm5g",
-          "version_id": null,
+          "version_id": "w2VZSLTf",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
           "project_id": "6AQIaxuO",
-          "version_id": null,
+          "version_id": "yyJe6h8w",
           "file_name": null,
           "dependency_type": "optional"
-        },
+        }
+      ]
+    },
+    {
+      "id": "4g5Ut45G",
+      "name": "A Cute Little Crock Pot 1.12.2+1.19.3",
+      "version_number": "1.12.2+1.19.3",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
         {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
+          "sha512": "a323cea7406b7127b47c7e4b68deba0aab91391ffe53b6a98edb0ae64f72022fcfaeb3bfa1cd6dcb8a60dc60af98033ca18e86dd1dea9f200035c651d9dc5f1c",
+          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/4g5Ut45G/crockpot-1.12.2%2B1.19.3.jar",
+          "filename": "crockpot-1.12.2+1.19.3.jar",
+          "primary": true,
+          "size": 217843
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "EsAfCjCV",
           "version_id": null,
@@ -49,10 +104,28 @@
           "dependency_type": "optional"
         },
         {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "P7dR8mSH",
-          "version_id": null,
+          "version_id": "jyKnHEDY",
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "w2VZSLTf",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "6AQIaxuO",
+          "version_id": "yyJe6h8w",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -109,34 +182,28 @@
       ]
     },
     {
-      "id": "pvmOzHat",
-      "name": "A Cute Little Crock Pot 1.14.1+1.20.2",
-      "version_number": "1.14.1+1.20.2",
+      "id": "7wiiuAg7",
+      "name": "A Cute Little Crock Pot 1.13.1+1.18.2",
+      "version_number": "1.13.1+1.18.2",
       "game_versions": [
-        "1.20.2"
+        "1.18.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "b7079751cf0c848e6a9376c4c6e405758eba737d231d59276338bc04babe8a16e90c1ded792ba0e83df04bbc67de5783d739fb5949f3741da98f74de17422c69",
-          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/pvmOzHat/crockpot-1.14.1%2B1.20.2.jar",
-          "filename": "crockpot-1.14.1+1.20.2.jar",
+          "sha512": "f5d73703c442e50198b99f4ca2b896b996623aa3524471a57371ff70f449ee79fb3114dc3f07bacef21ad0da825e27db0dfeb133fc563845c94413c297ebcdd0",
+          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/7wiiuAg7/crockpot-1.13.1%2B1.18.2.jar",
+          "filename": "crockpot-1.13.1+1.18.2.jar",
           "primary": true,
-          "size": 213728
+          "size": 221929
         }
       ],
       "dependencies": [
         {
-          "project_id": "6AQIaxuO",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "9s6osm5g",
-          "version_id": null,
+          "version_id": "BLMp2TRt",
           "file_name": null,
           "dependency_type": "optional"
         },
@@ -151,6 +218,280 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "6AQIaxuO",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "AZpnKew2",
+      "name": "A Cute Little Crock Pot 1.13.3+1.19.4",
+      "version_number": "1.13.3+1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "006f6ca11385fe3979d5f25da1576bd07012c25a447ca8c7711cd2b8f43a58b3213fc224f7777fae31fbbafe5516a6af481568bd9e909132c114dbc4df97e812",
+          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/AZpnKew2/crockpot-1.13.3%2B1.19.4.jar",
+          "filename": "crockpot-1.13.3+1.19.4.jar",
+          "primary": true,
+          "size": 217014
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "EsAfCjCV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "6AQIaxuO",
+          "version_id": "gqdD7vMu",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "mhFzbEwE",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ESb2rfpz",
+      "name": "A Cute Little Crock Pot 1.12.0+1.18.2",
+      "version_number": "1.12.0+1.18.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "84620c1b60e7ba11a51c32fc5f2bdae9d2bbda057797f4ff6db333d67cf76e2d0ddc84d40d6e0611d57687d0e6d27530c98ec94fade67aba483972afccf38a62",
+          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/ESb2rfpz/crockpot-1.12.0%2B1.18.2.jar",
+          "filename": "crockpot-1.12.0+1.18.2.jar",
+          "primary": true,
+          "size": 217951
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "6AQIaxuO",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "EsAfCjCV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "HOyyuJvu",
+      "name": "A Cute Little Crock Pot 1.13.0+1.19.2",
+      "version_number": "1.13.0+1.19.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4560ab6733e0d8159742962f2acde0895f4aa0d16369ff6729310990596f07dc27d83a6c7d479d65681fea707afab35aa5bf23d6a833f4eed208d7d665783962",
+          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/HOyyuJvu/crockpot-1.13.0%2B1.19.2.jar",
+          "filename": "crockpot-1.13.0+1.19.2.jar",
+          "primary": true,
+          "size": 221730
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "6AQIaxuO",
+          "version_id": "B1Z37WLi",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "EsAfCjCV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "IsWig7dn",
+      "name": "A Cute Little Crock Pot 1.14.1+1.20.4",
+      "version_number": "1.14.1+1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "bcfbc6d561bd56cee0c80c8397f224dd0f8f22766cfa01833333ea2f71582d18072cb5103d0d13d695ba63d528fe5073e4af28d32343fc3e73987776aee6fd4e",
+          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/IsWig7dn/crockpot-1.14.1%2B1.20.4.jar",
+          "filename": "crockpot-1.14.1+1.20.4.jar",
+          "primary": true,
+          "size": 212760
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "6AQIaxuO",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "EsAfCjCV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "JxKMSi2y",
+      "name": "A Cute Little Crock Pot 1.12.0+1.19.2",
+      "version_number": "1.12.0+1.19.2",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "de292a9eba59077122568c99c4e03ebbeda989b1bc7512faafb6b078a5652413135a706eb26cc25be8cff656f43534f8c6647c18f904a18d28efd0e2fb647844",
+          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/JxKMSi2y/crockpot-1.12.0%2B1.19.x.jar",
+          "filename": "crockpot-1.12.0+1.19.x.jar",
+          "primary": true,
+          "size": 217868
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "6AQIaxuO",
+          "version_id": "B1Z37WLi",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "EsAfCjCV",
+          "version_id": "pIFVoWvG",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -201,43 +542,22 @@
       ]
     },
     {
-      "id": "1bo5VpLI",
-      "name": "A Cute Little Crock Pot 1.14.1+1.20.1",
-      "version_number": "1.14.1+1.20.1",
+      "id": "U4pCmWJC",
+      "name": "A Cute Little Crock Pot 1.14.0+1.19.2",
+      "version_number": "1.14.0+1.19.2",
       "game_versions": [
-        "1.20.1"
+        "1.19.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "abe4f7251b1f649efb429e8463f8f03e324bc823ca34781b7b74c8c5fe6ffb97fb12634c97608d2a3e36dd391bed174ea49bb0b8d6ffe3e650d5e2e6f00469df",
-          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/1bo5VpLI/crockpot-1.14.1%2B1.20.1.jar",
-          "filename": "crockpot-1.14.1+1.20.1.jar",
+          "sha512": "4173eaf790474f4d8e1dd658dc7ca723dafda19485b35cf709d41e705204ba96a498a653f8b9151c208e916d2024dbf86804132d85dc4d5c2aa61b01553b3041",
+          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/U4pCmWJC/crockpot-1.14.0%2B1.19.2.jar",
+          "filename": "crockpot-1.14.0+1.19.2.jar",
           "primary": true,
-          "size": 213462
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "IsWig7dn",
-      "name": "A Cute Little Crock Pot 1.14.1+1.20.4",
-      "version_number": "1.14.1+1.20.4",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "bcfbc6d561bd56cee0c80c8397f224dd0f8f22766cfa01833333ea2f71582d18072cb5103d0d13d695ba63d528fe5073e4af28d32343fc3e73987776aee6fd4e",
-          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/IsWig7dn/crockpot-1.14.1%2B1.20.4.jar",
-          "filename": "crockpot-1.14.1+1.20.4.jar",
-          "primary": true,
-          "size": 212760
+          "size": 212617
         }
       ],
       "dependencies": [
@@ -264,6 +584,209 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "ZRxnXVCD",
+      "name": "A Cute Little Crock Pot 1.13.2+1.20.x",
+      "version_number": "1.13.2+1.20",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8847c0f384b5f589d28975dd71580f70c5f715a60107f0c1611984bf80a62b10f41b7dbb83141facbc718b0358a54e17cda69a71bc2387a21a4737beeaee39b3",
+          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/ZRxnXVCD/crockpot-1.13.2%2B1.20.jar",
+          "filename": "crockpot-1.13.2+1.20.jar",
+          "primary": true,
+          "size": 223346
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "EsAfCjCV",
+          "version_id": "CxnVG86Y",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "6AQIaxuO",
+          "version_id": "ke8WFbJB",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "ZYC10kv8",
+      "name": "A Cute Little Crock Pot 1.13.0+1.19.4",
+      "version_number": "1.13.0+1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9a6bf722ec9ffcdfdc71e4e18bf1d8cd79f1506ea432c3873c5c328e1374fe1c2d1aeaf8fc53b4a6067e0f126739fff0dc551a144a00407a5bd30cef766c9e27",
+          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/ZYC10kv8/crockpot-1.13.0%2B1.19.4.jar",
+          "filename": "crockpot-1.13.0+1.19.4.jar",
+          "primary": true,
+          "size": 222849
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "6AQIaxuO",
+          "version_id": "gqdD7vMu",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "mhFzbEwE",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "EsAfCjCV",
+          "version_id": "qB7KLPo6",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "hxH24s1L",
+      "name": "A Cute Little Crock Pot 1.12.3+1.19.4-pre1",
+      "version_number": "1.12.3+1.19.4-pre1",
+      "game_versions": [
+        "1.19.4-pre1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a125d822ff7650bf167eec2bd150f5208057664261a7235bdd27b6ae166f89faf43cd8f7295824c25f33cabe12b2a8e4098853bdf443e22c4a5326c149459255",
+          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/hxH24s1L/crockpot-1.12.3%2B1.19.4-pre1.jar",
+          "filename": "crockpot-1.12.3+1.19.4-pre1.jar",
+          "primary": true,
+          "size": 198568
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "6AQIaxuO",
+          "version_id": "DJJt318S",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "M3yxljrZ",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "RtaGQNyd",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "nOI7bsDO",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "EsAfCjCV",
+          "version_id": "ntsDU1AP",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "mDWIdDY7",
+      "name": "A Cute Little Crock Pot 1.14.0+1.20.4",
+      "version_number": "1.14.0+1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "13197bd6f2650a08927c680fdca807aab8772e3d4f140cb5c6595f79b988a9af543c813f06e21b261b95b3a1041d45e121b7c081fc719620280393b7efef3fa9",
+          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/mDWIdDY7/crockpot-1.14.0%2B1.20.4.jar",
+          "filename": "crockpot-1.14.0+1.20.4.jar",
+          "primary": true,
+          "size": 212759
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "6AQIaxuO",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         },
         {
           "project_id": "mOgUt4GM",
@@ -320,97 +843,45 @@
       ]
     },
     {
-      "id": "U4pCmWJC",
-      "name": "A Cute Little Crock Pot 1.14.0+1.19.2",
-      "version_number": "1.14.0+1.19.2",
+      "id": "pvmOzHat",
+      "name": "A Cute Little Crock Pot 1.14.1+1.20.2",
+      "version_number": "1.14.1+1.20.2",
       "game_versions": [
-        "1.19.2"
+        "1.20.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "4173eaf790474f4d8e1dd658dc7ca723dafda19485b35cf709d41e705204ba96a498a653f8b9151c208e916d2024dbf86804132d85dc4d5c2aa61b01553b3041",
-          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/U4pCmWJC/crockpot-1.14.0%2B1.19.2.jar",
-          "filename": "crockpot-1.14.0+1.19.2.jar",
+          "sha512": "b7079751cf0c848e6a9376c4c6e405758eba737d231d59276338bc04babe8a16e90c1ded792ba0e83df04bbc67de5783d739fb5949f3741da98f74de17422c69",
+          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/pvmOzHat/crockpot-1.14.1%2B1.20.2.jar",
+          "filename": "crockpot-1.14.1+1.20.2.jar",
           "primary": true,
-          "size": 212617
+          "size": 213728
         }
       ],
       "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "6AQIaxuO",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
         {
           "project_id": "EsAfCjCV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "6AQIaxuO",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "mDWIdDY7",
-      "name": "A Cute Little Crock Pot 1.14.0+1.20.4",
-      "version_number": "1.14.0+1.20.4",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "13197bd6f2650a08927c680fdca807aab8772e3d4f140cb5c6595f79b988a9af543c813f06e21b261b95b3a1041d45e121b7c081fc719620280393b7efef3fa9",
-          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/mDWIdDY7/crockpot-1.14.0%2B1.20.4.jar",
-          "filename": "crockpot-1.14.0+1.20.4.jar",
-          "primary": true,
-          "size": 212759
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "6AQIaxuO",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -491,107 +962,20 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "EsAfCjCV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": "XheZ9iGK",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": "eTCL1uh8",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "AZpnKew2",
-      "name": "A Cute Little Crock Pot 1.13.3+1.19.4",
-      "version_number": "1.13.3+1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "006f6ca11385fe3979d5f25da1576bd07012c25a447ca8c7711cd2b8f43a58b3213fc224f7777fae31fbbafe5516a6af481568bd9e909132c114dbc4df97e812",
-          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/AZpnKew2/crockpot-1.13.3%2B1.19.4.jar",
-          "filename": "crockpot-1.13.3+1.19.4.jar",
-          "primary": true,
-          "size": 217014
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "6AQIaxuO",
-          "version_id": "gqdD7vMu",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "mhFzbEwE",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "EsAfCjCV",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ZRxnXVCD",
-      "name": "A Cute Little Crock Pot 1.13.2+1.20.x",
-      "version_number": "1.13.2+1.20",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8847c0f384b5f589d28975dd71580f70c5f715a60107f0c1611984bf80a62b10f41b7dbb83141facbc718b0358a54e17cda69a71bc2387a21a4737beeaee39b3",
-          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/ZRxnXVCD/crockpot-1.13.2%2B1.20.jar",
-          "filename": "crockpot-1.13.2+1.20.jar",
-          "primary": true,
-          "size": 223346
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "EsAfCjCV",
-          "version_id": "CxnVG86Y",
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
           "file_name": null,
           "dependency_type": "optional"
         },
@@ -600,212 +984,44 @@
           "version_id": "s7VTKfLA",
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "6AQIaxuO",
-          "version_id": "ke8WFbJB",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "eTCL1uh8",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "ZYC10kv8",
-      "name": "A Cute Little Crock Pot 1.13.0+1.19.4",
-      "version_number": "1.13.0+1.19.4",
+      "id": "w7wob3w8",
+      "name": "A Cute Little Crock Pot 1.14.3+1.21",
+      "version_number": "1.14.3+1.21",
       "game_versions": [
-        "1.19.4"
+        "1.21"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "9a6bf722ec9ffcdfdc71e4e18bf1d8cd79f1506ea432c3873c5c328e1374fe1c2d1aeaf8fc53b4a6067e0f126739fff0dc551a144a00407a5bd30cef766c9e27",
-          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/ZYC10kv8/crockpot-1.13.0%2B1.19.4.jar",
-          "filename": "crockpot-1.13.0+1.19.4.jar",
+          "sha512": "4e1103fcc8ce817cc7661ede46d58db45caba523faa7c18505e57c7fd98658024512ec009674ebd87b81a9f0cdbfef08d1d577537b6bcc9bdb82e026eb9d2a24",
+          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/w7wob3w8/crockpot-1.14.3%2B1.21.jar",
+          "filename": "crockpot-1.14.3+1.21.jar",
           "primary": true,
-          "size": 222849
+          "size": 211029
         }
       ],
       "dependencies": [
         {
           "project_id": "6AQIaxuO",
-          "version_id": "gqdD7vMu",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "EsAfCjCV",
-          "version_id": "qB7KLPo6",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "mhFzbEwE",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "2sUZtDjB",
-      "name": "A Cute Little Crock Pot 1.13.1+1.19.3",
-      "version_number": "1.13.1+1.19.3",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "005aa3efe29e84d86b7a201ccf278553ae988abbd511179a95af8c1474bf193b58e49a02ac3ac5268b052925f5df1cef090c8c644846202637d5de9d6572fbb3",
-          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/2sUZtDjB/crockpot-1.13.1%2B1.19.3.jar",
-          "filename": "crockpot-1.13.1+1.19.3.jar",
-          "primary": true,
-          "size": 222262
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "6AQIaxuO",
-          "version_id": "yyJe6h8w",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "w2VZSLTf",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "EsAfCjCV",
-          "version_id": "sLboyqjL",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "7wiiuAg7",
-      "name": "A Cute Little Crock Pot 1.13.1+1.18.2",
-      "version_number": "1.13.1+1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f5d73703c442e50198b99f4ca2b896b996623aa3524471a57371ff70f449ee79fb3114dc3f07bacef21ad0da825e27db0dfeb133fc563845c94413c297ebcdd0",
-          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/7wiiuAg7/crockpot-1.13.1%2B1.18.2.jar",
-          "filename": "crockpot-1.13.1+1.18.2.jar",
-          "primary": true,
-          "size": 221929
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "EsAfCjCV",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
         {
           "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         },
         {
           "project_id": "mOgUt4GM",
           "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "6AQIaxuO",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "HOyyuJvu",
-      "name": "A Cute Little Crock Pot 1.13.0+1.19.2",
-      "version_number": "1.13.0+1.19.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4560ab6733e0d8159742962f2acde0895f4aa0d16369ff6729310990596f07dc27d83a6c7d479d65681fea707afab35aa5bf23d6a833f4eed208d7d665783962",
-          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/HOyyuJvu/crockpot-1.13.0%2B1.19.2.jar",
-          "filename": "crockpot-1.13.0+1.19.2.jar",
-          "primary": true,
-          "size": 221730
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "6AQIaxuO",
-          "version_id": "B1Z37WLi",
           "file_name": null,
           "dependency_type": "optional"
         },
@@ -816,174 +1032,10 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ESb2rfpz",
-      "name": "A Cute Little Crock Pot 1.12.0+1.18.2",
-      "version_number": "1.12.0+1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "84620c1b60e7ba11a51c32fc5f2bdae9d2bbda057797f4ff6db333d67cf76e2d0ddc84d40d6e0611d57687d0e6d27530c98ec94fade67aba483972afccf38a62",
-          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/ESb2rfpz/crockpot-1.12.0%2B1.18.2.jar",
-          "filename": "crockpot-1.12.0+1.18.2.jar",
-          "primary": true,
-          "size": 217951
-        }
-      ],
-      "dependencies": [
-        {
           "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "6AQIaxuO",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "EsAfCjCV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "4g5Ut45G",
-      "name": "A Cute Little Crock Pot 1.12.2+1.19.3",
-      "version_number": "1.12.2+1.19.3",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a323cea7406b7127b47c7e4b68deba0aab91391ffe53b6a98edb0ae64f72022fcfaeb3bfa1cd6dcb8a60dc60af98033ca18e86dd1dea9f200035c651d9dc5f1c",
-          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/4g5Ut45G/crockpot-1.12.2%2B1.19.3.jar",
-          "filename": "crockpot-1.12.2+1.19.3.jar",
-          "primary": true,
-          "size": 217843
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "6AQIaxuO",
-          "version_id": "yyJe6h8w",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "w2VZSLTf",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "EsAfCjCV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "JxKMSi2y",
-      "name": "A Cute Little Crock Pot 1.12.0+1.19.2",
-      "version_number": "1.12.0+1.19.2",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "de292a9eba59077122568c99c4e03ebbeda989b1bc7512faafb6b078a5652413135a706eb26cc25be8cff656f43534f8c6647c18f904a18d28efd0e2fb647844",
-          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/JxKMSi2y/crockpot-1.12.0%2B1.19.x.jar",
-          "filename": "crockpot-1.12.0+1.19.x.jar",
-          "primary": true,
-          "size": 217868
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "6AQIaxuO",
-          "version_id": "B1Z37WLi",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "EsAfCjCV",
-          "version_id": "pIFVoWvG",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -1007,58 +1059,6 @@
         }
       ],
       "dependencies": []
-    },
-    {
-      "id": "hxH24s1L",
-      "name": "A Cute Little Crock Pot 1.12.3+1.19.4-pre1",
-      "version_number": "1.12.3+1.19.4-pre1",
-      "game_versions": [
-        "1.19.4-pre1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a125d822ff7650bf167eec2bd150f5208057664261a7235bdd27b6ae166f89faf43cd8f7295824c25f33cabe12b2a8e4098853bdf443e22c4a5326c149459255",
-          "url": "https://cdn.modrinth.com/data/vLvLjFmc/versions/hxH24s1L/crockpot-1.12.3%2B1.19.4-pre1.jar",
-          "filename": "crockpot-1.12.3+1.19.4-pre1.jar",
-          "primary": true,
-          "size": 198568
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "6AQIaxuO",
-          "version_id": "DJJt318S",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "M3yxljrZ",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "EsAfCjCV",
-          "version_id": "ntsDU1AP",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "nOI7bsDO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "RtaGQNyd",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
     }
   ]
 }

@@ -5,6 +5,34 @@
   "description": "Debug mode for Scriptor Magicae. Makes testing spell creation and generation easier.",
   "versions": [
     {
+      "id": "DHX2OvCi",
+      "name": "Debug Mode",
+      "version_number": "1",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "71cde266d781d856c28f3a3e689580f2d652571865cf5fb651e4fc8822cda9df9d09735bf9f44cabf9642752f53ff84f8a1f3dec71fc67e6b900e15b5371a659",
+          "url": "https://cdn.modrinth.com/data/Fhq3O3Hx/versions/DHX2OvCi/scriptor_debug_mode.zip",
+          "filename": "scriptor_debug_mode.zip",
+          "primary": true,
+          "size": 46713
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "JyJgaOrk",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "fsoPdUsK",
       "name": "Debug Mode Mod for 1.1.4+",
       "version_number": "2",
@@ -60,16 +88,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "JyJgaOrk",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "qdU2QhKa",
           "version_id": null,
           "file_name": null,
           "dependency_type": "incompatible"
+        },
+        {
+          "project_id": "JyJgaOrk",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -102,39 +130,11 @@
       ],
       "dependencies": [
         {
-          "project_id": "JyJgaOrk",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "qdU2QhKa",
           "version_id": null,
           "file_name": null,
           "dependency_type": "incompatible"
-        }
-      ]
-    },
-    {
-      "id": "DHX2OvCi",
-      "name": "Debug Mode",
-      "version_number": "1",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "71cde266d781d856c28f3a3e689580f2d652571865cf5fb651e4fc8822cda9df9d09735bf9f44cabf9642752f53ff84f8a1f3dec71fc67e6b900e15b5371a659",
-          "url": "https://cdn.modrinth.com/data/Fhq3O3Hx/versions/DHX2OvCi/scriptor_debug_mode.zip",
-          "filename": "scriptor_debug_mode.zip",
-          "primary": true,
-          "size": 46713
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "JyJgaOrk",
           "version_id": null,

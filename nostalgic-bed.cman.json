@@ -5,11 +5,12 @@
   "description": "Replaces the modern Bed crafting system with the oldschool nostalgic Red Bed Recipe.",
   "versions": [
     {
-      "id": "iABzHIpW",
-      "name": "v1.1 for 1.21",
-      "version_number": "1.1+mod",
+      "id": "66iErfRd",
+      "name": "v1 for 1.20.5/6",
+      "version_number": "1+mod",
       "game_versions": [
-        "1.21"
+        "1.20.5",
+        "1.20.6"
       ],
       "loaders": [
         "fabric",
@@ -18,11 +19,33 @@
       ],
       "files": [
         {
-          "sha512": "3b681f25aed9074c5161fde4b3b88e124bf926c1d1c5d32c45569c91e4a7af9be6f884e642e1a42acae8db4c36d1a9ebb6cb7cad7c2a133ecb159e847b197a67",
-          "url": "https://cdn.modrinth.com/data/73IDb6tB/versions/iABzHIpW/nostalgic-bed-1.1.jar",
-          "filename": "nostalgic-bed-1.1.jar",
+          "sha512": "7118fe2e5bdd25ec206bd86e0f91ae5dd399378327c66877245ff166b37ce6a930e3fe5eae4b89d04ac5251d51bc88dc537092160eb3519569f8c005b968559b",
+          "url": "https://cdn.modrinth.com/data/73IDb6tB/versions/66iErfRd/back-to-bed%21-1.jar",
+          "filename": "back-to-bed!-1.jar",
           "primary": true,
-          "size": 5080
+          "size": 5017
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "IHmAq7b5",
+      "name": "v1 for 1.20.5/6",
+      "version_number": "1",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "97ccb6f577d3bb8b21069bd515c8fa78387909f98f15276037daf4c11ce11a7d48ae70b0519b6114c6bc538fd4fe13f35991613b96cec6814f94e5c74158b57d",
+          "url": "https://cdn.modrinth.com/data/73IDb6tB/versions/IHmAq7b5/backToBed1.20.5.zip",
+          "filename": "backToBed1.20.5.zip",
+          "primary": true,
+          "size": 3006
         }
       ],
       "dependencies": []
@@ -73,23 +96,24 @@
       "dependencies": []
     },
     {
-      "id": "pMnJbum6",
-      "name": "v1.1 for 1.20.5/6",
-      "version_number": "1.1",
+      "id": "iABzHIpW",
+      "name": "v1.1 for 1.21",
+      "version_number": "1.1+mod",
       "game_versions": [
-        "1.20.5",
-        "1.20.6"
+        "1.21"
       ],
       "loaders": [
-        "datapack"
+        "fabric",
+        "forge",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "97ccb6f577d3bb8b21069bd515c8fa78387909f98f15276037daf4c11ce11a7d48ae70b0519b6114c6bc538fd4fe13f35991613b96cec6814f94e5c74158b57d",
-          "url": "https://cdn.modrinth.com/data/73IDb6tB/versions/pMnJbum6/nostalgicBed1.20.5-6.zip",
-          "filename": "nostalgicBed1.20.5-6.zip",
+          "sha512": "3b681f25aed9074c5161fde4b3b88e124bf926c1d1c5d32c45569c91e4a7af9be6f884e642e1a42acae8db4c36d1a9ebb6cb7cad7c2a133ecb159e847b197a67",
+          "url": "https://cdn.modrinth.com/data/73IDb6tB/versions/iABzHIpW/nostalgic-bed-1.1.jar",
+          "filename": "nostalgic-bed-1.1.jar",
           "primary": true,
-          "size": 3006
+          "size": 5080
         }
       ],
       "dependencies": []
@@ -119,6 +143,28 @@
       "dependencies": []
     },
     {
+      "id": "pMnJbum6",
+      "name": "v1.1 for 1.20.5/6",
+      "version_number": "1.1",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "97ccb6f577d3bb8b21069bd515c8fa78387909f98f15276037daf4c11ce11a7d48ae70b0519b6114c6bc538fd4fe13f35991613b96cec6814f94e5c74158b57d",
+          "url": "https://cdn.modrinth.com/data/73IDb6tB/versions/pMnJbum6/nostalgicBed1.20.5-6.zip",
+          "filename": "nostalgicBed1.20.5-6.zip",
+          "primary": true,
+          "size": 3006
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "uZvqIH9Y",
       "name": "v1.1 for 1.20.3/4",
       "version_number": "1.1",
@@ -136,52 +182,6 @@
           "filename": "nostalgicBed1.20.3-4.zip",
           "primary": true,
           "size": 3007
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "66iErfRd",
-      "name": "v1 for 1.20.5/6",
-      "version_number": "1+mod",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "7118fe2e5bdd25ec206bd86e0f91ae5dd399378327c66877245ff166b37ce6a930e3fe5eae4b89d04ac5251d51bc88dc537092160eb3519569f8c005b968559b",
-          "url": "https://cdn.modrinth.com/data/73IDb6tB/versions/66iErfRd/back-to-bed%21-1.jar",
-          "filename": "back-to-bed!-1.jar",
-          "primary": true,
-          "size": 5017
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "IHmAq7b5",
-      "name": "v1 for 1.20.5/6",
-      "version_number": "1",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "97ccb6f577d3bb8b21069bd515c8fa78387909f98f15276037daf4c11ce11a7d48ae70b0519b6114c6bc538fd4fe13f35991613b96cec6814f94e5c74158b57d",
-          "url": "https://cdn.modrinth.com/data/73IDb6tB/versions/IHmAq7b5/backToBed1.20.5.zip",
-          "filename": "backToBed1.20.5.zip",
-          "primary": true,
-          "size": 3006
         }
       ],
       "dependencies": []

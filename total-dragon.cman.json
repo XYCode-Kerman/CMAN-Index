@@ -5,6 +5,42 @@
   "description": "A fabric mod improving minecraft's end fight 🐲",
   "versions": [
     {
+      "id": "D50Bmtae",
+      "name": "Total Dragon 1.0",
+      "version_number": "v1.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "026c66a9ec8ae72eb1801d81798c68025a05265ff5d21500e46afd4d712b27016368ac25f1f3e75156588922b9d76a4474a35cf27eace96ed2f01044d4c3e700",
+          "url": "https://cdn.modrinth.com/data/FGWvEfgd/versions/D50Bmtae/total-dragon-1.20.1-1.0.jar",
+          "filename": "total-dragon-1.20.1-1.0.jar",
+          "primary": true,
+          "size": 68301
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wGKYL7st",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "GCJObEII",
       "name": "Total Dragon 3.1",
       "version_number": "3.1",
@@ -29,96 +65,6 @@
           "filename": "total-dragon-1.20.4-3.1-sources.jar",
           "primary": false,
           "size": 38278
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "wGKYL7st",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "PCsRLRPb",
-      "name": "Total Dragon 3.0",
-      "version_number": "v3.0",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "c9a747560c092d14ddcac59f1922e0b2027c84e6bfb7d012e719f9506962ae3050f778544956c51b5fbc5c955f967e02f582ef12bd208b997674468038d40561",
-          "url": "https://cdn.modrinth.com/data/FGWvEfgd/versions/PCsRLRPb/total-dragon-1.20.4-3.0.jar",
-          "filename": "total-dragon-1.20.4-3.0.jar",
-          "primary": true,
-          "size": 90751
-        },
-        {
-          "sha512": "69e1ee5bcf3a085a03dd4499888675a109e520d2d32aa43f50b3a9932f110aa4ebddf7c14dd88bde97ac1acbfddc57bf96ea23d46917081a0592e47302fc80c2",
-          "url": "https://cdn.modrinth.com/data/FGWvEfgd/versions/PCsRLRPb/total-dragon-1.20.4-3.0-sources.jar",
-          "filename": "total-dragon-1.20.4-3.0-sources.jar",
-          "primary": false,
-          "size": 38269
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "wGKYL7st",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ccKDOlHs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "w8tYUcUR",
-      "name": "Total Dragon 2.0",
-      "version_number": "v2.0",
-      "game_versions": [
-        "1.20.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2d2318a61ba501169c1a12a46c6192b0e2301fa48233c89a7f0b6b4bde8c8b49fba2cf6cd62ee1a884160dc9c3c92a560a9051bfe46e15c4bc773070fd8a3320",
-          "url": "https://cdn.modrinth.com/data/FGWvEfgd/versions/w8tYUcUR/total-dragon-1.20.3-1.2.jar",
-          "filename": "total-dragon-1.20.3-1.2.jar",
-          "primary": true,
-          "size": 86831
-        },
-        {
-          "sha512": "0d96ea4de7772facf50f735ec02fafa0479a98c77579ed361132dfd539dc90cd1a4d1368b73ac754f88584b8dcc6947955b70fba5f5a023761d4f31b08621ae4",
-          "url": "https://cdn.modrinth.com/data/FGWvEfgd/versions/w8tYUcUR/total-dragon-1.20.3-1.2-sources.jar",
-          "filename": "total-dragon-1.20.3-1.2-sources.jar",
-          "primary": false,
-          "size": 37843
         }
       ],
       "dependencies": [
@@ -167,26 +113,25 @@
       ],
       "dependencies": [
         {
-          "project_id": "wGKYL7st",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "wGKYL7st",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "D50Bmtae",
-      "name": "Total Dragon 1.0",
-      "version_number": "v1.0",
+      "id": "PCsRLRPb",
+      "name": "Total Dragon 3.0",
+      "version_number": "v3.0",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.20.4"
       ],
       "loaders": [
         "fabric",
@@ -194,25 +139,80 @@
       ],
       "files": [
         {
-          "sha512": "026c66a9ec8ae72eb1801d81798c68025a05265ff5d21500e46afd4d712b27016368ac25f1f3e75156588922b9d76a4474a35cf27eace96ed2f01044d4c3e700",
-          "url": "https://cdn.modrinth.com/data/FGWvEfgd/versions/D50Bmtae/total-dragon-1.20.1-1.0.jar",
-          "filename": "total-dragon-1.20.1-1.0.jar",
+          "sha512": "c9a747560c092d14ddcac59f1922e0b2027c84e6bfb7d012e719f9506962ae3050f778544956c51b5fbc5c955f967e02f582ef12bd208b997674468038d40561",
+          "url": "https://cdn.modrinth.com/data/FGWvEfgd/versions/PCsRLRPb/total-dragon-1.20.4-3.0.jar",
+          "filename": "total-dragon-1.20.4-3.0.jar",
           "primary": true,
-          "size": 68301
+          "size": 90751
+        },
+        {
+          "sha512": "69e1ee5bcf3a085a03dd4499888675a109e520d2d32aa43f50b3a9932f110aa4ebddf7c14dd88bde97ac1acbfddc57bf96ea23d46917081a0592e47302fc80c2",
+          "url": "https://cdn.modrinth.com/data/FGWvEfgd/versions/PCsRLRPb/total-dragon-1.20.4-3.0-sources.jar",
+          "filename": "total-dragon-1.20.4-3.0-sources.jar",
+          "primary": false,
+          "size": 38269
         }
       ],
       "dependencies": [
-        {
-          "project_id": "wGKYL7st",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "ccKDOlHs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wGKYL7st",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "w8tYUcUR",
+      "name": "Total Dragon 2.0",
+      "version_number": "v2.0",
+      "game_versions": [
+        "1.20.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2d2318a61ba501169c1a12a46c6192b0e2301fa48233c89a7f0b6b4bde8c8b49fba2cf6cd62ee1a884160dc9c3c92a560a9051bfe46e15c4bc773070fd8a3320",
+          "url": "https://cdn.modrinth.com/data/FGWvEfgd/versions/w8tYUcUR/total-dragon-1.20.3-1.2.jar",
+          "filename": "total-dragon-1.20.3-1.2.jar",
+          "primary": true,
+          "size": 86831
+        },
+        {
+          "sha512": "0d96ea4de7772facf50f735ec02fafa0479a98c77579ed361132dfd539dc90cd1a4d1368b73ac754f88584b8dcc6947955b70fba5f5a023761d4f31b08621ae4",
+          "url": "https://cdn.modrinth.com/data/FGWvEfgd/versions/w8tYUcUR/total-dragon-1.20.3-1.2-sources.jar",
+          "filename": "total-dragon-1.20.3-1.2-sources.jar",
+          "primary": false,
+          "size": 37843
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wGKYL7st",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }

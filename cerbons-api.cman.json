@@ -5,27 +5,34 @@
   "description": "A library mod for CERBON's Minecraft Mods",
   "versions": [
     {
-      "id": "6LOWiGE9",
-      "name": "CerbonsAPI-NeoForge-1.20.4-1.1.1",
-      "version_number": "1.1.1",
+      "id": "15NpMum1",
+      "name": "CerbonsAPI-Fabric-1.20.1-1.1.0",
+      "version_number": "1.1.0",
       "game_versions": [
-        "1.20.4"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
-        "neoforge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "9a1199ffa0d9b5198094ad945c0f282cd0ac9cd700437eb99418467b763e2b5b14aece7363222efb798832f9bb8510e241cf9fd35ab055682db1ee9aca2da384",
-          "url": "https://cdn.modrinth.com/data/GkIc6rRo/versions/6LOWiGE9/CerbonsAPI-NeoForge-1.20.4-1.1.1.jar",
-          "filename": "CerbonsAPI-NeoForge-1.20.4-1.1.1.jar",
+          "sha512": "0b94b6a9fc2361c335cb6e0e9f5779e6aeab1a6d4f75bc6b62a54fb8c15ab24cdced4821648060b33a1a9989aa50cf970b14837a1e008d38cc296281a177a5d1",
+          "url": "https://cdn.modrinth.com/data/GkIc6rRo/versions/15NpMum1/CerbonsAPI-Fabric-1.20.1-1.1.0.jar",
+          "filename": "CerbonsAPI-Fabric-1.20.1-1.1.0.jar",
           "primary": true,
-          "size": 234014
+          "size": 308944
         }
       ],
       "dependencies": [
         {
           "project_id": "GkIc6rRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -49,68 +56,6 @@
           "filename": "CerbonsAPI-Forge-1.20.4-1.1.1.jar",
           "primary": true,
           "size": 232533
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "GkIc6rRo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "NUXmVWKS",
-      "name": "CerbonsAPI-Fabric-1.20.4-1.1.1",
-      "version_number": "1.1.1",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "fc7df7eae3e233a58b1e5988468d0a2a4dff8f1753a19dd48d0dc2265eb9d5df0f31d635ff8f279c1eb25673ab8b5a2964817f7b42d7be0b9147e6b3de0a240e",
-          "url": "https://cdn.modrinth.com/data/GkIc6rRo/versions/NUXmVWKS/CerbonsAPI-Fabric-1.20.4-1.1.1.jar",
-          "filename": "CerbonsAPI-Fabric-1.20.4-1.1.1.jar",
-          "primary": true,
-          "size": 306425
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "GkIc6rRo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "a70yGZAF",
-      "name": "CerbonsAPI-NeoForge-1.20.4-1.1.0",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "daad37c745f154189bae7004e3be09b87a520793b94124a3a2030c547c46d5af0a31a0dc04dec51327b2cd17911184763c176adb5b15bd210b46079a7bef770f",
-          "url": "https://cdn.modrinth.com/data/GkIc6rRo/versions/a70yGZAF/CerbonsAPI-NeoForge-1.20.4-1.1.0.jar",
-          "filename": "CerbonsAPI-NeoForge-1.20.4-1.1.0.jar",
-          "primary": true,
-          "size": 233950
         }
       ],
       "dependencies": [
@@ -151,6 +96,34 @@
       ]
     },
     {
+      "id": "6LOWiGE9",
+      "name": "CerbonsAPI-NeoForge-1.20.4-1.1.1",
+      "version_number": "1.1.1",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "9a1199ffa0d9b5198094ad945c0f282cd0ac9cd700437eb99418467b763e2b5b14aece7363222efb798832f9bb8510e241cf9fd35ab055682db1ee9aca2da384",
+          "url": "https://cdn.modrinth.com/data/GkIc6rRo/versions/6LOWiGE9/CerbonsAPI-NeoForge-1.20.4-1.1.1.jar",
+          "filename": "CerbonsAPI-NeoForge-1.20.4-1.1.1.jar",
+          "primary": true,
+          "size": 234014
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "GkIc6rRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "DJfXmL4O",
       "name": "CerbonsAPI-Fabric-1.20.4-1.1.0",
       "version_number": "1.1.0",
@@ -167,6 +140,40 @@
           "filename": "CerbonsAPI-Fabric-1.20.4-1.1.0.jar",
           "primary": true,
           "size": 306439
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "GkIc6rRo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "NUXmVWKS",
+      "name": "CerbonsAPI-Fabric-1.20.4-1.1.1",
+      "version_number": "1.1.1",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "fc7df7eae3e233a58b1e5988468d0a2a4dff8f1753a19dd48d0dc2265eb9d5df0f31d635ff8f279c1eb25673ab8b5a2964817f7b42d7be0b9147e6b3de0a240e",
+          "url": "https://cdn.modrinth.com/data/GkIc6rRo/versions/NUXmVWKS/CerbonsAPI-Fabric-1.20.4-1.1.1.jar",
+          "filename": "CerbonsAPI-Fabric-1.20.4-1.1.1.jar",
+          "primary": true,
+          "size": 306425
         }
       ],
       "dependencies": [
@@ -215,34 +222,27 @@
       ]
     },
     {
-      "id": "15NpMum1",
-      "name": "CerbonsAPI-Fabric-1.20.1-1.1.0",
+      "id": "a70yGZAF",
+      "name": "CerbonsAPI-NeoForge-1.20.4-1.1.0",
       "version_number": "1.1.0",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.20.4"
       ],
       "loaders": [
-        "fabric"
+        "neoforge"
       ],
       "files": [
         {
-          "sha512": "0b94b6a9fc2361c335cb6e0e9f5779e6aeab1a6d4f75bc6b62a54fb8c15ab24cdced4821648060b33a1a9989aa50cf970b14837a1e008d38cc296281a177a5d1",
-          "url": "https://cdn.modrinth.com/data/GkIc6rRo/versions/15NpMum1/CerbonsAPI-Fabric-1.20.1-1.1.0.jar",
-          "filename": "CerbonsAPI-Fabric-1.20.1-1.1.0.jar",
+          "sha512": "daad37c745f154189bae7004e3be09b87a520793b94124a3a2030c547c46d5af0a31a0dc04dec51327b2cd17911184763c176adb5b15bd210b46079a7bef770f",
+          "url": "https://cdn.modrinth.com/data/GkIc6rRo/versions/a70yGZAF/CerbonsAPI-NeoForge-1.20.4-1.1.0.jar",
+          "filename": "CerbonsAPI-NeoForge-1.20.4-1.1.0.jar",
           "primary": true,
-          "size": 308944
+          "size": 233950
         }
       ],
       "dependencies": [
         {
           "project_id": "GkIc6rRo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"

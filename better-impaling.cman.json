@@ -1,36 +1,9 @@
 {
-  "id": "better-impaling",
+  "id": "m8MF21pg",
   "slug": "better-impaling",
   "name": "Better Impaling",
   "description": "Impaling deals extra damage to mobs touching water or rain, ensuring parity with Bedrock Edition",
   "versions": [
-    {
-      "id": "T7ZVT1E3",
-      "name": "Better Impaling 3.0",
-      "version_number": "3.0",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0c368407f7b3e45d07eeae4452545dd493d2f15184ef45b71f3f217451f3e7e6f2e038a8bdaee4452679ed1fc9d833306ad8a06c8073055095655deae460305c",
-          "url": "https://cdn.modrinth.com/data/m8MF21pg/versions/T7ZVT1E3/betterimpaling-3.0%2B1.21.jar",
-          "filename": "betterimpaling-3.0+1.21.jar",
-          "primary": true,
-          "size": 361161
-        },
-        {
-          "sha512": "b1a78f14c32547059b87678e0c04f73e86d133543d6b163f2a6e7f056768bc416cf3cf846d413322f4e140997ab7dc7953d1161adb2b69c012e02343ca06ee3b",
-          "url": "https://cdn.modrinth.com/data/m8MF21pg/versions/T7ZVT1E3/betterimpaling-3.0%2B1.21-sources.jar",
-          "filename": "betterimpaling-3.0+1.21-sources.jar",
-          "primary": false,
-          "size": 359163
-        }
-      ]
-    },
     {
       "id": "JwqlOp9L",
       "name": "Better Impaling 2.0.8",
@@ -57,7 +30,8 @@
           "primary": false,
           "size": 358503
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "LddPGMVB",
@@ -83,6 +57,49 @@
           "filename": "betterimpaling-2.0.7-sources.jar",
           "primary": false,
           "size": 60228
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "T7ZVT1E3",
+      "name": "Better Impaling 3.0",
+      "version_number": "3.0",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0c368407f7b3e45d07eeae4452545dd493d2f15184ef45b71f3f217451f3e7e6f2e038a8bdaee4452679ed1fc9d833306ad8a06c8073055095655deae460305c",
+          "url": "https://cdn.modrinth.com/data/m8MF21pg/versions/T7ZVT1E3/betterimpaling-3.0%2B1.21.jar",
+          "filename": "betterimpaling-3.0+1.21.jar",
+          "primary": true,
+          "size": 361161
+        },
+        {
+          "sha512": "b1a78f14c32547059b87678e0c04f73e86d133543d6b163f2a6e7f056768bc416cf3cf846d413322f4e140997ab7dc7953d1161adb2b69c012e02343ca06ee3b",
+          "url": "https://cdn.modrinth.com/data/m8MF21pg/versions/T7ZVT1E3/betterimpaling-3.0%2B1.21-sources.jar",
+          "filename": "betterimpaling-3.0+1.21-sources.jar",
+          "primary": false,
+          "size": 359163
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

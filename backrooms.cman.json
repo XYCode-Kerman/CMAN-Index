@@ -5,30 +5,495 @@
   "description": "Experience the mysterious and scary world of the Backrooms in our Minecraft mod. Inspired by Kane Pixels, explore level 0 of this parallel world filled with dangers and adventures. Feel like you're part of the legend and never want to leave.",
   "versions": [
     {
-      "id": "zH1EUDSt",
-      "name": "The Backrooms 0.2.2",
-      "version_number": "0.2.2",
+      "id": "27SDuvBr",
+      "name": "Beta B0.1.4",
+      "version_number": "B-B0.1.4",
       "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "71f9802b0435f6019ee9fb5be45f2def24b984942aba406f05c9af620c81ad4c9f7b764814b9261764a37adf50c39353c76005f75dc837d10c2e89433625b7e0",
+          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/27SDuvBr/thebackrooms-BETA-B0.1.4.jar",
+          "filename": "thebackrooms-BETA-B0.1.4.jar",
+          "primary": true,
+          "size": 82609500
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "MYvpypD6",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "11TCTA08",
+          "version_id": "bYlDCZ0D",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": "fWtfrvf2",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": "omClzsLe",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "3wMLqeAg",
+      "name": "Beta A0.1.3",
+      "version_number": "B-A0.1.3",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "fc2a7c4f1be0e5af3a645ee3a45fd4b2ce8f7f282dae09dfbccc82f22623ebcab904f44fcf62bb876f13feed51472a7074dad29f786cbc14c28f5b2afc7b6362",
+          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/3wMLqeAg/thebackrooms-BETA-A0.1.3.jar",
+          "filename": "thebackrooms-BETA-A0.1.3.jar",
+          "primary": true,
+          "size": 87873940
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": "3HHSMwA9",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "11TCTA08",
+          "version_id": "bYlDCZ0D",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "AfgfGd0P",
+      "name": "Alpha A0.0.1",
+      "version_number": "A-0.0.1",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "925a0593cd796e9b5c9b53717ca900884c3a48401b79051e375486e5f2b94025e467143fd4205aa15a5a7e1b67e656177e696f3bc8d50c2f552fa98cf5722fbc",
+          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/A-0.0.1/thebackrooms-ALPHA-0.0.1.jar",
+          "filename": "thebackrooms-ALPHA-0.0.1.jar",
+          "primary": true,
+          "size": 1778667
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "3KmOcp6b",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "fRbqPLg4",
+          "version_id": "6nRBiwR5",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "EYUkg2Bx",
+      "name": "Alpha A0.0.3",
+      "version_number": "A-0.0.3A",
+      "game_versions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "60289bafadf966e8bd3c265eac6ea34456b199fe5f03befe29f0e4b280cf37f865ede9fbd46715097a5cb69e7e70040b1fafe3068e540d0d35068ba4a1a80120",
+          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/EYUkg2Bx/thebackrooms-ALPHA-A0.0.3.jar",
+          "filename": "thebackrooms-ALPHA-A0.0.3.jar",
+          "primary": true,
+          "size": 29663888
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "3fY6NddT",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "fRbqPLg4",
+          "version_id": "6nRBiwR5",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "FIoJX0Rt",
+      "name": "Alpha A0.0.4",
+      "version_number": "A-0.0.4A",
+      "game_versions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "147154d6bf35250baa6ea1ceefaf63aadccc495e62ea07109ff3a95ffd60a00d39c551fc16b28f9dc6c4439d4796ea2cf38c07c2d195051f75db71713b911ff3",
+          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/FIoJX0Rt/thebackrooms-ALPHA-A0.0.4.jar",
+          "filename": "thebackrooms-ALPHA-A0.0.4.jar",
+          "primary": true,
+          "size": 38791667
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "3fY6NddT",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "fRbqPLg4",
+          "version_id": "6nRBiwR5",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "IwyV6S9m",
+      "name": "Beta A0.2.0",
+      "version_number": "BETA-A0.2.0",
+      "game_versions": [
+        "1.20",
         "1.20.1"
       ],
       "loaders": [
-        "fabric",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "9e408fab23117eef7bbd7533dad26d05900aeb35ece1373ae5b0d32847f9b132ff80ea64f561f358b1a069f3b511b265ba53f1da7682b53f143230a5946738b0",
-          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/zH1EUDSt/backrooms-0.2.2%2B1.20.1.jar",
-          "filename": "backrooms-0.2.2+1.20.1.jar",
+          "sha512": "ec8f791bdb90650f89c8818f44c80834c26410f80dea2a3112c120b350a084604000926157ed1ddd517335581ae2a84083d6f3f7480b660abcc833c41f5901a1",
+          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/IwyV6S9m/thebackrooms-BETA-A0.2.0%2B1.20.1.jar",
+          "filename": "thebackrooms-BETA-A0.2.0+1.20.1.jar",
           "primary": true,
-          "size": 84476925
+          "size": 82726824
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
-          "sha512": "ef92b88ff8d0b7829eddd955c3baa7fb4c2b20819064ddd9ddbdb01c37439881d803eca58869182e8f3833e8a1cf17f684fd18b69193d50e5a00b29d4f698572",
-          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/zH1EUDSt/backrooms-0.2.2%2B1.20.1-sources.jar",
-          "filename": "backrooms-0.2.2+1.20.1-sources.jar",
-          "primary": false,
-          "size": 84297194
+          "project_id": "8BmcQJ2H",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "MqSnry88",
+      "name": "Beta C0.1.3",
+      "version_number": "B-C0.1.3",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "dd2bae96e733b999bd6847bedd5f349ba20d9bff2c2d6f071643769b814476e703c84b4f5dee2bda1601035812939a3c9f4a9e6da93b67bcea7dfee5ea7ce91c",
+          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/MqSnry88/thebackrooms-BETA-C0.1.3.jar",
+          "filename": "thebackrooms-BETA-C0.1.3.jar",
+          "primary": true,
+          "size": 82639471
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": "3HHSMwA9",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": "fWtfrvf2",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "11TCTA08",
+          "version_id": "zwtE77Or",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ORwUg2hd",
+      "name": "Beta A0.1.2",
+      "version_number": "B-A0.1.2",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0c3d7987fc553b3110aac7d381ec6ec806a3a6a38635e44a4a15683e685fac5ae08a58b1f0fc2b9dae1551798e377896095d8b983ffe7e23142207b27d2893ab",
+          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/ORwUg2hd/thebackrooms-BETA-A0.1.2.jar",
+          "filename": "thebackrooms-BETA-A0.1.2.jar",
+          "primary": true,
+          "size": 87952502
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": "NZpUvhBc",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "11TCTA08",
+          "version_id": "RPuL6E7W",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "V7gqra8F",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "Qta8jcgN",
+      "name": "Alpha A0.0.2",
+      "version_number": "A-0.0.2A",
+      "game_versions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f938284cd87a0245916d2686f8188a7e8a598772074117299a4ce58f4eb6a37484e48c1cf6893000398d3fe5c47f5d8443eb6b269c6a3a0f2d4f28c80bac21a9",
+          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/Qta8jcgN/thebackrooms-ALPHA-0.0.2a.jar",
+          "filename": "thebackrooms-ALPHA-0.0.2a.jar",
+          "primary": true,
+          "size": 4161940
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "3fY6NddT",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "fRbqPLg4",
+          "version_id": "6nRBiwR5",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "T9nLMMxv",
+      "name": "Beta A0.1.4",
+      "version_number": "B-A0.1.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a15e9ff2c55eee96d1b03576a78d3c0f916e1cb5b0b5e29e2663f73d936b99a4efbafdeef1b960d91bd92a751159b40e481cd55e14a4407bb7b0357e7d83c3d5",
+          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/T9nLMMxv/thebackrooms-BETA-A0.1.4.jar",
+          "filename": "thebackrooms-BETA-A0.1.4.jar",
+          "primary": true,
+          "size": 89355074
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": "6mx7VPLs",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": "M5iKxVFU",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "11TCTA08",
+          "version_id": "bYlDCZ0D",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "s5UrEfIY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Y56Vny56",
+      "name": "Beta B0.1.3",
+      "version_number": "B-B0.1.3",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ef7dcd37817f15d137cde50b570089b208fc4a5df0aeb05efcb2e76afe9d1af865ba036e8ba08502492c00be260fb6159ffbc52d47360a63047a7f0123f7ffaa",
+          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/Y56Vny56/thebackrooms-BETA-B0.1.3.jar",
+          "filename": "thebackrooms-BETA-B0.1.3.jar",
+          "primary": true,
+          "size": 87874971
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": "3HHSMwA9",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "11TCTA08",
+          "version_id": "bYlDCZ0D",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "n7Tdufa4",
+      "name": "Beta A0.1.5",
+      "version_number": "BETA-A0.1.5",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "41588984cf23bbe12dd325c16be1956a900953c77ecad87673b98b68eb6b4908197d96b9191e8b4507de10a7e67e1e94b0d7a6241824a34a9c1306cee90f0b9c",
+          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/n7Tdufa4/thebackrooms-BETA-A0.1.5.jar",
+          "filename": "thebackrooms-BETA-A0.1.5.jar",
+          "primary": true,
+          "size": 82620367
         }
       ],
       "dependencies": [
@@ -42,13 +507,53 @@
           "project_id": "8BmcQJ2H",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "xHqKAIux",
+      "name": "Beta A0.1.1",
+      "version_number": "B-A0.1.1",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "93c46595c24ac1e319a034e29d2d317e9d3df88c7815b0053d9dbe599f04463fcd63d8a54af6071bca81c808ad6f787f2e77b4b862d5d3c987d3f964ef09c4e6",
+          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/xHqKAIux/thebackrooms-BETA-A0.1.1.jar",
+          "filename": "thebackrooms-BETA-A0.1.1.jar",
+          "primary": true,
+          "size": 87952639
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "11TCTA08",
+          "version_id": "RPuL6E7W",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "nOI7bsDO",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "w2VZSLTf",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -101,31 +606,38 @@
       ]
     },
     {
-      "id": "IwyV6S9m",
-      "name": "Beta A0.2.0",
-      "version_number": "BETA-A0.2.0",
+      "id": "zH1EUDSt",
+      "name": "The Backrooms 0.2.2",
+      "version_number": "0.2.2",
       "game_versions": [
-        "1.20",
         "1.20.1"
       ],
       "loaders": [
+        "fabric",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "ec8f791bdb90650f89c8818f44c80834c26410f80dea2a3112c120b350a084604000926157ed1ddd517335581ae2a84083d6f3f7480b660abcc833c41f5901a1",
-          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/IwyV6S9m/thebackrooms-BETA-A0.2.0%2B1.20.1.jar",
-          "filename": "thebackrooms-BETA-A0.2.0+1.20.1.jar",
+          "sha512": "9e408fab23117eef7bbd7533dad26d05900aeb35ece1373ae5b0d32847f9b132ff80ea64f561f358b1a069f3b511b265ba53f1da7682b53f143230a5946738b0",
+          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/zH1EUDSt/backrooms-0.2.2%2B1.20.1.jar",
+          "filename": "backrooms-0.2.2+1.20.1.jar",
           "primary": true,
-          "size": 82726824
+          "size": 84476925
+        },
+        {
+          "sha512": "ef92b88ff8d0b7829eddd955c3baa7fb4c2b20819064ddd9ddbdb01c37439881d803eca58869182e8f3833e8a1cf17f684fd18b69193d50e5a00b29d4f698572",
+          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/zH1EUDSt/backrooms-0.2.2%2B1.20.1-sources.jar",
+          "filename": "backrooms-0.2.2+1.20.1-sources.jar",
+          "primary": false,
+          "size": 84297194
         }
       ],
       "dependencies": [
         {
-          "project_id": "qvIfYCYJ",
+          "project_id": "1eAoo2KR",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         },
         {
           "project_id": "8BmcQJ2H",
@@ -134,355 +646,10 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "n7Tdufa4",
-      "name": "Beta A0.1.5",
-      "version_number": "BETA-A0.1.5",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "41588984cf23bbe12dd325c16be1956a900953c77ecad87673b98b68eb6b4908197d96b9191e8b4507de10a7e67e1e94b0d7a6241824a34a9c1306cee90f0b9c",
-          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/n7Tdufa4/thebackrooms-BETA-A0.1.5.jar",
-          "filename": "thebackrooms-BETA-A0.1.5.jar",
-          "primary": true,
-          "size": 82620367
-        }
-      ],
-      "dependencies": [
-        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "8BmcQJ2H",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "MqSnry88",
-      "name": "Beta C0.1.3",
-      "version_number": "B-C0.1.3",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "dd2bae96e733b999bd6847bedd5f349ba20d9bff2c2d6f071643769b814476e703c84b4f5dee2bda1601035812939a3c9f4a9e6da93b67bcea7dfee5ea7ce91c",
-          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/MqSnry88/thebackrooms-BETA-C0.1.3.jar",
-          "filename": "thebackrooms-BETA-C0.1.3.jar",
-          "primary": true,
-          "size": 82639471
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "11TCTA08",
-          "version_id": "zwtE77Or",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "8BmcQJ2H",
-          "version_id": "fWtfrvf2",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": "3HHSMwA9",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "27SDuvBr",
-      "name": "Beta B0.1.4",
-      "version_number": "B-B0.1.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "71f9802b0435f6019ee9fb5be45f2def24b984942aba406f05c9af620c81ad4c9f7b764814b9261764a37adf50c39353c76005f75dc837d10c2e89433625b7e0",
-          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/27SDuvBr/thebackrooms-BETA-B0.1.4.jar",
-          "filename": "thebackrooms-BETA-B0.1.4.jar",
-          "primary": true,
-          "size": 82609500
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": "omClzsLe",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "MYvpypD6",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "8BmcQJ2H",
-          "version_id": "fWtfrvf2",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "11TCTA08",
-          "version_id": "bYlDCZ0D",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "T9nLMMxv",
-      "name": "Beta A0.1.4",
-      "version_number": "B-A0.1.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a15e9ff2c55eee96d1b03576a78d3c0f916e1cb5b0b5e29e2663f73d936b99a4efbafdeef1b960d91bd92a751159b40e481cd55e14a4407bb7b0357e7d83c3d5",
-          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/T9nLMMxv/thebackrooms-BETA-A0.1.4.jar",
-          "filename": "thebackrooms-BETA-A0.1.4.jar",
-          "primary": true,
-          "size": 89355074
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "s5UrEfIY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": "M5iKxVFU",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "8BmcQJ2H",
-          "version_id": "6mx7VPLs",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "11TCTA08",
-          "version_id": "bYlDCZ0D",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Y56Vny56",
-      "name": "Beta B0.1.3",
-      "version_number": "B-B0.1.3",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ef7dcd37817f15d137cde50b570089b208fc4a5df0aeb05efcb2e76afe9d1af865ba036e8ba08502492c00be260fb6159ffbc52d47360a63047a7f0123f7ffaa",
-          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/Y56Vny56/thebackrooms-BETA-B0.1.3.jar",
-          "filename": "thebackrooms-BETA-B0.1.3.jar",
-          "primary": true,
-          "size": 87874971
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "11TCTA08",
-          "version_id": "bYlDCZ0D",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": "3HHSMwA9",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "3wMLqeAg",
-      "name": "Beta A0.1.3",
-      "version_number": "B-A0.1.3",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "fc2a7c4f1be0e5af3a645ee3a45fd4b2ce8f7f282dae09dfbccc82f22623ebcab904f44fcf62bb876f13feed51472a7074dad29f786cbc14c28f5b2afc7b6362",
-          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/3wMLqeAg/thebackrooms-BETA-A0.1.3.jar",
-          "filename": "thebackrooms-BETA-A0.1.3.jar",
-          "primary": true,
-          "size": 87873940
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "11TCTA08",
-          "version_id": "bYlDCZ0D",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": "3HHSMwA9",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "ORwUg2hd",
-      "name": "Beta A0.1.2",
-      "version_number": "B-A0.1.2",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0c3d7987fc553b3110aac7d381ec6ec806a3a6a38635e44a4a15683e685fac5ae08a58b1f0fc2b9dae1551798e377896095d8b983ffe7e23142207b27d2893ab",
-          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/ORwUg2hd/thebackrooms-BETA-A0.1.2.jar",
-          "filename": "thebackrooms-BETA-A0.1.2.jar",
-          "primary": true,
-          "size": 87952502
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "V7gqra8F",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": "NZpUvhBc",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "11TCTA08",
-          "version_id": "RPuL6E7W",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "xHqKAIux",
-      "name": "Beta A0.1.1",
-      "version_number": "B-A0.1.1",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "93c46595c24ac1e319a034e29d2d317e9d3df88c7815b0053d9dbe599f04463fcd63d8a54af6071bca81c808ad6f787f2e77b4b862d5d3c987d3f964ef09c4e6",
-          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/xHqKAIux/thebackrooms-BETA-A0.1.1.jar",
-          "filename": "thebackrooms-BETA-A0.1.1.jar",
-          "primary": true,
-          "size": 87952639
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "11TCTA08",
-          "version_id": "RPuL6E7W",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "nOI7bsDO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "w2VZSLTf",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -507,12 +674,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "w2VZSLTf",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "11TCTA08",
           "version_id": "RPuL6E7W",
           "file_name": null,
@@ -523,173 +684,12 @@
           "version_id": "nOI7bsDO",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "FIoJX0Rt",
-      "name": "Alpha A0.0.4",
-      "version_number": "A-0.0.4A",
-      "game_versions": [
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "147154d6bf35250baa6ea1ceefaf63aadccc495e62ea07109ff3a95ffd60a00d39c551fc16b28f9dc6c4439d4796ea2cf38c07c2d195051f75db71713b911ff3",
-          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/FIoJX0Rt/thebackrooms-ALPHA-A0.0.4.jar",
-          "filename": "thebackrooms-ALPHA-A0.0.4.jar",
-          "primary": true,
-          "size": 38791667
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "3fY6NddT",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "fRbqPLg4",
-          "version_id": "6nRBiwR5",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "EYUkg2Bx",
-      "name": "Alpha A0.0.3",
-      "version_number": "A-0.0.3A",
-      "game_versions": [
-        "1.19.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "60289bafadf966e8bd3c265eac6ea34456b199fe5f03befe29f0e4b280cf37f865ede9fbd46715097a5cb69e7e70040b1fafe3068e540d0d35068ba4a1a80120",
-          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/EYUkg2Bx/thebackrooms-ALPHA-A0.0.3.jar",
-          "filename": "thebackrooms-ALPHA-A0.0.3.jar",
-          "primary": true,
-          "size": 29663888
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "fRbqPLg4",
-          "version_id": "6nRBiwR5",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "3fY6NddT",
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
+          "version_id": "w2VZSLTf",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Qta8jcgN",
-      "name": "Alpha A0.0.2",
-      "version_number": "A-0.0.2A",
-      "game_versions": [
-        "1.19.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f938284cd87a0245916d2686f8188a7e8a598772074117299a4ce58f4eb6a37484e48c1cf6893000398d3fe5c47f5d8443eb6b269c6a3a0f2d4f28c80bac21a9",
-          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/Qta8jcgN/thebackrooms-ALPHA-0.0.2a.jar",
-          "filename": "thebackrooms-ALPHA-0.0.2a.jar",
-          "primary": true,
-          "size": 4161940
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "fRbqPLg4",
-          "version_id": "6nRBiwR5",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "3fY6NddT",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "AfgfGd0P",
-      "name": "Alpha A0.0.1",
-      "version_number": "A-0.0.1",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "925a0593cd796e9b5c9b53717ca900884c3a48401b79051e375486e5f2b94025e467143fd4205aa15a5a7e1b67e656177e696f3bc8d50c2f552fa98cf5722fbc",
-          "url": "https://cdn.modrinth.com/data/83vrcdt0/versions/A-0.0.1/thebackrooms-ALPHA-0.0.1.jar",
-          "filename": "thebackrooms-ALPHA-0.0.1.jar",
-          "primary": true,
-          "size": 1778667
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "3KmOcp6b",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "8BmcQJ2H",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "fRbqPLg4",
-          "version_id": "6nRBiwR5",
-          "file_name": null,
-          "dependency_type": "embedded"
         }
       ]
     }

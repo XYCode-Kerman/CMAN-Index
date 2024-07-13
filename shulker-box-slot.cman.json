@@ -5,42 +5,150 @@
   "description": "Adds accessory support for Shulker Boxes for easier access and management. Formerly known as Curious Shulker Boxes and Trinket Shulker Boxes.",
   "versions": [
     {
-      "id": "uZXs9Vcj",
-      "name": "shulkerboxslot-quilt-5.1.1+1.20.1",
-      "version_number": "5.1.1+1.20.1",
+      "id": "3Lk3BfJ8",
+      "name": "shulkerboxslot-fabric-5.0.0-beta.1+1.19.2",
+      "version_number": "5.0.0-beta.1+1.19.2",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
-        "quilt"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "742d0a81d16154b8bc672078502e5007c0738467a8b48196e722b166d5217a42443cc2cf2d7f2a08ab84249434364a3f3212596e294705a337d9267f3c0aedb5",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/uZXs9Vcj/shulkerboxslot-quilt-5.1.1%2B1.20.1.jar",
-          "filename": "shulkerboxslot-quilt-5.1.1+1.20.1.jar",
+          "sha512": "ce3f78c1a9ab88428bac1cd751703b248e6051a6fc2079ec5c5394c22e29e85ae014a1a4b3d2c52e1b46d5d7ec4962aa9a9591320a20aa706be61497f19005fb",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/3Lk3BfJ8/shulkerboxslot-fabric-5.0.0-beta.1%2B1.19.2.jar",
+          "filename": "shulkerboxslot-fabric-5.0.0-beta.1+1.19.2.jar",
           "primary": true,
-          "size": 426887
+          "size": 87574
         },
         {
-          "sha512": "cbc00976bbfc415da33ee1ba5afa9b7321b5be60551010eb109f4792599bbe2530470358717f77fc8f9bdcd7397e57c86aa3e9e9c89ee51f8919cca8ee946679",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/uZXs9Vcj/shulkerboxslot-quilt-5.1.1%2B1.20.1-sources.jar",
-          "filename": "shulkerboxslot-quilt-5.1.1+1.20.1-sources.jar",
+          "sha512": "880d6fef1715205fea36631e08bcc2ba67a4fe6aa037fc8c2bb8eb7585c26cab6149360aeb3b5e137bb5db5f457d68a31ce539ab2c259f4a565f1f6275fbde66",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/3Lk3BfJ8/shulkerboxslot-fabric-5.0.0-beta.1%2B1.19.2-sources.jar",
+          "filename": "shulkerboxslot-fabric-5.0.0-beta.1+1.19.2-sources.jar",
           "primary": false,
-          "size": 30872
+          "size": 30394
         }
       ],
       "dependencies": [
         {
-          "project_id": "qvIfYCYJ",
+          "project_id": "5aaWibi9",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "5aaWibi9",
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "3xzXUtCL",
+      "name": "curiousshulkerboxes-FORGE-1.14.4-1.0.0.2",
+      "version_number": "FORGE-1.14.4-1.0.0.2",
+      "game_versions": [
+        "1.14.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "97e61e13b04634799105aa267cdec31a0c6af7d3cab198b5fd4601616d05aa22a8e42451befb4d8a2367114cf4586553c6e390fcc7d8d1ed7df995cc034273bf",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/3xzXUtCL/curiousshulkerboxes-FORGE-1.14.4-1.0.0.2.jar",
+          "filename": "curiousshulkerboxes-FORGE-1.14.4-1.0.0.2.jar",
+          "primary": true,
+          "size": 59710
+        },
+        {
+          "sha512": "a79c6b33b87f30104d0025d218032e8e9e24ef11ecef0400824d6f020bcfa5cd637f813703c21e450a9e101a727cc63a9c9f22765b8759eaf49d91bae5687504",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/3xzXUtCL/curiousshulkerboxes-FORGE-1.14.4-1.0.0.2-sources.jar",
+          "filename": "curiousshulkerboxes-FORGE-1.14.4-1.0.0.2-sources.jar",
+          "primary": false,
+          "size": 23875
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vvuO3ImH",
+          "version_id": "RcA3vNIJ",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "6Lga8259",
+      "name": "shulkerboxslot-forge-5.0.0+1.19.4",
+      "version_number": "5.0.0+1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "182d7092b46a4fd71a165117db0c86fbfe0d08521b01f5a9f308ed747c2c8711ab350cea647d79db9863ecaa2ecb8430bf8b300039f62e470f73958f04c667bb",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/6Lga8259/shulkerboxslot-forge-5.0.0%2B1.19.4.jar",
+          "filename": "shulkerboxslot-forge-5.0.0+1.19.4.jar",
+          "primary": true,
+          "size": 65748
+        },
+        {
+          "sha512": "e8137ecbfdccf5d65a81415c88e6e0de25a095f35d841905fce7fa3103118bbf686ee4210486386c12103a31089b5a9d1ec9ad80149bb57a44f57b238486f764",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/6Lga8259/shulkerboxslot-forge-5.0.0%2B1.19.4-sources.jar",
+          "filename": "shulkerboxslot-forge-5.0.0+1.19.4-sources.jar",
+          "primary": false,
+          "size": 29331
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vvuO3ImH",
           "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "G0fndcwO",
+      "name": "curiousshulkerboxes-forge-1.16.5-4.0.1.0",
+      "version_number": "1.16.5-4.0.1.0",
+      "game_versions": [
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "870265b67484dc120d708c9b502e837f2c4884d1adee971a2de06197e71da94e5a356ecc3a6e558613823c47b27e1321308abdc8edd3c7f491227bb6c88bb40d",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/G0fndcwO/curiousshulkerboxes-forge-1.16.5-4.0.1.0.jar",
+          "filename": "curiousshulkerboxes-forge-1.16.5-4.0.1.0.jar",
+          "primary": true,
+          "size": 67143
+        },
+        {
+          "sha512": "5efdbd8b8156c861a715a7f8d312343fa0441755e9e9d3f6c8b4f87bbf3584a9ff2f8921c6bd7dbf86f47245792a61618050cb30e566c88702580232f05235dc",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/G0fndcwO/curiousshulkerboxes-forge-1.16.5-4.0.1.0-sources.jar",
+          "filename": "curiousshulkerboxes-forge-1.16.5-4.0.1.0-sources.jar",
+          "primary": false,
+          "size": 23451
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vvuO3ImH",
+          "version_id": "5qPuCFYD",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -89,30 +197,29 @@
       ]
     },
     {
-      "id": "XToOTs3N",
-      "name": "shulkerboxslot-forge-5.1.1+1.20.1",
-      "version_number": "5.1.1+1.20.1",
+      "id": "NsrTsygx",
+      "name": "curiousshulkerboxes-FORGE-1.15.2-2.0.1",
+      "version_number": "FORGE-1.15.2-2.0.1",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.15.2"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "bc23c421cb95bd9a17bf2d4470e8073e787dfd8459b7f24f85cfb19d2a087497af8dcfa6b5b54a8b90c95be39ed0d2833a4fb5a63f5c7ceb057c9ee5898249e8",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/XToOTs3N/shulkerboxslot-forge-5.1.1%2B1.20.1.jar",
-          "filename": "shulkerboxslot-forge-5.1.1+1.20.1.jar",
+          "sha512": "76515c775d25ffa231ee545d6f89dc0ac0da4a639ffa4d0387d1b9d498b5df91ad47bdf7bd721019cb00627eb889d57170cd442b6989a6a0194cfc82c8a83bae",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/NsrTsygx/curiousshulkerboxes-FORGE-1.15.2-2.0.1.jar",
+          "filename": "curiousshulkerboxes-FORGE-1.15.2-2.0.1.jar",
           "primary": true,
-          "size": 183769
+          "size": 59616
         },
         {
-          "sha512": "243e3e1e6e15e3a2bddbc42a7901cdeb7be44dc4bf639ad490eecdbc6a5113c6271b0a44922a78666c32aa65a52ccf4d41ac95472ed8ea2c78aa243795627710",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/XToOTs3N/shulkerboxslot-forge-5.1.1%2B1.20.1-sources.jar",
-          "filename": "shulkerboxslot-forge-5.1.1+1.20.1-sources.jar",
+          "sha512": "ace99ec3d5eecddc3440e7ede6fc8155764410ee42e3c8b8fac93d3a2e49f455674b6f10a897bbd736ddebc8b63f3cd09a676096527dbcf83ac5aed801dda32b",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/NsrTsygx/curiousshulkerboxes-FORGE-1.15.2-2.0.1-sources.jar",
+          "filename": "curiousshulkerboxes-FORGE-1.15.2-2.0.1-sources.jar",
           "primary": false,
-          "size": 29959
+          "size": 19291
         }
       ],
       "dependencies": [
@@ -125,114 +232,31 @@
       ]
     },
     {
-      "id": "wHK9s2cb",
-      "name": "shulkerboxslot-quilt-5.1.0+1.20.1",
-      "version_number": "5.1.0+1.20.1",
+      "id": "OQZAuKmw",
+      "name": "curiousshulkerboxes-fabric-1.1.1-1.16.5",
+      "version_number": "1.1.1-1.16.5",
       "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d869cb902ac8dc9ef9b227f80fd1df5763f59a7e143a51c88c842e475484aad77b80e807e664c99043aa487513f88f124e66cd721f6876428e0bdfec286c7e9a",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/wHK9s2cb/shulkerboxslot-quilt-5.1.0%2B1.20.1.jar",
-          "filename": "shulkerboxslot-quilt-5.1.0+1.20.1.jar",
-          "primary": true,
-          "size": 431553
-        },
-        {
-          "sha512": "9dc5a8a4a6ce924edd44e99e90742b27959ef95a2f24a46f87f6a70e9edbc68efef6e3f6aed8ea8a664ccac2517d0907277fd63f522bef6d6ebb74ced43f45ea",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/wHK9s2cb/shulkerboxslot-quilt-5.1.0%2B1.20.1-sources.jar",
-          "filename": "shulkerboxslot-quilt-5.1.0+1.20.1-sources.jar",
-          "primary": false,
-          "size": 30825
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5aaWibi9",
-          "version_id": "e563ycts",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "fFx48erS",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "i9iBrP44",
-      "name": "shulkerboxslot-fabric-5.1.0+1.20.1",
-      "version_number": "5.1.0+1.20.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "7d1dbc278009768d02be1a1fd01d694b1b51ff2a4e10ba3dda0caa773a30de311ebea909c32f5e978b10102e1a6b03a9ca44dd817b7f56e5ef91d58eb9b2669d",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/i9iBrP44/shulkerboxslot-fabric-5.1.0%2B1.20.1.jar",
-          "filename": "shulkerboxslot-fabric-5.1.0+1.20.1.jar",
+          "sha512": "96654119e499bbcc0e94b94606df2117a7b1e916c1a12fecd1780793b19c93c9d31d4fac4235cdabe80df3c267a1be8ba33f8f2a400e8b6d56503d0320738174",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/OQZAuKmw/curiousshulkerboxes-fabric-1.1.1-1.16.5.jar",
+          "filename": "curiousshulkerboxes-fabric-1.1.1-1.16.5.jar",
           "primary": true,
-          "size": 431086
+          "size": 66412
         },
         {
-          "sha512": "c5fc173f5848c38dd536f3de4664f38dd1b478dd38012cd9d7103e6fc36abc3032edfbaaa412995dfd9781b63b43e75956a1f5389abf9440038ed28867d87125",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/i9iBrP44/shulkerboxslot-fabric-5.1.0%2B1.20.1-sources.jar",
-          "filename": "shulkerboxslot-fabric-5.1.0+1.20.1-sources.jar",
+          "sha512": "3d06064ae7a5a9f3121052cce6557c4721e9e93ecbef91475da7fd3a4dfe2cec5a1fefa0b8b8fdbea21eab00766499e470018ef9218265c681dc2ec8dd90b826",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/OQZAuKmw/curiousshulkerboxes-fabric-1.1.1-1.16.5-sources.jar",
+          "filename": "curiousshulkerboxes-fabric-1.1.1-1.16.5-sources.jar",
           "primary": false,
-          "size": 30652
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5aaWibi9",
-          "version_id": "e563ycts",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ykdGWOCE",
-      "name": "shulkerboxslot-forge-5.1.0+1.20.1",
-      "version_number": "5.1.0+1.20.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e022ab38f4d9e46574bed8f694338db6136d26502d14d40a21a8bc70794263380f23d7f91ddb7e16fd46c338aa7f144282a12f1b00a9afe67373e0889c7f582a",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/ykdGWOCE/shulkerboxslot-forge-5.1.0%2B1.20.1.jar",
-          "filename": "shulkerboxslot-forge-5.1.0+1.20.1.jar",
-          "primary": true,
-          "size": 183620
-        },
-        {
-          "sha512": "548b038662f01e5f8a4090a83ba5aa48c678ecb4504e32dc858227602bfe3fd99ca86f232bdd130551f74ea142bc6db214d7def8c66c90e87b6168c58140cec0",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/ykdGWOCE/shulkerboxslot-forge-5.1.0%2B1.20.1-sources.jar",
-          "filename": "shulkerboxslot-forge-5.1.0+1.20.1-sources.jar",
-          "primary": false,
-          "size": 29912
+          "size": 45513
         }
       ],
       "dependencies": [
@@ -286,41 +310,6 @@
       ]
     },
     {
-      "id": "6Lga8259",
-      "name": "shulkerboxslot-forge-5.0.0+1.19.4",
-      "version_number": "5.0.0+1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "182d7092b46a4fd71a165117db0c86fbfe0d08521b01f5a9f308ed747c2c8711ab350cea647d79db9863ecaa2ecb8430bf8b300039f62e470f73958f04c667bb",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/6Lga8259/shulkerboxslot-forge-5.0.0%2B1.19.4.jar",
-          "filename": "shulkerboxslot-forge-5.0.0+1.19.4.jar",
-          "primary": true,
-          "size": 65748
-        },
-        {
-          "sha512": "e8137ecbfdccf5d65a81415c88e6e0de25a095f35d841905fce7fa3103118bbf686ee4210486386c12103a31089b5a9d1ec9ad80149bb57a44f57b238486f764",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/6Lga8259/shulkerboxslot-forge-5.0.0%2B1.19.4-sources.jar",
-          "filename": "shulkerboxslot-forge-5.0.0+1.19.4-sources.jar",
-          "primary": false,
-          "size": 29331
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vvuO3ImH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "QzQolXSL",
       "name": "shulkerboxslot-fabric-5.0.0+1.19.4",
       "version_number": "5.0.0+1.19.4",
@@ -348,13 +337,49 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
+          "project_id": "5aaWibi9",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "5aaWibi9",
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "XToOTs3N",
+      "name": "shulkerboxslot-forge-5.1.1+1.20.1",
+      "version_number": "5.1.1+1.20.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "bc23c421cb95bd9a17bf2d4470e8073e787dfd8459b7f24f85cfb19d2a087497af8dcfa6b5b54a8b90c95be39ed0d2833a4fb5a63f5c7ceb057c9ee5898249e8",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/XToOTs3N/shulkerboxslot-forge-5.1.1%2B1.20.1.jar",
+          "filename": "shulkerboxslot-forge-5.1.1+1.20.1.jar",
+          "primary": true,
+          "size": 183769
+        },
+        {
+          "sha512": "243e3e1e6e15e3a2bddbc42a7901cdeb7be44dc4bf639ad490eecdbc6a5113c6271b0a44922a78666c32aa65a52ccf4d41ac95472ed8ea2c78aa243795627710",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/XToOTs3N/shulkerboxslot-forge-5.1.1%2B1.20.1-sources.jar",
+          "filename": "shulkerboxslot-forge-5.1.1+1.20.1-sources.jar",
+          "primary": false,
+          "size": 29959
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vvuO3ImH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -362,43 +387,149 @@
       ]
     },
     {
-      "id": "3Lk3BfJ8",
-      "name": "shulkerboxslot-fabric-5.0.0-beta.1+1.19.2",
-      "version_number": "5.0.0-beta.1+1.19.2",
+      "id": "i9iBrP44",
+      "name": "shulkerboxslot-fabric-5.1.0+1.20.1",
+      "version_number": "5.1.0+1.20.1",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "ce3f78c1a9ab88428bac1cd751703b248e6051a6fc2079ec5c5394c22e29e85ae014a1a4b3d2c52e1b46d5d7ec4962aa9a9591320a20aa706be61497f19005fb",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/3Lk3BfJ8/shulkerboxslot-fabric-5.0.0-beta.1%2B1.19.2.jar",
-          "filename": "shulkerboxslot-fabric-5.0.0-beta.1+1.19.2.jar",
+          "sha512": "7d1dbc278009768d02be1a1fd01d694b1b51ff2a4e10ba3dda0caa773a30de311ebea909c32f5e978b10102e1a6b03a9ca44dd817b7f56e5ef91d58eb9b2669d",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/i9iBrP44/shulkerboxslot-fabric-5.1.0%2B1.20.1.jar",
+          "filename": "shulkerboxslot-fabric-5.1.0+1.20.1.jar",
           "primary": true,
-          "size": 87574
+          "size": 431086
         },
         {
-          "sha512": "880d6fef1715205fea36631e08bcc2ba67a4fe6aa037fc8c2bb8eb7585c26cab6149360aeb3b5e137bb5db5f457d68a31ce539ab2c259f4a565f1f6275fbde66",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/3Lk3BfJ8/shulkerboxslot-fabric-5.0.0-beta.1%2B1.19.2-sources.jar",
-          "filename": "shulkerboxslot-fabric-5.0.0-beta.1+1.19.2-sources.jar",
+          "sha512": "c5fc173f5848c38dd536f3de4664f38dd1b478dd38012cd9d7103e6fc36abc3032edfbaaa412995dfd9781b63b43e75956a1f5389abf9440038ed28867d87125",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/i9iBrP44/shulkerboxslot-fabric-5.1.0%2B1.20.1-sources.jar",
+          "filename": "shulkerboxslot-fabric-5.1.0+1.20.1-sources.jar",
           "primary": false,
-          "size": 30394
+          "size": 30652
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5aaWibi9",
+          "version_id": "e563ycts",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "iwqlI4UU",
+      "name": "curiousshulkerboxes-forge-1.17.1-4.1.0.0",
+      "version_number": "1.17.1-4.1.0.0",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5171bece2138b7263b092fd7a2731a350ef5da1ae551e9279f8f3f18fcefb562f0dd7874e7a77b15cad43794666494d175ecba2b77ddba44356bfc66ba0902f2",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/iwqlI4UU/curiousshulkerboxes-forge-1.17.1-4.1.0.0.jar",
+          "filename": "curiousshulkerboxes-forge-1.17.1-4.1.0.0.jar",
+          "primary": true,
+          "size": 54208
+        },
+        {
+          "sha512": "953e1d4dc5331f1f1b037213eb32e9ec85d214244bd8676ba816312b581fd5833866a7aaaa00c8671b11d390e3d014d0172228cfae7e073afbd3f086d439f1d6",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/iwqlI4UU/curiousshulkerboxes-forge-1.17.1-4.1.0.0-sources.jar",
+          "filename": "curiousshulkerboxes-forge-1.17.1-4.1.0.0-sources.jar",
+          "primary": false,
+          "size": 15445
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vvuO3ImH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "kw1f9gCn",
+      "name": "curiousshulkerboxes-forge-1.18.1-4.2.0.0",
+      "version_number": "1.18.1-4.2.0.0",
+      "game_versions": [
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b8e154ac8a866431290f748dcb4aef686eacc59afd2f026d4c3421c50023771c29262d28c45b194dea879867988591226b7504086142d6eab7047fe5e5c2627f",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/kw1f9gCn/curiousshulkerboxes-forge-1.18.1-4.2.0.0.jar",
+          "filename": "curiousshulkerboxes-forge-1.18.1-4.2.0.0.jar",
+          "primary": true,
+          "size": 54149
+        },
+        {
+          "sha512": "cc2b1d47aa5f07a35a854cc58fe7011996e4b06512d1a2888475723d11dd80a4f60320424b6e9bca6b43c0e71ff79eed375dd5277506f5cb64c22f0ba49fe528",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/kw1f9gCn/curiousshulkerboxes-forge-1.18.1-4.2.0.0-sources.jar",
+          "filename": "curiousshulkerboxes-forge-1.18.1-4.2.0.0-sources.jar",
+          "primary": false,
+          "size": 15407
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vvuO3ImH",
+          "version_id": "dlv1r8No",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ra6Peq5y",
+      "name": "trinketshulkerboxes-fabric-2.0.2-1.18.2",
+      "version_number": "2.0.2-1.18.2",
+      "game_versions": [
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "767ae6a3789e5cb8948b0ebe83e4a3c32d22185c760c46efc027cbc09a03fa0dc56f122b5b4b2e80ff32aaeb35008732c39e6999e5381989d9a9839a98bfbc6b",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/ra6Peq5y/trinketshulkerboxes-fabric-2.0.2-1.18.2.jar",
+          "filename": "trinketshulkerboxes-fabric-2.0.2-1.18.2.jar",
+          "primary": true,
+          "size": 74296
+        },
+        {
+          "sha512": "99af418a328e8e498eb28af6052d26fcfb97964b6552139c45afd843a4b4bbe682e0b2873c9f76bfbde7012e5ae48f0445329127bd86e1d6092aa218d9d5b339",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/ra6Peq5y/trinketshulkerboxes-fabric-2.0.2-1.18.2-sources.jar",
+          "filename": "trinketshulkerboxes-fabric-2.0.2-1.18.2-sources.jar",
+          "primary": false,
+          "size": 42011
         }
       ],
       "dependencies": [
         {
           "project_id": "5aaWibi9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
+          "version_id": "XqLNMi9J",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -442,72 +573,84 @@
       ]
     },
     {
-      "id": "ra6Peq5y",
-      "name": "trinketshulkerboxes-fabric-2.0.2-1.18.2",
-      "version_number": "2.0.2-1.18.2",
+      "id": "uZXs9Vcj",
+      "name": "shulkerboxslot-quilt-5.1.1+1.20.1",
+      "version_number": "5.1.1+1.20.1",
       "game_versions": [
-        "1.18.1",
-        "1.18.2"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
-        "fabric"
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "767ae6a3789e5cb8948b0ebe83e4a3c32d22185c760c46efc027cbc09a03fa0dc56f122b5b4b2e80ff32aaeb35008732c39e6999e5381989d9a9839a98bfbc6b",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/ra6Peq5y/trinketshulkerboxes-fabric-2.0.2-1.18.2.jar",
-          "filename": "trinketshulkerboxes-fabric-2.0.2-1.18.2.jar",
+          "sha512": "742d0a81d16154b8bc672078502e5007c0738467a8b48196e722b166d5217a42443cc2cf2d7f2a08ab84249434364a3f3212596e294705a337d9267f3c0aedb5",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/uZXs9Vcj/shulkerboxslot-quilt-5.1.1%2B1.20.1.jar",
+          "filename": "shulkerboxslot-quilt-5.1.1+1.20.1.jar",
           "primary": true,
-          "size": 74296
+          "size": 426887
         },
         {
-          "sha512": "99af418a328e8e498eb28af6052d26fcfb97964b6552139c45afd843a4b4bbe682e0b2873c9f76bfbde7012e5ae48f0445329127bd86e1d6092aa218d9d5b339",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/ra6Peq5y/trinketshulkerboxes-fabric-2.0.2-1.18.2-sources.jar",
-          "filename": "trinketshulkerboxes-fabric-2.0.2-1.18.2-sources.jar",
+          "sha512": "cbc00976bbfc415da33ee1ba5afa9b7321b5be60551010eb109f4792599bbe2530470358717f77fc8f9bdcd7397e57c86aa3e9e9c89ee51f8919cca8ee946679",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/uZXs9Vcj/shulkerboxslot-quilt-5.1.1%2B1.20.1-sources.jar",
+          "filename": "shulkerboxslot-quilt-5.1.1+1.20.1-sources.jar",
           "primary": false,
-          "size": 42011
+          "size": 30872
         }
       ],
       "dependencies": [
         {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "5aaWibi9",
-          "version_id": "XqLNMi9J",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "kw1f9gCn",
-      "name": "curiousshulkerboxes-forge-1.18.1-4.2.0.0",
-      "version_number": "1.18.1-4.2.0.0",
+      "id": "wHK9s2cb",
+      "name": "shulkerboxslot-quilt-5.1.0+1.20.1",
+      "version_number": "5.1.0+1.20.1",
       "game_versions": [
-        "1.18.1",
-        "1.18.2"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
-        "forge"
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "b8e154ac8a866431290f748dcb4aef686eacc59afd2f026d4c3421c50023771c29262d28c45b194dea879867988591226b7504086142d6eab7047fe5e5c2627f",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/kw1f9gCn/curiousshulkerboxes-forge-1.18.1-4.2.0.0.jar",
-          "filename": "curiousshulkerboxes-forge-1.18.1-4.2.0.0.jar",
+          "sha512": "d869cb902ac8dc9ef9b227f80fd1df5763f59a7e143a51c88c842e475484aad77b80e807e664c99043aa487513f88f124e66cd721f6876428e0bdfec286c7e9a",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/wHK9s2cb/shulkerboxslot-quilt-5.1.0%2B1.20.1.jar",
+          "filename": "shulkerboxslot-quilt-5.1.0+1.20.1.jar",
           "primary": true,
-          "size": 54149
+          "size": 431553
         },
         {
-          "sha512": "cc2b1d47aa5f07a35a854cc58fe7011996e4b06512d1a2888475723d11dd80a4f60320424b6e9bca6b43c0e71ff79eed375dd5277506f5cb64c22f0ba49fe528",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/kw1f9gCn/curiousshulkerboxes-forge-1.18.1-4.2.0.0-sources.jar",
-          "filename": "curiousshulkerboxes-forge-1.18.1-4.2.0.0-sources.jar",
+          "sha512": "9dc5a8a4a6ce924edd44e99e90742b27959ef95a2f24a46f87f6a70e9edbc68efef6e3f6aed8ea8a664ccac2517d0907277fd63f522bef6d6ebb74ced43f45ea",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/wHK9s2cb/shulkerboxslot-quilt-5.1.0%2B1.20.1-sources.jar",
+          "filename": "shulkerboxslot-quilt-5.1.0+1.20.1-sources.jar",
           "primary": false,
-          "size": 15407
+          "size": 30825
         }
       ],
       "dependencies": [
         {
-          "project_id": "vvuO3ImH",
-          "version_id": "dlv1r8No",
+          "project_id": "5aaWibi9",
+          "version_id": "e563ycts",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "fFx48erS",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -549,179 +692,36 @@
       ]
     },
     {
-      "id": "iwqlI4UU",
-      "name": "curiousshulkerboxes-forge-1.17.1-4.1.0.0",
-      "version_number": "1.17.1-4.1.0.0",
+      "id": "ykdGWOCE",
+      "name": "shulkerboxslot-forge-5.1.0+1.20.1",
+      "version_number": "5.1.0+1.20.1",
       "game_versions": [
-        "1.17.1"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "5171bece2138b7263b092fd7a2731a350ef5da1ae551e9279f8f3f18fcefb562f0dd7874e7a77b15cad43794666494d175ecba2b77ddba44356bfc66ba0902f2",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/iwqlI4UU/curiousshulkerboxes-forge-1.17.1-4.1.0.0.jar",
-          "filename": "curiousshulkerboxes-forge-1.17.1-4.1.0.0.jar",
+          "sha512": "e022ab38f4d9e46574bed8f694338db6136d26502d14d40a21a8bc70794263380f23d7f91ddb7e16fd46c338aa7f144282a12f1b00a9afe67373e0889c7f582a",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/ykdGWOCE/shulkerboxslot-forge-5.1.0%2B1.20.1.jar",
+          "filename": "shulkerboxslot-forge-5.1.0+1.20.1.jar",
           "primary": true,
-          "size": 54208
+          "size": 183620
         },
         {
-          "sha512": "953e1d4dc5331f1f1b037213eb32e9ec85d214244bd8676ba816312b581fd5833866a7aaaa00c8671b11d390e3d014d0172228cfae7e073afbd3f086d439f1d6",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/iwqlI4UU/curiousshulkerboxes-forge-1.17.1-4.1.0.0-sources.jar",
-          "filename": "curiousshulkerboxes-forge-1.17.1-4.1.0.0-sources.jar",
+          "sha512": "548b038662f01e5f8a4090a83ba5aa48c678ecb4504e32dc858227602bfe3fd99ca86f232bdd130551f74ea142bc6db214d7def8c66c90e87b6168c58140cec0",
+          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/ykdGWOCE/shulkerboxslot-forge-5.1.0%2B1.20.1-sources.jar",
+          "filename": "shulkerboxslot-forge-5.1.0+1.20.1-sources.jar",
           "primary": false,
-          "size": 15445
+          "size": 29912
         }
       ],
       "dependencies": [
         {
           "project_id": "vvuO3ImH",
           "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "OQZAuKmw",
-      "name": "curiousshulkerboxes-fabric-1.1.1-1.16.5",
-      "version_number": "1.1.1-1.16.5",
-      "game_versions": [
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "96654119e499bbcc0e94b94606df2117a7b1e916c1a12fecd1780793b19c93c9d31d4fac4235cdabe80df3c267a1be8ba33f8f2a400e8b6d56503d0320738174",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/OQZAuKmw/curiousshulkerboxes-fabric-1.1.1-1.16.5.jar",
-          "filename": "curiousshulkerboxes-fabric-1.1.1-1.16.5.jar",
-          "primary": true,
-          "size": 66412
-        },
-        {
-          "sha512": "3d06064ae7a5a9f3121052cce6557c4721e9e93ecbef91475da7fd3a4dfe2cec5a1fefa0b8b8fdbea21eab00766499e470018ef9218265c681dc2ec8dd90b826",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/OQZAuKmw/curiousshulkerboxes-fabric-1.1.1-1.16.5-sources.jar",
-          "filename": "curiousshulkerboxes-fabric-1.1.1-1.16.5-sources.jar",
-          "primary": false,
-          "size": 45513
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vvuO3ImH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "G0fndcwO",
-      "name": "curiousshulkerboxes-forge-1.16.5-4.0.1.0",
-      "version_number": "1.16.5-4.0.1.0",
-      "game_versions": [
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "870265b67484dc120d708c9b502e837f2c4884d1adee971a2de06197e71da94e5a356ecc3a6e558613823c47b27e1321308abdc8edd3c7f491227bb6c88bb40d",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/G0fndcwO/curiousshulkerboxes-forge-1.16.5-4.0.1.0.jar",
-          "filename": "curiousshulkerboxes-forge-1.16.5-4.0.1.0.jar",
-          "primary": true,
-          "size": 67143
-        },
-        {
-          "sha512": "5efdbd8b8156c861a715a7f8d312343fa0441755e9e9d3f6c8b4f87bbf3584a9ff2f8921c6bd7dbf86f47245792a61618050cb30e566c88702580232f05235dc",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/G0fndcwO/curiousshulkerboxes-forge-1.16.5-4.0.1.0-sources.jar",
-          "filename": "curiousshulkerboxes-forge-1.16.5-4.0.1.0-sources.jar",
-          "primary": false,
-          "size": 23451
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vvuO3ImH",
-          "version_id": "5qPuCFYD",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "NsrTsygx",
-      "name": "curiousshulkerboxes-FORGE-1.15.2-2.0.1",
-      "version_number": "FORGE-1.15.2-2.0.1",
-      "game_versions": [
-        "1.15.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "76515c775d25ffa231ee545d6f89dc0ac0da4a639ffa4d0387d1b9d498b5df91ad47bdf7bd721019cb00627eb889d57170cd442b6989a6a0194cfc82c8a83bae",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/NsrTsygx/curiousshulkerboxes-FORGE-1.15.2-2.0.1.jar",
-          "filename": "curiousshulkerboxes-FORGE-1.15.2-2.0.1.jar",
-          "primary": true,
-          "size": 59616
-        },
-        {
-          "sha512": "ace99ec3d5eecddc3440e7ede6fc8155764410ee42e3c8b8fac93d3a2e49f455674b6f10a897bbd736ddebc8b63f3cd09a676096527dbcf83ac5aed801dda32b",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/NsrTsygx/curiousshulkerboxes-FORGE-1.15.2-2.0.1-sources.jar",
-          "filename": "curiousshulkerboxes-FORGE-1.15.2-2.0.1-sources.jar",
-          "primary": false,
-          "size": 19291
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vvuO3ImH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "3xzXUtCL",
-      "name": "curiousshulkerboxes-FORGE-1.14.4-1.0.0.2",
-      "version_number": "FORGE-1.14.4-1.0.0.2",
-      "game_versions": [
-        "1.14.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "97e61e13b04634799105aa267cdec31a0c6af7d3cab198b5fd4601616d05aa22a8e42451befb4d8a2367114cf4586553c6e390fcc7d8d1ed7df995cc034273bf",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/3xzXUtCL/curiousshulkerboxes-FORGE-1.14.4-1.0.0.2.jar",
-          "filename": "curiousshulkerboxes-FORGE-1.14.4-1.0.0.2.jar",
-          "primary": true,
-          "size": 59710
-        },
-        {
-          "sha512": "a79c6b33b87f30104d0025d218032e8e9e24ef11ecef0400824d6f020bcfa5cd637f813703c21e450a9e101a727cc63a9c9f22765b8759eaf49d91bae5687504",
-          "url": "https://cdn.modrinth.com/data/R5T1RmWr/versions/3xzXUtCL/curiousshulkerboxes-FORGE-1.14.4-1.0.0.2-sources.jar",
-          "filename": "curiousshulkerboxes-FORGE-1.14.4-1.0.0.2-sources.jar",
-          "primary": false,
-          "size": 23875
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vvuO3ImH",
-          "version_id": "RcA3vNIJ",
           "file_name": null,
           "dependency_type": "required"
         }

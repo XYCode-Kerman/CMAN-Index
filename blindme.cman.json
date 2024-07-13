@@ -5,40 +5,6 @@
   "description": "A client-sided mod that enforces the Blindness effect on the player, configurable per world.",
   "versions": [
     {
-      "id": "xDbZY4oG",
-      "name": "BlindMe 1.0b3 for 1.20.1",
-      "version_number": "1.0b3",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "a281b8f02dbc0e03855bcf8b367743320a0aa2574eb73c77a107c7102ff4304434c79fe7615bf6dc40e57350fedbd3efd005d65bcb13888399ebf508a902a6c6",
-          "url": "https://cdn.modrinth.com/data/EJoehBeH/versions/xDbZY4oG/BlindMe-1.0b3.jar",
-          "filename": "BlindMe-1.0b3.jar",
-          "primary": true,
-          "size": 36989
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "6AyaNGzG",
       "name": "BlindMe 1.0b2 for 1.20.2",
       "version_number": "1.0b2",
@@ -93,16 +59,50 @@
       ],
       "dependencies": [
         {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "qvIfYCYJ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
+        }
+      ]
+    },
+    {
+      "id": "xDbZY4oG",
+      "name": "BlindMe 1.0b3 for 1.20.1",
+      "version_number": "1.0b3",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "a281b8f02dbc0e03855bcf8b367743320a0aa2574eb73c77a107c7102ff4304434c79fe7615bf6dc40e57350fedbd3efd005d65bcb13888399ebf508a902a6c6",
+          "url": "https://cdn.modrinth.com/data/EJoehBeH/versions/xDbZY4oG/BlindMe-1.0b3.jar",
+          "filename": "BlindMe-1.0b3.jar",
+          "primary": true,
+          "size": 36989
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

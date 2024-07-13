@@ -1,34 +1,36 @@
 {
-  "id": "againsttoxicity",
+  "id": "XquSnVkN",
   "slug": "againsttoxicity",
   "name": "Against Toxicity",
   "description": "Simple configurable client-side chat mod that reminds people to be kind!",
   "versions": [
     {
-      "id": "zDSzElc1",
-      "name": "Against Toxicity 1.7",
-      "version_number": "1.7",
+      "id": "1yniqHaz",
+      "name": "Against Toxicity 1.3.3-1.18.2",
+      "version_number": "1.3.3-1.18.2",
       "game_versions": [
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4",
-        "1.20.5"
+        "1.18.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "e4f43560308393fe57491dcaac7245900546541f4fe7fb7db21f76accc856f252d6aa5cc298b75520ffc266d0c94790fe46a0d1fbee841071b14ae9a8957b068",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/zDSzElc1/AgainstToxicity-1.7.jar",
-          "filename": "AgainstToxicity-1.7.jar",
+          "sha512": "506e8cf4bf44155eb09f65faa302f32f7dc5d16a78b7184a09c98f27a52d7d0f1c1e3bf72315ec56a21ee9c803857bcdd25aa05275453bcf3c0c830e164fd783",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/1yniqHaz/AgainstToxicity.jar",
+          "filename": "AgainstToxicity.jar",
           "primary": true,
-          "size": 39186
+          "size": 38043
+        },
+        {
+          "sha512": "f1fbd313ab8d88786a51b3f5a1fc070e76fbc3b1313807ba51b2ec701ff6c73d5d34de413003529db155744f2a2aaa393949a5cbac58fddaa1b2d0170da1eda1",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/1yniqHaz/AgainstToxicity-sources.jar",
+          "filename": "AgainstToxicity-sources.jar",
+          "primary": false,
+          "size": 28460
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "51ttuEZI",
@@ -47,6 +49,67 @@
           "filename": "AgainstToxicity-1.6.1.jar",
           "primary": true,
           "size": 39903
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "AeVJ5BtL",
+      "name": "Against Toxicity 1.3.2-1.20.1",
+      "version_number": "1.3.2-1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9053f8423f5f4efcb49b1609aadaa735055dc10932f8beec930e6f30bd392d62a8626d9bb690062c5d83edf478f230743084cb14d3734d7f774a03fc6ef73360",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/AeVJ5BtL/AgainstToxicity.jar",
+          "filename": "AgainstToxicity.jar",
+          "primary": true,
+          "size": 37986
+        },
+        {
+          "sha512": "eb871f308629b1e17e5889b7de38ca88be14bf0d530ffd47c1ee1e7b28be38fd206c439ff79e10aa7d252d8444b236327180ec7fa309f1ce7c6e8606610f184e",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/AeVJ5BtL/AgainstToxicity-sources.jar",
+          "filename": "AgainstToxicity-sources.jar",
+          "primary": false,
+          "size": 28404
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -80,7 +143,151 @@
           "primary": false,
           "size": 29036
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
+    },
+    {
+      "id": "LIp8slyd",
+      "name": "Against Toxicity 1.3-1.19.2",
+      "version_number": "1.3-1.19.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9e64e6849bab5f530a12a9236a7798fc433ee67651d92ce8a9b82ed74329cd4e8683733051070b7372f4eaceb26fbe07cdd5ed55a379858af2ad68c2bfefb0b1",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/LIp8slyd/AgainstToxicity.jar",
+          "filename": "AgainstToxicity.jar",
+          "primary": true,
+          "size": 37514
+        },
+        {
+          "sha512": "3db51d053d06ae9cbe9f442352844971c8c04d96e0eaac057eeebd0ee289860bbac26c1212ae568be4fcb85eed0cf43e77c075f46c8834f45df268926f8f4006",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/LIp8slyd/AgainstToxicity-sources.jar",
+          "filename": "AgainstToxicity-sources.jar",
+          "primary": false,
+          "size": 28250
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "R5elfa5V",
+      "name": "Against Toxicity 1.0-1.20.1",
+      "version_number": "1.0-1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "28ce4ab01c2fcaa1325e5393defd3372a26d2e59f663ff96a73c10a24448ec80e57b2c300e629e6b911251e33017f6534b2ae07485d41dbbdeca7f2d182512ea",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/R5elfa5V/AgainstToxicity.jar",
+          "filename": "AgainstToxicity.jar",
+          "primary": true,
+          "size": 36604
+        },
+        {
+          "sha512": "9a9cc49b7bd158f0555f6dc5667b467a106fa8bbc5d56bf90a4e76a83b7be28c82e6860ec437672f4e538a06e4e001d2c726127bc6af66d17c89f8b7b5c52aa1",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/R5elfa5V/AgainstToxicity-sources.jar",
+          "filename": "AgainstToxicity-sources.jar",
+          "primary": false,
+          "size": 28330
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "S7nHLUPi",
+      "name": "Against Toxicity 1.3.3-1.19.4",
+      "version_number": "1.3.3-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "97164abc2d96c7d9e1b8e36c1be1e9bb11a4a4b33663f3bc5563ce979774b2331c1431f521dbba681173dcbad497829423ec1cac8c3a24fdbaa5d5b6dab3ad96",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/S7nHLUPi/AgainstToxicity.jar",
+          "filename": "AgainstToxicity.jar",
+          "primary": true,
+          "size": 38000
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "S9Ede7gq",
+      "name": "Against Toxicity 1.3.2-1.19.2",
+      "version_number": "1.3.2-1.19.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "cb25c4e4812e7c00cd34341f827fe3516092569fe7e0f8f47c063f7ebc2023e1e4cdd364096e107bd6f07df96fb0f772d9675f3e40e369a2dc8814fc339a1adc",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/S9Ede7gq/AgainstToxicity.jar",
+          "filename": "AgainstToxicity.jar",
+          "primary": true,
+          "size": 37845
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "Vzy38SiA",
@@ -112,307 +319,13 @@
           "primary": false,
           "size": 28865
         }
-      ]
-    },
-    {
-      "id": "rEFlwir7",
-      "name": "Against Toxicity 1.5.1",
-      "version_number": "1.5.1",
-      "game_versions": [
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2"
       ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "c29da1f52d93856621f6e01740582722913ae4e656d2d28ed633c414feec4b9ff7cf795a22268f018de7d78ad35613eca670c83f2c85598c5d776923c93bfbff",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/rEFlwir7/AgainstToxicity-1.5.1.jar",
-          "filename": "AgainstToxicity-1.5.1.jar",
-          "primary": true,
-          "size": 38190
-        }
-      ]
-    },
-    {
-      "id": "zoW4VWFr",
-      "name": "Against Toxicity 1.5",
-      "version_number": "1.5",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ec75f84b4bca0841cee505c78b908a8152ecfc36284459f5e3f18d84b77936ee0a5159400f208c58c227d9feaa8c59a7fb548f7dd5c2b924f82b58f7ddc6c277",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/zoW4VWFr/AgainstToxicity-1.5.jar",
-          "filename": "AgainstToxicity-1.5.jar",
-          "primary": true,
-          "size": 38225
-        },
-        {
-          "sha512": "84072bbcf4181a1eda9bddbf01c1e6254943791604b44d7f0cdf885cc2ece7de39537641807d3d93560801a9c0f42d4c75f7717b246d6c958415412d926ccb4a",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/zoW4VWFr/AgainstToxicity-1.5-sources.jar",
-          "filename": "AgainstToxicity-1.5-sources.jar",
-          "primary": false,
-          "size": 28539
-        }
-      ]
-    },
-    {
-      "id": "x9vbMdg8",
-      "name": "Against Toxicity 1.5",
-      "version_number": "1.5",
-      "game_versions": [
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f386fefba8e55129652a211286f30623c4cdcb09fb55d16a8e6c928ce2a51534a1707bf7af97ce367faa93bd880d963f9eaddee4128b2b06dfd49b109203fee9",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/x9vbMdg8/AgainstToxicity-1.5.jar",
-          "filename": "AgainstToxicity-1.5.jar",
-          "primary": true,
-          "size": 38270
-        },
-        {
-          "sha512": "0e043febec8de3567fc16c2273527411d6772577af4742cd5c94c05c1db9f6d1e18df02d7ae8e842f5d8d50d913aed51fb1b2f308ae320a09d2a85baf65c7a39",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/x9vbMdg8/AgainstToxicity-1.5-sources.jar",
-          "filename": "AgainstToxicity-1.5-sources.jar",
-          "primary": false,
-          "size": 28530
-        }
-      ]
-    },
-    {
-      "id": "gWv5a7Vs",
-      "name": "Against Toxicity 1.4-1.20.1",
-      "version_number": "1.4-1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "bbb2623ce8123deb15a4d56e09fd16124a7aaa75f8036b0eae304f1dbb0f6f8222eb5f53d618108edf597d8f9ced9211dee3188f150a5b977205149958a2d8ec",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/gWv5a7Vs/AgainstToxicity-1.4.jar",
-          "filename": "AgainstToxicity-1.4.jar",
-          "primary": true,
-          "size": 38216
-        },
-        {
-          "sha512": "1c9444e2f8bb73db6405c8c6307204117cd3c8b5689dff744849a61a167a814ee51597898627daedd3fdff57e375530e842b9599161b27b263691c54968a4184",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/gWv5a7Vs/AgainstToxicity-1.4-sources.jar",
-          "filename": "AgainstToxicity-1.4-sources.jar",
-          "primary": false,
-          "size": 28434
-        }
-      ]
-    },
-    {
-      "id": "1yniqHaz",
-      "name": "Against Toxicity 1.3.3-1.18.2",
-      "version_number": "1.3.3-1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "506e8cf4bf44155eb09f65faa302f32f7dc5d16a78b7184a09c98f27a52d7d0f1c1e3bf72315ec56a21ee9c803857bcdd25aa05275453bcf3c0c830e164fd783",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/1yniqHaz/AgainstToxicity.jar",
-          "filename": "AgainstToxicity.jar",
-          "primary": true,
-          "size": 38043
-        },
-        {
-          "sha512": "f1fbd313ab8d88786a51b3f5a1fc070e76fbc3b1313807ba51b2ec701ff6c73d5d34de413003529db155744f2a2aaa393949a5cbac58fddaa1b2d0170da1eda1",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/1yniqHaz/AgainstToxicity-sources.jar",
-          "filename": "AgainstToxicity-sources.jar",
-          "primary": false,
-          "size": 28460
-        }
-      ]
-    },
-    {
-      "id": "lRV4EVQt",
-      "name": "Against Toxicity 1.3.3-1.19.2",
-      "version_number": "1.3.3-1.19.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "5cd2ee67023be984cac29427af9add3ad343010b0fe998af0f8441adbd7cc17752ac8aea8c19762b827a20b91a85347663c1dfa32b5999aa11790f0b49dd8a2a",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/lRV4EVQt/fixed%20lol.jar",
-          "filename": "fixed lol.jar",
-          "primary": false,
-          "size": 37743
-        }
-      ]
-    },
-    {
-      "id": "S7nHLUPi",
-      "name": "Against Toxicity 1.3.3-1.19.4",
-      "version_number": "1.3.3-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "97164abc2d96c7d9e1b8e36c1be1e9bb11a4a4b33663f3bc5563ce979774b2331c1431f521dbba681173dcbad497829423ec1cac8c3a24fdbaa5d5b6dab3ad96",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/S7nHLUPi/AgainstToxicity.jar",
-          "filename": "AgainstToxicity.jar",
-          "primary": true,
-          "size": 38000
-        }
-      ]
-    },
-    {
-      "id": "mfdXlusa",
-      "name": "Against Toxicity 1.3.3-1.20.1",
-      "version_number": "1.3.3-1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b704a1182d04de35b25d12123e536bfc56766e86b19d3eaabd41b9f094e9581d7a787efd7427e9f59790247d9b691ff3d356c31f79e73e0ce6d6a8f4f70e2172",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/mfdXlusa/AgainstToxicity.jar",
-          "filename": "AgainstToxicity.jar",
-          "primary": true,
-          "size": 38043
-        },
-        {
-          "sha512": "5cc451ee0d4c7cd574044abc1250a3d7ffbe2efdb40bb20acd1fc7b0b72b5457a1a6c3b24b6f9d8f2f6e98becb9d414b81ca529baa6d3060824f67ecca56bbe9",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/mfdXlusa/AgainstToxicity-sources.jar",
-          "filename": "AgainstToxicity-sources.jar",
-          "primary": false,
-          "size": 28491
-        }
-      ]
-    },
-    {
-      "id": "S9Ede7gq",
-      "name": "Against Toxicity 1.3.2-1.19.2",
-      "version_number": "1.3.2-1.19.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "cb25c4e4812e7c00cd34341f827fe3516092569fe7e0f8f47c063f7ebc2023e1e4cdd364096e107bd6f07df96fb0f772d9675f3e40e369a2dc8814fc339a1adc",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/S9Ede7gq/AgainstToxicity.jar",
-          "filename": "AgainstToxicity.jar",
-          "primary": true,
-          "size": 37845
-        }
-      ]
-    },
-    {
-      "id": "qEfkyNLE",
-      "name": "Against Toxicity 1.3.2-1.19.4",
-      "version_number": "1.3.2-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "971e6de7b0b79fbee80c08d6de4fdcbd5c2c32904ad46a43bfc3f9dc2592b589002b5dbc433f719a9c259302699a4201b8f00f087facec6f7b38949fee84c585",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/qEfkyNLE/AgainstToxicity.jar",
-          "filename": "AgainstToxicity.jar",
-          "primary": true,
-          "size": 37953
-        },
-        {
-          "sha512": "1700b3b3166345e2ec77f3c360b68594829bd75d3a69d21baf847b963a2c9190cd92c2dd7dac976b528fa27b45518c615505755d76ca8e54bb32110c2c9b056b",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/qEfkyNLE/AgainstToxicity-sources.jar",
-          "filename": "AgainstToxicity-sources.jar",
-          "primary": false,
-          "size": 28405
-        }
-      ]
-    },
-    {
-      "id": "AeVJ5BtL",
-      "name": "Against Toxicity 1.3.2-1.20.1",
-      "version_number": "1.3.2-1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9053f8423f5f4efcb49b1609aadaa735055dc10932f8beec930e6f30bd392d62a8626d9bb690062c5d83edf478f230743084cb14d3734d7f774a03fc6ef73360",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/AeVJ5BtL/AgainstToxicity.jar",
-          "filename": "AgainstToxicity.jar",
-          "primary": true,
-          "size": 37986
-        },
-        {
-          "sha512": "eb871f308629b1e17e5889b7de38ca88be14bf0d530ffd47c1ee1e7b28be38fd206c439ff79e10aa7d252d8444b236327180ec7fa309f1ce7c6e8606610f184e",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/AeVJ5BtL/AgainstToxicity-sources.jar",
-          "filename": "AgainstToxicity-sources.jar",
-          "primary": false,
-          "size": 28404
-        }
-      ]
-    },
-    {
-      "id": "fqOiJJ22",
-      "name": "Against Toxicity 1.3.1-1.20.1",
-      "version_number": "1.3.1-1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4a587cef4226bad16206e37b35553bf77545eaa8cec932bdda22c83ae50da57761205e5cb90cbafad7769336dc2339b1c6d050d91a9536671ceb67f08a1a11c1",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/fqOiJJ22/AgainstToxicity.jar",
-          "filename": "AgainstToxicity.jar",
-          "primary": true,
-          "size": 37765
-        },
-        {
-          "sha512": "bff71c88adbc88bb8b4cb0fa1c2ad739f2e44a0556091c2eb05cebfd03a1f6b1f289c1696e589fd53afa46bab354da4db44a20bb54ac7939dbe2d83c313b5d3b",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/fqOiJJ22/AgainstToxicity-sources.jar",
-          "filename": "AgainstToxicity-sources.jar",
-          "primary": false,
-          "size": 28340
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -455,32 +368,25 @@
           "primary": false,
           "size": 37552
         }
-      ]
-    },
-    {
-      "id": "LIp8slyd",
-      "name": "Against Toxicity 1.3-1.19.2",
-      "version_number": "1.3-1.19.2",
-      "game_versions": [
-        "1.19.2"
       ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "9e64e6849bab5f530a12a9236a7798fc433ee67651d92ce8a9b82ed74329cd4e8683733051070b7372f4eaceb26fbe07cdd5ed55a379858af2ad68c2bfefb0b1",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/LIp8slyd/AgainstToxicity.jar",
-          "filename": "AgainstToxicity.jar",
-          "primary": true,
-          "size": 37514
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
-          "sha512": "3db51d053d06ae9cbe9f442352844971c8c04d96e0eaac057eeebd0ee289860bbac26c1212ae568be4fcb85eed0cf43e77c075f46c8834f45df268926f8f4006",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/LIp8slyd/AgainstToxicity-sources.jar",
-          "filename": "AgainstToxicity-sources.jar",
-          "primary": false,
-          "size": 28250
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -523,6 +429,275 @@
           "primary": false,
           "size": 37595
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "fqOiJJ22",
+      "name": "Against Toxicity 1.3.1-1.20.1",
+      "version_number": "1.3.1-1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4a587cef4226bad16206e37b35553bf77545eaa8cec932bdda22c83ae50da57761205e5cb90cbafad7769336dc2339b1c6d050d91a9536671ceb67f08a1a11c1",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/fqOiJJ22/AgainstToxicity.jar",
+          "filename": "AgainstToxicity.jar",
+          "primary": true,
+          "size": 37765
+        },
+        {
+          "sha512": "bff71c88adbc88bb8b4cb0fa1c2ad739f2e44a0556091c2eb05cebfd03a1f6b1f289c1696e589fd53afa46bab354da4db44a20bb54ac7939dbe2d83c313b5d3b",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/fqOiJJ22/AgainstToxicity-sources.jar",
+          "filename": "AgainstToxicity-sources.jar",
+          "primary": false,
+          "size": 28340
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "gWv5a7Vs",
+      "name": "Against Toxicity 1.4-1.20.1",
+      "version_number": "1.4-1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "bbb2623ce8123deb15a4d56e09fd16124a7aaa75f8036b0eae304f1dbb0f6f8222eb5f53d618108edf597d8f9ced9211dee3188f150a5b977205149958a2d8ec",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/gWv5a7Vs/AgainstToxicity-1.4.jar",
+          "filename": "AgainstToxicity-1.4.jar",
+          "primary": true,
+          "size": 38216
+        },
+        {
+          "sha512": "1c9444e2f8bb73db6405c8c6307204117cd3c8b5689dff744849a61a167a814ee51597898627daedd3fdff57e375530e842b9599161b27b263691c54968a4184",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/gWv5a7Vs/AgainstToxicity-1.4-sources.jar",
+          "filename": "AgainstToxicity-1.4-sources.jar",
+          "primary": false,
+          "size": 28434
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "lRV4EVQt",
+      "name": "Against Toxicity 1.3.3-1.19.2",
+      "version_number": "1.3.3-1.19.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5cd2ee67023be984cac29427af9add3ad343010b0fe998af0f8441adbd7cc17752ac8aea8c19762b827a20b91a85347663c1dfa32b5999aa11790f0b49dd8a2a",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/lRV4EVQt/fixed%20lol.jar",
+          "filename": "fixed lol.jar",
+          "primary": false,
+          "size": 37743
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "mfdXlusa",
+      "name": "Against Toxicity 1.3.3-1.20.1",
+      "version_number": "1.3.3-1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "b704a1182d04de35b25d12123e536bfc56766e86b19d3eaabd41b9f094e9581d7a787efd7427e9f59790247d9b691ff3d356c31f79e73e0ce6d6a8f4f70e2172",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/mfdXlusa/AgainstToxicity.jar",
+          "filename": "AgainstToxicity.jar",
+          "primary": true,
+          "size": 38043
+        },
+        {
+          "sha512": "5cc451ee0d4c7cd574044abc1250a3d7ffbe2efdb40bb20acd1fc7b0b72b5457a1a6c3b24b6f9d8f2f6e98becb9d414b81ca529baa6d3060824f67ecca56bbe9",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/mfdXlusa/AgainstToxicity-sources.jar",
+          "filename": "AgainstToxicity-sources.jar",
+          "primary": false,
+          "size": 28491
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "qBOeVFyZ",
+      "name": "Against Toxicity 1.1-1.20.1",
+      "version_number": "1.1-1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "164c96cbcda20b4a5acd79c21269fcfcc46312f8d9fab69de37a458b5bab306e5dfae81f5897a06fc582daf29eaf555c76e9d7860f540786bde3b7912e1a03ef",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/qBOeVFyZ/AgainstToxicity.jar",
+          "filename": "AgainstToxicity.jar",
+          "primary": true,
+          "size": 36572
+        },
+        {
+          "sha512": "31b56a4bce3b1d81a58c86930eb488e4c2f58e7ee80f5f9b4b49bb3eaa167fcb77eca90685d6bb4372231e9da27d234e9032be51ab325a3894707343e015a5f7",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/qBOeVFyZ/AgainstToxicity-sources.jar",
+          "filename": "AgainstToxicity-sources.jar",
+          "primary": false,
+          "size": 28294
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "qEfkyNLE",
+      "name": "Against Toxicity 1.3.2-1.19.4",
+      "version_number": "1.3.2-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "971e6de7b0b79fbee80c08d6de4fdcbd5c2c32904ad46a43bfc3f9dc2592b589002b5dbc433f719a9c259302699a4201b8f00f087facec6f7b38949fee84c585",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/qEfkyNLE/AgainstToxicity.jar",
+          "filename": "AgainstToxicity.jar",
+          "primary": true,
+          "size": 37953
+        },
+        {
+          "sha512": "1700b3b3166345e2ec77f3c360b68594829bd75d3a69d21baf847b963a2c9190cd92c2dd7dac976b528fa27b45518c615505755d76ca8e54bb32110c2c9b056b",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/qEfkyNLE/AgainstToxicity-sources.jar",
+          "filename": "AgainstToxicity-sources.jar",
+          "primary": false,
+          "size": 28405
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rEFlwir7",
+      "name": "Against Toxicity 1.5.1",
+      "version_number": "1.5.1",
+      "game_versions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c29da1f52d93856621f6e01740582722913ae4e656d2d28ed633c414feec4b9ff7cf795a22268f018de7d78ad35613eca670c83f2c85598c5d776923c93bfbff",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/rEFlwir7/AgainstToxicity-1.5.1.jar",
+          "filename": "AgainstToxicity-1.5.1.jar",
+          "primary": true,
+          "size": 38190
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -550,59 +725,150 @@
           "primary": false,
           "size": 28286
         }
-      ]
-    },
-    {
-      "id": "qBOeVFyZ",
-      "name": "Against Toxicity 1.1-1.20.1",
-      "version_number": "1.1-1.20.1",
-      "game_versions": [
-        "1.20.1"
       ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "164c96cbcda20b4a5acd79c21269fcfcc46312f8d9fab69de37a458b5bab306e5dfae81f5897a06fc582daf29eaf555c76e9d7860f540786bde3b7912e1a03ef",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/qBOeVFyZ/AgainstToxicity.jar",
-          "filename": "AgainstToxicity.jar",
-          "primary": true,
-          "size": 36572
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         },
         {
-          "sha512": "31b56a4bce3b1d81a58c86930eb488e4c2f58e7ee80f5f9b4b49bb3eaa167fcb77eca90685d6bb4372231e9da27d234e9032be51ab325a3894707343e015a5f7",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/qBOeVFyZ/AgainstToxicity-sources.jar",
-          "filename": "AgainstToxicity-sources.jar",
-          "primary": false,
-          "size": 28294
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "R5elfa5V",
-      "name": "Against Toxicity 1.0-1.20.1",
-      "version_number": "1.0-1.20.1",
+      "id": "x9vbMdg8",
+      "name": "Against Toxicity 1.5",
+      "version_number": "1.5",
       "game_versions": [
-        "1.20.1"
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "28ce4ab01c2fcaa1325e5393defd3372a26d2e59f663ff96a73c10a24448ec80e57b2c300e629e6b911251e33017f6534b2ae07485d41dbbdeca7f2d182512ea",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/R5elfa5V/AgainstToxicity.jar",
-          "filename": "AgainstToxicity.jar",
+          "sha512": "f386fefba8e55129652a211286f30623c4cdcb09fb55d16a8e6c928ce2a51534a1707bf7af97ce367faa93bd880d963f9eaddee4128b2b06dfd49b109203fee9",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/x9vbMdg8/AgainstToxicity-1.5.jar",
+          "filename": "AgainstToxicity-1.5.jar",
           "primary": true,
-          "size": 36604
+          "size": 38270
         },
         {
-          "sha512": "9a9cc49b7bd158f0555f6dc5667b467a106fa8bbc5d56bf90a4e76a83b7be28c82e6860ec437672f4e538a06e4e001d2c726127bc6af66d17c89f8b7b5c52aa1",
-          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/R5elfa5V/AgainstToxicity-sources.jar",
-          "filename": "AgainstToxicity-sources.jar",
+          "sha512": "0e043febec8de3567fc16c2273527411d6772577af4742cd5c94c05c1db9f6d1e18df02d7ae8e842f5d8d50d913aed51fb1b2f308ae320a09d2a85baf65c7a39",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/x9vbMdg8/AgainstToxicity-1.5-sources.jar",
+          "filename": "AgainstToxicity-1.5-sources.jar",
           "primary": false,
-          "size": 28330
+          "size": 28530
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "zDSzElc1",
+      "name": "Against Toxicity 1.7",
+      "version_number": "1.7",
+      "game_versions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e4f43560308393fe57491dcaac7245900546541f4fe7fb7db21f76accc856f252d6aa5cc298b75520ffc266d0c94790fe46a0d1fbee841071b14ae9a8957b068",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/zDSzElc1/AgainstToxicity-1.7.jar",
+          "filename": "AgainstToxicity-1.7.jar",
+          "primary": true,
+          "size": 39186
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "zoW4VWFr",
+      "name": "Against Toxicity 1.5",
+      "version_number": "1.5",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ec75f84b4bca0841cee505c78b908a8152ecfc36284459f5e3f18d84b77936ee0a5159400f208c58c227d9feaa8c59a7fb548f7dd5c2b924f82b58f7ddc6c277",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/zoW4VWFr/AgainstToxicity-1.5.jar",
+          "filename": "AgainstToxicity-1.5.jar",
+          "primary": true,
+          "size": 38225
+        },
+        {
+          "sha512": "84072bbcf4181a1eda9bddbf01c1e6254943791604b44d7f0cdf885cc2ece7de39537641807d3d93560801a9c0f42d4c75f7717b246d6c958415412d926ccb4a",
+          "url": "https://cdn.modrinth.com/data/XquSnVkN/versions/zoW4VWFr/AgainstToxicity-1.5-sources.jar",
+          "filename": "AgainstToxicity-1.5-sources.jar",
+          "primary": false,
+          "size": 28539
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

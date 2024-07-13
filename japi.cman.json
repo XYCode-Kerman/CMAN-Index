@@ -5,41 +5,6 @@
   "description": "An API used for JacobG5's mods. (That's me!)\n\nThis mod does not add any features on it's own besides a few tags.\n\nThere is optional compatibility for trinkets but it is not required unless a different mod requires it.",
   "versions": [
     {
-      "id": "YmVt5cPu",
-      "name": "JAPI 1.7.3",
-      "version_number": "1.7.3",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "06d8cd940dc12b0c2730b4b1dd006b87b4ebeeb4398c0bd9c8f5e0a0b15b8f5fa07c7001b2236d921b71b5595da57d422f8d822ec47cd193fe2843870d64f71a",
-          "url": "https://cdn.modrinth.com/data/gEyzz2kw/versions/YmVt5cPu/japi-1.7.3.jar",
-          "filename": "japi-1.7.3.jar",
-          "primary": true,
-          "size": 295935
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5aaWibi9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "4yWey52z",
       "name": "JAPI 1.7.2",
       "version_number": "1.7.2",
@@ -71,6 +36,100 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "6HRcqOH4",
+      "name": "JAPI 1.4.0",
+      "version_number": "1.4.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8c4e5d698b461b4c9dce4e5acf29e7d64589f5f267f2b29f203929b26867de11c3fb379c6fb3f7934e30cca933fb2c8a5416195e936120fd7791c20cf6213e76",
+          "url": "https://cdn.modrinth.com/data/gEyzz2kw/versions/6HRcqOH4/japi-1.4.0.jar",
+          "filename": "japi-1.4.0.jar",
+          "primary": true,
+          "size": 168711
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "O2wkdiya",
+      "name": "JAPI 1.2.0-1.19.4",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "557b7dc1f19f15250438c412abff4edbee1cb77046edf065797c0771b32430b35b7cf32ba8f0f95233659909071ddf2f8af52ae66ec46594444be09695039241",
+          "url": "https://cdn.modrinth.com/data/gEyzz2kw/versions/O2wkdiya/japi-1.2.0.jar",
+          "filename": "japi-1.2.0.jar",
+          "primary": true,
+          "size": 125496
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5aaWibi9",
+          "version_id": "A5kxdEY3",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "YmVt5cPu",
+      "name": "JAPI 1.7.3",
+      "version_number": "1.7.3",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "06d8cd940dc12b0c2730b4b1dd006b87b4ebeeb4398c0bd9c8f5e0a0b15b8f5fa07c7001b2236d921b71b5595da57d422f8d822ec47cd193fe2843870d64f71a",
+          "url": "https://cdn.modrinth.com/data/gEyzz2kw/versions/YmVt5cPu/japi-1.7.3.jar",
+          "filename": "japi-1.7.3.jar",
+          "primary": true,
+          "size": 295935
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5aaWibi9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -122,65 +181,6 @@
         }
       ],
       "dependencies": []
-    },
-    {
-      "id": "6HRcqOH4",
-      "name": "JAPI 1.4.0",
-      "version_number": "1.4.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8c4e5d698b461b4c9dce4e5acf29e7d64589f5f267f2b29f203929b26867de11c3fb379c6fb3f7934e30cca933fb2c8a5416195e936120fd7791c20cf6213e76",
-          "url": "https://cdn.modrinth.com/data/gEyzz2kw/versions/6HRcqOH4/japi-1.4.0.jar",
-          "filename": "japi-1.4.0.jar",
-          "primary": true,
-          "size": 168711
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "O2wkdiya",
-      "name": "JAPI 1.2.0-1.19.4",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "557b7dc1f19f15250438c412abff4edbee1cb77046edf065797c0771b32430b35b7cf32ba8f0f95233659909071ddf2f8af52ae66ec46594444be09695039241",
-          "url": "https://cdn.modrinth.com/data/gEyzz2kw/versions/O2wkdiya/japi-1.2.0.jar",
-          "filename": "japi-1.2.0.jar",
-          "primary": true,
-          "size": 125496
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "5aaWibi9",
-          "version_id": "A5kxdEY3",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
     }
   ]
 }

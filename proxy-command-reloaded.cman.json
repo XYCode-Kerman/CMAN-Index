@@ -1,29 +1,9 @@
 {
-  "id": "proxy-command-reloaded",
+  "id": "ZtZU4UiS",
   "slug": "proxy-command-reloaded",
   "name": "Proxy Command Reloaded",
   "description": "A command that allows you to send commands from your Minecraft server instances to a Velocity proxy",
   "versions": [
-    {
-      "id": "GfQPuxSH",
-      "name": "Proxy Command Reloaded 1.1-17 (1.20.5 fabric)",
-      "version_number": "1.1-1.20.5-17",
-      "game_versions": [
-        "1.20.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "cbfacfc68e08b59de06725c95bcaf155f95c60f59d26e82d8ee36fa23884679d71bd4c5acda1e6a87d55474192bc95106a044105ad0c1e9031276376385b2b86",
-          "url": "https://cdn.modrinth.com/data/ZtZU4UiS/versions/GfQPuxSH/proxy-command-fabric-1.1-1.20.5-17.jar",
-          "filename": "proxy-command-fabric-1.1-1.20.5-17.jar",
-          "primary": true,
-          "size": 7851
-        }
-      ]
-    },
     {
       "id": "F6qIyBpN",
       "name": "Proxy Command Reloaded 1.0-7 (velocity 3.2.0 - latest)",
@@ -44,6 +24,41 @@
           "primary": true,
           "size": 4389
         }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "GfQPuxSH",
+      "name": "Proxy Command Reloaded 1.1-17 (1.20.5 fabric)",
+      "version_number": "1.1-1.20.5-17",
+      "game_versions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "cbfacfc68e08b59de06725c95bcaf155f95c60f59d26e82d8ee36fa23884679d71bd4c5acda1e6a87d55474192bc95106a044105ad0c1e9031276376385b2b86",
+          "url": "https://cdn.modrinth.com/data/ZtZU4UiS/versions/GfQPuxSH/proxy-command-fabric-1.1-1.20.5-17.jar",
+          "filename": "proxy-command-fabric-1.1-1.20.5-17.jar",
+          "primary": true,
+          "size": 7851
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "GCdY4I8I",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8dI2tmqs",
+          "version_id": "pKclvAHk",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -63,6 +78,20 @@
           "filename": "proxy-command-fabric-1.0-7.jar",
           "primary": true,
           "size": 6062
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8dI2tmqs",
+          "version_id": "XJmDAnj5",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

@@ -5,41 +5,6 @@
   "description": "Addon to Tetra mod which gives you workbenches in many wood variations (including mod-added woods, of course).",
   "versions": [
     {
-      "id": "unicTgBh",
-      "name": "Tetra tables (1.20.1) 1.1",
-      "version_number": "1.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge",
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "b604c09bca2e6bf212c6e1b567723dc1e8cd990413c7f0645818d2f9aff4dad95b7bc509a052f72e854286d69da3f3b44b94dcb03f7c632f6541d8d7ac127c87",
-          "url": "https://cdn.modrinth.com/data/9Tk5Ttel/versions/unicTgBh/tetra_tables--mc1.20--1.1.jar",
-          "filename": "tetra_tables--mc1.20--1.1.jar",
-          "primary": true,
-          "size": 40482
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "6lu9blWp",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "YP9DjOvN",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "8IfNkiB9",
       "name": "Tetra tables (1.18.2) 1.0.2",
       "version_number": "1.0.2",
@@ -129,16 +94,51 @@
       ],
       "dependencies": [
         {
+          "project_id": "YP9DjOvN",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "6lu9blWp",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
+        }
+      ]
+    },
+    {
+      "id": "unicTgBh",
+      "name": "Tetra tables (1.20.1) 1.1",
+      "version_number": "1.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "b604c09bca2e6bf212c6e1b567723dc1e8cd990413c7f0645818d2f9aff4dad95b7bc509a052f72e854286d69da3f3b44b94dcb03f7c632f6541d8d7ac127c87",
+          "url": "https://cdn.modrinth.com/data/9Tk5Ttel/versions/unicTgBh/tetra_tables--mc1.20--1.1.jar",
+          "filename": "tetra_tables--mc1.20--1.1.jar",
+          "primary": true,
+          "size": 40482
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "YP9DjOvN",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "6lu9blWp",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }

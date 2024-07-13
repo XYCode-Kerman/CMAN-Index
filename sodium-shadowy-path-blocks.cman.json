@@ -5,6 +5,86 @@
   "description": "Reintroduces vanilla-like smooth lighting to non-full blocks (e.g. dirt paths and how they have dark shading when directly next to a full block) when using Sodium. ",
   "versions": [
     {
+      "id": "PUM4somd",
+      "name": "SSPB 3.0.0 for Sodium 0.4.2 / MC 1.19 to 1.19.2",
+      "version_number": "3.0.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d7302ed1e86cf6fad5a6b3d9246a5077a2982fdfce13f66dbc4b207f5009d6c19d1857b97a3623a969aad1e5977f7e62855257818604a53d79d153c28d63ffd9",
+          "url": "https://cdn.modrinth.com/data/EIa1eiMm/versions/3.0.0/sodium-shadowy-path-blocks-3.0.0.jar",
+          "filename": "sodium-shadowy-path-blocks-3.0.0.jar",
+          "primary": true,
+          "size": 48493
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "2Uev7LdA",
+          "version_id": "UWFTYBmq",
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
+        {
+          "project_id": "AANobbMI",
+          "version_id": "Yp8wLY1P",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Wm06cbRI",
+      "name": " SSPB 2.0.0 for Sodium 0.3.x, 0.4.0-alpha5 to 0.4.1 / MC 1.17.1 to 1.18.2",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8c9bc21755dafac4843baaebb9ddab106a58da588a56b0679ee0030afc8fc6863699b214da2117a0a9cb3cfde0c2060e0e063538cde2d683c3230fb596e379cc",
+          "url": "https://cdn.modrinth.com/data/EIa1eiMm/versions/2.0.0/sodium-shadowy-path-blocks-2.0.0.jar",
+          "filename": "sodium-shadowy-path-blocks-2.0.0.jar",
+          "primary": true,
+          "size": 51381
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AANobbMI",
+          "version_id": "74Y5Z8fo",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Bh37bMuy",
+          "version_id": "BZU4WdR5",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "2Uev7LdA",
+          "version_id": "CXzPYiJu",
+          "file_name": null,
+          "dependency_type": "incompatible"
+        }
+      ]
+    },
+    {
       "id": "hnQBKLCn",
       "name": "SSPB 3.3.0 for Sodium 0.4.3 to 0.5.11 / MC 1.19 to 1.21.x",
       "version_number": "3.3.0",
@@ -60,6 +140,91 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "iQr9EvfW",
+      "name": "SSPB 1.0.0 for Sodium 0.1.0, 0.2.0 / MC 1.16.1 to 1.16.5",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e7562e4c11fcb3b4f1923296a98551999943df18717d04a6735ff755fa65fcf639617a63dd3f0d36cc0d45afd14874f2eb5be9aaade3a624b7aa0c6ff1d5e55b",
+          "url": "https://cdn.modrinth.com/data/EIa1eiMm/versions/1.0.0/sodium-shadowy-path-blocks-1.0.0.jar",
+          "filename": "sodium-shadowy-path-blocks-1.0.0.jar",
+          "primary": true,
+          "size": 51491
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Bh37bMuy",
+          "version_id": "Em4mC86n",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "AANobbMI",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "2Uev7LdA",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "incompatible"
+        }
+      ]
+    },
+    {
+      "id": "lvRng8PE",
+      "name": "SSPB 3.1.0 for Sodium 0.4.3 to 0.4.11 / MC 1.19 to 1.20.1",
+      "version_number": "3.1.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d92c02d6f0e8336e79e5e87e82892612ad6f6f737b556933aebcd21313212226d6928da4144ba4261415315d0bd17159e279f9b1261106359d56f3dee2254189",
+          "url": "https://cdn.modrinth.com/data/EIa1eiMm/versions/lvRng8PE/sodium-shadowy-path-blocks-3.1.0.jar",
+          "filename": "sodium-shadowy-path-blocks-3.1.0.jar",
+          "primary": true,
+          "size": 49199
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AANobbMI",
+          "version_id": "F79MzDJD",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "2Uev7LdA",
+          "version_id": "UWFTYBmq",
+          "file_name": null,
+          "dependency_type": "incompatible"
         }
       ]
     },
@@ -120,6 +285,49 @@
       ]
     },
     {
+      "id": "nfqMWwxE",
+      "name": "SSPB 2.0.1 for Sodium 0.3.x, 0.4.0-alpha5 to 0.4.1 / MC 1.17.1 to 1.18.2 ",
+      "version_number": "2.0.1",
+      "game_versions": [
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1f6750da2f433281357fd40f0d0c499fc13ef7af606203ed2e89d6e80a1875a9929e0241d9c020123b82627e3d2f3450223a2314ec53a16da775df8518b40c99",
+          "url": "https://cdn.modrinth.com/data/EIa1eiMm/versions/2.0.1/sodium-shadowy-path-blocks-2.0.1.jar",
+          "filename": "sodium-shadowy-path-blocks-2.0.1.jar",
+          "primary": true,
+          "size": 51591
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Bh37bMuy",
+          "version_id": "BZU4WdR5",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "2Uev7LdA",
+          "version_id": "LpLEGUBZ",
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
+        {
+          "project_id": "AANobbMI",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "wIyhKQvA",
       "name": "SSPB 3.2.0 for Sodium 0.4.3 to 0.5.0 / MC 1.19 to 1.20.1",
       "version_number": "3.2.0",
@@ -161,214 +369,6 @@
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "lvRng8PE",
-      "name": "SSPB 3.1.0 for Sodium 0.4.3 to 0.4.11 / MC 1.19 to 1.20.1",
-      "version_number": "3.1.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d92c02d6f0e8336e79e5e87e82892612ad6f6f737b556933aebcd21313212226d6928da4144ba4261415315d0bd17159e279f9b1261106359d56f3dee2254189",
-          "url": "https://cdn.modrinth.com/data/EIa1eiMm/versions/lvRng8PE/sodium-shadowy-path-blocks-3.1.0.jar",
-          "filename": "sodium-shadowy-path-blocks-3.1.0.jar",
-          "primary": true,
-          "size": 49199
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AANobbMI",
-          "version_id": "F79MzDJD",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "2Uev7LdA",
-          "version_id": "UWFTYBmq",
-          "file_name": null,
-          "dependency_type": "incompatible"
-        }
-      ]
-    },
-    {
-      "id": "PUM4somd",
-      "name": "SSPB 3.0.0 for Sodium 0.4.2 / MC 1.19 to 1.19.2",
-      "version_number": "3.0.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d7302ed1e86cf6fad5a6b3d9246a5077a2982fdfce13f66dbc4b207f5009d6c19d1857b97a3623a969aad1e5977f7e62855257818604a53d79d153c28d63ffd9",
-          "url": "https://cdn.modrinth.com/data/EIa1eiMm/versions/3.0.0/sodium-shadowy-path-blocks-3.0.0.jar",
-          "filename": "sodium-shadowy-path-blocks-3.0.0.jar",
-          "primary": true,
-          "size": 48493
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "2Uev7LdA",
-          "version_id": "UWFTYBmq",
-          "file_name": null,
-          "dependency_type": "incompatible"
-        },
-        {
-          "project_id": "AANobbMI",
-          "version_id": "Yp8wLY1P",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "nfqMWwxE",
-      "name": "SSPB 2.0.1 for Sodium 0.3.x, 0.4.0-alpha5 to 0.4.1 / MC 1.17.1 to 1.18.2 ",
-      "version_number": "2.0.1",
-      "game_versions": [
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "1f6750da2f433281357fd40f0d0c499fc13ef7af606203ed2e89d6e80a1875a9929e0241d9c020123b82627e3d2f3450223a2314ec53a16da775df8518b40c99",
-          "url": "https://cdn.modrinth.com/data/EIa1eiMm/versions/2.0.1/sodium-shadowy-path-blocks-2.0.1.jar",
-          "filename": "sodium-shadowy-path-blocks-2.0.1.jar",
-          "primary": true,
-          "size": 51591
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "2Uev7LdA",
-          "version_id": "LpLEGUBZ",
-          "file_name": null,
-          "dependency_type": "incompatible"
-        },
-        {
-          "project_id": "AANobbMI",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Bh37bMuy",
-          "version_id": "BZU4WdR5",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "Wm06cbRI",
-      "name": " SSPB 2.0.0 for Sodium 0.3.x, 0.4.0-alpha5 to 0.4.1 / MC 1.17.1 to 1.18.2",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8c9bc21755dafac4843baaebb9ddab106a58da588a56b0679ee0030afc8fc6863699b214da2117a0a9cb3cfde0c2060e0e063538cde2d683c3230fb596e379cc",
-          "url": "https://cdn.modrinth.com/data/EIa1eiMm/versions/2.0.0/sodium-shadowy-path-blocks-2.0.0.jar",
-          "filename": "sodium-shadowy-path-blocks-2.0.0.jar",
-          "primary": true,
-          "size": 51381
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "2Uev7LdA",
-          "version_id": "CXzPYiJu",
-          "file_name": null,
-          "dependency_type": "incompatible"
-        },
-        {
-          "project_id": "AANobbMI",
-          "version_id": "74Y5Z8fo",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Bh37bMuy",
-          "version_id": "BZU4WdR5",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "iQr9EvfW",
-      "name": "SSPB 1.0.0 for Sodium 0.1.0, 0.2.0 / MC 1.16.1 to 1.16.5",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e7562e4c11fcb3b4f1923296a98551999943df18717d04a6735ff755fa65fcf639617a63dd3f0d36cc0d45afd14874f2eb5be9aaade3a624b7aa0c6ff1d5e55b",
-          "url": "https://cdn.modrinth.com/data/EIa1eiMm/versions/1.0.0/sodium-shadowy-path-blocks-1.0.0.jar",
-          "filename": "sodium-shadowy-path-blocks-1.0.0.jar",
-          "primary": true,
-          "size": 51491
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "2Uev7LdA",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "incompatible"
-        },
-        {
-          "project_id": "AANobbMI",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Bh37bMuy",
-          "version_id": "Em4mC86n",
           "file_name": null,
           "dependency_type": "optional"
         }

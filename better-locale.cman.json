@@ -5,6 +5,28 @@
   "description": "Facilitates the usage of other languages that are not English in the game",
   "versions": [
     {
+      "id": "1lGZyD9A",
+      "name": "1.0.0 (Fabric)",
+      "version_number": "1.0.0-fabric",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3e05568a454b3dce4c349e80d716de7699d9ab49f28788421401bc2648101902d03e0ccb4809fd1e18507966220725667d06d0f79f3519c122dbd639b70b706e",
+          "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/1.0.0-fabric/interrecipebrowser-1.0.0-fabric.jar",
+          "filename": "interrecipebrowser-1.0.0-fabric.jar",
+          "primary": true,
+          "size": 14649
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "7yGSFuYK",
       "name": "2.1.0 (Neoforge)",
       "version_number": "2.1.0",
@@ -27,36 +49,6 @@
       "dependencies": [
         {
           "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "eQoklJHR",
-      "name": "2.1.0 (Fabric, Quilt)",
-      "version_number": "2.1.0",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "1d88a1dd67775d7788625a00dad2e7f50d449835085d6765b4011db4b3686b7dd1839314be2d6fcfa6e15300b4ee9f0ead75df88c56bb1df55725b97245d971f",
-          "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/eQoklJHR/betterlocale-2.1.0-fabric.jar",
-          "filename": "betterlocale-2.1.0-fabric.jar",
-          "primary": true,
-          "size": 354393
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -131,11 +123,12 @@
       "dependencies": []
     },
     {
-      "id": "1lGZyD9A",
-      "name": "1.0.0 (Fabric)",
-      "version_number": "1.0.0-fabric",
+      "id": "eQoklJHR",
+      "name": "2.1.0 (Fabric, Quilt)",
+      "version_number": "2.1.0",
       "game_versions": [
-        "1.19"
+        "1.20.5",
+        "1.20.6"
       ],
       "loaders": [
         "fabric",
@@ -143,14 +136,21 @@
       ],
       "files": [
         {
-          "sha512": "3e05568a454b3dce4c349e80d716de7699d9ab49f28788421401bc2648101902d03e0ccb4809fd1e18507966220725667d06d0f79f3519c122dbd639b70b706e",
-          "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/1.0.0-fabric/interrecipebrowser-1.0.0-fabric.jar",
-          "filename": "interrecipebrowser-1.0.0-fabric.jar",
+          "sha512": "1d88a1dd67775d7788625a00dad2e7f50d449835085d6765b4011db4b3686b7dd1839314be2d6fcfa6e15300b4ee9f0ead75df88c56bb1df55725b97245d971f",
+          "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/eQoklJHR/betterlocale-2.1.0-fabric.jar",
+          "filename": "betterlocale-2.1.0-fabric.jar",
           "primary": true,
-          "size": 14649
+          "size": 354393
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     }
   ]
 }

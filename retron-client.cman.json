@@ -5,46 +5,6 @@
   "description": "A client side mod that customizes the look and feel of the game, while adding useful client-side features.",
   "versions": [
     {
-      "id": "eXTiiPb0",
-      "name": "retron client 1.1",
-      "version_number": "1.1",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a65c3b012d6494d5f0e3e35fa19692fdf8c5c9c6b98c71581b94a4d529bfb77a442572051ea84c475c8bba018c2b5da176bb99b6255408f66d02b431fde9f70a",
-          "url": "https://cdn.modrinth.com/data/I0VKwo72/versions/eXTiiPb0/retronclient-1.20.4-1.1.0.jar",
-          "filename": "retronclient-1.20.4-1.1.0.jar",
-          "primary": true,
-          "size": 605066
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "incompatible"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "ZxauDidH",
       "name": "retron client 1.0",
       "version_number": "1.0",
@@ -65,6 +25,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
@@ -75,12 +41,46 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "incompatible"
-        },
+        }
+      ]
+    },
+    {
+      "id": "eXTiiPb0",
+      "name": "retron client 1.1",
+      "version_number": "1.1",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a65c3b012d6494d5f0e3e35fa19692fdf8c5c9c6b98c71581b94a4d529bfb77a442572051ea84c475c8bba018c2b5da176bb99b6255408f66d02b431fde9f70a",
+          "url": "https://cdn.modrinth.com/data/I0VKwo72/versions/eXTiiPb0/retronclient-1.20.4-1.1.0.jar",
+          "filename": "retronclient-1.20.4-1.1.0.jar",
+          "primary": true,
+          "size": 605066
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "incompatible"
         }
       ]
     }

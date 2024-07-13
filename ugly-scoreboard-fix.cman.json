@@ -5,6 +5,27 @@
   "description": "Allows to modify the scoreboard sidebar",
   "versions": [
     {
+      "id": "CR8UYJrz",
+      "name": "2.10.0",
+      "version_number": "2.10.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "89e84246f47ced5d6759937f617b60a24b1d5a464319b3a90f7d5cecf76efd56c9cba85172aac76faf7acd9828133599a9d856ebc86dfd74d9797b8a6429b419",
+          "url": "https://cdn.modrinth.com/data/8bcFGNZj/versions/CR8UYJrz/uglyscoreboardfix-2.10.0.jar",
+          "filename": "uglyscoreboardfix-2.10.0.jar",
+          "primary": true,
+          "size": 28318
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "Cz3INiSf",
       "name": "2.10.1",
       "version_number": "2.10.1",
@@ -26,25 +47,39 @@
       "dependencies": []
     },
     {
-      "id": "CR8UYJrz",
-      "name": "2.10.0",
-      "version_number": "2.10.0",
+      "id": "H4ofPSdE",
+      "name": "2.7.0",
+      "version_number": "2.7.0",
       "game_versions": [
-        "1.20.1"
+        "1.19.2",
+        "1.19.3"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "89e84246f47ced5d6759937f617b60a24b1d5a464319b3a90f7d5cecf76efd56c9cba85172aac76faf7acd9828133599a9d856ebc86dfd74d9797b8a6429b419",
-          "url": "https://cdn.modrinth.com/data/8bcFGNZj/versions/CR8UYJrz/uglyscoreboardfix-2.10.0.jar",
-          "filename": "uglyscoreboardfix-2.10.0.jar",
+          "sha512": "4b25b199461ad0479792825c04d29979e9425c4ca2296ba871d987ad38786906238095e9fbae2d17571deb76c876599fcf5630dad7cb92b8bc2e5ce153723d79",
+          "url": "https://cdn.modrinth.com/data/8bcFGNZj/versions/H4ofPSdE/uglyscoreboardfix-2.7.0.jar",
+          "filename": "uglyscoreboardfix-2.7.0.jar",
           "primary": true,
-          "size": 28318
+          "size": 25966
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "EXrxCjl6",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "GtqG8z1h",
+          "version_id": "u6LwMxu3",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "Yrjy2MJ1",
@@ -87,41 +122,6 @@
         }
       ],
       "dependencies": []
-    },
-    {
-      "id": "H4ofPSdE",
-      "name": "2.7.0",
-      "version_number": "2.7.0",
-      "game_versions": [
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4b25b199461ad0479792825c04d29979e9425c4ca2296ba871d987ad38786906238095e9fbae2d17571deb76c876599fcf5630dad7cb92b8bc2e5ce153723d79",
-          "url": "https://cdn.modrinth.com/data/8bcFGNZj/versions/H4ofPSdE/uglyscoreboardfix-2.7.0.jar",
-          "filename": "uglyscoreboardfix-2.7.0.jar",
-          "primary": true,
-          "size": 25966
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "GtqG8z1h",
-          "version_id": "u6LwMxu3",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "EXrxCjl6",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
     }
   ]
 }

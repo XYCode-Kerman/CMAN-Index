@@ -5,6 +5,40 @@
   "description": "An alloy mod for SimpleOres and add-ons.",
   "versions": [
     {
+      "id": "1bEz1yBV",
+      "name": "1.7.10-1.6.1.1",
+      "version_number": "1.7.10-1.6.1.1",
+      "game_versions": [
+        "1.7.10"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5c9fc333bcf885dc4626bdc2e50fe64c0f2e1eaf9b580bd72d7596cd5d790392c6fb506fe37c0c58b44943a73be19081833f17adbe904be3637833235474ed7d",
+          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/1bEz1yBV/fusion-1.7.10-1.6.1.1.jar",
+          "filename": "fusion-1.7.10-1.6.1.1.jar",
+          "primary": true,
+          "size": 116353
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "51dAkghQ",
+          "version_id": "gaVEyBec",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mA7yWMPS",
+          "version_id": "xX01JAyU",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "5ezihlcf",
       "name": "Fusion 1.20.1-6.0.0.3",
       "version_number": "1.20.1-6.0.0.3",
@@ -26,7 +60,7 @@
       ],
       "dependencies": [
         {
-          "project_id": "mA7yWMPS",
+          "project_id": "51dAkghQ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -38,7 +72,7 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "51dAkghQ",
+          "project_id": "mA7yWMPS",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -52,23 +86,22 @@
       ]
     },
     {
-      "id": "nwB7zNUR",
-      "name": "Fusion 1.20.1-6.0.0.2",
-      "version_number": "1.20.1-6.0.0.2",
+      "id": "6EOqzw2G",
+      "name": "1.19.2-5.1.2.2",
+      "version_number": "1.19.2-5.1.2.2",
       "game_versions": [
-        "1.20.1"
+        "1.19.2"
       ],
       "loaders": [
-        "forge",
-        "neoforge"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "12a1ae91c8c8a97df3df53605d7525e886155ecd7a75ae748ea4246274ad668b742d1864c23b07a2a73159fe2527d7a65dcc2e7e51b4adb63a2b68312479f5c2",
-          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/nwB7zNUR/Fusion-1.20.1-6.0.0.2.jar",
-          "filename": "Fusion-1.20.1-6.0.0.2.jar",
+          "sha512": "bd500dfa32443b5f90c2f23dc9d62b393b7c5f69f9690a3d942484b3cc768d9884aca95a22fb111c0ba86ae99b57f59e1dc887224cb2870d38693038ef2a80da",
+          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/6EOqzw2G/Fusion-1.19.2-5.1.2.2.jar",
+          "filename": "Fusion-1.19.2-5.1.2.2.jar",
           "primary": true,
-          "size": 496254
+          "size": 477358
         }
       ],
       "dependencies": [
@@ -80,7 +113,7 @@
         },
         {
           "project_id": "mA7yWMPS",
-          "version_id": "BgMT8cxQ",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
@@ -88,13 +121,182 @@
           "project_id": "51dAkghQ",
           "version_id": null,
           "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "6IJ6JByC",
+      "name": "akkamaddi's Addenda 1.7.10-1.5.1",
+      "version_number": "1.7.10-1.5.1",
+      "game_versions": [
+        "1.7.10"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f6cd71a325e1a6d17dff660eb3f147e3444ef13b1885a60301a278fbccc10a98fab3525646ddf2aafa397180e1d2a40cb28b4d24c11b54c34cdbcef56270c8c7",
+          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/6IJ6JByC/%5B1.7.10%5DSimple%20Ores%20Addenda%20SO%201.5.1.jar",
+          "filename": "[1.7.10]Simple Ores Addenda SO 1.5.1.jar",
+          "primary": true,
+          "size": 20152
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8K8WPv8S",
+          "version_id": "1bEz1yBV",
+          "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "u6dRKJwZ",
-          "version_id": null,
+          "project_id": "mA7yWMPS",
+          "version_id": "DSHomo4J",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "51dAkghQ",
+          "version_id": "gaVEyBec",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mA7yWMPS",
+          "version_id": "xX01JAyU",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "E10Wm5Fa",
+      "name": "1.18.2-4.1.1.1",
+      "version_number": "1.18.2-4.1.1.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d13be7aa02447c774b67bdc1ec4c77f9f4f41a3e9d8c9efe43e6b032934106edf7080e053a87545340f789ec4a3f73d82d9f38036e11f0e26b32d1b5e9069e3f",
+          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/E10Wm5Fa/Fusion-1.18.2-4.1.1.1.jar",
+          "filename": "Fusion-1.18.2-4.1.1.1.jar",
+          "primary": true,
+          "size": 464142
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mA7yWMPS",
+          "version_id": "7hgs7eZD",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "51dAkghQ",
+          "version_id": "o4sVEXHp",
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "EFoglR8S",
+      "name": "1.18.2-4.1.2.0",
+      "version_number": "1.18.2-4.1.2.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f033925be3044ae70d2811fcf3687dd60b128cfa964aa211fcd0497621c38fe3b7403fd52c773032273474719c79964cd4cfc4825f770ec6961cd86154435d1f",
+          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/EFoglR8S/Fusion-1.18.2-4.1.2.0.jar",
+          "filename": "Fusion-1.18.2-4.1.2.0.jar",
+          "primary": true,
+          "size": 464818
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "EowyKC4m",
+      "name": "1.19.2-5.1.0.0",
+      "version_number": "1.19.2-5.1.0.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "019d27fb7268ee4872d90badf13f410a84c27d025a9b35ec9734dd31f1548eacfe97adf2653cb5f9d5286d18f5b50f683e64a14818fd07ee89344c3cd95d03e4",
+          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/EowyKC4m/Fusion-1.19.2-5.1.0.0.jar",
+          "filename": "Fusion-1.19.2-5.1.0.0.jar",
+          "primary": true,
+          "size": 461677
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mA7yWMPS",
+          "version_id": "akHYfjAe",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "51dAkghQ",
+          "version_id": "odHqK9ES",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "K99xZdst",
+      "name": "1.19.2-5.1.1.0",
+      "version_number": "1.19.2-5.1.1.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e4d2797951fe80459ece99350d1170426f0337d699df2371c85bee637102b74c663fae7515761a8c7115aa0af2cd9c64323147d0fe97c3c6d916dcbbf6edac74",
+          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/K99xZdst/Fusion-1.19.2-5.1.1.0.jar",
+          "filename": "Fusion-1.19.2-5.1.1.0.jar",
+          "primary": true,
+          "size": 468974
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mA7yWMPS",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "jsresWnw",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "51dAkghQ",
+          "version_id": "z5orn996",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -134,22 +336,68 @@
       ]
     },
     {
-      "id": "6EOqzw2G",
-      "name": "1.19.2-5.1.2.2",
-      "version_number": "1.19.2-5.1.2.2",
+      "id": "apN1kVgc",
+      "name": "netherrocks_addenda-1.7.10-1.5.1",
+      "version_number": "1.7.10-1.5.1",
       "game_versions": [
-        "1.19.2"
+        "1.7.10"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "bd500dfa32443b5f90c2f23dc9d62b393b7c5f69f9690a3d942484b3cc768d9884aca95a22fb111c0ba86ae99b57f59e1dc887224cb2870d38693038ef2a80da",
-          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/6EOqzw2G/Fusion-1.19.2-5.1.2.2.jar",
-          "filename": "Fusion-1.19.2-5.1.2.2.jar",
+          "sha512": "1e8fe16861ae9a5854ceb50c3dccce8e027c36cf6c2fd0efae9f9f9dbd2c9d003905bd887ad2fadac2b79a5509624f758ef191c15f60ded0050b9a3be4ffb41f",
+          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/apN1kVgc/%5B1.7.10%5DNetherrocks%20Addenda%20SO%201.5.1.jar",
+          "filename": "[1.7.10]Netherrocks Addenda SO 1.5.1.jar",
+          "primary": false,
+          "size": 11937
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8K8WPv8S",
+          "version_id": "1bEz1yBV",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mA7yWMPS",
+          "version_id": "DSHomo4J",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "jsresWnw",
+          "version_id": "QT457OLY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mA7yWMPS",
+          "version_id": "xX01JAyU",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "biUNEs35",
+      "name": "1.12.2-2.4.1.11",
+      "version_number": "1.12.2-2.4.1.11",
+      "game_versions": [
+        "1.12.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "df684787a950e30fb4f72798a32db64eef84e23a2dfb4f09f510ba5e1065285e7f315a93c888e3b1a7026da7302fff687e2b63333d2c8ad5792202708fe5d666",
+          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/biUNEs35/fusion-1.12.2-2.4.1.11.jar",
+          "filename": "fusion-1.12.2-2.4.1.11.jar",
           "primary": true,
-          "size": 477358
+          "size": 169054
         }
       ],
       "dependencies": [
@@ -160,14 +408,42 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "jsresWnw",
+          "project_id": "mA7yWMPS",
           "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jBLy7Tor",
+      "name": "1.19-5.0.0.0",
+      "version_number": "1.19-5.0.0.0",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d4b0ab140e6c841952f932bb1fea328e4b7505371c750b4c50cf0eee9ceaef8fe3089106b52b3ae6fa87993471a2e0afe8e080a367cbf5d7dcf21ea09b8db490",
+          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/jBLy7Tor/Fusion-1.19-5.0.0.0.jar",
+          "filename": "Fusion-1.19-5.0.0.0.jar",
+          "primary": true,
+          "size": 468514
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "51dAkghQ",
+          "version_id": "S6cyHGbF",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
           "project_id": "mA7yWMPS",
-          "version_id": null,
+          "version_id": "eo9mIIQy",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -214,55 +490,29 @@
       ]
     },
     {
-      "id": "EFoglR8S",
-      "name": "1.18.2-4.1.2.0",
-      "version_number": "1.18.2-4.1.2.0",
+      "id": "nwB7zNUR",
+      "name": "Fusion 1.20.1-6.0.0.2",
+      "version_number": "1.20.1-6.0.0.2",
       "game_versions": [
-        "1.18.2"
+        "1.20.1"
       ],
       "loaders": [
-        "forge"
+        "forge",
+        "neoforge"
       ],
       "files": [
         {
-          "sha512": "f033925be3044ae70d2811fcf3687dd60b128cfa964aa211fcd0497621c38fe3b7403fd52c773032273474719c79964cd4cfc4825f770ec6961cd86154435d1f",
-          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/EFoglR8S/Fusion-1.18.2-4.1.2.0.jar",
-          "filename": "Fusion-1.18.2-4.1.2.0.jar",
+          "sha512": "12a1ae91c8c8a97df3df53605d7525e886155ecd7a75ae748ea4246274ad668b742d1864c23b07a2a73159fe2527d7a65dcc2e7e51b4adb63a2b68312479f5c2",
+          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/nwB7zNUR/Fusion-1.20.1-6.0.0.2.jar",
+          "filename": "Fusion-1.20.1-6.0.0.2.jar",
           "primary": true,
-          "size": 464818
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "K99xZdst",
-      "name": "1.19.2-5.1.1.0",
-      "version_number": "1.19.2-5.1.1.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e4d2797951fe80459ece99350d1170426f0337d699df2371c85bee637102b74c663fae7515761a8c7115aa0af2cd9c64323147d0fe97c3c6d916dcbbf6edac74",
-          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/K99xZdst/Fusion-1.19.2-5.1.1.0.jar",
-          "filename": "Fusion-1.19.2-5.1.1.0.jar",
-          "primary": true,
-          "size": 468974
+          "size": 496254
         }
       ],
       "dependencies": [
         {
           "project_id": "mA7yWMPS",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "51dAkghQ",
-          "version_id": "z5orn996",
+          "version_id": "BgMT8cxQ",
           "file_name": null,
           "dependency_type": "required"
         },
@@ -270,167 +520,19 @@
           "project_id": "jsresWnw",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "apN1kVgc",
-      "name": "netherrocks_addenda-1.7.10-1.5.1",
-      "version_number": "1.7.10-1.5.1",
-      "game_versions": [
-        "1.7.10"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "1e8fe16861ae9a5854ceb50c3dccce8e027c36cf6c2fd0efae9f9f9dbd2c9d003905bd887ad2fadac2b79a5509624f758ef191c15f60ded0050b9a3be4ffb41f",
-          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/apN1kVgc/%5B1.7.10%5DNetherrocks%20Addenda%20SO%201.5.1.jar",
-          "filename": "[1.7.10]Netherrocks Addenda SO 1.5.1.jar",
-          "primary": false,
-          "size": 11937
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "8K8WPv8S",
-          "version_id": "1bEz1yBV",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "jsresWnw",
-          "version_id": "QT457OLY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mA7yWMPS",
-          "version_id": "DSHomo4J",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mA7yWMPS",
-          "version_id": "xX01JAyU",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "6IJ6JByC",
-      "name": "akkamaddi's Addenda 1.7.10-1.5.1",
-      "version_number": "1.7.10-1.5.1",
-      "game_versions": [
-        "1.7.10"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "f6cd71a325e1a6d17dff660eb3f147e3444ef13b1885a60301a278fbccc10a98fab3525646ddf2aafa397180e1d2a40cb28b4d24c11b54c34cdbcef56270c8c7",
-          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/6IJ6JByC/%5B1.7.10%5DSimple%20Ores%20Addenda%20SO%201.5.1.jar",
-          "filename": "[1.7.10]Simple Ores Addenda SO 1.5.1.jar",
-          "primary": true,
-          "size": 20152
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "51dAkghQ",
-          "version_id": "gaVEyBec",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mA7yWMPS",
-          "version_id": "xX01JAyU",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "8K8WPv8S",
-          "version_id": "1bEz1yBV",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mA7yWMPS",
-          "version_id": "DSHomo4J",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "1bEz1yBV",
-      "name": "1.7.10-1.6.1.1",
-      "version_number": "1.7.10-1.6.1.1",
-      "game_versions": [
-        "1.7.10"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "5c9fc333bcf885dc4626bdc2e50fe64c0f2e1eaf9b580bd72d7596cd5d790392c6fb506fe37c0c58b44943a73be19081833f17adbe904be3637833235474ed7d",
-          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/1bEz1yBV/fusion-1.7.10-1.6.1.1.jar",
-          "filename": "fusion-1.7.10-1.6.1.1.jar",
-          "primary": true,
-          "size": 116353
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "51dAkghQ",
-          "version_id": "gaVEyBec",
-          "file_name": null,
           "dependency_type": "optional"
         },
-        {
-          "project_id": "mA7yWMPS",
-          "version_id": "xX01JAyU",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "biUNEs35",
-      "name": "1.12.2-2.4.1.11",
-      "version_number": "1.12.2-2.4.1.11",
-      "game_versions": [
-        "1.12.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "df684787a950e30fb4f72798a32db64eef84e23a2dfb4f09f510ba5e1065285e7f315a93c888e3b1a7026da7302fff687e2b63333d2c8ad5792202708fe5d666",
-          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/biUNEs35/fusion-1.12.2-2.4.1.11.jar",
-          "filename": "fusion-1.12.2-2.4.1.11.jar",
-          "primary": true,
-          "size": 169054
-        }
-      ],
-      "dependencies": [
         {
           "project_id": "51dAkghQ",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         },
         {
-          "project_id": "mA7yWMPS",
+          "project_id": "u6dRKJwZ",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         }
       ]
     },
@@ -463,108 +565,6 @@
         {
           "project_id": "mA7yWMPS",
           "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "E10Wm5Fa",
-      "name": "1.18.2-4.1.1.1",
-      "version_number": "1.18.2-4.1.1.1",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "d13be7aa02447c774b67bdc1ec4c77f9f4f41a3e9d8c9efe43e6b032934106edf7080e053a87545340f789ec4a3f73d82d9f38036e11f0e26b32d1b5e9069e3f",
-          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/E10Wm5Fa/Fusion-1.18.2-4.1.1.1.jar",
-          "filename": "Fusion-1.18.2-4.1.1.1.jar",
-          "primary": true,
-          "size": 464142
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mA7yWMPS",
-          "version_id": "7hgs7eZD",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "51dAkghQ",
-          "version_id": "o4sVEXHp",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "jBLy7Tor",
-      "name": "1.19-5.0.0.0",
-      "version_number": "1.19-5.0.0.0",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "d4b0ab140e6c841952f932bb1fea328e4b7505371c750b4c50cf0eee9ceaef8fe3089106b52b3ae6fa87993471a2e0afe8e080a367cbf5d7dcf21ea09b8db490",
-          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/jBLy7Tor/Fusion-1.19-5.0.0.0.jar",
-          "filename": "Fusion-1.19-5.0.0.0.jar",
-          "primary": true,
-          "size": 468514
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "51dAkghQ",
-          "version_id": "S6cyHGbF",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "mA7yWMPS",
-          "version_id": "eo9mIIQy",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "EowyKC4m",
-      "name": "1.19.2-5.1.0.0",
-      "version_number": "1.19.2-5.1.0.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "019d27fb7268ee4872d90badf13f410a84c27d025a9b35ec9734dd31f1548eacfe97adf2653cb5f9d5286d18f5b50f683e64a14818fd07ee89344c3cd95d03e4",
-          "url": "https://cdn.modrinth.com/data/8K8WPv8S/versions/EowyKC4m/Fusion-1.19.2-5.1.0.0.jar",
-          "filename": "Fusion-1.19.2-5.1.0.0.jar",
-          "primary": true,
-          "size": 461677
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "51dAkghQ",
-          "version_id": "odHqK9ES",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "mA7yWMPS",
-          "version_id": "akHYfjAe",
           "file_name": null,
           "dependency_type": "required"
         }

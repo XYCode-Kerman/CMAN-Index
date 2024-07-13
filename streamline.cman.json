@@ -5,9 +5,186 @@
   "description": "Unlock the true potential of your server! Use Streamline 'modules' to add literally anything to your server; it can be essential functions like staff chat, aliases, and custom commands... or even add discord functionality and more.",
   "versions": [
     {
-      "id": "YGriYm1O",
-      "name": "StreamlineCore 2.3.3.0 (Bukkit)",
-      "version_number": "2.3.3.0",
+      "id": "1CycwRd1",
+      "name": "StreamlineCore 2.0.3.4 (Velocity)",
+      "version_number": "2.0.3.4",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "23w12a"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "8974b8cd41613df3e3599982094574599f4982ce6b2613dc57626b987c972432b03bca356388d3b4807e118cf2e6fd5a8c10bde99f422eb4d01408f209f6ff2e",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/1CycwRd1/StreamlineCore-Velocity-2.0.3.4.jar",
+          "filename": "StreamlineCore-Velocity-2.0.3.4.jar",
+          "primary": true,
+          "size": 29045755
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "1HFbTTdD",
+      "name": "StreamlineCore 2.2.3.2-SNAPSHOT (Bukkit)",
+      "version_number": "2.2.3.2-SNAPSHOT",
+      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "bukkit",
+        "folia",
+        "paper",
+        "purpur",
+        "spigot"
+      ],
+      "files": [
+        {
+          "sha512": "b9c84068d8c3e4541f7bb54f80a1bb5585c63cfb4750d99858d3c264d5ac53cdbc3baf82ed3ece17811ba12c7fc711961a0a698adb468d3baf6a00092c4c90f3",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/1HFbTTdD/StreamlineCore-Spigot-2.2.3.2-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Spigot-2.2.3.2-SNAPSHOT.jar",
+          "primary": true,
+          "size": 23321850
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "2WO8weZD",
+      "name": "StreamlineCore 2.0.3.0 (Bungee)",
+      "version_number": "2.0.3.0",
+      "game_versions": [
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "bungeecord",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "488f9170184b7a81b7f338e10d7a8108c038c199416095bec3260c39c8959ee3f5f9eec1d7187d46575fd1138e6919a07a9fa4da7f34c6735726bf4303320999",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/2WO8weZD/StreamlineCore-Bungee-2.0.3.0.jar",
+          "filename": "StreamlineCore-Bungee-2.0.3.0.jar",
+          "primary": true,
+          "size": 29043848
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "2psWL2nT",
+      "name": "StreamlineCore 2.3.2.1 (Bukkit)",
+      "version_number": "2.3.2.1",
       "game_versions": [
         "1.8",
         "1.8.1",
@@ -64,10 +241,7 @@
         "1.20.1",
         "1.20.2",
         "1.20.3",
-        "1.20.4",
-        "1.20.5",
-        "1.20.6",
-        "1.21"
+        "1.20.4"
       ],
       "loaders": [
         "bukkit",
@@ -78,11 +252,562 @@
       ],
       "files": [
         {
-          "sha512": "63ffcde619f4932228f6125138aae8e814040913f834cf8277663b3f06e168144352f23f14bc2f8a4dcc2d44aedeffec1481f799b3c3e9941b390db7266e334d",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/YGriYm1O/StreamlineCore-Spigot-2.3.3.0.jar",
-          "filename": "StreamlineCore-Spigot-2.3.3.0.jar",
+          "sha512": "e225d4e156cabf7e9a1873455411743bd621815711c424fcf330b2cb9407be8f019d93e9f870ec5ba7ad28db2ac771e1bb906337956962f5e59c8c02ff5767a7",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/2psWL2nT/StreamlineCore-Spigot-2.3.2.1.jar",
+          "filename": "StreamlineCore-Spigot-2.3.2.1.jar",
           "primary": true,
-          "size": 32743603
+          "size": 39374219
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "2x1Lg0a3",
+      "name": "StreamlineCore 2.0.3.5 (Velocity)",
+      "version_number": "2.0.3.5",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "23w12a",
+        "23w13a",
+        "23w13a_or_b",
+        "23w14a"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "ee86cdf72a1afd9e8309aa54107c0eb64ae2e1e539f99fcb7660936a34467729cee5c4c2537c29c1d3998604a03045f431b2bfd70d6d016f932eb515eeca3532",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/2x1Lg0a3/StreamlineCore-Velocity-2.0.3.5.jar",
+          "filename": "StreamlineCore-Velocity-2.0.3.5.jar",
+          "primary": true,
+          "size": 29047659
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "3NNZ4oao",
+      "name": "StreamlineCore 2.2.3.3-SNAPSHOT (Bungee)",
+      "version_number": "2.2.3.3-SNAPSHOT",
+      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "bungeecord",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "88fe706660132a06bc794eb6497ca794e03196472d16ad4bd0b0fa917198a9897ea5b9fb716303a27ca0704b2922a993b01dc2af17af9da3452398b2346750b4",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/3NNZ4oao/StreamlineCore-Bungee-2.2.3.3-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Bungee-2.2.3.3-SNAPSHOT.jar",
+          "primary": true,
+          "size": 22524336
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "4mufT7kY",
+      "name": "StreamlineCore 2.3.0 (Bukkit)",
+      "version_number": "2.3.0",
+      "game_versions": [
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "bukkit",
+        "folia",
+        "paper",
+        "purpur"
+      ],
+      "files": [
+        {
+          "sha512": "610616ce94c66af4e5e381a5ab71729e627c3499abc0b08bc8bad1413239a67f6238c880c8b31e6ded3a1719cf4fa75267bca41c026e1cc51ebf74ba8463041f",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/4mufT7kY/StreamlineCore-Spigot-2.3.0.0-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Spigot-2.3.0.0-SNAPSHOT.jar",
+          "primary": true,
+          "size": 38497100
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "58vLl49X",
+      "name": "StreamlineCore 2.0.3.2 (Bungee)",
+      "version_number": "2.0.3.2",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "23w03a",
+        "23w04a",
+        "23w05a",
+        "23w06a"
+      ],
+      "loaders": [
+        "bungeecord",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "9983f7dfe051cd25e836c9da25df5b474b29fe2a2744b204ecbfd514f838affaae8a09a62c7835228544869293e27f7325966189da6d2e596443152bf21bac57",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/58vLl49X/StreamlineCore-Bungee-2.0.3.2.jar",
+          "filename": "StreamlineCore-Bungee-2.0.3.2.jar",
+          "primary": true,
+          "size": 29040683
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "5FBrJoba",
+      "name": "StreamlineCore 2.0.3.5 (Bungee)",
+      "version_number": "2.0.3.5",
+      "game_versions": [
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "bungeecord",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "f11d83bdd1b8e9419f9aeecc4eebd18f680aac688b90226e9d6b0c95f0c7c3e90f15193735e7b93e5d8e7fe4fe6fb5659382411325d385e6e2ea3e9ca7fe2bee",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/5FBrJoba/StreamlineCore-Bungee-2.0.3.5.jar",
+          "filename": "StreamlineCore-Bungee-2.0.3.5.jar",
+          "primary": true,
+          "size": 29041362
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "5Qtb3TBu",
+      "name": "StreamlineCore 2.3.0.1 (Bukkit)",
+      "version_number": "2.3.0.1",
+      "game_versions": [
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "bukkit",
+        "folia",
+        "paper",
+        "purpur",
+        "spigot"
+      ],
+      "files": [
+        {
+          "sha512": "cd6e69ad6108814742680622131db7f2bfd53d5c9d3102d867a7c7b3526d987499402d7214d85c974a1edcf46c86accaa7233e01977e2c88a83fc4e352f86cf3",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/5Qtb3TBu/StreamlineCore-Spigot-2.3.0.1.jar",
+          "filename": "StreamlineCore-Spigot-2.3.0.1.jar",
+          "primary": true,
+          "size": 38496687
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "60riVAXZ",
+      "name": "StreamlineCore 2.2.3.1-SNAPSHOT",
+      "version_number": "2.2.3.1-SNAPSHOT",
+      "game_versions": [
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "bukkit",
+        "folia",
+        "paper",
+        "purpur"
+      ],
+      "files": [
+        {
+          "sha512": "7ccd29858a13f85f32a3e6902272fca0b06b30c91d6e88808bf464adc6dfa591ed21171eed4a3254c9f168268296465c6bcadee844f0f4c4766b598a7c2f9dbf",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/60riVAXZ/StreamlineCore-Spigot-2.2.3.1-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Spigot-2.2.3.1-SNAPSHOT.jar",
+          "primary": true,
+          "size": 23321833
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "7EG2gZvf",
+      "name": "StreamlineCore 2.1.0.0-SNAPSHOT (Bungee)",
+      "version_number": "2.1.0.0-SNAPSHOT",
+      "game_versions": [
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "bungeecord",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "cfadff4d8557fe06cd8d5dc2176b055808a63bc909d211c2f8f15614635787fb7b877471a0814ad52fa0641541f2334fd64529a956962bc64fd22459b05b50c0",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/7EG2gZvf/StreamlineCore-Bungee-2.1.0.0-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Bungee-2.1.0.0-SNAPSHOT.jar",
+          "primary": true,
+          "size": 45246833
         }
       ],
       "dependencies": [
@@ -182,9 +907,231 @@
       ]
     },
     {
-      "id": "xhzOAFnz",
-      "name": "StreamlineCore 2.3.3.0 (Velocity)",
-      "version_number": "2.3.3.0",
+      "id": "8PKheWfk",
+      "name": "StreamlineCore 2.0.3.6-SNAPSHOT (Velocity)",
+      "version_number": "2.0.3.6-SNAPSHOT",
+      "game_versions": [
+        "1.8.8",
+        "1.8.9",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "97ac40301db9d44e38dab5e205cac22673131d4b2975ef48374929edf9dfea20734114a8edd13e9c742fad56a4f4e8862251e508438a4d23d0c29996ff53156b",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/8PKheWfk/StreamlineCore-Velocity-2.0.3.6-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Velocity-2.0.3.6-SNAPSHOT.jar",
+          "primary": true,
+          "size": 45260269
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "9sXpaMPE",
+      "name": "StreamlineCore 2.0.3.5-SNAPSHOT (Bungee)",
+      "version_number": "2.0.3.5-SNAPSHOT",
+      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "bungeecord",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "ca5341b69aa850fe84b3841d30bf9b637e4da7e2b18fa77a81d9756e09692453afd96db27bbdf4cc881ef5d823c7ab740fc4e302256cd714f4c2b4880b0e9fb4",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/9sXpaMPE/StreamlineCore-Bungee-2.0.3.5-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Bungee-2.0.3.5-SNAPSHOT.jar",
+          "primary": true,
+          "size": 29071476
+        },
+        {
+          "sha512": "bbf5b141d4fec0222a9ef452804bb52e84897d5eb6bfa1e2cbb6211489379befd21f7828c25c56f312f26e94c35d6bef406bb3c37e17ae312034cea6c27959c7",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/9sXpaMPE/ResourcePackUtils-1.7.1.jar",
+          "filename": "ResourcePackUtils-1.7.1.jar",
+          "primary": false,
+          "size": 9967
+        },
+        {
+          "sha512": "4e861df132a843acb5f81bd153313976ac6af46f19aff60a7963a5fd9f9e28247bd826fd9bacff8dedc5939e68e7ac4d977086b5d69b5c58ccb3ef6996c5764e",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/9sXpaMPE/SimpleStats-1.0.0.jar",
+          "filename": "SimpleStats-1.0.0.jar",
+          "primary": false,
+          "size": 5832
+        },
+        {
+          "sha512": "20e29ae00b093f826e5d018b692105e1b86090cabf8f9c687f4dff5c57d4673ec5b547dd7d03830ab9c9ce33e5e7b5c48d819e2dda89cf50c65f931895c2006a",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/9sXpaMPE/StreamlineDiscord-1.13.3.jar",
+          "filename": "StreamlineDiscord-1.13.3.jar",
+          "primary": false,
+          "size": 13960604
+        },
+        {
+          "sha512": "6d75d2eaf81588fb53824c8607df3d8a9e20623afcddbd93f8f682a5e76c37d0f7edabac8059c82bbe071280d4d03f81a4a65023b2a93bb90d7a0a2fa3a1c18f",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/9sXpaMPE/StreamlineGroups-1.9.5.jar",
+          "filename": "StreamlineGroups-1.9.5.jar",
+          "primary": false,
+          "size": 86814
+        },
+        {
+          "sha512": "4ba4dab0ee4501725811d0c2a3fe74c124007220b791212809a96e3fab69c2d0eb1d7a5faea7b9367b83100dc6f1f96c6fd47ca4ce38398ffd8b9828d65f089b",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/9sXpaMPE/StreamlineMessaging-1.9.4.jar",
+          "filename": "StreamlineMessaging-1.9.4.jar",
+          "primary": false,
+          "size": 52378
+        },
+        {
+          "sha512": "48276455bbd6ee68721e1ed199daab65fae95e94c5c96c1b65e08a514024f2693569b3bc18248c623f5639095f173ead31428c98468c35e4ba819e56aebf11ae",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/9sXpaMPE/StreamlineRedirect-1.0.0.jar",
+          "filename": "StreamlineRedirect-1.0.0.jar",
+          "primary": false,
+          "size": 8742
+        },
+        {
+          "sha512": "a1eacf518fbb0beb3a8de669006eb43ad46fbb1377b7d53082d6796ae652527c7cce55a190bdb1638c9e03f8ab0acd643a21635c4efad16e114517289501d328",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/9sXpaMPE/StreamlineUtilities-1.14.3.jar",
+          "filename": "StreamlineUtilities-1.14.3.jar",
+          "primary": false,
+          "size": 130059
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "BadYjFXp",
+      "name": "StreamlineCore 2.0.3.5 (Spigot)",
+      "version_number": "2.0.3.5",
+      "game_versions": [
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "paper",
+        "purpur",
+        "spigot"
+      ],
+      "files": [
+        {
+          "sha512": "2c113f95fdfcc4b9207124c519bd8623bd6cdb616dd6375187e8e969043ded0d5358d4a33a0e0c34928f10e376dd9f6430bf5137c7b2896dcfa244a502f6daf2",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/BadYjFXp/StreamlineCore-Spigot-2.0.3.5.jar",
+          "filename": "StreamlineCore-Spigot-2.0.3.5.jar",
+          "primary": true,
+          "size": 29070196
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "CKWonLdY",
+      "name": "StreamlineCore 2.3.1.0 (Bungee)",
+      "version_number": "2.3.1.0",
       "game_versions": [
         "1.8",
         "1.8.1",
@@ -241,21 +1188,19 @@
         "1.20.1",
         "1.20.2",
         "1.20.3",
-        "1.20.4",
-        "1.20.5",
-        "1.20.6",
-        "1.21"
+        "1.20.4"
       ],
       "loaders": [
-        "velocity"
+        "bungeecord",
+        "waterfall"
       ],
       "files": [
         {
-          "sha512": "a4774653943b3ba3a254ab3bcb4c15be7093c1b9e485910d0071bfd468cc38002ec7e9a78c2215d4110807f6a3b9e4e591be7c4a1bff281ce9ea9c66873e0186",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/xhzOAFnz/StreamlineCore-Velocity-2.3.3.0.jar",
-          "filename": "StreamlineCore-Velocity-2.3.3.0.jar",
+          "sha512": "b9e3098273bb1f42ee05a11e617b5513d60ddee0a5a521bbbdd43fed21bf56957f99c2f6b4fe36e8404584a0f2b0c6327304debf0b640e7b620735f8a88b6492",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/CKWonLdY/StreamlineCore-Bungee-2.3.1.0.jar",
+          "filename": "StreamlineCore-Bungee-2.3.1.0.jar",
           "primary": true,
-          "size": 32726906
+          "size": 38865975
         }
       ],
       "dependencies": [
@@ -268,9 +1213,687 @@
       ]
     },
     {
-      "id": "2psWL2nT",
-      "name": "StreamlineCore 2.3.2.1 (Bukkit)",
-      "version_number": "2.3.2.1",
+      "id": "DPKsIJYS",
+      "name": "StreamlineCore 2.0.3.4 (Spigot)",
+      "version_number": "2.0.3.4",
+      "game_versions": [
+        "1.8.8",
+        "1.8.9",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "paper",
+        "purpur",
+        "spigot"
+      ],
+      "files": [
+        {
+          "sha512": "b2ca870bed250fd6b4374acecac18a7ff90b3812d0bf25be21712dc7bdd7537ea0abea8bfa0769c55063773507e8c6feb2cf2ac3566c461cdc63396966e0b644",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/DPKsIJYS/StreamlineCore-Spigot-2.0.3.4.jar",
+          "filename": "StreamlineCore-Spigot-2.0.3.4.jar",
+          "primary": true,
+          "size": 29068355
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "H9lC5Ecu",
+      "name": "StreamlineCore 2.0.3.1 (Velocity)",
+      "version_number": "2.0.3.1",
+      "game_versions": [
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "22w42a",
+        "22w43a",
+        "22w44a",
+        "22w45a",
+        "22w46a",
+        "1.19.3-pre1",
+        "1.19.3",
+        "23w03a",
+        "23w04a",
+        "23w05a",
+        "23w06a"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "74c8fb35daa16233ce8c562f8569cba9521d414556f2e77e8654cb368f9fe8532b664711ed4d9bf8efd3c4bb06d45449e3f067b63e56a871fb7d13bdee94cb6a",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/H9lC5Ecu/StreamlineCore-Velocity-2.0.3.1.jar",
+          "filename": "StreamlineCore-Velocity-2.0.3.1.jar",
+          "primary": true,
+          "size": 29053662
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "HFuYMLQp",
+      "name": "StreamlineCore 2.0.3.5-SNAPSHOT (Spigot)",
+      "version_number": "2.0.3.5-SNAPSHOT",
+      "game_versions": [
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "paper",
+        "purpur",
+        "spigot"
+      ],
+      "files": [
+        {
+          "sha512": "3a0a9417e7b8ad1918532f1a9300bae02a5f139f3db4534f9ed00e31aad6e5619c77c054fae18255429a019434db041e4d8422cc2f7a8565abdd4cf3e6683a90",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/HFuYMLQp/StreamlineCore-Spigot-2.0.3.5-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Spigot-2.0.3.5-SNAPSHOT.jar",
+          "primary": true,
+          "size": 29100852
+        },
+        {
+          "sha512": "bbf5b141d4fec0222a9ef452804bb52e84897d5eb6bfa1e2cbb6211489379befd21f7828c25c56f312f26e94c35d6bef406bb3c37e17ae312034cea6c27959c7",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/HFuYMLQp/ResourcePackUtils-1.7.1.jar",
+          "filename": "ResourcePackUtils-1.7.1.jar",
+          "primary": false,
+          "size": 9967
+        },
+        {
+          "sha512": "4e861df132a843acb5f81bd153313976ac6af46f19aff60a7963a5fd9f9e28247bd826fd9bacff8dedc5939e68e7ac4d977086b5d69b5c58ccb3ef6996c5764e",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/HFuYMLQp/SimpleStats-1.0.0.jar",
+          "filename": "SimpleStats-1.0.0.jar",
+          "primary": false,
+          "size": 5832
+        },
+        {
+          "sha512": "20e29ae00b093f826e5d018b692105e1b86090cabf8f9c687f4dff5c57d4673ec5b547dd7d03830ab9c9ce33e5e7b5c48d819e2dda89cf50c65f931895c2006a",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/HFuYMLQp/StreamlineDiscord-1.13.3.jar",
+          "filename": "StreamlineDiscord-1.13.3.jar",
+          "primary": false,
+          "size": 13960604
+        },
+        {
+          "sha512": "6d75d2eaf81588fb53824c8607df3d8a9e20623afcddbd93f8f682a5e76c37d0f7edabac8059c82bbe071280d4d03f81a4a65023b2a93bb90d7a0a2fa3a1c18f",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/HFuYMLQp/StreamlineGroups-1.9.5.jar",
+          "filename": "StreamlineGroups-1.9.5.jar",
+          "primary": false,
+          "size": 86814
+        },
+        {
+          "sha512": "4ba4dab0ee4501725811d0c2a3fe74c124007220b791212809a96e3fab69c2d0eb1d7a5faea7b9367b83100dc6f1f96c6fd47ca4ce38398ffd8b9828d65f089b",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/HFuYMLQp/StreamlineMessaging-1.9.4.jar",
+          "filename": "StreamlineMessaging-1.9.4.jar",
+          "primary": false,
+          "size": 52378
+        },
+        {
+          "sha512": "48276455bbd6ee68721e1ed199daab65fae95e94c5c96c1b65e08a514024f2693569b3bc18248c623f5639095f173ead31428c98468c35e4ba819e56aebf11ae",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/HFuYMLQp/StreamlineRedirect-1.0.0.jar",
+          "filename": "StreamlineRedirect-1.0.0.jar",
+          "primary": false,
+          "size": 8742
+        },
+        {
+          "sha512": "a1eacf518fbb0beb3a8de669006eb43ad46fbb1377b7d53082d6796ae652527c7cce55a190bdb1638c9e03f8ab0acd643a21635c4efad16e114517289501d328",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/HFuYMLQp/StreamlineUtilities-1.14.3.jar",
+          "filename": "StreamlineUtilities-1.14.3.jar",
+          "primary": false,
+          "size": 130059
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "K3TU03b5",
+      "name": "StreamlineCore 2.0.3.1 (Spigot)",
+      "version_number": "2.0.3.1",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "paper",
+        "purpur",
+        "spigot"
+      ],
+      "files": [
+        {
+          "sha512": "b2f15f9aef23e333d2c9630c33b64f39618383993215cdb410ce47f97a658ebc709fab21448251239be89c6bb7d216447384047e349af16bbf3df669d14273c0",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/K3TU03b5/StreamlineCore-Spigot-2.0.3.1.jar",
+          "filename": "StreamlineCore-Spigot-2.0.3.1.jar",
+          "primary": true,
+          "size": 29076745
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "KBc0vF7S",
+      "name": "StreamlineCore 2.2.3.3-SNAPSHOT (Bukkit)",
+      "version_number": "2.2.3.3-SNAPSHOT",
+      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "bukkit",
+        "folia",
+        "paper",
+        "purpur"
+      ],
+      "files": [
+        {
+          "sha512": "4bee03e565bfa24405ac4e40b65e90e3ff48d549107b68d4c4f27f6ae7ca3d371730e5c45cf419b59de869eb2b1d8c66a463f322d3fb5864be8aaefa370c6986",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/KBc0vF7S/StreamlineCore-Spigot-2.2.3.3-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Spigot-2.2.3.3-SNAPSHOT.jar",
+          "primary": true,
+          "size": 23322472
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "MU7qGEL6",
+      "name": "StreamlineCore 2.1.0.0-SNAPSHOT (Velocity)",
+      "version_number": "2.1.0.0-SNAPSHOT",
+      "game_versions": [
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "0195267ca3794bf39b781f82548760befb6f02d3f02c898809aca8e657f51e5b26ef92315662889175a76ba2a71dae5bdbe3c1a9e91fa073872ad86667b2b73c",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/MU7qGEL6/StreamlineCore-Velocity-2.1.0.0-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Velocity-2.1.0.0-SNAPSHOT.jar",
+          "primary": true,
+          "size": 45694550
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Og4iZ8HP",
+      "name": "StreamlineCore 2.0.3.2 (Velocity)",
+      "version_number": "2.0.3.2",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "23w03a",
+        "23w04a",
+        "23w05a",
+        "23w06a"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "f31805c61086298b58e7ca186c356c59f51273c89b66d63447bcccab96cb24f4b791065b82af55ae6e1ac877ed9ebb0e0ff08e52d354dfa95ed2546ae2040512",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/Og4iZ8HP/StreamlineCore-Velocity-2.0.3.2.jar",
+          "filename": "StreamlineCore-Velocity-2.0.3.2.jar",
+          "primary": true,
+          "size": 29046584
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "QcXzlnKR",
+      "name": "StreamlineCore 2.0.3.0 (Spigot)",
+      "version_number": "2.0.3.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "paper",
+        "purpur",
+        "spigot"
+      ],
+      "files": [
+        {
+          "sha512": "045947f30d5e48d9d3d9ccbe239ddbf8f5678a890b9b68fe831bd7a87165b2d744db3f7a48c4ea8d95280734511622d16aee2371089eea19b5bebc940efe91c4",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/QcXzlnKR/StreamlineCore-Spigot-2.0.3.0.jar",
+          "filename": "StreamlineCore-Spigot-2.0.3.0.jar",
+          "primary": true,
+          "size": 29073010
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "QrYPePpu",
+      "name": "StreamlineCore 2.3.0 (Bungee)",
+      "version_number": "2.3.0",
+      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "bungeecord",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "5559bb81dfbe13dd4b402eabf98e60820a5bb86e5fa0eeb2ae863ef2851abce281cb97fc82c96575d99146ca74d84ec8e609313f030023ccbfb13b118a9ef63c",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/QrYPePpu/StreamlineCore-Bungee-2.3.0.0-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Bungee-2.3.0.0-SNAPSHOT.jar",
+          "primary": true,
+          "size": 37985693
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "S9N26KAL",
+      "name": "StreamlineCore 2.2.3.2-SNAPSHOT (Bungee)",
+      "version_number": "2.2.3.2-SNAPSHOT",
+      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "bungeecord",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "ccc46a117cc3343699feef84eb939d6a30c27474ed12632934a93ab577fd2b7c0d2d622005aa907c9b9a7fece134b82871d6c014c6e82796a58c50abf70d2da3",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/S9N26KAL/StreamlineCore-Bungee-2.2.3.2-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Bungee-2.2.3.2-SNAPSHOT.jar",
+          "primary": true,
+          "size": 22523714
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Sgrr8QOW",
+      "name": "StreamlineCore 2.3.1.0 (Bukkit)",
+      "version_number": "2.3.1.0",
       "game_versions": [
         "1.8",
         "1.8.1",
@@ -338,11 +1961,11 @@
       ],
       "files": [
         {
-          "sha512": "e225d4e156cabf7e9a1873455411743bd621815711c424fcf330b2cb9407be8f019d93e9f870ec5ba7ad28db2ac771e1bb906337956962f5e59c8c02ff5767a7",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/2psWL2nT/StreamlineCore-Spigot-2.3.2.1.jar",
-          "filename": "StreamlineCore-Spigot-2.3.2.1.jar",
+          "sha512": "127872eb5b16faee6bfa32385468d00b4a9763323ee6fad6d84f2dcf46fc626a4d882fc696ef88e576f6802fd1e546eea4cbbbf9273ec909675ecfe8eda4a65a",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/Sgrr8QOW/StreamlineCore-Spigot-2.3.1.0.jar",
+          "filename": "StreamlineCore-Spigot-2.3.1.0.jar",
           "primary": true,
-          "size": 39374219
+          "size": 39377603
         }
       ],
       "dependencies": [
@@ -526,1000 +2149,6 @@
       ]
     },
     {
-      "id": "Sgrr8QOW",
-      "name": "StreamlineCore 2.3.1.0 (Bukkit)",
-      "version_number": "2.3.1.0",
-      "game_versions": [
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "bukkit",
-        "folia",
-        "paper",
-        "purpur",
-        "spigot"
-      ],
-      "files": [
-        {
-          "sha512": "127872eb5b16faee6bfa32385468d00b4a9763323ee6fad6d84f2dcf46fc626a4d882fc696ef88e576f6802fd1e546eea4cbbbf9273ec909675ecfe8eda4a65a",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/Sgrr8QOW/StreamlineCore-Spigot-2.3.1.0.jar",
-          "filename": "StreamlineCore-Spigot-2.3.1.0.jar",
-          "primary": true,
-          "size": 39377603
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "CKWonLdY",
-      "name": "StreamlineCore 2.3.1.0 (Bungee)",
-      "version_number": "2.3.1.0",
-      "game_versions": [
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "bungeecord",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "b9e3098273bb1f42ee05a11e617b5513d60ddee0a5a521bbbdd43fed21bf56957f99c2f6b4fe36e8404584a0f2b0c6327304debf0b640e7b620735f8a88b6492",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/CKWonLdY/StreamlineCore-Bungee-2.3.1.0.jar",
-          "filename": "StreamlineCore-Bungee-2.3.1.0.jar",
-          "primary": true,
-          "size": 38865975
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "wRT3nsIC",
-      "name": "StreamlineCore 2.3.1.0 (Velocity)",
-      "version_number": "2.3.1.0",
-      "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "d30ff24311d96fb8c524e84a799cb58a8b06a22c84bc82dca1319dc44b4ddd1b06bd0fb8b332eb00e98aea55f4eb8c69ce88e2d923d23305f03f87817466ea7b",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/wRT3nsIC/StreamlineCore-Velocity-2.3.1.0.jar",
-          "filename": "StreamlineCore-Velocity-2.3.1.0.jar",
-          "primary": true,
-          "size": 39361377
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "5Qtb3TBu",
-      "name": "StreamlineCore 2.3.0.1 (Bukkit)",
-      "version_number": "2.3.0.1",
-      "game_versions": [
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "bukkit",
-        "folia",
-        "paper",
-        "purpur",
-        "spigot"
-      ],
-      "files": [
-        {
-          "sha512": "cd6e69ad6108814742680622131db7f2bfd53d5c9d3102d867a7c7b3526d987499402d7214d85c974a1edcf46c86accaa7233e01977e2c88a83fc4e352f86cf3",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/5Qtb3TBu/StreamlineCore-Spigot-2.3.0.1.jar",
-          "filename": "StreamlineCore-Spigot-2.3.0.1.jar",
-          "primary": true,
-          "size": 38496687
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "f5h2H9Zc",
-      "name": "StreamlineCore 2.3.0.1 (Bungee)",
-      "version_number": "2.3.0.1",
-      "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "bungeecord",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "3957866a71f4b01e6f7d7069d557622de094bdac20282523c3fa7825196f588cdf4137c5d198ce61ef765433700f12c8424935cd28be1d6a8ec42a7ee09ad643",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/f5h2H9Zc/StreamlineCore-Bungee-2.3.0.1.jar",
-          "filename": "StreamlineCore-Bungee-2.3.0.1.jar",
-          "primary": true,
-          "size": 37985548
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "k5kVLRN7",
-      "name": "StreamlineCore 2.3.0.1 (Velocity)",
-      "version_number": "2.3.0.1",
-      "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "fbe002d164df886df36b354fbc43f0d361af1ab835f180155aa38b51a4971e490f5a5a9aebc0c417195ca32fe24c3539e7059fd5853fc5923f56cebfd664fd94",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/k5kVLRN7/StreamlineCore-Velocity-2.3.0.1.jar",
-          "filename": "StreamlineCore-Velocity-2.3.0.1.jar",
-          "primary": true,
-          "size": 38480818
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4mufT7kY",
-      "name": "StreamlineCore 2.3.0 (Bukkit)",
-      "version_number": "2.3.0",
-      "game_versions": [
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "bukkit",
-        "folia",
-        "paper",
-        "purpur"
-      ],
-      "files": [
-        {
-          "sha512": "610616ce94c66af4e5e381a5ab71729e627c3499abc0b08bc8bad1413239a67f6238c880c8b31e6ded3a1719cf4fa75267bca41c026e1cc51ebf74ba8463041f",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/4mufT7kY/StreamlineCore-Spigot-2.3.0.0-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Spigot-2.3.0.0-SNAPSHOT.jar",
-          "primary": true,
-          "size": 38497100
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "QrYPePpu",
-      "name": "StreamlineCore 2.3.0 (Bungee)",
-      "version_number": "2.3.0",
-      "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "bungeecord",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "5559bb81dfbe13dd4b402eabf98e60820a5bb86e5fa0eeb2ae863ef2851abce281cb97fc82c96575d99146ca74d84ec8e609313f030023ccbfb13b118a9ef63c",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/QrYPePpu/StreamlineCore-Bungee-2.3.0.0-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Bungee-2.3.0.0-SNAPSHOT.jar",
-          "primary": true,
-          "size": 37985693
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "a7hPW9K8",
-      "name": "StreamlineCore 2.3.0 (Velocity)",
-      "version_number": "2.3.0",
-      "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "d5169a950f89ce3451fabd46a4781df4659249f63455cdea9e29bb3181958b3b1b557dd18c00cf6695f6b8025961f81dcafb3d9e371b92ae7f0d696ef415809a",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/a7hPW9K8/StreamlineCore-Velocity-2.3.0.0-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Velocity-2.3.0.0-SNAPSHOT.jar",
-          "primary": true,
-          "size": 38481039
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "KBc0vF7S",
-      "name": "StreamlineCore 2.2.3.3-SNAPSHOT (Bukkit)",
-      "version_number": "2.2.3.3-SNAPSHOT",
-      "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "bukkit",
-        "folia",
-        "paper",
-        "purpur"
-      ],
-      "files": [
-        {
-          "sha512": "4bee03e565bfa24405ac4e40b65e90e3ff48d549107b68d4c4f27f6ae7ca3d371730e5c45cf419b59de869eb2b1d8c66a463f322d3fb5864be8aaefa370c6986",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/KBc0vF7S/StreamlineCore-Spigot-2.2.3.3-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Spigot-2.2.3.3-SNAPSHOT.jar",
-          "primary": true,
-          "size": 23322472
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "3NNZ4oao",
-      "name": "StreamlineCore 2.2.3.3-SNAPSHOT (Bungee)",
-      "version_number": "2.2.3.3-SNAPSHOT",
-      "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "bungeecord",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "88fe706660132a06bc794eb6497ca794e03196472d16ad4bd0b0fa917198a9897ea5b9fb716303a27ca0704b2922a993b01dc2af17af9da3452398b2346750b4",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/3NNZ4oao/StreamlineCore-Bungee-2.2.3.3-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Bungee-2.2.3.3-SNAPSHOT.jar",
-          "primary": true,
-          "size": 22524336
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "WeuB80cp",
       "name": "StreamlineCore 2.2.3.3-SNAPSHOT (Velocity)",
       "version_number": "2.2.3.3-SNAPSHOT",
@@ -1612,19 +2241,10 @@
       ]
     },
     {
-      "id": "1HFbTTdD",
-      "name": "StreamlineCore 2.2.3.2-SNAPSHOT (Bukkit)",
-      "version_number": "2.2.3.2-SNAPSHOT",
+      "id": "YGriYm1O",
+      "name": "StreamlineCore 2.3.3.0 (Bukkit)",
+      "version_number": "2.3.3.0",
       "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
         "1.8",
         "1.8.1",
         "1.8.2",
@@ -1680,7 +2300,10 @@
         "1.20.1",
         "1.20.2",
         "1.20.3",
-        "1.20.4"
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21"
       ],
       "loaders": [
         "bukkit",
@@ -1691,1387 +2314,11 @@
       ],
       "files": [
         {
-          "sha512": "b9c84068d8c3e4541f7bb54f80a1bb5585c63cfb4750d99858d3c264d5ac53cdbc3baf82ed3ece17811ba12c7fc711961a0a698adb468d3baf6a00092c4c90f3",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/1HFbTTdD/StreamlineCore-Spigot-2.2.3.2-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Spigot-2.2.3.2-SNAPSHOT.jar",
+          "sha512": "63ffcde619f4932228f6125138aae8e814040913f834cf8277663b3f06e168144352f23f14bc2f8a4dcc2d44aedeffec1481f799b3c3e9941b390db7266e334d",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/YGriYm1O/StreamlineCore-Spigot-2.3.3.0.jar",
+          "filename": "StreamlineCore-Spigot-2.3.3.0.jar",
           "primary": true,
-          "size": 23321850
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "S9N26KAL",
-      "name": "StreamlineCore 2.2.3.2-SNAPSHOT (Bungee)",
-      "version_number": "2.2.3.2-SNAPSHOT",
-      "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "bungeecord",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "ccc46a117cc3343699feef84eb939d6a30c27474ed12632934a93ab577fd2b7c0d2d622005aa907c9b9a7fece134b82871d6c014c6e82796a58c50abf70d2da3",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/S9N26KAL/StreamlineCore-Bungee-2.2.3.2-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Bungee-2.2.3.2-SNAPSHOT.jar",
-          "primary": true,
-          "size": 22523714
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "lsZXzjXV",
-      "name": "StreamlineCore 2.2.3.2-SNAPSHOT (Velocity)",
-      "version_number": "2.2.3.2-SNAPSHOT",
-      "game_versions": [
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "4cd0e1317751d37596e30c39a9986c6b81078b5a34031f8391523eb32194ac445b4649aa0f6c08cb237e4cf8a5c342769efec45472af944843a115269d52f059",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/lsZXzjXV/StreamlineCore-Velocity-2.2.3.2-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Velocity-2.2.3.2-SNAPSHOT.jar",
-          "primary": true,
-          "size": 22920404
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "60riVAXZ",
-      "name": "StreamlineCore 2.2.3.1-SNAPSHOT",
-      "version_number": "2.2.3.1-SNAPSHOT",
-      "game_versions": [
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "bukkit",
-        "folia",
-        "paper",
-        "purpur"
-      ],
-      "files": [
-        {
-          "sha512": "7ccd29858a13f85f32a3e6902272fca0b06b30c91d6e88808bf464adc6dfa591ed21171eed4a3254c9f168268296465c6bcadee844f0f4c4766b598a7c2f9dbf",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/60riVAXZ/StreamlineCore-Spigot-2.2.3.1-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Spigot-2.2.3.1-SNAPSHOT.jar",
-          "primary": true,
-          "size": 23321833
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "i3352mmR",
-      "name": "StreamlineCore 2.2.3.1-SNAPSHOT (Bungee)",
-      "version_number": "2.2.3.1-SNAPSHOT",
-      "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "bungeecord",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "dd1f907774cc140434d5fd37516b06960d3852393549a2fce18e89f56857949d657ea5763adc5a8343899720bd43c832215b3e9ab46cf2e56651df529c385306",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/i3352mmR/StreamlineCore-Bungee-2.2.3.1-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Bungee-2.2.3.1-SNAPSHOT.jar",
-          "primary": true,
-          "size": 22523706
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "slEx4muK",
-      "name": "StreamlineCore 2.2.3.1-SNAPSHOT (Velocity)",
-      "version_number": "2.2.3.1-SNAPSHOT",
-      "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "ba8e7bd0a00ab91c9a633033e11de05e769358a0796ff1a435cbb2dbe0125383f72bd4f4d6229282ac5d5063c656c77b254cf9dd746143be4fa1190829a64588",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/slEx4muK/StreamlineCore-Velocity-2.2.3.1-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Velocity-2.2.3.1-SNAPSHOT.jar",
-          "primary": true,
-          "size": 22920404
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ylCwfv1S",
-      "name": "StreamlineCore 2.2.1.0-SNAPSHOT (Bukkit/Spigot)",
-      "version_number": "2.2.1.0-SNAPSHOT",
-      "game_versions": [
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "bukkit",
-        "paper",
-        "purpur",
-        "spigot"
-      ],
-      "files": [
-        {
-          "sha512": "2faef0ebd1f8f7665cc5c604515c601ad4fc3d1161fe82402ff170d58e45f4d13a6f574543095eca4f467de1f9dc8561629f7c90eb11e4017028093449533832",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/ylCwfv1S/StreamlineCore-Spigot-2.2.1.0-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Spigot-2.2.1.0-SNAPSHOT.jar",
-          "primary": true,
-          "size": 22622530
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "jGpmoj1D",
-      "name": "StreamlineCore 2.2.1.0-SNAPSHOT (Bungee)",
-      "version_number": "2.2.1.0-SNAPSHOT",
-      "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "bungeecord",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "d832f1c107242e5bd62805193174ec6dc50b9deb31de20fc3fb38ecf50d0dbd9641d3f0e9cd96d3f1a1982b7c81eb44ee44b070a84c3b03fd8eba2a82a4b041d",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/jGpmoj1D/StreamlineCore-Bungee-2.2.1.0-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Bungee-2.2.1.0-SNAPSHOT.jar",
-          "primary": true,
-          "size": 22519878
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "nDMkEAGZ",
-      "name": "StreamlineCore 2.2.1.0-SNAPSHOT (Velocity)",
-      "version_number": "2.2.1.0-SNAPSHOT",
-      "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "52bbaf2a1136ba8b148bea17145fae8448fb0a347b084e47cd6756a2cbdd09f2f7b43a3dd81b14f5d578bbe062eaa2aef216004a387b784db9270516588340d4",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/nDMkEAGZ/StreamlineCore-Velocity-2.2.1.0-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Velocity-2.2.1.0-SNAPSHOT.jar",
-          "primary": true,
-          "size": 22880711
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "enhU7Fiy",
-      "name": "StreamlineCore 2.1.2.0-SNAPSHOT (Bungee)",
-      "version_number": "2.1.2.0-SNAPSHOT",
-      "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "bungeecord",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "5983f29e2cf3a2df5c8a7bd46ced5f6518f7196db8c2f27ff8b8c0a08ae9ae8428acd2e902e61d678c992f2c0fbaf54200f1f8d917ac8785d7313f30dbb9db1f",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/enhU7Fiy/StreamlineCore-Bungee-2.1.2.0-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Bungee-2.1.2.0-SNAPSHOT.jar",
-          "primary": true,
-          "size": 45253308
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "YzEszTA5",
-      "name": "StreamlineCore 2.1.2.0-SNAPSHOT (Velocity)",
-      "version_number": "2.1.2.0-SNAPSHOT",
-      "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "73b93af20f4ff4fac87ce5c517038e2e6a398877d84e66e45d46ff94236e8ad2e140fdf68ca6ccdcfb187cae1cb580d0e772758ee541031be9b4c10e5abc2636",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/YzEszTA5/StreamlineCore-Velocity-2.1.2.0-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Velocity-2.1.2.0-SNAPSHOT.jar",
-          "primary": true,
-          "size": 45701232
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "vgoSHGaw",
-      "name": "StreamlineCore 2.1.2.0-SNAPSHOT (Spigot)",
-      "version_number": "2.1.2.0-SNAPSHOT",
-      "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "bukkit",
-        "paper",
-        "purpur",
-        "spigot"
-      ],
-      "files": [
-        {
-          "sha512": "b0c1bb9f19bd5460646be33facd6d2d8dfd7b1fba5fd14465d05811c18e5d35df32f759e61a3d8530f37b0ec4816768ee8891f93c9d6dbfb4d41cd18a493c3ec",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/vgoSHGaw/StreamlineCore-Spigot-2.1.2.0-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Spigot-2.1.2.0-SNAPSHOT.jar",
-          "primary": true,
-          "size": 45284141
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "MU7qGEL6",
-      "name": "StreamlineCore 2.1.0.0-SNAPSHOT (Velocity)",
-      "version_number": "2.1.0.0-SNAPSHOT",
-      "game_versions": [
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "0195267ca3794bf39b781f82548760befb6f02d3f02c898809aca8e657f51e5b26ef92315662889175a76ba2a71dae5bdbe3c1a9e91fa073872ad86667b2b73c",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/MU7qGEL6/StreamlineCore-Velocity-2.1.0.0-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Velocity-2.1.0.0-SNAPSHOT.jar",
-          "primary": true,
-          "size": 45694550
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "oKKL0NGN",
-      "name": "StreamlineCore 2.1.0.0-SNAPSHOT (Spigot)",
-      "version_number": "2.1.0.0-SNAPSHOT",
-      "game_versions": [
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "bukkit",
-        "paper",
-        "purpur",
-        "spigot"
-      ],
-      "files": [
-        {
-          "sha512": "d8d8531f94da7082aa39e13750226904395b2115cd44918d313cc1c5f00ac481a117b900e865b99a71cbe464c7141207ecb85a396dd0209b62515e77b67b4b07",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/oKKL0NGN/StreamlineCore-Spigot-2.1.0.0-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Spigot-2.1.0.0-SNAPSHOT.jar",
-          "primary": true,
-          "size": 45276871
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "7EG2gZvf",
-      "name": "StreamlineCore 2.1.0.0-SNAPSHOT (Bungee)",
-      "version_number": "2.1.0.0-SNAPSHOT",
-      "game_versions": [
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "bungeecord",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "cfadff4d8557fe06cd8d5dc2176b055808a63bc909d211c2f8f15614635787fb7b877471a0814ad52fa0641541f2334fd64529a956962bc64fd22459b05b50c0",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/7EG2gZvf/StreamlineCore-Bungee-2.1.0.0-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Bungee-2.1.0.0-SNAPSHOT.jar",
-          "primary": true,
-          "size": 45246833
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "8PKheWfk",
-      "name": "StreamlineCore 2.0.3.6-SNAPSHOT (Velocity)",
-      "version_number": "2.0.3.6-SNAPSHOT",
-      "game_versions": [
-        "1.8.8",
-        "1.8.9",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "97ac40301db9d44e38dab5e205cac22673131d4b2975ef48374929edf9dfea20734114a8edd13e9c742fad56a4f4e8862251e508438a4d23d0c29996ff53156b",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/8PKheWfk/StreamlineCore-Velocity-2.0.3.6-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Velocity-2.0.3.6-SNAPSHOT.jar",
-          "primary": true,
-          "size": 45260269
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "zcbw56s3",
-      "name": "StreamlineCore 2.0.3.6-SNAPSHOT (Spigot)",
-      "version_number": "2.0.3.6-SNAPSHOT",
-      "game_versions": [
-        "1.8.8",
-        "1.8.9",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "paper",
-        "purpur",
-        "spigot"
-      ],
-      "files": [
-        {
-          "sha512": "45cb62bc824dea97d4fa987dde8e3a5d843520a6d46f7264394312e89a5f1ae71a130a4645b0efa26727b476469157a7e38330b84a1998e4f6c373f3c99b46b2",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/zcbw56s3/StreamlineCore-Spigot-2.0.3.6-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Spigot-2.0.3.6-SNAPSHOT.jar",
-          "primary": true,
-          "size": 45282276
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "yO0tJgfo",
-      "name": "StreamlineCore 2.0.3.6-SNAPSHOT (Bungee)",
-      "version_number": "2.0.3.6-SNAPSHOT",
-      "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "bungeecord",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "5571f3de075081197473a040eb8d9f7f9aa2f57c4e8a5dadaa5f267a6253bc92339b72e3e999db63a0c42a751460c155a7c89f5243a083048e1be7af55fe85f9",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/yO0tJgfo/StreamlineCore-Bungee-2.0.3.6-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Bungee-2.0.3.6-SNAPSHOT.jar",
-          "primary": true,
-          "size": 45252171
+          "size": 32743603
         }
       ],
       "dependencies": [
@@ -3222,9 +2469,735 @@
       ]
     },
     {
-      "id": "HFuYMLQp",
-      "name": "StreamlineCore 2.0.3.5-SNAPSHOT (Spigot)",
-      "version_number": "2.0.3.5-SNAPSHOT",
+      "id": "YzEszTA5",
+      "name": "StreamlineCore 2.1.2.0-SNAPSHOT (Velocity)",
+      "version_number": "2.1.2.0-SNAPSHOT",
+      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "73b93af20f4ff4fac87ce5c517038e2e6a398877d84e66e45d46ff94236e8ad2e140fdf68ca6ccdcfb187cae1cb580d0e772758ee541031be9b4c10e5abc2636",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/YzEszTA5/StreamlineCore-Velocity-2.1.2.0-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Velocity-2.1.2.0-SNAPSHOT.jar",
+          "primary": true,
+          "size": 45701232
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "a7hPW9K8",
+      "name": "StreamlineCore 2.3.0 (Velocity)",
+      "version_number": "2.3.0",
+      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "d5169a950f89ce3451fabd46a4781df4659249f63455cdea9e29bb3181958b3b1b557dd18c00cf6695f6b8025961f81dcafb3d9e371b92ae7f0d696ef415809a",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/a7hPW9K8/StreamlineCore-Velocity-2.3.0.0-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Velocity-2.3.0.0-SNAPSHOT.jar",
+          "primary": true,
+          "size": 38481039
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "b7CKfw9Z",
+      "name": "StreamlineCore 2.0.3.3 (Spigot)",
+      "version_number": "2.0.3.3",
+      "game_versions": [
+        "1.8.8",
+        "1.8.9",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "paper",
+        "purpur",
+        "spigot"
+      ],
+      "files": [
+        {
+          "sha512": "7f52f8cb653b09f82c26e4c2ef3a8c803c512d49d65a26e3ca919e386afed3bc856b2fd199af33eda95e2d81102d650114f14dcabaaa30da01c64d5d88f4657b",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/b7CKfw9Z/StreamlineCore-Spigot-2.0.3.3.jar",
+          "filename": "StreamlineCore-Spigot-2.0.3.3.jar",
+          "primary": true,
+          "size": 29070062
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "enhU7Fiy",
+      "name": "StreamlineCore 2.1.2.0-SNAPSHOT (Bungee)",
+      "version_number": "2.1.2.0-SNAPSHOT",
+      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "bungeecord",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "5983f29e2cf3a2df5c8a7bd46ced5f6518f7196db8c2f27ff8b8c0a08ae9ae8428acd2e902e61d678c992f2c0fbaf54200f1f8d917ac8785d7313f30dbb9db1f",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/enhU7Fiy/StreamlineCore-Bungee-2.1.2.0-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Bungee-2.1.2.0-SNAPSHOT.jar",
+          "primary": true,
+          "size": 45253308
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "eyWiTu5O",
+      "name": "StreamlineCore 2.0.3.0 (Velocity)",
+      "version_number": "2.0.3.0",
+      "game_versions": [
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "a678711b1243b115b2e6acb07f05728df3509f9d4194a9583273d8612e98081197b141b6dd2ed05d6591327dac45e6ee749087e8f2847e9aca9ee85cb148f57c",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/eyWiTu5O/StreamlineCore-Velocity-2.0.3.0.jar",
+          "filename": "StreamlineCore-Velocity-2.0.3.0.jar",
+          "primary": true,
+          "size": 29049925
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "f5h2H9Zc",
+      "name": "StreamlineCore 2.3.0.1 (Bungee)",
+      "version_number": "2.3.0.1",
+      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "bungeecord",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "3957866a71f4b01e6f7d7069d557622de094bdac20282523c3fa7825196f588cdf4137c5d198ce61ef765433700f12c8424935cd28be1d6a8ec42a7ee09ad643",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/f5h2H9Zc/StreamlineCore-Bungee-2.3.0.1.jar",
+          "filename": "StreamlineCore-Bungee-2.3.0.1.jar",
+          "primary": true,
+          "size": 37985548
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "i3352mmR",
+      "name": "StreamlineCore 2.2.3.1-SNAPSHOT (Bungee)",
+      "version_number": "2.2.3.1-SNAPSHOT",
+      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "bungeecord",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "dd1f907774cc140434d5fd37516b06960d3852393549a2fce18e89f56857949d657ea5763adc5a8343899720bd43c832215b3e9ab46cf2e56651df529c385306",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/i3352mmR/StreamlineCore-Bungee-2.2.3.1-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Bungee-2.2.3.1-SNAPSHOT.jar",
+          "primary": true,
+          "size": 22523706
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jGpmoj1D",
+      "name": "StreamlineCore 2.2.1.0-SNAPSHOT (Bungee)",
+      "version_number": "2.2.1.0-SNAPSHOT",
+      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "bungeecord",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "d832f1c107242e5bd62805193174ec6dc50b9deb31de20fc3fb38ecf50d0dbd9641d3f0e9cd96d3f1a1982b7c81eb44ee44b070a84c3b03fd8eba2a82a4b041d",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/jGpmoj1D/StreamlineCore-Bungee-2.2.1.0-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Bungee-2.2.1.0-SNAPSHOT.jar",
+          "primary": true,
+          "size": 22519878
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "k5kVLRN7",
+      "name": "StreamlineCore 2.3.0.1 (Velocity)",
+      "version_number": "2.3.0.1",
+      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "fbe002d164df886df36b354fbc43f0d361af1ab835f180155aa38b51a4971e490f5a5a9aebc0c417195ca32fe24c3539e7059fd5853fc5923f56cebfd664fd94",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/k5kVLRN7/StreamlineCore-Velocity-2.3.0.1.jar",
+          "filename": "StreamlineCore-Velocity-2.3.0.1.jar",
+          "primary": true,
+          "size": 38480818
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "lsZXzjXV",
+      "name": "StreamlineCore 2.2.3.2-SNAPSHOT (Velocity)",
+      "version_number": "2.2.3.2-SNAPSHOT",
       "game_versions": [
         "1.8",
         "1.8.1",
@@ -3278,69 +3251,21 @@
         "1.19.3",
         "1.19.4",
         "1.20",
-        "1.20.1"
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
-        "paper",
-        "purpur",
-        "spigot"
+        "velocity"
       ],
       "files": [
         {
-          "sha512": "3a0a9417e7b8ad1918532f1a9300bae02a5f139f3db4534f9ed00e31aad6e5619c77c054fae18255429a019434db041e4d8422cc2f7a8565abdd4cf3e6683a90",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/HFuYMLQp/StreamlineCore-Spigot-2.0.3.5-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Spigot-2.0.3.5-SNAPSHOT.jar",
+          "sha512": "4cd0e1317751d37596e30c39a9986c6b81078b5a34031f8391523eb32194ac445b4649aa0f6c08cb237e4cf8a5c342769efec45472af944843a115269d52f059",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/lsZXzjXV/StreamlineCore-Velocity-2.2.3.2-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Velocity-2.2.3.2-SNAPSHOT.jar",
           "primary": true,
-          "size": 29100852
-        },
-        {
-          "sha512": "bbf5b141d4fec0222a9ef452804bb52e84897d5eb6bfa1e2cbb6211489379befd21f7828c25c56f312f26e94c35d6bef406bb3c37e17ae312034cea6c27959c7",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/HFuYMLQp/ResourcePackUtils-1.7.1.jar",
-          "filename": "ResourcePackUtils-1.7.1.jar",
-          "primary": false,
-          "size": 9967
-        },
-        {
-          "sha512": "4e861df132a843acb5f81bd153313976ac6af46f19aff60a7963a5fd9f9e28247bd826fd9bacff8dedc5939e68e7ac4d977086b5d69b5c58ccb3ef6996c5764e",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/HFuYMLQp/SimpleStats-1.0.0.jar",
-          "filename": "SimpleStats-1.0.0.jar",
-          "primary": false,
-          "size": 5832
-        },
-        {
-          "sha512": "20e29ae00b093f826e5d018b692105e1b86090cabf8f9c687f4dff5c57d4673ec5b547dd7d03830ab9c9ce33e5e7b5c48d819e2dda89cf50c65f931895c2006a",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/HFuYMLQp/StreamlineDiscord-1.13.3.jar",
-          "filename": "StreamlineDiscord-1.13.3.jar",
-          "primary": false,
-          "size": 13960604
-        },
-        {
-          "sha512": "6d75d2eaf81588fb53824c8607df3d8a9e20623afcddbd93f8f682a5e76c37d0f7edabac8059c82bbe071280d4d03f81a4a65023b2a93bb90d7a0a2fa3a1c18f",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/HFuYMLQp/StreamlineGroups-1.9.5.jar",
-          "filename": "StreamlineGroups-1.9.5.jar",
-          "primary": false,
-          "size": 86814
-        },
-        {
-          "sha512": "4ba4dab0ee4501725811d0c2a3fe74c124007220b791212809a96e3fab69c2d0eb1d7a5faea7b9367b83100dc6f1f96c6fd47ca4ce38398ffd8b9828d65f089b",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/HFuYMLQp/StreamlineMessaging-1.9.4.jar",
-          "filename": "StreamlineMessaging-1.9.4.jar",
-          "primary": false,
-          "size": 52378
-        },
-        {
-          "sha512": "48276455bbd6ee68721e1ed199daab65fae95e94c5c96c1b65e08a514024f2693569b3bc18248c623f5639095f173ead31428c98468c35e4ba819e56aebf11ae",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/HFuYMLQp/StreamlineRedirect-1.0.0.jar",
-          "filename": "StreamlineRedirect-1.0.0.jar",
-          "primary": false,
-          "size": 8742
-        },
-        {
-          "sha512": "a1eacf518fbb0beb3a8de669006eb43ad46fbb1377b7d53082d6796ae652527c7cce55a190bdb1638c9e03f8ab0acd643a21635c4efad16e114517289501d328",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/HFuYMLQp/StreamlineUtilities-1.14.3.jar",
-          "filename": "StreamlineUtilities-1.14.3.jar",
-          "primary": false,
-          "size": 130059
+          "size": 22920404
         }
       ],
       "dependencies": [
@@ -3353,9 +3278,743 @@
       ]
     },
     {
-      "id": "9sXpaMPE",
-      "name": "StreamlineCore 2.0.3.5-SNAPSHOT (Bungee)",
-      "version_number": "2.0.3.5-SNAPSHOT",
+      "id": "m1J6TlW8",
+      "name": "StreamlineCore 2.0.3.3 (Bungee)",
+      "version_number": "2.0.3.3",
+      "game_versions": [
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "bungeecord",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "d416919edef67a271a350ea6d8f6f37abdb58766d18af25d1effa4ddb5596ad09f80b0f3b2c4a1a6f97c14a9ebc946b9ec623fdffaf24aeca5c11612bf6bba1e",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/m1J6TlW8/StreamlineCore-Bungee-2.0.3.3.jar",
+          "filename": "StreamlineCore-Bungee-2.0.3.3.jar",
+          "primary": true,
+          "size": 29041129
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "nDMkEAGZ",
+      "name": "StreamlineCore 2.2.1.0-SNAPSHOT (Velocity)",
+      "version_number": "2.2.1.0-SNAPSHOT",
+      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "52bbaf2a1136ba8b148bea17145fae8448fb0a347b084e47cd6756a2cbdd09f2f7b43a3dd81b14f5d578bbe062eaa2aef216004a387b784db9270516588340d4",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/nDMkEAGZ/StreamlineCore-Velocity-2.2.1.0-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Velocity-2.2.1.0-SNAPSHOT.jar",
+          "primary": true,
+          "size": 22880711
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "oKKL0NGN",
+      "name": "StreamlineCore 2.1.0.0-SNAPSHOT (Spigot)",
+      "version_number": "2.1.0.0-SNAPSHOT",
+      "game_versions": [
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "bukkit",
+        "paper",
+        "purpur",
+        "spigot"
+      ],
+      "files": [
+        {
+          "sha512": "d8d8531f94da7082aa39e13750226904395b2115cd44918d313cc1c5f00ac481a117b900e865b99a71cbe464c7141207ecb85a396dd0209b62515e77b67b4b07",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/oKKL0NGN/StreamlineCore-Spigot-2.1.0.0-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Spigot-2.1.0.0-SNAPSHOT.jar",
+          "primary": true,
+          "size": 45276871
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "pMcTScWO",
+      "name": "StreamlineCore 2.0.3.4 (Bungee)",
+      "version_number": "2.0.3.4",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "23w12a"
+      ],
+      "loaders": [
+        "bungeecord",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "476d93b4d0e1fd0418568ebaaee2bf01f3ca71c50f9fc78d349a7da36e43fb09b05c4d9545be8b749dfddcecd3d3cbb73bbda66bde9c031f9f6b8c2bdaf9df69",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/pMcTScWO/StreamlineCore-Bungee-2.0.3.4.jar",
+          "filename": "StreamlineCore-Bungee-2.0.3.4.jar",
+          "primary": true,
+          "size": 29039424
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "sZEPLpVq",
+      "name": "StreamlineCore 2.0.3.1 (Bungee)",
+      "version_number": "2.0.3.1",
+      "game_versions": [
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "22w24a",
+        "1.19.1",
+        "1.19.2",
+        "22w42a",
+        "22w43a",
+        "22w44a",
+        "22w45a",
+        "22w46a",
+        "1.19.3",
+        "23w03a",
+        "23w04a",
+        "23w05a",
+        "23w06a"
+      ],
+      "loaders": [
+        "bungeecord",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "83621d1fb93663e41c6d33f6d81efd38e91a04afebdb9408323e20e10add79c94decf71d1a23fae22591ad7c20352d7f5633fbe02b69462888f7e193daed3bf4",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/sZEPLpVq/StreamlineCore-Bungee-2.0.3.1.jar",
+          "filename": "StreamlineCore-Bungee-2.0.3.1.jar",
+          "primary": true,
+          "size": 29047583
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "slEx4muK",
+      "name": "StreamlineCore 2.2.3.1-SNAPSHOT (Velocity)",
+      "version_number": "2.2.3.1-SNAPSHOT",
+      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "ba8e7bd0a00ab91c9a633033e11de05e769358a0796ff1a435cbb2dbe0125383f72bd4f4d6229282ac5d5063c656c77b254cf9dd746143be4fa1190829a64588",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/slEx4muK/StreamlineCore-Velocity-2.2.3.1-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Velocity-2.2.3.1-SNAPSHOT.jar",
+          "primary": true,
+          "size": 22920404
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "vgoSHGaw",
+      "name": "StreamlineCore 2.1.2.0-SNAPSHOT (Spigot)",
+      "version_number": "2.1.2.0-SNAPSHOT",
+      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "bukkit",
+        "paper",
+        "purpur",
+        "spigot"
+      ],
+      "files": [
+        {
+          "sha512": "b0c1bb9f19bd5460646be33facd6d2d8dfd7b1fba5fd14465d05811c18e5d35df32f759e61a3d8530f37b0ec4816768ee8891f93c9d6dbfb4d41cd18a493c3ec",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/vgoSHGaw/StreamlineCore-Spigot-2.1.2.0-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Spigot-2.1.2.0-SNAPSHOT.jar",
+          "primary": true,
+          "size": 45284141
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "wRT3nsIC",
+      "name": "StreamlineCore 2.3.1.0 (Velocity)",
+      "version_number": "2.3.1.0",
+      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "d30ff24311d96fb8c524e84a799cb58a8b06a22c84bc82dca1319dc44b4ddd1b06bd0fb8b332eb00e98aea55f4eb8c69ce88e2d923d23305f03f87817466ea7b",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/wRT3nsIC/StreamlineCore-Velocity-2.3.1.0.jar",
+          "filename": "StreamlineCore-Velocity-2.3.1.0.jar",
+          "primary": true,
+          "size": 39361377
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "x0F9HVav",
+      "name": "StreamlineCore 2.0.3.2 (Spigot)",
+      "version_number": "2.0.3.2",
+      "game_versions": [
+        "1.8.8",
+        "1.8.9",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "paper",
+        "purpur",
+        "spigot"
+      ],
+      "files": [
+        {
+          "sha512": "016097b300b870fdb6e931e4d718c56c0e0abce87caa27680f88cedb04a06713d9df2f8ca1efc6afb4b43cb57d214fe469a77a64c3bb1b2b71b9ca1b92ac61b6",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/x0F9HVav/StreamlineCore-Spigot-2.0.3.2.jar",
+          "filename": "StreamlineCore-Spigot-2.0.3.2.jar",
+          "primary": true,
+          "size": 29069753
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "xhzOAFnz",
+      "name": "StreamlineCore 2.3.3.0 (Velocity)",
+      "version_number": "2.3.3.0",
+      "game_versions": [
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "a4774653943b3ba3a254ab3bcb4c15be7093c1b9e485910d0071bfd468cc38002ec7e9a78c2215d4110807f6a3b9e4e591be7c4a1bff281ce9ea9c66873e0186",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/xhzOAFnz/StreamlineCore-Velocity-2.3.3.0.jar",
+          "filename": "StreamlineCore-Velocity-2.3.3.0.jar",
+          "primary": true,
+          "size": 32726906
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "y0nKtel7",
+      "name": "StreamlineCore 2.0.3.3 (Velocity)",
+      "version_number": "2.0.3.3",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "4bea2b1049f2b4539a4b32f51e83c2f481d62b391eab65e288b8c2b8f83748beebd828c62c650d948fbceca32818b9d5ee3b705517624f56b159df3df93af277",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/y0nKtel7/StreamlineCore-Velocity-2.0.3.3.jar",
+          "filename": "StreamlineCore-Velocity-2.0.3.3.jar",
+          "primary": true,
+          "size": 29047462
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "yO0tJgfo",
+      "name": "StreamlineCore 2.0.3.6-SNAPSHOT (Bungee)",
+      "version_number": "2.0.3.6-SNAPSHOT",
       "game_versions": [
         "1.7.2",
         "1.7.3",
@@ -3426,60 +4085,11 @@
       ],
       "files": [
         {
-          "sha512": "ca5341b69aa850fe84b3841d30bf9b637e4da7e2b18fa77a81d9756e09692453afd96db27bbdf4cc881ef5d823c7ab740fc4e302256cd714f4c2b4880b0e9fb4",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/9sXpaMPE/StreamlineCore-Bungee-2.0.3.5-SNAPSHOT.jar",
-          "filename": "StreamlineCore-Bungee-2.0.3.5-SNAPSHOT.jar",
+          "sha512": "5571f3de075081197473a040eb8d9f7f9aa2f57c4e8a5dadaa5f267a6253bc92339b72e3e999db63a0c42a751460c155a7c89f5243a083048e1be7af55fe85f9",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/yO0tJgfo/StreamlineCore-Bungee-2.0.3.6-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Bungee-2.0.3.6-SNAPSHOT.jar",
           "primary": true,
-          "size": 29071476
-        },
-        {
-          "sha512": "bbf5b141d4fec0222a9ef452804bb52e84897d5eb6bfa1e2cbb6211489379befd21f7828c25c56f312f26e94c35d6bef406bb3c37e17ae312034cea6c27959c7",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/9sXpaMPE/ResourcePackUtils-1.7.1.jar",
-          "filename": "ResourcePackUtils-1.7.1.jar",
-          "primary": false,
-          "size": 9967
-        },
-        {
-          "sha512": "4e861df132a843acb5f81bd153313976ac6af46f19aff60a7963a5fd9f9e28247bd826fd9bacff8dedc5939e68e7ac4d977086b5d69b5c58ccb3ef6996c5764e",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/9sXpaMPE/SimpleStats-1.0.0.jar",
-          "filename": "SimpleStats-1.0.0.jar",
-          "primary": false,
-          "size": 5832
-        },
-        {
-          "sha512": "20e29ae00b093f826e5d018b692105e1b86090cabf8f9c687f4dff5c57d4673ec5b547dd7d03830ab9c9ce33e5e7b5c48d819e2dda89cf50c65f931895c2006a",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/9sXpaMPE/StreamlineDiscord-1.13.3.jar",
-          "filename": "StreamlineDiscord-1.13.3.jar",
-          "primary": false,
-          "size": 13960604
-        },
-        {
-          "sha512": "6d75d2eaf81588fb53824c8607df3d8a9e20623afcddbd93f8f682a5e76c37d0f7edabac8059c82bbe071280d4d03f81a4a65023b2a93bb90d7a0a2fa3a1c18f",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/9sXpaMPE/StreamlineGroups-1.9.5.jar",
-          "filename": "StreamlineGroups-1.9.5.jar",
-          "primary": false,
-          "size": 86814
-        },
-        {
-          "sha512": "4ba4dab0ee4501725811d0c2a3fe74c124007220b791212809a96e3fab69c2d0eb1d7a5faea7b9367b83100dc6f1f96c6fd47ca4ce38398ffd8b9828d65f089b",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/9sXpaMPE/StreamlineMessaging-1.9.4.jar",
-          "filename": "StreamlineMessaging-1.9.4.jar",
-          "primary": false,
-          "size": 52378
-        },
-        {
-          "sha512": "48276455bbd6ee68721e1ed199daab65fae95e94c5c96c1b65e08a514024f2693569b3bc18248c623f5639095f173ead31428c98468c35e4ba819e56aebf11ae",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/9sXpaMPE/StreamlineRedirect-1.0.0.jar",
-          "filename": "StreamlineRedirect-1.0.0.jar",
-          "primary": false,
-          "size": 8742
-        },
-        {
-          "sha512": "a1eacf518fbb0beb3a8de669006eb43ad46fbb1377b7d53082d6796ae652527c7cce55a190bdb1638c9e03f8ab0acd643a21635c4efad16e114517289501d328",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/9sXpaMPE/StreamlineUtilities-1.14.3.jar",
-          "filename": "StreamlineUtilities-1.14.3.jar",
-          "primary": false,
-          "size": 130059
+          "size": 45252171
         }
       ],
       "dependencies": [
@@ -3492,48 +4102,9 @@
       ]
     },
     {
-      "id": "2x1Lg0a3",
-      "name": "StreamlineCore 2.0.3.5 (Velocity)",
-      "version_number": "2.0.3.5",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "23w12a",
-        "23w13a",
-        "23w13a_or_b",
-        "23w14a"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "ee86cdf72a1afd9e8309aa54107c0eb64ae2e1e539f99fcb7660936a34467729cee5c4c2537c29c1d3998604a03045f431b2bfd70d6d016f932eb515eeca3532",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/2x1Lg0a3/StreamlineCore-Velocity-2.0.3.5.jar",
-          "filename": "StreamlineCore-Velocity-2.0.3.5.jar",
-          "primary": true,
-          "size": 29047659
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "BadYjFXp",
-      "name": "StreamlineCore 2.0.3.5 (Spigot)",
-      "version_number": "2.0.3.5",
+      "id": "ylCwfv1S",
+      "name": "StreamlineCore 2.2.1.0-SNAPSHOT (Bukkit/Spigot)",
+      "version_number": "2.2.1.0-SNAPSHOT",
       "game_versions": [
         "1.8",
         "1.8.1",
@@ -3545,53 +4116,37 @@
         "1.8.7",
         "1.8.8",
         "1.8.9",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "paper",
-        "purpur",
-        "spigot"
-      ],
-      "files": [
-        {
-          "sha512": "2c113f95fdfcc4b9207124c519bd8623bd6cdb616dd6375187e8e969043ded0d5358d4a33a0e0c34928f10e376dd9f6430bf5137c7b2896dcfa244a502f6daf2",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/BadYjFXp/StreamlineCore-Spigot-2.0.3.5.jar",
-          "filename": "StreamlineCore-Spigot-2.0.3.5.jar",
-          "primary": true,
-          "size": 29070196
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "5FBrJoba",
-      "name": "StreamlineCore 2.0.3.5 (Bungee)",
-      "version_number": "2.0.3.5",
-      "game_versions": [
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
         "1.17",
         "1.17.1",
         "1.18",
@@ -3601,19 +4156,26 @@
         "1.19.1",
         "1.19.2",
         "1.19.3",
-        "1.19.4"
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
-        "bungeecord",
-        "waterfall"
+        "bukkit",
+        "paper",
+        "purpur",
+        "spigot"
       ],
       "files": [
         {
-          "sha512": "f11d83bdd1b8e9419f9aeecc4eebd18f680aac688b90226e9d6b0c95f0c7c3e90f15193735e7b93e5d8e7fe4fe6fb5659382411325d385e6e2ea3e9ca7fe2bee",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/5FBrJoba/StreamlineCore-Bungee-2.0.3.5.jar",
-          "filename": "StreamlineCore-Bungee-2.0.3.5.jar",
+          "sha512": "2faef0ebd1f8f7665cc5c604515c601ad4fc3d1161fe82402ff170d58e45f4d13a6f574543095eca4f467de1f9dc8561629f7c90eb11e4017028093449533832",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/ylCwfv1S/StreamlineCore-Spigot-2.2.1.0-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Spigot-2.2.1.0-SNAPSHOT.jar",
           "primary": true,
-          "size": 29041362
+          "size": 22622530
         }
       ],
       "dependencies": [
@@ -3626,53 +4188,19 @@
       ]
     },
     {
-      "id": "1CycwRd1",
-      "name": "StreamlineCore 2.0.3.4 (Velocity)",
-      "version_number": "2.0.3.4",
+      "id": "zcbw56s3",
+      "name": "StreamlineCore 2.0.3.6-SNAPSHOT (Spigot)",
+      "version_number": "2.0.3.6-SNAPSHOT",
       "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2",
+        "1.8.8",
+        "1.8.9",
         "1.19",
         "1.19.1",
         "1.19.2",
         "1.19.3",
         "1.19.4",
-        "23w12a"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "8974b8cd41613df3e3599982094574599f4982ce6b2613dc57626b987c972432b03bca356388d3b4807e118cf2e6fd5a8c10bde99f422eb4d01408f209f6ff2e",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/1CycwRd1/StreamlineCore-Velocity-2.0.3.4.jar",
-          "filename": "StreamlineCore-Velocity-2.0.3.4.jar",
-          "primary": true,
-          "size": 29045755
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "DPKsIJYS",
-      "name": "StreamlineCore 2.0.3.4 (Spigot)",
-      "version_number": "2.0.3.4",
-      "game_versions": [
-        "1.8.8",
-        "1.8.9",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "paper",
@@ -3681,539 +4209,11 @@
       ],
       "files": [
         {
-          "sha512": "b2ca870bed250fd6b4374acecac18a7ff90b3812d0bf25be21712dc7bdd7537ea0abea8bfa0769c55063773507e8c6feb2cf2ac3566c461cdc63396966e0b644",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/DPKsIJYS/StreamlineCore-Spigot-2.0.3.4.jar",
-          "filename": "StreamlineCore-Spigot-2.0.3.4.jar",
+          "sha512": "45cb62bc824dea97d4fa987dde8e3a5d843520a6d46f7264394312e89a5f1ae71a130a4645b0efa26727b476469157a7e38330b84a1998e4f6c373f3c99b46b2",
+          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/zcbw56s3/StreamlineCore-Spigot-2.0.3.6-SNAPSHOT.jar",
+          "filename": "StreamlineCore-Spigot-2.0.3.6-SNAPSHOT.jar",
           "primary": true,
-          "size": 29068355
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "pMcTScWO",
-      "name": "StreamlineCore 2.0.3.4 (Bungee)",
-      "version_number": "2.0.3.4",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "23w12a"
-      ],
-      "loaders": [
-        "bungeecord",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "476d93b4d0e1fd0418568ebaaee2bf01f3ca71c50f9fc78d349a7da36e43fb09b05c4d9545be8b749dfddcecd3d3cbb73bbda66bde9c031f9f6b8c2bdaf9df69",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/pMcTScWO/StreamlineCore-Bungee-2.0.3.4.jar",
-          "filename": "StreamlineCore-Bungee-2.0.3.4.jar",
-          "primary": true,
-          "size": 29039424
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "m1J6TlW8",
-      "name": "StreamlineCore 2.0.3.3 (Bungee)",
-      "version_number": "2.0.3.3",
-      "game_versions": [
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "bungeecord",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "d416919edef67a271a350ea6d8f6f37abdb58766d18af25d1effa4ddb5596ad09f80b0f3b2c4a1a6f97c14a9ebc946b9ec623fdffaf24aeca5c11612bf6bba1e",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/m1J6TlW8/StreamlineCore-Bungee-2.0.3.3.jar",
-          "filename": "StreamlineCore-Bungee-2.0.3.3.jar",
-          "primary": true,
-          "size": 29041129
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "b7CKfw9Z",
-      "name": "StreamlineCore 2.0.3.3 (Spigot)",
-      "version_number": "2.0.3.3",
-      "game_versions": [
-        "1.8.8",
-        "1.8.9",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "paper",
-        "purpur",
-        "spigot"
-      ],
-      "files": [
-        {
-          "sha512": "7f52f8cb653b09f82c26e4c2ef3a8c803c512d49d65a26e3ca919e386afed3bc856b2fd199af33eda95e2d81102d650114f14dcabaaa30da01c64d5d88f4657b",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/b7CKfw9Z/StreamlineCore-Spigot-2.0.3.3.jar",
-          "filename": "StreamlineCore-Spigot-2.0.3.3.jar",
-          "primary": true,
-          "size": 29070062
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "y0nKtel7",
-      "name": "StreamlineCore 2.0.3.3 (Velocity)",
-      "version_number": "2.0.3.3",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "4bea2b1049f2b4539a4b32f51e83c2f481d62b391eab65e288b8c2b8f83748beebd828c62c650d948fbceca32818b9d5ee3b705517624f56b159df3df93af277",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/y0nKtel7/StreamlineCore-Velocity-2.0.3.3.jar",
-          "filename": "StreamlineCore-Velocity-2.0.3.3.jar",
-          "primary": true,
-          "size": 29047462
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "x0F9HVav",
-      "name": "StreamlineCore 2.0.3.2 (Spigot)",
-      "version_number": "2.0.3.2",
-      "game_versions": [
-        "1.8.8",
-        "1.8.9",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "paper",
-        "purpur",
-        "spigot"
-      ],
-      "files": [
-        {
-          "sha512": "016097b300b870fdb6e931e4d718c56c0e0abce87caa27680f88cedb04a06713d9df2f8ca1efc6afb4b43cb57d214fe469a77a64c3bb1b2b71b9ca1b92ac61b6",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/x0F9HVav/StreamlineCore-Spigot-2.0.3.2.jar",
-          "filename": "StreamlineCore-Spigot-2.0.3.2.jar",
-          "primary": true,
-          "size": 29069753
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "58vLl49X",
-      "name": "StreamlineCore 2.0.3.2 (Bungee)",
-      "version_number": "2.0.3.2",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "23w03a",
-        "23w04a",
-        "23w05a",
-        "23w06a"
-      ],
-      "loaders": [
-        "bungeecord",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "9983f7dfe051cd25e836c9da25df5b474b29fe2a2744b204ecbfd514f838affaae8a09a62c7835228544869293e27f7325966189da6d2e596443152bf21bac57",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/58vLl49X/StreamlineCore-Bungee-2.0.3.2.jar",
-          "filename": "StreamlineCore-Bungee-2.0.3.2.jar",
-          "primary": true,
-          "size": 29040683
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Og4iZ8HP",
-      "name": "StreamlineCore 2.0.3.2 (Velocity)",
-      "version_number": "2.0.3.2",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "23w03a",
-        "23w04a",
-        "23w05a",
-        "23w06a"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "f31805c61086298b58e7ca186c356c59f51273c89b66d63447bcccab96cb24f4b791065b82af55ae6e1ac877ed9ebb0e0ff08e52d354dfa95ed2546ae2040512",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/Og4iZ8HP/StreamlineCore-Velocity-2.0.3.2.jar",
-          "filename": "StreamlineCore-Velocity-2.0.3.2.jar",
-          "primary": true,
-          "size": 29046584
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "H9lC5Ecu",
-      "name": "StreamlineCore 2.0.3.1 (Velocity)",
-      "version_number": "2.0.3.1",
-      "game_versions": [
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "22w42a",
-        "22w43a",
-        "22w44a",
-        "22w45a",
-        "22w46a",
-        "1.19.3-pre1",
-        "1.19.3",
-        "23w03a",
-        "23w04a",
-        "23w05a",
-        "23w06a"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "74c8fb35daa16233ce8c562f8569cba9521d414556f2e77e8654cb368f9fe8532b664711ed4d9bf8efd3c4bb06d45449e3f067b63e56a871fb7d13bdee94cb6a",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/H9lC5Ecu/StreamlineCore-Velocity-2.0.3.1.jar",
-          "filename": "StreamlineCore-Velocity-2.0.3.1.jar",
-          "primary": true,
-          "size": 29053662
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "K3TU03b5",
-      "name": "StreamlineCore 2.0.3.1 (Spigot)",
-      "version_number": "2.0.3.1",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "paper",
-        "purpur",
-        "spigot"
-      ],
-      "files": [
-        {
-          "sha512": "b2f15f9aef23e333d2c9630c33b64f39618383993215cdb410ce47f97a658ebc709fab21448251239be89c6bb7d216447384047e349af16bbf3df669d14273c0",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/K3TU03b5/StreamlineCore-Spigot-2.0.3.1.jar",
-          "filename": "StreamlineCore-Spigot-2.0.3.1.jar",
-          "primary": true,
-          "size": 29076745
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "sZEPLpVq",
-      "name": "StreamlineCore 2.0.3.1 (Bungee)",
-      "version_number": "2.0.3.1",
-      "game_versions": [
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "22w24a",
-        "1.19.1",
-        "1.19.2",
-        "22w42a",
-        "22w43a",
-        "22w44a",
-        "22w45a",
-        "22w46a",
-        "1.19.3",
-        "23w03a",
-        "23w04a",
-        "23w05a",
-        "23w06a"
-      ],
-      "loaders": [
-        "bungeecord",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "83621d1fb93663e41c6d33f6d81efd38e91a04afebdb9408323e20e10add79c94decf71d1a23fae22591ad7c20352d7f5633fbe02b69462888f7e193daed3bf4",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/sZEPLpVq/StreamlineCore-Bungee-2.0.3.1.jar",
-          "filename": "StreamlineCore-Bungee-2.0.3.1.jar",
-          "primary": true,
-          "size": 29047583
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "QcXzlnKR",
-      "name": "StreamlineCore 2.0.3.0 (Spigot)",
-      "version_number": "2.0.3.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "paper",
-        "purpur",
-        "spigot"
-      ],
-      "files": [
-        {
-          "sha512": "045947f30d5e48d9d3d9ccbe239ddbf8f5678a890b9b68fe831bd7a87165b2d744db3f7a48c4ea8d95280734511622d16aee2371089eea19b5bebc940efe91c4",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/QcXzlnKR/StreamlineCore-Spigot-2.0.3.0.jar",
-          "filename": "StreamlineCore-Spigot-2.0.3.0.jar",
-          "primary": true,
-          "size": 29073010
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "2WO8weZD",
-      "name": "StreamlineCore 2.0.3.0 (Bungee)",
-      "version_number": "2.0.3.0",
-      "game_versions": [
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "bungeecord",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "488f9170184b7a81b7f338e10d7a8108c038c199416095bec3260c39c8959ee3f5f9eec1d7187d46575fd1138e6919a07a9fa4da7f34c6735726bf4303320999",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/2WO8weZD/StreamlineCore-Bungee-2.0.3.0.jar",
-          "filename": "StreamlineCore-Bungee-2.0.3.0.jar",
-          "primary": true,
-          "size": 29043848
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "eyWiTu5O",
-      "name": "StreamlineCore 2.0.3.0 (Velocity)",
-      "version_number": "2.0.3.0",
-      "game_versions": [
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "a678711b1243b115b2e6acb07f05728df3509f9d4194a9583273d8612e98081197b141b6dd2ed05d6591327dac45e6ee749087e8f2847e9aca9ee85cb148f57c",
-          "url": "https://cdn.modrinth.com/data/wEJy5rtv/versions/eyWiTu5O/StreamlineCore-Velocity-2.0.3.0.jar",
-          "filename": "StreamlineCore-Velocity-2.0.3.0.jar",
-          "primary": true,
-          "size": 29049925
+          "size": 45282276
         }
       ],
       "dependencies": [

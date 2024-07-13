@@ -5,11 +5,10 @@
   "description": "NeMuelch Minecraft Fabric Mod adds consumables, new recipes, player related content, admin tool items, and changes to basic minecraft behavior.",
   "versions": [
     {
-      "id": "ET9WBfBk",
-      "name": "NeMuelch-1.7.2",
-      "version_number": "1.7.2-1.18.2",
+      "id": "3HK7ztnX",
+      "name": "NeMuelch-1.4.0 ",
+      "version_number": "1.4.0",
       "game_versions": [
-        "1.18.1",
         "1.18.2"
       ],
       "loaders": [
@@ -17,21 +16,33 @@
       ],
       "files": [
         {
-          "sha512": "68a3409b3ec678d1f5ab83281341311025ef5cfa97593b9d66ae35c9fe383e28612e883d56a811f4e908f432719bec89e73eb180010502fd73281839cd3d4ac5",
-          "url": "https://cdn.modrinth.com/data/bwKDcyDE/versions/ET9WBfBk/nemuelch-1.7.2-1.18.2.jar",
-          "filename": "nemuelch-1.7.2-1.18.2.jar",
+          "sha512": "e808e3615ee2a6d642c3b26a13cd4070353fa59ed5b9a4bb533569e5875c19d60e3ea83a7fa9d429184fe89aff78a08de117fead1e2dcff7b9f3a3874fce4480",
+          "url": "https://cdn.modrinth.com/data/bwKDcyDE/versions/3HK7ztnX/nemuelch-1.4.0-1.18.2.jar",
+          "filename": "nemuelch-1.4.0-1.18.2.jar",
           "primary": true,
-          "size": 13064730
+          "size": 4747277
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": "Z7uH6V77",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
-      "id": "9VzosF1R",
-      "name": "NeMuelch-1.7.1",
-      "version_number": "1.7.1-1.18.2",
+      "id": "3sJRuaq6",
+      "name": "NeMuelch-1.5.1",
+      "version_number": "1.5.1",
       "game_versions": [
-        "1.18.1",
         "1.18.2"
       ],
       "loaders": [
@@ -39,11 +50,11 @@
       ],
       "files": [
         {
-          "sha512": "94e35e01e4fdd1f7ac7c599206afb38345b01f5286b46d35b98349d27ef0f5b72a410388b927ab4339fea634b3b8cb6cd31b8d0c934597dd39610fac43654b09",
-          "url": "https://cdn.modrinth.com/data/bwKDcyDE/versions/9VzosF1R/nemuelch-1.7.1-1.18.2.jar",
-          "filename": "nemuelch-1.7.1-1.18.2.jar",
+          "sha512": "2cb8d8a466604041737f722e6048f2e771849bc91b4b7d2b79b610a85a0277db8321ccf2bc993d03ceb111044c344df42a21548b28de9459e9a561657973fbfc",
+          "url": "https://cdn.modrinth.com/data/bwKDcyDE/versions/3sJRuaq6/nemuelch-1.5.1-1.18.2.jar",
+          "filename": "nemuelch-1.5.1-1.18.2.jar",
           "primary": true,
-          "size": 12937289
+          "size": 12686164
         }
       ],
       "dependencies": []
@@ -71,11 +82,10 @@
       "dependencies": []
     },
     {
-      "id": "cLy8CRKn",
-      "name": "NeMuelch-1.6.1",
-      "version_number": "1.6.1-1.18.2",
+      "id": "9VzosF1R",
+      "name": "NeMuelch-1.7.1",
+      "version_number": "1.7.1-1.18.2",
       "game_versions": [
-        "1.18",
         "1.18.1",
         "1.18.2"
       ],
@@ -84,14 +94,104 @@
       ],
       "files": [
         {
-          "sha512": "83ab05f8dab0a03c023d2824686db26a6ca6fc812897be7e6b96ebd6e7b3af7a0bfe58b3a4b225d62b0b52425e5dfcfd03f464d4274723b63dc8c2297c89f05c",
-          "url": "https://cdn.modrinth.com/data/bwKDcyDE/versions/cLy8CRKn/nemuelch-1.6.1-1.18.2.jar",
-          "filename": "nemuelch-1.6.1-1.18.2.jar",
+          "sha512": "94e35e01e4fdd1f7ac7c599206afb38345b01f5286b46d35b98349d27ef0f5b72a410388b927ab4339fea634b3b8cb6cd31b8d0c934597dd39610fac43654b09",
+          "url": "https://cdn.modrinth.com/data/bwKDcyDE/versions/9VzosF1R/nemuelch-1.7.1-1.18.2.jar",
+          "filename": "nemuelch-1.7.1-1.18.2.jar",
           "primary": true,
-          "size": 12791165
+          "size": 12937289
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "ET9WBfBk",
+      "name": "NeMuelch-1.7.2",
+      "version_number": "1.7.2-1.18.2",
+      "game_versions": [
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "68a3409b3ec678d1f5ab83281341311025ef5cfa97593b9d66ae35c9fe383e28612e883d56a811f4e908f432719bec89e73eb180010502fd73281839cd3d4ac5",
+          "url": "https://cdn.modrinth.com/data/bwKDcyDE/versions/ET9WBfBk/nemuelch-1.7.2-1.18.2.jar",
+          "filename": "nemuelch-1.7.2-1.18.2.jar",
+          "primary": true,
+          "size": 13064730
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "G5kaRgVL",
+      "name": "NeMuelch-1.3.1",
+      "version_number": "1.3.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "184ad5c76608c84bd9af5944874a85c7e9740fb0f4add93a9a86d3a8a7ba88e53c9779d3ea3f9e883d86f94205960bc4ef16ff746222fa50fbfe791db62a42be",
+          "url": "https://cdn.modrinth.com/data/bwKDcyDE/versions/G5kaRgVL/nemuelch-1.3.1-1.18.2.jar",
+          "filename": "nemuelch-1.3.1-1.18.2.jar",
+          "primary": true,
+          "size": 162399
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": "Z7uH6V77",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "HTKrCSDY",
+      "name": "NeMuelch-1.4.2",
+      "version_number": "1.4.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "403d6b6880b564968e648288027cf72541ff39229b2eb7e9bbe46d6cab9dd135bcae7369269a4e9c112e4fc69edea47178c1647385a5d14fd4826099bbab82eb",
+          "url": "https://cdn.modrinth.com/data/bwKDcyDE/versions/HTKrCSDY/nemuelch-1.4.2-1.18.2.jar",
+          "filename": "nemuelch-1.4.2-1.18.2.jar",
+          "primary": true,
+          "size": 4789139
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": "Z7uH6V77",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "Sh1gUE83",
@@ -136,9 +236,9 @@
       ]
     },
     {
-      "id": "3sJRuaq6",
-      "name": "NeMuelch-1.5.1",
-      "version_number": "1.5.1",
+      "id": "af1VAcp9",
+      "name": "NeMuelch-1.4.1",
+      "version_number": "1.4.1",
       "game_versions": [
         "1.18.2"
       ],
@@ -147,11 +247,47 @@
       ],
       "files": [
         {
-          "sha512": "2cb8d8a466604041737f722e6048f2e771849bc91b4b7d2b79b610a85a0277db8321ccf2bc993d03ceb111044c344df42a21548b28de9459e9a561657973fbfc",
-          "url": "https://cdn.modrinth.com/data/bwKDcyDE/versions/3sJRuaq6/nemuelch-1.5.1-1.18.2.jar",
-          "filename": "nemuelch-1.5.1-1.18.2.jar",
+          "sha512": "f9e84b50dab77ee67d7307aca521ec893763e02b6fdd921aaf4ee4f21a69693822209e3c12fddc984242a52589dbec2d0e7c1286ce006be618d43ca69dad12a9",
+          "url": "https://cdn.modrinth.com/data/bwKDcyDE/versions/af1VAcp9/nemuelch-1.4.1-1.18.2.jar",
+          "filename": "nemuelch-1.4.1-1.18.2.jar",
           "primary": true,
-          "size": 12686164
+          "size": 4766157
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": "Z7uH6V77",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "cLy8CRKn",
+      "name": "NeMuelch-1.6.1",
+      "version_number": "1.6.1-1.18.2",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "83ab05f8dab0a03c023d2824686db26a6ca6fc812897be7e6b96ebd6e7b3af7a0bfe58b3a4b225d62b0b52425e5dfcfd03f464d4274723b63dc8c2297c89f05c",
+          "url": "https://cdn.modrinth.com/data/bwKDcyDE/versions/cLy8CRKn/nemuelch-1.6.1-1.18.2.jar",
+          "filename": "nemuelch-1.6.1-1.18.2.jar",
+          "primary": true,
+          "size": 12791165
         }
       ],
       "dependencies": []
@@ -178,9 +314,9 @@
       "dependencies": []
     },
     {
-      "id": "HTKrCSDY",
-      "name": "NeMuelch-1.4.2",
-      "version_number": "1.4.2",
+      "id": "fSoVDZeQ",
+      "name": "NeMuelch-1.3.0",
+      "version_number": "1.3.0-1.18.2",
       "game_versions": [
         "1.18.2"
       ],
@@ -189,91 +325,17 @@
       ],
       "files": [
         {
-          "sha512": "403d6b6880b564968e648288027cf72541ff39229b2eb7e9bbe46d6cab9dd135bcae7369269a4e9c112e4fc69edea47178c1647385a5d14fd4826099bbab82eb",
-          "url": "https://cdn.modrinth.com/data/bwKDcyDE/versions/HTKrCSDY/nemuelch-1.4.2-1.18.2.jar",
-          "filename": "nemuelch-1.4.2-1.18.2.jar",
+          "sha512": "0e3242d98b8285a5994ba27fc32a91713129cbfd3c61babd91a0b74415200006d056072e6855e11df2397c0105674f185c1e7a1031da616e1998be2a5e79b12a",
+          "url": "https://cdn.modrinth.com/data/bwKDcyDE/versions/fSoVDZeQ/nemuelch-1.3.0-1.18.2.jar",
+          "filename": "nemuelch-1.3.0-1.18.2.jar",
           "primary": true,
-          "size": 4789139
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "8BmcQJ2H",
-          "version_id": "Z7uH6V77",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "af1VAcp9",
-      "name": "NeMuelch-1.4.1",
-      "version_number": "1.4.1",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f9e84b50dab77ee67d7307aca521ec893763e02b6fdd921aaf4ee4f21a69693822209e3c12fddc984242a52589dbec2d0e7c1286ce006be618d43ca69dad12a9",
-          "url": "https://cdn.modrinth.com/data/bwKDcyDE/versions/af1VAcp9/nemuelch-1.4.1-1.18.2.jar",
-          "filename": "nemuelch-1.4.1-1.18.2.jar",
-          "primary": true,
-          "size": 4766157
+          "size": 159155
         }
       ],
       "dependencies": [
         {
           "project_id": "8BmcQJ2H",
-          "version_id": "Z7uH6V77",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "3HK7ztnX",
-      "name": "NeMuelch-1.4.0 ",
-      "version_number": "1.4.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e808e3615ee2a6d642c3b26a13cd4070353fa59ed5b9a4bb533569e5875c19d60e3ea83a7fa9d429184fe89aff78a08de117fead1e2dcff7b9f3a3874fce4480",
-          "url": "https://cdn.modrinth.com/data/bwKDcyDE/versions/3HK7ztnX/nemuelch-1.4.0-1.18.2.jar",
-          "filename": "nemuelch-1.4.0-1.18.2.jar",
-          "primary": true,
-          "size": 4747277
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "8BmcQJ2H",
-          "version_id": "Z7uH6V77",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
+          "version_id": "pOOaURnj",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -300,40 +362,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "8BmcQJ2H",
-          "version_id": "Z7uH6V77",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "G5kaRgVL",
-      "name": "NeMuelch-1.3.1",
-      "version_number": "1.3.1",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "184ad5c76608c84bd9af5944874a85c7e9740fb0f4add93a9a86d3a8a7ba88e53c9779d3ea3f9e883d86f94205960bc4ef16ff746222fa50fbfe791db62a42be",
-          "url": "https://cdn.modrinth.com/data/bwKDcyDE/versions/G5kaRgVL/nemuelch-1.3.1-1.18.2.jar",
-          "filename": "nemuelch-1.3.1-1.18.2.jar",
-          "primary": true,
-          "size": 162399
-        }
-      ],
-      "dependencies": [
-        {
           "project_id": "9s6osm5g",
           "version_id": "BLMp2TRt",
           "file_name": null,
@@ -342,34 +370,6 @@
         {
           "project_id": "8BmcQJ2H",
           "version_id": "Z7uH6V77",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "fSoVDZeQ",
-      "name": "NeMuelch-1.3.0",
-      "version_number": "1.3.0-1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0e3242d98b8285a5994ba27fc32a91713129cbfd3c61babd91a0b74415200006d056072e6855e11df2397c0105674f185c1e7a1031da616e1998be2a5e79b12a",
-          "url": "https://cdn.modrinth.com/data/bwKDcyDE/versions/fSoVDZeQ/nemuelch-1.3.0-1.18.2.jar",
-          "filename": "nemuelch-1.3.0-1.18.2.jar",
-          "primary": true,
-          "size": 159155
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "8BmcQJ2H",
-          "version_id": "pOOaURnj",
           "file_name": null,
           "dependency_type": "required"
         }

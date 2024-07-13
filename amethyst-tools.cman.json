@@ -5,34 +5,37 @@
   "description": "Adds a simple, vanilla-like amethyst tool set between iron and diamond",
   "versions": [
     {
-      "id": "PayB1fy1",
-      "name": "Amethyst Tools v1.1.0",
-      "version_number": "1.1.0+1.20.0-1.20.4",
+      "id": "4MvmxPS9",
+      "name": "Amethyst Tools v1.0 (1.19.2)",
+      "version_number": "1.0",
       "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.19.2"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "339b0fc48eafd4890f3cc97be5c80fae5314977f42edefe104ec9312f79930e0ad96af5e2c14e16dbf094f45cde0867c48e8ee3cc81f78bb24968b9a28c5de26",
-          "url": "https://cdn.modrinth.com/data/cDLpxHsV/versions/PayB1fy1/amethyst-tools-fabric-1.1.0%2B1.20.0-1.20.4.jar",
-          "filename": "amethyst-tools-fabric-1.1.0+1.20.0-1.20.4.jar",
+          "sha512": "7c7084a974f94dd44bdcf5dd9eba6ac4380d430661859676b80fe5a999eecd8ceaaa78eef50ec7e10c37729e401e8927035c9e680a16a508157a191d2ccbf134",
+          "url": "https://cdn.modrinth.com/data/cDLpxHsV/versions/4MvmxPS9/amethyst-tools-v1.0_fabric%2Bquilt_mc1.19.x.jar",
+          "filename": "amethyst-tools-v1.0_fabric+quilt_mc1.19.x.jar",
           "primary": true,
-          "size": 34426
+          "size": 33670
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
+          "project_id": "qvIfYCYJ",
+          "version_id": "BTCxVi75",
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -58,6 +61,38 @@
           "filename": "amethyst-tools-fabric+quilt-1.0+1.20.0-1.20.4.jar",
           "primary": true,
           "size": 34091
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "PayB1fy1",
+      "name": "Amethyst Tools v1.1.0",
+      "version_number": "1.1.0+1.20.0-1.20.4",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "339b0fc48eafd4890f3cc97be5c80fae5314977f42edefe104ec9312f79930e0ad96af5e2c14e16dbf094f45cde0867c48e8ee3cc81f78bb24968b9a28c5de26",
+          "url": "https://cdn.modrinth.com/data/cDLpxHsV/versions/PayB1fy1/amethyst-tools-fabric-1.1.0%2B1.20.0-1.20.4.jar",
+          "filename": "amethyst-tools-fabric-1.1.0+1.20.0-1.20.4.jar",
+          "primary": true,
+          "size": 34426
         }
       ],
       "dependencies": [
@@ -100,41 +135,6 @@
         {
           "project_id": "qvIfYCYJ",
           "version_id": "QPXihdoB",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "4MvmxPS9",
-      "name": "Amethyst Tools v1.0 (1.19.2)",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "7c7084a974f94dd44bdcf5dd9eba6ac4380d430661859676b80fe5a999eecd8ceaaa78eef50ec7e10c37729e401e8927035c9e680a16a508157a191d2ccbf134",
-          "url": "https://cdn.modrinth.com/data/cDLpxHsV/versions/4MvmxPS9/amethyst-tools-v1.0_fabric%2Bquilt_mc1.19.x.jar",
-          "filename": "amethyst-tools-v1.0_fabric+quilt_mc1.19.x.jar",
-          "primary": true,
-          "size": 33670
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "BTCxVi75",
           "file_name": null,
           "dependency_type": "optional"
         }

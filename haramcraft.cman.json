@@ -5,6 +5,171 @@
   "description": "This is a very small mod that lets players learn about the significance of halal food in Islam!",
   "versions": [
     {
+      "id": "NcsSogdJ",
+      "name": "[Forge 1.20.1] 2.0.0",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "40d83522eb1dee07411ee7483bb784a7e4ad0a174ae8b5ced662ebca4c623cde5b8a6368cc895b62b2e5bfa1590c869b820acbfb3d0ace3998f197e02bce9be6",
+          "url": "https://cdn.modrinth.com/data/RFDF9K7B/versions/NcsSogdJ/haramcraft-2.0.0-forge.jar",
+          "filename": "haramcraft-2.0.0-forge.jar",
+          "primary": true,
+          "size": 2145903
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "YhjUZj47",
+      "name": "[Fabric 1.20.4] 1.1.0",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d6ce46aa4f6c8bb4bae74642b351ab2d8ed4fde744930615c73562ae9d39619970108405d2f76f6ca9770341d05bb94aeaa785e39b3aefece5e4e8f51c631de0",
+          "url": "https://cdn.modrinth.com/data/RFDF9K7B/versions/YhjUZj47/haramcraft-1.1.0.jar",
+          "filename": "haramcraft-1.1.0.jar",
+          "primary": true,
+          "size": 2146199
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "mwKZNCkY",
+      "name": "[Fabric/Quilt 1.20.1] 2.0.0",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "1393383a250f502fb7c5de093fb347bfb6024f83a35757b6e3792f142fd5b7550b4cca6e938f47f8b680f54d93934e59cace8d1733bfd06a34058fe85dd09e85",
+          "url": "https://cdn.modrinth.com/data/RFDF9K7B/versions/mwKZNCkY/haramcraft-2.0.0-fabric.jar",
+          "filename": "haramcraft-2.0.0-fabric.jar",
+          "primary": true,
+          "size": 2144480
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "u3ZmNYy4",
+      "name": "[Fabric 1.20.4] 1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9c3bc132200030dc12c104c9623f340f9ad488021a6129f29e8ee695999f5d31c813bcf527797b12e3f159b802cc64994752770d9c996aa0a23046152bfbfcdd",
+          "url": "https://cdn.modrinth.com/data/RFDF9K7B/versions/u3ZmNYy4/haramcraft-1.0.0-dev.jar",
+          "filename": "haramcraft-1.0.0-dev.jar",
+          "primary": true,
+          "size": 2145504
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "ynuhCclx",
       "name": "[Bukkit 1.12-1.20.6] 1.0.0",
       "version_number": "1.0.0",
@@ -64,171 +229,6 @@
         }
       ],
       "dependencies": []
-    },
-    {
-      "id": "NcsSogdJ",
-      "name": "[Forge 1.20.1] 2.0.0",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2",
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "40d83522eb1dee07411ee7483bb784a7e4ad0a174ae8b5ced662ebca4c623cde5b8a6368cc895b62b2e5bfa1590c869b820acbfb3d0ace3998f197e02bce9be6",
-          "url": "https://cdn.modrinth.com/data/RFDF9K7B/versions/NcsSogdJ/haramcraft-2.0.0-forge.jar",
-          "filename": "haramcraft-2.0.0-forge.jar",
-          "primary": true,
-          "size": 2145903
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "mwKZNCkY",
-      "name": "[Fabric/Quilt 1.20.1] 2.0.0",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "1393383a250f502fb7c5de093fb347bfb6024f83a35757b6e3792f142fd5b7550b4cca6e938f47f8b680f54d93934e59cace8d1733bfd06a34058fe85dd09e85",
-          "url": "https://cdn.modrinth.com/data/RFDF9K7B/versions/mwKZNCkY/haramcraft-2.0.0-fabric.jar",
-          "filename": "haramcraft-2.0.0-fabric.jar",
-          "primary": true,
-          "size": 2144480
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "YhjUZj47",
-      "name": "[Fabric 1.20.4] 1.1.0",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d6ce46aa4f6c8bb4bae74642b351ab2d8ed4fde744930615c73562ae9d39619970108405d2f76f6ca9770341d05bb94aeaa785e39b3aefece5e4e8f51c631de0",
-          "url": "https://cdn.modrinth.com/data/RFDF9K7B/versions/YhjUZj47/haramcraft-1.1.0.jar",
-          "filename": "haramcraft-1.1.0.jar",
-          "primary": true,
-          "size": 2146199
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "u3ZmNYy4",
-      "name": "[Fabric 1.20.4] 1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9c3bc132200030dc12c104c9623f340f9ad488021a6129f29e8ee695999f5d31c813bcf527797b12e3f159b802cc64994752770d9c996aa0a23046152bfbfcdd",
-          "url": "https://cdn.modrinth.com/data/RFDF9K7B/versions/u3ZmNYy4/haramcraft-1.0.0-dev.jar",
-          "filename": "haramcraft-1.0.0-dev.jar",
-          "primary": true,
-          "size": 2145504
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
     }
   ]
 }

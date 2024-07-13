@@ -5,9 +5,9 @@
   "description": "Adds configuration options for experience levels. Set a flat amount of EXP required to reach each level or customize an EXP curve.",
   "versions": [
     {
-      "id": "X1uXY4mx",
-      "name": "Fixed Levels 1.2.1+1.21",
-      "version_number": "1.2.1+1.21",
+      "id": "IcdItphA",
+      "name": "Fixed Levels 1.0.0+1.21",
+      "version_number": "1.0.0+1.21",
       "game_versions": [
         "1.21"
       ],
@@ -16,11 +16,11 @@
       ],
       "files": [
         {
-          "sha512": "ae7f5b3028dba1aedfe6d0ad4216b9e130a62c6eb29ece8e8940c4c449b2a8115f769bceae783f590395a368fe9ae495439172322d08c495fc36968d4898c6e0",
-          "url": "https://cdn.modrinth.com/data/CCDuht84/versions/X1uXY4mx/fixed-levels-1.2.1%2B1.21.jar",
-          "filename": "fixed-levels-1.2.1+1.21.jar",
+          "sha512": "f2036766daa928c225fbf2a907dae0ca1ffb088e7bffff7ca50c2098bd8201140ac1875df5494e36ccde211a12c1c60e1b0938347dd6128f66ad4b1524e5182c",
+          "url": "https://cdn.modrinth.com/data/CCDuht84/versions/IcdItphA/fixed-levels-1.0.0%2B1.21.jar",
+          "filename": "fixed-levels-1.0.0+1.21.jar",
           "primary": true,
-          "size": 93742
+          "size": 11126
         }
       ],
       "dependencies": [
@@ -28,7 +28,7 @@
           "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         },
         {
           "project_id": "mOgUt4GM",
@@ -73,6 +73,40 @@
       ]
     },
     {
+      "id": "X1uXY4mx",
+      "name": "Fixed Levels 1.2.1+1.21",
+      "version_number": "1.2.1+1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ae7f5b3028dba1aedfe6d0ad4216b9e130a62c6eb29ece8e8940c4c449b2a8115f769bceae783f590395a368fe9ae495439172322d08c495fc36968d4898c6e0",
+          "url": "https://cdn.modrinth.com/data/CCDuht84/versions/X1uXY4mx/fixed-levels-1.2.1%2B1.21.jar",
+          "filename": "fixed-levels-1.2.1+1.21.jar",
+          "primary": true,
+          "size": 93742
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "c8LnpU1E",
       "name": "Fixed Levels 1.1.0+1.21",
       "version_number": "1.1.0+1.21",
@@ -93,50 +127,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "IcdItphA",
-      "name": "Fixed Levels 1.0.0+1.21",
-      "version_number": "1.0.0+1.21",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f2036766daa928c225fbf2a907dae0ca1ffb088e7bffff7ca50c2098bd8201140ac1875df5494e36ccde211a12c1c60e1b0938347dd6128f66ad4b1524e5182c",
-          "url": "https://cdn.modrinth.com/data/CCDuht84/versions/IcdItphA/fixed-levels-1.0.0%2B1.21.jar",
-          "filename": "fixed-levels-1.0.0+1.21.jar",
-          "primary": true,
-          "size": 11126
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     }

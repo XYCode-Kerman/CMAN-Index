@@ -1,69 +1,9 @@
 {
-  "id": "bedrock-tools76",
+  "id": "9MhQ9NoM",
   "slug": "bedrock-tools76",
   "name": "Bedrock Tools76",
   "description": "Bedrock Tools is a mod that adds tools from bedrock and obsidian to the game.",
   "versions": [
-    {
-      "id": "FMPhbbrp",
-      "name": "1.0.4-forge",
-      "version_number": "1.0.4-forge",
-      "game_versions": [
-        "1.16.4",
-        "1.16.5",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.20",
-        "1.20.1",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "2232ee5bd031d46214467b2602e03773b13ff89baa4cb601691908a3e6645357dbb2eb8c328fcdaab9c520a1627906caa07c86a7da0002a8f935e02d5214f797",
-          "url": "https://cdn.modrinth.com/data/9MhQ9NoM/versions/FMPhbbrp/BedrockTools-forge-1.0.4.jar",
-          "filename": "BedrockTools-forge-1.0.4.jar",
-          "primary": true,
-          "size": 196535
-        }
-      ]
-    },
-    {
-      "id": "c4h9BaeT",
-      "name": "1.0.4-fabric",
-      "version_number": "1.0.4-fabric",
-      "game_versions": [
-        "1.16.4",
-        "1.16.5",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.20",
-        "1.20.1",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ffdff9529d9732adf28db8ee3cce560ea2e3463d2269710572c06bc91242d708b1c9337a60050b5465a9e2da25fc228e6da571b33208659a377ca2ca1f533ec1",
-          "url": "https://cdn.modrinth.com/data/9MhQ9NoM/versions/c4h9BaeT/BedrockTools-fabric-1.0.4.jar",
-          "filename": "BedrockTools-fabric-1.0.4.jar",
-          "primary": true,
-          "size": 234458
-        }
-      ]
-    },
     {
       "id": "1Iie7ifZ",
       "name": "1.0.2-fabric",
@@ -92,12 +32,26 @@
           "primary": true,
           "size": 234512
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "uNRoUnGT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
-      "id": "plCADITA",
-      "name": "1.0.2-forge",
-      "version_number": "1.0.2-forge",
+      "id": "FMPhbbrp",
+      "name": "1.0.4-forge",
+      "version_number": "1.0.4-forge",
       "game_versions": [
         "1.16.4",
         "1.16.5",
@@ -116,11 +70,62 @@
       ],
       "files": [
         {
-          "sha512": "8ea1a37c4fa347ce8d70edd24e27c9ba0631edf48141169674aa8ec6b4350d4cd7e5998f40a85c907e10075552d8dc36b91d7cdf865f396000441a5b3f91f909",
-          "url": "https://cdn.modrinth.com/data/9MhQ9NoM/versions/plCADITA/BedrockTools-forge-1.0.2.jar",
-          "filename": "BedrockTools-forge-1.0.2.jar",
+          "sha512": "2232ee5bd031d46214467b2602e03773b13ff89baa4cb601691908a3e6645357dbb2eb8c328fcdaab9c520a1627906caa07c86a7da0002a8f935e02d5214f797",
+          "url": "https://cdn.modrinth.com/data/9MhQ9NoM/versions/FMPhbbrp/BedrockTools-forge-1.0.4.jar",
+          "filename": "BedrockTools-forge-1.0.4.jar",
           "primary": true,
-          "size": 197207
+          "size": 196535
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "uNRoUnGT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "JPR0KJvB",
+      "name": "1.0.0-forge",
+      "version_number": "1.0.0-forge",
+      "game_versions": [
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "28a22e0cd39ddd16df85ace96d56110219097389a7b2a1d9bd26b18bea0ec81d871842dd2afbfd812cdeaa1471e39dcce74202ff2ae9dde9ddeb424563e00471",
+          "url": "https://cdn.modrinth.com/data/9MhQ9NoM/versions/JPR0KJvB/BedrockTools-forge-1.0.0.jar",
+          "filename": "BedrockTools-forge-1.0.0.jar",
+          "primary": true,
+          "size": 198210
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "uNRoUnGT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -152,6 +157,14 @@
           "primary": true,
           "size": 198109
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "uNRoUnGT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -181,6 +194,20 @@
           "filename": "BedrockTools-fabric-1.0.1.jar",
           "primary": true,
           "size": 235413
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "uNRoUnGT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -217,27 +244,80 @@
           "primary": true,
           "size": 150016
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "uNRoUnGT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
-      "id": "JPR0KJvB",
-      "name": "1.0.0-forge",
-      "version_number": "1.0.0-forge",
+      "id": "c4h9BaeT",
+      "name": "1.0.4-fabric",
+      "version_number": "1.0.4-fabric",
       "game_versions": [
         "1.16.4",
         "1.16.5",
-        "1.17",
-        "1.17.1",
         "1.18.1",
         "1.18.2",
         "1.19",
         "1.19.1",
         "1.19.2",
-        "1.19.3",
-        "1.19.4",
         "1.20",
         "1.20.1",
-        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ffdff9529d9732adf28db8ee3cce560ea2e3463d2269710572c06bc91242d708b1c9337a60050b5465a9e2da25fc228e6da571b33208659a377ca2ca1f533ec1",
+          "url": "https://cdn.modrinth.com/data/9MhQ9NoM/versions/c4h9BaeT/BedrockTools-fabric-1.0.4.jar",
+          "filename": "BedrockTools-fabric-1.0.4.jar",
+          "primary": true,
+          "size": 234458
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "uNRoUnGT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "plCADITA",
+      "name": "1.0.2-forge",
+      "version_number": "1.0.2-forge",
+      "game_versions": [
+        "1.16.4",
+        "1.16.5",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.20",
+        "1.20.1",
         "1.20.3",
         "1.20.4"
       ],
@@ -246,11 +326,19 @@
       ],
       "files": [
         {
-          "sha512": "28a22e0cd39ddd16df85ace96d56110219097389a7b2a1d9bd26b18bea0ec81d871842dd2afbfd812cdeaa1471e39dcce74202ff2ae9dde9ddeb424563e00471",
-          "url": "https://cdn.modrinth.com/data/9MhQ9NoM/versions/JPR0KJvB/BedrockTools-forge-1.0.0.jar",
-          "filename": "BedrockTools-forge-1.0.0.jar",
+          "sha512": "8ea1a37c4fa347ce8d70edd24e27c9ba0631edf48141169674aa8ec6b4350d4cd7e5998f40a85c907e10075552d8dc36b91d7cdf865f396000441a5b3f91f909",
+          "url": "https://cdn.modrinth.com/data/9MhQ9NoM/versions/plCADITA/BedrockTools-forge-1.0.2.jar",
+          "filename": "BedrockTools-forge-1.0.2.jar",
           "primary": true,
-          "size": 198210
+          "size": 197207
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "uNRoUnGT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

@@ -5,9 +5,9 @@
   "description": "Adds attributes, levels and skill points - RPG themed.",
   "versions": [
     {
-      "id": "crUnrRoR",
-      "name": "3.5.4+1.19.2",
-      "version_number": "3.5.4+1.19.2",
+      "id": "3aJLgtoZ",
+      "name": "3.5.2",
+      "version_number": "3.5.2",
       "game_versions": [
         "1.19.2"
       ],
@@ -16,21 +16,20 @@
       ],
       "files": [
         {
-          "sha512": "10b7fe3afccb58376d99644349af1c5a849b869d2244c847c6f6030b11e2abc9b4aea5906edde23130faab68d7db763d9883a42bb5c820d7db857b4d99391929",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/crUnrRoR/playerex-3.5.4%2B1.19.2.jar",
-          "filename": "playerex-3.5.4+1.19.2.jar",
+          "sha512": "e207a089de430fc34fbaa78f8329497525f2135dc75ff824f9827903a4f9365d8026c24d82e97048a3e34acdba18e98d5a096192be1d5a16625e2da2cbde446e",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3aJLgtoZ/playerex-3.5.2.jar",
+          "filename": "playerex-3.5.2.jar",
           "primary": true,
-          "size": 621646
-        },
-        {
-          "sha512": "9ba4b22c17afbdeeab5857fd758309d7513621489fdd12760c5cddf12931be934997dd067ed3d7c365e4b9a77359ee4bb5bd354dadace7e7aa78f3da1279f0db",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/crUnrRoR/playerex-3.5.4%2B1.19.2-sources.jar",
-          "filename": "playerex-3.5.4+1.19.2-sources.jar",
-          "primary": false,
-          "size": 184886
+          "size": 537625
         }
       ],
       "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "8rIblgME",
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "wFyCClLQ",
           "version_id": "jPqXXLZe",
@@ -50,16 +49,160 @@
           "dependency_type": "required"
         },
         {
+          "project_id": "K01OU20C",
+          "version_id": "tPfCTMiZ",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "57yu679W",
+      "name": "3.2.7",
+      "version_number": "3.2.7",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4ac52d37acea6e5d785c5a9e7dc1e3b63a3aba33bf8b49e1c0cc262792403e192e07149bdad6b960715f753b578352f425afd5724c67a2d140d70cfc702dff63",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/57yu679W/playerex-3.2.7.jar",
+          "filename": "playerex-3.2.7.jar",
+          "primary": true,
+          "size": 456197
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "kD9Vl1lR",
+          "version_id": "3WtluP76",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
           "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
+          "version_id": "4XRtXhtL",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "AOyJhFvl",
-          "version_id": "qdfM9zqu",
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wFyCClLQ",
+          "version_id": "HYWRZ5QH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "rQt4CSD0",
           "file_name": null,
           "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "5B9rvhZN",
+      "name": "3.3.8",
+      "version_number": "3.3.8",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f47fdc5663cd1c443c1f1351c4477f847147f4ebae2d3887f97a445fd0a6aef9f2490eb1baaadb83d8f6d7412f7d8033df40a0b0b0926285ac2fe738fc0f4a1c",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/5B9rvhZN/playerex-3.3.8.jar",
+          "filename": "playerex-3.3.8.jar",
+          "primary": true,
+          "size": 509420
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "8rIblgME",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wFyCClLQ",
+          "version_id": "jPqXXLZe",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "kD9Vl1lR",
+          "version_id": "jtBdOsFq",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "tPfCTMiZ",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "AZzdmvk6",
+      "name": "3.3.3",
+      "version_number": "3.3.3",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "7119cf0b100d7e9d2ee5f3e34279a345659bbf8c31e70c101ade94df396d602c0734a0d963f9ba7873b92a46128a52a05acae28ffe881f6b390b4419cf5505d5",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3.3.3/playerex-3.3.3.jar",
+          "filename": "playerex-3.3.3.jar",
+          "primary": true,
+          "size": 491779
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "kD9Vl1lR",
+          "version_id": "Kns26Uz1",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wFyCClLQ",
+          "version_id": "q9zm4Qgj",
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "K01OU20C",
@@ -90,6 +233,24 @@
       ],
       "dependencies": [
         {
+          "project_id": "P7dR8mSH",
+          "version_id": "8rIblgME",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "EXrxCjl6",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "kD9Vl1lR",
+          "version_id": "jtBdOsFq",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
           "project_id": "wFyCClLQ",
           "version_id": "kTrUjvP9",
           "file_name": null,
@@ -100,336 +261,6 @@
           "version_id": "tPfCTMiZ",
           "file_name": null,
           "dependency_type": "embedded"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "jtBdOsFq",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "EXrxCjl6",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "8rIblgME",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "3aJLgtoZ",
-      "name": "3.5.2",
-      "version_number": "3.5.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e207a089de430fc34fbaa78f8329497525f2135dc75ff824f9827903a4f9365d8026c24d82e97048a3e34acdba18e98d5a096192be1d5a16625e2da2cbde446e",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3aJLgtoZ/playerex-3.5.2.jar",
-          "filename": "playerex-3.5.2.jar",
-          "primary": true,
-          "size": 537625
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "K01OU20C",
-          "version_id": "tPfCTMiZ",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "jtBdOsFq",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "8rIblgME",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "wFyCClLQ",
-          "version_id": "jPqXXLZe",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "nGjEofGc",
-      "name": "3.4.2",
-      "version_number": "3.4.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "453407bca3dffe819a223797cd0bd7ae46deebb83749ae4431f64bb239cb95063fe55d7b4333c65774c227a8f84844d44f4d382a7472b43ef6d52d70285e7c92",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/nGjEofGc/playerex-3.4.2.jar",
-          "filename": "playerex-3.4.2.jar",
-          "primary": true,
-          "size": 484282
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "K01OU20C",
-          "version_id": "rQt4CSD0",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "3WtluP76",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "wFyCClLQ",
-          "version_id": "mY6rRiiR",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "yQIU5REa",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "R5VljBqv",
-      "name": "3.5.1",
-      "version_number": "3.5.1",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "7d020f4f8754454b51bec9abd31338c77bb591fe97ebca0e298d2ec60dbeb6488f3fc17da55fe3aac2506e641d7a987e95245a927bca64e989f599c72554d9f0",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/R5VljBqv/playerex-3.5.1.jar",
-          "filename": "playerex-3.5.1.jar",
-          "primary": true,
-          "size": 536557
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "K01OU20C",
-          "version_id": "tPfCTMiZ",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "wFyCClLQ",
-          "version_id": "jPqXXLZe",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "8rIblgME",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "jtBdOsFq",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "UuRvLSI1",
-      "name": "3.4.1",
-      "version_number": "3.4.1",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f2d11c924c8243f8e3466318eaf3ccfe5004db87d014b9defa7e0aec404d74551cc083dcdee2b66924da09d5788966361182b2c69dd0e8a1ea1d2d7841cf37c7",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/UuRvLSI1/playerex-3.4.1.jar",
-          "filename": "playerex-3.4.1.jar",
-          "primary": true,
-          "size": 483159
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "K01OU20C",
-          "version_id": "rQt4CSD0",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "yQIU5REa",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "wFyCClLQ",
-          "version_id": "mY6rRiiR",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "3WtluP76",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "h5tJ7cyw",
-      "name": "3.5.0",
-      "version_number": "3.5.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c5e2d60fe6304d18c7a78b83e1881098fc436f1a3495b984c825f728d9ff9c8f25e91f1caf08a9646c4d9793c1d75dbc21e6fae6cccd88a0cb598857d78ad590",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/h5tJ7cyw/playerex-3.5.0.jar",
-          "filename": "playerex-3.5.0.jar",
-          "primary": true,
-          "size": 535118
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "K01OU20C",
-          "version_id": "tPfCTMiZ",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "8rIblgME",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "jtBdOsFq",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "wFyCClLQ",
-          "version_id": "jPqXXLZe",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "rb058LpZ",
-      "name": "3.4.0",
-      "version_number": "3.4.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "3113b03c5a10172e0dad24499a899d1f567aca36b53019605c035afb8f49813c625de03b9d6a24cfe5a9c7a1d70b578c6d9a55dcacc57a8b7894a77d1c5451cf",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/rb058LpZ/playerex-3.4.0.jar",
-          "filename": "playerex-3.4.0.jar",
-          "primary": true,
-          "size": 481723
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "wFyCClLQ",
-          "version_id": "mY6rRiiR",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "rQt4CSD0",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "3WtluP76",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "yQIU5REa",
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -454,122 +285,12 @@
       ],
       "dependencies": [
         {
-          "project_id": "wFyCClLQ",
-          "version_id": "jPqXXLZe",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "tPfCTMiZ",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "jtBdOsFq",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": "8rIblgME",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Y8j3xZIJ",
-      "name": "3.2.9",
-      "version_number": "3.2.9",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "3358fc00d2b74e3e4fda7cd4eb3870d5236ce9fef5747d1a8a34d9108ae20e9a24edd7529370608c042080bcf17f7c919613eca417749ea618e34d22859f2c35",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/Y8j3xZIJ/playerex-3.2.9.jar",
-          "filename": "playerex-3.2.9.jar",
-          "primary": true,
-          "size": 481408
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "yQIU5REa",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "rQt4CSD0",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "wFyCClLQ",
-          "version_id": "HYWRZ5QH",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "3WtluP76",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "5B9rvhZN",
-      "name": "3.3.8",
-      "version_number": "3.3.8",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f47fdc5663cd1c443c1f1351c4477f847147f4ebae2d3887f97a445fd0a6aef9f2490eb1baaadb83d8f6d7412f7d8033df40a0b0b0926285ac2fe738fc0f4a1c",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/5B9rvhZN/playerex-3.3.8.jar",
-          "filename": "playerex-3.3.8.jar",
-          "primary": true,
-          "size": 509420
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "tPfCTMiZ",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
           "project_id": "wFyCClLQ",
           "version_id": "jPqXXLZe",
           "file_name": null,
@@ -582,106 +303,8 @@
           "dependency_type": "embedded"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "8rIblgME",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "mowwAye7",
-      "name": "3.2.8",
-      "version_number": "3.2.8",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ff2767d912cb97a4dc412bfb7ebd7b7bb3132ed2c21dd441936d69c3d0980bcb8e65aedfc4ef949a906f9a1be22bc02de755b2e9d736c82ca030d1791950a234",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/mowwAye7/playerex-3.2.8.jar",
-          "filename": "playerex-3.2.8.jar",
-          "primary": true,
-          "size": 456175
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "rQt4CSD0",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "3WtluP76",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "wFyCClLQ",
-          "version_id": "HYWRZ5QH",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "yQIU5REa",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "iv7dDXiw",
-      "name": "3.3.7",
-      "version_number": "3.3.7",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "97a89e0b588d798afa3dc12fbede64407453b0b1813620155744953f641a97f1dc96d89007155dc2f2ca869c8e3e737e2918cb97dab0b9194adfee04d9de8062",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/iv7dDXiw/playerex-3.3.7.jar",
-          "filename": "playerex-3.3.7.jar",
-          "primary": true,
-          "size": 492778
-        }
-      ],
-      "dependencies": [
-        {
           "project_id": "9s6osm5g",
           "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "jtBdOsFq",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "EsaWeELS",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "wFyCClLQ",
-          "version_id": "jPqXXLZe",
           "file_name": null,
           "dependency_type": "required"
         },
@@ -694,9 +317,9 @@
       ]
     },
     {
-      "id": "YqWEluRC",
-      "name": "3.3.6",
-      "version_number": "3.3.6",
+      "id": "Fu0qj1Rf",
+      "name": "3.3.0",
+      "version_number": "3.3.0",
       "game_versions": [
         "1.19"
       ],
@@ -705,29 +328,17 @@
       ],
       "files": [
         {
-          "sha512": "97ac5d7e5b5af5443edd0c3206a44ebc00e1d2ddc9f58ad240be4fe6269d1ea273db03995b326d0abd85dedd49055eb86f50099d060b3b12ed5ef25c07bd4e57",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/YqWEluRC/playerex-3.3.6.jar",
-          "filename": "playerex-3.3.6.jar",
+          "sha512": "cc21b2c13f5fa6532a08c0e4082378d2f0bb09ef7ba41bbb68513da6afd5c61f8348e0bbdb9c45172450c381b160d8d2b41d7fd5f9e5d8c6bf2e036f9d0220f8",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3.3.0/playerex-3.3.0.jar",
+          "filename": "playerex-3.3.0.jar",
           "primary": true,
-          "size": 492780
+          "size": 491633
         }
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "tPfCTMiZ",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
           "project_id": "P7dR8mSH",
-          "version_id": "3KmOcp6b",
+          "version_id": "4XRtXhtL",
           "file_name": null,
           "dependency_type": "required"
         },
@@ -738,69 +349,29 @@
           "dependency_type": "embedded"
         },
         {
-          "project_id": "wFyCClLQ",
-          "version_id": "q9zm4Qgj",
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "57yu679W",
-      "name": "3.2.7",
-      "version_number": "3.2.7",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+        },
         {
-          "sha512": "4ac52d37acea6e5d785c5a9e7dc1e3b63a3aba33bf8b49e1c0cc262792403e192e07149bdad6b960715f753b578352f425afd5724c67a2d140d70cfc702dff63",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/57yu679W/playerex-3.2.7.jar",
-          "filename": "playerex-3.2.7.jar",
-          "primary": true,
-          "size": 456197
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
+          "project_id": "wFyCClLQ",
+          "version_id": "q9zm4Qgj",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "K01OU20C",
-          "version_id": "rQt4CSD0",
+          "version_id": "tPfCTMiZ",
           "file_name": null,
           "dependency_type": "embedded"
-        },
-        {
-          "project_id": "wFyCClLQ",
-          "version_id": "HYWRZ5QH",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "3WtluP76",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "4XRtXhtL",
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "XLNCgOs6",
-      "name": "3.3.5",
-      "version_number": "3.3.5",
+      "id": "R5VljBqv",
+      "name": "3.5.1",
+      "version_number": "3.5.1",
       "game_versions": [
         "1.19.2"
       ],
@@ -809,17 +380,17 @@
       ],
       "files": [
         {
-          "sha512": "bfc3b718276e59dd72226cd167e118223545dc185661f85e91225cb91d55196ea8eb39bd4ac4c85ed2037f38bf2294cfba0dbb47edd387df596f53dd92a0674a",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3.3.5/playerex-3.3.5.jar",
-          "filename": "playerex-3.3.5.jar",
+          "sha512": "7d020f4f8754454b51bec9abd31338c77bb591fe97ebca0e298d2ec60dbeb6488f3fc17da55fe3aac2506e641d7a987e95245a927bca64e989f599c72554d9f0",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/R5VljBqv/playerex-3.5.1.jar",
+          "filename": "playerex-3.5.1.jar",
           "primary": true,
-          "size": 491779
+          "size": 536557
         }
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
+          "project_id": "P7dR8mSH",
+          "version_id": "8rIblgME",
           "file_name": null,
           "dependency_type": "required"
         },
@@ -830,74 +401,22 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
           "project_id": "kD9Vl1lR",
           "version_id": "jtBdOsFq",
           "file_name": null,
           "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "wOecwB14",
-      "name": "3.2.6",
-      "version_number": "3.2.6",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e80ab827aabd989a0bd86a583751f051fc85bd1c1ccff27f6c005776bc281b4fa58ae04e37096f79556462548d37f2541ad6055fbffab96218511c98316d97fa",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3.2.6/playerex-3.2.6.jar",
-          "filename": "playerex-3.2.6.jar",
-          "primary": true,
-          "size": 454065
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
+          "version_id": "o9dFD9SO",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "K01OU20C",
-          "version_id": null,
+          "version_id": "tPfCTMiZ",
           "file_name": null,
           "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "3WtluP76",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "wFyCClLQ",
-          "version_id": "XBOXHdvR",
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -928,10 +447,10 @@
           "dependency_type": "embedded"
         },
         {
-          "project_id": "K01OU20C",
-          "version_id": "tPfCTMiZ",
+          "project_id": "P7dR8mSH",
+          "version_id": null,
           "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "required"
         },
         {
           "project_id": "9s6osm5g",
@@ -940,14 +459,66 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
+          "project_id": "wFyCClLQ",
+          "version_id": "q9zm4Qgj",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "tPfCTMiZ",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "UuRvLSI1",
+      "name": "3.4.1",
+      "version_number": "3.4.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f2d11c924c8243f8e3466318eaf3ccfe5004db87d014b9defa7e0aec404d74551cc083dcdee2b66924da09d5788966361182b2c69dd0e8a1ea1d2d7841cf37c7",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/UuRvLSI1/playerex-3.4.1.jar",
+          "filename": "playerex-3.4.1.jar",
+          "primary": true,
+          "size": 483159
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "kD9Vl1lR",
+          "version_id": "3WtluP76",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "wFyCClLQ",
-          "version_id": "q9zm4Qgj",
+          "version_id": "mY6rRiiR",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "rQt4CSD0",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "yQIU5REa",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -974,20 +545,14 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": null,
+          "project_id": "kD9Vl1lR",
+          "version_id": "3WtluP76",
           "file_name": null,
           "dependency_type": "embedded"
         },
         {
-          "project_id": "wFyCClLQ",
-          "version_id": "XBOXHdvR",
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
           "file_name": null,
           "dependency_type": "required"
         },
@@ -998,17 +563,127 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "kD9Vl1lR",
-          "version_id": "3WtluP76",
+          "project_id": "wFyCClLQ",
+          "version_id": "XBOXHdvR",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
         }
       ]
     },
     {
-      "id": "AZzdmvk6",
-      "name": "3.3.3",
-      "version_number": "3.3.3",
+      "id": "XLNCgOs6",
+      "name": "3.3.5",
+      "version_number": "3.3.5",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "bfc3b718276e59dd72226cd167e118223545dc185661f85e91225cb91d55196ea8eb39bd4ac4c85ed2037f38bf2294cfba0dbb47edd387df596f53dd92a0674a",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3.3.5/playerex-3.3.5.jar",
+          "filename": "playerex-3.3.5.jar",
+          "primary": true,
+          "size": 491779
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wFyCClLQ",
+          "version_id": "jPqXXLZe",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "kD9Vl1lR",
+          "version_id": "jtBdOsFq",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Y8j3xZIJ",
+      "name": "3.2.9",
+      "version_number": "3.2.9",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "3358fc00d2b74e3e4fda7cd4eb3870d5236ce9fef5747d1a8a34d9108ae20e9a24edd7529370608c042080bcf17f7c919613eca417749ea618e34d22859f2c35",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/Y8j3xZIJ/playerex-3.2.9.jar",
+          "filename": "playerex-3.2.9.jar",
+          "primary": true,
+          "size": 481408
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "kD9Vl1lR",
+          "version_id": "3WtluP76",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wFyCClLQ",
+          "version_id": "HYWRZ5QH",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "rQt4CSD0",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "yQIU5REa",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "YqWEluRC",
+      "name": "3.3.6",
+      "version_number": "3.3.6",
       "game_versions": [
         "1.19"
       ],
@@ -1017,23 +692,23 @@
       ],
       "files": [
         {
-          "sha512": "7119cf0b100d7e9d2ee5f3e34279a345659bbf8c31e70c101ade94df396d602c0734a0d963f9ba7873b92a46128a52a05acae28ffe881f6b390b4419cf5505d5",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3.3.3/playerex-3.3.3.jar",
-          "filename": "playerex-3.3.3.jar",
+          "sha512": "97ac5d7e5b5af5443edd0c3206a44ebc00e1d2ddc9f58ad240be4fe6269d1ea273db03995b326d0abd85dedd49055eb86f50099d060b3b12ed5ef25c07bd4e57",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/YqWEluRC/playerex-3.3.6.jar",
+          "filename": "playerex-3.3.6.jar",
           "primary": true,
-          "size": 491779
+          "size": 492780
         }
       ],
       "dependencies": [
         {
           "project_id": "P7dR8mSH",
-          "version_id": null,
+          "version_id": "3KmOcp6b",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "K01OU20C",
-          "version_id": "tPfCTMiZ",
+          "project_id": "kD9Vl1lR",
+          "version_id": "Kns26Uz1",
           "file_name": null,
           "dependency_type": "embedded"
         },
@@ -1050,60 +725,8 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "kD9Vl1lR",
-          "version_id": "Kns26Uz1",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "sXchrdaK",
-      "name": "3.2.4",
-      "version_number": "3.2.4",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d6358e903a40d2ead9c50f99b66c7a2dee6497a561b9e7551ab5367915d09e23271e085f3691b00d605c25163b8bb4cba1840850bc7f5df79ee112dd3582a59e",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3.2.4/playerex-3.2.4.jar",
-          "filename": "playerex-3.2.4.jar",
-          "primary": true,
-          "size": 454072
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "wFyCClLQ",
-          "version_id": "XBOXHdvR",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "K01OU20C",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "3WtluP76",
+          "version_id": "tPfCTMiZ",
           "file_name": null,
           "dependency_type": "embedded"
         }
@@ -1130,14 +753,8 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": "tPfCTMiZ",
+          "project_id": "kD9Vl1lR",
+          "version_id": "Kns26Uz1",
           "file_name": null,
           "dependency_type": "embedded"
         },
@@ -1148,102 +765,10 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "wFyCClLQ",
-          "version_id": "q9zm4Qgj",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "Kns26Uz1",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "iVMWBpXn",
-      "name": "3.2.3",
-      "version_number": "3.2.3",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8dfbc49398379606aae0900ef3f7d2cb69f07596ab11a3b6e8095157f7b3bda043f58e6217aaa87056b2529f7c6a93d61557a5f10d6e611ac852519facbe6ca8",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3.2.3/playerex-3.2.3.jar",
-          "filename": "playerex-3.2.3.jar",
-          "primary": true,
-          "size": 454077
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "K01OU20C",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "3WtluP76",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "wFyCClLQ",
-          "version_id": "XBOXHdvR",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "pOgIYWMv",
-      "name": "3.3.1",
-      "version_number": "3.3.1",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8fcfc85fe352874604e05fb4856135ad397b0b016d17d10556889c0ca9650891f7b801c20cfffdb3bba0b2be2d1fa15bd5fd3c945c78b6405a2c9bee82b8c702",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3.3.1/playerex-3.3.1.jar",
-          "filename": "playerex-3.3.1.jar",
-          "primary": true,
-          "size": 491798
-        }
-      ],
-      "dependencies": [
-        {
           "project_id": "9s6osm5g",
           "version_id": "o9dFD9SO",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "Kns26Uz1",
-          "file_name": null,
-          "dependency_type": "embedded"
         },
         {
           "project_id": "wFyCClLQ",
@@ -1256,98 +781,53 @@
           "version_id": "tPfCTMiZ",
           "file_name": null,
           "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "n0AllvaK",
-      "name": "3.2.2",
-      "version_number": "3.2.2",
+      "id": "crUnrRoR",
+      "name": "3.5.4+1.19.2",
+      "version_number": "3.5.4+1.19.2",
       "game_versions": [
-        "1.18.2"
+        "1.19.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "f8cec11a4835fe09522038b06d2c6a6f69cbad63a5c2fd0146aaf8ee7bd81bbe327ca8169139dbde71616e3f6c3768e5c044035b76f064178bb72530defd2ff1",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3.2.2/playerex-3.2.2.jar",
-          "filename": "playerex-3.2.2.jar",
+          "sha512": "10b7fe3afccb58376d99644349af1c5a849b869d2244c847c6f6030b11e2abc9b4aea5906edde23130faab68d7db763d9883a42bb5c820d7db857b4d99391929",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/crUnrRoR/playerex-3.5.4%2B1.19.2.jar",
+          "filename": "playerex-3.5.4+1.19.2.jar",
           "primary": true,
-          "size": 454076
+          "size": 621646
+        },
+        {
+          "sha512": "9ba4b22c17afbdeeab5857fd758309d7513621489fdd12760c5cddf12931be934997dd067ed3d7c365e4b9a77359ee4bb5bd354dadace7e7aa78f3da1279f0db",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/crUnrRoR/playerex-3.5.4%2B1.19.2-sources.jar",
+          "filename": "playerex-3.5.4+1.19.2-sources.jar",
+          "primary": false,
+          "size": 184886
         }
       ],
       "dependencies": [
         {
-          "project_id": "K01OU20C",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "3WtluP76",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "wFyCClLQ",
-          "version_id": "XBOXHdvR",
+          "version_id": "jPqXXLZe",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Fu0qj1Rf",
-      "name": "3.3.0",
-      "version_number": "3.3.0",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "cc21b2c13f5fa6532a08c0e4082378d2f0bb09ef7ba41bbb68513da6afd5c61f8348e0bbdb9c45172450c381b160d8d2b41d7fd5f9e5d8c6bf2e036f9d0220f8",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3.3.0/playerex-3.3.0.jar",
-          "filename": "playerex-3.3.0.jar",
-          "primary": true,
-          "size": 491633
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "K01OU20C",
-          "version_id": "tPfCTMiZ",
+          "project_id": "kD9Vl1lR",
+          "version_id": "jtBdOsFq",
           "file_name": null,
           "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "4XRtXhtL",
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "9s6osm5g",
@@ -1356,66 +836,14 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "kD9Vl1lR",
-          "version_id": "Kns26Uz1",
+          "project_id": "AOyJhFvl",
+          "version_id": "qdfM9zqu",
           "file_name": null,
           "dependency_type": "embedded"
-        },
-        {
-          "project_id": "wFyCClLQ",
-          "version_id": "q9zm4Qgj",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "dyv4GMLn",
-      "name": "3.2.1",
-      "version_number": "3.2.1",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d26787416d773abf2ec10578c1a77b4e65699b656765274b8c864a9cb47bbbb1337aa4e67ba68b2c784280d5ef9fc5c376352db9127f050bde44e6272266626c",
-          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3.2.1/playerex-3.2.1.jar",
-          "filename": "playerex-3.2.1.jar",
-          "primary": true,
-          "size": 453856
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "BLMp2TRt",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "K01OU20C",
-          "version_id": "rQt4CSD0",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "wFyCClLQ",
-          "version_id": "XBOXHdvR",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "kD9Vl1lR",
-          "version_id": "3WtluP76",
+          "version_id": "tPfCTMiZ",
           "file_name": null,
           "dependency_type": "embedded"
         }
@@ -1442,8 +870,280 @@
       ],
       "dependencies": [
         {
+          "project_id": "kD9Vl1lR",
+          "version_id": "3WtluP76",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "9s6osm5g",
           "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wFyCClLQ",
+          "version_id": "XBOXHdvR",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "rQt4CSD0",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "dyv4GMLn",
+      "name": "3.2.1",
+      "version_number": "3.2.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d26787416d773abf2ec10578c1a77b4e65699b656765274b8c864a9cb47bbbb1337aa4e67ba68b2c784280d5ef9fc5c376352db9127f050bde44e6272266626c",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3.2.1/playerex-3.2.1.jar",
+          "filename": "playerex-3.2.1.jar",
+          "primary": true,
+          "size": 453856
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "kD9Vl1lR",
+          "version_id": "3WtluP76",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wFyCClLQ",
+          "version_id": "XBOXHdvR",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "rQt4CSD0",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "h5tJ7cyw",
+      "name": "3.5.0",
+      "version_number": "3.5.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c5e2d60fe6304d18c7a78b83e1881098fc436f1a3495b984c825f728d9ff9c8f25e91f1caf08a9646c4d9793c1d75dbc21e6fae6cccd88a0cb598857d78ad590",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/h5tJ7cyw/playerex-3.5.0.jar",
+          "filename": "playerex-3.5.0.jar",
+          "primary": true,
+          "size": 535118
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "8rIblgME",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wFyCClLQ",
+          "version_id": "jPqXXLZe",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "kD9Vl1lR",
+          "version_id": "jtBdOsFq",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "tPfCTMiZ",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "iVMWBpXn",
+      "name": "3.2.3",
+      "version_number": "3.2.3",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8dfbc49398379606aae0900ef3f7d2cb69f07596ab11a3b6e8095157f7b3bda043f58e6217aaa87056b2529f7c6a93d61557a5f10d6e611ac852519facbe6ca8",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3.2.3/playerex-3.2.3.jar",
+          "filename": "playerex-3.2.3.jar",
+          "primary": true,
+          "size": 454077
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "kD9Vl1lR",
+          "version_id": "3WtluP76",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wFyCClLQ",
+          "version_id": "XBOXHdvR",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "iv7dDXiw",
+      "name": "3.3.7",
+      "version_number": "3.3.7",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "97a89e0b588d798afa3dc12fbede64407453b0b1813620155744953f641a97f1dc96d89007155dc2f2ca869c8e3e737e2918cb97dab0b9194adfee04d9de8062",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/iv7dDXiw/playerex-3.3.7.jar",
+          "filename": "playerex-3.3.7.jar",
+          "primary": true,
+          "size": 492778
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "EsaWeELS",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wFyCClLQ",
+          "version_id": "jPqXXLZe",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "kD9Vl1lR",
+          "version_id": "jtBdOsFq",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "tPfCTMiZ",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "mowwAye7",
+      "name": "3.2.8",
+      "version_number": "3.2.8",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ff2767d912cb97a4dc412bfb7ebd7b7bb3132ed2c21dd441936d69c3d0980bcb8e65aedfc4ef949a906f9a1be22bc02de755b2e9d736c82ca030d1791950a234",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/mowwAye7/playerex-3.2.8.jar",
+          "filename": "playerex-3.2.8.jar",
+          "primary": true,
+          "size": 456175
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "kD9Vl1lR",
+          "version_id": "3WtluP76",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wFyCClLQ",
+          "version_id": "HYWRZ5QH",
           "file_name": null,
           "dependency_type": "required"
         },
@@ -1455,10 +1155,32 @@
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
+          "version_id": "yQIU5REa",
           "file_name": null,
           "dependency_type": "required"
-        },
+        }
+      ]
+    },
+    {
+      "id": "n0AllvaK",
+      "name": "3.2.2",
+      "version_number": "3.2.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f8cec11a4835fe09522038b06d2c6a6f69cbad63a5c2fd0146aaf8ee7bd81bbe327ca8169139dbde71616e3f6c3768e5c044035b76f064178bb72530defd2ff1",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3.2.2/playerex-3.2.2.jar",
+          "filename": "playerex-3.2.2.jar",
+          "primary": true,
+          "size": 454076
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "kD9Vl1lR",
           "version_id": "3WtluP76",
@@ -1466,10 +1188,288 @@
           "dependency_type": "embedded"
         },
         {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "wFyCClLQ",
           "version_id": "XBOXHdvR",
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "nGjEofGc",
+      "name": "3.4.2",
+      "version_number": "3.4.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "453407bca3dffe819a223797cd0bd7ae46deebb83749ae4431f64bb239cb95063fe55d7b4333c65774c227a8f84844d44f4d382a7472b43ef6d52d70285e7c92",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/nGjEofGc/playerex-3.4.2.jar",
+          "filename": "playerex-3.4.2.jar",
+          "primary": true,
+          "size": 484282
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "kD9Vl1lR",
+          "version_id": "3WtluP76",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wFyCClLQ",
+          "version_id": "mY6rRiiR",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "rQt4CSD0",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "yQIU5REa",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "pOgIYWMv",
+      "name": "3.3.1",
+      "version_number": "3.3.1",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8fcfc85fe352874604e05fb4856135ad397b0b016d17d10556889c0ca9650891f7b801c20cfffdb3bba0b2be2d1fa15bd5fd3c945c78b6405a2c9bee82b8c702",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3.3.1/playerex-3.3.1.jar",
+          "filename": "playerex-3.3.1.jar",
+          "primary": true,
+          "size": 491798
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "kD9Vl1lR",
+          "version_id": "Kns26Uz1",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wFyCClLQ",
+          "version_id": "q9zm4Qgj",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "tPfCTMiZ",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "rb058LpZ",
+      "name": "3.4.0",
+      "version_number": "3.4.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "3113b03c5a10172e0dad24499a899d1f567aca36b53019605c035afb8f49813c625de03b9d6a24cfe5a9c7a1d70b578c6d9a55dcacc57a8b7894a77d1c5451cf",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/rb058LpZ/playerex-3.4.0.jar",
+          "filename": "playerex-3.4.0.jar",
+          "primary": true,
+          "size": 481723
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "kD9Vl1lR",
+          "version_id": "3WtluP76",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wFyCClLQ",
+          "version_id": "mY6rRiiR",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": "rQt4CSD0",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "yQIU5REa",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "sXchrdaK",
+      "name": "3.2.4",
+      "version_number": "3.2.4",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d6358e903a40d2ead9c50f99b66c7a2dee6497a561b9e7551ab5367915d09e23271e085f3691b00d605c25163b8bb4cba1840850bc7f5df79ee112dd3582a59e",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3.2.4/playerex-3.2.4.jar",
+          "filename": "playerex-3.2.4.jar",
+          "primary": true,
+          "size": 454072
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "kD9Vl1lR",
+          "version_id": "3WtluP76",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wFyCClLQ",
+          "version_id": "XBOXHdvR",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "wOecwB14",
+      "name": "3.2.6",
+      "version_number": "3.2.6",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e80ab827aabd989a0bd86a583751f051fc85bd1c1ccff27f6c005776bc281b4fa58ae04e37096f79556462548d37f2541ad6055fbffab96218511c98316d97fa",
+          "url": "https://cdn.modrinth.com/data/o5GUN4b1/versions/3.2.6/playerex-3.2.6.jar",
+          "filename": "playerex-3.2.6.jar",
+          "primary": true,
+          "size": 454065
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "kD9Vl1lR",
+          "version_id": "3WtluP76",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "BLMp2TRt",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wFyCClLQ",
+          "version_id": "XBOXHdvR",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
     }

@@ -5,48 +5,6 @@
   "description": "Addons such as Clear Glass to Midnighttigger's Default Connected Textures",
   "versions": [
     {
-      "id": "dJo6ERTV",
-      "name": "1.17+ V2 Clear Glass Except Tinted Glass Addon",
-      "version_number": "NT_CG2",
-      "game_versions": [
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "31cb82ec8d704131427ac508c146177bc61d0d508ec6d3d845fa8b38fa2db72365df47d4b88ad372f4f98b315dfc908fb47ab33abc2ab0094ad600187d9b38d9",
-          "url": "https://cdn.modrinth.com/data/nVen30Ks/versions/dJo6ERTV/Midnighttiggers-NT_CG-FCT-Default_1.17_V2.zip",
-          "filename": "Midnighttiggers-NT_CG-FCT-Default_1.17_V2.zip",
-          "primary": true,
-          "size": 20958
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "TjOXlt9Y",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "87SlWoVR",
       "name": "1.17+ V2 Clear Glass Art Addon",
       "version_number": "CG2",
@@ -130,40 +88,20 @@
       ]
     },
     {
-      "id": "VlqC35q4",
-      "name": "1.12+ V2 Clear Glass Addon",
-      "version_number": "CG2",
+      "id": "TcxJkoIv",
+      "name": "1.20.2 V1 Clear Glass Addon",
+      "version_number": "CG1",
       "game_versions": [
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
         "1.12",
         "1.12.1",
-        "1.12.2"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "e6e6b739a631a81d19311920ee011350aa7e164ac861c77713c7b6eacb37e52c6d0a8afe7732141f10866f55018f4833cb9a26dfa05501ef8082e170ac4a0f6b",
-          "url": "https://cdn.modrinth.com/data/nVen30Ks/versions/VlqC35q4/Midnighttiggers-CG-FCT-Default_1.12_V2.zip",
-          "filename": "Midnighttiggers-CG-FCT-Default_1.12_V2.zip",
-          "primary": true,
-          "size": 26895
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "TjOXlt9Y",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "kt1fDvTG",
-      "name": "1.14+ V2 Programmer Art Addon",
-      "version_number": "PA2",
-      "game_versions": [
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
         "1.14",
         "1.14.1",
         "1.14.2",
@@ -199,11 +137,41 @@
       ],
       "files": [
         {
-          "sha512": "ec5a98c189e24616d1e520b6b9330e6bd7d57f45117f231873ad10edc45f23b0bacc0765833cc181a4ccddcdcf8c85e01e4f67fb75034a492ebae7bfa8240c03",
-          "url": "https://cdn.modrinth.com/data/nVen30Ks/versions/kt1fDvTG/Midnighttiggers-PA-FCT-Default_1.14_V2.zip",
-          "filename": "Midnighttiggers-PA-FCT-Default_1.14_V2.zip",
+          "sha512": "4e8b023c2bd4143e82f8bcfb1637eefa970dc8ac515f3117fcec2f45f619213e116798ca5a4f6322175e1aedfda35d6dab7525f99f517481d5931d5af50a1776",
+          "url": "https://cdn.modrinth.com/data/nVen30Ks/versions/TcxJkoIv/Midnighttiggers-CG-CTM-Default_1.20.2_V1.zip",
+          "filename": "Midnighttiggers-CG-CTM-Default_1.20.2_V1.zip",
           "primary": true,
-          "size": 98642
+          "size": 40924
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "TjOXlt9Y",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "VlqC35q4",
+      "name": "1.12+ V2 Clear Glass Addon",
+      "version_number": "CG2",
+      "game_versions": [
+        "1.12",
+        "1.12.1",
+        "1.12.2"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "e6e6b739a631a81d19311920ee011350aa7e164ac861c77713c7b6eacb37e52c6d0a8afe7732141f10866f55018f4833cb9a26dfa05501ef8082e170ac4a0f6b",
+          "url": "https://cdn.modrinth.com/data/nVen30Ks/versions/VlqC35q4/Midnighttiggers-CG-FCT-Default_1.12_V2.zip",
+          "filename": "Midnighttiggers-CG-FCT-Default_1.12_V2.zip",
+          "primary": true,
+          "size": 26895
         }
       ],
       "dependencies": [
@@ -282,20 +250,52 @@
       ]
     },
     {
-      "id": "TcxJkoIv",
-      "name": "1.20.2 V1 Clear Glass Addon",
-      "version_number": "CG1",
+      "id": "dJo6ERTV",
+      "name": "1.17+ V2 Clear Glass Except Tinted Glass Addon",
+      "version_number": "NT_CG2",
       "game_versions": [
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "31cb82ec8d704131427ac508c146177bc61d0d508ec6d3d845fa8b38fa2db72365df47d4b88ad372f4f98b315dfc908fb47ab33abc2ab0094ad600187d9b38d9",
+          "url": "https://cdn.modrinth.com/data/nVen30Ks/versions/dJo6ERTV/Midnighttiggers-NT_CG-FCT-Default_1.17_V2.zip",
+          "filename": "Midnighttiggers-NT_CG-FCT-Default_1.17_V2.zip",
+          "primary": true,
+          "size": 20958
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "TjOXlt9Y",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "kt1fDvTG",
+      "name": "1.14+ V2 Programmer Art Addon",
+      "version_number": "PA2",
+      "game_versions": [
         "1.14",
         "1.14.1",
         "1.14.2",
@@ -331,11 +331,11 @@
       ],
       "files": [
         {
-          "sha512": "4e8b023c2bd4143e82f8bcfb1637eefa970dc8ac515f3117fcec2f45f619213e116798ca5a4f6322175e1aedfda35d6dab7525f99f517481d5931d5af50a1776",
-          "url": "https://cdn.modrinth.com/data/nVen30Ks/versions/TcxJkoIv/Midnighttiggers-CG-CTM-Default_1.20.2_V1.zip",
-          "filename": "Midnighttiggers-CG-CTM-Default_1.20.2_V1.zip",
+          "sha512": "ec5a98c189e24616d1e520b6b9330e6bd7d57f45117f231873ad10edc45f23b0bacc0765833cc181a4ccddcdcf8c85e01e4f67fb75034a492ebae7bfa8240c03",
+          "url": "https://cdn.modrinth.com/data/nVen30Ks/versions/kt1fDvTG/Midnighttiggers-PA-FCT-Default_1.14_V2.zip",
+          "filename": "Midnighttiggers-PA-FCT-Default_1.14_V2.zip",
           "primary": true,
-          "size": 40924
+          "size": 98642
         }
       ],
       "dependencies": [

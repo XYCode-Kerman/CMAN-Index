@@ -5,33 +5,34 @@
   "description": "An addon to the Replay Mod that allows it to export into Blender and other 3D software.",
   "versions": [
     {
-      "id": "dYCRUggC",
-      "name": "Beta 0.9.1",
-      "version_number": "0.9.1",
+      "id": "5EDR1DGw",
+      "name": "Beta 0.6.1",
+      "version_number": "0.6.1",
       "game_versions": [
-        "1.20.3",
-        "1.20.4"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "af3878d6caef973711f2b46eea713814d8dfe75aaf41376c9f8c1bc101b2ee72bffb5e5e9f3698479b6c3c5fd6805ca085084360ea88266cf8e48666470f342a",
-          "url": "https://cdn.modrinth.com/data/iwvovClp/versions/dYCRUggC/mc-world-export-0.9.1.jar",
-          "filename": "mc-world-export-0.9.1.jar",
+          "sha512": "e8a0449513656a487693fc21492f9610a99d8b8b46d540b69424c6c5e583aabb1e276829290736a18e6bee7d7e018e56917f27ff6d8a8ab6832df566eca10553",
+          "url": "https://cdn.modrinth.com/data/iwvovClp/versions/5EDR1DGw/mc-world-export-0.6.1.jar",
+          "filename": "mc-world-export-0.6.1.jar",
           "primary": true,
-          "size": 549061
-        },
-        {
-          "sha512": "c5ebbec0a484f00e91f4a710b5dff072ca0c5c11656d981023e954e0f586bcdc016d83198dfb76a76ed2efaeeb9ef20a34e8bad777a6f89dc77130e9b8caf181",
-          "url": "https://cdn.modrinth.com/data/iwvovClp/versions/dYCRUggC/import_vcap-0.9.1.zip",
-          "filename": "import_vcap-0.9.1.zip",
-          "primary": false,
-          "size": 71727
+          "size": 1189795
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "Nv2fQJo5",
+          "version_id": "EtYipT0o",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "HGmUeZma",
@@ -69,47 +70,6 @@
       ]
     },
     {
-      "id": "qqYVALSk",
-      "name": "Beta 0.8.0",
-      "version_number": "0.8.0",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f322e49d96879511eeac8369d854e119cd9f2f4f5548ac2f0ca356fc5766c6cd9a1be84bbea74102e6ee7b0f14a6baee6587334d2da0144bf9c47d13812170fc",
-          "url": "https://cdn.modrinth.com/data/iwvovClp/versions/qqYVALSk/mc-world-export-0.8.0.jar",
-          "filename": "mc-world-export-0.8.0.jar",
-          "primary": true,
-          "size": 572444
-        },
-        {
-          "sha512": "3ee736e66855ed8aee12ce70725b8ec4a7d8c385f5fdbbe14d0f33eed40faa1f0ca34a60abdbbfa3c11cb94f8548ccdcc5be04f5aeb9c5a37c8984685527615e",
-          "url": "https://cdn.modrinth.com/data/iwvovClp/versions/qqYVALSk/mc-world-export-0.8.0-sources.jar",
-          "filename": "mc-world-export-0.8.0-sources.jar",
-          "primary": false,
-          "size": 281542
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AANobbMI",
-          "version_id": "idtcaIVT",
-          "file_name": null,
-          "dependency_type": "incompatible"
-        },
-        {
-          "project_id": "Nv2fQJo5",
-          "version_id": "BDSvzcm4",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "JSYZuXP7",
       "name": "Beta 0.7.0",
       "version_number": "0.7.0",
@@ -139,6 +99,64 @@
         {
           "project_id": "Nv2fQJo5",
           "version_id": "BDSvzcm4",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "RamL1nZL",
+      "name": "Beta 0.5.0",
+      "version_number": "0.5.0",
+      "game_versions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "32e29a8089220a108adced08560cfae6b156cd66627645e78361ade1d7ced1d1e9fc5e4778b5b34fc7527b7b1de720af803cd5bb3474d5185a00c6785c92a6ce",
+          "url": "https://cdn.modrinth.com/data/iwvovClp/versions/RamL1nZL/mc-world-export-0.5.0.jar",
+          "filename": "mc-world-export-0.5.0.jar",
+          "primary": true,
+          "size": 1161299
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Nv2fQJo5",
+          "version_id": "EtYipT0o",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "YQCiwBzr",
+      "name": "Beta 0.6.0",
+      "version_number": "0.6.0",
+      "game_versions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1f08284b57480ee5ca0272e7165b55dc76f057c1e831953b2e9d1826509818161e3bb2fd5f8809bbe4a2f2bf8b830541b032aa336388327ee48e019304a71d17",
+          "url": "https://cdn.modrinth.com/data/iwvovClp/versions/YQCiwBzr/mc-world-export-0.6.0.jar",
+          "filename": "mc-world-export-0.6.0.jar",
+          "primary": true,
+          "size": 1189705
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Nv2fQJo5",
+          "version_id": "EtYipT0o",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -183,6 +201,64 @@
       ]
     },
     {
+      "id": "dYCRUggC",
+      "name": "Beta 0.9.1",
+      "version_number": "0.9.1",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "af3878d6caef973711f2b46eea713814d8dfe75aaf41376c9f8c1bc101b2ee72bffb5e5e9f3698479b6c3c5fd6805ca085084360ea88266cf8e48666470f342a",
+          "url": "https://cdn.modrinth.com/data/iwvovClp/versions/dYCRUggC/mc-world-export-0.9.1.jar",
+          "filename": "mc-world-export-0.9.1.jar",
+          "primary": true,
+          "size": 549061
+        },
+        {
+          "sha512": "c5ebbec0a484f00e91f4a710b5dff072ca0c5c11656d981023e954e0f586bcdc016d83198dfb76a76ed2efaeeb9ef20a34e8bad777a6f89dc77130e9b8caf181",
+          "url": "https://cdn.modrinth.com/data/iwvovClp/versions/dYCRUggC/import_vcap-0.9.1.zip",
+          "filename": "import_vcap-0.9.1.zip",
+          "primary": false,
+          "size": 71727
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "jQu8esUZ",
+      "name": "Beta 0.4.0",
+      "version_number": "0.4.0",
+      "game_versions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "de8e1f046d48528810ecc95d8611675c0ff329f8218ff4804e122f24669a2d55b92e888b2e8663aecfe4fd65f1e9af54058ea36dae89547ba67eef21fda9d403",
+          "url": "https://cdn.modrinth.com/data/iwvovClp/versions/jQu8esUZ/mc-world-export-0.4.0.jar",
+          "filename": "mc-world-export-0.4.0.jar",
+          "primary": true,
+          "size": 1059128
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Nv2fQJo5",
+          "version_id": "EtYipT0o",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "mnusTom3",
       "name": "Beta 0.6.2",
       "version_number": "0.6.2",
@@ -213,119 +289,43 @@
       ]
     },
     {
-      "id": "5EDR1DGw",
-      "name": "Beta 0.6.1",
-      "version_number": "0.6.1",
+      "id": "qqYVALSk",
+      "name": "Beta 0.8.0",
+      "version_number": "0.8.0",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
+        "1.19.3"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "e8a0449513656a487693fc21492f9610a99d8b8b46d540b69424c6c5e583aabb1e276829290736a18e6bee7d7e018e56917f27ff6d8a8ab6832df566eca10553",
-          "url": "https://cdn.modrinth.com/data/iwvovClp/versions/5EDR1DGw/mc-world-export-0.6.1.jar",
-          "filename": "mc-world-export-0.6.1.jar",
+          "sha512": "f322e49d96879511eeac8369d854e119cd9f2f4f5548ac2f0ca356fc5766c6cd9a1be84bbea74102e6ee7b0f14a6baee6587334d2da0144bf9c47d13812170fc",
+          "url": "https://cdn.modrinth.com/data/iwvovClp/versions/qqYVALSk/mc-world-export-0.8.0.jar",
+          "filename": "mc-world-export-0.8.0.jar",
           "primary": true,
-          "size": 1189795
+          "size": 572444
+        },
+        {
+          "sha512": "3ee736e66855ed8aee12ce70725b8ec4a7d8c385f5fdbbe14d0f33eed40faa1f0ca34a60abdbbfa3c11cb94f8548ccdcc5be04f5aeb9c5a37c8984685527615e",
+          "url": "https://cdn.modrinth.com/data/iwvovClp/versions/qqYVALSk/mc-world-export-0.8.0-sources.jar",
+          "filename": "mc-world-export-0.8.0-sources.jar",
+          "primary": false,
+          "size": 281542
         }
       ],
       "dependencies": [
         {
           "project_id": "Nv2fQJo5",
-          "version_id": "EtYipT0o",
+          "version_id": "BDSvzcm4",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "YQCiwBzr",
-      "name": "Beta 0.6.0",
-      "version_number": "0.6.0",
-      "game_versions": [
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+        },
         {
-          "sha512": "1f08284b57480ee5ca0272e7165b55dc76f057c1e831953b2e9d1826509818161e3bb2fd5f8809bbe4a2f2bf8b830541b032aa336388327ee48e019304a71d17",
-          "url": "https://cdn.modrinth.com/data/iwvovClp/versions/YQCiwBzr/mc-world-export-0.6.0.jar",
-          "filename": "mc-world-export-0.6.0.jar",
-          "primary": true,
-          "size": 1189705
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Nv2fQJo5",
-          "version_id": "EtYipT0o",
+          "project_id": "AANobbMI",
+          "version_id": "idtcaIVT",
           "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "RamL1nZL",
-      "name": "Beta 0.5.0",
-      "version_number": "0.5.0",
-      "game_versions": [
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "32e29a8089220a108adced08560cfae6b156cd66627645e78361ade1d7ced1d1e9fc5e4778b5b34fc7527b7b1de720af803cd5bb3474d5185a00c6785c92a6ce",
-          "url": "https://cdn.modrinth.com/data/iwvovClp/versions/RamL1nZL/mc-world-export-0.5.0.jar",
-          "filename": "mc-world-export-0.5.0.jar",
-          "primary": true,
-          "size": 1161299
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Nv2fQJo5",
-          "version_id": "EtYipT0o",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "jQu8esUZ",
-      "name": "Beta 0.4.0",
-      "version_number": "0.4.0",
-      "game_versions": [
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "de8e1f046d48528810ecc95d8611675c0ff329f8218ff4804e122f24669a2d55b92e888b2e8663aecfe4fd65f1e9af54058ea36dae89547ba67eef21fda9d403",
-          "url": "https://cdn.modrinth.com/data/iwvovClp/versions/jQu8esUZ/mc-world-export-0.4.0.jar",
-          "filename": "mc-world-export-0.4.0.jar",
-          "primary": true,
-          "size": 1059128
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Nv2fQJo5",
-          "version_id": "EtYipT0o",
-          "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "incompatible"
         }
       ]
     }

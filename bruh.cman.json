@@ -5,28 +5,6 @@
   "description": "BRUH Mod: Enhance your Minecraft adventure with the Better Random Utilities and Help Mod.",
   "versions": [
     {
-      "id": "e5uBaanz",
-      "name": "BRUH 1.1.0",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "94265fd98af1772fa7d17f3f545e63edeceacee8fb7d7651305e1a6bfc95ced195a924d196aad9a80a7f4d18dcf8581df1f9caf89a7f860a3d83b907bffa5bc4",
-          "url": "https://cdn.modrinth.com/data/t9KUT51D/versions/e5uBaanz/bruh-1.20.1-1.1.0.jar",
-          "filename": "bruh-1.20.1-1.1.0.jar",
-          "primary": true,
-          "size": 1462546
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "XA0nRyTL",
       "name": "BRUH 1.0.0",
       "version_number": "1.0.0",
@@ -48,18 +26,40 @@
       ],
       "dependencies": [
         {
-          "project_id": "mOgUt4GM",
-          "version_id": "eTCL1uh8",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": "P7fEfdSc",
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
+    },
+    {
+      "id": "e5uBaanz",
+      "name": "BRUH 1.1.0",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "94265fd98af1772fa7d17f3f545e63edeceacee8fb7d7651305e1a6bfc95ced195a924d196aad9a80a7f4d18dcf8581df1f9caf89a7f860a3d83b907bffa5bc4",
+          "url": "https://cdn.modrinth.com/data/t9KUT51D/versions/e5uBaanz/bruh-1.20.1-1.1.0.jar",
+          "filename": "bruh-1.20.1-1.1.0.jar",
+          "primary": true,
+          "size": 1462546
+        }
+      ],
+      "dependencies": []
     }
   ]
 }

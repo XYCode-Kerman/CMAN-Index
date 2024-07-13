@@ -5,153 +5,64 @@
   "description": "🧟‍♂ Prevents zombies from targeting and breaking down doors.",
   "versions": [
     {
-      "id": "oIqBYQAc",
-      "name": "[Fabric/Forge/Neo] 1.21.0-3.3",
-      "version_number": "1.21.0-3.3-fabric+forge+neo",
+      "id": "3YnemqJ4",
+      "name": "[Fabric] 1.19.2-2.0",
+      "version_number": "1.19.2-2.0-fabric",
       "game_versions": [
-        "1.21"
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "95490b44b029941229101c270561fda466c56e857a47960661d4ea022adc6259828a28b1f33594b158a1c355b9d3b1646b4e22743bf1429609a2131f36b3df0e",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/3YnemqJ4/zombieproofdoors-fabric_1.19.2-2.0.jar",
+          "filename": "zombieproofdoors-fabric_1.19.2-2.0.jar",
+          "primary": true,
+          "size": 19063
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "MTb34BGn",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "6k3WYzpE",
+      "name": "[Forge & Fabric] 1.19.2-3.0",
+      "version_number": "1.19.2-3.0-forge+fabric",
+      "game_versions": [
+        "1.19.2"
       ],
       "loaders": [
         "fabric",
         "forge",
-        "neoforge",
         "quilt"
       ],
       "files": [
         {
-          "sha512": "3e5c3bc6980fba72ff2e33c783779b809d81d5874f14ef1c7be4e0f68138b4ca39356b17132d93c0a0d924b678a56f4fbbd109d285fa1b3526d092bac61f999a",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/oIqBYQAc/zombieproofdoors-1.21.0-3.3.jar",
-          "filename": "zombieproofdoors-1.21.0-3.3.jar",
+          "sha512": "9b04cf3e956415ddcebe1ead0745dbadab8cdffdd9ff53c1055176dc7f51a2cdbe3bcba50e174a59108ec8f90fe1ce725a1d61a04a8f9e2d522454713b001a37",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/6k3WYzpE/zombieproofdoors-1.19.2-3.0.jar",
+          "filename": "zombieproofdoors-1.19.2-3.0.jar",
           "primary": true,
-          "size": 24740
+          "size": 25079
         }
       ],
       "dependencies": [
         {
           "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Cet0q5Km",
-      "name": "[Fabric/Forge/Neo] 1.20.6-3.3",
-      "version_number": "1.20.6-3.3-fabric+forge+neo",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "92113809033ec0076d2eeb1153fd8b4f6de8f961d95986b461749a36d08d1ec7a8b50c2783075ab303be51d6e956f8c235773e7eb0e199c0543ab82f02cb54d2",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/Cet0q5Km/zombieproofdoors-1.20.6-3.3.jar",
-          "filename": "zombieproofdoors-1.20.6-3.3.jar",
-          "primary": true,
-          "size": 24761
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "X1nWbrRu",
-      "name": "[Fabric/Neo] 1.20.5-3.3",
-      "version_number": "1.20.5-3.3-fabric+neo",
-      "game_versions": [
-        "1.20.5"
-      ],
-      "loaders": [
-        "fabric",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "5d0e54e62deac2eaa40a083591d5c1467bef71c40889c60dd787c3613f82ac1c4082976b44a035896a3beca7b9566482578eaf345a750330b4fb15d7888effcb",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/X1nWbrRu/zombieproofdoors-1.20.5-3.3.jar",
-          "filename": "zombieproofdoors-1.20.5-3.3.jar",
-          "primary": true,
-          "size": 19922
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "V6jFx8AQ",
-      "name": "[Fabric/Neo] 1.20.5-3.2",
-      "version_number": "1.20.5-3.2-fabric+neo",
-      "game_versions": [
-        "1.20.5"
-      ],
-      "loaders": [
-        "fabric",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "92326f9983314c6c4d29f57fc16210ad25c389a84d4bbf33f76bc74c82ef460a6329751a5a46cfb59142f31591716e9a5048ef687e27e3e0bc29f495f1395e42",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/V6jFx8AQ/zombieproofdoors-1.20.5-3.2.jar",
-          "filename": "zombieproofdoors-1.20.5-3.2.jar",
-          "primary": true,
-          "size": 19921
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "pHp8YFpu",
-      "name": "[Fabric/Forge/Neo] 1.20.4-3.2",
-      "version_number": "1.20.4-3.2-fabric+forge+neo",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "1e5d30e5ebce4c4b56d185d49f007e83e1bdf4080d3aba1c824f8e3d45c0fc93843b8a5823a9c717fcd9ad55ad57afe2adbbc41f11aafa5e19bd869a86d52e7a",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/pHp8YFpu/zombieproofdoors-1.20.4-3.2.jar",
-          "filename": "zombieproofdoors-1.20.4-3.2.jar",
-          "primary": true,
-          "size": 23880
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
+          "version_id": "MTb34BGn",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -177,221 +88,6 @@
           "filename": "zombieproofdoors-1.20.2-3.2.jar",
           "primary": true,
           "size": 23876
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "raPA1Mru",
-      "name": "[Fabric/Forge/Neo] 1.20.1-3.2",
-      "version_number": "1.20.1-3.2-fabric+forge+neo",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "57aa1480f74bf9e219071670b5bbee6e27933bff74bc182c5d648e7a9b6ddc552ae81c0bb6950a604ddf86c397f47fd26b1a1cabc821802f5a11b2c8f602a9d2",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/raPA1Mru/zombieproofdoors-1.20.1-3.2.jar",
-          "filename": "zombieproofdoors-1.20.1-3.2.jar",
-          "primary": true,
-          "size": 19001
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "BC6szLH2",
-      "name": "[Fabric/Forge] 1.19.2-3.2",
-      "version_number": "1.19.2-3.2-fabric+forge+neo",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "c09b2d7b2a97ca08584763921ca0a45216a8a66f49bd81c3a0782a3c7804539b8c16155e4fa34161b376e739e7121339464801d517ab22c29a08f30df88d278c",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/BC6szLH2/zombieproofdoors-1.19.2-3.2.jar",
-          "filename": "zombieproofdoors-1.19.2-3.2.jar",
-          "primary": true,
-          "size": 19022
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Opk0YNrI",
-      "name": "[Fabric/Forge/Neo] 1.20.4-3.1",
-      "version_number": "1.20.4-3.1-fabric+forge+neo",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4ce496d977852fd2859e156ac2aac6dc76ebbfd9f6984a08a603664c06184493d2f3c1fe4b19c84ac44678183f2f098d2184a496175ac1529bea0cf23ed3745d",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/Opk0YNrI/zombieproofdoors-1.20.4-3.1.jar",
-          "filename": "zombieproofdoors-1.20.4-3.1.jar",
-          "primary": true,
-          "size": 29903
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "HEoZauoQ",
-      "name": "[Fabric/Forge/Neo] 1.20.3-3.1",
-      "version_number": "1.20.3-3.1-fabric+forge+neo",
-      "game_versions": [
-        "1.20.3"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ba5092e8927269c62e7e06dca2dee03edd7f795fbd0ec08b5ac890814b6bdc2a6f1eea1818627c7fd696e888c926b5f93f973e8014c27f44121a4d04a6377991",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/HEoZauoQ/zombieproofdoors-1.20.3-3.1.jar",
-          "filename": "zombieproofdoors-1.20.3-3.1.jar",
-          "primary": true,
-          "size": 29899
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "VQWUr9c3",
-      "name": "[Fabric/Forge/Neo] 1.20.2-3.1",
-      "version_number": "1.20.2-3.1-forge+fabric",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4389299ede47c91d69b2edfab3cfd4aae315904f31a58d775812f58bf8ac327a9f4e8257fa4a7f322c4f733bb2a0255a201e806d7ef76e621d829d32b4779a62",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/VQWUr9c3/zombieproofdoors-1.20.2-3.1.jar",
-          "filename": "zombieproofdoors-1.20.2-3.1.jar",
-          "primary": true,
-          "size": 29826
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "dLkgTPGW",
-      "name": "[Fabric/Forge/Neo] 1.20.1-3.1",
-      "version_number": "1.20.1-3.1-forge+fabric",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "df5ebf06ba5825aaf34372266fb3bb3d476d501c30fc42eda160f020d48ecec702029ae9a71d7bb34e2ef9a88c92d1279976e4cf62b92177b587fa42b2cd64b0",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/dLkgTPGW/zombieproofdoors-1.20.1-3.1.jar",
-          "filename": "zombieproofdoors-1.20.1-3.1.jar",
-          "primary": true,
-          "size": 24953
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "m1s56fG6",
-      "name": "[Fabric/Forge] 1.19.2-3.1",
-      "version_number": "1.19.2-3.1-forge+fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "57a002c7db7af58bc11c2e9bdf65e4e0c5553ab3064382b28f39e0f631c227150e22b2b693343ee6710e4e49fd4c6667dd286b6e064119dd0b7841bb56a4d0d4",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/m1s56fG6/zombieproofdoors-1.19.2-3.1.jar",
-          "filename": "zombieproofdoors-1.19.2-3.1.jar",
-          "primary": true,
-          "size": 24974
         }
       ],
       "dependencies": [
@@ -434,160 +130,9 @@
       ]
     },
     {
-      "id": "WIsWVYPG",
-      "name": "[Forge & Fabric] 1.20.2-3.0",
-      "version_number": "1.20.2-3.0-forge+fabric",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "bba084fa9dd2cbb382ac2d937880357213ec4d24562b0a8ce3b7901f51947cdef4fd6d5a5040bc90349db74b5c34f1f5637afb19887cbbcf3d989bcc8c2a5ce3",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/WIsWVYPG/zombieproofdoors-1.20.2-3.0.jar",
-          "filename": "zombieproofdoors-1.20.2-3.0.jar",
-          "primary": true,
-          "size": 24963
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "wrVEq9Tc",
-      "name": "[Forge & Fabric] 1.20.1-3.0",
-      "version_number": "1.20.1-3.0-forge+fabric",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "e2ecd779ae486f4849f1a4c822540b76f54ce5644dc69560a84ababe27ef321ae906aad9f790166934e5bb33a22de4e77f6ddecbcd60d63912237625319f6598",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/wrVEq9Tc/zombieproofdoors-1.20.1-3.0.jar",
-          "filename": "zombieproofdoors-1.20.1-3.0.jar",
-          "primary": true,
-          "size": 24965
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "W1CQ9UCz",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "M8dcaWDt",
-      "name": "[Forge & Fabric] 1.20-3.0",
-      "version_number": "1.20-3.0-forge+fabric",
-      "game_versions": [
-        "1.20"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "68ee4a62c29b527e4a9e2bb4d10634c1d95796b65fffb83cc7f48888ec2bfceb2cfe65646068c0d1e6b4a38e2a72730afc8dd882036643254996541ea00393c4",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/M8dcaWDt/zombieproofdoors-1.20.0-3.0.jar",
-          "filename": "zombieproofdoors-1.20.0-3.0.jar",
-          "primary": true,
-          "size": 24962
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "RNhYJa64",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "va54okul",
-      "name": "[Forge & Fabric] 1.19.4-3.0",
-      "version_number": "1.19.4-3.0-forge+fabric",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6e373d8a4e8b8d71ecbb46f0613eed5520d61912dbe1aea6ee63d9e0fef10fdea7282ef1b421cd9f8c401a9a3a7bc15b29418115cb932f4b6cd8c795a84abe66",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/va54okul/zombieproofdoors-1.19.4-3.0.jar",
-          "filename": "zombieproofdoors-1.19.4-3.0.jar",
-          "primary": true,
-          "size": 25018
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "YZdu9B77",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "mcm6O0ZI",
-      "name": "[Forge & Fabric] 1.19.3-3.0",
-      "version_number": "1.19.3-3.0-forge+fabric",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2e499eb309651f9fbdd0f858e9319958cc05bb5251b11b7c63c920b5330abadd10401ac5f8c9e012e2b446ce173060ecbcf5f2abd0c33571f5a3911447037e53",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/mcm6O0ZI/zombieproofdoors-1.19.3-3.0.jar",
-          "filename": "zombieproofdoors-1.19.3-3.0.jar",
-          "primary": true,
-          "size": 25079
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "e0M1UDsY",
-          "version_id": "w1vSb4TN",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "6k3WYzpE",
-      "name": "[Forge & Fabric] 1.19.2-3.0",
-      "version_number": "1.19.2-3.0-forge+fabric",
+      "id": "BC6szLH2",
+      "name": "[Fabric/Forge] 1.19.2-3.2",
+      "version_number": "1.19.2-3.2-fabric+forge+neo",
       "game_versions": [
         "1.19.2"
       ],
@@ -598,17 +143,17 @@
       ],
       "files": [
         {
-          "sha512": "9b04cf3e956415ddcebe1ead0745dbadab8cdffdd9ff53c1055176dc7f51a2cdbe3bcba50e174a59108ec8f90fe1ce725a1d61a04a8f9e2d522454713b001a37",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/6k3WYzpE/zombieproofdoors-1.19.2-3.0.jar",
-          "filename": "zombieproofdoors-1.19.2-3.0.jar",
+          "sha512": "c09b2d7b2a97ca08584763921ca0a45216a8a66f49bd81c3a0782a3c7804539b8c16155e4fa34161b376e739e7121339464801d517ab22c29a08f30df88d278c",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/BC6szLH2/zombieproofdoors-1.19.2-3.2.jar",
+          "filename": "zombieproofdoors-1.19.2-3.2.jar",
           "primary": true,
-          "size": 25079
+          "size": 19022
         }
       ],
       "dependencies": [
         {
           "project_id": "e0M1UDsY",
-          "version_id": "MTb34BGn",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -645,28 +190,65 @@
       ]
     },
     {
-      "id": "hxAi5TJy",
-      "name": "[Forge] 1.19.3-1.6",
-      "version_number": "1.19.3-1.6-forge",
+      "id": "Cet0q5Km",
+      "name": "[Fabric/Forge/Neo] 1.20.6-3.3",
+      "version_number": "1.20.6-3.3-fabric+forge+neo",
       "game_versions": [
-        "1.19.3"
+        "1.20.6"
       ],
       "loaders": [
-        "forge"
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "a1f686951dc5dbfea3b5e9d2ec50e60601b43a0f2fe43a077f43eec96bc64219cc55e8fdf5f9955a1e5b72ee648a04e4fffa4ff5ef8a0711289a9157090cb96a",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/hxAi5TJy/zombieproofdoors_1.19.3-1.6.jar",
-          "filename": "zombieproofdoors_1.19.3-1.6.jar",
+          "sha512": "92113809033ec0076d2eeb1153fd8b4f6de8f961d95986b461749a36d08d1ec7a8b50c2783075ab303be51d6e956f8c235773e7eb0e199c0543ab82f02cb54d2",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/Cet0q5Km/zombieproofdoors-1.20.6-3.3.jar",
+          "filename": "zombieproofdoors-1.20.6-3.3.jar",
           "primary": true,
-          "size": 5138
+          "size": 24761
         }
       ],
       "dependencies": [
         {
           "project_id": "e0M1UDsY",
-          "version_id": "w1vSb4TN",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "EqPESz34",
+      "name": "[Fabric] 1.18.2-2.0",
+      "version_number": "1.18.2-2.0-fabric",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5e15f01e3a00ca88419ce45501f046c0c0da1e43a35ca8cfdb90258f28687fd331ab4d80096cd93a7958fb511890b9fefbe4a614cd8b4f159661f97e641fc1d8",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/EqPESz34/zombieproofdoors-fabric_1.18.2-2.0.jar",
+          "filename": "zombieproofdoors-fabric_1.18.2-2.0.jar",
+          "primary": true,
+          "size": 19075
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "Xz9KMXXo",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -693,23 +275,115 @@
       ],
       "dependencies": [
         {
-          "project_id": "e0M1UDsY",
-          "version_id": "w1vSb4TN",
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
+          "project_id": "e0M1UDsY",
+          "version_id": "w1vSb4TN",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "3YnemqJ4",
-      "name": "[Fabric] 1.19.2-2.0",
-      "version_number": "1.19.2-2.0-fabric",
+      "id": "HEoZauoQ",
+      "name": "[Fabric/Forge/Neo] 1.20.3-3.1",
+      "version_number": "1.20.3-3.1-fabric+forge+neo",
+      "game_versions": [
+        "1.20.3"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "ba5092e8927269c62e7e06dca2dee03edd7f795fbd0ec08b5ac890814b6bdc2a6f1eea1818627c7fd696e888c926b5f93f973e8014c27f44121a4d04a6377991",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/HEoZauoQ/zombieproofdoors-1.20.3-3.1.jar",
+          "filename": "zombieproofdoors-1.20.3-3.1.jar",
+          "primary": true,
+          "size": 29899
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "M8dcaWDt",
+      "name": "[Forge & Fabric] 1.20-3.0",
+      "version_number": "1.20-3.0-forge+fabric",
+      "game_versions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "68ee4a62c29b527e4a9e2bb4d10634c1d95796b65fffb83cc7f48888ec2bfceb2cfe65646068c0d1e6b4a38e2a72730afc8dd882036643254996541ea00393c4",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/M8dcaWDt/zombieproofdoors-1.20.0-3.0.jar",
+          "filename": "zombieproofdoors-1.20.0-3.0.jar",
+          "primary": true,
+          "size": 24962
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "RNhYJa64",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Opk0YNrI",
+      "name": "[Fabric/Forge/Neo] 1.20.4-3.1",
+      "version_number": "1.20.4-3.1-fabric+forge+neo",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4ce496d977852fd2859e156ac2aac6dc76ebbfd9f6984a08a603664c06184493d2f3c1fe4b19c84ac44678183f2f098d2184a496175ac1529bea0cf23ed3745d",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/Opk0YNrI/zombieproofdoors-1.20.4-3.1.jar",
+          "filename": "zombieproofdoors-1.20.4-3.1.jar",
+          "primary": true,
+          "size": 29903
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "RuNiaJgZ",
+      "name": "[Fabric] 1.19.2-1.9",
+      "version_number": "1.19.2-1.9-fabric",
       "game_versions": [
         "1.19.2"
       ],
@@ -718,11 +392,11 @@
       ],
       "files": [
         {
-          "sha512": "95490b44b029941229101c270561fda466c56e857a47960661d4ea022adc6259828a28b1f33594b158a1c355b9d3b1646b4e22743bf1429609a2131f36b3df0e",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/3YnemqJ4/zombieproofdoors-fabric_1.19.2-2.0.jar",
-          "filename": "zombieproofdoors-fabric_1.19.2-2.0.jar",
+          "sha512": "be6b9a0f99df2e16ed82882bd90f0cd91dbfd95dd7df5f41257800ca9e1f6b5a8f1e5c747e0757dc4188cf6187b6533369749cba4b5b46abf75d8e5b92d260c3",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/RuNiaJgZ/zombieproofdoors-fabric_1.19.2-1.9.jar",
+          "filename": "zombieproofdoors-fabric_1.19.2-1.9.jar",
           "primary": true,
-          "size": 19063
+          "size": 4637
         }
       ],
       "dependencies": [
@@ -741,9 +415,9 @@
       ]
     },
     {
-      "id": "EqPESz34",
-      "name": "[Fabric] 1.18.2-2.0",
-      "version_number": "1.18.2-2.0-fabric",
+      "id": "TU0FwDFl",
+      "name": "[Fabric] 1.18.2-1.7",
+      "version_number": "1.18.2-1.7-fabric",
       "game_versions": [
         "1.18.2"
       ],
@@ -752,11 +426,11 @@
       ],
       "files": [
         {
-          "sha512": "5e15f01e3a00ca88419ce45501f046c0c0da1e43a35ca8cfdb90258f28687fd331ab4d80096cd93a7958fb511890b9fefbe4a614cd8b4f159661f97e641fc1d8",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/EqPESz34/zombieproofdoors-fabric_1.18.2-2.0.jar",
-          "filename": "zombieproofdoors-fabric_1.18.2-2.0.jar",
+          "sha512": "d74666c524d8efe779320f1b8a23f3e199e7ec4a54c51fbda4b2002f0f17b9e0256e2f37c50be06dd374a208010101f7c5a384273242ede0b1a69276d467d694",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/TU0FwDFl/zombieproofdoors-fabric_1.18.2-1.7.jar",
+          "filename": "zombieproofdoors-fabric_1.18.2-1.7.jar",
           "primary": true,
-          "size": 19075
+          "size": 4638
         }
       ],
       "dependencies": [
@@ -809,6 +483,193 @@
       ]
     },
     {
+      "id": "V2VWjHuc",
+      "name": "[Fabric] 1.16.5-1.7",
+      "version_number": "1.16.5-1.7-fabric",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "25c9632aeb3b3540e61cf7829ada3a133e8c960927192907041c6374ffc272a7483fdb5ab6cb5cb262b8a66497b8b9004e636222b26f6f28ceab98963ea94277",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/V2VWjHuc/zombieproofdoors-fabric_1.16.5-1.7.jar",
+          "filename": "zombieproofdoors-fabric_1.16.5-1.7.jar",
+          "primary": true,
+          "size": 4359
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": "diqQmTlH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "V6jFx8AQ",
+      "name": "[Fabric/Neo] 1.20.5-3.2",
+      "version_number": "1.20.5-3.2-fabric+neo",
+      "game_versions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "92326f9983314c6c4d29f57fc16210ad25c389a84d4bbf33f76bc74c82ef460a6329751a5a46cfb59142f31591716e9a5048ef687e27e3e0bc29f495f1395e42",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/V6jFx8AQ/zombieproofdoors-1.20.5-3.2.jar",
+          "filename": "zombieproofdoors-1.20.5-3.2.jar",
+          "primary": true,
+          "size": 19921
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "VQWUr9c3",
+      "name": "[Fabric/Forge/Neo] 1.20.2-3.1",
+      "version_number": "1.20.2-3.1-forge+fabric",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4389299ede47c91d69b2edfab3cfd4aae315904f31a58d775812f58bf8ac327a9f4e8257fa4a7f322c4f733bb2a0255a201e806d7ef76e621d829d32b4779a62",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/VQWUr9c3/zombieproofdoors-1.20.2-3.1.jar",
+          "filename": "zombieproofdoors-1.20.2-3.1.jar",
+          "primary": true,
+          "size": 29826
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "WIsWVYPG",
+      "name": "[Forge & Fabric] 1.20.2-3.0",
+      "version_number": "1.20.2-3.0-forge+fabric",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "bba084fa9dd2cbb382ac2d937880357213ec4d24562b0a8ce3b7901f51947cdef4fd6d5a5040bc90349db74b5c34f1f5637afb19887cbbcf3d989bcc8c2a5ce3",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/WIsWVYPG/zombieproofdoors-1.20.2-3.0.jar",
+          "filename": "zombieproofdoors-1.20.2-3.0.jar",
+          "primary": true,
+          "size": 24963
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "X1nWbrRu",
+      "name": "[Fabric/Neo] 1.20.5-3.3",
+      "version_number": "1.20.5-3.3-fabric+neo",
+      "game_versions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5d0e54e62deac2eaa40a083591d5c1467bef71c40889c60dd787c3613f82ac1c4082976b44a035896a3beca7b9566482578eaf345a750330b4fb15d7888effcb",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/X1nWbrRu/zombieproofdoors-1.20.5-3.3.jar",
+          "filename": "zombieproofdoors-1.20.5-3.3.jar",
+          "primary": true,
+          "size": 19922
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "dLkgTPGW",
+      "name": "[Fabric/Forge/Neo] 1.20.1-3.1",
+      "version_number": "1.20.1-3.1-forge+fabric",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "df5ebf06ba5825aaf34372266fb3bb3d476d501c30fc42eda160f020d48ecec702029ae9a71d7bb34e2ef9a88c92d1279976e4cf62b92177b587fa42b2cd64b0",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/dLkgTPGW/zombieproofdoors-1.20.1-3.1.jar",
+          "filename": "zombieproofdoors-1.20.1-3.1.jar",
+          "primary": true,
+          "size": 24953
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "hIub1aMT",
       "name": "[Forge] 1.19.2-1.6",
       "version_number": "1.19.2-1.6-forge",
@@ -837,28 +698,28 @@
       ]
     },
     {
-      "id": "sFuK6wL7",
-      "name": "[Forge] 1.18.2-1.5",
-      "version_number": "1.18.2-1.5-forge",
+      "id": "hxAi5TJy",
+      "name": "[Forge] 1.19.3-1.6",
+      "version_number": "1.19.3-1.6-forge",
       "game_versions": [
-        "1.18.2"
+        "1.19.3"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "e9a9ef87b671801ebd403e70bde8dc585fe44eb3fe4aac5b68bfa78fa4bf8829280af088f9a40586541b02bdeb7a1e0592b4e68e509248368e90bfca41b5823d",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/sFuK6wL7/zombieproofdoors_1.18.2-1.5.jar",
-          "filename": "zombieproofdoors_1.18.2-1.5.jar",
+          "sha512": "a1f686951dc5dbfea3b5e9d2ec50e60601b43a0f2fe43a077f43eec96bc64219cc55e8fdf5f9955a1e5b72ee648a04e4fffa4ff5ef8a0711289a9157090cb96a",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/hxAi5TJy/zombieproofdoors_1.19.3-1.6.jar",
+          "filename": "zombieproofdoors_1.19.3-1.6.jar",
           "primary": true,
-          "size": 5128
+          "size": 5138
         }
       ],
       "dependencies": [
         {
           "project_id": "e0M1UDsY",
-          "version_id": "Xz9KMXXo",
+          "version_id": "w1vSb4TN",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -893,65 +754,178 @@
       ]
     },
     {
-      "id": "RuNiaJgZ",
-      "name": "[Fabric] 1.19.2-1.9",
-      "version_number": "1.19.2-1.9-fabric",
+      "id": "m1s56fG6",
+      "name": "[Fabric/Forge] 1.19.2-3.1",
+      "version_number": "1.19.2-3.1-forge+fabric",
       "game_versions": [
         "1.19.2"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "forge",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "be6b9a0f99df2e16ed82882bd90f0cd91dbfd95dd7df5f41257800ca9e1f6b5a8f1e5c747e0757dc4188cf6187b6533369749cba4b5b46abf75d8e5b92d260c3",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/RuNiaJgZ/zombieproofdoors-fabric_1.19.2-1.9.jar",
-          "filename": "zombieproofdoors-fabric_1.19.2-1.9.jar",
+          "sha512": "57a002c7db7af58bc11c2e9bdf65e4e0c5553ab3064382b28f39e0f631c227150e22b2b693343ee6710e4e49fd4c6667dd286b6e064119dd0b7841bb56a4d0d4",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/m1s56fG6/zombieproofdoors-1.19.2-3.1.jar",
+          "filename": "zombieproofdoors-1.19.2-3.1.jar",
           "primary": true,
-          "size": 4637
+          "size": 24974
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "e0M1UDsY",
-          "version_id": "MTb34BGn",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "TU0FwDFl",
-      "name": "[Fabric] 1.18.2-1.7",
-      "version_number": "1.18.2-1.7-fabric",
+      "id": "mcm6O0ZI",
+      "name": "[Forge & Fabric] 1.19.3-3.0",
+      "version_number": "1.19.3-3.0-forge+fabric",
       "game_versions": [
-        "1.18.2"
+        "1.19.3"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "forge",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "d74666c524d8efe779320f1b8a23f3e199e7ec4a54c51fbda4b2002f0f17b9e0256e2f37c50be06dd374a208010101f7c5a384273242ede0b1a69276d467d694",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/TU0FwDFl/zombieproofdoors-fabric_1.18.2-1.7.jar",
-          "filename": "zombieproofdoors-fabric_1.18.2-1.7.jar",
+          "sha512": "2e499eb309651f9fbdd0f858e9319958cc05bb5251b11b7c63c920b5330abadd10401ac5f8c9e012e2b446ce173060ecbcf5f2abd0c33571f5a3911447037e53",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/mcm6O0ZI/zombieproofdoors-1.19.3-3.0.jar",
+          "filename": "zombieproofdoors-1.19.3-3.0.jar",
           "primary": true,
-          "size": 4638
+          "size": 25079
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
+          "project_id": "e0M1UDsY",
+          "version_id": "w1vSb4TN",
           "file_name": null,
           "dependency_type": "required"
-        },
+        }
+      ]
+    },
+    {
+      "id": "oIqBYQAc",
+      "name": "[Fabric/Forge/Neo] 1.21.0-3.3",
+      "version_number": "1.21.0-3.3-fabric+forge+neo",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3e5c3bc6980fba72ff2e33c783779b809d81d5874f14ef1c7be4e0f68138b4ca39356b17132d93c0a0d924b678a56f4fbbd109d285fa1b3526d092bac61f999a",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/oIqBYQAc/zombieproofdoors-1.21.0-3.3.jar",
+          "filename": "zombieproofdoors-1.21.0-3.3.jar",
+          "primary": true,
+          "size": 24740
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "pHp8YFpu",
+      "name": "[Fabric/Forge/Neo] 1.20.4-3.2",
+      "version_number": "1.20.4-3.2-fabric+forge+neo",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "1e5d30e5ebce4c4b56d185d49f007e83e1bdf4080d3aba1c824f8e3d45c0fc93843b8a5823a9c717fcd9ad55ad57afe2adbbc41f11aafa5e19bd869a86d52e7a",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/pHp8YFpu/zombieproofdoors-1.20.4-3.2.jar",
+          "filename": "zombieproofdoors-1.20.4-3.2.jar",
+          "primary": true,
+          "size": 23880
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "raPA1Mru",
+      "name": "[Fabric/Forge/Neo] 1.20.1-3.2",
+      "version_number": "1.20.1-3.2-fabric+forge+neo",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "57aa1480f74bf9e219071670b5bbee6e27933bff74bc182c5d648e7a9b6ddc552ae81c0bb6950a604ddf86c397f47fd26b1a1cabc821802f5a11b2c8f602a9d2",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/raPA1Mru/zombieproofdoors-1.20.1-3.2.jar",
+          "filename": "zombieproofdoors-1.20.1-3.2.jar",
+          "primary": true,
+          "size": 19001
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "e0M1UDsY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "sFuK6wL7",
+      "name": "[Forge] 1.18.2-1.5",
+      "version_number": "1.18.2-1.5-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e9a9ef87b671801ebd403e70bde8dc585fe44eb3fe4aac5b68bfa78fa4bf8829280af088f9a40586541b02bdeb7a1e0592b4e68e509248368e90bfca41b5823d",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/sFuK6wL7/zombieproofdoors_1.18.2-1.5.jar",
+          "filename": "zombieproofdoors_1.18.2-1.5.jar",
+          "primary": true,
+          "size": 5128
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "e0M1UDsY",
           "version_id": "Xz9KMXXo",
@@ -961,34 +935,60 @@
       ]
     },
     {
-      "id": "V2VWjHuc",
-      "name": "[Fabric] 1.16.5-1.7",
-      "version_number": "1.16.5-1.7-fabric",
+      "id": "va54okul",
+      "name": "[Forge & Fabric] 1.19.4-3.0",
+      "version_number": "1.19.4-3.0-forge+fabric",
       "game_versions": [
-        "1.16.5"
+        "1.19.4"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "forge",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "25c9632aeb3b3540e61cf7829ada3a133e8c960927192907041c6374ffc272a7483fdb5ab6cb5cb262b8a66497b8b9004e636222b26f6f28ceab98963ea94277",
-          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/V2VWjHuc/zombieproofdoors-fabric_1.16.5-1.7.jar",
-          "filename": "zombieproofdoors-fabric_1.16.5-1.7.jar",
+          "sha512": "6e373d8a4e8b8d71ecbb46f0613eed5520d61912dbe1aea6ee63d9e0fef10fdea7282ef1b421cd9f8c401a9a3a7bc15b29418115cb932f4b6cd8c795a84abe66",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/va54okul/zombieproofdoors-1.19.4-3.0.jar",
+          "filename": "zombieproofdoors-1.19.4-3.0.jar",
           "primary": true,
-          "size": 4359
+          "size": 25018
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
+          "project_id": "e0M1UDsY",
+          "version_id": "YZdu9B77",
           "file_name": null,
           "dependency_type": "required"
-        },
+        }
+      ]
+    },
+    {
+      "id": "wrVEq9Tc",
+      "name": "[Forge & Fabric] 1.20.1-3.0",
+      "version_number": "1.20.1-3.0-forge+fabric",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "e2ecd779ae486f4849f1a4c822540b76f54ce5644dc69560a84ababe27ef321ae906aad9f790166934e5bb33a22de4e77f6ddecbcd60d63912237625319f6598",
+          "url": "https://cdn.modrinth.com/data/hDKfXb0T/versions/wrVEq9Tc/zombieproofdoors-1.20.1-3.0.jar",
+          "filename": "zombieproofdoors-1.20.1-3.0.jar",
+          "primary": true,
+          "size": 24965
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "e0M1UDsY",
-          "version_id": "diqQmTlH",
+          "version_id": "W1CQ9UCz",
           "file_name": null,
           "dependency_type": "required"
         }

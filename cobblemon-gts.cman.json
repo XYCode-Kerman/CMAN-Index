@@ -5,6 +5,40 @@
   "description": "A Global Trading System mod for Cobblemon that allows selling of Pokemon and Items.",
   "versions": [
     {
+      "id": "1218wF8c",
+      "name": "GTS 1.0.2 ~ Fabric",
+      "version_number": "1.0.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "138d3aa81886986759a18c95a8a465eec6d73d50bb2a30b8238537e42ba9a9285b550a12910b27af2831c2c41d4af8ad80980733af0af0cdcc6e6068e4c79e30",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/1218wF8c/Gts-1.0.2-fabric.jar",
+          "filename": "Gts-1.0.2-fabric.jar",
+          "primary": true,
+          "size": 103590
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": "ZuhveJd6",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LdBYVaPS",
+          "version_id": "ZxX3FJcm",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "3idn9d6m",
       "name": "GTS 2.3.1 ~ Fabric",
       "version_number": "2.3.1",
@@ -25,86 +59,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "LdBYVaPS",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": "EVozVxCq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "KzjvlKEN",
-          "version_id": "BXIm53Zb",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "V12cAF5l",
-      "name": "GTS 2.3.1 ~ Forge",
-      "version_number": "2.3.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "63fa848d9d3695955c76a4e6bf369500d93c51530308bbbd5110620303875a4b0a28870b78886b8e99f3ca68dd56e2e4c2bdd0d12f0dfe831313b0f4c6fba6d7",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/V12cAF5l/Gts-2.3.1-forge.jar",
-          "filename": "Gts-2.3.1-forge.jar",
-          "primary": true,
-          "size": 179250
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "LdBYVaPS",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "KzjvlKEN",
-          "version_id": "b9N761Pj",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": "vm5zUZAg",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "fKxwGkuG",
-      "name": "GTS 2.3.0 ~ Fabric",
-      "version_number": "2.3.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c10a2bf918597a063f59b140cd89f8b96004a3d2baa4a750871ff9ccf497b666a70f02705384c5949d77b74af5caaccd7778ee192b66e74d62be5595eab11d5a",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/fKxwGkuG/Gts-2.3.0-fabric.jar",
-          "filename": "Gts-2.3.0-fabric.jar",
-          "primary": true,
-          "size": 161582
-        }
-      ],
-      "dependencies": [
-        {
           "project_id": "KzjvlKEN",
           "version_id": "BXIm53Zb",
           "file_name": null,
@@ -118,446 +72,6 @@
         },
         {
           "project_id": "LdBYVaPS",
-          "version_id": "mQgCCsFa",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "5ZXsbCH0",
-      "name": "GTS 2.3.0 ~ Forge",
-      "version_number": "2.3.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "0cbd1e47dbe45eba2cef8de6d62ad7c91c72e5ea9bdb72d022f695107eb31d8c550e85e2a4dc64457ca500f28d4bb8d486aacc5eb60fbe1ace0dab8cba2359d2",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/5ZXsbCH0/Gts-2.3.0-forge.jar",
-          "filename": "Gts-2.3.0-forge.jar",
-          "primary": true,
-          "size": 164500
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": "vm5zUZAg",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "KzjvlKEN",
-          "version_id": "b9N761Pj",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LdBYVaPS",
-          "version_id": "4m2AIWpp",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ZQrprPbb",
-      "name": "GTS 2.2.0 ~ Fabric",
-      "version_number": "2.2.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "43186bc14e6908924c873c5f5bdf615efdcda06b9c89b362f3f54d83e414fb5b1b2754af85b9f7b66fdba211d59a20dfff7dfb95651b6030b58454cf9f351dff",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/ZQrprPbb/Gts-2.2.0-fabric.jar",
-          "filename": "Gts-2.2.0-fabric.jar",
-          "primary": true,
-          "size": 158215
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "KzjvlKEN",
-          "version_id": "BXIm53Zb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LdBYVaPS",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": "EVozVxCq",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "jlwVACrl",
-      "name": "GTS 2.2.0 ~ Forge",
-      "version_number": "2.2.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "eee2c51d69b3479b7c14ece7d0ede8a1757f155657985c87bb64278be238fb118b9dea68b1ce557483d41f48fe955ba58f33a83feeb5ae95c53279c03db29d93",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/jlwVACrl/Gts-2.2.0-forge.jar",
-          "filename": "Gts-2.2.0-forge.jar",
-          "primary": true,
-          "size": 161096
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": "vm5zUZAg",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "KzjvlKEN",
-          "version_id": "b9N761Pj",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LdBYVaPS",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "okGdy0oV",
-      "name": "GTS 2.1.0 ~ Fabric",
-      "version_number": "2.1.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "83a01a9b5159d2b3a0eeef264925f186927f9a1d8179fc0f0c36983080a906c182262049604654e667b91c985a6e7cb4d0c5c5a2fedcab69709808e451e28ef2",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/okGdy0oV/Gts-2.1.0-fabric.jar",
-          "filename": "Gts-2.1.0-fabric.jar",
-          "primary": true,
-          "size": 149750
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "KzjvlKEN",
-          "version_id": "BXIm53Zb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": "EVozVxCq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LdBYVaPS",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "n6owdQ42",
-      "name": "GTS 2.1.0 ~ Forge",
-      "version_number": "2.1.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "749e076007d67922e1d72273b9b6d6ccb61d263d615971ab7b750c4eef2dee9ac5754cb02bf6c247980eb7c88975da4fb31958b0e86d29a5aaff6235d9845462",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/n6owdQ42/Gts-2.1.0-forge.jar",
-          "filename": "Gts-2.1.0-forge.jar",
-          "primary": true,
-          "size": 152408
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "KzjvlKEN",
-          "version_id": "b9N761Pj",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": "vm5zUZAg",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LdBYVaPS",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "d6pNXypU",
-      "name": "GTS 2.0.1 ~ Fabric",
-      "version_number": "2.0.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2f5f5f4abcd581df685341a4012523620dd81e3e18eb4c8d3d280d8e62023a0c53655bf5ef45098b33b60089f30ab2269e3efa51688d5fecc4254bd1c440ec7c",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/d6pNXypU/Gts-2.0.1-fabric.jar",
-          "filename": "Gts-2.0.1-fabric.jar",
-          "primary": true,
-          "size": 132524
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "KzjvlKEN",
-          "version_id": "BXIm53Zb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": "EVozVxCq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LdBYVaPS",
-          "version_id": "kHsmRWGm",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "vtEc8R3X",
-      "name": "GTS 2.0.1 ~ Forge",
-      "version_number": "2.0.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "0f064609608fe222ac198db437b0fc188e06c48d312de866673b2c6542fc60c44c3201164dc123e9f593f397fad301fb139dd7618712cf47915a9abce0a4b6ed",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/vtEc8R3X/Gts-2.0.1-forge.jar",
-          "filename": "Gts-2.0.1-forge.jar",
-          "primary": true,
-          "size": 135125
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "LdBYVaPS",
-          "version_id": "7Roly4BQ",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "KzjvlKEN",
-          "version_id": "b9N761Pj",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": "vm5zUZAg",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "dTc9FUKj",
-      "name": "GTS 2.0.0 ~ Fabric",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4b003184d8c1cc74c043c497c0ab3cdb1ed71eccc06055fdc5c9bb1b02aa4088214aec540b215bffd3ee7ad1a82f6dc27de1102853030fcdccf7ab784156378d",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/dTc9FUKj/Gts-2.0.0-SNAPSHOT-fabric.jar",
-          "filename": "Gts-2.0.0-SNAPSHOT-fabric.jar",
-          "primary": true,
-          "size": 132237
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "KzjvlKEN",
-          "version_id": "BXIm53Zb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LdBYVaPS",
-          "version_id": "kHsmRWGm",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "xUdnu7Wf",
-      "name": "GTS 2.0.0 ~ Forge",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "3769eed3f3c6097a6f6a3677a12b6cb8378dc7c9588f3e1e938886bed990fa65558fd3ab212344ba66e613b7685844aa64050786d67d28dcab80952460278502",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/xUdnu7Wf/Gts-2.0.0-SNAPSHOT-forge.jar",
-          "filename": "Gts-2.0.0-SNAPSHOT-forge.jar",
-          "primary": true,
-          "size": 134872
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "KzjvlKEN",
-          "version_id": "b9N761Pj",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LdBYVaPS",
-          "version_id": "7Roly4BQ",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "bsTWNajU",
-      "name": "GTS 1.1.3 ~ Fabric",
-      "version_number": "1.1.3",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b59b64c9530befbbbde737235869f6fb8522666d5f326fd9b47f3f3e0510788ff6f3c960c90d97f569844bc800cc320a8f8f3d30b3f7d575e9280468fc681e2d",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/bsTWNajU/Gts-1.1.3-fabric.jar",
-          "filename": "Gts-1.1.3-fabric.jar",
-          "primary": true,
-          "size": 115266
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "KzjvlKEN",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LdBYVaPS",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "zcJKYAUI",
-      "name": "GTS 1.1.3 ~ Forge",
-      "version_number": "1.1.3",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "eeb2a880cb314cd0dc8b72cb509417d6c351f130feff11d1639200c44d6701871a1dc72eab2961fb20fc604dd6b03441b832102b365e22eb9d9a45b105a8143e",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/zcJKYAUI/Gts-1.1.3-forge.jar",
-          "filename": "Gts-1.1.3-forge.jar",
-          "primary": true,
-          "size": 117752
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "KzjvlKEN",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LdBYVaPS",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "MdwFAVRL",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -633,43 +147,9 @@
       ]
     },
     {
-      "id": "pEouFdHE",
-      "name": "GTS 1.1.0 ~ Fabric",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "30dd761f84f40cd1991515cf44726c0aa45ae43824977f2e2359a3c8fa539cf9b2919ba7784b8fcb2108a45fd1a5492962e51f58cf527ba2868238b181651868",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/pEouFdHE/Gts-1.1.0-SNAPSHOT-fabric.jar",
-          "filename": "Gts-1.1.0-SNAPSHOT-fabric.jar",
-          "primary": false,
-          "size": 104188
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "LdBYVaPS",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "nBMWJxQG",
-      "name": "GTS 1.1.0 ~ Forge",
-      "version_number": "1.1.0",
+      "id": "5ZXsbCH0",
+      "name": "GTS 2.3.0 ~ Forge",
+      "version_number": "2.3.0",
       "game_versions": [
         "1.20.1"
       ],
@@ -678,159 +158,29 @@
       ],
       "files": [
         {
-          "sha512": "1d47cf75e6432d9dfdac441c5dd6b355decc3d138760bd541b6b21ea3affacb5cbebe03e69408c9a7f57bf36f29a01c201b1b54c4605534d58db869281769945",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/nBMWJxQG/Gts-1.1.0-SNAPSHOT-forge.jar",
-          "filename": "Gts-1.1.0-SNAPSHOT-forge.jar",
-          "primary": false,
-          "size": 106671
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LdBYVaPS",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Wb9p5lX6",
-      "name": "GTS 1.0.2 ~ Forge",
-      "version_number": "1.0.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "f5b0d0e87cf6cdd33e4edb2df828229cd50128886001476db705f7811c74dbc57d7aa13ec3ef11626e5d4682f7de6929a3dfd05ffa1112ae3481e91f54b90bcb",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/Wb9p5lX6/Gts-1.0.2-forge.jar",
-          "filename": "Gts-1.0.2-forge.jar",
+          "sha512": "0cbd1e47dbe45eba2cef8de6d62ad7c91c72e5ea9bdb72d022f695107eb31d8c550e85e2a4dc64457ca500f28d4bb8d486aacc5eb60fbe1ace0dab8cba2359d2",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/5ZXsbCH0/Gts-2.3.0-forge.jar",
+          "filename": "Gts-2.3.0-forge.jar",
           "primary": true,
-          "size": 106013
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": "2FDom3sg",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LdBYVaPS",
-          "version_id": "KxsEhL0L",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "1218wF8c",
-      "name": "GTS 1.0.2 ~ Fabric",
-      "version_number": "1.0.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "138d3aa81886986759a18c95a8a465eec6d73d50bb2a30b8238537e42ba9a9285b550a12910b27af2831c2c41d4af8ad80980733af0af0cdcc6e6068e4c79e30",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/1218wF8c/Gts-1.0.2-fabric.jar",
-          "filename": "Gts-1.0.2-fabric.jar",
-          "primary": true,
-          "size": 103590
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": "ZuhveJd6",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LdBYVaPS",
-          "version_id": "ZxX3FJcm",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "MkOtSGzT",
-      "name": "GTS 1.0.1 ~ Fabric",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "29df42cf16332a59689bd66e4e1c6a627c7054162c42ea1907c046c58f04e26f2a3b11db4bea5ec622abd31b26c89fd019a36aaa1b6cab5c6aad189b65fbdf84",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/MkOtSGzT/Gts-1.0.1-fabric.jar",
-          "filename": "Gts-1.0.1-fabric.jar",
-          "primary": true,
-          "size": 103382
+          "size": 164500
         }
       ],
       "dependencies": [
         {
           "project_id": "LdBYVaPS",
-          "version_id": "ZxX3FJcm",
+          "version_id": "4m2AIWpp",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "KzjvlKEN",
+          "version_id": "b9N761Pj",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "MdwFAVRL",
-          "version_id": "ZuhveJd6",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Pga6tWV6",
-      "name": "GTS 1.0.1 ~ Forge",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "fcc5353060d86cb8f3437bb91d9164a661514f6d924cf653b6c66d87545a69498dd17afbd0ab9efd9f4752d983a9297816d00196c6c1d45fa88747fda715610c",
-          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/Pga6tWV6/Gts-1.0.1-forge.jar",
-          "filename": "Gts-1.0.1-forge.jar",
-          "primary": true,
-          "size": 105808
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": "2FDom3sg",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LdBYVaPS",
-          "version_id": "KxsEhL0L",
+          "version_id": "vm5zUZAg",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -871,6 +221,40 @@
       ]
     },
     {
+      "id": "MkOtSGzT",
+      "name": "GTS 1.0.1 ~ Fabric",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "29df42cf16332a59689bd66e4e1c6a627c7054162c42ea1907c046c58f04e26f2a3b11db4bea5ec622abd31b26c89fd019a36aaa1b6cab5c6aad189b65fbdf84",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/MkOtSGzT/Gts-1.0.1-fabric.jar",
+          "filename": "Gts-1.0.1-fabric.jar",
+          "primary": true,
+          "size": 103382
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": "ZuhveJd6",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LdBYVaPS",
+          "version_id": "ZxX3FJcm",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "No5ga21F",
       "name": "GTS 1.0.0 ~ Fabric",
       "version_number": "1.0.0",
@@ -891,14 +275,630 @@
       ],
       "dependencies": [
         {
+          "project_id": "MdwFAVRL",
+          "version_id": "ZuhveJd6",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "LdBYVaPS",
           "version_id": "ZxX3FJcm",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Pga6tWV6",
+      "name": "GTS 1.0.1 ~ Forge",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "fcc5353060d86cb8f3437bb91d9164a661514f6d924cf653b6c66d87545a69498dd17afbd0ab9efd9f4752d983a9297816d00196c6c1d45fa88747fda715610c",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/Pga6tWV6/Gts-1.0.1-forge.jar",
+          "filename": "Gts-1.0.1-forge.jar",
+          "primary": true,
+          "size": 105808
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": "2FDom3sg",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LdBYVaPS",
+          "version_id": "KxsEhL0L",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "V12cAF5l",
+      "name": "GTS 2.3.1 ~ Forge",
+      "version_number": "2.3.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "63fa848d9d3695955c76a4e6bf369500d93c51530308bbbd5110620303875a4b0a28870b78886b8e99f3ca68dd56e2e4c2bdd0d12f0dfe831313b0f4c6fba6d7",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/V12cAF5l/Gts-2.3.1-forge.jar",
+          "filename": "Gts-2.3.1-forge.jar",
+          "primary": true,
+          "size": 179250
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "LdBYVaPS",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "KzjvlKEN",
+          "version_id": "b9N761Pj",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "MdwFAVRL",
-          "version_id": "ZuhveJd6",
+          "version_id": "vm5zUZAg",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Wb9p5lX6",
+      "name": "GTS 1.0.2 ~ Forge",
+      "version_number": "1.0.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f5b0d0e87cf6cdd33e4edb2df828229cd50128886001476db705f7811c74dbc57d7aa13ec3ef11626e5d4682f7de6929a3dfd05ffa1112ae3481e91f54b90bcb",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/Wb9p5lX6/Gts-1.0.2-forge.jar",
+          "filename": "Gts-1.0.2-forge.jar",
+          "primary": true,
+          "size": 106013
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": "2FDom3sg",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LdBYVaPS",
+          "version_id": "KxsEhL0L",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ZQrprPbb",
+      "name": "GTS 2.2.0 ~ Fabric",
+      "version_number": "2.2.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "43186bc14e6908924c873c5f5bdf615efdcda06b9c89b362f3f54d83e414fb5b1b2754af85b9f7b66fdba211d59a20dfff7dfb95651b6030b58454cf9f351dff",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/ZQrprPbb/Gts-2.2.0-fabric.jar",
+          "filename": "Gts-2.2.0-fabric.jar",
+          "primary": true,
+          "size": 158215
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "KzjvlKEN",
+          "version_id": "BXIm53Zb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": "EVozVxCq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LdBYVaPS",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "bsTWNajU",
+      "name": "GTS 1.1.3 ~ Fabric",
+      "version_number": "1.1.3",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "b59b64c9530befbbbde737235869f6fb8522666d5f326fd9b47f3f3e0510788ff6f3c960c90d97f569844bc800cc320a8f8f3d30b3f7d575e9280468fc681e2d",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/bsTWNajU/Gts-1.1.3-fabric.jar",
+          "filename": "Gts-1.1.3-fabric.jar",
+          "primary": true,
+          "size": 115266
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "KzjvlKEN",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LdBYVaPS",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "d6pNXypU",
+      "name": "GTS 2.0.1 ~ Fabric",
+      "version_number": "2.0.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2f5f5f4abcd581df685341a4012523620dd81e3e18eb4c8d3d280d8e62023a0c53655bf5ef45098b33b60089f30ab2269e3efa51688d5fecc4254bd1c440ec7c",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/d6pNXypU/Gts-2.0.1-fabric.jar",
+          "filename": "Gts-2.0.1-fabric.jar",
+          "primary": true,
+          "size": 132524
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "KzjvlKEN",
+          "version_id": "BXIm53Zb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": "EVozVxCq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LdBYVaPS",
+          "version_id": "kHsmRWGm",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "dTc9FUKj",
+      "name": "GTS 2.0.0 ~ Fabric",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4b003184d8c1cc74c043c497c0ab3cdb1ed71eccc06055fdc5c9bb1b02aa4088214aec540b215bffd3ee7ad1a82f6dc27de1102853030fcdccf7ab784156378d",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/dTc9FUKj/Gts-2.0.0-SNAPSHOT-fabric.jar",
+          "filename": "Gts-2.0.0-SNAPSHOT-fabric.jar",
+          "primary": true,
+          "size": 132237
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "KzjvlKEN",
+          "version_id": "BXIm53Zb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LdBYVaPS",
+          "version_id": "kHsmRWGm",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "fKxwGkuG",
+      "name": "GTS 2.3.0 ~ Fabric",
+      "version_number": "2.3.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c10a2bf918597a063f59b140cd89f8b96004a3d2baa4a750871ff9ccf497b666a70f02705384c5949d77b74af5caaccd7778ee192b66e74d62be5595eab11d5a",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/fKxwGkuG/Gts-2.3.0-fabric.jar",
+          "filename": "Gts-2.3.0-fabric.jar",
+          "primary": true,
+          "size": 161582
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "KzjvlKEN",
+          "version_id": "BXIm53Zb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": "EVozVxCq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LdBYVaPS",
+          "version_id": "mQgCCsFa",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jlwVACrl",
+      "name": "GTS 2.2.0 ~ Forge",
+      "version_number": "2.2.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "eee2c51d69b3479b7c14ece7d0ede8a1757f155657985c87bb64278be238fb118b9dea68b1ce557483d41f48fe955ba58f33a83feeb5ae95c53279c03db29d93",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/jlwVACrl/Gts-2.2.0-forge.jar",
+          "filename": "Gts-2.2.0-forge.jar",
+          "primary": true,
+          "size": 161096
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "LdBYVaPS",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "KzjvlKEN",
+          "version_id": "b9N761Pj",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": "vm5zUZAg",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "n6owdQ42",
+      "name": "GTS 2.1.0 ~ Forge",
+      "version_number": "2.1.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "749e076007d67922e1d72273b9b6d6ccb61d263d615971ab7b750c4eef2dee9ac5754cb02bf6c247980eb7c88975da4fb31958b0e86d29a5aaff6235d9845462",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/n6owdQ42/Gts-2.1.0-forge.jar",
+          "filename": "Gts-2.1.0-forge.jar",
+          "primary": true,
+          "size": 152408
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "LdBYVaPS",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "KzjvlKEN",
+          "version_id": "b9N761Pj",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": "vm5zUZAg",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "nBMWJxQG",
+      "name": "GTS 1.1.0 ~ Forge",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "1d47cf75e6432d9dfdac441c5dd6b355decc3d138760bd541b6b21ea3affacb5cbebe03e69408c9a7f57bf36f29a01c201b1b54c4605534d58db869281769945",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/nBMWJxQG/Gts-1.1.0-SNAPSHOT-forge.jar",
+          "filename": "Gts-1.1.0-SNAPSHOT-forge.jar",
+          "primary": false,
+          "size": 106671
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "LdBYVaPS",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "okGdy0oV",
+      "name": "GTS 2.1.0 ~ Fabric",
+      "version_number": "2.1.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "83a01a9b5159d2b3a0eeef264925f186927f9a1d8179fc0f0c36983080a906c182262049604654e667b91c985a6e7cb4d0c5c5a2fedcab69709808e451e28ef2",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/okGdy0oV/Gts-2.1.0-fabric.jar",
+          "filename": "Gts-2.1.0-fabric.jar",
+          "primary": true,
+          "size": 149750
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "KzjvlKEN",
+          "version_id": "BXIm53Zb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": "EVozVxCq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LdBYVaPS",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "pEouFdHE",
+      "name": "GTS 1.1.0 ~ Fabric",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "30dd761f84f40cd1991515cf44726c0aa45ae43824977f2e2359a3c8fa539cf9b2919ba7784b8fcb2108a45fd1a5492962e51f58cf527ba2868238b181651868",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/pEouFdHE/Gts-1.1.0-SNAPSHOT-fabric.jar",
+          "filename": "Gts-1.1.0-SNAPSHOT-fabric.jar",
+          "primary": false,
+          "size": 104188
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "LdBYVaPS",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "vtEc8R3X",
+      "name": "GTS 2.0.1 ~ Forge",
+      "version_number": "2.0.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0f064609608fe222ac198db437b0fc188e06c48d312de866673b2c6542fc60c44c3201164dc123e9f593f397fad301fb139dd7618712cf47915a9abce0a4b6ed",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/vtEc8R3X/Gts-2.0.1-forge.jar",
+          "filename": "Gts-2.0.1-forge.jar",
+          "primary": true,
+          "size": 135125
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "LdBYVaPS",
+          "version_id": "7Roly4BQ",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "KzjvlKEN",
+          "version_id": "b9N761Pj",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": "vm5zUZAg",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "xUdnu7Wf",
+      "name": "GTS 2.0.0 ~ Forge",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "3769eed3f3c6097a6f6a3677a12b6cb8378dc7c9588f3e1e938886bed990fa65558fd3ab212344ba66e613b7685844aa64050786d67d28dcab80952460278502",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/xUdnu7Wf/Gts-2.0.0-SNAPSHOT-forge.jar",
+          "filename": "Gts-2.0.0-SNAPSHOT-forge.jar",
+          "primary": true,
+          "size": 134872
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "LdBYVaPS",
+          "version_id": "7Roly4BQ",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "KzjvlKEN",
+          "version_id": "b9N761Pj",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "zcJKYAUI",
+      "name": "GTS 1.1.3 ~ Forge",
+      "version_number": "1.1.3",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "eeb2a880cb314cd0dc8b72cb509417d6c351f130feff11d1639200c44d6701871a1dc72eab2961fb20fc604dd6b03441b832102b365e22eb9d9a45b105a8143e",
+          "url": "https://cdn.modrinth.com/data/UTjx5ypK/versions/zcJKYAUI/Gts-1.1.3-forge.jar",
+          "filename": "Gts-1.1.3-forge.jar",
+          "primary": true,
+          "size": 117752
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "KzjvlKEN",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LdBYVaPS",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }

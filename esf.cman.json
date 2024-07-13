@@ -5,23 +5,22 @@
   "description": "Allows for entity sound variation using OptiFine format property rules",
   "versions": [
     {
-      "id": "a2ESL2Dl",
+      "id": "3Hp2kG7e",
       "name": "[ESF] Entity Sound Features 0.4",
       "version_number": "0.4",
       "game_versions": [
         "1.21"
       ],
       "loaders": [
-        "fabric",
-        "quilt"
+        "neoforge"
       ],
       "files": [
         {
-          "sha512": "15b5624fb60e128217b9195ff7c4b98e884fbf1df1bcbd6cc876d7c5e30aab2a9e236faae00d369c6aaaac7d42fb2cd576019e04897db1e97c5cf266f5eb7e68",
-          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/a2ESL2Dl/entity_sound_features_fabric_1.21-0.4.jar",
-          "filename": "entity_sound_features_fabric_1.21-0.4.jar",
+          "sha512": "25cc4f70f308bb8f74e9486c006d0c596fc77bf21ca66b2dd66468a2f15b5152625f4583a16e26d3a1310978ec43ba20ddedbf3e10a2f0fa7f0876b8a9220d27",
+          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/3Hp2kG7e/entity_sound_features_neoforge_1.21-0.4.jar",
+          "filename": "entity_sound_features_neoforge_1.21-0.4.jar",
           "primary": true,
-          "size": 97185
+          "size": 101318
         }
       ],
       "dependencies": [
@@ -40,11 +39,16 @@
       ]
     },
     {
-      "id": "wGWNGvUJ",
-      "name": "[ESF] Entity Sound Features 0.4",
-      "version_number": "0.4",
+      "id": "4vru4kap",
+      "name": "[ESF] Entity Sound Features 0.3.1",
+      "version_number": "0.3.1",
       "game_versions": [
-        "1.20.6"
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
         "fabric",
@@ -52,11 +56,11 @@
       ],
       "files": [
         {
-          "sha512": "479f10374e99cd5b0ec98f2be8bd27835ec55725259f17fba07efe13b0f695dedb6c7048f5cbbdb71597ba2a9cc05726ea1061bcb2ac12f5cdc1cbaae4578543",
-          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/wGWNGvUJ/entity_sound_features_fabric_1.20.6-0.4.jar",
-          "filename": "entity_sound_features_fabric_1.20.6-0.4.jar",
+          "sha512": "33df41e19f8cef7fff065f001ee733ffd123b75ff84510db7f24e901309194a605e8149bd0167568397d61cfda074c5cf7bba012c958e3fe1c4f8ce8bd6fd6a0",
+          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/4vru4kap/entity_sound_features_fabric_1.19.4%2B-0.3.1.jar",
+          "filename": "entity_sound_features_fabric_1.19.4+-0.3.1.jar",
           "primary": true,
-          "size": 97353
+          "size": 87184
         }
       ],
       "dependencies": [
@@ -65,9 +69,64 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
+        }
+      ]
+    },
+    {
+      "id": "BQs6msgw",
+      "name": "[ESF] Entity Sound Features 0.3.1",
+      "version_number": "0.3.1",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
         {
-          "project_id": "4I1XuqiY",
+          "sha512": "3b568095622ed3fdf21d1422c823aa21b897b226dbc5f353284c9bb555d25a23b135ff1c4e0bf606e002092cc96816af80032251dda22fd9cbf0abdd246b89e8",
+          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/BQs6msgw/entity_sound_features_fabric_1.21-0.3.1.jar",
+          "filename": "entity_sound_features_fabric_1.21-0.3.1.jar",
+          "primary": true,
+          "size": 87098
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "DP53o554",
+      "name": "[ESF] Entity Sound Features 0.3.1",
+      "version_number": "0.3.1",
+      "game_versions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "4bde6388f7eb1feb3fad8388c995f1e4e54fdd855564596326b95e209834edf1df014c82025e7b2790f2bec4dfe793ff0678ea674f03d338e1c3e97b42cca2d1",
+          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/DP53o554/entity_sound_features_forge_1.19.4%2B-0.3.1.jar",
+          "filename": "entity_sound_features_forge_1.19.4+-0.3.1.jar",
+          "primary": true,
+          "size": 89390
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "BVzZfTc1",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -115,65 +174,31 @@
       ]
     },
     {
-      "id": "3Hp2kG7e",
-      "name": "[ESF] Entity Sound Features 0.4",
-      "version_number": "0.4",
+      "id": "EbXF7xGs",
+      "name": "[ESF] Entity Sound Features 0.3",
+      "version_number": "0.3",
       "game_versions": [
-        "1.21"
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
-        "neoforge"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "25cc4f70f308bb8f74e9486c006d0c596fc77bf21ca66b2dd66468a2f15b5152625f4583a16e26d3a1310978ec43ba20ddedbf3e10a2f0fa7f0876b8a9220d27",
-          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/3Hp2kG7e/entity_sound_features_neoforge_1.21-0.4.jar",
-          "filename": "entity_sound_features_neoforge_1.21-0.4.jar",
+          "sha512": "d12339d1b6c4dd214d88384e3f89a46462af59d8fc7d2453a6a03d01abd1626005832028ad6cc5e31eaf2fe59170eb6fcfe161c47d6dbff711d699a3da128912",
+          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/EbXF7xGs/entity_sound_features_fabric_1.19.4%2B-0.3.jar",
+          "filename": "entity_sound_features_fabric_1.19.4+-0.3.jar",
           "primary": true,
-          "size": 101318
+          "size": 87153
         }
       ],
       "dependencies": [
-        {
-          "project_id": "4I1XuqiY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "BVzZfTc1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ymmX4bze",
-      "name": "[ESF] Entity Sound Features 0.4",
-      "version_number": "0.4",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "4db7fa513782f0b52cccb8ca37bedc3cd946e775b2a20745cfc8841d29c9b49daec84207004bc1ec11f9f7a53d671fcd89e904f82dd3845061474a9348b76bfd",
-          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/ymmX4bze/entity_sound_features_neoforge_1.20.6-0.4.jar",
-          "filename": "entity_sound_features_neoforge_1.20.6-0.4.jar",
-          "primary": true,
-          "size": 101492
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "4I1XuqiY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "BVzZfTc1",
           "version_id": null,
@@ -222,48 +247,9 @@
       ]
     },
     {
-      "id": "xB2kHwnQ",
+      "id": "a2ESL2Dl",
       "name": "[ESF] Entity Sound Features 0.4",
       "version_number": "0.4",
-      "game_versions": [
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "217f67f375e704a880882190c6d10f7383aaaa4f08cc3f5eb56c60185b20595ed5322882fcc6156b2d5947f86b4955e81a971d3903e82633a331954d5af11590",
-          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/xB2kHwnQ/entity_sound_features_forge_1.19.4%2B-0.4.jar",
-          "filename": "entity_sound_features_forge_1.19.4+-0.4.jar",
-          "primary": true,
-          "size": 99678
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "4I1XuqiY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "BVzZfTc1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "BQs6msgw",
-      "name": "[ESF] Entity Sound Features 0.3.1",
-      "version_number": "0.3.1",
       "game_versions": [
         "1.21"
       ],
@@ -273,11 +259,46 @@
       ],
       "files": [
         {
-          "sha512": "3b568095622ed3fdf21d1422c823aa21b897b226dbc5f353284c9bb555d25a23b135ff1c4e0bf606e002092cc96816af80032251dda22fd9cbf0abdd246b89e8",
-          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/BQs6msgw/entity_sound_features_fabric_1.21-0.3.1.jar",
-          "filename": "entity_sound_features_fabric_1.21-0.3.1.jar",
+          "sha512": "15b5624fb60e128217b9195ff7c4b98e884fbf1df1bcbd6cc876d7c5e30aab2a9e236faae00d369c6aaaac7d42fb2cd576019e04897db1e97c5cf266f5eb7e68",
+          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/a2ESL2Dl/entity_sound_features_fabric_1.21-0.4.jar",
+          "filename": "entity_sound_features_fabric_1.21-0.4.jar",
           "primary": true,
-          "size": 87098
+          "size": 97185
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "4I1XuqiY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "qzT6iNmq",
+      "name": "[ESF] Entity Sound Features 0.3",
+      "version_number": "0.3",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0a92c3a52bf11cf652b54421cbe376a2dcfc0ba4c3fea08aef5e415c8c63eaac33ae8186c2abe5147811ca5e6240f90c0e4fd034d1067ec5cc5f18e13775093b",
+          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/qzT6iNmq/entity_sound_features_fabric_1.20.6-0.3.jar",
+          "filename": "entity_sound_features_fabric_1.20.6-0.3.jar",
+          "primary": true,
+          "size": 87147
         }
       ],
       "dependencies": [
@@ -319,16 +340,11 @@
       ]
     },
     {
-      "id": "4vru4kap",
-      "name": "[ESF] Entity Sound Features 0.3.1",
-      "version_number": "0.3.1",
+      "id": "wGWNGvUJ",
+      "name": "[ESF] Entity Sound Features 0.4",
+      "version_number": "0.4",
       "game_versions": [
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.20.6"
       ],
       "loaders": [
         "fabric",
@@ -336,46 +352,20 @@
       ],
       "files": [
         {
-          "sha512": "33df41e19f8cef7fff065f001ee733ffd123b75ff84510db7f24e901309194a605e8149bd0167568397d61cfda074c5cf7bba012c958e3fe1c4f8ce8bd6fd6a0",
-          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/4vru4kap/entity_sound_features_fabric_1.19.4%2B-0.3.1.jar",
-          "filename": "entity_sound_features_fabric_1.19.4+-0.3.1.jar",
+          "sha512": "479f10374e99cd5b0ec98f2be8bd27835ec55725259f17fba07efe13b0f695dedb6c7048f5cbbdb71597ba2a9cc05726ea1061bcb2ac12f5cdc1cbaae4578543",
+          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/wGWNGvUJ/entity_sound_features_fabric_1.20.6-0.4.jar",
+          "filename": "entity_sound_features_fabric_1.20.6-0.4.jar",
           "primary": true,
-          "size": 87184
+          "size": 97353
         }
       ],
       "dependencies": [
         {
-          "project_id": "BVzZfTc1",
+          "project_id": "4I1XuqiY",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "DP53o554",
-      "name": "[ESF] Entity Sound Features 0.3.1",
-      "version_number": "0.3.1",
-      "game_versions": [
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "4bde6388f7eb1feb3fad8388c995f1e4e54fdd855564596326b95e209834edf1df014c82025e7b2790f2bec4dfe793ff0678ea674f03d338e1c3e97b42cca2d1",
-          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/DP53o554/entity_sound_features_forge_1.19.4%2B-0.3.1.jar",
-          "filename": "entity_sound_features_forge_1.19.4+-0.3.1.jar",
-          "primary": true,
-          "size": 89390
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "BVzZfTc1",
           "version_id": null,
@@ -414,38 +404,9 @@
       ]
     },
     {
-      "id": "qzT6iNmq",
-      "name": "[ESF] Entity Sound Features 0.3",
-      "version_number": "0.3",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0a92c3a52bf11cf652b54421cbe376a2dcfc0ba4c3fea08aef5e415c8c63eaac33ae8186c2abe5147811ca5e6240f90c0e4fd034d1067ec5cc5f18e13775093b",
-          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/qzT6iNmq/entity_sound_features_fabric_1.20.6-0.3.jar",
-          "filename": "entity_sound_features_fabric_1.20.6-0.3.jar",
-          "primary": true,
-          "size": 87147
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "BVzZfTc1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "EbXF7xGs",
-      "name": "[ESF] Entity Sound Features 0.3",
-      "version_number": "0.3",
+      "id": "xB2kHwnQ",
+      "name": "[ESF] Entity Sound Features 0.4",
+      "version_number": "0.4",
       "game_versions": [
         "1.19.4",
         "1.20",
@@ -455,19 +416,58 @@
         "1.20.4"
       ],
       "loaders": [
-        "fabric",
-        "quilt"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "d12339d1b6c4dd214d88384e3f89a46462af59d8fc7d2453a6a03d01abd1626005832028ad6cc5e31eaf2fe59170eb6fcfe161c47d6dbff711d699a3da128912",
-          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/EbXF7xGs/entity_sound_features_fabric_1.19.4%2B-0.3.jar",
-          "filename": "entity_sound_features_fabric_1.19.4+-0.3.jar",
+          "sha512": "217f67f375e704a880882190c6d10f7383aaaa4f08cc3f5eb56c60185b20595ed5322882fcc6156b2d5947f86b4955e81a971d3903e82633a331954d5af11590",
+          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/xB2kHwnQ/entity_sound_features_forge_1.19.4%2B-0.4.jar",
+          "filename": "entity_sound_features_forge_1.19.4+-0.4.jar",
           "primary": true,
-          "size": 87153
+          "size": 99678
         }
       ],
       "dependencies": [
+        {
+          "project_id": "4I1XuqiY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ymmX4bze",
+      "name": "[ESF] Entity Sound Features 0.4",
+      "version_number": "0.4",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "4db7fa513782f0b52cccb8ca37bedc3cd946e775b2a20745cfc8841d29c9b49daec84207004bc1ec11f9f7a53d671fcd89e904f82dd3845061474a9348b76bfd",
+          "url": "https://cdn.modrinth.com/data/IMuO8COj/versions/ymmX4bze/entity_sound_features_neoforge_1.20.6-0.4.jar",
+          "filename": "entity_sound_features_neoforge_1.20.6-0.4.jar",
+          "primary": true,
+          "size": 101492
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "4I1XuqiY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "BVzZfTc1",
           "version_id": null,

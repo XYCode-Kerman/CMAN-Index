@@ -5,22 +5,47 @@
   "description": "Adds a Lonsdaleite tier of tools/armor to Minecraft (Fabric)",
   "versions": [
     {
-      "id": "tSdRgPhU",
-      "name": "Balance Fix - 1.16.5",
-      "version_number": "v1.0.15",
+      "id": "5n30NXy4",
+      "name": "Json / Crafting issue Fix.",
+      "version_number": "v1.0.13",
       "game_versions": [
-        "1.16.5"
+        "1.16.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "63db69a454ad2f716861a4fd64dbf802052b41507ea9e79bcf22e3deca2cbd13e28f73909ac317da93fb633c67598881f519966e42e8a97bd1f1b524155562b3",
-          "url": "https://cdn.modrinth.com/data/ZTleks5T/versions/v1.0.15/lonsdaleite-1.0.15-1.16.jar",
-          "filename": "lonsdaleite-1.0.15-1.16.jar",
+          "sha512": "224513348595367768c4a97b0294992aca34ac97856bea20142d88b522cc1ba4de268131c88b3e338f9460d630b7763ef44c02909148020fbffa77795a611293",
+          "url": "https://cdn.modrinth.com/data/ZTleks5T/versions/v1.0.13/lonsdaleite-1.0.13-1.16.jar",
+          "filename": "lonsdaleite-1.0.13-1.16.jar",
           "primary": false,
-          "size": 507657
+          "size": 136857
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "9BLbMwkA",
+      "name": "Lonsdaleite Tools",
+      "version_number": "1.0.10",
+      "game_versions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a39482224c8d771f8fa56dd4ad1ea9d08b66956a6ef82f9bf0e0a08571e3c35f9608290c5abc807584069bf6f781197fadff97e4a59f6900396fe2a986247316",
+          "url": "https://cdn.modrinth.com/data/ZTleks5T/versions/1.0.10/lonsdaleite-1.0.10-1.16.jar",
+          "filename": "lonsdaleite-1.0.10-1.16.jar",
+          "primary": false,
+          "size": 87033
         }
       ],
       "dependencies": []
@@ -51,82 +76,6 @@
       "dependencies": []
     },
     {
-      "id": "LicdrtoB",
-      "name": "Dagger Fix (Recipe)",
-      "version_number": "v1.0.14",
-      "game_versions": [
-        "1.16.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [],
-      "dependencies": []
-    },
-    {
-      "id": "5n30NXy4",
-      "name": "Json / Crafting issue Fix.",
-      "version_number": "v1.0.13",
-      "game_versions": [
-        "1.16.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "224513348595367768c4a97b0294992aca34ac97856bea20142d88b522cc1ba4de268131c88b3e338f9460d630b7763ef44c02909148020fbffa77795a611293",
-          "url": "https://cdn.modrinth.com/data/ZTleks5T/versions/v1.0.13/lonsdaleite-1.0.13-1.16.jar",
-          "filename": "lonsdaleite-1.0.13-1.16.jar",
-          "primary": false,
-          "size": 136857
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "faq6q7iP",
-      "name": "War Axe Update",
-      "version_number": "v1.0.12",
-      "game_versions": [
-        "1.16.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8fc5608678d90d20f84a98495765b9aaa56dc5bfa8eb99e1ac8d2abf7972947520af0c48fa68b0006f951bc39d04002ef916eabcf1e3037d90f3c5eae3ad9bd9",
-          "url": "https://cdn.modrinth.com/data/ZTleks5T/versions/v1.0.12/lonsdaleite-1.0.12-1.16.jar",
-          "filename": "lonsdaleite-1.0.12-1.16.jar",
-          "primary": false,
-          "size": 137004
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "aUyBn4gE",
-      "name": "War Axe Update",
-      "version_number": "1.0.12",
-      "game_versions": [
-        "1.16.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8fc5608678d90d20f84a98495765b9aaa56dc5bfa8eb99e1ac8d2abf7972947520af0c48fa68b0006f951bc39d04002ef916eabcf1e3037d90f3c5eae3ad9bd9",
-          "url": "https://cdn.modrinth.com/data/ZTleks5T/versions/1.0.12/lonsdaleite-1.0.12-1.16.jar",
-          "filename": "lonsdaleite-1.0.12-1.16.jar",
-          "primary": false,
-          "size": 137004
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "H6MN9jL6",
       "name": "Dagger Update",
       "version_number": "v1.0.11",
@@ -145,6 +94,19 @@
           "size": 93107
         }
       ],
+      "dependencies": []
+    },
+    {
+      "id": "LicdrtoB",
+      "name": "Dagger Fix (Recipe)",
+      "version_number": "v1.0.14",
+      "game_versions": [
+        "1.16.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [],
       "dependencies": []
     },
     {
@@ -173,14 +135,10 @@
       "dependencies": []
     },
     {
-      "id": "9BLbMwkA",
-      "name": "Lonsdaleite Tools",
-      "version_number": "1.0.10",
+      "id": "aUyBn4gE",
+      "name": "War Axe Update",
+      "version_number": "1.0.12",
       "game_versions": [
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
         "1.16.4"
       ],
       "loaders": [
@@ -188,11 +146,53 @@
       ],
       "files": [
         {
-          "sha512": "a39482224c8d771f8fa56dd4ad1ea9d08b66956a6ef82f9bf0e0a08571e3c35f9608290c5abc807584069bf6f781197fadff97e4a59f6900396fe2a986247316",
-          "url": "https://cdn.modrinth.com/data/ZTleks5T/versions/1.0.10/lonsdaleite-1.0.10-1.16.jar",
-          "filename": "lonsdaleite-1.0.10-1.16.jar",
+          "sha512": "8fc5608678d90d20f84a98495765b9aaa56dc5bfa8eb99e1ac8d2abf7972947520af0c48fa68b0006f951bc39d04002ef916eabcf1e3037d90f3c5eae3ad9bd9",
+          "url": "https://cdn.modrinth.com/data/ZTleks5T/versions/1.0.12/lonsdaleite-1.0.12-1.16.jar",
+          "filename": "lonsdaleite-1.0.12-1.16.jar",
           "primary": false,
-          "size": 87033
+          "size": 137004
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "faq6q7iP",
+      "name": "War Axe Update",
+      "version_number": "v1.0.12",
+      "game_versions": [
+        "1.16.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8fc5608678d90d20f84a98495765b9aaa56dc5bfa8eb99e1ac8d2abf7972947520af0c48fa68b0006f951bc39d04002ef916eabcf1e3037d90f3c5eae3ad9bd9",
+          "url": "https://cdn.modrinth.com/data/ZTleks5T/versions/v1.0.12/lonsdaleite-1.0.12-1.16.jar",
+          "filename": "lonsdaleite-1.0.12-1.16.jar",
+          "primary": false,
+          "size": 137004
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "tSdRgPhU",
+      "name": "Balance Fix - 1.16.5",
+      "version_number": "v1.0.15",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "63db69a454ad2f716861a4fd64dbf802052b41507ea9e79bcf22e3deca2cbd13e28f73909ac317da93fb633c67598881f519966e42e8a97bd1f1b524155562b3",
+          "url": "https://cdn.modrinth.com/data/ZTleks5T/versions/v1.0.15/lonsdaleite-1.0.15-1.16.jar",
+          "filename": "lonsdaleite-1.0.15-1.16.jar",
+          "primary": false,
+          "size": 507657
         }
       ],
       "dependencies": []

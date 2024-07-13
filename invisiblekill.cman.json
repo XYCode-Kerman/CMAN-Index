@@ -5,25 +5,31 @@
   "description": "When killing a player under an invisibility potion, unknown is written in the chat instead of the killer's name",
   "versions": [
     {
-      "id": "wJ8GM1RB",
-      "name": "InvisibleKill 2.3",
-      "version_number": "2.3",
+      "id": "F99kiYlJ",
+      "name": "InvisibleKill Recode",
+      "version_number": "Recode",
       "game_versions": [
-        "1.21"
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
         "bukkit",
+        "folia",
         "paper",
         "purpur",
-        "spigot"
+        "spigot",
+        "sponge"
       ],
       "files": [
         {
-          "sha512": "c5a3829aacf4e66e3a2c06c14541ebeb03e172149b7bf27f4680bda064cd675094e9661e18bbf86f8c39a9b5949c20b383a8b4bbea8bb980d035cd8d04039feb",
-          "url": "https://cdn.modrinth.com/data/fIWxg70A/versions/wJ8GM1RB/InvisibleKillRecode.jar",
+          "sha512": "a43a7708baf986b592ad9af426d232eb2666b4c7bfa36d1c6340e15dd5f0b2228614bfb20fe64155712303fa4468b337b7ea0c715372e4285d85cfc889b61890",
+          "url": "https://cdn.modrinth.com/data/fIWxg70A/versions/F99kiYlJ/InvisibleKillRecode.jar",
           "filename": "InvisibleKillRecode.jar",
           "primary": true,
-          "size": 2440
+          "size": 2151
         }
       ],
       "dependencies": []
@@ -48,6 +54,34 @@
           "filename": "InvisibleKillRecode.jar",
           "primary": true,
           "size": 1853
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "TK0vmEd3",
+      "name": "InvisibleKill 1.0",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "bukkit",
+        "paper",
+        "purpur",
+        "spigot"
+      ],
+      "files": [
+        {
+          "sha512": "8f310b31c6e574e2f620a15b22a9dfd33bb11c22dc1b614b12cf72d6c2a215b8bcd38b36dca7dfa06a3cb2fc3bdebaa850a7f02a65208461be7ee9dd21d7d80a",
+          "url": "https://cdn.modrinth.com/data/fIWxg70A/versions/TK0vmEd3/InvisibleKiller%201.0.jar",
+          "filename": "InvisibleKiller 1.0.jar",
+          "primary": true,
+          "size": 1879
         }
       ],
       "dependencies": []
@@ -83,45 +117,11 @@
       "dependencies": []
     },
     {
-      "id": "F99kiYlJ",
-      "name": "InvisibleKill Recode",
-      "version_number": "Recode",
+      "id": "wJ8GM1RB",
+      "name": "InvisibleKill 2.3",
+      "version_number": "2.3",
       "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "bukkit",
-        "folia",
-        "paper",
-        "purpur",
-        "spigot",
-        "sponge"
-      ],
-      "files": [
-        {
-          "sha512": "a43a7708baf986b592ad9af426d232eb2666b4c7bfa36d1c6340e15dd5f0b2228614bfb20fe64155712303fa4468b337b7ea0c715372e4285d85cfc889b61890",
-          "url": "https://cdn.modrinth.com/data/fIWxg70A/versions/F99kiYlJ/InvisibleKillRecode.jar",
-          "filename": "InvisibleKillRecode.jar",
-          "primary": true,
-          "size": 2151
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "TK0vmEd3",
-      "name": "InvisibleKill 1.0",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.21"
       ],
       "loaders": [
         "bukkit",
@@ -131,11 +131,11 @@
       ],
       "files": [
         {
-          "sha512": "8f310b31c6e574e2f620a15b22a9dfd33bb11c22dc1b614b12cf72d6c2a215b8bcd38b36dca7dfa06a3cb2fc3bdebaa850a7f02a65208461be7ee9dd21d7d80a",
-          "url": "https://cdn.modrinth.com/data/fIWxg70A/versions/TK0vmEd3/InvisibleKiller%201.0.jar",
-          "filename": "InvisibleKiller 1.0.jar",
+          "sha512": "c5a3829aacf4e66e3a2c06c14541ebeb03e172149b7bf27f4680bda064cd675094e9661e18bbf86f8c39a9b5949c20b383a8b4bbea8bb980d035cd8d04039feb",
+          "url": "https://cdn.modrinth.com/data/fIWxg70A/versions/wJ8GM1RB/InvisibleKillRecode.jar",
+          "filename": "InvisibleKillRecode.jar",
           "primary": true,
-          "size": 1879
+          "size": 2440
         }
       ],
       "dependencies": []

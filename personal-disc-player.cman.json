@@ -5,25 +5,39 @@
   "description": "A personal disc player for your convenience",
   "versions": [
     {
-      "id": "oN0AfQhD",
-      "name": "Personal Disc Player 1.21-1.1.4",
-      "version_number": "1.21-1.1.4",
+      "id": "9GX9opic",
+      "name": "Personal Disc Player 1.20.6-1.1.2",
+      "version_number": "1.20.6-1.1.2",
       "game_versions": [
-        "1.21"
+        "1.20.5",
+        "1.20.6"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "c3a5d44ef083981a554a0d7160f0700c92eb25aa2989101870bed30d9f56d9b5b2b8d659e1cde622c624c16e962034f9fe50b0351be66b277ecedc2accc20f6b",
-          "url": "https://cdn.modrinth.com/data/1P6MyJ48/versions/oN0AfQhD/personalplayer-1.21-1.1.4.jar",
-          "filename": "personalplayer-1.21-1.1.4.jar",
+          "sha512": "5f9d34ed44ba647ef6b70d69e3cadc41423011aa7d0ce4b10d146b9b561cf079a6f88f8d52c0a95a8d22bb2880174019216bce0eabc913cdeea0ceb16c0dc3ad",
+          "url": "https://cdn.modrinth.com/data/1P6MyJ48/versions/9GX9opic/personalplayer-1.20.6-1.1.2.jar",
+          "filename": "personalplayer-1.20.6-1.1.2.jar",
           "primary": true,
-          "size": 44152
+          "size": 40347
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "SHJeFf7t",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "J5JGqRIh",
@@ -81,32 +95,29 @@
       ]
     },
     {
-      "id": "9GX9opic",
-      "name": "Personal Disc Player 1.20.6-1.1.2",
-      "version_number": "1.20.6-1.1.2",
+      "id": "f0TkbCqn",
+      "name": "Personal Disc Player 1.20.x-1.0.0",
+      "version_number": "1.20.x-1.0.0",
       "game_versions": [
-        "1.20.5",
-        "1.20.6"
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "5f9d34ed44ba647ef6b70d69e3cadc41423011aa7d0ce4b10d146b9b561cf079a6f88f8d52c0a95a8d22bb2880174019216bce0eabc913cdeea0ceb16c0dc3ad",
-          "url": "https://cdn.modrinth.com/data/1P6MyJ48/versions/9GX9opic/personalplayer-1.20.6-1.1.2.jar",
-          "filename": "personalplayer-1.20.6-1.1.2.jar",
+          "sha512": "a46b1749289ac4db7d8e083b34827ffce8fef943a227b501322d822627bb19184e5e39a61d0733d8c50fce97de567528318313955ac8b0b9b978f56a9c411301",
+          "url": "https://cdn.modrinth.com/data/1P6MyJ48/versions/f0TkbCqn/personalplayer-1.20.x-1.0.0.jar",
+          "filename": "personalplayer-1.20.x-1.0.0.jar",
           "primary": true,
-          "size": 40347
+          "size": 21330
         }
       ],
       "dependencies": [
-        {
-          "project_id": "SHJeFf7t",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
@@ -151,36 +162,25 @@
       ]
     },
     {
-      "id": "f0TkbCqn",
-      "name": "Personal Disc Player 1.20.x-1.0.0",
-      "version_number": "1.20.x-1.0.0",
+      "id": "oN0AfQhD",
+      "name": "Personal Disc Player 1.21-1.1.4",
+      "version_number": "1.21-1.1.4",
       "game_versions": [
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.21"
       ],
       "loaders": [
-        "fabric",
-        "quilt"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "a46b1749289ac4db7d8e083b34827ffce8fef943a227b501322d822627bb19184e5e39a61d0733d8c50fce97de567528318313955ac8b0b9b978f56a9c411301",
-          "url": "https://cdn.modrinth.com/data/1P6MyJ48/versions/f0TkbCqn/personalplayer-1.20.x-1.0.0.jar",
-          "filename": "personalplayer-1.20.x-1.0.0.jar",
+          "sha512": "c3a5d44ef083981a554a0d7160f0700c92eb25aa2989101870bed30d9f56d9b5b2b8d659e1cde622c624c16e962034f9fe50b0351be66b277ecedc2accc20f6b",
+          "url": "https://cdn.modrinth.com/data/1P6MyJ48/versions/oN0AfQhD/personalplayer-1.21-1.1.4.jar",
+          "filename": "personalplayer-1.21-1.1.4.jar",
           "primary": true,
-          "size": 21330
+          "size": 44152
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
+      "dependencies": []
     }
   ]
 }

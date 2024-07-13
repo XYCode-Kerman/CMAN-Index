@@ -1,13 +1,13 @@
 {
-  "id": "cocktail",
+  "id": "jdQlNcdX",
   "slug": "cocktail",
   "name": "Cocktail (spigot)",
   "description": "A Spigot plugin designed to expand the capabilities of Minecraft Datapacks via useful and powerful commands and utilities.",
   "versions": [
     {
-      "id": "mcSGR5RY",
-      "name": "Cocktail 1.2",
-      "version_number": "1.2",
+      "id": "EbeyvDP6",
+      "name": "Cocktail 1.0",
+      "version_number": "1.0",
       "game_versions": [
         "1.19",
         "1.19.1",
@@ -17,16 +17,23 @@
       "loaders": [
         "bukkit",
         "paper",
-        "purpur",
         "spigot"
       ],
       "files": [
         {
-          "sha512": "5ac17c194d3162a851d5e0a6c32a229abc7eca3a0f088b7f347113a4fa3bd401c2f2c32d84bd3a0c7c7286bc82e7c50a45e022c2bccc0f396bccf2daa38dd950",
-          "url": "https://cdn.modrinth.com/data/jdQlNcdX/versions/mcSGR5RY/Cocktail-1.2.jar",
-          "filename": "Cocktail-1.2.jar",
+          "sha512": "7d74aeefaad142fb40a64398b38789e341de8736184a8062a3706515f8f28c29ab261b832223be460b2a6320dc5776ee2423f18841abec17e3e9833a245f3ca2",
+          "url": "https://cdn.modrinth.com/data/jdQlNcdX/versions/EbeyvDP6/Cocktail-1.0.jar",
+          "filename": "Cocktail-1.0.jar",
           "primary": true,
-          "size": 518633
+          "size": 64359
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ExxvCi0y",
+          "version_id": "Xu8yr38G",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -54,12 +61,20 @@
           "primary": true,
           "size": 511933
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ExxvCi0y",
+          "version_id": "Xu8yr38G",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
       ]
     },
     {
-      "id": "EbeyvDP6",
-      "name": "Cocktail 1.0",
-      "version_number": "1.0",
+      "id": "mcSGR5RY",
+      "name": "Cocktail 1.2",
+      "version_number": "1.2",
       "game_versions": [
         "1.19",
         "1.19.1",
@@ -69,15 +84,24 @@
       "loaders": [
         "bukkit",
         "paper",
+        "purpur",
         "spigot"
       ],
       "files": [
         {
-          "sha512": "7d74aeefaad142fb40a64398b38789e341de8736184a8062a3706515f8f28c29ab261b832223be460b2a6320dc5776ee2423f18841abec17e3e9833a245f3ca2",
-          "url": "https://cdn.modrinth.com/data/jdQlNcdX/versions/EbeyvDP6/Cocktail-1.0.jar",
-          "filename": "Cocktail-1.0.jar",
+          "sha512": "5ac17c194d3162a851d5e0a6c32a229abc7eca3a0f088b7f347113a4fa3bd401c2f2c32d84bd3a0c7c7286bc82e7c50a45e022c2bccc0f396bccf2daa38dd950",
+          "url": "https://cdn.modrinth.com/data/jdQlNcdX/versions/mcSGR5RY/Cocktail-1.2.jar",
+          "filename": "Cocktail-1.2.jar",
           "primary": true,
-          "size": 64359
+          "size": 518633
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ExxvCi0y",
+          "version_id": "Xu8yr38G",
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
     }

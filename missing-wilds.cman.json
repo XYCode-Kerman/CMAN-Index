@@ -5,6 +5,119 @@
   "description": "Adds the features that were scrapped from the Wild Update",
   "versions": [
     {
+      "id": "1BAH1Fmm",
+      "name": "v1.0.0",
+      "version_number": "v1.0.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ef27d675bbc5d29b6cb3e93997fa9ba6154229aff84a90a179b0facbcee8f558f5bf658f370b5c47f7fc50310f233dba8b4857159cb3197501da7b2e8388898e",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/v1.0.0/missingwilds-1.0.0.jar",
+          "filename": "missingwilds-1.0.0.jar",
+          "primary": true,
+          "size": 259849
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "1rV0TzcL",
+      "name": "Missing Wilds v1.2.0+1.20 Beta 3 - Quilt",
+      "version_number": "v1.2.0-beta.3+1.20.1-quilt",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "55ee807dd55feeba52cc3001dbd3fef197df3e28cc15a2f40821ff75fa57c2b1efd56edb2ce0f9330ac63d228db65994b82fe582abff67353b29a41fb8d1bfda",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/1rV0TzcL/MissingWilds-quilt-1.20.1-1.2.0-beta.3.jar",
+          "filename": "MissingWilds-quilt-1.20.1-1.2.0-beta.3.jar",
+          "primary": true,
+          "size": 377137
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "fFx48erS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "2WyDYFXS",
+      "name": "Missing Wilds v1.2.0+1.20 Beta 5 - Quilt",
+      "version_number": "v1.2.0-beta.5+1.20.1-quilt",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "cb8962f92034aa0e6338a35e7d25a45a0ed9df0c85bbad9140e3545c71dce70fef656b35e7b01297e525608d86237f53ddd6b2f62c36c1be487460be8a505af5",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/2WyDYFXS/MissingWilds-quilt-1.20.1-1.2.0-beta.5.jar",
+          "filename": "MissingWilds-quilt-1.20.1-1.2.0-beta.5.jar",
+          "primary": true,
+          "size": 377387
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "fFx48erS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "4cTlUzWV",
+      "name": "Missing Wilds v1.2.0+1.19.2 Beta 2 - Fabric",
+      "version_number": "v1.2.0-beta.2+1.19.2-fabric",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9f4f2839233103176ae346349e56a753d32669c84529eaa778f5d2e4f64ce6c11d877276c93072f3a6961f649f523e28fcbf629d49687727f8515f8c1d5b1179",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/4cTlUzWV/MissingWilds-fabric-1.19.2-1.2.0-beta.2.jar",
+          "filename": "MissingWilds-fabric-1.19.2-1.2.0-beta.2.jar",
+          "primary": true,
+          "size": 363181
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "USLVyT7V",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "6QhjdE9r",
       "name": "Missing Wilds Quilt 1.2.1+1.20.1",
       "version_number": "v1.2.1+1.20.1-quilt",
@@ -21,225 +134,6 @@
           "filename": "MissingWilds-quilt-1.2.1+1.20.1.jar",
           "primary": true,
           "size": 466038
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "CUyy6u4Y",
-      "name": "Missing Wilds Forge 1.2.1+1.20.1",
-      "version_number": "v1.2.1+1.20.1-forge",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "79d36c4a0a564c0b9eadd805df6f73d1746f18867cdaef3cb3725346e236a7bf0697a6d10b3f8efb2f39ce8ed39633065b221c6b750a4de9974188b80f7ddb0c",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/CUyy6u4Y/MissingWilds-forge-1.2.1%2B1.20.1.jar",
-          "filename": "MissingWilds-forge-1.2.1+1.20.1.jar",
-          "primary": true,
-          "size": 404859
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "83pFEQVb",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "FU3pQpFT",
-      "name": "Missing Wilds Fabric 1.2.1+1.20.1",
-      "version_number": "v1.2.1+1.20.1-fabric",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0985439f7fcd5d40bcf735edbab131704101507badfcebbab90f26a42f49d542aba8a56aef3289050064d7ede68e1c7f0c1b4cddf6a90b39a5906b8f169e9bee",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/FU3pQpFT/MissingWilds-fabric-1.2.1%2B1.20.1.jar",
-          "filename": "MissingWilds-fabric-1.2.1+1.20.1.jar",
-          "primary": true,
-          "size": 445993
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "USLVyT7V",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "7Ur35xRv",
-      "name": "Missing Wilds Forge 1.2.0+1.20.1",
-      "version_number": "v1.2.0+1.20.1-forge",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "62b17bb9a40572b2edd1a8cce6515438d5eb099f3c0f5ec8c7a276879f245c906b675aff6a2bfb83cee209df4d391dbc30ccf74cae0148aeb7b536add6401fa0",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/7Ur35xRv/MissingWilds-forge-1.2.0%2B1.20.1.jar",
-          "filename": "MissingWilds-forge-1.2.0+1.20.1.jar",
-          "primary": true,
-          "size": 448912
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "83pFEQVb",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "w0XKjr7B",
-      "name": "Missing Wilds Quilt 1.2.0+1.20.1",
-      "version_number": "v1.2.0+1.20.1-quilt",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "c21ffd62f95efe42a8fd79f1f1892e7afdacb280bd6f7f5c725bb6600374856ef60d55c01b35f0af0e53fd0c96aa716e76088b7a20fe236a65a6623257867838",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/w0XKjr7B/MissingWilds-quilt-1.2.0%2B1.20.1.jar",
-          "filename": "MissingWilds-quilt-1.2.0+1.20.1.jar",
-          "primary": true,
-          "size": 510000
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ppVcErow",
-      "name": "Missing Wilds Fabric 1.2.0+1.20.1",
-      "version_number": "v1.2.0+1.20.1-fabric",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8eb57d96dd75fbfb0f6a054e9df36fb9ab3d5d014e79b3fc32dfb66fff18d623b4f3957c06aafbda1b2256898545eac2169a3bc6fcf6a1512e9753526357432c",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/ppVcErow/MissingWilds-fabric-1.2.0%2B1.20.1.jar",
-          "filename": "MissingWilds-fabric-1.2.0+1.20.1.jar",
-          "primary": true,
-          "size": 489953
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "USLVyT7V",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "vMRESHaS",
-      "name": "Missing Wilds v1.2.0+1.20 Beta 7 - Fabric",
-      "version_number": "v1.2.0-beta.7+1.20.1-fabric",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a67e0b7c45cb97655132458931b39441609485115604935afa1dddb77f2232f845d4c563e7c55c55b1d6d6f1ccc27f5c0807d8b3b4f75462edf6a02ec0c4a249",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/vMRESHaS/MissingWilds-fabric-1.20.1-1.2.0-beta.7.jar",
-          "filename": "MissingWilds-fabric-1.20.1-1.2.0-beta.7.jar",
-          "primary": true,
-          "size": 400181
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "USLVyT7V",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "kWHcf5XI",
-      "name": "Missing Wilds v1.2.0+1.20 Beta 7 - Quilt",
-      "version_number": "v1.2.0-beta.7+1.20.1-quilt",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2317888d225ea877f45b07015af45854a6f3faed866445d726440a1ba3fb85e0f0826315e33c9f6be5df4d52ab185ceb745d40ed9ab44d042ff0c1aec21d7d6e",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/kWHcf5XI/MissingWilds-quilt-1.20.1-1.2.0-beta.7.jar",
-          "filename": "MissingWilds-quilt-1.20.1-1.2.0-beta.7.jar",
-          "primary": true,
-          "size": 411146
         }
       ],
       "dependencies": [
@@ -287,38 +181,215 @@
       ]
     },
     {
-      "id": "TYbWppp0",
-      "name": "Missing Wilds v1.2.0+1.20 Beta 6 - Quilt",
-      "version_number": "v1.2.0-beta.6+1.20.1-quilt",
+      "id": "7Ur35xRv",
+      "name": "Missing Wilds Forge 1.2.0+1.20.1",
+      "version_number": "v1.2.0+1.20.1-forge",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.20.1",
+        "1.20.2"
       ],
       "loaders": [
-        "quilt"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "baa2b6de8a0826cf11def8c99b56993334f770a3f671003e79809d8eea3f4057b66e758867cf81934e3d57a5731f8cf3e81ca4a7a15b6531b2462945a38d382d",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/TYbWppp0/MissingWilds-quilt-1.20.1-1.2.0-beta.6.jar",
-          "filename": "MissingWilds-quilt-1.20.1-1.2.0-beta.6.jar",
+          "sha512": "62b17bb9a40572b2edd1a8cce6515438d5eb099f3c0f5ec8c7a276879f245c906b675aff6a2bfb83cee209df4d391dbc30ccf74cae0148aeb7b536add6401fa0",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/7Ur35xRv/MissingWilds-forge-1.2.0%2B1.20.1.jar",
+          "filename": "MissingWilds-forge-1.2.0+1.20.1.jar",
           "primary": true,
-          "size": 411015
+          "size": 448912
         }
       ],
       "dependencies": [
         {
-          "project_id": "qvIfYCYJ",
+          "project_id": "83pFEQVb",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "mTWkowcZ",
-      "name": "Missing Wilds v1.2.0+1.20 Beta 5 - Fabric",
-      "version_number": "v1.2.0-beta.5+1.20.1-fabric",
+      "id": "9A6JOWnF",
+      "name": "v1.1.2 (Fabric & Quilt)",
+      "version_number": "v1.1.2-FABRIC",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "dbb23fb185842767ef2483fea540959a5fd3412774486add4f5a6bf2a9d8e0a09f8eb64315eb31989541a6bb158c229df95efca206b5587f62729677aa0e658d",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/v1.1.2-FABRIC/MissingWilds-fabric-1.19-1.1.2.jar",
+          "filename": "MissingWilds-fabric-1.19-1.1.2.jar",
+          "primary": true,
+          "size": 215037
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "USLVyT7V",
+          "version_id": "fZRj04a2",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "9da5SUUE",
+      "name": "v1.0.1",
+      "version_number": "v1.0.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f9e59b32534f79192a56d961dcbadaad8b4cc6e45cded4ecd848c17d7d4b40773658cbd16f629265f62aae4e27d3e314233a30725e24f0f2c916c53facf9b6fe",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/v1.0.1/missingwilds-1.0.1.jar",
+          "filename": "missingwilds-1.0.1.jar",
+          "primary": true,
+          "size": 260909
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "AqrTbFlu",
+      "name": "Missing Wilds 1.1.4 (Forge)",
+      "version_number": "1.1.4-FORGE",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "a960c812e0a5d52caca8d1f644aec6fb55124c9f8fdbe2800aa21697d29c95d927d376bcd6a70187e82595831dac03961222384753f56ed8098f971361c6402a",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/AqrTbFlu/MissingWilds-forge-1.19.4-1.1.4.jar",
+          "filename": "MissingWilds-forge-1.19.4-1.1.4.jar",
+          "primary": true,
+          "size": 121706
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "CUyy6u4Y",
+      "name": "Missing Wilds Forge 1.2.1+1.20.1",
+      "version_number": "v1.2.1+1.20.1-forge",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "79d36c4a0a564c0b9eadd805df6f73d1746f18867cdaef3cb3725346e236a7bf0697a6d10b3f8efb2f39ce8ed39633065b221c6b750a4de9974188b80f7ddb0c",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/CUyy6u4Y/MissingWilds-forge-1.2.1%2B1.20.1.jar",
+          "filename": "MissingWilds-forge-1.2.1+1.20.1.jar",
+          "primary": true,
+          "size": 404859
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "83pFEQVb",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "E6XEbizt",
+      "name": "v1.1.1 (Forge)",
+      "version_number": "v1.1.1-FORGE",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "917de9a20e9f8bc94a9fc6b8e9898aa31c010550d4da5054d1aa4369eb6f8ef1e4e48642725b1ffe35b9909a4df14d2be1584298e91c6807581a5c6b834477ad",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/v1.1.1-FORGE/MissingWilds-forge-1.19-1.1.1.jar",
+          "filename": "MissingWilds-forge-1.19-1.1.1.jar",
+          "primary": true,
+          "size": 116685
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "FU3pQpFT",
+      "name": "Missing Wilds Fabric 1.2.1+1.20.1",
+      "version_number": "v1.2.1+1.20.1-fabric",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0985439f7fcd5d40bcf735edbab131704101507badfcebbab90f26a42f49d542aba8a56aef3289050064d7ede68e1c7f0c1b4cddf6a90b39a5906b8f169e9bee",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/FU3pQpFT/MissingWilds-fabric-1.2.1%2B1.20.1.jar",
+          "filename": "MissingWilds-fabric-1.2.1+1.20.1.jar",
+          "primary": true,
+          "size": 445993
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "USLVyT7V",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "K44UJtlI",
+      "name": "Missing Wilds v1.2.0+1.19.4 Beta 1 - Forge",
+      "version_number": "v1.2.0-beta.1+1.19.4-forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5c5c57c8f1ed45705550f9d8ab01f96e2206b7bf213b17b431ad4825996dedba6ae7ecde21620ce92a6227cec9a3aef6813e53713305c40f657c46d1471ecea8",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/K44UJtlI/MissingWilds-forge-1.19.4-1.2.0-beta.1.jar",
+          "filename": "MissingWilds-forge-1.19.4-1.2.0-beta.1.jar",
+          "primary": true,
+          "size": 368730
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "KE1DqY72",
+      "name": "Missing Wilds v1.2.0+1.20 Beta 2 - Fabric",
+      "version_number": "v1.2.0-beta.2+1.20.1-fabric",
       "game_versions": [
         "1.20",
         "1.20.1"
@@ -328,32 +399,32 @@
       ],
       "files": [
         {
-          "sha512": "3a0b535bf24123407999731239a8996745e1d2677ec1f16f6b3c061994abd8f81e4441ad6b0ce4fd5d8fc5ca177cf2c0e29dc1d0c6c8d929797ab7bf4f122427",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/mTWkowcZ/MissingWilds-fabric-1.20.1-1.2.0-beta.5.jar",
-          "filename": "MissingWilds-fabric-1.20.1-1.2.0-beta.5.jar",
+          "sha512": "f36ac2e705fe34f52f6bc79e5f46c0cbd077872bcc56db3caa224bbcf5486a47d2543502988de71bda8ad1059da4cab58fde0d21f3198c2447c1379ba654e49e",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/KE1DqY72/MissingWilds-fabric-1.20.1-1.2.0-beta.2.jar",
+          "filename": "MissingWilds-fabric-1.20.1-1.2.0-beta.2.jar",
           "primary": true,
-          "size": 369397
+          "size": 367754
         }
       ],
       "dependencies": [
         {
-          "project_id": "USLVyT7V",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "P7dR8mSH",
-          "version_id": null,
+          "version_id": "XheZ9iGK",
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "USLVyT7V",
+          "version_id": "h2cAK7mt",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "2WyDYFXS",
-      "name": "Missing Wilds v1.2.0+1.20 Beta 5 - Quilt",
-      "version_number": "v1.2.0-beta.5+1.20.1-quilt",
+      "id": "McZRLQ6v",
+      "name": "Missing Wilds v1.2.0+1.20 Beta 2 - Quilt",
+      "version_number": "v1.2.0-beta.2+1.20.1-quilt",
       "game_versions": [
         "1.20",
         "1.20.1"
@@ -363,11 +434,11 @@
       ],
       "files": [
         {
-          "sha512": "cb8962f92034aa0e6338a35e7d25a45a0ed9df0c85bbad9140e3545c71dce70fef656b35e7b01297e525608d86237f53ddd6b2f62c36c1be487460be8a505af5",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/2WyDYFXS/MissingWilds-quilt-1.20.1-1.2.0-beta.5.jar",
-          "filename": "MissingWilds-quilt-1.20.1-1.2.0-beta.5.jar",
+          "sha512": "3c27faf2e5b9088e920e7c34751047bf7ad89d8cedb1bd501ea928f5a47dd22fe4700cb7fa2d4df1b28599f20c1dd2392083b43f8fae11d0912d9810dc5b39c5",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/McZRLQ6v/MissingWilds-quilt-1.20.1-1.2.0-beta.2.jar",
+          "filename": "MissingWilds-quilt-1.20.1-1.2.0-beta.2.jar",
           "primary": true,
-          "size": 377387
+          "size": 375774
         }
       ],
       "dependencies": [
@@ -409,6 +480,262 @@
       ]
     },
     {
+      "id": "Qp4mzcwz",
+      "name": "Missing Wilds v1.2.0+1.19.2 Beta 1 - Fabric",
+      "version_number": "v1.2.0-beta.1+1.19.2-fabric",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "362e55895524a59a84448888ed207f2796c5d8eec3206506a6008d396e37044b8b3b7a78ed2640ad1c28e07c2f0cfbec6f785be71b80c172372daffda1ef59a5",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/Qp4mzcwz/MissingWilds-fabric-1.19.2-1.2.0-beta.1.jar",
+          "filename": "MissingWilds-fabric-1.19.2-1.2.0-beta.1.jar",
+          "primary": true,
+          "size": 361156
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "USLVyT7V",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "TYbWppp0",
+      "name": "Missing Wilds v1.2.0+1.20 Beta 6 - Quilt",
+      "version_number": "v1.2.0-beta.6+1.20.1-quilt",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "baa2b6de8a0826cf11def8c99b56993334f770a3f671003e79809d8eea3f4057b66e758867cf81934e3d57a5731f8cf3e81ca4a7a15b6531b2462945a38d382d",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/TYbWppp0/MissingWilds-quilt-1.20.1-1.2.0-beta.6.jar",
+          "filename": "MissingWilds-quilt-1.20.1-1.2.0-beta.6.jar",
+          "primary": true,
+          "size": 411015
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "UoZjeXyw",
+      "name": "v1.1.0 (Fabric)",
+      "version_number": "v1.1.0-FABRIC",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2cb14651befc12052c2b44d825f9cce24377c5ee18c17bf7ac829e29656b99c136cae6b9c2d5e998d49bfb2b12d4f2acf5d731223fdb3deca70c015dabc4de45",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/v1.1.0-FABRIC/MissingWIlds-fabric-1.18.2-1.1.0.jar",
+          "filename": "MissingWIlds-fabric-1.18.2-1.1.0.jar",
+          "primary": true,
+          "size": 207968
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "WwLNA9vO",
+      "name": "Missing Wilds v1.2.0+1.19.4 Beta 1 - Fabric",
+      "version_number": "v1.2.0-beta.1+1.19.4-fabric",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ba05ba985876b6496b2124ca24ed073d3431aca92557062382289cc9fef18fd9a6f0830f903bcb47f7751aa595b6270b247949394f72b5adde032fe8c36fbfcf",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/WwLNA9vO/MissingWilds-fabric-1.19.4-1.2.0-beta.1.jar",
+          "filename": "MissingWilds-fabric-1.19.4-1.2.0-beta.1.jar",
+          "primary": true,
+          "size": 359866
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "USLVyT7V",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "YKlkpfeY",
+      "name": "Missing Wilds v1.2.0+1.19.2 Beta 2 - Forge",
+      "version_number": "v1.2.0-beta.2+1.19.2-forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e0411e206067224a67b4c1e431c0e71697c9f9b0e7ac6821520ed71dbd2d29796ecb5889bfb06434f72c74b62de969f3a5a4418e11c8318c157fd1dc8f1e4218",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/YKlkpfeY/MissingWilds-forge-1.19.2-1.2.0-beta.2.jar",
+          "filename": "MissingWilds-forge-1.19.2-1.2.0-beta.2.jar",
+          "primary": true,
+          "size": 370243
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "YtPVa5V0",
+      "name": "Missing Wilds v1.2.0+1.19.4 Beta 1 - Quilt",
+      "version_number": "v1.2.0-beta.1+1.19.4-quilt",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "b7fe932824d054193969975b4787597bc4e60a2cf0280ef89eef423aec730700db262e2781dcc89da0eedb8f1b6202ce3968fa2b568efa9b72147aabdd33f31c",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/YtPVa5V0/MissingWilds-quilt-1.19.4-1.2.0-beta.1.jar",
+          "filename": "MissingWilds-quilt-1.19.4-1.2.0-beta.1.jar",
+          "primary": true,
+          "size": 366795
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "gekGJBUM",
+      "name": "Missing Wilds 1.1.3 (Fabric & Quilt)",
+      "version_number": "1.1.3-FABRIC",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "b0d55cdaae42f33ebfbfdd62f8cb62eebbed745a6446fdf0079367cefeace24deeac13c700501758e317e06fe041b45e801144fc9fdfb5d1d39d60ab71f01a62",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/gekGJBUM/MissingWilds-fabric-1.19.3-1.1.3.jar",
+          "filename": "MissingWilds-fabric-1.19.3-1.1.3.jar",
+          "primary": true,
+          "size": 228490
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "USLVyT7V",
+          "version_id": "3q01oqgA",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "if4FKoj6",
+      "name": "Missing Wilds 1.1.4 (Fabric & Quilt)",
+      "version_number": "1.1.4-FABRIC",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "609662659a500437607aabdd2ea335cdfb007cb3a11a50565fbfeffa98d4b9693e031ec63718345d38817391c64c81f22e265b46412f2b580ecd730657394197",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/if4FKoj6/MissingWilds-fabric-1.19.4-1.1.4.jar",
+          "filename": "MissingWilds-fabric-1.19.4-1.1.4.jar",
+          "primary": true,
+          "size": 228488
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "USLVyT7V",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "kWHcf5XI",
+      "name": "Missing Wilds v1.2.0+1.20 Beta 7 - Quilt",
+      "version_number": "v1.2.0-beta.7+1.20.1-quilt",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2317888d225ea877f45b07015af45854a6f3faed866445d726440a1ba3fb85e0f0826315e33c9f6be5df4d52ab185ceb745d40ed9ab44d042ff0c1aec21d7d6e",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/kWHcf5XI/MissingWilds-quilt-1.20.1-1.2.0-beta.7.jar",
+          "filename": "MissingWilds-quilt-1.20.1-1.2.0-beta.7.jar",
+          "primary": true,
+          "size": 411146
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "mTNXLZSF",
       "name": "Missing Wilds v1.2.0+1.20 Beta 3 - Fabric",
       "version_number": "v1.2.0-beta.3+1.20.1-fabric",
@@ -430,81 +757,23 @@
       ],
       "dependencies": [
         {
-          "project_id": "USLVyT7V",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": "XheZ9iGK",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "1rV0TzcL",
-      "name": "Missing Wilds v1.2.0+1.20 Beta 3 - Quilt",
-      "version_number": "v1.2.0-beta.3+1.20.1-quilt",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
+        },
         {
-          "sha512": "55ee807dd55feeba52cc3001dbd3fef197df3e28cc15a2f40821ff75fa57c2b1efd56edb2ce0f9330ac63d228db65994b82fe582abff67353b29a41fb8d1bfda",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/1rV0TzcL/MissingWilds-quilt-1.20.1-1.2.0-beta.3.jar",
-          "filename": "MissingWilds-quilt-1.20.1-1.2.0-beta.3.jar",
-          "primary": true,
-          "size": 377137
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "fFx48erS",
+          "project_id": "USLVyT7V",
+          "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "McZRLQ6v",
-      "name": "Missing Wilds v1.2.0+1.20 Beta 2 - Quilt",
-      "version_number": "v1.2.0-beta.2+1.20.1-quilt",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3c27faf2e5b9088e920e7c34751047bf7ad89d8cedb1bd501ea928f5a47dd22fe4700cb7fa2d4df1b28599f20c1dd2392083b43f8fae11d0912d9810dc5b39c5",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/McZRLQ6v/MissingWilds-quilt-1.20.1-1.2.0-beta.2.jar",
-          "filename": "MissingWilds-quilt-1.20.1-1.2.0-beta.2.jar",
-          "primary": true,
-          "size": 375774
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "fFx48erS",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "KE1DqY72",
-      "name": "Missing Wilds v1.2.0+1.20 Beta 2 - Fabric",
-      "version_number": "v1.2.0-beta.2+1.20.1-fabric",
+      "id": "mTWkowcZ",
+      "name": "Missing Wilds v1.2.0+1.20 Beta 5 - Fabric",
+      "version_number": "v1.2.0-beta.5+1.20.1-fabric",
       "game_versions": [
         "1.20",
         "1.20.1"
@@ -514,53 +783,25 @@
       ],
       "files": [
         {
-          "sha512": "f36ac2e705fe34f52f6bc79e5f46c0cbd077872bcc56db3caa224bbcf5486a47d2543502988de71bda8ad1059da4cab58fde0d21f3198c2447c1379ba654e49e",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/KE1DqY72/MissingWilds-fabric-1.20.1-1.2.0-beta.2.jar",
-          "filename": "MissingWilds-fabric-1.20.1-1.2.0-beta.2.jar",
+          "sha512": "3a0b535bf24123407999731239a8996745e1d2677ec1f16f6b3c061994abd8f81e4441ad6b0ce4fd5d8fc5ca177cf2c0e29dc1d0c6c8d929797ab7bf4f122427",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/mTWkowcZ/MissingWilds-fabric-1.20.1-1.2.0-beta.5.jar",
+          "filename": "MissingWilds-fabric-1.20.1-1.2.0-beta.5.jar",
           "primary": true,
-          "size": 367754
+          "size": 369397
         }
       ],
       "dependencies": [
-        {
-          "project_id": "USLVyT7V",
-          "version_id": "h2cAK7mt",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "zWtapWEe",
-      "name": "Missing Wilds v1.2.0+1.19.4 Beta 2 - Quilt",
-      "version_number": "v1.2.0-beta.2+1.19.4-quilt",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "82d16fa2d136b1e792d2a0e7d818e6ad7ee67c294b297d4688d5f578016362fae26fa6378113fcac1b6ea92a0003e83d9230b53c523718b02399c203d684c6d5",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/zWtapWEe/MissingWilds-quilt-1.19.4-1.2.0-beta.2.jar",
-          "filename": "MissingWilds-quilt-1.19.4-1.2.0-beta.2.jar",
-          "primary": true,
-          "size": 370629
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "USLVyT7V",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -620,6 +861,61 @@
       ]
     },
     {
+      "id": "pKVAdkWH",
+      "name": "Missing Wilds v1.2.0+1.19.2 Beta 1 - Forge",
+      "version_number": "v1.2.0-beta.1+1.19.2-forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "719e03cf921a434e9ed5d309abe96cfeaad184c5e97c09e4f282242ff67a51ac2a08478db432ae5b3f5ea31535d048714981947996e654831c9aec8563bf39d9",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/pKVAdkWH/MissingWilds-forge-1.19.2-1.2.0-beta.1.jar",
+          "filename": "MissingWilds-forge-1.19.2-1.2.0-beta.1.jar",
+          "primary": true,
+          "size": 368216
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ppVcErow",
+      "name": "Missing Wilds Fabric 1.2.0+1.20.1",
+      "version_number": "v1.2.0+1.20.1-fabric",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8eb57d96dd75fbfb0f6a054e9df36fb9ab3d5d014e79b3fc32dfb66fff18d623b4f3957c06aafbda1b2256898545eac2169a3bc6fcf6a1512e9753526357432c",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/ppVcErow/MissingWilds-fabric-1.2.0%2B1.20.1.jar",
+          "filename": "MissingWilds-fabric-1.2.0+1.20.1.jar",
+          "primary": true,
+          "size": 489953
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "USLVyT7V",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "q1Z1ov2J",
       "name": "Missing Wilds v1.2.0+1.19.2 Beta 2 - Quilt",
       "version_number": "v1.2.0-beta.2+1.19.2-quilt",
@@ -648,142 +944,25 @@
       ]
     },
     {
-      "id": "YKlkpfeY",
-      "name": "Missing Wilds v1.2.0+1.19.2 Beta 2 - Forge",
-      "version_number": "v1.2.0-beta.2+1.19.2-forge",
+      "id": "szQITYw5",
+      "name": "v1.1.0 (Forge)",
+      "version_number": "v1.1.0-FORGE",
       "game_versions": [
-        "1.19.2"
+        "1.18.2"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "e0411e206067224a67b4c1e431c0e71697c9f9b0e7ac6821520ed71dbd2d29796ecb5889bfb06434f72c74b62de969f3a5a4418e11c8318c157fd1dc8f1e4218",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/YKlkpfeY/MissingWilds-forge-1.19.2-1.2.0-beta.2.jar",
-          "filename": "MissingWilds-forge-1.19.2-1.2.0-beta.2.jar",
+          "sha512": "0367f57082c6e32bd560d630da163e6a4d2eba83fe4048d239a033a8577909e20db260c8eadc6fb7f1ebb638c8fa5f9d2ade3ddc6f862a06227139afc9ad9925",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/v1.1.0-FORGE/MissingWilds-forge-1.18.2-1.1.0.jar",
+          "filename": "MissingWilds-forge-1.18.2-1.1.0.jar",
           "primary": true,
-          "size": 370243
+          "size": 115168
         }
       ],
       "dependencies": []
-    },
-    {
-      "id": "4cTlUzWV",
-      "name": "Missing Wilds v1.2.0+1.19.2 Beta 2 - Fabric",
-      "version_number": "v1.2.0-beta.2+1.19.2-fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "9f4f2839233103176ae346349e56a753d32669c84529eaa778f5d2e4f64ce6c11d877276c93072f3a6961f649f523e28fcbf629d49687727f8515f8c1d5b1179",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/4cTlUzWV/MissingWilds-fabric-1.19.2-1.2.0-beta.2.jar",
-          "filename": "MissingWilds-fabric-1.19.2-1.2.0-beta.2.jar",
-          "primary": true,
-          "size": 363181
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "USLVyT7V",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "YtPVa5V0",
-      "name": "Missing Wilds v1.2.0+1.19.4 Beta 1 - Quilt",
-      "version_number": "v1.2.0-beta.1+1.19.4-quilt",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "b7fe932824d054193969975b4787597bc4e60a2cf0280ef89eef423aec730700db262e2781dcc89da0eedb8f1b6202ce3968fa2b568efa9b72147aabdd33f31c",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/YtPVa5V0/MissingWilds-quilt-1.19.4-1.2.0-beta.1.jar",
-          "filename": "MissingWilds-quilt-1.19.4-1.2.0-beta.1.jar",
-          "primary": true,
-          "size": 366795
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "K44UJtlI",
-      "name": "Missing Wilds v1.2.0+1.19.4 Beta 1 - Forge",
-      "version_number": "v1.2.0-beta.1+1.19.4-forge",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "5c5c57c8f1ed45705550f9d8ab01f96e2206b7bf213b17b431ad4825996dedba6ae7ecde21620ce92a6227cec9a3aef6813e53713305c40f657c46d1471ecea8",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/K44UJtlI/MissingWilds-forge-1.19.4-1.2.0-beta.1.jar",
-          "filename": "MissingWilds-forge-1.19.4-1.2.0-beta.1.jar",
-          "primary": true,
-          "size": 368730
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "WwLNA9vO",
-      "name": "Missing Wilds v1.2.0+1.19.4 Beta 1 - Fabric",
-      "version_number": "v1.2.0-beta.1+1.19.4-fabric",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ba05ba985876b6496b2124ca24ed073d3431aca92557062382289cc9fef18fd9a6f0830f903bcb47f7751aa595b6270b247949394f72b5adde032fe8c36fbfcf",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/WwLNA9vO/MissingWilds-fabric-1.19.4-1.2.0-beta.1.jar",
-          "filename": "MissingWilds-fabric-1.19.4-1.2.0-beta.1.jar",
-          "primary": true,
-          "size": 359866
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "USLVyT7V",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
     },
     {
       "id": "tEJFvR4T",
@@ -814,276 +993,40 @@
       ]
     },
     {
-      "id": "pKVAdkWH",
-      "name": "Missing Wilds v1.2.0+1.19.2 Beta 1 - Forge",
-      "version_number": "v1.2.0-beta.1+1.19.2-forge",
+      "id": "vMRESHaS",
+      "name": "Missing Wilds v1.2.0+1.20 Beta 7 - Fabric",
+      "version_number": "v1.2.0-beta.7+1.20.1-fabric",
       "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "719e03cf921a434e9ed5d309abe96cfeaad184c5e97c09e4f282242ff67a51ac2a08478db432ae5b3f5ea31535d048714981947996e654831c9aec8563bf39d9",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/pKVAdkWH/MissingWilds-forge-1.19.2-1.2.0-beta.1.jar",
-          "filename": "MissingWilds-forge-1.19.2-1.2.0-beta.1.jar",
-          "primary": true,
-          "size": 368216
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Qp4mzcwz",
-      "name": "Missing Wilds v1.2.0+1.19.2 Beta 1 - Fabric",
-      "version_number": "v1.2.0-beta.1+1.19.2-fabric",
-      "game_versions": [
-        "1.19.2"
+        "1.20",
+        "1.20.1",
+        "1.20.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "362e55895524a59a84448888ed207f2796c5d8eec3206506a6008d396e37044b8b3b7a78ed2640ad1c28e07c2f0cfbec6f785be71b80c172372daffda1ef59a5",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/Qp4mzcwz/MissingWilds-fabric-1.19.2-1.2.0-beta.1.jar",
-          "filename": "MissingWilds-fabric-1.19.2-1.2.0-beta.1.jar",
+          "sha512": "a67e0b7c45cb97655132458931b39441609485115604935afa1dddb77f2232f845d4c563e7c55c55b1d6d6f1ccc27f5c0807d8b3b4f75462edf6a02ec0c4a249",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/vMRESHaS/MissingWilds-fabric-1.20.1-1.2.0-beta.7.jar",
+          "filename": "MissingWilds-fabric-1.20.1-1.2.0-beta.7.jar",
           "primary": true,
-          "size": 361156
+          "size": 400181
         }
       ],
       "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "USLVyT7V",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "AqrTbFlu",
-      "name": "Missing Wilds 1.1.4 (Forge)",
-      "version_number": "1.1.4-FORGE",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
+        },
         {
-          "sha512": "a960c812e0a5d52caca8d1f644aec6fb55124c9f8fdbe2800aa21697d29c95d927d376bcd6a70187e82595831dac03961222384753f56ed8098f971361c6402a",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/AqrTbFlu/MissingWilds-forge-1.19.4-1.1.4.jar",
-          "filename": "MissingWilds-forge-1.19.4-1.1.4.jar",
-          "primary": true,
-          "size": 121706
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "if4FKoj6",
-      "name": "Missing Wilds 1.1.4 (Fabric & Quilt)",
-      "version_number": "1.1.4-FABRIC",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "609662659a500437607aabdd2ea335cdfb007cb3a11a50565fbfeffa98d4b9693e031ec63718345d38817391c64c81f22e265b46412f2b580ecd730657394197",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/if4FKoj6/MissingWilds-fabric-1.19.4-1.1.4.jar",
-          "filename": "MissingWilds-fabric-1.19.4-1.1.4.jar",
-          "primary": true,
-          "size": 228488
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "USLVyT7V",
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "required"
         }
       ]
-    },
-    {
-      "id": "gekGJBUM",
-      "name": "Missing Wilds 1.1.3 (Fabric & Quilt)",
-      "version_number": "1.1.3-FABRIC",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "b0d55cdaae42f33ebfbfdd62f8cb62eebbed745a6446fdf0079367cefeace24deeac13c700501758e317e06fe041b45e801144fc9fdfb5d1d39d60ab71f01a62",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/gekGJBUM/MissingWilds-fabric-1.19.3-1.1.3.jar",
-          "filename": "MissingWilds-fabric-1.19.3-1.1.3.jar",
-          "primary": true,
-          "size": 228490
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "USLVyT7V",
-          "version_id": "3q01oqgA",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "zsWgYniU",
-      "name": "v1.1.3 (Forge)",
-      "version_number": "v1.1.3-FORGE",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "0a0509ad3b3d04a08f3f770bd540b2d5639e7fb5c4148fca4cbc8ac51abf5e22e568aa56894f4e9fa2d9f503b3592091f649881c0deb506658600d8307135784",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/zsWgYniU/MissingWilds-forge-1.19.3-1.1.3.jar",
-          "filename": "MissingWilds-forge-1.19.3-1.1.3.jar",
-          "primary": true,
-          "size": 121706
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "9A6JOWnF",
-      "name": "v1.1.2 (Fabric & Quilt)",
-      "version_number": "v1.1.2-FABRIC",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "dbb23fb185842767ef2483fea540959a5fd3412774486add4f5a6bf2a9d8e0a09f8eb64315eb31989541a6bb158c229df95efca206b5587f62729677aa0e658d",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/v1.1.2-FABRIC/MissingWilds-fabric-1.19-1.1.2.jar",
-          "filename": "MissingWilds-fabric-1.19-1.1.2.jar",
-          "primary": true,
-          "size": 215037
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "USLVyT7V",
-          "version_id": "fZRj04a2",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "E6XEbizt",
-      "name": "v1.1.1 (Forge)",
-      "version_number": "v1.1.1-FORGE",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "917de9a20e9f8bc94a9fc6b8e9898aa31c010550d4da5054d1aa4369eb6f8ef1e4e48642725b1ffe35b9909a4df14d2be1584298e91c6807581a5c6b834477ad",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/v1.1.1-FORGE/MissingWilds-forge-1.19-1.1.1.jar",
-          "filename": "MissingWilds-forge-1.19-1.1.1.jar",
-          "primary": true,
-          "size": 116685
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "x6jMLOOm",
-      "name": "v1.1.1 (Fabric)",
-      "version_number": "v1.1.1-FABRIC",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f3e7d3a97f13679b6cef8ce981a8e748ec86bb980050fe42ff7c0e77cfa0861f0a61ae53a6eff63d30856331bc32ada22a1b5b017833189d0f129150ef309649",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/v1.1.1-FABRIC/MissingWilds-fabric-1.19-1.1.1.jar",
-          "filename": "MissingWilds-fabric-1.19-1.1.1.jar",
-          "primary": true,
-          "size": 214657
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "szQITYw5",
-      "name": "v1.1.0 (Forge)",
-      "version_number": "v1.1.0-FORGE",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "0367f57082c6e32bd560d630da163e6a4d2eba83fe4048d239a033a8577909e20db260c8eadc6fb7f1ebb638c8fa5f9d2ade3ddc6f862a06227139afc9ad9925",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/v1.1.0-FORGE/MissingWilds-forge-1.18.2-1.1.0.jar",
-          "filename": "MissingWilds-forge-1.18.2-1.1.0.jar",
-          "primary": true,
-          "size": 115168
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "UoZjeXyw",
-      "name": "v1.1.0 (Fabric)",
-      "version_number": "v1.1.0-FABRIC",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2cb14651befc12052c2b44d825f9cce24377c5ee18c17bf7ac829e29656b99c136cae6b9c2d5e998d49bfb2b12d4f2acf5d731223fdb3deca70c015dabc4de45",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/v1.1.0-FABRIC/MissingWIlds-fabric-1.18.2-1.1.0.jar",
-          "filename": "MissingWIlds-fabric-1.18.2-1.1.0.jar",
-          "primary": true,
-          "size": 207968
-        }
-      ],
-      "dependencies": []
     },
     {
       "id": "vy19p9S2",
@@ -1108,43 +1051,100 @@
       "dependencies": []
     },
     {
-      "id": "9da5SUUE",
-      "name": "v1.0.1",
-      "version_number": "v1.0.1",
+      "id": "w0XKjr7B",
+      "name": "Missing Wilds Quilt 1.2.0+1.20.1",
+      "version_number": "v1.2.0+1.20.1-quilt",
       "game_versions": [
-        "1.18.2"
+        "1.20.1"
       ],
       "loaders": [
-        "fabric"
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "f9e59b32534f79192a56d961dcbadaad8b4cc6e45cded4ecd848c17d7d4b40773658cbd16f629265f62aae4e27d3e314233a30725e24f0f2c916c53facf9b6fe",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/v1.0.1/missingwilds-1.0.1.jar",
-          "filename": "missingwilds-1.0.1.jar",
+          "sha512": "c21ffd62f95efe42a8fd79f1f1892e7afdacb280bd6f7f5c725bb6600374856ef60d55c01b35f0af0e53fd0c96aa716e76088b7a20fe236a65a6623257867838",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/w0XKjr7B/MissingWilds-quilt-1.2.0%2B1.20.1.jar",
+          "filename": "MissingWilds-quilt-1.2.0+1.20.1.jar",
           "primary": true,
-          "size": 260909
+          "size": 510000
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "x6jMLOOm",
+      "name": "v1.1.1 (Fabric)",
+      "version_number": "v1.1.1-FABRIC",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f3e7d3a97f13679b6cef8ce981a8e748ec86bb980050fe42ff7c0e77cfa0861f0a61ae53a6eff63d30856331bc32ada22a1b5b017833189d0f129150ef309649",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/v1.1.1-FABRIC/MissingWilds-fabric-1.19-1.1.1.jar",
+          "filename": "MissingWilds-fabric-1.19-1.1.1.jar",
+          "primary": true,
+          "size": 214657
         }
       ],
       "dependencies": []
     },
     {
-      "id": "1BAH1Fmm",
-      "name": "v1.0.0",
-      "version_number": "v1.0.0",
+      "id": "zWtapWEe",
+      "name": "Missing Wilds v1.2.0+1.19.4 Beta 2 - Quilt",
+      "version_number": "v1.2.0-beta.2+1.19.4-quilt",
       "game_versions": [
-        "1.18.2"
+        "1.19.4"
       ],
       "loaders": [
-        "fabric"
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "ef27d675bbc5d29b6cb3e93997fa9ba6154229aff84a90a179b0facbcee8f558f5bf658f370b5c47f7fc50310f233dba8b4857159cb3197501da7b2e8388898e",
-          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/v1.0.0/missingwilds-1.0.0.jar",
-          "filename": "missingwilds-1.0.0.jar",
+          "sha512": "82d16fa2d136b1e792d2a0e7d818e6ad7ee67c294b297d4688d5f578016362fae26fa6378113fcac1b6ea92a0003e83d9230b53c523718b02399c203d684c6d5",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/zWtapWEe/MissingWilds-quilt-1.19.4-1.2.0-beta.2.jar",
+          "filename": "MissingWilds-quilt-1.19.4-1.2.0-beta.2.jar",
           "primary": true,
-          "size": 259849
+          "size": 370629
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "zsWgYniU",
+      "name": "v1.1.3 (Forge)",
+      "version_number": "v1.1.3-FORGE",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0a0509ad3b3d04a08f3f770bd540b2d5639e7fb5c4148fca4cbc8ac51abf5e22e568aa56894f4e9fa2d9f503b3592091f649881c0deb506658600d8307135784",
+          "url": "https://cdn.modrinth.com/data/Nw0MStSd/versions/zsWgYniU/MissingWilds-forge-1.19.3-1.1.3.jar",
+          "filename": "MissingWilds-forge-1.19.3-1.1.3.jar",
+          "primary": true,
+          "size": 121706
         }
       ],
       "dependencies": []

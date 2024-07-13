@@ -5,6 +5,27 @@
   "description": "Changes which items are dropped by minecarts. Also adds some quality of life recipes.",
   "versions": [
     {
+      "id": "IBGleefQ",
+      "name": "1.0.2+MC1.19",
+      "version_number": "1.0.2+MC1.19",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "127ac0900d4a40a5810d39449828caffb22b9e7759f26304e335ab2c3da2a841b6633176e76146bc109e770fe10baff78436e0eb0278fc5c85f60e70765d2a3f",
+          "url": "https://cdn.modrinth.com/data/ReXcZnyI/versions/1.0.2%2BMC1.19/sturdy-carts-1.0.2%2BMC1.19.jar",
+          "filename": "sturdy-carts-1.0.2+MC1.19.jar",
+          "primary": true,
+          "size": 20951
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "Ikmfaq2A",
       "name": "1.3.0+MC1.21",
       "version_number": "1.3.0+MC1.21",
@@ -22,42 +43,6 @@
           "filename": "sturdy-carts-1.3.0+MC1.21.jar",
           "primary": true,
           "size": 62260
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "xGdtZczs",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "o7SaUVMY",
-      "name": "1.2.0+MC1.20.5-1.20.6",
-      "version_number": "1.2.0+MC1.20.5-1.20.6",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "28d2a9d83759a9c8413d55234cd316a66bbbce4e65cab7f2f86f81468cc5ac26d8a932c4a7ec788c9b859e951e1060a05fcd9ff1849e154c3177d32ee24c5891",
-          "url": "https://cdn.modrinth.com/data/ReXcZnyI/versions/o7SaUVMY/sturdy-carts-1.2.0%2BMC1.20.5-1.20.6.jar",
-          "filename": "sturdy-carts-1.2.0+MC1.20.5-1.20.6.jar",
-          "primary": true,
-          "size": 50239
         }
       ],
       "dependencies": [
@@ -106,35 +91,6 @@
       ]
     },
     {
-      "id": "aveo9MD5",
-      "name": "1.1.1+MC1.20.2",
-      "version_number": "1.1.1+MC1.20.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0e78064d41740c64f96a6e72af985f3ca6c44869eab482af07b81facb89dee2352c999d4c5c96dfbf134b9f1650fafd29705a87d661c7895067dc9592d6773e7",
-          "url": "https://cdn.modrinth.com/data/ReXcZnyI/versions/aveo9MD5/sturdy-carts-1.1.1%2BMC1.20.2.jar",
-          "filename": "sturdy-carts-1.1.1+MC1.20.2.jar",
-          "primary": true,
-          "size": 43114
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "Xcrr3MS1",
       "name": "1.1.0+MC1.20-1.20.1",
       "version_number": "1.1.0+MC1.20-1.20.1",
@@ -159,42 +115,6 @@
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "kslc66sf",
-      "name": "1.0.6+MC1.20-1.20.1",
-      "version_number": "1.0.6+MC1.20-1.20.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "1ba850030b5545055ce065778b39c929817c805aa5bdbed3ee89078361670d90f6eb2ab3d725d6b37a8bc2e88f87e09373486eaebd856d2cb607ffe2f95f8794",
-          "url": "https://cdn.modrinth.com/data/ReXcZnyI/versions/kslc66sf/sturdy-carts-1.0.6%2BMC1.20-1.20.1.jar",
-          "filename": "sturdy-carts-1.0.6+MC1.20-1.20.1.jar",
-          "primary": true,
-          "size": 21091
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "18ztUZP5",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -260,14 +180,137 @@
       ],
       "dependencies": [
         {
+          "project_id": "P7dR8mSH",
+          "version_id": "RAzwgZkP",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "18ztUZP5",
           "version_id": "YqhR41Oh",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "aveo9MD5",
+      "name": "1.1.1+MC1.20.2",
+      "version_number": "1.1.1+MC1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0e78064d41740c64f96a6e72af985f3ca6c44869eab482af07b81facb89dee2352c999d4c5c96dfbf134b9f1650fafd29705a87d661c7895067dc9592d6773e7",
+          "url": "https://cdn.modrinth.com/data/ReXcZnyI/versions/aveo9MD5/sturdy-carts-1.1.1%2BMC1.20.2.jar",
+          "filename": "sturdy-carts-1.1.1+MC1.20.2.jar",
+          "primary": true,
+          "size": 43114
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "byQlhCGc",
+      "name": "1.0.1+MC1.18.1-1.18.2",
+      "version_number": "1.0.1+MC1.18.1-1.18.2",
+      "game_versions": [
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a6ef79cbdf618da7476af22697c39c47efceb902d3bbafb599b65d1a822ef36971c07fe57baa254013e98c8f194204b3f0331b8cfb4590c7fde3bcc724af1654",
+          "url": "https://cdn.modrinth.com/data/ReXcZnyI/versions/1.0.1%2BMC1.18.1-1.18.2/sturdy-carts-1.0.1%2BMC1.18.1-1.18.2.jar",
+          "filename": "sturdy-carts-1.0.1+MC1.18.1-1.18.2.jar",
+          "primary": true,
+          "size": 24189
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "kslc66sf",
+      "name": "1.0.6+MC1.20-1.20.1",
+      "version_number": "1.0.6+MC1.20-1.20.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "1ba850030b5545055ce065778b39c929817c805aa5bdbed3ee89078361670d90f6eb2ab3d725d6b37a8bc2e88f87e09373486eaebd856d2cb607ffe2f95f8794",
+          "url": "https://cdn.modrinth.com/data/ReXcZnyI/versions/kslc66sf/sturdy-carts-1.0.6%2BMC1.20-1.20.1.jar",
+          "filename": "sturdy-carts-1.0.6+MC1.20-1.20.1.jar",
+          "primary": true,
+          "size": 21091
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "18ztUZP5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "o7SaUVMY",
+      "name": "1.2.0+MC1.20.5-1.20.6",
+      "version_number": "1.2.0+MC1.20.5-1.20.6",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "28d2a9d83759a9c8413d55234cd316a66bbbce4e65cab7f2f86f81468cc5ac26d8a932c4a7ec788c9b859e951e1060a05fcd9ff1849e154c3177d32ee24c5891",
+          "url": "https://cdn.modrinth.com/data/ReXcZnyI/versions/o7SaUVMY/sturdy-carts-1.2.0%2BMC1.20.5-1.20.6.jar",
+          "filename": "sturdy-carts-1.2.0+MC1.20.5-1.20.6.jar",
+          "primary": true,
+          "size": 50239
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "xGdtZczs",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": "RAzwgZkP",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -291,49 +334,6 @@
           "filename": "sturdy-carts-1.0.3+MC1.19-1.19.1.jar",
           "primary": true,
           "size": 20971
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "IBGleefQ",
-      "name": "1.0.2+MC1.19",
-      "version_number": "1.0.2+MC1.19",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "127ac0900d4a40a5810d39449828caffb22b9e7759f26304e335ab2c3da2a841b6633176e76146bc109e770fe10baff78436e0eb0278fc5c85f60e70765d2a3f",
-          "url": "https://cdn.modrinth.com/data/ReXcZnyI/versions/1.0.2%2BMC1.19/sturdy-carts-1.0.2%2BMC1.19.jar",
-          "filename": "sturdy-carts-1.0.2+MC1.19.jar",
-          "primary": true,
-          "size": 20951
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "byQlhCGc",
-      "name": "1.0.1+MC1.18.1-1.18.2",
-      "version_number": "1.0.1+MC1.18.1-1.18.2",
-      "game_versions": [
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a6ef79cbdf618da7476af22697c39c47efceb902d3bbafb599b65d1a822ef36971c07fe57baa254013e98c8f194204b3f0331b8cfb4590c7fde3bcc724af1654",
-          "url": "https://cdn.modrinth.com/data/ReXcZnyI/versions/1.0.1%2BMC1.18.1-1.18.2/sturdy-carts-1.0.1%2BMC1.18.1-1.18.2.jar",
-          "filename": "sturdy-carts-1.0.1+MC1.18.1-1.18.2.jar",
-          "primary": true,
-          "size": 24189
         }
       ],
       "dependencies": []

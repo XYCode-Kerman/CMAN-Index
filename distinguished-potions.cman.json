@@ -5,33 +5,85 @@
   "description": "Trouble telling your potions apart? Time to give you a helping hand with that.",
   "versions": [
     {
-      "id": "iKM7gUxY",
-      "name": "[NEOFORGE] [1.20.4] DistinguishedPotions-v20.4.1",
-      "version_number": "v20.4.1-1.20.4-NeoForge",
+      "id": "7HnGihMH",
+      "name": "[FABRIC] [1.20.4] DistinguishedPotions-v20.4.1",
+      "version_number": "v20.4.1-1.20.4-Fabric",
       "game_versions": [
         "1.20.4"
       ],
       "loaders": [
-        "neoforge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "3f955b90cec66b03a8901caffd075ad99c06b837ab3610e6a5607df90474b1a7c42fc5bda97d527cd022c493c39d616876e4f719dbc3334a4e14485433e37e53",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/iKM7gUxY/DistinguishedPotions-v20.4.1-1.20.4-NeoForge.jar",
-          "filename": "DistinguishedPotions-v20.4.1-1.20.4-NeoForge.jar",
+          "sha512": "6eda5068c365ad9f39e9213741e5eb70dcd081635fb3ca82d05ebec8aa860767b593a23dd90c471e4de66824e323ff2f81a40252ca6d357f6181ab1a402e6195",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/7HnGihMH/DistinguishedPotions-v20.4.1-1.20.4-Fabric.jar",
+          "filename": "DistinguishedPotions-v20.4.1-1.20.4-Fabric.jar",
           "primary": true,
-          "size": 72487
+          "size": 71571
         }
       ],
       "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "QAGBst4M",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "5WeWGLoJ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
+        }
+      ]
+    },
+    {
+      "id": "8JO9tOBu",
+      "name": "[FABRIC] [1.19.3] DistinguishedPotions-v5.0.0",
+      "version_number": "v5.0.0-1.19.3-Fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "fc6a5a93c1af453c4a3c996c65127528003c9e5a9f7071e416df778b18569a9fcc71b58f5b836c83c012e5f5e7e9141c9a894cee262534be914f257fd64c66f1",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/8JO9tOBu/DistinguishedPotions-v5.0.0-1.19.3-Fabric.jar",
+          "filename": "DistinguishedPotions-v5.0.0-1.19.3-Fabric.jar",
+          "primary": true,
+          "size": 68025
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "QAGBst4M",
+          "version_id": "PxXJo3k4",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -59,7 +111,47 @@
       ],
       "dependencies": [
         {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "QAGBst4M",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "H2vguj8v",
+      "name": "[FABRIC] [1.20.4] DistinguishedPotions-v20.4.0",
+      "version_number": "v20.4.0-1.20.4-Fabric",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0b52a384b6db74505f4b933a297b784d9bc3ab6051e1cc3b88569e2d1186689a10f37cdff45ec8545bd33b6d81b7d48d1b582fbc00ba79c9521d765886a5c55d",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/H2vguj8v/DistinguishedPotions-v20.4.0-1.20.4-Fabric.jar",
+          "filename": "DistinguishedPotions-v20.4.0-1.20.4-Fabric.jar",
+          "primary": true,
+          "size": 71514
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -75,26 +167,147 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "7HnGihMH",
-      "name": "[FABRIC] [1.20.4] DistinguishedPotions-v20.4.1",
-      "version_number": "v20.4.1-1.20.4-Fabric",
+      "id": "KoX8dTl6",
+      "name": "[FABRIC] [1.19.2] DistinguishedPotions-v4.0.0",
+      "version_number": "v4.0.0-1.19.2-Fabric",
       "game_versions": [
-        "1.20.4"
+        "1.19.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "6eda5068c365ad9f39e9213741e5eb70dcd081635fb3ca82d05ebec8aa860767b593a23dd90c471e4de66824e323ff2f81a40252ca6d357f6181ab1a402e6195",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/7HnGihMH/DistinguishedPotions-v20.4.1-1.20.4-Fabric.jar",
-          "filename": "DistinguishedPotions-v20.4.1-1.20.4-Fabric.jar",
+          "sha512": "3a4aaf5541b713723d4e8e80b6986bbbaed49ccad3208e016c245806cc7e42216e80b0066f4e7775f6e976264c970763c584325af17e8e4fc4e4c9a644bc13be",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/KoX8dTl6/DistinguishedPotions-v4.0.0-1.19.2-Fabric.jar",
+          "filename": "DistinguishedPotions-v4.0.0-1.19.2-Fabric.jar",
           "primary": true,
-          "size": 71571
+          "size": 69719
+        },
+        {
+          "sha512": "5969c47f9d8a5fa4c0626194940ad84299fd1a958689fef6a289c9a1e7a60dcb06a81e7e6e353f92de3d19613496f561ad565cb83d6d788088d9941bd82cd872",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/KoX8dTl6/DistinguishedPotions-v4.0.0-1.19.2-Fabric-sources.jar",
+          "filename": "DistinguishedPotions-v4.0.0-1.19.2-Fabric-sources.jar",
+          "primary": false,
+          "size": 16018
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ohNO6lps",
+          "version_id": "3VCgXZ79",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "QAGBst4M",
+          "version_id": "hYKHLRZ3",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "OpSW99yr",
+      "name": "[FORGE] [1.19.3] DistinguishedPotions-v5.0.0",
+      "version_number": "v5.0.0-1.19.3-Forge",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c0d9185dce3776fe98752ba4822240e8317b5dc250f92a151e94c0e1f3106309bdfa53e9470c951cceca9b5a9446a83a600574ba91611fefaefeb1781f4165a6",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/OpSW99yr/DistinguishedPotions-v5.0.0-1.19.3-Forge.jar",
+          "filename": "DistinguishedPotions-v5.0.0-1.19.3-Forge.jar",
+          "primary": true,
+          "size": 76277
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "QAGBst4M",
+          "version_id": "OXRJbrn6",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "QJR9OB5e",
+      "name": "[FABRIC] [1.19.4] DistinguishedPotions-v6.0.1",
+      "version_number": "v6.0.1-1.19.4-Fabric",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d27803337829df75f8f257a18cdd080d165205c4dae9ebcabcde2e39386e6cac26addaa7386eae01b0851dc912db63182a0e1fc100ae081921e563d39150aca9",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/QJR9OB5e/DistinguishedPotions-v6.0.1-1.19.4-Fabric.jar",
+          "filename": "DistinguishedPotions-v6.0.1-1.19.4-Fabric.jar",
+          "primary": true,
+          "size": 67452
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "QAGBst4M",
+          "version_id": "Fnlslono",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "R3lJW4Qh",
+      "name": "[FABRIC] [1.20.1] DistinguishedPotions-v8.0.2",
+      "version_number": "v8.0.2-1.20.1-Fabric",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4e6cc317dec440faf47693420bed6ba162eb9003733ffb50ba9eb5d784e51741ca623bd63308aeacdfb94450a185c18f74f33d5cf6fbf407a26a45ebc848085f",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/R3lJW4Qh/DistinguishedPotions-v8.0.2-1.20.1-Fabric.jar",
+          "filename": "DistinguishedPotions-v8.0.2-1.20.1-Fabric.jar",
+          "primary": true,
+          "size": 67690
         }
       ],
       "dependencies": [
@@ -159,6 +372,46 @@
       ]
     },
     {
+      "id": "RkLle0Jq",
+      "name": "[FABRIC] [1.20.1] DistinguishedPotions-v8.0.0",
+      "version_number": "v8.0.0-1.20.1-Fabric",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "669d1461e69157683dac4f2bf71b92115d5054ce65889d305313ba47f670a744eaf2ce4551f3f1b43c3fe4ffccaab12fb825f243cb6d90ea289ad6c249b91bf0",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/RkLle0Jq/DistinguishedPotions-v8.0.0-1.20.1-Fabric.jar",
+          "filename": "DistinguishedPotions-v8.0.0-1.20.1-Fabric.jar",
+          "primary": true,
+          "size": 68292
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "QAGBst4M",
+          "version_id": "wfZ1WUlB",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "VUI40ZBL",
       "name": "[FORGE] [1.20.4] DistinguishedPotions-v20.4.0",
       "version_number": "v20.4.0-1.20.4-Forge",
@@ -199,55 +452,44 @@
       ]
     },
     {
-      "id": "H2vguj8v",
-      "name": "[FABRIC] [1.20.4] DistinguishedPotions-v20.4.0",
-      "version_number": "v20.4.0-1.20.4-Fabric",
+      "id": "YTlnTgRQ",
+      "name": "[FORGE] [1.19.2] DistinguishedPotions-v4.0.1",
+      "version_number": "v4.0.1-1.19.2-Forge",
       "game_versions": [
-        "1.20.4"
+        "1.19.2"
       ],
       "loaders": [
-        "fabric"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "0b52a384b6db74505f4b933a297b784d9bc3ab6051e1cc3b88569e2d1186689a10f37cdff45ec8545bd33b6d81b7d48d1b582fbc00ba79c9521d765886a5c55d",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/H2vguj8v/DistinguishedPotions-v20.4.0-1.20.4-Fabric.jar",
-          "filename": "DistinguishedPotions-v20.4.0-1.20.4-Fabric.jar",
+          "sha512": "5100cd1dd0b6d24b618314e0d6ec8e86b3781e33a47f79fefcbbd0d70eb1585c58de72d16866f831498e60e3f76454dcb23fca9cc5138a23564e60b465b47c1b",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/YTlnTgRQ/DistinguishedPotions-v4.0.1-1.19.2-Forge.jar",
+          "filename": "DistinguishedPotions-v4.0.1-1.19.2-Forge.jar",
           "primary": true,
-          "size": 71514
+          "size": 75617
+        },
+        {
+          "sha512": "5680a62f448bf343bb0808868e1ef5afe934ef85213cb855d97ac6735157eedbb86da241a169577a94d6203d08b1f6ced7a1cb08928e4c32191c675eea2444c2",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/YTlnTgRQ/DistinguishedPotions-v4.0.1-1.19.2-Forge-sources.jar",
+          "filename": "DistinguishedPotions-v4.0.1-1.19.2-Forge-sources.jar",
+          "primary": false,
+          "size": 25456
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "QAGBst4M",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
+          "version_id": "UbCrBSit",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "R3lJW4Qh",
-      "name": "[FABRIC] [1.20.1] DistinguishedPotions-v8.0.2",
-      "version_number": "v8.0.2-1.20.1-Fabric",
+      "id": "awKwu0uE",
+      "name": "[FABRIC] [1.20.1] DistinguishedPotions-v8.0.1",
+      "version_number": "v8.0.1-1.20.1-Fabric",
       "game_versions": [
         "1.20.1"
       ],
@@ -256,35 +498,29 @@
       ],
       "files": [
         {
-          "sha512": "4e6cc317dec440faf47693420bed6ba162eb9003733ffb50ba9eb5d784e51741ca623bd63308aeacdfb94450a185c18f74f33d5cf6fbf407a26a45ebc848085f",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/R3lJW4Qh/DistinguishedPotions-v8.0.2-1.20.1-Fabric.jar",
-          "filename": "DistinguishedPotions-v8.0.2-1.20.1-Fabric.jar",
+          "sha512": "c182f90fc73d586ceea9efbaba1f793ba4231910c03a55d767a5843635b5dd81b8a627f7468544fbfd37b82ca6f63c075811549f3bf085df561b6deb093e8dea",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/awKwu0uE/DistinguishedPotions-v8.0.1-1.20.1-Fabric.jar",
+          "filename": "DistinguishedPotions-v8.0.1-1.20.1-Fabric.jar",
           "primary": true,
-          "size": 67690
+          "size": 67505
         }
       ],
       "dependencies": [
         {
-          "project_id": "5WeWGLoJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "QAGBst4M",
-          "version_id": null,
+          "version_id": "XheZ9iGK",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "ohNO6lps",
           "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "QAGBst4M",
+          "version_id": "wfZ1WUlB",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -311,150 +547,130 @@
       ],
       "dependencies": [
         {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "QAGBst4M",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "gnVhWfSr",
+      "name": "[FORGE] [1.19.2] DistinguishedPotions-v4.0.0",
+      "version_number": "v4.0.0-1.19.2-Forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "0023221a9c53382834d391b7b0e0d26275c6e34f32e6d215c8f2b39a1090175d2eb71c62d2f88c77a22f68ca02b24714038ef4a945d244d18e8bc060b6ad9317",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/gnVhWfSr/DistinguishedPotions-v4.0.0-1.19.2-Forge.jar",
+          "filename": "DistinguishedPotions-v4.0.0-1.19.2-Forge.jar",
+          "primary": true,
+          "size": 74879
         },
+        {
+          "sha512": "1eb2cf3d218ed990557e282db97c67332139a3816b0647494d850680ab5b0de3236137637edc1f9f2ba0e0a8f1adddffe40736804cd957fdbe1b0ed8b0279637",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/gnVhWfSr/DistinguishedPotions-v4.0.0-1.19.2-Forge-sources.jar",
+          "filename": "DistinguishedPotions-v4.0.0-1.19.2-Forge-sources.jar",
+          "primary": false,
+          "size": 25150
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "QAGBst4M",
+          "version_id": "UbCrBSit",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "gqzfzmDn",
+      "name": "[FABRIC] [1.19.2] DistinguishedPotions-v4.0.1",
+      "version_number": "v4.0.1-1.19.2-Fabric",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a3c6e12e5325d75fe3259e636a8a77c81adc374a10f3c14e143c8d9cb7014bdcbd0267a6557828797eb2ca5e8d2c027aa3ece09b41323b98546a3b3f2ae73c24",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/gqzfzmDn/DistinguishedPotions-v4.0.1-1.19.2-Fabric.jar",
+          "filename": "DistinguishedPotions-v4.0.1-1.19.2-Fabric.jar",
+          "primary": true,
+          "size": 68007
+        },
+        {
+          "sha512": "d84495ec3935a47d27407b4e698670beca3b553484b1d6bcb6396fd98688fcc7c3b3f578f699ce1af15b3c70f580620d3864d2f7ca39ed651d8e5fe9a073a4cd",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/gqzfzmDn/DistinguishedPotions-v4.0.1-1.19.2-Fabric-sources.jar",
+          "filename": "DistinguishedPotions-v4.0.1-1.19.2-Fabric-sources.jar",
+          "primary": false,
+          "size": 15382
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ohNO6lps",
+          "version_id": "3VCgXZ79",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "QAGBst4M",
+          "version_id": "hYKHLRZ3",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "iKM7gUxY",
+      "name": "[NEOFORGE] [1.20.4] DistinguishedPotions-v20.4.1",
+      "version_number": "v20.4.1-1.20.4-NeoForge",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "3f955b90cec66b03a8901caffd075ad99c06b837ab3610e6a5607df90474b1a7c42fc5bda97d527cd022c493c39d616876e4f719dbc3334a4e14485433e37e53",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/iKM7gUxY/DistinguishedPotions-v20.4.1-1.20.4-NeoForge.jar",
+          "filename": "DistinguishedPotions-v20.4.1-1.20.4-NeoForge.jar",
+          "primary": true,
+          "size": 72487
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "5WeWGLoJ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "awKwu0uE",
-      "name": "[FABRIC] [1.20.1] DistinguishedPotions-v8.0.1",
-      "version_number": "v8.0.1-1.20.1-Fabric",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c182f90fc73d586ceea9efbaba1f793ba4231910c03a55d767a5843635b5dd81b8a627f7468544fbfd37b82ca6f63c075811549f3bf085df561b6deb093e8dea",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/awKwu0uE/DistinguishedPotions-v8.0.1-1.20.1-Fabric.jar",
-          "filename": "DistinguishedPotions-v8.0.1-1.20.1-Fabric.jar",
-          "primary": true,
-          "size": 67505
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "QAGBst4M",
-          "version_id": "wfZ1WUlB",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
           "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "x2H4dooa",
-      "name": "[FORGE] [1.20.1] DistinguishedPotions-v8.0.1",
-      "version_number": "v8.0.1-1.20.1-Forge",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "68cef9133500295809b654223b96e56f00eae65d1e6333e2ae04d7dc1fdf8fe94387673877bc21e804ef4829749ddaf58624c9b9646d24fbb54f6e2cde2d1661",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/x2H4dooa/DistinguishedPotions-v8.0.1-1.20.1-Forge.jar",
-          "filename": "DistinguishedPotions-v8.0.1-1.20.1-Forge.jar",
-          "primary": true,
-          "size": 76144
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "QAGBst4M",
-          "version_id": "V4g0yKzo",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "RkLle0Jq",
-      "name": "[FABRIC] [1.20.1] DistinguishedPotions-v8.0.0",
-      "version_number": "v8.0.0-1.20.1-Fabric",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "669d1461e69157683dac4f2bf71b92115d5054ce65889d305313ba47f670a744eaf2ce4551f3f1b43c3fe4ffccaab12fb825f243cb6d90ea289ad6c249b91bf0",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/RkLle0Jq/DistinguishedPotions-v8.0.0-1.20.1-Fabric.jar",
-          "filename": "DistinguishedPotions-v8.0.0-1.20.1-Fabric.jar",
-          "primary": true,
-          "size": 68292
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "QAGBst4M",
-          "version_id": "wfZ1WUlB",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "w5A5TE95",
-      "name": "[FORGE] [1.20.1] DistinguishedPotions-v8.0.0",
-      "version_number": "v8.0.0-1.20.1-Forge",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "d02ae4a1eb5ac8dbe51efd854aa6376c886f9afe8315b5ef26338bb700b8deeec8ff3407d5c3f23a13dcf4aedbb24f4e9db1089b96e788b3a5b0ab3fd0431482",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/w5A5TE95/DistinguishedPotions-v8.0.0-1.20.1-Forge.jar",
-          "filename": "DistinguishedPotions-v8.0.0-1.20.1-Forge.jar",
-          "primary": true,
-          "size": 76977
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "QAGBst4M",
-          "version_id": "V4g0yKzo",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -529,6 +745,34 @@
       ]
     },
     {
+      "id": "uMCIJlJz",
+      "name": "[FORGE] [1.19.4] DistinguishedPotions-v6.0.0",
+      "version_number": "v6.0.0-1.19.4-Forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f5d166b4023444358335ca7ceeebc0e64564d266d7259bf584705e1a42d2ca9733c39dc6bdcc5f6e8c9f07692b634b0774b921627e01997dcbcf71fc27617013",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/uMCIJlJz/DistinguishedPotions-v6.0.0-1.19.4-Forge.jar",
+          "filename": "DistinguishedPotions-v6.0.0-1.19.4-Forge.jar",
+          "primary": true,
+          "size": 75329
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "QAGBst4M",
+          "version_id": "yP5oQ3Ak",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "vqKSnmQy",
       "name": "[FORGE] [1.19.4] DistinguishedPotions-v6.0.1",
       "version_number": "v6.0.1-1.19.4-Forge",
@@ -557,68 +801,56 @@
       ]
     },
     {
-      "id": "QJR9OB5e",
-      "name": "[FABRIC] [1.19.4] DistinguishedPotions-v6.0.1",
-      "version_number": "v6.0.1-1.19.4-Fabric",
+      "id": "w5A5TE95",
+      "name": "[FORGE] [1.20.1] DistinguishedPotions-v8.0.0",
+      "version_number": "v8.0.0-1.20.1-Forge",
       "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d27803337829df75f8f257a18cdd080d165205c4dae9ebcabcde2e39386e6cac26addaa7386eae01b0851dc912db63182a0e1fc100ae081921e563d39150aca9",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/QJR9OB5e/DistinguishedPotions-v6.0.1-1.19.4-Fabric.jar",
-          "filename": "DistinguishedPotions-v6.0.1-1.19.4-Fabric.jar",
-          "primary": true,
-          "size": 67452
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "QAGBst4M",
-          "version_id": "Fnlslono",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "uMCIJlJz",
-      "name": "[FORGE] [1.19.4] DistinguishedPotions-v6.0.0",
-      "version_number": "v6.0.0-1.19.4-Forge",
-      "game_versions": [
-        "1.19.4"
+        "1.20.1"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "f5d166b4023444358335ca7ceeebc0e64564d266d7259bf584705e1a42d2ca9733c39dc6bdcc5f6e8c9f07692b634b0774b921627e01997dcbcf71fc27617013",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/uMCIJlJz/DistinguishedPotions-v6.0.0-1.19.4-Forge.jar",
-          "filename": "DistinguishedPotions-v6.0.0-1.19.4-Forge.jar",
+          "sha512": "d02ae4a1eb5ac8dbe51efd854aa6376c886f9afe8315b5ef26338bb700b8deeec8ff3407d5c3f23a13dcf4aedbb24f4e9db1089b96e788b3a5b0ab3fd0431482",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/w5A5TE95/DistinguishedPotions-v8.0.0-1.20.1-Forge.jar",
+          "filename": "DistinguishedPotions-v8.0.0-1.20.1-Forge.jar",
           "primary": true,
-          "size": 75329
+          "size": 76977
         }
       ],
       "dependencies": [
         {
           "project_id": "QAGBst4M",
-          "version_id": "yP5oQ3Ak",
+          "version_id": "V4g0yKzo",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "x2H4dooa",
+      "name": "[FORGE] [1.20.1] DistinguishedPotions-v8.0.1",
+      "version_number": "v8.0.1-1.20.1-Forge",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "68cef9133500295809b654223b96e56f00eae65d1e6333e2ae04d7dc1fdf8fe94387673877bc21e804ef4829749ddaf58624c9b9646d24fbb54f6e2cde2d1661",
+          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/x2H4dooa/DistinguishedPotions-v8.0.1-1.20.1-Forge.jar",
+          "filename": "DistinguishedPotions-v8.0.1-1.20.1-Forge.jar",
+          "primary": true,
+          "size": 76144
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "QAGBst4M",
+          "version_id": "V4g0yKzo",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -659,238 +891,6 @@
         {
           "project_id": "P7dR8mSH",
           "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "OpSW99yr",
-      "name": "[FORGE] [1.19.3] DistinguishedPotions-v5.0.0",
-      "version_number": "v5.0.0-1.19.3-Forge",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "c0d9185dce3776fe98752ba4822240e8317b5dc250f92a151e94c0e1f3106309bdfa53e9470c951cceca9b5a9446a83a600574ba91611fefaefeb1781f4165a6",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/OpSW99yr/DistinguishedPotions-v5.0.0-1.19.3-Forge.jar",
-          "filename": "DistinguishedPotions-v5.0.0-1.19.3-Forge.jar",
-          "primary": true,
-          "size": 76277
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "QAGBst4M",
-          "version_id": "OXRJbrn6",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "8JO9tOBu",
-      "name": "[FABRIC] [1.19.3] DistinguishedPotions-v5.0.0",
-      "version_number": "v5.0.0-1.19.3-Fabric",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "fc6a5a93c1af453c4a3c996c65127528003c9e5a9f7071e416df778b18569a9fcc71b58f5b836c83c012e5f5e7e9141c9a894cee262534be914f257fd64c66f1",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/8JO9tOBu/DistinguishedPotions-v5.0.0-1.19.3-Fabric.jar",
-          "filename": "DistinguishedPotions-v5.0.0-1.19.3-Fabric.jar",
-          "primary": true,
-          "size": 68025
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "QAGBst4M",
-          "version_id": "PxXJo3k4",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "YTlnTgRQ",
-      "name": "[FORGE] [1.19.2] DistinguishedPotions-v4.0.1",
-      "version_number": "v4.0.1-1.19.2-Forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "5100cd1dd0b6d24b618314e0d6ec8e86b3781e33a47f79fefcbbd0d70eb1585c58de72d16866f831498e60e3f76454dcb23fca9cc5138a23564e60b465b47c1b",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/YTlnTgRQ/DistinguishedPotions-v4.0.1-1.19.2-Forge.jar",
-          "filename": "DistinguishedPotions-v4.0.1-1.19.2-Forge.jar",
-          "primary": true,
-          "size": 75617
-        },
-        {
-          "sha512": "5680a62f448bf343bb0808868e1ef5afe934ef85213cb855d97ac6735157eedbb86da241a169577a94d6203d08b1f6ced7a1cb08928e4c32191c675eea2444c2",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/YTlnTgRQ/DistinguishedPotions-v4.0.1-1.19.2-Forge-sources.jar",
-          "filename": "DistinguishedPotions-v4.0.1-1.19.2-Forge-sources.jar",
-          "primary": false,
-          "size": 25456
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "QAGBst4M",
-          "version_id": "UbCrBSit",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "gqzfzmDn",
-      "name": "[FABRIC] [1.19.2] DistinguishedPotions-v4.0.1",
-      "version_number": "v4.0.1-1.19.2-Fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a3c6e12e5325d75fe3259e636a8a77c81adc374a10f3c14e143c8d9cb7014bdcbd0267a6557828797eb2ca5e8d2c027aa3ece09b41323b98546a3b3f2ae73c24",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/gqzfzmDn/DistinguishedPotions-v4.0.1-1.19.2-Fabric.jar",
-          "filename": "DistinguishedPotions-v4.0.1-1.19.2-Fabric.jar",
-          "primary": true,
-          "size": 68007
-        },
-        {
-          "sha512": "d84495ec3935a47d27407b4e698670beca3b553484b1d6bcb6396fd98688fcc7c3b3f578f699ce1af15b3c70f580620d3864d2f7ca39ed651d8e5fe9a073a4cd",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/gqzfzmDn/DistinguishedPotions-v4.0.1-1.19.2-Fabric-sources.jar",
-          "filename": "DistinguishedPotions-v4.0.1-1.19.2-Fabric-sources.jar",
-          "primary": false,
-          "size": 15382
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "QAGBst4M",
-          "version_id": "hYKHLRZ3",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": "3VCgXZ79",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "KoX8dTl6",
-      "name": "[FABRIC] [1.19.2] DistinguishedPotions-v4.0.0",
-      "version_number": "v4.0.0-1.19.2-Fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "3a4aaf5541b713723d4e8e80b6986bbbaed49ccad3208e016c245806cc7e42216e80b0066f4e7775f6e976264c970763c584325af17e8e4fc4e4c9a644bc13be",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/KoX8dTl6/DistinguishedPotions-v4.0.0-1.19.2-Fabric.jar",
-          "filename": "DistinguishedPotions-v4.0.0-1.19.2-Fabric.jar",
-          "primary": true,
-          "size": 69719
-        },
-        {
-          "sha512": "5969c47f9d8a5fa4c0626194940ad84299fd1a958689fef6a289c9a1e7a60dcb06a81e7e6e353f92de3d19613496f561ad565cb83d6d788088d9941bd82cd872",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/KoX8dTl6/DistinguishedPotions-v4.0.0-1.19.2-Fabric-sources.jar",
-          "filename": "DistinguishedPotions-v4.0.0-1.19.2-Fabric-sources.jar",
-          "primary": false,
-          "size": 16018
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "QAGBst4M",
-          "version_id": "hYKHLRZ3",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ohNO6lps",
-          "version_id": "3VCgXZ79",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "gnVhWfSr",
-      "name": "[FORGE] [1.19.2] DistinguishedPotions-v4.0.0",
-      "version_number": "v4.0.0-1.19.2-Forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "0023221a9c53382834d391b7b0e0d26275c6e34f32e6d215c8f2b39a1090175d2eb71c62d2f88c77a22f68ca02b24714038ef4a945d244d18e8bc060b6ad9317",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/gnVhWfSr/DistinguishedPotions-v4.0.0-1.19.2-Forge.jar",
-          "filename": "DistinguishedPotions-v4.0.0-1.19.2-Forge.jar",
-          "primary": true,
-          "size": 74879
-        },
-        {
-          "sha512": "1eb2cf3d218ed990557e282db97c67332139a3816b0647494d850680ab5b0de3236137637edc1f9f2ba0e0a8f1adddffe40736804cd957fdbe1b0ed8b0279637",
-          "url": "https://cdn.modrinth.com/data/lX1xTFBZ/versions/gnVhWfSr/DistinguishedPotions-v4.0.0-1.19.2-Forge-sources.jar",
-          "filename": "DistinguishedPotions-v4.0.0-1.19.2-Forge-sources.jar",
-          "primary": false,
-          "size": 25150
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "QAGBst4M",
-          "version_id": "UbCrBSit",
           "file_name": null,
           "dependency_type": "required"
         }

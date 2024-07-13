@@ -5,6 +5,27 @@
   "description": "Teleport to spawn or lobby fixed location by using a simple command",
   "versions": [
     {
+      "id": "5oEr793E",
+      "name": "DarkSpawn 1.0.5",
+      "version_number": "1.0.5",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "10eb0677308db499e3acc69c7bc68a527f81b10b9112423ab8caf96d33d4f8ca08116f84ff613b1e999235c6cf16933f820a124328f37325e2fdbc1c4f73087d",
+          "url": "https://cdn.modrinth.com/data/Pb5zcmJX/versions/5oEr793E/darkspawn-forge-1.20.1-1.0.5.jar",
+          "filename": "darkspawn-forge-1.20.1-1.0.5.jar",
+          "primary": true,
+          "size": 7188
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "DJ4ybMw6",
       "name": "DarkSpawn 1.0.9",
       "version_number": "1.0.9",
@@ -24,35 +45,6 @@
         }
       ],
       "dependencies": []
-    },
-    {
-      "id": "Xs6HunYh",
-      "name": "DarkSpawn 1.0.8",
-      "version_number": "1.0.8",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "fe9ea7c45d272579c55c51a2f04449e09d5a3f02589582628264944a3ed2ce6691d604a9402749a10de88a0f0ce5e1399fa0bbdaf13c0caa8cf8d63620d3a61a",
-          "url": "https://cdn.modrinth.com/data/Pb5zcmJX/versions/Xs6HunYh/darkspawn-fabric-1.20.3-1.20.4-1.0.8.jar",
-          "filename": "darkspawn-fabric-1.20.3-1.20.4-1.0.8.jar",
-          "primary": true,
-          "size": 9365
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
     },
     {
       "id": "PK9NxBtq",
@@ -84,25 +76,33 @@
       ]
     },
     {
-      "id": "5oEr793E",
-      "name": "DarkSpawn 1.0.5",
-      "version_number": "1.0.5",
+      "id": "Xs6HunYh",
+      "name": "DarkSpawn 1.0.8",
+      "version_number": "1.0.8",
       "game_versions": [
-        "1.20.1"
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "10eb0677308db499e3acc69c7bc68a527f81b10b9112423ab8caf96d33d4f8ca08116f84ff613b1e999235c6cf16933f820a124328f37325e2fdbc1c4f73087d",
-          "url": "https://cdn.modrinth.com/data/Pb5zcmJX/versions/5oEr793E/darkspawn-forge-1.20.1-1.0.5.jar",
-          "filename": "darkspawn-forge-1.20.1-1.0.5.jar",
+          "sha512": "fe9ea7c45d272579c55c51a2f04449e09d5a3f02589582628264944a3ed2ce6691d604a9402749a10de88a0f0ce5e1399fa0bbdaf13c0caa8cf8d63620d3a61a",
+          "url": "https://cdn.modrinth.com/data/Pb5zcmJX/versions/Xs6HunYh/darkspawn-fabric-1.20.3-1.20.4-1.0.8.jar",
+          "filename": "darkspawn-fabric-1.20.3-1.20.4-1.0.8.jar",
           "primary": true,
-          "size": 7188
+          "size": 9365
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     }
   ]
 }

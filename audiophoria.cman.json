@@ -5,34 +5,6 @@
   "description": "Audiophoria adds custom music discs featuring the unique music of Dr. Kwin to elevate your Minecraft ambiance and musical catalogue.",
   "versions": [
     {
-      "id": "EwdlFlkF",
-      "name": "Audiophoria 0.0.3",
-      "version_number": "0.0.3-1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "3d53e6a30f5a220bf3de996ac979335b6f192bb08e1e6b4016976923f9ad5195c1eaad1a798b116efe08c8cef94b86e13204b669c62cb14749ca11e257232614",
-          "url": "https://cdn.modrinth.com/data/ilJPE0oL/versions/EwdlFlkF/audiophoria-0.0.3-1.20.1.jar",
-          "filename": "audiophoria-0.0.3-1.20.1.jar",
-          "primary": true,
-          "size": 6306732
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "Aui7RTqy",
       "name": "Audiophoria 0.0.2",
       "version_number": "0.0.2-1.20.1",
@@ -49,6 +21,34 @@
           "filename": "audiophoria-0.0.2-1.20.1.jar",
           "primary": true,
           "size": 5539224
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "EwdlFlkF",
+      "name": "Audiophoria 0.0.3",
+      "version_number": "0.0.3-1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "3d53e6a30f5a220bf3de996ac979335b6f192bb08e1e6b4016976923f9ad5195c1eaad1a798b116efe08c8cef94b86e13204b669c62cb14749ca11e257232614",
+          "url": "https://cdn.modrinth.com/data/ilJPE0oL/versions/EwdlFlkF/audiophoria-0.0.3-1.20.1.jar",
+          "filename": "audiophoria-0.0.3-1.20.1.jar",
+          "primary": true,
+          "size": 6306732
         }
       ],
       "dependencies": [
@@ -81,16 +81,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "qyVF9oeo",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "qyVF9oeo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }

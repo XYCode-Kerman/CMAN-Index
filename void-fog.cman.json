@@ -5,52 +5,50 @@
   "description": "Brings back the void fog of versions prior to Minecraft 1.8 with some slight... improvements",
   "versions": [
     {
-      "id": "lr3EE4sx",
-      "name": "Void-Fog-2.12.0+1.21",
-      "version_number": "2.12.0+1.21",
+      "id": "2Y4skPtm",
+      "name": "Void Fog 2.4",
+      "version_number": "2.4.0",
       "game_versions": [
-        "1.21-rc1",
-        "1.21"
+        "1.16.3",
+        "1.16.4",
+        "20w48a",
+        "20w49a",
+        "1.16.5"
       ],
       "loaders": [
-        "fabric",
-        "quilt"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "a4fb178c3c4639a09d8b8f4c4cfa3ec1b4e8359105ce5bd265d883d39abd3f3634114fadf903693c5c8479df9fe42578432329db953afef6d0c336f47fcd33e3",
-          "url": "https://cdn.modrinth.com/data/JRC9aXm9/versions/lr3EE4sx/Void-Fog-2.12.0%2B1.21.jar",
-          "filename": "Void-Fog-2.12.0+1.21.jar",
+          "sha512": "a70d43487897a5bd35a9d4beed231ec2a2e25a89bcc142c7ba1de634c55643dd8458eb6e5d98038fcfdb0e3aab9f12bc96aba48534522cf6e87884b37b769370",
+          "url": "https://cdn.modrinth.com/data/JRC9aXm9/versions/2.5/Void-Fog-2.5%2B20w49a.jar",
+          "filename": "Void-Fog-2.5+20w49a.jar",
           "primary": true,
-          "size": 135780
+          "size": 105453
         }
       ],
-      "dependencies": [
+      "dependencies": []
+    },
+    {
+      "id": "B0e7dxqj",
+      "name": "Void-Fog-2.6.1",
+      "version_number": "2.6.1",
+      "game_versions": [
+        "1.18"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
         {
-          "project_id": "9aNz8Zqn",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "FzE9gshV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "h9pJxJR9",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
+          "sha512": "c4d8a547304b156ef32e1ee65e207c15d1429bcb5f4f2aefb7b555d07a3b4f21aa47b8ea1d10c79ff31e9d49f15d8760ff4f0ce9e481b052fa5ddb296e34a8f4",
+          "url": "https://cdn.modrinth.com/data/JRC9aXm9/versions/2.6.1/Void-Fog-2.6.1.jar",
+          "filename": "Void-Fog-2.6.1.jar",
+          "primary": true,
+          "size": 109619
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "C5yyindr",
@@ -83,6 +81,91 @@
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "HdZpTJcB",
+      "name": "Void-Fog-2.7.1",
+      "version_number": "2.7.1",
+      "game_versions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "3d15296705a9783eec692746d1e35564a8ea806491c31f1fc480a249ca379d0907dd9736141a8f7bf160f2d45f130d8c5f2a72e54d980caba7b59b07cc04f9d8",
+          "url": "https://cdn.modrinth.com/data/JRC9aXm9/versions/HdZpTJcB/Void-Fog-2.7.1.jar",
+          "filename": "Void-Fog-2.7.1.jar",
+          "primary": true,
+          "size": 111152
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "JsViiUsv",
+      "name": "Void-Fog-2.8.0",
+      "version_number": "1.8.0",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c08af3322733b0156c67424199cb1ec882e0052ec8b03551f329b1c02032da73ad21c12b43468c3d3beafca427bc49d914e87df8700f5b422ff76bc7ffa43a7a",
+          "url": "https://cdn.modrinth.com/data/JRC9aXm9/versions/JsViiUsv/Void-Fog-2.8.0.jar",
+          "filename": "Void-Fog-2.8.0.jar",
+          "primary": true,
+          "size": 127992
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "OVLGS1Mq",
+      "name": "Void-Fog-2.9.0",
+      "version_number": "2.9.0",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ce8dc0bd3fc7088482f0e137e064e0e2fec3b3257a0a22c90f94a53f31d32ad2884d693be15397798cd369d15121be08fbbaec439138ea6b1bd06707d9e4079a",
+          "url": "https://cdn.modrinth.com/data/JRC9aXm9/versions/OVLGS1Mq/Void-Fog-2.9.0.jar",
+          "filename": "Void-Fog-2.9.0.jar",
+          "primary": true,
+          "size": 133210
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -134,6 +217,53 @@
       ]
     },
     {
+      "id": "SzcNdgcG",
+      "name": "Void-Fog-2.5-1.17-rc1",
+      "version_number": "2.5.0",
+      "game_versions": [
+        "1.17-rc1",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "94f4e8da1bc938b1cfa93d9ebba557832077b531629b9c659cf29a37782993d88ab00bd93bf873638c6eafe1bf71fa93bf8e23ebbf134ef29d65fabc9a8eaf0b",
+          "url": "https://cdn.modrinth.com/data/JRC9aXm9/versions/2.4/Void-Fog-2.5-1.17-rc1.jar",
+          "filename": "Void-Fog-2.5-1.17-rc1.jar",
+          "primary": true,
+          "size": 107439
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "aHDRvy2q",
+      "name": "Void-Fog-2.6.0",
+      "version_number": "2.6.0",
+      "game_versions": [
+        "1.18-pre8",
+        "1.18-rc1",
+        "1.18-rc2",
+        "1.18-rc3",
+        "1.18-rc4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0b7fa376cf219367b0cfc1955d17d6cd650f0ad7690412ecfc1c4c6ef281e75547501e6813266c28dec03624f50a96a7f3fe5dd9cb3e4e1d255f76b29803610e",
+          "url": "https://cdn.modrinth.com/data/JRC9aXm9/versions/2.6.0/Void-Fog-2.6.0.jar",
+          "filename": "Void-Fog-2.6.0.jar",
+          "primary": true,
+          "size": 109608
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "cQa4Oduh",
       "name": "Void Fog 2.10.0",
       "version_number": "2.10.0",
@@ -168,87 +298,71 @@
       ]
     },
     {
-      "id": "OVLGS1Mq",
-      "name": "Void-Fog-2.9.0",
-      "version_number": "2.9.0",
+      "id": "diLFq4Uq",
+      "name": "Void-Fog-2.6.2",
+      "version_number": "2.6.2",
       "game_versions": [
-        "1.19.4"
+        "1.18.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "ce8dc0bd3fc7088482f0e137e064e0e2fec3b3257a0a22c90f94a53f31d32ad2884d693be15397798cd369d15121be08fbbaec439138ea6b1bd06707d9e4079a",
-          "url": "https://cdn.modrinth.com/data/JRC9aXm9/versions/OVLGS1Mq/Void-Fog-2.9.0.jar",
-          "filename": "Void-Fog-2.9.0.jar",
+          "sha512": "ad717f639b7115325273ce6d0ae2939ec1ee87e2e10883cbf12b1b385f96be53ca944cafceac983631bf1db7952e2e325a0d4fb97eba6887ebaa8feda1ba7a23",
+          "url": "https://cdn.modrinth.com/data/JRC9aXm9/versions/2.6.2/Void-Fog-2.6.2.jar",
+          "filename": "Void-Fog-2.6.2.jar",
           "primary": true,
-          "size": 133210
+          "size": 109625
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
+      "dependencies": []
     },
     {
-      "id": "JsViiUsv",
-      "name": "Void-Fog-2.8.0",
-      "version_number": "1.8.0",
+      "id": "lr3EE4sx",
+      "name": "Void-Fog-2.12.0+1.21",
+      "version_number": "2.12.0+1.21",
       "game_versions": [
-        "1.19.3"
+        "1.21-rc1",
+        "1.21"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "c08af3322733b0156c67424199cb1ec882e0052ec8b03551f329b1c02032da73ad21c12b43468c3d3beafca427bc49d914e87df8700f5b422ff76bc7ffa43a7a",
-          "url": "https://cdn.modrinth.com/data/JRC9aXm9/versions/JsViiUsv/Void-Fog-2.8.0.jar",
-          "filename": "Void-Fog-2.8.0.jar",
+          "sha512": "a4fb178c3c4639a09d8b8f4c4cfa3ec1b4e8359105ce5bd265d883d39abd3f3634114fadf903693c5c8479df9fe42578432329db953afef6d0c336f47fcd33e3",
+          "url": "https://cdn.modrinth.com/data/JRC9aXm9/versions/lr3EE4sx/Void-Fog-2.12.0%2B1.21.jar",
+          "filename": "Void-Fog-2.12.0+1.21.jar",
           "primary": true,
-          "size": 127992
+          "size": 135780
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
+          "project_id": "9aNz8Zqn",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "HdZpTJcB",
-      "name": "Void-Fog-2.7.1",
-      "version_number": "2.7.1",
-      "game_versions": [
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+        },
         {
-          "sha512": "3d15296705a9783eec692746d1e35564a8ea806491c31f1fc480a249ca379d0907dd9736141a8f7bf160f2d45f130d8c5f2a72e54d980caba7b59b07cc04f9d8",
-          "url": "https://cdn.modrinth.com/data/JRC9aXm9/versions/HdZpTJcB/Void-Fog-2.7.1.jar",
-          "filename": "Void-Fog-2.7.1.jar",
-          "primary": true,
-          "size": 111152
-        }
-      ],
-      "dependencies": [
+          "project_id": "FzE9gshV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
         {
           "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "h9pJxJR9",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -281,120 +395,6 @@
           "dependency_type": "required"
         }
       ]
-    },
-    {
-      "id": "diLFq4Uq",
-      "name": "Void-Fog-2.6.2",
-      "version_number": "2.6.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ad717f639b7115325273ce6d0ae2939ec1ee87e2e10883cbf12b1b385f96be53ca944cafceac983631bf1db7952e2e325a0d4fb97eba6887ebaa8feda1ba7a23",
-          "url": "https://cdn.modrinth.com/data/JRC9aXm9/versions/2.6.2/Void-Fog-2.6.2.jar",
-          "filename": "Void-Fog-2.6.2.jar",
-          "primary": true,
-          "size": 109625
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "B0e7dxqj",
-      "name": "Void-Fog-2.6.1",
-      "version_number": "2.6.1",
-      "game_versions": [
-        "1.18"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c4d8a547304b156ef32e1ee65e207c15d1429bcb5f4f2aefb7b555d07a3b4f21aa47b8ea1d10c79ff31e9d49f15d8760ff4f0ce9e481b052fa5ddb296e34a8f4",
-          "url": "https://cdn.modrinth.com/data/JRC9aXm9/versions/2.6.1/Void-Fog-2.6.1.jar",
-          "filename": "Void-Fog-2.6.1.jar",
-          "primary": true,
-          "size": 109619
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "aHDRvy2q",
-      "name": "Void-Fog-2.6.0",
-      "version_number": "2.6.0",
-      "game_versions": [
-        "1.18-pre8",
-        "1.18-rc1",
-        "1.18-rc2",
-        "1.18-rc3",
-        "1.18-rc4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0b7fa376cf219367b0cfc1955d17d6cd650f0ad7690412ecfc1c4c6ef281e75547501e6813266c28dec03624f50a96a7f3fe5dd9cb3e4e1d255f76b29803610e",
-          "url": "https://cdn.modrinth.com/data/JRC9aXm9/versions/2.6.0/Void-Fog-2.6.0.jar",
-          "filename": "Void-Fog-2.6.0.jar",
-          "primary": true,
-          "size": 109608
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "SzcNdgcG",
-      "name": "Void-Fog-2.5-1.17-rc1",
-      "version_number": "2.5.0",
-      "game_versions": [
-        "1.17-rc1",
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "94f4e8da1bc938b1cfa93d9ebba557832077b531629b9c659cf29a37782993d88ab00bd93bf873638c6eafe1bf71fa93bf8e23ebbf134ef29d65fabc9a8eaf0b",
-          "url": "https://cdn.modrinth.com/data/JRC9aXm9/versions/2.4/Void-Fog-2.5-1.17-rc1.jar",
-          "filename": "Void-Fog-2.5-1.17-rc1.jar",
-          "primary": true,
-          "size": 107439
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "2Y4skPtm",
-      "name": "Void Fog 2.4",
-      "version_number": "2.4.0",
-      "game_versions": [
-        "1.16.3",
-        "1.16.4",
-        "20w48a",
-        "20w49a",
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a70d43487897a5bd35a9d4beed231ec2a2e25a89bcc142c7ba1de634c55643dd8458eb6e5d98038fcfdb0e3aab9f12bc96aba48534522cf6e87884b37b769370",
-          "url": "https://cdn.modrinth.com/data/JRC9aXm9/versions/2.5/Void-Fog-2.5%2B20w49a.jar",
-          "filename": "Void-Fog-2.5+20w49a.jar",
-          "primary": true,
-          "size": 105453
-        }
-      ],
-      "dependencies": []
     }
   ]
 }

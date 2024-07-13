@@ -5,41 +5,6 @@
   "description": "Sleep Rework is a mod designed to fix some issues with Vanilla sleep mechanics",
   "versions": [
     {
-      "id": "KI7mjOH2",
-      "name": "Fabric beta-1.20.1-1.1.0",
-      "version_number": "fabric-beta-1.20.1-1.1.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "5e1b0280c18978fb2991cae1a39d2a4578ac79f314deeac9bc132a042d872226621478ed096460bb303954d2bbd1569e595c8b83ce8ad177e082aa105c656738",
-          "url": "https://cdn.modrinth.com/data/kNEVW1RJ/versions/KI7mjOH2/sleeprework-FABRIC-beta-1.20.1-1.1.0.jar",
-          "filename": "sleeprework-FABRIC-beta-1.20.1-1.1.0.jar",
-          "primary": true,
-          "size": 63254
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "Sbew3kXe",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "JEB7gVhT",
       "name": "Forge beta-1.20.1-1.1.0",
       "version_number": "forge-beta-1.20.1-1.1.0",
@@ -64,6 +29,41 @@
         {
           "project_id": "lhGA9TYQ",
           "version_id": "5VA4z5O5",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "KI7mjOH2",
+      "name": "Fabric beta-1.20.1-1.1.0",
+      "version_number": "fabric-beta-1.20.1-1.1.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5e1b0280c18978fb2991cae1a39d2a4578ac79f314deeac9bc132a042d872226621478ed096460bb303954d2bbd1569e595c8b83ce8ad177e082aa105c656738",
+          "url": "https://cdn.modrinth.com/data/kNEVW1RJ/versions/KI7mjOH2/sleeprework-FABRIC-beta-1.20.1-1.1.0.jar",
+          "filename": "sleeprework-FABRIC-beta-1.20.1-1.1.0.jar",
+          "primary": true,
+          "size": 63254
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "Sbew3kXe",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -120,14 +120,14 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
+          "project_id": "lhGA9TYQ",
+          "version_id": "Sbew3kXe",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "lhGA9TYQ",
-          "version_id": "Sbew3kXe",
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
           "file_name": null,
           "dependency_type": "required"
         }

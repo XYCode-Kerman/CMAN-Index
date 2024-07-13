@@ -1,9 +1,58 @@
 {
-  "id": "perfect-birbs",
+  "id": "7DldwCbW",
   "slug": "perfect-birbs",
   "name": "Perfect Birbs",
   "description": "Adds a variety of bird plushies to the game!",
   "versions": [
+    {
+      "id": "QPnmDulD",
+      "name": "Perfect Birbs-1.20.1-[Fabric]-1.1.0",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2d849040164d106353a02e8b6c92c41197317c62de9327d254bd1efef83ec9072d8fd06a64147218a442d3f3b5e6febe26733836bc15a1f7caaf233ee09afd52",
+          "url": "https://cdn.modrinth.com/data/7DldwCbW/versions/QPnmDulD/perfectbirbs-fabric-1.20.1-1.1.0.jar",
+          "filename": "perfectbirbs-fabric-1.20.1-1.1.0.jar",
+          "primary": true,
+          "size": 551423
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ay6AKujk",
+      "name": "Perfect Birbs-1.20.1-[Forge]-1.1.0",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "bb68f726e58a37fc6a9761fb4dd8aee753bd95fb33a8477bb1cf75d09f776aafbc2a2c31cd29c31f8f1e1969e6e993df5377fec86572e30220a56e4f9b052108",
+          "url": "https://cdn.modrinth.com/data/7DldwCbW/versions/ay6AKujk/perfectbirbs-forge-1.20.1-1.1.0.jar",
+          "filename": "perfectbirbs-forge-1.20.1-1.1.0.jar",
+          "primary": true,
+          "size": 419915
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
     {
       "id": "jbKEwhGJ",
       "name": "Perfect Birbs-1.20.1-[Forge]-1.0.0",
@@ -21,6 +70,14 @@
           "filename": "perfectbirbs-forge-1.20.1-1.0.0.jar",
           "primary": true,
           "size": 344511
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -42,7 +99,8 @@
           "primary": true,
           "size": 469266
         }
-      ]
+      ],
+      "dependencies": []
     }
   ]
 }

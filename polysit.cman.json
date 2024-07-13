@@ -5,6 +5,47 @@
   "description": "A server-side sit mod for Quilt & Fabric",
   "versions": [
     {
+      "id": "4nFiXKZC",
+      "name": "0.1.0+mc.1.19.3",
+      "version_number": "0.1.0+mc.1.19.3",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4f9d465def2f1af606f2e66319ddd0bb71d65b775d1ae90cd89534f5629015bcab8fd867baf7bcd7173c99d3316b7e76dee0e2d095206b2a5a0ca83b16ebe5aa",
+          "url": "https://cdn.modrinth.com/data/G9eJHDO2/versions/4nFiXKZC/polysit-0.1.0%2Bmc.1.19.3.jar",
+          "filename": "polysit-0.1.0+mc.1.19.3.jar",
+          "primary": true,
+          "size": 49161
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "eaoB99I6",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "xGdtZczs",
+          "version_id": "u1eEBsW3",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "8le2Kzh8",
       "name": "0.6.2+mc.1.21",
       "version_number": "0.6.2+mc.1.21",
@@ -48,6 +89,92 @@
       ]
     },
     {
+      "id": "CaJFz0WP",
+      "name": "0.4.1+mc.1.20.1",
+      "version_number": "0.4.1+mc.1.20.1",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "a1537fb9029fdbe6dfaab0fb95efc28136ab9ecd8262ee0522c7202fe8f9bf8bfb18f5397a8a65a933b5b1d99df60084f688e16826e386722993766218198e8b",
+          "url": "https://cdn.modrinth.com/data/G9eJHDO2/versions/CaJFz0WP/polysit-0.4.1%2Bmc.1.20.1.jar",
+          "filename": "polysit-0.4.1+mc.1.20.1.jar",
+          "primary": true,
+          "size": 52658
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "xGdtZczs",
+          "version_id": "494VrtRV",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "fFx48erS",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "GEWPq2Hr",
+      "name": "0.0.1+mc.1.18.2",
+      "version_number": "0.0.1+mc.1.18.2",
+      "game_versions": [
+        "1.18.2",
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5536b8b9bec52dfbe69a165c0f31103b20a709ea38c7e2cedb44b651d947222d3838b25942a7b0e8ec73178412573c6c2a354aefeb94220538274dcebc0197e3",
+          "url": "https://cdn.modrinth.com/data/G9eJHDO2/versions/0.0.1%2Bmc.1.18.2/polysit-0.0.1%2Bmc.1.18.2.jar",
+          "filename": "polysit-0.0.1+mc.1.18.2.jar",
+          "primary": true,
+          "size": 49054
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "IhFPlQD2",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "gFSJzMSV",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "xGdtZczs",
+          "version_id": "pNSCjrQS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "M6TAufYU",
       "name": "0.6.1+mc.1.20.1",
       "version_number": "0.6.1+mc.1.20.1",
@@ -81,14 +208,55 @@
           "dependency_type": "optional"
         },
         {
+          "project_id": "xGdtZczs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "qvIfYCYJ",
           "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "SnirGvzZ",
+      "name": "0.1.1+mc.1.19.3",
+      "version_number": "0.1.1+mc.1.19.3",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f7b1b1a419f5f31946529c052771ed52bbdb6f1956267594b950598f28acd223e246e48b94a988ec703ced03bf163fb84f5564423ea3e787ec5f8e292a0c3e06",
+          "url": "https://cdn.modrinth.com/data/G9eJHDO2/versions/SnirGvzZ/polysit-0.1.1%2Bmc.1.19.3.jar",
+          "filename": "polysit-0.1.1+mc.1.19.3.jar",
+          "primary": true,
+          "size": 50843
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "eaoB99I6",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
           "project_id": "xGdtZczs",
-          "version_id": null,
+          "version_id": "u1eEBsW3",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -122,6 +290,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "xGdtZczs",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
@@ -132,12 +306,47 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "rCV6dmGO",
+      "name": "0.2.0+mc.1.19.4",
+      "version_number": "0.2.0+mc.1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "b0033f41d08c396e23dd8934de758c7487f641018cb92764652516910b74302073b975c93af5dc1b84c9193c7828173abf98467958072ea38dba34fb3e0fb606",
+          "url": "https://cdn.modrinth.com/data/G9eJHDO2/versions/rCV6dmGO/polysit-0.2.0%2Bmc.1.19.4.jar",
+          "filename": "polysit-0.2.0+mc.1.19.4.jar",
+          "primary": true,
+          "size": 50885
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "QPXihdoB",
+          "file_name": null,
+          "dependency_type": "optional"
         },
         {
           "project_id": "xGdtZczs",
-          "version_id": null,
+          "version_id": "ncbwZwT1",
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -211,50 +420,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "qvIfYCYJ",
-          "version_id": "fFx48erS",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "xGdtZczs",
-          "version_id": "494VrtRV",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "CaJFz0WP",
-      "name": "0.4.1+mc.1.20.1",
-      "version_number": "0.4.1+mc.1.20.1",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "a1537fb9029fdbe6dfaab0fb95efc28136ab9ecd8262ee0522c7202fe8f9bf8bfb18f5397a8a65a933b5b1d99df60084f688e16826e386722993766218198e8b",
-          "url": "https://cdn.modrinth.com/data/G9eJHDO2/versions/CaJFz0WP/polysit-0.4.1%2Bmc.1.20.1.jar",
-          "filename": "polysit-0.4.1+mc.1.20.1.jar",
-          "primary": true,
-          "size": 52658
-        }
-      ],
-      "dependencies": [
-        {
           "project_id": "xGdtZczs",
           "version_id": "494VrtRV",
           "file_name": null,
@@ -269,88 +434,6 @@
         {
           "project_id": "qvIfYCYJ",
           "version_id": "fFx48erS",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "rCV6dmGO",
-      "name": "0.2.0+mc.1.19.4",
-      "version_number": "0.2.0+mc.1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "b0033f41d08c396e23dd8934de758c7487f641018cb92764652516910b74302073b975c93af5dc1b84c9193c7828173abf98467958072ea38dba34fb3e0fb606",
-          "url": "https://cdn.modrinth.com/data/G9eJHDO2/versions/rCV6dmGO/polysit-0.2.0%2Bmc.1.19.4.jar",
-          "filename": "polysit-0.2.0+mc.1.19.4.jar",
-          "primary": true,
-          "size": 50885
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "xGdtZczs",
-          "version_id": "ncbwZwT1",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "QPXihdoB",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "SnirGvzZ",
-      "name": "0.1.1+mc.1.19.3",
-      "version_number": "0.1.1+mc.1.19.3",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f7b1b1a419f5f31946529c052771ed52bbdb6f1956267594b950598f28acd223e246e48b94a988ec703ced03bf163fb84f5564423ea3e787ec5f8e292a0c3e06",
-          "url": "https://cdn.modrinth.com/data/G9eJHDO2/versions/SnirGvzZ/polysit-0.1.1%2Bmc.1.19.3.jar",
-          "filename": "polysit-0.1.1+mc.1.19.3.jar",
-          "primary": true,
-          "size": 50843
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "eaoB99I6",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "xGdtZczs",
-          "version_id": "u1eEBsW3",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
           "file_name": null,
           "dependency_type": "optional"
         }
@@ -381,12 +464,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "qvIfYCYJ",
           "version_id": "BTCxVi75",
           "file_name": null,
@@ -397,89 +474,12 @@
           "version_id": "dxCqgrBp",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4nFiXKZC",
-      "name": "0.1.0+mc.1.19.3",
-      "version_number": "0.1.0+mc.1.19.3",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4f9d465def2f1af606f2e66319ddd0bb71d65b775d1ae90cd89534f5629015bcab8fd867baf7bcd7173c99d3316b7e76dee0e2d095206b2a5a0ca83b16ebe5aa",
-          "url": "https://cdn.modrinth.com/data/G9eJHDO2/versions/4nFiXKZC/polysit-0.1.0%2Bmc.1.19.3.jar",
-          "filename": "polysit-0.1.0+mc.1.19.3.jar",
-          "primary": true,
-          "size": 49161
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
+          "version_id": "hfsU4hXq",
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "eaoB99I6",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "xGdtZczs",
-          "version_id": "u1eEBsW3",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "GEWPq2Hr",
-      "name": "0.0.1+mc.1.18.2",
-      "version_number": "0.0.1+mc.1.18.2",
-      "game_versions": [
-        "1.18.2",
-        "1.19"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "5536b8b9bec52dfbe69a165c0f31103b20a709ea38c7e2cedb44b651d947222d3838b25942a7b0e8ec73178412573c6c2a354aefeb94220538274dcebc0197e3",
-          "url": "https://cdn.modrinth.com/data/G9eJHDO2/versions/0.0.1%2Bmc.1.18.2/polysit-0.0.1%2Bmc.1.18.2.jar",
-          "filename": "polysit-0.0.1+mc.1.18.2.jar",
-          "primary": true,
-          "size": 49054
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "gFSJzMSV",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "IhFPlQD2",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "xGdtZczs",
-          "version_id": "pNSCjrQS",
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     }

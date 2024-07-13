@@ -5,9 +5,9 @@
   "description": "Store Books in bookshelves with effect and sounds, with support for multiple other plugins!",
   "versions": [
     {
-      "id": "c91QnLYH",
-      "name": "Minecraft 1.21 (3.1.9)",
-      "version_number": "3.1.9",
+      "id": "7ltvGkrO",
+      "name": "Major Bug Fix (3.1.4)",
+      "version_number": "3.1.4",
       "game_versions": [
         "1.8.9",
         "1.9.4",
@@ -20,9 +20,7 @@
         "1.16.5",
         "1.17.1",
         "1.18.2",
-        "1.19.4",
-        "1.20.6",
-        "1.21"
+        "1.19.4"
       ],
       "loaders": [
         "folia",
@@ -32,23 +30,29 @@
       ],
       "files": [
         {
-          "sha512": "e62ddeb563c3eea10d1a58fb57c9024a40bd658c4a9fe3f20fa46e38e64c9ba9192134340482b475e3ac14553bcd070c332fd0e71256bbf47979abfa7b7029f9",
-          "url": "https://cdn.modrinth.com/data/VUkUwfUG/versions/c91QnLYH/Bookshelf-3.1.9.0.jar",
-          "filename": "Bookshelf-3.1.9.0.jar",
-          "primary": true,
-          "size": 2082063
+          "sha512": "2bc79bdb7d3f7b8fc421a2c6a5d3014182395de01685fc3d7e115f73287251e942a934fb4995861567bbb90945a23bfaa4fc6b4f66423b15af7639c60131f665",
+          "url": "https://cdn.modrinth.com/data/VUkUwfUG/versions/7ltvGkrO/Bookshelf-3.1.4.0.jar",
+          "filename": "Bookshelf-3.1.4.0.jar",
+          "primary": false,
+          "size": 993215
         }
       ],
       "dependencies": [
         {
-          "project_id": "hXiIvTyT",
-          "version_id": null,
+          "project_id": "z4mHgUYG",
+          "version_id": "WBpsffAL",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
-          "project_id": "z4mHgUYG",
-          "version_id": null,
+          "project_id": "YqbUofZE",
+          "version_id": "XUzFwm2T",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "hXiIvTyT",
+          "version_id": "z951OvHM",
           "file_name": null,
           "dependency_type": "optional"
         }
@@ -104,9 +108,9 @@
       ]
     },
     {
-      "id": "vazHUx6l",
-      "name": "Minecraft 1.20.4 (3.1.7)",
-      "version_number": "3.1.7",
+      "id": "AdzJhB93",
+      "name": "Minecraft 1.20 (3.1.5)",
+      "version_number": "3.1.5",
       "game_versions": [
         "1.8.9",
         "1.9.4",
@@ -120,33 +124,113 @@
         "1.17.1",
         "1.18.2",
         "1.19.4",
-        "1.20.4"
+        "1.20"
       ],
       "loaders": [
-        "folia",
         "paper",
         "purpur",
         "spigot"
       ],
       "files": [
         {
-          "sha512": "6d7b7c239e4fe02e60d90dec5367b8c1e2678d01f8448016e306ea510903f1b1f42169af0792c88da501d16b3ddf3001e6349ee2deff8bc35ef38ce6ad3483c1",
-          "url": "https://cdn.modrinth.com/data/VUkUwfUG/versions/vazHUx6l/Bookshelf-3.1.7.0.jar",
-          "filename": "Bookshelf-3.1.7.0.jar",
+          "sha512": "0e89293ca20e4bb024f1fde01a58791c499314709e2872b989781b48b085c91289d09aae30441d93e46998496a19e0eb696bed5220a387f129d36b15793def67",
+          "url": "https://cdn.modrinth.com/data/VUkUwfUG/versions/AdzJhB93/Bookshelf-3.1.5.0.jar",
+          "filename": "Bookshelf-3.1.5.0.jar",
           "primary": true,
-          "size": 1021587
+          "size": 993855
         }
       ],
       "dependencies": [
         {
-          "project_id": "hXiIvTyT",
-          "version_id": null,
+          "project_id": "z4mHgUYG",
+          "version_id": "IfFgiuNa",
           "file_name": null,
           "dependency_type": "optional"
         },
         {
+          "project_id": "hXiIvTyT",
+          "version_id": "pdY49V5Y",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "HDV1SC4g",
+      "name": "Minecraft 1.19.3 (3.1.1)",
+      "version_number": "3.1.1",
+      "game_versions": [
+        "1.8.9",
+        "1.9.4",
+        "1.10.2",
+        "1.11.2",
+        "1.12.2",
+        "1.13.2",
+        "1.14.4",
+        "1.15.2",
+        "1.16.5",
+        "1.17.1",
+        "1.18.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "paper",
+        "purpur",
+        "spigot"
+      ],
+      "files": [
+        {
+          "sha512": "6ebe080036fea06e21e6464a5b4d135fe855cebe3fffda637cef4ed4177743713e7c3926768cc2b727a96a2b221ae1fbf811d1e16d7f89721408366b91d0c4b1",
+          "url": "https://cdn.modrinth.com/data/VUkUwfUG/versions/HDV1SC4g/Bookshelf-3.1.1.0.jar",
+          "filename": "Bookshelf-3.1.1.0.jar",
+          "primary": true,
+          "size": 677540
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Pa6970IV",
+      "name": "Minecraft 1.19.4 (3.2.0)",
+      "version_number": "3.1.2",
+      "game_versions": [
+        "1.8.9",
+        "1.9.4",
+        "1.10.2",
+        "1.11.2",
+        "1.12.2",
+        "1.13.2",
+        "1.14.4",
+        "1.15.2",
+        "1.16.5",
+        "1.17.1",
+        "1.18.2",
+        "1.19.4"
+      ],
+      "loaders": [
+        "paper",
+        "purpur",
+        "spigot"
+      ],
+      "files": [
+        {
+          "sha512": "eaffdcd06f9332835d0470181ac3a7b7a1223055cd17d28792511c9b70a8daa8baa5da3cc09e456aff278e60a813a1f18f5fc2d30552955cad657f334aace1bf",
+          "url": "https://cdn.modrinth.com/data/VUkUwfUG/versions/Pa6970IV/Bookshelf-3.1.2.0.jar",
+          "filename": "Bookshelf-3.1.2.0.jar",
+          "primary": true,
+          "size": 985741
+        }
+      ],
+      "dependencies": [
+        {
           "project_id": "z4mHgUYG",
-          "version_id": null,
+          "version_id": "IfFgiuNa",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "hXiIvTyT",
+          "version_id": "pdY49V5Y",
           "file_name": null,
           "dependency_type": "optional"
         }
@@ -202,9 +286,9 @@
       ]
     },
     {
-      "id": "AdzJhB93",
-      "name": "Minecraft 1.20 (3.1.5)",
-      "version_number": "3.1.5",
+      "id": "c91QnLYH",
+      "name": "Minecraft 1.21 (3.1.9)",
+      "version_number": "3.1.9",
       "game_versions": [
         "1.8.9",
         "1.9.4",
@@ -218,54 +302,8 @@
         "1.17.1",
         "1.18.2",
         "1.19.4",
-        "1.20"
-      ],
-      "loaders": [
-        "paper",
-        "purpur",
-        "spigot"
-      ],
-      "files": [
-        {
-          "sha512": "0e89293ca20e4bb024f1fde01a58791c499314709e2872b989781b48b085c91289d09aae30441d93e46998496a19e0eb696bed5220a387f129d36b15793def67",
-          "url": "https://cdn.modrinth.com/data/VUkUwfUG/versions/AdzJhB93/Bookshelf-3.1.5.0.jar",
-          "filename": "Bookshelf-3.1.5.0.jar",
-          "primary": true,
-          "size": 993855
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "hXiIvTyT",
-          "version_id": "pdY49V5Y",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "z4mHgUYG",
-          "version_id": "IfFgiuNa",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "7ltvGkrO",
-      "name": "Major Bug Fix (3.1.4)",
-      "version_number": "3.1.4",
-      "game_versions": [
-        "1.8.9",
-        "1.9.4",
-        "1.10.2",
-        "1.11.2",
-        "1.12.2",
-        "1.13.2",
-        "1.14.4",
-        "1.15.2",
-        "1.16.5",
-        "1.17.1",
-        "1.18.2",
-        "1.19.4"
+        "1.20.6",
+        "1.21"
       ],
       "loaders": [
         "folia",
@@ -275,29 +313,23 @@
       ],
       "files": [
         {
-          "sha512": "2bc79bdb7d3f7b8fc421a2c6a5d3014182395de01685fc3d7e115f73287251e942a934fb4995861567bbb90945a23bfaa4fc6b4f66423b15af7639c60131f665",
-          "url": "https://cdn.modrinth.com/data/VUkUwfUG/versions/7ltvGkrO/Bookshelf-3.1.4.0.jar",
-          "filename": "Bookshelf-3.1.4.0.jar",
-          "primary": false,
-          "size": 993215
+          "sha512": "e62ddeb563c3eea10d1a58fb57c9024a40bd658c4a9fe3f20fa46e38e64c9ba9192134340482b475e3ac14553bcd070c332fd0e71256bbf47979abfa7b7029f9",
+          "url": "https://cdn.modrinth.com/data/VUkUwfUG/versions/c91QnLYH/Bookshelf-3.1.9.0.jar",
+          "filename": "Bookshelf-3.1.9.0.jar",
+          "primary": true,
+          "size": 2082063
         }
       ],
       "dependencies": [
         {
-          "project_id": "YqbUofZE",
-          "version_id": "XUzFwm2T",
+          "project_id": "hXiIvTyT",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
         {
           "project_id": "z4mHgUYG",
-          "version_id": "WBpsffAL",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "hXiIvTyT",
-          "version_id": "z951OvHM",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         }
@@ -352,9 +384,9 @@
       ]
     },
     {
-      "id": "Pa6970IV",
-      "name": "Minecraft 1.19.4 (3.2.0)",
-      "version_number": "3.1.2",
+      "id": "vazHUx6l",
+      "name": "Minecraft 1.20.4 (3.1.7)",
+      "version_number": "3.1.7",
       "game_versions": [
         "1.8.9",
         "1.9.4",
@@ -367,70 +399,38 @@
         "1.16.5",
         "1.17.1",
         "1.18.2",
-        "1.19.4"
+        "1.19.4",
+        "1.20.4"
       ],
       "loaders": [
+        "folia",
         "paper",
         "purpur",
         "spigot"
       ],
       "files": [
         {
-          "sha512": "eaffdcd06f9332835d0470181ac3a7b7a1223055cd17d28792511c9b70a8daa8baa5da3cc09e456aff278e60a813a1f18f5fc2d30552955cad657f334aace1bf",
-          "url": "https://cdn.modrinth.com/data/VUkUwfUG/versions/Pa6970IV/Bookshelf-3.1.2.0.jar",
-          "filename": "Bookshelf-3.1.2.0.jar",
+          "sha512": "6d7b7c239e4fe02e60d90dec5367b8c1e2678d01f8448016e306ea510903f1b1f42169af0792c88da501d16b3ddf3001e6349ee2deff8bc35ef38ce6ad3483c1",
+          "url": "https://cdn.modrinth.com/data/VUkUwfUG/versions/vazHUx6l/Bookshelf-3.1.7.0.jar",
+          "filename": "Bookshelf-3.1.7.0.jar",
           "primary": true,
-          "size": 985741
+          "size": 1021587
         }
       ],
       "dependencies": [
         {
-          "project_id": "z4mHgUYG",
-          "version_id": "IfFgiuNa",
+          "project_id": "hXiIvTyT",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
         {
-          "project_id": "hXiIvTyT",
-          "version_id": "pdY49V5Y",
+          "project_id": "z4mHgUYG",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         }
       ]
-    },
-    {
-      "id": "HDV1SC4g",
-      "name": "Minecraft 1.19.3 (3.1.1)",
-      "version_number": "3.1.1",
-      "game_versions": [
-        "1.8.9",
-        "1.9.4",
-        "1.10.2",
-        "1.11.2",
-        "1.12.2",
-        "1.13.2",
-        "1.14.4",
-        "1.15.2",
-        "1.16.5",
-        "1.17.1",
-        "1.18.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "paper",
-        "purpur",
-        "spigot"
-      ],
-      "files": [
-        {
-          "sha512": "6ebe080036fea06e21e6464a5b4d135fe855cebe3fffda637cef4ed4177743713e7c3926768cc2b727a96a2b221ae1fbf811d1e16d7f89721408366b91d0c4b1",
-          "url": "https://cdn.modrinth.com/data/VUkUwfUG/versions/HDV1SC4g/Bookshelf-3.1.1.0.jar",
-          "filename": "Bookshelf-3.1.1.0.jar",
-          "primary": true,
-          "size": 677540
-        }
-      ],
-      "dependencies": []
     }
   ]
 }

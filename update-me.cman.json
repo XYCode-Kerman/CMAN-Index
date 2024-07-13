@@ -5,9 +5,37 @@
   "description": "Informs the player when your modpack needs an update",
   "versions": [
     {
-      "id": "rcLXV8l0",
-      "name": "Update ME! 2.2 - [NeoForge] (1.20.4)",
-      "version_number": "2.2-20.4-neoforge",
+      "id": "8fKYScx5",
+      "name": "1.0b",
+      "version_number": "1.0b",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f41ade392bf4c8e6eec5304b634fbca9c96b48fd9f83feb770ce7887eaf2f5c9b09e6ef14f9dbbf1f89a1f2a22e5b92a8414afa8756c9de2049225f981ab9c3f",
+          "url": "https://cdn.modrinth.com/data/9xIIYjBA/versions/8fKYScx5/update-me-1.0b.jar",
+          "filename": "update-me-1.0b.jar",
+          "primary": true,
+          "size": 7956
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "EvCmCLbw",
+      "name": "Update ME! 2.1 - [NeoForge] (1.20.4)",
+      "version_number": "2.1",
       "game_versions": [
         "1.20.4"
       ],
@@ -16,11 +44,11 @@
       ],
       "files": [
         {
-          "sha512": "af6b782f1fc63ac956589cd94d5fa3e5ac69547dc92c555b72c38ea393a41999aca68f47b827e6de273b0a5cba3e648885df8a00857ecb17f5a0f933f55fe9b2",
-          "url": "https://cdn.modrinth.com/data/9xIIYjBA/versions/rcLXV8l0/UpdateMe-neoforge-2.2.jar",
-          "filename": "UpdateMe-neoforge-2.2.jar",
+          "sha512": "aab6164a3b31091daa9eda5f73c5b88e3f540151ae73548df8233e62f60d6c830a38b4132af1af4c47990682c9279f68bba9b3b666b3ca0cece0c946080402f9",
+          "url": "https://cdn.modrinth.com/data/9xIIYjBA/versions/EvCmCLbw/UpdateMe-2.1.jar",
+          "filename": "UpdateMe-2.1.jar",
           "primary": true,
-          "size": 13109
+          "size": 12496
         }
       ],
       "dependencies": [
@@ -29,6 +57,40 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "H8dhVLP9",
+      "name": "Update ME! 2.1 - [Fabric] (1.20.4)",
+      "version_number": "2.1",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "57aace083590a282aec68e971c7a5e39be559bb2858a00d7378fa37d5d3e50324df4a2c75e1403b4d921cf3b8a4782f0f89c7e665eb14a41aeb215180a352320",
+          "url": "https://cdn.modrinth.com/data/9xIIYjBA/versions/H8dhVLP9/UpdateMe-2.1.jar",
+          "filename": "UpdateMe-2.1.jar",
+          "primary": true,
+          "size": 9897
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -84,68 +146,6 @@
           "filename": "UpdateMe-2.0.jar",
           "primary": true,
           "size": 9911
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "codAaoxh",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "EvCmCLbw",
-      "name": "Update ME! 2.1 - [NeoForge] (1.20.4)",
-      "version_number": "2.1",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "aab6164a3b31091daa9eda5f73c5b88e3f540151ae73548df8233e62f60d6c830a38b4132af1af4c47990682c9279f68bba9b3b666b3ca0cece0c946080402f9",
-          "url": "https://cdn.modrinth.com/data/9xIIYjBA/versions/EvCmCLbw/UpdateMe-2.1.jar",
-          "filename": "UpdateMe-2.1.jar",
-          "primary": true,
-          "size": 12496
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "H8dhVLP9",
-      "name": "Update ME! 2.1 - [Fabric] (1.20.4)",
-      "version_number": "2.1",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "57aace083590a282aec68e971c7a5e39be559bb2858a00d7378fa37d5d3e50324df4a2c75e1403b4d921cf3b8a4782f0f89c7e665eb14a41aeb215180a352320",
-          "url": "https://cdn.modrinth.com/data/9xIIYjBA/versions/H8dhVLP9/UpdateMe-2.1.jar",
-          "filename": "UpdateMe-2.1.jar",
-          "primary": true,
-          "size": 9897
         }
       ],
       "dependencies": [
@@ -219,27 +219,27 @@
       "dependencies": []
     },
     {
-      "id": "8fKYScx5",
-      "name": "1.0b",
-      "version_number": "1.0b",
+      "id": "rcLXV8l0",
+      "name": "Update ME! 2.2 - [NeoForge] (1.20.4)",
+      "version_number": "2.2-20.4-neoforge",
       "game_versions": [
-        "1.20.2"
+        "1.20.4"
       ],
       "loaders": [
-        "fabric"
+        "neoforge"
       ],
       "files": [
         {
-          "sha512": "f41ade392bf4c8e6eec5304b634fbca9c96b48fd9f83feb770ce7887eaf2f5c9b09e6ef14f9dbbf1f89a1f2a22e5b92a8414afa8756c9de2049225f981ab9c3f",
-          "url": "https://cdn.modrinth.com/data/9xIIYjBA/versions/8fKYScx5/update-me-1.0b.jar",
-          "filename": "update-me-1.0b.jar",
+          "sha512": "af6b782f1fc63ac956589cd94d5fa3e5ac69547dc92c555b72c38ea393a41999aca68f47b827e6de273b0a5cba3e648885df8a00857ecb17f5a0f933f55fe9b2",
+          "url": "https://cdn.modrinth.com/data/9xIIYjBA/versions/rcLXV8l0/UpdateMe-neoforge-2.2.jar",
+          "filename": "UpdateMe-neoforge-2.2.jar",
           "primary": true,
-          "size": 7956
+          "size": 13109
         }
       ],
       "dependencies": [
         {
-          "project_id": "1eAoo2KR",
+          "project_id": "codAaoxh",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"

@@ -5,41 +5,42 @@
   "description": "Quick stack to nearby chests!",
   "versions": [
     {
-      "id": "pBldPtfC",
-      "name": "QuickStack 1.0.2",
-      "version_number": "1.0.2+1.20.4",
+      "id": "FEZa2h7a",
+      "name": "QuickStack 1.0.0-beta4",
+      "version_number": "1.0.0-beta4",
       "game_versions": [
-        "1.20.4"
+        "1.19.3"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "ad88fb2199445cf99fc233e107b0595ce96317a28c3a995526e8aa1ba8ac8fe04a3aacd291f7e16ce057e9f0279906a0086f720a45fabd002e4edc6a4c6e235c",
-          "url": "https://cdn.modrinth.com/data/NdeIBctc/versions/pBldPtfC/quickstack-1.0.2%2B1.20.4.jar",
-          "filename": "quickstack-1.0.2+1.20.4.jar",
+          "sha512": "2af735791ab1fc38de16b25fd342d7368e5ad6141d3cd6bae3ccd2599fb2fe9827e620393e91a0a91390e0db1d2c10a29836bceef35f277591dd6382ea0110e0",
+          "url": "https://cdn.modrinth.com/data/NdeIBctc/versions/FEZa2h7a/quickstack-1.0.0-beta4%2B1.19.3.jar",
+          "filename": "quickstack-1.0.0-beta4+1.19.3.jar",
           "primary": true,
-          "size": 288450
+          "size": 275505
         },
         {
-          "sha512": "f60ef9595bd30c91cb2642696ba971ec952f403df1ee8336deedcae810a8e67c754806a2722a652a54376b44dce9612404ceef459f35248b54626eda7558a29e",
-          "url": "https://cdn.modrinth.com/data/NdeIBctc/versions/pBldPtfC/quickstack-1.0.2%2B1.20.4-sources.jar",
-          "filename": "quickstack-1.0.2+1.20.4-sources.jar",
+          "sha512": "adc6b0703abf260080d10d39754274a335501f04504f6e3ae05b1964e630d412179195655a2c44cd3d42346b4240c431137d2cb6390fcc9f75cab3d5dad13ef5",
+          "url": "https://cdn.modrinth.com/data/NdeIBctc/versions/FEZa2h7a/quickstack-1.0.0-beta4%2B1.19.3-sources.jar",
+          "filename": "quickstack-1.0.0-beta4+1.19.3-sources.jar",
           "primary": false,
-          "size": 37278
+          "size": 35161
         }
       ],
       "dependencies": [
         {
           "project_id": "BBi9csxn",
-          "version_id": null,
+          "version_id": "SmDNJEbF",
           "file_name": null,
           "dependency_type": "embedded"
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": null,
+          "version_id": "jyKnHEDY",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -130,48 +131,6 @@
       ]
     },
     {
-      "id": "FEZa2h7a",
-      "name": "QuickStack 1.0.0-beta4",
-      "version_number": "1.0.0-beta4",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2af735791ab1fc38de16b25fd342d7368e5ad6141d3cd6bae3ccd2599fb2fe9827e620393e91a0a91390e0db1d2c10a29836bceef35f277591dd6382ea0110e0",
-          "url": "https://cdn.modrinth.com/data/NdeIBctc/versions/FEZa2h7a/quickstack-1.0.0-beta4%2B1.19.3.jar",
-          "filename": "quickstack-1.0.0-beta4+1.19.3.jar",
-          "primary": true,
-          "size": 275505
-        },
-        {
-          "sha512": "adc6b0703abf260080d10d39754274a335501f04504f6e3ae05b1964e630d412179195655a2c44cd3d42346b4240c431137d2cb6390fcc9f75cab3d5dad13ef5",
-          "url": "https://cdn.modrinth.com/data/NdeIBctc/versions/FEZa2h7a/quickstack-1.0.0-beta4%2B1.19.3-sources.jar",
-          "filename": "quickstack-1.0.0-beta4+1.19.3-sources.jar",
-          "primary": false,
-          "size": 35161
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "BBi9csxn",
-          "version_id": "SmDNJEbF",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "m0jjA6Sy",
       "name": "QuickStack 1.0.0-beta4",
       "version_number": "1.0.0-beta4",
@@ -200,16 +159,57 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "unERf4ZJ",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "BBi9csxn",
           "version_id": "e8AdDlwj",
           "file_name": null,
           "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "unERf4ZJ",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "pBldPtfC",
+      "name": "QuickStack 1.0.2",
+      "version_number": "1.0.2+1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ad88fb2199445cf99fc233e107b0595ce96317a28c3a995526e8aa1ba8ac8fe04a3aacd291f7e16ce057e9f0279906a0086f720a45fabd002e4edc6a4c6e235c",
+          "url": "https://cdn.modrinth.com/data/NdeIBctc/versions/pBldPtfC/quickstack-1.0.2%2B1.20.4.jar",
+          "filename": "quickstack-1.0.2+1.20.4.jar",
+          "primary": true,
+          "size": 288450
+        },
+        {
+          "sha512": "f60ef9595bd30c91cb2642696ba971ec952f403df1ee8336deedcae810a8e67c754806a2722a652a54376b44dce9612404ceef459f35248b54626eda7558a29e",
+          "url": "https://cdn.modrinth.com/data/NdeIBctc/versions/pBldPtfC/quickstack-1.0.2%2B1.20.4-sources.jar",
+          "filename": "quickstack-1.0.2+1.20.4-sources.jar",
+          "primary": false,
+          "size": 37278
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "BBi9csxn",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

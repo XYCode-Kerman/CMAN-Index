@@ -1,9 +1,43 @@
 {
-  "id": "pebbles-rudimentary-commands",
+  "id": "rFYjpIko",
   "slug": "pebbles-rudimentary-commands",
   "name": "Pebble's Rudimentary Commands",
   "description": "Useful commands that all servers need like /hat /heal and message utility command /r",
   "versions": [
+    {
+      "id": "1ywaurWb",
+      "name": "Pebble's Rudimentary Commands 1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "35afb136816ef2d952b6fdf3dde994fc1e86e8b026e5a29dd051d65575222bcdf756c352e8430dc4b743af2c94903c5d93cd5e6dccf0604fcba34c4ff01c9e44",
+          "url": "https://cdn.modrinth.com/data/rFYjpIko/versions/1ywaurWb/pebbles-rudimentary-commands-1.0.0.jar",
+          "filename": "pebbles-rudimentary-commands-1.0.0.jar",
+          "primary": true,
+          "size": 739998
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": "s10JMAtS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
     {
       "id": "O3oAG8QB",
       "name": "Pebble's Rudimentary Commands 1.0.1-1.20.1",
@@ -21,6 +55,14 @@
           "filename": "pebbles-rudimentary-commands-1.0.1-1.20.1.jar",
           "primary": true,
           "size": 850752
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -42,25 +84,13 @@
           "primary": true,
           "size": 739998
         }
-      ]
-    },
-    {
-      "id": "1ywaurWb",
-      "name": "Pebble's Rudimentary Commands 1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.19.2"
       ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "35afb136816ef2d952b6fdf3dde994fc1e86e8b026e5a29dd051d65575222bcdf756c352e8430dc4b743af2c94903c5d93cd5e6dccf0604fcba34c4ff01c9e44",
-          "url": "https://cdn.modrinth.com/data/rFYjpIko/versions/1ywaurWb/pebbles-rudimentary-commands-1.0.0.jar",
-          "filename": "pebbles-rudimentary-commands-1.0.0.jar",
-          "primary": true,
-          "size": 739998
+          "project_id": "Ha28R6CL",
+          "version_id": "s10JMAtS",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

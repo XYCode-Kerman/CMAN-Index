@@ -5,6 +5,102 @@
   "description": "Do you play Cobblemon? Do you also play with other mods? Then this is the mod for you!\n\nCompatemon is the one-stop-shop for all your compatibility needs, and allows for a more integrated minecraft experience with Cobblemon!",
   "versions": [
     {
+      "id": "80X92eQf",
+      "name": "Compatemon Forge",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8b81ca6f29f038cb6f6e2b2e96e733fdc242b5aa9ac749b0b3bc48a7348b733faab80da6fbdd143eb5775ba2b1ed3039c13f21736f94b95b0565b33fa90e76bc",
+          "url": "https://cdn.modrinth.com/data/Yje0iO7W/versions/80X92eQf/compatemon-forge-1.0.0.jar",
+          "filename": "compatemon-forge-1.0.0.jar",
+          "primary": true,
+          "size": 143099
+        },
+        {
+          "sha512": "c28eaeb73129afc86b4176bd7cfff4687220f9e7f713c4475cc4dc4ff4b93f1903a0da2b9b76b751c1f774beb46e9fb698ffaa53e3b5f4a8018bfe41fb9d7e66",
+          "url": "https://cdn.modrinth.com/data/Yje0iO7W/versions/80X92eQf/compatemon-forge-1.0.0-dev-shadow.jar",
+          "filename": "compatemon-forge-1.0.0-dev-shadow.jar",
+          "primary": false,
+          "size": 138531
+        },
+        {
+          "sha512": "e383f99ebf631732caba513b851bb82f3444960f7d7d5c05f44970f896f3fef94450a7053eaa88789404f358c565c47f3339b6af9d9d123855991f7dc959f2ff",
+          "url": "https://cdn.modrinth.com/data/Yje0iO7W/versions/80X92eQf/compatemon-forge-1.0.0-sources.jar",
+          "filename": "compatemon-forge-1.0.0-sources.jar",
+          "primary": false,
+          "size": 99052
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "t5W7Jfwy",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "aKQa8apf",
+      "name": "Compatemon Fabric",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "031e02d955c10725f2ec4eda34e02a5fe05c363d27eb7c4c7061395a0e6b2c11cd82cc7de161df6a6db1984b6bf8324184cc5d6fc146aec9c4773e27a0d86670",
+          "url": "https://cdn.modrinth.com/data/Yje0iO7W/versions/aKQa8apf/compatemon-fabric-1.0.0.jar",
+          "filename": "compatemon-fabric-1.0.0.jar",
+          "primary": true,
+          "size": 106943
+        },
+        {
+          "sha512": "6185e3a211a7f7f0e86b21967941cf09435dac56f3a17fbead7be1f106c4b6c2a7254abd3b07a5eee7774381db4b805456195d2cc1efec20e25e446fb3f46c6a",
+          "url": "https://cdn.modrinth.com/data/Yje0iO7W/versions/aKQa8apf/compatemon-fabric-1.0.0-dev-shadow.jar",
+          "filename": "compatemon-fabric-1.0.0-dev-shadow.jar",
+          "primary": false,
+          "size": 102272
+        },
+        {
+          "sha512": "0db0fc43ee8257f44250f5ec2a72dc89346a6a8b5a2a79dddcfde594fe352bb4b9a44817c5285f7d3c34f29f9feb69c156a2858b747cdb03e45920061945fe80",
+          "url": "https://cdn.modrinth.com/data/Yje0iO7W/versions/aKQa8apf/compatemon-fabric-1.0.0-sources.jar",
+          "filename": "compatemon-fabric-1.0.0-sources.jar",
+          "primary": false,
+          "size": 72716
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "t5W7Jfwy",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "gUeY6GbC",
       "name": "Compatemon Forge",
       "version_number": "1.0.1",
@@ -80,102 +176,6 @@
         }
       ],
       "dependencies": []
-    },
-    {
-      "id": "aKQa8apf",
-      "name": "Compatemon Fabric",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "031e02d955c10725f2ec4eda34e02a5fe05c363d27eb7c4c7061395a0e6b2c11cd82cc7de161df6a6db1984b6bf8324184cc5d6fc146aec9c4773e27a0d86670",
-          "url": "https://cdn.modrinth.com/data/Yje0iO7W/versions/aKQa8apf/compatemon-fabric-1.0.0.jar",
-          "filename": "compatemon-fabric-1.0.0.jar",
-          "primary": true,
-          "size": 106943
-        },
-        {
-          "sha512": "6185e3a211a7f7f0e86b21967941cf09435dac56f3a17fbead7be1f106c4b6c2a7254abd3b07a5eee7774381db4b805456195d2cc1efec20e25e446fb3f46c6a",
-          "url": "https://cdn.modrinth.com/data/Yje0iO7W/versions/aKQa8apf/compatemon-fabric-1.0.0-dev-shadow.jar",
-          "filename": "compatemon-fabric-1.0.0-dev-shadow.jar",
-          "primary": false,
-          "size": 102272
-        },
-        {
-          "sha512": "0db0fc43ee8257f44250f5ec2a72dc89346a6a8b5a2a79dddcfde594fe352bb4b9a44817c5285f7d3c34f29f9feb69c156a2858b747cdb03e45920061945fe80",
-          "url": "https://cdn.modrinth.com/data/Yje0iO7W/versions/aKQa8apf/compatemon-fabric-1.0.0-sources.jar",
-          "filename": "compatemon-fabric-1.0.0-sources.jar",
-          "primary": false,
-          "size": 72716
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "t5W7Jfwy",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "80X92eQf",
-      "name": "Compatemon Forge",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "8b81ca6f29f038cb6f6e2b2e96e733fdc242b5aa9ac749b0b3bc48a7348b733faab80da6fbdd143eb5775ba2b1ed3039c13f21736f94b95b0565b33fa90e76bc",
-          "url": "https://cdn.modrinth.com/data/Yje0iO7W/versions/80X92eQf/compatemon-forge-1.0.0.jar",
-          "filename": "compatemon-forge-1.0.0.jar",
-          "primary": true,
-          "size": 143099
-        },
-        {
-          "sha512": "c28eaeb73129afc86b4176bd7cfff4687220f9e7f713c4475cc4dc4ff4b93f1903a0da2b9b76b751c1f774beb46e9fb698ffaa53e3b5f4a8018bfe41fb9d7e66",
-          "url": "https://cdn.modrinth.com/data/Yje0iO7W/versions/80X92eQf/compatemon-forge-1.0.0-dev-shadow.jar",
-          "filename": "compatemon-forge-1.0.0-dev-shadow.jar",
-          "primary": false,
-          "size": 138531
-        },
-        {
-          "sha512": "e383f99ebf631732caba513b851bb82f3444960f7d7d5c05f44970f896f3fef94450a7053eaa88789404f358c565c47f3339b6af9d9d123855991f7dc959f2ff",
-          "url": "https://cdn.modrinth.com/data/Yje0iO7W/versions/80X92eQf/compatemon-forge-1.0.0-sources.jar",
-          "filename": "compatemon-forge-1.0.0-sources.jar",
-          "primary": false,
-          "size": 99052
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "t5W7Jfwy",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "MdwFAVRL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
     }
   ]
 }

@@ -5,6 +5,64 @@
   "description": "Fabric library to help mods coordinate item movement cooldowns",
   "versions": [
     {
+      "id": "1KUZ0GAa",
+      "name": "Cooldown Coordinator 0.2.1 beta for Minecraft 1.18.x",
+      "version_number": "0.2.1",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "dc074d90801b2b17f7af59478ae63519c760b36fcebf8a77d4f1e72db275eced34bb9d8cf03444e4f2707ed4b388aae94a9cf9ae7213c26d3e73b7ff861c1c72",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.2.1/cooldown-coordinator-0.2.1.jar",
+          "filename": "cooldown-coordinator-0.2.1.jar",
+          "primary": true,
+          "size": 12750
+        },
+        {
+          "sha512": "93eac556a29c35863cfa06543834dacd4f9639dfcb24ac2ce66d00ba5d597f781e595e13c5b69afd732d8ce79370192eb62aaf2ed2d369fe936c2b8faebdc33e",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.2.1/cooldown-coordinator-0.2.1-sources.jar",
+          "filename": "cooldown-coordinator-0.2.1-sources.jar",
+          "primary": false,
+          "size": 11967
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ATEAtk37",
+      "name": "Cooldown Coordinator 0.4.0 for Minecraft 1.19.x",
+      "version_number": "0.4.0",
+      "game_versions": [
+        "1.19-pre1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a317e4c16288caac63b72d1aaf9ebf2c3c5403e47370d14a12ff6f7a9e4bef914172cf4ee2527930dd0f82afa685a21a3e7b77b11cf6cb6170948c438a02d470",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.4.0/cooldown-coordinator-0.4.0.jar",
+          "filename": "cooldown-coordinator-0.4.0.jar",
+          "primary": true,
+          "size": 13918
+        },
+        {
+          "sha512": "21ef10895017b615c30ab7ae0a0bf392b8e999f488dd15769a87baa2665e2f3dbd375de228d8aca1ba040f7e924d2b9a220f82a6102d5f4bc231d859dfebd946",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.4.0/cooldown-coordinator-0.4.0-sources.jar",
+          "filename": "cooldown-coordinator-0.4.0-sources.jar",
+          "primary": false,
+          "size": 12860
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "CACUAJW9",
       "name": "Cooldown Coordinator 0.7.2",
       "version_number": "0.7.2",
@@ -33,111 +91,6 @@
           "filename": "cooldown-coordinator-0.7.2-sources.jar",
           "primary": false,
           "size": 13102
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Q38lLYOE",
-      "name": "Cooldown Coordinator 0.6.3",
-      "version_number": "0.6.3",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "82a231b59178fbfce47dead240a0b0d27d59aeba1111544b819f1fed9fbe4d86a3439c02e671bcf2a3dbfcc711a6c99ebcaef930a293478041c7b7a1e346c1fb",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/Q38lLYOE/cooldown-coordinator-0.6.3.jar",
-          "filename": "cooldown-coordinator-0.6.3.jar",
-          "primary": true,
-          "size": 14032
-        },
-        {
-          "sha512": "835ddf0c02e593ada8f6cf616fc41422f460973c074e50400bad22aa5f649fc1c97cd54c1801449cbf93d4099a988b28fe1993e6a0e25fbe5cf8a2bc11e8af4a",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/Q38lLYOE/cooldown-coordinator-0.6.3-sources.jar",
-          "filename": "cooldown-coordinator-0.6.3-sources.jar",
-          "primary": false,
-          "size": 13134
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "PCdDHoEb",
-      "name": "Cooldown Coordinator 0.7.1",
-      "version_number": "0.7.1",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6",
-        "24w18a",
-        "24w19a",
-        "24w19b"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "41ae5d1b755d6a0d346d34565f56e1f1fd05f1a13aa251232e7996f956091dcb645d8af8ff89986ed7756a41c2ea8da6f75be69d9ea555c64c8a44eb515d5ec8",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/PCdDHoEb/cooldown-coordinator-0.7.1.jar",
-          "filename": "cooldown-coordinator-0.7.1.jar",
-          "primary": true,
-          "size": 13607
-        },
-        {
-          "sha512": "d674135175c2171d8548564d22c716e8c34560824d80c1bbbddcf69df15b676cb4a977690c459b139af0d0ad743497b84de165bc3b5a53749a65948a047955ac",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/PCdDHoEb/cooldown-coordinator-0.7.1-sources.jar",
-          "filename": "cooldown-coordinator-0.7.1-sources.jar",
-          "primary": false,
-          "size": 13098
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "crnHBji9",
-      "name": "Cooldown Coordinator 0.7.0",
-      "version_number": "0.7.0",
-      "game_versions": [
-        "24w13a",
-        "24w14a",
-        "1.20.5-pre1",
-        "1.20.5-pre2",
-        "1.20.5-pre3",
-        "1.20.5-pre4",
-        "1.20.5-rc1",
-        "1.20.5-rc2",
-        "1.20.5-rc3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "72838fccf44b6edff91d8d53d31d5e4c0cbee95262d97da15e47a3035bc749d1ae3e1faf1850dfc60abccb146dfe95dbd8dc463dc64c604f1a47ff5cea0fb7d6",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/crnHBji9/cooldown-coordinator-0.7.0.jar",
-          "filename": "cooldown-coordinator-0.7.0.jar",
-          "primary": true,
-          "size": 13573
-        },
-        {
-          "sha512": "5f286c1aa25d383361a94a301bd9fa9b821f6876344fc06cc2c6da2ff15822e7addc7e6f991108f5183b5a1ab5e345b1b970d59c6fbf94ccf927f058eab753d5",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/crnHBji9/cooldown-coordinator-0.7.0-sources.jar",
-          "filename": "cooldown-coordinator-0.7.0-sources.jar",
-          "primary": false,
-          "size": 13104
         }
       ],
       "dependencies": []
@@ -178,32 +131,31 @@
       "dependencies": []
     },
     {
-      "id": "wVepCY46",
-      "name": "Cooldown Coordinator 0.6.1 for Minecraft 1.20",
-      "version_number": "0.6.1",
+      "id": "FqxeicxG",
+      "name": "Cooldown Coordinator 0.4.2 for Minecraft 1.19.x",
+      "version_number": "0.4.2",
       "game_versions": [
-        "1.20",
-        "1.20.1-rc1",
-        "1.20.1"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
-        "fabric",
-        "quilt"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "e51cc90e6fd09538200bcf06c32cdd3e21b66111b438d3796c4809757344e1a3a887cebc466027290aa941fdbdd45dcda822f2e74deb12175f60907b0fedc41f",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/wVepCY46/cooldown-coordinator-0.6.1.jar",
-          "filename": "cooldown-coordinator-0.6.1.jar",
+          "sha512": "a14a47ef8fefa9f5edd5fb5c8ef75f6b4f93a6d1f7473a564fb1142f0e39b18ce048ee0c78b11ccf3dde06ac261fbb9f7b84adff7afa23dd00f49fdea6399e99",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.4.2/cooldown-coordinator-0.4.2.jar",
+          "filename": "cooldown-coordinator-0.4.2.jar",
           "primary": true,
-          "size": 14196
+          "size": 13891
         },
         {
-          "sha512": "0ee16c30762270b449535a4a2d9b5fafa8c1d3637f3f5b68b07762bd41815d4e57ebe65bcf3ed38d34117b3c4473dd20934db0165330adc065407e59cbee2efa",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/wVepCY46/cooldown-coordinator-0.6.1-sources.jar",
-          "filename": "cooldown-coordinator-0.6.1-sources.jar",
+          "sha512": "e4221885ae0c2508445863fb4ff245059a7a81eb6047d48536d1c5f0c435d15647ef65e5604f2dace06d423d6ce0f8b52e62bf5e12b158d18431f252372f9e08",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.4.2/cooldown-coordinator-0.4.2-sources.jar",
+          "filename": "cooldown-coordinator-0.4.2-sources.jar",
           "primary": false,
-          "size": 13456
+          "size": 12858
         }
       ],
       "dependencies": []
@@ -252,30 +204,122 @@
       "dependencies": []
     },
     {
-      "id": "UeuqnE5a",
-      "name": "Cooldown Coordinator 0.5.0 for Minecraft 1.19.3, 1.19.4",
-      "version_number": "0.5.0",
+      "id": "MuY3HiSq",
+      "name": "Cooldown Coordinator 0.3.1 for Minecraft 1.18.x",
+      "version_number": "0.3.1",
       "game_versions": [
-        "1.19.3",
-        "1.19.4"
+        "1.18",
+        "1.18.1",
+        "1.18.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "205b7e2922710751b301fff85dd48bb00f1dfa487f1f0dfb77c36718164a57f80c1fe912856ae7a5849a76337acfbe0c40043d0d75bc788375a0d4aff5e97b02",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/UeuqnE5a/cooldown-coordinator-0.5.0.jar",
-          "filename": "cooldown-coordinator-0.5.0.jar",
+          "sha512": "b51d5310fb0072c8d5f2f844e5b35661c37fb04380ef6c7f39b0bc26a5089a836503fda0c6df240b7347b02fbfab0846b80db12bba913f86cf518303bb3819d4",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.3.1/cooldown-coordinator-0.3.1.jar",
+          "filename": "cooldown-coordinator-0.3.1.jar",
           "primary": true,
-          "size": 13924
+          "size": 13906
         },
         {
-          "sha512": "69780e6072f5d25d1b6aae15654b723ad9168fb01c1e29ff1dab61fe17951adc3dab02faa817996b388a0ae829000f6a84feacc247e71831834c7e79099b90b6",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/UeuqnE5a/cooldown-coordinator-0.5.0-sources.jar",
-          "filename": "cooldown-coordinator-0.5.0-sources.jar",
+          "sha512": "d5a9278ba37bf45280c5e4ff75a01ce8095cf2667e8bde9bb78762657044bc0c6aa100374fc461f85c99d8f567a85116421665b91b91a63795f204c079cf9fe0",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.3.1/cooldown-coordinator-0.3.1-sources.jar",
+          "filename": "cooldown-coordinator-0.3.1-sources.jar",
           "primary": false,
-          "size": 12883
+          "size": 12852
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "PCdDHoEb",
+      "name": "Cooldown Coordinator 0.7.1",
+      "version_number": "0.7.1",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6",
+        "24w18a",
+        "24w19a",
+        "24w19b"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "41ae5d1b755d6a0d346d34565f56e1f1fd05f1a13aa251232e7996f956091dcb645d8af8ff89986ed7756a41c2ea8da6f75be69d9ea555c64c8a44eb515d5ec8",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/PCdDHoEb/cooldown-coordinator-0.7.1.jar",
+          "filename": "cooldown-coordinator-0.7.1.jar",
+          "primary": true,
+          "size": 13607
+        },
+        {
+          "sha512": "d674135175c2171d8548564d22c716e8c34560824d80c1bbbddcf69df15b676cb4a977690c459b139af0d0ad743497b84de165bc3b5a53749a65948a047955ac",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/PCdDHoEb/cooldown-coordinator-0.7.1-sources.jar",
+          "filename": "cooldown-coordinator-0.7.1-sources.jar",
+          "primary": false,
+          "size": 13098
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Q38lLYOE",
+      "name": "Cooldown Coordinator 0.6.3",
+      "version_number": "0.6.3",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "82a231b59178fbfce47dead240a0b0d27d59aeba1111544b819f1fed9fbe4d86a3439c02e671bcf2a3dbfcc711a6c99ebcaef930a293478041c7b7a1e346c1fb",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/Q38lLYOE/cooldown-coordinator-0.6.3.jar",
+          "filename": "cooldown-coordinator-0.6.3.jar",
+          "primary": true,
+          "size": 14032
+        },
+        {
+          "sha512": "835ddf0c02e593ada8f6cf616fc41422f460973c074e50400bad22aa5f649fc1c97cd54c1801449cbf93d4099a988b28fe1993e6a0e25fbe5cf8a2bc11e8af4a",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/Q38lLYOE/cooldown-coordinator-0.6.3-sources.jar",
+          "filename": "cooldown-coordinator-0.6.3-sources.jar",
+          "primary": false,
+          "size": 13134
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "RZ5LHtuZ",
+      "name": "Cooldown Coordinator 0.1.0 beta for Minecraft 1.18.x",
+      "version_number": "0.1.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0d0fd2c0345d0bfed3c36843df18d14859a5b96852c00f1ffe92b841d6a58975d49c357e3f07b468d06a649eff5da0f9768ae917b3117ac7efe28a0f4fa48059",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.1.0/cooldown-coordinator-0.1.0.jar",
+          "filename": "cooldown-coordinator-0.1.0.jar",
+          "primary": true,
+          "size": 13502
         }
       ],
       "dependencies": []
@@ -311,31 +355,127 @@
       "dependencies": []
     },
     {
-      "id": "FqxeicxG",
-      "name": "Cooldown Coordinator 0.4.2 for Minecraft 1.19.x",
-      "version_number": "0.4.2",
+      "id": "UeuqnE5a",
+      "name": "Cooldown Coordinator 0.5.0 for Minecraft 1.19.3, 1.19.4",
+      "version_number": "0.5.0",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
+        "1.19.3",
+        "1.19.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "a14a47ef8fefa9f5edd5fb5c8ef75f6b4f93a6d1f7473a564fb1142f0e39b18ce048ee0c78b11ccf3dde06ac261fbb9f7b84adff7afa23dd00f49fdea6399e99",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.4.2/cooldown-coordinator-0.4.2.jar",
-          "filename": "cooldown-coordinator-0.4.2.jar",
+          "sha512": "205b7e2922710751b301fff85dd48bb00f1dfa487f1f0dfb77c36718164a57f80c1fe912856ae7a5849a76337acfbe0c40043d0d75bc788375a0d4aff5e97b02",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/UeuqnE5a/cooldown-coordinator-0.5.0.jar",
+          "filename": "cooldown-coordinator-0.5.0.jar",
           "primary": true,
-          "size": 13891
+          "size": 13924
         },
         {
-          "sha512": "e4221885ae0c2508445863fb4ff245059a7a81eb6047d48536d1c5f0c435d15647ef65e5604f2dace06d423d6ce0f8b52e62bf5e12b158d18431f252372f9e08",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.4.2/cooldown-coordinator-0.4.2-sources.jar",
-          "filename": "cooldown-coordinator-0.4.2-sources.jar",
+          "sha512": "69780e6072f5d25d1b6aae15654b723ad9168fb01c1e29ff1dab61fe17951adc3dab02faa817996b388a0ae829000f6a84feacc247e71831834c7e79099b90b6",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/UeuqnE5a/cooldown-coordinator-0.5.0-sources.jar",
+          "filename": "cooldown-coordinator-0.5.0-sources.jar",
           "primary": false,
-          "size": 12858
+          "size": 12883
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "WLNZJmN7",
+      "name": "Cooldown Coordinator 0.2.0 beta for Minecraft 1.18.x",
+      "version_number": "0.2.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "6d49391704156febc092e9db3a35a0d85ca1ac5a84b604ab42d0a44dd03c594db901ba7fc080ed1a5bce98ad3a008317538ba593bbbc303cb51157cb43968b18",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.2.0/cooldown-coordinator-0.2.0.jar",
+          "filename": "cooldown-coordinator-0.2.0.jar",
+          "primary": true,
+          "size": 13000
+        },
+        {
+          "sha512": "c50afb3e3303657250853b5e3dbe040519bd3aa0e9f02befcdc9b8b200761fa65002e5d47c918d2599c8d63f3964b068f6b7c2f3205c99e8e7960a89b281b393",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.2.0/cooldown-coordinator-0.2.0-sources.jar",
+          "filename": "cooldown-coordinator-0.2.0-sources.jar",
+          "primary": false,
+          "size": 11993
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "crnHBji9",
+      "name": "Cooldown Coordinator 0.7.0",
+      "version_number": "0.7.0",
+      "game_versions": [
+        "24w13a",
+        "24w14a",
+        "1.20.5-pre1",
+        "1.20.5-pre2",
+        "1.20.5-pre3",
+        "1.20.5-pre4",
+        "1.20.5-rc1",
+        "1.20.5-rc2",
+        "1.20.5-rc3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "72838fccf44b6edff91d8d53d31d5e4c0cbee95262d97da15e47a3035bc749d1ae3e1faf1850dfc60abccb146dfe95dbd8dc463dc64c604f1a47ff5cea0fb7d6",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/crnHBji9/cooldown-coordinator-0.7.0.jar",
+          "filename": "cooldown-coordinator-0.7.0.jar",
+          "primary": true,
+          "size": 13573
+        },
+        {
+          "sha512": "5f286c1aa25d383361a94a301bd9fa9b821f6876344fc06cc2c6da2ff15822e7addc7e6f991108f5183b5a1ab5e345b1b970d59c6fbf94ccf927f058eab753d5",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/crnHBji9/cooldown-coordinator-0.7.0-sources.jar",
+          "filename": "cooldown-coordinator-0.7.0-sources.jar",
+          "primary": false,
+          "size": 13104
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "kCn6knZM",
+      "name": "Cooldown Coordinator 0.3.0 for Minecraft 1.18.x",
+      "version_number": "0.3.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "b07c986fccd04e68fe9b2293194f480aa15fbe1fad2524229c2339be452b1855df64645aa27a1953780f8b39c475c9d2818b61bf8ec427bd20f6d46082305af7",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.3.0/cooldown-coordinator-0.3.0.jar",
+          "filename": "cooldown-coordinator-0.3.0.jar",
+          "primary": true,
+          "size": 13877
+        },
+        {
+          "sha512": "b9584c5d4f3350c2f35f6dd6e3ea0f15cb3a10ba991b20d88ac0041199bb538307d0148a2e06bf6154cd0ceeb2017aca86d93f3a36ec26cfdbaa266e992f9a24",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.3.0/cooldown-coordinator-0.3.0-sources.jar",
+          "filename": "cooldown-coordinator-0.3.0-sources.jar",
+          "primary": false,
+          "size": 12826
         }
       ],
       "dependencies": []
@@ -375,172 +515,32 @@
       "dependencies": []
     },
     {
-      "id": "ATEAtk37",
-      "name": "Cooldown Coordinator 0.4.0 for Minecraft 1.19.x",
-      "version_number": "0.4.0",
+      "id": "wVepCY46",
+      "name": "Cooldown Coordinator 0.6.1 for Minecraft 1.20",
+      "version_number": "0.6.1",
       "game_versions": [
-        "1.19-pre1"
+        "1.20",
+        "1.20.1-rc1",
+        "1.20.1"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "a317e4c16288caac63b72d1aaf9ebf2c3c5403e47370d14a12ff6f7a9e4bef914172cf4ee2527930dd0f82afa685a21a3e7b77b11cf6cb6170948c438a02d470",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.4.0/cooldown-coordinator-0.4.0.jar",
-          "filename": "cooldown-coordinator-0.4.0.jar",
+          "sha512": "e51cc90e6fd09538200bcf06c32cdd3e21b66111b438d3796c4809757344e1a3a887cebc466027290aa941fdbdd45dcda822f2e74deb12175f60907b0fedc41f",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/wVepCY46/cooldown-coordinator-0.6.1.jar",
+          "filename": "cooldown-coordinator-0.6.1.jar",
           "primary": true,
-          "size": 13918
+          "size": 14196
         },
         {
-          "sha512": "21ef10895017b615c30ab7ae0a0bf392b8e999f488dd15769a87baa2665e2f3dbd375de228d8aca1ba040f7e924d2b9a220f82a6102d5f4bc231d859dfebd946",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.4.0/cooldown-coordinator-0.4.0-sources.jar",
-          "filename": "cooldown-coordinator-0.4.0-sources.jar",
+          "sha512": "0ee16c30762270b449535a4a2d9b5fafa8c1d3637f3f5b68b07762bd41815d4e57ebe65bcf3ed38d34117b3c4473dd20934db0165330adc065407e59cbee2efa",
+          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/wVepCY46/cooldown-coordinator-0.6.1-sources.jar",
+          "filename": "cooldown-coordinator-0.6.1-sources.jar",
           "primary": false,
-          "size": 12860
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "MuY3HiSq",
-      "name": "Cooldown Coordinator 0.3.1 for Minecraft 1.18.x",
-      "version_number": "0.3.1",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b51d5310fb0072c8d5f2f844e5b35661c37fb04380ef6c7f39b0bc26a5089a836503fda0c6df240b7347b02fbfab0846b80db12bba913f86cf518303bb3819d4",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.3.1/cooldown-coordinator-0.3.1.jar",
-          "filename": "cooldown-coordinator-0.3.1.jar",
-          "primary": true,
-          "size": 13906
-        },
-        {
-          "sha512": "d5a9278ba37bf45280c5e4ff75a01ce8095cf2667e8bde9bb78762657044bc0c6aa100374fc461f85c99d8f567a85116421665b91b91a63795f204c079cf9fe0",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.3.1/cooldown-coordinator-0.3.1-sources.jar",
-          "filename": "cooldown-coordinator-0.3.1-sources.jar",
-          "primary": false,
-          "size": 12852
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "kCn6knZM",
-      "name": "Cooldown Coordinator 0.3.0 for Minecraft 1.18.x",
-      "version_number": "0.3.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b07c986fccd04e68fe9b2293194f480aa15fbe1fad2524229c2339be452b1855df64645aa27a1953780f8b39c475c9d2818b61bf8ec427bd20f6d46082305af7",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.3.0/cooldown-coordinator-0.3.0.jar",
-          "filename": "cooldown-coordinator-0.3.0.jar",
-          "primary": true,
-          "size": 13877
-        },
-        {
-          "sha512": "b9584c5d4f3350c2f35f6dd6e3ea0f15cb3a10ba991b20d88ac0041199bb538307d0148a2e06bf6154cd0ceeb2017aca86d93f3a36ec26cfdbaa266e992f9a24",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.3.0/cooldown-coordinator-0.3.0-sources.jar",
-          "filename": "cooldown-coordinator-0.3.0-sources.jar",
-          "primary": false,
-          "size": 12826
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "1KUZ0GAa",
-      "name": "Cooldown Coordinator 0.2.1 beta for Minecraft 1.18.x",
-      "version_number": "0.2.1",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "dc074d90801b2b17f7af59478ae63519c760b36fcebf8a77d4f1e72db275eced34bb9d8cf03444e4f2707ed4b388aae94a9cf9ae7213c26d3e73b7ff861c1c72",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.2.1/cooldown-coordinator-0.2.1.jar",
-          "filename": "cooldown-coordinator-0.2.1.jar",
-          "primary": true,
-          "size": 12750
-        },
-        {
-          "sha512": "93eac556a29c35863cfa06543834dacd4f9639dfcb24ac2ce66d00ba5d597f781e595e13c5b69afd732d8ce79370192eb62aaf2ed2d369fe936c2b8faebdc33e",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.2.1/cooldown-coordinator-0.2.1-sources.jar",
-          "filename": "cooldown-coordinator-0.2.1-sources.jar",
-          "primary": false,
-          "size": 11967
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "WLNZJmN7",
-      "name": "Cooldown Coordinator 0.2.0 beta for Minecraft 1.18.x",
-      "version_number": "0.2.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6d49391704156febc092e9db3a35a0d85ca1ac5a84b604ab42d0a44dd03c594db901ba7fc080ed1a5bce98ad3a008317538ba593bbbc303cb51157cb43968b18",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.2.0/cooldown-coordinator-0.2.0.jar",
-          "filename": "cooldown-coordinator-0.2.0.jar",
-          "primary": true,
-          "size": 13000
-        },
-        {
-          "sha512": "c50afb3e3303657250853b5e3dbe040519bd3aa0e9f02befcdc9b8b200761fa65002e5d47c918d2599c8d63f3964b068f6b7c2f3205c99e8e7960a89b281b393",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.2.0/cooldown-coordinator-0.2.0-sources.jar",
-          "filename": "cooldown-coordinator-0.2.0-sources.jar",
-          "primary": false,
-          "size": 11993
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "RZ5LHtuZ",
-      "name": "Cooldown Coordinator 0.1.0 beta for Minecraft 1.18.x",
-      "version_number": "0.1.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0d0fd2c0345d0bfed3c36843df18d14859a5b96852c00f1ffe92b841d6a58975d49c357e3f07b468d06a649eff5da0f9768ae917b3117ac7efe28a0f4fa48059",
-          "url": "https://cdn.modrinth.com/data/2lfPteTN/versions/0.1.0/cooldown-coordinator-0.1.0.jar",
-          "filename": "cooldown-coordinator-0.1.0.jar",
-          "primary": true,
-          "size": 13502
+          "size": 13456
         }
       ],
       "dependencies": []

@@ -1,29 +1,9 @@
 {
-  "id": "neofactory-worldgen",
+  "id": "2JgGrkfl",
   "slug": "neofactory-worldgen",
   "name": "NeoFactory Worldgen",
   "description": "My own worldgen for my (WIP) modpack NeoFactory.",
   "versions": [
-    {
-      "id": "pOXyg2do",
-      "name": "2.3",
-      "version_number": "2.3",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "d4977ee98f723a4b4f6723dc101ceed5485089c279112b26491445d895813841beb83d46905a234d49e065984478e8ab9f9b361f30dae42b8e8d64cd9a32c635",
-          "url": "https://cdn.modrinth.com/data/2JgGrkfl/versions/pOXyg2do/NFDP2.3.zip",
-          "filename": "NFDP2.3.zip",
-          "primary": true,
-          "size": 37438
-        }
-      ]
-    },
     {
       "id": "GG9VLyuL",
       "name": "1.2 - The Fix",
@@ -42,7 +22,8 @@
           "primary": true,
           "size": 35484
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "UilkDclv",
@@ -61,6 +42,41 @@
           "filename": "NFDP_1.1.zip",
           "primary": true,
           "size": 37402
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "pOXyg2do",
+      "name": "2.3",
+      "version_number": "2.3",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "d4977ee98f723a4b4f6723dc101ceed5485089c279112b26491445d895813841beb83d46905a234d49e065984478e8ab9f9b361f30dae42b8e8d64cd9a32c635",
+          "url": "https://cdn.modrinth.com/data/2JgGrkfl/versions/pOXyg2do/NFDP2.3.zip",
+          "filename": "NFDP2.3.zip",
+          "primary": true,
+          "size": 37438
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "IGWSuRiJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "NRLPy2mk",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -82,7 +98,8 @@
           "primary": true,
           "size": 35336
         }
-      ]
+      ],
+      "dependencies": []
     }
   ]
 }

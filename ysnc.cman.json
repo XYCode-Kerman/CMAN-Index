@@ -1,29 +1,9 @@
 {
-  "id": "ysnc",
+  "id": "LH8X4V9N",
   "slug": "ysnc",
   "name": "You Shall Not Climb!",
   "description": "Takes away an ability to climb ladders from mobs that are not supposed to have it.",
   "versions": [
-    {
-      "id": "kpYhnLIV",
-      "name": "1.0.0 (1.21) - Fabric",
-      "version_number": "1.0.0_(1.21)",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4a7446f95f1918c613c02eb52a50caa4deea8914fc076176a739c4d181c254a22e95c5efe7a87ed64bb1ce81e318fe8e636496d28ac646f53b08f076a2289b10",
-          "url": "https://cdn.modrinth.com/data/LH8X4V9N/versions/kpYhnLIV/ysnc-fabric-1.21-1.0.0.jar",
-          "filename": "ysnc-fabric-1.21-1.0.0.jar",
-          "primary": true,
-          "size": 27383
-        }
-      ]
-    },
     {
       "id": "BnoSaJw7",
       "name": "1.0.0 (1.21) - NeoForge",
@@ -42,7 +22,8 @@
           "primary": true,
           "size": 27295
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "g1cD6G0e",
@@ -62,6 +43,35 @@
           "filename": "ysnc-neoforge-1.20.5-1.0.0.jar",
           "primary": true,
           "size": 27290
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "kpYhnLIV",
+      "name": "1.0.0 (1.21) - Fabric",
+      "version_number": "1.0.0_(1.21)",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4a7446f95f1918c613c02eb52a50caa4deea8914fc076176a739c4d181c254a22e95c5efe7a87ed64bb1ce81e318fe8e636496d28ac646f53b08f076a2289b10",
+          "url": "https://cdn.modrinth.com/data/LH8X4V9N/versions/kpYhnLIV/ysnc-fabric-1.21-1.0.0.jar",
+          "filename": "ysnc-fabric-1.21-1.0.0.jar",
+          "primary": true,
+          "size": 27383
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -83,6 +93,14 @@
           "filename": "ysnc-fabric-1.20.5-1.0.0.jar",
           "primary": true,
           "size": 27389
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }

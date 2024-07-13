@@ -5,82 +5,6 @@
   "description": "A fork of Shut Up Console to add a feature and provide support",
   "versions": [
     {
-      "id": "fxjqhemD",
-      "name": "Migrate to Quilt Loader",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4152ff8b4bfef2053f02463d04f91bec83ea28c93887dc585379b6bd89a4be3bf13ca8669a0929468334ec07f2136c1e6280702801171ecbcd2057db5cb15d90",
-          "url": "https://cdn.modrinth.com/data/OTteoJUk/versions/1.2.0/clean-logs-1.2.0.jar",
-          "filename": "clean-logs-1.2.0.jar",
-          "primary": true,
-          "size": 16138
-        },
-        {
-          "sha512": "0a0d7c27723c449e636abc04aabc791d288536dcb33ff1cb2eebb477d018bbc0f221a1afd34748e00fb747636f4c9e641ebc0c8d756a9a0aae47438edc8a8116",
-          "url": "https://cdn.modrinth.com/data/OTteoJUk/versions/1.2.0/clean-logs-1.2.0-sources.jar",
-          "filename": "clean-logs-1.2.0-sources.jar",
-          "primary": false,
-          "size": 14024
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "kTF3wEQF",
-      "name": "Add new config option to print line on init",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "13f2ca4f32b57ad4f3d704d8cf0268123140249be97b6b5cb67a0d9d58224981ccdbb9ad708d2b82050998e55e3749d5b5368e6c4b1ac2c2e9905fab4809612e",
-          "url": "https://cdn.modrinth.com/data/OTteoJUk/versions/1.1.0/clean-logs-1.1.0-all.jar",
-          "filename": "clean-logs-1.1.0-all.jar",
-          "primary": true,
-          "size": 76111
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "3Vu79v2g",
       "name": "Remove config migration (it was broken)",
       "version_number": "1.0.1",
@@ -156,6 +80,82 @@
           "filename": "clean-logs-1.0.0.jar",
           "primary": true,
           "size": 74960
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "fxjqhemD",
+      "name": "Migrate to Quilt Loader",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4152ff8b4bfef2053f02463d04f91bec83ea28c93887dc585379b6bd89a4be3bf13ca8669a0929468334ec07f2136c1e6280702801171ecbcd2057db5cb15d90",
+          "url": "https://cdn.modrinth.com/data/OTteoJUk/versions/1.2.0/clean-logs-1.2.0.jar",
+          "filename": "clean-logs-1.2.0.jar",
+          "primary": true,
+          "size": 16138
+        },
+        {
+          "sha512": "0a0d7c27723c449e636abc04aabc791d288536dcb33ff1cb2eebb477d018bbc0f221a1afd34748e00fb747636f4c9e641ebc0c8d756a9a0aae47438edc8a8116",
+          "url": "https://cdn.modrinth.com/data/OTteoJUk/versions/1.2.0/clean-logs-1.2.0-sources.jar",
+          "filename": "clean-logs-1.2.0-sources.jar",
+          "primary": false,
+          "size": 14024
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "kTF3wEQF",
+      "name": "Add new config option to print line on init",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "13f2ca4f32b57ad4f3d704d8cf0268123140249be97b6b5cb67a0d9d58224981ccdbb9ad708d2b82050998e55e3749d5b5368e6c4b1ac2c2e9905fab4809612e",
+          "url": "https://cdn.modrinth.com/data/OTteoJUk/versions/1.1.0/clean-logs-1.1.0-all.jar",
+          "filename": "clean-logs-1.1.0-all.jar",
+          "primary": true,
+          "size": 76111
         }
       ],
       "dependencies": []

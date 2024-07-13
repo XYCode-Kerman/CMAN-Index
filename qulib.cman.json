@@ -1,28 +1,36 @@
 {
-  "id": "qulib",
+  "id": "I8sF7N1e",
   "slug": "qulib",
   "name": "QuLib",
   "description": "Libraries for vector math",
   "versions": [
     {
-      "id": "tE6VqVmr",
-      "name": "QuLib-kt-forge-1.19.4-2.1.15",
-      "version_number": "2.1.15",
+      "id": "3SAjgOtc",
+      "name": "QuLib 1.0.23",
+      "version_number": "1.0.23",
       "game_versions": [
-        "1.19.4"
+        "1.18.2"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "1a91b9759397219213fffcdadda45a3b34b0df0d2d6172a2eeb48429f0610237e4bf0e9eaf995a0cdf4b75774b303bac5e680f3160ba041f0c41184aacd2e579",
-          "url": "https://cdn.modrinth.com/data/I8sF7N1e/versions/tE6VqVmr/qulib-kt-forge-1.19.4-2.1.15.jar",
-          "filename": "qulib-kt-forge-1.19.4-2.1.15.jar",
+          "sha512": "6fd93609de70f0776b16e21da04d3fadb6935ead06743d9102be045b3eee6e6701b3e6d0e45cdd8ecece88040cc266e6f1fcab3b8822214f32b237c7379a54ff",
+          "url": "https://cdn.modrinth.com/data/I8sF7N1e/versions/3SAjgOtc/qulib-1.0.23.jar",
+          "filename": "qulib-1.0.23.jar",
           "primary": true,
-          "size": 161167
+          "size": 869337
+        },
+        {
+          "sha512": "ef737cc03d1fdf50f970c150abb0cb658d43a2f3aac24df11c8c04658446ee09ea659fc5ae30d4ce822af9b8fe39156fa1b7a2cbde95510fb94620900df16531",
+          "url": "https://cdn.modrinth.com/data/I8sF7N1e/versions/3SAjgOtc/qulib-1.0.23-sources.jar",
+          "filename": "qulib-1.0.23-sources.jar",
+          "primary": false,
+          "size": 10943
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "Sha1Jh7y",
@@ -41,6 +49,42 @@
           "filename": "qulib-kt-fabric-1.19.4-2.1.15.jar",
           "primary": true,
           "size": 161296
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "tE6VqVmr",
+      "name": "QuLib-kt-forge-1.19.4-2.1.15",
+      "version_number": "2.1.15",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "1a91b9759397219213fffcdadda45a3b34b0df0d2d6172a2eeb48429f0610237e4bf0e9eaf995a0cdf4b75774b303bac5e680f3160ba041f0c41184aacd2e579",
+          "url": "https://cdn.modrinth.com/data/I8sF7N1e/versions/tE6VqVmr/qulib-kt-forge-1.19.4-2.1.15.jar",
+          "filename": "qulib-kt-forge-1.19.4-2.1.15.jar",
+          "primary": true,
+          "size": 161167
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -69,32 +113,13 @@
           "primary": false,
           "size": 112995
         }
-      ]
-    },
-    {
-      "id": "3SAjgOtc",
-      "name": "QuLib 1.0.23",
-      "version_number": "1.0.23",
-      "game_versions": [
-        "1.18.2"
       ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "6fd93609de70f0776b16e21da04d3fadb6935ead06743d9102be045b3eee6e6701b3e6d0e45cdd8ecece88040cc266e6f1fcab3b8822214f32b237c7379a54ff",
-          "url": "https://cdn.modrinth.com/data/I8sF7N1e/versions/3SAjgOtc/qulib-1.0.23.jar",
-          "filename": "qulib-1.0.23.jar",
-          "primary": true,
-          "size": 869337
-        },
-        {
-          "sha512": "ef737cc03d1fdf50f970c150abb0cb658d43a2f3aac24df11c8c04658446ee09ea659fc5ae30d4ce822af9b8fe39156fa1b7a2cbde95510fb94620900df16531",
-          "url": "https://cdn.modrinth.com/data/I8sF7N1e/versions/3SAjgOtc/qulib-1.0.23-sources.jar",
-          "filename": "qulib-1.0.23-sources.jar",
-          "primary": false,
-          "size": 10943
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

@@ -5,6 +5,46 @@
   "description": "Displays the durability of items on the item itself",
   "versions": [
     {
+      "id": "FMLyYa4f",
+      "name": "Till it Breaks 0.4 (1.19.4)",
+      "version_number": "0.4-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "7ec03166eb501c49478ba5fb811674d2977c7f29a00f249034d7554adf18654e51e2a8afc5c0ad8aafe61d489a5f1278a0b9e65489f93959a8946b577e365e07",
+          "url": "https://cdn.modrinth.com/data/DYeXKRaH/versions/FMLyYa4f/Till%20it%20Breaks%200.4%20%281.19.4%29-0.4.jar",
+          "filename": "Till it Breaks 0.4 (1.19.4)-0.4.jar",
+          "primary": true,
+          "size": 1018490
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "mhFzbEwE",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "bHDoiDd4",
       "name": "[Fabric 1.20.2] v0.5",
       "version_number": "0.5-1.20.2",
@@ -42,46 +82,6 @@
       ]
     },
     {
-      "id": "FMLyYa4f",
-      "name": "Till it Breaks 0.4 (1.19.4)",
-      "version_number": "0.4-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "7ec03166eb501c49478ba5fb811674d2977c7f29a00f249034d7554adf18654e51e2a8afc5c0ad8aafe61d489a5f1278a0b9e65489f93959a8946b577e365e07",
-          "url": "https://cdn.modrinth.com/data/DYeXKRaH/versions/FMLyYa4f/Till%20it%20Breaks%200.4%20%281.19.4%29-0.4.jar",
-          "filename": "Till it Breaks 0.4 (1.19.4)-0.4.jar",
-          "primary": true,
-          "size": 1018490
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "mhFzbEwE",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "ryUP7Kq1",
       "name": "Till it Breaks 0.3.2 (1.19.2)",
       "version_number": "0.3.2-1.19.2",
@@ -102,10 +102,10 @@
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
           "file_name": null,
-          "dependency_type": "embedded"
+          "dependency_type": "optional"
         },
         {
           "project_id": "P7dR8mSH",
@@ -114,10 +114,10 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "embedded"
         }
       ]
     }

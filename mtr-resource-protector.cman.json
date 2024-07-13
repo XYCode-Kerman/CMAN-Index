@@ -5,23 +5,22 @@
   "description": "Protect your Minecraft resources from theft!",
   "versions": [
     {
-      "id": "OkCoMGBi",
-      "name": "[1.19.4] 0.2.0-indev",
-      "version_number": "0.2.0",
+      "id": "7RgvAo25",
+      "name": "[forge 1.18.2] 0.1.0-indev",
+      "version_number": "0.1.0",
       "game_versions": [
-        "1.19.4"
+        "1.18.2"
       ],
       "loaders": [
-        "fabric",
         "forge"
       ],
       "files": [
         {
-          "sha512": "a3748fa93b3c54d152248e12dc9996d6fefb7781acf772743ddb4eb02e1ea67886ba5dec1bb62639d6cdbc6e2ec0774ce3e180169cfc28855d6d6f38a81d7e59",
-          "url": "https://cdn.modrinth.com/data/wbhB1VPG/versions/OkCoMGBi/mrp-1.19.4-0.2.0-indev.jar",
-          "filename": "mrp-1.19.4-0.2.0-indev.jar",
+          "sha512": "ccb3d13b94aa036dddf363a85a36fbdd72744aa722cd5b4604922ff514d06a27c444d1bd7f4996a0affb4ea415859e08d7817615cc1d8f122fb27f7059317f53",
+          "url": "https://cdn.modrinth.com/data/wbhB1VPG/versions/7RgvAo25/mrp-forge-1.18.2-0.1.0-indev.jar",
+          "filename": "mrp-forge-1.18.2-0.1.0-indev.jar",
           "primary": true,
-          "size": 1050891
+          "size": 21794
         }
       ],
       "dependencies": [
@@ -34,23 +33,50 @@
       ]
     },
     {
-      "id": "ZQe7UaMk",
-      "name": "[1.18.2] 0.2.0-indev",
-      "version_number": "0.2.0",
+      "id": "DmkMr7Gp",
+      "name": "[fabric 1.17.1] 0.1.0-indev",
+      "version_number": "0.1.0",
       "game_versions": [
-        "1.18.2"
+        "1.17.1"
       ],
       "loaders": [
-        "fabric",
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "15761c5196ee238a333309fc4c5117cd4ee2e5d3c0ab776b1414268b80afccc8f73e8d19d5bc536f103d5a4d488c3cb6574075175671f3696facc18f88b2c65b",
+          "url": "https://cdn.modrinth.com/data/wbhB1VPG/versions/DmkMr7Gp/mrp-fabric-1.17.1-0.1.0-indev.jar",
+          "filename": "mrp-fabric-1.17.1-0.1.0-indev.jar",
+          "primary": true,
+          "size": 22886
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XKPAmI6u",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "HkQCMB0u",
+      "name": "[forge 1.16.5] 0.1.0-indev",
+      "version_number": "0.1.0",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "a50bca8fe2adb7594faa9c059fe8f355564414b3c3f0bcedf7ad93f45dc417767c5d110fb546904b505d9a4c431bff06cd7bd2f8d5a7f5bc9778caf154ae4572",
-          "url": "https://cdn.modrinth.com/data/wbhB1VPG/versions/ZQe7UaMk/mrp-1.18.2-0.2.0-indev.jar",
-          "filename": "mrp-1.18.2-0.2.0-indev.jar",
+          "sha512": "9e55b6226acf1980c5cbfb78741749205dee34f4c80767714bcbe368c9f01e92e80e9432aa2dd6514a6370c798d15a242171bfbab56ac7819df3bfd23b076e8b",
+          "url": "https://cdn.modrinth.com/data/wbhB1VPG/versions/HkQCMB0u/mrp-forge-1.16.5-0.1.0-indev.jar",
+          "filename": "mrp-forge-1.16.5-0.1.0-indev.jar",
           "primary": true,
-          "size": 1047814
+          "size": 21776
         }
       ],
       "dependencies": [
@@ -92,11 +118,39 @@
       ]
     },
     {
-      "id": "SvLD8QIl",
-      "name": "[1.16.5] 0.2.0-indev",
+      "id": "O8PeAphJ",
+      "name": "[fabric 1.18.2] 0.1.0-indev",
+      "version_number": "0.1.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f17b853a476dcc001c3442e0af0035d48f7184a010287c32def3f25737a3116e8fc508aa9819d64b53d72cd0b24257a2ad619cb0f73d5192ee2dc430057f8241",
+          "url": "https://cdn.modrinth.com/data/wbhB1VPG/versions/O8PeAphJ/mrp-fabric-1.18.2-0.1.0-indev.jar",
+          "filename": "mrp-fabric-1.18.2-0.1.0-indev.jar",
+          "primary": true,
+          "size": 22883
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XKPAmI6u",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "OkCoMGBi",
+      "name": "[1.19.4] 0.2.0-indev",
       "version_number": "0.2.0",
       "game_versions": [
-        "1.16.5"
+        "1.19.4"
       ],
       "loaders": [
         "fabric",
@@ -104,67 +158,11 @@
       ],
       "files": [
         {
-          "sha512": "274c9daa7d9a1b69f954e56bdf69eadea50a56a3338bfd97e54409be8f611471de7eba1728449575f4aef7f3510832526b8ee86f30cf948986228d8006d0545d",
-          "url": "https://cdn.modrinth.com/data/wbhB1VPG/versions/SvLD8QIl/mrp-1.16.5-0.2.0-indev.jar",
-          "filename": "mrp-1.16.5-0.2.0-indev.jar",
+          "sha512": "a3748fa93b3c54d152248e12dc9996d6fefb7781acf772743ddb4eb02e1ea67886ba5dec1bb62639d6cdbc6e2ec0774ce3e180169cfc28855d6d6f38a81d7e59",
+          "url": "https://cdn.modrinth.com/data/wbhB1VPG/versions/OkCoMGBi/mrp-1.19.4-0.2.0-indev.jar",
+          "filename": "mrp-1.19.4-0.2.0-indev.jar",
           "primary": true,
-          "size": 1389030
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "XKPAmI6u",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "a9XDVQ76",
-      "name": "[forge 1.19.4] 0.1.0-indev",
-      "version_number": "0.1.0",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "a3657bfdc02a050072b332c93dc1af2598042ac609645004a3d51c103a4054fd44699f80f0a48d3caf9713e506c269dc2e9adee343ff29e9eebb11cc90ac88d0",
-          "url": "https://cdn.modrinth.com/data/wbhB1VPG/versions/a9XDVQ76/mrp-forge-1.19.4-0.1.0-indev.jar",
-          "filename": "mrp-forge-1.19.4-0.1.0-indev.jar",
-          "primary": true,
-          "size": 21794
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "XKPAmI6u",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "7RgvAo25",
-      "name": "[forge 1.18.2] 0.1.0-indev",
-      "version_number": "0.1.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "ccb3d13b94aa036dddf363a85a36fbdd72744aa722cd5b4604922ff514d06a27c444d1bd7f4996a0affb4ea415859e08d7817615cc1d8f122fb27f7059317f53",
-          "url": "https://cdn.modrinth.com/data/wbhB1VPG/versions/7RgvAo25/mrp-forge-1.18.2-0.1.0-indev.jar",
-          "filename": "mrp-forge-1.18.2-0.1.0-indev.jar",
-          "primary": true,
-          "size": 21794
+          "size": 1050891
         }
       ],
       "dependencies": [
@@ -205,106 +203,23 @@
       ]
     },
     {
-      "id": "HkQCMB0u",
-      "name": "[forge 1.16.5] 0.1.0-indev",
-      "version_number": "0.1.0",
+      "id": "SvLD8QIl",
+      "name": "[1.16.5] 0.2.0-indev",
+      "version_number": "0.2.0",
       "game_versions": [
         "1.16.5"
       ],
       "loaders": [
+        "fabric",
         "forge"
       ],
       "files": [
         {
-          "sha512": "9e55b6226acf1980c5cbfb78741749205dee34f4c80767714bcbe368c9f01e92e80e9432aa2dd6514a6370c798d15a242171bfbab56ac7819df3bfd23b076e8b",
-          "url": "https://cdn.modrinth.com/data/wbhB1VPG/versions/HkQCMB0u/mrp-forge-1.16.5-0.1.0-indev.jar",
-          "filename": "mrp-forge-1.16.5-0.1.0-indev.jar",
+          "sha512": "274c9daa7d9a1b69f954e56bdf69eadea50a56a3338bfd97e54409be8f611471de7eba1728449575f4aef7f3510832526b8ee86f30cf948986228d8006d0545d",
+          "url": "https://cdn.modrinth.com/data/wbhB1VPG/versions/SvLD8QIl/mrp-1.16.5-0.2.0-indev.jar",
+          "filename": "mrp-1.16.5-0.2.0-indev.jar",
           "primary": true,
-          "size": 21776
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "XKPAmI6u",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "sOQWdEeL",
-      "name": "[fabric 1.19.4] 0.1.0-indev",
-      "version_number": "0.1.0",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4f4b15137a1ca5cd8c864ea7ef3414d01188339bb137e7a720fd1adbe1d749427750f16fd3011df4890a271d69313e22b82005726f534bbee027af6d4cbd1466",
-          "url": "https://cdn.modrinth.com/data/wbhB1VPG/versions/sOQWdEeL/mrp-fabric-1.19.4-0.1.0-indev.jar",
-          "filename": "mrp-fabric-1.19.4-0.1.0-indev.jar",
-          "primary": true,
-          "size": 22886
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "XKPAmI6u",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "O8PeAphJ",
-      "name": "[fabric 1.18.2] 0.1.0-indev",
-      "version_number": "0.1.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f17b853a476dcc001c3442e0af0035d48f7184a010287c32def3f25737a3116e8fc508aa9819d64b53d72cd0b24257a2ad619cb0f73d5192ee2dc430057f8241",
-          "url": "https://cdn.modrinth.com/data/wbhB1VPG/versions/O8PeAphJ/mrp-fabric-1.18.2-0.1.0-indev.jar",
-          "filename": "mrp-fabric-1.18.2-0.1.0-indev.jar",
-          "primary": true,
-          "size": 22883
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "XKPAmI6u",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "DmkMr7Gp",
-      "name": "[fabric 1.17.1] 0.1.0-indev",
-      "version_number": "0.1.0",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "15761c5196ee238a333309fc4c5117cd4ee2e5d3c0ab776b1414268b80afccc8f73e8d19d5bc536f103d5a4d488c3cb6574075175671f3696facc18f88b2c65b",
-          "url": "https://cdn.modrinth.com/data/wbhB1VPG/versions/DmkMr7Gp/mrp-fabric-1.17.1-0.1.0-indev.jar",
-          "filename": "mrp-fabric-1.17.1-0.1.0-indev.jar",
-          "primary": true,
-          "size": 22886
+          "size": 1389030
         }
       ],
       "dependencies": [
@@ -333,6 +248,91 @@
           "filename": "mrp-fabric-1.16.5-0.1.0-indev.jar",
           "primary": true,
           "size": 22891
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XKPAmI6u",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ZQe7UaMk",
+      "name": "[1.18.2] 0.2.0-indev",
+      "version_number": "0.2.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "a50bca8fe2adb7594faa9c059fe8f355564414b3c3f0bcedf7ad93f45dc417767c5d110fb546904b505d9a4c431bff06cd7bd2f8d5a7f5bc9778caf154ae4572",
+          "url": "https://cdn.modrinth.com/data/wbhB1VPG/versions/ZQe7UaMk/mrp-1.18.2-0.2.0-indev.jar",
+          "filename": "mrp-1.18.2-0.2.0-indev.jar",
+          "primary": true,
+          "size": 1047814
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XKPAmI6u",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "a9XDVQ76",
+      "name": "[forge 1.19.4] 0.1.0-indev",
+      "version_number": "0.1.0",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "a3657bfdc02a050072b332c93dc1af2598042ac609645004a3d51c103a4054fd44699f80f0a48d3caf9713e506c269dc2e9adee343ff29e9eebb11cc90ac88d0",
+          "url": "https://cdn.modrinth.com/data/wbhB1VPG/versions/a9XDVQ76/mrp-forge-1.19.4-0.1.0-indev.jar",
+          "filename": "mrp-forge-1.19.4-0.1.0-indev.jar",
+          "primary": true,
+          "size": 21794
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XKPAmI6u",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "sOQWdEeL",
+      "name": "[fabric 1.19.4] 0.1.0-indev",
+      "version_number": "0.1.0",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4f4b15137a1ca5cd8c864ea7ef3414d01188339bb137e7a720fd1adbe1d749427750f16fd3011df4890a271d69313e22b82005726f534bbee027af6d4cbd1466",
+          "url": "https://cdn.modrinth.com/data/wbhB1VPG/versions/sOQWdEeL/mrp-fabric-1.19.4-0.1.0-indev.jar",
+          "filename": "mrp-fabric-1.19.4-0.1.0-indev.jar",
+          "primary": true,
+          "size": 22886
         }
       ],
       "dependencies": [

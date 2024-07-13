@@ -5,6 +5,43 @@
   "description": "Adds a bunch of recipes to minecraft",
   "versions": [
     {
+      "id": "P5nQlEqD",
+      "name": "1.2.0",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "1d6df50e498c1f6d5f92b6449ae2059c3f650cfccdecd891286ae2913d77572e877e9adb7e976e84dcea8461fafa219cd361ad431d549036fffbe955a64305e7",
+          "url": "https://cdn.modrinth.com/data/WuZ2UxBT/versions/1.2.0/BetterRecipes-1.2.0.jar",
+          "filename": "BetterRecipes-1.2.0.jar",
+          "primary": true,
+          "size": 72173
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "U0wSVcD2",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "PKt5EJ4n",
       "name": "1.3.0",
       "version_number": "1.3.0",
@@ -66,80 +103,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "qvIfYCYJ",
-          "version_id": "U0wSVcD2",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "P5nQlEqD",
-      "name": "1.2.0",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "1d6df50e498c1f6d5f92b6449ae2059c3f650cfccdecd891286ae2913d77572e877e9adb7e976e84dcea8461fafa219cd361ad431d549036fffbe955a64305e7",
-          "url": "https://cdn.modrinth.com/data/WuZ2UxBT/versions/1.2.0/BetterRecipes-1.2.0.jar",
-          "filename": "BetterRecipes-1.2.0.jar",
-          "primary": true,
-          "size": 72173
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "U0wSVcD2",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "kSv56gNG",
-      "name": "1.1.1",
-      "version_number": "1.1.1",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "63971b82bfc80da4fe66915f17ae70b57cbabb4997882657527dbcebc300682410a3eb04d5a68b9034407586dc70dcbeac2467a22becfc0377f1f6d8bfd912c6",
-          "url": "https://cdn.modrinth.com/data/WuZ2UxBT/versions/1.1.1/BetterRecipes-1.1.0.jar",
-          "filename": "BetterRecipes-1.1.0.jar",
-          "primary": false,
-          "size": 61429
-        }
-      ],
-      "dependencies": [
-        {
           "project_id": "P7dR8mSH",
           "version_id": "95QMsRyb",
           "file_name": null,
@@ -191,6 +154,43 @@
       ]
     },
     {
+      "id": "kSv56gNG",
+      "name": "1.1.1",
+      "version_number": "1.1.1",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "63971b82bfc80da4fe66915f17ae70b57cbabb4997882657527dbcebc300682410a3eb04d5a68b9034407586dc70dcbeac2467a22becfc0377f1f6d8bfd912c6",
+          "url": "https://cdn.modrinth.com/data/WuZ2UxBT/versions/1.1.1/BetterRecipes-1.1.0.jar",
+          "filename": "BetterRecipes-1.1.0.jar",
+          "primary": false,
+          "size": 61429
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "U0wSVcD2",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "sSghlSaJ",
       "name": "1.0.0",
       "version_number": "1.0.0",
@@ -214,14 +214,14 @@
       ],
       "dependencies": [
         {
-          "project_id": "qvIfYCYJ",
-          "version_id": "U0wSVcD2",
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
+          "project_id": "qvIfYCYJ",
+          "version_id": "U0wSVcD2",
           "file_name": null,
           "dependency_type": "required"
         }

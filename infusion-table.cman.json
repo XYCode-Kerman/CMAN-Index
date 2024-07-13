@@ -5,6 +5,102 @@
   "description": "Infusion Table give player possibility to rip enchantment from item into book.",
   "versions": [
     {
+      "id": "1NU3b5yD",
+      "name": "Infusion Table 1.0.4-1.18",
+      "version_number": "1.0.4-1.18",
+      "game_versions": [
+        "1.18"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5bb47141861bda68fe34305f1da237de12c767371197bd6f6a3f4a42b8c612053d57cde5bd262b61ee23ca7cd99021863c381656bf2abf209549b3e2f70dce80",
+          "url": "https://cdn.modrinth.com/data/W9CiRGYK/versions/1.0.4-1.18/infusion-table-mod-1.0.4.jar",
+          "filename": "infusion-table-mod-1.0.4.jar",
+          "primary": false,
+          "size": 50462
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "1vHR9ZVs",
+      "name": "Infusion Table 1.1.0-1.19",
+      "version_number": "1.1.0-1.19",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "9be52968c83bfddf3406c4b8dd1053d8dd3a713e8bba8212f53074aebc84f82a21de14250a95387d4143d9ad60300ef961ae5c9c57a81efc94402dc72d5e1ef4",
+          "url": "https://cdn.modrinth.com/data/W9CiRGYK/versions/1.1.0-1.19/infusion-table-mod-1.1.0.jar",
+          "filename": "infusion-table-mod-1.1.0.jar",
+          "primary": true,
+          "size": 41559
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "38XTHx83",
+      "name": "Infusion Table 1.0.2-1.17.1",
+      "version_number": "1.0.2-1.17.1",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4a42696d9ae497cf5b5dd55df8053a055753e1aaff787efb14446f02f09d7ee6bde7b47d1609a2c2398b5f90577498b3e836b3e1a015ae908854a34967f4aad3",
+          "url": "https://cdn.modrinth.com/data/W9CiRGYK/versions/1.0.2-1.17.1/infusion-table-mod-1.0.2.jar",
+          "filename": "infusion-table-mod-1.0.2.jar",
+          "primary": false,
+          "size": 49934
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "T9vNtB4D",
+      "name": "Infusion Table 1.2.0 Forge",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "1178a17a77200508d15a5d586d5fdfa55e1cd13d5cd21d98f3566c1aa5cdae80050ff1c88f0003ae9963f4da3a8c02446884ce359e2c2b852f6552094e8fb0f5",
+          "url": "https://cdn.modrinth.com/data/W9CiRGYK/versions/T9vNtB4D/infusion_table-1.2.0.jar",
+          "filename": "infusion_table-1.2.0.jar",
+          "primary": true,
+          "size": 49347
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "NxbWyaxs",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "VW9MCeUg",
       "name": "Infusion Table 1.2.0",
       "version_number": "1.2.0",
@@ -23,57 +119,6 @@
           "filename": "infusion_table-1.2.0-1.20-forge.jar",
           "primary": true,
           "size": 64789
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "jsoERxuz",
-      "name": "Infusion Table 1.2.0",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6ef71c9d991e78c5a6646dddb16b5cb2dbbf901841a4983e26e2593f52d7fe89fdc0fde6b985c3b51c3b546fcba21c4ad79117d0a166b36ecf31f93250d7cdd6",
-          "url": "https://cdn.modrinth.com/data/W9CiRGYK/versions/jsoERxuz/infusion_table-1.2.0-1.20-fabric.jar",
-          "filename": "infusion_table-1.2.0-1.20-fabric.jar",
-          "primary": true,
-          "size": 62709
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "XauGzBwu",
-      "name": "Infusion Table 1.2.0",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "61a010082e7297339b07c91dd9db3366574774cf8b59d045b821f732391bd729d487c54d31937a180bdf9e5c73db8220e0b5971003845f0064fe35ecc7eb09e3",
-          "url": "https://cdn.modrinth.com/data/W9CiRGYK/versions/XauGzBwu/infusion_table-1.2.0-1.19.4-forge.jar",
-          "filename": "infusion_table-1.2.0-1.19.4-forge.jar",
-          "primary": true,
-          "size": 64837
         }
       ],
       "dependencies": [
@@ -114,36 +159,6 @@
       ]
     },
     {
-      "id": "T9vNtB4D",
-      "name": "Infusion Table 1.2.0 Forge",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "1178a17a77200508d15a5d586d5fdfa55e1cd13d5cd21d98f3566c1aa5cdae80050ff1c88f0003ae9963f4da3a8c02446884ce359e2c2b852f6552094e8fb0f5",
-          "url": "https://cdn.modrinth.com/data/W9CiRGYK/versions/T9vNtB4D/infusion_table-1.2.0.jar",
-          "filename": "infusion_table-1.2.0.jar",
-          "primary": true,
-          "size": 49347
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "NxbWyaxs",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "VydwbqrW",
       "name": "Infusion Table 1.2.0 Fabric",
       "version_number": "1.2.0",
@@ -168,39 +183,129 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
+          "project_id": "lhGA9TYQ",
+          "version_id": "6bcAfgt2",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "lhGA9TYQ",
-          "version_id": "6bcAfgt2",
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "1vHR9ZVs",
-      "name": "Infusion Table 1.1.0-1.19",
-      "version_number": "1.1.0-1.19",
+      "id": "XauGzBwu",
+      "name": "Infusion Table 1.2.0",
+      "version_number": "1.2.0",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
+        "1.19.4"
       ],
       "loaders": [
-        "fabric",
-        "quilt"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "9be52968c83bfddf3406c4b8dd1053d8dd3a713e8bba8212f53074aebc84f82a21de14250a95387d4143d9ad60300ef961ae5c9c57a81efc94402dc72d5e1ef4",
-          "url": "https://cdn.modrinth.com/data/W9CiRGYK/versions/1.1.0-1.19/infusion-table-mod-1.1.0.jar",
-          "filename": "infusion-table-mod-1.1.0.jar",
+          "sha512": "61a010082e7297339b07c91dd9db3366574774cf8b59d045b821f732391bd729d487c54d31937a180bdf9e5c73db8220e0b5971003845f0064fe35ecc7eb09e3",
+          "url": "https://cdn.modrinth.com/data/W9CiRGYK/versions/XauGzBwu/infusion_table-1.2.0-1.19.4-forge.jar",
+          "filename": "infusion_table-1.2.0-1.19.4-forge.jar",
           "primary": true,
-          "size": 41559
+          "size": 64837
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Z9ekBJR4",
+      "name": "Infusion Table 1.0.0-1.17.1",
+      "version_number": "1.0.0-1.17.1",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "960b91e0dc3026a4799ceae3dfa209e87108f1bf34d25f2bdcb24e1d37b66a15bbf39f9c031e8dfbd130e56cc5c1a293e80b4f1f66a273faec18bfcd383e5187",
+          "url": "https://cdn.modrinth.com/data/W9CiRGYK/versions/1.0.0-1.17.1/infusion-table-mod-1.0.0.jar",
+          "filename": "infusion-table-mod-1.0.0.jar",
+          "primary": false,
+          "size": 49692
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ZEdbbs8y",
+      "name": "Infusion Table 1.0.4-1.18 ",
+      "version_number": "1.0.5-1.18 ",
+      "game_versions": [
+        "1.18"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d7a1e4b56d97eb75f53c78ba8c1d3fb070554083189679cca6324b0854786732a637512b19672b06fa22a9f2483b8ec817688a22fe5996b3693f2d4a31983014",
+          "url": "https://cdn.modrinth.com/data/W9CiRGYK/versions/1.0.5-1.18%20/infusion-table-mod-1.0.5.jar",
+          "filename": "infusion-table-mod-1.0.5.jar",
+          "primary": false,
+          "size": 50972
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "jsoERxuz",
+      "name": "Infusion Table 1.2.0",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "6ef71c9d991e78c5a6646dddb16b5cb2dbbf901841a4983e26e2593f52d7fe89fdc0fde6b985c3b51c3b546fcba21c4ad79117d0a166b36ecf31f93250d7cdd6",
+          "url": "https://cdn.modrinth.com/data/W9CiRGYK/versions/jsoERxuz/infusion_table-1.2.0-1.20-fabric.jar",
+          "filename": "infusion_table-1.2.0-1.20-fabric.jar",
+          "primary": true,
+          "size": 62709
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "mBk6azSk",
+      "name": "Infusion Table 1.0.1-1.17.1",
+      "version_number": "1.0.1-1.17.1",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c924daf80dfa3a67d0d0ff550c18da8c028dd8eff0dea31c5926bf7575b0eed3ffc4cc65f784520115790bc7c4f00eb90bbe1b3c355ad3b57d6df843ca219468",
+          "url": "https://cdn.modrinth.com/data/W9CiRGYK/versions/1.0.1-1.17.1/infusion-table-mod-1.0.1.jar",
+          "filename": "infusion-table-mod-1.0.1.jar",
+          "primary": false,
+          "size": 49708
         }
       ],
       "dependencies": []
@@ -230,48 +335,6 @@
       "dependencies": []
     },
     {
-      "id": "ZEdbbs8y",
-      "name": "Infusion Table 1.0.4-1.18 ",
-      "version_number": "1.0.5-1.18 ",
-      "game_versions": [
-        "1.18"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d7a1e4b56d97eb75f53c78ba8c1d3fb070554083189679cca6324b0854786732a637512b19672b06fa22a9f2483b8ec817688a22fe5996b3693f2d4a31983014",
-          "url": "https://cdn.modrinth.com/data/W9CiRGYK/versions/1.0.5-1.18%20/infusion-table-mod-1.0.5.jar",
-          "filename": "infusion-table-mod-1.0.5.jar",
-          "primary": false,
-          "size": 50972
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "1NU3b5yD",
-      "name": "Infusion Table 1.0.4-1.18",
-      "version_number": "1.0.4-1.18",
-      "game_versions": [
-        "1.18"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "5bb47141861bda68fe34305f1da237de12c767371197bd6f6a3f4a42b8c612053d57cde5bd262b61ee23ca7cd99021863c381656bf2abf209549b3e2f70dce80",
-          "url": "https://cdn.modrinth.com/data/W9CiRGYK/versions/1.0.4-1.18/infusion-table-mod-1.0.4.jar",
-          "filename": "infusion-table-mod-1.0.4.jar",
-          "primary": false,
-          "size": 50462
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "t8r5kk8h",
       "name": "Infusion Table 1.0.3-1.18",
       "version_number": "1.0.3-1.18",
@@ -288,69 +351,6 @@
           "filename": "infusion-table-mod-1.0.3.jar",
           "primary": false,
           "size": 50450
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "38XTHx83",
-      "name": "Infusion Table 1.0.2-1.17.1",
-      "version_number": "1.0.2-1.17.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4a42696d9ae497cf5b5dd55df8053a055753e1aaff787efb14446f02f09d7ee6bde7b47d1609a2c2398b5f90577498b3e836b3e1a015ae908854a34967f4aad3",
-          "url": "https://cdn.modrinth.com/data/W9CiRGYK/versions/1.0.2-1.17.1/infusion-table-mod-1.0.2.jar",
-          "filename": "infusion-table-mod-1.0.2.jar",
-          "primary": false,
-          "size": 49934
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "mBk6azSk",
-      "name": "Infusion Table 1.0.1-1.17.1",
-      "version_number": "1.0.1-1.17.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "c924daf80dfa3a67d0d0ff550c18da8c028dd8eff0dea31c5926bf7575b0eed3ffc4cc65f784520115790bc7c4f00eb90bbe1b3c355ad3b57d6df843ca219468",
-          "url": "https://cdn.modrinth.com/data/W9CiRGYK/versions/1.0.1-1.17.1/infusion-table-mod-1.0.1.jar",
-          "filename": "infusion-table-mod-1.0.1.jar",
-          "primary": false,
-          "size": 49708
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Z9ekBJR4",
-      "name": "Infusion Table 1.0.0-1.17.1",
-      "version_number": "1.0.0-1.17.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "960b91e0dc3026a4799ceae3dfa209e87108f1bf34d25f2bdcb24e1d37b66a15bbf39f9c031e8dfbd130e56cc5c1a293e80b4f1f66a273faec18bfcd383e5187",
-          "url": "https://cdn.modrinth.com/data/W9CiRGYK/versions/1.0.0-1.17.1/infusion-table-mod-1.0.0.jar",
-          "filename": "infusion-table-mod-1.0.0.jar",
-          "primary": false,
-          "size": 49692
         }
       ],
       "dependencies": []

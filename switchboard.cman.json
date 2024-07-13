@@ -5,13 +5,12 @@
   "description": "A simple, cross API plugin that bridges communication between servers, using built-in Proxy methods, Discord channels and TCP sockets.",
   "versions": [
     {
-      "id": "rSG67HDl",
-      "name": "TaterComms 1.20-1.0.3",
-      "version_number": "1.20-1.0.3",
+      "id": "1MaoJsQC",
+      "name": "TaterComms 1.0.0",
+      "version_number": "1.0.0",
       "game_versions": [
         "1.20",
-        "1.20.1",
-        "1.20.2"
+        "1.20.1"
       ],
       "loaders": [
         "bukkit",
@@ -19,7 +18,47 @@
         "fabric",
         "folia",
         "forge",
-        "neoforge",
+        "paper",
+        "spigot",
+        "velocity",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "132ad90dba796dc40b9db814d2c79e654844508e7c6d8610398ee444f5e39bb4246a62f80922818feca613357a28474536973f5be424c62eaa99606bc09e4203",
+          "url": "https://cdn.modrinth.com/data/4X3t76uR/versions/1MaoJsQC/TaterComms-1.0.0-1.20.jar",
+          "filename": "TaterComms-1.0.0-1.20.jar",
+          "primary": true,
+          "size": 17207422
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "8fMm17kU",
+      "name": "TaterComms 1.16-1.0.3",
+      "version_number": "1.16-1.0.3",
+      "game_versions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "bukkit",
+        "bungeecord",
+        "fabric",
+        "folia",
+        "forge",
         "paper",
         "purpur",
         "spigot",
@@ -29,11 +68,105 @@
       ],
       "files": [
         {
-          "sha512": "21c06e77406e5cfa17649af0776e089abb59e76698e4e9d79c7bba2b005c8bded79d5364fccffc61653bce2e6fe8805f18abe346c567a4e64d14a6da88a46393",
-          "url": "https://cdn.modrinth.com/data/4X3t76uR/versions/rSG67HDl/TaterComms-1.20-1.0.3.jar",
-          "filename": "TaterComms-1.20-1.0.3.jar",
+          "sha512": "28135a6e8537bd32a7b95165d92b6e745cd3cd80cdf68f90b669c6ad6068b7c789aab1ed06fa962b46c3db571a86f92011802d69b89258af8a09f93fd45cbf71",
+          "url": "https://cdn.modrinth.com/data/4X3t76uR/versions/8fMm17kU/TaterComms-1.16-1.0.3.jar",
+          "filename": "TaterComms-1.16-1.0.3.jar",
           "primary": true,
-          "size": 14379355
+          "size": 14379156
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Y4MHkR1a",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "BXyF5dqE",
+      "name": "TaterComms 1.0.1",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "bukkit",
+        "bungeecord",
+        "fabric",
+        "folia",
+        "forge",
+        "paper",
+        "spigot",
+        "velocity",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "70714aad8dcc6a721c05409c7d29306d33c662f490030493a9977aa2569db38b02c5860cb684e0472faa2c46edd54518c6ea53cf1cbdcf943b020ad9ca0d1981",
+          "url": "https://cdn.modrinth.com/data/4X3t76uR/versions/BXyF5dqE/TaterComms-1.0.1-1.20.jar",
+          "filename": "TaterComms-1.0.1-1.20.jar",
+          "primary": true,
+          "size": 17208801
+        },
+        {
+          "sha512": "1ab0355e957a261e5427113992fcb64005bd4ee4452e29a796db0105437622024ebfc597e9ba0114e0e0a15169cff51af9cbe9c2c13df3b6eb9c024f3fb5f5f9",
+          "url": "https://cdn.modrinth.com/data/4X3t76uR/versions/BXyF5dqE/TaterComms-1.0.1-1.19.jar",
+          "filename": "TaterComms-1.0.1-1.19.jar",
+          "primary": false,
+          "size": 17208714
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "GxSyi3g1",
+      "name": "TaterComms 1.17-1.0.3",
+      "version_number": "1.17-1.0.3",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "bukkit",
+        "bungeecord",
+        "fabric",
+        "folia",
+        "forge",
+        "paper",
+        "purpur",
+        "spigot",
+        "sponge",
+        "velocity",
+        "waterfall"
+      ],
+      "files": [
+        {
+          "sha512": "655c8958f2471c3f764a6edadb8f339aa1c14e74c311ddab06880ea4258514a72daa61749cac4e6d68b2acf779f78246834ff8125c1eab45b5ff013387e58527",
+          "url": "https://cdn.modrinth.com/data/4X3t76uR/versions/GxSyi3g1/TaterComms-1.17-1.0.3.jar",
+          "filename": "TaterComms-1.17-1.0.3.jar",
+          "primary": true,
+          "size": 14379138
         }
       ],
       "dependencies": [
@@ -146,100 +279,6 @@
       ]
     },
     {
-      "id": "GxSyi3g1",
-      "name": "TaterComms 1.17-1.0.3",
-      "version_number": "1.17-1.0.3",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "bukkit",
-        "bungeecord",
-        "fabric",
-        "folia",
-        "forge",
-        "paper",
-        "purpur",
-        "spigot",
-        "sponge",
-        "velocity",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "655c8958f2471c3f764a6edadb8f339aa1c14e74c311ddab06880ea4258514a72daa61749cac4e6d68b2acf779f78246834ff8125c1eab45b5ff013387e58527",
-          "url": "https://cdn.modrinth.com/data/4X3t76uR/versions/GxSyi3g1/TaterComms-1.17-1.0.3.jar",
-          "filename": "TaterComms-1.17-1.0.3.jar",
-          "primary": true,
-          "size": 14379138
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "Y4MHkR1a",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "8fMm17kU",
-      "name": "TaterComms 1.16-1.0.3",
-      "version_number": "1.16-1.0.3",
-      "game_versions": [
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "bukkit",
-        "bungeecord",
-        "fabric",
-        "folia",
-        "forge",
-        "paper",
-        "purpur",
-        "spigot",
-        "sponge",
-        "velocity",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "28135a6e8537bd32a7b95165d92b6e745cd3cd80cdf68f90b669c6ad6068b7c789aab1ed06fa962b46c3db571a86f92011802d69b89258af8a09f93fd45cbf71",
-          "url": "https://cdn.modrinth.com/data/4X3t76uR/versions/8fMm17kU/TaterComms-1.16-1.0.3.jar",
-          "filename": "TaterComms-1.16-1.0.3.jar",
-          "primary": true,
-          "size": 14379156
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Y4MHkR1a",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "YoSNaX2o",
       "name": "TaterComms 1.15-1.0.3",
       "version_number": "1.15-1.0.3",
@@ -268,53 +307,6 @@
           "filename": "TaterComms-1.15-1.0.3.jar",
           "primary": true,
           "size": 14379185
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Y4MHkR1a",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "miw5sr2f",
-      "name": "TaterComms 1.14-1.0.3",
-      "version_number": "1.14-1.0.3",
-      "game_versions": [
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4"
-      ],
-      "loaders": [
-        "bukkit",
-        "bungeecord",
-        "fabric",
-        "folia",
-        "forge",
-        "paper",
-        "purpur",
-        "spigot",
-        "velocity",
-        "waterfall"
-      ],
-      "files": [
-        {
-          "sha512": "2a12be5ab551d1e89d32bf45995889553e5433b87c0f91ce7dd0d9ab574c19ed30a1a20aadb8e7ebb871864441b5ded593745060522c0d4acb322b71a4e2988b",
-          "url": "https://cdn.modrinth.com/data/4X3t76uR/versions/miw5sr2f/TaterComms-1.14-1.0.3.jar",
-          "filename": "TaterComms-1.14-1.0.3.jar",
-          "primary": true,
-          "size": 14371108
         }
       ],
       "dependencies": [
@@ -376,17 +368,15 @@
       "dependencies": []
     },
     {
-      "id": "BXyF5dqE",
-      "name": "TaterComms 1.0.1",
-      "version_number": "1.0.1",
+      "id": "miw5sr2f",
+      "name": "TaterComms 1.14-1.0.3",
+      "version_number": "1.14-1.0.3",
       "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4"
       ],
       "loaders": [
         "bukkit",
@@ -395,27 +385,27 @@
         "folia",
         "forge",
         "paper",
+        "purpur",
         "spigot",
         "velocity",
         "waterfall"
       ],
       "files": [
         {
-          "sha512": "70714aad8dcc6a721c05409c7d29306d33c662f490030493a9977aa2569db38b02c5860cb684e0472faa2c46edd54518c6ea53cf1cbdcf943b020ad9ca0d1981",
-          "url": "https://cdn.modrinth.com/data/4X3t76uR/versions/BXyF5dqE/TaterComms-1.0.1-1.20.jar",
-          "filename": "TaterComms-1.0.1-1.20.jar",
+          "sha512": "2a12be5ab551d1e89d32bf45995889553e5433b87c0f91ce7dd0d9ab574c19ed30a1a20aadb8e7ebb871864441b5ded593745060522c0d4acb322b71a4e2988b",
+          "url": "https://cdn.modrinth.com/data/4X3t76uR/versions/miw5sr2f/TaterComms-1.14-1.0.3.jar",
+          "filename": "TaterComms-1.14-1.0.3.jar",
           "primary": true,
-          "size": 17208801
-        },
-        {
-          "sha512": "1ab0355e957a261e5427113992fcb64005bd4ee4452e29a796db0105437622024ebfc597e9ba0114e0e0a15169cff51af9cbe9c2c13df3b6eb9c024f3fb5f5f9",
-          "url": "https://cdn.modrinth.com/data/4X3t76uR/versions/BXyF5dqE/TaterComms-1.0.1-1.19.jar",
-          "filename": "TaterComms-1.0.1-1.19.jar",
-          "primary": false,
-          "size": 17208714
+          "size": 14371108
         }
       ],
       "dependencies": [
+        {
+          "project_id": "Y4MHkR1a",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "Vebnzrzj",
           "version_id": null,
@@ -425,12 +415,13 @@
       ]
     },
     {
-      "id": "1MaoJsQC",
-      "name": "TaterComms 1.0.0",
-      "version_number": "1.0.0",
+      "id": "rSG67HDl",
+      "name": "TaterComms 1.20-1.0.3",
+      "version_number": "1.20-1.0.3",
       "game_versions": [
         "1.20",
-        "1.20.1"
+        "1.20.1",
+        "1.20.2"
       ],
       "loaders": [
         "bukkit",
@@ -438,18 +429,21 @@
         "fabric",
         "folia",
         "forge",
+        "neoforge",
         "paper",
+        "purpur",
         "spigot",
+        "sponge",
         "velocity",
         "waterfall"
       ],
       "files": [
         {
-          "sha512": "132ad90dba796dc40b9db814d2c79e654844508e7c6d8610398ee444f5e39bb4246a62f80922818feca613357a28474536973f5be424c62eaa99606bc09e4203",
-          "url": "https://cdn.modrinth.com/data/4X3t76uR/versions/1MaoJsQC/TaterComms-1.0.0-1.20.jar",
-          "filename": "TaterComms-1.0.0-1.20.jar",
+          "sha512": "21c06e77406e5cfa17649af0776e089abb59e76698e4e9d79c7bba2b005c8bded79d5364fccffc61653bce2e6fe8805f18abe346c567a4e64d14a6da88a46393",
+          "url": "https://cdn.modrinth.com/data/4X3t76uR/versions/rSG67HDl/TaterComms-1.20-1.0.3.jar",
+          "filename": "TaterComms-1.20-1.0.3.jar",
           "primary": true,
-          "size": 17207422
+          "size": 14379355
         }
       ],
       "dependencies": [
@@ -458,6 +452,12 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "Y4MHkR1a",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

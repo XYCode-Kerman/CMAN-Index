@@ -5,12 +5,12 @@
   "description": "Prevents passive/neutral mobs hunting each other.",
   "versions": [
     {
-      "id": "vNYykfIg",
-      "name": "[1.20.3-1.20.4] +Datapack",
+      "id": "1wmSn4wN",
+      "name": "[1.20-1.20.1] +Datapack",
       "version_number": "1.3",
       "game_versions": [
-        "1.20.3",
-        "1.20.4"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "datapack"
@@ -18,9 +18,9 @@
       "files": [
         {
           "sha512": "3c17a56915bf5e957273c073a837598061ba58d85a4fe0dee600cabcf9f1344941b4be4295b3bd53b7aa60d673d902b942733973ef879f85d240183d305e02e0",
-          "url": "https://cdn.modrinth.com/data/w6izT8jw/versions/vNYykfIg/%5B1.20.3-1.20.4%5D%20Passive%20Aggressive%20v1.3.zip",
-          "filename": "[1.20.3-1.20.4] Passive Aggressive v1.3.zip",
-          "primary": false,
+          "url": "https://cdn.modrinth.com/data/w6izT8jw/versions/1wmSn4wN/%5B1.20-1.20.1%5D%20Passive%20Aggressive%20v1.3%20%2BDATAPACK.zip",
+          "filename": "[1.20-1.20.1] Passive Aggressive v1.3 +DATAPACK.zip",
+          "primary": true,
           "size": 439766
         }
       ],
@@ -30,6 +30,86 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "7886M5Cv",
+      "name": "[1.20-1.20.1] v1.0 +Mod",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "a1b7f3a39c537adc0f1607bfa160ba58f8a378ab4ead10dcf1aec6c8ba50b4a0e5ba92f0a22dba720dfb38a7dc9499d2724e8d8016c8e205b9a0779d6eb405f8",
+          "url": "https://cdn.modrinth.com/data/w6izT8jw/versions/7886M5Cv/passive_aggressive-1.0.jar",
+          "filename": "passive_aggressive-1.0.jar",
+          "primary": true,
+          "size": 129196
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "IKW8bqMy",
+      "name": "[1.20-1.20.1] +Mod",
+      "version_number": "1.3",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "b63f244be1793d0906570eae49bbe1228abe5cfb2da259739af682fd76fdf47b7dec47d940128bd1930a4ac12de09180d79429a6a4cae838a43687517aea0648",
+          "url": "https://cdn.modrinth.com/data/w6izT8jw/versions/IKW8bqMy/passive-aggressive-1.3.jar",
+          "filename": "passive-aggressive-1.3.jar",
+          "primary": true,
+          "size": 1148824
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "k2jKsuXY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
+      "id": "OSHv6IQw",
+      "name": "[1.20.2] +Mod",
+      "version_number": "1.3",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a8d658629e2c48c4adb2dbe484d01fe5cc6eff4091659a93e3ff8dbf9f0f620f6a7ba1d5af2333c3e7da0a04c079869761aabf12220d7ee93b03a90e0e2f21a7",
+          "url": "https://cdn.modrinth.com/data/w6izT8jw/versions/OSHv6IQw/passive-aggressive-1.3.jar",
+          "filename": "passive-aggressive-1.3.jar",
+          "primary": true,
+          "size": 1148824
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "k2jKsuXY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
     },
@@ -63,6 +143,28 @@
       ]
     },
     {
+      "id": "nGHUwNvm",
+      "name": "[1.20-1.20.1] v1.2 +Mod",
+      "version_number": "1.2",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "558cd5c3d467505dc04c613439476b251e951f7bf0f0eaa2fb5f4185c7acaa8bb22e0e6919557c03a59ec9d6fc2dcb277d921662036f710f8d506d88b0407578",
+          "url": "https://cdn.modrinth.com/data/w6izT8jw/versions/nGHUwNvm/passive-aggressive_V1.4.jar",
+          "filename": "passive-aggressive_V1.4.jar",
+          "primary": true,
+          "size": 1131820
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "oLiOwqtl",
       "name": "[1.20.2] +Datapack",
       "version_number": "1.3",
@@ -91,92 +193,6 @@
       ]
     },
     {
-      "id": "OSHv6IQw",
-      "name": "[1.20.2] +Mod",
-      "version_number": "1.3",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a8d658629e2c48c4adb2dbe484d01fe5cc6eff4091659a93e3ff8dbf9f0f620f6a7ba1d5af2333c3e7da0a04c079869761aabf12220d7ee93b03a90e0e2f21a7",
-          "url": "https://cdn.modrinth.com/data/w6izT8jw/versions/OSHv6IQw/passive-aggressive-1.3.jar",
-          "filename": "passive-aggressive-1.3.jar",
-          "primary": true,
-          "size": 1148824
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "k2jKsuXY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "1wmSn4wN",
-      "name": "[1.20-1.20.1] +Datapack",
-      "version_number": "1.3",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "3c17a56915bf5e957273c073a837598061ba58d85a4fe0dee600cabcf9f1344941b4be4295b3bd53b7aa60d673d902b942733973ef879f85d240183d305e02e0",
-          "url": "https://cdn.modrinth.com/data/w6izT8jw/versions/1wmSn4wN/%5B1.20-1.20.1%5D%20Passive%20Aggressive%20v1.3%20%2BDATAPACK.zip",
-          "filename": "[1.20-1.20.1] Passive Aggressive v1.3 +DATAPACK.zip",
-          "primary": true,
-          "size": 439766
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "k2jKsuXY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "IKW8bqMy",
-      "name": "[1.20-1.20.1] +Mod",
-      "version_number": "1.3",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b63f244be1793d0906570eae49bbe1228abe5cfb2da259739af682fd76fdf47b7dec47d940128bd1930a4ac12de09180d79429a6a4cae838a43687517aea0648",
-          "url": "https://cdn.modrinth.com/data/w6izT8jw/versions/IKW8bqMy/passive-aggressive-1.3.jar",
-          "filename": "passive-aggressive-1.3.jar",
-          "primary": true,
-          "size": 1148824
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "k2jKsuXY",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
       "id": "rUWe0wGb",
       "name": "[1.20-1.20.1] v1.2 +Datapack",
       "version_number": "1.2",
@@ -199,26 +215,33 @@
       "dependencies": []
     },
     {
-      "id": "nGHUwNvm",
-      "name": "[1.20-1.20.1] v1.2 +Mod",
-      "version_number": "1.2",
+      "id": "vNYykfIg",
+      "name": "[1.20.3-1.20.4] +Datapack",
+      "version_number": "1.3",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
-        "fabric"
+        "datapack"
       ],
       "files": [
         {
-          "sha512": "558cd5c3d467505dc04c613439476b251e951f7bf0f0eaa2fb5f4185c7acaa8bb22e0e6919557c03a59ec9d6fc2dcb277d921662036f710f8d506d88b0407578",
-          "url": "https://cdn.modrinth.com/data/w6izT8jw/versions/nGHUwNvm/passive-aggressive_V1.4.jar",
-          "filename": "passive-aggressive_V1.4.jar",
-          "primary": true,
-          "size": 1131820
+          "sha512": "3c17a56915bf5e957273c073a837598061ba58d85a4fe0dee600cabcf9f1344941b4be4295b3bd53b7aa60d673d902b942733973ef879f85d240183d305e02e0",
+          "url": "https://cdn.modrinth.com/data/w6izT8jw/versions/vNYykfIg/%5B1.20.3-1.20.4%5D%20Passive%20Aggressive%20v1.3.zip",
+          "filename": "[1.20.3-1.20.4] Passive Aggressive v1.3.zip",
+          "primary": false,
+          "size": 439766
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "k2jKsuXY",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "x15XxvLj",
@@ -238,29 +261,6 @@
           "filename": "passive-aggressive_V1.3.jar",
           "primary": true,
           "size": 873236
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "7886M5Cv",
-      "name": "[1.20-1.20.1] v1.0 +Mod",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "a1b7f3a39c537adc0f1607bfa160ba58f8a378ab4ead10dcf1aec6c8ba50b4a0e5ba92f0a22dba720dfb38a7dc9499d2724e8d8016c8e205b9a0779d6eb405f8",
-          "url": "https://cdn.modrinth.com/data/w6izT8jw/versions/7886M5Cv/passive_aggressive-1.0.jar",
-          "filename": "passive_aggressive-1.0.jar",
-          "primary": true,
-          "size": 129196
         }
       ],
       "dependencies": []

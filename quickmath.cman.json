@@ -5,6 +5,110 @@
   "description": "Replaces math methods with incorrect alternatives, causing interesting corruption",
   "versions": [
     {
+      "id": "8bz5K5wm",
+      "name": "[1.17.1] 1.4.0",
+      "version_number": "1.4.0",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "b383111038cf0df4eb70fabea79baa17e0d458ae7dacda905dd5672f888c4c21200b9298c2c7812089f18736d6a05236e5c66b6ff61844050e865a1c054af0b1",
+          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/1.4.0/quickmeth-1.4.0.jar",
+          "filename": "quickmeth-1.4.0.jar",
+          "primary": false,
+          "size": 271098
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "BxOIfYpb",
+      "name": "[1.18] 1.6.0",
+      "version_number": "1.6.0",
+      "game_versions": [
+        "1.18"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "6e1b211a3853cd16604484ae490028fba4d1f70623662fd108c5ab16065db56ffccda946b0aa7c0d0d808b62483e0b84e6cac4a0f8403c9dea3b2f0c85b69e49",
+          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/1.6.0/quickmeth-1.6.0.jar",
+          "filename": "quickmeth-1.6.0.jar",
+          "primary": false,
+          "size": 121026
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Ei6p0wso",
+      "name": "[1.18.2] 1.7.1",
+      "version_number": "1.7.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ec5187dbd6e3babc6ef462d034204077170062d532e2a1135b6bd285e16d486331b1f50e71370d0d9d1e5b06515ebb6ab47bed78706463c09d13345c2c7c412f",
+          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/1.7.1/quickmeth-1.7.1.jar",
+          "filename": "quickmeth-1.7.1.jar",
+          "primary": true,
+          "size": 348640
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "G2sisJ2o",
+      "name": "[1.19.3] 1.9.0",
+      "version_number": "1.9.0",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "90228ce332e3df33301dd223aacf67ec3892864a316fc526896e4ac6d333034a3aa7afeeed5e3d6a350259beb3e17a70786032202cc79205f0722970dc5dd45c",
+          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/G2sisJ2o/quickmath-1.9.0.jar",
+          "filename": "quickmath-1.9.0.jar",
+          "primary": true,
+          "size": 22311
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "WKwQAwke",
+          "version_id": "FcbChGzS",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "KDeYeAd1",
       "name": "[1.21] 1.9.7",
       "version_number": "1.9.7",
@@ -39,6 +143,27 @@
       ]
     },
     {
+      "id": "L50opQSM",
+      "name": "[1.16.4] 1.1",
+      "version_number": "1.1",
+      "game_versions": [
+        "1.16.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "19d9a8fc9f5bac024584a3d574bfdc092adb1bee4b279d3424109937e6474e65251a891c95322458fd382cee362a3ff5a927fc359744439ac1eee49f9e539f2f",
+          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/1.1/quickmeth-1.1.jar",
+          "filename": "quickmeth-1.1.jar",
+          "primary": false,
+          "size": 585750
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "Tw8szy92",
       "name": "[1.20.5] 1.9.6",
       "version_number": "1.9.6",
@@ -69,244 +194,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "jGpfaeUP",
-      "name": "[1.20.4] 1.9.5",
-      "version_number": "1.9.5",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4add7442108f1719a4fbf3c8cb02e01495090096dc2e0332f805d26d178b4c009faf33ef8c91b8e2d443c66f70bed08d0cff20c41f8774a4edccbc30ea3b1458",
-          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/jGpfaeUP/quickmath-1.9.5.jar",
-          "filename": "quickmath-1.9.5.jar",
-          "primary": true,
-          "size": 27880
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "WKwQAwke",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "gc49HPFa",
-      "name": "[1.20.2] 1.9.4",
-      "version_number": "1.9.4",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "442b2963971579210bda0e0ee406b5b29d15ee5db06ad1940ac4ac8f58bde713fecdca347805dade9fabaa25418e3405a813e9f937be530e4da4ff622e83e7c4",
-          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/gc49HPFa/quickmath-1.9.4.jar",
-          "filename": "quickmath-1.9.4.jar",
-          "primary": true,
-          "size": 27880
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "WKwQAwke",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "lTMYxgt9",
-      "name": "[1.20.1] 1.9.3",
-      "version_number": "1.9.3",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ddae6f7554d8c423c563c936ae6c8261ffeca4ccd25ed2b43848ade498547bcee6371c20201a11457ab49296046631844f16fda2d658b06b0ea7381c5b3b5942",
-          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/lTMYxgt9/quickmath-1.9.3.jar",
-          "filename": "quickmath-1.9.3.jar",
-          "primary": true,
-          "size": 27878
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "WKwQAwke",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "nn30p2NR",
-      "name": "[1.20] 1.9.2",
-      "version_number": "1.9.2",
-      "game_versions": [
-        "1.20"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d423c8febeac8e36f94dd258f32a01d4079935598c4592601ac09c3b62baa5230bd2f1a74beec2af2ec8a47eea423e5fb18dd97369397f68842ae118e1e8b772",
-          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/nn30p2NR/quickmath-1.9.2.jar",
-          "filename": "quickmath-1.9.2.jar",
-          "primary": true,
-          "size": 24016
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "WKwQAwke",
-          "version_id": "uyRrRMrH",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "tDcAmCZe",
-      "name": "[1.19.4] 1.9.1",
-      "version_number": "1.9.1",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "7304483d803a281e5f3583489bceeeae10b65515b00ca873e887663ad02a69d599ff5c4dc7c10dc4f81dfa840a02b7419dc253cea4443597675b82618f1c3fe8",
-          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/tDcAmCZe/quickmath-1.9.1.jar",
-          "filename": "quickmath-1.9.1.jar",
-          "primary": true,
-          "size": 24018
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "lMqXEzUw",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "WKwQAwke",
-          "version_id": "x8KPNGA1",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "G2sisJ2o",
-      "name": "[1.19.3] 1.9.0",
-      "version_number": "1.9.0",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "90228ce332e3df33301dd223aacf67ec3892864a316fc526896e4ac6d333034a3aa7afeeed5e3d6a350259beb3e17a70786032202cc79205f0722970dc5dd45c",
-          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/G2sisJ2o/quickmath-1.9.0.jar",
-          "filename": "quickmath-1.9.0.jar",
-          "primary": true,
-          "size": 22311
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "WKwQAwke",
-          "version_id": "FcbChGzS",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "xRn7CWMw",
-      "name": "[1.19.2] 1.8.2",
-      "version_number": "1.8.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e1a51d7f65291cec18be372e9fc8afff9fa2335b83c6b3fd6b06892be983be6f2debacb39aa0d99e7176e9b966644e3bf30e80b633f2a884b9b6196df80e5c1c",
-          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/xRn7CWMw/quickmath-1.8.2.jar",
-          "filename": "quickmath-1.8.2.jar",
-          "primary": true,
-          "size": 22343
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "WKwQAwke",
-          "version_id": "iCk0kj45",
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -379,76 +266,6 @@
       ]
     },
     {
-      "id": "Ei6p0wso",
-      "name": "[1.18.2] 1.7.1",
-      "version_number": "1.7.1",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ec5187dbd6e3babc6ef462d034204077170062d532e2a1135b6bd285e16d486331b1f50e71370d0d9d1e5b06515ebb6ab47bed78706463c09d13345c2c7c412f",
-          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/1.7.1/quickmeth-1.7.1.jar",
-          "filename": "quickmeth-1.7.1.jar",
-          "primary": true,
-          "size": 348640
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "nVxObSbX",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "nztAKdkZ",
-      "name": "[1.18.2] 1.7.0",
-      "version_number": "1.7.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "3820fa284fa0e6d1f42d5793f0bd6e2a80cc40bbd8e8f03b85f621da0d9b8cc585334ce52ee93054982adb911b8480091ada16f4980893d029622a2412717c2e",
-          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/1.7.0/quickmeth-1.7.0.jar",
-          "filename": "quickmeth-1.7.0.jar",
-          "primary": true,
-          "size": 214201
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "BxOIfYpb",
-      "name": "[1.18] 1.6.0",
-      "version_number": "1.6.0",
-      "game_versions": [
-        "1.18"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6e1b211a3853cd16604484ae490028fba4d1f70623662fd108c5ab16065db56ffccda946b0aa7c0d0d808b62483e0b84e6cac4a0f8403c9dea3b2f0c85b69e49",
-          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/1.6.0/quickmeth-1.6.0.jar",
-          "filename": "quickmeth-1.6.0.jar",
-          "primary": false,
-          "size": 121026
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "a3hrwMzu",
       "name": "[1.17.1] 1.5.0",
       "version_number": "1.5.0",
@@ -465,48 +282,6 @@
           "filename": "quickmeth-1.5.0.jar",
           "primary": false,
           "size": 270432
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "8bz5K5wm",
-      "name": "[1.17.1] 1.4.0",
-      "version_number": "1.4.0",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b383111038cf0df4eb70fabea79baa17e0d458ae7dacda905dd5672f888c4c21200b9298c2c7812089f18736d6a05236e5c66b6ff61844050e865a1c054af0b1",
-          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/1.4.0/quickmeth-1.4.0.jar",
-          "filename": "quickmeth-1.4.0.jar",
-          "primary": false,
-          "size": 271098
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "qVEn7AOq",
-      "name": "[1.17.1] 1.3.0",
-      "version_number": "1.3.0",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "31153a4633c41028fa3c7d22b759b6dbe4bb41608678b793aa901309a929c10e815d6e8843610b321cba7ed42f720e81724bc21e72f7475c2eaa9ce36188aa89",
-          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/1.3.0/quickmeth-1.3.0.jar",
-          "filename": "quickmeth-1.3.0.jar",
-          "primary": false,
-          "size": 265297
         }
       ],
       "dependencies": []
@@ -554,6 +329,74 @@
       "dependencies": []
     },
     {
+      "id": "gc49HPFa",
+      "name": "[1.20.2] 1.9.4",
+      "version_number": "1.9.4",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "442b2963971579210bda0e0ee406b5b29d15ee5db06ad1940ac4ac8f58bde713fecdca347805dade9fabaa25418e3405a813e9f937be530e4da4ff622e83e7c4",
+          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/gc49HPFa/quickmath-1.9.4.jar",
+          "filename": "quickmath-1.9.4.jar",
+          "primary": true,
+          "size": 27880
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "WKwQAwke",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jGpfaeUP",
+      "name": "[1.20.4] 1.9.5",
+      "version_number": "1.9.5",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4add7442108f1719a4fbf3c8cb02e01495090096dc2e0332f805d26d178b4c009faf33ef8c91b8e2d443c66f70bed08d0cff20c41f8774a4edccbc30ea3b1458",
+          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/jGpfaeUP/quickmath-1.9.5.jar",
+          "filename": "quickmath-1.9.5.jar",
+          "primary": true,
+          "size": 27880
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "WKwQAwke",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "kfu5ekEY",
       "name": "[1.16.5] 1.1.1",
       "version_number": "1.1.1",
@@ -575,25 +418,182 @@
       "dependencies": []
     },
     {
-      "id": "L50opQSM",
-      "name": "[1.16.4] 1.1",
-      "version_number": "1.1",
+      "id": "lTMYxgt9",
+      "name": "[1.20.1] 1.9.3",
+      "version_number": "1.9.3",
       "game_versions": [
-        "1.16.4"
+        "1.20.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "19d9a8fc9f5bac024584a3d574bfdc092adb1bee4b279d3424109937e6474e65251a891c95322458fd382cee362a3ff5a927fc359744439ac1eee49f9e539f2f",
-          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/1.1/quickmeth-1.1.jar",
-          "filename": "quickmeth-1.1.jar",
-          "primary": false,
-          "size": 585750
+          "sha512": "ddae6f7554d8c423c563c936ae6c8261ffeca4ccd25ed2b43848ade498547bcee6371c20201a11457ab49296046631844f16fda2d658b06b0ea7381c5b3b5942",
+          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/lTMYxgt9/quickmath-1.9.3.jar",
+          "filename": "quickmath-1.9.3.jar",
+          "primary": true,
+          "size": 27878
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "WKwQAwke",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "nn30p2NR",
+      "name": "[1.20] 1.9.2",
+      "version_number": "1.9.2",
+      "game_versions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d423c8febeac8e36f94dd258f32a01d4079935598c4592601ac09c3b62baa5230bd2f1a74beec2af2ec8a47eea423e5fb18dd97369397f68842ae118e1e8b772",
+          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/nn30p2NR/quickmath-1.9.2.jar",
+          "filename": "quickmath-1.9.2.jar",
+          "primary": true,
+          "size": 24016
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "WKwQAwke",
+          "version_id": "uyRrRMrH",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "nztAKdkZ",
+      "name": "[1.18.2] 1.7.0",
+      "version_number": "1.7.0",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "3820fa284fa0e6d1f42d5793f0bd6e2a80cc40bbd8e8f03b85f621da0d9b8cc585334ce52ee93054982adb911b8480091ada16f4980893d029622a2412717c2e",
+          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/1.7.0/quickmeth-1.7.0.jar",
+          "filename": "quickmeth-1.7.0.jar",
+          "primary": true,
+          "size": 214201
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "qVEn7AOq",
+      "name": "[1.17.1] 1.3.0",
+      "version_number": "1.3.0",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "31153a4633c41028fa3c7d22b759b6dbe4bb41608678b793aa901309a929c10e815d6e8843610b321cba7ed42f720e81724bc21e72f7475c2eaa9ce36188aa89",
+          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/1.3.0/quickmeth-1.3.0.jar",
+          "filename": "quickmeth-1.3.0.jar",
+          "primary": false,
+          "size": 265297
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "tDcAmCZe",
+      "name": "[1.19.4] 1.9.1",
+      "version_number": "1.9.1",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "7304483d803a281e5f3583489bceeeae10b65515b00ca873e887663ad02a69d599ff5c4dc7c10dc4f81dfa840a02b7419dc253cea4443597675b82618f1c3fe8",
+          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/tDcAmCZe/quickmath-1.9.1.jar",
+          "filename": "quickmath-1.9.1.jar",
+          "primary": true,
+          "size": 24018
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "WKwQAwke",
+          "version_id": "x8KPNGA1",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "xRn7CWMw",
+      "name": "[1.19.2] 1.8.2",
+      "version_number": "1.8.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e1a51d7f65291cec18be372e9fc8afff9fa2335b83c6b3fd6b06892be983be6f2debacb39aa0d99e7176e9b966644e3bf30e80b633f2a884b9b6196df80e5c1c",
+          "url": "https://cdn.modrinth.com/data/hRVfXPJj/versions/xRn7CWMw/quickmath-1.8.2.jar",
+          "filename": "quickmath-1.8.2.jar",
+          "primary": true,
+          "size": 22343
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "WKwQAwke",
+          "version_id": "iCk0kj45",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     }
   ]
 }

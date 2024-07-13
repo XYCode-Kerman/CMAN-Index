@@ -5,32 +5,11 @@
   "description": "Villager trading for EMI.",
   "versions": [
     {
-      "id": "TNdPlgKf",
-      "name": "[NeoForge 1.20.4] 1.3.0",
-      "version_number": "neoforge-1.3.0+mc1.20.4",
+      "id": "3fdei6y4",
+      "name": "[Fabric/Quilt 1.19.2] 1.0.0",
+      "version_number": "1.0.0+mc1.19.2",
       "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "fb30979ffd50a676efb72145f0a662033753c4f7e35190e48401ccb4cc26d9b15f9ff1c920b1edcb5a4fd8bddaf89d901914b809d7ec66e41424bdfed1014eb4",
-          "url": "https://cdn.modrinth.com/data/j2HhbEE7/versions/TNdPlgKf/emitrades-neoforge-1.3.0%2Bmc1.20.4.jar",
-          "filename": "emitrades-neoforge-1.3.0+mc1.20.4.jar",
-          "primary": true,
-          "size": 56301
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ihis4OcC",
-      "name": "[Fabric/Quilt 1.20.4] 1.3.0",
-      "version_number": "fabric-1.3.0+mc1.20.4",
-      "game_versions": [
-        "1.20.4"
+        "1.19.2"
       ],
       "loaders": [
         "fabric",
@@ -38,14 +17,50 @@
       ],
       "files": [
         {
-          "sha512": "4d01987d3ff85ee712985cc36268c1588bfcc1dd9c21d70679115871973febd9aeae70839055f8250761e1c0dedd6dfb0320d0081188d30c94f703c280441b22",
-          "url": "https://cdn.modrinth.com/data/j2HhbEE7/versions/ihis4OcC/emitrades-fabric-1.3.0%2Bmc1.20.4.jar",
-          "filename": "emitrades-fabric-1.3.0+mc1.20.4.jar",
+          "sha512": "860994ceca277a0ab7bf68709a97a4648e5cdead293a8c5cb37df75bd5565a7ebab350721e11cdffefe0a32d5f28bc0005f5516b798c69e11e3eab5ba04e7548",
+          "url": "https://cdn.modrinth.com/data/j2HhbEE7/versions/3fdei6y4/EMITrades-fabric-1.0.0%2Bmc1.19.2.jar",
+          "filename": "EMITrades-fabric-1.0.0+mc1.19.2.jar",
           "primary": true,
-          "size": 54352
+          "size": 13104
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "fRiHVvU7",
+          "version_id": "ciMqRO3M",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "8b2CjqVi",
+      "name": "[Fabric/Quilt 1.19.2] 1.0.1",
+      "version_number": "1.0.1+mc1.19.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f9ed560d0b39d0ffdf6049e1be6ed30574156f5d020ec0ddbb586cb40fa7c554b0e68c3b9868f15b670ffdbfd11f31dcf8d7a22dcccd5236de1333487f0104b5",
+          "url": "https://cdn.modrinth.com/data/j2HhbEE7/versions/8b2CjqVi/EMITrades-fabric-1.0.1%2Bmc1.19.2.jar",
+          "filename": "EMITrades-fabric-1.0.1+mc1.19.2.jar",
+          "primary": true,
+          "size": 16231
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "fRiHVvU7",
+          "version_id": "ciMqRO3M",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "LBT7pcVH",
@@ -65,28 +80,6 @@
           "filename": "emitrades-forge-1.2.1+mc1.20.1.jar",
           "primary": true,
           "size": 53378
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "kWMqVWTm",
-      "name": "[Fabric/Quilt 1.20.1] 1.2.1",
-      "version_number": "fabric-1.2.1+mc1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ab4a29bec2b4b093dcfa4fb6deba5929f4e50f012a9ea1000665a70271de634ee9c0cf8f502855eb1fd6162d4a3d595b17f387804dcf8a9e8afad8b041279aee",
-          "url": "https://cdn.modrinth.com/data/j2HhbEE7/versions/kWMqVWTm/emitrades-fabric-1.2.1%2Bmc1.20.1.jar",
-          "filename": "emitrades-fabric-1.2.1+mc1.20.1.jar",
-          "primary": true,
-          "size": 51479
         }
       ],
       "dependencies": []
@@ -115,6 +108,85 @@
         {
           "project_id": "fRiHVvU7",
           "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "TNdPlgKf",
+      "name": "[NeoForge 1.20.4] 1.3.0",
+      "version_number": "neoforge-1.3.0+mc1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "fb30979ffd50a676efb72145f0a662033753c4f7e35190e48401ccb4cc26d9b15f9ff1c920b1edcb5a4fd8bddaf89d901914b809d7ec66e41424bdfed1014eb4",
+          "url": "https://cdn.modrinth.com/data/j2HhbEE7/versions/TNdPlgKf/emitrades-neoforge-1.3.0%2Bmc1.20.4.jar",
+          "filename": "emitrades-neoforge-1.3.0+mc1.20.4.jar",
+          "primary": true,
+          "size": 56301
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "YnCegFtP",
+      "name": "[Fabric/Quilt 1.19.2] 1.0.2",
+      "version_number": "1.0.2+mc1.19.2",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "f7952ee8e39c9753bcdbb91bcc5f7958e76efffa1193f56a093c48bbe21be395438cd44905cc20f62697979968d733c7cb24468c4e8dba2f61f711a14a368a5e",
+          "url": "https://cdn.modrinth.com/data/j2HhbEE7/versions/YnCegFtP/EMITrades-fabric-1.0.2%2Bmc1.19.2.jar",
+          "filename": "EMITrades-fabric-1.0.2+mc1.19.2.jar",
+          "primary": true,
+          "size": 85391
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "fRiHVvU7",
+          "version_id": "ciMqRO3M",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "gq4XbsqQ",
+      "name": "[Fabric/Quilt 1.18.2] 1.0.1",
+      "version_number": "1.0.1+mc1.18.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "881d4db34832090597eba53eaa4128711113229d983292eadd7415ff49d7ff59e482beb6872531707a134c898679c433005132584c5198c09be6abf96230e29f",
+          "url": "https://cdn.modrinth.com/data/j2HhbEE7/versions/gq4XbsqQ/EMITrades-fabric-1.0.1%2Bmc1.18.2.jar",
+          "filename": "EMITrades-fabric-1.0.1+mc1.18.2.jar",
+          "primary": true,
+          "size": 16231
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "fRiHVvU7",
+          "version_id": "n7JoPQix",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -179,6 +251,50 @@
       ]
     },
     {
+      "id": "ihis4OcC",
+      "name": "[Fabric/Quilt 1.20.4] 1.3.0",
+      "version_number": "fabric-1.3.0+mc1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4d01987d3ff85ee712985cc36268c1588bfcc1dd9c21d70679115871973febd9aeae70839055f8250761e1c0dedd6dfb0320d0081188d30c94f703c280441b22",
+          "url": "https://cdn.modrinth.com/data/j2HhbEE7/versions/ihis4OcC/emitrades-fabric-1.3.0%2Bmc1.20.4.jar",
+          "filename": "emitrades-fabric-1.3.0+mc1.20.4.jar",
+          "primary": true,
+          "size": 54352
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "kWMqVWTm",
+      "name": "[Fabric/Quilt 1.20.1] 1.2.1",
+      "version_number": "fabric-1.2.1+mc1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "ab4a29bec2b4b093dcfa4fb6deba5929f4e50f012a9ea1000665a70271de634ee9c0cf8f502855eb1fd6162d4a3d595b17f387804dcf8a9e8afad8b041279aee",
+          "url": "https://cdn.modrinth.com/data/j2HhbEE7/versions/kWMqVWTm/emitrades-fabric-1.2.1%2Bmc1.20.1.jar",
+          "filename": "emitrades-fabric-1.2.1+mc1.20.1.jar",
+          "primary": true,
+          "size": 51479
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "rfnQYYSe",
       "name": "[Fabric/Quilt 1.18.2] 1.0.2",
       "version_number": "1.0.2+mc1.18.2",
@@ -208,93 +324,6 @@
       ]
     },
     {
-      "id": "YnCegFtP",
-      "name": "[Fabric/Quilt 1.19.2] 1.0.2",
-      "version_number": "1.0.2+mc1.19.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f7952ee8e39c9753bcdbb91bcc5f7958e76efffa1193f56a093c48bbe21be395438cd44905cc20f62697979968d733c7cb24468c4e8dba2f61f711a14a368a5e",
-          "url": "https://cdn.modrinth.com/data/j2HhbEE7/versions/YnCegFtP/EMITrades-fabric-1.0.2%2Bmc1.19.2.jar",
-          "filename": "EMITrades-fabric-1.0.2+mc1.19.2.jar",
-          "primary": true,
-          "size": 85391
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "fRiHVvU7",
-          "version_id": "ciMqRO3M",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "8b2CjqVi",
-      "name": "[Fabric/Quilt 1.19.2] 1.0.1",
-      "version_number": "1.0.1+mc1.19.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f9ed560d0b39d0ffdf6049e1be6ed30574156f5d020ec0ddbb586cb40fa7c554b0e68c3b9868f15b670ffdbfd11f31dcf8d7a22dcccd5236de1333487f0104b5",
-          "url": "https://cdn.modrinth.com/data/j2HhbEE7/versions/8b2CjqVi/EMITrades-fabric-1.0.1%2Bmc1.19.2.jar",
-          "filename": "EMITrades-fabric-1.0.1+mc1.19.2.jar",
-          "primary": true,
-          "size": 16231
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "fRiHVvU7",
-          "version_id": "ciMqRO3M",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "gq4XbsqQ",
-      "name": "[Fabric/Quilt 1.18.2] 1.0.1",
-      "version_number": "1.0.1+mc1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "881d4db34832090597eba53eaa4128711113229d983292eadd7415ff49d7ff59e482beb6872531707a134c898679c433005132584c5198c09be6abf96230e29f",
-          "url": "https://cdn.modrinth.com/data/j2HhbEE7/versions/gq4XbsqQ/EMITrades-fabric-1.0.1%2Bmc1.18.2.jar",
-          "filename": "EMITrades-fabric-1.0.1+mc1.18.2.jar",
-          "primary": true,
-          "size": 16231
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "fRiHVvU7",
-          "version_id": "n7JoPQix",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "wx5xJmUx",
       "name": "[Fabric/Quilt 1.18.2] 1.0.0",
       "version_number": "1.0.0+mc1.18.2",
@@ -318,35 +347,6 @@
         {
           "project_id": "fRiHVvU7",
           "version_id": "n7JoPQix",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "3fdei6y4",
-      "name": "[Fabric/Quilt 1.19.2] 1.0.0",
-      "version_number": "1.0.0+mc1.19.2",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "860994ceca277a0ab7bf68709a97a4648e5cdead293a8c5cb37df75bd5565a7ebab350721e11cdffefe0a32d5f28bc0005f5516b798c69e11e3eab5ba04e7548",
-          "url": "https://cdn.modrinth.com/data/j2HhbEE7/versions/3fdei6y4/EMITrades-fabric-1.0.0%2Bmc1.19.2.jar",
-          "filename": "EMITrades-fabric-1.0.0+mc1.19.2.jar",
-          "primary": true,
-          "size": 13104
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "fRiHVvU7",
-          "version_id": "ciMqRO3M",
           "file_name": null,
           "dependency_type": "required"
         }

@@ -5,9 +5,39 @@
   "description": "A useful library for making Fabric mods",
   "versions": [
     {
-      "id": "gsqg4TDt",
-      "name": "FeatherLib 2.5.0",
-      "version_number": "2.5.0",
+      "id": "4Y1hHNey",
+      "name": "FeatherLib 2.3.1",
+      "version_number": "2.3.1",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "11a7ae839168ca15636d0b1ac6a9df7fe89d679771444e3a1c9e734393f075b535abf901a44480dce84a4f5a1bd26cb65d64e2a22a5487eff442f97d8d163ab6",
+          "url": "https://cdn.modrinth.com/data/GuTYjJZq/versions/2.3.1/featherlib-2.3.1.jar",
+          "filename": "featherlib-2.3.1.jar",
+          "primary": true,
+          "size": 192881
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "FfIironu",
+      "name": "FeatherLib 2.4.0",
+      "version_number": "2.4.0",
       "game_versions": [
         "1.19"
       ],
@@ -17,17 +47,54 @@
       ],
       "files": [
         {
-          "sha512": "d220b01cc01a7f45e322e28091f1c4fe9426453b0f0fa05a16cdc6852f37d6eee4b826f15bb61331022dfdfa211fac09e8846d1e5667c10c868f8801e5ef3a35",
-          "url": "https://cdn.modrinth.com/data/GuTYjJZq/versions/2.5.0/featherlib-2.5.0.jar",
-          "filename": "featherlib-2.5.0.jar",
+          "sha512": "bca56e4af9db42cf42ed83cc5370bbef5b9c11f122b8929cf336be5537c597810d80dd3378a4f6abdbbe12eb82a2c8b9217603eaee3bc4de4ffc42f982946524",
+          "url": "https://cdn.modrinth.com/data/GuTYjJZq/versions/2.4.0/featherlib-2.4.0.jar",
+          "filename": "featherlib-2.4.0.jar",
           "primary": true,
-          "size": 43314
+          "size": 37762
         }
       ],
       "dependencies": [
         {
           "project_id": "P7dR8mSH",
           "version_id": "3KmOcp6b",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "JnrDtPAE",
+          "version_id": "IYDgJuEe",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "NcaGbj0D",
+      "name": " FeatherLib 2.3.0",
+      "version_number": "2.3.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "b6d7aaaf3f51788145eb263e0fdde9c0e0ba975c7870f3d384e8434fc8347e3b9c907646d07d554fd39dc30eb4a33f95278d8de195b310917129551f0901951a",
+          "url": "https://cdn.modrinth.com/data/GuTYjJZq/versions/2.3.0/featherlib-2.3.0.jar",
+          "filename": "featherlib-2.3.0.jar",
+          "primary": true,
+          "size": 184547
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -98,9 +165,9 @@
       ]
     },
     {
-      "id": "FfIironu",
-      "name": "FeatherLib 2.4.0",
-      "version_number": "2.4.0",
+      "id": "gsqg4TDt",
+      "name": "FeatherLib 2.5.0",
+      "version_number": "2.5.0",
       "game_versions": [
         "1.19"
       ],
@@ -110,84 +177,17 @@
       ],
       "files": [
         {
-          "sha512": "bca56e4af9db42cf42ed83cc5370bbef5b9c11f122b8929cf336be5537c597810d80dd3378a4f6abdbbe12eb82a2c8b9217603eaee3bc4de4ffc42f982946524",
-          "url": "https://cdn.modrinth.com/data/GuTYjJZq/versions/2.4.0/featherlib-2.4.0.jar",
-          "filename": "featherlib-2.4.0.jar",
+          "sha512": "d220b01cc01a7f45e322e28091f1c4fe9426453b0f0fa05a16cdc6852f37d6eee4b826f15bb61331022dfdfa211fac09e8846d1e5667c10c868f8801e5ef3a35",
+          "url": "https://cdn.modrinth.com/data/GuTYjJZq/versions/2.5.0/featherlib-2.5.0.jar",
+          "filename": "featherlib-2.5.0.jar",
           "primary": true,
-          "size": 37762
+          "size": 43314
         }
       ],
       "dependencies": [
-        {
-          "project_id": "JnrDtPAE",
-          "version_id": "IYDgJuEe",
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "P7dR8mSH",
           "version_id": "3KmOcp6b",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4Y1hHNey",
-      "name": "FeatherLib 2.3.1",
-      "version_number": "2.3.1",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "11a7ae839168ca15636d0b1ac6a9df7fe89d679771444e3a1c9e734393f075b535abf901a44480dce84a4f5a1bd26cb65d64e2a22a5487eff442f97d8d163ab6",
-          "url": "https://cdn.modrinth.com/data/GuTYjJZq/versions/2.3.1/featherlib-2.3.1.jar",
-          "filename": "featherlib-2.3.1.jar",
-          "primary": true,
-          "size": 192881
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "NcaGbj0D",
-      "name": " FeatherLib 2.3.0",
-      "version_number": "2.3.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "b6d7aaaf3f51788145eb263e0fdde9c0e0ba975c7870f3d384e8434fc8347e3b9c907646d07d554fd39dc30eb4a33f95278d8de195b310917129551f0901951a",
-          "url": "https://cdn.modrinth.com/data/GuTYjJZq/versions/2.3.0/featherlib-2.3.0.jar",
-          "filename": "featherlib-2.3.0.jar",
-          "primary": true,
-          "size": 184547
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
           "file_name": null,
           "dependency_type": "required"
         }

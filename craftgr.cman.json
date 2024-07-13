@@ -5,22 +5,418 @@
   "description": "Touhou Project music player for Minecraft | Fan-made songs streamed from Gensokyo Radio!",
   "versions": [
     {
-      "id": "n1nVXN0T",
-      "name": "[NeoForge] CraftGR 1.8.0 for Minecraft 1.21",
-      "version_number": "1.8.0-mc1.21-neoforge",
+      "id": "17G7AnUe",
+      "name": "[Fabric] v1.2.0 for Minecraft 1.18.2",
+      "version_number": "1.2.0-mc1.18.2-fabric",
       "game_versions": [
-        "1.21"
+        "1.18.2"
       ],
       "loaders": [
-        "neoforge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "ada5f919f700a3378917141ae0fc3f3d9cf5f21ef2c914ac10d843ee5c2d1bdf13a5eae28c48fac9be19abc43414030ac9549aa85364f9b6b5ab81f133fd773c",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/n1nVXN0T/craftgr-1.8.0-mc1.21-neoforge.jar",
-          "filename": "craftgr-1.8.0-mc1.21-neoforge.jar",
+          "sha512": "fdd0ba69ea9f7df116ed8903f228cd7ea8481cd96b414945f83d7eb60cafb4fd21202b3be576d4cec2ff2bf477f4174728382ee8d82acf0fea88204261e37a22",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.0-mc1.18.2-fabric/craftgr-1.2.0-mc1.18.2-fabric.jar",
+          "filename": "craftgr-1.2.0-mc1.18.2-fabric.jar",
           "primary": true,
-          "size": 420325
+          "size": 1927170
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "22BkYjQI",
+      "name": "v1.5.3 for Minecraft 1.20.2",
+      "version_number": "1.5.3-mc1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "bf59e6ffa28096e2e8783f9957ffe7d99e60f3cf79b0e8add9b5d0772e7f7323956be4d223e379fbd0fb151642f277911794727e22123681f3cc3e41111a538a",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/22BkYjQI/craftgr-1.5.3-mc1.20.2.jar",
+          "filename": "craftgr-1.5.3-mc1.20.2.jar",
+          "primary": true,
+          "size": 1582650
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "28qEI6pT",
+      "name": "[Fabric/Quilt] v1.3.1 for Minecraft 1.19.1",
+      "version_number": "1.3.1-mc1.19.1-fabric",
+      "game_versions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "1bab66671f61e641f276366ced493499adba6385e65ddda20fc3f027f37416205173fbf4c19f72fe2596d0e902ffb944eef50324c91f56f8229fc2a2d2e24cda",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.3.1-mc1.19.1-fabric/craftgr-1.3.1-mc1.19.1-fabric.jar",
+          "filename": "craftgr-1.3.1-mc1.19.1-fabric.jar",
+          "primary": true,
+          "size": 1435149
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "29O6nhDp",
+      "name": "[Forge] v1.1.1 for Minecraft 1.18.1",
+      "version_number": "1.1.1-mc1.18.1-forge",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "099d06c82b46eb749d90ddb303a867f0dfa036eb6b76f119d0be2141790574df0d7c614245f082f8489d1729ae064fd9a6b4eb1df69d1883200cd0140e9bb340",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.1-mc1.18.1-forge/craftgr-1.1.1-mc1.18.1-forge.jar",
+          "filename": "craftgr-1.1.1-mc1.18.1-forge.jar",
+          "primary": false,
+          "size": 807972
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "3nN73j93",
+      "name": "v1.5.1 for Minecraft 1.20.1",
+      "version_number": "1.5.1-mc1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "7178d0f59e0f52c6b61fd0d67a0e3fb4a55f0ec9078a6ee096e066261c7a8ade2b4fe19aac5153096f57fb036e9a173f82a2e527e58b880ac7ca2792af0761b9",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/3nN73j93/craftgr-1.5.1-mc1.20.1.jar",
+          "filename": "craftgr-1.5.1-mc1.20.1.jar",
+          "primary": true,
+          "size": 1499085
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "3w7yFzjF",
+      "name": "[Forge] v1.4.3 for Minecraft 1.19.3",
+      "version_number": "1.4.3-mc1.19.3-forge",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "061bec669dbca22e9ff8536332f771321d5c962fd1eb259195a6b0ca26a6e99ff9b88e32f050f1f7bb48cd490d3decf23385a5adf4da9e9612128bd8482445cc",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/3w7yFzjF/craftgr-1.4.3-mc1.19.3-forge.jar",
+          "filename": "craftgr-1.4.3-mc1.19.3-forge.jar",
+          "primary": true,
+          "size": 276990
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "8AMPotFw",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "4mpZMbsT",
+      "name": "[Fabric] v1.2.0 for Minecraft 1.17.1",
+      "version_number": "1.2.0-mc1.17.1-fabric",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e1797663adee84364d83f4a7a76f91d8ab64fb5f0e5af14bb1c975fcca9fd416c4a1949bfaac1712c65daf21f65012d7559d394249208496b3470c1ca0699a53",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.0-mc1.17.1-fabric/craftgr-1.2.0-mc1.17.1-fabric.jar",
+          "filename": "craftgr-1.2.0-mc1.17.1-fabric.jar",
+          "primary": true,
+          "size": 1804158
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "4vRpgpv7",
+      "name": "[Fabric] v1.1.3 for Minecraft 1.16.5",
+      "version_number": "1.1.3-mc1.16.5-fabric",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "7a8ac68da623a44bec6aa379e3a67c587613de99ddca33f12686114c9105fd8c9785daff1b687c2d0f982e57cd9ef8c8ee6ec099a4e59260015f3396d275d1e1",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.3-mc1.16.5-fabric/craftgr-1.1.3-mc1.16.5-fabric.jar",
+          "filename": "craftgr-1.1.3-mc1.16.5-fabric.jar",
+          "primary": false,
+          "size": 1803257
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "4vugn0bb",
+      "name": "[Fabric/Quilt] v1.4.3 for Minecraft 1.19.3",
+      "version_number": "1.4.3-mc1.19.3-fabric",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "476308f600be7e956830f8fdc890e83023509d60d466163b57939d48f9e2d4ff692c321c343cdb8683aa14385f5b236c0443d07bdd9fb265c59b205dfb33dac6",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/4vugn0bb/craftgr-1.4.3-mc1.19.3-fabric.jar",
+          "filename": "craftgr-1.4.3-mc1.19.3-fabric.jar",
+          "primary": true,
+          "size": 1483028
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "5n4BXa3z",
+      "name": "[Fabric] v1.2.0 for Minecraft 1.18.1",
+      "version_number": "1.2.0-mc1.18.1-fabric",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "b48e2776c0bd4fca19b1b0d1ce350d47f26921e1d7db9559f5984ddc8c3db7db2739f0f4716d9c20ddc5b3d35aa368f075d62efed4ed71453ec27d6cf23cd483",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.0-mc1.18.1-fabric/craftgr-1.2.0-mc1.18.1-fabric.jar",
+          "filename": "craftgr-1.2.0-mc1.18.1-fabric.jar",
+          "primary": true,
+          "size": 1822541
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "5rcqq8Oh",
+      "name": "[Fabric] v1.1.3 for Minecraft 1.17.1",
+      "version_number": "1.1.3-mc1.17.1-fabric",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f6858c5f835e7d91dbd2557dde3f4ef97dbd231e5e757e2420f0e3659d0c9cda062ea1998601aacc67c48a8829b67820d9f5c9714593df7ebfe6a3f074eb548d",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.3-mc1.17.1-fabric/craftgr-1.1.3-mc1.17.1-fabric.jar",
+          "filename": "craftgr-1.1.3-mc1.17.1-fabric.jar",
+          "primary": false,
+          "size": 1803066
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "74EnW1HQ",
+      "name": "[Forge] v1.1.3 for Minecraft 1.18.1",
+      "version_number": "1.1.3-mc1.18.1-forge",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "7481ef7da49775547816139948ddeb7eccc7343b3c66183cf0b0d9fd277ef10044f8318a531e6aceb9d4889b595f2d3dc4dbbaae52885abee46beb2f168e7a15",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.3-mc1.18.1-forge/craftgr-1.1.3-mc1.18.1-forge.jar",
+          "filename": "craftgr-1.1.3-mc1.18.1-forge.jar",
+          "primary": false,
+          "size": 791662
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "7q2EwF7Q",
+      "name": "[Fabric/Quilt] v1.3.2 for Minecraft 1.19.1/2",
+      "version_number": "1.3.2-mc1.19.1-fabric",
+      "game_versions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "aa518cce151afa69287daf1172e392981dec3cef446d70b94e75c4999967de18c412993ee7314fd9bd21c62196495247f746617c3dfe8a436ad83fe4e75713dd",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.3.2-mc1.19.1-fabric/craftgr-1.3.2-mc1.19.1-fabric.jar",
+          "filename": "craftgr-1.3.2-mc1.19.1-fabric.jar",
+          "primary": true,
+          "size": 1435150
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "7rgrzDWG",
+      "name": "[Fabric] v1.1.3 for Minecraft 1.18.1",
+      "version_number": "1.1.3-mc1.18.1-fabric",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "6d9e46859688322446c2c465b272a6884261c94d1d45e43443fb247a115f8925c0df3bc8f6a7dc7366464e3cb080b955846cb45a603851eb8e872df1a7d422b1",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.3-mc1.18.1-fabric/craftgr-1.1.3-mc1.18.1-fabric.jar",
+          "filename": "craftgr-1.1.3-mc1.18.1-fabric.jar",
+          "primary": false,
+          "size": 1821452
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "8G6PyTtP",
+      "name": "[Forge] v1.0.0 for Minecraft 1.16.5",
+      "version_number": "1.0.0-mc1.16.5-forge",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "bccff3deea963eed4aaaebd2328639e4a2b343ee289fcff64841df97a8066636b364eac1461188c089b7560d0555c935cc38fa7d73c50c002692fd3c32f8a8c8",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.0.0-mc1.16.5-forge/craftgr-1.0.0-mc1.16.5-forge.jar",
+          "filename": "craftgr-1.0.0-mc1.16.5-forge.jar",
+          "primary": false,
+          "size": 804899
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "8NgD3h7F",
+      "name": "[Forge] v1.3.0 for Minecraft 1.18.2",
+      "version_number": "1.3.0-mc1.18.2-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "e2b2f3e9800537816fedfb0f8769d9fd3b5b30ff38f6ae5e5c882883fa776f065590d3515ac333fdf07b240387587902327ce806ce5d69c650d77ffdf292fb08",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.3.0-mc1.18.2-forge/craftgr-1.3.0-mc1.18.2-forge.jar",
+          "filename": "craftgr-1.3.0-mc1.18.2-forge.jar",
+          "primary": true,
+          "size": 237954
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "ZbWG3eJW",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "8raH5rPp",
+      "name": "[Fabric] v1.2.1 for Minecraft 1.19",
+      "version_number": "1.2.1-mc1.19-fabric",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d42a277f90059259d8e4d0dba8206edb3d259262529d851ae4ca81992087f49b3459e6eae3151984731aac18494fac12324564974be5d5954a3ea0672ea49c05",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.0-mc1.19-fabric/craftgr-1.2.1-mc1.19-fabric.jar",
+          "filename": "craftgr-1.2.1-mc1.19-fabric.jar",
+          "primary": true,
+          "size": 1930532
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "9WuE4tw7",
+      "name": "v1.6.1 for Minecraft 1.20.4",
+      "version_number": "1.6.1-mc1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "6f02215922e20393a9bcc693667cef9b4e0bace32d929b80c9b99185c24090cfa8bc975dc46a412bb5a271f114dff024873c173c328a280020392d2a4ab0ced4",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/9WuE4tw7/craftgr-1.6.1-mc1.20.4.jar",
+          "filename": "craftgr-1.6.1-mc1.20.4.jar",
+          "primary": true,
+          "size": 490675
         }
       ],
       "dependencies": [
@@ -33,11 +429,11 @@
       ]
     },
     {
-      "id": "s6EYPGiO",
-      "name": "[Fabric] CraftGR 1.8.0 for Minecraft 1.21",
-      "version_number": "1.8.0-mc1.21-fabric",
+      "id": "9j51i3pY",
+      "name": "[Fabric/Quilt] v1.3.0 for Minecraft 1.18.2",
+      "version_number": "1.3.0-mc1.18.2-fabric",
       "game_versions": [
-        "1.21"
+        "1.18.2"
       ],
       "loaders": [
         "fabric",
@@ -45,16 +441,274 @@
       ],
       "files": [
         {
-          "sha512": "df2379187aada1d8865cc349a42a2b14411cbc8e8a1c5becce9dc4c186ffe63dc9220b03e122c2600fbaa47080f22a10e42b411bb8631b01000125554de0d3fb",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/s6EYPGiO/craftgr-1.8.0-mc1.21-fabric.jar",
-          "filename": "craftgr-1.8.0-mc1.21-fabric.jar",
+          "sha512": "ed9e457cf4c338c19e5841529ebf493c6a9c977338948f2cf16100f7b9ff833ff775aae94ba3551d8b90397ec4c8513a4eaca3b2c76200248cd07a6cf37f11ec",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.3.0-mc1.18.2-fabric/craftgr-1.3.0-mc1.18.2-fabric.jar",
+          "filename": "craftgr-1.3.0-mc1.18.2-fabric.jar",
           "primary": true,
-          "size": 393439
+          "size": 1429488
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "CJZpBZtI",
+      "name": "[Fabric/Quilt] v1.4.1 for Minecraft 1.19.2",
+      "version_number": "1.4.1-mc1.19.2-fabric",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "23ef5a4f6fcda58703f84e073ed3f9d7c5c1702964db86c8ac2737e5d6316bd47bc82c94cc447544ff68f0347ee6816d5333d6c0b98338bdd4874f5f25d4aae4",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/CJZpBZtI/craftgr-1.4.1-mc1.19.2-fabric.jar",
+          "filename": "craftgr-1.4.1-mc1.19.2-fabric.jar",
+          "primary": true,
+          "size": 1486386
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "EdXuUNU5",
+      "name": "[Forge] v1.4.2 for Minecraft 1.19.2",
+      "version_number": "1.4.2-mc1.19.2-forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ab08c7db2a02916cd75897069e38a6017a0260eef59de3f989a678b3a193dcf6e5c58583120444cd115ec8dfd408af306570990633f8f2551b6aedf3ab1a7fe8",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/EdXuUNU5/craftgr-1.4.2-mc1.19.2-forge.jar",
+          "filename": "craftgr-1.4.2-mc1.19.2-forge.jar",
+          "primary": true,
+          "size": 279121
         }
       ],
       "dependencies": [
         {
-          "project_id": "1eAoo2KR",
+          "project_id": "9s6osm5g",
+          "version_id": "EUyHCmUW",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "FBwsU9u0",
+      "name": "[Forge] v1.3.0 for Minecraft 1.19",
+      "version_number": "1.3.0-mc1.19-forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "668f0f9463ab1b918a1b917b99e2ee300f32194e5949ab907a76ddc668cc968070ee5a7a9cf0559ac75e3b0e122e8900f8e61aee01c3c581747d073fedaa4f1b",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.3.0-mc1.19-forge/craftgr-1.3.0-mc1.19-forge.jar",
+          "filename": "craftgr-1.3.0-mc1.19-forge.jar",
+          "primary": true,
+          "size": 238149
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "EUyHCmUW",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "HB0Tph9T",
+      "name": "[Forge] v1.1.1 for Minecraft 1.16.5",
+      "version_number": "1.1.1-mc1.16.5-forge",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "93254e672e671c15ae7142b7037f0f04c37558169479be041396e672e3a54a12046931b9db8b652151a2071ec9a4a6dd5559f2177942359a083993f6d1a52634",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.1-mc1.16.5-forge/craftgr-1.1.1-mc1.16.5-forge.jar",
+          "filename": "craftgr-1.1.1-mc1.16.5-forge.jar",
+          "primary": false,
+          "size": 807582
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "HPjM97Qj",
+      "name": "[Forge] v1.4.6 for Minecraft 1.20",
+      "version_number": "1.4.6-mc1.20-forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "ea62674920f1f31e2466923fd0dae524be25a117ba315e27d8412a9d8711d8731582613a1116d1d080e6b9391c49e6c3860194f99b66cdb4ad2829db1efa68a8",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/HPjM97Qj/craftgr-1.4.6-mc1.20-forge.jar",
+          "filename": "craftgr-1.4.6-mc1.20-forge.jar",
+          "primary": true,
+          "size": 278886
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "JoLgnJ0G",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "JjTiGVQH",
+      "name": "[Forge] v1.2.0 for Minecraft 1.18.2",
+      "version_number": "1.2.0-mc1.18.2-forge",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "12a2f3f5445c27b0f4c8fb3c0fed1a6a2e15c9be6599426637a0430db2ef24007b9cb4569253b6b5e53050258620728646429a73606dbc36355e7cdfc69697f3",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.0-mc1.18.2-forge/craftgr-1.2.0-mc1.18.2-forge.jar",
+          "filename": "craftgr-1.2.0-mc1.18.2-forge.jar",
+          "primary": true,
+          "size": 792716
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "KutnJdRN",
+      "name": "[Fabric] v1.1.1 for Minecraft 1.18.1",
+      "version_number": "1.1.1-mc1.18.1-fabric",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "b5c328aa78ebf26332f245f4c4bc015bb55ba5e64fe27844b8c9022c80ce568de8b06c5593d893f5bcc5dc6e87b2367ae82b394e1f4179789fd1b1ec22fe6000",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.1-mc1.18.1-fabric/craftgr-1.1.1-mc1.18.1-fabric.jar",
+          "filename": "craftgr-1.1.1-mc1.18.1-fabric.jar",
+          "primary": false,
+          "size": 1821778
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "LFeFJXPx",
+      "name": "[Fabric/Quilt] v1.2.2 for Minecraft 1.19",
+      "version_number": "1.2.2-mc1.19-fabric",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "027b0829f6f9915fb16602953bb4237b1c8eb0150c9e9a69694bb254342b11b51250855ca5a221d194d05b723c3f64355c8207c74d1425257da676bbcf06e25b",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.2-mc1.19-fabric/craftgr-1.2.2-mc1.19-fabric.jar",
+          "filename": "craftgr-1.2.2-mc1.19-fabric.jar",
+          "primary": true,
+          "size": 1929457
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "LRkDfHO3",
+      "name": "[Fabric] v1.1.1 for Minecraft 1.16.5",
+      "version_number": "1.1.1-mc1.16.5-fabric",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1e34c0fc6d2f82b5960e92e4b87a40c93efec79f9e471da0ddc7cbf04fe37f16b1d6cbebf27186af4f9f9d70f63a859e968e6f0e8e3e7b9e9e67f766bd94b87a",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.1-mc1.16.5-fabric/craftgr-1.1.1-mc1.16.5-fabric.jar",
+          "filename": "craftgr-1.1.1-mc1.16.5-fabric.jar",
+          "primary": false,
+          "size": 1803573
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "MmvlLeEw",
+      "name": "[Fabric/Quilt] v1.4.5 for Minecraft 1.20",
+      "version_number": "1.4.5-mc1.20-fabric",
+      "game_versions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "cdd223d64a47e09c4d4d253e2f815657f388a26e8480d3b6d19d1c7afd23fdc547678d8c1a043ad81434bdae7dd0a9f0ccf84dcef7feb6e034a231cc2bebb633",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/MmvlLeEw/craftgr-1.4.5-mc1.20-fabric.jar",
+          "filename": "craftgr-1.4.5-mc1.20-fabric.jar",
+          "primary": true,
+          "size": 1487148
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "OZvUpRXK",
+      "name": "v1.5.0 for Minecraft 1.20.1",
+      "version_number": "1.5.0-mc1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "21abb891cf825afc203a372060ce259d322139528ab4585f585921eadb5d4f89ed6835a03dcc02cdd33059f754c6e048c555bf6099b9b9ecb5e8d2e5f2f91f19",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/OZvUpRXK/craftgr-1.5.0-mc1.20.1.jar",
+          "filename": "craftgr-1.5.0-mc1.20.1.jar",
+          "primary": true,
+          "size": 1496987
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -62,11 +716,160 @@
       ]
     },
     {
-      "id": "vPAFzdEo",
-      "name": "[Fabric] CraftGR 1.7.2 for Minecraft 1.21",
-      "version_number": "1.7.2-mc1.21-fabric",
+      "id": "OlQ6L2xI",
+      "name": "[Forge] v1.1.3 for Minecraft 1.16.5",
+      "version_number": "1.1.3-mc1.16.5-forge",
       "game_versions": [
-        "1.21"
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "227bbb1e1a94303cd4e7da3784986fc8724eed8ff569439e6e6ed9d6d43d5b4df19a545041aa5b5a791618317af59627ccf10765ede30ebced16c4a20789e71c",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.3-mc1.16.5-forge/craftgr-1.1.3-mc1.16.5-forge.jar",
+          "filename": "craftgr-1.1.3-mc1.16.5-forge.jar",
+          "primary": false,
+          "size": 791275
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "P3NesZKL",
+      "name": "[Forge] v1.4.1 for Minecraft 1.19.2",
+      "version_number": "1.4.1-mc1.19.2-forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "6697bdbbf7f2416e8b87175e9e34b32deed5cca93b7e20f0e3e2176362e9fbfd46bf8cc99f719d148c886f8c9f8229843ca64e111a7e50dd2ef7782a7f11c01e",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/P3NesZKL/craftgr-1.4.1-mc1.19.2-forge.jar",
+          "filename": "craftgr-1.4.1-mc1.19.2-forge.jar",
+          "primary": true,
+          "size": 278104
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "EUyHCmUW",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "PAvsdpU9",
+      "name": "v1.5.2 for Minecraft 1.20.2",
+      "version_number": "1.5.2-mc1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "80bbded30e2b99891235432549382b40ff21791e9c88b5b76e89f74897d3f23c1dd8920ab20e966dd82c7cf02db8c3d95e3c8d180b00277e379e85ec85cf23ba",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/PAvsdpU9/craftgr-1.5.2-mc1.20.2.jar",
+          "filename": "craftgr-1.5.2-mc1.20.2.jar",
+          "primary": true,
+          "size": 1500261
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "PQxTT5EP",
+      "name": "[Forge] v1.1.0 for Minecraft 1.17.1",
+      "version_number": "1.1.0-mc1.17.1-forge",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f1733c51b7e1bb808818ed3e5631f6c3ae8842153860b71e70d29e2fdbc6ab266c86b3f2b2a2fa057a430e4dc422862ba3749cdffd3444e4751afdfcb06e8cb8",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.0-mc1.17.1-forge/craftgr-1.1.0-mc1.17.1-forge.jar",
+          "filename": "craftgr-1.1.0-mc1.17.1-forge.jar",
+          "primary": false,
+          "size": 807503
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "PSoP9UtH",
+      "name": "[Fabric] v1.1.1 for Minecraft 1.17.1",
+      "version_number": "1.1.1-mc1.17.1-fabric",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "07b1267e3cd5c073470d2cb2db3110a46832b01a4cab141958577767c1c0066728ebf4beb7999210813b561106a422a2b7a57067f5cf18b5661a16cdb0196494",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.1-mc1.17.1-fabric/craftgr-1.1.1-mc1.17.1-fabric.jar",
+          "filename": "craftgr-1.1.1-mc1.17.1-fabric.jar",
+          "primary": false,
+          "size": 1803392
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Py8Ygpcl",
+      "name": "[Forge] v1.4.0 for Minecraft 1.19.2",
+      "version_number": "1.4.0-mc1.19.2-forge",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "518eacd9f5797483741dfe56fe6dc8bd1fcdcbd44feaf689f078d3882519313fbe2fa9eb8bc7f2f3c48df9738cc0af7554f1e7c78b36ab1044fdb17485aefe04",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/Py8Ygpcl/craftgr-1.4.0-mc1.19.2-forge.jar",
+          "filename": "craftgr-1.4.0-mc1.19.2-forge.jar",
+          "primary": true,
+          "size": 269874
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "EUyHCmUW",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Q21B8ygL",
+      "name": "[Fabric/Quilt] v1.4.4 for Minecraft 1.19.4",
+      "version_number": "1.4.4-mc1.19.4-fabric",
+      "game_versions": [
+        "1.19.4"
       ],
       "loaders": [
         "fabric",
@@ -74,21 +877,121 @@
       ],
       "files": [
         {
-          "sha512": "56dfdcb831bc3801ece78413c599835c35367b0341f4d5766b5508ac1e2054baee54b705aa5560f3d726b3b266f6598370166b36bae2c2e006e626daf888c257",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/vPAFzdEo/craftgr-1.7.2-mc1.21-fabric.jar",
-          "filename": "craftgr-1.7.2-mc1.21-fabric.jar",
+          "sha512": "a01f56122dc03c3cce7f6e290a566cc39cf4c3fb9d5013dc515969d0447689e29129652012c084d8e08bf87263a158e3602fce2a5f5dcc8dea31337e46f241ae",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/Q21B8ygL/craftgr-1.4.4-mc1.19.4-fabric.jar",
+          "filename": "craftgr-1.4.4-mc1.19.4-fabric.jar",
           "primary": true,
-          "size": 258191
+          "size": 1487108
         }
       ],
-      "dependencies": [
+      "dependencies": []
+    },
+    {
+      "id": "V98d3GkT",
+      "name": "[Forge] v1.1.1 for Minecraft 1.17.1",
+      "version_number": "1.1.1-mc1.17.1-forge",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
         {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
+          "sha512": "4ddffae9c1aae8388c1f0d5a6b3a775e7578d901281d91118eb517b7d5edc5dce70cfdb2324614a9d084b310110d6b06a6bf2c4a03ad86a8030ad6f6d73710c5",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.1-mc1.17.1-forge/craftgr-1.1.1-mc1.17.1-forge.jar",
+          "filename": "craftgr-1.1.1-mc1.17.1-forge.jar",
+          "primary": false,
+          "size": 807965
         }
-      ]
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Vg5cPzRC",
+      "name": "[Forge] v1.2.1 for Minecraft 1.19",
+      "version_number": "1.2.1-mc1.19-forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "2b0b2639766551a402be31e5d21fd088d8328eb1d2bfd97ad261a6573810d25c87c448718eb0a544c47e984a4ee6fa5f527d5669ea47d5391ed54ab4b60ca48a",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.1-mc1.19-forge/craftgr-1.2.1-mc1.19-forge.jar",
+          "filename": "craftgr-1.2.1-mc1.19-forge.jar",
+          "primary": true,
+          "size": 792918
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "W0JxyGf8",
+      "name": "[Fabric/Quilt] v1.4.7 for Minecraft 1.20",
+      "version_number": "1.4.7-mc1.20-fabric",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "efd84ca3a7965b4cedb91559a90195fa60259c05330c4a7c93fc4342ff0d4e4d3ca502220f05278adb75fcdbc26acf0ac6e2112f89737a3ff6e7acec31f1b1a6",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/W0JxyGf8/craftgr-1.4.7-mc1.20-fabric.jar",
+          "filename": "craftgr-1.4.7-mc1.20-fabric.jar",
+          "primary": true,
+          "size": 1488314
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "WlWM6tXA",
+      "name": "[Forge] v1.1.0 for Minecraft 1.18.1",
+      "version_number": "1.1.0-mc1.18.1-forge",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "7566fa688b8950fd18fcd01bd52e7faccba2396f7c42043a75ea70461b9ae3e47b6ce7b1af4426bf9d2de0d4917de5530e36446f5002fa3fd09037ab83ebbe01",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.0-mc1.18.1-forge/craftgr-1.1.0-mc1.18.1-forge.jar",
+          "filename": "craftgr-1.1.0-mc1.18.1-forge.jar",
+          "primary": false,
+          "size": 807513
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "XNBy6IjH",
+      "name": "[Forge] v1.2.0 for Minecraft 1.16.5",
+      "version_number": "1.2.0-mc1.16.5-forge",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "72949249b61da77a8cff96497b576aac357d511082b8f49188440e5adfead0cc20f0314818dfc58b62f2301513e28c557948a8a4168edb01b29698decf2e0639",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.0-mc1.16.5-forge/craftgr-1.2.0-mc1.16.5-forge.jar",
+          "filename": "craftgr-1.2.0-mc1.16.5-forge.jar",
+          "primary": true,
+          "size": 792341
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "Z5PZyy5p",
@@ -119,6 +1022,391 @@
       ]
     },
     {
+      "id": "ZLeYyhte",
+      "name": "[Fabric] v1.2.0 for Minecraft 1.16.5",
+      "version_number": "1.2.0-mc1.16.5-fabric",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "7216e8d2c0d3863ed0b6f9b4774f6f0ae7452907f5a41def9449c49d1fdd246caecbdc0ba9daee06c1b65da7a64d7cad518c5795c57ecae038259f7c18db5ae1",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.0-mc1.16.5-fabric/craftgr-1.2.0-mc1.16.5-fabric.jar",
+          "filename": "craftgr-1.2.0-mc1.16.5-fabric.jar",
+          "primary": true,
+          "size": 1804321
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "brV1YCzH",
+      "name": "[Forge] v1.4.4 for Minecraft 1.19.4",
+      "version_number": "1.4.4-mc1.19.4-forge",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "8ba50849acd2b1b9d8acfdee2cfbd69bbb6ba0a8b7438982ad9a32573f6f04b795e4a87c3e3db3fd26b0b681931ac1edf4d77b75ce9baeca36b011978b49d8ba",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/brV1YCzH/craftgr-1.4.4-mc1.19.4-forge.jar",
+          "filename": "craftgr-1.4.4-mc1.19.4-forge.jar",
+          "primary": true,
+          "size": 278491
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "Sqf2NXVd",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "bwwRaehj",
+      "name": "[Forge] v1.2.4 for Minecraft 1.19",
+      "version_number": "1.2.4-mc1.19-forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "beb4594b672a78acbc8be572a8b3f63afd5d84cb6fec2a8a94d03060b7066031a07baa7df31db400b53cae05d628abf6103dc994dcdf47f1ff3403c4467dd739",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.4-mc1.19-forge/craftgr-1.2.4-mc1.19-forge.jar",
+          "filename": "craftgr-1.2.4-mc1.19-forge.jar",
+          "primary": true,
+          "size": 793084
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "cWozlBJJ",
+      "name": "[NeoForge] CraftGR 1.7.0 for Minecraft 1.20.5",
+      "version_number": "1.7.0-mc1.20.5-neoforge",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "ea491be15742b19385c02f5a45213012ebc1817ac4d78c5e590d27e4c0287b9ef713bf300813358084b3d99a22fa20916edceb924c5921d319d68432717d5cc1",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/cWozlBJJ/craftgr-1.7.0-mc1.20.5-neoforge.jar",
+          "filename": "craftgr-1.7.0-mc1.20.5-neoforge.jar",
+          "primary": true,
+          "size": 269583
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "fwIe7oUX",
+      "name": "[Forge] v1.1.0 for Minecraft 1.16.5",
+      "version_number": "1.1.0-mc1.16.5-forge",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "4027bb854ac7bcafc7662905346e854f312615ecfe1363faccdfb26267eb7dd312ca4a87e9b053360cd563381b05539de699215a07b1fcab9392534c4251bd80",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.0-mc1.16.5-forge/craftgr-1.1.0-mc1.16.5-forge.jar",
+          "filename": "craftgr-1.1.0-mc1.16.5-forge.jar",
+          "primary": false,
+          "size": 807077
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "gWf5WQqa",
+      "name": "v1.6.0 for Minecraft 1.20.4",
+      "version_number": "1.6.0-mc1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "082a150b5a129e18ad27571419188d1b19186b79292c92ff03b8f67c0a8d303d1f6460b408c9270da17790c7fd6950433c54186ecf33808f71260c5cfdb1a74b",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/gWf5WQqa/craftgr-1.6.0-mc1.20.4.jar",
+          "filename": "craftgr-1.6.0-mc1.20.4.jar",
+          "primary": true,
+          "size": 490033
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "guWt8ZbN",
+      "name": "[Forge] v1.0.0 for Minecraft 1.18",
+      "version_number": "1.0.0-mc1.18-forge",
+      "game_versions": [
+        "1.18"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "5371bdfcda305f7294d6d5a73828e36a8969b704211fc1eb7a5c0b11e3e56492faf6e83e0106b80e991ab7af537f11fc500cf72097066ed36abe24de62ec75c2",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.0.0-mc1.18-forge/craftgr-1.0.0-mc1.18-forge.jar",
+          "filename": "craftgr-1.0.0-mc1.18-forge.jar",
+          "primary": false,
+          "size": 805307
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "iOxeAHhE",
+      "name": "[Forge] v1.0.0 for Minecraft 1.17.1",
+      "version_number": "1.0.0-mc1.17.1-forge",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c00b0f322b31341e7a504d17b1e1fb33286a0db41006cca6d69b9a1053606a93939f8d5148b4eaca7c566524df523d1c54612f2c4e25e725b9e15aa6c2df45bb",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.0.0-mc1.17.1-forge/craftgr-1.0.0-mc1.17.1-forge.jar",
+          "filename": "craftgr-1.0.0-mc1.17.1-forge.jar",
+          "primary": false,
+          "size": 805306
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "iUeXLWfn",
+      "name": "[Forge] v1.4.8 for Minecraft 1.20",
+      "version_number": "1.4.8-mc1.20-forge",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b0944367f555b0c8db8f5cfbcc64bfa06918ef76bc4f5db4c42a5790bf6475c2fef42265392a345b05f8db0b346ae179d33f83bfeb2a51396f772242e90526a1",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/iUeXLWfn/craftgr-1.4.8-mc1.20-forge.jar",
+          "filename": "craftgr-1.4.8-mc1.20-forge.jar",
+          "primary": true,
+          "size": 278889
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jg2Ag3OY",
+      "name": "[Forge] v1.3.2 for Minecraft 1.19.1/2",
+      "version_number": "1.3.2-mc1.19.1-forge",
+      "game_versions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "c544af9c167f035e52dec477b5df4c8d57eff17399143093cae9b5a972537a0dc85a7b00b3a1becd58c1dc6f7e57ed82cc3904a55f28189fa3c57bf6ea3201f0",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.3.2-mc1.19.1-forge/craftgr-1.3.2-mc1.19.1-forge.jar",
+          "filename": "craftgr-1.3.2-mc1.19.1-forge.jar",
+          "primary": true,
+          "size": 238230
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "EUyHCmUW",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "kJFQUpbj",
+      "name": "[Fabric/Quilt] v1.4.6 for Minecraft 1.20",
+      "version_number": "1.4.6-mc1.20-fabric",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d37859ae929b8a1c7c1a9c892a609279661ba8a43fbe1e66e9cc8b79579187b605bae39e26bbc8df49135d3bb029b77f65682001e6df602f0781c9d6560d448b",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/kJFQUpbj/craftgr-1.4.6-mc1.20-fabric.jar",
+          "filename": "craftgr-1.4.6-mc1.20-fabric.jar",
+          "primary": true,
+          "size": 1488493
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "kVguOMec",
+      "name": "[Fabric] v1.1.0 for Minecraft 1.17.1",
+      "version_number": "1.1.0-mc1.17.1-fabric",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2ffa67bc7fc9c078fee681b998c900472e45b8d4c08638e8fcab1e0ed39fa56a55ba46ec70cac19f1137373a815c05f73e129e8823d4b615e95ca4354ee0fd79",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.0-mc1.17.1-fabric/craftgr-1.1.0-mc1.17.1-fabric.jar",
+          "filename": "craftgr-1.1.0-mc1.17.1-fabric.jar",
+          "primary": false,
+          "size": 1802908
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "llCD21nM",
+      "name": "[Forge] v1.2.3 for Minecraft 1.19",
+      "version_number": "1.2.3-mc1.19-forge",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9926ce343cb0561da55aea009c81308d2f4a9953286e1c832ea5f7ae8018c5d625663e2f49c3a91786d2d1c811c50ae1057cef7de4f9f7e554d1805f9cb0f0e8",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.3-mc1.19-forge/craftgr-1.2.3-mc1.19-forge.jar",
+          "filename": "craftgr-1.2.3-mc1.19-forge.jar",
+          "primary": true,
+          "size": 791940
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "mgnbpeWK",
+      "name": "[Forge] v1.2.0 for Minecraft 1.18.1",
+      "version_number": "1.2.0-mc1.18.1-forge",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "df5222b3e9e84f5e205445c51f6c8256947147689a97a3c3ddab463926888f6f1c9aa96afb20342869559dc59bfa4d36d14e3781fe2f7512cd98b8cad35da0d0",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.0-mc1.18.1-forge/craftgr-1.2.0-mc1.18.1-forge.jar",
+          "filename": "craftgr-1.2.0-mc1.18.1-forge.jar",
+          "primary": true,
+          "size": 792753
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "n1nVXN0T",
+      "name": "[NeoForge] CraftGR 1.8.0 for Minecraft 1.21",
+      "version_number": "1.8.0-mc1.21-neoforge",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "ada5f919f700a3378917141ae0fc3f3d9cf5f21ef2c914ac10d843ee5c2d1bdf13a5eae28c48fac9be19abc43414030ac9549aa85364f9b6b5ab81f133fd773c",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/n1nVXN0T/craftgr-1.8.0-mc1.21-neoforge.jar",
+          "filename": "craftgr-1.8.0-mc1.21-neoforge.jar",
+          "primary": true,
+          "size": 420325
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ncF8AT7e",
+      "name": "[Fabric] v1.1.0 for Minecraft 1.18.1",
+      "version_number": "1.1.0-mc1.18.1-fabric",
+      "game_versions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1bc55f37c708c55f140ea7bc6692d8d126b6cc80dbdd2479c0c7225968b7efc89df295d497dd53ea01d3c89d8cc15356c9bbd37971e16b9849fb690d16fd4151",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.0-mc1.18.1-fabric/craftgr-1.1.0-mc1.18.1-fabric.jar",
+          "filename": "craftgr-1.1.0-mc1.18.1-fabric.jar",
+          "primary": false,
+          "size": 1821293
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "nmbHvH9I",
       "name": "[NeoForge] CraftGR 1.7.1 for Minecraft 1.20.6",
       "version_number": "1.7.1-mc1.20.6-neoforge",
@@ -135,6 +1423,174 @@
           "filename": "craftgr-1.7.1-mc1.20.6-neoforge.jar",
           "primary": true,
           "size": 269986
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "oKKgeNRg",
+      "name": "[Fabric/Quilt] v1.4.2 for Minecraft 1.19.2",
+      "version_number": "1.4.2-mc1.19.2-fabric",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4967d76d71a90e3c5fb4e4fbf5fa22dd849294cd3a2a930eb44b144a12ad50b41b6e4e432c972915ef54fa93792d085379f5d28fa847f7f1710a2102f75143dd",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/oKKgeNRg/craftgr-1.4.2-mc1.19.2-fabric.jar",
+          "filename": "craftgr-1.4.2-mc1.19.2-fabric.jar",
+          "primary": true,
+          "size": 1484279
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "odQ0ZV24",
+      "name": "[Fabric] v1.0.0 for Minecraft 1.16.5",
+      "version_number": "1.0.0-mc1.16.5-fabric",
+      "game_versions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a6e839645ed1dd3e9c77e01d87a9877573b50cadf7ffecd74c92150d0ee4584a9a5b094868aa3fbe8be0936c6e6b5e5e20fd4f31adf19fc38c9d9669252ec573",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.0.0-mc1.16.5-fabric/craftgr-1.0.0-mc1.16.5-fabric.jar",
+          "filename": "craftgr-1.0.0-mc1.16.5-fabric.jar",
+          "primary": false,
+          "size": 1800701
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ofzM42mI",
+      "name": "[Fabric] CraftGR 1.7.0 for Minecraft 1.20.5",
+      "version_number": "1.7.0-mc1.20.5-fabric",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "079ad0295ac2847d9c97b0364d6087ae127fcfe1bbd527f920d8893dd5c3d4aa8eda01c0a672a5f2fce6a00c11693bc2df431e1975126902205bfa53439434b0",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/ofzM42mI/craftgr-1.7.0-mc1.20.5-fabric.jar",
+          "filename": "craftgr-1.7.0-mc1.20.5-fabric.jar",
+          "primary": true,
+          "size": 257349
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "pjQN2slY",
+      "name": "[Fabric] v1.0.0 for Minecraft 1.18",
+      "version_number": "1.0.0-mc1.18-fabric",
+      "game_versions": [
+        "1.18"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ab860881a20d5562e76aa9ded1f982a24da2d654f1578b1f34222f237269b7bb97a60dbcb178abe4a61572b37e03f6d97076da05d5678f669e026c5d0d204185",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.0.0-mc1.18-fabric/craftgr-1.0.0-mc1.18-fabric.jar",
+          "filename": "craftgr-1.0.0-mc1.18-fabric.jar",
+          "primary": false,
+          "size": 1800510
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "qIzdXMvT",
+      "name": "[Fabric/Quilt] v1.4.8 for Minecraft 1.20",
+      "version_number": "1.4.8-mc1.20-fabric",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2293b77d6a81aff20cf494e5c485dcb7944d8b3e579cec501f55ec4fa904bac2fb3f086721c72d39b27b07ed07695640473749b2ef1c9e2dba3f2aeb4aad7c57",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/qIzdXMvT/craftgr-1.4.8-mc1.20-fabric.jar",
+          "filename": "craftgr-1.4.8-mc1.20-fabric.jar",
+          "primary": true,
+          "size": 1488495
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rfWoITCI",
+      "name": "[Fabric/Quilt] v1.2.4 for Minecraft 1.19",
+      "version_number": "1.2.4-mc1.19-fabric",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "cd6900519c91e3a6cd345b5e551a36b16ae70c3211499b0c39328bc0dcf02e73dd04813e563cbb05c478cee97490b37b1aca7213c646bce019a5bf44409e9d26",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.4-mc1.19-fabric/craftgr-1.2.4-mc1.19-fabric.jar",
+          "filename": "craftgr-1.2.4-mc1.19-fabric.jar",
+          "primary": true,
+          "size": 1930703
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "s6EYPGiO",
+      "name": "[Fabric] CraftGR 1.8.0 for Minecraft 1.21",
+      "version_number": "1.8.0-mc1.21-fabric",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "df2379187aada1d8865cc349a42a2b14411cbc8e8a1c5becce9dc4c186ffe63dc9220b03e122c2600fbaa47080f22a10e42b411bb8631b01000125554de0d3fb",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/s6EYPGiO/craftgr-1.8.0-mc1.21-fabric.jar",
+          "filename": "craftgr-1.8.0-mc1.21-fabric.jar",
+          "primary": true,
+          "size": 393439
         }
       ],
       "dependencies": [
@@ -176,296 +1632,33 @@
       ]
     },
     {
-      "id": "ofzM42mI",
-      "name": "[Fabric] CraftGR 1.7.0 for Minecraft 1.20.5",
-      "version_number": "1.7.0-mc1.20.5-fabric",
+      "id": "tsaSAc0e",
+      "name": "[Forge] v1.3.1 for Minecraft 1.19.1",
+      "version_number": "1.3.1-mc1.19.1-forge",
       "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "079ad0295ac2847d9c97b0364d6087ae127fcfe1bbd527f920d8893dd5c3d4aa8eda01c0a672a5f2fce6a00c11693bc2df431e1975126902205bfa53439434b0",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/ofzM42mI/craftgr-1.7.0-mc1.20.5-fabric.jar",
-          "filename": "craftgr-1.7.0-mc1.20.5-fabric.jar",
-          "primary": true,
-          "size": 257349
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "cWozlBJJ",
-      "name": "[NeoForge] CraftGR 1.7.0 for Minecraft 1.20.5",
-      "version_number": "1.7.0-mc1.20.5-neoforge",
-      "game_versions": [
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "ea491be15742b19385c02f5a45213012ebc1817ac4d78c5e590d27e4c0287b9ef713bf300813358084b3d99a22fa20916edceb924c5921d319d68432717d5cc1",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/cWozlBJJ/craftgr-1.7.0-mc1.20.5-neoforge.jar",
-          "filename": "craftgr-1.7.0-mc1.20.5-neoforge.jar",
-          "primary": true,
-          "size": 269583
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "9WuE4tw7",
-      "name": "v1.6.1 for Minecraft 1.20.4",
-      "version_number": "1.6.1-mc1.20.4",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6f02215922e20393a9bcc693667cef9b4e0bace32d929b80c9b99185c24090cfa8bc975dc46a412bb5a271f114dff024873c173c328a280020392d2a4ab0ced4",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/9WuE4tw7/craftgr-1.6.1-mc1.20.4.jar",
-          "filename": "craftgr-1.6.1-mc1.20.4.jar",
-          "primary": true,
-          "size": 490675
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "gWf5WQqa",
-      "name": "v1.6.0 for Minecraft 1.20.4",
-      "version_number": "1.6.0-mc1.20.4",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "082a150b5a129e18ad27571419188d1b19186b79292c92ff03b8f67c0a8d303d1f6460b408c9270da17790c7fd6950433c54186ecf33808f71260c5cfdb1a74b",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/gWf5WQqa/craftgr-1.6.0-mc1.20.4.jar",
-          "filename": "craftgr-1.6.0-mc1.20.4.jar",
-          "primary": true,
-          "size": 490033
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "22BkYjQI",
-      "name": "v1.5.3 for Minecraft 1.20.2",
-      "version_number": "1.5.3-mc1.20.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "neoforge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "bf59e6ffa28096e2e8783f9957ffe7d99e60f3cf79b0e8add9b5d0772e7f7323956be4d223e379fbd0fb151642f277911794727e22123681f3cc3e41111a538a",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/22BkYjQI/craftgr-1.5.3-mc1.20.2.jar",
-          "filename": "craftgr-1.5.3-mc1.20.2.jar",
-          "primary": true,
-          "size": 1582650
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "PAvsdpU9",
-      "name": "v1.5.2 for Minecraft 1.20.2",
-      "version_number": "1.5.2-mc1.20.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "80bbded30e2b99891235432549382b40ff21791e9c88b5b76e89f74897d3f23c1dd8920ab20e966dd82c7cf02db8c3d95e3c8d180b00277e379e85ec85cf23ba",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/PAvsdpU9/craftgr-1.5.2-mc1.20.2.jar",
-          "filename": "craftgr-1.5.2-mc1.20.2.jar",
-          "primary": true,
-          "size": 1500261
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "3nN73j93",
-      "name": "v1.5.1 for Minecraft 1.20.1",
-      "version_number": "1.5.1-mc1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "7178d0f59e0f52c6b61fd0d67a0e3fb4a55f0ec9078a6ee096e066261c7a8ade2b4fe19aac5153096f57fb036e9a173f82a2e527e58b880ac7ca2792af0761b9",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/3nN73j93/craftgr-1.5.1-mc1.20.1.jar",
-          "filename": "craftgr-1.5.1-mc1.20.1.jar",
-          "primary": true,
-          "size": 1499085
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "OZvUpRXK",
-      "name": "v1.5.0 for Minecraft 1.20.1",
-      "version_number": "1.5.0-mc1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "21abb891cf825afc203a372060ce259d322139528ab4585f585921eadb5d4f89ed6835a03dcc02cdd33059f754c6e048c555bf6099b9b9ecb5e8d2e5f2f91f19",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/OZvUpRXK/craftgr-1.5.0-mc1.20.1.jar",
-          "filename": "craftgr-1.5.0-mc1.20.1.jar",
-          "primary": true,
-          "size": 1496987
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "iUeXLWfn",
-      "name": "[Forge] v1.4.8 for Minecraft 1.20",
-      "version_number": "1.4.8-mc1.20-forge",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "b0944367f555b0c8db8f5cfbcc64bfa06918ef76bc4f5db4c42a5790bf6475c2fef42265392a345b05f8db0b346ae179d33f83bfeb2a51396f772242e90526a1",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/iUeXLWfn/craftgr-1.4.8-mc1.20-forge.jar",
-          "filename": "craftgr-1.4.8-mc1.20-forge.jar",
+          "sha512": "e550c10924fc3ef59b573702c584619db8fa4b543171b8622a2924e74b9328343e96341d1207d35ecb1c250b147d4c0007d3472be535601916d66f2e10f21ccf",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.3.1-mc1.19.1-forge/craftgr-1.3.1-mc1.19.1-forge.jar",
+          "filename": "craftgr-1.3.1-mc1.19.1-forge.jar",
           "primary": true,
-          "size": 278889
+          "size": 238226
         }
       ],
       "dependencies": [
         {
           "project_id": "9s6osm5g",
-          "version_id": null,
+          "version_id": "EUyHCmUW",
           "file_name": null,
           "dependency_type": "required"
         }
       ]
-    },
-    {
-      "id": "qIzdXMvT",
-      "name": "[Fabric/Quilt] v1.4.8 for Minecraft 1.20",
-      "version_number": "1.4.8-mc1.20-fabric",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2293b77d6a81aff20cf494e5c485dcb7944d8b3e579cec501f55ec4fa904bac2fb3f086721c72d39b27b07ed07695640473749b2ef1c9e2dba3f2aeb4aad7c57",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/qIzdXMvT/craftgr-1.4.8-mc1.20-fabric.jar",
-          "filename": "craftgr-1.4.8-mc1.20-fabric.jar",
-          "primary": true,
-          "size": 1488495
-        }
-      ],
-      "dependencies": []
     },
     {
       "id": "uDVhq8xO",
@@ -497,12 +1690,32 @@
       ]
     },
     {
-      "id": "W0JxyGf8",
-      "name": "[Fabric/Quilt] v1.4.7 for Minecraft 1.20",
-      "version_number": "1.4.7-mc1.20-fabric",
+      "id": "uhinAWsC",
+      "name": "[Fabric/Quilt] v1.2.3 for Minecraft 1.19",
+      "version_number": "1.2.3-mc1.19-fabric",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a38bf1f1cf724d3515eb427ddc3b148310a8cdd5d3a8208d320360097d17647d7626dacbcad8d5f5149d30430d609d504cc29556e41caff29d2ac748c97f38b7",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.3-mc1.19-fabric/craftgr-1.2.3-mc1.19-fabric.jar",
+          "filename": "craftgr-1.2.3-mc1.19-fabric.jar",
+          "primary": true,
+          "size": 1929559
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "vPAFzdEo",
+      "name": "[Fabric] CraftGR 1.7.2 for Minecraft 1.21",
+      "version_number": "1.7.2-mc1.21-fabric",
+      "game_versions": [
+        "1.21"
       ],
       "loaders": [
         "fabric",
@@ -510,316 +1723,42 @@
       ],
       "files": [
         {
-          "sha512": "efd84ca3a7965b4cedb91559a90195fa60259c05330c4a7c93fc4342ff0d4e4d3ca502220f05278adb75fcdbc26acf0ac6e2112f89737a3ff6e7acec31f1b1a6",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/W0JxyGf8/craftgr-1.4.7-mc1.20-fabric.jar",
-          "filename": "craftgr-1.4.7-mc1.20-fabric.jar",
+          "sha512": "56dfdcb831bc3801ece78413c599835c35367b0341f4d5766b5508ac1e2054baee54b705aa5560f3d726b3b266f6598370166b36bae2c2e006e626daf888c257",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/vPAFzdEo/craftgr-1.7.2-mc1.21-fabric.jar",
+          "filename": "craftgr-1.7.2-mc1.21-fabric.jar",
           "primary": true,
-          "size": 1488314
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "HPjM97Qj",
-      "name": "[Forge] v1.4.6 for Minecraft 1.20",
-      "version_number": "1.4.6-mc1.20-forge",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "ea62674920f1f31e2466923fd0dae524be25a117ba315e27d8412a9d8711d8731582613a1116d1d080e6b9391c49e6c3860194f99b66cdb4ad2829db1efa68a8",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/HPjM97Qj/craftgr-1.4.6-mc1.20-forge.jar",
-          "filename": "craftgr-1.4.6-mc1.20-forge.jar",
-          "primary": true,
-          "size": 278886
+          "size": 258191
         }
       ],
       "dependencies": [
         {
-          "project_id": "9s6osm5g",
-          "version_id": "JoLgnJ0G",
+          "project_id": "1eAoo2KR",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "kJFQUpbj",
-      "name": "[Fabric/Quilt] v1.4.6 for Minecraft 1.20",
-      "version_number": "1.4.6-mc1.20-fabric",
+      "id": "ve3fuUO8",
+      "name": "[Forge] v1.2.0 for Minecraft 1.17.1",
+      "version_number": "1.2.0-mc1.17.1-forge",
       "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d37859ae929b8a1c7c1a9c892a609279661ba8a43fbe1e66e9cc8b79579187b605bae39e26bbc8df49135d3bb029b77f65682001e6df602f0781c9d6560d448b",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/kJFQUpbj/craftgr-1.4.6-mc1.20-fabric.jar",
-          "filename": "craftgr-1.4.6-mc1.20-fabric.jar",
-          "primary": true,
-          "size": 1488493
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "MmvlLeEw",
-      "name": "[Fabric/Quilt] v1.4.5 for Minecraft 1.20",
-      "version_number": "1.4.5-mc1.20-fabric",
-      "game_versions": [
-        "1.20"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "cdd223d64a47e09c4d4d253e2f815657f388a26e8480d3b6d19d1c7afd23fdc547678d8c1a043ad81434bdae7dd0a9f0ccf84dcef7feb6e034a231cc2bebb633",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/MmvlLeEw/craftgr-1.4.5-mc1.20-fabric.jar",
-          "filename": "craftgr-1.4.5-mc1.20-fabric.jar",
-          "primary": true,
-          "size": 1487148
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "brV1YCzH",
-      "name": "[Forge] v1.4.4 for Minecraft 1.19.4",
-      "version_number": "1.4.4-mc1.19.4-forge",
-      "game_versions": [
-        "1.19.4"
+        "1.17.1"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "8ba50849acd2b1b9d8acfdee2cfbd69bbb6ba0a8b7438982ad9a32573f6f04b795e4a87c3e3db3fd26b0b681931ac1edf4d77b75ce9baeca36b011978b49d8ba",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/brV1YCzH/craftgr-1.4.4-mc1.19.4-forge.jar",
-          "filename": "craftgr-1.4.4-mc1.19.4-forge.jar",
+          "sha512": "672b6ab80a5e27c9ee2d79a1a8e519b593545f857698cc9734d87f77c342021082d07a94d602c11d2aa501b5174b501036afc6c024b8d349377391b1dd5f133e",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.0-mc1.17.1-forge/craftgr-1.2.0-mc1.17.1-forge.jar",
+          "filename": "craftgr-1.2.0-mc1.17.1-forge.jar",
           "primary": true,
-          "size": 278491
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "Sqf2NXVd",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Q21B8ygL",
-      "name": "[Fabric/Quilt] v1.4.4 for Minecraft 1.19.4",
-      "version_number": "1.4.4-mc1.19.4-fabric",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "a01f56122dc03c3cce7f6e290a566cc39cf4c3fb9d5013dc515969d0447689e29129652012c084d8e08bf87263a158e3602fce2a5f5dcc8dea31337e46f241ae",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/Q21B8ygL/craftgr-1.4.4-mc1.19.4-fabric.jar",
-          "filename": "craftgr-1.4.4-mc1.19.4-fabric.jar",
-          "primary": true,
-          "size": 1487108
+          "size": 792740
         }
       ],
       "dependencies": []
-    },
-    {
-      "id": "3w7yFzjF",
-      "name": "[Forge] v1.4.3 for Minecraft 1.19.3",
-      "version_number": "1.4.3-mc1.19.3-forge",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "061bec669dbca22e9ff8536332f771321d5c962fd1eb259195a6b0ca26a6e99ff9b88e32f050f1f7bb48cd490d3decf23385a5adf4da9e9612128bd8482445cc",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/3w7yFzjF/craftgr-1.4.3-mc1.19.3-forge.jar",
-          "filename": "craftgr-1.4.3-mc1.19.3-forge.jar",
-          "primary": true,
-          "size": 276990
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "8AMPotFw",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4vugn0bb",
-      "name": "[Fabric/Quilt] v1.4.3 for Minecraft 1.19.3",
-      "version_number": "1.4.3-mc1.19.3-fabric",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "476308f600be7e956830f8fdc890e83023509d60d466163b57939d48f9e2d4ff692c321c343cdb8683aa14385f5b236c0443d07bdd9fb265c59b205dfb33dac6",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/4vugn0bb/craftgr-1.4.3-mc1.19.3-fabric.jar",
-          "filename": "craftgr-1.4.3-mc1.19.3-fabric.jar",
-          "primary": true,
-          "size": 1483028
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "EdXuUNU5",
-      "name": "[Forge] v1.4.2 for Minecraft 1.19.2",
-      "version_number": "1.4.2-mc1.19.2-forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "ab08c7db2a02916cd75897069e38a6017a0260eef59de3f989a678b3a193dcf6e5c58583120444cd115ec8dfd408af306570990633f8f2551b6aedf3ab1a7fe8",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/EdXuUNU5/craftgr-1.4.2-mc1.19.2-forge.jar",
-          "filename": "craftgr-1.4.2-mc1.19.2-forge.jar",
-          "primary": true,
-          "size": 279121
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "EUyHCmUW",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "oKKgeNRg",
-      "name": "[Fabric/Quilt] v1.4.2 for Minecraft 1.19.2",
-      "version_number": "1.4.2-mc1.19.2-fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4967d76d71a90e3c5fb4e4fbf5fa22dd849294cd3a2a930eb44b144a12ad50b41b6e4e432c972915ef54fa93792d085379f5d28fa847f7f1710a2102f75143dd",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/oKKgeNRg/craftgr-1.4.2-mc1.19.2-fabric.jar",
-          "filename": "craftgr-1.4.2-mc1.19.2-fabric.jar",
-          "primary": true,
-          "size": 1484279
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "P3NesZKL",
-      "name": "[Forge] v1.4.1 for Minecraft 1.19.2",
-      "version_number": "1.4.1-mc1.19.2-forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "6697bdbbf7f2416e8b87175e9e34b32deed5cca93b7e20f0e3e2176362e9fbfd46bf8cc99f719d148c886f8c9f8229843ca64e111a7e50dd2ef7782a7f11c01e",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/P3NesZKL/craftgr-1.4.1-mc1.19.2-forge.jar",
-          "filename": "craftgr-1.4.1-mc1.19.2-forge.jar",
-          "primary": true,
-          "size": 278104
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "EUyHCmUW",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "CJZpBZtI",
-      "name": "[Fabric/Quilt] v1.4.1 for Minecraft 1.19.2",
-      "version_number": "1.4.1-mc1.19.2-fabric",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "23ef5a4f6fcda58703f84e073ed3f9d7c5c1702964db86c8ac2737e5d6316bd47bc82c94cc447544ff68f0347ee6816d5333d6c0b98338bdd4874f5f25d4aae4",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/CJZpBZtI/craftgr-1.4.1-mc1.19.2-fabric.jar",
-          "filename": "craftgr-1.4.1-mc1.19.2-fabric.jar",
-          "primary": true,
-          "size": 1486386
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Py8Ygpcl",
-      "name": "[Forge] v1.4.0 for Minecraft 1.19.2",
-      "version_number": "1.4.0-mc1.19.2-forge",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "518eacd9f5797483741dfe56fe6dc8bd1fcdcbd44feaf689f078d3882519313fbe2fa9eb8bc7f2f3c48df9738cc0af7554f1e7c78b36ab1044fdb17485aefe04",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/Py8Ygpcl/craftgr-1.4.0-mc1.19.2-forge.jar",
-          "filename": "craftgr-1.4.0-mc1.19.2-forge.jar",
-          "primary": true,
-          "size": 269874
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "EUyHCmUW",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
     },
     {
       "id": "waw1o0Bf",
@@ -844,137 +1783,6 @@
       "dependencies": []
     },
     {
-      "id": "jg2Ag3OY",
-      "name": "[Forge] v1.3.2 for Minecraft 1.19.1/2",
-      "version_number": "1.3.2-mc1.19.1-forge",
-      "game_versions": [
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "c544af9c167f035e52dec477b5df4c8d57eff17399143093cae9b5a972537a0dc85a7b00b3a1becd58c1dc6f7e57ed82cc3904a55f28189fa3c57bf6ea3201f0",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.3.2-mc1.19.1-forge/craftgr-1.3.2-mc1.19.1-forge.jar",
-          "filename": "craftgr-1.3.2-mc1.19.1-forge.jar",
-          "primary": true,
-          "size": 238230
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "EUyHCmUW",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "7q2EwF7Q",
-      "name": "[Fabric/Quilt] v1.3.2 for Minecraft 1.19.1/2",
-      "version_number": "1.3.2-mc1.19.1-fabric",
-      "game_versions": [
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "aa518cce151afa69287daf1172e392981dec3cef446d70b94e75c4999967de18c412993ee7314fd9bd21c62196495247f746617c3dfe8a436ad83fe4e75713dd",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.3.2-mc1.19.1-fabric/craftgr-1.3.2-mc1.19.1-fabric.jar",
-          "filename": "craftgr-1.3.2-mc1.19.1-fabric.jar",
-          "primary": true,
-          "size": 1435150
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "tsaSAc0e",
-      "name": "[Forge] v1.3.1 for Minecraft 1.19.1",
-      "version_number": "1.3.1-mc1.19.1-forge",
-      "game_versions": [
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e550c10924fc3ef59b573702c584619db8fa4b543171b8622a2924e74b9328343e96341d1207d35ecb1c250b147d4c0007d3472be535601916d66f2e10f21ccf",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.3.1-mc1.19.1-forge/craftgr-1.3.1-mc1.19.1-forge.jar",
-          "filename": "craftgr-1.3.1-mc1.19.1-forge.jar",
-          "primary": true,
-          "size": 238226
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "EUyHCmUW",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "28qEI6pT",
-      "name": "[Fabric/Quilt] v1.3.1 for Minecraft 1.19.1",
-      "version_number": "1.3.1-mc1.19.1-fabric",
-      "game_versions": [
-        "1.19.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "1bab66671f61e641f276366ced493499adba6385e65ddda20fc3f027f37416205173fbf4c19f72fe2596d0e902ffb944eef50324c91f56f8229fc2a2d2e24cda",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.3.1-mc1.19.1-fabric/craftgr-1.3.1-mc1.19.1-fabric.jar",
-          "filename": "craftgr-1.3.1-mc1.19.1-fabric.jar",
-          "primary": true,
-          "size": 1435149
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "FBwsU9u0",
-      "name": "[Forge] v1.3.0 for Minecraft 1.19",
-      "version_number": "1.3.0-mc1.19-forge",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "668f0f9463ab1b918a1b917b99e2ee300f32194e5949ab907a76ddc668cc968070ee5a7a9cf0559ac75e3b0e122e8900f8e61aee01c3c581747d073fedaa4f1b",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.3.0-mc1.19-forge/craftgr-1.3.0-mc1.19-forge.jar",
-          "filename": "craftgr-1.3.0-mc1.19-forge.jar",
-          "primary": true,
-          "size": 238149
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "EUyHCmUW",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "wedZI9jC",
       "name": "[Fabric/Quilt] v1.3.0 for Minecraft 1.19",
       "version_number": "1.3.0-mc1.19-fabric",
@@ -992,835 +1800,6 @@
           "filename": "craftgr-1.3.0-mc1.19-fabric.jar",
           "primary": true,
           "size": 1432869
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "8NgD3h7F",
-      "name": "[Forge] v1.3.0 for Minecraft 1.18.2",
-      "version_number": "1.3.0-mc1.18.2-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "e2b2f3e9800537816fedfb0f8769d9fd3b5b30ff38f6ae5e5c882883fa776f065590d3515ac333fdf07b240387587902327ce806ce5d69c650d77ffdf292fb08",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.3.0-mc1.18.2-forge/craftgr-1.3.0-mc1.18.2-forge.jar",
-          "filename": "craftgr-1.3.0-mc1.18.2-forge.jar",
-          "primary": true,
-          "size": 237954
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "ZbWG3eJW",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "9j51i3pY",
-      "name": "[Fabric/Quilt] v1.3.0 for Minecraft 1.18.2",
-      "version_number": "1.3.0-mc1.18.2-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ed9e457cf4c338c19e5841529ebf493c6a9c977338948f2cf16100f7b9ff833ff775aae94ba3551d8b90397ec4c8513a4eaca3b2c76200248cd07a6cf37f11ec",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.3.0-mc1.18.2-fabric/craftgr-1.3.0-mc1.18.2-fabric.jar",
-          "filename": "craftgr-1.3.0-mc1.18.2-fabric.jar",
-          "primary": true,
-          "size": 1429488
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "bwwRaehj",
-      "name": "[Forge] v1.2.4 for Minecraft 1.19",
-      "version_number": "1.2.4-mc1.19-forge",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "beb4594b672a78acbc8be572a8b3f63afd5d84cb6fec2a8a94d03060b7066031a07baa7df31db400b53cae05d628abf6103dc994dcdf47f1ff3403c4467dd739",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.4-mc1.19-forge/craftgr-1.2.4-mc1.19-forge.jar",
-          "filename": "craftgr-1.2.4-mc1.19-forge.jar",
-          "primary": true,
-          "size": 793084
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "rfWoITCI",
-      "name": "[Fabric/Quilt] v1.2.4 for Minecraft 1.19",
-      "version_number": "1.2.4-mc1.19-fabric",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "cd6900519c91e3a6cd345b5e551a36b16ae70c3211499b0c39328bc0dcf02e73dd04813e563cbb05c478cee97490b37b1aca7213c646bce019a5bf44409e9d26",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.4-mc1.19-fabric/craftgr-1.2.4-mc1.19-fabric.jar",
-          "filename": "craftgr-1.2.4-mc1.19-fabric.jar",
-          "primary": true,
-          "size": 1930703
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "llCD21nM",
-      "name": "[Forge] v1.2.3 for Minecraft 1.19",
-      "version_number": "1.2.3-mc1.19-forge",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "9926ce343cb0561da55aea009c81308d2f4a9953286e1c832ea5f7ae8018c5d625663e2f49c3a91786d2d1c811c50ae1057cef7de4f9f7e554d1805f9cb0f0e8",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.3-mc1.19-forge/craftgr-1.2.3-mc1.19-forge.jar",
-          "filename": "craftgr-1.2.3-mc1.19-forge.jar",
-          "primary": true,
-          "size": 791940
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "uhinAWsC",
-      "name": "[Fabric/Quilt] v1.2.3 for Minecraft 1.19",
-      "version_number": "1.2.3-mc1.19-fabric",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a38bf1f1cf724d3515eb427ddc3b148310a8cdd5d3a8208d320360097d17647d7626dacbcad8d5f5149d30430d609d504cc29556e41caff29d2ac748c97f38b7",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.3-mc1.19-fabric/craftgr-1.2.3-mc1.19-fabric.jar",
-          "filename": "craftgr-1.2.3-mc1.19-fabric.jar",
-          "primary": true,
-          "size": 1929559
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "x9zJWSsE",
-      "name": "[Forge] v1.2.2 for Minecraft 1.19",
-      "version_number": "1.2.2-mc1.19-forge",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "f085a325e72537e80d29ddf3be1c486e35c020e8e107ab039b684d0579d4cec7df0e12ec7bc646694e10f8ef5c162efb308ec3c386713549ad722383b9ea0ab8",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.2-mc1.19-forge/craftgr-1.2.2-mc1.19-forge.jar",
-          "filename": "craftgr-1.2.2-mc1.19-forge.jar",
-          "primary": true,
-          "size": 791839
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "LFeFJXPx",
-      "name": "[Fabric/Quilt] v1.2.2 for Minecraft 1.19",
-      "version_number": "1.2.2-mc1.19-fabric",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "027b0829f6f9915fb16602953bb4237b1c8eb0150c9e9a69694bb254342b11b51250855ca5a221d194d05b723c3f64355c8207c74d1425257da676bbcf06e25b",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.2-mc1.19-fabric/craftgr-1.2.2-mc1.19-fabric.jar",
-          "filename": "craftgr-1.2.2-mc1.19-fabric.jar",
-          "primary": true,
-          "size": 1929457
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Vg5cPzRC",
-      "name": "[Forge] v1.2.1 for Minecraft 1.19",
-      "version_number": "1.2.1-mc1.19-forge",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "2b0b2639766551a402be31e5d21fd088d8328eb1d2bfd97ad261a6573810d25c87c448718eb0a544c47e984a4ee6fa5f527d5669ea47d5391ed54ab4b60ca48a",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.1-mc1.19-forge/craftgr-1.2.1-mc1.19-forge.jar",
-          "filename": "craftgr-1.2.1-mc1.19-forge.jar",
-          "primary": true,
-          "size": 792918
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "8raH5rPp",
-      "name": "[Fabric] v1.2.1 for Minecraft 1.19",
-      "version_number": "1.2.1-mc1.19-fabric",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d42a277f90059259d8e4d0dba8206edb3d259262529d851ae4ca81992087f49b3459e6eae3151984731aac18494fac12324564974be5d5954a3ea0672ea49c05",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.0-mc1.19-fabric/craftgr-1.2.1-mc1.19-fabric.jar",
-          "filename": "craftgr-1.2.1-mc1.19-fabric.jar",
-          "primary": true,
-          "size": 1930532
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "JjTiGVQH",
-      "name": "[Forge] v1.2.0 for Minecraft 1.18.2",
-      "version_number": "1.2.0-mc1.18.2-forge",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "12a2f3f5445c27b0f4c8fb3c0fed1a6a2e15c9be6599426637a0430db2ef24007b9cb4569253b6b5e53050258620728646429a73606dbc36355e7cdfc69697f3",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.0-mc1.18.2-forge/craftgr-1.2.0-mc1.18.2-forge.jar",
-          "filename": "craftgr-1.2.0-mc1.18.2-forge.jar",
-          "primary": true,
-          "size": 792716
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "17G7AnUe",
-      "name": "[Fabric] v1.2.0 for Minecraft 1.18.2",
-      "version_number": "1.2.0-mc1.18.2-fabric",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "fdd0ba69ea9f7df116ed8903f228cd7ea8481cd96b414945f83d7eb60cafb4fd21202b3be576d4cec2ff2bf477f4174728382ee8d82acf0fea88204261e37a22",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.0-mc1.18.2-fabric/craftgr-1.2.0-mc1.18.2-fabric.jar",
-          "filename": "craftgr-1.2.0-mc1.18.2-fabric.jar",
-          "primary": true,
-          "size": 1927170
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "mgnbpeWK",
-      "name": "[Forge] v1.2.0 for Minecraft 1.18.1",
-      "version_number": "1.2.0-mc1.18.1-forge",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "df5222b3e9e84f5e205445c51f6c8256947147689a97a3c3ddab463926888f6f1c9aa96afb20342869559dc59bfa4d36d14e3781fe2f7512cd98b8cad35da0d0",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.0-mc1.18.1-forge/craftgr-1.2.0-mc1.18.1-forge.jar",
-          "filename": "craftgr-1.2.0-mc1.18.1-forge.jar",
-          "primary": true,
-          "size": 792753
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "5n4BXa3z",
-      "name": "[Fabric] v1.2.0 for Minecraft 1.18.1",
-      "version_number": "1.2.0-mc1.18.1-fabric",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b48e2776c0bd4fca19b1b0d1ce350d47f26921e1d7db9559f5984ddc8c3db7db2739f0f4716d9c20ddc5b3d35aa368f075d62efed4ed71453ec27d6cf23cd483",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.0-mc1.18.1-fabric/craftgr-1.2.0-mc1.18.1-fabric.jar",
-          "filename": "craftgr-1.2.0-mc1.18.1-fabric.jar",
-          "primary": true,
-          "size": 1822541
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ve3fuUO8",
-      "name": "[Forge] v1.2.0 for Minecraft 1.17.1",
-      "version_number": "1.2.0-mc1.17.1-forge",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "672b6ab80a5e27c9ee2d79a1a8e519b593545f857698cc9734d87f77c342021082d07a94d602c11d2aa501b5174b501036afc6c024b8d349377391b1dd5f133e",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.0-mc1.17.1-forge/craftgr-1.2.0-mc1.17.1-forge.jar",
-          "filename": "craftgr-1.2.0-mc1.17.1-forge.jar",
-          "primary": true,
-          "size": 792740
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "4mpZMbsT",
-      "name": "[Fabric] v1.2.0 for Minecraft 1.17.1",
-      "version_number": "1.2.0-mc1.17.1-fabric",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e1797663adee84364d83f4a7a76f91d8ab64fb5f0e5af14bb1c975fcca9fd416c4a1949bfaac1712c65daf21f65012d7559d394249208496b3470c1ca0699a53",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.0-mc1.17.1-fabric/craftgr-1.2.0-mc1.17.1-fabric.jar",
-          "filename": "craftgr-1.2.0-mc1.17.1-fabric.jar",
-          "primary": true,
-          "size": 1804158
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "XNBy6IjH",
-      "name": "[Forge] v1.2.0 for Minecraft 1.16.5",
-      "version_number": "1.2.0-mc1.16.5-forge",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "72949249b61da77a8cff96497b576aac357d511082b8f49188440e5adfead0cc20f0314818dfc58b62f2301513e28c557948a8a4168edb01b29698decf2e0639",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.0-mc1.16.5-forge/craftgr-1.2.0-mc1.16.5-forge.jar",
-          "filename": "craftgr-1.2.0-mc1.16.5-forge.jar",
-          "primary": true,
-          "size": 792341
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ZLeYyhte",
-      "name": "[Fabric] v1.2.0 for Minecraft 1.16.5",
-      "version_number": "1.2.0-mc1.16.5-fabric",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "7216e8d2c0d3863ed0b6f9b4774f6f0ae7452907f5a41def9449c49d1fdd246caecbdc0ba9daee06c1b65da7a64d7cad518c5795c57ecae038259f7c18db5ae1",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.0-mc1.16.5-fabric/craftgr-1.2.0-mc1.16.5-fabric.jar",
-          "filename": "craftgr-1.2.0-mc1.16.5-fabric.jar",
-          "primary": true,
-          "size": 1804321
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "74EnW1HQ",
-      "name": "[Forge] v1.1.3 for Minecraft 1.18.1",
-      "version_number": "1.1.3-mc1.18.1-forge",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "7481ef7da49775547816139948ddeb7eccc7343b3c66183cf0b0d9fd277ef10044f8318a531e6aceb9d4889b595f2d3dc4dbbaae52885abee46beb2f168e7a15",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.3-mc1.18.1-forge/craftgr-1.1.3-mc1.18.1-forge.jar",
-          "filename": "craftgr-1.1.3-mc1.18.1-forge.jar",
-          "primary": false,
-          "size": 791662
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "7rgrzDWG",
-      "name": "[Fabric] v1.1.3 for Minecraft 1.18.1",
-      "version_number": "1.1.3-mc1.18.1-fabric",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6d9e46859688322446c2c465b272a6884261c94d1d45e43443fb247a115f8925c0df3bc8f6a7dc7366464e3cb080b955846cb45a603851eb8e872df1a7d422b1",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.3-mc1.18.1-fabric/craftgr-1.1.3-mc1.18.1-fabric.jar",
-          "filename": "craftgr-1.1.3-mc1.18.1-fabric.jar",
-          "primary": false,
-          "size": 1821452
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "z19yNcKT",
-      "name": "[Forge] v1.1.3 for Minecraft 1.17.1",
-      "version_number": "1.1.3-mc1.17.1-forge",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "f87c4d588401e14499ce224524f471bcc9ab485d67ea9bc097d1fbe92b9d67af29d6713e61fbea686d6863056d7334760a010ae1fd3b7fc894f335d7bf70abb4",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.3-mc1.17.1-forge/craftgr-1.1.3-mc1.17.1-forge.jar",
-          "filename": "craftgr-1.1.3-mc1.17.1-forge.jar",
-          "primary": false,
-          "size": 791655
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "5rcqq8Oh",
-      "name": "[Fabric] v1.1.3 for Minecraft 1.17.1",
-      "version_number": "1.1.3-mc1.17.1-fabric",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f6858c5f835e7d91dbd2557dde3f4ef97dbd231e5e757e2420f0e3659d0c9cda062ea1998601aacc67c48a8829b67820d9f5c9714593df7ebfe6a3f074eb548d",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.3-mc1.17.1-fabric/craftgr-1.1.3-mc1.17.1-fabric.jar",
-          "filename": "craftgr-1.1.3-mc1.17.1-fabric.jar",
-          "primary": false,
-          "size": 1803066
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "OlQ6L2xI",
-      "name": "[Forge] v1.1.3 for Minecraft 1.16.5",
-      "version_number": "1.1.3-mc1.16.5-forge",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "227bbb1e1a94303cd4e7da3784986fc8724eed8ff569439e6e6ed9d6d43d5b4df19a545041aa5b5a791618317af59627ccf10765ede30ebced16c4a20789e71c",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.3-mc1.16.5-forge/craftgr-1.1.3-mc1.16.5-forge.jar",
-          "filename": "craftgr-1.1.3-mc1.16.5-forge.jar",
-          "primary": false,
-          "size": 791275
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "4vRpgpv7",
-      "name": "[Fabric] v1.1.3 for Minecraft 1.16.5",
-      "version_number": "1.1.3-mc1.16.5-fabric",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "7a8ac68da623a44bec6aa379e3a67c587613de99ddca33f12686114c9105fd8c9785daff1b687c2d0f982e57cd9ef8c8ee6ec099a4e59260015f3396d275d1e1",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.3-mc1.16.5-fabric/craftgr-1.1.3-mc1.16.5-fabric.jar",
-          "filename": "craftgr-1.1.3-mc1.16.5-fabric.jar",
-          "primary": false,
-          "size": 1803257
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "29O6nhDp",
-      "name": "[Forge] v1.1.1 for Minecraft 1.18.1",
-      "version_number": "1.1.1-mc1.18.1-forge",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "099d06c82b46eb749d90ddb303a867f0dfa036eb6b76f119d0be2141790574df0d7c614245f082f8489d1729ae064fd9a6b4eb1df69d1883200cd0140e9bb340",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.1-mc1.18.1-forge/craftgr-1.1.1-mc1.18.1-forge.jar",
-          "filename": "craftgr-1.1.1-mc1.18.1-forge.jar",
-          "primary": false,
-          "size": 807972
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "KutnJdRN",
-      "name": "[Fabric] v1.1.1 for Minecraft 1.18.1",
-      "version_number": "1.1.1-mc1.18.1-fabric",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b5c328aa78ebf26332f245f4c4bc015bb55ba5e64fe27844b8c9022c80ce568de8b06c5593d893f5bcc5dc6e87b2367ae82b394e1f4179789fd1b1ec22fe6000",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.1-mc1.18.1-fabric/craftgr-1.1.1-mc1.18.1-fabric.jar",
-          "filename": "craftgr-1.1.1-mc1.18.1-fabric.jar",
-          "primary": false,
-          "size": 1821778
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "V98d3GkT",
-      "name": "[Forge] v1.1.1 for Minecraft 1.17.1",
-      "version_number": "1.1.1-mc1.17.1-forge",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "4ddffae9c1aae8388c1f0d5a6b3a775e7578d901281d91118eb517b7d5edc5dce70cfdb2324614a9d084b310110d6b06a6bf2c4a03ad86a8030ad6f6d73710c5",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.1-mc1.17.1-forge/craftgr-1.1.1-mc1.17.1-forge.jar",
-          "filename": "craftgr-1.1.1-mc1.17.1-forge.jar",
-          "primary": false,
-          "size": 807965
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "PSoP9UtH",
-      "name": "[Fabric] v1.1.1 for Minecraft 1.17.1",
-      "version_number": "1.1.1-mc1.17.1-fabric",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "07b1267e3cd5c073470d2cb2db3110a46832b01a4cab141958577767c1c0066728ebf4beb7999210813b561106a422a2b7a57067f5cf18b5661a16cdb0196494",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.1-mc1.17.1-fabric/craftgr-1.1.1-mc1.17.1-fabric.jar",
-          "filename": "craftgr-1.1.1-mc1.17.1-fabric.jar",
-          "primary": false,
-          "size": 1803392
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "HB0Tph9T",
-      "name": "[Forge] v1.1.1 for Minecraft 1.16.5",
-      "version_number": "1.1.1-mc1.16.5-forge",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "93254e672e671c15ae7142b7037f0f04c37558169479be041396e672e3a54a12046931b9db8b652151a2071ec9a4a6dd5559f2177942359a083993f6d1a52634",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.1-mc1.16.5-forge/craftgr-1.1.1-mc1.16.5-forge.jar",
-          "filename": "craftgr-1.1.1-mc1.16.5-forge.jar",
-          "primary": false,
-          "size": 807582
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "LRkDfHO3",
-      "name": "[Fabric] v1.1.1 for Minecraft 1.16.5",
-      "version_number": "1.1.1-mc1.16.5-fabric",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "1e34c0fc6d2f82b5960e92e4b87a40c93efec79f9e471da0ddc7cbf04fe37f16b1d6cbebf27186af4f9f9d70f63a859e968e6f0e8e3e7b9e9e67f766bd94b87a",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.1-mc1.16.5-fabric/craftgr-1.1.1-mc1.16.5-fabric.jar",
-          "filename": "craftgr-1.1.1-mc1.16.5-fabric.jar",
-          "primary": false,
-          "size": 1803573
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "WlWM6tXA",
-      "name": "[Forge] v1.1.0 for Minecraft 1.18.1",
-      "version_number": "1.1.0-mc1.18.1-forge",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "7566fa688b8950fd18fcd01bd52e7faccba2396f7c42043a75ea70461b9ae3e47b6ce7b1af4426bf9d2de0d4917de5530e36446f5002fa3fd09037ab83ebbe01",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.0-mc1.18.1-forge/craftgr-1.1.0-mc1.18.1-forge.jar",
-          "filename": "craftgr-1.1.0-mc1.18.1-forge.jar",
-          "primary": false,
-          "size": 807513
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ncF8AT7e",
-      "name": "[Fabric] v1.1.0 for Minecraft 1.18.1",
-      "version_number": "1.1.0-mc1.18.1-fabric",
-      "game_versions": [
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "1bc55f37c708c55f140ea7bc6692d8d126b6cc80dbdd2479c0c7225968b7efc89df295d497dd53ea01d3c89d8cc15356c9bbd37971e16b9849fb690d16fd4151",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.0-mc1.18.1-fabric/craftgr-1.1.0-mc1.18.1-fabric.jar",
-          "filename": "craftgr-1.1.0-mc1.18.1-fabric.jar",
-          "primary": false,
-          "size": 1821293
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "PQxTT5EP",
-      "name": "[Forge] v1.1.0 for Minecraft 1.17.1",
-      "version_number": "1.1.0-mc1.17.1-forge",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "f1733c51b7e1bb808818ed3e5631f6c3ae8842153860b71e70d29e2fdbc6ab266c86b3f2b2a2fa057a430e4dc422862ba3749cdffd3444e4751afdfcb06e8cb8",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.0-mc1.17.1-forge/craftgr-1.1.0-mc1.17.1-forge.jar",
-          "filename": "craftgr-1.1.0-mc1.17.1-forge.jar",
-          "primary": false,
-          "size": 807503
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "kVguOMec",
-      "name": "[Fabric] v1.1.0 for Minecraft 1.17.1",
-      "version_number": "1.1.0-mc1.17.1-fabric",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2ffa67bc7fc9c078fee681b998c900472e45b8d4c08638e8fcab1e0ed39fa56a55ba46ec70cac19f1137373a815c05f73e129e8823d4b615e95ca4354ee0fd79",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.0-mc1.17.1-fabric/craftgr-1.1.0-mc1.17.1-fabric.jar",
-          "filename": "craftgr-1.1.0-mc1.17.1-fabric.jar",
-          "primary": false,
-          "size": 1802908
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "fwIe7oUX",
-      "name": "[Forge] v1.1.0 for Minecraft 1.16.5",
-      "version_number": "1.1.0-mc1.16.5-forge",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "4027bb854ac7bcafc7662905346e854f312615ecfe1363faccdfb26267eb7dd312ca4a87e9b053360cd563381b05539de699215a07b1fcab9392534c4251bd80",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.0-mc1.16.5-forge/craftgr-1.1.0-mc1.16.5-forge.jar",
-          "filename": "craftgr-1.1.0-mc1.16.5-forge.jar",
-          "primary": false,
-          "size": 807077
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "zmGyIYuB",
-      "name": "[Fabric] v1.1.0 for Minecraft 1.16.5",
-      "version_number": "1.1.0-mc1.16.5-fabric",
-      "game_versions": [
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "adaeb7d33c7058f6f6c7b63a9ddc9b18452dbb4b3f3212c2b2ef496a923b2cb822308af53aa3bff79ab6fb6c52b5f8463e86ef79f4d1cc71da0c94ee58578aa7",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.0-mc1.16.5-fabric/craftgr-1.1.0-mc1.16.5-fabric.jar",
-          "filename": "craftgr-1.1.0-mc1.16.5-fabric.jar",
-          "primary": false,
-          "size": 1803067
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "guWt8ZbN",
-      "name": "[Forge] v1.0.0 for Minecraft 1.18",
-      "version_number": "1.0.0-mc1.18-forge",
-      "game_versions": [
-        "1.18"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "5371bdfcda305f7294d6d5a73828e36a8969b704211fc1eb7a5c0b11e3e56492faf6e83e0106b80e991ab7af537f11fc500cf72097066ed36abe24de62ec75c2",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.0.0-mc1.18-forge/craftgr-1.0.0-mc1.18-forge.jar",
-          "filename": "craftgr-1.0.0-mc1.18-forge.jar",
-          "primary": false,
-          "size": 805307
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "pjQN2slY",
-      "name": "[Fabric] v1.0.0 for Minecraft 1.18",
-      "version_number": "1.0.0-mc1.18-fabric",
-      "game_versions": [
-        "1.18"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ab860881a20d5562e76aa9ded1f982a24da2d654f1578b1f34222f237269b7bb97a60dbcb178abe4a61572b37e03f6d97076da05d5678f669e026c5d0d204185",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.0.0-mc1.18-fabric/craftgr-1.0.0-mc1.18-fabric.jar",
-          "filename": "craftgr-1.0.0-mc1.18-fabric.jar",
-          "primary": false,
-          "size": 1800510
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "iOxeAHhE",
-      "name": "[Forge] v1.0.0 for Minecraft 1.17.1",
-      "version_number": "1.0.0-mc1.17.1-forge",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "c00b0f322b31341e7a504d17b1e1fb33286a0db41006cca6d69b9a1053606a93939f8d5148b4eaca7c566524df523d1c54612f2c4e25e725b9e15aa6c2df45bb",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.0.0-mc1.17.1-forge/craftgr-1.0.0-mc1.17.1-forge.jar",
-          "filename": "craftgr-1.0.0-mc1.17.1-forge.jar",
-          "primary": false,
-          "size": 805306
         }
       ],
       "dependencies": []
@@ -1847,30 +1826,51 @@
       "dependencies": []
     },
     {
-      "id": "8G6PyTtP",
-      "name": "[Forge] v1.0.0 for Minecraft 1.16.5",
-      "version_number": "1.0.0-mc1.16.5-forge",
+      "id": "x9zJWSsE",
+      "name": "[Forge] v1.2.2 for Minecraft 1.19",
+      "version_number": "1.2.2-mc1.19-forge",
       "game_versions": [
-        "1.16.5"
+        "1.19"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "bccff3deea963eed4aaaebd2328639e4a2b343ee289fcff64841df97a8066636b364eac1461188c089b7560d0555c935cc38fa7d73c50c002692fd3c32f8a8c8",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.0.0-mc1.16.5-forge/craftgr-1.0.0-mc1.16.5-forge.jar",
-          "filename": "craftgr-1.0.0-mc1.16.5-forge.jar",
-          "primary": false,
-          "size": 804899
+          "sha512": "f085a325e72537e80d29ddf3be1c486e35c020e8e107ab039b684d0579d4cec7df0e12ec7bc646694e10f8ef5c162efb308ec3c386713549ad722383b9ea0ab8",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.2.2-mc1.19-forge/craftgr-1.2.2-mc1.19-forge.jar",
+          "filename": "craftgr-1.2.2-mc1.19-forge.jar",
+          "primary": true,
+          "size": 791839
         }
       ],
       "dependencies": []
     },
     {
-      "id": "odQ0ZV24",
-      "name": "[Fabric] v1.0.0 for Minecraft 1.16.5",
-      "version_number": "1.0.0-mc1.16.5-fabric",
+      "id": "z19yNcKT",
+      "name": "[Forge] v1.1.3 for Minecraft 1.17.1",
+      "version_number": "1.1.3-mc1.17.1-forge",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f87c4d588401e14499ce224524f471bcc9ab485d67ea9bc097d1fbe92b9d67af29d6713e61fbea686d6863056d7334760a010ae1fd3b7fc894f335d7bf70abb4",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.3-mc1.17.1-forge/craftgr-1.1.3-mc1.17.1-forge.jar",
+          "filename": "craftgr-1.1.3-mc1.17.1-forge.jar",
+          "primary": false,
+          "size": 791655
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "zmGyIYuB",
+      "name": "[Fabric] v1.1.0 for Minecraft 1.16.5",
+      "version_number": "1.1.0-mc1.16.5-fabric",
       "game_versions": [
         "1.16.5"
       ],
@@ -1879,11 +1879,11 @@
       ],
       "files": [
         {
-          "sha512": "a6e839645ed1dd3e9c77e01d87a9877573b50cadf7ffecd74c92150d0ee4584a9a5b094868aa3fbe8be0936c6e6b5e5e20fd4f31adf19fc38c9d9669252ec573",
-          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.0.0-mc1.16.5-fabric/craftgr-1.0.0-mc1.16.5-fabric.jar",
-          "filename": "craftgr-1.0.0-mc1.16.5-fabric.jar",
+          "sha512": "adaeb7d33c7058f6f6c7b63a9ddc9b18452dbb4b3f3212c2b2ef496a923b2cb822308af53aa3bff79ab6fb6c52b5f8463e86ef79f4d1cc71da0c94ee58578aa7",
+          "url": "https://cdn.modrinth.com/data/lKYr4L6w/versions/1.1.0-mc1.16.5-fabric/craftgr-1.1.0-mc1.16.5-fabric.jar",
+          "filename": "craftgr-1.1.0-mc1.16.5-fabric.jar",
           "primary": false,
-          "size": 1800701
+          "size": 1803067
         }
       ],
       "dependencies": []

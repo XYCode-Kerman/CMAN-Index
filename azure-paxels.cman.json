@@ -5,22 +5,52 @@
   "description": "Created becasue Fabric 1.19.4 has no good paxel mods updated.",
   "versions": [
     {
-      "id": "cuzu1vSr",
-      "name": "fabric 1.0.3",
-      "version_number": "1.0.3",
+      "id": "14wTHcAh",
+      "name": "Fabric/Quilt 1.19.4",
+      "version_number": "1.0.2",
       "game_versions": [
-        "1.21"
+        "1.19.4"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "6be663f7b3ddb7c9cb3f17f0536467e31beb22836fd72e6c79546b2e862dc290dd3e4212da1a2406f481d5139b95aa4ec43b0f51576ce6bb3d9d3a1d0c968b07",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/cuzu1vSr/azurepaxels-fabric-1.21-1.0.3.jar",
-          "filename": "azurepaxels-fabric-1.21-1.0.3.jar",
+          "sha512": "3d9d7150c86c29bb49d9f26743bad2e3276a90596b0afbc1da93b81ad140df072080eadd2b678135475cdf6d55b4d21ce61723c8c87d7499869a13cd5ce77a8c",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/14wTHcAh/azure-paxels-1.0.2.jar",
+          "filename": "azure-paxels-1.0.2.jar",
           "primary": true,
-          "size": 20631
+          "size": 18773
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "22daPonb",
+      "name": "1.0.6",
+      "version_number": "1.0.6",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "75b68fb14599e5ce688f3cfae683d1429d1166743315699a4a26e6862087b7c6314c7a50a6d962f9a3e66662160a4bd1db45675a712097f656f5bb2b5a8436cd",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/22daPonb/azure-paxels-1.20.2-1.0.6.jar",
+          "filename": "azure-paxels-1.20.2-1.0.6.jar",
+          "primary": true,
+          "size": 19530
         }
       ],
       "dependencies": [
@@ -33,43 +63,53 @@
       ]
     },
     {
-      "id": "ix1IUDu4",
-      "name": "neoforge 1.0.3",
-      "version_number": "1.0.3",
+      "id": "4czBQvqn",
+      "name": "1.0.2",
+      "version_number": "1.0.2",
       "game_versions": [
-        "1.21"
+        "1.20.1"
       ],
       "loaders": [
+        "forge",
         "neoforge"
       ],
       "files": [
         {
-          "sha512": "1218fcd354693f97d0d9e2a3f80915394531c01354d6d122127582fe29819ff8b22564f07698796963ae962804056b9aa46c80cf74624d4f03689c3d396013ac",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/ix1IUDu4/azurepaxels-neoforge-1.21-1.0.3.jar",
-          "filename": "azurepaxels-neoforge-1.21-1.0.3.jar",
+          "sha512": "5f3b7a89e506f88de486c46b2a16b733f679f69fc868dee9d26a5e0638ce836afd0ea56e1406b0f9f99b8342d0b082dddf1fbe2753532e4765c4b62e15522f67",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/4czBQvqn/azure-paxels-neo-1.20.1-1.0.2.jar",
+          "filename": "azure-paxels-neo-1.20.1-1.0.2.jar",
           "primary": true,
-          "size": 20484
+          "size": 18603
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "vvuO3ImH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
-      "id": "ZTJcGU4s",
-      "name": "fabric 1.0.2",
-      "version_number": "1.0.2",
+      "id": "C2zy1KjV",
+      "name": "1.0.10",
+      "version_number": "1.0.10",
       "game_versions": [
-        "1.21"
+        "1.20.1",
+        "1.20.2"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "9a85eaf0e6e0818d127117ff1b3ca2802ddb36c1fad38b1c99d166ce6de2affeacfef88820f372ee7a3f901757d36c8a8bc10f56215e7efc386bc7951ec53470",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/ZTJcGU4s/azurepaxels-fabric-1.21-1.0.2.jar",
-          "filename": "azurepaxels-fabric-1.21-1.0.2.jar",
+          "sha512": "773ba8dd7f95182f067c037fadb154eca267acb2865fd801c65dccdc009fda51ff3a12cad9548ec36c4ea5a6abfb9c90e2143cca561096f8be14d323113ed755",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/C2zy1KjV/azure-paxels-1.20.2-1.0.10.jar",
+          "filename": "azure-paxels-1.20.2-1.0.10.jar",
           "primary": true,
-          "size": 20645
+          "size": 20378
         }
       ],
       "dependencies": [
@@ -103,6 +143,265 @@
       "dependencies": []
     },
     {
+      "id": "Eg8Ch68c",
+      "name": "Fabric 1.20.1",
+      "version_number": "1.0.5",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2c0fc96262239f2a0801fde64ab06b38e8c14e344dccc0f8b259bae221848d6245975553660b3b3a60f4d8e37b36dd036e34da2a242c70acb32a2f1166755501",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/Eg8Ch68c/azure-paxels-1.20.1-1.0.5.jar",
+          "filename": "azure-paxels-1.20.1-1.0.5.jar",
+          "primary": true,
+          "size": 18585
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Fyq6mrwS",
+      "name": "fabric 1.0.1",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "efe98932b8749c514d481a4fb66bd40e32e1878690d39fa4611407f627d0b301b99074fd9859703ba1b9160e52d68cef2798a0dd8f0e221683a16d1d1ed8a6b2",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/Fyq6mrwS/azurepaxels-fabric-1.20.4-1.0.1.jar",
+          "filename": "azurepaxels-fabric-1.20.4-1.0.1.jar",
+          "primary": true,
+          "size": 21912
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "H0ORfmJt",
+      "name": "Fabric 1.20.1",
+      "version_number": "1.0.4",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "df05a012cf311baa4211eac686d720df6174f9215ef13b7e76fa414223cc7e9fc14f6079d4e35afd342fb17c0b890555238e46b7022e6a7b98b887c3e00b05e3",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/H0ORfmJt/azure-paxels-1.20.1-1.0.4.jar",
+          "filename": "azure-paxels-1.20.1-1.0.4.jar",
+          "primary": true,
+          "size": 18224
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "IOVJJDdH",
+      "name": "Fabric/Quilt 1.19.4",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "7dc54248f8034f1fbdff5c4c5da8a24341641ca164a0c483f2f68ee413e23cfdd86952e446013f637e9c7ee4d0926407418aa5aacaa41916e3203f752f5731df",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/IOVJJDdH/azure-paxels-1.0.1.jar",
+          "filename": "azure-paxels-1.0.1.jar",
+          "primary": true,
+          "size": 18411
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Ij2fIGIy",
+      "name": "1.0.3",
+      "version_number": "1.0.3",
+      "game_versions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "edd74bc8b62c0a73d8f889af793d982f636cbcba512ce410cca611af154c4cf2a07cbdca31140259e948ce716f92d4102165380cbedbc8d46b5d7fc4b92e0f15",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/Ij2fIGIy/azure-paxels-1.20-1.0.3.jar",
+          "filename": "azure-paxels-1.20-1.0.3.jar",
+          "primary": true,
+          "size": 18224
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "J8fQH51y",
+      "name": "1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "00c902d30802df74f67c33a04469d7e875db7bf2520ae088523382420cde16b0d6b4630ce0c7c12a39b9448d3fcc1cb2c77a0902c17fb5e4c69cbeb514cccef4",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/J8fQH51y/azure-paxels-neo-1.20.1-1.0.0.jar",
+          "filename": "azure-paxels-neo-1.20.1-1.0.0.jar",
+          "primary": true,
+          "size": 16675
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vvuO3ImH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "N6csSTat",
+      "name": "Fabric 1.20-pre1",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.20-pre1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2d8d2375bc4023c7abf55452c13db825c1dccdb07ee02750a5abdcca7ae4cbd704f22b1839e0213b29bf889cf2f02ddcdc3efce8c5de687c66af84df8563cdc7",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/N6csSTat/azure-paxels-1.0.0.jar",
+          "filename": "azure-paxels-1.0.0.jar",
+          "primary": true,
+          "size": 17597
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "JxkMjQqZ",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "WVef6afU",
+      "name": "1.0.1",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "e83e0dc993844415b9c7b165bd55ddce431c5dff8640f174530e8a4475c6be336e3f5ed7af4f08b398b4cbec91459e2d44418faf643dce6c59cd82598c5c66f5",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/WVef6afU/azure-paxels-neo-1.20.1-1.0.1.jar",
+          "filename": "azure-paxels-neo-1.20.1-1.0.1.jar",
+          "primary": true,
+          "size": 17248
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "vvuO3ImH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ZTJcGU4s",
+      "name": "fabric 1.0.2",
+      "version_number": "1.0.2",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9a85eaf0e6e0818d127117ff1b3ca2802ddb36c1fad38b1c99d166ce6de2affeacfef88820f372ee7a3f901757d36c8a8bc10f56215e7efc386bc7951ec53470",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/ZTJcGU4s/azurepaxels-fabric-1.21-1.0.2.jar",
+          "filename": "azurepaxels-fabric-1.21-1.0.2.jar",
+          "primary": true,
+          "size": 20645
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "a0nhLWlD",
       "name": "neoforge 1.0.1",
       "version_number": "1.0.1",
@@ -124,22 +423,110 @@
       "dependencies": []
     },
     {
-      "id": "jGu9L9Mz",
-      "name": "fabric 1.0.1",
-      "version_number": "1.0.1",
+      "id": "cuzu1vSr",
+      "name": "fabric 1.0.3",
+      "version_number": "1.0.3",
       "game_versions": [
-        "1.20.6"
+        "1.21"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "c0c987446e20cd13c4250c60da8d2c0be0b8f142962e1c52b3e44ce08f11a190bd65c2e74e79cbe120f2f7d54f471a1ad3d7d6e29b7e576b1ab56283b9a8775e",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/jGu9L9Mz/azurepaxels-fabric-1.20.6-1.0.1.jar",
-          "filename": "azurepaxels-fabric-1.20.6-1.0.1.jar",
+          "sha512": "6be663f7b3ddb7c9cb3f17f0536467e31beb22836fd72e6c79546b2e862dc290dd3e4212da1a2406f481d5139b95aa4ec43b0f51576ce6bb3d9d3a1d0c968b07",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/cuzu1vSr/azurepaxels-fabric-1.21-1.0.3.jar",
+          "filename": "azurepaxels-fabric-1.21-1.0.3.jar",
           "primary": true,
-          "size": 20642
+          "size": 20631
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "eMhH4IQd",
+      "name": "1.0.8",
+      "version_number": "1.0.8",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "bad1508dc88b0d43e37a6edb260e0cb5b1465f51412d49636dda2d5f9f63e19605d4527419a850b857e9011c6cd50fd713c899c6c4f3d98f1fba68ac5ccf03e8",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/eMhH4IQd/azure-paxels-1.20.2-1.0.8.jar",
+          "filename": "azure-paxels-1.20.2-1.0.8.jar",
+          "primary": true,
+          "size": 19012
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "eqWq0W5R",
+      "name": "1.0.9",
+      "version_number": "1.0.9",
+      "game_versions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d6ddeadd1cbac836f6b084ae5a32ac7fda5307723572e399713f465c690d6c767fe2a933407afd8639821bce5c9fdee9140a890cd6bc045629cff64f86bf083d",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/eqWq0W5R/azure-paxels-1.20.2-1.0.9.jar",
+          "filename": "azure-paxels-1.20.2-1.0.9.jar",
+          "primary": true,
+          "size": 19012
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "h8QjBjgj",
+      "name": "1.0.7",
+      "version_number": "1.0.7",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "b5f36c9b51c1a4c9c63979c96c92571768a7450a75b9ad4e21b86bcc7a43833551e6194d966a78ad7f6198f9bb9615c13eb8edb7f4882ed4664fc47d724b402d",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/h8QjBjgj/azure-paxels-1.20.2-1.0.7.jar",
+          "filename": "azure-paxels-1.20.2-1.0.7.jar",
+          "primary": true,
+          "size": 20738
         }
       ],
       "dependencies": [
@@ -173,11 +560,11 @@
       "dependencies": []
     },
     {
-      "id": "Fyq6mrwS",
-      "name": "fabric 1.0.1",
-      "version_number": "1.0.1",
+      "id": "hGevtm5N",
+      "name": "1.0.6",
+      "version_number": "1.0.6",
       "game_versions": [
-        "1.20.4"
+        "1.20.1"
       ],
       "loaders": [
         "fabric",
@@ -185,11 +572,119 @@
       ],
       "files": [
         {
-          "sha512": "efe98932b8749c514d481a4fb66bd40e32e1878690d39fa4611407f627d0b301b99074fd9859703ba1b9160e52d68cef2798a0dd8f0e221683a16d1d1ed8a6b2",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/Fyq6mrwS/azurepaxels-fabric-1.20.4-1.0.1.jar",
-          "filename": "azurepaxels-fabric-1.20.4-1.0.1.jar",
+          "sha512": "00d1b08f26288047e63f162e7bd39cc892cad38762ba6c54c2264df095ce00cf534f02201bfadef1432bbf864ea9dca92d74b2ab76923300ce3118826bec01fd",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/hGevtm5N/azure-paxels-1.20.1-1.0.6.jar",
+          "filename": "azure-paxels-1.20.1-1.0.6.jar",
           "primary": true,
-          "size": 21912
+          "size": 19529
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "iYZr8icM",
+      "name": "1.0.11",
+      "version_number": "1.0.11",
+      "game_versions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c6b66cdbf116ccfca146a9ba02f096546f068dd1c24c0ad134b22a09d12bbaf98638619d1278a3521d36cdcf2601bb0d23efbc10df0290c2611decfb3853ce53",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/iYZr8icM/azure-paxels-1.20.2-1.0.11.jar",
+          "filename": "azure-paxels-1.20.2-1.0.11.jar",
+          "primary": true,
+          "size": 21163
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ix1IUDu4",
+      "name": "neoforge 1.0.3",
+      "version_number": "1.0.3",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "1218fcd354693f97d0d9e2a3f80915394531c01354d6d122127582fe29819ff8b22564f07698796963ae962804056b9aa46c80cf74624d4f03689c3d396013ac",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/ix1IUDu4/azurepaxels-neoforge-1.21-1.0.3.jar",
+          "filename": "azurepaxels-neoforge-1.21-1.0.3.jar",
+          "primary": true,
+          "size": 20484
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "jGu9L9Mz",
+      "name": "fabric 1.0.1",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c0c987446e20cd13c4250c60da8d2c0be0b8f142962e1c52b3e44ce08f11a190bd65c2e74e79cbe120f2f7d54f471a1ad3d7d6e29b7e576b1ab56283b9a8775e",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/jGu9L9Mz/azurepaxels-fabric-1.20.6-1.0.1.jar",
+          "filename": "azurepaxels-fabric-1.20.6-1.0.1.jar",
+          "primary": true,
+          "size": 20642
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "kQdAeuZb",
+      "name": "1.0.3",
+      "version_number": "1.0.3",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0d031b83df01069182f370e7d667ee5428d720da43602503db321153add540db0baa4e22d24f9d265c1b6a25df44e310012c77f8bcb78290652308cb7c88286d",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/kQdAeuZb/azure-paxels-1.0.3.jar",
+          "filename": "azure-paxels-1.0.3.jar",
+          "primary": true,
+          "size": 19717
         }
       ],
       "dependencies": [
@@ -252,34 +747,39 @@
       "dependencies": []
     },
     {
-      "id": "zXgC2Z3G",
-      "name": "1.0.6",
-      "version_number": "1.0.6",
+      "id": "r2Wgicv8",
+      "name": "Azure Paxels 1.0.0",
+      "version_number": "1.0.0",
       "game_versions": [
-        "1.20.1"
+        "1.19.4"
       ],
       "loaders": [
-        "forge",
-        "neoforge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "49022566504fb7faca1ed7552de2a7d51c1ec10bb82417cbc6cab478963e62cb7e4ef09974469155eacfb54850d55c7844658ecb6a847055c355d5b0ef2eb3a9",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/zXgC2Z3G/azure-paxels-neo-1.20.1-1.0.6.jar",
-          "filename": "azure-paxels-neo-1.20.1-1.0.6.jar",
+          "sha512": "401ddc7d954c8e11ecfaa324a2323e42c1d75cfde20fa43a1cdc7cbc61c72dc6eb97bcc7387d030ae4a8ddf083fca41871c3fd44098fa899277915ce512d6625",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/r2Wgicv8/azure-paxels-1.0.0.jar",
+          "filename": "azure-paxels-1.0.0.jar",
           "primary": true,
-          "size": 21055
+          "size": 17611
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
-      "id": "iYZr8icM",
-      "name": "1.0.11",
-      "version_number": "1.0.11",
+      "id": "rLvEClp9",
+      "name": "Fabric 1.20-rc1",
+      "version_number": "1.0.2",
       "game_versions": [
-        "1.20.1",
-        "1.20.2"
+        "1.20-rc1"
       ],
       "loaders": [
         "fabric",
@@ -287,11 +787,11 @@
       ],
       "files": [
         {
-          "sha512": "c6b66cdbf116ccfca146a9ba02f096546f068dd1c24c0ad134b22a09d12bbaf98638619d1278a3521d36cdcf2601bb0d23efbc10df0290c2611decfb3853ce53",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/iYZr8icM/azure-paxels-1.20.2-1.0.11.jar",
-          "filename": "azure-paxels-1.20.2-1.0.11.jar",
+          "sha512": "0cc65a0f02251cee534c76ef647548f33481c061f0c98016565e8319252cf8ca336185d4ad175ee0bde6d3f139f5808fade8e8933da6a764fa51712e701069ec",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/rLvEClp9/azure-paxels-1.20-rc1-1.0.2.jar",
+          "filename": "azure-paxels-1.20-rc1-1.0.2.jar",
           "primary": true,
-          "size": 21163
+          "size": 18233
         }
       ],
       "dependencies": [
@@ -333,6 +833,34 @@
       ]
     },
     {
+      "id": "sz14Df1r",
+      "name": "Fabric 1.20-pre1",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.20-pre1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "15ed56b963cb7692f2b6c7bc69b075ca9903a4d88c934742bba328bd6b3a6a9f8316cf9f202a66a4e0f387306d6ddd5b5f1cd7c79ac61e7685270920d52f3262",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/sz14Df1r/azure-paxels-1.0.1.jar",
+          "filename": "azure-paxels-1.0.1.jar",
+          "primary": true,
+          "size": 18225
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "JxkMjQqZ",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "uSNr43Oe",
       "name": "1.0.3",
       "version_number": "1.0.3",
@@ -362,554 +890,26 @@
       ]
     },
     {
-      "id": "C2zy1KjV",
-      "name": "1.0.10",
-      "version_number": "1.0.10",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "773ba8dd7f95182f067c037fadb154eca267acb2865fd801c65dccdc009fda51ff3a12cad9548ec36c4ea5a6abfb9c90e2143cca561096f8be14d323113ed755",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/C2zy1KjV/azure-paxels-1.20.2-1.0.10.jar",
-          "filename": "azure-paxels-1.20.2-1.0.10.jar",
-          "primary": true,
-          "size": 20378
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "eqWq0W5R",
-      "name": "1.0.9",
-      "version_number": "1.0.9",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d6ddeadd1cbac836f6b084ae5a32ac7fda5307723572e399713f465c690d6c767fe2a933407afd8639821bce5c9fdee9140a890cd6bc045629cff64f86bf083d",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/eqWq0W5R/azure-paxels-1.20.2-1.0.9.jar",
-          "filename": "azure-paxels-1.20.2-1.0.9.jar",
-          "primary": true,
-          "size": 19012
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "eMhH4IQd",
-      "name": "1.0.8",
-      "version_number": "1.0.8",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "bad1508dc88b0d43e37a6edb260e0cb5b1465f51412d49636dda2d5f9f63e19605d4527419a850b857e9011c6cd50fd713c899c6c4f3d98f1fba68ac5ccf03e8",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/eMhH4IQd/azure-paxels-1.20.2-1.0.8.jar",
-          "filename": "azure-paxels-1.20.2-1.0.8.jar",
-          "primary": true,
-          "size": 19012
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4czBQvqn",
-      "name": "1.0.2",
-      "version_number": "1.0.2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge",
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "5f3b7a89e506f88de486c46b2a16b733f679f69fc868dee9d26a5e0638ce836afd0ea56e1406b0f9f99b8342d0b082dddf1fbe2753532e4765c4b62e15522f67",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/4czBQvqn/azure-paxels-neo-1.20.1-1.0.2.jar",
-          "filename": "azure-paxels-neo-1.20.1-1.0.2.jar",
-          "primary": true,
-          "size": 18603
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vvuO3ImH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "WVef6afU",
-      "name": "1.0.1",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge",
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "e83e0dc993844415b9c7b165bd55ddce431c5dff8640f174530e8a4475c6be336e3f5ed7af4f08b398b4cbec91459e2d44418faf643dce6c59cd82598c5c66f5",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/WVef6afU/azure-paxels-neo-1.20.1-1.0.1.jar",
-          "filename": "azure-paxels-neo-1.20.1-1.0.1.jar",
-          "primary": true,
-          "size": 17248
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vvuO3ImH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "h8QjBjgj",
-      "name": "1.0.7",
-      "version_number": "1.0.7",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "b5f36c9b51c1a4c9c63979c96c92571768a7450a75b9ad4e21b86bcc7a43833551e6194d966a78ad7f6198f9bb9615c13eb8edb7f4882ed4664fc47d724b402d",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/h8QjBjgj/azure-paxels-1.20.2-1.0.7.jar",
-          "filename": "azure-paxels-1.20.2-1.0.7.jar",
-          "primary": true,
-          "size": 20738
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "22daPonb",
-      "name": "1.0.6",
-      "version_number": "1.0.6",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "75b68fb14599e5ce688f3cfae683d1429d1166743315699a4a26e6862087b7c6314c7a50a6d962f9a3e66662160a4bd1db45675a712097f656f5bb2b5a8436cd",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/22daPonb/azure-paxels-1.20.2-1.0.6.jar",
-          "filename": "azure-paxels-1.20.2-1.0.6.jar",
-          "primary": true,
-          "size": 19530
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "J8fQH51y",
-      "name": "1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge",
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "00c902d30802df74f67c33a04469d7e875db7bf2520ae088523382420cde16b0d6b4630ce0c7c12a39b9448d3fcc1cb2c77a0902c17fb5e4c69cbeb514cccef4",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/J8fQH51y/azure-paxels-neo-1.20.1-1.0.0.jar",
-          "filename": "azure-paxels-neo-1.20.1-1.0.0.jar",
-          "primary": true,
-          "size": 16675
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "vvuO3ImH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "hGevtm5N",
+      "id": "zXgC2Z3G",
       "name": "1.0.6",
       "version_number": "1.0.6",
       "game_versions": [
         "1.20.1"
       ],
       "loaders": [
-        "fabric",
-        "quilt"
+        "forge",
+        "neoforge"
       ],
       "files": [
         {
-          "sha512": "00d1b08f26288047e63f162e7bd39cc892cad38762ba6c54c2264df095ce00cf534f02201bfadef1432bbf864ea9dca92d74b2ab76923300ce3118826bec01fd",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/hGevtm5N/azure-paxels-1.20.1-1.0.6.jar",
-          "filename": "azure-paxels-1.20.1-1.0.6.jar",
+          "sha512": "49022566504fb7faca1ed7552de2a7d51c1ec10bb82417cbc6cab478963e62cb7e4ef09974469155eacfb54850d55c7844658ecb6a847055c355d5b0ef2eb3a9",
+          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/zXgC2Z3G/azure-paxels-neo-1.20.1-1.0.6.jar",
+          "filename": "azure-paxels-neo-1.20.1-1.0.6.jar",
           "primary": true,
-          "size": 19529
+          "size": 21055
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "kQdAeuZb",
-      "name": "1.0.3",
-      "version_number": "1.0.3",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0d031b83df01069182f370e7d667ee5428d720da43602503db321153add540db0baa4e22d24f9d265c1b6a25df44e310012c77f8bcb78290652308cb7c88286d",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/kQdAeuZb/azure-paxels-1.0.3.jar",
-          "filename": "azure-paxels-1.0.3.jar",
-          "primary": true,
-          "size": 19717
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Eg8Ch68c",
-      "name": "Fabric 1.20.1",
-      "version_number": "1.0.5",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2c0fc96262239f2a0801fde64ab06b38e8c14e344dccc0f8b259bae221848d6245975553660b3b3a60f4d8e37b36dd036e34da2a242c70acb32a2f1166755501",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/Eg8Ch68c/azure-paxels-1.20.1-1.0.5.jar",
-          "filename": "azure-paxels-1.20.1-1.0.5.jar",
-          "primary": true,
-          "size": 18585
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "14wTHcAh",
-      "name": "Fabric/Quilt 1.19.4",
-      "version_number": "1.0.2",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3d9d7150c86c29bb49d9f26743bad2e3276a90596b0afbc1da93b81ad140df072080eadd2b678135475cdf6d55b4d21ce61723c8c87d7499869a13cd5ce77a8c",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/14wTHcAh/azure-paxels-1.0.2.jar",
-          "filename": "azure-paxels-1.0.2.jar",
-          "primary": true,
-          "size": 18773
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "H0ORfmJt",
-      "name": "Fabric 1.20.1",
-      "version_number": "1.0.4",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "df05a012cf311baa4211eac686d720df6174f9215ef13b7e76fa414223cc7e9fc14f6079d4e35afd342fb17c0b890555238e46b7022e6a7b98b887c3e00b05e3",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/H0ORfmJt/azure-paxels-1.20.1-1.0.4.jar",
-          "filename": "azure-paxels-1.20.1-1.0.4.jar",
-          "primary": true,
-          "size": 18224
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Ij2fIGIy",
-      "name": "1.0.3",
-      "version_number": "1.0.3",
-      "game_versions": [
-        "1.20"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "edd74bc8b62c0a73d8f889af793d982f636cbcba512ce410cca611af154c4cf2a07cbdca31140259e948ce716f92d4102165380cbedbc8d46b5d7fc4b92e0f15",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/Ij2fIGIy/azure-paxels-1.20-1.0.3.jar",
-          "filename": "azure-paxels-1.20-1.0.3.jar",
-          "primary": true,
-          "size": 18224
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "rLvEClp9",
-      "name": "Fabric 1.20-rc1",
-      "version_number": "1.0.2",
-      "game_versions": [
-        "1.20-rc1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0cc65a0f02251cee534c76ef647548f33481c061f0c98016565e8319252cf8ca336185d4ad175ee0bde6d3f139f5808fade8e8933da6a764fa51712e701069ec",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/rLvEClp9/azure-paxels-1.20-rc1-1.0.2.jar",
-          "filename": "azure-paxels-1.20-rc1-1.0.2.jar",
-          "primary": true,
-          "size": 18233
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "IOVJJDdH",
-      "name": "Fabric/Quilt 1.19.4",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "7dc54248f8034f1fbdff5c4c5da8a24341641ca164a0c483f2f68ee413e23cfdd86952e446013f637e9c7ee4d0926407418aa5aacaa41916e3203f752f5731df",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/IOVJJDdH/azure-paxels-1.0.1.jar",
-          "filename": "azure-paxels-1.0.1.jar",
-          "primary": true,
-          "size": 18411
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "sz14Df1r",
-      "name": "Fabric 1.20-pre1",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "1.20-pre1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "15ed56b963cb7692f2b6c7bc69b075ca9903a4d88c934742bba328bd6b3a6a9f8316cf9f202a66a4e0f387306d6ddd5b5f1cd7c79ac61e7685270920d52f3262",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/sz14Df1r/azure-paxels-1.0.1.jar",
-          "filename": "azure-paxels-1.0.1.jar",
-          "primary": true,
-          "size": 18225
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "JxkMjQqZ",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "N6csSTat",
-      "name": "Fabric 1.20-pre1",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.20-pre1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2d8d2375bc4023c7abf55452c13db825c1dccdb07ee02750a5abdcca7ae4cbd704f22b1839e0213b29bf889cf2f02ddcdc3efce8c5de687c66af84df8563cdc7",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/N6csSTat/azure-paxels-1.0.0.jar",
-          "filename": "azure-paxels-1.0.0.jar",
-          "primary": true,
-          "size": 17597
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "JxkMjQqZ",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "r2Wgicv8",
-      "name": "Azure Paxels 1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "401ddc7d954c8e11ecfaa324a2323e42c1d75cfde20fa43a1cdc7cbc61c72dc6eb97bcc7387d030ae4a8ddf083fca41871c3fd44098fa899277915ce512d6625",
-          "url": "https://cdn.modrinth.com/data/sUlkLN1E/versions/r2Wgicv8/azure-paxels-1.0.0.jar",
-          "filename": "azure-paxels-1.0.0.jar",
-          "primary": true,
-          "size": 17611
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
+      "dependencies": []
     }
   ]
 }

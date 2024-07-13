@@ -5,12 +5,13 @@
   "description": "A simple Serverside Fabric mod that allows you to assign commands to Item(Stacks)",
   "versions": [
     {
-      "id": "ydadkJf6",
-      "name": "v1.7.0-pre.1+1.20.5 - A rough port to 1.20.5/6",
-      "version_number": "1.7.0-pre.1+1.20.5",
+      "id": "8adWifDr",
+      "name": "v1.6.1 - Two new command context for better compatability",
+      "version_number": "1.6.1+1.20.2",
       "game_versions": [
-        "1.20.5",
-        "1.20.6"
+        "1.20",
+        "1.20.1",
+        "1.20.2"
       ],
       "loaders": [
         "fabric",
@@ -18,29 +19,29 @@
       ],
       "files": [
         {
-          "sha512": "3a38535f46546946c02274be1f64dff11b628200b34a55fe33a2518dc0bb55b648ff5774b48f9d1a5e05e5a4fd703a1ddc7da68d2a64dc06ba3854069b70d3ee",
-          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/ydadkJf6/itemcommander-1.7.0-pre.1%2B1.20.5.jar",
-          "filename": "itemcommander-1.7.0-pre.1+1.20.5.jar",
+          "sha512": "77f9c97838852b8b5d6324004a569ef141beec4b7701e57a121f1c0f693e84cce634e25b1e31e3c5ade97054ba4c3f5ee89f19bb2b94a3716091a5e7e31478ad",
+          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/8adWifDr/itemcommander-1.6.1%2B1.20.2.jar",
+          "filename": "itemcommander-1.6.1+1.20.2.jar",
           "primary": true,
-          "size": 71892
+          "size": 69984
         },
         {
-          "sha512": "0893ebc957b9116821d220d684be7623efc3ea85be2f57fa7df4d5558640ce33e53928df06a0875e88e9e3e50b65f3be20473b51c447c0e911c883c20a2c0739",
-          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/ydadkJf6/itemcommander-1.7.0-pre.1%2B1.20.5-sources.jar",
-          "filename": "itemcommander-1.7.0-pre.1+1.20.5-sources.jar",
+          "sha512": "7c5285acf5a3d56c925194b59955559770e3b92fa9ced9fea302abefc0c3bdc31dbc3fe7ef20e092c9b60c27b8ef3ae4ce635e89c82c4b0d159b328bd460f6ba",
+          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/8adWifDr/itemcommander-1.6.1%2B1.20.2-sources.jar",
+          "filename": "itemcommander-1.6.1+1.20.2-sources.jar",
           "primary": false,
-          "size": 43374
+          "size": 42466
         }
       ],
       "dependencies": [
         {
-          "project_id": "Vebnzrzj",
+          "project_id": "eXts2L7r",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
         {
-          "project_id": "eXts2L7r",
+          "project_id": "Vebnzrzj",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -48,42 +49,77 @@
       ]
     },
     {
-      "id": "xqb2EDnt",
-      "name": "v1.6.2 - Fix Text Placeholders API support",
-      "version_number": "1.6.2+1.20.4",
+      "id": "H5kYSEB7",
+      "name": "v1.5.0 - 1.20.4, Custom Item NBT fix & save/give!",
+      "version_number": "1.5.0",
       "game_versions": [
         "1.20.3",
         "1.20.4"
       ],
       "loaders": [
-        "fabric",
-        "quilt"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "76bd04cc3ff8ceb87b52c1a9e688ed89e4b7772cd190318da5d62eb286fbd111590803aab7adcbe823cf052d492cb26d4ac592a64322f795ef8d42fc8d90a4c9",
-          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/xqb2EDnt/itemcommander-1.6.2%2B1.20.4.jar",
-          "filename": "itemcommander-1.6.2+1.20.4.jar",
+          "sha512": "7481b1af3783da2b597d42ffe678f2d92958bfc27e0510ef1257f1078afccc2e5bcfbec1d07ce073c627644438a85a8fdaa4e84762fa3238f0cea17df02e09f8",
+          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/H5kYSEB7/itemcommander-1.5.0.jar",
+          "filename": "itemcommander-1.5.0.jar",
           "primary": true,
-          "size": 72145
+          "size": 195211
         },
         {
-          "sha512": "f7863343683be0deabc8229599fef7efdfb791fb64ce2eaa4250fccd8342a8358c1b647406ec596d810454028d9df256020d0c539b09d546db04e2d15bcdbe34",
-          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/xqb2EDnt/itemcommander-1.6.2%2B1.20.4-sources.jar",
-          "filename": "itemcommander-1.6.2+1.20.4-sources.jar",
+          "sha512": "a891e7ea0f95a2b4b5fbe7851dd1ff148fdf31eb31bab9382e1c79fa718b9e9326d16cf5eac3787a73a8db5512deddf09b2119ecb343c6036b024e7c179167b7",
+          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/H5kYSEB7/itemcommander-1.5.0-sources.jar",
+          "filename": "itemcommander-1.5.0-sources.jar",
           "primary": false,
-          "size": 43031
+          "size": 41716
         }
       ],
       "dependencies": [
         {
-          "project_id": "eXts2L7r",
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "K1Cg9JiW",
+      "name": "v1.6.1 - Two new command context for better compatability",
+      "version_number": "1.6.1+1.20.4",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "04c2c4ca790e8d45e388858463e14f6722c18c21bc49d383e35bb795f975de3f0e86e474aa2461dd5ea8e48eba49da6682e0ccd0c204102607a7d035dc3d6469",
+          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/K1Cg9JiW/itemcommander-1.6.1%2B1.20.4.jar",
+          "filename": "itemcommander-1.6.1+1.20.4.jar",
+          "primary": true,
+          "size": 69974
+        },
+        {
+          "sha512": "f8504e2fb0c472a4c41dc2c57c661e600302858eed045c44d95b614219ccbbcfcf7b6eb365c8ab8750fc3ec2c53463c85a567da543ebceb4db06864a12b03f87",
+          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/K1Cg9JiW/itemcommander-1.6.1%2B1.20.4-sources.jar",
+          "filename": "itemcommander-1.6.1+1.20.4-sources.jar",
+          "primary": false,
+          "size": 42462
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
         {
-          "project_id": "Vebnzrzj",
+          "project_id": "eXts2L7r",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -135,55 +171,13 @@
       ]
     },
     {
-      "id": "K1Cg9JiW",
-      "name": "v1.6.1 - Two new command context for better compatability",
-      "version_number": "1.6.1+1.20.4",
+      "id": "PRfqdCh3",
+      "name": "v1.3.0 - Even more Placeholders!",
+      "version_number": "1.3.0",
       "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "04c2c4ca790e8d45e388858463e14f6722c18c21bc49d383e35bb795f975de3f0e86e474aa2461dd5ea8e48eba49da6682e0ccd0c204102607a7d035dc3d6469",
-          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/K1Cg9JiW/itemcommander-1.6.1%2B1.20.4.jar",
-          "filename": "itemcommander-1.6.1+1.20.4.jar",
-          "primary": true,
-          "size": 69974
-        },
-        {
-          "sha512": "f8504e2fb0c472a4c41dc2c57c661e600302858eed045c44d95b614219ccbbcfcf7b6eb365c8ab8750fc3ec2c53463c85a567da543ebceb4db06864a12b03f87",
-          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/K1Cg9JiW/itemcommander-1.6.1%2B1.20.4-sources.jar",
-          "filename": "itemcommander-1.6.1+1.20.4-sources.jar",
-          "primary": false,
-          "size": 42462
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "eXts2L7r",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "8adWifDr",
-      "name": "v1.6.1 - Two new command context for better compatability",
-      "version_number": "1.6.1+1.20.2",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2"
+        "1.18",
+        "1.18.1",
+        "1.18.2"
       ],
       "loaders": [
         "fabric",
@@ -191,34 +185,14 @@
       ],
       "files": [
         {
-          "sha512": "77f9c97838852b8b5d6324004a569ef141beec4b7701e57a121f1c0f693e84cce634e25b1e31e3c5ade97054ba4c3f5ee89f19bb2b94a3716091a5e7e31478ad",
-          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/8adWifDr/itemcommander-1.6.1%2B1.20.2.jar",
-          "filename": "itemcommander-1.6.1+1.20.2.jar",
+          "sha512": "ceee260cfd23d1ae78eb00d83c45016128317fcb380c501f685497a849d8926d2d17ac88d447e427a9de828a67ea4be72dca88da649b89e4bb28c208253042db",
+          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/1.3.0/itemcommander-1.3.0.jar",
+          "filename": "itemcommander-1.3.0.jar",
           "primary": true,
-          "size": 69984
-        },
-        {
-          "sha512": "7c5285acf5a3d56c925194b59955559770e3b92fa9ced9fea302abefc0c3bdc31dbc3fe7ef20e092c9b60c27b8ef3ae4ce635e89c82c4b0d159b328bd460f6ba",
-          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/8adWifDr/itemcommander-1.6.1%2B1.20.2-sources.jar",
-          "filename": "itemcommander-1.6.1+1.20.2-sources.jar",
-          "primary": false,
-          "size": 42466
+          "size": 91648
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "eXts2L7r",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
+      "dependencies": []
     },
     {
       "id": "U3X8y70Y",
@@ -301,66 +275,6 @@
       ]
     },
     {
-      "id": "H5kYSEB7",
-      "name": "v1.5.0 - 1.20.4, Custom Item NBT fix & save/give!",
-      "version_number": "1.5.0",
-      "game_versions": [
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "7481b1af3783da2b597d42ffe678f2d92958bfc27e0510ef1257f1078afccc2e5bcfbec1d07ce073c627644438a85a8fdaa4e84762fa3238f0cea17df02e09f8",
-          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/H5kYSEB7/itemcommander-1.5.0.jar",
-          "filename": "itemcommander-1.5.0.jar",
-          "primary": true,
-          "size": 195211
-        },
-        {
-          "sha512": "a891e7ea0f95a2b4b5fbe7851dd1ff148fdf31eb31bab9382e1c79fa718b9e9326d16cf5eac3787a73a8db5512deddf09b2119ecb343c6036b024e7c179167b7",
-          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/H5kYSEB7/itemcommander-1.5.0-sources.jar",
-          "filename": "itemcommander-1.5.0-sources.jar",
-          "primary": false,
-          "size": 41716
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "PRfqdCh3",
-      "name": "v1.3.0 - Even more Placeholders!",
-      "version_number": "1.3.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ceee260cfd23d1ae78eb00d83c45016128317fcb380c501f685497a849d8926d2d17ac88d447e427a9de828a67ea4be72dca88da649b89e4bb28c208253042db",
-          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/1.3.0/itemcommander-1.3.0.jar",
-          "filename": "itemcommander-1.3.0.jar",
-          "primary": true,
-          "size": 91648
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "u0ke1I83",
       "name": "v1.2.0 - Lecterns and Placeholders",
       "version_number": "1.2.0",
@@ -403,6 +317,92 @@
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "xqb2EDnt",
+      "name": "v1.6.2 - Fix Text Placeholders API support",
+      "version_number": "1.6.2+1.20.4",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "76bd04cc3ff8ceb87b52c1a9e688ed89e4b7772cd190318da5d62eb286fbd111590803aab7adcbe823cf052d492cb26d4ac592a64322f795ef8d42fc8d90a4c9",
+          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/xqb2EDnt/itemcommander-1.6.2%2B1.20.4.jar",
+          "filename": "itemcommander-1.6.2+1.20.4.jar",
+          "primary": true,
+          "size": 72145
+        },
+        {
+          "sha512": "f7863343683be0deabc8229599fef7efdfb791fb64ce2eaa4250fccd8342a8358c1b647406ec596d810454028d9df256020d0c539b09d546db04e2d15bcdbe34",
+          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/xqb2EDnt/itemcommander-1.6.2%2B1.20.4-sources.jar",
+          "filename": "itemcommander-1.6.2+1.20.4-sources.jar",
+          "primary": false,
+          "size": 43031
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "eXts2L7r",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "ydadkJf6",
+      "name": "v1.7.0-pre.1+1.20.5 - A rough port to 1.20.5/6",
+      "version_number": "1.7.0-pre.1+1.20.5",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3a38535f46546946c02274be1f64dff11b628200b34a55fe33a2518dc0bb55b648ff5774b48f9d1a5e05e5a4fd703a1ddc7da68d2a64dc06ba3854069b70d3ee",
+          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/ydadkJf6/itemcommander-1.7.0-pre.1%2B1.20.5.jar",
+          "filename": "itemcommander-1.7.0-pre.1+1.20.5.jar",
+          "primary": true,
+          "size": 71892
+        },
+        {
+          "sha512": "0893ebc957b9116821d220d684be7623efc3ea85be2f57fa7df4d5558640ce33e53928df06a0875e88e9e3e50b65f3be20473b51c447c0e911c883c20a2c0739",
+          "url": "https://cdn.modrinth.com/data/VUnrj0Dx/versions/ydadkJf6/itemcommander-1.7.0-pre.1%2B1.20.5-sources.jar",
+          "filename": "itemcommander-1.7.0-pre.1+1.20.5-sources.jar",
+          "primary": false,
+          "size": 43374
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "eXts2L7r",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
     }
   ]
 }

@@ -5,28 +5,6 @@
   "description": "The must have tool for datapack developers and command block enthusiasts! This mod will accelerate your development process.",
   "versions": [
     {
-      "id": "9rmRCp5S",
-      "name": "Datamancer 1.2.0 for 1.21",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "b533a69f0e3f32f62ce306fc17f999735d9695b2fe07f3296a313e0fb2ae413fd24734f10e9586a0646224f939d7dc9ce0e57d45d334384a56f4853081e0e91e",
-          "url": "https://cdn.modrinth.com/data/maQE7or0/versions/9rmRCp5S/datamancer-1.2.0.jar",
-          "filename": "datamancer-1.2.0.jar",
-          "primary": true,
-          "size": 118726
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "7MrVi6wD",
       "name": "Datamancer 1.1.0 for 1.20.4",
       "version_number": "1.1.0",
@@ -47,16 +25,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "K01OU20C",
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -83,16 +61,75 @@
       ],
       "dependencies": [
         {
+          "project_id": "K01OU20C",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
+        }
+      ]
+    },
+    {
+      "id": "9rmRCp5S",
+      "name": "Datamancer 1.2.0 for 1.21",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "b533a69f0e3f32f62ce306fc17f999735d9695b2fe07f3296a313e0fb2ae413fd24734f10e9586a0646224f939d7dc9ce0e57d45d334384a56f4853081e0e91e",
+          "url": "https://cdn.modrinth.com/data/maQE7or0/versions/9rmRCp5S/datamancer-1.2.0.jar",
+          "filename": "datamancer-1.2.0.jar",
+          "primary": true,
+          "size": 118726
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Ah7hWRLE",
+      "name": "Datamancer 1.0 for 1.20.2",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.20.2-pre1",
+        "1.20.2-pre2",
+        "1.20.2-pre3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "422f87bb20a46b5ca87992c59718befef8c3b056a7f9beb43d4ec76431a37ee438223b373c1c1b8242a170fd42bae3b8554c5ad676f84574dbddd0a9c5aa5392",
+          "url": "https://cdn.modrinth.com/data/maQE7or0/versions/Ah7hWRLE/datamancer-1.0.jar",
+          "filename": "datamancer-1.0.jar",
+          "primary": true,
+          "size": 271546
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "K01OU20C",
           "version_id": null,
           "file_name": null,
           "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -118,43 +155,6 @@
           "filename": "datamancer-1.0.1.jar",
           "primary": true,
           "size": 271611
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "K01OU20C",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Ah7hWRLE",
-      "name": "Datamancer 1.0 for 1.20.2",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.20.2-pre1",
-        "1.20.2-pre2",
-        "1.20.2-pre3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "422f87bb20a46b5ca87992c59718befef8c3b056a7f9beb43d4ec76431a37ee438223b373c1c1b8242a170fd42bae3b8554c5ad676f84574dbddd0a9c5aa5392",
-          "url": "https://cdn.modrinth.com/data/maQE7or0/versions/Ah7hWRLE/datamancer-1.0.jar",
-          "filename": "datamancer-1.0.jar",
-          "primary": true,
-          "size": 271546
         }
       ],
       "dependencies": [

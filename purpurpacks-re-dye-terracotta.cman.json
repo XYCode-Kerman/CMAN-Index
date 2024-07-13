@@ -5,11 +5,12 @@
   "description": "Allows dyeing any color of terracotta, not just plain",
   "versions": [
     {
-      "id": "WNZe5iDG",
-      "name": "v3.0 Update to 1.21 - Mod Version",
-      "version_number": "3.0+mod",
+      "id": "236te2pV",
+      "name": "1.0 - Mod Version",
+      "version_number": "1.0_mod",
       "game_versions": [
-        "1.21"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "fabric",
@@ -18,73 +19,36 @@
       ],
       "files": [
         {
-          "sha512": "af6a4ef03a947edfba9cc3bd47b747c165f174f416e77c604a3f30ef04cbddacfc96470c709af83ca8317921ed84e6a4f85e830092169ef3fcf6c455443191db",
-          "url": "https://cdn.modrinth.com/data/lANiwxxT/versions/WNZe5iDG/purpurpacks-re-dye-terracotta-3.0.jar",
-          "filename": "purpurpacks-re-dye-terracotta-3.0.jar",
+          "sha512": "785ec4bb81affbfe5f43df8b69451e74ceaace251fe94928e733ed1fc95d0b8e4352da7480effd98950d2bf74534f382f54158f6b3354f87456cc7af00d82f7a",
+          "url": "https://cdn.modrinth.com/data/lANiwxxT/versions/236te2pV/purpurpacks-re-dye-terracotta-1.0.jar",
+          "filename": "purpurpacks-re-dye-terracotta-1.0.jar",
           "primary": true,
-          "size": 40531
+          "size": 40485
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "DUoieMnq",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "sbHA4Z4I",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "z9M75QAX",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
+      "dependencies": []
     },
     {
-      "id": "vIvwRafL",
-      "name": "v3.0 Update to 1.21",
-      "version_number": "3.0",
+      "id": "910yDvuy",
+      "name": "v1.1 - 23w31a",
+      "version_number": "1.1",
       "game_versions": [
-        "1.21"
+        "1.20.1",
+        "23w31a"
       ],
       "loaders": [
         "datapack"
       ],
       "files": [
         {
-          "sha512": "3c91babbbc817a4668049d9d087b0f3ca3137aed36f429658d1b8e815b82905bf19c45c3d87da2c43f9f0a8da86a2f8dd02a03c4e78c6ca45e2478cd3edecd31",
-          "url": "https://cdn.modrinth.com/data/lANiwxxT/versions/vIvwRafL/purpurpack_re_dye_terracotta_3.0.zip",
-          "filename": "purpurpack_re_dye_terracotta_3.0.zip",
+          "sha512": "933d95bac5dde3667c38e01947a36b41c7c58073a414503999915090b986bff25af7a7177aef71f3fffe7a3cf2ace3cc587bf326f575caaa2a5c02230f0b09f0",
+          "url": "https://cdn.modrinth.com/data/lANiwxxT/versions/910yDvuy/purpurpack_re_dye_terracotta_v1.1.zip",
+          "filename": "purpurpack_re_dye_terracotta_v1.1.zip",
           "primary": true,
-          "size": 21724
+          "size": 22294
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "sbHA4Z4I",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "z9M75QAX",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "DUoieMnq",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
+      "dependencies": []
     },
     {
       "id": "HEizXSyb",
@@ -110,6 +74,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "DUoieMnq",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "sbHA4Z4I",
           "version_id": null,
           "file_name": null,
@@ -117,12 +87,6 @@
         },
         {
           "project_id": "z9M75QAX",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "DUoieMnq",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -130,26 +94,34 @@
       ]
     },
     {
-      "id": "lLwSHCi9",
-      "name": "v2.0 Update to 1.20.5",
-      "version_number": "2.0",
+      "id": "UsY9yHEg",
+      "name": "v1.2 Update to 1.20.2 - Mod Version",
+      "version_number": "1.2+mod",
       "game_versions": [
-        "1.20.5",
-        "1.20.6"
+        "1.20.1",
+        "1.20.2"
       ],
       "loaders": [
-        "datapack"
+        "fabric",
+        "forge",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "452f4432f7f745d7d5aff4a9de451b01fe5dc66b0e15c90c400c0ddcbeb9c180ec03c0d743d12cc2868ad23e81d0547a54c5845f7c32b2efe4d4d588b46021a8",
-          "url": "https://cdn.modrinth.com/data/lANiwxxT/versions/lLwSHCi9/purpurpack_re_dye_terracotta_2.0.zip",
-          "filename": "purpurpack_re_dye_terracotta_2.0.zip",
+          "sha512": "156cb2a915ba021cf16b4efedeb066a4e81db679d9940ce187e9934129039c4f8397898b9dafd2b69d52d3ee10e673da17581ca42b781c31ff6f8149210f7f72",
+          "url": "https://cdn.modrinth.com/data/lANiwxxT/versions/UsY9yHEg/purpurpacks-re-dye-terracotta-1.2.jar",
+          "filename": "purpurpacks-re-dye-terracotta-1.2.jar",
           "primary": true,
-          "size": 21761
+          "size": 40593
         }
       ],
       "dependencies": [
+        {
+          "project_id": "DUoieMnq",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
         {
           "project_id": "sbHA4Z4I",
           "version_id": null,
@@ -161,9 +133,45 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "WNZe5iDG",
+      "name": "v3.0 Update to 1.21 - Mod Version",
+      "version_number": "3.0+mod",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "af6a4ef03a947edfba9cc3bd47b747c165f174f416e77c604a3f30ef04cbddacfc96470c709af83ca8317921ed84e6a4f85e830092169ef3fcf6c455443191db",
+          "url": "https://cdn.modrinth.com/data/lANiwxxT/versions/WNZe5iDG/purpurpacks-re-dye-terracotta-3.0.jar",
+          "filename": "purpurpacks-re-dye-terracotta-3.0.jar",
+          "primary": true,
+          "size": 40531
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "z9M75QAX",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         },
         {
           "project_id": "DUoieMnq",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "sbHA4Z4I",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -196,13 +204,13 @@
       ],
       "dependencies": [
         {
-          "project_id": "DUoieMnq",
+          "project_id": "z9M75QAX",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         },
         {
-          "project_id": "z9M75QAX",
+          "project_id": "DUoieMnq",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -259,28 +267,32 @@
       ]
     },
     {
-      "id": "UsY9yHEg",
-      "name": "v1.2 Update to 1.20.2 - Mod Version",
-      "version_number": "1.2+mod",
+      "id": "lLwSHCi9",
+      "name": "v2.0 Update to 1.20.5",
+      "version_number": "2.0",
       "game_versions": [
-        "1.20.1",
-        "1.20.2"
+        "1.20.5",
+        "1.20.6"
       ],
       "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
+        "datapack"
       ],
       "files": [
         {
-          "sha512": "156cb2a915ba021cf16b4efedeb066a4e81db679d9940ce187e9934129039c4f8397898b9dafd2b69d52d3ee10e673da17581ca42b781c31ff6f8149210f7f72",
-          "url": "https://cdn.modrinth.com/data/lANiwxxT/versions/UsY9yHEg/purpurpacks-re-dye-terracotta-1.2.jar",
-          "filename": "purpurpacks-re-dye-terracotta-1.2.jar",
+          "sha512": "452f4432f7f745d7d5aff4a9de451b01fe5dc66b0e15c90c400c0ddcbeb9c180ec03c0d743d12cc2868ad23e81d0547a54c5845f7c32b2efe4d4d588b46021a8",
+          "url": "https://cdn.modrinth.com/data/lANiwxxT/versions/lLwSHCi9/purpurpack_re_dye_terracotta_2.0.zip",
+          "filename": "purpurpack_re_dye_terracotta_2.0.zip",
           "primary": true,
-          "size": 40593
+          "size": 21761
         }
       ],
       "dependencies": [
+        {
+          "project_id": "sbHA4Z4I",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
         {
           "project_id": "z9M75QAX",
           "version_id": null,
@@ -289,12 +301,6 @@
         },
         {
           "project_id": "DUoieMnq",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "sbHA4Z4I",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -343,50 +349,44 @@
       ]
     },
     {
-      "id": "910yDvuy",
-      "name": "v1.1 - 23w31a",
-      "version_number": "1.1",
+      "id": "vIvwRafL",
+      "name": "v3.0 Update to 1.21",
+      "version_number": "3.0",
       "game_versions": [
-        "1.20.1",
-        "23w31a"
+        "1.21"
       ],
       "loaders": [
         "datapack"
       ],
       "files": [
         {
-          "sha512": "933d95bac5dde3667c38e01947a36b41c7c58073a414503999915090b986bff25af7a7177aef71f3fffe7a3cf2ace3cc587bf326f575caaa2a5c02230f0b09f0",
-          "url": "https://cdn.modrinth.com/data/lANiwxxT/versions/910yDvuy/purpurpack_re_dye_terracotta_v1.1.zip",
-          "filename": "purpurpack_re_dye_terracotta_v1.1.zip",
+          "sha512": "3c91babbbc817a4668049d9d087b0f3ca3137aed36f429658d1b8e815b82905bf19c45c3d87da2c43f9f0a8da86a2f8dd02a03c4e78c6ca45e2478cd3edecd31",
+          "url": "https://cdn.modrinth.com/data/lANiwxxT/versions/vIvwRafL/purpurpack_re_dye_terracotta_3.0.zip",
+          "filename": "purpurpack_re_dye_terracotta_3.0.zip",
           "primary": true,
-          "size": 22294
+          "size": 21724
         }
       ],
-      "dependencies": []
-    },
-    {
-      "id": "236te2pV",
-      "name": "1.0 - Mod Version",
-      "version_number": "1.0_mod",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "785ec4bb81affbfe5f43df8b69451e74ceaace251fe94928e733ed1fc95d0b8e4352da7480effd98950d2bf74534f382f54158f6b3354f87456cc7af00d82f7a",
-          "url": "https://cdn.modrinth.com/data/lANiwxxT/versions/236te2pV/purpurpacks-re-dye-terracotta-1.0.jar",
-          "filename": "purpurpacks-re-dye-terracotta-1.0.jar",
-          "primary": true,
-          "size": 40485
+          "project_id": "sbHA4Z4I",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "z9M75QAX",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "DUoieMnq",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
-      ],
-      "dependencies": []
+      ]
     },
     {
       "id": "xrtZ0MiP",

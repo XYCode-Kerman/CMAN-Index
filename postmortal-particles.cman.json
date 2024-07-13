@@ -5,6 +5,46 @@
   "description": "Overhauls the totem of undying particle effect.",
   "versions": [
     {
+      "id": "3Z72TVVX",
+      "name": "Postmortal Particles 1.0.0",
+      "version_number": "1.0.0-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "8d87bc26b8a0419aff5394a7a4eacd3786f6c55c4e029158d7bfae1306d8da345feeaafff82449b40b8942ef2a56c4408a6f0965add87d997540faab2e0b013b",
+          "url": "https://cdn.modrinth.com/data/5km6gS6P/versions/3Z72TVVX/postmortalparticles-1.0.0-1.19.4.jar",
+          "filename": "postmortalparticles-1.0.0-1.19.4.jar",
+          "primary": true,
+          "size": 85568
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": "A04AftxZ",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "Pz1hLqTB",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nM5QaZNo",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "XLcnENXn",
       "name": "Postmortal Particles 1.0.0",
       "version_number": "1.0.0-1.19.2",
@@ -25,6 +65,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "mOgUt4GM",
+          "version_id": "8TOgNwQL",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "1eAoo2KR",
           "version_id": "bIVYcRpm",
           "file_name": null,
@@ -35,10 +81,50 @@
           "version_id": "gdGDJ2bh",
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "aWsO5wvM",
+      "name": "Postmortal Particles 1.0.0",
+      "version_number": "1.0.0-1.20.x",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "30e07aa2c658d52cff2ff70418cd251584f074946c57e3a3f8a98169071b255938afdf0974cd93e92ed93efb6169cac639e38b71e3e8a95644cc4d43010b1bc2",
+          "url": "https://cdn.modrinth.com/data/5km6gS6P/versions/aWsO5wvM/postmortalparticles-1.0.0-1.20.x.jar",
+          "filename": "postmortalparticles-1.0.0-1.20.x.jar",
+          "primary": true,
+          "size": 85890
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "mOgUt4GM",
-          "version_id": "8TOgNwQL",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
         }
@@ -79,92 +165,6 @@
         {
           "project_id": "mOgUt4GM",
           "version_id": "eIrlBn1Z",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "aWsO5wvM",
-      "name": "Postmortal Particles 1.0.0",
-      "version_number": "1.0.0-1.20.x",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4",
-        "1.20.5",
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "30e07aa2c658d52cff2ff70418cd251584f074946c57e3a3f8a98169071b255938afdf0974cd93e92ed93efb6169cac639e38b71e3e8a95644cc4d43010b1bc2",
-          "url": "https://cdn.modrinth.com/data/5km6gS6P/versions/aWsO5wvM/postmortalparticles-1.0.0-1.20.x.jar",
-          "filename": "postmortalparticles-1.0.0-1.20.x.jar",
-          "primary": true,
-          "size": 85890
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "3Z72TVVX",
-      "name": "Postmortal Particles 1.0.0",
-      "version_number": "1.0.0-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8d87bc26b8a0419aff5394a7a4eacd3786f6c55c4e029158d7bfae1306d8da345feeaafff82449b40b8942ef2a56c4408a6f0965add87d997540faab2e0b013b",
-          "url": "https://cdn.modrinth.com/data/5km6gS6P/versions/3Z72TVVX/postmortalparticles-1.0.0-1.19.4.jar",
-          "filename": "postmortalparticles-1.0.0-1.19.4.jar",
-          "primary": true,
-          "size": 85568
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": "A04AftxZ",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "Pz1hLqTB",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "nM5QaZNo",
           "file_name": null,
           "dependency_type": "optional"
         }

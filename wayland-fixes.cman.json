@@ -5,50 +5,6 @@
   "description": "Fix/work around wayland bugs on modern versions. Sibling mod to legacy-lwjgl3.",
   "versions": [
     {
-      "id": "y3bnvkEJ",
-      "name": "1.0.1",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "5b17e8106487ae61e1d2fde7c62cddf9870e9dba29c108fd52e59d7a62cdc69fed554d5ae1101cef7f15478dcabb092047a39509bb499f1aa2cce3069a465ffd",
-          "url": "https://cdn.modrinth.com/data/fylxngrk/versions/y3bnvkEJ/wayland-fixes-1.0.1.jar",
-          "filename": "wayland-fixes-1.0.1.jar",
-          "primary": true,
-          "size": 53126
-        },
-        {
-          "sha512": "ae92458a8fa1f4a0878c44a0a9c1d6dd4fa0877e63da425e24b961a9e04b62ffde4cb1b1408bfc424ae594e06f1cd73c627a9ee253d883e0c940fba00a6e47fe",
-          "url": "https://cdn.modrinth.com/data/fylxngrk/versions/y3bnvkEJ/wayland-fixes-1.0.1-sources.jar",
-          "filename": "wayland-fixes-1.0.1-sources.jar",
-          "primary": false,
-          "size": 23272
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "nb3u0ljs",
       "name": "1.0.0",
       "version_number": "1.0.0",
@@ -75,6 +31,50 @@
           "filename": "wayland-fixes-1.0.0-sources.jar",
           "primary": false,
           "size": 23233
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "y3bnvkEJ",
+      "name": "1.0.1",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5b17e8106487ae61e1d2fde7c62cddf9870e9dba29c108fd52e59d7a62cdc69fed554d5ae1101cef7f15478dcabb092047a39509bb499f1aa2cce3069a465ffd",
+          "url": "https://cdn.modrinth.com/data/fylxngrk/versions/y3bnvkEJ/wayland-fixes-1.0.1.jar",
+          "filename": "wayland-fixes-1.0.1.jar",
+          "primary": true,
+          "size": 53126
+        },
+        {
+          "sha512": "ae92458a8fa1f4a0878c44a0a9c1d6dd4fa0877e63da425e24b961a9e04b62ffde4cb1b1408bfc424ae594e06f1cd73c627a9ee253d883e0c940fba00a6e47fe",
+          "url": "https://cdn.modrinth.com/data/fylxngrk/versions/y3bnvkEJ/wayland-fixes-1.0.1-sources.jar",
+          "filename": "wayland-fixes-1.0.1-sources.jar",
+          "primary": false,
+          "size": 23272
         }
       ],
       "dependencies": [

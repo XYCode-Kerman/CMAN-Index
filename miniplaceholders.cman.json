@@ -5,6 +5,29 @@
   "description": "MiniMessage Component-based Placeholders for Paper, Fabric, Sponge, Folia and Velocity platforms",
   "versions": [
     {
+      "id": "1jnoHe3h",
+      "name": "MiniPlaceholders 2.0.1",
+      "version_number": "2.0.1",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "paper",
+        "purpur",
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "bee099e38bfd8c13374abc7b633ffcaf4a7a4e9885a0edd035827251f0fa4e789e39714d9ca9a78a645a4f39aa4b8b34c89f1c5dbf36c72edbfc83886cb1f047",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/1jnoHe3h/MiniPlaceholders-2.0.1.jar",
+          "filename": "MiniPlaceholders-2.0.1.jar",
+          "primary": true,
+          "size": 51347
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "40x5pzef",
       "name": "MiniPlaceholders Fabric 2.2.4",
       "version_number": "2.2.4",
@@ -27,37 +50,61 @@
       "dependencies": []
     },
     {
-      "id": "J2guR3GH",
-      "name": "MiniPlaceholders Paper 2.2.4",
-      "version_number": "2.2.4",
+      "id": "6pLVRiM5",
+      "name": "MiniPlaceholders Fabric 2.1.0-SNAPSHOT",
+      "version_number": "2.1.0-SNAPSHOT",
       "game_versions": [
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f6853d2813072f83e0df680a27a0df1be2b17fca96e77f50b96e2f7435ab9c8562286c1af4cf86ebeb64a9b0c00ee2fc7bb47a9608411be237f822d44310556b",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/6pLVRiM5/MiniPlaceholders-Fabric-mc1.19.4-v2.1.0-SNAPSHOT.jar",
+          "filename": "MiniPlaceholders-Fabric-mc1.19.4-v2.1.0-SNAPSHOT.jar",
+          "primary": true,
+          "size": 769745
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "7aHeeMlL",
+      "name": "MiniPlaceholders 2.1.0",
+      "version_number": "2.1.0",
+      "game_versions": [
+        "1.19.4"
       ],
       "loaders": [
         "folia",
         "paper",
-        "purpur"
+        "purpur",
+        "velocity"
       ],
       "files": [
         {
-          "sha512": "b1a7ef9d04b53af19a1e1e5eb969c3cbfbb3d6fea0b79f6de308de95c651f0c90aa453a5c2383b995a0786b631c602401dc1890973a2993396aa0b46540f6207",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/J2guR3GH/MiniPlaceholders-Paper-2.2.4.jar",
-          "filename": "MiniPlaceholders-Paper-2.2.4.jar",
+          "sha512": "3ca5a9f432aefb76b679bf052d98b0aa1666149ad3f89b17baad724b6e977d496b6f29d662bbb5f4675ac7fbe6b1974ed8317b0b6b382e2160e567ed6728b92f",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/7aHeeMlL/MiniPlaceholders-2.1.0.jar",
+          "filename": "MiniPlaceholders-2.1.0.jar",
           "primary": true,
-          "size": 853910
+          "size": 69678
         }
       ],
       "dependencies": []
     },
     {
-      "id": "W2OpSm11",
-      "name": "MiniPlaceholders Sponge 2.2.4",
-      "version_number": "2.2.4",
+      "id": "CkCJL3df",
+      "name": "MiniPlaceholders Sponge 2.2.0",
+      "version_number": "2.2.0",
       "game_versions": [
         "1.16.5",
         "1.17",
@@ -71,21 +118,45 @@
         "1.19.3",
         "1.19.4",
         "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.20.1"
       ],
       "loaders": [
         "sponge"
       ],
       "files": [
         {
-          "sha512": "335ea350a82e0339376b9c21ee98a0000bf1e3809645c8ca73b4bb20bf12bf9610106474c8ccaa7df2d40e2b85363af2de639e30ce09fc95859aff811cc52ee0",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/W2OpSm11/MiniPlaceholders-Sponge-2.2.4.jar",
-          "filename": "MiniPlaceholders-Sponge-2.2.4.jar",
+          "sha512": "ed68d59f2877c9553b2d3704ca5dd4f7b3a6031b5fe94089d8cca23f8ba6f7eff72d5d2061cd9fbb2fba499a2ac0d7e335156838dd2dfd46a5bf26a788607994",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/CkCJL3df/MiniPlaceholders-Sponge-2.2.0.jar",
+          "filename": "MiniPlaceholders-Sponge-2.2.0.jar",
           "primary": true,
-          "size": 739553
+          "size": 739102
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "F2Tzd1ze",
+      "name": "MiniPlaceholders Paper 2.2.2",
+      "version_number": "2.2.2",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "folia",
+        "paper",
+        "purpur"
+      ],
+      "files": [
+        {
+          "sha512": "035c7bfeb8245edb909decad336087f8d6b16398eb0dda4c0e2aea072ee47122a0e82c08fa6dde756e79388fa68a49602ca1fdf172236b0c2efcdffb89a21e99",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/F2Tzd1ze/MiniPlaceholders-Paper-2.2.2.jar",
+          "filename": "MiniPlaceholders-Paper-2.2.2.jar",
+          "primary": true,
+          "size": 853872
         }
       ],
       "dependencies": []
@@ -177,51 +248,84 @@
       "dependencies": []
     },
     {
-      "id": "oupaTGlD",
-      "name": "MiniPlaceholders Fabric 2.2.3",
-      "version_number": "2.2.3",
+      "id": "GxYlnr8E",
+      "name": "MiniPlaceholders Velocity 2.2.2",
+      "version_number": "2.2.2",
       "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3f05164b8ebf5a2e10f194775a76dd4767fab5360a256932d3a37db9653657dc3ae545ca03f9fd1bb8e647d9e45eb57c3d98623b13dfcc864f892d7d30d066fb",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/oupaTGlD/MiniPlaceholders-Fabric-2.2.3.jar",
-          "filename": "MiniPlaceholders-Fabric-2.2.3.jar",
-          "primary": true,
-          "size": 1803773
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "M6gjRuIx",
-      "name": "MiniPlaceholders Paper 2.2.3",
-      "version_number": "2.2.3",
-      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
         "1.19.4",
         "1.20",
         "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.20.2"
       ],
       "loaders": [
-        "folia",
-        "paper",
-        "purpur"
+        "velocity"
       ],
       "files": [
         {
-          "sha512": "e391d2beb861ea25edd1e21eb6aba95e6d5bfd89d67668bff91912f2f50f76b2cc3a57640c7cb388924de0c420fc2a914617c7df5a2cc31b85fd5e859ef58f01",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/M6gjRuIx/MiniPlaceholders-Paper-2.2.3.jar",
-          "filename": "MiniPlaceholders-Paper-2.2.3.jar",
+          "sha512": "afe575b3ed3d60495a7707c4b1f0ce6eed0fa2a4b5708c9135f1edd765dfa1d4e85203b8371ddba6506528d01e4f4e0c8e148be6fb6c9a542d61f2b7440070e1",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/GxYlnr8E/MiniPlaceholders-Velocity-2.2.2.jar",
+          "filename": "MiniPlaceholders-Velocity-2.2.2.jar",
           "primary": true,
-          "size": 853879
+          "size": 634086
         }
       ],
       "dependencies": []
@@ -258,6 +362,485 @@
           "filename": "MiniPlaceholders-Sponge-2.2.3.jar",
           "primary": true,
           "size": 739522
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "ICqtOD3A",
+      "name": "MiniPlaceholders 2.0.0",
+      "version_number": "2.0.0",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "paper",
+        "purpur",
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "56dd81ad4023e4bf878e09b4c5d12e74fee10f276d80abb398b05a71ee9622f1835afc2139f9bd026b82e19fdfc4642a6db2c407ade7c6d78f0c045d2b7584cf",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/ICqtOD3A/MiniPlaceholders-2.0.0.jar",
+          "filename": "MiniPlaceholders-2.0.0.jar",
+          "primary": true,
+          "size": 49400
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1iWA0pjH",
+          "version_id": "JlBCYW2E",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "J2guR3GH",
+      "name": "MiniPlaceholders Paper 2.2.4",
+      "version_number": "2.2.4",
+      "game_versions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "folia",
+        "paper",
+        "purpur"
+      ],
+      "files": [
+        {
+          "sha512": "b1a7ef9d04b53af19a1e1e5eb969c3cbfbb3d6fea0b79f6de308de95c651f0c90aa453a5c2383b995a0786b631c602401dc1890973a2993396aa0b46540f6207",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/J2guR3GH/MiniPlaceholders-Paper-2.2.4.jar",
+          "filename": "MiniPlaceholders-Paper-2.2.4.jar",
+          "primary": true,
+          "size": 853910
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "M6gjRuIx",
+      "name": "MiniPlaceholders Paper 2.2.3",
+      "version_number": "2.2.3",
+      "game_versions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "folia",
+        "paper",
+        "purpur"
+      ],
+      "files": [
+        {
+          "sha512": "e391d2beb861ea25edd1e21eb6aba95e6d5bfd89d67668bff91912f2f50f76b2cc3a57640c7cb388924de0c420fc2a914617c7df5a2cc31b85fd5e859ef58f01",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/M6gjRuIx/MiniPlaceholders-Paper-2.2.3.jar",
+          "filename": "MiniPlaceholders-Paper-2.2.3.jar",
+          "primary": true,
+          "size": 853879
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "NdcZ2h7M",
+      "name": "1.2.0",
+      "version_number": "1.2.0",
+      "game_versions": [
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "paper",
+        "purpur",
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "e57f04edba8baf53e898c9392db1eb4f42af2c0b3296fa46ad88cd4d2b4716f0ac497fc625983f1f8f0d3b9d9f9134bf50098898962cab55315a960f03953f59",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/1.2.0/MiniPlaceholders.jar",
+          "filename": "MiniPlaceholders.jar",
+          "primary": true,
+          "size": 38328
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "VYHzJEMw",
+      "name": "MiniPlaceholders 1.3.1",
+      "version_number": "1.3.1",
+      "game_versions": [
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "paper",
+        "purpur",
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "7979c6daf092e9d6d8b65cb9ea6757bb0fd3fcedfb88b5fd0850905c53bf62b6ba1621d729baa47bc9bdedad5b4ecf2b3478bbb529472ee6efc522179aeeb7b0",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/VYHzJEMw/MiniPlaceholders-1.3.1.jar",
+          "filename": "MiniPlaceholders-1.3.1.jar",
+          "primary": true,
+          "size": 43390
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Vyl5ootQ",
+      "name": "MiniPlaceholders Sponge 2.2.1",
+      "version_number": "2.2.1",
+      "game_versions": [
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "sponge"
+      ],
+      "files": [
+        {
+          "sha512": "2f7ff333872cf9cbe5dd85f24c7a5b08fbbcd19202c53d1d039a4d9e75fd7d48366f4ad4a882d2677810c2ef7e868dd54fb43c9c00558d4749c8240e9454f8bd",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/Vyl5ootQ/MiniPlaceholders-Sponge-2.2.1.jar",
+          "filename": "MiniPlaceholders-Sponge-2.2.1.jar",
+          "primary": true,
+          "size": 739576
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "W2OpSm11",
+      "name": "MiniPlaceholders Sponge 2.2.4",
+      "version_number": "2.2.4",
+      "game_versions": [
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "sponge"
+      ],
+      "files": [
+        {
+          "sha512": "335ea350a82e0339376b9c21ee98a0000bf1e3809645c8ca73b4bb20bf12bf9610106474c8ccaa7df2d40e2b85363af2de639e30ce09fc95859aff811cc52ee0",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/W2OpSm11/MiniPlaceholders-Sponge-2.2.4.jar",
+          "filename": "MiniPlaceholders-Sponge-2.2.4.jar",
+          "primary": true,
+          "size": 739553
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "XFqlqnMW",
+      "name": "MiniPlaceholders Fabric 2.2.2",
+      "version_number": "2.2.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "02a32fdbde6aa60ca3dbf49e95539186d47f6ac0a8d048f1715a8960c87823e58f62d44e0e1577caddc9793ea0a7e3a3b0f63a838ee336dc8031704c7444a5bf",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/XFqlqnMW/MiniPlaceholders-Fabric-2.2.2.jar",
+          "filename": "MiniPlaceholders-Fabric-2.2.2.jar",
+          "primary": true,
+          "size": 1804081
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "XGzru7Db",
+      "name": "MiniPlaceholders Fabric 2.1.0",
+      "version_number": "2.1.0",
+      "game_versions": [
+        "1.19.4",
+        "23w17a",
+        "23w18a",
+        "1.20-pre1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c2e1212bd2e96cd35c29fc8bd80d5e712e643709fd2970cc54225eb83dc61adf03fc3e8605c08d907e524529d6474f4ea14c9415fe6c758a5e290c5a89d38864",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/XGzru7Db/MiniPlaceholders-Fabric-mc1.19.4-v2.1.0.jar",
+          "filename": "MiniPlaceholders-Fabric-mc1.19.4-v2.1.0.jar",
+          "primary": true,
+          "size": 788128
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": "Ws97yOyp",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "bKlpE4fA",
+      "name": "MiniPlaceholders Fabric 2.2.1",
+      "version_number": "2.2.1",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "23w31a",
+        "23w32a",
+        "23w33a",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "ca3f1eabc930bab7297557a22e721d3684d8b1e92245b7171e01f6f7906099b7188f85fdd41506f55c4b52b3a6cfb9c058dc21c465045f72298d2820b8266664",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/bKlpE4fA/MiniPlaceholders-Fabric-2.2.1.jar",
+          "filename": "MiniPlaceholders-Fabric-2.2.1.jar",
+          "primary": true,
+          "size": 1777445
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Vebnzrzj",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "cRrd6qg5",
+      "name": "1.2.1 | Added Java 9 Modules Support",
+      "version_number": "1.2.1",
+      "game_versions": [
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "paper",
+        "purpur",
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "770ca808e0b214024c6a3f82582f5d202f345bcd9dfcd342c431029f7ced2ce4b10c85927a1299ede026811e93c4f707eeaa3506f3d7c4aa176a8d668de8e4e7",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/cRrd6qg5/MiniPlaceholders-1.2.1.jar",
+          "filename": "MiniPlaceholders-1.2.1.jar",
+          "primary": true,
+          "size": 38326
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "kKVWPJTT",
+      "name": "MiniPlaceholders Paper 2.2.0",
+      "version_number": "2.2.0",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "folia",
+        "paper",
+        "purpur"
+      ],
+      "files": [
+        {
+          "sha512": "8559fb8ef6e0f9e4833ae73273b58982a86f3f967355238c96fe48f1ef8e35adf8e0b789d022b3598d832d0e9978e3cf793b5b22e9ab7a8421ddfe76ba3f3887",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/kKVWPJTT/MiniPlaceholders-Paper-2.2.0.jar",
+          "filename": "MiniPlaceholders-Paper-2.2.0.jar",
+          "primary": true,
+          "size": 853470
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "kLgy4ef4",
+      "name": "MiniPlaceholders Velocity 2.2.1",
+      "version_number": "2.2.1",
+      "game_versions": [
+        "1.7.2",
+        "1.7.3",
+        "1.7.4",
+        "1.7.5",
+        "1.7.6",
+        "1.7.7",
+        "1.7.8",
+        "1.7.9",
+        "1.7.10",
+        "1.8",
+        "1.8.1",
+        "1.8.2",
+        "1.8.3",
+        "1.8.4",
+        "1.8.5",
+        "1.8.6",
+        "1.8.7",
+        "1.8.8",
+        "1.8.9",
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4",
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2",
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "cfaa256cbb96143cef7a0d37ca6ada482d80bf8f00e7922610c9d873e755d89a28c5a1fa72a549798492536125eeeffd718a6ff6403b5cf65f6a79a225d0e5f9",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/kLgy4ef4/MiniPlaceholders-Velocity-2.2.1.jar",
+          "filename": "MiniPlaceholders-Velocity-2.2.1.jar",
+          "primary": true,
+          "size": 634144
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "oRym6sRG",
+      "name": "MiniPlaceholders 2.0.2",
+      "version_number": "2.0.2",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "folia",
+        "paper",
+        "purpur",
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "2ba3b07ce6f8d6df4e56207a8cc35c886062110710c86cd8b51c25b8c25ca19ddbccfe2fe89f90f41a6345bffb10a90b6b02c1f649b83f4f1135c9cbefeb5174",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/oRym6sRG/MiniPlaceholders-2.0.2.jar",
+          "filename": "MiniPlaceholders-2.0.2.jar",
+          "primary": true,
+          "size": 51359
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "oupaTGlD",
+      "name": "MiniPlaceholders Fabric 2.2.3",
+      "version_number": "2.2.3",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3f05164b8ebf5a2e10f194775a76dd4767fab5360a256932d3a37db9653657dc3ae545ca03f9fd1bb8e647d9e45eb57c3d98623b13dfcc864f892d7d30d066fb",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/oupaTGlD/MiniPlaceholders-Fabric-2.2.3.jar",
+          "filename": "MiniPlaceholders-Fabric-2.2.3.jar",
+          "primary": true,
+          "size": 1803773
         }
       ],
       "dependencies": []
@@ -348,352 +931,6 @@
       "dependencies": []
     },
     {
-      "id": "XFqlqnMW",
-      "name": "MiniPlaceholders Fabric 2.2.2",
-      "version_number": "2.2.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "02a32fdbde6aa60ca3dbf49e95539186d47f6ac0a8d048f1715a8960c87823e58f62d44e0e1577caddc9793ea0a7e3a3b0f63a838ee336dc8031704c7444a5bf",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/XFqlqnMW/MiniPlaceholders-Fabric-2.2.2.jar",
-          "filename": "MiniPlaceholders-Fabric-2.2.2.jar",
-          "primary": true,
-          "size": 1804081
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "F2Tzd1ze",
-      "name": "MiniPlaceholders Paper 2.2.2",
-      "version_number": "2.2.2",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "folia",
-        "paper",
-        "purpur"
-      ],
-      "files": [
-        {
-          "sha512": "035c7bfeb8245edb909decad336087f8d6b16398eb0dda4c0e2aea072ee47122a0e82c08fa6dde756e79388fa68a49602ca1fdf172236b0c2efcdffb89a21e99",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/F2Tzd1ze/MiniPlaceholders-Paper-2.2.2.jar",
-          "filename": "MiniPlaceholders-Paper-2.2.2.jar",
-          "primary": true,
-          "size": 853872
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "zTIBpY3T",
-      "name": "MiniPlaceholders Sponge 2.2.2",
-      "version_number": "2.2.2",
-      "game_versions": [
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "sponge"
-      ],
-      "files": [
-        {
-          "sha512": "b0f4b1ede67b1f7d8265ae79a85b97eb70d156d5e62c34505c9282fe15ed510c04911ab25604da17e7b9a1f07ffe7201c2c1c3e71662c8262f7b777a70a95147",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/zTIBpY3T/MiniPlaceholders-Sponge-2.2.2.jar",
-          "filename": "MiniPlaceholders-Sponge-2.2.2.jar",
-          "primary": true,
-          "size": 739512
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "GxYlnr8E",
-      "name": "MiniPlaceholders Velocity 2.2.2",
-      "version_number": "2.2.2",
-      "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "afe575b3ed3d60495a7707c4b1f0ce6eed0fa2a4b5708c9135f1edd765dfa1d4e85203b8371ddba6506528d01e4f4e0c8e148be6fb6c9a542d61f2b7440070e1",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/GxYlnr8E/MiniPlaceholders-Velocity-2.2.2.jar",
-          "filename": "MiniPlaceholders-Velocity-2.2.2.jar",
-          "primary": true,
-          "size": 634086
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "bKlpE4fA",
-      "name": "MiniPlaceholders Fabric 2.2.1",
-      "version_number": "2.2.1",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "23w31a",
-        "23w32a",
-        "23w33a",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "ca3f1eabc930bab7297557a22e721d3684d8b1e92245b7171e01f6f7906099b7188f85fdd41506f55c4b52b3a6cfb9c058dc21c465045f72298d2820b8266664",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/bKlpE4fA/MiniPlaceholders-Fabric-2.2.1.jar",
-          "filename": "MiniPlaceholders-Fabric-2.2.1.jar",
-          "primary": true,
-          "size": 1777445
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "xXBr0Qcq",
-      "name": "MiniPlaceholders Paper 2.2.1",
-      "version_number": "2.2.1",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "folia",
-        "paper",
-        "purpur"
-      ],
-      "files": [
-        {
-          "sha512": "63283a59878ed1922dd7678a93d5f0a4084a7b9b78a3d0ff50f4096cb85fbe5724dbe7528201e49f271570caf0d0cdbd1fe01df257f4ec3385b132e493dcb2c9",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/xXBr0Qcq/MiniPlaceholders-Paper-2.2.1.jar",
-          "filename": "MiniPlaceholders-Paper-2.2.1.jar",
-          "primary": true,
-          "size": 853929
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Vyl5ootQ",
-      "name": "MiniPlaceholders Sponge 2.2.1",
-      "version_number": "2.2.1",
-      "game_versions": [
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "sponge"
-      ],
-      "files": [
-        {
-          "sha512": "2f7ff333872cf9cbe5dd85f24c7a5b08fbbcd19202c53d1d039a4d9e75fd7d48366f4ad4a882d2677810c2ef7e868dd54fb43c9c00558d4749c8240e9454f8bd",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/Vyl5ootQ/MiniPlaceholders-Sponge-2.2.1.jar",
-          "filename": "MiniPlaceholders-Sponge-2.2.1.jar",
-          "primary": true,
-          "size": 739576
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "kLgy4ef4",
-      "name": "MiniPlaceholders Velocity 2.2.1",
-      "version_number": "2.2.1",
-      "game_versions": [
-        "1.7.2",
-        "1.7.3",
-        "1.7.4",
-        "1.7.5",
-        "1.7.6",
-        "1.7.7",
-        "1.7.8",
-        "1.7.9",
-        "1.7.10",
-        "1.8",
-        "1.8.1",
-        "1.8.2",
-        "1.8.3",
-        "1.8.4",
-        "1.8.5",
-        "1.8.6",
-        "1.8.7",
-        "1.8.8",
-        "1.8.9",
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4",
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2",
-        "1.13",
-        "1.13.1",
-        "1.13.2",
-        "1.14",
-        "1.14.1",
-        "1.14.2",
-        "1.14.3",
-        "1.14.4",
-        "1.15",
-        "1.15.1",
-        "1.15.2",
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "cfaa256cbb96143cef7a0d37ca6ada482d80bf8f00e7922610c9d873e755d89a28c5a1fa72a549798492536125eeeffd718a6ff6403b5cf65f6a79a225d0e5f9",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/kLgy4ef4/MiniPlaceholders-Velocity-2.2.1.jar",
-          "filename": "MiniPlaceholders-Velocity-2.2.1.jar",
-          "primary": true,
-          "size": 634144
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "r2ZUlaTY",
       "name": "MiniPlaceholders Fabric 2.2.0",
       "version_number": "2.2.0",
@@ -734,65 +971,6 @@
           "dependency_type": "optional"
         }
       ]
-    },
-    {
-      "id": "kKVWPJTT",
-      "name": "MiniPlaceholders Paper 2.2.0",
-      "version_number": "2.2.0",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "folia",
-        "paper",
-        "purpur"
-      ],
-      "files": [
-        {
-          "sha512": "8559fb8ef6e0f9e4833ae73273b58982a86f3f967355238c96fe48f1ef8e35adf8e0b789d022b3598d832d0e9978e3cf793b5b22e9ab7a8421ddfe76ba3f3887",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/kKVWPJTT/MiniPlaceholders-Paper-2.2.0.jar",
-          "filename": "MiniPlaceholders-Paper-2.2.0.jar",
-          "primary": true,
-          "size": 853470
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "CkCJL3df",
-      "name": "MiniPlaceholders Sponge 2.2.0",
-      "version_number": "2.2.0",
-      "game_versions": [
-        "1.16.5",
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "sponge"
-      ],
-      "files": [
-        {
-          "sha512": "ed68d59f2877c9553b2d3704ca5dd4f7b3a6031b5fe94089d8cca23f8ba6f7eff72d5d2061cd9fbb2fba499a2ac0d7e335156838dd2dfd46a5bf26a788607994",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/CkCJL3df/MiniPlaceholders-Sponge-2.2.0.jar",
-          "filename": "MiniPlaceholders-Sponge-2.2.0.jar",
-          "primary": true,
-          "size": 739102
-        }
-      ],
-      "dependencies": []
     },
     {
       "id": "ujMtwo4a",
@@ -877,240 +1055,62 @@
       "dependencies": []
     },
     {
-      "id": "XGzru7Db",
-      "name": "MiniPlaceholders Fabric 2.1.0",
-      "version_number": "2.1.0",
+      "id": "xXBr0Qcq",
+      "name": "MiniPlaceholders Paper 2.2.1",
+      "version_number": "2.2.1",
       "game_versions": [
+        "1.19.3",
         "1.19.4",
-        "23w17a",
-        "23w18a",
-        "1.20-pre1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "c2e1212bd2e96cd35c29fc8bd80d5e712e643709fd2970cc54225eb83dc61adf03fc3e8605c08d907e524529d6474f4ea14c9415fe6c758a5e290c5a89d38864",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/XGzru7Db/MiniPlaceholders-Fabric-mc1.19.4-v2.1.0.jar",
-          "filename": "MiniPlaceholders-Fabric-mc1.19.4-v2.1.0.jar",
-          "primary": true,
-          "size": 788128
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Vebnzrzj",
-          "version_id": "Ws97yOyp",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "7aHeeMlL",
-      "name": "MiniPlaceholders 2.1.0",
-      "version_number": "2.1.0",
-      "game_versions": [
-        "1.19.4"
+        "1.20",
+        "1.20.1",
+        "1.20.2"
       ],
       "loaders": [
         "folia",
         "paper",
-        "purpur",
-        "velocity"
+        "purpur"
       ],
       "files": [
         {
-          "sha512": "3ca5a9f432aefb76b679bf052d98b0aa1666149ad3f89b17baad724b6e977d496b6f29d662bbb5f4675ac7fbe6b1974ed8317b0b6b382e2160e567ed6728b92f",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/7aHeeMlL/MiniPlaceholders-2.1.0.jar",
-          "filename": "MiniPlaceholders-2.1.0.jar",
+          "sha512": "63283a59878ed1922dd7678a93d5f0a4084a7b9b78a3d0ff50f4096cb85fbe5724dbe7528201e49f271570caf0d0cdbd1fe01df257f4ec3385b132e493dcb2c9",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/xXBr0Qcq/MiniPlaceholders-Paper-2.2.1.jar",
+          "filename": "MiniPlaceholders-Paper-2.2.1.jar",
           "primary": true,
-          "size": 69678
+          "size": 853929
         }
       ],
       "dependencies": []
     },
     {
-      "id": "6pLVRiM5",
-      "name": "MiniPlaceholders Fabric 2.1.0-SNAPSHOT",
-      "version_number": "2.1.0-SNAPSHOT",
+      "id": "zTIBpY3T",
+      "name": "MiniPlaceholders Sponge 2.2.2",
+      "version_number": "2.2.2",
       "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f6853d2813072f83e0df680a27a0df1be2b17fca96e77f50b96e2f7435ab9c8562286c1af4cf86ebeb64a9b0c00ee2fc7bb47a9608411be237f822d44310556b",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/6pLVRiM5/MiniPlaceholders-Fabric-mc1.19.4-v2.1.0-SNAPSHOT.jar",
-          "filename": "MiniPlaceholders-Fabric-mc1.19.4-v2.1.0-SNAPSHOT.jar",
-          "primary": true,
-          "size": 769745
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "oRym6sRG",
-      "name": "MiniPlaceholders 2.0.2",
-      "version_number": "2.0.2",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "folia",
-        "paper",
-        "purpur",
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "2ba3b07ce6f8d6df4e56207a8cc35c886062110710c86cd8b51c25b8c25ca19ddbccfe2fe89f90f41a6345bffb10a90b6b02c1f649b83f4f1135c9cbefeb5174",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/oRym6sRG/MiniPlaceholders-2.0.2.jar",
-          "filename": "MiniPlaceholders-2.0.2.jar",
-          "primary": true,
-          "size": 51359
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "1jnoHe3h",
-      "name": "MiniPlaceholders 2.0.1",
-      "version_number": "2.0.1",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "paper",
-        "purpur",
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "bee099e38bfd8c13374abc7b633ffcaf4a7a4e9885a0edd035827251f0fa4e789e39714d9ca9a78a645a4f39aa4b8b34c89f1c5dbf36c72edbfc83886cb1f047",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/1jnoHe3h/MiniPlaceholders-2.0.1.jar",
-          "filename": "MiniPlaceholders-2.0.1.jar",
-          "primary": true,
-          "size": 51347
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ICqtOD3A",
-      "name": "MiniPlaceholders 2.0.0",
-      "version_number": "2.0.0",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "paper",
-        "purpur",
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "56dd81ad4023e4bf878e09b4c5d12e74fee10f276d80abb398b05a71ee9622f1835afc2139f9bd026b82e19fdfc4642a6db2c407ade7c6d78f0c045d2b7584cf",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/ICqtOD3A/MiniPlaceholders-2.0.0.jar",
-          "filename": "MiniPlaceholders-2.0.0.jar",
-          "primary": true,
-          "size": 49400
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1iWA0pjH",
-          "version_id": "JlBCYW2E",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "VYHzJEMw",
-      "name": "MiniPlaceholders 1.3.1",
-      "version_number": "1.3.1",
-      "game_versions": [
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
         "1.18.2",
         "1.19",
         "1.19.1",
-        "1.19.2"
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
       ],
       "loaders": [
-        "paper",
-        "purpur",
-        "velocity"
+        "sponge"
       ],
       "files": [
         {
-          "sha512": "7979c6daf092e9d6d8b65cb9ea6757bb0fd3fcedfb88b5fd0850905c53bf62b6ba1621d729baa47bc9bdedad5b4ecf2b3478bbb529472ee6efc522179aeeb7b0",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/VYHzJEMw/MiniPlaceholders-1.3.1.jar",
-          "filename": "MiniPlaceholders-1.3.1.jar",
+          "sha512": "b0f4b1ede67b1f7d8265ae79a85b97eb70d156d5e62c34505c9282fe15ed510c04911ab25604da17e7b9a1f07ffe7201c2c1c3e71662c8262f7b777a70a95147",
+          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/zTIBpY3T/MiniPlaceholders-Sponge-2.2.2.jar",
+          "filename": "MiniPlaceholders-Sponge-2.2.2.jar",
           "primary": true,
-          "size": 43390
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "cRrd6qg5",
-      "name": "1.2.1 | Added Java 9 Modules Support",
-      "version_number": "1.2.1",
-      "game_versions": [
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "paper",
-        "purpur",
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "770ca808e0b214024c6a3f82582f5d202f345bcd9dfcd342c431029f7ced2ce4b10c85927a1299ede026811e93c4f707eeaa3506f3d7c4aa176a8d668de8e4e7",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/cRrd6qg5/MiniPlaceholders-1.2.1.jar",
-          "filename": "MiniPlaceholders-1.2.1.jar",
-          "primary": true,
-          "size": 38326
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "NdcZ2h7M",
-      "name": "1.2.0",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "paper",
-        "purpur",
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "e57f04edba8baf53e898c9392db1eb4f42af2c0b3296fa46ad88cd4d2b4716f0ac497fc625983f1f8f0d3b9d9f9134bf50098898962cab55315a960f03953f59",
-          "url": "https://cdn.modrinth.com/data/HQyibRsN/versions/1.2.0/MiniPlaceholders.jar",
-          "filename": "MiniPlaceholders.jar",
-          "primary": true,
-          "size": 38328
+          "size": 739512
         }
       ],
       "dependencies": []

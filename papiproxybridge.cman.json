@@ -5,83 +5,83 @@
   "description": "A bridge library plugin for using PlaceholderAPI on proxy servers",
   "versions": [
     {
-      "id": "RXXUN9SA",
-      "name": "PAPIProxyBridge v1.6.1",
-      "version_number": "1.6.1",
+      "id": "4p9XfrMo",
+      "name": "PAPIProxyBridge v1.1 - PlaceholderAPI fabric mod support",
+      "version_number": "1.1",
       "game_versions": [
+        "1.16.5",
         "1.17.1",
-        "1.18",
-        "1.18.1",
         "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4",
-        "1.20.5",
-        "1.20.6"
+        "1.19.4"
       ],
       "loaders": [
         "bungeecord",
         "fabric",
-        "folia",
-        "paper",
         "spigot",
         "velocity"
       ],
       "files": [
         {
-          "sha512": "ad0de65dfd07f458e941686a5d0ab3f1f848dcc46360b688dc4e1fe2c7b82f1e0cac8b7e7cb75b9241f8efe06ffaf8e32855ddfcd95ce09eb31245060bbb433e",
-          "url": "https://cdn.modrinth.com/data/bEIUEGTX/versions/RXXUN9SA/PAPIProxyBridge-Plugin-1.6.1.jar",
-          "filename": "PAPIProxyBridge-Plugin-1.6.1.jar",
+          "sha512": "9ffde3395ba0d0ce8b73403510163105a4cde06cfaf489318520e65bf3546af371baae0edc5ac2593f753b9e6142b50c6005ba1cc643f5ef3c7de07c12e87444",
+          "url": "https://cdn.modrinth.com/data/bEIUEGTX/versions/4p9XfrMo/PAPIProxyBridge-1.1.jar",
+          "filename": "PAPIProxyBridge-1.1.jar",
           "primary": true,
-          "size": 960520
+          "size": 142869
         }
       ],
       "dependencies": []
     },
     {
-      "id": "GSHLIfS1",
-      "name": "PAPIProxyBridge v1.6 - Folia & Fabric 1.20.6 support",
-      "version_number": "1.6",
+      "id": "74QioF1b",
+      "name": "PAPIProxyBridge v1.3 - API changes, stability",
+      "version_number": "1.3",
       "game_versions": [
+        "1.16.5",
         "1.17.1",
-        "1.18",
-        "1.18.1",
         "1.18.2",
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
         "1.19.4",
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4",
-        "1.20.5",
-        "1.20.6"
+        "1.20.1"
       ],
       "loaders": [
         "bungeecord",
         "fabric",
-        "folia",
-        "paper",
         "spigot",
         "velocity"
       ],
       "files": [
         {
-          "sha512": "1af60516b5fd1beff28e667f27ebac020a78c279ac0b33eea6ba8bd0e4fefa96f65f5196c3ab177a0c7baff43de96f9e95d85560c905f6aeb011727ecbb37b2e",
-          "url": "https://cdn.modrinth.com/data/bEIUEGTX/versions/GSHLIfS1/PAPIProxyBridge-1.6.jar",
-          "filename": "PAPIProxyBridge-1.6.jar",
+          "sha512": "521d738459ec27477dbfcf8fad00401ec04f728d73a35abcdd914918271241cf380f5eed077d6a8fec904475acb84c1ae9c874c69a39292eede62dd8d5e19246",
+          "url": "https://cdn.modrinth.com/data/bEIUEGTX/versions/74QioF1b/PAPIProxyBridge-1.3.jar",
+          "filename": "PAPIProxyBridge-1.3.jar",
           "primary": true,
-          "size": 1011338
+          "size": 148005
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "8LB5moMU",
+      "name": "PAPIProxyBridge v1.2 - New API features, caching bug fix",
+      "version_number": "1.2",
+      "game_versions": [
+        "1.16.5",
+        "1.17.1",
+        "1.18.2",
+        "1.19.4"
+      ],
+      "loaders": [
+        "bungeecord",
+        "fabric",
+        "spigot",
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "ba328829d8703708f3ce6e8169078fd9d54659f047a861761bbe1e0d712cef524e3d14be364334168ce906cb7b0ca376a3fc2008cadb0603f82be59e91ae58db",
+          "url": "https://cdn.modrinth.com/data/bEIUEGTX/versions/8LB5moMU/PAPIProxyBridge-1.2.jar",
+          "filename": "PAPIProxyBridge-1.2.jar",
+          "primary": true,
+          "size": 144334
         }
       ],
       "dependencies": []
@@ -137,6 +137,142 @@
           "filename": "PAPIProxyBridge-1.4.2.jar",
           "primary": true,
           "size": 1274536
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "GSHLIfS1",
+      "name": "PAPIProxyBridge v1.6 - Folia & Fabric 1.20.6 support",
+      "version_number": "1.6",
+      "game_versions": [
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "bungeecord",
+        "fabric",
+        "folia",
+        "paper",
+        "spigot",
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "1af60516b5fd1beff28e667f27ebac020a78c279ac0b33eea6ba8bd0e4fefa96f65f5196c3ab177a0c7baff43de96f9e95d85560c905f6aeb011727ecbb37b2e",
+          "url": "https://cdn.modrinth.com/data/bEIUEGTX/versions/GSHLIfS1/PAPIProxyBridge-1.6.jar",
+          "filename": "PAPIProxyBridge-1.6.jar",
+          "primary": true,
+          "size": 1011338
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "MnjWkYsU",
+      "name": "PAPIProxyBridge v1.0",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.16.5",
+        "1.17.1",
+        "1.18.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "bungeecord",
+        "spigot",
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "c51d3f430655caa5105ec2201d9f0ddf27fee6d8c74dc199e871a17fd0f61b172cb14f69151e8a8bea22645616eb592c601b7803240df12772838555f5282bde",
+          "url": "https://cdn.modrinth.com/data/bEIUEGTX/versions/MnjWkYsU/PAPIProxyBridge-1.0.jar",
+          "filename": "PAPIProxyBridge-1.0.jar",
+          "primary": true,
+          "size": 99379
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "RXXUN9SA",
+      "name": "PAPIProxyBridge v1.6.1",
+      "version_number": "1.6.1",
+      "game_versions": [
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "bungeecord",
+        "fabric",
+        "folia",
+        "paper",
+        "spigot",
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "ad0de65dfd07f458e941686a5d0ab3f1f848dcc46360b688dc4e1fe2c7b82f1e0cac8b7e7cb75b9241f8efe06ffaf8e32855ddfcd95ce09eb31245060bbb433e",
+          "url": "https://cdn.modrinth.com/data/bEIUEGTX/versions/RXXUN9SA/PAPIProxyBridge-Plugin-1.6.1.jar",
+          "filename": "PAPIProxyBridge-Plugin-1.6.1.jar",
+          "primary": true,
+          "size": 960520
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "TDaZjdRP",
+      "name": "PAPIProxyBridge v1.2.1 - 1.20 support",
+      "version_number": "1.2.1",
+      "game_versions": [
+        "1.16.5",
+        "1.17.1",
+        "1.18.2",
+        "1.19.4",
+        "1.20"
+      ],
+      "loaders": [
+        "bungeecord",
+        "fabric",
+        "spigot",
+        "velocity"
+      ],
+      "files": [
+        {
+          "sha512": "4f9823c5eb585d3d240ac98d285c9193ee15b0b93e2fe3d1a6839fd5018e2ff51df544b54ff89ceb59a751254ab399ee4ae6227f955e3c24efbd70715a8619eb",
+          "url": "https://cdn.modrinth.com/data/bEIUEGTX/versions/TDaZjdRP/PAPIProxyBridge-1.2.1.jar",
+          "filename": "PAPIProxyBridge-1.2.1.jar",
+          "primary": true,
+          "size": 144361
         }
       ],
       "dependencies": []
@@ -198,34 +334,6 @@
       "dependencies": []
     },
     {
-      "id": "74QioF1b",
-      "name": "PAPIProxyBridge v1.3 - API changes, stability",
-      "version_number": "1.3",
-      "game_versions": [
-        "1.16.5",
-        "1.17.1",
-        "1.18.2",
-        "1.19.4",
-        "1.20.1"
-      ],
-      "loaders": [
-        "bungeecord",
-        "fabric",
-        "spigot",
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "521d738459ec27477dbfcf8fad00401ec04f728d73a35abcdd914918271241cf380f5eed077d6a8fec904475acb84c1ae9c874c69a39292eede62dd8d5e19246",
-          "url": "https://cdn.modrinth.com/data/bEIUEGTX/versions/74QioF1b/PAPIProxyBridge-1.3.jar",
-          "filename": "PAPIProxyBridge-1.3.jar",
-          "primary": true,
-          "size": 148005
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "wWacibTT",
       "name": "PAPIProxyBridge v1.2.2 - 1.20.1 support",
       "version_number": "1.2.2",
@@ -249,114 +357,6 @@
           "filename": "PAPIProxyBridge-1.2.2.jar",
           "primary": true,
           "size": 144362
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "TDaZjdRP",
-      "name": "PAPIProxyBridge v1.2.1 - 1.20 support",
-      "version_number": "1.2.1",
-      "game_versions": [
-        "1.16.5",
-        "1.17.1",
-        "1.18.2",
-        "1.19.4",
-        "1.20"
-      ],
-      "loaders": [
-        "bungeecord",
-        "fabric",
-        "spigot",
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "4f9823c5eb585d3d240ac98d285c9193ee15b0b93e2fe3d1a6839fd5018e2ff51df544b54ff89ceb59a751254ab399ee4ae6227f955e3c24efbd70715a8619eb",
-          "url": "https://cdn.modrinth.com/data/bEIUEGTX/versions/TDaZjdRP/PAPIProxyBridge-1.2.1.jar",
-          "filename": "PAPIProxyBridge-1.2.1.jar",
-          "primary": true,
-          "size": 144361
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "8LB5moMU",
-      "name": "PAPIProxyBridge v1.2 - New API features, caching bug fix",
-      "version_number": "1.2",
-      "game_versions": [
-        "1.16.5",
-        "1.17.1",
-        "1.18.2",
-        "1.19.4"
-      ],
-      "loaders": [
-        "bungeecord",
-        "fabric",
-        "spigot",
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "ba328829d8703708f3ce6e8169078fd9d54659f047a861761bbe1e0d712cef524e3d14be364334168ce906cb7b0ca376a3fc2008cadb0603f82be59e91ae58db",
-          "url": "https://cdn.modrinth.com/data/bEIUEGTX/versions/8LB5moMU/PAPIProxyBridge-1.2.jar",
-          "filename": "PAPIProxyBridge-1.2.jar",
-          "primary": true,
-          "size": 144334
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "4p9XfrMo",
-      "name": "PAPIProxyBridge v1.1 - PlaceholderAPI fabric mod support",
-      "version_number": "1.1",
-      "game_versions": [
-        "1.16.5",
-        "1.17.1",
-        "1.18.2",
-        "1.19.4"
-      ],
-      "loaders": [
-        "bungeecord",
-        "fabric",
-        "spigot",
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "9ffde3395ba0d0ce8b73403510163105a4cde06cfaf489318520e65bf3546af371baae0edc5ac2593f753b9e6142b50c6005ba1cc643f5ef3c7de07c12e87444",
-          "url": "https://cdn.modrinth.com/data/bEIUEGTX/versions/4p9XfrMo/PAPIProxyBridge-1.1.jar",
-          "filename": "PAPIProxyBridge-1.1.jar",
-          "primary": true,
-          "size": 142869
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "MnjWkYsU",
-      "name": "PAPIProxyBridge v1.0",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.16.5",
-        "1.17.1",
-        "1.18.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "bungeecord",
-        "spigot",
-        "velocity"
-      ],
-      "files": [
-        {
-          "sha512": "c51d3f430655caa5105ec2201d9f0ddf27fee6d8c74dc199e871a17fd0f61b172cb14f69151e8a8bea22645616eb592c601b7803240df12772838555f5282bde",
-          "url": "https://cdn.modrinth.com/data/bEIUEGTX/versions/MnjWkYsU/PAPIProxyBridge-1.0.jar",
-          "filename": "PAPIProxyBridge-1.0.jar",
-          "primary": true,
-          "size": 99379
         }
       ],
       "dependencies": []

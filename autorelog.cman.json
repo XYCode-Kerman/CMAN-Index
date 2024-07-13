@@ -5,29 +5,65 @@
   "description": "Automatically reconnect to a restarting server while AFK!",
   "versions": [
     {
-      "id": "DSYUK4VH",
-      "name": "0.1.1+1.21",
-      "version_number": "0.1.1+1.21",
+      "id": "4qd9mvES",
+      "name": "0.0.2+1.19.4",
+      "version_number": "0.0.2+1.19.4",
       "game_versions": [
-        "1.21"
+        "1.19.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "7192e8c054c5389ea16bedca9f05bc099a7a4605360477145f38e5a505e42dee729bea1da935a2b2f6e38822fb557520ecef9f59180078f28ba7a218b1cb7aa5",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/DSYUK4VH/autorelog-0.1.1%2B1.21.jar",
-          "filename": "autorelog-0.1.1+1.21.jar",
+          "sha512": "0c11affcdcfac1ba018773643065ae9af4ee2ea6e1b380eacb7f2629b5b8ec5d4610add6388d5cdc3af1c2e0318e91bac0ff7cb59f35c7e52ea4c4c10899ce36",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/4qd9mvES/autorelog-0.0.2%2B1.19.4.jar",
+          "filename": "autorelog-0.0.2+1.19.4.jar",
           "primary": true,
-          "size": 69029
+          "size": 11004
         },
         {
-          "sha512": "7f8c758007a6cbd41907a835a6fefd29dbe688eddeedc9cec85cf0eff3d1ca5d40eecfcce5a04361aa1e04b398709fe9b8372d61c9033630b51d4b4f97ce46a8",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/DSYUK4VH/autorelog-0.1.1%2B1.21-sources.jar",
-          "filename": "autorelog-0.1.1+1.21-sources.jar",
+          "sha512": "861ce9dd3e5d545fc85c8ff938e2b4eae0093dcc27ce9804020eafe18481b64376bb86beafa2b37d1efd7bd965de0b3ff3db8404249aa05d14ab588c76b0ba51",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/4qd9mvES/autorelog-0.0.2%2B1.19.4-sources.jar",
+          "filename": "autorelog-0.0.2+1.19.4-sources.jar",
           "primary": false,
-          "size": 13058
+          "size": 5966
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "7ADKDN51",
+      "name": "0.0.5+1.20.1",
+      "version_number": "0.0.5+1.20.1",
+      "game_versions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "cecbe97fa2eed8ee5c211f902124522d6f54a54d529869d1883058eda9f75064f7cde19c5a4d4eaf793d651fdd0159cfb0d32b5657fa71952ae051c1607cad26",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/7ADKDN51/autorelog-0.0.5%2B1.20.1.jar",
+          "filename": "autorelog-0.0.5+1.20.1.jar",
+          "primary": true,
+          "size": 15635
+        },
+        {
+          "sha512": "0bba298ee99a6c13374a0e3b81fd24eaf3fa1e03d3476aa6574cd3b66e63f63e22243d1a41e9383def3f8403508c26b28d1f11e178c55524005f8e6e056f07cb",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/7ADKDN51/autorelog-0.0.5%2B1.20.1-sources.jar",
+          "filename": "autorelog-0.0.5+1.20.1-sources.jar",
+          "primary": false,
+          "size": 8348
         }
       ],
       "dependencies": [
@@ -75,9 +111,37 @@
       ]
     },
     {
-      "id": "rIOZo80K",
-      "name": "0.0.7+1.21",
-      "version_number": "0.0.7+1.21",
+      "id": "CHnQparl",
+      "name": "AutoRelog 0.0.1+1.19.4",
+      "version_number": "0.0.1+1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a558dc8a5a61fc89792aa753535fa3223a202755bf5ccb54d36b95d251867114296e1af273998da871cd2bfb62e3f59b6f841045abf661ebb735c1107a0152c9",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/CHnQparl/autorelog-0.0.1%2B1.19.4.jar",
+          "filename": "autorelog-0.0.1+1.19.4.jar",
+          "primary": true,
+          "size": 10710
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "DSYUK4VH",
+      "name": "0.1.1+1.21",
+      "version_number": "0.1.1+1.21",
       "game_versions": [
         "1.21"
       ],
@@ -86,334 +150,18 @@
       ],
       "files": [
         {
-          "sha512": "5a0f838f00fafbc30af61d74d223d2142efc87049fd3265ddba5ab4069960fa2040043808ebadce60630cd3a56218a62efb8406bf5ccb77bf9e61dce5f91635f",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/rIOZo80K/autorelog-0.0.7%2B1.21.jar",
-          "filename": "autorelog-0.0.7+1.21.jar",
+          "sha512": "7192e8c054c5389ea16bedca9f05bc099a7a4605360477145f38e5a505e42dee729bea1da935a2b2f6e38822fb557520ecef9f59180078f28ba7a218b1cb7aa5",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/DSYUK4VH/autorelog-0.1.1%2B1.21.jar",
+          "filename": "autorelog-0.1.1+1.21.jar",
           "primary": true,
-          "size": 660908
+          "size": 69029
         },
         {
-          "sha512": "f1838d72c9025e4c91fbd88dacbe9b65f96bd0275929a101e13ab8556c27bd7a394612989c0b356cf97dd856da143481131eadf4ee73a26bd0c21613fa67c6aa",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/rIOZo80K/autorelog-0.0.7%2B1.21-sources.jar",
-          "filename": "autorelog-0.0.7+1.21-sources.jar",
+          "sha512": "7f8c758007a6cbd41907a835a6fefd29dbe688eddeedc9cec85cf0eff3d1ca5d40eecfcce5a04361aa1e04b398709fe9b8372d61c9033630b51d4b4f97ce46a8",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/DSYUK4VH/autorelog-0.1.1%2B1.21-sources.jar",
+          "filename": "autorelog-0.1.1+1.21-sources.jar",
           "primary": false,
-          "size": 15619
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "zlV6rQA2",
-      "name": "0.0.7+1.20.6",
-      "version_number": "0.0.7+1.20.6",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b71b8a355272b8957e79f6a4187f60498f17fb8f751e83ed59e4eb3625758f77253878ce4a73bb2f6c747aaa1f81a556b3254997e035b258beca02e38525b0a9",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/zlV6rQA2/autorelog-0.0.7%2B1.20.6.jar",
-          "filename": "autorelog-0.0.7+1.20.6.jar",
-          "primary": true,
-          "size": 660927
-        },
-        {
-          "sha512": "a6cfdea090f8d22438241bf0124b6b557c6bf32562e01aabb12a4f6a7ced835b07cf6d82fd9b0229192def69e9c418d0f4cdc532679ee14b1a4c31de42c311dc",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/zlV6rQA2/autorelog-0.0.7%2B1.20.6-sources.jar",
-          "filename": "autorelog-0.0.7+1.20.6-sources.jar",
-          "primary": false,
-          "size": 15620
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Ktztdiuw",
-      "name": "0.0.7+1.20.1",
-      "version_number": "0.0.7+1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "5ce11ea001e9c3436216e91d3476f371f52a8ecdefa9ffb2b5b67f1e161341d66762e70792175f4b632094e038effabe9e85c105523f3c341e79e8fb84199f11",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/Ktztdiuw/autorelog-0.0.7%2B1.20.4.jar",
-          "filename": "autorelog-0.0.7+1.20.4.jar",
-          "primary": true,
-          "size": 660292
-        },
-        {
-          "sha512": "1a49d8c4c83dcc2ce590a8d0659c8eecf02cc157803d6a3154d708d8db7e1c2fdd760b355d641aa0dc69c0f02e39934955b1792f6b38b6db5668b8d4e79ff5e8",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/Ktztdiuw/autorelog-0.0.7%2B1.20.4-sources.jar",
-          "filename": "autorelog-0.0.7+1.20.4-sources.jar",
-          "primary": false,
-          "size": 15610
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "qNKvOB6P",
-      "name": "0.0.7+1.20.4",
-      "version_number": "0.0.7+1.20.4",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "50d00754b44ea264d1a9ed280a5e1772d7c532acccb912709a47e075b2c11b29b5f6091b18f70d54eac9183b391cd76e2dbbe4086aa68548bd4886b9b5350026",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/qNKvOB6P/autorelog-0.0.7%2B1.20.4.jar",
-          "filename": "autorelog-0.0.7+1.20.4.jar",
-          "primary": true,
-          "size": 660290
-        },
-        {
-          "sha512": "8c48d32d4c8ba8a4b8b55d261d52d72ce93bd2ff9c28055c063c25f32d866513ff8dc23912929514fbf5b7f8bc03d437a7bc3da6a27f6c9852cc7577126380f7",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/qNKvOB6P/autorelog-0.0.7%2B1.20.4-sources.jar",
-          "filename": "autorelog-0.0.7+1.20.4-sources.jar",
-          "primary": false,
-          "size": 15610
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "KWPvJR5p",
-      "name": "0.0.7+1.20.2",
-      "version_number": "0.0.7+1.20.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "faedb35e41bc000133decb902b9f271d14703af34e3b8c3ce8f9b0169c38a0282b33f98573553514357ec452ed8650a48a00003d3eeafebeaf14accfebe2dead",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/KWPvJR5p/autorelog-0.0.7%2B1.20.2.jar",
-          "filename": "autorelog-0.0.7+1.20.2.jar",
-          "primary": true,
-          "size": 24969
-        },
-        {
-          "sha512": "4b059988caa7116f37ebefe10598267c79803fdb52651251dc187cc39f76f1e7bd1f8674754b877ff5791bc73498aadf5737bbb73c52def825bbef90971bdd53",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/KWPvJR5p/autorelog-0.0.7%2B1.20.2-sources.jar",
-          "filename": "autorelog-0.0.7+1.20.2-sources.jar",
-          "primary": false,
-          "size": 15532
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "OtyUm7U0",
-      "name": "0.0.6+1.20.4",
-      "version_number": "0.0.6+1.20.4",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2ce196ac411fd86d24ef1a5f9d62df5142303898993ed311da846a535e9b45fdea6db33ef4fa0a0b9616a30d8001a24ceb77067ade5fc258c6700a4c6cd637f1",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/OtyUm7U0/autorelog-0.0.6%2B1.20.4.jar",
-          "filename": "autorelog-0.0.6+1.20.4.jar",
-          "primary": true,
-          "size": 21175
-        },
-        {
-          "sha512": "c181e23b222faf672126fcfaa5455b6a8ef3e5e7e03aad33bf7c6de73e8bc5c90fbea5a5323c7d6da4a70d75d9a32de2ebd6a02b7a6ea54ce7dd52b723e7f1cd",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/OtyUm7U0/autorelog-0.0.6%2B1.20.4-sources.jar",
-          "filename": "autorelog-0.0.6+1.20.4-sources.jar",
-          "primary": false,
-          "size": 13265
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "vXK2CUgp",
-      "name": "0.0.6+1.20.2",
-      "version_number": "0.0.6+1.20.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4ceab5b560e3df17bff166336958f6e70d2d90c923bf013d0f4e1c9cfa9b09d90dedae8e65a9aa00a62bc0876abe209fe6be193c80e772dcb9d5c8957f96d9ec",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/vXK2CUgp/autorelog-0.0.6%2B1.20.2.jar",
-          "filename": "autorelog-0.0.6+1.20.2.jar",
-          "primary": true,
-          "size": 21820
-        },
-        {
-          "sha512": "9098c1630577f3a391822c55323a4696c7a9e81c8bc1bfe3e4edd7873fbb4602e5214b8655c9e908cd4eb807f472db5d92edc1bdf30afc480389ec23a2443b03",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/vXK2CUgp/autorelog-0.0.6%2B1.20.2-sources.jar",
-          "filename": "autorelog-0.0.6+1.20.2-sources.jar",
-          "primary": false,
-          "size": 13249
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Ko6f9Fas",
-      "name": "0.0.6+1.20.1",
-      "version_number": "0.0.6+1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d1e6051fe6e49118796d66aedf288c31eedb0c29e9ccb63928ea04eb618c79afd444d3bdcf63a9bcff02f0506e88ae199d9ec2fac7c09a5f6d82cc102649f5c7",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/Ko6f9Fas/autorelog-0.0.6%2B1.20.1.jar",
-          "filename": "autorelog-0.0.6+1.20.1.jar",
-          "primary": true,
-          "size": 21709
-        },
-        {
-          "sha512": "9116135c4fa5f9a90e31c6999f02a45be83df310889ba66e7198269a6168161acfa471df693d9de90cc7e246047535972bfb0b08bf76ce01b577e9f03e04b0be",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/Ko6f9Fas/autorelog-0.0.6%2B1.20.1-sources.jar",
-          "filename": "autorelog-0.0.6+1.20.1-sources.jar",
-          "primary": false,
-          "size": 13251
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "l0aNU4kq",
-      "name": "0.0.5+1.20.2",
-      "version_number": "0.0.5+1.20.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "abdb189e3bdec5e79a017e3dd33a7c5f961bfda268dd0a6b33dba50d46e6f7ab7f85bad7230bca09095271b810743a83840ee88f5208886adde68c8456ad9093",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/l0aNU4kq/autorelog-0.0.5%2B1.20.2.jar",
-          "filename": "autorelog-0.0.5+1.20.2.jar",
-          "primary": true,
-          "size": 15743
-        },
-        {
-          "sha512": "f414618cedba93363041659dbd1df46d0fbef5e2b564c8df0b285818191a56369e7e755d3374e1477bf91ea18c0aa84276f254cc9018c2b3f7ce8aa85360d1ab",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/l0aNU4kq/autorelog-0.0.5%2B1.20.2-sources.jar",
-          "filename": "autorelog-0.0.5+1.20.2-sources.jar",
-          "primary": false,
-          "size": 8346
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "7ADKDN51",
-      "name": "0.0.5+1.20.1",
-      "version_number": "0.0.5+1.20.1",
-      "game_versions": [
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "cecbe97fa2eed8ee5c211f902124522d6f54a54d529869d1883058eda9f75064f7cde19c5a4d4eaf793d651fdd0159cfb0d32b5657fa71952ae051c1607cad26",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/7ADKDN51/autorelog-0.0.5%2B1.20.1.jar",
-          "filename": "autorelog-0.0.5+1.20.1.jar",
-          "primary": true,
-          "size": 15635
-        },
-        {
-          "sha512": "0bba298ee99a6c13374a0e3b81fd24eaf3fa1e03d3476aa6574cd3b66e63f63e22243d1a41e9383def3f8403508c26b28d1f11e178c55524005f8e6e056f07cb",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/7ADKDN51/autorelog-0.0.5%2B1.20.1-sources.jar",
-          "filename": "autorelog-0.0.5+1.20.1-sources.jar",
-          "primary": false,
-          "size": 8348
+          "size": 13058
         }
       ],
       "dependencies": [
@@ -461,6 +209,146 @@
       ]
     },
     {
+      "id": "KWPvJR5p",
+      "name": "0.0.7+1.20.2",
+      "version_number": "0.0.7+1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "faedb35e41bc000133decb902b9f271d14703af34e3b8c3ce8f9b0169c38a0282b33f98573553514357ec452ed8650a48a00003d3eeafebeaf14accfebe2dead",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/KWPvJR5p/autorelog-0.0.7%2B1.20.2.jar",
+          "filename": "autorelog-0.0.7+1.20.2.jar",
+          "primary": true,
+          "size": 24969
+        },
+        {
+          "sha512": "4b059988caa7116f37ebefe10598267c79803fdb52651251dc187cc39f76f1e7bd1f8674754b877ff5791bc73498aadf5737bbb73c52def825bbef90971bdd53",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/KWPvJR5p/autorelog-0.0.7%2B1.20.2-sources.jar",
+          "filename": "autorelog-0.0.7+1.20.2-sources.jar",
+          "primary": false,
+          "size": 15532
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Ko6f9Fas",
+      "name": "0.0.6+1.20.1",
+      "version_number": "0.0.6+1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d1e6051fe6e49118796d66aedf288c31eedb0c29e9ccb63928ea04eb618c79afd444d3bdcf63a9bcff02f0506e88ae199d9ec2fac7c09a5f6d82cc102649f5c7",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/Ko6f9Fas/autorelog-0.0.6%2B1.20.1.jar",
+          "filename": "autorelog-0.0.6+1.20.1.jar",
+          "primary": true,
+          "size": 21709
+        },
+        {
+          "sha512": "9116135c4fa5f9a90e31c6999f02a45be83df310889ba66e7198269a6168161acfa471df693d9de90cc7e246047535972bfb0b08bf76ce01b577e9f03e04b0be",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/Ko6f9Fas/autorelog-0.0.6%2B1.20.1-sources.jar",
+          "filename": "autorelog-0.0.6+1.20.1-sources.jar",
+          "primary": false,
+          "size": 13251
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Ktztdiuw",
+      "name": "0.0.7+1.20.1",
+      "version_number": "0.0.7+1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5ce11ea001e9c3436216e91d3476f371f52a8ecdefa9ffb2b5b67f1e161341d66762e70792175f4b632094e038effabe9e85c105523f3c341e79e8fb84199f11",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/Ktztdiuw/autorelog-0.0.7%2B1.20.4.jar",
+          "filename": "autorelog-0.0.7+1.20.4.jar",
+          "primary": true,
+          "size": 660292
+        },
+        {
+          "sha512": "1a49d8c4c83dcc2ce590a8d0659c8eecf02cc157803d6a3154d708d8db7e1c2fdd760b355d641aa0dc69c0f02e39934955b1792f6b38b6db5668b8d4e79ff5e8",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/Ktztdiuw/autorelog-0.0.7%2B1.20.4-sources.jar",
+          "filename": "autorelog-0.0.7+1.20.4-sources.jar",
+          "primary": false,
+          "size": 15610
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "OtyUm7U0",
+      "name": "0.0.6+1.20.4",
+      "version_number": "0.0.6+1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2ce196ac411fd86d24ef1a5f9d62df5142303898993ed311da846a535e9b45fdea6db33ef4fa0a0b9616a30d8001a24ceb77067ade5fc258c6700a4c6cd637f1",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/OtyUm7U0/autorelog-0.0.6%2B1.20.4.jar",
+          "filename": "autorelog-0.0.6+1.20.4.jar",
+          "primary": true,
+          "size": 21175
+        },
+        {
+          "sha512": "c181e23b222faf672126fcfaa5455b6a8ef3e5e7e03aad33bf7c6de73e8bc5c90fbea5a5323c7d6da4a70d75d9a32de2ebd6a02b7a6ea54ce7dd52b723e7f1cd",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/OtyUm7U0/autorelog-0.0.6%2B1.20.4-sources.jar",
+          "filename": "autorelog-0.0.6+1.20.4-sources.jar",
+          "primary": false,
+          "size": 13265
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "VeQUQdcR",
       "name": "0.0.4+1.20.1",
       "version_number": "0.0.4+1.20.1",
@@ -490,6 +378,146 @@
         {
           "project_id": "P7dR8mSH",
           "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "l0aNU4kq",
+      "name": "0.0.5+1.20.2",
+      "version_number": "0.0.5+1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "abdb189e3bdec5e79a017e3dd33a7c5f961bfda268dd0a6b33dba50d46e6f7ab7f85bad7230bca09095271b810743a83840ee88f5208886adde68c8456ad9093",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/l0aNU4kq/autorelog-0.0.5%2B1.20.2.jar",
+          "filename": "autorelog-0.0.5+1.20.2.jar",
+          "primary": true,
+          "size": 15743
+        },
+        {
+          "sha512": "f414618cedba93363041659dbd1df46d0fbef5e2b564c8df0b285818191a56369e7e755d3374e1477bf91ea18c0aa84276f254cc9018c2b3f7ce8aa85360d1ab",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/l0aNU4kq/autorelog-0.0.5%2B1.20.2-sources.jar",
+          "filename": "autorelog-0.0.5+1.20.2-sources.jar",
+          "primary": false,
+          "size": 8346
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "qNKvOB6P",
+      "name": "0.0.7+1.20.4",
+      "version_number": "0.0.7+1.20.4",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "50d00754b44ea264d1a9ed280a5e1772d7c532acccb912709a47e075b2c11b29b5f6091b18f70d54eac9183b391cd76e2dbbe4086aa68548bd4886b9b5350026",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/qNKvOB6P/autorelog-0.0.7%2B1.20.4.jar",
+          "filename": "autorelog-0.0.7+1.20.4.jar",
+          "primary": true,
+          "size": 660290
+        },
+        {
+          "sha512": "8c48d32d4c8ba8a4b8b55d261d52d72ce93bd2ff9c28055c063c25f32d866513ff8dc23912929514fbf5b7f8bc03d437a7bc3da6a27f6c9852cc7577126380f7",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/qNKvOB6P/autorelog-0.0.7%2B1.20.4-sources.jar",
+          "filename": "autorelog-0.0.7+1.20.4-sources.jar",
+          "primary": false,
+          "size": 15610
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "rIOZo80K",
+      "name": "0.0.7+1.21",
+      "version_number": "0.0.7+1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "5a0f838f00fafbc30af61d74d223d2142efc87049fd3265ddba5ab4069960fa2040043808ebadce60630cd3a56218a62efb8406bf5ccb77bf9e61dce5f91635f",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/rIOZo80K/autorelog-0.0.7%2B1.21.jar",
+          "filename": "autorelog-0.0.7+1.21.jar",
+          "primary": true,
+          "size": 660908
+        },
+        {
+          "sha512": "f1838d72c9025e4c91fbd88dacbe9b65f96bd0275929a101e13ab8556c27bd7a394612989c0b356cf97dd856da143481131eadf4ee73a26bd0c21613fa67c6aa",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/rIOZo80K/autorelog-0.0.7%2B1.21-sources.jar",
+          "filename": "autorelog-0.0.7+1.21-sources.jar",
+          "primary": false,
+          "size": 15619
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "vXK2CUgp",
+      "name": "0.0.6+1.20.2",
+      "version_number": "0.0.6+1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4ceab5b560e3df17bff166336958f6e70d2d90c923bf013d0f4e1c9cfa9b09d90dedae8e65a9aa00a62bc0876abe209fe6be193c80e772dcb9d5c8957f96d9ec",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/vXK2CUgp/autorelog-0.0.6%2B1.20.2.jar",
+          "filename": "autorelog-0.0.6+1.20.2.jar",
+          "primary": true,
+          "size": 21820
+        },
+        {
+          "sha512": "9098c1630577f3a391822c55323a4696c7a9e81c8bc1bfe3e4edd7873fbb4602e5214b8655c9e908cd4eb807f472db5d92edc1bdf30afc480389ec23a2443b03",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/vXK2CUgp/autorelog-0.0.6%2B1.20.2-sources.jar",
+          "filename": "autorelog-0.0.6+1.20.2-sources.jar",
+          "primary": false,
+          "size": 13249
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -531,63 +559,35 @@
       ]
     },
     {
-      "id": "4qd9mvES",
-      "name": "0.0.2+1.19.4",
-      "version_number": "0.0.2+1.19.4",
+      "id": "zlV6rQA2",
+      "name": "0.0.7+1.20.6",
+      "version_number": "0.0.7+1.20.6",
       "game_versions": [
-        "1.19.4"
+        "1.20.6"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "0c11affcdcfac1ba018773643065ae9af4ee2ea6e1b380eacb7f2629b5b8ec5d4610add6388d5cdc3af1c2e0318e91bac0ff7cb59f35c7e52ea4c4c10899ce36",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/4qd9mvES/autorelog-0.0.2%2B1.19.4.jar",
-          "filename": "autorelog-0.0.2+1.19.4.jar",
+          "sha512": "b71b8a355272b8957e79f6a4187f60498f17fb8f751e83ed59e4eb3625758f77253878ce4a73bb2f6c747aaa1f81a556b3254997e035b258beca02e38525b0a9",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/zlV6rQA2/autorelog-0.0.7%2B1.20.6.jar",
+          "filename": "autorelog-0.0.7+1.20.6.jar",
           "primary": true,
-          "size": 11004
+          "size": 660927
         },
         {
-          "sha512": "861ce9dd3e5d545fc85c8ff938e2b4eae0093dcc27ce9804020eafe18481b64376bb86beafa2b37d1efd7bd965de0b3ff3db8404249aa05d14ab588c76b0ba51",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/4qd9mvES/autorelog-0.0.2%2B1.19.4-sources.jar",
-          "filename": "autorelog-0.0.2+1.19.4-sources.jar",
+          "sha512": "a6cfdea090f8d22438241bf0124b6b557c6bf32562e01aabb12a4f6a7ced835b07cf6d82fd9b0229192def69e9c418d0f4cdc532679ee14b1a4c31de42c311dc",
+          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/zlV6rQA2/autorelog-0.0.7%2B1.20.6-sources.jar",
+          "filename": "autorelog-0.0.7+1.20.6-sources.jar",
           "primary": false,
-          "size": 5966
+          "size": 15620
         }
       ],
       "dependencies": [
         {
           "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "CHnQparl",
-      "name": "AutoRelog 0.0.1+1.19.4",
-      "version_number": "0.0.1+1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a558dc8a5a61fc89792aa753535fa3223a202755bf5ccb54d36b95d251867114296e1af273998da871cd2bfb62e3f59b6f841045abf661ebb735c1107a0152c9",
-          "url": "https://cdn.modrinth.com/data/PZILPxJ6/versions/CHnQparl/autorelog-0.0.1%2B1.19.4.jar",
-          "filename": "autorelog-0.0.1+1.19.4.jar",
-          "primary": true,
-          "size": 10710
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }

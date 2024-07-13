@@ -5,6 +5,47 @@
   "description": "A farming mod for BTA inspired by stardew valley!",
   "versions": [
     {
+      "id": "1nPMCCQH",
+      "name": "Stardew Farming-BTA 1.0.1",
+      "version_number": "1.0.1",
+      "game_versions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "6604a001220f0c8855ebecc98fc9efd7b41384159701abffa57f862e20a0428ab28d75fdf1e04ef3a0672247867a0c272ae07de683775993099608a712d737a0",
+          "url": "https://cdn.modrinth.com/data/oZ5Y7afj/versions/1nPMCCQH/stardew-1.0.1.jar",
+          "filename": "stardew-1.0.1.jar",
+          "primary": true,
+          "size": 806924
+        },
+        {
+          "sha512": "91c8aa33764e6800366d3334bdb822410830a2dd5d8fb7f7aaebad640054ceb78c8b5d310900cd886507fd6a05bbb96e45a58ba71f965b278e786318c1e1a1c3",
+          "url": "https://cdn.modrinth.com/data/oZ5Y7afj/versions/1nPMCCQH/stardew-1.0.1-sources.jar",
+          "filename": "stardew-1.0.1-sources.jar",
+          "primary": false,
+          "size": 236876
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "IIu8YulV",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "t5UKwvaa",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "Jb2SF38E",
       "name": "Stardew Farming-BTA 1.1.0",
       "version_number": "1.1.0",
@@ -52,47 +93,6 @@
       ]
     },
     {
-      "id": "1nPMCCQH",
-      "name": "Stardew Farming-BTA 1.0.1",
-      "version_number": "1.0.1",
-      "game_versions": [
-        "b1.7.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6604a001220f0c8855ebecc98fc9efd7b41384159701abffa57f862e20a0428ab28d75fdf1e04ef3a0672247867a0c272ae07de683775993099608a712d737a0",
-          "url": "https://cdn.modrinth.com/data/oZ5Y7afj/versions/1nPMCCQH/stardew-1.0.1.jar",
-          "filename": "stardew-1.0.1.jar",
-          "primary": true,
-          "size": 806924
-        },
-        {
-          "sha512": "91c8aa33764e6800366d3334bdb822410830a2dd5d8fb7f7aaebad640054ceb78c8b5d310900cd886507fd6a05bbb96e45a58ba71f965b278e786318c1e1a1c3",
-          "url": "https://cdn.modrinth.com/data/oZ5Y7afj/versions/1nPMCCQH/stardew-1.0.1-sources.jar",
-          "filename": "stardew-1.0.1-sources.jar",
-          "primary": false,
-          "size": 236876
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "IIu8YulV",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "t5UKwvaa",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "oXNxgjc9",
       "name": "Stardew Farming-BTA 1.0.0",
       "version_number": "1.0.0",
@@ -120,13 +120,13 @@
       ],
       "dependencies": [
         {
-          "project_id": "t5UKwvaa",
+          "project_id": "IIu8YulV",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "IIu8YulV",
+          "project_id": "t5UKwvaa",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"

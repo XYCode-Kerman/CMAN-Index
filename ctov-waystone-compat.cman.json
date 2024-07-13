@@ -5,6 +5,43 @@
   "description": "Compatibility add-on for waystone mod and CTOV",
   "versions": [
     {
+      "id": "2I2UCWsu",
+      "name": "Version 1.0",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "a0d2151a2e3608961ddc1dd0f9e04ca06011f812fcb742a9b7079b7a5a7ab6fd8586f5cf0cbfaa80fdbd3d56acc89443b88253943bd586b387229bef78aa820a",
+          "url": "https://cdn.modrinth.com/data/70yluNSI/versions/2I2UCWsu/ctov-waystone-add-on-v1-0.zip",
+          "filename": "ctov-waystone-add-on-v1-0.zip",
+          "primary": true,
+          "size": 2197
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "LOpKHB2A",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "fgmhI8kH",
+          "version_id": "qC5GfpM0",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "dhfJy800",
       "name": "Version 1.0",
       "version_number": "1.0+mod",
@@ -38,43 +75,6 @@
         {
           "project_id": "fgmhI8kH",
           "version_id": "tnyL873R",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "2I2UCWsu",
-      "name": "Version 1.0",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "a0d2151a2e3608961ddc1dd0f9e04ca06011f812fcb742a9b7079b7a5a7ab6fd8586f5cf0cbfaa80fdbd3d56acc89443b88253943bd586b387229bef78aa820a",
-          "url": "https://cdn.modrinth.com/data/70yluNSI/versions/2I2UCWsu/ctov-waystone-add-on-v1-0.zip",
-          "filename": "ctov-waystone-add-on-v1-0.zip",
-          "primary": true,
-          "size": 2197
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "LOpKHB2A",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "fgmhI8kH",
-          "version_id": "qC5GfpM0",
           "file_name": null,
           "dependency_type": "required"
         }

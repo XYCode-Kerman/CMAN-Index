@@ -5,11 +5,11 @@
   "description": "2b2t IRC is a mod for the popular Minecraft server 2b2t, designed to provide an alternative chat system to replace the in-game chat.",
   "versions": [
     {
-      "id": "ZzTkO2Qb",
-      "name": "2b2t IRC Fabric v1.0.4 for MC 1.20.4",
-      "version_number": "1.0.4-1.20.4",
+      "id": "7KzSSXzk",
+      "name": "2b2t IRC Fabric v1.0 for MC 1.20.1",
+      "version_number": "1.0-1.20.1",
       "game_versions": [
-        "1.20.4"
+        "1.20.1"
       ],
       "loaders": [
         "fabric",
@@ -17,18 +17,33 @@
       ],
       "files": [
         {
-          "sha512": "bb2933352ac86eb208e8b0c44dc31d53176c227f49f1d8cdb1c8704836a44bb600211975afdaf527a4a1cf9c27199aac0a0fb18049c1769d48b5cfe61875a8b1",
-          "url": "https://cdn.modrinth.com/data/3Ej1RlKQ/versions/ZzTkO2Qb/IRC2b2tFabric-1.0.4-1.20.4.jar",
-          "filename": "IRC2b2tFabric-1.0.4-1.20.4.jar",
+          "sha512": "f747f3a30dcb6e713b700f69ca90830822faf48720722865bfef9a6b48514ae663781074e793ca46b570fea3030bb620968d4cf6672896759db8171389e65710",
+          "url": "https://cdn.modrinth.com/data/3Ej1RlKQ/versions/7KzSSXzk/IRC2b2tFabric-1.0-1.20.1.jar",
+          "filename": "IRC2b2tFabric-1.0-1.20.1.jar",
           "primary": true,
-          "size": 41865
-        },
+          "size": 40959
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "EJ0G2l4d",
+      "name": "2b2t IRC Fabric v1.0.3 for MC 1.20.1",
+      "version_number": "1.0.3-1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
         {
-          "sha512": "0f917daf1eef164aeb1742c2314479461592e8fa0c7c48d93c91d6169629a4687e51a62bdd63036fb792cb32c0ed5fd771cde89be1dd47ee8f2448112517b4fc",
-          "url": "https://cdn.modrinth.com/data/3Ej1RlKQ/versions/ZzTkO2Qb/IRC2b2tFabric-1.0.4-1.20.4-sources.jar",
-          "filename": "IRC2b2tFabric-1.0.4-1.20.4-sources.jar",
-          "primary": false,
-          "size": 18157
+          "sha512": "652d746d45aa8608906835166352961ebcfb8e16fc7ceede352654781f6017fd4f5e7b7a7f4c1bc9e61d42dcaf366eb119b6c2c4628f60e255e544aba8c713e1",
+          "url": "https://cdn.modrinth.com/data/3Ej1RlKQ/versions/EJ0G2l4d/IRC2b2tFabric-1.0.3-1.20.1.jar",
+          "filename": "IRC2b2tFabric-1.0.3-1.20.1.jar",
+          "primary": true,
+          "size": 39516
         }
       ],
       "dependencies": []
@@ -58,57 +73,6 @@
           "filename": "IRC2b2tFabric-1.0.4-1.20.1-sources.jar",
           "primary": false,
           "size": 18062
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "rTnD31Di",
-      "name": "2b2t IRC Fabric v1.0.4 for MC 1.19.4",
-      "version_number": "1.0.4-1.19.4",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d3a013ee3e399c0bb9cc73bff2b538f0ea0ad67b97c0bc4d78fe8a7c5523a8938d8ef0a1b692b8df64b3e7a3ee2c3d1ffa3d480027d186d7c6f43279dacf543b",
-          "url": "https://cdn.modrinth.com/data/3Ej1RlKQ/versions/rTnD31Di/IRC2b2tFabric-1.0.4-1.19.4.jar",
-          "filename": "IRC2b2tFabric-1.0.4-1.19.4.jar",
-          "primary": true,
-          "size": 41709
-        },
-        {
-          "sha512": "dbc8801992c6752e7361c768daf3dd38c7655d7017f0b9fae5ea6f43f626be20d88b8c65d5f88fb2c4e3b96c6f2c1a0a53baceb1ae765189728f04b1ffad7ca1",
-          "url": "https://cdn.modrinth.com/data/3Ej1RlKQ/versions/rTnD31Di/IRC2b2tFabric-1.0.4-1.19.4-sources.jar",
-          "filename": "IRC2b2tFabric-1.0.4-1.19.4-sources.jar",
-          "primary": false,
-          "size": 18063
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "EJ0G2l4d",
-      "name": "2b2t IRC Fabric v1.0.3 for MC 1.20.1",
-      "version_number": "1.0.3-1.20.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "652d746d45aa8608906835166352961ebcfb8e16fc7ceede352654781f6017fd4f5e7b7a7f4c1bc9e61d42dcaf366eb119b6c2c4628f60e255e544aba8c713e1",
-          "url": "https://cdn.modrinth.com/data/3Ej1RlKQ/versions/EJ0G2l4d/IRC2b2tFabric-1.0.3-1.20.1.jar",
-          "filename": "IRC2b2tFabric-1.0.3-1.20.1.jar",
-          "primary": true,
-          "size": 39516
         }
       ],
       "dependencies": []
@@ -158,11 +122,11 @@
       "dependencies": []
     },
     {
-      "id": "7KzSSXzk",
-      "name": "2b2t IRC Fabric v1.0 for MC 1.20.1",
-      "version_number": "1.0-1.20.1",
+      "id": "ZzTkO2Qb",
+      "name": "2b2t IRC Fabric v1.0.4 for MC 1.20.4",
+      "version_number": "1.0.4-1.20.4",
       "game_versions": [
-        "1.20.1"
+        "1.20.4"
       ],
       "loaders": [
         "fabric",
@@ -170,11 +134,47 @@
       ],
       "files": [
         {
-          "sha512": "f747f3a30dcb6e713b700f69ca90830822faf48720722865bfef9a6b48514ae663781074e793ca46b570fea3030bb620968d4cf6672896759db8171389e65710",
-          "url": "https://cdn.modrinth.com/data/3Ej1RlKQ/versions/7KzSSXzk/IRC2b2tFabric-1.0-1.20.1.jar",
-          "filename": "IRC2b2tFabric-1.0-1.20.1.jar",
+          "sha512": "bb2933352ac86eb208e8b0c44dc31d53176c227f49f1d8cdb1c8704836a44bb600211975afdaf527a4a1cf9c27199aac0a0fb18049c1769d48b5cfe61875a8b1",
+          "url": "https://cdn.modrinth.com/data/3Ej1RlKQ/versions/ZzTkO2Qb/IRC2b2tFabric-1.0.4-1.20.4.jar",
+          "filename": "IRC2b2tFabric-1.0.4-1.20.4.jar",
           "primary": true,
-          "size": 40959
+          "size": 41865
+        },
+        {
+          "sha512": "0f917daf1eef164aeb1742c2314479461592e8fa0c7c48d93c91d6169629a4687e51a62bdd63036fb792cb32c0ed5fd771cde89be1dd47ee8f2448112517b4fc",
+          "url": "https://cdn.modrinth.com/data/3Ej1RlKQ/versions/ZzTkO2Qb/IRC2b2tFabric-1.0.4-1.20.4-sources.jar",
+          "filename": "IRC2b2tFabric-1.0.4-1.20.4-sources.jar",
+          "primary": false,
+          "size": 18157
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rTnD31Di",
+      "name": "2b2t IRC Fabric v1.0.4 for MC 1.19.4",
+      "version_number": "1.0.4-1.19.4",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d3a013ee3e399c0bb9cc73bff2b538f0ea0ad67b97c0bc4d78fe8a7c5523a8938d8ef0a1b692b8df64b3e7a3ee2c3d1ffa3d480027d186d7c6f43279dacf543b",
+          "url": "https://cdn.modrinth.com/data/3Ej1RlKQ/versions/rTnD31Di/IRC2b2tFabric-1.0.4-1.19.4.jar",
+          "filename": "IRC2b2tFabric-1.0.4-1.19.4.jar",
+          "primary": true,
+          "size": 41709
+        },
+        {
+          "sha512": "dbc8801992c6752e7361c768daf3dd38c7655d7017f0b9fae5ea6f43f626be20d88b8c65d5f88fb2c4e3b96c6f2c1a0a53baceb1ae765189728f04b1ffad7ca1",
+          "url": "https://cdn.modrinth.com/data/3Ej1RlKQ/versions/rTnD31Di/IRC2b2tFabric-1.0.4-1.19.4-sources.jar",
+          "filename": "IRC2b2tFabric-1.0.4-1.19.4-sources.jar",
+          "primary": false,
+          "size": 18063
         }
       ],
       "dependencies": []

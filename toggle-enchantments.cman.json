@@ -77,6 +77,55 @@
       ]
     },
     {
+      "id": "PAdcBNqA",
+      "name": "Toggle Enchantments Fabric/Quilt v1.0",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "dc282034cb51545bc50707fbd1f84d92a0670a213f7d80d97499561e6eec1e734c0ea3badda615ccc14cf0c1a2d16a3147585d36b5948a4750799c819dffe527",
+          "url": "https://cdn.modrinth.com/data/OzKqGHgZ/versions/PAdcBNqA/togenc-fabric-1.20.x-v1.0.jar",
+          "filename": "togenc-fabric-1.20.x-v1.0.jar",
+          "primary": true,
+          "size": 37779
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "xZUFmYJ5",
+          "version_id": "3jX16AeT",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "VxsIGLmM",
       "name": "Toggle Enchantments Forge 1.20.x - v1.0",
       "version_number": "1.0",
@@ -100,7 +149,56 @@
       ],
       "dependencies": [
         {
+          "project_id": "xZUFmYJ5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "qM4wuH2V",
+      "name": "Toggle Enchantments Fabric/Quilt 1.19.x - v1.0",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "fd0539f2e0758501b55d5ed122e479e7782a60fa5b46106b68fe00d52cd5f42540875a3bb23aa2151499efd34f0f03104d40ef5cc5b365377213f9fdf7973c20",
+          "url": "https://cdn.modrinth.com/data/OzKqGHgZ/versions/qM4wuH2V/togenc-fabric-1.19.x-v1.0.jar",
+          "filename": "togenc-fabric-1.19.x-v1.0.jar",
+          "primary": true,
+          "size": 38125
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "mOgUt4GM",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
@@ -159,104 +257,6 @@
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "qM4wuH2V",
-      "name": "Toggle Enchantments Fabric/Quilt 1.19.x - v1.0",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "fd0539f2e0758501b55d5ed122e479e7782a60fa5b46106b68fe00d52cd5f42540875a3bb23aa2151499efd34f0f03104d40ef5cc5b365377213f9fdf7973c20",
-          "url": "https://cdn.modrinth.com/data/OzKqGHgZ/versions/qM4wuH2V/togenc-fabric-1.19.x-v1.0.jar",
-          "filename": "togenc-fabric-1.19.x-v1.0.jar",
-          "primary": true,
-          "size": 38125
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "xZUFmYJ5",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "PAdcBNqA",
-      "name": "Toggle Enchantments Fabric/Quilt v1.0",
-      "version_number": "1.0",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4",
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "dc282034cb51545bc50707fbd1f84d92a0670a213f7d80d97499561e6eec1e734c0ea3badda615ccc14cf0c1a2d16a3147585d36b5948a4750799c819dffe527",
-          "url": "https://cdn.modrinth.com/data/OzKqGHgZ/versions/PAdcBNqA/togenc-fabric-1.20.x-v1.0.jar",
-          "filename": "togenc-fabric-1.20.x-v1.0.jar",
-          "primary": true,
-          "size": 37779
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "xZUFmYJ5",
-          "version_id": "3jX16AeT",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
           "file_name": null,
           "dependency_type": "required"
         }

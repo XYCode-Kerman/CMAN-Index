@@ -5,22 +5,57 @@
   "description": "Highly-configurable zoom for Fabric/NeoForge. Maintained fork of OkZoomer v4",
   "versions": [
     {
-      "id": "iLYJM0m4",
-      "name": "[Fabric] FabriZoom 2.1.1+1.21",
-      "version_number": "2.1.1+1.21",
+      "id": "C6idUwHz",
+      "name": "[Forge] FabriZoom 2.0.1+1.20.2",
+      "version_number": "2.0.1+1.20.2",
       "game_versions": [
-        "1.21"
+        "1.20.2"
       ],
       "loaders": [
-        "fabric"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "9110fc37beb727faad38b5332810f43e2a5e109dac5f2d6bef81025a67c9c7d760c5fa8aef8c681bc4dc1051e83a761cf36fc43057bbd546df9a1776ad53502e",
-          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/iLYJM0m4/fabrizoom-2.1.1%2B1.21-fabric.jar",
-          "filename": "fabrizoom-2.1.1+1.21-fabric.jar",
+          "sha512": "550373b9b9e7ba1d1f74819210087030c917fb7cbbef40b60a0d9cbfef2b7a9fcab884359d0c7c0d873e9171bc65a7c4490580a35c142c2145c59c4a4ab8fcff",
+          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/C6idUwHz/fabrizoom-2.0.1%2B1.20.2-forge.jar",
+          "filename": "fabrizoom-2.0.1+1.20.2-forge.jar",
           "primary": true,
-          "size": 100049
+          "size": 103510
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "K77Gx5AY",
+      "name": "1.20.2 Support",
+      "version_number": "1.2.6",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "fb05e825494371097a81a8238b2498b697e914930fc7203a042b878a46bd0501444a309726449840bc87de1ad93fa608ca9b3a3b5340f5451eb06032eccb4153",
+          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/K77Gx5AY/FabriZoom-1.2.6.jar",
+          "filename": "FabriZoom-1.2.6.jar",
+          "primary": true,
+          "size": 3421878
         }
       ],
       "dependencies": [
@@ -97,81 +132,11 @@
       ]
     },
     {
-      "id": "kM7Ubi6l",
-      "name": "[NeoForge] FabriZoom 2.0.1+1.20.2",
-      "version_number": "2.0.1+1.20.2",
+      "id": "LYuW6vK3",
+      "name": "Bug Fixes",
+      "version_number": "1.2.1",
       "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "a68887c27b09e7563ee43a077f125068a936e66bad90509d496e20b9887719191a819adfd3166152211bea994071c195cf7329305e0a0a30915a6125acc24ef8",
-          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/kM7Ubi6l/fabrizoom-2.0.1%2B1.20.2-neoforge.jar",
-          "filename": "fabrizoom-2.0.1+1.20.2-neoforge.jar",
-          "primary": true,
-          "size": 103173
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "C6idUwHz",
-      "name": "[Forge] FabriZoom 2.0.1+1.20.2",
-      "version_number": "2.0.1+1.20.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "550373b9b9e7ba1d1f74819210087030c917fb7cbbef40b60a0d9cbfef2b7a9fcab884359d0c7c0d873e9171bc65a7c4490580a35c142c2145c59c4a4ab8fcff",
-          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/C6idUwHz/fabrizoom-2.0.1%2B1.20.2-forge.jar",
-          "filename": "fabrizoom-2.0.1+1.20.2-forge.jar",
-          "primary": true,
-          "size": 103510
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "nXXL21Sa",
-      "name": "[Fabric] FabriZoom 2.0.1+1.20.2",
-      "version_number": "2.0.1+1.20.2",
-      "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
+        "1.19.2"
       ],
       "loaders": [
         "fabric",
@@ -179,185 +144,29 @@
       ],
       "files": [
         {
-          "sha512": "4f6e8a677b38623aa725d35e4ad86f23c3559eaff42cd53ecb3279740c53aea63e0a0a50626fb1a90cc520e62e91ba885e89a63c1d8e7a79b253a52e9d5ebe10",
-          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/nXXL21Sa/fabrizoom-2.0.1%2B1.20.2-fabric.jar",
-          "filename": "fabrizoom-2.0.1+1.20.2-fabric.jar",
+          "sha512": "8fa3ec233fc843c2d677461c1cbb7a032be53296083f3851781b0cca79284e567dd3fe31ea499aa93fce8f96883e929053653aa4635c112ab8e0274a2edb2c95",
+          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/LYuW6vK3/FabriZoom-1.2.1.jar",
+          "filename": "FabriZoom-1.2.1.jar",
           "primary": true,
-          "size": 99928
+          "size": 3539171
         }
       ],
       "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
+          "version_id": "4dReZoTJ",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "mzWwrV0q",
-      "name": "[NeoForge] FabriZoom 2.0.0+1.20.2",
-      "version_number": "2.0.0+1.20.2-neoforge",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "0a3d7689bdf4971e561902f4b32d7cb969e6a5bee5292dcce24239cce3c6d01cf8c961c98a3d9d1effc14b30ab7e9460fbd2ea0c77919a9e2dd2b1872cc7e6a6",
-          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/mzWwrV0q/fabrizoom-2.0.0%2B1.20.2-neoforge.jar",
-          "filename": "fabrizoom-2.0.0+1.20.2-neoforge.jar",
-          "primary": true,
-          "size": 103172
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "fPuVNa1E",
-      "name": "[Forge] FabriZoom 2.0.0+1.20.2",
-      "version_number": "2.0.0+1.20.2-forge",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "3dfd30259bc1ccb1d444d94398a25cdc085e020c4b10ea915e63582da286cc69e6c8f48e953198afcef0752b0469b368d9794f1691384b098c1cb922a6bcc9a3",
-          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/fPuVNa1E/fabrizoom-2.0.0%2B1.20.2-forge.jar",
-          "filename": "fabrizoom-2.0.0+1.20.2-forge.jar",
-          "primary": true,
-          "size": 103509
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ordsPcFz",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "xOBqNX8m",
-      "name": "[Fabric] FabriZoom 2.0.0+1.20.2",
-      "version_number": "2.0.0+1.20.2-fabric",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "a7b5d730475c227515f6a466ac95aa07bb8a24c91265ec2487d4f44d14aca82d8c8bfe8467eb69e82609927b38845562b5c13619e113a15f09f321dec86d2eb7",
-          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/xOBqNX8m/fabrizoom-2.0.0%2B1.20.2-fabric.jar",
-          "filename": "fabrizoom-2.0.0+1.20.2-fabric.jar",
-          "primary": true,
-          "size": 99925
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
+          "version_id": "BXfHW8Ww",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "cXNh4ggJ",
-      "name": "1.20.1 Backport",
-      "version_number": "1.3.0-backport",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d898ca3233ce1cd92264f9bc8baaf58255e279782de503e55170512c17d6aa64fa4bac1d29e8482f992ce71563b9aa6bf0325b3b95b2471ecb092c23a09f2468",
-          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/cXNh4ggJ/FabriZoom-1.3.0-backport.jar",
-          "filename": "FabriZoom-1.3.0-backport.jar",
-          "primary": true,
-          "size": 3423905
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
+          "version_id": "s10JMAtS",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -411,11 +220,11 @@
       ]
     },
     {
-      "id": "K77Gx5AY",
-      "name": "1.20.2 Support",
-      "version_number": "1.2.6",
+      "id": "YR6dhtjF",
+      "name": "1.19.3 and Translations",
+      "version_number": "1.2.2",
       "game_versions": [
-        "1.20.2"
+        "1.19.3"
       ],
       "loaders": [
         "fabric",
@@ -423,19 +232,107 @@
       ],
       "files": [
         {
-          "sha512": "fb05e825494371097a81a8238b2498b697e914930fc7203a042b878a46bd0501444a309726449840bc87de1ad93fa608ca9b3a3b5340f5451eb06032eccb4153",
-          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/K77Gx5AY/FabriZoom-1.2.6.jar",
-          "filename": "FabriZoom-1.2.6.jar",
+          "sha512": "712f1563741e81085be370bf7795fee4d2fa45dd320fff2e1caee635550e770df7419149c08e6044b513239de98f8a5ac91a2845d0eb10c0bdec43b6d24c4e06",
+          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/YR6dhtjF/FabriZoom-1.2.2.jar",
+          "filename": "FabriZoom-1.2.2.jar",
           "primary": true,
-          "size": 3421878
+          "size": 3421009
         }
       ],
       "dependencies": [
         {
+          "project_id": "1eAoo2KR",
+          "version_id": "NZpUvhBc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "mOgUt4GM",
-          "version_id": null,
+          "version_id": "id0aLmxO",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": "s10JMAtS",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "vWbvdIxT",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "brwt6EKD",
+      "name": "Minor Fixes",
+      "version_number": "1.2.3",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "15cfc06de1a07b5e89b87c938ba831f23cd5016b2cc1737f37a18ba73953418091b889b1aa4e78ffc38f00dfb11cc63a765c6ef61da984907c0842c0b81b445a",
+          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/brwt6EKD/FabriZoom-1.2.3.jar",
+          "filename": "FabriZoom-1.2.3.jar",
+          "primary": true,
+          "size": 3421010
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": "NZpUvhBc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "cXNh4ggJ",
+      "name": "1.20.1 Backport",
+      "version_number": "1.3.0-backport",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d898ca3233ce1cd92264f9bc8baaf58255e279782de503e55170512c17d6aa64fa4bac1d29e8482f992ce71563b9aa6bf0325b3b95b2471ecb092c23a09f2468",
+          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/cXNh4ggJ/FabriZoom-1.3.0-backport.jar",
+          "filename": "FabriZoom-1.3.0-backport.jar",
+          "primary": true,
+          "size": 3423905
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "P7dR8mSH",
@@ -445,12 +342,6 @@
         },
         {
           "project_id": "1eAoo2KR",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "Ha28R6CL",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -485,111 +376,57 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "Ha28R6CL",
-          "version_id": "s10JMAtS",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "lMqXEzUw",
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "brwt6EKD",
-      "name": "Minor Fixes",
-      "version_number": "1.2.3",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "15cfc06de1a07b5e89b87c938ba831f23cd5016b2cc1737f37a18ba73953418091b889b1aa4e78ffc38f00dfb11cc63a765c6ef61da984907c0842c0b81b445a",
-          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/brwt6EKD/FabriZoom-1.2.3.jar",
-          "filename": "FabriZoom-1.2.3.jar",
-          "primary": true,
-          "size": 3421010
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": "NZpUvhBc",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "YR6dhtjF",
-      "name": "1.19.3 and Translations",
-      "version_number": "1.2.2",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "712f1563741e81085be370bf7795fee4d2fa45dd320fff2e1caee635550e770df7419149c08e6044b513239de98f8a5ac91a2845d0eb10c0bdec43b6d24c4e06",
-          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/YR6dhtjF/FabriZoom-1.2.2.jar",
-          "filename": "FabriZoom-1.2.2.jar",
-          "primary": true,
-          "size": 3421009
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1eAoo2KR",
-          "version_id": "NZpUvhBc",
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "Ha28R6CL",
           "version_id": "s10JMAtS",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "vWbvdIxT",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "LYuW6vK3",
-      "name": "Bug Fixes",
-      "version_number": "1.2.1",
+      "id": "fPuVNa1E",
+      "name": "[Forge] FabriZoom 2.0.0+1.20.2",
+      "version_number": "2.0.0+1.20.2-forge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "3dfd30259bc1ccb1d444d94398a25cdc085e020c4b10ea915e63582da286cc69e6c8f48e953198afcef0752b0469b368d9794f1691384b098c1cb922a6bcc9a3",
+          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/fPuVNa1E/fabrizoom-2.0.0%2B1.20.2-forge.jar",
+          "filename": "fabrizoom-2.0.0+1.20.2-forge.jar",
+          "primary": true,
+          "size": 103509
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "fTSxFVkP",
+      "name": "Zoom Presets",
+      "version_number": "1.1.0",
       "game_versions": [
         "1.19.2"
       ],
@@ -599,64 +436,23 @@
       ],
       "files": [
         {
-          "sha512": "8fa3ec233fc843c2d677461c1cbb7a032be53296083f3851781b0cca79284e567dd3fe31ea499aa93fce8f96883e929053653aa4635c112ab8e0274a2edb2c95",
-          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/LYuW6vK3/FabriZoom-1.2.1.jar",
-          "filename": "FabriZoom-1.2.1.jar",
+          "sha512": "aa7a2807e84c1c94c3a1ad7300ac5473d425d7b4cb7677ca8cd4530f14edfc4df2bb72cebbacd0e0eb5726bade57d9c8652c6165e4d52f6efd44c60d0dbbe513",
+          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/fTSxFVkP/FabriZoom-1.1.0.jar",
+          "filename": "FabriZoom-1.1.0.jar",
           "primary": true,
-          "size": 3539171
+          "size": 3418458
         }
       ],
       "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": "s10JMAtS",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "4dReZoTJ",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "BXfHW8Ww",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ny8bQYAp",
-      "name": "New Config GUI + Minor Features",
-      "version_number": "1.2.0",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f63dbdcbfe9887a06c3b1b491bab432c087c1497196f43d6613f2a42806c8e2d8950a0f711bfb2df57c48b28cad3ad05a69aca8338326566f87c2c17da9d3af0",
-          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/ny8bQYAp/FabriZoom-1.2.0.jar",
-          "filename": "FabriZoom-1.2.0.jar",
-          "primary": true,
-          "size": 3539166
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": "s10JMAtS",
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "mOgUt4GM",
           "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -698,9 +494,172 @@
       ]
     },
     {
-      "id": "fTSxFVkP",
-      "name": "Zoom Presets",
-      "version_number": "1.1.0",
+      "id": "iLYJM0m4",
+      "name": "[Fabric] FabriZoom 2.1.1+1.21",
+      "version_number": "2.1.1+1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "9110fc37beb727faad38b5332810f43e2a5e109dac5f2d6bef81025a67c9c7d760c5fa8aef8c681bc4dc1051e83a761cf36fc43057bbd546df9a1776ad53502e",
+          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/iLYJM0m4/fabrizoom-2.1.1%2B1.21-fabric.jar",
+          "filename": "fabrizoom-2.1.1+1.21-fabric.jar",
+          "primary": true,
+          "size": 100049
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "kM7Ubi6l",
+      "name": "[NeoForge] FabriZoom 2.0.1+1.20.2",
+      "version_number": "2.0.1+1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "a68887c27b09e7563ee43a077f125068a936e66bad90509d496e20b9887719191a819adfd3166152211bea994071c195cf7329305e0a0a30915a6125acc24ef8",
+          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/kM7Ubi6l/fabrizoom-2.0.1%2B1.20.2-neoforge.jar",
+          "filename": "fabrizoom-2.0.1+1.20.2-neoforge.jar",
+          "primary": true,
+          "size": 103173
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "mzWwrV0q",
+      "name": "[NeoForge] FabriZoom 2.0.0+1.20.2",
+      "version_number": "2.0.0+1.20.2-neoforge",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "0a3d7689bdf4971e561902f4b32d7cb969e6a5bee5292dcce24239cce3c6d01cf8c961c98a3d9d1effc14b30ab7e9460fbd2ea0c77919a9e2dd2b1872cc7e6a6",
+          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/mzWwrV0q/fabrizoom-2.0.0%2B1.20.2-neoforge.jar",
+          "filename": "fabrizoom-2.0.0+1.20.2-neoforge.jar",
+          "primary": true,
+          "size": 103172
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "nXXL21Sa",
+      "name": "[Fabric] FabriZoom 2.0.1+1.20.2",
+      "version_number": "2.0.1+1.20.2",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4f6e8a677b38623aa725d35e4ad86f23c3559eaff42cd53ecb3279740c53aea63e0a0a50626fb1a90cc520e62e91ba885e89a63c1d8e7a79b253a52e9d5ebe10",
+          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/nXXL21Sa/fabrizoom-2.0.1%2B1.20.2-fabric.jar",
+          "filename": "fabrizoom-2.0.1+1.20.2-fabric.jar",
+          "primary": true,
+          "size": 99928
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "ny8bQYAp",
+      "name": "New Config GUI + Minor Features",
+      "version_number": "1.2.0",
       "game_versions": [
         "1.19.2"
       ],
@@ -710,23 +669,23 @@
       ],
       "files": [
         {
-          "sha512": "aa7a2807e84c1c94c3a1ad7300ac5473d425d7b4cb7677ca8cd4530f14edfc4df2bb72cebbacd0e0eb5726bade57d9c8652c6165e4d52f6efd44c60d0dbbe513",
-          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/fTSxFVkP/FabriZoom-1.1.0.jar",
-          "filename": "FabriZoom-1.1.0.jar",
+          "sha512": "f63dbdcbfe9887a06c3b1b491bab432c087c1497196f43d6613f2a42806c8e2d8950a0f711bfb2df57c48b28cad3ad05a69aca8338326566f87c2c17da9d3af0",
+          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/ny8bQYAp/FabriZoom-1.2.0.jar",
+          "filename": "FabriZoom-1.2.0.jar",
           "primary": true,
-          "size": 3418458
+          "size": 3539166
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
+          "project_id": "Ha28R6CL",
+          "version_id": "s10JMAtS",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -754,14 +713,55 @@
       ],
       "dependencies": [
         {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "P7dR8mSH",
           "version_id": "hfsU4hXq",
           "file_name": null,
           "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "xOBqNX8m",
+      "name": "[Fabric] FabriZoom 2.0.0+1.20.2",
+      "version_number": "2.0.0+1.20.2-fabric",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "a7b5d730475c227515f6a466ac95aa07bb8a24c91265ec2487d4f44d14aca82d8c8bfe8467eb69e82609927b38845562b5c13619e113a15f09f321dec86d2eb7",
+          "url": "https://cdn.modrinth.com/data/pNFKDyna/versions/xOBqNX8m/fabrizoom-2.0.0%2B1.20.2-fabric.jar",
+          "filename": "fabrizoom-2.0.0+1.20.2-fabric.jar",
+          "primary": true,
+          "size": 99925
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
+          "project_id": "1eAoo2KR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }

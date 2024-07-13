@@ -5,29 +5,104 @@
   "description": "Data driven action, reward, condition library.",
   "versions": [
     {
-      "id": "cfiHbWxx",
-      "name": "Arc NeoForge 1.21 - 1.6.6.1-1.21",
-      "version_number": "1.6.6.1-1.21",
+      "id": "1CcWeACN",
+      "name": "Arc Forge 1.19.2 - 0.1",
+      "version_number": "0.1",
       "game_versions": [
-        "1.21"
+        "1.19.2"
       ],
       "loaders": [
-        "neoforge"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "f0b2d6831f38e221eed8d349b2535748c6c0c35569886497863b16de4895221d40a575e10df68af04e697ecc9f0640dbbf9d8fb5904a5322ca2b56c987e04094",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/cfiHbWxx/arc-1.6.6.1-1.21-neoforge.jar",
-          "filename": "arc-1.6.6.1-1.21-neoforge.jar",
+          "sha512": "50bedbefc2963f0c6ce65083263728738747ef2acf08c17255013b76456e1a5594832a8132245fb62b73c8b4dbd86f201e213b4af8238989a1c4b5728bbc2130",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/1CcWeACN/arc-0.1-forge.jar",
+          "filename": "arc-0.1-forge.jar",
           "primary": true,
-          "size": 431995
+          "size": 379986
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "4OyBCv0j",
+      "name": "Arc Forge 1.20.1 - 1.5.4",
+      "version_number": "1.5.4",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "b1068625ca2ddd1599babb9b364b7a4118410d344ee9fc78369439e853d8796aa9d7d0c004ac32c50174bd2fc69f591db268dda546f63c8339b60b22cca0e5ca",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/4OyBCv0j/arc-1.5.4-forge.jar",
+          "filename": "arc-1.5.4-forge.jar",
+          "primary": true,
+          "size": 422882
         },
         {
-          "sha512": "c79788b1b694843916a98a1696dfb0dc1cac5fe3548c619a038563f7545d86c96896e8b618168e7a62c5cf79e5f126962dd35c6429ce9723b4481543c213dfd2",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/cfiHbWxx/arc-1.6.6.1-1.21-neoforge-sources.jar",
-          "filename": "arc-1.6.6.1-1.21-neoforge-sources.jar",
+          "sha512": "8d4a4e841f3f656922d2e2f88d71e7d5237fe2fc70fb96563a91db4797b4f5419755805d07aa5e4b381d096aa6717e1ecd94537160b0d53fefedfe7b6101e134",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/4OyBCv0j/arc-1.5.4-forge-sources.jar",
+          "filename": "arc-1.5.4-forge-sources.jar",
           "primary": false,
-          "size": 21499
+          "size": 195648
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LN9BxssP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "4k6Fmo57",
+      "name": "Arc Forge 1.20.1 - 1.4.2",
+      "version_number": "1.4.2",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "7c11ced03bebd892f3d5d71c9d88eae3df6d9fa2899e2be093b1ea6ab31f943be1d1d527bc10f31c9a959352338bed85f147bf0fb4b4684632fbeb027f875354",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/4k6Fmo57/arc-1.4.2-forge.jar",
+          "filename": "arc-1.4.2-forge.jar",
+          "primary": true,
+          "size": 422063
+        },
+        {
+          "sha512": "aa502f774f04c7b2c038a671b48775f065032e6a4bf30fb2c1b2e5f91bc003ec2aa9b377006c5399c261e0b2ab854d44a17b9b4ca6a724b57624caf7589ab8a1",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/4k6Fmo57/arc-1.4.2-forge-sources.jar",
+          "filename": "arc-1.4.2-forge-sources.jar",
+          "primary": false,
+          "size": 191219
         }
       ],
       "dependencies": [
@@ -42,44 +117,9 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "fB3IByaR",
-      "name": "Arc Fabric 1.21 - 1.6.6.1-1.21",
-      "version_number": "1.6.6.1-1.21",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e79461d487a1f7d22407fd10a7eb66efad800e11a307cd00ca8c13bfef5f72808b7db7bf558fe5c9e9eff0b488f024d0c7b06fb57d6afe5b51c99f1be8d015ef",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/fB3IByaR/arc-1.6.6.1-1.21-fabric.jar",
-          "filename": "arc-1.6.6.1-1.21-fabric.jar",
-          "primary": true,
-          "size": 426961
         },
         {
-          "sha512": "aa3f6d402cb6231a8c09869332d7f27639db5a4062d70ee32422a8887a076bcfe4706567b1aaae4d15148099b861899fbcf22a1a7decd6e0fb6b6ca44dfbe23e",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/fB3IByaR/arc-1.6.6.1-1.21-fabric-sources.jar",
-          "filename": "arc-1.6.6.1-1.21-fabric-sources.jar",
-          "primary": false,
-          "size": 21937
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "AOEDs9Al",
+          "project_id": "LN9BxssP",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -87,32 +127,31 @@
       ]
     },
     {
-      "id": "L0sai6bq",
-      "name": "Arc NeoForge 1.21 - 1.6.6-1.21",
-      "version_number": "1.6.6-1.21",
+      "id": "6sc5SAh1",
+      "name": "Arc Forge 1.20.1 - 1.4.0",
+      "version_number": "1.4.0",
       "game_versions": [
-        "1.21"
+        "1.20.1"
       ],
       "loaders": [
-        "neoforge"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "c6408959ea0034d2b8ae301b8e1f68e49baab7ef0c4f1ac01a2158e50ad47f4616ac53f45ee44dba39fec5457245e6f0a38f55a21cbf73237e5249fd730f8118",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/L0sai6bq/arc-1.6.6-1.21-neoforge.jar",
-          "filename": "arc-1.6.6-1.21-neoforge.jar",
+          "sha512": "814d673dd4e0fff96e2b3c01e00361c605781b321a998f2ec754b6eafde971181e409a255891e9d3e5cf0100e12edd52e1159327c3170c8f21fb6ea0cfc17788",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/6sc5SAh1/arc-1.4.0-forge.jar",
+          "filename": "arc-1.4.0-forge.jar",
           "primary": true,
-          "size": 431989
-        },
-        {
-          "sha512": "8628c195783f363ee621a169c7da3c9ae2ed79d6b5ec90a612fa73819371b65831959579c63e1cc86a867e425de4b3c6ca35d8df10af664b5373c1ccde8d394f",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/L0sai6bq/arc-1.6.6-1.21-neoforge-sources.jar",
-          "filename": "arc-1.6.6-1.21-neoforge-sources.jar",
-          "primary": false,
-          "size": 21499
+          "size": 432500
         }
       ],
       "dependencies": [
+        {
+          "project_id": "LN9BxssP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "lhGA9TYQ",
           "version_id": null,
@@ -155,13 +194,13 @@
       ],
       "dependencies": [
         {
-          "project_id": "AOEDs9Al",
+          "project_id": "lhGA9TYQ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "lhGA9TYQ",
+          "project_id": "AOEDs9Al",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -169,29 +208,22 @@
       ]
     },
     {
-      "id": "uUuIwFEE",
-      "name": "Arc NeoForge 1.21 - 1.6.5-1.21",
-      "version_number": "1.6.5-1.21",
+      "id": "8i3L2pYj",
+      "name": "Arc Forge 1.19.2 - 1.0",
+      "version_number": "1.0",
       "game_versions": [
-        "1.21"
+        "1.19.2"
       ],
       "loaders": [
-        "neoforge"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "5033e6b63cf29a92abfd1baa8be8bf9c2ff852f6c55ea6f219eefc23015cd02c5fff649ce355ac50aa40ea2ec9fee93b8876e46ff69e6f7e12f44de95c2cbb49",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/uUuIwFEE/arc-1.6.5-1.21-neoforge.jar",
-          "filename": "arc-1.6.5-1.21-neoforge.jar",
+          "sha512": "b00f8c2ebdebad17d57e4010942fc6ad33bfbb774bb4169e0635c47eff8bdfaed342f5c56aeee28824a64cf998250f2b4ea00e4600737e499f5aeac1ff0231a3",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/8i3L2pYj/arc-1.0-forge.jar",
+          "filename": "arc-1.0-forge.jar",
           "primary": true,
-          "size": 431655
-        },
-        {
-          "sha512": "8197d9d8ec4543b7708dcbad94c6d61c97f32e128d9f24ee3e03bcc94781d2d63160976c2f70babb62d1901cb12b6357acba75289890cf50dfc8c25cf684052b",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/uUuIwFEE/arc-1.6.5-1.21-neoforge-sources.jar",
-          "filename": "arc-1.6.5-1.21-neoforge-sources.jar",
-          "primary": false,
-          "size": 21499
+          "size": 426128
         }
       ],
       "dependencies": [
@@ -202,7 +234,7 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "AOEDs9Al",
+          "project_id": "LN9BxssP",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -210,161 +242,25 @@
       ]
     },
     {
-      "id": "MLkcQ7Fw",
-      "name": "Arc Fabric 1.21 - 1.6.5-1.21",
-      "version_number": "1.6.5-1.21",
+      "id": "D19wmC2N",
+      "name": "Arc Fabric 1.19.2 - 0.1",
+      "version_number": "0.1",
       "game_versions": [
-        "1.21"
+        "1.19.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "81f22b35916a8f01a734e63630c035d3645b2f4884cc8827cddd59f69a3c65e09cbd10e75c9ec6b1af75b53f82f494efed18f92a9330533befc123db8ba69e27",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/MLkcQ7Fw/arc-1.6.5-1.21-fabric.jar",
-          "filename": "arc-1.6.5-1.21-fabric.jar",
+          "sha512": "77f7272f5c0f76836024b952d173dff4898ab3158cc3f4955066cdcef230a5eb0bd66157d3dcc4e384b6295bbdba465b45d82e7b92d4cec4a0e533076fa5b12b",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/D19wmC2N/arc-0.1-fabric.jar",
+          "filename": "arc-0.1-fabric.jar",
           "primary": true,
-          "size": 426628
-        },
-        {
-          "sha512": "1e1b0f639a0afaef31cfe372a44136c6f1734e92151d641d577fa0e4aa48d68d14955ace4958bace6bb7df7077c6dded4456c00a108809061671148c99e079ed",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/MLkcQ7Fw/arc-1.6.5-1.21-fabric-sources.jar",
-          "filename": "arc-1.6.5-1.21-fabric-sources.jar",
-          "primary": false,
-          "size": 21938
+          "size": 374897
         }
       ],
       "dependencies": [
-        {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "d56M4H1g",
-      "name": "Arc NeoForge 1.21 - 1.6.4-1.21",
-      "version_number": "1.6.4-1.21",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "f3b02fcac7c7f0c29fabfb9e1736d971c102f89241e110faf09adbf473a26860ff178d38ed442dff42a6e9b946edf0350a6ff0fece7b8a9a8925b6c8f85271b8",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/d56M4H1g/arc-1.6.4-1.21-neoforge.jar",
-          "filename": "arc-1.6.4-1.21-neoforge.jar",
-          "primary": true,
-          "size": 431657
-        },
-        {
-          "sha512": "44f10ee40a5ebfe1bb9cd6ad993184d520c638c5ff74949907a36926b4d81963b12dc051d6e98194f38e3d9c18d9f0c5dfec0a744ef3e3d4313ec214ba58a95c",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/d56M4H1g/arc-1.6.4-1.21-neoforge-sources.jar",
-          "filename": "arc-1.6.4-1.21-neoforge-sources.jar",
-          "primary": false,
-          "size": 21499
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "T9HSUIgJ",
-      "name": "Arc Fabric 1.21 - 1.6.4-1.21",
-      "version_number": "1.6.4-1.21",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6e5ff4711bb9db780fb6e527dedaa542f3bf431edb231225d3ef6e0f4bd497d31ec2a3d82cb8b9240f81e8637f22e77e0eb4a31fc67e7b24350f64d161d180a6",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/T9HSUIgJ/arc-1.6.4-1.21-fabric.jar",
-          "filename": "arc-1.6.4-1.21-fabric.jar",
-          "primary": true,
-          "size": 426631
-        },
-        {
-          "sha512": "d0afcb4387a843e882dc9233787d69ac9bd498ac8905213e0d8125d297017821aa04a2da4c2f3f38633b6be224b2e1684b098fb650b68ae9648028a48e52285c",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/T9HSUIgJ/arc-1.6.4-1.21-fabric-sources.jar",
-          "filename": "arc-1.6.4-1.21-fabric-sources.jar",
-          "primary": false,
-          "size": 21938
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "sfZ9KIrE",
-      "name": "Arc NeoForge 1.21 - 1.6.3-1.21",
-      "version_number": "1.6.3-1.21",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "3c8ec4effaff47f84e236c558d9935e358427662cdac117886073e3fdfbdc6608b8ad4385c98ef7c3a5c33a1d63d52f199aa4f425b458668b64892a7e4e2b581",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/sfZ9KIrE/arc-1.6.3-1.21-neoforge.jar",
-          "filename": "arc-1.6.3-1.21-neoforge.jar",
-          "primary": true,
-          "size": 431830
-        },
-        {
-          "sha512": "4478e61f7e3f36722023fe96d261fc6ff9fcd46c8196b89c3cd7f797a16d0284b21e68e8627ffb273f7373c163a6080c47dc5d7cdc739d89649ced0130972395",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/sfZ9KIrE/arc-1.6.3-1.21-neoforge-sources.jar",
-          "filename": "arc-1.6.3-1.21-neoforge-sources.jar",
-          "primary": false,
-          "size": 21499
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "lhGA9TYQ",
           "version_id": null,
@@ -400,382 +296,6 @@
         }
       ],
       "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "g1AN9tWJ",
-      "name": "Arc Forge 1.20.1 - 1.6.2",
-      "version_number": "1.6.2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "adab595f76585264978f0a63045689c8fae5d636da6f1bbdf7eaee249005097dcc3e0c0feed1a37da165f36486a45fed4e636ae82f4d22b858ef49203a167846",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/g1AN9tWJ/arc-1.6.2-forge.jar",
-          "filename": "arc-1.6.2-forge.jar",
-          "primary": true,
-          "size": 424002
-        },
-        {
-          "sha512": "b684f407e768f496683abef8c804a89a762b5c3a5d064dfebf985dfeec064743fe252790f4cb72f6aa164a6991371daffa2bbeaa8d6e9c155356830ff8ff70f9",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/g1AN9tWJ/arc-1.6.2-forge-sources.jar",
-          "filename": "arc-1.6.2-forge-sources.jar",
-          "primary": false,
-          "size": 195809
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "baYnmA05",
-      "name": "Arc Fabric 1.20.1 - 1.6.2",
-      "version_number": "1.6.2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "dca870a629ef4fbb4d0b052366a626eec295d3a3373a78feb5a8c64cd27229f2340f8568bfcdf409b7a2aa96eded8ebfad0dbc997d26536532ed732421fdae54",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/baYnmA05/arc-1.6.2-fabric.jar",
-          "filename": "arc-1.6.2-fabric.jar",
-          "primary": true,
-          "size": 418041
-        },
-        {
-          "sha512": "d0c593407f9c6bf6ebaee97e73ffadc83b506f88d7ea6f74a92cf7101b75a3b818e636bbf267127661597a543559776c43904faadedcdc5e52fde447a0ff7230",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/baYnmA05/arc-1.6.2-fabric-sources.jar",
-          "filename": "arc-1.6.2-fabric-sources.jar",
-          "primary": false,
-          "size": 193297
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "i4JXZ2b6",
-      "name": "Arc Forge 1.20.1 - 1.6.1",
-      "version_number": "1.6.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "db766c88a5dab0bd589f34f5bf4e38fc73ac10f9a7af894f2a33d5a33f8de20a55b6deb6c5af31009d716f8a4853678eb129abc083253f42b825e8790b5011cb",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/i4JXZ2b6/arc-1.6.1-forge.jar",
-          "filename": "arc-1.6.1-forge.jar",
-          "primary": true,
-          "size": 423013
-        },
-        {
-          "sha512": "8a16e34ec1ced2f97cae94370674e521475bbf44746b71f813e2a5fea747151c9c17b4b92e8d1ea85a68756eb1dc8c0d61f32b201ffab88ef66cf41943a6f447",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/i4JXZ2b6/arc-1.6.1-forge-sources.jar",
-          "filename": "arc-1.6.1-forge-sources.jar",
-          "primary": false,
-          "size": 195008
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "vkG50fAQ",
-      "name": "Arc Fabric 1.20.1 - 1.6.1",
-      "version_number": "1.6.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a0b4ea602f89b808f65027d5e90889119fd59c47b6110bafd03067663467fbbbd5dd4e181d267b3581c337298daadad6c0200ee2f303e5d2f7dd19c11002fd70",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/vkG50fAQ/arc-1.6.1-fabric.jar",
-          "filename": "arc-1.6.1-fabric.jar",
-          "primary": true,
-          "size": 417091
-        },
-        {
-          "sha512": "672526690cc8a5c5d0a100666b6e62e50a2ca30b5ce21083db00f12dc5fea03a8daca2e7fe9872807ad192a55abbcde5100f30a01f85a2be37018272e6034ed3",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/vkG50fAQ/arc-1.6.1-fabric-sources.jar",
-          "filename": "arc-1.6.1-fabric-sources.jar",
-          "primary": false,
-          "size": 192525
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "kyOiGL5v",
-      "name": "Arc Forge 1.20.1 - 1.6",
-      "version_number": "1.6",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "d177377d4e3e7c693d59ab5f3abdfb6f6ada2df2b9002fc69670c71c49d53c4ba6577e6a52ac28acf0c5a5725942139ddd61f9fa41d8edeb7df2405da17cd0ba",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/kyOiGL5v/arc-1.6-forge.jar",
-          "filename": "arc-1.6-forge.jar",
-          "primary": true,
-          "size": 422924
-        },
-        {
-          "sha512": "f821f089b52e8938e864ceadc6b6bbfafaba7803d4b8d92313cdf935d033f6be73d18dd8ddf6f79228b002e242a2ffaca6985ab0c38adb61e580be06cceaf9a2",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/kyOiGL5v/arc-1.6-forge-sources.jar",
-          "filename": "arc-1.6-forge-sources.jar",
-          "primary": false,
-          "size": 194980
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "vjOty637",
-      "name": "Arc Fabric 1.20.1 - 1.6",
-      "version_number": "1.6",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "572086ce380590cfa9587cc0cf3ecc0ecd346e2029aa294b2932234ae78ca90cdd79b7b1cb11e3c295cb41f73e4d6b7bad10c09fa18d1d1141115fc658410cdc",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/vjOty637/arc-1.6-fabric.jar",
-          "filename": "arc-1.6-fabric.jar",
-          "primary": true,
-          "size": 417004
-        },
-        {
-          "sha512": "ca69eb88eaf2c8763e071d9267608fc952f90dc83ffb240db41f5206c32716867dcffccd71e5c5835ea7a2901d118a93e2a9c20e443e48482ec7f550310e55ae",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/vjOty637/arc-1.6-fabric-sources.jar",
-          "filename": "arc-1.6-fabric-sources.jar",
-          "primary": false,
-          "size": 192498
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "qps0eVc9",
-      "name": "Arc Forge 1.20.1 - 1.6-alpha.2",
-      "version_number": "1.6-alpha.2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "d1c030636120b6207ae59873f2c90f595f562b977fd62a37fd6a6d954deb773a45e7ec877a111de7e6349bb396b2e9e06d41904232f7671c3030777088f8b825",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/qps0eVc9/arc-1.6-alpha.2-forge.jar",
-          "filename": "arc-1.6-alpha.2-forge.jar",
-          "primary": true,
-          "size": 416953
-        },
-        {
-          "sha512": "3bc9f064a646b1ec0734539848ec2654e8e41959e5512809b081fd0d9ef931186cc107f48dd9bd659d04d26c86c1629ef041cbf204fed7c7f0aeca5115647ca5",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/qps0eVc9/arc-1.6-alpha.2-forge-sources.jar",
-          "filename": "arc-1.6-alpha.2-forge-sources.jar",
-          "primary": false,
-          "size": 192713
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "P1jeXRWu",
-      "name": "Arc Fabric 1.20.1 - 1.6-alpha.2",
-      "version_number": "1.6-alpha.2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "4e3632a1761ae082502df3f5f43e0b5284296b3c25ec7c10b9f3db029f9436d6a1de3f3235aa1c9f3759d5390d7f703130d38a0e84d5056abf8b62410bffb5d3",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/P1jeXRWu/arc-1.6-alpha.2-fabric.jar",
-          "filename": "arc-1.6-alpha.2-fabric.jar",
-          "primary": true,
-          "size": 411096
-        },
-        {
-          "sha512": "7959cda2a483c97c0c9c80fcf64ab4b22fda4cb39a0de88b16d7650893f08ec1ae6665d4742c8c7a75112b95622d4132b69e5235dc8b6996f0b78060b5414a4c",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/P1jeXRWu/arc-1.6-alpha.2-fabric-sources.jar",
-          "filename": "arc-1.6-alpha.2-fabric-sources.jar",
-          "primary": false,
-          "size": 190246
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "lhGA9TYQ",
           "version_id": null,
@@ -838,56 +358,9 @@
       ]
     },
     {
-      "id": "SsGGsOdd",
-      "name": "Arc Fabric 1.20.1 - 1.6-alpha.1",
-      "version_number": "1.6-alpha.1",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "150aaf952688163eda15d47fab2c3ecf3a1a0148555570e911bf49e03f4e9c93fa0c67d060b1707f5f5fa0d93f014b421e61fa7d78b440c16fc133e1c3e327fa",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/SsGGsOdd/arc-1.6-alpha.1-fabric.jar",
-          "filename": "arc-1.6-alpha.1-fabric.jar",
-          "primary": true,
-          "size": 411053
-        },
-        {
-          "sha512": "9747cfcc5f61f23f4adf9d6aee30de3086ca68624bb7387d0b04e7a06c746f1b6906090079d465cf623794e48b76637924a504601320fee16ccf94d8fbb0b374",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/SsGGsOdd/arc-1.6-alpha.1-fabric-sources.jar",
-          "filename": "arc-1.6-alpha.1-fabric-sources.jar",
-          "primary": false,
-          "size": 190235
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "jvFLF15x",
-      "name": "Arc Forge 1.20.1 - 1.6-alpha",
-      "version_number": "1.6-alpha",
+      "id": "FJxRoXis",
+      "name": "Arc Forge 1.20.1 - 1.5",
+      "version_number": "1.5",
       "game_versions": [
         "1.20.1"
       ],
@@ -896,70 +369,23 @@
       ],
       "files": [
         {
-          "sha512": "3dd6438e34e2b5b3c73dc56223c61010626638fc539523628e87c24f5c55d0da1ad95c9c45c44eb47ef23337947e3dec40a9991f556eb39de5e91c81835103b9",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/jvFLF15x/arc-1.6-alpha-forge.jar",
-          "filename": "arc-1.6-alpha-forge.jar",
+          "sha512": "963c0600aabc541cdd0d8425a8d5398fb01137b7ae21332b666162a1983e3271ac4cb0002b3bdf736c2e4ef4ff253f3c703607d9bc067690adb6d1b3230aa236",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/FJxRoXis/arc-1.5-forge.jar",
+          "filename": "arc-1.5-forge.jar",
           "primary": true,
-          "size": 424944
+          "size": 424326
         },
         {
-          "sha512": "a45dadb4f51f3de5d35a724a73cd12bbe0b6d34c46bc3daf7f679bcd76db57d2cce7b5c80861b068008a6a6be852d015df080fae0b41cec3c9604e5c880ffb24",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/jvFLF15x/arc-1.6-alpha-forge-sources.jar",
-          "filename": "arc-1.6-alpha-forge-sources.jar",
+          "sha512": "35d7bcab2b3354878443e894e78a8a864a637434a185f3ddcf6907a0af21fe487300ed166cd309174c5b836b5ba04ce24f319a0a71a379f5795c6b5a016449be",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/FJxRoXis/arc-1.5-forge-sources.jar",
+          "filename": "arc-1.5-forge-sources.jar",
           "primary": false,
-          "size": 196488
+          "size": 192706
         }
       ],
       "dependencies": [
         {
           "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "qjiSXSGT",
-      "name": "Arc Fabric 1.20.1 - 1.6-alpha",
-      "version_number": "1.6-alpha",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "b790a449b7e2184aaa8cd6fbc580898a9b15037f04fc3e96c4a3edaaee7edc59b878729a64c0ed249b728dacb0f6417544b1929e708993c48328c93a0ad40feb",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/qjiSXSGT/arc-1.6-alpha-fabric.jar",
-          "filename": "arc-1.6-alpha-fabric.jar",
-          "primary": true,
-          "size": 418997
-        },
-        {
-          "sha512": "31d1d6872304db773b2296b90ecccdd0a106c939585b23ad2ba1799ff9f56638d95a42792612d937ff5072cc3540924cf4cf4e96089e1bd0f1d2d7d654b1df38",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/qjiSXSGT/arc-1.6-alpha-fabric-sources.jar",
-          "filename": "arc-1.6-alpha-fabric-sources.jar",
-          "primary": false,
-          "size": 193865
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "LN9BxssP",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -971,54 +397,7 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4OyBCv0j",
-      "name": "Arc Forge 1.20.1 - 1.5.4",
-      "version_number": "1.5.4",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "b1068625ca2ddd1599babb9b364b7a4118410d344ee9fc78369439e853d8796aa9d7d0c004ac32c50174bd2fc69f591db268dda546f63c8339b60b22cca0e5ca",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/4OyBCv0j/arc-1.5.4-forge.jar",
-          "filename": "arc-1.5.4-forge.jar",
-          "primary": true,
-          "size": 422882
-        },
-        {
-          "sha512": "8d4a4e841f3f656922d2e2f88d71e7d5237fe2fc70fb96563a91db4797b4f5419755805d07aa5e4b381d096aa6717e1ecd94537160b0d53fefedfe7b6101e134",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/4OyBCv0j/arc-1.5.4-forge-sources.jar",
-          "filename": "arc-1.5.4-forge-sources.jar",
-          "primary": false,
-          "size": 195648
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -1073,9 +452,9 @@
       ]
     },
     {
-      "id": "TjI03GUV",
-      "name": "Arc Forge 1.20.1 - 1.5.3",
-      "version_number": "1.5.3",
+      "id": "GJXdJSGq",
+      "name": "Arc Forge 1.20.1 - 1.3.4",
+      "version_number": "1.3.3",
       "game_versions": [
         "1.20.1"
       ],
@@ -1084,18 +463,220 @@
       ],
       "files": [
         {
-          "sha512": "50b6ad6ef3a50bcd1a999d8158270bbbbaed8315c593e2ea0bc9b595be34303588ca17a83f484cc79242f532e02524586f9917559df8a70d4595db10b6bb910b",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/TjI03GUV/arc-1.5.3-forge.jar",
-          "filename": "arc-1.5.3-forge.jar",
+          "sha512": "83c76eb3093e37ba0408252cf2986d3d5d1ba2fcd6bbbc762572457f0e1b2b81576d76d0a52146241ede5e71725301fa8880f5c0b573c867da5be3496f5c0099",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/GJXdJSGq/arc-1.3.3-forge.jar",
+          "filename": "arc-1.3.3-forge.jar",
           "primary": true,
-          "size": 422567
+          "size": 421303
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "LN9BxssP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
-          "sha512": "6debbc6b80dcaf696a802cdf9732584af9e66397c5f327a494ef43ad6f649a8187b68fa1127be2fad6323d9083bc395fbfdd0908695e240ed0255a137ba487a2",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/TjI03GUV/arc-1.5.3-forge-sources.jar",
-          "filename": "arc-1.5.3-forge-sources.jar",
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "K9ggEfk3",
+      "name": "Arc Fabric 1.19.2 - 1.0",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "69d98cff8641576e30a188fa0978e8bb91eb0bae51ecda4d05bf713b926b349166b319e7b3ed33f5792fc52d3f99e9d1e97ac517547181ce3c6d1e49f48bb48f",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/K9ggEfk3/arc-1.0-fabric.jar",
+          "filename": "arc-1.0-fabric.jar",
+          "primary": true,
+          "size": 420210
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "LN9BxssP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "KTkwlLVF",
+      "name": "Arc Fabric 1.20.1 - 1.5.2",
+      "version_number": "1.5.2",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "538431ba4f95bac78d89b400a915fde424f091cb55354e7499ce01af1cac76c709bb040bf9045ee0efd4e8fe2e11f864894ecd43164f1ec7895d1d4201b2800d",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/KTkwlLVF/arc-1.5.2-fabric.jar",
+          "filename": "arc-1.5.2-fabric.jar",
+          "primary": true,
+          "size": 424916
+        },
+        {
+          "sha512": "429a4e710b687f112889d41b741db098f7798c2e54bad9fb971acca67bbb49923bac9a1aaa108a804ed834e54cea74bc713ab8bc56921560694638ab926b2f5d",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/KTkwlLVF/arc-1.5.2-fabric-sources.jar",
+          "filename": "arc-1.5.2-fabric-sources.jar",
           "primary": false,
-          "size": 195529
+          "size": 192526
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "LN9BxssP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "L0sai6bq",
+      "name": "Arc NeoForge 1.21 - 1.6.6-1.21",
+      "version_number": "1.6.6-1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "c6408959ea0034d2b8ae301b8e1f68e49baab7ef0c4f1ac01a2158e50ad47f4616ac53f45ee44dba39fec5457245e6f0a38f55a21cbf73237e5249fd730f8118",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/L0sai6bq/arc-1.6.6-1.21-neoforge.jar",
+          "filename": "arc-1.6.6-1.21-neoforge.jar",
+          "primary": true,
+          "size": 431989
+        },
+        {
+          "sha512": "8628c195783f363ee621a169c7da3c9ae2ed79d6b5ec90a612fa73819371b65831959579c63e1cc86a867e425de4b3c6ca35d8df10af664b5373c1ccde8d394f",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/L0sai6bq/arc-1.6.6-1.21-neoforge-sources.jar",
+          "filename": "arc-1.6.6-1.21-neoforge-sources.jar",
+          "primary": false,
+          "size": 21499
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "MJ4WwSPk",
+      "name": "Arc Fabric 1.20.1 - 1.4.0",
+      "version_number": "1.4.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "940f7f22d76c4ec01018bad882cbc4dbe1523671cbbae7483cc92c6f174354eb660f134aa6adf4a029ae8d38b4b3be23f49decdd86b5feba21bede8003e9d229",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/MJ4WwSPk/arc-1.4.0-fabric.jar",
+          "filename": "arc-1.4.0-fabric.jar",
+          "primary": true,
+          "size": 425888
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "LN9BxssP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "MLkcQ7Fw",
+      "name": "Arc Fabric 1.21 - 1.6.5-1.21",
+      "version_number": "1.6.5-1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "81f22b35916a8f01a734e63630c035d3645b2f4884cc8827cddd59f69a3c65e09cbd10e75c9ec6b1af75b53f82f494efed18f92a9330533befc123db8ba69e27",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/MLkcQ7Fw/arc-1.6.5-1.21-fabric.jar",
+          "filename": "arc-1.6.5-1.21-fabric.jar",
+          "primary": true,
+          "size": 426628
+        },
+        {
+          "sha512": "1e1b0f639a0afaef31cfe372a44136c6f1734e92151d641d577fa0e4aa48d68d14955ace4958bace6bb7df7077c6dded4456c00a108809061671148c99e079ed",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/MLkcQ7Fw/arc-1.6.5-1.21-fabric-sources.jar",
+          "filename": "arc-1.6.5-1.21-fabric-sources.jar",
+          "primary": false,
+          "size": 21938
         }
       ],
       "dependencies": [
@@ -1107,6 +688,47 @@
         },
         {
           "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "P1jeXRWu",
+      "name": "Arc Fabric 1.20.1 - 1.6-alpha.2",
+      "version_number": "1.6-alpha.2",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4e3632a1761ae082502df3f5f43e0b5284296b3c25ec7c10b9f3db029f9436d6a1de3f3235aa1c9f3759d5390d7f703130d38a0e84d5056abf8b62410bffb5d3",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/P1jeXRWu/arc-1.6-alpha.2-fabric.jar",
+          "filename": "arc-1.6-alpha.2-fabric.jar",
+          "primary": true,
+          "size": 411096
+        },
+        {
+          "sha512": "7959cda2a483c97c0c9c80fcf64ab4b22fda4cb39a0de88b16d7650893f08ec1ae6665d4742c8c7a75112b95622d4132b69e5235dc8b6996f0b78060b5414a4c",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/P1jeXRWu/arc-1.6-alpha.2-fabric-sources.jar",
+          "filename": "arc-1.6-alpha.2-fabric-sources.jar",
+          "primary": false,
+          "size": 190246
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "AOEDs9Al",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -1120,9 +742,9 @@
       ]
     },
     {
-      "id": "xIS9Ch84",
-      "name": "Arc Fabric 1.20.1 - 1.5.3",
-      "version_number": "1.5.3",
+      "id": "SsGGsOdd",
+      "name": "Arc Fabric 1.20.1 - 1.6-alpha.1",
+      "version_number": "1.6-alpha.1",
       "game_versions": [
         "1.20.1"
       ],
@@ -1131,18 +753,18 @@
       ],
       "files": [
         {
-          "sha512": "2e6b3ec20e08be8f564d4adddba811ca95dfc15cd505120d8a2e7e3a5511422ef4696a69ea053a0a0e56572feaf4e88145fbd3321ba4cb4c4065d8f131ba0d79",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/xIS9Ch84/arc-1.5.3-fabric.jar",
-          "filename": "arc-1.5.3-fabric.jar",
+          "sha512": "150aaf952688163eda15d47fab2c3ecf3a1a0148555570e911bf49e03f4e9c93fa0c67d060b1707f5f5fa0d93f014b421e61fa7d78b440c16fc133e1c3e327fa",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/SsGGsOdd/arc-1.6-alpha.1-fabric.jar",
+          "filename": "arc-1.6-alpha.1-fabric.jar",
           "primary": true,
-          "size": 416625
+          "size": 411053
         },
         {
-          "sha512": "c114769b5c04c56bd8837853006b68c29f8dc1871bab795b32b718320a96c6f2e2c3eae8c5097694970765fc0382655dab900047be277cb4b78ea89116c35a6e",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/xIS9Ch84/arc-1.5.3-fabric-sources.jar",
-          "filename": "arc-1.5.3-fabric-sources.jar",
+          "sha512": "9747cfcc5f61f23f4adf9d6aee30de3086ca68624bb7387d0b04e7a06c746f1b6906090079d465cf623794e48b76637924a504601320fee16ccf94d8fbb0b374",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/SsGGsOdd/arc-1.6-alpha.1-fabric-sources.jar",
+          "filename": "arc-1.6-alpha.1-fabric-sources.jar",
           "primary": false,
-          "size": 192902
+          "size": 190235
         }
       ],
       "dependencies": [
@@ -1153,13 +775,13 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "AOEDs9Al",
+          "project_id": "LN9BxssP",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "LN9BxssP",
+          "project_id": "AOEDs9Al",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -1214,46 +836,40 @@
       ]
     },
     {
-      "id": "KTkwlLVF",
-      "name": "Arc Fabric 1.20.1 - 1.5.2",
-      "version_number": "1.5.2",
+      "id": "T9HSUIgJ",
+      "name": "Arc Fabric 1.21 - 1.6.4-1.21",
+      "version_number": "1.6.4-1.21",
       "game_versions": [
-        "1.20.1"
+        "1.21"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "538431ba4f95bac78d89b400a915fde424f091cb55354e7499ce01af1cac76c709bb040bf9045ee0efd4e8fe2e11f864894ecd43164f1ec7895d1d4201b2800d",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/KTkwlLVF/arc-1.5.2-fabric.jar",
-          "filename": "arc-1.5.2-fabric.jar",
+          "sha512": "6e5ff4711bb9db780fb6e527dedaa542f3bf431edb231225d3ef6e0f4bd497d31ec2a3d82cb8b9240f81e8637f22e77e0eb4a31fc67e7b24350f64d161d180a6",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/T9HSUIgJ/arc-1.6.4-1.21-fabric.jar",
+          "filename": "arc-1.6.4-1.21-fabric.jar",
           "primary": true,
-          "size": 424916
+          "size": 426631
         },
         {
-          "sha512": "429a4e710b687f112889d41b741db098f7798c2e54bad9fb971acca67bbb49923bac9a1aaa108a804ed834e54cea74bc713ab8bc56921560694638ab926b2f5d",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/KTkwlLVF/arc-1.5.2-fabric-sources.jar",
-          "filename": "arc-1.5.2-fabric-sources.jar",
+          "sha512": "d0afcb4387a843e882dc9233787d69ac9bd498ac8905213e0d8125d297017821aa04a2da4c2f3f38633b6be224b2e1684b098fb650b68ae9648028a48e52285c",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/T9HSUIgJ/arc-1.6.4-1.21-fabric-sources.jar",
+          "filename": "arc-1.6.4-1.21-fabric-sources.jar",
           "primary": false,
-          "size": 192526
+          "size": 21938
         }
       ],
       "dependencies": [
         {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "AOEDs9Al",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -1261,9 +877,9 @@
       ]
     },
     {
-      "id": "cpOjBdq7",
-      "name": "Arc Forge 1.20.1 - 1.5.1",
-      "version_number": "1.5.1",
+      "id": "TjI03GUV",
+      "name": "Arc Forge 1.20.1 - 1.5.3",
+      "version_number": "1.5.3",
       "game_versions": [
         "1.20.1"
       ],
@@ -1272,23 +888,23 @@
       ],
       "files": [
         {
-          "sha512": "3451b55cabeb22104fb0ea3335c841e7aeea63e67029788d473a59f8cb9923578b7850bf32210bc5aee0b06d1ec29da2c78ec9fb9e89ec74055990f336d1a4b8",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/cpOjBdq7/arc-1.5.1-forge.jar",
-          "filename": "arc-1.5.1-forge.jar",
+          "sha512": "50b6ad6ef3a50bcd1a999d8158270bbbbaed8315c593e2ea0bc9b595be34303588ca17a83f484cc79242f532e02524586f9917559df8a70d4595db10b6bb910b",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/TjI03GUV/arc-1.5.3-forge.jar",
+          "filename": "arc-1.5.3-forge.jar",
           "primary": true,
-          "size": 428366
+          "size": 422567
         },
         {
-          "sha512": "51ab84614afc12e357d4f784b6f0e16e6626bd10d9868eebb546d094f601305626a01f59e193fa127bb7600f5ede41ef9a8ceeebf62306874c057b553a921eca",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/cpOjBdq7/arc-1.5.1-forge-sources.jar",
-          "filename": "arc-1.5.1-forge-sources.jar",
+          "sha512": "6debbc6b80dcaf696a802cdf9732584af9e66397c5f327a494ef43ad6f649a8187b68fa1127be2fad6323d9083bc395fbfdd0908695e240ed0255a137ba487a2",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/TjI03GUV/arc-1.5.3-forge-sources.jar",
+          "filename": "arc-1.5.3-forge-sources.jar",
           "primary": false,
-          "size": 194340
+          "size": 195529
         }
       ],
       "dependencies": [
         {
-          "project_id": "LN9BxssP",
+          "project_id": "lhGA9TYQ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -1300,7 +916,7 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "lhGA9TYQ",
+          "project_id": "LN9BxssP",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -1335,59 +951,6 @@
       ],
       "dependencies": [
         {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "FJxRoXis",
-      "name": "Arc Forge 1.20.1 - 1.5",
-      "version_number": "1.5",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "963c0600aabc541cdd0d8425a8d5398fb01137b7ae21332b666162a1983e3271ac4cb0002b3bdf736c2e4ef4ff253f3c703607d9bc067690adb6d1b3230aa236",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/FJxRoXis/arc-1.5-forge.jar",
-          "filename": "arc-1.5-forge.jar",
-          "primary": true,
-          "size": 424326
-        },
-        {
-          "sha512": "35d7bcab2b3354878443e894e78a8a864a637434a185f3ddcf6907a0af21fe487300ed166cd309174c5b836b5ba04ce24f319a0a71a379f5795c6b5a016449be",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/FJxRoXis/arc-1.5-forge-sources.jar",
-          "filename": "arc-1.5-forge-sources.jar",
-          "primary": false,
-          "size": 192706
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "LN9BxssP",
           "version_id": null,
           "file_name": null,
@@ -1395,6 +958,12 @@
         },
         {
           "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "AOEDs9Al",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -1436,147 +1005,6 @@
         },
         {
           "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "eDEI8NOm",
-      "name": "Arc Forge 1.20.1 - 1.4.3",
-      "version_number": "1.4.3",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "dd47611f05e5c32cc1370741813f624e38d048d2fc17bdbdfce1be39f19bbabd8adaee0d7e08c72987b1e0e87b16af0d296bfaf993f9f925238e04c50100afbe",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/eDEI8NOm/arc-1.4.3-forge.jar",
-          "filename": "arc-1.4.3-forge.jar",
-          "primary": true,
-          "size": 422679
-        },
-        {
-          "sha512": "0ab52b3aec1f893a74e6a34a8d09f430b739f1b1188979c386f75316f1b67e3b53e745cb1d89f109bd60cb750fbffd7b166fe976fe20df32fe111d5ac559a887",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/eDEI8NOm/arc-1.4.3-forge-sources.jar",
-          "filename": "arc-1.4.3-forge-sources.jar",
-          "primary": false,
-          "size": 191732
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "cnJl03Yx",
-      "name": "Arc Fabric 1.20.1 - 1.4.3",
-      "version_number": "1.4.3",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "cd942d227aa041f1a7b0d8c31c89809e6f08c2700e7d722e86a7743b9209b4e9bb53b7c76398c6c10ff52f5b0de12b6abb319131254b266c9a1bb4de731b71dd",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/cnJl03Yx/arc-1.4.3-fabric.jar",
-          "filename": "arc-1.4.3-fabric.jar",
-          "primary": true,
-          "size": 416787
-        },
-        {
-          "sha512": "485e61ece181ff452a32f2628afb66a4f2b65c85905fec6c9d7b1f108afe50ac8401936f2970417b59ec712c4b0609741ddfe3e588020918ab016f89722b6800",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/cnJl03Yx/arc-1.4.3-fabric-sources.jar",
-          "filename": "arc-1.4.3-fabric-sources.jar",
-          "primary": false,
-          "size": 189188
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "AOEDs9Al",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4k6Fmo57",
-      "name": "Arc Forge 1.20.1 - 1.4.2",
-      "version_number": "1.4.2",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "7c11ced03bebd892f3d5d71c9d88eae3df6d9fa2899e2be093b1ea6ab31f943be1d1d527bc10f31c9a959352338bed85f147bf0fb4b4684632fbeb027f875354",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/4k6Fmo57/arc-1.4.2-forge.jar",
-          "filename": "arc-1.4.2-forge.jar",
-          "primary": true,
-          "size": 422063
-        },
-        {
-          "sha512": "aa502f774f04c7b2c038a671b48775f065032e6a4bf30fb2c1b2e5f91bc003ec2aa9b377006c5399c261e0b2ab854d44a17b9b4ca6a724b57624caf7589ab8a1",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/4k6Fmo57/arc-1.4.2-forge-sources.jar",
-          "filename": "arc-1.4.2-forge-sources.jar",
-          "primary": false,
-          "size": 191219
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "AOEDs9Al",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -1637,40 +1065,40 @@
       ]
     },
     {
-      "id": "ddz5lBWd",
-      "name": "Arc Forge 1.20.1 - 1.4.1",
-      "version_number": "1.4.1",
+      "id": "baYnmA05",
+      "name": "Arc Fabric 1.20.1 - 1.6.2",
+      "version_number": "1.6.2",
       "game_versions": [
         "1.20.1"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "291a7937b5905163132aa1f3d532561ada6690794f08982f87befc68df25db12871519aa5fee76d48508b4d3d7d178a8de3265bdb3586c529efbb46ed6c06a8b",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/ddz5lBWd/arc-1.4.1-forge.jar",
-          "filename": "arc-1.4.1-forge.jar",
+          "sha512": "dca870a629ef4fbb4d0b052366a626eec295d3a3373a78feb5a8c64cd27229f2340f8568bfcdf409b7a2aa96eded8ebfad0dbc997d26536532ed732421fdae54",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/baYnmA05/arc-1.6.2-fabric.jar",
+          "filename": "arc-1.6.2-fabric.jar",
           "primary": true,
-          "size": 422061
+          "size": 418041
         },
         {
-          "sha512": "72dd17ba447f4463be877f4d874ec840f320a12521f909db7bdc014901cdad4359d05fa1af2f3f2b16e614e83ef995f67869c09453383aa2055c9088907fa12f",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/ddz5lBWd/arc-1.4.1-forge-sources.jar",
-          "filename": "arc-1.4.1-forge-sources.jar",
+          "sha512": "d0c593407f9c6bf6ebaee97e73ffadc83b506f88d7ea6f74a92cf7101b75a3b818e636bbf267127661597a543559776c43904faadedcdc5e52fde447a0ff7230",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/baYnmA05/arc-1.6.2-fabric-sources.jar",
+          "filename": "arc-1.6.2-fabric-sources.jar",
           "primary": false,
-          "size": 191216
+          "size": 193297
         }
       ],
       "dependencies": [
         {
-          "project_id": "LN9BxssP",
+          "project_id": "AOEDs9Al",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "AOEDs9Al",
+          "project_id": "LN9BxssP",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -1711,13 +1139,13 @@
       ],
       "dependencies": [
         {
-          "project_id": "LN9BxssP",
+          "project_id": "AOEDs9Al",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "AOEDs9Al",
+          "project_id": "LN9BxssP",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -1731,32 +1159,33 @@
       ]
     },
     {
-      "id": "6sc5SAh1",
-      "name": "Arc Forge 1.20.1 - 1.4.0",
-      "version_number": "1.4.0",
+      "id": "cfiHbWxx",
+      "name": "Arc NeoForge 1.21 - 1.6.6.1-1.21",
+      "version_number": "1.6.6.1-1.21",
       "game_versions": [
-        "1.20.1"
+        "1.21"
       ],
       "loaders": [
-        "forge"
+        "neoforge"
       ],
       "files": [
         {
-          "sha512": "814d673dd4e0fff96e2b3c01e00361c605781b321a998f2ec754b6eafde971181e409a255891e9d3e5cf0100e12edd52e1159327c3170c8f21fb6ea0cfc17788",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/6sc5SAh1/arc-1.4.0-forge.jar",
-          "filename": "arc-1.4.0-forge.jar",
+          "sha512": "f0b2d6831f38e221eed8d349b2535748c6c0c35569886497863b16de4895221d40a575e10df68af04e697ecc9f0640dbbf9d8fb5904a5322ca2b56c987e04094",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/cfiHbWxx/arc-1.6.6.1-1.21-neoforge.jar",
+          "filename": "arc-1.6.6.1-1.21-neoforge.jar",
           "primary": true,
-          "size": 432500
+          "size": 431995
+        },
+        {
+          "sha512": "c79788b1b694843916a98a1696dfb0dc1cac5fe3548c619a038563f7545d86c96896e8b618168e7a62c5cf79e5f126962dd35c6429ce9723b4481543c213dfd2",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/cfiHbWxx/arc-1.6.6.1-1.21-neoforge-sources.jar",
+          "filename": "arc-1.6.6.1-1.21-neoforge-sources.jar",
+          "primary": false,
+          "size": 21499
         }
       ],
       "dependencies": [
         {
-          "project_id": "LN9BxssP",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "lhGA9TYQ",
           "version_id": null,
           "file_name": null,
@@ -1771,9 +1200,9 @@
       ]
     },
     {
-      "id": "MJ4WwSPk",
-      "name": "Arc Fabric 1.20.1 - 1.4.0",
-      "version_number": "1.4.0",
+      "id": "cnJl03Yx",
+      "name": "Arc Fabric 1.20.1 - 1.4.3",
+      "version_number": "1.4.3",
       "game_versions": [
         "1.20.1"
       ],
@@ -1782,11 +1211,153 @@
       ],
       "files": [
         {
-          "sha512": "940f7f22d76c4ec01018bad882cbc4dbe1523671cbbae7483cc92c6f174354eb660f134aa6adf4a029ae8d38b4b3be23f49decdd86b5feba21bede8003e9d229",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/MJ4WwSPk/arc-1.4.0-fabric.jar",
-          "filename": "arc-1.4.0-fabric.jar",
+          "sha512": "cd942d227aa041f1a7b0d8c31c89809e6f08c2700e7d722e86a7743b9209b4e9bb53b7c76398c6c10ff52f5b0de12b6abb319131254b266c9a1bb4de731b71dd",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/cnJl03Yx/arc-1.4.3-fabric.jar",
+          "filename": "arc-1.4.3-fabric.jar",
           "primary": true,
-          "size": 425888
+          "size": 416787
+        },
+        {
+          "sha512": "485e61ece181ff452a32f2628afb66a4f2b65c85905fec6c9d7b1f108afe50ac8401936f2970417b59ec712c4b0609741ddfe3e588020918ab016f89722b6800",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/cnJl03Yx/arc-1.4.3-fabric-sources.jar",
+          "filename": "arc-1.4.3-fabric-sources.jar",
+          "primary": false,
+          "size": 189188
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LN9BxssP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "cpOjBdq7",
+      "name": "Arc Forge 1.20.1 - 1.5.1",
+      "version_number": "1.5.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "3451b55cabeb22104fb0ea3335c841e7aeea63e67029788d473a59f8cb9923578b7850bf32210bc5aee0b06d1ec29da2c78ec9fb9e89ec74055990f336d1a4b8",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/cpOjBdq7/arc-1.5.1-forge.jar",
+          "filename": "arc-1.5.1-forge.jar",
+          "primary": true,
+          "size": 428366
+        },
+        {
+          "sha512": "51ab84614afc12e357d4f784b6f0e16e6626bd10d9868eebb546d094f601305626a01f59e193fa127bb7600f5ede41ef9a8ceeebf62306874c057b553a921eca",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/cpOjBdq7/arc-1.5.1-forge-sources.jar",
+          "filename": "arc-1.5.1-forge-sources.jar",
+          "primary": false,
+          "size": 194340
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LN9BxssP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "d56M4H1g",
+      "name": "Arc NeoForge 1.21 - 1.6.4-1.21",
+      "version_number": "1.6.4-1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "f3b02fcac7c7f0c29fabfb9e1736d971c102f89241e110faf09adbf473a26860ff178d38ed442dff42a6e9b946edf0350a6ff0fece7b8a9a8925b6c8f85271b8",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/d56M4H1g/arc-1.6.4-1.21-neoforge.jar",
+          "filename": "arc-1.6.4-1.21-neoforge.jar",
+          "primary": true,
+          "size": 431657
+        },
+        {
+          "sha512": "44f10ee40a5ebfe1bb9cd6ad993184d520c638c5ff74949907a36926b4d81963b12dc051d6e98194f38e3d9c18d9f0c5dfec0a744ef3e3d4313ec214ba58a95c",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/d56M4H1g/arc-1.6.4-1.21-neoforge-sources.jar",
+          "filename": "arc-1.6.4-1.21-neoforge-sources.jar",
+          "primary": false,
+          "size": 21499
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ddz5lBWd",
+      "name": "Arc Forge 1.20.1 - 1.4.1",
+      "version_number": "1.4.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "291a7937b5905163132aa1f3d532561ada6690794f08982f87befc68df25db12871519aa5fee76d48508b4d3d7d178a8de3265bdb3586c529efbb46ed6c06a8b",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/ddz5lBWd/arc-1.4.1-forge.jar",
+          "filename": "arc-1.4.1-forge.jar",
+          "primary": true,
+          "size": 422061
+        },
+        {
+          "sha512": "72dd17ba447f4463be877f4d874ec840f320a12521f909db7bdc014901cdad4359d05fa1af2f3f2b16e614e83ef995f67869c09453383aa2055c9088907fa12f",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/ddz5lBWd/arc-1.4.1-forge-sources.jar",
+          "filename": "arc-1.4.1-forge-sources.jar",
+          "primary": false,
+          "size": 191216
         }
       ],
       "dependencies": [
@@ -1811,9 +1382,9 @@
       ]
     },
     {
-      "id": "GJXdJSGq",
-      "name": "Arc Forge 1.20.1 - 1.3.4",
-      "version_number": "1.3.3",
+      "id": "eDEI8NOm",
+      "name": "Arc Forge 1.20.1 - 1.4.3",
+      "version_number": "1.4.3",
       "game_versions": [
         "1.20.1"
       ],
@@ -1822,11 +1393,200 @@
       ],
       "files": [
         {
-          "sha512": "83c76eb3093e37ba0408252cf2986d3d5d1ba2fcd6bbbc762572457f0e1b2b81576d76d0a52146241ede5e71725301fa8880f5c0b573c867da5be3496f5c0099",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/GJXdJSGq/arc-1.3.3-forge.jar",
-          "filename": "arc-1.3.3-forge.jar",
+          "sha512": "dd47611f05e5c32cc1370741813f624e38d048d2fc17bdbdfce1be39f19bbabd8adaee0d7e08c72987b1e0e87b16af0d296bfaf993f9f925238e04c50100afbe",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/eDEI8NOm/arc-1.4.3-forge.jar",
+          "filename": "arc-1.4.3-forge.jar",
           "primary": true,
-          "size": 421303
+          "size": 422679
+        },
+        {
+          "sha512": "0ab52b3aec1f893a74e6a34a8d09f430b739f1b1188979c386f75316f1b67e3b53e745cb1d89f109bd60cb750fbffd7b166fe976fe20df32fe111d5ac559a887",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/eDEI8NOm/arc-1.4.3-forge-sources.jar",
+          "filename": "arc-1.4.3-forge-sources.jar",
+          "primary": false,
+          "size": 191732
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LN9BxssP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "fB3IByaR",
+      "name": "Arc Fabric 1.21 - 1.6.6.1-1.21",
+      "version_number": "1.6.6.1-1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "e79461d487a1f7d22407fd10a7eb66efad800e11a307cd00ca8c13bfef5f72808b7db7bf558fe5c9e9eff0b488f024d0c7b06fb57d6afe5b51c99f1be8d015ef",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/fB3IByaR/arc-1.6.6.1-1.21-fabric.jar",
+          "filename": "arc-1.6.6.1-1.21-fabric.jar",
+          "primary": true,
+          "size": 426961
+        },
+        {
+          "sha512": "aa3f6d402cb6231a8c09869332d7f27639db5a4062d70ee32422a8887a076bcfe4706567b1aaae4d15148099b861899fbcf22a1a7decd6e0fb6b6ca44dfbe23e",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/fB3IByaR/arc-1.6.6.1-1.21-fabric-sources.jar",
+          "filename": "arc-1.6.6.1-1.21-fabric-sources.jar",
+          "primary": false,
+          "size": 21937
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "g1AN9tWJ",
+      "name": "Arc Forge 1.20.1 - 1.6.2",
+      "version_number": "1.6.2",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "adab595f76585264978f0a63045689c8fae5d636da6f1bbdf7eaee249005097dcc3e0c0feed1a37da165f36486a45fed4e636ae82f4d22b858ef49203a167846",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/g1AN9tWJ/arc-1.6.2-forge.jar",
+          "filename": "arc-1.6.2-forge.jar",
+          "primary": true,
+          "size": 424002
+        },
+        {
+          "sha512": "b684f407e768f496683abef8c804a89a762b5c3a5d064dfebf985dfeec064743fe252790f4cb72f6aa164a6991371daffa2bbeaa8d6e9c155356830ff8ff70f9",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/g1AN9tWJ/arc-1.6.2-forge-sources.jar",
+          "filename": "arc-1.6.2-forge-sources.jar",
+          "primary": false,
+          "size": 195809
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LN9BxssP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "i4JXZ2b6",
+      "name": "Arc Forge 1.20.1 - 1.6.1",
+      "version_number": "1.6.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "db766c88a5dab0bd589f34f5bf4e38fc73ac10f9a7af894f2a33d5a33f8de20a55b6deb6c5af31009d716f8a4853678eb129abc083253f42b825e8790b5011cb",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/i4JXZ2b6/arc-1.6.1-forge.jar",
+          "filename": "arc-1.6.1-forge.jar",
+          "primary": true,
+          "size": 423013
+        },
+        {
+          "sha512": "8a16e34ec1ced2f97cae94370674e521475bbf44746b71f813e2a5fea747151c9c17b4b92e8d1ea85a68756eb1dc8c0d61f32b201ffab88ef66cf41943a6f447",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/i4JXZ2b6/arc-1.6.1-forge-sources.jar",
+          "filename": "arc-1.6.1-forge-sources.jar",
+          "primary": false,
+          "size": 195008
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LN9BxssP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jvFLF15x",
+      "name": "Arc Forge 1.20.1 - 1.6-alpha",
+      "version_number": "1.6-alpha",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "3dd6438e34e2b5b3c73dc56223c61010626638fc539523628e87c24f5c55d0da1ad95c9c45c44eb47ef23337947e3dec40a9991f556eb39de5e91c81835103b9",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/jvFLF15x/arc-1.6-alpha-forge.jar",
+          "filename": "arc-1.6-alpha-forge.jar",
+          "primary": true,
+          "size": 424944
+        },
+        {
+          "sha512": "a45dadb4f51f3de5d35a724a73cd12bbe0b6d34c46bc3daf7f679bcd76db57d2cce7b5c80861b068008a6a6be852d015df080fae0b41cec3c9604e5c880ffb24",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/jvFLF15x/arc-1.6-alpha-forge-sources.jar",
+          "filename": "arc-1.6-alpha-forge-sources.jar",
+          "primary": false,
+          "size": 196488
         }
       ],
       "dependencies": [
@@ -1844,6 +1604,53 @@
         },
         {
           "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "kyOiGL5v",
+      "name": "Arc Forge 1.20.1 - 1.6",
+      "version_number": "1.6",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d177377d4e3e7c693d59ab5f3abdfb6f6ada2df2b9002fc69670c71c49d53c4ba6577e6a52ac28acf0c5a5725942139ddd61f9fa41d8edeb7df2405da17cd0ba",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/kyOiGL5v/arc-1.6-forge.jar",
+          "filename": "arc-1.6-forge.jar",
+          "primary": true,
+          "size": 422924
+        },
+        {
+          "sha512": "f821f089b52e8938e864ceadc6b6bbfafaba7803d4b8d92313cdf935d033f6be73d18dd8ddf6f79228b002e242a2ffaca6985ab0c38adb61e580be06cceaf9a2",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/kyOiGL5v/arc-1.6-forge-sources.jar",
+          "filename": "arc-1.6-forge-sources.jar",
+          "primary": false,
+          "size": 194980
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "LN9BxssP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -1891,22 +1698,29 @@
       ]
     },
     {
-      "id": "8i3L2pYj",
-      "name": "Arc Forge 1.19.2 - 1.0",
-      "version_number": "1.0",
+      "id": "qjiSXSGT",
+      "name": "Arc Fabric 1.20.1 - 1.6-alpha",
+      "version_number": "1.6-alpha",
       "game_versions": [
-        "1.19.2"
+        "1.20.1"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "b00f8c2ebdebad17d57e4010942fc6ad33bfbb774bb4169e0635c47eff8bdfaed342f5c56aeee28824a64cf998250f2b4ea00e4600737e499f5aeac1ff0231a3",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/8i3L2pYj/arc-1.0-forge.jar",
-          "filename": "arc-1.0-forge.jar",
+          "sha512": "b790a449b7e2184aaa8cd6fbc580898a9b15037f04fc3e96c4a3edaaee7edc59b878729a64c0ed249b728dacb0f6417544b1929e708993c48328c93a0ad40feb",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/qjiSXSGT/arc-1.6-alpha-fabric.jar",
+          "filename": "arc-1.6-alpha-fabric.jar",
           "primary": true,
-          "size": 426128
+          "size": 418997
+        },
+        {
+          "sha512": "31d1d6872304db773b2296b90ecccdd0a106c939585b23ad2ba1799ff9f56638d95a42792612d937ff5072cc3540924cf4cf4e96089e1bd0f1d2d7d654b1df38",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/qjiSXSGT/arc-1.6-alpha-fabric-sources.jar",
+          "filename": "arc-1.6-alpha-fabric-sources.jar",
+          "primary": false,
+          "size": 193865
         }
       ],
       "dependencies": [
@@ -1921,29 +1735,224 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "K9ggEfk3",
-      "name": "Arc Fabric 1.19.2 - 1.0",
-      "version_number": "1.0",
+      "id": "qps0eVc9",
+      "name": "Arc Forge 1.20.1 - 1.6-alpha.2",
+      "version_number": "1.6-alpha.2",
       "game_versions": [
-        "1.19.2"
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "d1c030636120b6207ae59873f2c90f595f562b977fd62a37fd6a6d954deb773a45e7ec877a111de7e6349bb396b2e9e06d41904232f7671c3030777088f8b825",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/qps0eVc9/arc-1.6-alpha.2-forge.jar",
+          "filename": "arc-1.6-alpha.2-forge.jar",
+          "primary": true,
+          "size": 416953
+        },
+        {
+          "sha512": "3bc9f064a646b1ec0734539848ec2654e8e41959e5512809b081fd0d9ef931186cc107f48dd9bd659d04d26c86c1629ef041cbf204fed7c7f0aeca5115647ca5",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/qps0eVc9/arc-1.6-alpha.2-forge-sources.jar",
+          "filename": "arc-1.6-alpha.2-forge-sources.jar",
+          "primary": false,
+          "size": 192713
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LN9BxssP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "sfZ9KIrE",
+      "name": "Arc NeoForge 1.21 - 1.6.3-1.21",
+      "version_number": "1.6.3-1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "3c8ec4effaff47f84e236c558d9935e358427662cdac117886073e3fdfbdc6608b8ad4385c98ef7c3a5c33a1d63d52f199aa4f425b458668b64892a7e4e2b581",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/sfZ9KIrE/arc-1.6.3-1.21-neoforge.jar",
+          "filename": "arc-1.6.3-1.21-neoforge.jar",
+          "primary": true,
+          "size": 431830
+        },
+        {
+          "sha512": "4478e61f7e3f36722023fe96d261fc6ff9fcd46c8196b89c3cd7f797a16d0284b21e68e8627ffb273f7373c163a6080c47dc5d7cdc739d89649ced0130972395",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/sfZ9KIrE/arc-1.6.3-1.21-neoforge-sources.jar",
+          "filename": "arc-1.6.3-1.21-neoforge-sources.jar",
+          "primary": false,
+          "size": 21499
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "uUuIwFEE",
+      "name": "Arc NeoForge 1.21 - 1.6.5-1.21",
+      "version_number": "1.6.5-1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "5033e6b63cf29a92abfd1baa8be8bf9c2ff852f6c55ea6f219eefc23015cd02c5fff649ce355ac50aa40ea2ec9fee93b8876e46ff69e6f7e12f44de95c2cbb49",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/uUuIwFEE/arc-1.6.5-1.21-neoforge.jar",
+          "filename": "arc-1.6.5-1.21-neoforge.jar",
+          "primary": true,
+          "size": 431655
+        },
+        {
+          "sha512": "8197d9d8ec4543b7708dcbad94c6d61c97f32e128d9f24ee3e03bcc94781d2d63160976c2f70babb62d1901cb12b6357acba75289890cf50dfc8c25cf684052b",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/uUuIwFEE/arc-1.6.5-1.21-neoforge-sources.jar",
+          "filename": "arc-1.6.5-1.21-neoforge-sources.jar",
+          "primary": false,
+          "size": 21499
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "vjOty637",
+      "name": "Arc Fabric 1.20.1 - 1.6",
+      "version_number": "1.6",
+      "game_versions": [
+        "1.20.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "69d98cff8641576e30a188fa0978e8bb91eb0bae51ecda4d05bf713b926b349166b319e7b3ed33f5792fc52d3f99e9d1e97ac517547181ce3c6d1e49f48bb48f",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/K9ggEfk3/arc-1.0-fabric.jar",
-          "filename": "arc-1.0-fabric.jar",
+          "sha512": "572086ce380590cfa9587cc0cf3ecc0ecd346e2029aa294b2932234ae78ca90cdd79b7b1cb11e3c295cb41f73e4d6b7bad10c09fa18d1d1141115fc658410cdc",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/vjOty637/arc-1.6-fabric.jar",
+          "filename": "arc-1.6-fabric.jar",
           "primary": true,
-          "size": 420210
+          "size": 417004
+        },
+        {
+          "sha512": "ca69eb88eaf2c8763e071d9267608fc952f90dc83ffb240db41f5206c32716867dcffccd71e5c5835ea7a2901d118a93e2a9c20e443e48482ec7f550310e55ae",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/vjOty637/arc-1.6-fabric-sources.jar",
+          "filename": "arc-1.6-fabric-sources.jar",
+          "primary": false,
+          "size": 192498
         }
       ],
       "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "LN9BxssP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "vkG50fAQ",
+      "name": "Arc Fabric 1.20.1 - 1.6.1",
+      "version_number": "1.6.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a0b4ea602f89b808f65027d5e90889119fd59c47b6110bafd03067663467fbbbd5dd4e181d267b3581c337298daadad6c0200ee2f303e5d2f7dd19c11002fd70",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/vkG50fAQ/arc-1.6.1-fabric.jar",
+          "filename": "arc-1.6.1-fabric.jar",
+          "primary": true,
+          "size": 417091
+        },
+        {
+          "sha512": "672526690cc8a5c5d0a100666b6e62e50a2ca30b5ce21083db00f12dc5fea03a8daca2e7fe9872807ad192a55abbcde5100f30a01f85a2be37018272e6034ed3",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/vkG50fAQ/arc-1.6.1-fabric-sources.jar",
+          "filename": "arc-1.6.1-fabric-sources.jar",
+          "primary": false,
+          "size": 192525
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "AOEDs9Al",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "LN9BxssP",
           "version_id": null,
@@ -1959,22 +1968,29 @@
       ]
     },
     {
-      "id": "D19wmC2N",
-      "name": "Arc Fabric 1.19.2 - 0.1",
-      "version_number": "0.1",
+      "id": "xIS9Ch84",
+      "name": "Arc Fabric 1.20.1 - 1.5.3",
+      "version_number": "1.5.3",
       "game_versions": [
-        "1.19.2"
+        "1.20.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "77f7272f5c0f76836024b952d173dff4898ab3158cc3f4955066cdcef230a5eb0bd66157d3dcc4e384b6295bbdba465b45d82e7b92d4cec4a0e533076fa5b12b",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/D19wmC2N/arc-0.1-fabric.jar",
-          "filename": "arc-0.1-fabric.jar",
+          "sha512": "2e6b3ec20e08be8f564d4adddba811ca95dfc15cd505120d8a2e7e3a5511422ef4696a69ea053a0a0e56572feaf4e88145fbd3321ba4cb4c4065d8f131ba0d79",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/xIS9Ch84/arc-1.5.3-fabric.jar",
+          "filename": "arc-1.5.3-fabric.jar",
           "primary": true,
-          "size": 374897
+          "size": 416625
+        },
+        {
+          "sha512": "c114769b5c04c56bd8837853006b68c29f8dc1871bab795b32b718320a96c6f2e2c3eae8c5097694970765fc0382655dab900047be277cb4b78ea89116c35a6e",
+          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/xIS9Ch84/arc-1.5.3-fabric-sources.jar",
+          "filename": "arc-1.5.3-fabric-sources.jar",
+          "primary": false,
+          "size": 192902
         }
       ],
       "dependencies": [
@@ -1983,31 +1999,15 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "1CcWeACN",
-      "name": "Arc Forge 1.19.2 - 0.1",
-      "version_number": "0.1",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
+        },
         {
-          "sha512": "50bedbefc2963f0c6ce65083263728738747ef2acf08c17255013b76456e1a5594832a8132245fb62b73c8b4dbd86f201e213b4af8238989a1c4b5728bbc2130",
-          "url": "https://cdn.modrinth.com/data/H3eKhxi7/versions/1CcWeACN/arc-0.1-forge.jar",
-          "filename": "arc-0.1-forge.jar",
-          "primary": true,
-          "size": 379986
-        }
-      ],
-      "dependencies": [
+          "project_id": "LN9BxssP",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
-          "project_id": "lhGA9TYQ",
+          "project_id": "AOEDs9Al",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"

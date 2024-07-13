@@ -5,6 +5,71 @@
   "description": "Allows mobs and animals to be reborn when they die. Very configurable.",
   "versions": [
     {
+      "id": "2PVmpvXl",
+      "name": "10.0.0",
+      "version_number": "10.0.0+1.15.2",
+      "game_versions": [
+        "1.15.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "51084bc5142759696439fde6daffa6ec77d2418b785b5c7ad622ee2eabbf199fa85eb25045ee7e1e168999d0d0f2070f30376f0dbd963dc553ca26d446b169ae",
+          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/10.0.0%2B1.15.2/Mob-Rebirth-10.0.0%2B1.15.2.jar",
+          "filename": "Mob-Rebirth-10.0.0+1.15.2.jar",
+          "primary": false,
+          "size": 113821
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "3m1LBwrn",
+      "name": "10.1.0",
+      "version_number": "10.1.0+1.17.1",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f3be4de4282dac5894712247cb0ae82262025e13462c5fcfa2428af8bb9262b1ab550f621cb896441424f211a5c12b541423721f1161a0c2cbbe17db0f0035ed",
+          "url": "https://cdn.modrinth.com//data/Wh3LpCmj/versions/10.1.0%2B1.17.1/Mob-Rebirth-10.1.0%2B1.17.1.jar",
+          "filename": "Mob-Rebirth-10.1.0+1.17.1.jar",
+          "primary": false,
+          "size": 116913
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "7yRlIjv0",
+      "name": "10.0.0",
+      "version_number": "10.0.0+1.17.1",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "fbded77563bc16c24d63dd4f25f89e53e3f50f069563dcd150c51090a2176157a5034d66b961b41ba13b1fab1e04d06266283e5babcf575fe73c6f580befda70",
+          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/10.0.0%2B1.17.1/Mob-Rebirth-10.0.0%2B1.17.1.jar",
+          "filename": "Mob-Rebirth-10.0.0+1.17.1.jar",
+          "primary": false,
+          "size": 117594
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "869OVyt5",
       "name": "10.2.3",
       "version_number": "10.2.3+1.18.2+fabric",
@@ -26,6 +91,12 @@
       ],
       "dependencies": [
         {
+          "project_id": "RAXqYPH1",
+          "version_id": "23Idtgu9",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "P7dR8mSH",
           "version_id": "95QMsRyb",
           "file_name": null,
@@ -42,127 +113,6 @@
           "version_id": "nVxObSbX",
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "RAXqYPH1",
-          "version_id": "23Idtgu9",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "WG7HozE1",
-      "name": "10.2.3",
-      "version_number": "10.2.3+1.18.2",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "76196192dd2315fbdefc23f12d05c813323fa4c2432cd9870b004a3811c01fea148769a2e382a0462788623b4b017cffd3e2801f3ec0beeef2b2f58813b02fb2",
-          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/WG7HozE1/Mob-Rebirth-Forge-10.2.3%2B1.18.2.jar",
-          "filename": "Mob-Rebirth-Forge-10.2.3+1.18.2.jar",
-          "primary": true,
-          "size": 109829
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "RAXqYPH1",
-          "version_id": "1Xmee7yQ",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ING0LAPF",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "QQle2P5s",
-      "name": "10.2.3",
-      "version_number": "10.2.3+1.17.1+fabric",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "b78dd01b57d6c823e750dffca620ca4251957eafbe9303d1c5484ddfb551777a49d94153d21ae788da9d298e55f4fd2bd19177a83e2edd05bdde07e690148f54",
-          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/QQle2P5s/Mob-Rebirth-Fabric-10.2.3%2B1.17.1.jar",
-          "filename": "Mob-Rebirth-Fabric-10.2.3+1.17.1.jar",
-          "primary": true,
-          "size": 108834
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "7kh2ofyR",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "ING0LAPF",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "RAXqYPH1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "gvTMbWMT",
-      "name": "10.2.3",
-      "version_number": "10.2.3+1.17.1",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "2cab75f2bea7cca4ed02508a7faf4befbd75562e463627652cf4407dc497a74f51bfe19f9204843b02b101584207e1f05a730856e86a8c0115a117d477267613",
-          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/gvTMbWMT/Mob-Rebirth-Forge-10.2.3%2B1.17.1.jar",
-          "filename": "Mob-Rebirth-Forge-10.2.3+1.17.1.jar",
-          "primary": true,
-          "size": 109735
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ING0LAPF",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "RAXqYPH1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -214,53 +164,6 @@
       ]
     },
     {
-      "id": "ao4G3RmV",
-      "name": "10.2.3",
-      "version_number": "10.2.3+1.15.2+fabric",
-      "game_versions": [
-        "1.15.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "1b29cbdceefae600908d50fce6167cadba044216b8e01d00a142e37b7d3adc3feaf7529ab73db83224c77cbda0ad3d0e3f98bd6f889c6e2775449a19512b72b7",
-          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/ao4G3RmV/Mob-Rebirth-Fabric-10.2.3%2B1.15.2.jar",
-          "filename": "Mob-Rebirth-Fabric-10.2.3+1.15.2.jar",
-          "primary": true,
-          "size": 108589
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ING0LAPF",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "3umfHb6R",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "RAXqYPH1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "C5ZlNUKF",
       "name": "10.2.2",
       "version_number": "10.2.2+1.18.2",
@@ -282,45 +185,22 @@
       "dependencies": []
     },
     {
-      "id": "iB6xQsOw",
-      "name": "10.2.1",
-      "version_number": "10.2.1+1.18",
+      "id": "I2n4mxXo",
+      "name": "10.1.0",
+      "version_number": "10.1.0+1.15.2",
       "game_versions": [
-        "1.18",
-        "1.18.1"
+        "1.15.2"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "c3b00d58f76896eae85997b967c0f912749e35324a3f7d1ab6de7d3ea31fc4ecf9d6a04ef257b2b7e2eec2fed64b6335996b20f0ea371845cc23daef3b82324a",
-          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/10.2.1%2B1.18/Mob-Rebirth-10.2.1%2B1.18.jar",
-          "filename": "Mob-Rebirth-10.2.1+1.18.jar",
+          "sha512": "2d2c15cfc6456dca1c1b4469b24a4ab997f2d5f0c9b9de95755b80891448b62780850c6daa2ae64bc0771f84bbade5d832c53142c06a069954e349a9b7a84b12",
+          "url": "https://cdn.modrinth.com//data/Wh3LpCmj/versions/10.1.0%2B1.15.2/Mob-Rebirth-10.1.0%2B1.15.2.jar",
+          "filename": "Mob-Rebirth-10.1.0+1.15.2.jar",
           "primary": false,
-          "size": 114296
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "zq7y52Z2",
-      "name": "10.2.0",
-      "version_number": "10.2.0+1.17.1",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e7086879602134ec97f7c65734d244739f3a5d3e8af2365e4a668c578fa3bb3e47a5c46940c7b4eb9841352d63c01a618f27160be5d582facc78000ecc19db0c",
-          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/10.2.0%2B1.17.1/Mob-Rebirth-10.2.0%2B1.17.1.jar",
-          "filename": "Mob-Rebirth-10.2.0+1.17.1.jar",
-          "primary": false,
-          "size": 114002
+          "size": 112902
         }
       ],
       "dependencies": []
@@ -350,43 +230,25 @@
       "dependencies": []
     },
     {
-      "id": "xlYuUmeT",
-      "name": "10.2.0",
-      "version_number": "10.2.0+1.15.2",
+      "id": "M0oLrZna",
+      "name": "10.1.1",
+      "version_number": "10.1.1+1.16.5",
       "game_versions": [
-        "1.15.2"
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "ff4e57ce5a1af3be1f86f08b396ce2704e498778043f6ec53db9943e7d5b2989c2fe94c48ecbf5039a3c557993583883013bb04bafbccbeadcf9f32269fbce8b",
-          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/10.2.0%2B1.15.2/Mob-Rebirth-10.2.0%2B1.15.2.jar",
-          "filename": "Mob-Rebirth-10.2.0+1.15.2.jar",
+          "sha512": "b67381f59d9b60b24cf1a430ec36925c2fbdb652ecfc8cbd40e1884da9775525f5a335aae1063e819aff789fac920a5f72a65893b9c4c02556fe43e02302d64a",
+          "url": "https://cdn.modrinth.com//data/Wh3LpCmj/versions/10.1.1%2B1.16.5/Mob-Rebirth-10.1.1%2B1.16.5.jar",
+          "filename": "Mob-Rebirth-10.1.1+1.16.5.jar",
           "primary": false,
-          "size": 113738
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "RxlCkHTi",
-      "name": "10.2.0",
-      "version_number": "10.2.0+1.14.4",
-      "game_versions": [
-        "1.14.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "cc84dcfb11dfc6c4ef06955328877ceb432a5a4e05a074c08d68053863f9cf12d46aa1822b18abe6ca3a1340a016e26efb853e2faa8b06d1edef7b7719ba1a81",
-          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/10.2.0%2B1.14.4/Mob-Rebirth-10.2.0%2B1.14.4.jar",
-          "filename": "Mob-Rebirth-10.2.0+1.14.4.jar",
-          "primary": false,
-          "size": 113713
+          "size": 112996
         }
       ],
       "dependencies": []
@@ -414,9 +276,179 @@
       "dependencies": []
     },
     {
-      "id": "M0oLrZna",
-      "name": "10.1.1",
-      "version_number": "10.1.1+1.16.5",
+      "id": "OlyrwSyn",
+      "name": "10.0.0",
+      "version_number": "10.0.0+1.14.4",
+      "game_versions": [
+        "1.14.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "d09c2537f6816954697676fec1e2d48ecba60bed6ae5e3f5d85e5da007750ab15bed1365da0e5521f4ee1c27435ac46310f6251c5d810d78341b01ec52558a91",
+          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/10.0.0%2B1.14.4/Mob-Rebirth-10.0.0%2B1.14.4.jar",
+          "filename": "Mob-Rebirth-10.0.0+1.14.4.jar",
+          "primary": false,
+          "size": 113804
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "QQle2P5s",
+      "name": "10.2.3",
+      "version_number": "10.2.3+1.17.1+fabric",
+      "game_versions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "b78dd01b57d6c823e750dffca620ca4251957eafbe9303d1c5484ddfb551777a49d94153d21ae788da9d298e55f4fd2bd19177a83e2edd05bdde07e690148f54",
+          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/QQle2P5s/Mob-Rebirth-Fabric-10.2.3%2B1.17.1.jar",
+          "filename": "Mob-Rebirth-Fabric-10.2.3+1.17.1.jar",
+          "primary": true,
+          "size": 108834
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "7kh2ofyR",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "ING0LAPF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "RAXqYPH1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "RxlCkHTi",
+      "name": "10.2.0",
+      "version_number": "10.2.0+1.14.4",
+      "game_versions": [
+        "1.14.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "cc84dcfb11dfc6c4ef06955328877ceb432a5a4e05a074c08d68053863f9cf12d46aa1822b18abe6ca3a1340a016e26efb853e2faa8b06d1edef7b7719ba1a81",
+          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/10.2.0%2B1.14.4/Mob-Rebirth-10.2.0%2B1.14.4.jar",
+          "filename": "Mob-Rebirth-10.2.0+1.14.4.jar",
+          "primary": false,
+          "size": 113713
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "WG7HozE1",
+      "name": "10.2.3",
+      "version_number": "10.2.3+1.18.2",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "76196192dd2315fbdefc23f12d05c813323fa4c2432cd9870b004a3811c01fea148769a2e382a0462788623b4b017cffd3e2801f3ec0beeef2b2f58813b02fb2",
+          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/WG7HozE1/Mob-Rebirth-Forge-10.2.3%2B1.18.2.jar",
+          "filename": "Mob-Rebirth-Forge-10.2.3+1.18.2.jar",
+          "primary": true,
+          "size": 109829
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "RAXqYPH1",
+          "version_id": "1Xmee7yQ",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ING0LAPF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ao4G3RmV",
+      "name": "10.2.3",
+      "version_number": "10.2.3+1.15.2+fabric",
+      "game_versions": [
+        "1.15.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "1b29cbdceefae600908d50fce6167cadba044216b8e01d00a142e37b7d3adc3feaf7529ab73db83224c77cbda0ad3d0e3f98bd6f889c6e2775449a19512b72b7",
+          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/ao4G3RmV/Mob-Rebirth-Fabric-10.2.3%2B1.15.2.jar",
+          "filename": "Mob-Rebirth-Fabric-10.2.3+1.15.2.jar",
+          "primary": true,
+          "size": 108589
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "3umfHb6R",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ING0LAPF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "RAXqYPH1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ePZKxwHs",
+      "name": "10.0.0",
+      "version_number": "10.0.0+1.16.5",
       "game_versions": [
         "1.16.2",
         "1.16.3",
@@ -428,33 +460,67 @@
       ],
       "files": [
         {
-          "sha512": "b67381f59d9b60b24cf1a430ec36925c2fbdb652ecfc8cbd40e1884da9775525f5a335aae1063e819aff789fac920a5f72a65893b9c4c02556fe43e02302d64a",
-          "url": "https://cdn.modrinth.com//data/Wh3LpCmj/versions/10.1.1%2B1.16.5/Mob-Rebirth-10.1.1%2B1.16.5.jar",
-          "filename": "Mob-Rebirth-10.1.1+1.16.5.jar",
+          "sha512": "8bef93a605b0d476f431e571f38152b15fd8ce098173023ec799928fe3571924ab16e41105790544c7781dacd956055d5051637d0868434e7d586cdb8eb33e00",
+          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/10.0.0%2B1.16.5/Mob-Rebirth-10.0.0%2B1.16.5.jar",
+          "filename": "Mob-Rebirth-10.0.0+1.16.5.jar",
           "primary": false,
-          "size": 112996
+          "size": 117533
         }
       ],
       "dependencies": []
     },
     {
-      "id": "3m1LBwrn",
-      "name": "10.1.0",
-      "version_number": "10.1.0+1.17.1",
+      "id": "gvTMbWMT",
+      "name": "10.2.3",
+      "version_number": "10.2.3+1.17.1",
       "game_versions": [
-        "1.17",
         "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "2cab75f2bea7cca4ed02508a7faf4befbd75562e463627652cf4407dc497a74f51bfe19f9204843b02b101584207e1f05a730856e86a8c0115a117d477267613",
+          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/gvTMbWMT/Mob-Rebirth-Forge-10.2.3%2B1.17.1.jar",
+          "filename": "Mob-Rebirth-Forge-10.2.3+1.17.1.jar",
+          "primary": true,
+          "size": 109735
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ING0LAPF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "RAXqYPH1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "iB6xQsOw",
+      "name": "10.2.1",
+      "version_number": "10.2.1+1.18",
+      "game_versions": [
+        "1.18",
+        "1.18.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "f3be4de4282dac5894712247cb0ae82262025e13462c5fcfa2428af8bb9262b1ab550f621cb896441424f211a5c12b541423721f1161a0c2cbbe17db0f0035ed",
-          "url": "https://cdn.modrinth.com//data/Wh3LpCmj/versions/10.1.0%2B1.17.1/Mob-Rebirth-10.1.0%2B1.17.1.jar",
-          "filename": "Mob-Rebirth-10.1.0+1.17.1.jar",
+          "sha512": "c3b00d58f76896eae85997b967c0f912749e35324a3f7d1ab6de7d3ea31fc4ecf9d6a04ef257b2b7e2eec2fed64b6335996b20f0ea371845cc23daef3b82324a",
+          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/10.2.1%2B1.18/Mob-Rebirth-10.2.1%2B1.18.jar",
+          "filename": "Mob-Rebirth-10.2.1+1.18.jar",
           "primary": false,
-          "size": 116913
+          "size": 114296
         }
       ],
       "dependencies": []
@@ -484,27 +550,6 @@
       "dependencies": []
     },
     {
-      "id": "I2n4mxXo",
-      "name": "10.1.0",
-      "version_number": "10.1.0+1.15.2",
-      "game_versions": [
-        "1.15.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2d2c15cfc6456dca1c1b4469b24a4ab997f2d5f0c9b9de95755b80891448b62780850c6daa2ae64bc0771f84bbade5d832c53142c06a069954e349a9b7a84b12",
-          "url": "https://cdn.modrinth.com//data/Wh3LpCmj/versions/10.1.0%2B1.15.2/Mob-Rebirth-10.1.0%2B1.15.2.jar",
-          "filename": "Mob-Rebirth-10.1.0+1.15.2.jar",
-          "primary": false,
-          "size": 112902
-        }
-      ],
-      "dependencies": []
-    },
-    {
       "id": "wcMiNuzI",
       "name": "10.1.0",
       "version_number": "10.1.0+1.14.4",
@@ -526,9 +571,30 @@
       "dependencies": []
     },
     {
-      "id": "7yRlIjv0",
-      "name": "10.0.0",
-      "version_number": "10.0.0+1.17.1",
+      "id": "xlYuUmeT",
+      "name": "10.2.0",
+      "version_number": "10.2.0+1.15.2",
+      "game_versions": [
+        "1.15.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ff4e57ce5a1af3be1f86f08b396ce2704e498778043f6ec53db9943e7d5b2989c2fe94c48ecbf5039a3c557993583883013bb04bafbccbeadcf9f32269fbce8b",
+          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/10.2.0%2B1.15.2/Mob-Rebirth-10.2.0%2B1.15.2.jar",
+          "filename": "Mob-Rebirth-10.2.0+1.15.2.jar",
+          "primary": false,
+          "size": 113738
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "zq7y52Z2",
+      "name": "10.2.0",
+      "version_number": "10.2.0+1.17.1",
       "game_versions": [
         "1.17",
         "1.17.1"
@@ -538,77 +604,11 @@
       ],
       "files": [
         {
-          "sha512": "fbded77563bc16c24d63dd4f25f89e53e3f50f069563dcd150c51090a2176157a5034d66b961b41ba13b1fab1e04d06266283e5babcf575fe73c6f580befda70",
-          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/10.0.0%2B1.17.1/Mob-Rebirth-10.0.0%2B1.17.1.jar",
-          "filename": "Mob-Rebirth-10.0.0+1.17.1.jar",
+          "sha512": "e7086879602134ec97f7c65734d244739f3a5d3e8af2365e4a668c578fa3bb3e47a5c46940c7b4eb9841352d63c01a618f27160be5d582facc78000ecc19db0c",
+          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/10.2.0%2B1.17.1/Mob-Rebirth-10.2.0%2B1.17.1.jar",
+          "filename": "Mob-Rebirth-10.2.0+1.17.1.jar",
           "primary": false,
-          "size": 117594
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "ePZKxwHs",
-      "name": "10.0.0",
-      "version_number": "10.0.0+1.16.5",
-      "game_versions": [
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "8bef93a605b0d476f431e571f38152b15fd8ce098173023ec799928fe3571924ab16e41105790544c7781dacd956055d5051637d0868434e7d586cdb8eb33e00",
-          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/10.0.0%2B1.16.5/Mob-Rebirth-10.0.0%2B1.16.5.jar",
-          "filename": "Mob-Rebirth-10.0.0+1.16.5.jar",
-          "primary": false,
-          "size": 117533
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "2PVmpvXl",
-      "name": "10.0.0",
-      "version_number": "10.0.0+1.15.2",
-      "game_versions": [
-        "1.15.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "51084bc5142759696439fde6daffa6ec77d2418b785b5c7ad622ee2eabbf199fa85eb25045ee7e1e168999d0d0f2070f30376f0dbd963dc553ca26d446b169ae",
-          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/10.0.0%2B1.15.2/Mob-Rebirth-10.0.0%2B1.15.2.jar",
-          "filename": "Mob-Rebirth-10.0.0+1.15.2.jar",
-          "primary": false,
-          "size": 113821
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "OlyrwSyn",
-      "name": "10.0.0",
-      "version_number": "10.0.0+1.14.4",
-      "game_versions": [
-        "1.14.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "d09c2537f6816954697676fec1e2d48ecba60bed6ae5e3f5d85e5da007750ab15bed1365da0e5521f4ee1c27435ac46310f6251c5d810d78341b01ec52558a91",
-          "url": "https://cdn.modrinth.com/data/Wh3LpCmj/versions/10.0.0%2B1.14.4/Mob-Rebirth-10.0.0%2B1.14.4.jar",
-          "filename": "Mob-Rebirth-10.0.0+1.14.4.jar",
-          "primary": false,
-          "size": 113804
+          "size": 114002
         }
       ],
       "dependencies": []

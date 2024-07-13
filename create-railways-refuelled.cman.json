@@ -5,8 +5,8 @@
   "description": "A really simple collection of datapacks which modify fuels used in Steam N' Rails",
   "versions": [
     {
-      "id": "jiQp0ZgX",
-      "name": "Create: Diesel Generators - Biodiesel",
+      "id": "4aZKUxaD",
+      "name": "Ad Astra - Fuel",
       "version_number": "1.0.0+mod",
       "game_versions": [
         "1.20.1"
@@ -18,11 +18,147 @@
       ],
       "files": [
         {
-          "sha512": "078c2eb529f52c037d26d2ebeaaa2a8576a567fd5baad80d79b959c2be3d2058c47e8c9c92d8c7109465b15f0bffff3f485015fc72fc5ea65a88efd3cd199803",
-          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/jiQp0ZgX/create-railways-refuelled-1.0.0.jar",
+          "sha512": "884746f50d7a87fd5e85cabdec54c192b84df7fc39a3014f9ce905d1a54588daee26ea7e82f8aa5b991ac98ee76c00f607c9dd9094560d684c0ac1920021b8cd",
+          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/4aZKUxaD/create-railways-refuelled-1.0.0.jar",
           "filename": "create-railways-refuelled-1.0.0.jar",
           "primary": true,
-          "size": 3134
+          "size": 3028
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ZzjhlDgM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "3ufwT9JF",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "5LDZUGQN",
+      "name": "Crafts & Additions - Bioethanol",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "dd0ac0bb6259b24c75009aa38906a6d10b67de7c1f46232a3896a110621c2481a4336c0bc9245baa5ce1e61777b4484b59a4674400f3964692c6387c4a375634",
+          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/5LDZUGQN/CRR-CraftsAndAdditions-Bioethanol.zip",
+          "filename": "CRR-CraftsAndAdditions-Bioethanol.zip",
+          "primary": true,
+          "size": 1202
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ZzjhlDgM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "kU1G12Nn",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "5M9bXlX9",
+      "name": "Create: Diesel Generators - Ethanol",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "4267d2e105e406104d14788d74fb616712c66c875a04514f36cfc7372358dc8ea8d35cdcb60069aee33060f8cf90df3548bebfa617b53b1f41a8ae9f632ec796",
+          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/5M9bXlX9/CRR_CREATEDIESELGENERATORS_ETHANOL.zip",
+          "filename": "CRR_CREATEDIESELGENERATORS_ETHANOL.zip",
+          "primary": true,
+          "size": 828
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ZzjhlDgM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ZM3tt6p1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ALg34iZF",
+      "name": "Create: Diesel Generators - Diesel",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "ba9958d96f2f444252810b5a8935cdb66594d94a8db527ce109e6500cbff3e89b013214d26cd5221e9872d60c1659ce99bef97b91a9379ac6491f79e1af015e3",
+          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/ALg34iZF/CRR_CREATEDIESELGENERATORS_DIESEL.zip",
+          "filename": "CRR_CREATEDIESELGENERATORS_DIESEL.zip",
+          "primary": true,
+          "size": 815
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ZzjhlDgM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ZM3tt6p1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "G92SvyPx",
+      "name": "Create: Diesel Generators - Gasoline",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "d68a5b878c089894a909b8f3988b94c33be44e155ba39cfc1b6850da835eff8017ff0f94b457ae4afc7dc05ac215819b061215d6d5251dd6b6a98a75ed3dacac",
+          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/G92SvyPx/CRR_CREATEDIESELGENERATORS_GASOLINE.zip",
+          "filename": "CRR_CREATEDIESELGENERATORS_GASOLINE.zip",
+          "primary": true,
+          "size": 834
         }
       ],
       "dependencies": [
@@ -32,6 +168,36 @@
           "file_name": null,
           "dependency_type": "required"
         },
+        {
+          "project_id": "ZzjhlDgM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "GBcLB3GZ",
+      "name": "Minecraft - Remove Lava",
+      "version_number": "1.0.0+mod",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "db69f41982e04009dabd4b70c2c721fb80acd965ce830de9d460d77d4423978f01e448545c865150b2c7d00f7e56cd50d326adc36ab594d4c98b82c80223e857",
+          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/GBcLB3GZ/create-railways-refuelled-1.0.0.jar",
+          "filename": "create-railways-refuelled-1.0.0.jar",
+          "primary": true,
+          "size": 3006
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "ZzjhlDgM",
           "version_id": null,
@@ -75,44 +241,8 @@
       ]
     },
     {
-      "id": "yjFXNlso",
-      "name": "Create: Diesel Generators - Ethanol",
-      "version_number": "1.0.0+mod",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4711c195918cf2ae41e8af41e72cca381ec2191a7035e5a3cf20b4c8efb3fe8c00bbabeca79c25c1453870e69be411b2045027e9ef5b7a366634e4530df3b066",
-          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/yjFXNlso/create-railways-refuelled-1.0.0.jar",
-          "filename": "create-railways-refuelled-1.0.0.jar",
-          "primary": true,
-          "size": 3120
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ZzjhlDgM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ZM3tt6p1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "5M9bXlX9",
-      "name": "Create: Diesel Generators - Ethanol",
+      "id": "PjSdVVds",
+      "name": "Minecraft - Remove Lava",
       "version_number": "1.0.0",
       "game_versions": [
         "1.20.1"
@@ -122,338 +252,16 @@
       ],
       "files": [
         {
-          "sha512": "4267d2e105e406104d14788d74fb616712c66c875a04514f36cfc7372358dc8ea8d35cdcb60069aee33060f8cf90df3548bebfa617b53b1f41a8ae9f632ec796",
-          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/5M9bXlX9/CRR_CREATEDIESELGENERATORS_ETHANOL.zip",
-          "filename": "CRR_CREATEDIESELGENERATORS_ETHANOL.zip",
+          "sha512": "88d4aef42a7b15a324ae778e71a615284373241cebe303df09848cda076d3e11e1eb3169e8430f3e7bda6be789bcd43ee12314db388ef5680141ec46d931e00d",
+          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/PjSdVVds/CRR-Minecraft-RemoveLava.zip",
+          "filename": "CRR-Minecraft-RemoveLava.zip",
           "primary": true,
-          "size": 828
+          "size": 738
         }
       ],
       "dependencies": [
         {
           "project_id": "ZzjhlDgM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ZM3tt6p1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "q3bQQWls",
-      "name": "Create: Diesel Generators - Plant Oil",
-      "version_number": "1.0.0+mod",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "1ee7fcbd735d687b241972b41bde0cef1123c7ebfbb7f783be9fcebc5b3e3d9f962708cdff5d1eaf6d2d11f5d3c96c5277d70c6e08b29cd1f10e28eac4c84fe6",
-          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/q3bQQWls/create-railways-refuelled-1.0.0.jar",
-          "filename": "create-railways-refuelled-1.0.0.jar",
-          "primary": true,
-          "size": 3134
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ZzjhlDgM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ZM3tt6p1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "i6Cupwjz",
-      "name": "Create: Diesel Generators - Plant Oil",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "83dda9368f524b70d3588eebc1cd1b20b0c6bbb62e82a781148ec2de5a41f934047bbe65b92c3661eba60d6c3e274dd84cb83d32de09248f65750fb42935c193",
-          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/i6Cupwjz/CRR_CREATEDIESELGENERATORS_PLANT_OIL.zip",
-          "filename": "CRR_CREATEDIESELGENERATORS_PLANT_OIL.zip",
-          "primary": true,
-          "size": 843
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ZM3tt6p1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ZzjhlDgM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "oZPNVeTO",
-      "name": "Create: Diesel Generators - Gasoline",
-      "version_number": "1.0.0+mod",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2d85b7d41ea297e04be2b497c78dcb32620f6f946af7758117c215cd1a243e8769c0d09fd8af20c22f7612ba6bc47bc87739dca2fb0d1bf2d344563b9271121b",
-          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/oZPNVeTO/create-railways-refuelled-1.0.0.jar",
-          "filename": "create-railways-refuelled-1.0.0.jar",
-          "primary": true,
-          "size": 3129
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ZM3tt6p1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ZzjhlDgM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "G92SvyPx",
-      "name": "Create: Diesel Generators - Gasoline",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "d68a5b878c089894a909b8f3988b94c33be44e155ba39cfc1b6850da835eff8017ff0f94b457ae4afc7dc05ac215819b061215d6d5251dd6b6a98a75ed3dacac",
-          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/G92SvyPx/CRR_CREATEDIESELGENERATORS_GASOLINE.zip",
-          "filename": "CRR_CREATEDIESELGENERATORS_GASOLINE.zip",
-          "primary": true,
-          "size": 834
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ZM3tt6p1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ZzjhlDgM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "fnyxbAxs",
-      "name": "Create: Diesel Generators - Diesel",
-      "version_number": "1.0.0+mod",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "0d9d4d628973e716d66b70c044efde7dd24e13cc390baebff83d6169e1cf999ac56069b297fcbc17af03478a044b41c834f4d2a93920006a2803a5bcce2aa289",
-          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/fnyxbAxs/create-railways-refuelled-1.0.0.jar",
-          "filename": "create-railways-refuelled-1.0.0.jar",
-          "primary": true,
-          "size": 3115
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ZM3tt6p1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ZzjhlDgM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ALg34iZF",
-      "name": "Create: Diesel Generators - Diesel",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "ba9958d96f2f444252810b5a8935cdb66594d94a8db527ce109e6500cbff3e89b013214d26cd5221e9872d60c1659ce99bef97b91a9379ac6491f79e1af015e3",
-          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/ALg34iZF/CRR_CREATEDIESELGENERATORS_DIESEL.zip",
-          "filename": "CRR_CREATEDIESELGENERATORS_DIESEL.zip",
-          "primary": true,
-          "size": 815
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ZzjhlDgM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ZM3tt6p1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "fcrtaYJE",
-      "name": "Create: The Factory Must Grow - Diesel",
-      "version_number": "1.0.0+mod",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "dbae29cd52954c561ed3e6ef07a5bf5d57c8565fc239fc21f3156303205229f2c70c523c04301dcc330d4a417e6fe4c3f9eb5adeec9b340243892efde04ce97e",
-          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/fcrtaYJE/create-railways-refuelled-1.0.0.jar",
-          "filename": "create-railways-refuelled-1.0.0.jar",
-          "primary": true,
-          "size": 3051
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ZzjhlDgM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "USgVjXsk",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "svAlKndu",
-      "name": "Create: The Factory Must Grow - Diesel",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "9431122f52f9bc58605cce3763d59872538994b004351c55e1c3ae9e330858e2112399c8a04806b3461e3080780741000b4a601046842099ad9a47f86b0ca91c",
-          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/svAlKndu/CRR_TFMG_DIESEL.zip",
-          "filename": "CRR_TFMG_DIESEL.zip",
-          "primary": true,
-          "size": 769
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "USgVjXsk",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ZzjhlDgM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "4aZKUxaD",
-      "name": "Ad Astra - Fuel",
-      "version_number": "1.0.0+mod",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "forge",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "884746f50d7a87fd5e85cabdec54c192b84df7fc39a3014f9ce905d1a54588daee26ea7e82f8aa5b991ac98ee76c00f607c9dd9094560d684c0ac1920021b8cd",
-          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/4aZKUxaD/create-railways-refuelled-1.0.0.jar",
-          "filename": "create-railways-refuelled-1.0.0.jar",
-          "primary": true,
-          "size": 3028
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ZzjhlDgM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "3ufwT9JF",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -531,6 +339,254 @@
       ]
     },
     {
+      "id": "W7UzSfMd",
+      "name": "Crafts & Additions - Seed Oil",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "65369c5d96bfbea50dce9156fc68c5e7da852dfcece416cc80b0155fc81ec34f29cd29e37b4092e93b990d59652879a7f30818609d6ee65d831ff16b44f69d88",
+          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/W7UzSfMd/CCR-CraftsAndAdditions-SeedOil.zip",
+          "filename": "CCR-CraftsAndAdditions-SeedOil.zip",
+          "primary": true,
+          "size": 813
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "kU1G12Nn",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ZzjhlDgM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "fcrtaYJE",
+      "name": "Create: The Factory Must Grow - Diesel",
+      "version_number": "1.0.0+mod",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "dbae29cd52954c561ed3e6ef07a5bf5d57c8565fc239fc21f3156303205229f2c70c523c04301dcc330d4a417e6fe4c3f9eb5adeec9b340243892efde04ce97e",
+          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/fcrtaYJE/create-railways-refuelled-1.0.0.jar",
+          "filename": "create-railways-refuelled-1.0.0.jar",
+          "primary": true,
+          "size": 3051
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ZzjhlDgM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "USgVjXsk",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "fnyxbAxs",
+      "name": "Create: Diesel Generators - Diesel",
+      "version_number": "1.0.0+mod",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "0d9d4d628973e716d66b70c044efde7dd24e13cc390baebff83d6169e1cf999ac56069b297fcbc17af03478a044b41c834f4d2a93920006a2803a5bcce2aa289",
+          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/fnyxbAxs/create-railways-refuelled-1.0.0.jar",
+          "filename": "create-railways-refuelled-1.0.0.jar",
+          "primary": true,
+          "size": 3115
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ZM3tt6p1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ZzjhlDgM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "i6Cupwjz",
+      "name": "Create: Diesel Generators - Plant Oil",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "83dda9368f524b70d3588eebc1cd1b20b0c6bbb62e82a781148ec2de5a41f934047bbe65b92c3661eba60d6c3e274dd84cb83d32de09248f65750fb42935c193",
+          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/i6Cupwjz/CRR_CREATEDIESELGENERATORS_PLANT_OIL.zip",
+          "filename": "CRR_CREATEDIESELGENERATORS_PLANT_OIL.zip",
+          "primary": true,
+          "size": 843
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ZM3tt6p1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ZzjhlDgM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "jiQp0ZgX",
+      "name": "Create: Diesel Generators - Biodiesel",
+      "version_number": "1.0.0+mod",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "078c2eb529f52c037d26d2ebeaaa2a8576a567fd5baad80d79b959c2be3d2058c47e8c9c92d8c7109465b15f0bffff3f485015fc72fc5ea65a88efd3cd199803",
+          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/jiQp0ZgX/create-railways-refuelled-1.0.0.jar",
+          "filename": "create-railways-refuelled-1.0.0.jar",
+          "primary": true,
+          "size": 3134
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ZM3tt6p1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ZzjhlDgM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "oZPNVeTO",
+      "name": "Create: Diesel Generators - Gasoline",
+      "version_number": "1.0.0+mod",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2d85b7d41ea297e04be2b497c78dcb32620f6f946af7758117c215cd1a243e8769c0d09fd8af20c22f7612ba6bc47bc87739dca2fb0d1bf2d344563b9271121b",
+          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/oZPNVeTO/create-railways-refuelled-1.0.0.jar",
+          "filename": "create-railways-refuelled-1.0.0.jar",
+          "primary": true,
+          "size": 3129
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ZM3tt6p1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ZzjhlDgM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "q3bQQWls",
+      "name": "Create: Diesel Generators - Plant Oil",
+      "version_number": "1.0.0+mod",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "1ee7fcbd735d687b241972b41bde0cef1123c7ebfbb7f783be9fcebc5b3e3d9f962708cdff5d1eaf6d2d11f5d3c96c5277d70c6e08b29cd1f10e28eac4c84fe6",
+          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/q3bQQWls/create-railways-refuelled-1.0.0.jar",
+          "filename": "create-railways-refuelled-1.0.0.jar",
+          "primary": true,
+          "size": 3134
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ZzjhlDgM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ZM3tt6p1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "rPfbDCZi",
       "name": "Crafts & Additions - Seed Oil",
       "version_number": "1.0.0+mod",
@@ -567,8 +623,42 @@
       ]
     },
     {
-      "id": "GBcLB3GZ",
-      "name": "Minecraft - Remove Lava",
+      "id": "svAlKndu",
+      "name": "Create: The Factory Must Grow - Diesel",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "files": [
+        {
+          "sha512": "9431122f52f9bc58605cce3763d59872538994b004351c55e1c3ae9e330858e2112399c8a04806b3461e3080780741000b4a601046842099ad9a47f86b0ca91c",
+          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/svAlKndu/CRR_TFMG_DIESEL.zip",
+          "filename": "CRR_TFMG_DIESEL.zip",
+          "primary": true,
+          "size": 769
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "USgVjXsk",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ZzjhlDgM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "yjFXNlso",
+      "name": "Create: Diesel Generators - Ethanol",
       "version_number": "1.0.0+mod",
       "game_versions": [
         "1.20.1"
@@ -580,101 +670,11 @@
       ],
       "files": [
         {
-          "sha512": "db69f41982e04009dabd4b70c2c721fb80acd965ce830de9d460d77d4423978f01e448545c865150b2c7d00f7e56cd50d326adc36ab594d4c98b82c80223e857",
-          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/GBcLB3GZ/create-railways-refuelled-1.0.0.jar",
+          "sha512": "4711c195918cf2ae41e8af41e72cca381ec2191a7035e5a3cf20b4c8efb3fe8c00bbabeca79c25c1453870e69be411b2045027e9ef5b7a366634e4530df3b066",
+          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/yjFXNlso/create-railways-refuelled-1.0.0.jar",
           "filename": "create-railways-refuelled-1.0.0.jar",
           "primary": true,
-          "size": 3006
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ZzjhlDgM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "PjSdVVds",
-      "name": "Minecraft - Remove Lava",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "88d4aef42a7b15a324ae778e71a615284373241cebe303df09848cda076d3e11e1eb3169e8430f3e7bda6be789bcd43ee12314db388ef5680141ec46d931e00d",
-          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/PjSdVVds/CRR-Minecraft-RemoveLava.zip",
-          "filename": "CRR-Minecraft-RemoveLava.zip",
-          "primary": true,
-          "size": 738
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ZzjhlDgM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "W7UzSfMd",
-      "name": "Crafts & Additions - Seed Oil",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "65369c5d96bfbea50dce9156fc68c5e7da852dfcece416cc80b0155fc81ec34f29cd29e37b4092e93b990d59652879a7f30818609d6ee65d831ff16b44f69d88",
-          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/W7UzSfMd/CCR-CraftsAndAdditions-SeedOil.zip",
-          "filename": "CCR-CraftsAndAdditions-SeedOil.zip",
-          "primary": true,
-          "size": 813
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "kU1G12Nn",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ZzjhlDgM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "5LDZUGQN",
-      "name": "Crafts & Additions - Bioethanol",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "datapack"
-      ],
-      "files": [
-        {
-          "sha512": "dd0ac0bb6259b24c75009aa38906a6d10b67de7c1f46232a3896a110621c2481a4336c0bc9245baa5ce1e61777b4484b59a4674400f3964692c6387c4a375634",
-          "url": "https://cdn.modrinth.com/data/4JmVzRPF/versions/5LDZUGQN/CRR-CraftsAndAdditions-Bioethanol.zip",
-          "filename": "CRR-CraftsAndAdditions-Bioethanol.zip",
-          "primary": true,
-          "size": 1202
+          "size": 3120
         }
       ],
       "dependencies": [
@@ -685,7 +685,7 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "kU1G12Nn",
+          "project_id": "ZM3tt6p1",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"

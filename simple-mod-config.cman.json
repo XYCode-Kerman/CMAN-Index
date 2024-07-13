@@ -5,70 +5,6 @@
   "description": "A minecraft modding framework for creating configuration files for both client and server",
   "versions": [
     {
-      "id": "IoM6YV8Z",
-      "name": "Forge 0.0.3",
-      "version_number": "0.0.3",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "f8a0e5ff642fd5abbdddad3e40525d808ff2bfab250400b3cba82d71313c1c4d889f44cf3c8a4aa4488f2cb5c736b8cace6035a75df8a53b8568ca08e03d4587",
-          "url": "https://cdn.modrinth.com/data/xtPYrzCS/versions/IoM6YV8Z/simple-mod-config-1.20-forge-0.0.3%20.jar",
-          "filename": "simple-mod-config-1.20-forge-0.0.3 .jar",
-          "primary": false,
-          "size": 105297
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "gyJ7kDpb",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "qLbN0VkK",
-      "name": "Fabric 0.0.3",
-      "version_number": "0.0.3",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "e95ee95c179d5e92069856dab8a11626ab0192a5da608b8447cb15cc31e8b0228df2edab2bc993a36420fdf0258c30865368919ddf7c2b1f63b20190f47ce07d",
-          "url": "https://cdn.modrinth.com/data/xtPYrzCS/versions/qLbN0VkK/simple-mod-config-1.20-fabric-0.0.3%20.jar",
-          "filename": "simple-mod-config-1.20-fabric-0.0.3 .jar",
-          "primary": false,
-          "size": 616476
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "Sbew3kXe",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "C0jVvgtP",
       "name": "Forge 0.0.2",
       "version_number": "forge-0.0.2",
@@ -98,6 +34,76 @@
         {
           "project_id": "lhGA9TYQ",
           "version_id": "8y4xVR6z",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "IoM6YV8Z",
+      "name": "Forge 0.0.3",
+      "version_number": "0.0.3",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f8a0e5ff642fd5abbdddad3e40525d808ff2bfab250400b3cba82d71313c1c4d889f44cf3c8a4aa4488f2cb5c736b8cace6035a75df8a53b8568ca08e03d4587",
+          "url": "https://cdn.modrinth.com/data/xtPYrzCS/versions/IoM6YV8Z/simple-mod-config-1.20-forge-0.0.3%20.jar",
+          "filename": "simple-mod-config-1.20-forge-0.0.3 .jar",
+          "primary": false,
+          "size": 105297
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "gyJ7kDpb",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "LMKrKbe2",
+      "name": "Fabric 0.0.1",
+      "version_number": "fabric-0.0.1",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1ec735aab7e53d3bcc9cb94b11d54a6d1c355d72c990e73b87f5f3f9d0730b338646d2267070b4cb53ce314cfc3a2f8564171ffa37a238af4e5b8231eb97a4f0",
+          "url": "https://cdn.modrinth.com/data/xtPYrzCS/versions/LMKrKbe2/simple-mod-config-1.19.4-fabric-0.0.1.jar",
+          "filename": "simple-mod-config-1.19.4-fabric-0.0.1.jar",
+          "primary": true,
+          "size": 600870
+        },
+        {
+          "sha512": "79a595b35b2f4ff0e46fbc9edcdb751602462247bcf3440cdf962814185af1a1e52ba19badffd5b05eb54b1e5570d1ad89d2ac8b50a4bf35946382c7efbb7d23",
+          "url": "https://cdn.modrinth.com/data/xtPYrzCS/versions/LMKrKbe2/simple-mod-config-1.19.4-fabric-0.0.1-sources.jar",
+          "filename": "simple-mod-config-1.19.4-fabric-0.0.1-sources.jar",
+          "primary": false,
+          "size": 71366
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "XV72M5Gg",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "s5UrEfIY",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -174,41 +180,35 @@
       ]
     },
     {
-      "id": "LMKrKbe2",
-      "name": "Fabric 0.0.1",
-      "version_number": "fabric-0.0.1",
+      "id": "qLbN0VkK",
+      "name": "Fabric 0.0.3",
+      "version_number": "0.0.3",
       "game_versions": [
-        "1.19.4"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "1ec735aab7e53d3bcc9cb94b11d54a6d1c355d72c990e73b87f5f3f9d0730b338646d2267070b4cb53ce314cfc3a2f8564171ffa37a238af4e5b8231eb97a4f0",
-          "url": "https://cdn.modrinth.com/data/xtPYrzCS/versions/LMKrKbe2/simple-mod-config-1.19.4-fabric-0.0.1.jar",
-          "filename": "simple-mod-config-1.19.4-fabric-0.0.1.jar",
-          "primary": true,
-          "size": 600870
-        },
-        {
-          "sha512": "79a595b35b2f4ff0e46fbc9edcdb751602462247bcf3440cdf962814185af1a1e52ba19badffd5b05eb54b1e5570d1ad89d2ac8b50a4bf35946382c7efbb7d23",
-          "url": "https://cdn.modrinth.com/data/xtPYrzCS/versions/LMKrKbe2/simple-mod-config-1.19.4-fabric-0.0.1-sources.jar",
-          "filename": "simple-mod-config-1.19.4-fabric-0.0.1-sources.jar",
+          "sha512": "e95ee95c179d5e92069856dab8a11626ab0192a5da608b8447cb15cc31e8b0228df2edab2bc993a36420fdf0258c30865368919ddf7c2b1f63b20190f47ce07d",
+          "url": "https://cdn.modrinth.com/data/xtPYrzCS/versions/qLbN0VkK/simple-mod-config-1.20-fabric-0.0.3%20.jar",
+          "filename": "simple-mod-config-1.20-fabric-0.0.3 .jar",
           "primary": false,
-          "size": 71366
+          "size": 616476
         }
       ],
       "dependencies": [
         {
           "project_id": "lhGA9TYQ",
-          "version_id": "XV72M5Gg",
+          "version_id": "Sbew3kXe",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": "s5UrEfIY",
+          "version_id": "XheZ9iGK",
           "file_name": null,
           "dependency_type": "required"
         }

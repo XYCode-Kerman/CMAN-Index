@@ -5,9 +5,89 @@
   "description": "What you see is knowledge!",
   "versions": [
     {
-      "id": "mA6fTe0s",
-      "name": "Knowledges 5.1.2 for Fabric 1.20~1.20.1",
-      "version_number": "5.1.2-fabric1.20",
+      "id": "1ueHOwRz",
+      "name": "Knowledges 3.0.1 for 1.20.2+",
+      "version_number": "3.0.1-mc1.20.2",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "800eb4699e53eb19b96b0aecff3071ee6fa7b9670ab76269d6dea57453962b699b410185c95c7bde2a3e1f8d3a841fb4eb1ba56f25e766d234e9c8f203e7919d",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/1ueHOwRz/knowledges-1.20.2-3.0.1.jar",
+          "filename": "knowledges-1.20.2-3.0.1.jar",
+          "primary": true,
+          "size": 248641
+        },
+        {
+          "sha512": "44b7a3e18bfde6779de1c7a9759540ba54b5b4837925f19cc790eb644167c279c6828c5eed1c7c5b1e85be8cb43ee9d0156094f9befb6a22c42615ff2eb91480",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/1ueHOwRz/knowledges-1.20.2-3.0.1-sources.jar",
+          "filename": "knowledges-1.20.2-3.0.1-sources.jar",
+          "primary": false,
+          "size": 114023
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "XUTlQITd",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "2J0dHN7o",
+      "name": "Knowledges 1.1.0 for 1.19.3~1.19.4",
+      "version_number": "1.19.3-v1.1.0",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "96540a093a52784ffbea5d10d592f9a0d86c44a47cd1e0083232a2b406902913a082537f1af5e503983e5e479f8231410f2ee16cd4e7e141fbbf6a8291bd2e3c",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/2J0dHN7o/knowledges-1.19.3-1.1.0.jar",
+          "filename": "knowledges-1.19.3-1.1.0.jar",
+          "primary": true,
+          "size": 353477
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XUTlQITd",
+          "version_id": "q6VoM6zS",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "5Hhb3qE9",
+      "name": "Knowledges 1.1.0 for 1.20~1.20.1",
+      "version_number": "1.20-v1.1.0",
       "game_versions": [
         "1.20",
         "1.20.1"
@@ -18,24 +98,23 @@
       ],
       "files": [
         {
-          "sha512": "e9592349b79e5ad73c4d6896d2cbe764e0e5937b0eaba8490b97fb2e799b5079ee3e0b337096c8e1c441d818c30756cd2cf446096fe278513958b3e8456fd191",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/mA6fTe0s/knowledges-5.1.2-fabric1.20.jar",
-          "filename": "knowledges-5.1.2-fabric1.20.jar",
+          "sha512": "e6a6f11c56dbc426f1a7bf662d6818554b7a4268a5a223fcb2fb9d03454414cdbba4230cd91695f296fa97b94ba103a5f2e567afa42663e255caca293923b169",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/5Hhb3qE9/knowledges-1.20-1.1.0.jar",
+          "filename": "knowledges-1.20-1.1.0.jar",
           "primary": true,
-          "size": 343161
-        },
-        {
-          "sha512": "e68c0912f6aa91520a95933b3ed8910fc8b800aabfe8829b6438ec060ed2730a58f40d36a7ca8e156dcf5c077c21ffec9a392a857329677d1fa9a1c1f9ad590e",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/mA6fTe0s/knowledges-5.1.2-fabric1.20-sources.jar",
-          "filename": "knowledges-5.1.2-fabric1.20-sources.jar",
-          "primary": false,
-          "size": 162987
+          "size": 353496
         }
       ],
       "dependencies": [
         {
+          "project_id": "XUTlQITd",
+          "version_id": "KGOaa4uO",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "P7dR8mSH",
-          "version_id": null,
+          "version_id": "XheZ9iGK",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -70,218 +149,6 @@
         }
       ],
       "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "X7JOaG6N",
-      "name": "Knowledges 5.1.1 for Fabric 1.20.2+",
-      "version_number": "5.1.1-fabric1.20.2",
-      "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "288c4e59da35d4aa452a5d2a8bcb82695d47aa15438cf63614d5d89e105a66c1453a7c57bef562a8ff9574c493febb9859718aa2aa5d1c42c16614eb463b2b6c",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/X7JOaG6N/knowledges-5.1.1-fabric1.20.2.jar",
-          "filename": "knowledges-5.1.1-fabric1.20.2.jar",
-          "primary": true,
-          "size": 343269
-        },
-        {
-          "sha512": "2188d8af1931181dd921f813b90ad3785696cb1b30ecbcfbe05559d0d544c3062f43cca33c5b151c0364dc9c34ba6b9439af233d1df5ca7d88fa65f3f1c48c0c",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/X7JOaG6N/knowledges-5.1.1-fabric1.20.2-sources.jar",
-          "filename": "knowledges-5.1.1-fabric1.20.2-sources.jar",
-          "primary": false,
-          "size": 163036
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "bNqLHffR",
-      "name": "Knowledges 5.1.0 for Fabric 1.20~1.20.1",
-      "version_number": "5.1.0-fabric1.20",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "c2dba61f96606a6fa0193d4cd8161a9ffbe10ba23f1b8636bd613b92ce86b21a2b27cb8681f9d9f3d07f19fc9bc45144740772d038e2d847731b2818d5b4c7e1",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/bNqLHffR/knowledges-5.1.0-fabric1.20.jar",
-          "filename": "knowledges-5.1.0-fabric1.20.jar",
-          "primary": true,
-          "size": 342286
-        },
-        {
-          "sha512": "a8f0046c7501474463fd991b2173eee431b602602e17cdd8b3c20f04c32367672877f90f342fa4001a17203f9d586c09c26fa0d6e0087bf5de16a0373e843a27",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/bNqLHffR/knowledges-5.1.0-fabric1.20-sources.jar",
-          "filename": "knowledges-5.1.0-fabric1.20-sources.jar",
-          "primary": false,
-          "size": 162868
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "NGrvLnTw",
-      "name": "Knowledges 5.1.0 for Fabric 1.20.2+",
-      "version_number": "5.1.0-fabric1.20.2",
-      "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "e9e0dd9bd3940b2450dc278e7ff696bb05f2dd0823b45a4dc61dbaf7aa66e017662b797fdf4526dde1dc62ed8137902af65044346a98113712b53f5dca74cd01",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/NGrvLnTw/knowledges-5.1.0-fabric1.20.2.jar",
-          "filename": "knowledges-5.1.0-fabric1.20.2.jar",
-          "primary": true,
-          "size": 342400
-        },
-        {
-          "sha512": "cfcb32bd7a16aa998c6e39e9f5601761b8f12a3b081490efd6eab3ca92ea9a25d44d7467e30e1ed4ba7d59f04572c1beca94e19686dc03f4164cb9bb2b734463",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/NGrvLnTw/knowledges-5.1.0-fabric1.20.2-sources.jar",
-          "filename": "knowledges-5.1.0-fabric1.20.2-sources.jar",
-          "primary": false,
-          "size": 162921
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "UEniBL87",
-      "name": "Knowledges 5.0.0 for 1.20.2+",
-      "version_number": "5.0.0-mc1.20.2",
-      "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "478d8872d31a5595f8058177a716e2dffc0a076f2040e77f9bbd6bd9da40ead45427f79cd9f172088726312c01b6fc82d3d0de15c3ae4208f326bfaa72937753",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/UEniBL87/knowledges-1.20.2-5.0.0.jar",
-          "filename": "knowledges-1.20.2-5.0.0.jar",
-          "primary": true,
-          "size": 336100
-        },
-        {
-          "sha512": "e1504a6f8f92ba0edb2c6945c945f872fa2ee06c946f373e987b87307fe7d5f2522bf6ae62316099e6887dd7ec2f0bebe4f42ec30516d9efa0f8c3ea4b58cf87",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/UEniBL87/knowledges-1.20.2-5.0.0-sources.jar",
-          "filename": "knowledges-1.20.2-5.0.0-sources.jar",
-          "primary": false,
-          "size": 158692
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "XUTlQITd",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "c57h8TFR",
-      "name": "Knowledges 5.0.0 for 1.20~1.20.1",
-      "version_number": "5.0.0-mc1.20",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d7d449f3679315443ad3425c6e318b854c1128d321cdb5c3c5af4f66847e56e8380845f2f2bd8e164bd25f45759ab534655bb9a7222aaa419196464f18ba90d2",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/c57h8TFR/knowledges-1.20-5.0.0.jar",
-          "filename": "knowledges-1.20-5.0.0.jar",
-          "primary": true,
-          "size": 335991
-        },
-        {
-          "sha512": "b88a1cf49df17f45c304ed2aa824914f3e24f051ecdb5e8ca06a8042bb8bed31e04b9e212c35f293137a0131f86fa98438b9b520304295194e2b895cf7f47010",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/c57h8TFR/knowledges-1.20-5.0.0-sources.jar",
-          "filename": "knowledges-1.20-5.0.0-sources.jar",
-          "primary": false,
-          "size": 158638
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "XUTlQITd",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
@@ -341,9 +208,203 @@
       ]
     },
     {
-      "id": "oWwtMkXf",
-      "name": "Knowledges 4.0.1 for 1.20~1.20.1",
-      "version_number": "4.0.1",
+      "id": "HmZoaWEE",
+      "name": "Knowledges 3.0.2 for 1.20.2+",
+      "version_number": "3.0.2-mc1.20.2",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "bf6eb045d25d5238a7dcb6b94e9ea852c6f4858a5c696517000273d9b1432829183104e917ff61ce008a022c9a79285a9cbe42bdcb5f6784f1e30d50358d2257",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/HmZoaWEE/knowledges-1.20.2-3.0.2.jar",
+          "filename": "knowledges-1.20.2-3.0.2.jar",
+          "primary": true,
+          "size": 248894
+        },
+        {
+          "sha512": "da508956187a2acb1c74fdc40961350c5db115bd15f5832808db54670063be4820545ab26641c54e3c6a650368a5120b1728d4329caa9ec80f760ca6149581cf",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/HmZoaWEE/knowledges-1.20.2-3.0.2-sources.jar",
+          "filename": "knowledges-1.20.2-3.0.2-sources.jar",
+          "primary": false,
+          "size": 114266
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XUTlQITd",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "LFJqWI5k",
+      "name": "Knowledges 1.1.0 for 1.19~1.19.2",
+      "version_number": "1.19-v1.1.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d8598276137aec4636f027709c2054067be6c6f161ac90b9fcd527cf9ba8a8369ef85d09653573cf41fe978cb6e224402484b0b2cd670e3a34209b974e952fce",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/LFJqWI5k/knowledges-1.19-1.1.0.jar",
+          "filename": "knowledges-1.19-1.1.0.jar",
+          "primary": true,
+          "size": 353485
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XUTlQITd",
+          "version_id": "e32V17pl",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "LoDkCOc8",
+      "name": "Knowledges 2.0.0 for 1.20.x",
+      "version_number": "2.0.0-mc1.20",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "cfffbaefa82defcee1db1c5c376f4f773de9e1c77f56f2ae5d80e8fa37e130a47e245d285b5ad17af75f284054666dd4c94f8212d9e70eba03430bd8f1ac9a80",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/LoDkCOc8/knowledges-1.20-2.0.0.jar",
+          "filename": "knowledges-1.20-2.0.0.jar",
+          "primary": true,
+          "size": 110841
+        },
+        {
+          "sha512": "34206d312044122c02a4e26e6d85823393ee6cc2f82ca49fa02c8810ffcff8be6d10f50c3651c177c18aa096103e449f65e1546bbee64e3a185e3a8fb9f645d0",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/LoDkCOc8/knowledges-1.20-2.0.0-sources.jar",
+          "filename": "knowledges-1.20-2.0.0-sources.jar",
+          "primary": false,
+          "size": 61574
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XUTlQITd",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "NGrvLnTw",
+      "name": "Knowledges 5.1.0 for Fabric 1.20.2+",
+      "version_number": "5.1.0-fabric1.20.2",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "e9e0dd9bd3940b2450dc278e7ff696bb05f2dd0823b45a4dc61dbaf7aa66e017662b797fdf4526dde1dc62ed8137902af65044346a98113712b53f5dca74cd01",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/NGrvLnTw/knowledges-5.1.0-fabric1.20.2.jar",
+          "filename": "knowledges-5.1.0-fabric1.20.2.jar",
+          "primary": true,
+          "size": 342400
+        },
+        {
+          "sha512": "cfcb32bd7a16aa998c6e39e9f5601761b8f12a3b081490efd6eab3ca92ea9a25d44d7467e30e1ed4ba7d59f04572c1beca94e19686dc03f4164cb9bb2b734463",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/NGrvLnTw/knowledges-5.1.0-fabric1.20.2-sources.jar",
+          "filename": "knowledges-5.1.0-fabric1.20.2-sources.jar",
+          "primary": false,
+          "size": 162921
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "Tz5ciSkL",
+      "name": "Knowledges 1.1.0 for 1.18~1.18.2",
+      "version_number": "1.18-v1.1.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "84596c3d92fa907139f64b533c7407aaa161aa2a5703b76578f1cd3ca2a20d99f44c5b06c17739263ed77abecd6336baf16c68dcffbdc4e176ee5184757c3b1d",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/Tz5ciSkL/knowledges-1.18-1.1.0.jar",
+          "filename": "knowledges-1.18-1.1.0.jar",
+          "primary": true,
+          "size": 353461
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XUTlQITd",
+          "version_id": "7yhIAm3o",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "U5lQ0YwG",
+      "name": "Knowledges 4.0.0 for 1.20~1.20.1",
+      "version_number": "4.0.0-mc1.20",
       "game_versions": [
         "1.20",
         "1.20.1"
@@ -354,18 +415,18 @@
       ],
       "files": [
         {
-          "sha512": "628677385bcb1b4a838bc0bef14577ee018d8cef8eb163bd2faea306ecfe4df0e2be40151fd79d03ad126b0f973626e0e66fb0aa0b55e957dfdfdaa9d028542c",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/oWwtMkXf/knowledges-1.20-4.0.1.jar",
-          "filename": "knowledges-1.20-4.0.1.jar",
+          "sha512": "832416bd4530b9bfcea7e3f3b4e48d9825f277bdb6380a80c2bcdb1424cff5375ad8ccf3ebdba474824c4cbc333919c7019bc2041d042637862de825622a94ff",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/U5lQ0YwG/knowledges-1.20-4.0.0.jar",
+          "filename": "knowledges-1.20-4.0.0.jar",
           "primary": true,
-          "size": 228890
+          "size": 228624
         },
         {
-          "sha512": "98e331b69f544b6f30192becbf96b2de80c5846ac44338c8b2f2c7c55841efc8cc1a1badf7120e01b2f7c333720da24101efdfb61aacb22b56ce5b3c69bf79f2",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/oWwtMkXf/knowledges-1.20-4.0.1-sources.jar",
-          "filename": "knowledges-1.20-4.0.1-sources.jar",
+          "sha512": "de4cb45134394ab19f94b9faeb26eca413cbae59574f4a8c7a30b0c00f426cb31e72890ea170e17d4aff6929d0a077790190309421a10881aa9821e3090ad972",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/U5lQ0YwG/knowledges-1.20-4.0.0-sources.jar",
+          "filename": "knowledges-1.20-4.0.0-sources.jar",
           "primary": false,
-          "size": 111679
+          "size": 111578
         }
       ],
       "dependencies": [
@@ -384,6 +445,326 @@
         {
           "project_id": "9s6osm5g",
           "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "UEniBL87",
+      "name": "Knowledges 5.0.0 for 1.20.2+",
+      "version_number": "5.0.0-mc1.20.2",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "478d8872d31a5595f8058177a716e2dffc0a076f2040e77f9bbd6bd9da40ead45427f79cd9f172088726312c01b6fc82d3d0de15c3ae4208f326bfaa72937753",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/UEniBL87/knowledges-1.20.2-5.0.0.jar",
+          "filename": "knowledges-1.20.2-5.0.0.jar",
+          "primary": true,
+          "size": 336100
+        },
+        {
+          "sha512": "e1504a6f8f92ba0edb2c6945c945f872fa2ee06c946f373e987b87307fe7d5f2522bf6ae62316099e6887dd7ec2f0bebe4f42ec30516d9efa0f8c3ea4b58cf87",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/UEniBL87/knowledges-1.20.2-5.0.0-sources.jar",
+          "filename": "knowledges-1.20.2-5.0.0-sources.jar",
+          "primary": false,
+          "size": 158692
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "XUTlQITd",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "WhxKgp86",
+      "name": "Knowledges 1.2.0 for 1.19~1.19.2",
+      "version_number": "1.19-v1.2.0",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "3a28f257997cefe393c1c5ec08b2be09bdbcfd8abbcb10bd54fb11c82e76f8e41e5c3b78a46cbbe45f44f0bb7aea1647b91e6f72034c822fda30676bfc06a80a",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/WhxKgp86/knowledges-1.19-1.2.0.jar",
+          "filename": "knowledges-1.19-1.2.0.jar",
+          "primary": true,
+          "size": 353485
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XUTlQITd",
+          "version_id": "e32V17pl",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "X7JOaG6N",
+      "name": "Knowledges 5.1.1 for Fabric 1.20.2+",
+      "version_number": "5.1.1-fabric1.20.2",
+      "game_versions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "288c4e59da35d4aa452a5d2a8bcb82695d47aa15438cf63614d5d89e105a66c1453a7c57bef562a8ff9574c493febb9859718aa2aa5d1c42c16614eb463b2b6c",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/X7JOaG6N/knowledges-5.1.1-fabric1.20.2.jar",
+          "filename": "knowledges-5.1.1-fabric1.20.2.jar",
+          "primary": true,
+          "size": 343269
+        },
+        {
+          "sha512": "2188d8af1931181dd921f813b90ad3785696cb1b30ecbcfbe05559d0d544c3062f43cca33c5b151c0364dc9c34ba6b9439af233d1df5ca7d88fa65f3f1c48c0c",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/X7JOaG6N/knowledges-5.1.1-fabric1.20.2-sources.jar",
+          "filename": "knowledges-5.1.1-fabric1.20.2-sources.jar",
+          "primary": false,
+          "size": 163036
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "azTLnF4f",
+      "name": "Knowledges 1.2.0 for 1.20~1.20.1",
+      "version_number": "1.20-v1.2.0",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "12cd401cec97c0beda808d6f876850d853f6cefc4ef462e7ded6e4c04e60b1add1c87cf802e2d81049c1b94ff6661992aba62733ae12fd297949d14368807f4a",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/azTLnF4f/knowledges-1.20-1.2.0.jar",
+          "filename": "knowledges-1.20-1.2.0.jar",
+          "primary": true,
+          "size": 353493
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XUTlQITd",
+          "version_id": "KGOaa4uO",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "bNqLHffR",
+      "name": "Knowledges 5.1.0 for Fabric 1.20~1.20.1",
+      "version_number": "5.1.0-fabric1.20",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c2dba61f96606a6fa0193d4cd8161a9ffbe10ba23f1b8636bd613b92ce86b21a2b27cb8681f9d9f3d07f19fc9bc45144740772d038e2d847731b2818d5b4c7e1",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/bNqLHffR/knowledges-5.1.0-fabric1.20.jar",
+          "filename": "knowledges-5.1.0-fabric1.20.jar",
+          "primary": true,
+          "size": 342286
+        },
+        {
+          "sha512": "a8f0046c7501474463fd991b2173eee431b602602e17cdd8b3c20f04c32367672877f90f342fa4001a17203f9d586c09c26fa0d6e0087bf5de16a0373e843a27",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/bNqLHffR/knowledges-5.1.0-fabric1.20-sources.jar",
+          "filename": "knowledges-5.1.0-fabric1.20-sources.jar",
+          "primary": false,
+          "size": 162868
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "c57h8TFR",
+      "name": "Knowledges 5.0.0 for 1.20~1.20.1",
+      "version_number": "5.0.0-mc1.20",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d7d449f3679315443ad3425c6e318b854c1128d321cdb5c3c5af4f66847e56e8380845f2f2bd8e164bd25f45759ab534655bb9a7222aaa419196464f18ba90d2",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/c57h8TFR/knowledges-1.20-5.0.0.jar",
+          "filename": "knowledges-1.20-5.0.0.jar",
+          "primary": true,
+          "size": 335991
+        },
+        {
+          "sha512": "b88a1cf49df17f45c304ed2aa824914f3e24f051ecdb5e8ca06a8042bb8bed31e04b9e212c35f293137a0131f86fa98438b9b520304295194e2b895cf7f47010",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/c57h8TFR/knowledges-1.20-5.0.0-sources.jar",
+          "filename": "knowledges-1.20-5.0.0-sources.jar",
+          "primary": false,
+          "size": 158638
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "XUTlQITd",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "cOdmDeXA",
+      "name": "Knowledges 1.2.1 for 1.20~1.20.1",
+      "version_number": "1.20-v1.2.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c65c03bf798557a6bb1894f3925b9cfb64bbf477e5533214e81d7eda8ec9b811f264918ed2973d5c173f87314b23d85bae678f6f3b9377681a9da67f1fe65e35",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/cOdmDeXA/knowledges-1.20-1.2.1.jar",
+          "filename": "knowledges-1.20-1.2.1.jar",
+          "primary": true,
+          "size": 770841
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XUTlQITd",
+          "version_id": "KGOaa4uO",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ezfJAw0S",
+      "name": "Knowledges 1.2.1 for 1.19~1.19.2",
+      "version_number": "1.19-v1.2.1",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "2346747d7650d76792fbd3a4d85d645bae48d88b4394b206515cfeb39d7c37daff36372857929452df952c267e874cf6419b4e35146800b56f30566e42e2b9fd",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/ezfJAw0S/knowledges-1.19-1.2.1.jar",
+          "filename": "knowledges-1.19-1.2.1.jar",
+          "primary": true,
+          "size": 770832
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XUTlQITd",
+          "version_id": "e32V17pl",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -440,12 +821,13 @@
       ]
     },
     {
-      "id": "U5lQ0YwG",
-      "name": "Knowledges 4.0.0 for 1.20~1.20.1",
-      "version_number": "4.0.0-mc1.20",
+      "id": "ibzQh8LY",
+      "name": "Knowledges 1.2.0 for 1.18~1.18.2",
+      "version_number": "1.18-v1.2.0",
       "game_versions": [
-        "1.20",
-        "1.20.1"
+        "1.18",
+        "1.18.1",
+        "1.18.2"
       ],
       "loaders": [
         "fabric",
@@ -453,167 +835,23 @@
       ],
       "files": [
         {
-          "sha512": "832416bd4530b9bfcea7e3f3b4e48d9825f277bdb6380a80c2bcdb1424cff5375ad8ccf3ebdba474824c4cbc333919c7019bc2041d042637862de825622a94ff",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/U5lQ0YwG/knowledges-1.20-4.0.0.jar",
-          "filename": "knowledges-1.20-4.0.0.jar",
+          "sha512": "f0a51d2c4a2eabc5b011484aebbfe935f800ea31341eeedbc4d914ef1b8442cc1f8a190d551fe82bad8002e035ed8535f21208c4902c5e3833510dd7d252e326",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/ibzQh8LY/knowledges-1.18-1.2.0.jar",
+          "filename": "knowledges-1.18-1.2.0.jar",
           "primary": true,
-          "size": 228624
-        },
-        {
-          "sha512": "de4cb45134394ab19f94b9faeb26eca413cbae59574f4a8c7a30b0c00f426cb31e72890ea170e17d4aff6929d0a077790190309421a10881aa9821e3090ad972",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/U5lQ0YwG/knowledges-1.20-4.0.0-sources.jar",
-          "filename": "knowledges-1.20-4.0.0-sources.jar",
-          "primary": false,
-          "size": 111578
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "XUTlQITd",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "tcSv1klE",
-      "name": "Knowledges 3.0.2 for 1.20~1.20.1",
-      "version_number": "3.0.2-mc1.20",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "cd37671214fc6003ebfeba49bcd59aff07841e1aa5b0eb5cf524e6d2150266b422be9e259aa99fadc89ed018bc7ebd4122ccbb950cfe068238bcb7b9f07e87ac",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/tcSv1klE/knowledges-1.20-3.0.2.jar",
-          "filename": "knowledges-1.20-3.0.2.jar",
-          "primary": true,
-          "size": 249481
-        },
-        {
-          "sha512": "9323b5cd3b71a6889e033f2c51a3a55a2c677694407c41aa64ecae9fd48ef8c6a593257ada84a7553eccc30a2b14c2f43c6848b16154a4f782af597332467b59",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/tcSv1klE/knowledges-1.20-3.0.2-sources.jar",
-          "filename": "knowledges-1.20-3.0.2-sources.jar",
-          "primary": false,
-          "size": 114234
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "XUTlQITd",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "HmZoaWEE",
-      "name": "Knowledges 3.0.2 for 1.20.2+",
-      "version_number": "3.0.2-mc1.20.2",
-      "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "bf6eb045d25d5238a7dcb6b94e9ea852c6f4858a5c696517000273d9b1432829183104e917ff61ce008a022c9a79285a9cbe42bdcb5f6784f1e30d50358d2257",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/HmZoaWEE/knowledges-1.20.2-3.0.2.jar",
-          "filename": "knowledges-1.20.2-3.0.2.jar",
-          "primary": true,
-          "size": 248894
-        },
-        {
-          "sha512": "da508956187a2acb1c74fdc40961350c5db115bd15f5832808db54670063be4820545ab26641c54e3c6a650368a5120b1728d4329caa9ec80f760ca6149581cf",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/HmZoaWEE/knowledges-1.20.2-3.0.2-sources.jar",
-          "filename": "knowledges-1.20.2-3.0.2-sources.jar",
-          "primary": false,
-          "size": 114266
+          "size": 353460
         }
       ],
       "dependencies": [
         {
           "project_id": "XUTlQITd",
-          "version_id": null,
+          "version_id": "7yhIAm3o",
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "1ueHOwRz",
-      "name": "Knowledges 3.0.1 for 1.20.2+",
-      "version_number": "3.0.1-mc1.20.2",
-      "game_versions": [
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "800eb4699e53eb19b96b0aecff3071ee6fa7b9670ab76269d6dea57453962b699b410185c95c7bde2a3e1f8d3a841fb4eb1ba56f25e766d234e9c8f203e7919d",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/1ueHOwRz/knowledges-1.20.2-3.0.1.jar",
-          "filename": "knowledges-1.20.2-3.0.1.jar",
-          "primary": true,
-          "size": 248641
-        },
-        {
-          "sha512": "44b7a3e18bfde6779de1c7a9759540ba54b5b4837925f19cc790eb644167c279c6828c5eed1c7c5b1e85be8cb43ee9d0156094f9befb6a22c42615ff2eb91480",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/1ueHOwRz/knowledges-1.20.2-3.0.1-sources.jar",
-          "filename": "knowledges-1.20.2-3.0.1-sources.jar",
-          "primary": false,
-          "size": 114023
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "XUTlQITd",
-          "version_id": null,
+          "version_id": "95QMsRyb",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -664,53 +902,9 @@
       ]
     },
     {
-      "id": "LoDkCOc8",
-      "name": "Knowledges 2.0.0 for 1.20.x",
-      "version_number": "2.0.0-mc1.20",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "cfffbaefa82defcee1db1c5c376f4f773de9e1c77f56f2ae5d80e8fa37e130a47e245d285b5ad17af75f284054666dd4c94f8212d9e70eba03430bd8f1ac9a80",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/LoDkCOc8/knowledges-1.20-2.0.0.jar",
-          "filename": "knowledges-1.20-2.0.0.jar",
-          "primary": true,
-          "size": 110841
-        },
-        {
-          "sha512": "34206d312044122c02a4e26e6d85823393ee6cc2f82ca49fa02c8810ffcff8be6d10f50c3651c177c18aa096103e449f65e1546bbee64e3a185e3a8fb9f645d0",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/LoDkCOc8/knowledges-1.20-2.0.0-sources.jar",
-          "filename": "knowledges-1.20-2.0.0-sources.jar",
-          "primary": false,
-          "size": 61574
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "XUTlQITd",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "cOdmDeXA",
-      "name": "Knowledges 1.2.1 for 1.20~1.20.1",
-      "version_number": "1.20-v1.2.1",
+      "id": "mA6fTe0s",
+      "name": "Knowledges 5.1.2 for Fabric 1.20~1.20.1",
+      "version_number": "5.1.2-fabric1.20",
       "game_versions": [
         "1.20",
         "1.20.1"
@@ -721,35 +915,36 @@
       ],
       "files": [
         {
-          "sha512": "c65c03bf798557a6bb1894f3925b9cfb64bbf477e5533214e81d7eda8ec9b811f264918ed2973d5c173f87314b23d85bae678f6f3b9377681a9da67f1fe65e35",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/cOdmDeXA/knowledges-1.20-1.2.1.jar",
-          "filename": "knowledges-1.20-1.2.1.jar",
+          "sha512": "e9592349b79e5ad73c4d6896d2cbe764e0e5937b0eaba8490b97fb2e799b5079ee3e0b337096c8e1c441d818c30756cd2cf446096fe278513958b3e8456fd191",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/mA6fTe0s/knowledges-5.1.2-fabric1.20.jar",
+          "filename": "knowledges-5.1.2-fabric1.20.jar",
           "primary": true,
-          "size": 770841
+          "size": 343161
+        },
+        {
+          "sha512": "e68c0912f6aa91520a95933b3ed8910fc8b800aabfe8829b6438ec060ed2730a58f40d36a7ca8e156dcf5c077c21ffec9a392a857329677d1fa9a1c1f9ad590e",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/mA6fTe0s/knowledges-5.1.2-fabric1.20-sources.jar",
+          "filename": "knowledges-5.1.2-fabric1.20-sources.jar",
+          "primary": false,
+          "size": 162987
         }
       ],
       "dependencies": [
         {
           "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "XUTlQITd",
-          "version_id": "KGOaa4uO",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "u4iFsBDg",
-      "name": "Knowledges 1.2.1 for 1.19.3~1.19.4",
-      "version_number": "1.19.3-v1.2.1",
+      "id": "oWwtMkXf",
+      "name": "Knowledges 4.0.1 for 1.20~1.20.1",
+      "version_number": "4.0.1",
       "game_versions": [
-        "1.19.3",
-        "1.19.4"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "fabric",
@@ -757,60 +952,36 @@
       ],
       "files": [
         {
-          "sha512": "1d71b4cb250b15af53a186527b3d72edded30d848f51e9b11a79350bfc5baf5b8cf3cfe9d5690d2e568c2bb20d0913d5649e41eb4b3d1362dfd0dd086af4e463",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/u4iFsBDg/knowledges-1.19.3-1.2.1.jar",
-          "filename": "knowledges-1.19.3-1.2.1.jar",
+          "sha512": "628677385bcb1b4a838bc0bef14577ee018d8cef8eb163bd2faea306ecfe4df0e2be40151fd79d03ad126b0f973626e0e66fb0aa0b55e957dfdfdaa9d028542c",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/oWwtMkXf/knowledges-1.20-4.0.1.jar",
+          "filename": "knowledges-1.20-4.0.1.jar",
           "primary": true,
-          "size": 770824
+          "size": 228890
+        },
+        {
+          "sha512": "98e331b69f544b6f30192becbf96b2de80c5846ac44338c8b2f2c7c55841efc8cc1a1badf7120e01b2f7c333720da24101efdfb61aacb22b56ce5b3c69bf79f2",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/oWwtMkXf/knowledges-1.20-4.0.1-sources.jar",
+          "filename": "knowledges-1.20-4.0.1-sources.jar",
+          "primary": false,
+          "size": 111679
         }
       ],
       "dependencies": [
         {
-          "project_id": "XUTlQITd",
-          "version_id": "q6VoM6zS",
+          "project_id": "P7dR8mSH",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ezfJAw0S",
-      "name": "Knowledges 1.2.1 for 1.19~1.19.2",
-      "version_number": "1.19-v1.2.1",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "2346747d7650d76792fbd3a4d85d645bae48d88b4394b206515cfeb39d7c37daff36372857929452df952c267e874cf6419b4e35146800b56f30566e42e2b9fd",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/ezfJAw0S/knowledges-1.19-1.2.1.jar",
-          "filename": "knowledges-1.19-1.2.1.jar",
-          "primary": true,
-          "size": 770832
-        }
-      ],
-      "dependencies": [
-        {
           "project_id": "XUTlQITd",
-          "version_id": "e32V17pl",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
+          "project_id": "9s6osm5g",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -854,9 +1025,9 @@
       ]
     },
     {
-      "id": "azTLnF4f",
-      "name": "Knowledges 1.2.0 for 1.20~1.20.1",
-      "version_number": "1.20-v1.2.0",
+      "id": "tcSv1klE",
+      "name": "Knowledges 3.0.2 for 1.20~1.20.1",
+      "version_number": "3.0.2-mc1.20",
       "game_versions": [
         "1.20",
         "1.20.1"
@@ -867,23 +1038,66 @@
       ],
       "files": [
         {
-          "sha512": "12cd401cec97c0beda808d6f876850d853f6cefc4ef462e7ded6e4c04e60b1add1c87cf802e2d81049c1b94ff6661992aba62733ae12fd297949d14368807f4a",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/azTLnF4f/knowledges-1.20-1.2.0.jar",
-          "filename": "knowledges-1.20-1.2.0.jar",
+          "sha512": "cd37671214fc6003ebfeba49bcd59aff07841e1aa5b0eb5cf524e6d2150266b422be9e259aa99fadc89ed018bc7ebd4122ccbb950cfe068238bcb7b9f07e87ac",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/tcSv1klE/knowledges-1.20-3.0.2.jar",
+          "filename": "knowledges-1.20-3.0.2.jar",
           "primary": true,
-          "size": 353493
+          "size": 249481
+        },
+        {
+          "sha512": "9323b5cd3b71a6889e033f2c51a3a55a2c677694407c41aa64ecae9fd48ef8c6a593257ada84a7553eccc30a2b14c2f43c6848b16154a4f782af597332467b59",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/tcSv1klE/knowledges-1.20-3.0.2-sources.jar",
+          "filename": "knowledges-1.20-3.0.2-sources.jar",
+          "primary": false,
+          "size": 114234
         }
       ],
       "dependencies": [
         {
           "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
           "project_id": "XUTlQITd",
-          "version_id": "KGOaa4uO",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "u4iFsBDg",
+      "name": "Knowledges 1.2.1 for 1.19.3~1.19.4",
+      "version_number": "1.19.3-v1.2.1",
+      "game_versions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "1d71b4cb250b15af53a186527b3d72edded30d848f51e9b11a79350bfc5baf5b8cf3cfe9d5690d2e568c2bb20d0913d5649e41eb4b3d1362dfd0dd086af4e463",
+          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/u4iFsBDg/knowledges-1.19.3-1.2.1.jar",
+          "filename": "knowledges-1.19.3-1.2.1.jar",
+          "primary": true,
+          "size": 770824
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XUTlQITd",
+          "version_id": "q6VoM6zS",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -920,220 +1134,6 @@
         {
           "project_id": "P7dR8mSH",
           "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "WhxKgp86",
-      "name": "Knowledges 1.2.0 for 1.19~1.19.2",
-      "version_number": "1.19-v1.2.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "3a28f257997cefe393c1c5ec08b2be09bdbcfd8abbcb10bd54fb11c82e76f8e41e5c3b78a46cbbe45f44f0bb7aea1647b91e6f72034c822fda30676bfc06a80a",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/WhxKgp86/knowledges-1.19-1.2.0.jar",
-          "filename": "knowledges-1.19-1.2.0.jar",
-          "primary": true,
-          "size": 353485
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "XUTlQITd",
-          "version_id": "e32V17pl",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ibzQh8LY",
-      "name": "Knowledges 1.2.0 for 1.18~1.18.2",
-      "version_number": "1.18-v1.2.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "f0a51d2c4a2eabc5b011484aebbfe935f800ea31341eeedbc4d914ef1b8442cc1f8a190d551fe82bad8002e035ed8535f21208c4902c5e3833510dd7d252e326",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/ibzQh8LY/knowledges-1.18-1.2.0.jar",
-          "filename": "knowledges-1.18-1.2.0.jar",
-          "primary": true,
-          "size": 353460
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "95QMsRyb",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "XUTlQITd",
-          "version_id": "7yhIAm3o",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "5Hhb3qE9",
-      "name": "Knowledges 1.1.0 for 1.20~1.20.1",
-      "version_number": "1.20-v1.1.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "e6a6f11c56dbc426f1a7bf662d6818554b7a4268a5a223fcb2fb9d03454414cdbba4230cd91695f296fa97b94ba103a5f2e567afa42663e255caca293923b169",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/5Hhb3qE9/knowledges-1.20-1.1.0.jar",
-          "filename": "knowledges-1.20-1.1.0.jar",
-          "primary": true,
-          "size": 353496
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "XUTlQITd",
-          "version_id": "KGOaa4uO",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "2J0dHN7o",
-      "name": "Knowledges 1.1.0 for 1.19.3~1.19.4",
-      "version_number": "1.19.3-v1.1.0",
-      "game_versions": [
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "96540a093a52784ffbea5d10d592f9a0d86c44a47cd1e0083232a2b406902913a082537f1af5e503983e5e479f8231410f2ee16cd4e7e141fbbf6a8291bd2e3c",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/2J0dHN7o/knowledges-1.19.3-1.1.0.jar",
-          "filename": "knowledges-1.19.3-1.1.0.jar",
-          "primary": true,
-          "size": 353477
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "XUTlQITd",
-          "version_id": "q6VoM6zS",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "LFJqWI5k",
-      "name": "Knowledges 1.1.0 for 1.19~1.19.2",
-      "version_number": "1.19-v1.1.0",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d8598276137aec4636f027709c2054067be6c6f161ac90b9fcd527cf9ba8a8369ef85d09653573cf41fe978cb6e224402484b0b2cd670e3a34209b974e952fce",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/LFJqWI5k/knowledges-1.19-1.1.0.jar",
-          "filename": "knowledges-1.19-1.1.0.jar",
-          "primary": true,
-          "size": 353485
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "XUTlQITd",
-          "version_id": "e32V17pl",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Tz5ciSkL",
-      "name": "Knowledges 1.1.0 for 1.18~1.18.2",
-      "version_number": "1.18-v1.1.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "84596c3d92fa907139f64b533c7407aaa161aa2a5703b76578f1cd3ca2a20d99f44c5b06c17739263ed77abecd6336baf16c68dcffbdc4e176ee5184757c3b1d",
-          "url": "https://cdn.modrinth.com/data/kdZNMv3G/versions/Tz5ciSkL/knowledges-1.18-1.1.0.jar",
-          "filename": "knowledges-1.18-1.1.0.jar",
-          "primary": true,
-          "size": 353461
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "XUTlQITd",
-          "version_id": "7yhIAm3o",
           "file_name": null,
           "dependency_type": "required"
         }

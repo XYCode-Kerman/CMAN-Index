@@ -5,6 +5,62 @@
   "description": "Fancy and simplistic biomes and structures!",
   "versions": [
     {
+      "id": "2Q2TY7VB",
+      "name": "Promenade",
+      "version_number": "2.3.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2f597066672e5ef4532de10e62f7bd46bc11b9d24cda2689fd4445e6ea1583d8137358c2d1e49e2a9fb24a9996efdfe9ee1342416b20b557c33856b2dde793d3",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.3.0/promenade-2.3.0.jar",
+          "filename": "promenade-2.3.0.jar",
+          "primary": false,
+          "size": 899143
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "6tKTgY0S",
+      "name": "Promenade",
+      "version_number": "2.6.3",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "b1a898e03df3b12b490a5b805ecbc1093fb18691aede2f4f984373f8407271cecbfd583ef921a392a846f8704550e2de34f3a89fbf6b353da75c88d955f3da79",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.6.3/promenade-2.6.3.jar",
+          "filename": "promenade-2.6.3.jar",
+          "primary": true,
+          "size": 966604
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "AnCs0z08",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "meZK2DCX",
+          "version_id": "rJ2vYNjm",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
       "id": "A5YD9uS3",
       "name": "Promenade v4.1.1",
       "version_number": "v4.1.1",
@@ -79,6 +135,30 @@
       ]
     },
     {
+      "id": "AnQZPALY",
+      "name": "Wild Explorer v1.3.2",
+      "version_number": "1.3.2",
+      "game_versions": [
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2b20b2a549d015b31ea02a363689a0c5cbfe5f94da6191df5743f46bd6a6bd858821f3b289e30bf1dd94fe47a84310ad6db759998fe79aa11a1b6455c02af9cf",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/1.3.2/wild_explorer-1.3.2.jar",
+          "filename": "wild_explorer-1.3.2.jar",
+          "primary": false,
+          "size": 724587
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "F17sFUaS",
       "name": "Promenade v4.1.0",
       "version_number": "v4.1.0",
@@ -108,22 +188,22 @@
       ],
       "dependencies": [
         {
-          "project_id": "4WJZr8JU",
-          "version_id": "xwi1gDNI",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "s7VTKfLA",
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
           "project_id": "EsAfCjCV",
           "version_id": "CxnVG86Y",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "meZK2DCX",
+          "version_id": "J6b05anw",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "iGEl6Crx",
+          "version_id": "M0deDjZf",
+          "file_name": null,
+          "dependency_type": "embedded"
         },
         {
           "project_id": "P7dR8mSH",
@@ -138,18 +218,87 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "iGEl6Crx",
-          "version_id": "M0deDjZf",
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
           "file_name": null,
           "dependency_type": "embedded"
         },
         {
-          "project_id": "meZK2DCX",
-          "version_id": "J6b05anw",
+          "project_id": "4WJZr8JU",
+          "version_id": "xwi1gDNI",
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "optional"
         }
       ]
+    },
+    {
+      "id": "FW8Jsy6b",
+      "name": "Wild Explorer v1.3.1",
+      "version_number": "v1.3.1",
+      "game_versions": [
+        "1.16.2",
+        "1.16.3",
+        "1.16.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "6a53892f3b7467e65ee3576591a7557733ad1a945598e036c3315f7faef3a5bb2d010784f92b5b21961e52c7f8e09c46fc4e5478d616d6e051849d8af168442e",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/v1.3.1/wild_explorer-1.3.1.jar",
+          "filename": "wild_explorer-1.3.1.jar",
+          "primary": false,
+          "size": 712877
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "HEsCyy9Y",
+      "name": "Promenade",
+      "version_number": "2.2.1",
+      "game_versions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "f829e6a3d08b5920f59bde98ed3c545ba274c9383f6babd56571d6337c050f46c3dc19e93173b95d75617ea5fee515c5f0a10245c1475231cf2c48635427e892",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.2.1/promenade-2.2.1.jar",
+          "filename": "promenade-2.2.1.jar",
+          "primary": false,
+          "size": 888082
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "J3w72Yuv",
+      "name": "Promenade",
+      "version_number": "2.0",
+      "game_versions": [
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "2c4d6b2dc1e83386b8b5f066452a24eeaf94293bf49debafe0d06d87a21c2b97e1200ac7b2047ff3331bb2c19344744064e1d4d072b8e212452dc60013b3f521",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.0/promenade-2.0.jar",
+          "filename": "promenade-2.0.jar",
+          "primary": true,
+          "size": 725130
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "LuXqUsc6",
@@ -187,10 +336,10 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "4WJZr8JU",
-          "version_id": "xwi1gDNI",
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
           "file_name": null,
-          "dependency_type": "optional"
+          "dependency_type": "required"
         },
         {
           "project_id": "RllgGJib",
@@ -205,98 +354,16 @@
           "dependency_type": "required"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "9s6osm5g",
           "version_id": "s7VTKfLA",
           "file_name": null,
           "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "yzCPompk",
-      "name": "Promenade",
-      "version_number": "3.2.0",
-      "game_versions": [
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "126aee711d4df83f21e871a247afd5ab78e2e5fb8603a050f3a200f58aec395a6ca947f36619f264b364ec0aca8ff6e329445eb3f42914cf63b45bd81763a299",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/yzCPompk/promenade-3.2.0.jar",
-          "filename": "promenade-3.2.0.jar",
-          "primary": true,
-          "size": 4097839
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "meZK2DCX",
-          "version_id": "lna7Bzt5",
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "4WJZr8JU",
-          "version_id": "xDJ4jWwl",
+          "version_id": "xwi1gDNI",
           "file_name": null,
           "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "obpRw4SX",
-      "name": "Promenade",
-      "version_number": "3.1.0",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "c2c86febb6a12bc383fe27eb17057649b0cd847d830b444c90da42e5a46f0a43bdad9051f699b3f4c0b9f93119617c6d91a3bd2dbc08dcc76113aca2376a1652",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/obpRw4SX/promenade-3.1.0.jar",
-          "filename": "promenade-3.1.0.jar",
-          "primary": true,
-          "size": 4097796
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "meZK2DCX",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "4WJZr8JU",
-          "version_id": "AuLUFZYK",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
@@ -327,87 +394,39 @@
           "dependency_type": "optional"
         },
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "jyKnHEDY",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "meZK2DCX",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "WdDbZItz",
-      "name": "Promenade",
-      "version_number": "3.0.0",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "078f68ec8132531dad1c861cf16051832da0af2b4bbc104ee292a60a415c0f6e1579de864f3ac81bc9df3e9fb25e24a9a48827f5749c5687ab372bae63bd1fb8",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/WdDbZItz/promenade-3.0.0.jar",
-          "filename": "promenade-3.0.0.jar",
-          "primary": true,
-          "size": 2359807
-        }
-      ],
-      "dependencies": [
+        },
         {
           "project_id": "P7dR8mSH",
           "version_id": "jyKnHEDY",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "meZK2DCX",
-          "version_id": "LZIVk6xR",
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "uZy48sdY",
+      "id": "Q9K8W0g7",
       "name": "Promenade",
-      "version_number": "2.7.1",
+      "version_number": "2.1.1",
       "game_versions": [
-        "1.19",
-        "1.19.2"
+        "1.17"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "c9893939b8dce91102af107cc4fcf69306e35531b0d3972e13138f56c5561d053715650fb6bbbb44dbb5b586d16704e589a55bd0826aa0f2abe79110c53dd151",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.7.1/promenade-2.7.1.jar",
-          "filename": "promenade-2.7.1.jar",
+          "sha512": "edca111f93d54f5a36963c028d0a79fea9ce8c5850a8d9c3b5f58e6e93f6bbf26dd06f26767bc95a191bbd277992f45e0b8e25e05cb3db92fb95ddb066ac57c5",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.1.1/promenade-2.1.1.jar",
+          "filename": "promenade-2.1.1.jar",
           "primary": true,
-          "size": 1062671
+          "size": 698347
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "hfsU4hXq",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "meZK2DCX",
-          "version_id": "YdQQ22Uv",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
+      "dependencies": []
     },
     {
       "id": "Vq0PJiim",
@@ -444,9 +463,67 @@
       ]
     },
     {
-      "id": "6tKTgY0S",
+      "id": "WP8At0cA",
+      "name": "Wild Explorer v1.3.3",
+      "version_number": "1.3.3",
+      "game_versions": [
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a7b7cba1c0b8142239b6e52e831224e47f0423e9d5270e999e67edef92b9b5af205bab134f1a21f0ebfce208703b32b6248784857743b26c69e223c42af0fd2f",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/1.3.3/wild_explorer-1.3.3.jar",
+          "filename": "wild_explorer-1.3.3.jar",
+          "primary": false,
+          "size": 725512
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "WdDbZItz",
       "name": "Promenade",
-      "version_number": "2.6.3",
+      "version_number": "3.0.0",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "078f68ec8132531dad1c861cf16051832da0af2b4bbc104ee292a60a415c0f6e1579de864f3ac81bc9df3e9fb25e24a9a48827f5749c5687ab372bae63bd1fb8",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/WdDbZItz/promenade-3.0.0.jar",
+          "filename": "promenade-3.0.0.jar",
+          "primary": true,
+          "size": 2359807
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "meZK2DCX",
+          "version_id": "LZIVk6xR",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "aTBxN7qz",
+      "name": "Promenade",
+      "version_number": "2.6.0",
       "game_versions": [
         "1.18.2"
       ],
@@ -455,23 +532,216 @@
       ],
       "files": [
         {
-          "sha512": "b1a898e03df3b12b490a5b805ecbc1093fb18691aede2f4f984373f8407271cecbfd583ef921a392a846f8704550e2de34f3a89fbf6b353da75c88d955f3da79",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.6.3/promenade-2.6.3.jar",
-          "filename": "promenade-2.6.3.jar",
+          "sha512": "5d2253b692f1533c2246f7f54bfd13e9b8a8020a7aa7625942840c7026fcfa1ccf602fe986dee85ed667d3a5350a1b60f75b4fc041296cbd81094fde81a83d69",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.6.0/promenade-2.6.0.jar",
+          "filename": "promenade-2.6.0.jar",
           "primary": true,
-          "size": 966604
+          "size": 961338
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "hPETOKUD",
+      "name": "Promenade",
+      "version_number": "2.4.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "69305e57330f18124d59c8a26dcc25a637438303edf28c94ca6b07deb0e5e8da20d28f4802e6b4f534c8ce7e8f7c55848bb6bdf1b30cbdbe9ae7cdd3301f09b2",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.4.0/promenade-2.4.0.jar",
+          "filename": "promenade-2.4.0.jar",
+          "primary": false,
+          "size": 911834
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "kZEtxN2J",
+      "name": "Promenade",
+      "version_number": "2.6.1",
+      "game_versions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "96be694a9bc208abc247c726080e02f353a522bca5477343f40ccbc2a45fd6fb0e6ebb2d294cff0872dd10e74a567e649ca28724af82507d663f3415cff9e6f3",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.6.1/promenade-2.6.1.jar",
+          "filename": "promenade-2.6.1.jar",
+          "primary": true,
+          "size": 961331
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "kjUioGhJ",
+      "name": "Promenade",
+      "version_number": "2.1",
+      "game_versions": [
+        "1.17"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ef326e088659997f5e5c04021598cbb4e9e972a187e6828dda3930ada84e5254018a34bac9a7ce13e81746db97a3c61f12d7af0e2b689420eb7aa346a873468b",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.1/promenade-2.1.jar",
+          "filename": "promenade-2.1.jar",
+          "primary": true,
+          "size": 664853
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "nAjODWgn",
+      "name": "Promenade",
+      "version_number": "2.1.2",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "bdc10e1e9f50d781dc282a2658cf109fd15513f8fd25b151d785de45acd2b6551b583e3a873bc58181b5bbb44b1590c8d3e3388f2a6427f02cacf94781e6394b",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.1.2/promenade-2.1.2.jar",
+          "filename": "promenade-2.1.2.jar",
+          "primary": true,
+          "size": 628995
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "obpRw4SX",
+      "name": "Promenade",
+      "version_number": "3.1.0",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "c2c86febb6a12bc383fe27eb17057649b0cd847d830b444c90da42e5a46f0a43bdad9051f699b3f4c0b9f93119617c6d91a3bd2dbc08dcc76113aca2376a1652",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/obpRw4SX/promenade-3.1.0.jar",
+          "filename": "promenade-3.1.0.jar",
+          "primary": true,
+          "size": 4097796
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": "AnCs0z08",
+          "project_id": "4WJZr8JU",
+          "version_id": "AuLUFZYK",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "meZK2DCX",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "s2r6UFMr",
+      "name": "Promenade",
+      "version_number": "2.5.1",
+      "game_versions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "ccea93c4eb77847604c08f7365ad47beee40c359edfefa7364827677aafbc760c2611a3b827e02e38efc1ca1517b6f4fbef4f7a73d4f064074cff1b74df3e813",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.5.1/promenade-2.5.1.jar",
+          "filename": "promenade-2.5.1.jar",
+          "primary": false,
+          "size": 936905
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "sbnugVPH",
+      "name": "Promenade",
+      "version_number": "2.2.0",
+      "game_versions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1e24bbe777da65e1b99cbf298a2adf0afa169aad5a055fd6cf7e2f53e7c5f22f825aed79ec8d44c4379b8922844c8ba407404d96ba2bcb89ec67aedcc6560833",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.2.0/promenade-2.2.0.jar",
+          "filename": "promenade-2.2.0.jar",
+          "primary": false,
+          "size": 891325
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "uZy48sdY",
+      "name": "Promenade",
+      "version_number": "2.7.1",
+      "game_versions": [
+        "1.19",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "c9893939b8dce91102af107cc4fcf69306e35531b0d3972e13138f56c5561d053715650fb6bbbb44dbb5b586d16704e589a55bd0826aa0f2abe79110c53dd151",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.7.1/promenade-2.7.1.jar",
+          "filename": "promenade-2.7.1.jar",
+          "primary": true,
+          "size": 1062671
+        }
+      ],
+      "dependencies": [
+        {
           "project_id": "meZK2DCX",
-          "version_id": "rJ2vYNjm",
+          "version_id": "YdQQ22Uv",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -512,68 +782,45 @@
       ]
     },
     {
-      "id": "kZEtxN2J",
+      "id": "yzCPompk",
       "name": "Promenade",
-      "version_number": "2.6.1",
+      "version_number": "3.2.0",
       "game_versions": [
-        "1.18.2"
+        "1.19.4"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "96be694a9bc208abc247c726080e02f353a522bca5477343f40ccbc2a45fd6fb0e6ebb2d294cff0872dd10e74a567e649ca28724af82507d663f3415cff9e6f3",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.6.1/promenade-2.6.1.jar",
-          "filename": "promenade-2.6.1.jar",
+          "sha512": "126aee711d4df83f21e871a247afd5ab78e2e5fb8603a050f3a200f58aec395a6ca947f36619f264b364ec0aca8ff6e329445eb3f42914cf63b45bd81763a299",
+          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/yzCPompk/promenade-3.2.0.jar",
+          "filename": "promenade-3.2.0.jar",
           "primary": true,
-          "size": 961331
+          "size": 4097839
         }
       ],
-      "dependencies": []
-    },
-    {
-      "id": "aTBxN7qz",
-      "name": "Promenade",
-      "version_number": "2.6.0",
-      "game_versions": [
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "5d2253b692f1533c2246f7f54bfd13e9b8a8020a7aa7625942840c7026fcfa1ccf602fe986dee85ed667d3a5350a1b60f75b4fc041296cbd81094fde81a83d69",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.6.0/promenade-2.6.0.jar",
-          "filename": "promenade-2.6.0.jar",
-          "primary": true,
-          "size": 961338
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "s2r6UFMr",
-      "name": "Promenade",
-      "version_number": "2.5.1",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+          "project_id": "meZK2DCX",
+          "version_id": "lna7Bzt5",
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
-          "sha512": "ccea93c4eb77847604c08f7365ad47beee40c359edfefa7364827677aafbc760c2611a3b827e02e38efc1ca1517b6f4fbef4f7a73d4f064074cff1b74df3e813",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.5.1/promenade-2.5.1.jar",
-          "filename": "promenade-2.5.1.jar",
-          "primary": false,
-          "size": 936905
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "4WJZr8JU",
+          "version_id": "xDJ4jWwl",
+          "file_name": null,
+          "dependency_type": "optional"
         }
-      ],
-      "dependencies": []
+      ]
     },
     {
       "id": "z3XHgyMg",
@@ -593,253 +840,6 @@
           "filename": "promenade-2.5.0.jar",
           "primary": false,
           "size": 936508
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "hPETOKUD",
-      "name": "Promenade",
-      "version_number": "2.4.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "69305e57330f18124d59c8a26dcc25a637438303edf28c94ca6b07deb0e5e8da20d28f4802e6b4f534c8ce7e8f7c55848bb6bdf1b30cbdbe9ae7cdd3301f09b2",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.4.0/promenade-2.4.0.jar",
-          "filename": "promenade-2.4.0.jar",
-          "primary": false,
-          "size": 911834
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "2Q2TY7VB",
-      "name": "Promenade",
-      "version_number": "2.3.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2f597066672e5ef4532de10e62f7bd46bc11b9d24cda2689fd4445e6ea1583d8137358c2d1e49e2a9fb24a9996efdfe9ee1342416b20b557c33856b2dde793d3",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.3.0/promenade-2.3.0.jar",
-          "filename": "promenade-2.3.0.jar",
-          "primary": false,
-          "size": 899143
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "HEsCyy9Y",
-      "name": "Promenade",
-      "version_number": "2.2.1",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f829e6a3d08b5920f59bde98ed3c545ba274c9383f6babd56571d6337c050f46c3dc19e93173b95d75617ea5fee515c5f0a10245c1475231cf2c48635427e892",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.2.1/promenade-2.2.1.jar",
-          "filename": "promenade-2.2.1.jar",
-          "primary": false,
-          "size": 888082
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "sbnugVPH",
-      "name": "Promenade",
-      "version_number": "2.2.0",
-      "game_versions": [
-        "1.18",
-        "1.18.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "1e24bbe777da65e1b99cbf298a2adf0afa169aad5a055fd6cf7e2f53e7c5f22f825aed79ec8d44c4379b8922844c8ba407404d96ba2bcb89ec67aedcc6560833",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.2.0/promenade-2.2.0.jar",
-          "filename": "promenade-2.2.0.jar",
-          "primary": false,
-          "size": 891325
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "nAjODWgn",
-      "name": "Promenade",
-      "version_number": "2.1.2",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "bdc10e1e9f50d781dc282a2658cf109fd15513f8fd25b151d785de45acd2b6551b583e3a873bc58181b5bbb44b1590c8d3e3388f2a6427f02cacf94781e6394b",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.1.2/promenade-2.1.2.jar",
-          "filename": "promenade-2.1.2.jar",
-          "primary": true,
-          "size": 628995
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Q9K8W0g7",
-      "name": "Promenade",
-      "version_number": "2.1.1",
-      "game_versions": [
-        "1.17"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "edca111f93d54f5a36963c028d0a79fea9ce8c5850a8d9c3b5f58e6e93f6bbf26dd06f26767bc95a191bbd277992f45e0b8e25e05cb3db92fb95ddb066ac57c5",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.1.1/promenade-2.1.1.jar",
-          "filename": "promenade-2.1.1.jar",
-          "primary": true,
-          "size": 698347
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "kjUioGhJ",
-      "name": "Promenade",
-      "version_number": "2.1",
-      "game_versions": [
-        "1.17"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "ef326e088659997f5e5c04021598cbb4e9e972a187e6828dda3930ada84e5254018a34bac9a7ce13e81746db97a3c61f12d7af0e2b689420eb7aa346a873468b",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.1/promenade-2.1.jar",
-          "filename": "promenade-2.1.jar",
-          "primary": true,
-          "size": 664853
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "J3w72Yuv",
-      "name": "Promenade",
-      "version_number": "2.0",
-      "game_versions": [
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2c4d6b2dc1e83386b8b5f066452a24eeaf94293bf49debafe0d06d87a21c2b97e1200ac7b2047ff3331bb2c19344744064e1d4d072b8e212452dc60013b3f521",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/2.0/promenade-2.0.jar",
-          "filename": "promenade-2.0.jar",
-          "primary": true,
-          "size": 725130
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "WP8At0cA",
-      "name": "Wild Explorer v1.3.3",
-      "version_number": "1.3.3",
-      "game_versions": [
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "a7b7cba1c0b8142239b6e52e831224e47f0423e9d5270e999e67edef92b9b5af205bab134f1a21f0ebfce208703b32b6248784857743b26c69e223c42af0fd2f",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/1.3.3/wild_explorer-1.3.3.jar",
-          "filename": "wild_explorer-1.3.3.jar",
-          "primary": false,
-          "size": 725512
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "AnQZPALY",
-      "name": "Wild Explorer v1.3.2",
-      "version_number": "1.3.2",
-      "game_versions": [
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "2b20b2a549d015b31ea02a363689a0c5cbfe5f94da6191df5743f46bd6a6bd858821f3b289e30bf1dd94fe47a84310ad6db759998fe79aa11a1b6455c02af9cf",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/1.3.2/wild_explorer-1.3.2.jar",
-          "filename": "wild_explorer-1.3.2.jar",
-          "primary": false,
-          "size": 724587
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "FW8Jsy6b",
-      "name": "Wild Explorer v1.3.1",
-      "version_number": "v1.3.1",
-      "game_versions": [
-        "1.16.2",
-        "1.16.3",
-        "1.16.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "6a53892f3b7467e65ee3576591a7557733ad1a945598e036c3315f7faef3a5bb2d010784f92b5b21961e52c7f8e09c46fc4e5478d616d6e051849d8af168442e",
-          "url": "https://cdn.modrinth.com/data/GuE5FpvB/versions/v1.3.1/wild_explorer-1.3.1.jar",
-          "filename": "wild_explorer-1.3.1.jar",
-          "primary": false,
-          "size": 712877
         }
       ],
       "dependencies": []

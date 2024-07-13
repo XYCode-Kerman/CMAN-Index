@@ -5,6 +5,47 @@
   "description": "An Add-on for the CottageCraft Modpack. Adds 54 Festive Easter Eggs with custom patterns and themes including Pride Flag Patterns",
   "versions": [
     {
+      "id": "3mrMS2ZI",
+      "name": "v1.1.0-1.20.5",
+      "version_number": "1.1.0-1.20.5",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "4e557f3ae2d2a5fb01a6a50d01515489cccc5c1e24b418a2f88fc295a53308d2e8b89fbb3e3e74c8f41d1ccada0977ce02f9d433a80abe40fbe07a664d0264d0",
+          "url": "https://cdn.modrinth.com/data/scnaefCO/versions/3mrMS2ZI/CottageCraftEggs-1.1.0-1.20.5.jar",
+          "filename": "CottageCraftEggs-1.1.0-1.20.5.jar",
+          "primary": true,
+          "size": 406256
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5vP6rvh5",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "pcKJD9er",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "HUZwFaqy",
       "name": "v1.1.1-1.21.0",
       "version_number": "1.1.1-1.21.0",
@@ -39,23 +80,33 @@
       ]
     },
     {
-      "id": "3mrMS2ZI",
-      "name": "v1.1.0-1.20.5",
-      "version_number": "1.1.0-1.20.5",
+      "id": "lQhMc2nC",
+      "name": "v1.0.0",
+      "version_number": "1.0.0",
       "game_versions": [
-        "1.20.5",
-        "1.20.6"
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "4e557f3ae2d2a5fb01a6a50d01515489cccc5c1e24b418a2f88fc295a53308d2e8b89fbb3e3e74c8f41d1ccada0977ce02f9d433a80abe40fbe07a664d0264d0",
-          "url": "https://cdn.modrinth.com/data/scnaefCO/versions/3mrMS2ZI/CottageCraftEggs-1.1.0-1.20.5.jar",
-          "filename": "CottageCraftEggs-1.1.0-1.20.5.jar",
+          "sha512": "405a6e11e180c8346f8c903d6feba05623101266a39233a9b784abaafb094c56b3733b9a178e7e1706af683d2f74a83b50fa164e5bc822e20f17a3186437fac4",
+          "url": "https://cdn.modrinth.com/data/scnaefCO/versions/lQhMc2nC/CottageCraftEggs-1.0.0.jar",
+          "filename": "CottageCraftEggs-1.0.0.jar",
           "primary": true,
-          "size": 406256
+          "size": 423408
+        },
+        {
+          "sha512": "31a799b490499568e9742809b022bd8c1d4c768e914d48aca5a75080167e4fde31322e3295b07ec7dc37cc8f9f39097988188d38f34aa938a556cfb00ddec1bc",
+          "url": "https://cdn.modrinth.com/data/scnaefCO/versions/lQhMc2nC/CottageCraftFestiveEggsFloristRecipes.zip",
+          "filename": "CottageCraftFestiveEggsFloristRecipes.zip",
+          "primary": false,
+          "size": 2213122
         }
       ],
       "dependencies": [
@@ -118,57 +169,6 @@
         },
         {
           "project_id": "5vP6rvh5",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "lQhMc2nC",
-      "name": "v1.0.0",
-      "version_number": "1.0.0",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "405a6e11e180c8346f8c903d6feba05623101266a39233a9b784abaafb094c56b3733b9a178e7e1706af683d2f74a83b50fa164e5bc822e20f17a3186437fac4",
-          "url": "https://cdn.modrinth.com/data/scnaefCO/versions/lQhMc2nC/CottageCraftEggs-1.0.0.jar",
-          "filename": "CottageCraftEggs-1.0.0.jar",
-          "primary": true,
-          "size": 423408
-        },
-        {
-          "sha512": "31a799b490499568e9742809b022bd8c1d4c768e914d48aca5a75080167e4fde31322e3295b07ec7dc37cc8f9f39097988188d38f34aa938a556cfb00ddec1bc",
-          "url": "https://cdn.modrinth.com/data/scnaefCO/versions/lQhMc2nC/CottageCraftFestiveEggsFloristRecipes.zip",
-          "filename": "CottageCraftFestiveEggsFloristRecipes.zip",
-          "primary": false,
-          "size": 2213122
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "5vP6rvh5",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "pcKJD9er",
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"

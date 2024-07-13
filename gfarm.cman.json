@@ -5,6 +5,40 @@
   "description": "Farm for GregTech CEu",
   "versions": [
     {
+      "id": "GnkPnQUX",
+      "name": "Control",
+      "version_number": "0.1.8",
+      "game_versions": [
+        "1.12.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "33414b4b6e8cc3710d355a40816d8c259a3b359a2d1d113b073446a5f68ec974d39f5cb29e0f1ef04297fff2935123564a9e7ade397ab442fef0149cc34f6409",
+          "url": "https://cdn.modrinth.com/data/6SCp1bxB/versions/GnkPnQUX/gfarm-0.1.8.jar",
+          "filename": "gfarm-0.1.8.jar",
+          "primary": true,
+          "size": 14379
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "tULldUx4",
+          "version_id": "YJWUhRRP",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "cMppH5SJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "msNVk3Yx",
       "name": "Sticky crops",
       "version_number": "0.1.9",
@@ -39,40 +73,6 @@
       ]
     },
     {
-      "id": "GnkPnQUX",
-      "name": "Control",
-      "version_number": "0.1.8",
-      "game_versions": [
-        "1.12.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "33414b4b6e8cc3710d355a40816d8c259a3b359a2d1d113b073446a5f68ec974d39f5cb29e0f1ef04297fff2935123564a9e7ade397ab442fef0149cc34f6409",
-          "url": "https://cdn.modrinth.com/data/6SCp1bxB/versions/GnkPnQUX/gfarm-0.1.8.jar",
-          "filename": "gfarm-0.1.8.jar",
-          "primary": true,
-          "size": 14379
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "cMppH5SJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "tULldUx4",
-          "version_id": "YJWUhRRP",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "vTuLjXlC",
       "name": "0.1.7",
       "version_number": "0.1.7",
@@ -93,16 +93,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "cMppH5SJ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
           "project_id": "tULldUx4",
           "version_id": "YJWUhRRP",
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "cMppH5SJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }

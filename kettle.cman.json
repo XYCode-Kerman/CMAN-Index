@@ -5,35 +5,79 @@
   "description": "Kotlin Mod library for Quilt",
   "versions": [
     {
-      "id": "yeyrHLYX",
-      "name": "3.0.1+1.20.1",
-      "version_number": "3.0.1+1.20.1",
+      "id": "Q12RIbNa",
+      "name": "2.0.0-alpha",
+      "version_number": "2.0.0-alpha",
       "game_versions": [
-        "1.20.1"
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "eefcc470106e709c0bdb69880aeda6bfc5e1241861c08e02b910c138d188b5b36725ba82ddf06ede4a72860bfef4e2826c3c9fb29cacbc7af72d52d4c971868f",
+          "url": "https://cdn.modrinth.com/data/SRCaBfKA/versions/2.0.0-alpha/kettle-2.0.0-alpha.jar",
+          "filename": "kettle-2.0.0-alpha.jar",
+          "primary": false,
+          "size": 72654
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "du92GVV2",
+      "name": "2.1.0+1.19",
+      "version_number": "2.1.0+1.19",
+      "game_versions": [
+        "1.19"
       ],
       "loaders": [
         "quilt"
       ],
       "files": [
         {
-          "sha512": "482feea9871c34475023504b60a2fb2ee46c27358e0254f4f70acecfe8b7b83128f430cfe6cbb4dc1665f6658414c5cd806f8e6c6e7a42879a46f5b8e701b97c",
-          "url": "https://cdn.modrinth.com/data/SRCaBfKA/versions/yeyrHLYX/kettle-3.0.1%2B1.20.1.jar",
-          "filename": "kettle-3.0.1+1.20.1.jar",
+          "sha512": "ee40625426d39a305ca2de33388c89e73c7558e8762dffb852192c2d6d97b317a47acc8ec846a0bd4dc1e8267997aa98eea3fc6b3736ffc0adf1db083b400816",
+          "url": "https://cdn.modrinth.com/data/SRCaBfKA/versions/2.1.0%2B1.19/kettle-2.1.0%2B1.19.jar",
+          "filename": "kettle-2.1.0+1.19.jar",
           "primary": true,
-          "size": 110749
+          "size": 109485
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "nZpbP0V2",
+      "name": "2.2.1+1.19.2",
+      "version_number": "2.2.1+1.19.2",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "6d114a9cfcd1bc01371ee5f8d5ed1181cf4b70e9a7ed99466bdd076914bec498584d4024604b1f7064f9d51290f62e58c4ff9ad86a28f1f2c7e514359c4e8863",
+          "url": "https://cdn.modrinth.com/data/SRCaBfKA/versions/nZpbP0V2/kettle-2.2.1%2B1.19.2.jar",
+          "filename": "kettle-2.2.1+1.19.2.jar",
+          "primary": true,
+          "size": 109515
         },
         {
-          "sha512": "7557a5825dd0c2eda5b3a0e6bc111a67e69ff67afd3430309f747ea26ac4e27d8f1300abe05922ee56912b1cafc438ca8526b0e2463bf360dbf58812d5a3079d",
-          "url": "https://cdn.modrinth.com/data/SRCaBfKA/versions/yeyrHLYX/kettle-3.0.1%2B1.20.1-sources.jar",
-          "filename": "kettle-3.0.1+1.20.1-sources.jar",
+          "sha512": "3f16a04d3b621db6087ad95e06d2ed9631ae93cc39e7f5e3c4ce3d04b4e6374ab529c54d0363778e22d33126c047d543cf8ff0bea8b0c0552c5a9690247c99a9",
+          "url": "https://cdn.modrinth.com/data/SRCaBfKA/versions/nZpbP0V2/kettle-2.2.1%2B1.19.2-sources.jar",
+          "filename": "kettle-2.2.1+1.19.2-sources.jar",
           "primary": false,
-          "size": 28424
+          "size": 28277
         }
       ],
       "dependencies": [
         {
           "project_id": "qvIfYCYJ",
-          "version_id": "fFx48erS",
+          "version_id": "BTCxVi75",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -69,43 +113,6 @@
         {
           "project_id": "qvIfYCYJ",
           "version_id": "fFx48erS",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "nZpbP0V2",
-      "name": "2.2.1+1.19.2",
-      "version_number": "2.2.1+1.19.2",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6d114a9cfcd1bc01371ee5f8d5ed1181cf4b70e9a7ed99466bdd076914bec498584d4024604b1f7064f9d51290f62e58c4ff9ad86a28f1f2c7e514359c4e8863",
-          "url": "https://cdn.modrinth.com/data/SRCaBfKA/versions/nZpbP0V2/kettle-2.2.1%2B1.19.2.jar",
-          "filename": "kettle-2.2.1+1.19.2.jar",
-          "primary": true,
-          "size": 109515
-        },
-        {
-          "sha512": "3f16a04d3b621db6087ad95e06d2ed9631ae93cc39e7f5e3c4ce3d04b4e6374ab529c54d0363778e22d33126c047d543cf8ff0bea8b0c0552c5a9690247c99a9",
-          "url": "https://cdn.modrinth.com/data/SRCaBfKA/versions/nZpbP0V2/kettle-2.2.1%2B1.19.2-sources.jar",
-          "filename": "kettle-2.2.1+1.19.2-sources.jar",
-          "primary": false,
-          "size": 28277
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "qvIfYCYJ",
-          "version_id": "BTCxVi75",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -149,46 +156,39 @@
       ]
     },
     {
-      "id": "du92GVV2",
-      "name": "2.1.0+1.19",
-      "version_number": "2.1.0+1.19",
+      "id": "yeyrHLYX",
+      "name": "3.0.1+1.20.1",
+      "version_number": "3.0.1+1.20.1",
       "game_versions": [
-        "1.19"
+        "1.20.1"
       ],
       "loaders": [
         "quilt"
       ],
       "files": [
         {
-          "sha512": "ee40625426d39a305ca2de33388c89e73c7558e8762dffb852192c2d6d97b317a47acc8ec846a0bd4dc1e8267997aa98eea3fc6b3736ffc0adf1db083b400816",
-          "url": "https://cdn.modrinth.com/data/SRCaBfKA/versions/2.1.0%2B1.19/kettle-2.1.0%2B1.19.jar",
-          "filename": "kettle-2.1.0+1.19.jar",
+          "sha512": "482feea9871c34475023504b60a2fb2ee46c27358e0254f4f70acecfe8b7b83128f430cfe6cbb4dc1665f6658414c5cd806f8e6c6e7a42879a46f5b8e701b97c",
+          "url": "https://cdn.modrinth.com/data/SRCaBfKA/versions/yeyrHLYX/kettle-3.0.1%2B1.20.1.jar",
+          "filename": "kettle-3.0.1+1.20.1.jar",
           "primary": true,
-          "size": 109485
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "Q12RIbNa",
-      "name": "2.0.0-alpha",
-      "version_number": "2.0.0-alpha",
-      "game_versions": [
-        "1.17.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+          "size": 110749
+        },
         {
-          "sha512": "eefcc470106e709c0bdb69880aeda6bfc5e1241861c08e02b910c138d188b5b36725ba82ddf06ede4a72860bfef4e2826c3c9fb29cacbc7af72d52d4c971868f",
-          "url": "https://cdn.modrinth.com/data/SRCaBfKA/versions/2.0.0-alpha/kettle-2.0.0-alpha.jar",
-          "filename": "kettle-2.0.0-alpha.jar",
+          "sha512": "7557a5825dd0c2eda5b3a0e6bc111a67e69ff67afd3430309f747ea26ac4e27d8f1300abe05922ee56912b1cafc438ca8526b0e2463bf360dbf58812d5a3079d",
+          "url": "https://cdn.modrinth.com/data/SRCaBfKA/versions/yeyrHLYX/kettle-3.0.1%2B1.20.1-sources.jar",
+          "filename": "kettle-3.0.1+1.20.1-sources.jar",
           "primary": false,
-          "size": 72654
+          "size": 28424
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "qvIfYCYJ",
+          "version_id": "fFx48erS",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     }
   ]
 }

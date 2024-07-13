@@ -5,22 +5,24 @@
   "description": "Use Optifine/ConnectedTextureMod format let some things glow or emissive for vanilla.",
   "versions": [
     {
-      "id": "TpdfRGQJ",
-      "name": "v0.4.1 for 1.21[Optifine]",
-      "version_number": "v0.4.1-1.21_OF",
+      "id": "24DWTsc0",
+      "name": "v0.2.0 for 1.18[Optifine]",
+      "version_number": "v0.2.0-1.18_OF",
       "game_versions": [
-        "1.21"
+        "1.18",
+        "1.18.1",
+        "1.18.2"
       ],
       "loaders": [
         "minecraft"
       ],
       "files": [
         {
-          "sha512": "c5967b0933c9a96d78d740a4aafcb7413fd4636cab6d9d49003362eec7cf251647e9e14a56148d535afac775471a980e8784f63bbbc7b8052eefc4fe6cb3020f",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/TpdfRGQJ/Glowing-OF_v0.4.1-mc1.21.zip",
-          "filename": "Glowing-OF_v0.4.1-mc1.21.zip",
+          "sha512": "d6ebcf5600851c73c6f08310c620f4e88977a3e708265590f1fa2fbae3c04246a42bbf9330ff013be2d213634b0cd41ee565a97aca662f9912320feaae3f42a6",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/24DWTsc0/Glowing-OF_v0.2.0-1.18.zip",
+          "filename": "Glowing-OF_v0.2.0-1.18.zip",
           "primary": true,
-          "size": 692349
+          "size": 258139
         }
       ],
       "dependencies": [
@@ -32,6 +34,12 @@
         },
         {
           "project_id": "1IjD5062",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ceiPqFmI",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -39,72 +47,33 @@
       ]
     },
     {
-      "id": "lFtGTsuy",
-      "name": "v0.4.0 for 1.21[Optifine]",
-      "version_number": "v0.4.0-1.21_OF",
+      "id": "2bySWrk5",
+      "name": "v0.1.6.1 for 1.12[Optifine]",
+      "version_number": "v0.1.6.1-1.12_OF",
       "game_versions": [
-        "1.21"
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2"
       ],
       "loaders": [
         "minecraft"
       ],
       "files": [
         {
-          "sha512": "b4b215a39a6b1eb3fe2c3acf4d4359f4291ccc6989d83bd9c9db7786d51a1eede43e7b2ebe15e0760815bf9219b716d90a066cc111926ad14176f139f9bbbfde",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/lFtGTsuy/Glowing-OF_v0.4.0-mc1.21.zip",
-          "filename": "Glowing-OF_v0.4.0-mc1.21.zip",
+          "sha512": "7daa17ca1a132558d2f04cfc8c818c02a4dc13704c4d1ecbd824352c330af3570d5ece4e392afc399bf09546b47094a474fe89054cd800960b57ae260c5bb57d",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/2bySWrk5/Glowing-OF_v0.1.6.1-1.12.zip",
+          "filename": "Glowing-OF_v0.1.6.1-1.12.zip",
           "primary": true,
-          "size": 671835
+          "size": 122292
         }
       ],
-      "dependencies": [
-        {
-          "project_id": "1IjD5062",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "BVzZfTc1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "tKihjSa7",
-      "name": "v0.4.0 for 24w14potato[Optifine]",
-      "version_number": "v0.4.0-24w14potato_OF",
-      "game_versions": [
-        "24w14potato"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "3465f5d86fbf2d0e6f6a51f11b14c79c3c26620ee95ba3e12bed68f1d21adf64b13f675a2d1df882bbe2289d52ee73ce8419a89239c00392c0bf7d3f74947ace",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/tKihjSa7/Glowing-OF_v0.4.0-mc24w14potato.zip",
-          "filename": "Glowing-OF_v0.4.0-mc24w14potato.zip",
-          "primary": true,
-          "size": 687017
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "BVzZfTc1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1IjD5062",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
+      "dependencies": []
     },
     {
       "id": "6OAaIJso",
@@ -133,6 +102,42 @@
       ],
       "dependencies": [
         {
+          "project_id": "1IjD5062",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "8R2hi3Kq",
+      "name": "v0.3.0 for 1.20[Optifine]",
+      "version_number": "v0.3.0-1.20_OF",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "1dce02eaf7fceb9be1f7137465ade478f35af7da745d557b0dd3839138d02f0b33d00efd32752378e02de15da5495c220bdad6be62ca93057106e0f9ac115501",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/8R2hi3Kq/Glowing-OF_v0.3.0-mc1.20.zip",
+          "filename": "Glowing-OF_v0.3.0-mc1.20.zip",
+          "primary": true,
+          "size": 417966
+        }
+      ],
+      "dependencies": [
+        {
           "project_id": "BVzZfTc1",
           "version_id": null,
           "file_name": null,
@@ -145,6 +150,161 @@
           "dependency_type": "required"
         }
       ]
+    },
+    {
+      "id": "96ySH2Lw",
+      "name": "v0.4.0 for 1.18[Optifine]",
+      "version_number": "v0.4.0-1.18_OF",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "37caefcf86a42c7ed67222869c9943d6d56fffa494b9874f2115ccb20c587435188888e2247a25421afc42ffbbee456560aa5323c22e58f679e44e79956b8479",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/96ySH2Lw/Glowing-OF_v0.4.0-mc1.18.zip",
+          "filename": "Glowing-OF_v0.4.0-mc1.18.zip",
+          "primary": true,
+          "size": 361006
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "1IjD5062",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ceiPqFmI",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "B68EVqkq",
+      "name": "v0.1.6.1 for 1.15[Optifine]",
+      "version_number": "v0.1.6.1-1.15_OF",
+      "game_versions": [
+        "1.15.2"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "6aac531893dae7b91311596a64f4ab68fd970065685ede2b9a4cbf14c1cb5924a766e52da748c92bc54d65b370859df230f3aebd7955354c4cdc4f139b6cfe03",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/B68EVqkq/Glowing-OF_v0.1.6.1-1.15.zip",
+          "filename": "Glowing-OF_v0.1.6.1-1.15.zip",
+          "primary": true,
+          "size": 132260
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "GYlPqu9t",
+      "name": "v0.4.0 for 1.12[Optifine]",
+      "version_number": "v0.4.0-1.12_OF",
+      "game_versions": [
+        "1.10",
+        "1.10.1",
+        "1.10.2",
+        "1.11",
+        "1.11.1",
+        "1.11.2",
+        "1.12",
+        "1.12.1",
+        "1.12.2"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "557ebee21c869f43ab12935fd57cdcb7979afad8ec5876e0069d3a06e6b65eeaab28b98c82759275c7cdd32d91245c02f196a765729a6e1b6f91bc19fc9484c1",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/GYlPqu9t/Glowing-OF_v0.4.0-mc1.12.zip",
+          "filename": "Glowing-OF_v0.4.0-mc1.12.zip",
+          "primary": true,
+          "size": 139690
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "IB8ODJAA",
+      "name": "v0.4.0 for 1.16[Optifine]",
+      "version_number": "v0.4.0-1.16_OF",
+      "game_versions": [
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "b4d7f0081fa16bc786394008da05e5fb2ebd27ae62cb49b6408f5de17a09ba2f0d38398c26383cead3be985e331c0d87445840c16d467b85b45a2e5d4e63bab5",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/IB8ODJAA/Glowing-OF_v0.4.0-mc1.16.zip",
+          "filename": "Glowing-OF_v0.4.0-mc1.16.zip",
+          "primary": true,
+          "size": 279188
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "oQ0dIGZg",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "KU5Wj0no",
+      "name": "v0.2.0 for 1.9[Optifine]",
+      "version_number": "v0.2.0-1.9_OF",
+      "game_versions": [
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "c1d9d28533b7e2aed306ff7ad5deec71f567f16808cb529e9b7435739d2a3ba2ca2ad1c645e37f8f6d068a084250b8439e81251a5790b40bf0105dc1cde0c96a",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/KU5Wj0no/Glowing-OF_v0.2.0-1.9.zip",
+          "filename": "Glowing-OF_v0.2.0-1.9.zip",
+          "primary": true,
+          "size": 132736
+        }
+      ],
+      "dependencies": []
     },
     {
       "id": "MTTuKEtr",
@@ -191,24 +351,24 @@
       ]
     },
     {
-      "id": "96ySH2Lw",
-      "name": "v0.4.0 for 1.18[Optifine]",
-      "version_number": "v0.4.0-1.18_OF",
+      "id": "Mxb9QZCP",
+      "name": "v0.2.0 for 1.20[Optifine]",
+      "version_number": "v0.2.0-1.20_OF",
       "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
+        "1.20",
+        "1.20.1",
+        "1.20.2"
       ],
       "loaders": [
         "minecraft"
       ],
       "files": [
         {
-          "sha512": "37caefcf86a42c7ed67222869c9943d6d56fffa494b9874f2115ccb20c587435188888e2247a25421afc42ffbbee456560aa5323c22e58f679e44e79956b8479",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/96ySH2Lw/Glowing-OF_v0.4.0-mc1.18.zip",
-          "filename": "Glowing-OF_v0.4.0-mc1.18.zip",
+          "sha512": "70be2e4dd8a9d1808828c291f15ba566f2f262ef92820c8deb25059277db056c53f8ca4100bf864af8a0facd1c18ea6e1d267bb6169b03d8534aee3c57f7ee08",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/Mxb9QZCP/Glowing-OF_v0.2.0-1.20.zip",
+          "filename": "Glowing-OF_v0.2.0-1.20.zip",
           "primary": true,
-          "size": 361006
+          "size": 330892
         }
       ],
       "dependencies": [
@@ -223,9 +383,585 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "N44wQGxk",
+      "name": "v0.3.1 for 1.20[Optifine]",
+      "version_number": "v0.3.1-1.20_OF",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "785ef08c1824b77a7e684ba55a2e6122616548f9e4cad3482574387c5f4205e9562b1376e3d5d1e41eb886b1e08700227bb4d4b6e1c2432748c15904c0504d85",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/N44wQGxk/Glowing-OF_v0.3.1-mc1.20.zip",
+          "filename": "Glowing-OF_v0.3.1-mc1.20.zip",
+          "primary": true,
+          "size": 415048
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1IjD5062",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
-          "project_id": "ceiPqFmI",
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "N58mmI7r",
+      "name": "v0.1.6.1 for 1.9[Optifine]",
+      "version_number": "v0.1.6.1-1.9_OF",
+      "game_versions": [
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "1e358a24134319b513bb2f5d45aae4b4a53cc2db778a0679bd45deee16a34d6f60e706f7ef818ced4a2a539c83f42f76bd52ac671bfaf2a5fcb7181001f8ffa0",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/N58mmI7r/Glowing-OF_v0.1.6.1-1.9.zip",
+          "filename": "Glowing-OF_v0.1.6.1-1.9.zip",
+          "primary": true,
+          "size": 121471
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "N9ILIzDX",
+      "name": "v0.2.0 for 1.15[Optifine]",
+      "version_number": "v0.2.0-1.15_OF",
+      "game_versions": [
+        "1.15.2"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "5b375678f74f6c0fde1a7ffa51a5b0b64601c58079526fe4b904b8d8a23e773996594033bc6a2da448775718348d4e9dbcfaaeb163f29ceeb1fa1e5eaee5201c",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/N9ILIzDX/Glowing-OF_v0.2.0-1.15.zip",
+          "filename": "Glowing-OF_v0.2.0-1.15.zip",
+          "primary": true,
+          "size": 147113
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "O528Nl53",
+      "name": "v0.2.0 for 1.13[Optifine]",
+      "version_number": "v0.2.0-1.13_OF",
+      "game_versions": [
+        "1.13",
+        "1.13.1",
+        "1.13.2"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "1fe6e02493893af0d2df19ed64885b7eca1550a7189931f24fa8476972c40e3fb94bd4c298872d8b0d7886e48e3c8c0afca24247f351e1465ccc06ee233981ef",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/O528Nl53/Glowing-OF_v0.2.0-1.13.zip",
+          "filename": "Glowing-OF_v0.2.0-1.13.zip",
+          "primary": true,
+          "size": 140385
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "OmYRXGzv",
+      "name": "v0.4.0 for 1.9[Optifine]",
+      "version_number": "v0.4.0-1.9_OF",
+      "game_versions": [
+        "1.9",
+        "1.9.1",
+        "1.9.2",
+        "1.9.3",
+        "1.9.4"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "15348e911e70e860a0d5eeb464efbd87f6cfe6fe35286c9584e94d4629812062345cf6f3c3e3a7fc60aca161a110f9fe401882baf9774adbc29bdabdb6844994",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/OmYRXGzv/Glowing-OF_v0.4.0-mc1.9.zip",
+          "filename": "Glowing-OF_v0.4.0-mc1.9.zip",
+          "primary": true,
+          "size": 138642
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "P5jUvK3C",
+      "name": "v0.1.5.1 for 1.16[ConnectedTextureMod]",
+      "version_number": "v0.1.5.1-1.16_CTM",
+      "game_versions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "c0d75f3cfba6908bc6d520b816383d642497cb880fdb0bc56e7ce72a2a0f3d9d6f7ee34909a24520e8a6a1bd0a6ce819f8f6b8607d9dcd2d24e67159034bf0ea",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/P5jUvK3C/Glowing-CTM_v0.1.5.1-1.16.zip",
+          "filename": "Glowing-CTM_v0.1.5.1-1.16.zip",
+          "primary": true,
+          "size": 142447
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "PJLuTuI9",
+      "name": "v0.1.5.1 for 1.18[Optifine]",
+      "version_number": "v0.1.5.1-1.18_OF",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "aa3cae5fdfe73fff842719c2ca1358a36dece4e867727c2fad2b53d38369bda3fb9a4368de97631a8a2bd478fec83a6ba25df14494429cdf6abdf273223dce22",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/PJLuTuI9/Glowing-OF_v0.1.5.1-1.18.zip",
+          "filename": "Glowing-OF_v0.1.5.1-1.18.zip",
+          "primary": true,
+          "size": 192681
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1IjD5062",
+          "version_id": "Bl7pOAQf",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "PVEwA4Bb",
+      "name": "v0.1.5.2 for 1.16[ConnectedTextureMod]",
+      "version_number": "v0.1.5.2-1.16_CTM",
+      "game_versions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "9812f592e3a7e84ed63601fffc8c382bb14fff84cc8c83c7c12acec01c4be57dbc958ef803d2499c619e113e3bc850601712140ec21eb6fa6de18e1d58227d0e",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/PVEwA4Bb/Glowing-CTM_v0.1.5.2-1.16.zip",
+          "filename": "Glowing-CTM_v0.1.5.2-1.16.zip",
+          "primary": true,
+          "size": 150091
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "QzD5QFdp",
+      "name": "v0.1.5.1 for 1.19[ConnectedTextureMod]",
+      "version_number": "v0.1.5.1-1.19_CTM",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "4f3bfc6a6ef2f82cfdd09ac8651e21ee750a941b016dc8f57f5d62779f09e815fc84fe6969d8a61bbc6508af202cf3f241901ba0376fbdf0167e9074799bfcbb",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/QzD5QFdp/Glowing-CTM_v0.1.5.1-1.19.zip",
+          "filename": "Glowing-CTM_v0.1.5.1-1.19.zip",
+          "primary": true,
+          "size": 197877
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "syUFsyMr",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "RGCegJ9x",
+      "name": "v0.4.0 for 1.13[Optifine]",
+      "version_number": "v0.4.0-1.13_OF",
+      "game_versions": [
+        "1.13",
+        "1.13.1",
+        "1.13.2"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "61e57adca65596b1692641d22b406b18fd6cfde5693fdd295771c1ba4f76c2dc891ec11533e1139703ea2da83a4ef2bf4d5a0b573f9e64cd9291e61fb6465a32",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/RGCegJ9x/Glowing-OF_v0.4.0-mc1.13.zip",
+          "filename": "Glowing-OF_v0.4.0-mc1.13.zip",
+          "primary": true,
+          "size": 195892
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "T4WTpWSD",
+      "name": "v0.1.6 for 1.19[Optifine]",
+      "version_number": "v0.1.6-1.19_OF",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "47fffcf9bca9f24754f0cf4eb82499cdf98fa17ece4ab8728c0e940ad5a871e253600beb8b385f19ecc5231b26cfea307131817c18730f223e001e8114eab2a7",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/T4WTpWSD/Glowing-OF_v0.1.6-1.19.zip",
+          "filename": "Glowing-OF_v0.1.6-1.19.zip",
+          "primary": true,
+          "size": 298101
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "1IjD5062",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "TKNW30nL",
+      "name": "v0.1.5.1 for 1.16[Optifine]",
+      "version_number": "v0.1.5.1-1.16_OF",
+      "game_versions": [
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "eb5b9515b260dc1ffb5b98c1f4935062209bc8b238bb30cae0e48ad0b4473ffba457f0d1729f65198ec20cbb429fc6e86768791faceb31c0aee525ba2ef4bc5b",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/TKNW30nL/Glowing-OF_v0.1.5.1-1.16.zip",
+          "filename": "Glowing-OF_v0.1.5.1-1.16.zip",
+          "primary": true,
+          "size": 142560
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "TpdfRGQJ",
+      "name": "v0.4.1 for 1.21[Optifine]",
+      "version_number": "v0.4.1-1.21_OF",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "c5967b0933c9a96d78d740a4aafcb7413fd4636cab6d9d49003362eec7cf251647e9e14a56148d535afac775471a980e8784f63bbbc7b8052eefc4fe6cb3020f",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/TpdfRGQJ/Glowing-OF_v0.4.1-mc1.21.zip",
+          "filename": "Glowing-OF_v0.4.1-mc1.21.zip",
+          "primary": true,
+          "size": 692349
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1IjD5062",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "X2TrsJjk",
+      "name": "v0.4.0 for 1.14[Optifine]",
+      "version_number": "v0.4.0-1.14_OF",
+      "game_versions": [
+        "1.14.2",
+        "1.14.3",
+        "1.14.4"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "5cbe33e9e8d6c518e92516b9f1b86d769bbbef0281292e9c1d7e339ac5d52a88ed721c7bad1b9da04501825c7a009525cc6d25caa30f05c8ce4cc06928a24341",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/X2TrsJjk/Glowing-OF_v0.4.0-mc1.14.zip",
+          "filename": "Glowing-OF_v0.4.0-mc1.14.zip",
+          "primary": true,
+          "size": 202137
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "XYmxPqlN",
+      "name": "v0.1.5.2 for 1.18[ConnectedTextureMod]",
+      "version_number": "v0.1.5.2-1.18_CTM",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "48e755c60878e51b09c9c54463d47fad405d34a822a862b6d026f6c50828dd56f9ef013c8c11c6d97acd6d8206d16f33e13e84d32ebcd10ddb9c0e6c95610a57",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/XYmxPqlN/Glowing-CTM_v0.1.5.2-1.18.zip",
+          "filename": "Glowing-CTM_v0.1.5.2-1.18.zip",
+          "primary": true,
+          "size": 187435
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "syUFsyMr",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "XyDVkPh2",
+      "name": "v0.1.6.1 for 1.16[Optifine]",
+      "version_number": "v0.1.6.1-1.16_OF",
+      "game_versions": [
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "d2b7b70e46c72f63dfa34594ad1d1b5b8deca0db79660d8c550e73e049e1643f216b0c8cf4c619fe250182fe8b2fffa727f899f58ce2c2dace7fe5acbbbdeb27",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/XyDVkPh2/Glowing-OF_v0.1.6.1-1.16.zip",
+          "filename": "Glowing-OF_v0.1.6.1-1.16.zip",
+          "primary": true,
+          "size": 188580
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "YN0RwV90",
+      "name": "v0.4.0 for 1.15[Optifine]",
+      "version_number": "v0.4.0-1.15_OF",
+      "game_versions": [
+        "1.15.2"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "80f603813fa6c8631e48242856469fe9c8ccab191a0794a1dc20d2f4fdd65db924c00033e124213cca537303e55b221a3825d72c9acf6b67338b5e6999657a94",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/YN0RwV90/Glowing-OF_v0.4.0-mc1.15.zip",
+          "filename": "Glowing-OF_v0.4.0-mc1.15.zip",
+          "primary": true,
+          "size": 204593
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "Z1BuWruQ",
+      "name": "v0.1.5.2 for 1.19[Optifine]",
+      "version_number": "v0.1.5.2-1.19_OF",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "b9437889b8dca071df7907c0c02163b41ab09b0bf286a33cb3eb1d7a06f51a66d17e96550561d7a5b416b942ed2298259cb6f13bc8f5c0277997782954125c4d",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/Z1BuWruQ/Glowing-OF_v0.1.5.2-1.19.zip",
+          "filename": "Glowing-OF_v0.1.5.2-1.19.zip",
+          "primary": true,
+          "size": 249191
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1IjD5062",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "ZTMLcdpx",
+      "name": "v0.1.6 for 1.17[Optifine]",
+      "version_number": "v0.1.6-1.17_OF",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "255b09717326ff43d9d3af67d588ceafd7e93b3686d825d69ba19dd8292e392a24393ea5a76ad47375030ca6e420ef8f612b5d9a6d16f9c017ac78bef46fb92d",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/ZTMLcdpx/Glowing-OF_v0.1.6-1.17.zip",
+          "filename": "Glowing-OF_v0.1.6-1.17.zip",
+          "primary": true,
+          "size": 238204
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "dR8yHtaU",
+      "name": "v0.1.6 for 1.18[Optifine]",
+      "version_number": "v0.1.6-1.18_OF",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "86ae78bcc7e70efdb1b08146942dedf28da4268fe08309c6bbcfc8845682e96b85df0899396d09ccd4b428601fbbf9fa7a8eb41d179f2d12a789bb07876ffc1b",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/dR8yHtaU/Glowing-OF_v0.1.6-1.18.zip",
+          "filename": "Glowing-OF_v0.1.6-1.18.zip",
+          "primary": true,
+          "size": 240303
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "1IjD5062",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -268,26 +1004,87 @@
       ]
     },
     {
-      "id": "IB8ODJAA",
-      "name": "v0.4.0 for 1.16[Optifine]",
-      "version_number": "v0.4.0-1.16_OF",
+      "id": "gs7Ibzjm",
+      "name": "v0.1.5.2 for 1.19[ConnectedTextureMod]",
+      "version_number": "v0.1.5.2-1.19_CTM",
       "game_versions": [
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
         "minecraft"
       ],
       "files": [
         {
-          "sha512": "b4d7f0081fa16bc786394008da05e5fb2ebd27ae62cb49b6408f5de17a09ba2f0d38398c26383cead3be985e331c0d87445840c16d467b85b45a2e5d4e63bab5",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/IB8ODJAA/Glowing-OF_v0.4.0-mc1.16.zip",
-          "filename": "Glowing-OF_v0.4.0-mc1.16.zip",
+          "sha512": "41af8a222418cae063e4f405788ed432d35cc1fa50086bdc3eb4848a5a5b288fb18e0ced496c95c7210794befd1cf8c04576aab17942873108b7b1bbfc11ab2a",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/gs7Ibzjm/Glowing-CTM_v0.1.5.2-1.19.zip",
+          "filename": "Glowing-CTM_v0.1.5.2-1.19.zip",
           "primary": true,
-          "size": 279188
+          "size": 204919
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "syUFsyMr",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "lFtGTsuy",
+      "name": "v0.4.0 for 1.21[Optifine]",
+      "version_number": "v0.4.0-1.21_OF",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "b4b215a39a6b1eb3fe2c3acf4d4359f4291ccc6989d83bd9c9db7786d51a1eede43e7b2ebe15e0760815bf9219b716d90a066cc111926ad14176f139f9bbbfde",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/lFtGTsuy/Glowing-OF_v0.4.0-mc1.21.zip",
+          "filename": "Glowing-OF_v0.4.0-mc1.21.zip",
+          "primary": true,
+          "size": 671835
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "1IjD5062",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "mLNgiMwn",
+      "name": "v0.2.0 for 1.17[Optifine]",
+      "version_number": "v0.2.0-1.17_OF",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "7614a318d4e439bcc914650d33456cdf7936fb5b853ee43da1779bbf3da61cfaa2bd49d04aa32a6e3d66a9c862f85ae319461e2bf08393bb5c2739a4fc61d3d4",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/mLNgiMwn/Glowing-OF_v0.2.0-1.17.zip",
+          "filename": "Glowing-OF_v0.2.0-1.17.zip",
+          "primary": true,
+          "size": 255731
         }
       ],
       "dependencies": [
@@ -306,30 +1103,41 @@
       ]
     },
     {
-      "id": "YN0RwV90",
-      "name": "v0.4.0 for 1.15[Optifine]",
-      "version_number": "v0.4.0-1.15_OF",
+      "id": "mTS6a0yH",
+      "name": "v0.1.6 for 1.16[Optifine]",
+      "version_number": "v0.1.6-1.16_OF",
       "game_versions": [
-        "1.15.2"
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
       ],
       "loaders": [
         "minecraft"
       ],
       "files": [
         {
-          "sha512": "80f603813fa6c8631e48242856469fe9c8ccab191a0794a1dc20d2f4fdd65db924c00033e124213cca537303e55b221a3825d72c9acf6b67338b5e6999657a94",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/YN0RwV90/Glowing-OF_v0.4.0-mc1.15.zip",
-          "filename": "Glowing-OF_v0.4.0-mc1.15.zip",
+          "sha512": "f34f9d9df7c9547ca4d2cf077bd29989ba625700dd59aab86e7c03811f66d70b1acc571a41feb20754551463a6a2b769fc0348844680190f59ac710f7c88c361",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/mTS6a0yH/Glowing-OF_v0.1.6-1.16.zip",
+          "filename": "Glowing-OF_v0.1.6-1.16.zip",
           "primary": true,
-          "size": 204593
+          "size": 188581
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
-      "id": "X2TrsJjk",
-      "name": "v0.4.0 for 1.14[Optifine]",
-      "version_number": "v0.4.0-1.14_OF",
+      "id": "o39b4zeQ",
+      "name": "v0.1.6.1 for 1.14[Optifine]",
+      "version_number": "v0.1.6.1-1.14_OF",
       "game_versions": [
         "1.14.2",
         "1.14.3",
@@ -340,19 +1148,90 @@
       ],
       "files": [
         {
-          "sha512": "5cbe33e9e8d6c518e92516b9f1b86d769bbbef0281292e9c1d7e339ac5d52a88ed721c7bad1b9da04501825c7a009525cc6d25caa30f05c8ce4cc06928a24341",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/X2TrsJjk/Glowing-OF_v0.4.0-mc1.14.zip",
-          "filename": "Glowing-OF_v0.4.0-mc1.14.zip",
+          "sha512": "9db3397fc88130231ed2be80c8dc530bb6da9e3fa73fc23e93148cd93b58c7fa7608fc8a7d2a209d68ca328bb2b7be49a2ca197d4891877883cfb340b68ef76f",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/o39b4zeQ/Glowing-OF_v0.1.6.1-1.14.zip",
+          "filename": "Glowing-OF_v0.1.6.1-1.14.zip",
           "primary": true,
-          "size": 202137
+          "size": 131298
         }
       ],
       "dependencies": []
     },
     {
-      "id": "RGCegJ9x",
-      "name": "v0.4.0 for 1.13[Optifine]",
-      "version_number": "v0.4.0-1.13_OF",
+      "id": "oFUT93OY",
+      "name": "v0.1.5.1 for 1.17[Optifine]",
+      "version_number": "v0.1.5.1-1.17_OF",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "71a74ef079677a1a113fcfb001fef755b59cea2e58bde151a75ba01ab892d0903ef50c3c8aa5dbb5ef962878879061527e8e0e02ac5b2fcfbff148ffefd47a52",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/oFUT93OY/Glowing-OF_v0.1.5.1-1.17.zip",
+          "filename": "Glowing-OF_v0.1.5.1-1.17.zip",
+          "primary": true,
+          "size": 190637
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "oyVv5aSq",
+      "name": "v0.1.6.1 for 1.18[Optifine]",
+      "version_number": "v0.1.6.1-1.18_OF",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "185187d870d05da06df24748291b8bae565bff0bd60ae71b6e89d9b8312df7b98f39497c4bd72f275462fbf0e861e0db767bb75e1be7045c8beddea579d79964",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/oyVv5aSq/Glowing-OF_v0.1.6.1-1.18.zip",
+          "filename": "Glowing-OF_v0.1.6.1-1.18.zip",
+          "primary": true,
+          "size": 240302
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ceiPqFmI",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "1IjD5062",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "sCYiFwkF",
+      "name": "v0.1.6.1 for 1.13[Optifine]",
+      "version_number": "v0.1.6.1-1.13_OF",
       "game_versions": [
         "1.13",
         "1.13.1",
@@ -363,19 +1242,19 @@
       ],
       "files": [
         {
-          "sha512": "61e57adca65596b1692641d22b406b18fd6cfde5693fdd295771c1ba4f76c2dc891ec11533e1139703ea2da83a4ef2bf4d5a0b573f9e64cd9291e61fb6465a32",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/RGCegJ9x/Glowing-OF_v0.4.0-mc1.13.zip",
-          "filename": "Glowing-OF_v0.4.0-mc1.13.zip",
+          "sha512": "df83c231e41f47548cb97612a66c10b4b5a79ab595b4713dc27515f46bc748ac0ba219b0f15b991895b57db363017a15471e97766cd690e15d6beeddd6ed6e03",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/sCYiFwkF/Glowing-OF_v0.1.6.1-1.13.zip",
+          "filename": "Glowing-OF_v0.1.6.1-1.13.zip",
           "primary": true,
-          "size": 195892
+          "size": 128906
         }
       ],
       "dependencies": []
     },
     {
-      "id": "GYlPqu9t",
-      "name": "v0.4.0 for 1.12[Optifine]",
-      "version_number": "v0.4.0-1.12_OF",
+      "id": "tHTHNty9",
+      "name": "v0.2.0 for 1.12[Optifine]",
+      "version_number": "v0.2.0-1.12_OF",
       "game_versions": [
         "1.10",
         "1.10.1",
@@ -392,64 +1271,79 @@
       ],
       "files": [
         {
-          "sha512": "557ebee21c869f43ab12935fd57cdcb7979afad8ec5876e0069d3a06e6b65eeaab28b98c82759275c7cdd32d91245c02f196a765729a6e1b6f91bc19fc9484c1",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/GYlPqu9t/Glowing-OF_v0.4.0-mc1.12.zip",
-          "filename": "Glowing-OF_v0.4.0-mc1.12.zip",
+          "sha512": "9138c382dde2764abcdea0404f53794d426d99ad8a0a4b9ccb01853770f3eadd3ee28b02d3e73c54ac723570fdd3e94a6cfd3205f96a3a2a0b91a74cf37a9ed1",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/tHTHNty9/Glowing-OF_v0.2.0-1.12.zip",
+          "filename": "Glowing-OF_v0.2.0-1.12.zip",
           "primary": true,
-          "size": 139690
+          "size": 133785
         }
       ],
       "dependencies": []
     },
     {
-      "id": "OmYRXGzv",
-      "name": "v0.4.0 for 1.9[Optifine]",
-      "version_number": "v0.4.0-1.9_OF",
+      "id": "tKihjSa7",
+      "name": "v0.4.0 for 24w14potato[Optifine]",
+      "version_number": "v0.4.0-24w14potato_OF",
       "game_versions": [
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4"
+        "24w14potato"
       ],
       "loaders": [
         "minecraft"
       ],
       "files": [
         {
-          "sha512": "15348e911e70e860a0d5eeb464efbd87f6cfe6fe35286c9584e94d4629812062345cf6f3c3e3a7fc60aca161a110f9fe401882baf9774adbc29bdabdb6844994",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/OmYRXGzv/Glowing-OF_v0.4.0-mc1.9.zip",
-          "filename": "Glowing-OF_v0.4.0-mc1.9.zip",
+          "sha512": "3465f5d86fbf2d0e6f6a51f11b14c79c3c26620ee95ba3e12bed68f1d21adf64b13f675a2d1df882bbe2289d52ee73ce8419a89239c00392c0bf7d3f74947ace",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/tKihjSa7/Glowing-OF_v0.4.0-mc24w14potato.zip",
+          "filename": "Glowing-OF_v0.4.0-mc24w14potato.zip",
           "primary": true,
-          "size": 138642
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "N44wQGxk",
-      "name": "v0.3.1 for 1.20[Optifine]",
-      "version_number": "v0.3.1-1.20_OF",
-      "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2",
-        "1.20.3",
-        "1.20.4"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "785ef08c1824b77a7e684ba55a2e6122616548f9e4cad3482574387c5f4205e9562b1376e3d5d1e41eb886b1e08700227bb4d4b6e1c2432748c15904c0504d85",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/N44wQGxk/Glowing-OF_v0.3.1-mc1.20.zip",
-          "filename": "Glowing-OF_v0.3.1-mc1.20.zip",
-          "primary": true,
-          "size": 415048
+          "size": 687017
         }
       ],
       "dependencies": [
+        {
+          "project_id": "BVzZfTc1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "1IjD5062",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "tmjijb6g",
+      "name": "v0.1.6.1 for 1.19[Optifine]",
+      "version_number": "v0.1.6.1-1.19_OF",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "ef5ee4b7116023ae0407c4e283d7a0e5cf267f78df68fc27c20040fdf37967c79272132563b289a16369d976fd69fca6c091d6358dacac72357c3a6424d6441b",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/tmjijb6g/Glowing-OF_v0.1.6.1-1.19.zip",
+          "filename": "Glowing-OF_v0.1.6.1-1.19.zip",
+          "primary": true,
+          "size": 298100
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ceiPqFmI",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "1IjD5062",
           "version_id": null,
@@ -465,35 +1359,51 @@
       ]
     },
     {
-      "id": "8R2hi3Kq",
-      "name": "v0.3.0 for 1.20[Optifine]",
-      "version_number": "v0.3.0-1.20_OF",
+      "id": "uHy6ai6d",
+      "name": "v0.1.5.2 for 1.17[ConnectedTextureMod]",
+      "version_number": "v0.1.5.2-1.17_CTM",
       "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2"
+        "1.17",
+        "1.17.1"
       ],
       "loaders": [
         "minecraft"
       ],
       "files": [
         {
-          "sha512": "1dce02eaf7fceb9be1f7137465ade478f35af7da745d557b0dd3839138d02f0b33d00efd32752378e02de15da5495c220bdad6be62ca93057106e0f9ac115501",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/8R2hi3Kq/Glowing-OF_v0.3.0-mc1.20.zip",
-          "filename": "Glowing-OF_v0.3.0-mc1.20.zip",
+          "sha512": "9330f2cd29c3a679949847775c8a31bbcd356887ba8aba638fe8e335590b7f045efb60984d1b71b53e49c2233fc1d4c02ae401587bddde07c2c697a85d81ca4e",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/uHy6ai6d/Glowing-CTM_v0.1.5.2-1.17.zip",
+          "filename": "Glowing-CTM_v0.1.5.2-1.17.zip",
           "primary": true,
-          "size": 417966
+          "size": 184687
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "v4FAUAoX",
+      "name": "v0.1.5.1 for 1.18[ConnectedTextureMod]",
+      "version_number": "v0.1.5.1-1.18_CTM",
+      "game_versions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "c7d4025503cc9efcee0e968fc87d9edddf002cd2e4850f025c2c38de765948d570824c9f31f52906f8744762e86c62754ddc8262bb761256cd97d88a9b19bb60",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/v4FAUAoX/Glowing-CTM_v0.1.5.1-1.18.zip",
+          "filename": "Glowing-CTM_v0.1.5.1-1.18.zip",
+          "primary": true,
+          "size": 180829
         }
       ],
       "dependencies": [
         {
-          "project_id": "1IjD5062",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "BVzZfTc1",
+          "project_id": "syUFsyMr",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
@@ -501,33 +1411,71 @@
       ]
     },
     {
-      "id": "Mxb9QZCP",
-      "name": "v0.2.0 for 1.20[Optifine]",
-      "version_number": "v0.2.0-1.20_OF",
+      "id": "v6DafYxM",
+      "name": "v0.1.5.1 for 1.17[ConnectedTextureMod]",
+      "version_number": "v0.1.5.1-1.17_CTM",
       "game_versions": [
-        "1.20",
-        "1.20.1",
-        "1.20.2"
+        "1.17",
+        "1.17.1"
       ],
       "loaders": [
         "minecraft"
       ],
       "files": [
         {
-          "sha512": "70be2e4dd8a9d1808828c291f15ba566f2f262ef92820c8deb25059277db056c53f8ca4100bf864af8a0facd1c18ea6e1d267bb6169b03d8534aee3c57f7ee08",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/Mxb9QZCP/Glowing-OF_v0.2.0-1.20.zip",
-          "filename": "Glowing-OF_v0.2.0-1.20.zip",
+          "sha512": "a43611c10998a59518df49859e7674549c162d1dc9deeef42fcd17d212883319b5be1de39accb1ea41bd02afc031d89e3ccf1ce8063813bf68e78151e40605af",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/v6DafYxM/Glowing-CTM_v0.1.5.1-1.17.zip",
+          "filename": "Glowing-CTM_v0.1.5.1-1.17.zip",
           "primary": true,
-          "size": 330892
+          "size": 178145
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "w9xwG16y",
+      "name": "v0.2.0 for 1.14[Optifine]",
+      "version_number": "v0.2.0-1.14_OF",
+      "game_versions": [
+        "1.14.2",
+        "1.14.3",
+        "1.14.4"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "eb76be7aa643813bc3025ab8746b56c9a45515dbd84e6ea9232bf3a638ef2d2f5b4a8c3a1c8a4d550819e1036b3020bd44ac0e88c44272af731b0a5509a584d3",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/w9xwG16y/Glowing-OF_v0.2.0-1.14.zip",
+          "filename": "Glowing-OF_v0.2.0-1.14.zip",
+          "primary": true,
+          "size": 145135
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "wGex0m0E",
+      "name": "v0.1.6.1 for 1.17[Optifine]",
+      "version_number": "v0.1.6.1-1.17_OF",
+      "game_versions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "files": [
+        {
+          "sha512": "ea47c8d301b35c0039d5708bb383d07e66efe99f93a689d4c4ec14622efd66132a3b53922c3acb91caa878bade1b64ff54a3b39362e9c73e4c7fb01a593c7f82",
+          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/wGex0m0E/Glowing-OF_v0.1.6.1-1.17.zip",
+          "filename": "Glowing-OF_v0.1.6.1-1.17.zip",
+          "primary": true,
+          "size": 238203
         }
       ],
       "dependencies": [
-        {
-          "project_id": "1IjD5062",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
         {
           "project_id": "BVzZfTc1",
           "version_id": null,
@@ -581,83 +1529,6 @@
       ]
     },
     {
-      "id": "24DWTsc0",
-      "name": "v0.2.0 for 1.18[Optifine]",
-      "version_number": "v0.2.0-1.18_OF",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "d6ebcf5600851c73c6f08310c620f4e88977a3e708265590f1fa2fbae3c04246a42bbf9330ff013be2d213634b0cd41ee565a97aca662f9912320feaae3f42a6",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/24DWTsc0/Glowing-OF_v0.2.0-1.18.zip",
-          "filename": "Glowing-OF_v0.2.0-1.18.zip",
-          "primary": true,
-          "size": 258139
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "ceiPqFmI",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1IjD5062",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "BVzZfTc1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "mLNgiMwn",
-      "name": "v0.2.0 for 1.17[Optifine]",
-      "version_number": "v0.2.0-1.17_OF",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "7614a318d4e439bcc914650d33456cdf7936fb5b853ee43da1779bbf3da61cfaa2bd49d04aa32a6e3d66a9c862f85ae319461e2bf08393bb5c2739a4fc61d3d4",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/mLNgiMwn/Glowing-OF_v0.2.0-1.17.zip",
-          "filename": "Glowing-OF_v0.2.0-1.17.zip",
-          "primary": true,
-          "size": 255731
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "BVzZfTc1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "oQ0dIGZg",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "zx4rB1ZT",
       "name": "v0.2.0 for 1.16[Optifine]",
       "version_number": "v0.2.0-1.16_OF",
@@ -689,877 +1560,6 @@
         },
         {
           "project_id": "oQ0dIGZg",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "N9ILIzDX",
-      "name": "v0.2.0 for 1.15[Optifine]",
-      "version_number": "v0.2.0-1.15_OF",
-      "game_versions": [
-        "1.15.2"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "5b375678f74f6c0fde1a7ffa51a5b0b64601c58079526fe4b904b8d8a23e773996594033bc6a2da448775718348d4e9dbcfaaeb163f29ceeb1fa1e5eaee5201c",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/N9ILIzDX/Glowing-OF_v0.2.0-1.15.zip",
-          "filename": "Glowing-OF_v0.2.0-1.15.zip",
-          "primary": true,
-          "size": 147113
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "w9xwG16y",
-      "name": "v0.2.0 for 1.14[Optifine]",
-      "version_number": "v0.2.0-1.14_OF",
-      "game_versions": [
-        "1.14.2",
-        "1.14.3",
-        "1.14.4"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "eb76be7aa643813bc3025ab8746b56c9a45515dbd84e6ea9232bf3a638ef2d2f5b4a8c3a1c8a4d550819e1036b3020bd44ac0e88c44272af731b0a5509a584d3",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/w9xwG16y/Glowing-OF_v0.2.0-1.14.zip",
-          "filename": "Glowing-OF_v0.2.0-1.14.zip",
-          "primary": true,
-          "size": 145135
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "O528Nl53",
-      "name": "v0.2.0 for 1.13[Optifine]",
-      "version_number": "v0.2.0-1.13_OF",
-      "game_versions": [
-        "1.13",
-        "1.13.1",
-        "1.13.2"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "1fe6e02493893af0d2df19ed64885b7eca1550a7189931f24fa8476972c40e3fb94bd4c298872d8b0d7886e48e3c8c0afca24247f351e1465ccc06ee233981ef",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/O528Nl53/Glowing-OF_v0.2.0-1.13.zip",
-          "filename": "Glowing-OF_v0.2.0-1.13.zip",
-          "primary": true,
-          "size": 140385
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "tHTHNty9",
-      "name": "v0.2.0 for 1.12[Optifine]",
-      "version_number": "v0.2.0-1.12_OF",
-      "game_versions": [
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "9138c382dde2764abcdea0404f53794d426d99ad8a0a4b9ccb01853770f3eadd3ee28b02d3e73c54ac723570fdd3e94a6cfd3205f96a3a2a0b91a74cf37a9ed1",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/tHTHNty9/Glowing-OF_v0.2.0-1.12.zip",
-          "filename": "Glowing-OF_v0.2.0-1.12.zip",
-          "primary": true,
-          "size": 133785
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "KU5Wj0no",
-      "name": "v0.2.0 for 1.9[Optifine]",
-      "version_number": "v0.2.0-1.9_OF",
-      "game_versions": [
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "c1d9d28533b7e2aed306ff7ad5deec71f567f16808cb529e9b7435739d2a3ba2ca2ad1c645e37f8f6d068a084250b8439e81251a5790b40bf0105dc1cde0c96a",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/KU5Wj0no/Glowing-OF_v0.2.0-1.9.zip",
-          "filename": "Glowing-OF_v0.2.0-1.9.zip",
-          "primary": true,
-          "size": 132736
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "N58mmI7r",
-      "name": "v0.1.6.1 for 1.9[Optifine]",
-      "version_number": "v0.1.6.1-1.9_OF",
-      "game_versions": [
-        "1.9",
-        "1.9.1",
-        "1.9.2",
-        "1.9.3",
-        "1.9.4"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "1e358a24134319b513bb2f5d45aae4b4a53cc2db778a0679bd45deee16a34d6f60e706f7ef818ced4a2a539c83f42f76bd52ac671bfaf2a5fcb7181001f8ffa0",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/N58mmI7r/Glowing-OF_v0.1.6.1-1.9.zip",
-          "filename": "Glowing-OF_v0.1.6.1-1.9.zip",
-          "primary": true,
-          "size": 121471
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "2bySWrk5",
-      "name": "v0.1.6.1 for 1.12[Optifine]",
-      "version_number": "v0.1.6.1-1.12_OF",
-      "game_versions": [
-        "1.10",
-        "1.10.1",
-        "1.10.2",
-        "1.11",
-        "1.11.1",
-        "1.11.2",
-        "1.12",
-        "1.12.1",
-        "1.12.2"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "7daa17ca1a132558d2f04cfc8c818c02a4dc13704c4d1ecbd824352c330af3570d5ece4e392afc399bf09546b47094a474fe89054cd800960b57ae260c5bb57d",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/2bySWrk5/Glowing-OF_v0.1.6.1-1.12.zip",
-          "filename": "Glowing-OF_v0.1.6.1-1.12.zip",
-          "primary": true,
-          "size": 122292
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "sCYiFwkF",
-      "name": "v0.1.6.1 for 1.13[Optifine]",
-      "version_number": "v0.1.6.1-1.13_OF",
-      "game_versions": [
-        "1.13",
-        "1.13.1",
-        "1.13.2"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "df83c231e41f47548cb97612a66c10b4b5a79ab595b4713dc27515f46bc748ac0ba219b0f15b991895b57db363017a15471e97766cd690e15d6beeddd6ed6e03",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/sCYiFwkF/Glowing-OF_v0.1.6.1-1.13.zip",
-          "filename": "Glowing-OF_v0.1.6.1-1.13.zip",
-          "primary": true,
-          "size": 128906
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "o39b4zeQ",
-      "name": "v0.1.6.1 for 1.14[Optifine]",
-      "version_number": "v0.1.6.1-1.14_OF",
-      "game_versions": [
-        "1.14.2",
-        "1.14.3",
-        "1.14.4"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "9db3397fc88130231ed2be80c8dc530bb6da9e3fa73fc23e93148cd93b58c7fa7608fc8a7d2a209d68ca328bb2b7be49a2ca197d4891877883cfb340b68ef76f",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/o39b4zeQ/Glowing-OF_v0.1.6.1-1.14.zip",
-          "filename": "Glowing-OF_v0.1.6.1-1.14.zip",
-          "primary": true,
-          "size": 131298
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "B68EVqkq",
-      "name": "v0.1.6.1 for 1.15[Optifine]",
-      "version_number": "v0.1.6.1-1.15_OF",
-      "game_versions": [
-        "1.15.2"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "6aac531893dae7b91311596a64f4ab68fd970065685ede2b9a4cbf14c1cb5924a766e52da748c92bc54d65b370859df230f3aebd7955354c4cdc4f139b6cfe03",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/B68EVqkq/Glowing-OF_v0.1.6.1-1.15.zip",
-          "filename": "Glowing-OF_v0.1.6.1-1.15.zip",
-          "primary": true,
-          "size": 132260
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "tmjijb6g",
-      "name": "v0.1.6.1 for 1.19[Optifine]",
-      "version_number": "v0.1.6.1-1.19_OF",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "ef5ee4b7116023ae0407c4e283d7a0e5cf267f78df68fc27c20040fdf37967c79272132563b289a16369d976fd69fca6c091d6358dacac72357c3a6424d6441b",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/tmjijb6g/Glowing-OF_v0.1.6.1-1.19.zip",
-          "filename": "Glowing-OF_v0.1.6.1-1.19.zip",
-          "primary": true,
-          "size": 298100
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1IjD5062",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ceiPqFmI",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "BVzZfTc1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "oyVv5aSq",
-      "name": "v0.1.6.1 for 1.18[Optifine]",
-      "version_number": "v0.1.6.1-1.18_OF",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "185187d870d05da06df24748291b8bae565bff0bd60ae71b6e89d9b8312df7b98f39497c4bd72f275462fbf0e861e0db767bb75e1be7045c8beddea579d79964",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/oyVv5aSq/Glowing-OF_v0.1.6.1-1.18.zip",
-          "filename": "Glowing-OF_v0.1.6.1-1.18.zip",
-          "primary": true,
-          "size": 240302
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1IjD5062",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "BVzZfTc1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "ceiPqFmI",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "wGex0m0E",
-      "name": "v0.1.6.1 for 1.17[Optifine]",
-      "version_number": "v0.1.6.1-1.17_OF",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "ea47c8d301b35c0039d5708bb383d07e66efe99f93a689d4c4ec14622efd66132a3b53922c3acb91caa878bade1b64ff54a3b39362e9c73e4c7fb01a593c7f82",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/wGex0m0E/Glowing-OF_v0.1.6.1-1.17.zip",
-          "filename": "Glowing-OF_v0.1.6.1-1.17.zip",
-          "primary": true,
-          "size": 238203
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "BVzZfTc1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "XyDVkPh2",
-      "name": "v0.1.6.1 for 1.16[Optifine]",
-      "version_number": "v0.1.6.1-1.16_OF",
-      "game_versions": [
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "d2b7b70e46c72f63dfa34594ad1d1b5b8deca0db79660d8c550e73e049e1643f216b0c8cf4c619fe250182fe8b2fffa727f899f58ce2c2dace7fe5acbbbdeb27",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/XyDVkPh2/Glowing-OF_v0.1.6.1-1.16.zip",
-          "filename": "Glowing-OF_v0.1.6.1-1.16.zip",
-          "primary": true,
-          "size": 188580
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "BVzZfTc1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "T4WTpWSD",
-      "name": "v0.1.6 for 1.19[Optifine]",
-      "version_number": "v0.1.6-1.19_OF",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "47fffcf9bca9f24754f0cf4eb82499cdf98fa17ece4ab8728c0e940ad5a871e253600beb8b385f19ecc5231b26cfea307131817c18730f223e001e8114eab2a7",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/T4WTpWSD/Glowing-OF_v0.1.6-1.19.zip",
-          "filename": "Glowing-OF_v0.1.6-1.19.zip",
-          "primary": true,
-          "size": 298101
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1IjD5062",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "BVzZfTc1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "dR8yHtaU",
-      "name": "v0.1.6 for 1.18[Optifine]",
-      "version_number": "v0.1.6-1.18_OF",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "86ae78bcc7e70efdb1b08146942dedf28da4268fe08309c6bbcfc8845682e96b85df0899396d09ccd4b428601fbbf9fa7a8eb41d179f2d12a789bb07876ffc1b",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/dR8yHtaU/Glowing-OF_v0.1.6-1.18.zip",
-          "filename": "Glowing-OF_v0.1.6-1.18.zip",
-          "primary": true,
-          "size": 240303
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1IjD5062",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "BVzZfTc1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "ZTMLcdpx",
-      "name": "v0.1.6 for 1.17[Optifine]",
-      "version_number": "v0.1.6-1.17_OF",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "255b09717326ff43d9d3af67d588ceafd7e93b3686d825d69ba19dd8292e392a24393ea5a76ad47375030ca6e420ef8f612b5d9a6d16f9c017ac78bef46fb92d",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/ZTMLcdpx/Glowing-OF_v0.1.6-1.17.zip",
-          "filename": "Glowing-OF_v0.1.6-1.17.zip",
-          "primary": true,
-          "size": 238204
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "BVzZfTc1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "mTS6a0yH",
-      "name": "v0.1.6 for 1.16[Optifine]",
-      "version_number": "v0.1.6-1.16_OF",
-      "game_versions": [
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "f34f9d9df7c9547ca4d2cf077bd29989ba625700dd59aab86e7c03811f66d70b1acc571a41feb20754551463a6a2b769fc0348844680190f59ac710f7c88c361",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/mTS6a0yH/Glowing-OF_v0.1.6-1.16.zip",
-          "filename": "Glowing-OF_v0.1.6-1.16.zip",
-          "primary": true,
-          "size": 188581
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "BVzZfTc1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "gs7Ibzjm",
-      "name": "v0.1.5.2 for 1.19[ConnectedTextureMod]",
-      "version_number": "v0.1.5.2-1.19_CTM",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "41af8a222418cae063e4f405788ed432d35cc1fa50086bdc3eb4848a5a5b288fb18e0ced496c95c7210794befd1cf8c04576aab17942873108b7b1bbfc11ab2a",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/gs7Ibzjm/Glowing-CTM_v0.1.5.2-1.19.zip",
-          "filename": "Glowing-CTM_v0.1.5.2-1.19.zip",
-          "primary": true,
-          "size": 204919
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "syUFsyMr",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "XYmxPqlN",
-      "name": "v0.1.5.2 for 1.18[ConnectedTextureMod]",
-      "version_number": "v0.1.5.2-1.18_CTM",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "48e755c60878e51b09c9c54463d47fad405d34a822a862b6d026f6c50828dd56f9ef013c8c11c6d97acd6d8206d16f33e13e84d32ebcd10ddb9c0e6c95610a57",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/XYmxPqlN/Glowing-CTM_v0.1.5.2-1.18.zip",
-          "filename": "Glowing-CTM_v0.1.5.2-1.18.zip",
-          "primary": true,
-          "size": 187435
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "syUFsyMr",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "uHy6ai6d",
-      "name": "v0.1.5.2 for 1.17[ConnectedTextureMod]",
-      "version_number": "v0.1.5.2-1.17_CTM",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "9330f2cd29c3a679949847775c8a31bbcd356887ba8aba638fe8e335590b7f045efb60984d1b71b53e49c2233fc1d4c02ae401587bddde07c2c697a85d81ca4e",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/uHy6ai6d/Glowing-CTM_v0.1.5.2-1.17.zip",
-          "filename": "Glowing-CTM_v0.1.5.2-1.17.zip",
-          "primary": true,
-          "size": 184687
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "PVEwA4Bb",
-      "name": "v0.1.5.2 for 1.16[ConnectedTextureMod]",
-      "version_number": "v0.1.5.2-1.16_CTM",
-      "game_versions": [
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "9812f592e3a7e84ed63601fffc8c382bb14fff84cc8c83c7c12acec01c4be57dbc958ef803d2499c619e113e3bc850601712140ec21eb6fa6de18e1d58227d0e",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/PVEwA4Bb/Glowing-CTM_v0.1.5.2-1.16.zip",
-          "filename": "Glowing-CTM_v0.1.5.2-1.16.zip",
-          "primary": true,
-          "size": 150091
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "P5jUvK3C",
-      "name": "v0.1.5.1 for 1.16[ConnectedTextureMod]",
-      "version_number": "v0.1.5.1-1.16_CTM",
-      "game_versions": [
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "c0d75f3cfba6908bc6d520b816383d642497cb880fdb0bc56e7ce72a2a0f3d9d6f7ee34909a24520e8a6a1bd0a6ce819f8f6b8607d9dcd2d24e67159034bf0ea",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/P5jUvK3C/Glowing-CTM_v0.1.5.1-1.16.zip",
-          "filename": "Glowing-CTM_v0.1.5.1-1.16.zip",
-          "primary": true,
-          "size": 142447
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "TKNW30nL",
-      "name": "v0.1.5.1 for 1.16[Optifine]",
-      "version_number": "v0.1.5.1-1.16_OF",
-      "game_versions": [
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
-        "1.16.4",
-        "1.16.5"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "eb5b9515b260dc1ffb5b98c1f4935062209bc8b238bb30cae0e48ad0b4473ffba457f0d1729f65198ec20cbb429fc6e86768791faceb31c0aee525ba2ef4bc5b",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/TKNW30nL/Glowing-OF_v0.1.5.1-1.16.zip",
-          "filename": "Glowing-OF_v0.1.5.1-1.16.zip",
-          "primary": true,
-          "size": 142560
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "BVzZfTc1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "v6DafYxM",
-      "name": "v0.1.5.1 for 1.17[ConnectedTextureMod]",
-      "version_number": "v0.1.5.1-1.17_CTM",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "a43611c10998a59518df49859e7674549c162d1dc9deeef42fcd17d212883319b5be1de39accb1ea41bd02afc031d89e3ccf1ce8063813bf68e78151e40605af",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/v6DafYxM/Glowing-CTM_v0.1.5.1-1.17.zip",
-          "filename": "Glowing-CTM_v0.1.5.1-1.17.zip",
-          "primary": true,
-          "size": 178145
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "oFUT93OY",
-      "name": "v0.1.5.1 for 1.17[Optifine]",
-      "version_number": "v0.1.5.1-1.17_OF",
-      "game_versions": [
-        "1.17",
-        "1.17.1"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "71a74ef079677a1a113fcfb001fef755b59cea2e58bde151a75ba01ab892d0903ef50c3c8aa5dbb5ef962878879061527e8e0e02ac5b2fcfbff148ffefd47a52",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/oFUT93OY/Glowing-OF_v0.1.5.1-1.17.zip",
-          "filename": "Glowing-OF_v0.1.5.1-1.17.zip",
-          "primary": true,
-          "size": 190637
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "BVzZfTc1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "v4FAUAoX",
-      "name": "v0.1.5.1 for 1.18[ConnectedTextureMod]",
-      "version_number": "v0.1.5.1-1.18_CTM",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "c7d4025503cc9efcee0e968fc87d9edddf002cd2e4850f025c2c38de765948d570824c9f31f52906f8744762e86c62754ddc8262bb761256cd97d88a9b19bb60",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/v4FAUAoX/Glowing-CTM_v0.1.5.1-1.18.zip",
-          "filename": "Glowing-CTM_v0.1.5.1-1.18.zip",
-          "primary": true,
-          "size": 180829
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "syUFsyMr",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "PJLuTuI9",
-      "name": "v0.1.5.1 for 1.18[Optifine]",
-      "version_number": "v0.1.5.1-1.18_OF",
-      "game_versions": [
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "aa3cae5fdfe73fff842719c2ca1358a36dece4e867727c2fad2b53d38369bda3fb9a4368de97631a8a2bd478fec83a6ba25df14494429cdf6abdf273223dce22",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/PJLuTuI9/Glowing-OF_v0.1.5.1-1.18.zip",
-          "filename": "Glowing-OF_v0.1.5.1-1.18.zip",
-          "primary": true,
-          "size": 192681
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "BVzZfTc1",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "1IjD5062",
-          "version_id": "Bl7pOAQf",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "QzD5QFdp",
-      "name": "v0.1.5.1 for 1.19[ConnectedTextureMod]",
-      "version_number": "v0.1.5.1-1.19_CTM",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "4f3bfc6a6ef2f82cfdd09ac8651e21ee750a941b016dc8f57f5d62779f09e815fc84fe6969d8a61bbc6508af202cf3f241901ba0376fbdf0167e9074799bfcbb",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/QzD5QFdp/Glowing-CTM_v0.1.5.1-1.19.zip",
-          "filename": "Glowing-CTM_v0.1.5.1-1.19.zip",
-          "primary": true,
-          "size": 197877
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "syUFsyMr",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Z1BuWruQ",
-      "name": "v0.1.5.2 for 1.19[Optifine]",
-      "version_number": "v0.1.5.2-1.19_OF",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "minecraft"
-      ],
-      "files": [
-        {
-          "sha512": "b9437889b8dca071df7907c0c02163b41ab09b0bf286a33cb3eb1d7a06f51a66d17e96550561d7a5b416b942ed2298259cb6f13bc8f5c0277997782954125c4d",
-          "url": "https://cdn.modrinth.com/data/16olY6M5/versions/Z1BuWruQ/Glowing-OF_v0.1.5.2-1.19.zip",
-          "filename": "Glowing-OF_v0.1.5.2-1.19.zip",
-          "primary": true,
-          "size": 249191
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "1IjD5062",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "BVzZfTc1",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"

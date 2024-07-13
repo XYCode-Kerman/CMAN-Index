@@ -5,76 +5,6 @@
   "description": "Advanced-HUD shows your FPS, Coordinates and Ping! You can enable or disable every HUD.",
   "versions": [
     {
-      "id": "mwcrIpM1",
-      "name": "Advanced HUD 2.1.1 for 1.21",
-      "version_number": "2.1.1+1.21",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "d0fa3ce8f2cdd7aeeec5d19bd8cf4264596c5566545c5a2030a539ea96aeed5182cc1653ae49ec03fbdb4f3a7f71bcc0cc0d139d4f692be51b3ecfed3756e4e7",
-          "url": "https://cdn.modrinth.com/data/n73PVNjl/versions/mwcrIpM1/advanced-hud-fabric-2.1.1%2B1.21.jar",
-          "filename": "advanced-hud-fabric-2.1.1+1.21.jar",
-          "primary": true,
-          "size": 1140279
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "xhN1IvHi",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "rDk1XbZX",
-      "name": "Advanced HUD 2.1.0 for 1.20.6",
-      "version_number": "2.1.0+1.20.6",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6f10126696a814a490c7f7a3a11be349117242c962d2661fb041e4cb9bf8e5d2dcfed8082ab8f34441661c335f810fd06b9b237565f324fb8cb20e65c0358279",
-          "url": "https://cdn.modrinth.com/data/n73PVNjl/versions/rDk1XbZX/advanced-hud-fabric-2.1.0%2B1.20.6.jar",
-          "filename": "advanced-hud-fabric-2.1.0+1.20.6.jar",
-          "primary": true,
-          "size": 1139542
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "NgnZx44E",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "RwFULf5j",
       "name": "Advanced HUD 2.0.9 for 1.20.6",
       "version_number": "2.0.9+1.20.6",
@@ -96,16 +26,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "mOgUt4GM",
           "version_id": "NgnZx44E",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -145,6 +75,75 @@
       ]
     },
     {
+      "id": "fUUpCyyG",
+      "name": "Advanced HUD 2.0.6 for 1.20.2",
+      "version_number": "2.0.6+1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "bab0dc78f436969a06e5ef77abb3ae2bf23a0864222ab0f46ef6d0d9c6e9d7c94e6ce9e5636303c5398d5af308ba1e7fe624d016b3f7ea54e39fcad2bf17e9a2",
+          "url": "https://cdn.modrinth.com/data/n73PVNjl/versions/fUUpCyyG/advanced-hud-fabric-2.0.6%2B1.20.2.jar",
+          "filename": "advanced-hud-fabric-2.0.6+1.20.2.jar",
+          "primary": true,
+          "size": 1146184
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "zv46i3PW",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "mwcrIpM1",
+      "name": "Advanced HUD 2.1.1 for 1.21",
+      "version_number": "2.1.1+1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "d0fa3ce8f2cdd7aeeec5d19bd8cf4264596c5566545c5a2030a539ea96aeed5182cc1653ae49ec03fbdb4f3a7f71bcc0cc0d139d4f692be51b3ecfed3756e4e7",
+          "url": "https://cdn.modrinth.com/data/n73PVNjl/versions/mwcrIpM1/advanced-hud-fabric-2.1.1%2B1.21.jar",
+          "filename": "advanced-hud-fabric-2.1.1+1.21.jar",
+          "primary": true,
+          "size": 1140279
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "xhN1IvHi",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "pkjHnKgP",
       "name": "Advanced HUD 2.0.7 for 1.20.4",
       "version_number": "2.0.7+1.20.4",
@@ -179,36 +178,58 @@
       ]
     },
     {
-      "id": "fUUpCyyG",
-      "name": "Advanced HUD 2.0.6 for 1.20.2",
-      "version_number": "2.0.6+1.20.2",
+      "id": "pwfsRBVp",
+      "name": "Advanced-HUD 2.0.3 for 1.20",
+      "version_number": "2.0.3+1.20",
       "game_versions": [
-        "1.20.2"
+        "1.20"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "bab0dc78f436969a06e5ef77abb3ae2bf23a0864222ab0f46ef6d0d9c6e9d7c94e6ce9e5636303c5398d5af308ba1e7fe624d016b3f7ea54e39fcad2bf17e9a2",
-          "url": "https://cdn.modrinth.com/data/n73PVNjl/versions/fUUpCyyG/advanced-hud-fabric-2.0.6%2B1.20.2.jar",
-          "filename": "advanced-hud-fabric-2.0.6+1.20.2.jar",
+          "sha512": "f4f21388f1dba42022b207db595fdfb6f47741942e19148a6e207b0c364ed161feeb6988ad5a95ad1f907efe55ff55f4ea6a0255b70053e51f8840ddc6bb14db",
+          "url": "https://cdn.modrinth.com/data/n73PVNjl/versions/pwfsRBVp/advanced-hud-fabric-2.0.3%2B1.20.jar",
+          "filename": "advanced-hud-fabric-2.0.3+1.20.jar",
           "primary": true,
-          "size": 1146184
+          "size": 1131940
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rDk1XbZX",
+      "name": "Advanced HUD 2.1.0 for 1.20.6",
+      "version_number": "2.1.0+1.20.6",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "6f10126696a814a490c7f7a3a11be349117242c962d2661fb041e4cb9bf8e5d2dcfed8082ab8f34441661c335f810fd06b9b237565f324fb8cb20e65c0358279",
+          "url": "https://cdn.modrinth.com/data/n73PVNjl/versions/rDk1XbZX/advanced-hud-fabric-2.1.0%2B1.20.6.jar",
+          "filename": "advanced-hud-fabric-2.1.0+1.20.6.jar",
+          "primary": true,
+          "size": 1139542
         }
       ],
       "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "NgnZx44E",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
         {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "zv46i3PW",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -245,27 +266,6 @@
           "dependency_type": "optional"
         }
       ]
-    },
-    {
-      "id": "pwfsRBVp",
-      "name": "Advanced-HUD 2.0.3 for 1.20",
-      "version_number": "2.0.3+1.20",
-      "game_versions": [
-        "1.20"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "f4f21388f1dba42022b207db595fdfb6f47741942e19148a6e207b0c364ed161feeb6988ad5a95ad1f907efe55ff55f4ea6a0255b70053e51f8840ddc6bb14db",
-          "url": "https://cdn.modrinth.com/data/n73PVNjl/versions/pwfsRBVp/advanced-hud-fabric-2.0.3%2B1.20.jar",
-          "filename": "advanced-hud-fabric-2.0.3+1.20.jar",
-          "primary": true,
-          "size": 1131940
-        }
-      ],
-      "dependencies": []
     }
   ]
 }

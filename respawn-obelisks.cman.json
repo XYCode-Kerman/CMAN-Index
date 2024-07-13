@@ -5,9 +5,9 @@
   "description": "A simple but feature-complete mod that overhauls the respawning system.",
   "versions": [
     {
-      "id": "cBVDiwg1",
-      "name": "(forge) 2.5-d",
-      "version_number": "2.5-d",
+      "id": "109THWOt",
+      "name": "2.4-a",
+      "version_number": "2.4-a",
       "game_versions": [
         "1.20.1"
       ],
@@ -16,11 +16,11 @@
       ],
       "files": [
         {
-          "sha512": "667c778eb62c2ca06646d3d4a67f86b5041c110038d98fb372ced22f761ea5db531f3ad70d5c4fcea96a38f635c292869ed0cddf257e00ac8fa09f1e0a5fd456",
-          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/cBVDiwg1/respawnobelisks-2.5-d.jar",
-          "filename": "respawnobelisks-2.5-d.jar",
+          "sha512": "78a9ff6f9d8375c6c9bb40634e0e44596072243daa360126e1fcf2b30130a9d35c04768154a7849f3a303155c90cebf48ba8b78360db47e44c35ac234acf548b",
+          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/109THWOt/respawnobelisks-2.4-a.jar",
+          "filename": "respawnobelisks-2.4-a.jar",
           "primary": true,
-          "size": 1266641
+          "size": 1326432
         }
       ],
       "dependencies": [
@@ -31,10 +31,102 @@
           "dependency_type": "optional"
         },
         {
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "lhGA9TYQ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "1dUdCahO",
+      "name": "(Forge) Respawn Obelisks 2.0-Beta",
+      "version_number": "2.0-beta",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "264c296bf26e5727e1517c2e2bd17bd4d69341a49d2ee526ddfcfbb6c359e97d1ff78b772620e4a5bc1fe8d7fea4f1ecd572d13f0ea608e04ae37d54e7812a6e",
+          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/1dUdCahO/respawnobelisks-2.0-beta-forge.jar",
+          "filename": "respawnobelisks-2.0-beta-forge.jar",
+          "primary": true,
+          "size": 346126
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "M1953qlQ",
+          "version_id": "6k0hdREk",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "ns7Xs1B6",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "2nhynBYr",
+      "name": "2.1-b",
+      "version_number": "2.1-b",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "78c1a96b1d86fccf492d60d3bc6301870de90dbd9a460f61fd2cd6bdb6d9f21bdeabde9c81a04b1c6eee70d16d279f5e73e8936e0335b8485209fc357b33790b",
+          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/2nhynBYr/respawnobelisks-2.1-b.jar",
+          "filename": "respawnobelisks-2.1-b.jar",
+          "primary": true,
+          "size": 1137276
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": "8y6r09NZ",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -75,200 +167,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "z3E8bemR",
-      "name": "(forge) 2.5-c",
-      "version_number": "2.5-c",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "f0358f4f6d872408ff5e10d538de9888f1ac26cf1dd477e11a4d52285d0ab36689cc24287fb65400e5db20e36231c1ccbdeeb209ab8b98179878b7073405a429",
-          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/z3E8bemR/respawnobelisks-2.5-c.jar",
-          "filename": "respawnobelisks-2.5-c.jar",
-          "primary": true,
-          "size": 1273423
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Q25lOHBG",
-      "name": "(fabric) 2.5-c",
-      "version_number": "2.5-c",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "0f8a18592ba854798760d61a81ecb3bf6d3c9e05d7d94b8869b80ab88596e780341915af747c1611233eaca676e2d21340939b742ee367e2d77865a899fdff5b",
-          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/Q25lOHBG/respawnobelisks-2.5-c.jar",
-          "filename": "respawnobelisks-2.5-c.jar",
-          "primary": true,
-          "size": 1249835
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "UxGyVTQo",
-      "name": "(forge) 2.5-b",
-      "version_number": "2.5-b",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "993cb204a8b89f492e30a6b726105d6320727af5e402f37d5965b14be07a0fb18bae522ef1e71b04e49ae71355622aead070c2636547d88e2ec0969b37afb48b",
-          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/UxGyVTQo/respawnobelisks-2.5-b.jar",
-          "filename": "respawnobelisks-2.5-b.jar",
-          "primary": true,
-          "size": 1272988
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "vl57ICTj",
-      "name": "(fabric) 2.5-b",
-      "version_number": "2.5-b",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "304a4f774c6d6144924e693014e7845da342fdd773b435acb2ff81aba0babd70c8b627b87c8e3d58cabe9b059ee9fb08176ea86db707db841f4004f5c9889813",
-          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/vl57ICTj/respawnobelisks-2.5-b.jar",
-          "filename": "respawnobelisks-2.5-b.jar",
-          "primary": true,
-          "size": 1249433
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "a3djWmTt",
-      "name": "(forge) 2.5-a",
-      "version_number": "2.5-a",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "4c1cc070b47347cb4781faa6cdb37b89999f3cab82271becb2ecb54c529c794a7eb6e0b89cf315ebc46976d77631fdc964f33436e92548eb9c750e18a9a4e426",
-          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/a3djWmTt/respawnobelisks-2.5-a.jar",
-          "filename": "respawnobelisks-2.5-a.jar",
-          "primary": true,
-          "size": 1260991
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "u6dRKJwZ",
@@ -325,34 +223,28 @@
       ]
     },
     {
-      "id": "swQ3QdxC",
-      "name": "(forge) 2.4-d",
-      "version_number": "2.4-d",
+      "id": "F0l0n4eY",
+      "name": "2.1-a",
+      "version_number": "2.1-a",
       "game_versions": [
-        "1.20.1"
+        "1.19.2"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "9f0779e828474bfc69cbe1eb42f83eadaa59050417da40145fe45858c15b05053ae5d6a862b8ac30ec1766297cbcc98e8b38fcf13496f15773000a5675175b5d",
-          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/swQ3QdxC/respawnobelisks-2.4-d.jar",
-          "filename": "respawnobelisks-2.4-d.jar",
+          "sha512": "afc9208b195f0c742bedacc1d87a684493098a270ad4236f25e5d7ae6158aa410c4468b4aebc643b909ff7bac962de539c493184b9928e1933fdb5bf63ea0f9f",
+          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/F0l0n4eY/respawnobelisks-2.1-a.jar",
+          "filename": "respawnobelisks-2.1-a.jar",
           "primary": true,
-          "size": 817271
+          "size": 1146030
         }
       ],
       "dependencies": [
         {
-          "project_id": "M1953qlQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "u6dRKJwZ",
-          "version_id": null,
+          "version_id": "YWrLRDfT",
           "file_name": null,
           "dependency_type": "optional"
         },
@@ -361,13 +253,19 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "eiSz7YaA",
-      "name": "(fabric) 2.4-d",
-      "version_number": "2.4-d",
+      "id": "IlR5YkFS",
+      "name": "2.3-a",
+      "version_number": "2.3-a",
       "game_versions": [
         "1.20.1"
       ],
@@ -376,14 +274,32 @@
       ],
       "files": [
         {
-          "sha512": "f451b1c94bf4c2ab0d1553850ab96a81a0604932b0dca9b998ced46178cad1800257fd0b67d2f650ae22595206ac06bd5bbea9ca5091e9e2638ac5b68c9a2865",
-          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/eiSz7YaA/respawnobelisks-2.4-d.jar",
-          "filename": "respawnobelisks-2.4-d.jar",
+          "sha512": "af9d0507cdfce89f59f7a5715c8c5aa70a71e161c91fe46fa8c3268dcdac2b08d12d78899a05d57a7c2ca8425ecbedb5eb06328ec738af8726d9c2f59508a57d",
+          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/IlR5YkFS/respawnobelisks-2.3-a.jar",
+          "filename": "respawnobelisks-2.3-a.jar",
           "primary": true,
-          "size": 800115
+          "size": 1307131
         }
       ],
       "dependencies": [
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": "HtjsxDMk",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": "Sbew3kXe",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
         {
           "project_id": "M1953qlQ",
           "version_id": null,
@@ -392,61 +308,37 @@
         },
         {
           "project_id": "mOgUt4GM",
-          "version_id": null,
+          "version_id": "eTCL1uh8",
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "q8q4Zbzp",
-      "name": "(forge) 2.4-c",
-      "version_number": "2.4-c",
+      "id": "JliDur8W",
+      "name": "(Fabric) Respawn Obelisks 2.0-Beta",
+      "version_number": "2.0-beta",
       "game_versions": [
-        "1.20.1"
+        "1.19.2"
       ],
       "loaders": [
-        "forge"
+        "fabric"
       ],
       "files": [
         {
-          "sha512": "d484672ce0d5a9f42ebb598c0ad3c29657a3d5f5e723e92062c5c7a098ddf1dd8c809b90c75e9a216be3380660799c2a364e60b1b68637951019b520b5658c83",
-          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/q8q4Zbzp/respawnobelisks-2.4-c.jar",
-          "filename": "respawnobelisks-2.4-c.jar",
+          "sha512": "8e05848ef7b03dfee90ec99919a8c34c7d620c31f0ad216a066e51fd99703f26cfaae2a4074f76863fb4f16a484f238e8ddeb5ee8b11c2aee5c4403fbe7a611b",
+          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/JliDur8W/respawnobelisks-2.0-beta-fabric.jar",
+          "filename": "respawnobelisks-2.0-beta-fabric.jar",
           "primary": true,
-          "size": 872038
+          "size": 338509
         }
       ],
       "dependencies": [
         {
           "project_id": "lhGA9TYQ",
-          "version_id": null,
+          "version_id": "HoIJp48v",
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
         },
         {
           "project_id": "M1953qlQ",
@@ -493,46 +385,6 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "optional"
-        },
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "xiOEUWbH",
-      "name": "(forge) 2.4-b",
-      "version_number": "2.4-b",
-      "game_versions": [
-        "1.20.1"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "f59b3c2f987ab288b0254eb1c8fe957ea69cb909fbdcfe861c7ec913751c12be9cb515be0e480006d6004357ff0712fbe7584ebeb4d8783f9aa2499950cda287",
-          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/xiOEUWbH/respawnobelisks-2.4-b.jar",
-          "filename": "respawnobelisks-2.4-b.jar",
-          "primary": true,
-          "size": 873201
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "M1953qlQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
         },
         {
           "project_id": "u6dRKJwZ",
@@ -601,9 +453,55 @@
       ]
     },
     {
-      "id": "109THWOt",
-      "name": "2.4-a",
-      "version_number": "2.4-a",
+      "id": "Q25lOHBG",
+      "name": "(fabric) 2.5-c",
+      "version_number": "2.5-c",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "0f8a18592ba854798760d61a81ecb3bf6d3c9e05d7d94b8869b80ab88596e780341915af747c1611233eaca676e2d21340939b742ee367e2d77865a899fdff5b",
+          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/Q25lOHBG/respawnobelisks-2.5-c.jar",
+          "filename": "respawnobelisks-2.5-c.jar",
+          "primary": true,
+          "size": 1249835
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "UxGyVTQo",
+      "name": "(forge) 2.5-b",
+      "version_number": "2.5-b",
       "game_versions": [
         "1.20.1"
       ],
@@ -612,17 +510,51 @@
       ],
       "files": [
         {
-          "sha512": "78a9ff6f9d8375c6c9bb40634e0e44596072243daa360126e1fcf2b30130a9d35c04768154a7849f3a303155c90cebf48ba8b78360db47e44c35ac234acf548b",
-          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/109THWOt/respawnobelisks-2.4-a.jar",
-          "filename": "respawnobelisks-2.4-a.jar",
+          "sha512": "993cb204a8b89f492e30a6b726105d6320727af5e402f37d5965b14be07a0fb18bae522ef1e71b04e49ae71355622aead070c2636547d88e2ec0969b37afb48b",
+          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/UxGyVTQo/respawnobelisks-2.5-b.jar",
+          "filename": "respawnobelisks-2.5-b.jar",
           "primary": true,
-          "size": 1326432
+          "size": 1272988
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "V5Pff7jD",
+      "name": "2.1-b",
+      "version_number": "2.1-b",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "401adbd22e2236c9c9230e6018b3aa5c8a0841757b179c45ddb9d9eeff19255f6b18ef6d80e8cfe3875130ec19a6d8e2da1bffa6fb4e14da910419381772fae9",
+          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/V5Pff7jD/respawnobelisks-2.1-b.jar",
+          "filename": "respawnobelisks-2.1-b.jar",
+          "primary": true,
+          "size": 1146543
         }
       ],
       "dependencies": [
         {
           "project_id": "u6dRKJwZ",
-          "version_id": null,
+          "version_id": "YWrLRDfT",
           "file_name": null,
           "dependency_type": "optional"
         },
@@ -693,9 +625,9 @@
       ]
     },
     {
-      "id": "v40V5Cbd",
-      "name": "2.3-a",
-      "version_number": "2.3-a",
+      "id": "a3djWmTt",
+      "name": "(forge) 2.5-a",
+      "version_number": "2.5-a",
       "game_versions": [
         "1.20.1"
       ],
@@ -704,38 +636,66 @@
       ],
       "files": [
         {
-          "sha512": "f104313e8572afec979308b194357f6169da9b2c65ed723425f068890082a2b11524a555fb5502cae54ec3a2988e50f098f5886f8268f15fc9565eaade076ff2",
-          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/v40V5Cbd/respawnobelisks-2.3-a.jar",
-          "filename": "respawnobelisks-2.3-a.jar",
+          "sha512": "4c1cc070b47347cb4781faa6cdb37b89999f3cab82271becb2ecb54c529c794a7eb6e0b89cf315ebc46976d77631fdc964f33436e92548eb9c750e18a9a4e426",
+          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/a3djWmTt/respawnobelisks-2.5-a.jar",
+          "filename": "respawnobelisks-2.5-a.jar",
           "primary": true,
-          "size": 1322578
+          "size": 1260991
         }
       ],
       "dependencies": [
         {
-          "project_id": "u6dRKJwZ",
-          "version_id": "fGcPFvGp",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "M1953qlQ",
+          "project_id": "lhGA9TYQ",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "cBVDiwg1",
+      "name": "(forge) 2.5-d",
+      "version_number": "2.5-d",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "667c778eb62c2ca06646d3d4a67f86b5041c110038d98fb372ced22f761ea5db531f3ad70d5c4fcea96a38f635c292869ed0cddf257e00ac8fa09f1e0a5fd456",
+          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/cBVDiwg1/respawnobelisks-2.5-d.jar",
+          "filename": "respawnobelisks-2.5-d.jar",
+          "primary": true,
+          "size": 1266641
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "lhGA9TYQ",
-          "version_id": "gyJ7kDpb",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
       ]
     },
     {
-      "id": "IlR5YkFS",
-      "name": "2.3-a",
-      "version_number": "2.3-a",
+      "id": "eiSz7YaA",
+      "name": "(fabric) 2.4-d",
+      "version_number": "2.4-d",
       "game_versions": [
         "1.20.1"
       ],
@@ -744,112 +704,14 @@
       ],
       "files": [
         {
-          "sha512": "af9d0507cdfce89f59f7a5715c8c5aa70a71e161c91fe46fa8c3268dcdac2b08d12d78899a05d57a7c2ca8425ecbedb5eb06328ec738af8726d9c2f59508a57d",
-          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/IlR5YkFS/respawnobelisks-2.3-a.jar",
-          "filename": "respawnobelisks-2.3-a.jar",
+          "sha512": "f451b1c94bf4c2ab0d1553850ab96a81a0604932b0dca9b998ced46178cad1800257fd0b67d2f650ae22595206ac06bd5bbea9ca5091e9e2638ac5b68c9a2865",
+          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/eiSz7YaA/respawnobelisks-2.4-d.jar",
+          "filename": "respawnobelisks-2.4-d.jar",
           "primary": true,
-          "size": 1307131
+          "size": 800115
         }
       ],
       "dependencies": [
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": "HtjsxDMk",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": "Sbew3kXe",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "M1953qlQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "eTCL1uh8",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "V5Pff7jD",
-      "name": "2.1-b",
-      "version_number": "2.1-b",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "401adbd22e2236c9c9230e6018b3aa5c8a0841757b179c45ddb9d9eeff19255f6b18ef6d80e8cfe3875130ec19a6d8e2da1bffa6fb4e14da910419381772fae9",
-          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/V5Pff7jD/respawnobelisks-2.1-b.jar",
-          "filename": "respawnobelisks-2.1-b.jar",
-          "primary": true,
-          "size": 1146543
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "M1953qlQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": "YWrLRDfT",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "2nhynBYr",
-      "name": "2.1-b",
-      "version_number": "2.1-b",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "78c1a96b1d86fccf492d60d3bc6301870de90dbd9a460f61fd2cd6bdb6d9f21bdeabde9c81a04b1c6eee70d16d279f5e73e8936e0335b8485209fc357b33790b",
-          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/2nhynBYr/respawnobelisks-2.1-b.jar",
-          "filename": "respawnobelisks-2.1-b.jar",
-          "primary": true,
-          "size": 1137276
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": "8y6r09NZ",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
         {
           "project_id": "M1953qlQ",
           "version_id": null,
@@ -863,56 +725,22 @@
           "dependency_type": "optional"
         },
         {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
           "project_id": "P7dR8mSH",
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "F0l0n4eY",
-      "name": "2.1-a",
-      "version_number": "2.1-a",
-      "game_versions": [
-        "1.19.2"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "afc9208b195f0c742bedacc1d87a684493098a270ad4236f25e5d7ae6158aa410c4468b4aebc643b909ff7bac962de539c493184b9928e1933fdb5bf63ea0f9f",
-          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/F0l0n4eY/respawnobelisks-2.1-a.jar",
-          "filename": "respawnobelisks-2.1-a.jar",
-          "primary": true,
-          "size": 1146030
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "M1953qlQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": "YWrLRDfT",
-          "file_name": null,
-          "dependency_type": "optional"
         }
       ]
     },
@@ -937,16 +765,16 @@
       ],
       "dependencies": [
         {
-          "project_id": "lhGA9TYQ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
           "project_id": "u6dRKJwZ",
           "version_id": "8y6r09NZ",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
           "project_id": "P7dR8mSH",
@@ -969,22 +797,62 @@
       ]
     },
     {
-      "id": "JliDur8W",
-      "name": "(Fabric) Respawn Obelisks 2.0-Beta",
-      "version_number": "2.0-beta",
+      "id": "q8q4Zbzp",
+      "name": "(forge) 2.4-c",
+      "version_number": "2.4-c",
       "game_versions": [
-        "1.19.2"
+        "1.20.1"
       ],
       "loaders": [
-        "fabric"
+        "forge"
       ],
       "files": [
         {
-          "sha512": "8e05848ef7b03dfee90ec99919a8c34c7d620c31f0ad216a066e51fd99703f26cfaae2a4074f76863fb4f16a484f238e8ddeb5ee8b11c2aee5c4403fbe7a611b",
-          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/JliDur8W/respawnobelisks-2.0-beta-fabric.jar",
-          "filename": "respawnobelisks-2.0-beta-fabric.jar",
+          "sha512": "d484672ce0d5a9f42ebb598c0ad3c29657a3d5f5e723e92062c5c7a098ddf1dd8c809b90c75e9a216be3380660799c2a364e60b1b68637951019b520b5658c83",
+          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/q8q4Zbzp/respawnobelisks-2.4-c.jar",
+          "filename": "respawnobelisks-2.4-c.jar",
           "primary": true,
-          "size": 338509
+          "size": 872038
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "swQ3QdxC",
+      "name": "(forge) 2.4-d",
+      "version_number": "2.4-d",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "9f0779e828474bfc69cbe1eb42f83eadaa59050417da40145fe45858c15b05053ae5d6a862b8ac30ec1766297cbcc98e8b38fcf13496f15773000a5675175b5d",
+          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/swQ3QdxC/respawnobelisks-2.4-d.jar",
+          "filename": "respawnobelisks-2.4-d.jar",
+          "primary": true,
+          "size": 817271
         }
       ],
       "dependencies": [
@@ -996,41 +864,173 @@
         },
         {
           "project_id": "lhGA9TYQ",
-          "version_id": "HoIJp48v",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
     {
-      "id": "1dUdCahO",
-      "name": "(Forge) Respawn Obelisks 2.0-Beta",
-      "version_number": "2.0-beta",
+      "id": "v40V5Cbd",
+      "name": "2.3-a",
+      "version_number": "2.3-a",
       "game_versions": [
-        "1.19.2"
+        "1.20.1"
       ],
       "loaders": [
         "forge"
       ],
       "files": [
         {
-          "sha512": "264c296bf26e5727e1517c2e2bd17bd4d69341a49d2ee526ddfcfbb6c359e97d1ff78b772620e4a5bc1fe8d7fea4f1ecd572d13f0ea608e04ae37d54e7812a6e",
-          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/1dUdCahO/respawnobelisks-2.0-beta-forge.jar",
-          "filename": "respawnobelisks-2.0-beta-forge.jar",
+          "sha512": "f104313e8572afec979308b194357f6169da9b2c65ed723425f068890082a2b11524a555fb5502cae54ec3a2988e50f098f5886f8268f15fc9565eaade076ff2",
+          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/v40V5Cbd/respawnobelisks-2.3-a.jar",
+          "filename": "respawnobelisks-2.3-a.jar",
           "primary": true,
-          "size": 346126
+          "size": 1322578
         }
       ],
       "dependencies": [
         {
           "project_id": "M1953qlQ",
-          "version_id": "6k0hdREk",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         },
         {
+          "project_id": "u6dRKJwZ",
+          "version_id": "fGcPFvGp",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "lhGA9TYQ",
-          "version_id": "ns7Xs1B6",
+          "version_id": "gyJ7kDpb",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "vl57ICTj",
+      "name": "(fabric) 2.5-b",
+      "version_number": "2.5-b",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "304a4f774c6d6144924e693014e7845da342fdd773b435acb2ff81aba0babd70c8b627b87c8e3d58cabe9b059ee9fb08176ea86db707db841f4004f5c9889813",
+          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/vl57ICTj/respawnobelisks-2.5-b.jar",
+          "filename": "respawnobelisks-2.5-b.jar",
+          "primary": true,
+          "size": 1249433
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "xiOEUWbH",
+      "name": "(forge) 2.4-b",
+      "version_number": "2.4-b",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f59b3c2f987ab288b0254eb1c8fe957ea69cb909fbdcfe861c7ec913751c12be9cb515be0e480006d6004357ff0712fbe7584ebeb4d8783f9aa2499950cda287",
+          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/xiOEUWbH/respawnobelisks-2.4-b.jar",
+          "filename": "respawnobelisks-2.4-b.jar",
+          "primary": true,
+          "size": 873201
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "M1953qlQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "z3E8bemR",
+      "name": "(forge) 2.5-c",
+      "version_number": "2.5-c",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "f0358f4f6d872408ff5e10d538de9888f1ac26cf1dd477e11a4d52285d0ab36689cc24287fb65400e5db20e36231c1ccbdeeb209ab8b98179878b7073405a429",
+          "url": "https://cdn.modrinth.com/data/ZT5K3j93/versions/z3E8bemR/respawnobelisks-2.5-c.jar",
+          "filename": "respawnobelisks-2.5-c.jar",
+          "primary": true,
+          "size": 1273423
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "lhGA9TYQ",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }

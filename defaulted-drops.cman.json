@@ -5,11 +5,12 @@
   "description": "Library to make blocks with no loot tables drop themselves. Only affects mods that opt-in.",
   "versions": [
     {
-      "id": "W6vEQvLq",
-      "name": "1.3.0+MC1.21",
-      "version_number": "1.3.0+MC1.21",
+      "id": "177KqoC1",
+      "name": "1.2.0+MC1.20-1.20.1",
+      "version_number": "1.2.0+MC1.20-1.20.1",
       "game_versions": [
-        "1.21"
+        "1.20",
+        "1.20.1"
       ],
       "loaders": [
         "fabric",
@@ -17,11 +18,94 @@
       ],
       "files": [
         {
-          "sha512": "ab7a843ee5dd4b7310d14c3095598fb57d5f7537c4f53a84d43a218bfe06e2b42b47ff5ae970872231942694f75e8f3143274399c4fe1fe1dbf4667044f994bc",
-          "url": "https://cdn.modrinth.com/data/iu1gA09M/versions/W6vEQvLq/defaulted-drops-1.3.0%2BMC1.21.jar",
-          "filename": "defaulted-drops-1.3.0+MC1.21.jar",
+          "sha512": "425227af644db1dcc58115567123c15ef8f1858dd34221e2051812add4f642197f8e66a302fe31a2c2be9c8b37457f36fe7fdea5017c8e0a03f5a5e3dd66d326",
+          "url": "https://cdn.modrinth.com/data/iu1gA09M/versions/177KqoC1/defaulted-drops-1.2.0%2BMC1.20-1.20.1.jar",
+          "filename": "defaulted-drops-1.2.0+MC1.20-1.20.1.jar",
           "primary": true,
-          "size": 9799
+          "size": 9753
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "5xErYFPx",
+      "name": "1.0.2+MC1.19",
+      "version_number": "1.0.2+MC1.19",
+      "game_versions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "befa76fdf265bc01b1e89f7db3cfc9f41103525d38302138d7126877aacc6be3fef5fe87393f93bb1eca84fe676b3eac95e7dad49453f74fa4cc4c2c2179b0b5",
+          "url": "https://cdn.modrinth.com/data/iu1gA09M/versions/1.0.2%2BMC1.19/defaulted-drops-1.0.2%2BMC1.19.jar",
+          "filename": "defaulted-drops-1.0.2+MC1.19.jar",
+          "primary": true,
+          "size": 8136
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "KGPLYAFZ",
+      "name": "1.0.5+MC1.19-1.19.4",
+      "version_number": "1.0.5+MC1.19-1.19.4",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "344a0f45c19a60fa2bcbe12626e5b9fcb1f3c5b1a7ae8a16df63248f40d865f9ebab2d8e3ed72aa6368298ffc3cda779a99dacb08ab8655f972579c9a690353b",
+          "url": "https://cdn.modrinth.com/data/iu1gA09M/versions/KGPLYAFZ/defaulted-drops-1.0.5%2BMC1.19-1.19.4.jar",
+          "filename": "defaulted-drops-1.0.5+MC1.19-1.19.4.jar",
+          "primary": true,
+          "size": 8141
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "N7pP2UDe",
+      "name": "1.2.1+MC1.20.2",
+      "version_number": "1.2.1+MC1.20.2",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "4ce0abf2b4c64433ed3ec6e0bc455423fd8d70712acf53671bce85fb6d75107284f7d289bea53102d56e08c54d091497fe0a03b0baab9f0bb30b9b7ecb4de2d8",
+          "url": "https://cdn.modrinth.com/data/iu1gA09M/versions/N7pP2UDe/defaulted-drops-1.2.1%2BMC1.20.2.jar",
+          "filename": "defaulted-drops-1.2.1+MC1.20.2.jar",
+          "primary": true,
+          "size": 10630
         }
       ],
       "dependencies": [
@@ -34,12 +118,13 @@
       ]
     },
     {
-      "id": "iinR2bQu",
-      "name": "1.2.4+MC1.20.5-1.20.6",
-      "version_number": "1.2.4+MC1.20.5-1.20.6",
+      "id": "Ogj4HsYT",
+      "name": "1.0.4+MC1.19-1.19.2",
+      "version_number": "1.0.4+MC1.19-1.19.2",
       "game_versions": [
-        "1.20.5",
-        "1.20.6"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
         "fabric",
@@ -47,19 +132,31 @@
       ],
       "files": [
         {
-          "sha512": "e861a6968c3f08a01ac189c53ebbca13a356c9e48c9d7d87c4b1f55b162081c00497ee82be63c24f998d6265aff173f1128e23ed252e1f0a4d3cd500e39c9466",
-          "url": "https://cdn.modrinth.com/data/iu1gA09M/versions/iinR2bQu/defaulted-drops-1.2.4%2BMC1.20.5-1.20.6.jar",
-          "filename": "defaulted-drops-1.2.4+MC1.20.5-1.20.6.jar",
+          "sha512": "6688dc99175b341ac359dd9298643f82b896661400bbeedb8aa90e61adbe9b6b53d8c0059651587a31704725e9c2f6402019a3971d4b38c6f5ec75504c5b3c70",
+          "url": "https://cdn.modrinth.com/data/iu1gA09M/versions/1.0.4%2BMC1.19-1.19.2/defaulted-drops-1.0.4%2BMC1.19-1.19.2.jar",
+          "filename": "defaulted-drops-1.0.4+MC1.19-1.19.2.jar",
           "primary": true,
-          "size": 9488
+          "size": 8139
         }
       ],
       "dependencies": [
         {
           "project_id": "P7dR8mSH",
-          "version_id": null,
+          "version_id": "RAzwgZkP",
           "file_name": null,
           "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -81,6 +178,35 @@
           "filename": "defaulted-drops-1.2.3+MC1.20.2-1.20.5.jar",
           "primary": true,
           "size": 9671
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "W6vEQvLq",
+      "name": "1.3.0+MC1.21",
+      "version_number": "1.3.0+MC1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "ab7a843ee5dd4b7310d14c3095598fb57d5f7537c4f53a84d43a218bfe06e2b42b47ff5ae970872231942694f75e8f3143274399c4fe1fe1dbf4667044f994bc",
+          "url": "https://cdn.modrinth.com/data/iu1gA09M/versions/W6vEQvLq/defaulted-drops-1.3.0%2BMC1.21.jar",
+          "filename": "defaulted-drops-1.3.0+MC1.21.jar",
+          "primary": true,
+          "size": 9799
         }
       ],
       "dependencies": [
@@ -124,65 +250,6 @@
       ]
     },
     {
-      "id": "N7pP2UDe",
-      "name": "1.2.1+MC1.20.2",
-      "version_number": "1.2.1+MC1.20.2",
-      "game_versions": [
-        "1.20.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "4ce0abf2b4c64433ed3ec6e0bc455423fd8d70712acf53671bce85fb6d75107284f7d289bea53102d56e08c54d091497fe0a03b0baab9f0bb30b9b7ecb4de2d8",
-          "url": "https://cdn.modrinth.com/data/iu1gA09M/versions/N7pP2UDe/defaulted-drops-1.2.1%2BMC1.20.2.jar",
-          "filename": "defaulted-drops-1.2.1+MC1.20.2.jar",
-          "primary": true,
-          "size": 10630
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "177KqoC1",
-      "name": "1.2.0+MC1.20-1.20.1",
-      "version_number": "1.2.0+MC1.20-1.20.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "425227af644db1dcc58115567123c15ef8f1858dd34221e2051812add4f642197f8e66a302fe31a2c2be9c8b37457f36fe7fdea5017c8e0a03f5a5e3dd66d326",
-          "url": "https://cdn.modrinth.com/data/iu1gA09M/versions/177KqoC1/defaulted-drops-1.2.0%2BMC1.20-1.20.1.jar",
-          "filename": "defaulted-drops-1.2.0+MC1.20-1.20.1.jar",
-          "primary": true,
-          "size": 9753
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "XheZ9iGK",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "aclcwd19",
       "name": "1.1.0+MC1.20-1.20.1",
       "version_number": "1.1.0+MC1.20-1.20.1",
@@ -213,82 +280,6 @@
       ]
     },
     {
-      "id": "KGPLYAFZ",
-      "name": "1.0.5+MC1.19-1.19.4",
-      "version_number": "1.0.5+MC1.19-1.19.4",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2",
-        "1.19.3",
-        "1.19.4"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "344a0f45c19a60fa2bcbe12626e5b9fcb1f3c5b1a7ae8a16df63248f40d865f9ebab2d8e3ed72aa6368298ffc3cda779a99dacb08ab8655f972579c9a690353b",
-          "url": "https://cdn.modrinth.com/data/iu1gA09M/versions/KGPLYAFZ/defaulted-drops-1.0.5%2BMC1.19-1.19.4.jar",
-          "filename": "defaulted-drops-1.0.5+MC1.19-1.19.4.jar",
-          "primary": true,
-          "size": 8141
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "uIYkhRbX",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "Ogj4HsYT",
-      "name": "1.0.4+MC1.19-1.19.2",
-      "version_number": "1.0.4+MC1.19-1.19.2",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "6688dc99175b341ac359dd9298643f82b896661400bbeedb8aa90e61adbe9b6b53d8c0059651587a31704725e9c2f6402019a3971d4b38c6f5ec75504c5b3c70",
-          "url": "https://cdn.modrinth.com/data/iu1gA09M/versions/1.0.4%2BMC1.19-1.19.2/defaulted-drops-1.0.4%2BMC1.19-1.19.2.jar",
-          "filename": "defaulted-drops-1.0.4+MC1.19-1.19.2.jar",
-          "primary": true,
-          "size": 8139
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "gSoPJyVn",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "9s6osm5g",
-          "version_id": "o9dFD9SO",
-          "file_name": null,
-          "dependency_type": "optional"
-        },
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": "RAzwgZkP",
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "asOyyLlu",
       "name": "1.0.3+MC1.19-1.19.1",
       "version_number": "1.0.3+MC1.19-1.19.1",
@@ -304,27 +295,6 @@
           "sha512": "0a35eebfd08469e5bd5ffbb35b99618a8c02c4ea92c66ccc8199e3dc8e08faf46d2ffd9c55a9bb668b3dc68086ce6b49550f69447727f31cebaa7af3ca97a772",
           "url": "https://cdn.modrinth.com/data/iu1gA09M/versions/1.0.3%2BMC1.19-1.19.1/defaulted-drops-1.0.3%2BMC1.19-1.19.1.jar",
           "filename": "defaulted-drops-1.0.3+MC1.19-1.19.1.jar",
-          "primary": true,
-          "size": 8136
-        }
-      ],
-      "dependencies": []
-    },
-    {
-      "id": "5xErYFPx",
-      "name": "1.0.2+MC1.19",
-      "version_number": "1.0.2+MC1.19",
-      "game_versions": [
-        "1.19"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "befa76fdf265bc01b1e89f7db3cfc9f41103525d38302138d7126877aacc6be3fef5fe87393f93bb1eca84fe676b3eac95e7dad49453f74fa4cc4c2c2179b0b5",
-          "url": "https://cdn.modrinth.com/data/iu1gA09M/versions/1.0.2%2BMC1.19/defaulted-drops-1.0.2%2BMC1.19.jar",
-          "filename": "defaulted-drops-1.0.2+MC1.19.jar",
           "primary": true,
           "size": 8136
         }
@@ -352,6 +322,36 @@
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "iinR2bQu",
+      "name": "1.2.4+MC1.20.5-1.20.6",
+      "version_number": "1.2.4+MC1.20.5-1.20.6",
+      "game_versions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "e861a6968c3f08a01ac189c53ebbca13a356c9e48c9d7d87c4b1f55b162081c00497ee82be63c24f998d6265aff173f1128e23ed252e1f0a4d3cd500e39c9466",
+          "url": "https://cdn.modrinth.com/data/iu1gA09M/versions/iinR2bQu/defaulted-drops-1.2.4%2BMC1.20.5-1.20.6.jar",
+          "filename": "defaulted-drops-1.2.4+MC1.20.5-1.20.6.jar",
+          "primary": true,
+          "size": 9488
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     },
     {
       "id": "mAl0bvfw",

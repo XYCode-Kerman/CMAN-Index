@@ -5,6 +5,31 @@
   "description": "Use signs to display pictures from the web completely client-side!",
   "versions": [
     {
+      "id": "7oQW5Qmg",
+      "name": "PictureSign 1.1.0 - 1.17/1.18",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.17",
+        "1.17.1",
+        "21w37a",
+        "21w38a",
+        "21w39a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "a9740222a3108f541b368a5574550a14f5c6379298e468d7aa91d408c5436256afb9127cb1256743d5cf290b25b7a5389545791827edf12e1b2fb3dc1e2a5065",
+          "url": "https://cdn.modrinth.com/data/9WP2dmkk/versions/1.1.0/picturesign-1.1.0.jar",
+          "filename": "picturesign-1.1.0.jar",
+          "primary": false,
+          "size": 90423
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "A7AdttEg",
       "name": "PictureSign 2.0.1 - NeoForge 1.21",
       "version_number": "2.0.1-neoforge",
@@ -68,11 +93,11 @@
       ]
     },
     {
-      "id": "f6MZUNMy",
-      "name": "PictureSign 2.0.0 - Fabric 1.21",
-      "version_number": "2.0.0-fabric",
+      "id": "JJ03f5XV",
+      "name": "PictureSign 2.0.0 Beta 2 - 1.20.2",
+      "version_number": "2.0.0-beta.2",
       "game_versions": [
-        "1.21"
+        "1.20.2"
       ],
       "loaders": [
         "fabric",
@@ -80,51 +105,54 @@
       ],
       "files": [
         {
-          "sha512": "a2b9ecee9a71f65135abf8d8488da000c5e00c4039283f527bd989820409c9e76503d87426964e5235bde59d1e020b673d8ada30a556b00a94d3460e4374235f",
-          "url": "https://cdn.modrinth.com/data/9WP2dmkk/versions/f6MZUNMy/picturesign-fabric-2.0.0.jar",
-          "filename": "picturesign-fabric-2.0.0.jar",
+          "sha512": "09a2512af9b53dbb83d79d98ff3aee1fcafcc7798c47042d17b4633ce5f16701d402f4599e2bfa378d6d436e700fba5a4d9200536c4b1805aadf03a6e3f81328",
+          "url": "https://cdn.modrinth.com/data/9WP2dmkk/versions/JJ03f5XV/picturesign-2.0.0-beta.2.jar",
+          "filename": "picturesign-2.0.0-beta.2.jar",
           "primary": true,
-          "size": 150228
+          "size": 629767
         }
       ],
       "dependencies": [
         {
-          "project_id": "P7dR8mSH",
+          "project_id": "QVtaMM1d",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "embedded"
         },
         {
-          "project_id": "G922NeHS",
+          "project_id": "codAaoxh",
           "version_id": null,
           "file_name": null,
-          "dependency_type": "required"
+          "dependency_type": "embedded"
         }
       ]
     },
     {
-      "id": "y4JeUfXG",
-      "name": "PictureSign 2.0.0 - NeoForge 1.21",
-      "version_number": "2.0.0-neoforge",
+      "id": "Km4YnWsf",
+      "name": "PictureSign 1.4.1 - 1.19",
+      "version_number": "1.4.1",
       "game_versions": [
-        "1.21"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "loaders": [
-        "neoforge"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "feede4c45f6df074dba5bf2eb67f2ee246fcd0482074f26f8063ef26ee873b234da77ed59aff2cffe5e61e8acdb80fcb24c48be347c7385acbab970b662fb9d3",
-          "url": "https://cdn.modrinth.com/data/9WP2dmkk/versions/y4JeUfXG/picturesign-neoforge-2.0.0.jar",
-          "filename": "picturesign-neoforge-2.0.0.jar",
+          "sha512": "1e0aad23e13d2e8320ba2347e8d820c97a354c680a85e1767bd11e2d05945282261354cdc6e73aabce3bb17652b8a3c9312eaf134daa41ef65fae640e9143880",
+          "url": "https://cdn.modrinth.com/data/9WP2dmkk/versions/1.4.1/picturesign-1.4.1.jar",
+          "filename": "picturesign-1.4.1.jar",
           "primary": true,
-          "size": 166154
+          "size": 108462
         }
       ],
       "dependencies": [
         {
-          "project_id": "G922NeHS",
-          "version_id": null,
+          "project_id": "codAaoxh",
+          "version_id": "E9lkXHyn",
           "file_name": null,
           "dependency_type": "required"
         }
@@ -166,11 +194,11 @@
       ]
     },
     {
-      "id": "JJ03f5XV",
-      "name": "PictureSign 2.0.0 Beta 2 - 1.20.2",
-      "version_number": "2.0.0-beta.2",
+      "id": "f6MZUNMy",
+      "name": "PictureSign 2.0.0 - Fabric 1.21",
+      "version_number": "2.0.0-fabric",
       "game_versions": [
-        "1.20.2"
+        "1.21"
       ],
       "loaders": [
         "fabric",
@@ -178,123 +206,23 @@
       ],
       "files": [
         {
-          "sha512": "09a2512af9b53dbb83d79d98ff3aee1fcafcc7798c47042d17b4633ce5f16701d402f4599e2bfa378d6d436e700fba5a4d9200536c4b1805aadf03a6e3f81328",
-          "url": "https://cdn.modrinth.com/data/9WP2dmkk/versions/JJ03f5XV/picturesign-2.0.0-beta.2.jar",
-          "filename": "picturesign-2.0.0-beta.2.jar",
+          "sha512": "a2b9ecee9a71f65135abf8d8488da000c5e00c4039283f527bd989820409c9e76503d87426964e5235bde59d1e020b673d8ada30a556b00a94d3460e4374235f",
+          "url": "https://cdn.modrinth.com/data/9WP2dmkk/versions/f6MZUNMy/picturesign-fabric-2.0.0.jar",
+          "filename": "picturesign-fabric-2.0.0.jar",
           "primary": true,
-          "size": 629767
+          "size": 150228
         }
       ],
       "dependencies": [
         {
-          "project_id": "QVtaMM1d",
+          "project_id": "P7dR8mSH",
           "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "codAaoxh",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "r5SZsNRg",
-      "name": "PictureSign 2.0.0 Beta 1 - 1.20+",
-      "version_number": "2.0.0-beta.1",
-      "game_versions": [
-        "1.20",
-        "1.20.1"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "e3b76a83e58862b36fb51bdcd19ef8cb81061300419584b84c258e40a73aaca53ee7025d1b8c53ba7c26ac297a09f9c966cbbb74218f0b0298d9ef100ad025af",
-          "url": "https://cdn.modrinth.com/data/9WP2dmkk/versions/r5SZsNRg/picturesign-2.0.0-beta.1.jar",
-          "filename": "picturesign-2.0.0-beta.1.jar",
-          "primary": true,
-          "size": 621758
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "QVtaMM1d",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "embedded"
-        },
-        {
-          "project_id": "codAaoxh",
-          "version_id": "YXz8kIQl",
-          "file_name": null,
-          "dependency_type": "embedded"
-        }
-      ]
-    },
-    {
-      "id": "Km4YnWsf",
-      "name": "PictureSign 1.4.1 - 1.19",
-      "version_number": "1.4.1",
-      "game_versions": [
-        "1.19",
-        "1.19.1",
-        "1.19.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
-        {
-          "sha512": "1e0aad23e13d2e8320ba2347e8d820c97a354c680a85e1767bd11e2d05945282261354cdc6e73aabce3bb17652b8a3c9312eaf134daa41ef65fae640e9143880",
-          "url": "https://cdn.modrinth.com/data/9WP2dmkk/versions/1.4.1/picturesign-1.4.1.jar",
-          "filename": "picturesign-1.4.1.jar",
-          "primary": true,
-          "size": 108462
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": "E9lkXHyn",
           "file_name": null,
           "dependency_type": "required"
-        }
-      ]
-    },
-    {
-      "id": "sp5zDrrv",
-      "name": "PictureSign 1.4.0 - 1.17/1.18",
-      "version_number": "1.4.0",
-      "game_versions": [
-        "1.17",
-        "1.17.1",
-        "1.18",
-        "1.18.1",
-        "1.18.2"
-      ],
-      "loaders": [
-        "fabric",
-        "quilt"
-      ],
-      "files": [
+        },
         {
-          "sha512": "1b0152ffc5c841e1eff042ef6b7b01f1cb7c0d6adc7b322a68e501233cdabc8b7afede001700afc5c83c36508aaf98f2185afa446c64756f0d32d4150b650a7d",
-          "url": "https://cdn.modrinth.com/data/9WP2dmkk/versions/1.4.0/picturesign-1.4.0.jar",
-          "filename": "picturesign-1.4.0.jar",
-          "primary": true,
-          "size": 108012
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "codAaoxh",
-          "version_id": "CRaHmCcJ",
+          "project_id": "G922NeHS",
+          "version_id": null,
           "file_name": null,
           "dependency_type": "required"
         }
@@ -334,6 +262,42 @@
       ]
     },
     {
+      "id": "r5SZsNRg",
+      "name": "PictureSign 2.0.0 Beta 1 - 1.20+",
+      "version_number": "2.0.0-beta.1",
+      "game_versions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "e3b76a83e58862b36fb51bdcd19ef8cb81061300419584b84c258e40a73aaca53ee7025d1b8c53ba7c26ac297a09f9c966cbbb74218f0b0298d9ef100ad025af",
+          "url": "https://cdn.modrinth.com/data/9WP2dmkk/versions/r5SZsNRg/picturesign-2.0.0-beta.1.jar",
+          "filename": "picturesign-2.0.0-beta.1.jar",
+          "primary": true,
+          "size": 621758
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": "YXz8kIQl",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "QVtaMM1d",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
+      ]
+    },
+    {
       "id": "rN34o8kK",
       "name": "PictureSign 1.2.0 - 1.17/1.18",
       "version_number": "1.2.0",
@@ -362,29 +326,65 @@
       "dependencies": []
     },
     {
-      "id": "7oQW5Qmg",
-      "name": "PictureSign 1.1.0 - 1.17/1.18",
-      "version_number": "1.1.0",
+      "id": "sp5zDrrv",
+      "name": "PictureSign 1.4.0 - 1.17/1.18",
+      "version_number": "1.4.0",
       "game_versions": [
         "1.17",
         "1.17.1",
-        "21w37a",
-        "21w38a",
-        "21w39a"
+        "1.18",
+        "1.18.1",
+        "1.18.2"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
-          "sha512": "a9740222a3108f541b368a5574550a14f5c6379298e468d7aa91d408c5436256afb9127cb1256743d5cf290b25b7a5389545791827edf12e1b2fb3dc1e2a5065",
-          "url": "https://cdn.modrinth.com/data/9WP2dmkk/versions/1.1.0/picturesign-1.1.0.jar",
-          "filename": "picturesign-1.1.0.jar",
-          "primary": false,
-          "size": 90423
+          "sha512": "1b0152ffc5c841e1eff042ef6b7b01f1cb7c0d6adc7b322a68e501233cdabc8b7afede001700afc5c83c36508aaf98f2185afa446c64756f0d32d4150b650a7d",
+          "url": "https://cdn.modrinth.com/data/9WP2dmkk/versions/1.4.0/picturesign-1.4.0.jar",
+          "filename": "picturesign-1.4.0.jar",
+          "primary": true,
+          "size": 108012
         }
       ],
-      "dependencies": []
+      "dependencies": [
+        {
+          "project_id": "codAaoxh",
+          "version_id": "CRaHmCcJ",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "y4JeUfXG",
+      "name": "PictureSign 2.0.0 - NeoForge 1.21",
+      "version_number": "2.0.0-neoforge",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "feede4c45f6df074dba5bf2eb67f2ee246fcd0482074f26f8063ef26ee873b234da77ed59aff2cffe5e61e8acdb80fcb24c48be347c7385acbab970b662fb9d3",
+          "url": "https://cdn.modrinth.com/data/9WP2dmkk/versions/y4JeUfXG/picturesign-neoforge-2.0.0.jar",
+          "filename": "picturesign-neoforge-2.0.0.jar",
+          "primary": true,
+          "size": 166154
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "G922NeHS",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
     }
   ]
 }

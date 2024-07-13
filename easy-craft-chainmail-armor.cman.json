@@ -5,62 +5,6 @@
   "description": "With this mod you can craft the Chainmail Armor",
   "versions": [
     {
-      "id": "wGqEzXId",
-      "name": "CraftableChainmail-1.20.4-3.2.5",
-      "version_number": "3.2.5",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "neoforge"
-      ],
-      "files": [
-        {
-          "sha512": "1a392002e78332f425834e3c8f81f9a32e0e67fe9ef7f21de7296e3dfc69fb187ea6cd7e069265a389c8317757baa5c0ee2c6303e03c05e9ed6ca0b58b6f9ba8",
-          "url": "https://cdn.modrinth.com/data/3kDEXeHU/versions/wGqEzXId/CraftableChainmail-1.20.4-3.2.5.jar",
-          "filename": "CraftableChainmail-1.20.4-3.2.5.jar",
-          "primary": true,
-          "size": 3489
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "u6dRKJwZ",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
-      "id": "oSt9hrY8",
-      "name": "CraftableChainmail-1.20.4-1.6.6",
-      "version_number": "1.6.6",
-      "game_versions": [
-        "1.20.4"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "21f3f85d6e47e3ed89518d978f5e1a068bb0e7abb87bf3508e667a66f36085f0e984497a6567adbf1275c670c75bd24322f33e67ee4100b89fe32d57296cd261",
-          "url": "https://cdn.modrinth.com/data/3kDEXeHU/versions/oSt9hrY8/CraftableChainmail-1.20.4-1.6.6.jar",
-          "filename": "CraftableChainmail-1.20.4-1.6.6.jar",
-          "primary": true,
-          "size": 4061
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "P7dR8mSH",
-          "version_id": null,
-          "file_name": null,
-          "dependency_type": "required"
-        }
-      ]
-    },
-    {
       "id": "1g1uT1uV",
       "name": "CraftableChainmail-1.20.4-3.2.3",
       "version_number": "3.2.3",
@@ -80,6 +24,40 @@
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "6dYy3vR6",
+      "name": "CraftableChainmail-1.20.1-1.6.4-[FABRIC]",
+      "version_number": "1.6.4",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "779b2dac85f785d2a3b98b88c90118be28e25f5581291b59b309bbcfe1ef3298efbd3375363cd482514966fbf59fb7bc4a8999420fa67ef61442f023ded924ff",
+          "url": "https://cdn.modrinth.com/data/3kDEXeHU/versions/6dYy3vR6/CraftableChainmail-1.20.1-1.6.4-%5BFABRIC%5D.jar",
+          "filename": "CraftableChainmail-1.20.1-1.6.4-[FABRIC].jar",
+          "primary": true,
+          "size": 4992
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "u6dRKJwZ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
     },
     {
       "id": "6o2idHmE",
@@ -144,22 +122,22 @@
       ]
     },
     {
-      "id": "6dYy3vR6",
-      "name": "CraftableChainmail-1.20.1-1.6.4-[FABRIC]",
-      "version_number": "1.6.4",
+      "id": "oSt9hrY8",
+      "name": "CraftableChainmail-1.20.4-1.6.6",
+      "version_number": "1.6.6",
       "game_versions": [
-        "1.20.1"
+        "1.20.4"
       ],
       "loaders": [
         "fabric"
       ],
       "files": [
         {
-          "sha512": "779b2dac85f785d2a3b98b88c90118be28e25f5581291b59b309bbcfe1ef3298efbd3375363cd482514966fbf59fb7bc4a8999420fa67ef61442f023ded924ff",
-          "url": "https://cdn.modrinth.com/data/3kDEXeHU/versions/6dYy3vR6/CraftableChainmail-1.20.1-1.6.4-%5BFABRIC%5D.jar",
-          "filename": "CraftableChainmail-1.20.1-1.6.4-[FABRIC].jar",
+          "sha512": "21f3f85d6e47e3ed89518d978f5e1a068bb0e7abb87bf3508e667a66f36085f0e984497a6567adbf1275c670c75bd24322f33e67ee4100b89fe32d57296cd261",
+          "url": "https://cdn.modrinth.com/data/3kDEXeHU/versions/oSt9hrY8/CraftableChainmail-1.20.4-1.6.6.jar",
+          "filename": "CraftableChainmail-1.20.4-1.6.6.jar",
           "primary": true,
-          "size": 4992
+          "size": 4061
         }
       ],
       "dependencies": [
@@ -168,7 +146,29 @@
           "version_id": null,
           "file_name": null,
           "dependency_type": "required"
-        },
+        }
+      ]
+    },
+    {
+      "id": "wGqEzXId",
+      "name": "CraftableChainmail-1.20.4-3.2.5",
+      "version_number": "3.2.5",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "1a392002e78332f425834e3c8f81f9a32e0e67fe9ef7f21de7296e3dfc69fb187ea6cd7e069265a389c8317757baa5c0ee2c6303e03c05e9ed6ca0b58b6f9ba8",
+          "url": "https://cdn.modrinth.com/data/3kDEXeHU/versions/wGqEzXId/CraftableChainmail-1.20.4-3.2.5.jar",
+          "filename": "CraftableChainmail-1.20.4-3.2.5.jar",
+          "primary": true,
+          "size": 3489
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "u6dRKJwZ",
           "version_id": null,

@@ -47,40 +47,6 @@
       "dependencies": []
     },
     {
-      "id": "mi4ac2f6",
-      "name": "Red Discord Presence 1.1.0",
-      "version_number": "1.1.0",
-      "game_versions": [
-        "1.19.3"
-      ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
-        {
-          "sha512": "74a521144845e5a86ed53316809e6f6c0bb59e88cf42c71bcc8882b1683ef79eabf126764c890e83a09fa09db33f9c6902da9f0b95feaecc605c3c8a757a1a9e",
-          "url": "https://cdn.modrinth.com/data/AvUm6IQS/versions/mi4ac2f6/red_discord_presence-1.1.0%2B1.19.3.jar",
-          "filename": "red_discord_presence-1.1.0+1.19.3.jar",
-          "primary": true,
-          "size": 91449
-        }
-      ],
-      "dependencies": [
-        {
-          "project_id": "Ha28R6CL",
-          "version_id": "s10JMAtS",
-          "file_name": null,
-          "dependency_type": "required"
-        },
-        {
-          "project_id": "mOgUt4GM",
-          "version_id": "id0aLmxO",
-          "file_name": null,
-          "dependency_type": "optional"
-        }
-      ]
-    },
-    {
       "id": "XhabqQ4Y",
       "name": "Red Discord Presence 1.0.0",
       "version_number": "1.0.0",
@@ -101,16 +67,50 @@
       ],
       "dependencies": [
         {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
           "project_id": "Ha28R6CL",
           "version_id": "s10JMAtS",
           "file_name": null,
           "dependency_type": "required"
-        },
+        }
+      ]
+    },
+    {
+      "id": "mi4ac2f6",
+      "name": "Red Discord Presence 1.1.0",
+      "version_number": "1.1.0",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "74a521144845e5a86ed53316809e6f6c0bb59e88cf42c71bcc8882b1683ef79eabf126764c890e83a09fa09db33f9c6902da9f0b95feaecc605c3c8a757a1a9e",
+          "url": "https://cdn.modrinth.com/data/AvUm6IQS/versions/mi4ac2f6/red_discord_presence-1.1.0%2B1.19.3.jar",
+          "filename": "red_discord_presence-1.1.0+1.19.3.jar",
+          "primary": true,
+          "size": 91449
+        }
+      ],
+      "dependencies": [
         {
           "project_id": "mOgUt4GM",
           "version_id": "id0aLmxO",
           "file_name": null,
           "dependency_type": "optional"
+        },
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": "s10JMAtS",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

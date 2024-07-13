@@ -1,9 +1,56 @@
 {
-  "id": "pointactivity",
+  "id": "1BqeU9bB",
   "slug": "pointactivity",
   "name": "PointActivity",
   "description": "Calculate your activity points.",
   "versions": [
+    {
+      "id": "DsK4evxm",
+      "name": "1.0.0D",
+      "version_number": "1.0.0D",
+      "game_versions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "1635e80878ddad12eb2f9c52d3efcb4e660320ab65aec05f43ea12dfdbdf3a2dbb34551a5550fbdcc3b199623e98d25b90801ee24162c2f319ba6abed784eb80",
+          "url": "https://cdn.modrinth.com/data/1BqeU9bB/versions/DsK4evxm/pointactivity-1.0.0D%2B1.19.2.jar",
+          "filename": "pointactivity-1.0.0D+1.19.2.jar",
+          "primary": true,
+          "size": 102013
+        },
+        {
+          "sha512": "1bf5949757ceeb245aea36b87d5ff81300cf4eb0c2e1af2b97d579c0f245a71b140d1617aa1cdd8a71c5951cf99de91ad114b90554b1f9ad1f7d423b68ab7294",
+          "url": "https://cdn.modrinth.com/data/1BqeU9bB/versions/DsK4evxm/pointactivity-1.0.0D%2B1.19.2-sources.jar",
+          "filename": "pointactivity-1.0.0D+1.19.2-sources.jar",
+          "primary": false,
+          "size": 32150
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hFdJG9fY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "o9dFD9SO",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "zv46i3PW",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
     {
       "id": "MC8n9urX",
       "name": "1.0.1I",
@@ -29,32 +76,25 @@
           "primary": false,
           "size": 56815
         }
-      ]
-    },
-    {
-      "id": "DsK4evxm",
-      "name": "1.0.0D",
-      "version_number": "1.0.0D",
-      "game_versions": [
-        "1.19.2"
       ],
-      "loaders": [
-        "fabric"
-      ],
-      "files": [
+      "dependencies": [
         {
-          "sha512": "1635e80878ddad12eb2f9c52d3efcb4e660320ab65aec05f43ea12dfdbdf3a2dbb34551a5550fbdcc3b199623e98d25b90801ee24162c2f319ba6abed784eb80",
-          "url": "https://cdn.modrinth.com/data/1BqeU9bB/versions/DsK4evxm/pointactivity-1.0.0D%2B1.19.2.jar",
-          "filename": "pointactivity-1.0.0D+1.19.2.jar",
-          "primary": true,
-          "size": 102013
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
         },
         {
-          "sha512": "1bf5949757ceeb245aea36b87d5ff81300cf4eb0c2e1af2b97d579c0f245a71b140d1617aa1cdd8a71c5951cf99de91ad114b90554b1f9ad1f7d423b68ab7294",
-          "url": "https://cdn.modrinth.com/data/1BqeU9bB/versions/DsK4evxm/pointactivity-1.0.0D%2B1.19.2-sources.jar",
-          "filename": "pointactivity-1.0.0D+1.19.2-sources.jar",
-          "primary": false,
-          "size": 32150
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -82,6 +122,26 @@
           "filename": "pointactivity-1.0.0I+1.20.1-sources.jar",
           "primary": false,
           "size": 33723
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hFdJG9fY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": "s7VTKfLA",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "zv46i3PW",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }
