@@ -1,5 +1,5 @@
 {
-  "id": "auctionhouse",
+  "id": "JBSk2maq",
   "slug": "auctionhouse",
   "name": "Auction House",
   "description": "A fabric server-side mod to allow users to sell items to all other players",
@@ -22,7 +22,8 @@
           "primary": true,
           "size": 13578520
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "eVEer96k",
@@ -43,6 +44,14 @@
           "primary": true,
           "size": 13578153
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -62,6 +71,14 @@
           "filename": "fabric-auctionhouse-1.0.0+1.20.1.jar",
           "primary": true,
           "size": 854031
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

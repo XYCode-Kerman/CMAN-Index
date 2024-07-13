@@ -1,5 +1,5 @@
 {
-  "id": "blossom-blade",
+  "id": "UMmSTwE0",
   "slug": "blossom-blade",
   "name": "Blossom Blade",
   "description": "The sword stuck in the pedestal glows with a holy light, carrying the smell of cherry blossoms with every swing.",
@@ -28,7 +28,8 @@
           "primary": true,
           "size": 7029
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "DlSnHsIz",
@@ -52,7 +53,8 @@
           "primary": true,
           "size": 5206
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "GbmURQT5",
@@ -83,7 +85,8 @@
           "primary": true,
           "size": 7012
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "XYxQnEaO",
@@ -112,7 +115,8 @@
           "primary": true,
           "size": 5184
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "DAbnnMDF",
@@ -135,6 +139,20 @@
           "primary": true,
           "size": 6215
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "EEIwvQVo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "UMmSTwE0",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -155,6 +173,20 @@
           "filename": "cherry_grove.zip",
           "primary": true,
           "size": 4396
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "EEIwvQVo",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "o4gsLB4v",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }

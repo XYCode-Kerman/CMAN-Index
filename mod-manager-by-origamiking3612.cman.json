@@ -1,5 +1,5 @@
 {
-  "id": "mod-manager-by-origamiking3612",
+  "id": "LP77uvIS",
   "slug": "mod-manager-by-origamiking3612",
   "name": "Mod Manager By OrigamiKing3612",
   "description": "A Mod, Resource Pack, and Shader Manager for Minecraft",
@@ -22,6 +22,20 @@
           "primary": true,
           "size": 191507
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P3sjMa3U",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
       ]
     },
     {
@@ -41,6 +55,20 @@
           "filename": "Mod-Manager-0.0.1-1.20.1.jar",
           "primary": true,
           "size": 206164
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P3sjMa3U",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

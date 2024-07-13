@@ -1,49 +1,9 @@
 {
-  "id": "small-ships",
+  "id": "rGWEHQrP",
   "slug": "small-ships",
   "name": "Small Ships",
   "description": "Vanilla friendly Ships for Minecraft. Now with cannons!",
   "versions": [
-    {
-      "id": "oX1Df3Sk",
-      "name": "Small Ships 2.0.0-b1.3.4 [Forge - 1.21]",
-      "version_number": "2.0.0-b1.3.4",
-      "game_versions": [
-        "1.21"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "77e3434eabd042cb814e5fd63a67bab14699fce8a8c2134dd4c0e7675b3b9f6bdc6af9d27679c2ad3d12bff54e2105f0d184da769bc5f75f0d04355b74cbd5f6",
-          "url": "https://cdn.modrinth.com/data/rGWEHQrP/versions/oX1Df3Sk/smallships-forge-1.21-2.0.0-b1.3.4.jar",
-          "filename": "smallships-forge-1.21-2.0.0-b1.3.4.jar",
-          "primary": true,
-          "size": 1756193
-        }
-      ]
-    },
-    {
-      "id": "3wf9am3Q",
-      "name": "Small Ships 2.0.0-b1.3.4 [Forge - 1.20.6]",
-      "version_number": "2.0.0-b1.3.4",
-      "game_versions": [
-        "1.20.6"
-      ],
-      "loaders": [
-        "forge"
-      ],
-      "files": [
-        {
-          "sha512": "82eeacc8a04dd947e6675f8e59a392271009289ca7647c614930a6a2622b44c79f2f1f0c9feade266a4ab1c413f1d70010b12fe0f20a274f2f0d460d62bb8b2f",
-          "url": "https://cdn.modrinth.com/data/rGWEHQrP/versions/3wf9am3Q/smallships-forge-1.20.6-2.0.0-b1.3.4.jar",
-          "filename": "smallships-forge-1.20.6-2.0.0-b1.3.4.jar",
-          "primary": true,
-          "size": 1775913
-        }
-      ]
-    },
     {
       "id": "2OL3Ocru",
       "name": "Small Ships 2.0.0-b1.3.4 [NeoForge - 1.21]",
@@ -61,6 +21,14 @@
           "filename": "smallships-neoforge-1.21-2.0.0-b1.3.4.jar",
           "primary": true,
           "size": 1859388
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
     },
@@ -82,6 +50,14 @@
           "primary": true,
           "size": 1882105
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
       ]
     },
     {
@@ -101,6 +77,20 @@
           "filename": "smallships-fabric-1.21-2.0.0-b1.3.4.jar",
           "primary": true,
           "size": 2315847
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
     },
@@ -122,6 +112,20 @@
           "primary": true,
           "size": 2191117
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
       ]
     },
     {
@@ -141,6 +145,20 @@
           "filename": "smallships-fabric-1.21-2.0.0-b1.3.3.jar",
           "primary": true,
           "size": 2314593
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -162,6 +180,20 @@
           "primary": true,
           "size": 2314768
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
       ]
     },
     {
@@ -181,6 +213,20 @@
           "filename": "smallships-fabric-1.20.6-2.0.0-b1.3.2.jar",
           "primary": true,
           "size": 2189867
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ohNO6lps",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -202,7 +248,8 @@
           "primary": true,
           "size": 2158920
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "xZcRn9eT",
@@ -222,7 +269,8 @@
           "primary": true,
           "size": 1815118
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "Xn9phSUY",
@@ -242,7 +290,8 @@
           "primary": true,
           "size": 1786023
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "h3HwyUfN",
@@ -262,7 +311,8 @@
           "primary": true,
           "size": 2192389
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "D5UZlu1q",
@@ -282,7 +332,8 @@
           "primary": true,
           "size": 1795703
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "bDJ9Hnpq",
@@ -302,7 +353,8 @@
           "primary": true,
           "size": 2104788
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "kr52vTkg",
@@ -322,7 +374,8 @@
           "primary": true,
           "size": 2158151
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "mfS5J1UN",
@@ -342,7 +395,8 @@
           "primary": true,
           "size": 2192368
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "IVW11hBz",
@@ -362,7 +416,8 @@
           "primary": true,
           "size": 2104788
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "IvVuuRDe",
@@ -382,7 +437,8 @@
           "primary": true,
           "size": 1814327
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "BMsGmSnW",
@@ -402,7 +458,8 @@
           "primary": true,
           "size": 1786000
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "evWrvZ6S",
@@ -422,7 +479,8 @@
           "primary": true,
           "size": 1795703
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "glbP2RKV",
@@ -442,7 +500,8 @@
           "primary": true,
           "size": 1792743
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "WfYT53tr",
@@ -462,7 +521,8 @@
           "primary": true,
           "size": 2101845
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "dstBXIc6",
@@ -482,7 +542,8 @@
           "primary": true,
           "size": 1811408
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "VeF58TU9",
@@ -502,7 +563,8 @@
           "primary": true,
           "size": 1783039
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "JjOceonv",
@@ -522,7 +584,8 @@
           "primary": true,
           "size": 1792757
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "gfnpAA1f",
@@ -542,7 +605,8 @@
           "primary": true,
           "size": 2155236
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "WoIYSm5h",
@@ -562,7 +626,8 @@
           "primary": true,
           "size": 2189418
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "dZZPGGZK",
@@ -582,7 +647,8 @@
           "primary": true,
           "size": 2101852
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "b5XQPKtI",
@@ -602,7 +668,8 @@
           "primary": true,
           "size": 2097243
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "PNDvbB0C",
@@ -622,7 +689,8 @@
           "primary": true,
           "size": 1788150
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "k16vITNY",
@@ -642,7 +710,8 @@
           "primary": true,
           "size": 2150610
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "G4wTMcUo",
@@ -662,7 +731,8 @@
           "primary": true,
           "size": 1806778
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "kD2YRqOW",
@@ -682,7 +752,8 @@
           "primary": true,
           "size": 1778414
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "AIuGGBBL",
@@ -702,7 +773,8 @@
           "primary": true,
           "size": 2184797
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "mrOuzDMg",
@@ -722,7 +794,8 @@
           "primary": true,
           "size": 2097211
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "CjQNcFP6",
@@ -742,7 +815,8 @@
           "primary": true,
           "size": 1788119
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "Y8u25WPx",
@@ -762,7 +836,8 @@
           "primary": true,
           "size": 1810214
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "IcmW8gsG",
@@ -782,7 +857,8 @@
           "primary": true,
           "size": 2153885
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "32F5WDhx",
@@ -802,7 +878,8 @@
           "primary": true,
           "size": 1792605
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "1io804V6",
@@ -822,7 +899,8 @@
           "primary": true,
           "size": 2101536
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "UqfofiAm",
@@ -842,7 +920,8 @@
           "primary": true,
           "size": 1782772
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "9jjSnNle",
@@ -862,7 +941,8 @@
           "primary": true,
           "size": 2188970
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "RNtq70mF",
@@ -881,6 +961,14 @@
           "filename": "smallships-fabric-1.20.1-2.0.0-a2.3.3.jar",
           "primary": true,
           "size": 2401449
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -902,7 +990,8 @@
           "primary": true,
           "size": 2056850
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "m6BFeC5S",
@@ -921,6 +1010,14 @@
           "filename": "smallships-fabric-1.19.4-2.0.0-a2.3.3.jar",
           "primary": true,
           "size": 2438664
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -942,7 +1039,8 @@
           "primary": true,
           "size": 2056445
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "w3ezhI33",
@@ -961,6 +1059,14 @@
           "filename": "smallships-fabric-1.20-2.0.0-a2.3.2.jar",
           "primary": true,
           "size": 2401494
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -982,7 +1088,8 @@
           "primary": true,
           "size": 2058393
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "oiFxhvO6",
@@ -1001,6 +1108,14 @@
           "filename": "smallships-fabric-1.19.4-2.0.0-a2.3.2.jar",
           "primary": true,
           "size": 2438663
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -1022,7 +1137,8 @@
           "primary": true,
           "size": 2058190
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "Y0MpyQRj",
@@ -1041,6 +1157,14 @@
           "filename": "smallships-fabric-1.20-2.0.0-a2.3.1.jar",
           "primary": true,
           "size": 2401313
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -1062,7 +1186,8 @@
           "primary": true,
           "size": 2038875
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "eDiGUtv0",
@@ -1081,6 +1206,14 @@
           "filename": "smallships-fabric-1.18.2-2.0.0-a2.3.1.jar",
           "primary": true,
           "size": 2348744
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -1102,6 +1235,14 @@
           "primary": true,
           "size": 2213697
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -1122,7 +1263,8 @@
           "primary": true,
           "size": 2057055
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "G0NxmCny",
@@ -1141,6 +1283,14 @@
           "filename": "smallships-fabric-1.19.4-2.0.0-a2.3.jar",
           "primary": true,
           "size": 2438011
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -1162,7 +1312,8 @@
           "primary": true,
           "size": 2056793
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "gdgLKgoE",
@@ -1181,6 +1332,14 @@
           "filename": "smallships-fabric-1.19.2-2.0.0-a2.3.jar",
           "primary": true,
           "size": 2436229
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "5U5Y73uW",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -1202,7 +1361,8 @@
           "primary": true,
           "size": 2029095
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "4FgK5kET",
@@ -1221,6 +1381,14 @@
           "filename": "smallships-fabric-1.18.2-2.0.0-a2.3.jar",
           "primary": true,
           "size": 2349092
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -1242,7 +1410,8 @@
           "primary": true,
           "size": 2039221
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "FfCQnlFv",
@@ -1261,6 +1430,14 @@
           "filename": "smallships-fabric-1.19.2-2.0.0a2.2.jar",
           "primary": true,
           "size": 2430086
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -1282,7 +1459,8 @@
           "primary": true,
           "size": 2020752
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "8GADuXmF",
@@ -1301,6 +1479,14 @@
           "filename": "smallships-fabric-1.18.2-2.0.0a2.2.jar",
           "primary": true,
           "size": 2342625
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -1322,7 +1508,8 @@
           "primary": true,
           "size": 2030728
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "ifdiiK5n",
@@ -1341,6 +1528,14 @@
           "filename": "smallships-fabric-1.19.2-2.0.0a2.1.jar",
           "primary": true,
           "size": 2429532
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -1362,7 +1557,8 @@
           "primary": true,
           "size": 2020140
         }
-      ]
+      ],
+      "dependencies": []
     }
   ]
 }

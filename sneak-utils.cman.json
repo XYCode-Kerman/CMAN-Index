@@ -1,18 +1,21 @@
 {
-  "id": "sneak-utils",
+  "id": "GXWKaON0",
   "slug": "sneak-utils",
   "name": "Sneak Utils",
   "description": "Allows for different sneaking configurations per world/server.",
   "versions": [
     {
       "id": "3QHGjiXx",
-      "name": "Sneak Utils v1.2 (MC 1.20.X)",
+      "name": "Sneak Utils v1.2 (MC 1.19.3 - MC 1.20.4)",
       "version_number": "1.2+1.20.1",
       "game_versions": [
         "1.19.3",
         "1.19.4",
         "1.20",
-        "1.20.1"
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
       ],
       "loaders": [
         "fabric"
@@ -24,6 +27,20 @@
           "filename": "sneakutils-1.2+1.20.1.jar",
           "primary": true,
           "size": 58582
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -47,7 +64,8 @@
           "primary": true,
           "size": 58553
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "9zFdKbtV",
@@ -67,7 +85,8 @@
           "primary": true,
           "size": 58748
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "yqGpgjXw",
@@ -88,7 +107,8 @@
           "primary": false,
           "size": 58771
         }
-      ]
+      ],
+      "dependencies": []
     }
   ]
 }

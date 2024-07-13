@@ -1,5 +1,5 @@
 {
-  "id": "acas",
+  "id": "p0NGhp8W",
   "slug": "acas",
   "name": "Arts, Crafts and Snacks",
   "description": "Adds edible Arts and Crafts materials.",
@@ -22,6 +22,20 @@
           "primary": true,
           "size": 51981
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -41,6 +55,20 @@
           "filename": "crayonsandglue-1.1.0.jar",
           "primary": true,
           "size": 33393
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "oU5qfeR6",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "3KmOcp6b",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

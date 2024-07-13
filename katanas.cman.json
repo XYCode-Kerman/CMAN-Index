@@ -1,5 +1,5 @@
 {
-  "id": "katanas",
+  "id": "tyOX4Ada",
   "slug": "katanas",
   "name": "Katanas",
   "description": "Adds various katanas to minecraft.",
@@ -34,7 +34,8 @@
           "primary": true,
           "size": 72761
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "uSI8mu5N",
@@ -66,7 +67,8 @@
           "primary": true,
           "size": 72636
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "1jThWyHV",
@@ -95,7 +97,8 @@
           "primary": true,
           "size": 47571
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "u2hlK2vj",
@@ -123,6 +126,20 @@
           "primary": true,
           "size": 17381
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "skhmuuRW",
+          "version_id": "seGoqanF",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "52uRwnTq",
+          "version_id": "ekKh4n3j",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -148,6 +165,14 @@
           "filename": "Katanas.jar",
           "primary": true,
           "size": 16627
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "TQ5na7TX",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -175,6 +200,26 @@
           "primary": false,
           "size": 16346
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "52uRwnTq",
+          "version_id": "Mti2Soz6",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "TQ5na7TX",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "skhmuuRW",
+          "version_id": "seGoqanF",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -199,6 +244,14 @@
           "filename": "Katanas-1.0.jar",
           "primary": true,
           "size": 10931
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "TQ5na7TX",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -225,7 +278,8 @@
           "primary": true,
           "size": 10689
         }
-      ]
+      ],
+      "dependencies": []
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "id": "sculk16",
+  "id": "u4GeJrjH",
   "slug": "sculk16",
   "name": "Sculk",
   "description": "Mod adds Sculk blocks to Minecraft",
@@ -22,7 +22,8 @@
           "primary": true,
           "size": 293861
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "QgVTu9bm",
@@ -42,7 +43,8 @@
           "primary": true,
           "size": 327993
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "1wrS1Ye3",
@@ -61,6 +63,26 @@
           "filename": "PKC-US-1.0-1.16.5.jar",
           "primary": true,
           "size": 136557
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "u4GeJrjH",
+          "version_id": "yRlpnPZ9",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "u4GeJrjH",
+          "version_id": "6uXEZz3c",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "u4GeJrjH",
+          "version_id": "rSo4BxAr",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -82,6 +104,14 @@
           "primary": true,
           "size": 304897
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "u4GeJrjH",
+          "version_id": "1wrS1Ye3",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -102,6 +132,14 @@
           "primary": true,
           "size": 304503
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "u4GeJrjH",
+          "version_id": "1wrS1Ye3",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -121,6 +159,14 @@
           "filename": "PKC-SCULK-1.0-1.16.5.jar",
           "primary": true,
           "size": 302189
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "u4GeJrjH",
+          "version_id": "1wrS1Ye3",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }

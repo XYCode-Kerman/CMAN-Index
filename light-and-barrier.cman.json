@@ -1,9 +1,30 @@
 {
-  "id": "light-and-barrier",
+  "id": "kdgR9dU1",
   "slug": "light-and-barrier",
   "name": "Light & Barrier",
   "description": "This is mod add Light Block craft, Barrier craft and Structure Void craft",
   "versions": [
+    {
+      "id": "OibO8foY",
+      "name": "Light & Barrier 1.0.0",
+      "version_number": "1.0.0",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "3bb83078ede1201069d066eb70f92ac507e601ad16db685aae69e094fedb5586afb6508501b847da8a0a94de90f5a6a01de9938266663f6d22327206141a5cdd",
+          "url": "https://cdn.modrinth.com/data/kdgR9dU1/versions/OibO8foY/light_and_barrier-1.0.0-neoforge-1.20.4.jar",
+          "filename": "light_and_barrier-1.0.0-neoforge-1.20.4.jar",
+          "primary": true,
+          "size": 179898
+        }
+      ],
+      "dependencies": []
+    },
     {
       "id": "3cDQxq9r",
       "name": "Light & Barrier 1.0.0",
@@ -22,6 +43,14 @@
           "primary": true,
           "size": 183128
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -32,7 +61,8 @@
         "1.20.1"
       ],
       "loaders": [
-        "forge"
+        "forge",
+        "neoforge"
       ],
       "files": [
         {
@@ -42,7 +72,8 @@
           "primary": true,
           "size": 179849
         }
-      ]
+      ],
+      "dependencies": []
     }
   ]
 }

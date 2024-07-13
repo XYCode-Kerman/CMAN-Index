@@ -1,5 +1,5 @@
 {
-  "id": "the-cardinal-sins",
+  "id": "sPhqHDEb",
   "slug": "the-cardinal-sins",
   "name": "The Cardinal Sins",
   "description": "Fight bosses based off of the Seven deadly sins and many more while using unique custom weapons with abilities!",
@@ -22,7 +22,8 @@
           "primary": true,
           "size": 9901529
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "T50cxegL",
@@ -41,6 +42,14 @@
           "filename": "cardinalsins_1.20.1_1.0.1.jar",
           "primary": true,
           "size": 9895944
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -62,6 +71,20 @@
           "primary": true,
           "size": 9895065
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5sy6g3kz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -81,6 +104,26 @@
           "filename": "cardinalsins_1.0.0.jar",
           "primary": true,
           "size": 9933058
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5sy6g3kz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "8BmcQJ2H",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "wGKYL7st",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }

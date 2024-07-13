@@ -1,5 +1,5 @@
 {
-  "id": "geode-plus",
+  "id": "3LAzTsNC",
   "slug": "geode-plus",
   "name": "Geode+",
   "description": "A Mod that add geodes to Minecraft Overworld, Nether and even The End!",
@@ -24,6 +24,14 @@
           "primary": true,
           "size": 675720
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -46,7 +54,8 @@
           "primary": true,
           "size": 700912
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "ZJB4iPDm",
@@ -68,6 +77,20 @@
           "primary": true,
           "size": 1401871
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "fnAffV0n",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -88,6 +111,14 @@
           "filename": "geodeplus-forge-1.2.4-1.20.1.jar",
           "primary": true,
           "size": 1556664
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "fnAffV0n",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -111,6 +142,14 @@
           "primary": true,
           "size": 1401205
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -131,7 +170,8 @@
           "primary": true,
           "size": 1554724
         }
-      ]
+      ],
+      "dependencies": []
     }
   ]
 }

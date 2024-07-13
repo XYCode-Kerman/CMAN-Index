@@ -1,9 +1,44 @@
 {
-  "id": "halflifemenu",
+  "id": "oTMKcnZa",
   "slug": "halflifemenu",
   "name": "Half-Life Menu",
   "description": "Changes the title screen to the pre-25th Half-Life title screen",
   "versions": [
+    {
+      "id": "WQsHXUQi",
+      "name": "Half-Life Menu 2.0",
+      "version_number": "2.0",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "358732bd26e76cd25496eca4c338e4c538fa1ee5ec3d1d25d6e8552381783107e3668a9a9093b1d6cfb8f8beb193666161f6862b3030e261d04031cfca050c7b",
+          "url": "https://cdn.modrinth.com/data/oTMKcnZa/versions/WQsHXUQi/halflifemenu-2.0.jar",
+          "filename": "halflifemenu-2.0.jar",
+          "primary": true,
+          "size": 780745
+        },
+        {
+          "sha512": "1713d3f55367dc860da69924e883b562d6f5bb153b21a736d5f90c0310f35594b9a63181a5ae2c68255531e9ba0366c6c9325907aabe15c74e2d606f58a87151",
+          "url": "https://cdn.modrinth.com/data/oTMKcnZa/versions/WQsHXUQi/halflifemenu-2.0-sources.jar",
+          "filename": "halflifemenu-2.0-sources.jar",
+          "primary": false,
+          "size": 778750
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
     {
       "id": "aRYpkqtO",
       "name": "Half-Life Menu 1.0",
@@ -28,6 +63,14 @@
           "filename": "halflifemenu-1.0-SNAPSHOT-sources.jar",
           "primary": false,
           "size": 563727
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

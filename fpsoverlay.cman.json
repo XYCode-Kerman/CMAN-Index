@@ -1,18 +1,60 @@
 {
-  "id": "fpsoverlay",
+  "id": "xhf0jJmq",
   "slug": "fpsoverlay",
   "name": "FPS Overlay",
   "description": "Shows your FPS on the screen",
   "versions": [
     {
+      "id": "u0guOMBX",
+      "name": "FPS Overlay 1.1 [1.20.6]",
+      "version_number": "1.1",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "bd3884ae0232ce5c6ba47b4275ff585a4084e51a916c82511950cbf4f34043ac4830b64d45037e11423a33575a1628d9cc01619094d3a9266bc119e3b968d07c",
+          "url": "https://cdn.modrinth.com/data/xhf0jJmq/versions/u0guOMBX/fpsoverlay-1.1.jar",
+          "filename": "fpsoverlay-1.1.jar",
+          "primary": true,
+          "size": 24336
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "codAaoxh",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
       "id": "uImF3WOi",
-      "name": "FPS Overlay 1.1",
+      "name": "FPS Overlay 1.1 [1.21]",
       "version_number": "1.1",
       "game_versions": [
         "1.21"
       ],
       "loaders": [
-        "fabric"
+        "fabric",
+        "quilt"
       ],
       "files": [
         {
@@ -21,6 +63,26 @@
           "filename": "fpsoverlay-1.1.jar",
           "primary": true,
           "size": 73771
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "codAaoxh",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -41,6 +103,14 @@
           "filename": "fpsoverlay-1.0.0.jar",
           "primary": true,
           "size": 25799
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

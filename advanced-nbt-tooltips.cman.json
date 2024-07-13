@@ -1,5 +1,5 @@
 {
-  "id": "advanced-nbt-tooltips",
+  "id": "5gKJeRsh",
   "slug": "advanced-nbt-tooltips",
   "name": "Advanced NBT Tooltips",
   "description": "A mod to enhance Item tooltips. Adds the ability to see tooltips of Items on armor stands or on the ground. Define your own tooltips with .json files in resource packs!",
@@ -29,6 +29,20 @@
           "primary": false,
           "size": 122045
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -55,6 +69,20 @@
           "filename": "advanced-nbt-tooltip-1.8.3-sources.jar",
           "primary": false,
           "size": 122063
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

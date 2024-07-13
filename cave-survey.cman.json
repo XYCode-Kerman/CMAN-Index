@@ -1,5 +1,5 @@
 {
-  "id": "cave-survey",
+  "id": "tjrUvbJd",
   "slug": "cave-survey",
   "name": "Cave Survey",
   "description": "Advanced cave maps based on 3D path-finding",
@@ -30,6 +30,20 @@
           "primary": false,
           "size": 70067
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "xGdtZczs",
+          "version_id": "WhphZXxD",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
       ]
     },
     {
@@ -57,6 +71,20 @@
           "primary": false,
           "size": 70347
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "xGdtZczs",
+          "version_id": "VraJ1qRh",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -83,6 +111,20 @@
           "filename": "cave-survey-client-1.0.0.jar",
           "primary": false,
           "size": 70788
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "qvrUMd9Z",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "xGdtZczs",
+          "version_id": "VraJ1qRh",
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
     }

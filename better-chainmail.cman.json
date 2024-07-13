@@ -1,13 +1,48 @@
 {
-  "id": "better-chainmail",
+  "id": "VGjY4pxG",
   "slug": "better-chainmail",
   "name": "Better Chainmail",
-  "description": "Adds a vanilla and balanced way to craft Chainmail armor",
+  "description": "Adds a vanilla and balanced way to craft Chainmail armor. With chainmail items",
   "versions": [
+    {
+      "id": "RAe3LGja",
+      "name": "Version 1.0",
+      "version_number": "1.0",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "5019bdb4ecbf80c6cbc2636831474250369572f8ef7818db218ddfe5c85399e0c09ec651fdf74c43cac04734f32c9f650e003575a15e4659b5506ca5ac9cdbaf",
+          "url": "https://cdn.modrinth.com/data/VGjY4pxG/versions/RAe3LGja/Better%20Chainmail%20%5B1.0%5D%20-%201.21.jar",
+          "filename": "Better Chainmail [1.0] - 1.21.jar",
+          "primary": true,
+          "size": 69078
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
     {
       "id": "GhKjELF7",
       "name": "Legacy Version 1.2",
-      "version_number": "1.2",
+      "version_number": "0.1.2",
       "game_versions": [
         "1.19.2"
       ],
@@ -21,6 +56,14 @@
           "filename": "Better Chainmail [1.2].jar",
           "primary": true,
           "size": 14824
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "id": "commandbridge",
+  "id": "wIuI4ru2",
   "slug": "commandbridge",
   "name": "CommandBridge",
   "description": "You can execute predefined commands across the Velocity network, enabling remote execution of server commands specified in a configuration file.",
@@ -15,7 +15,8 @@
         "1.20.3",
         "1.20.4",
         "1.20.5",
-        "1.20.6"
+        "1.20.6",
+        "1.21"
       ],
       "loaders": [
         "bukkit",
@@ -31,7 +32,8 @@
           "primary": true,
           "size": 341895
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "WPMgz7uI",
@@ -44,7 +46,8 @@
         "1.20.3",
         "1.20.4",
         "1.20.5",
-        "1.20.6"
+        "1.20.6",
+        "1.21"
       ],
       "loaders": [
         "velocity"
@@ -57,7 +60,8 @@
           "primary": true,
           "size": 2436224
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "v2TvVaMx",
@@ -82,6 +86,14 @@
           "filename": "CommandBridgeVelocity-1.2-SNAPSHOT.jar",
           "primary": true,
           "size": 49167
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "wIuI4ru2",
+          "version_id": "tACOWlfj",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -109,7 +121,8 @@
           "primary": true,
           "size": 22233
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "tACOWlfj",
@@ -139,6 +152,14 @@
           "primary": true,
           "size": 7077
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "wIuI4ru2",
+          "version_id": "v2TvVaMx",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -164,7 +185,8 @@
           "primary": true,
           "size": 15848
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "2voKtrur",
@@ -193,7 +215,8 @@
           "primary": true,
           "size": 7168
         }
-      ]
+      ],
+      "dependencies": []
     }
   ]
 }

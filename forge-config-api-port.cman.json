@@ -1,9 +1,99 @@
 {
-  "id": "forge-config-api-port",
+  "id": "ohNO6lps",
   "slug": "forge-config-api-port",
   "name": "Forge Config API Port",
   "description": "NeoForge's & Forge's config systems provided to other modding ecosystems. Designed for a multiloader architecture.",
   "versions": [
+    {
+      "id": "sg4l7fSX",
+      "name": "[NEOFORGE] [1.21] ForgeConfigAPIPort-v21.0.2",
+      "version_number": "v21.0.2-1.21-NeoForge",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "files": [
+        {
+          "sha512": "b2f668e3736909014ffc8936e92f3ae3310399d963f570ebdfdb1d7c23e681a365f225d3fb0d4d4f1afc7e840b56c877cd183301a00ffc08f6db1ac002562e6e",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/sg4l7fSX/ForgeConfigAPIPort-v21.0.2-1.21-NeoForge.jar",
+          "filename": "ForgeConfigAPIPort-v21.0.2-1.21-NeoForge.jar",
+          "primary": true,
+          "size": 101872
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "7HZj0EzA",
+      "name": "[FORGE] [1.21] ForgeConfigAPIPort-v21.0.2",
+      "version_number": "v21.0.2-1.21-Forge",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "24903b73f80f370ed3f075f2d27f5f06bf4c2aec22b599312f4083238da7e99a9bbf736ccdf98855356f24ac2e3cf601cd6716830335b4210ae38133d03eff6d",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/7HZj0EzA/ForgeConfigAPIPort-v21.0.2-1.21-Forge.jar",
+          "filename": "ForgeConfigAPIPort-v21.0.2-1.21-Forge.jar",
+          "primary": true,
+          "size": 285004
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "id": "YsY7k4Pu",
+      "name": "[FABRIC] [1.21] ForgeConfigAPIPort-v21.0.2",
+      "version_number": "v21.0.2-1.21-Fabric",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "files": [
+        {
+          "sha512": "cac67d5b1f762ab6c62eefdc716bee39ccfbb75850786441638c66dee3eb465a2598d2df9480624e01f5ac8cf79f6d0c1c21e1efb739629f04363fabe3d516cd",
+          "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/YsY7k4Pu/ForgeConfigAPIPort-v21.0.2-1.21-Fabric.jar",
+          "filename": "ForgeConfigAPIPort-v21.0.2-1.21-Fabric.jar",
+          "primary": true,
+          "size": 567242
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
     {
       "id": "2z1n7Pal",
       "name": "[NEOFORGE] [1.21] ForgeConfigAPIPort-v21.0.1",
@@ -21,6 +111,14 @@
           "filename": "ForgeConfigAPIPort-v21.0.1-1.21-NeoForge.jar",
           "primary": true,
           "size": 100195
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -42,6 +140,14 @@
           "primary": true,
           "size": 256985
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -61,6 +167,20 @@
           "filename": "ForgeConfigAPIPort-v21.0.1-1.21-Fabric.jar",
           "primary": true,
           "size": 575904
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -82,6 +202,14 @@
           "primary": true,
           "size": 100128
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -101,6 +229,20 @@
           "filename": "ForgeConfigAPIPort-v21.0.0-1.21-Fabric.jar",
           "primary": true,
           "size": 430289
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -122,6 +264,14 @@
           "primary": true,
           "size": 100468
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -141,6 +291,14 @@
           "filename": "ForgeConfigAPIPort-v20.6.1-1.20.6-Forge.jar",
           "primary": true,
           "size": 257250
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -162,6 +320,20 @@
           "primary": true,
           "size": 430646
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -181,6 +353,14 @@
           "filename": "ForgeConfigAPIPort-v20.6.0-1.20.6-Forge.jar",
           "primary": true,
           "size": 257001
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -202,6 +382,14 @@
           "primary": true,
           "size": 100214
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -221,6 +409,20 @@
           "filename": "ForgeConfigAPIPort-v20.6.0-1.20.6-Fabric.jar",
           "primary": true,
           "size": 429815
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -242,6 +444,14 @@
           "primary": true,
           "size": 95920
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -261,6 +471,14 @@
           "filename": "ForgeConfigAPIPort-v20.4.3-1.20.4-Forge.jar",
           "primary": true,
           "size": 256812
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -282,6 +500,20 @@
           "primary": true,
           "size": 444627
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -301,6 +533,14 @@
           "filename": "ForgeConfigAPIPort-v20.2.6-1.20.2-Forge.jar",
           "primary": true,
           "size": 251856
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -322,6 +562,14 @@
           "primary": true,
           "size": 96141
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -341,6 +589,20 @@
           "filename": "ForgeConfigAPIPort-v20.2.6-1.20.2-Fabric.jar",
           "primary": true,
           "size": 444847
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -362,7 +624,8 @@
           "primary": true,
           "size": 95882
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "P3GfPe5a",
@@ -381,6 +644,14 @@
           "filename": "ForgeConfigAPIPort-v20.4.2-1.20.4-Forge.jar",
           "primary": true,
           "size": 251599
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -402,6 +673,20 @@
           "primary": true,
           "size": 444601
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -422,7 +707,8 @@
           "primary": true,
           "size": 96106
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "WjsrL3PB",
@@ -441,6 +727,14 @@
           "filename": "ForgeConfigAPIPort-v20.2.5-1.20.2-Forge.jar",
           "primary": true,
           "size": 251822
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -462,6 +756,20 @@
           "primary": true,
           "size": 444823
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -482,7 +790,8 @@
           "primary": true,
           "size": 99204
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "d4o2DIW4",
@@ -501,6 +810,14 @@
           "filename": "ForgeConfigAPIPort-v20.2.4-1.20.2-Forge.jar",
           "primary": true,
           "size": 254919
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -522,6 +839,20 @@
           "primary": true,
           "size": 444768
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -542,7 +873,8 @@
           "primary": true,
           "size": 99002
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "hSymtRZz",
@@ -561,6 +893,14 @@
           "filename": "ForgeConfigAPIPort-v20.4.1-1.20.4-Forge.jar",
           "primary": true,
           "size": 254713
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -582,6 +922,20 @@
           "primary": true,
           "size": 444562
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -601,6 +955,20 @@
           "filename": "ForgeConfigAPIPort-v20.4.0-1.20.4-Fabric.jar",
           "primary": true,
           "size": 463043
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -622,6 +990,20 @@
           "primary": true,
           "size": 458223
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -641,6 +1023,20 @@
           "filename": "ForgeConfigAPIPort-v9.1.1-1.20.2-Fabric.jar",
           "primary": true,
           "size": 456880
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -662,6 +1058,20 @@
           "primary": true,
           "size": 456736
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -681,6 +1091,20 @@
           "filename": "ForgeConfigAPIPort-v9.0.0-1.20.2-Fabric.jar",
           "primary": true,
           "size": 396911
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -702,6 +1126,20 @@
           "primary": true,
           "size": 397198
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": "nwy63zfI",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -721,6 +1159,20 @@
           "filename": "ForgeConfigAPIPort-v7.0.0-1.20-Fabric.jar",
           "primary": true,
           "size": 397196
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": "UOV19nXG",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -742,6 +1194,20 @@
           "primary": true,
           "size": 397195
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": "UOV19nXG",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -762,6 +1228,14 @@
           "primary": true,
           "size": 397195
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -781,6 +1255,20 @@
           "filename": "ForgeConfigAPIPort-v7.0.0-1.20-Fabric.jar",
           "primary": true,
           "size": 397196
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "5WeWGLoJ",
+          "version_id": "UOV19nXG",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -809,6 +1297,20 @@
           "primary": false,
           "size": 99898
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -835,6 +1337,20 @@
           "filename": "ForgeConfigAPIPort-v5.0.11-1.19.3-Fabric-sources.jar",
           "primary": false,
           "size": 102077
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -863,6 +1379,20 @@
           "primary": false,
           "size": 99811
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -890,6 +1420,20 @@
           "primary": false,
           "size": 99607
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -916,6 +1460,20 @@
           "filename": "ForgeConfigAPIPort-v5.0.10-1.19.3-Fabric-sources.jar",
           "primary": false,
           "size": 102027
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -947,6 +1505,20 @@
           "primary": false,
           "size": 128996
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -973,6 +1545,20 @@
           "filename": "ForgeConfigAPIPort-v5.0.9-1.19.3-Fabric-sources.jar",
           "primary": false,
           "size": 100837
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -1001,6 +1587,20 @@
           "primary": false,
           "size": 100005
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -1028,6 +1628,20 @@
           "primary": false,
           "size": 96825
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -1054,6 +1668,20 @@
           "filename": "ForgeConfigAPIPort-v5.0.5-1.19.3-Fabric-sources.jar",
           "primary": false,
           "size": 96797
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -1085,6 +1713,20 @@
           "primary": false,
           "size": 127696
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -1112,6 +1754,20 @@
           "primary": false,
           "size": 95042
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -1131,6 +1787,20 @@
           "filename": "ForgeConfigAPIPort-v5.0.3-1.19.3-Fabric.jar",
           "primary": true,
           "size": 399688
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -1152,6 +1822,20 @@
           "primary": true,
           "size": 399655
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -1172,6 +1856,20 @@
           "primary": true,
           "size": 386592
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "PbVeub96",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "id0aLmxO",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -1191,6 +1889,14 @@
           "filename": "ForgeConfigAPIPort-v5.0.0-1.19.3-Fabric.jar",
           "primary": true,
           "size": 386525
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "PbVeub96",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -1222,6 +1928,20 @@
           "primary": false,
           "size": 124790
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -1251,6 +1971,20 @@
           "filename": "ForgeConfigAPIPort-v4.2.7-1.19.2-Fabric-sources.jar",
           "primary": false,
           "size": 124743
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -1282,6 +2016,20 @@
           "primary": false,
           "size": 114211
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -1311,6 +2059,20 @@
           "filename": "ForgeConfigAPIPort-v4.2.5-1.19.2-Fabric-sources.jar",
           "primary": false,
           "size": 114184
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -1342,6 +2104,20 @@
           "primary": false,
           "size": 109040
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -1371,6 +2147,20 @@
           "filename": "ForgeConfigAPIPort-v4.2.3-1.19.2-Fabric-sources.jar",
           "primary": false,
           "size": 102303
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -1402,6 +2192,20 @@
           "primary": false,
           "size": 102269
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -1430,6 +2234,20 @@
           "filename": "ForgeConfigAPIPort-v4.2.0-1.19.2-Fabric-sources.jar",
           "primary": false,
           "size": 102821
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "8TOgNwQL",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "RAzwgZkP",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -1461,6 +2279,20 @@
           "primary": false,
           "size": 74937
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -1489,6 +2321,20 @@
           "filename": "ForgeConfigAPIPort-v2.0.5-1.17.1-Fabric-sources.jar",
           "primary": false,
           "size": 74877
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "31ES0yWr",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "7kh2ofyR",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -1523,6 +2369,20 @@
           "primary": false,
           "size": 74662
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "IQ3UGSc2",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "3gwnUSKz",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -1551,6 +2411,20 @@
           "primary": false,
           "size": 74775
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "7kh2ofyR",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
       ]
     },
     {
@@ -1578,6 +2452,20 @@
           "primary": false,
           "size": 102715
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "3fY6NddT",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "2Ys0a7JE",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -1604,6 +2492,20 @@
           "filename": "ForgeConfigAPIPort-v3.2.3-1.18.2-Fabric-sources.jar",
           "primary": false,
           "size": 74833
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
     },
@@ -1637,6 +2539,20 @@
           "primary": false,
           "size": 74543
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "3gwnUSKz",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -1664,6 +2580,20 @@
           "filename": "ForgeConfigAPIPort-v2.0.3-1.17.1-Fabric-sources.jar",
           "primary": false,
           "size": 74759
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "7kh2ofyR",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
     },
@@ -1697,6 +2627,20 @@
           "primary": false,
           "size": 74507
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "3gwnUSKz",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -1723,6 +2667,20 @@
           "filename": "ForgeConfigAPIPort-v3.2.2-1.18.2-Fabric-sources.jar",
           "primary": false,
           "size": 78049
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -1751,6 +2709,20 @@
           "primary": false,
           "size": 102701
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -1777,6 +2749,20 @@
           "filename": "ForgeConfigAPIPort-v3.2.1-1.18.2-Fabric-sources.jar",
           "primary": false,
           "size": 74785
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "nVxObSbX",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "embedded"
         }
       ]
     },
@@ -1805,6 +2791,20 @@
           "primary": false,
           "size": 102646
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -1831,6 +2831,20 @@
           "filename": "ForgeConfigAPIPort-v4.0.2-1.19-Fabric-sources.jar",
           "primary": false,
           "size": 74651
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -1859,6 +2873,20 @@
           "primary": false,
           "size": 75138
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -1885,6 +2913,20 @@
           "filename": "ForgeConfigAPIPort-v4.0.0-1.19-Fabric-sources.jar",
           "primary": false,
           "size": 74529
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "3KmOcp6b",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "oU5qfeR6",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -1913,7 +2955,8 @@
           "primary": false,
           "size": 329888
         }
-      ]
+      ],
+      "dependencies": []
     }
   ]
 }

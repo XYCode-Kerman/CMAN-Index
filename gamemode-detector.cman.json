@@ -1,5 +1,5 @@
 {
-  "id": "gamemode-detector",
+  "id": "o5L9gsOU",
   "slug": "gamemode-detector",
   "name": "Gamemode Detector",
   "description": "This notifies you when people switch their gamemode!",
@@ -23,6 +23,20 @@
           "primary": true,
           "size": 208776
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "eTCL1uh8",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -42,6 +56,14 @@
           "filename": "GamemodeDetector-1.2.jar",
           "primary": true,
           "size": 208697
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "RTFDnTKf",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -67,6 +89,14 @@
           "primary": true,
           "size": 27043
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "lMqXEzUw",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -87,7 +117,8 @@
           "primary": true,
           "size": 9488
         }
-      ]
+      ],
+      "dependencies": []
     }
   ]
 }

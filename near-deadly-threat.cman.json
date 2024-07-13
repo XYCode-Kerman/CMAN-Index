@@ -1,5 +1,5 @@
 {
-  "id": "near-deadly-threat",
+  "id": "nzgbi2L3",
   "slug": "near-deadly-threat",
   "name": "Near Deadly Threat",
   "description": "Adds a few new mobs and biomes (VERY EARLY, BIOMES DON'T WORK YET), I'm not sure if the mobs in this mod spawn naturally, I haven't worked on this specific version in a while. Working on 0.3",
@@ -24,6 +24,20 @@
           "primary": true,
           "size": 1160346
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "kkmrDlKT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -45,6 +59,20 @@
           "filename": "ndt-0.2.1-1.20.4.jar",
           "primary": true,
           "size": 1162914
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "kkmrDlKT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -68,6 +96,20 @@
           "primary": true,
           "size": 1180430
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "kkmrDlKT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "nU0bVIaL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -87,6 +129,14 @@
           "filename": "ndt-0.1-1.20.1.jar",
           "primary": true,
           "size": 242469
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "kkmrDlKT",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

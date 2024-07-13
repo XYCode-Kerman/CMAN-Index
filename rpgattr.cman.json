@@ -1,5 +1,5 @@
 {
-  "id": "rpgattr",
+  "id": "bPYg09dC",
   "slug": "rpgattr",
   "name": "RPGAttr",
   "description": "Adds compatibility to Spell Engine/Jewelry item configs for many modded attributes",
@@ -23,7 +23,8 @@
           "primary": true,
           "size": 37889
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "51FjCQPd",
@@ -44,7 +45,8 @@
           "primary": true,
           "size": 37831
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "CRWYrl8M",
@@ -63,6 +65,14 @@
           "filename": "rpgattr-2.0.0.jar",
           "primary": true,
           "size": 32878
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XvoWJaA2",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -84,6 +94,20 @@
           "primary": true,
           "size": 42729
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XvoWJaA2",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "sNJAIjUm",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -104,6 +128,20 @@
           "primary": true,
           "size": 43685
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "sNJAIjUm",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "XvoWJaA2",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -123,6 +161,20 @@
           "filename": "rpgattr-1.0.0.jar",
           "primary": true,
           "size": 42628
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "XvoWJaA2",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "sNJAIjUm",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }

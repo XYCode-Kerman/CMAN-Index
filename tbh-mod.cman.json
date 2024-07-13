@@ -1,5 +1,5 @@
 {
-  "id": "tbh-mod",
+  "id": "TPbGyYhD",
   "slug": "tbh-mod",
   "name": "Tbh Mod",
   "description": "adds a tameable tbh creature *yippee*",
@@ -22,7 +22,8 @@
           "primary": true,
           "size": 146872
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "aaEJJLDm",
@@ -42,7 +43,8 @@
           "primary": true,
           "size": 151243
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "PWyrPSyi",
@@ -61,6 +63,20 @@
           "filename": "TbhMod_v1.1.1b_1.19.2.jar",
           "primary": false,
           "size": 97811
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -81,6 +97,20 @@
           "filename": "TbhMod-1.1.0b.jar",
           "primary": true,
           "size": 97962
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": "gSoPJyVn",
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }

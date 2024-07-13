@@ -1,5 +1,5 @@
 {
-  "id": "compatemon",
+  "id": "Yje0iO7W",
   "slug": "compatemon",
   "name": "Compatemon",
   "description": "Do you play Cobblemon? Do you also play with other mods? Then this is the mod for you!\n\nCompatemon is the one-stop-shop for all your compatibility needs, and allows for a more integrated minecraft experience with Cobblemon!",
@@ -36,6 +36,14 @@
           "primary": false,
           "size": 99025
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -70,7 +78,8 @@
           "primary": false,
           "size": 72702
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "aKQa8apf",
@@ -103,6 +112,20 @@
           "filename": "compatemon-fabric-1.0.0-sources.jar",
           "primary": false,
           "size": 72716
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "t5W7Jfwy",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -137,6 +160,20 @@
           "filename": "compatemon-forge-1.0.0-sources.jar",
           "primary": false,
           "size": 99052
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "t5W7Jfwy",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "MdwFAVRL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

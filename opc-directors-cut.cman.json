@@ -1,5 +1,5 @@
 {
-  "id": "opc-directors-cut",
+  "id": "oLPaySSb",
   "slug": "opc-directors-cut",
   "name": "Offline Player Cache: Directors Cut",
   "description": "An API Mod to allow caching player data on the server while the player is offline.\n\nThis means that mods can use this API to access offline player's data.",
@@ -22,6 +22,14 @@
           "filename": "offline-player-cache-1.0.0+1.20.1-forge.jar",
           "primary": true,
           "size": 79974
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "ordsPcFz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -51,6 +59,20 @@
           "primary": false,
           "size": 18779
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -79,6 +101,20 @@
           "primary": false,
           "size": 18490
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Ha28R6CL",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -99,7 +135,8 @@
           "primary": true,
           "size": 33067
         }
-      ]
+      ],
+      "dependencies": []
     }
   ]
 }

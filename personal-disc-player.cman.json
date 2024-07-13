@@ -1,5 +1,5 @@
 {
-  "id": "personal-disc-player",
+  "id": "1P6MyJ48",
   "slug": "personal-disc-player",
   "name": "Personal Disc Player",
   "description": "A personal disc player for your convenience",
@@ -22,7 +22,8 @@
           "primary": true,
           "size": 44152
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "J5JGqRIh",
@@ -42,7 +43,8 @@
           "primary": true,
           "size": 44625
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "V623WENx",
@@ -61,6 +63,20 @@
           "filename": "personalplayer-1.21-1.1.2.jar",
           "primary": true,
           "size": 41924
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "SHJeFf7t",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -83,6 +99,20 @@
           "primary": true,
           "size": 40347
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "SHJeFf7t",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -103,6 +133,20 @@
           "filename": "personalplayer-1.20.6-1.1.1.jar",
           "primary": true,
           "size": 39964
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "SHJeFf7t",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -127,6 +171,14 @@
           "filename": "personalplayer-1.20.x-1.0.0.jar",
           "primary": true,
           "size": 21330
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

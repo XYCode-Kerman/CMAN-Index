@@ -1,9 +1,30 @@
 {
-  "id": "igneos-combat-revamp",
+  "id": "4hJ2iSch",
   "slug": "igneos-combat-revamp",
   "name": "Igneo's Combat Revamp",
   "description": "A complete overhaul of the vanilla enchantment system and (eventually) armor system! This will change the boring stat increase system into a skillfull and interesting ability system!",
   "versions": [
+    {
+      "id": "t67EH17Z",
+      "name": "Igneo's Combat Revamp 0.1.20.1",
+      "version_number": "0.1.20.1",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "files": [
+        {
+          "sha512": "00fce3e400c752a433654bdc53fc40221d48211157eb88809848534849eee2ddab1a098b07feac5977e6b63e4ca46afcf4d9e9418a82036bc569ec222f0f6c60",
+          "url": "https://cdn.modrinth.com/data/4hJ2iSch/versions/t67EH17Z/icv-0.1.20.1.jar",
+          "filename": "icv-0.1.20.1.jar",
+          "primary": true,
+          "size": 856979
+        }
+      ],
+      "dependencies": []
+    },
     {
       "id": "hjPAHxHq",
       "name": "Igneo's Combat Revamp 0.1.20",
@@ -22,7 +43,8 @@
           "primary": true,
           "size": 862320
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "AXv1H7Ff",
@@ -41,6 +63,20 @@
           "filename": "icv-0.1.14.jar",
           "primary": true,
           "size": 718912
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "5sy6g3kz",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "Fsvx2bdR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }

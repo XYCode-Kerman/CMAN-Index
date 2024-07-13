@@ -1,9 +1,99 @@
 {
-  "id": "ive-spoken",
+  "id": "OidSa416",
   "slug": "ive-spoken",
   "name": "I've Spoken",
   "description": "Displays RPG-like dialogs above players' names. I've spoken.",
   "versions": [
+    {
+      "id": "vNVnAgca",
+      "name": "I've Spoken 2.2.0 for Fabric 1.20.x",
+      "version_number": "2.2.0-fabric1.20",
+      "game_versions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "a442f4519493933cc7a57c50a310305687df776ac599988ad4bdb51ba16350281de819a1ebce873104b7466ff7ccd530d663f71ab60dfabde96a44a0700d06bf",
+          "url": "https://cdn.modrinth.com/data/OidSa416/versions/vNVnAgca/ivespoken-2.2.0-fabric1.20.jar",
+          "filename": "ivespoken-2.2.0-fabric1.20.jar",
+          "primary": true,
+          "size": 29338
+        },
+        {
+          "sha512": "5435a5f79cd55f641390c5f1908655db62b90c9c230fe80526b0f1e647da2e14a4bb2f67ba04bba34eccc6e21798164f9dfbbb6a2eda21b0e33d8279b6e6eb57",
+          "url": "https://cdn.modrinth.com/data/OidSa416/versions/vNVnAgca/ivespoken-2.2.0-fabric1.20-sources.jar",
+          "filename": "ivespoken-2.2.0-fabric1.20-sources.jar",
+          "primary": false,
+          "size": 11711
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "HQpcCFZg",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "id": "qz0HwgHY",
+      "name": "I've Spoken 2.2.0 for Fabric 1.21+",
+      "version_number": "2.2.0-fabric1.21",
+      "game_versions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "files": [
+        {
+          "sha512": "eb8e26a163dd92c20953c20f00a11351efaab1ff944c20818e767d01c739783c0b207bd3dad11c256cf4fd1a7772d6d42c14a6e4fb480182b8398a854dbafde2",
+          "url": "https://cdn.modrinth.com/data/OidSa416/versions/qz0HwgHY/ivespoken-2.2.0-fabric1.21.jar",
+          "filename": "ivespoken-2.2.0-fabric1.21.jar",
+          "primary": true,
+          "size": 29362
+        },
+        {
+          "sha512": "21433cbc332c71b5bd329e64e4ea801e89313879007f338cdd2857f5590789955eac8bd53bcf0692435a6e1d981d0053cef5fc074e1fa53cda5254b890294e70",
+          "url": "https://cdn.modrinth.com/data/OidSa416/versions/qz0HwgHY/ivespoken-2.2.0-fabric1.21-sources.jar",
+          "filename": "ivespoken-2.2.0-fabric1.21-sources.jar",
+          "primary": false,
+          "size": 11741
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "HQpcCFZg",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
     {
       "id": "N1k1TgUo",
       "name": "I've Spoken 2.1.0 for Fabric 1.20.x",
@@ -33,6 +123,14 @@
           "filename": "ivespoken-2.1.0-fabric1.20-sources.jar",
           "primary": false,
           "size": 11715
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -66,6 +164,20 @@
           "primary": false,
           "size": 11378
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -98,6 +210,14 @@
           "primary": false,
           "size": 12365
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -128,6 +248,20 @@
           "primary": false,
           "size": 12198
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -150,7 +284,8 @@
           "primary": true,
           "size": 41727
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "EfTIazh1",
@@ -171,7 +306,8 @@
           "primary": true,
           "size": 41748
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "8a0kqxbe",
@@ -192,7 +328,8 @@
           "primary": true,
           "size": 41635
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "OmV3KHNY",
@@ -215,7 +352,8 @@
           "primary": true,
           "size": 41480
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "YKFP1SMB",
@@ -238,7 +376,8 @@
           "primary": true,
           "size": 41541
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "OrHl3kLC",
@@ -259,6 +398,14 @@
           "filename": "ive-spoken-1.20-1.0.0.jar",
           "primary": true,
           "size": 41710
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -281,6 +428,14 @@
           "primary": true,
           "size": 41731
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "uIYkhRbX",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -301,6 +456,14 @@
           "filename": "ive-spoken-1.19.3-1.0.0.jar",
           "primary": true,
           "size": 41619
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "jyKnHEDY",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -325,6 +488,14 @@
           "primary": true,
           "size": 41467
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "hfsU4hXq",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -347,6 +518,14 @@
           "filename": "ive-spoken-1.18-1.0.0.jar",
           "primary": true,
           "size": 41522
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "95QMsRyb",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

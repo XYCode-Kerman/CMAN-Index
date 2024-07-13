@@ -1,5 +1,5 @@
 {
-  "id": "packet-loggers",
+  "id": "BUArYvHT",
   "slug": "packet-loggers",
   "name": "Packet Logger",
   "description": "Records all packets sent and recieved while playing and saves it to a file on disconnect!",
@@ -36,6 +36,20 @@
           "primary": false,
           "size": 17507
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -62,6 +76,20 @@
           "filename": "packet-logger-1.0.0.jar",
           "primary": true,
           "size": 21206
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "mOgUt4GM",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "9s6osm5g",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "id": "protection-balancer",
+  "id": "Udc4ShgP",
   "slug": "protection-balancer",
   "name": "Protection Balancer",
   "description": "Allows to change the armor & protection mitigation formulas",
@@ -36,6 +36,20 @@
           "primary": true,
           "size": 10372
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P1Kv5EAO",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -69,6 +83,20 @@
           "filename": "ProtectionBalancer-FABRIC-1.0.0.jar",
           "primary": true,
           "size": 9883
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P1Kv5EAO",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

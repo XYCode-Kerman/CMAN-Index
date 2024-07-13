@@ -1,5 +1,5 @@
 {
-  "id": "mvs-moogs-voyager-structure-config-pack",
+  "id": "kV5gBvz6",
   "slug": "mvs-moogs-voyager-structure-config-pack",
   "name": "MVS - Moog's Voyager Structure (config pack)",
   "description": "This is a template datapack for the MVS mod",
@@ -24,7 +24,8 @@
           "primary": false,
           "size": 1091377
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "TF4zIaTS",
@@ -51,7 +52,8 @@
           "primary": true,
           "size": 199828
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "SICkRRTj",
@@ -73,6 +75,14 @@
           "filename": "MVS-template-1.19.zip",
           "primary": true,
           "size": 137009
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "OQAgZMH1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -97,6 +107,14 @@
           "primary": true,
           "size": 603964
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "OQAgZMH1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -116,6 +134,14 @@
           "filename": "MVS-template-1.18.2.zip",
           "primary": true,
           "size": 586215
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "OQAgZMH1",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     }

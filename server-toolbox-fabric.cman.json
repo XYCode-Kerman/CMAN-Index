@@ -1,5 +1,5 @@
 {
-  "id": "server-toolbox-fabric",
+  "id": "79H3yRqB",
   "slug": "server-toolbox-fabric",
   "name": "Server Toolbox",
   "description": "🧰 A server-side mod with complect of customizable commands and features to make your server neat. Inspired by Essentials, Essential Commands, plugins and etc.",
@@ -23,6 +23,20 @@
           "primary": true,
           "size": 8796876
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "aTaCgKLW",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -43,6 +57,20 @@
           "filename": "server-toolbox-1.0.0+1.20.x.jar",
           "primary": true,
           "size": 8595157
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "aTaCgKLW",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "P7dR8mSH",
+          "version_id": "XheZ9iGK",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }

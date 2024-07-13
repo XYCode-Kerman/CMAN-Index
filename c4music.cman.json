@@ -1,5 +1,5 @@
 {
-  "id": "c4music",
+  "id": "QSKCFxWX",
   "slug": "c4music",
   "name": "C4Music",
   "description": "Complete Minecraft's soundtrack with the nostalgic, lost music by C418!",
@@ -33,6 +33,14 @@
           "primary": true,
           "size": 18001503
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "eNF4Bfla",
+          "version_id": "lF4Jawzi",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -62,7 +70,8 @@
           "primary": true,
           "size": 18001940
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "4BZ4R4xR",
@@ -96,6 +105,20 @@
           "primary": true,
           "size": 6879357
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "NtPNF0D7",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "QSKCFxWX",
+          "version_id": "ZxxqNX0O",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -127,6 +150,32 @@
           "filename": "C4Music_v3.0.zip",
           "primary": true,
           "size": 18000311
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "QSKCFxWX",
+          "version_id": "4BZ4R4xR",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "T9qD5PoR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "project_id": "QSKCFxWX",
+          "version_id": "COVAAWtf",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "project_id": "BSVvfllR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
         }
       ]
     },
@@ -162,6 +211,14 @@
           "primary": true,
           "size": 7637347
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "QSKCFxWX",
+          "version_id": "JXBrydwl",
+          "file_name": null,
+          "dependency_type": "required"
+        }
       ]
     },
     {
@@ -182,6 +239,14 @@
           "filename": "C4TrailsNTales.zip",
           "primary": true,
           "size": 67111
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "QSKCFxWX",
+          "version_id": "JXBrydwl",
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     },
@@ -210,6 +275,14 @@
           "primary": false,
           "size": 1080
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "eNF4Bfla",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -237,7 +310,8 @@
           "primary": true,
           "size": 1080
         }
-      ]
+      ],
+      "dependencies": []
     },
     {
       "id": "Xt14PqCr",
@@ -264,6 +338,14 @@
           "primary": false,
           "size": 1080
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "CWBlLg2t",
+          "version_id": "d7xT5EqH",
+          "file_name": null,
+          "dependency_type": "embedded"
+        }
       ]
     },
     {
@@ -287,6 +369,32 @@
           "filename": "UNZIPME.zip",
           "primary": false,
           "size": 1080
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "Aj1EfTaU",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
+        {
+          "project_id": "BSVvfllR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
+        {
+          "project_id": "T9qD5PoR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "incompatible"
+        },
+        {
+          "project_id": "eNF4Bfla",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "incompatible"
         }
       ]
     }

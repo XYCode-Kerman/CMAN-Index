@@ -1,5 +1,5 @@
 {
-  "id": "cogs-and-constructs-mod",
+  "id": "GiUNzlvh",
   "slug": "cogs-and-constructs-mod",
   "name": "Cogs and Constructs Mod",
   "description": "Modifies the game to give a more dnd feel by removing xp cost from enchanting and adding origins and classes to the game.",
@@ -22,6 +22,26 @@
           "primary": true,
           "size": 60497
         }
+      ],
+      "dependencies": [
+        {
+          "project_id": "3BeIrqZR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "t5W7Jfwy",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qQpWCN75",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "optional"
+        }
       ]
     },
     {
@@ -41,6 +61,26 @@
           "filename": "xpmodifier-0.1.0.jar",
           "primary": true,
           "size": 66800
+        }
+      ],
+      "dependencies": [
+        {
+          "project_id": "t5W7Jfwy",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "qQpWCN75",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "project_id": "3BeIrqZR",
+          "version_id": null,
+          "file_name": null,
+          "dependency_type": "required"
         }
       ]
     }
